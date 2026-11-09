@@ -4,7 +4,7 @@ import urllib.parse
 import pytest
 
 from pipeline.config import Query
-from pipeline.ctgov import (
+from pipeline.fetch.ctgov import (
     Client,
     FetchError,
     FetchIntegrityError,

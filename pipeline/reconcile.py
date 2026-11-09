@@ -18,15 +18,15 @@ cannot be explained by newer registry data).
 from __future__ import annotations
 
 import argparse
-import datetime as dt
 import gzip
 import json
 import os
 import sys
 from pathlib import Path
 
+from .clock import now_iso
 from .config import WATCHLIST_PATH, load_watchlist
-from .ctgov import Client, FetchError, web_url
+from .fetch.ctgov import Client, FetchError, web_url
 from .run import DATA_DIR
 from .writers import write_json
 
@@ -35,7 +35,7 @@ def _read_manifest(data_dir: Path, date: str | None) -> dict:
     snap_dir = data_dir / "snapshots"
     dates = sorted(p.name[:10] for p in snap_dir.glob("????-??-??.json.gz"))
     if not dates:
-        raise SystemExit("no snapshots yet; run `python -m pipeline.run` first")
+        raise SystemExit("no snapshots yet; run `python -m pipeline.run daily` first")
     date = date or dates[-1]
     with gzip.open(snap_dir / f"{date}.json.gz", "rt", encoding="utf-8") as fh:
         return json.load(fh)
@@ -103,7 +103,7 @@ def reconcile(
     else:
         verdict = f"{len(mismatches)} count(s) differ with no registry refresh since the snapshot: investigate"
     return {
-        "checked_at": dt.datetime.now(dt.UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "checked_at": now_iso(),
         "snapshot_date": manifest["snapshot_date"],
         "snapshot_data_timestamp": snap_ts,
         "registry_data_timestamp_now": now_ts,

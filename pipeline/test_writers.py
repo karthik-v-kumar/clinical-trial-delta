@@ -6,10 +6,13 @@ from pipeline.config import load_watchlist
 from pipeline.diff import diff_snapshots
 from pipeline.normalize import normalize_study
 from pipeline.writers import (
+    EVENT_FIELDS,
+    HISTORY_FIELDS,
     ROW_FIELDS,
+    TRIAL_DERIVED,
     TRIAL_EXCLUDED,
     TRIAL_FIELDS,
-    UnpublishedFieldError,
+    TRIAL_FILE_KEYS,
     phase_bucket,
     publish,
     sponsor_matcher,
@@ -33,10 +36,18 @@ def test_every_normalized_field_is_allowlisted_or_excluded(raw_study):
     assert accounted - produced == set(), "allowlist names a field the normalizer no longer produces"
 
 
-def test_publish_rejects_unknown_keys():
-    with pytest.raises(UnpublishedFieldError, match="surprise"):
-        publish({"a": 1, "surprise": 2}, allowed=("a",))
-    assert publish({"a": 1, "b": 2}, allowed=("a",), excluded=("b",)) == {"a": 1}
+def test_every_differ_event_key_is_allowlisted(day1, day2):
+    """Same guard for change events: a key the differ adds must reach changes.json."""
+    produced = {k for e in diff_snapshots(day1, day2).events for k in e}
+    assert produced <= set(EVENT_FIELDS), f"add {produced - set(EVENT_FIELDS)} to EVENT_FIELDS in writers.py"
+    history_keys = {k for e in diff_snapshots(day1, day2).events for k in e} - {"id", "nct_id", "brief_title"}
+    assert history_keys - {"collection"} <= set(HISTORY_FIELDS)
+
+
+def test_publish_copies_only_the_allowlist_in_order():
+    """As in financial-research-hub: anything not allowlisted is dropped, silently."""
+    assert publish({"b": 2, "internal": 3, "a": 1}, allowed=("a", "b", "missing")) == {"a": 1, "b": 2}
+    assert list(publish({"b": 2, "a": 1}, allowed=("a", "b"))) == ["a", "b"]
 
 
 def test_phase_bucket():
@@ -89,6 +100,8 @@ def test_trial_files(tmp_path, day1, day2):
     assert t1["sponsors_of_note"] == ["Novo Nordisk"]
     assert t1["in_watchlist"] is True and len(t1["history"]) == 1
     assert list(t1)[:2] == ["schema_version", "nct_id"]
+    assert set(TRIAL_DERIVED) - {"left_watchlist_date"} <= set(t1)  # nothing the writer built was dropped
+    assert set(t1) <= set(TRIAL_FILE_KEYS)
     # A trial that stopped matching keeps its page, marked as no longer tracked.
     gone = read(tmp_path / "trials" / "NCT90000006.json")
     assert gone["in_watchlist"] is False and gone["left_watchlist_date"] == "2026-01-06"

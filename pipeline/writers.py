@@ -1,11 +1,20 @@
 """Write the site's data files from a snapshot and the change feed.
 
-Writers copy ONLY allowlisted keys into data/ (the site reads nothing else).
-The Beacon lesson: a new pipeline output used to be silently dropped because
-the writer allowlist was not updated in the same change. Here the opposite
-happens: any key that is neither allowlisted nor explicitly excluded raises
-UnpublishedFieldError and fails the run, and a unit test checks that every
-normalized field is accounted for.
+This module is the ONLY path from pipeline outputs to data/ (the site reads
+nothing else). As in financial-research-hub, each writer copies an explicit
+allowlist of keys and silently drops everything else, so pipeline objects can
+carry internal fields freely.
+
+The Beacon lesson (do not relearn it): a new output field is invisible on the
+site until it is added to the allowlist below IN THE SAME CHANGE. Tests in
+pipeline/test_writers.py fail if the normalizer or differ produces a key that no
+allowlist (or TRIAL_EXCLUDED) accounts for. Those tests run on every push and
+as the first step of every refresh, so a forgotten allowlist entry blocks the
+change instead of vanishing.
+
+Allowlists: TRIAL_FIELDS / TRIAL_DERIVED (trial files), ROW_FIELDS (collection
+table rows), EVENT_FIELDS (changes.json), HISTORY_FIELDS (trial history),
+COLLECTION_FIELDS, META_FIELDS / META_RUN_FIELDS / META_COLLECTION_FIELDS.
 
 Output (all JSON, all committed):
     data/meta.json                  run info + per-collection counts (home page)
@@ -23,8 +32,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from .config import Watchlist
-from .ctgov import API_BASE, registry_url, web_url
 from .diff import EVENT_TYPES, DiffResult
+from .fetch.ctgov import API_BASE, registry_url, web_url
 from .normalize import SCHEMA_VERSION, content_hash
 from .snapshot import Snapshot
 
@@ -63,7 +72,8 @@ TRIAL_FIELDS = (
     "sites",
 )
 # Normalized keys deliberately NOT published, with the reason. Empty for now;
-# a key belongs here only by a deliberate decision, never by omission.
+# a key belongs here only by a deliberate decision, never by omission (a test
+# fails if a normalized key is in neither TRIAL_FIELDS nor this dict).
 TRIAL_EXCLUDED: dict[str, str] = {}
 # Keys the writer itself adds to a trial file.
 TRIAL_DERIVED = (
@@ -116,6 +126,67 @@ ROW_FIELDS = (
     "matched_queries",
 )
 
+# data/collections/<id>.json
+COLLECTION_FIELDS = (
+    "schema_version",
+    "id",
+    "name",
+    "why_it_matters",
+    "accent",
+    "sponsors_of_note",
+    "partial",
+    "queries",
+    "trial_count",
+    "recruiting_count",
+    "not_yet_recruiting_count",
+    "by_phase",
+    "by_status",
+    "trials",
+)
+COLLECTION_QUERY_FIELDS = ("id", "label", "registry_count", "matched", "failed", "web_url")
+
+# data/meta.json
+META_FIELDS = (
+    "schema_version",
+    "app",
+    "snapshot_date",
+    "generated_at",
+    "run",
+    "source",
+    "totals",
+    "recent_window_days",
+    "collections",
+    "queries",
+)
+META_RUN_FIELDS = (
+    "mode",
+    "started_at",
+    "finished_at",
+    "compared_against",
+    "baseline",
+    "partial",
+    "failed_queries",
+    "records_kept_from_previous",
+    "records_skipped",
+    "events_detected",
+    "records_changed",
+    "rebaselined_collections",
+    "left_watchlist",
+    "api_requests",
+    "warnings",
+)
+META_COLLECTION_FIELDS = (
+    "id",
+    "name",
+    "why_it_matters",
+    "accent",
+    "partial",
+    "trial_count",
+    "recruiting_count",
+    "changes_recent",
+)
+META_QUERY_FIELDS = ("id", "collection", "label", "matched", "registry_count", "failed", "web_url")
+
 PHASE_ORDER = (
     "EARLY_PHASE1",
     "PHASE1",
@@ -140,17 +211,8 @@ STATUS_ORDER = (
 RECENT_DAYS = 7
 
 
-class UnpublishedFieldError(KeyError):
-    """A record has a key that no writer allowlist accounts for."""
-
-
-def publish(record: dict, allowed, excluded=(), where: str = "record") -> dict:
-    unknown = set(record) - set(allowed) - set(excluded)
-    if unknown:
-        raise UnpublishedFieldError(
-            f"{where}: keys {sorted(unknown)} are not in the writer allowlist. Add them to the "
-            f"allowlist (to publish) or the excluded list (to drop on purpose) in pipeline/writers.py."
-        )
+def publish(record: dict, allowed) -> dict:
+    """Copy only allowlisted keys, in allowlist order. Everything else is dropped."""
     return {k: record[k] for k in allowed if k in record}
 
 
@@ -210,7 +272,7 @@ def update_changes(data_dir: Path, new_events: list[dict]) -> list[dict]:
     for event in new_events:
         if event["type"] not in EVENT_TYPES:
             raise ValueError(f"unknown event type {event['type']!r}")
-        clean = publish(event, EVENT_FIELDS, where=f"event {event.get('id')}")
+        clean = publish(event, EVENT_FIELDS)
         if clean["id"] not in seen:
             seen.add(clean["id"])
             appended.append(clean)
@@ -241,7 +303,10 @@ def trial_history(events: list[dict]) -> dict[str, list[dict]]:
     out = {}
     for nct, entries in by_trial.items():
         items = sorted(entries.values(), key=lambda x: x["detected_date"], reverse=True)  # newest first
-        out[nct] = [{k: v for k, v in item.items() if not (k == "context" and v is None)} for item in items]
+        out[nct] = [
+            publish({k: v for k, v in item.items() if not (k == "context" and v is None)}, HISTORY_FIELDS)
+            for item in items
+        ]
     return out
 
 
@@ -252,7 +317,7 @@ def write_trials(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
     written = 0
     for nct, record in snap.trials.items():
         body = {"schema_version": SCHEMA_VERSION}
-        body.update(publish(record, TRIAL_FIELDS, TRIAL_EXCLUDED, where=f"trial {nct}"))
+        body.update(publish(record, TRIAL_FIELDS))
         body.update(
             {
                 "registry_url": registry_url(nct),
@@ -264,7 +329,7 @@ def write_trials(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
                 "history": history.get(nct, []),
             }
         )
-        written += write_json(trials_dir / f"{nct}.json", publish(body, TRIAL_FILE_KEYS, where=f"trial file {nct}"))
+        written += write_json(trials_dir / f"{nct}.json", publish(body, TRIAL_FILE_KEYS))
 
     # Trials that stopped matching keep their page (feed links must not break),
     # marked as no longer tracked. Their record is the last one we saw.
@@ -282,7 +347,7 @@ def write_trials(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
                 body["left_watchlist_date"] = snap.snapshot_date
             body["history"] = history.get(nct, [])
             left += 1
-            written += write_json(path, publish(body, TRIAL_FILE_KEYS, where=f"trial file {nct}"))
+            written += write_json(path, publish(body, TRIAL_FILE_KEYS))
     return {"trial_files": len(snap.trials), "files_changed": written, "untracked_trial_files": left}
 
 
@@ -307,7 +372,7 @@ def collection_row(record: dict, snap: Snapshot, match_sponsors) -> dict:
         "countries": sorted({s["country"] for s in sites if s.get("country")}),
         "matched_queries": snap.queries_of(record["nct_id"]),
     }
-    return publish(row, ROW_FIELDS, where=f"row {record['nct_id']}")
+    return publish(row, ROW_FIELDS)
 
 
 def write_collections(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:
@@ -325,14 +390,19 @@ def write_collections(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:
             "why_it_matters": c.why_it_matters,
             "accent": c.accent,
             "sponsors_of_note": list(c.sponsors_of_note),
+            "partial": state.partial,
             "queries": [
-                {
-                    "id": q.id,
-                    "label": q.label,
-                    "registry_count": state.api_totals.get(q.id),
-                    "matched": len(state.queries.get(q.id, [])),
-                    "web_url": web_url(q),
-                }
+                publish(
+                    {
+                        "id": q.id,
+                        "label": q.label,
+                        "registry_count": state.api_totals.get(q.id),
+                        "matched": len(state.queries.get(q.id, [])),
+                        "failed": q.id in state.failed_queries,
+                        "web_url": web_url(q),
+                    },
+                    COLLECTION_QUERY_FIELDS,
+                )
                 for q in c.queries
             ],
             "trial_count": len(records),
@@ -342,6 +412,7 @@ def write_collections(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:
             "by_status": _ordered_counts(statuses, STATUS_ORDER, "status"),
             "trials": [collection_row(r, snap, match_sponsors) for r in records],
         }
+        body = publish(body, COLLECTION_FIELDS)
         write_json(data_dir / "collections" / f"{c.id}.json", body)
         summary[c.id] = body
     return summary
@@ -356,28 +427,27 @@ def write_meta(
     events: list[dict],
     run_info: dict,
 ) -> dict:
+    """data/meta.json: what ran (mode, timestamps, counts). The staleness badge reads it."""
     window_start = (dt.date.fromisoformat(snap.snapshot_date) - dt.timedelta(days=RECENT_DAYS - 1)).isoformat()
     recent = defaultdict(set)
     for e in events:
         if window_start <= e["detected_date"] <= snap.snapshot_date:
             recent[e["collection"]].add(e["change_id"])
+    run = {
+        **run_info,
+        "compared_against": diff.compared_against,
+        "baseline": diff.baseline,
+        "events_detected": len(diff.events),
+        "records_changed": len(diff.changed_records),
+        "rebaselined_collections": diff.rebaselined_collections,
+        "left_watchlist": diff.left_watchlist,
+    }
     meta = {
         "schema_version": SCHEMA_VERSION,
         "app": APP_NAME,
         "snapshot_date": snap.snapshot_date,
         "generated_at": run_info["finished_at"],
-        "run": {
-            "started_at": run_info["started_at"],
-            "finished_at": run_info["finished_at"],
-            "compared_against": diff.compared_against,
-            "baseline": diff.baseline,
-            "events_detected": len(diff.events),
-            "records_changed": len(diff.changed_records),
-            "rebaselined_collections": diff.rebaselined_collections,
-            "left_watchlist": diff.left_watchlist,
-            "api_requests": run_info.get("api_requests"),
-            "warnings": run_info.get("warnings", []),
-        },
+        "run": publish(run, META_RUN_FIELDS),
         "source": {"name": "ClinicalTrials.gov API v2", "url": API_BASE, **snap.source},
         "totals": {
             "trials": len(snap.trials),
@@ -386,28 +456,37 @@ def write_meta(
         },
         "recent_window_days": RECENT_DAYS,
         "collections": [
-            {
-                "id": c.id,
-                "name": c.name,
-                "why_it_matters": c.why_it_matters,
-                "accent": c.accent,
-                "trial_count": collections[c.id]["trial_count"],
-                "recruiting_count": collections[c.id]["recruiting_count"],
-                "changes_recent": len(recent.get(c.id, ())),
-            }
+            publish(
+                {
+                    "id": c.id,
+                    "name": c.name,
+                    "why_it_matters": c.why_it_matters,
+                    "accent": c.accent,
+                    "partial": collections[c.id]["partial"],
+                    "trial_count": collections[c.id]["trial_count"],
+                    "recruiting_count": collections[c.id]["recruiting_count"],
+                    "changes_recent": len(recent.get(c.id, ())),
+                },
+                META_COLLECTION_FIELDS,
+            )
             for c in wl.collections
         ],
         "queries": [
-            {
-                "id": q.id,
-                "collection": q.collection_id,
-                "label": q.label,
-                "matched": len(snap.collections[q.collection_id].queries.get(q.id, [])),
-                "registry_count": snap.collections[q.collection_id].api_totals.get(q.id),
-                "web_url": web_url(q),
-            }
+            publish(
+                {
+                    "id": q.id,
+                    "collection": q.collection_id,
+                    "label": q.label,
+                    "matched": len(snap.collections[q.collection_id].queries.get(q.id, [])),
+                    "registry_count": snap.collections[q.collection_id].api_totals.get(q.id),
+                    "failed": q.id in snap.collections[q.collection_id].failed_queries,
+                    "web_url": web_url(q),
+                },
+                META_QUERY_FIELDS,
+            )
             for q in wl.queries
         ],
     }
+    meta = publish(meta, META_FIELDS)
     write_json(data_dir / "meta.json", meta, indent=2)
     return meta

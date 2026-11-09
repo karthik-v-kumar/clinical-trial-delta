@@ -3,7 +3,9 @@
 Run on 2026-11-09 against the live registry (ClinicalTrials.gov API 2.0.5, registry
 data timestamp `2026-11-09T10:00:05`). This was a verification run in the build
 session; its output was not committed. The committed baseline will come from the
-first GitHub Actions run.
+first GitHub Actions run. After adopting the REFERENCE_FRH.md conventions, the
+run was repeated (`python -m pipeline.run daily` on Python 3.11): identical
+counts, and byte-identical trial files.
 
 ## Count reconciliation
 
@@ -52,23 +54,28 @@ does not show up as changes.
 
 ## Differ tests
 
-`python -m pytest`: **80 passed**. 26 of them are differ tests against the two
-fixture snapshots in `pipeline/tests/fixtures/`. The fixtures produce exactly 15
+`python -m pytest`, on Python 3.11 (the version CI uses): **88 passed**. 26 of
+them are differ tests against the two fixture snapshots in `pipeline/fixtures/`. The fixtures produce exactly 15
 known events, covering all 8 event types, and also check cases that must *not*
 produce events: whitespace- or case-only endpoint edits, a date's type flipping
 without the date moving, site status or coordinate changes, reordered lists,
 bookkeeping-only updates, and trials that match only because the watchlist was
 edited.
 
-| Test file | Tests |
+| Test file (`pipeline/`) | Tests |
 |---|---:|
 | test_diff.py | 26 |
 | test_watchlist.py | 14 |
+| test_run.py | 13 |
+| test_writers.py | 11 |
 | test_ctgov.py | 11 |
-| test_writers.py | 10 |
 | test_snapshot.py | 7 |
 | test_normalize.py | 6 |
-| test_run.py | 6 |
+
+test_run.py also covers the partial-run rules: a failed query is carried
+forward and its collection marked partial; a query with nothing to carry
+forward re-baselines its collection; a bad record keeps its previous version;
+only when every query fails is nothing written.
 
 ## Size and cost
 
@@ -77,3 +84,21 @@ edited.
   15.9 MB (about 121 KB of that is the daily manifest).
 - Each later day adds a manifest of about 121 KB plus record files only for trials
   that changed.
+
+## Writer allowlists (REFERENCE_FRH.md: name them in every milestone report)
+
+All in `pipeline/writers.py`, the only path from the pipeline into `data/`:
+
+| Allowlist | Governs |
+|---|---|
+| `TRIAL_FIELDS`, `TRIAL_DERIVED` (order: `TRIAL_FILE_KEYS`) | `data/trials/<NCT>.json` |
+| `TRIAL_EXCLUDED` | normalized fields deliberately not published (empty) |
+| `HISTORY_FIELDS` | each trial file's `history` entries |
+| `EVENT_FIELDS` | events in `data/changes.json` |
+| `COLLECTION_FIELDS`, `COLLECTION_QUERY_FIELDS`, `ROW_FIELDS` | `data/collections/<id>.json` |
+| `META_FIELDS`, `META_RUN_FIELDS`, `META_COLLECTION_FIELDS`, `META_QUERY_FIELDS` | `data/meta.json` |
+
+Guard tests that fail when a produced key isn't allowlisted:
+`test_every_normalized_field_is_allowlisted_or_excluded`,
+`test_every_differ_event_key_is_allowlisted` (`pipeline/test_writers.py`) and
+`test_every_run_info_key_reaches_meta` (`pipeline/test_run.py`).

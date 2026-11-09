@@ -8,7 +8,9 @@ flips, enrollment, endpoint, and site changes.
 Public registry data only. Information and links, not medical advice.
 
 **Status:** milestone M1 (data pipeline) is built. The site (M2) and the eval
-suite (M3) come next. See [BUILD_BRIEF.md](BUILD_BRIEF.md) for the full spec.
+suite (M3) come next. See [BUILD_BRIEF.md](BUILD_BRIEF.md) for the full spec and
+[REFERENCE_FRH.md](REFERENCE_FRH.md) for the financial-research-hub conventions
+this repo mirrors.
 
 ## How it works
 
@@ -17,9 +19,9 @@ watchlist.json ──► fetch ──► normalize ──► snapshot ──► 
    (what to track)  (API v2)   (stable record)  (one per day)  (typed events)
 ```
 
-- **Fetch:** ClinicalTrials.gov API v2, about one request per second, following
-  `nextPageToken` to the end. A run aborts, writing nothing, if any query's
-  fetched trials don't add up to the API's own `totalCount`.
+- **Fetch** (`pipeline/fetch/ctgov.py`): ClinicalTrials.gov API v2, about one
+  request per second, following `nextPageToken` to the end. Every query's trials
+  must add up to the API's own `totalCount`.
 - **Normalize:** turns each study into a deterministic record. Site contacts,
   investigator names, phone numbers and e-mails are never requested from the
   API at all.
@@ -31,14 +33,21 @@ watchlist.json ──► fetch ──► normalize ──► snapshot ──► 
   events of these types: `new_trial`, `status_change`, `enrollment_change`,
   `endpoint_change`, `site_added`, `site_removed`, `date_change`,
   `results_posted`.
-- **Write:** writers copy only allowlisted keys into the site's data files. A new
-  field that nobody has allowlisted fails the run instead of disappearing
-  silently.
+- **Write** (`pipeline/writers.py`, the only path into `data/`): each data file
+  gets an explicit allowlist of keys, and everything else is dropped. A field
+  that nobody allowlisted fails the tests instead of quietly never reaching the
+  site.
+
+A failure in one place never stops the whole run. A query that can't be fetched
+keeps yesterday's trial list, and its collection is marked partial. A record
+that can't be read keeps its previous version. Both are recorded in `meta.json`
+and shown as a warning on the Actions run.
 
 The refresh runs once a day on GitHub Actions
-([`.github/workflows/refresh.yml`](.github/workflows/refresh.yml)) using only the
-repository's own token. No API keys or secrets are involved, and nothing runs at
-page-view time.
+([`.github/workflows/refresh.yml`](.github/workflows/refresh.yml)). It checks out
+`main`, runs the tests, runs the `daily` mode, reconciles counts, and commits
+`data/` back to `main`. It uses only the repository's own token: no API keys or
+secrets, and nothing runs at page-view time. Timestamps are America/Los_Angeles.
 
 ## The watchlist
 
@@ -70,9 +79,27 @@ that match only because of the edit are not reported as "new trials".
 | `data/reconciliation.json` | Latest count check against ClinicalTrials.gov |
 | `data/snapshots/` | Daily manifests and content-addressed records (pipeline state; not read by the site) |
 
+## Layout
+
+```
+pipeline/            Python package (standard library only)
+  run.py             entrypoint: python -m pipeline.run <mode>
+  fetch/ctgov.py     ClinicalTrials.gov API v2 client (one module per source)
+  normalize.py       raw study -> stable record
+  snapshot.py        write-once daily snapshots
+  diff.py            typed change events
+  writers.py         allowlisted writers; the only path into data/
+  reconcile.py       count check against ClinicalTrials.gov
+  watchlist.json     what to track
+  test_*.py          tests, next to the code (fixtures in pipeline/fixtures/)
+data/                committed JSON; the site reads nothing else
+docs/                design and ops notes
+.github/workflows/   refresh.yml (daily), tests.yml
+```
+
 ## Running it
 
-Requires Python 3.11 or newer. The pipeline uses the standard library only.
+Requires Python 3.11 or newer.
 
 ```bash
 pip install -r requirements-dev.txt
@@ -83,18 +110,19 @@ python -m pytest
 ```
 
 ```bash
-python -m pipeline.run --dry-run
+python -m pipeline.run daily --dry-run
 ```
 
 ```bash
-python -m pipeline.run
+python -m pipeline.run daily
 ```
 
 ```bash
 python -m pipeline.reconcile
 ```
 
-`--dry-run` fetches and diffs without writing anything. A plain
-`pipeline.run` writes today's snapshot; if one already exists for today, it does
-nothing. `pipeline.reconcile` compares the latest snapshot's counts with
+`daily` is the only mode for now; each mode is documented at the top of
+`pipeline/run.py` and recorded in `meta.json`. `--dry-run` fetches and diffs
+without writing anything. Without it, `daily` writes today's snapshot (Los
+Angeles date); if one already exists for today, it does nothing. `pipeline.reconcile` compares the latest snapshot's counts with
 ClinicalTrials.gov's.

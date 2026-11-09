@@ -47,10 +47,17 @@ class CollectionState:
     query_hash: str
     queries: dict[str, list[str]]  # query id -> NCT ids it matched
     api_totals: dict[str, int] = field(default_factory=dict)  # query id -> API totalCount
+    # Queries that could not be fetched this run. Their trial lists are carried
+    # forward from the previous snapshot, so the collection is "partial".
+    failed_queries: list[str] = field(default_factory=list)
 
     @property
     def members(self) -> set[str]:
         return {nct for ids in self.queries.values() for nct in ids}
+
+    @property
+    def partial(self) -> bool:
+        return bool(self.failed_queries)
 
 
 @dataclass
@@ -60,6 +67,7 @@ class Snapshot:
     trials: dict[str, dict]  # NCT id -> normalized record
     created_at: str | None = None
     source: dict = field(default_factory=dict)
+    mode: str | None = None  # which pipeline.run mode produced it
 
     def members(self, collection_id: str) -> set[str]:
         state = self.collections.get(collection_id)
@@ -83,10 +91,12 @@ class Snapshot:
                     query_hash=c["query_hash"],
                     queries={qid: sorted(ids) for qid, ids in c["queries"].items()},
                     api_totals=c.get("api_totals", {}),
+                    failed_queries=c.get("failed_queries", []),
                 )
                 for cid, c in data["collections"].items()
             },
             trials=data["trials"],
+            mode=data.get("mode"),
         )
 
 
@@ -150,6 +160,7 @@ class SnapshotStore:
         manifest = {
             "schema_version": SNAPSHOT_SCHEMA_VERSION,
             "snapshot_date": snap.snapshot_date,
+            "mode": snap.mode,
             "created_at": snap.created_at,
             "source": snap.source,
             "collections": {
@@ -157,6 +168,7 @@ class SnapshotStore:
                     "query_hash": state.query_hash,
                     "queries": {qid: sorted(ids) for qid, ids in state.queries.items()},
                     "api_totals": state.api_totals,
+                    "failed_queries": state.failed_queries,
                 }
                 for cid, state in snap.collections.items()
             },
@@ -180,10 +192,14 @@ class SnapshotStore:
         return Snapshot(
             snapshot_date=manifest["snapshot_date"],
             created_at=manifest.get("created_at"),
+            mode=manifest.get("mode"),
             source=manifest.get("source", {}),
             collections={
                 cid: CollectionState(
-                    query_hash=c["query_hash"], queries=c["queries"], api_totals=c.get("api_totals", {})
+                    query_hash=c["query_hash"],
+                    queries=c["queries"],
+                    api_totals=c.get("api_totals", {}),
+                    failed_queries=c.get("failed_queries", []),
                 )
                 for cid, c in manifest["collections"].items()
             },

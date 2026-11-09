@@ -1,55 +1,70 @@
-# Daily refresh: the only recurring compute in this project. Runs on GitHub's
-# runners with the repo's own GITHUB_TOKEN; it needs no secrets, no API keys and
-# no personal agent allowance.
+# Daily refresh (mirrors financial-research-hub's refresh.yml): the only
+# recurring compute in this project. Runs on GitHub's runners with the repo's
+# own GITHUB_TOKEN; no personal agent allowance is involved. M1 needs no
+# secrets. Later, the optional eval judge reads LLM_API_KEY from Actions
+# secrets only, and its absence means "not run".
 name: Daily refresh
 
 on:
   schedule:
-    # 17:41 UTC daily (12:41 ET in winter): after ClinicalTrials.gov's daily
-    # data refresh, and off the top of the hour when Actions queues are busiest.
+    # 17:41 UTC = 09:41 PST / 10:41 PDT, after ClinicalTrials.gov's daily data
+    # refresh and off the top of the hour, when Actions queues are busiest.
     - cron: "41 17 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Pipeline mode (see pipeline/run.py)"
+        type: choice
+        options:
+          - daily
+        default: daily
 
 permissions:
   contents: write
 
+# Queue runs, never overlap, so two runs can't interleave pushes to main.
 concurrency:
-  group: daily-refresh
+  group: refresh
   cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      MODE: ${{ inputs.mode || 'daily' }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main
 
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.12"
+          python-version: "3.11"
           cache: pip
           cache-dependency-path: requirements-dev.txt
 
       - name: Install test dependencies
         run: pip install -r requirements-dev.txt
 
-      # Never commit data produced by a pipeline whose differ tests are failing.
+      # Never commit data from a pipeline whose differ or writer-allowlist tests fail.
       - name: Unit tests
         run: python -m pytest -q
 
-      # Fetch -> normalize -> snapshot -> diff -> write data/. Aborts before
-      # writing anything if a fetch fails or a page count does not reconcile
-      # with the API's own totalCount. A no-op if today's snapshot exists.
-      - name: Refresh data
-        run: python -m pipeline.run
+      # Fetch -> normalize -> snapshot -> diff -> write data/. A failed query or
+      # bad record marks its collection partial and the run continues (warning
+      # annotation + meta.json). It does nothing if today's snapshot exists.
+      - name: Run pipeline (${{ env.MODE }})
+        run: python -m pipeline.run "$MODE"
 
-      # Acceptance check, logged on every run: pipeline counts vs the
+      # Acceptance check, logged every run: pipeline counts vs the
       # ClinicalTrials.gov website and API. Never blocks the data commit.
       - name: Reconcile counts with ClinicalTrials.gov
         continue-on-error: true
         run: python -m pipeline.reconcile
 
-      - name: Commit and push data
+      # This push to main is what redeploys the site (Vercel, from M2).
+      - name: Commit data to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -58,11 +73,11 @@ jobs:
             echo "No data changes to commit."
             exit 0
           fi
-          git commit -q -m "data: daily refresh $(date -u +%F)"
+          git commit -q -m "data: ${MODE} refresh $(TZ=America/Los_Angeles date +%F)"
           for attempt in 1 2 3 4; do
-            if git push origin "HEAD:${GITHUB_REF_NAME}"; then exit 0; fi
+            if git push origin HEAD:main; then exit 0; fi
             echo "Push failed (attempt ${attempt}); rebasing and retrying."
             sleep $((2 ** attempt))
-            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git pull --rebase origin main
           done
           exit 1

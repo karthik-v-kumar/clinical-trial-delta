@@ -17,7 +17,7 @@ import urllib.request
 from collections.abc import Callable
 from dataclasses import dataclass
 
-from .config import Query
+from ..config import Query
 
 API_BASE = "https://clinicaltrials.gov/api/v2"
 WEB_BASE = "https://clinicaltrials.gov"
