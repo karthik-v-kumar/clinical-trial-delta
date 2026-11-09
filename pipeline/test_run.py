@@ -183,9 +183,9 @@ def test_every_run_info_key_reaches_meta(tmp_path, registry, monkeypatch):
     seen = {}
     real = run_module.write_meta
 
-    def spy(*args):
-        seen["run_info"] = args[-1]
-        return real(*args)
+    def spy(*args, **kwargs):
+        seen["run_info"] = kwargs["run"]
+        return real(*args, **kwargs)
 
     monkeypatch.setattr(run_module, "write_meta", spy)
     run("daily", "2026-01-05", data_dir=tmp_path, client=FakeClient(day1), log=QUIET)
@@ -226,3 +226,56 @@ def test_watchlist_queries_all_covered_by_fixture_names(registry):
     """Guard: the fake registry above uses real query ids from the watchlist."""
     ids = {q.id for q in load_watchlist().queries}
     assert set(registry[0]) <= ids
+
+
+def test_rebuild_rewrites_site_files_without_fetching(tmp_path, registry):
+    day1, day2 = registry
+    run("daily", "2026-01-05", data_dir=tmp_path, client=FakeClient(day1), log=QUIET)
+    run("daily", "2026-01-06", data_dir=tmp_path, client=FakeClient(day2), log=QUIET)
+    meta_before = read(tmp_path / "meta.json")
+    changes_before = (tmp_path / "changes.json").read_bytes()
+    snapshots_before = {p: p.read_bytes() for p in (tmp_path / "snapshots").rglob("*.json")}
+
+    # Simulate site files written by an older writer: drop a derived field everywhere.
+    for path in (tmp_path / "trials").glob("NCT*.json"):
+        body = read(path)
+        del body["eligibility_checklist"]
+        path.write_text(json.dumps(body), encoding="utf-8")
+    (tmp_path / "sites" / "glp1-obesity.json").unlink()
+
+    class NoNetwork:
+        requests_made = 0
+
+        def __getattr__(self, name):
+            raise AssertionError("rebuild must not contact the registry")
+
+    result = run("rebuild", data_dir=tmp_path, client=NoNetwork(), log=QUIET)
+    assert result["mode"] == "rebuild" and result["snapshot_date"] == "2026-01-06"
+    assert result["trial_files"]["files_changed"] == 5
+
+    trial = read(tmp_path / "trials" / "NCT10000001.json")
+    assert trial["eligibility_checklist"]["parsed"] is True
+    assert trial["history"][0]["type"] == "status_change"  # history survives a rebuild
+    assert (tmp_path / "sites" / "glp1-obesity.json").exists()
+
+    meta = read(tmp_path / "meta.json")
+    assert meta["snapshot_date"] == "2026-01-06"
+    assert meta["run"] == meta_before["run"]  # the fetch run's provenance is kept
+    assert meta["rebuild"]["mode"] == "rebuild"
+    assert meta["collections"] == meta_before["collections"]
+    assert (tmp_path / "changes.json").read_bytes() == changes_before
+    assert {p: p.read_bytes() for p in (tmp_path / "snapshots").rglob("*.json")} == snapshots_before
+
+
+def test_daily_run_after_a_rebuild_clears_the_rebuild_note(tmp_path, registry):
+    day1, day2 = registry
+    run("daily", "2026-01-05", data_dir=tmp_path, client=FakeClient(day1), log=QUIET)
+    run("rebuild", data_dir=tmp_path, log=QUIET)
+    assert "rebuild" in read(tmp_path / "meta.json")
+    run("daily", "2026-01-06", data_dir=tmp_path, client=FakeClient(day2), log=QUIET)
+    assert "rebuild" not in read(tmp_path / "meta.json")
+
+
+def test_rebuild_needs_a_snapshot(tmp_path):
+    with pytest.raises(RunFailed):
+        run("rebuild", data_dir=tmp_path, log=QUIET)

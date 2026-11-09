@@ -4,8 +4,11 @@ import pytest
 
 from pipeline.config import load_watchlist
 from pipeline.diff import diff_snapshots
+from pipeline.eligibility import parse_criteria
 from pipeline.normalize import normalize_study
 from pipeline.writers import (
+    CHECKLIST_FIELDS,
+    CHECKLIST_ITEM_FIELDS,
     EVENT_FIELDS,
     HISTORY_FIELDS,
     ROW_FIELDS,
@@ -19,6 +22,7 @@ from pipeline.writers import (
     trial_history,
     update_changes,
     write_collections,
+    write_sites,
     write_trials,
 )
 
@@ -125,3 +129,46 @@ def test_collection_files(tmp_path, day2):
     assert glp1["by_phase"] == [{"phase": "PHASE2", "count": 1}, {"phase": "PHASE3", "count": 5}]
     assert all(set(row) == set(ROW_FIELDS) for row in glp1["trials"])
     assert glp1["queries"][0]["web_url"].startswith("https://clinicaltrials.gov/search?")
+
+
+def test_every_checklist_key_is_allowlisted(raw_study):
+    """Beacon guard for the eligibility checklist the parser produces."""
+    rich = parse_criteria(
+        "Intro\n\nInclusion Criteria:\n\nPart A:\n\n* One of:\n  * this\n  * that\n\nExclusion Criteria:\n\n* none\n"
+    )
+    assert set(rich) <= set(CHECKLIST_FIELDS), "add new checklist keys to CHECKLIST_FIELDS in writers.py"
+    item_keys = {k for item in rich["inclusion"] + rich["exclusion"] for k in item}
+    assert item_keys == set(CHECKLIST_ITEM_FIELDS), "CHECKLIST_ITEM_FIELDS must match what the parser emits"
+
+
+def test_trial_file_carries_the_checklist(tmp_path, day1):
+    record = dict(day1.trials["NCT90000001"])
+    record["eligibility"] = {"criteria": "Inclusion Criteria:\n\n* Age 18+\n\nExclusion Criteria:\n\n* Pregnancy\n"}
+    day1.trials["NCT90000001"] = record
+    write_trials(tmp_path, day1, load_watchlist(), [])
+    checklist = read(tmp_path / "trials" / "NCT90000001.json")["eligibility_checklist"]
+    assert checklist == {
+        "parsed": True,
+        "inclusion": [{"text": "Age 18+"}],
+        "exclusion": [{"text": "Pregnancy"}],
+        "notes": [],
+    }
+    # A record with no criteria text still gets an honest, unparsed checklist.
+    assert read(tmp_path / "trials" / "NCT90000002.json")["eligibility_checklist"]["parsed"] is False
+
+
+def test_sites_index_lists_recruiting_cities_only(tmp_path, day2):
+    stats = write_sites(tmp_path, day2, load_watchlist())
+    glp1 = read(tmp_path / "sites" / "glp1-obesity.json")
+    # NCT90000005 (recruiting) has a recruiting Dallas site and a recruiting Houston
+    # site without coordinates; its Austin site is completed. NCT90000001 has sites
+    # with coordinates but is no longer recruiting overall.
+    by_trial = {t["nct_id"]: [glp1["cities"][i]["city"] for i in t["cities"]] for t in glp1["trials"]}
+    assert "NCT90000001" not in by_trial
+    assert by_trial["NCT90000010"] == ["Boston"] and by_trial["NCT90000014"] == ["Boston"]
+    assert glp1["cities"] == [
+        {"city": "Boston", "state": "Massachusetts", "country": "United States", "lat": 42.36, "lon": -71.06}
+    ]
+    assert glp1["sites_without_coordinates"] == 2 and glp1["recruiting_site_count"] == 4
+    assert stats["glp1-obesity"] == {"cities": 1, "trials": 2}
+    assert glp1["snapshot_date"] == "2026-01-06" and glp1["collection"] == "glp1-obesity"

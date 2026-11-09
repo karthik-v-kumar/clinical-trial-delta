@@ -12,15 +12,18 @@ allowlist (or TRIAL_EXCLUDED) accounts for. Those tests run on every push and
 as the first step of every refresh, so a forgotten allowlist entry blocks the
 change instead of vanishing.
 
-Allowlists: TRIAL_FIELDS / TRIAL_DERIVED (trial files), ROW_FIELDS (collection
-table rows), EVENT_FIELDS (changes.json), HISTORY_FIELDS (trial history),
-COLLECTION_FIELDS, META_FIELDS / META_RUN_FIELDS / META_COLLECTION_FIELDS.
+Allowlists: TRIAL_FIELDS / TRIAL_DERIVED (trial files), CHECKLIST_FIELDS /
+CHECKLIST_ITEM_FIELDS (eligibility checklist), ROW_FIELDS (collection table
+rows), EVENT_FIELDS (changes.json), HISTORY_FIELDS (trial history),
+COLLECTION_FIELDS, SITES_FIELDS / SITES_CITY_FIELDS / SITES_TRIAL_FIELDS
+(recruiting-sites index), META_FIELDS / META_RUN_FIELDS / META_COLLECTION_FIELDS.
 
 Output (all JSON, all committed):
     data/meta.json                  run info + per-collection counts (home page)
     data/changes.json               every change event ever detected (append-only)
     data/collections/<id>.json      collection metadata, landscape counts, trial table rows
-    data/trials/<NCT>.json          one trial: record + collections + its change history
+    data/sites/<id>.json            where a collection's trials are recruiting (city search)
+    data/trials/<NCT>.json          one trial: record + checklist + collections + change history
 """
 
 from __future__ import annotations
@@ -32,7 +35,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from .config import Watchlist
-from .diff import EVENT_TYPES, DiffResult
+from .diff import EVENT_TYPES
+from .eligibility import parse_criteria
 from .fetch.ctgov import API_BASE, registry_url, web_url
 from .normalize import SCHEMA_VERSION, content_hash
 from .snapshot import Snapshot
@@ -83,10 +87,15 @@ TRIAL_DERIVED = (
     "collections",
     "matched_queries",
     "sponsors_of_note",
+    "eligibility_checklist",
     "in_watchlist",
     "left_watchlist_date",
     "history",
 )
+
+# The eligibility checklist inside a trial file (built by pipeline/eligibility.py).
+CHECKLIST_FIELDS = ("parsed", "inclusion", "exclusion", "notes")
+CHECKLIST_ITEM_FIELDS = ("text", "group", "sub_items")
 
 EVENT_FIELDS = (
     "id",
@@ -145,6 +154,19 @@ COLLECTION_FIELDS = (
 )
 COLLECTION_QUERY_FIELDS = ("id", "label", "registry_count", "matched", "failed", "web_url")
 
+# data/sites/<collection>.json: recruiting sites with coordinates, for the city search.
+SITES_FIELDS = (
+    "schema_version",
+    "collection",
+    "snapshot_date",
+    "cities",
+    "trials",
+    "recruiting_site_count",
+    "sites_without_coordinates",
+)
+SITES_CITY_FIELDS = ("city", "state", "country", "lat", "lon")
+SITES_TRIAL_FIELDS = ("nct_id", "cities")
+
 # data/meta.json
 META_FIELDS = (
     "schema_version",
@@ -152,6 +174,7 @@ META_FIELDS = (
     "snapshot_date",
     "generated_at",
     "run",
+    "rebuild",
     "source",
     "totals",
     "recent_window_days",
@@ -186,6 +209,7 @@ META_COLLECTION_FIELDS = (
     "changes_recent",
 )
 META_QUERY_FIELDS = ("id", "collection", "label", "matched", "registry_count", "failed", "web_url")
+META_REBUILD_FIELDS = ("mode", "started_at", "finished_at")
 
 PHASE_ORDER = (
     "EARLY_PHASE1",
@@ -310,6 +334,15 @@ def trial_history(events: list[dict]) -> dict[str, list[dict]]:
     return out
 
 
+def eligibility_checklist(record: dict) -> dict:
+    """The record's criteria text as an allowlisted checklist."""
+    parsed = parse_criteria((record.get("eligibility") or {}).get("criteria"))
+    checklist = dict(parsed)
+    for key in ("inclusion", "exclusion"):
+        checklist[key] = [publish(item, CHECKLIST_ITEM_FIELDS) for item in parsed[key]]
+    return publish(checklist, CHECKLIST_FIELDS)
+
+
 def write_trials(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dict]) -> dict:
     trials_dir = data_dir / "trials"
     history = trial_history(events)
@@ -325,6 +358,7 @@ def write_trials(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
                 "collections": snap.collections_of(nct),
                 "matched_queries": snap.queries_of(nct),
                 "sponsors_of_note": match_sponsors(record),
+                "eligibility_checklist": eligibility_checklist(record),
                 "in_watchlist": True,
                 "history": history.get(nct, []),
             }
@@ -379,7 +413,9 @@ def write_collections(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:
     match_sponsors = sponsor_matcher(wl.all_sponsors_of_note)
     summary = {}
     for c in wl.collections:
-        state = snap.collections[c.id]
+        state = snap.collections.get(c.id)
+        if state is None:  # added to the watchlist after this snapshot; appears on the next daily run
+            continue
         members = sorted(state.members, reverse=True)  # newest NCT numbers first
         records = [snap.trials[n] for n in members]
         statuses = Counter(r.get("overall_status") for r in records)
@@ -418,35 +454,96 @@ def write_collections(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:
     return summary
 
 
+def write_sites(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:
+    """data/sites/<collection>.json: cities where the collection's trials are recruiting.
+
+    Only sites the registry marks RECRUITING, in trials whose overall status is
+    RECRUITING. Cities are listed once and trials point at them by index, so the
+    page can find trials near a city without loading every trial file.
+    """
+    stats = {}
+    for c in wl.collections:
+        state = snap.collections.get(c.id)
+        if state is None:
+            continue
+        city_index: dict[tuple, int] = {}
+        cities: list[dict] = []
+        trials: list[dict] = []
+        recruiting_sites = without_coordinates = 0
+        for nct in sorted(state.members):
+            record = snap.trials[nct]
+            if record.get("overall_status") != "RECRUITING":
+                continue
+            indexes: list[int] = []
+            for site in record.get("sites") or []:
+                if site.get("status") != "RECRUITING":
+                    continue
+                recruiting_sites += 1
+                if site.get("lat") is None or site.get("lon") is None or not site.get("city"):
+                    without_coordinates += 1
+                    continue
+                key = (site.get("city"), site.get("state"), site.get("country"))
+                if key not in city_index:
+                    city_index[key] = len(cities)
+                    cities.append(
+                        publish(
+                            {
+                                "city": site["city"],
+                                "state": site.get("state"),
+                                "country": site.get("country"),
+                                "lat": round(site["lat"], 3),
+                                "lon": round(site["lon"], 3),
+                            },
+                            SITES_CITY_FIELDS,
+                        )
+                    )
+                if city_index[key] not in indexes:
+                    indexes.append(city_index[key])
+            if indexes:
+                trials.append(publish({"nct_id": nct, "cities": indexes}, SITES_TRIAL_FIELDS))
+        body = publish(
+            {
+                "schema_version": SCHEMA_VERSION,
+                "collection": c.id,
+                "snapshot_date": snap.snapshot_date,
+                "cities": cities,
+                "trials": trials,
+                "recruiting_site_count": recruiting_sites,
+                "sites_without_coordinates": without_coordinates,
+            },
+            SITES_FIELDS,
+        )
+        write_json(data_dir / "sites" / f"{c.id}.json", body, indent=None)
+        stats[c.id] = {"cities": len(cities), "trials": len(trials)}
+    return stats
+
+
 def write_meta(
     data_dir: Path,
     snap: Snapshot,
     wl: Watchlist,
-    diff: DiffResult,
     collections: dict[str, dict],
     events: list[dict],
-    run_info: dict,
+    run: dict,
+    generated_at: str,
+    rebuild: dict | None = None,
 ) -> dict:
-    """data/meta.json: what ran (mode, timestamps, counts). The staleness badge reads it."""
+    """data/meta.json: what ran (mode, timestamps, counts). The staleness badge reads it.
+
+    `run` describes the run that fetched this snapshot. `rebuild` is set when the
+    files were later re-written from that snapshot without fetching.
+    """
     window_start = (dt.date.fromisoformat(snap.snapshot_date) - dt.timedelta(days=RECENT_DAYS - 1)).isoformat()
     recent = defaultdict(set)
     for e in events:
         if window_start <= e["detected_date"] <= snap.snapshot_date:
             recent[e["collection"]].add(e["change_id"])
-    run = {
-        **run_info,
-        "compared_against": diff.compared_against,
-        "baseline": diff.baseline,
-        "events_detected": len(diff.events),
-        "records_changed": len(diff.changed_records),
-        "rebaselined_collections": diff.rebaselined_collections,
-        "left_watchlist": diff.left_watchlist,
-    }
+    tracked = [c for c in wl.collections if c.id in collections and c.id in snap.collections]
     meta = {
         "schema_version": SCHEMA_VERSION,
         "app": APP_NAME,
         "snapshot_date": snap.snapshot_date,
-        "generated_at": run_info["finished_at"],
+        "generated_at": generated_at,
         "run": publish(run, META_RUN_FIELDS),
         "source": {"name": "ClinicalTrials.gov API v2", "url": API_BASE, **snap.source},
         "totals": {
@@ -469,7 +566,7 @@ def write_meta(
                 },
                 META_COLLECTION_FIELDS,
             )
-            for c in wl.collections
+            for c in tracked
         ],
         "queries": [
             publish(
@@ -484,9 +581,20 @@ def write_meta(
                 },
                 META_QUERY_FIELDS,
             )
-            for q in wl.queries
+            for c in tracked
+            for q in c.queries
         ],
     }
+    if rebuild:
+        meta["rebuild"] = publish(rebuild, META_REBUILD_FIELDS)
     meta = publish(meta, META_FIELDS)
     write_json(data_dir / "meta.json", meta, indent=2)
     return meta
+
+
+def read_meta(data_dir: Path) -> dict | None:
+    return _read_json(data_dir / "meta.json", None)
+
+
+def read_events(data_dir: Path) -> list[dict]:
+    return _read_json(data_dir / "changes.json", {"events": []})["events"]

@@ -75,7 +75,8 @@ that match only because of the edit are not reported as "new trials".
 | `data/meta.json` | Snapshot date, run info, per-collection counts (trials, recruiting, recent changes) |
 | `data/changes.json` | Every change event ever detected, oldest first (append-only) |
 | `data/collections/<id>.json` | Collection metadata, trials-by-phase and trials-by-status counts, trial table rows |
-| `data/trials/<NCT>.json` | One trial: the normalized record, its collections, and its full change history |
+| `data/sites/<id>.json` | Cities where a collection's trials are recruiting, for the near-a-city search |
+| `data/trials/<NCT>.json` | One trial: the normalized record, its eligibility checklist, its collections, and its full change history |
 | `data/reconciliation.json` | Latest count check against ClinicalTrials.gov |
 | `data/snapshots/` | Daily manifests and content-addressed records (pipeline state; not read by the site) |
 
@@ -88,6 +89,7 @@ pipeline/            Python package (standard library only)
   normalize.py       raw study -> stable record
   snapshot.py        write-once daily snapshots
   diff.py            typed change events
+  eligibility.py     criteria text -> inclusion/exclusion checklist
   writers.py         allowlisted writers; the only path into data/
   reconcile.py       count check against ClinicalTrials.gov
   watchlist.json     what to track
@@ -121,8 +123,10 @@ python -m pipeline.run daily
 python -m pipeline.reconcile
 ```
 
-`daily` is the only mode for now; each mode is documented at the top of
-`pipeline/run.py` and recorded in `meta.json`. `--dry-run` fetches and diffs
-without writing anything. Without it, `daily` writes today's snapshot (Los
-Angeles date); if one already exists for today, it does nothing. `pipeline.reconcile` compares the latest snapshot's counts with
+There are two modes, both documented at the top of `pipeline/run.py` and recorded
+in `meta.json`. `daily` writes today's snapshot (Los Angeles date) and the site
+files; if a snapshot already exists for today, it does nothing. `rebuild`
+re-writes the site files from the latest snapshot without contacting the
+registry, for use after changing a writer or the eligibility parser. `--dry-run`
+fetches and diffs without writing anything. `pipeline.reconcile` compares the latest snapshot's counts with
 ClinicalTrials.gov's.

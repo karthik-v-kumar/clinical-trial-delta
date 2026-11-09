@@ -12,9 +12,16 @@ daily
     data files (data/meta.json, data/collections/*.json, data/trials/*.json).
     If today's snapshot already exists it does nothing, so re-running is safe.
 
-The mode is recorded in meta.json and in the snapshot manifest, so every
-snapshot's provenance is visible. v1 has one mode; new modes are new entries
-in MODES.
+rebuild
+    Re-writes the site's data files (data/trials, data/collections, data/sites,
+    data/meta.json) from the most recent snapshot, without contacting the
+    registry. Use it after changing a writer, the eligibility parser or display
+    metadata in watchlist.json, so the site picks the change up without waiting
+    for the next daily run. It never touches data/snapshots or data/changes.json.
+
+The mode is recorded in meta.json (run.mode for the run that fetched the
+snapshot, rebuild.mode for a later rebuild) and in the snapshot manifest, so
+provenance is always visible. New modes are new entries in MODES.
 
 Options
 -------
@@ -49,13 +56,22 @@ from .diff import diff_snapshots
 from .fetch.ctgov import Client, FetchError
 from .normalize import normalize_study
 from .snapshot import CollectionState, Snapshot, SnapshotStore
-from .writers import update_changes, write_collections, write_meta, write_trials
+from .writers import (
+    read_events,
+    read_meta,
+    update_changes,
+    write_collections,
+    write_meta,
+    write_sites,
+    write_trials,
+)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 
 MODES = {
     "daily": "full refresh of every watchlist query (the scheduled run)",
+    "rebuild": "re-write the site's data files from the latest snapshot, without fetching",
 }
 
 
@@ -202,10 +218,12 @@ def run(
     if mode not in MODES:
         raise ValueError(f"unknown mode {mode!r}; choose from {sorted(MODES)}")
     started_at = now_iso()
-    snapshot_date = snapshot_date or today()
     wl = load_watchlist(watchlist_path)
     store = SnapshotStore(data_dir / "snapshots")
+    if mode == "rebuild":
+        return rebuild(wl, store, data_dir, started_at, snapshot_date, dry_run, log)
 
+    snapshot_date = snapshot_date or today()
     if store.exists(snapshot_date):
         log(f"Snapshot for {snapshot_date} already exists; nothing to do (snapshots are never overwritten).")
         return {"status": "noop", "mode": mode, "snapshot_date": snapshot_date}
@@ -244,32 +262,96 @@ def run(
     events = update_changes(data_dir, diff.events)
     trial_stats = write_trials(data_dir, snap, wl, events)
     collections = write_collections(data_dir, snap, wl)
+    write_sites(data_dir, snap, wl)
+    finished_at = now_iso()
     write_meta(
         data_dir,
         snap,
         wl,
-        diff,
         collections,
         events,
-        {
+        run={
             "mode": mode,
             "started_at": started_at,
-            "finished_at": now_iso(),
-            "api_requests": client.requests_made,
+            "finished_at": finished_at,
+            "compared_against": diff.compared_against,
+            "baseline": diff.baseline,
             "partial": partial,
             "failed_queries": problems["failed_queries"],
             "records_kept_from_previous": problems["kept_previous_records"],
             "records_skipped": problems["skipped_records"],
+            "events_detected": len(diff.events),
+            "records_changed": len(diff.changed_records),
+            "rebaselined_collections": diff.rebaselined_collections,
+            "left_watchlist": diff.left_watchlist,
+            "api_requests": client.requests_made,
             "warnings": warnings,
         },
+        generated_at=finished_at,
     )
     summary["snapshot"] = store.write(snap)
     summary["trial_files"] = trial_stats
     return summary
 
 
+def rebuild(
+    wl: Watchlist,
+    store: SnapshotStore,
+    data_dir: Path,
+    started_at: str,
+    snapshot_date: str | None,
+    dry_run: bool,
+    log=print,
+) -> dict:
+    """Re-write the site's data files from an existing snapshot. No network, no new events."""
+    dates = store.dates()
+    if not dates:
+        raise RunFailed("no snapshot to rebuild from; run `python -m pipeline.run daily` first")
+    snapshot_date = snapshot_date or dates[-1]
+    if snapshot_date != dates[-1]:
+        raise RunFailed(f"rebuild only works from the latest snapshot ({dates[-1]}), not {snapshot_date}")
+    snap = store.read(snapshot_date)
+    missing = [c.id for c in wl.collections if c.id not in snap.collections]
+    warnings = [
+        f"collection {cid} is not in snapshot {snapshot_date}; it appears after the next daily run" for cid in missing
+    ]
+    summary = {
+        "status": "dry_run" if dry_run else "ok",
+        "mode": "rebuild",
+        "snapshot_date": snapshot_date,
+        "trials": len(snap.trials),
+        "warnings": warnings,
+    }
+    log(f"[rebuild] Re-writing site data from snapshot {snapshot_date} ({len(snap.trials)} trials) ...")
+    if dry_run:
+        return summary
+    events = read_events(data_dir)
+    summary["trial_files"] = write_trials(data_dir, snap, wl, events)
+    collections = write_collections(data_dir, snap, wl)
+    summary["sites"] = write_sites(data_dir, snap, wl)
+    previous = read_meta(data_dir) or {}
+    finished_at = now_iso()
+    write_meta(
+        data_dir,
+        snap,
+        wl,
+        collections,
+        events,
+        run=previous.get("run") or {"mode": snap.mode, "finished_at": snap.created_at},
+        generated_at=finished_at,
+        rebuild={"mode": "rebuild", "started_at": started_at, "finished_at": finished_at},
+    )
+    return summary
+
+
 def _print_summary(s: dict) -> None:
     if s["status"] == "noop":
+        return
+    if s["mode"] == "rebuild":
+        changed = s.get("trial_files", {}).get("files_changed")
+        print(f"[rebuild] Snapshot {s['snapshot_date']}: {s['trials']} trials, {changed} trial files changed")
+        for w in s["warnings"]:
+            print(f"WARNING: {w}")
         return
     print(
         f"\n[{s['mode']}] Snapshot {s['snapshot_date']}: {s['trials']} unique trials, {s['api_requests']} API requests"

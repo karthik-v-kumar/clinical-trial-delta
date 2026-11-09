@@ -17,6 +17,7 @@ on:
         type: choice
         options:
           - daily
+          - rebuild
         default: daily
 
 permissions:
@@ -51,15 +52,17 @@ jobs:
       - name: Unit tests
         run: python -m pytest -q
 
-      # Fetch -> normalize -> snapshot -> diff -> write data/. A failed query or
-      # bad record marks its collection partial and the run continues (warning
-      # annotation + meta.json). It does nothing if today's snapshot exists.
+      # daily: fetch -> normalize -> snapshot -> diff -> write data/. A failed
+      # query or bad record marks its collection partial and the run continues
+      # (warning annotation + meta.json). It does nothing if today's snapshot
+      # exists. rebuild: re-write the site files from the latest snapshot only.
       - name: Run pipeline (${{ env.MODE }})
         run: python -m pipeline.run "$MODE"
 
       # Acceptance check, logged every run: pipeline counts vs the
       # ClinicalTrials.gov website and API. Never blocks the data commit.
       - name: Reconcile counts with ClinicalTrials.gov
+        if: env.MODE == 'daily'
         continue-on-error: true
         run: python -m pipeline.reconcile
 
@@ -73,7 +76,8 @@ jobs:
             echo "No data changes to commit."
             exit 0
           fi
-          git commit -q -m "data: ${MODE} refresh $(TZ=America/Los_Angeles date +%F)"
+          if [ "$MODE" = "daily" ]; then label="daily refresh"; else label="$MODE"; fi
+          git commit -q -m "data: ${label} $(TZ=America/Los_Angeles date +%F)"
           for attempt in 1 2 3 4; do
             if git push origin HEAD:main; then exit 0; fi
             echo "Push failed (attempt ${attempt}); rebasing and retrying."
