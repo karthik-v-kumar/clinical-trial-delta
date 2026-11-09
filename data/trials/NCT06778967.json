@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Gan & Lee Pharmaceuticals.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Gan & Lee Pharmaceuticals."
  },
  "collaborators": [],
  "conditions": [
@@ -48,37 +48,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "GZR18",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: GZR18"
+   ],
    "label": "GZR18 Dose 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: GZR18"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: GZR18"
+   ],
    "label": "GZR18 Dose 2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: GZR18"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "semaglutide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: semaglutide"
-   ]
+   ],
+   "label": "semaglutide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The main purpose of this study is to investigate the Efficacy and Safety of GZR18 Injection in Chinese Subjects with Type 2 Diabetes Mellitus and Poor Blood Glucose Control by Metformin Monotherapy or in Combination with Sodium-dependent Glucose Transporter 2 (SGLT2) Inhibitors or Sulfonylureas",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* T2DM is diagnosed for at least 12 weeks according to the diagnostic criteria of diabetes mellitus issued by the World Health Organization (WHO) in 1999 and the supplementary diagnostic criteria of WHO in 2011 (HbA1c diagnosis is recommended).\n* Antidiabetic drugs that meet any of the following within 8 weeks before screening:\n\n  * A stable dose of metformin hydrochloride monotherapy at a dose of ≥ 1500 mg/day or the maximum tolerated dose ;\n\n    * A stable dose of metformin (≥ 1500 mg/day or the maximum tolerated dose ) in combination with SGLT2 inhibitors;\n\n      * A stable dose of metformin (≥1500 mg/day or a maximum tolerated dose \\< 1500 but ≥ 1000 mg/day) in combination with a stable daily dose of sulfonylureas.\n* HbA1c ≥ 7.5% and ≤ 11% at screening (central laboratory).\n* BG \\< 15 mmol/L at screening (central laboratory).\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus or special type of diabetes mellitus.\n* Diabetic ketoacidosis, diabetic lactic acidosis or hyperosmolar state within 6 months before screening, or diabetic ketosis at screening/before randomization.\n* Severe chronic complications of diabetes (such as proliferative retinopathy or maculopathy, diabetic painful neuropathy, intermittent claudication, or diabetic foot) at screening or before randomization.\n* History of acute or chronic pancreatitis and pancreatic injury before screening.\n* History or relevant family history of medullary thyroid cancer, multiple endocrine neoplasia (MEN) 2A or 2B before screening.\n* Any laboratory test indicator meeting the following criteria at screening or before randomization:\n* Calcitonin level ≥ 50 ng/L (pg/mL) at screening.\n* ALT ≥ 3.0 × upper limit of normal (ULN) or AST ≥ 3.0 × ULN or total bilirubin ≥ 2.0 × ULN.\n* Estimated glomerular filtration rate (eGFR) \\< 60 mL/min/1.73 m2, calculated using CKD-EPI equation (see Appendix 3).\n* Fasting triglyceride (TG) ≥ 5.7 mmol/L or 500 mg/dL.\n* Blood amylase or lipase \\> 1.5 × ULN.\n* Hemoglobin ≤ 100 g/L for women and ≤ 110 g/L for men.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Tianjin Medical University General Hospital",
    "city": "Tianjin",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Tianjin Medical University General Hospital",
    "lat": 39.14222,
-   "lon": 117.17667
+   "lon": 117.17667,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06778967",
@@ -119,6 +119,67 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "T2DM is diagnosed for at least 12 weeks according to the diagnostic criteria of diabetes mellitus issued by the World Health Organization (WHO) in 1999 and the supplementary diagnostic criteria of WHO in 2011 (HbA1c diagnosis is recommended)."
+   },
+   {
+    "text": "Antidiabetic drugs that meet any of the following within 8 weeks before screening:",
+    "sub_items": [
+     "A stable dose of metformin hydrochloride monotherapy at a dose of ≥ 1500 mg/day or the maximum tolerated dose ;",
+     "A stable dose of metformin (≥ 1500 mg/day or the maximum tolerated dose ) in combination with SGLT2 inhibitors;",
+     "A stable dose of metformin (≥1500 mg/day or a maximum tolerated dose < 1500 but ≥ 1000 mg/day) in combination with a stable daily dose of sulfonylureas."
+    ]
+   },
+   {
+    "text": "HbA1c ≥ 7.5% and ≤ 11% at screening (central laboratory)."
+   },
+   {
+    "text": "BG < 15 mmol/L at screening (central laboratory)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus or special type of diabetes mellitus."
+   },
+   {
+    "text": "Diabetic ketoacidosis, diabetic lactic acidosis or hyperosmolar state within 6 months before screening, or diabetic ketosis at screening/before randomization."
+   },
+   {
+    "text": "Severe chronic complications of diabetes (such as proliferative retinopathy or maculopathy, diabetic painful neuropathy, intermittent claudication, or diabetic foot) at screening or before randomization."
+   },
+   {
+    "text": "History of acute or chronic pancreatitis and pancreatic injury before screening."
+   },
+   {
+    "text": "History or relevant family history of medullary thyroid cancer, multiple endocrine neoplasia (MEN) 2A or 2B before screening."
+   },
+   {
+    "text": "Any laboratory test indicator meeting the following criteria at screening or before randomization:"
+   },
+   {
+    "text": "Calcitonin level ≥ 50 ng/L (pg/mL) at screening."
+   },
+   {
+    "text": "ALT ≥ 3.0 × upper limit of normal (ULN) or AST ≥ 3.0 × ULN or total bilirubin ≥ 2.0 × ULN."
+   },
+   {
+    "text": "Estimated glomerular filtration rate (eGFR) < 60 mL/min/1.73 m2, calculated using CKD-EPI equation (see Appendix 3)."
+   },
+   {
+    "text": "Fasting triglyceride (TG) ≥ 5.7 mmol/L or 500 mg/dL."
+   },
+   {
+    "text": "Blood amylase or lipase > 1.5 × ULN."
+   },
+   {
+    "text": "Hemoglobin ≤ 100 g/L for women and ≤ 110 g/L for men."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

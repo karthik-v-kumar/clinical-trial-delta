@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Nantes University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Nantes University Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,18 +50,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "glycemic sensor FREESTYLE Libre Pro",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Patients older than 75 years",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: glycemic sensor FREESTYLE Libre Pro"
-   ]
+   ],
+   "label": "Patients older than 75 years",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -73,77 +73,77 @@
  "brief_summary": "Diabetes is a chronic and progressive disease that affects nearly 3.5 million people in France.\n\nCurrently the investigators are seeing an aging of the population explained by the increase in life expectancy and thus an increasing incidence of diabetes in the elderly. However, the frequency of hypoglycemia in older vulnerable patients remains poorly characterized",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female ≥ 75 years of age;\n* Type 2 diabetes for at least 1 year and treated with insulin for at least 6 months;\n* Treated with basal insulin (ie glargine U100: Lantus®, Abasaglar®, glargine U300: Toujeo®, detemir: levemir®, NPH), premix (ie Novomix® and Humalog Mix®), and / Insulin associated or not with one or more oral and / or injectable antidiabetic agents (analog of GLP1...);\n* Benefiting from at least 1 capillary glucose per day (carried out by the patient himself or a caregiver);\n* Benefiting from a standardized geriatric assessment;\n* Signature of informed consent\n* Patient benefiting from a social security system.\n\nExclusion Criteria:\n\n* Male or female aged \\<75 years;\n* Person without diabetes or type 1 diabetes;\n* Patient treated only lifestyle modifications and / or oral anti-diabetic drugs and / or GLP-1 receptor agonists alone;\n* Subjects with secondary or corticosteroid-induced diabetes;\n* Refusal to participate in the study or inability to collect consent;\n* Patient for whom follow-up of the study procedures is impossible (glycemic record impossible or insufficient);\n* Patient not eligible for geriatric assessment;\n* Patient already participating in another study;\n* Patient with a severe pathology limiting his life expectancy (palliative care ...) compromising his participation in the study at the discretion of the investigator;\n* Patient benefiting from a safeguard of justice.",
-  "sex": "ALL",
-  "minimum_age": "75 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "75 Years",
+  "sex": "ALL",
   "std_ages": [
    "OLDER_ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "CH d'Ancenis",
    "city": "Ancenis",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CH d'Ancenis",
    "lat": 47.36667,
-   "lon": -1.16667
+   "lon": -1.16667,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "CHU d'Angers",
    "city": "Angers",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CHU d'Angers",
    "lat": 47.47156,
-   "lon": -0.55202
+   "lon": -0.55202,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Hôpital Sud Francilien",
    "city": "Corbeil-Essonnes",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Hôpital Sud Francilien",
    "lat": 48.60603,
-   "lon": 2.48757
+   "lon": 2.48757,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "CHRU de Lille",
    "city": "Lille",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CHRU de Lille",
    "lat": 50.63391,
-   "lon": 3.05512
+   "lon": 3.05512,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "CHU de Poitiers",
    "city": "Poitiers",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CHU de Poitiers",
    "lat": 46.58261,
-   "lon": 0.34348
-  },
-  {
-   "facility": "CHU de Toulouse",
-   "city": "Toulouse",
+   "lon": 0.34348,
    "state": null,
-   "country": "France",
-   "status": null,
-   "lat": 43.60426,
-   "lon": 1.44367
+   "status": null
   },
   {
-   "facility": "CHU de Nantes",
-   "city": "Nantes",
-   "state": "Loire Atlantique",
+   "city": "Toulouse",
    "country": "France",
-   "status": null,
+   "facility": "CHU de Toulouse",
+   "lat": 43.60426,
+   "lon": 1.44367,
+   "state": null,
+   "status": null
+  },
+  {
+   "city": "Nantes",
+   "country": "France",
+   "facility": "CHU de Nantes",
    "lat": 47.21725,
-   "lon": -1.55336
+   "lon": -1.55336,
+   "state": "Loire Atlantique",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03020264",
@@ -155,6 +155,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female ≥ 75 years of age;"
+   },
+   {
+    "text": "Type 2 diabetes for at least 1 year and treated with insulin for at least 6 months;"
+   },
+   {
+    "text": "Treated with basal insulin (ie glargine U100: Lantus®, Abasaglar®, glargine U300: Toujeo®, detemir: levemir®, NPH), premix (ie Novomix® and Humalog Mix®), and / Insulin associated or not with one or more oral and / or injectable antidiabetic agents (analog of GLP1...);"
+   },
+   {
+    "text": "Benefiting from at least 1 capillary glucose per day (carried out by the patient himself or a caregiver);"
+   },
+   {
+    "text": "Benefiting from a standardized geriatric assessment;"
+   },
+   {
+    "text": "Signature of informed consent"
+   },
+   {
+    "text": "Patient benefiting from a social security system."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Male or female aged <75 years;"
+   },
+   {
+    "text": "Person without diabetes or type 1 diabetes;"
+   },
+   {
+    "text": "Patient treated only lifestyle modifications and / or oral anti-diabetic drugs and / or GLP-1 receptor agonists alone;"
+   },
+   {
+    "text": "Subjects with secondary or corticosteroid-induced diabetes;"
+   },
+   {
+    "text": "Refusal to participate in the study or inability to collect consent;"
+   },
+   {
+    "text": "Patient for whom follow-up of the study procedures is impossible (glycemic record impossible or insufficient);"
+   },
+   {
+    "text": "Patient not eligible for geriatric assessment;"
+   },
+   {
+    "text": "Patient already participating in another study;"
+   },
+   {
+    "text": "Patient with a severe pathology limiting his life expectancy (palliative care ...) compromising his participation in the study at the discretion of the investigator;"
+   },
+   {
+    "text": "Patient benefiting from a safeguard of justice."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

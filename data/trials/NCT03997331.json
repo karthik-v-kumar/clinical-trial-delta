@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "SINGLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "QuiO",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "QuiO"
  },
  "collaborators": [
   "SHL Medical",
@@ -53,31 +53,31 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "CRx Health",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Chronicare",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: CRx Health",
     "Other: Chronicare"
-   ]
+   ],
+   "label": "Intervention",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: CRx Health"
-   ]
+   ],
+   "label": "Control",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This single-blind, single-center, randomized, controlled trial is designed to evaluate the utility of the Chronicare Disease Management Program in the management of subjects with T2D who are being treated with insulin glargine and metformin. The Chronicare Solution comprises connected devices (a Bluetooth-enabled insulin pen sensor, a Bluetooth-enabled medication container, and a Bluetooth-enabled glucometer), a mobile smartphone app (CRx Health), an automated support system (Intervention Engine), and a remote care application (CRx Care) used by a team of clinicians to monitor and support patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male and female subjects between 18 and 75 years of age, inclusive, at Screening.\n* Diagnosed with T2D\n* Have a baseline HbA1c level between 7.5% and 10.0%, inclusive, while receiving insulin glargine and metformin.\n* Prescribed insulin glargine and an oral diabetes medication for ≥ 6 months prior to Screening.\n* The ability to follow an evening dosing schedule for insulin glargine.\n* Have an eGFR level \\>30 L/min, inclusive, according to their most recent measurement.\n* If female, must be post-menopausal or surgically sterile, or be established on (≥ 3 months prior to Screening) and agree to continue to use the same highly effective method of birth control throughout the study. Females must agree to avoid pregnancy during their participation in the study.\n* Able to comprehend and give informed consent.\n* Able to comply with the requirements of the study, which include being able to speak and read English, and to complete the full sequence of protocol-related procedures.\n\nExclusion Criteria:\n\n* Females who are pregnant (positive pregnancy test at Screening), lactating, or if having reproductive potential, are considered potentially unreliable with respect to contraceptive practice.\n* Have type 1 diabetes.\n* Have had or have a malignant neoplasm within the past five years.\n* Undergoing chronic or recurrent treatment with systemic corticosteroids or niacin treatment for hyperlipidemia.\n* Use of one or more of the following agents affecting glycemic control:\n\nmifepristone, GLP-1RA, or any insulin other than insulin glargine.\n\n* Concurrent treatment with experimental drugs or participation in another clinical trial with any investigational drug within 30 days or 5 half-lives, whichever is greater, prior to study start.\n* Unable or unwilling to follow the evening insulin glargine regimen required by the titration protocol (once daily dose must be scheduled between 5pm and 12am).\n* Blood transfusions or severe blood loss in the last 3 months.\n* Any other unspecified reason that, in the opinion of the Investigator (or designee) or Sponsor, makes the subject unsuitable for enrollment.\n* Active diagnosis of hypoglycemic unawareness.\n* Hypoglycemia (blood glucose \\<70 mg/dl with or without symptoms) greater than one episode per week (on average)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Research Department",
    "city": "Midland",
-   "state": "Michigan",
    "country": "United States",
-   "status": null,
+   "facility": "Clinical Research Department",
    "lat": 43.61558,
-   "lon": -84.24721
+   "lon": -84.24721,
+   "state": "Michigan",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03997331",
@@ -118,6 +118,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male and female subjects between 18 and 75 years of age, inclusive, at Screening."
+   },
+   {
+    "text": "Diagnosed with T2D"
+   },
+   {
+    "text": "Have a baseline HbA1c level between 7.5% and 10.0%, inclusive, while receiving insulin glargine and metformin."
+   },
+   {
+    "text": "Prescribed insulin glargine and an oral diabetes medication for ≥ 6 months prior to Screening."
+   },
+   {
+    "text": "The ability to follow an evening dosing schedule for insulin glargine."
+   },
+   {
+    "text": "Have an eGFR level >30 L/min, inclusive, according to their most recent measurement."
+   },
+   {
+    "text": "If female, must be post-menopausal or surgically sterile, or be established on (≥ 3 months prior to Screening) and agree to continue to use the same highly effective method of birth control throughout the study. Females must agree to avoid pregnancy during their participation in the study."
+   },
+   {
+    "text": "Able to comprehend and give informed consent."
+   },
+   {
+    "text": "Able to comply with the requirements of the study, which include being able to speak and read English, and to complete the full sequence of protocol-related procedures."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Females who are pregnant (positive pregnancy test at Screening), lactating, or if having reproductive potential, are considered potentially unreliable with respect to contraceptive practice."
+   },
+   {
+    "text": "Have type 1 diabetes."
+   },
+   {
+    "text": "Have had or have a malignant neoplasm within the past five years."
+   },
+   {
+    "text": "Undergoing chronic or recurrent treatment with systemic corticosteroids or niacin treatment for hyperlipidemia."
+   },
+   {
+    "text": "Use of one or more of the following agents affecting glycemic control:"
+   },
+   {
+    "text": "mifepristone, GLP-1RA, or any insulin other than insulin glargine."
+   },
+   {
+    "text": "Concurrent treatment with experimental drugs or participation in another clinical trial with any investigational drug within 30 days or 5 half-lives, whichever is greater, prior to study start."
+   },
+   {
+    "text": "Unable or unwilling to follow the evening insulin glargine regimen required by the titration protocol (once daily dose must be scheduled between 5pm and 12am)."
+   },
+   {
+    "text": "Blood transfusions or severe blood loss in the last 3 months."
+   },
+   {
+    "text": "Any other unspecified reason that, in the opinion of the Investigator (or designee) or Sponsor, makes the subject unsuitable for enrollment."
+   },
+   {
+    "text": "Active diagnosis of hypoglycemic unawareness."
+   },
+   {
+    "text": "Hypoglycemia (blood glucose <70 mg/dl with or without symptoms) greater than one episode per week (on average)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

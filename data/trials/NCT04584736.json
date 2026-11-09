@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "JW Pharmaceutical",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "JW Pharmaceutical"
  },
  "collaborators": [],
  "conditions": [
@@ -53,41 +53,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Livalo, Ezetrol",
    "other_names": [
     "Pitavastatin, Ezetimibe"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Livalo, Ezetrol"
+   ],
    "label": "Livalo 2mg, Ezetrol 10mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Livalo, Ezetrol"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Livalo, Ezetrol"
+   ],
    "label": "Livalo 2mg",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Livalo, Ezetrol"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Livalo, Ezetrol"
+   ],
    "label": "Livalo 4mg, Ezetrol 10mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Livalo, Ezetrol"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Livalo 4mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Livalo, Ezetrol"
-   ]
+   ],
+   "label": "Livalo 4mg",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "To Evaluate the Efficacy and Safety of Combination Therapy of Pitavastatin and Ezetimibe Versus Monotherapy of Pitavastatin in Patients With Primary Hypercholesterolemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with primary hypercholesterolemia\n\nExclusion Criteria:\n\n* The subject not meet the specified LDL-C level",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "79 Years",
   "healthy_volunteers": false,
+  "maximum_age": "79 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "Gangdong Sacred Heart Hospital",
    "city": "Seoul",
-   "state": "Korea",
    "country": "South Korea",
-   "status": null,
+   "facility": "Gangdong Sacred Heart Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": "Korea",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04584736",
@@ -128,6 +128,20 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with primary hypercholesterolemia"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "The subject not meet the specified LDL-C level"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

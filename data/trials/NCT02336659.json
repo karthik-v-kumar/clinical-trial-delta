@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hvidovre University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hvidovre University Hospital"
  },
  "collaborators": [
   "University of Copenhagen"
@@ -52,54 +52,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "exendin 9-39",
    "other_names": [
     "GLP-1 antagonist"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Saline",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Saline",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Exendin 9-39",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exendin 9-39"
-   ]
+   ],
+   "label": "Exendin 9-39",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DPP-4 Inhibition",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin"
-   ]
+   ],
+   "label": "DPP-4 Inhibition",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Exendin 9-39 / DPP 4-Inhibition",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exendin 9-39",
     "Drug: sitagliptin"
-   ]
+   ],
+   "label": "Exendin 9-39 / DPP 4-Inhibition",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -111,23 +111,23 @@
  "brief_summary": "The aim of this study is to examine the effect of GLP-1 and other gut-secreted hormones (glucagon, GIP, grelin and PYY) on food-intake, appetite and glucose metabolism after Roux-en-Y gastric bypass surgery.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Uncomplicated RYGB performed 3-12 month proir to the study. Fasting plasma glucose \\<7.0 mM and HbA1c \\< 48 mmol/mol 3 month after RYGB.\n\nExclusion Criteria:\n\n* Fasting plasma glucose \\>7.0 mM and HbA1c \\> 48 mmol/mol 3 month after RYGB. Hemoglobin \\<6.5mM. Previous anaphylaxis when treated with Januvia or Byetta. Allergy for sitagliptin. Dysregulated hypothyroidism. Use of antithyroid treatment. Late diabetic complications as retinopathy, renal insuffiency, neuropathy or previous pancreatitis. Bad compliance.\n* Complications to RYGB: Documented reactive hypoglycaemia, severe dumping (with vomiting, diarrhea or severe abdominal pain after food intake).",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Hvidovre University Hospital",
    "city": "Hvidovre",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Hvidovre University Hospital",
    "lat": 55.64297,
-   "lon": 12.47708
+   "lon": 12.47708,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02336659",
@@ -139,6 +139,23 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Uncomplicated RYGB performed 3-12 month proir to the study. Fasting plasma glucose <7.0 mM and HbA1c < 48 mmol/mol 3 month after RYGB."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Fasting plasma glucose >7.0 mM and HbA1c > 48 mmol/mol 3 month after RYGB. Hemoglobin <6.5mM. Previous anaphylaxis when treated with Januvia or Byetta. Allergy for sitagliptin. Dysregulated hypothyroidism. Use of antithyroid treatment. Late diabetic complications as retinopathy, renal insuffiency, neuropathy or previous pancreatitis. Bad compliance."
+   },
+   {
+    "text": "Complications to RYGB: Documented reactive hypoglycaemia, severe dumping (with vomiting, diarrhea or severe abdominal pain after food intake)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

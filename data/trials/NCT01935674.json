@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2025-07-16",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Juan A. Arnaiz",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Juan A. Arnaiz"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Switch ritonavir-boosted PI",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Continue Ritonavir-boosted PI+Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Switch ritonavir-boosted PI",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Switch ritonavir-boosted PI"
-   ]
+   ],
+   "label": "Switch ritonavir-boosted PI",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Continue ritonavir-boosted PI+Rosuvastatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Continue Ritonavir-boosted PI+Rosuvastatin"
-   ]
+   ],
+   "label": "Continue ritonavir-boosted PI+Rosuvastatin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "To compare the effect of rosuvastatin to protease inhibitor switching on fasting total cholesterol over 12 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* HIV-positive status\n* Adults (≥18 years of age)\n* Stable and well-tolerated combination ART including a ritonavir-boosted protease inhibitor for the previous 6 months\n* HIV RNA \\<50 copies/mL for at least the preceding 3 months\n* Fasting total cholesterol ≥5.5 mmol/L (\\>213 mg/dL)\n* Framingham risk score ≥8% at 10 years OR diabetes mellitus OR a family history of premature coronary artery disease in a first-degree relative\n* Provision of written, informed consent\n\nExclusion criteria:\n\n* Any statin in the previous 12 weeks\n* Previous statin-induced myopathy or hepatitis\n* History of coronary artery disease, stroke or any other indication for the use of statin therapy (hyperlipidaemia: genetic, secondary or idiopathic)\n* Concurrent use of:\n\n  1. oral corticosteroids use other than for replacement therapy (i.e. prednisolone 5-7.5 mg, hydrocortisone 20-30 mg, cortisone acetate 25-37.5 mg daily)\n  2. other immunosuppressive or immunomodulating drugs\n* Contraindication to rosuvastatin therapy:\n\n  1. liver transaminases \\>5 times the upper normal limit\n  2. creatinine clearance \\<30 mL/min\n  3. known myopathy\n  4. current fibrate therapy\n  5. known resistance to one or more \"backbone\" ART drugs\n* No potent switch ART drug available to replace the current ritonavir-boosted protease inhibitor\n* Known intolerance to rosuvastatin or the proposed switch ART drug\n* Women attempting or likely to become pregnant, or who are pregnant or breast-feeding\n* A patient with a history or current evidence of any condition, therapy, or laboratory abnormality, or other circumstance that might confound the results of the study, or interfere with the patient's participation for the full duration of the study\n* Unable to complete study procedures",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital Clinic of Barcelona",
    "city": "Barcelona",
-   "state": null,
    "country": "Spain",
-   "status": null,
+   "facility": "Hospital Clinic of Barcelona",
    "lat": 41.38879,
-   "lon": 2.15899
+   "lon": 2.15899,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01935674",
@@ -113,6 +113,76 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "HIV-positive status"
+   },
+   {
+    "text": "Adults (≥18 years of age)"
+   },
+   {
+    "text": "Stable and well-tolerated combination ART including a ritonavir-boosted protease inhibitor for the previous 6 months"
+   },
+   {
+    "text": "HIV RNA <50 copies/mL for at least the preceding 3 months"
+   },
+   {
+    "text": "Fasting total cholesterol ≥5.5 mmol/L (>213 mg/dL)"
+   },
+   {
+    "text": "Framingham risk score ≥8% at 10 years OR diabetes mellitus OR a family history of premature coronary artery disease in a first-degree relative"
+   },
+   {
+    "text": "Provision of written, informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any statin in the previous 12 weeks"
+   },
+   {
+    "text": "Previous statin-induced myopathy or hepatitis"
+   },
+   {
+    "text": "History of coronary artery disease, stroke or any other indication for the use of statin therapy (hyperlipidaemia: genetic, secondary or idiopathic)"
+   },
+   {
+    "text": "Concurrent use of:",
+    "sub_items": [
+     "oral corticosteroids use other than for replacement therapy (i.e. prednisolone 5-7.5 mg, hydrocortisone 20-30 mg, cortisone acetate 25-37.5 mg daily)",
+     "other immunosuppressive or immunomodulating drugs"
+    ]
+   },
+   {
+    "text": "Contraindication to rosuvastatin therapy:",
+    "sub_items": [
+     "liver transaminases >5 times the upper normal limit",
+     "creatinine clearance <30 mL/min",
+     "known myopathy",
+     "current fibrate therapy",
+     "known resistance to one or more \"backbone\" ART drugs"
+    ]
+   },
+   {
+    "text": "No potent switch ART drug available to replace the current ritonavir-boosted protease inhibitor"
+   },
+   {
+    "text": "Known intolerance to rosuvastatin or the proposed switch ART drug"
+   },
+   {
+    "text": "Women attempting or likely to become pregnant, or who are pregnant or breast-feeding"
+   },
+   {
+    "text": "A patient with a history or current evidence of any condition, therapy, or laboratory abnormality, or other circumstance that might confound the results of the study, or interfere with the patient's participation for the full duration of the study"
+   },
+   {
+    "text": "Unable to complete study procedures"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

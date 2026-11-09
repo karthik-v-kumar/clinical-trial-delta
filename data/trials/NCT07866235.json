@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Lahore General Hospital",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Lahore General Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Empagliflozin (EMPA)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group A-Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Group A-Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Group B-Empagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin (EMPA)"
-   ]
+   ],
+   "label": "Group B-Empagliflozin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "This study was designed to compare empagliflozin and dapagliflozin in reducing protein leakage into the urine in adults with type 2 diabetes and chronic kidney disease. It examined whether the two medicines differed in their effects on urine protein levels. Blood sugar control, kidney function, treatment costs, and side effects were also selected for comparison.\n\nThe study was planned as a randomized controlled trial at the Nephrology Department of Lahore General Hospital, Lahore, Pakistan. The planned sample comprised 116 men and women aged 20-70 years who had increased urine albumin levels and an estimated glomerular filtration rate, a measure of kidney filtration, above 45 mL/min/1.73 m². Participants were to be assigned by a lottery method to two equal groups of 58 patients. One group was to receive dapagliflozin 5 mg once daily, and the other empagliflozin 10 mg once daily.\n\nAssessments were scheduled before treatment and after two and four months. The main assessment was the change in the urine albumin-to-creatinine ratio, which measured the amount of albumin, a blood protein, leaking into the urine. Other assessments included blood tests for kidney function and average blood sugar levels. Treatment costs and side effects, including low blood sugar, urinary tract infections, oral thrush, dehydration, allergic reactions, body pains, and kidney failure, were also included in the follow-up plan. The study aimed to compare the benefits, safety, and costs of these treatments in the selected patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 20-70 years.\n* Male or female patients.\n* Type 2 diabetes mellitus with chronic kidney disease.\n* Body mass index ≤45.0 kg/m².\n* Urinary albumin-to-creatinine ratio \\>30 mg/g.\n* Estimated glomerular filtration rate \\>45 mL/min/1.73 m².\n* Stable dose of an oral antidiabetic medication for at least 4 weeks, or insulin, either alone or with an oral antidiabetic medication, for 8 weeks.\n* Stable dose of an angiotensin-converting enzyme inhibitor or an angiotensin receptor blocker for at least 4 weeks.\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus.\n* Age below 20 years or above 70 years.\n* Pregnancy.\n* Hypersensitivity to the study medications.",
-  "sex": "ALL",
-  "minimum_age": "20 Months",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "20 Months",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "facility": "Lahore General Hospital, Lahore",
    "city": "Lahore",
-   "state": "Punjab Province",
    "country": "Pakistan",
-   "status": null,
+   "facility": "Lahore General Hospital, Lahore",
    "lat": 31.558,
-   "lon": 74.35071
+   "lon": 74.35071,
+   "state": "Punjab Province",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07866235",
@@ -129,6 +129,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 20-70 years."
+   },
+   {
+    "text": "Male or female patients."
+   },
+   {
+    "text": "Type 2 diabetes mellitus with chronic kidney disease."
+   },
+   {
+    "text": "Body mass index ≤45.0 kg/m²."
+   },
+   {
+    "text": "Urinary albumin-to-creatinine ratio >30 mg/g."
+   },
+   {
+    "text": "Estimated glomerular filtration rate >45 mL/min/1.73 m²."
+   },
+   {
+    "text": "Stable dose of an oral antidiabetic medication for at least 4 weeks, or insulin, either alone or with an oral antidiabetic medication, for 8 weeks."
+   },
+   {
+    "text": "Stable dose of an angiotensin-converting enzyme inhibitor or an angiotensin receptor blocker for at least 4 weeks."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus."
+   },
+   {
+    "text": "Age below 20 years or above 70 years."
+   },
+   {
+    "text": "Pregnancy."
+   },
+   {
+    "text": "Hypersensitivity to the study medications."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

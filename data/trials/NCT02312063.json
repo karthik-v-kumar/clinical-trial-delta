@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2019-07-01",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Kansai Electric Power Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Kansai Electric Power Hospital"
  },
  "collaborators": [
   "Saiseikai Noe Hospital Osaka"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "Amaryl"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride"
-   ]
+   ],
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "In a prospective, randomized case-controlled study, the investigators hope to demonstrate a positive correlation of plasma levels of EPA and DHA as well as fish intake with the HbA1c-lowering effect of sitagliptin but not with the active comparator glimepiride.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Japanese T2DM patients, who are OAD naïve or receive 4-week wash out of one OAD (glinides, alpha-GI, metformin) before randomization.\n* HbA1c:6.0-8.0 %\n* BMI:18-30 kg/m2\n* Age:20-75 years old\n* CrCl: \\> 60mL/min\n\nExclusion Criteria:\n\n* Patients on DPP-4 inhibitors or glimepiride\n* Patients treated with pioglitazone\n* Patients with moderate/severe renal impairments\n* Patients with insulin or GLP-1 receptor agonists",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,22 +100,22 @@
  },
  "sites": [
   {
-   "facility": "Kansai Electric Power Hospital",
    "city": "Osaka",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Kansai Electric Power Hospital",
    "lat": 34.69379,
-   "lon": 135.50107
+   "lon": 135.50107,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Saiseikai Noe Hospital Osaka",
    "city": "Osaka",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Saiseikai Noe Hospital Osaka",
    "lat": 34.69379,
-   "lon": 135.50107
+   "lon": 135.50107,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02312063",
@@ -127,6 +127,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Japanese T2DM patients, who are OAD naïve or receive 4-week wash out of one OAD (glinides, alpha-GI, metformin) before randomization."
+   },
+   {
+    "text": "HbA1c:6.0-8.0 %"
+   },
+   {
+    "text": "BMI:18-30 kg/m2"
+   },
+   {
+    "text": "Age:20-75 years old"
+   },
+   {
+    "text": "CrCl: > 60mL/min"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients on DPP-4 inhibitors or glimepiride"
+   },
+   {
+    "text": "Patients treated with pioglitazone"
+   },
+   {
+    "text": "Patients with moderate/severe renal impairments"
+   },
+   {
+    "text": "Patients with insulin or GLP-1 receptor agonists"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

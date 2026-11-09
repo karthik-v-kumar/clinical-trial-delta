@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Medical University of Bialystok",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Medical University of Bialystok"
  },
  "collaborators": [
   "University of Copenhagen"
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Exercise intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Behavioral: Exercise intervention"
+   ],
    "label": "Type 2 Diabetes",
-   "type": "OTHER",
-   "intervention_names": [
-    "Behavioral: Exercise intervention"
-   ]
+   "type": "OTHER"
   },
   {
+   "intervention_names": [
+    "Behavioral: Exercise intervention"
+   ],
    "label": "Prediabetes",
-   "type": "OTHER",
-   "intervention_names": [
-    "Behavioral: Exercise intervention"
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "Normoglycemia",
-   "type": "OTHER",
    "intervention_names": [
     "Behavioral: Exercise intervention"
-   ]
+   ],
+   "label": "Normoglycemia",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -147,10 +147,10 @@
  "brief_summary": "The \"Bialystok Exercise Study in Diabetes\" (BESD), is an exercise intervention study, conducted by the Department of Endocrinology, Diabetology and Internal Medicine and Clinical Research Centre of the Medical University of Bialystok. In the project, sedentary males at different stages of dysglycemia living in the city of Bialystok participate in three months of an exercise intervention consisting of supervised training sessions at a local fitness centre. The aim of the study is to assess the effectiveness of the exercise intervention in patients at different stages of dysglycemia progression, including type 2 diabetes and prediabetes and compare the response between groups.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age: 35-65 years old\n* BMI: 25-35 kg/m2\n* Male gender\n* Ability of performing exercise trainings\n* Sedentary lifestyle\n\nExclusion Criteria:\n\n* Smoking\n* Drug or alcohol addiction\n* Any chronic disease (exceptions: hypertension, obesity with BMI ≤ 35 kg/m2, type 2 diabetes)\n* Any chronic medications (exceptions: angiotensin-converting-enzyme inhibitors for hypertension and metformin in type 2 diabetics)\n* Highly active lifestyle\n* Medical contraindications to participate in planned exercise sessions",
-  "sex": "MALE",
-  "minimum_age": "35 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "35 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -158,13 +158,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Research Centre, Medical University of Bialystok",
    "city": "Bialystok",
-   "state": "Podlaskie Voivodeship",
    "country": "Poland",
-   "status": null,
+   "facility": "Clinical Research Centre, Medical University of Bialystok",
    "lat": 53.13333,
-   "lon": 23.16433
+   "lon": 23.16433,
+   "state": "Podlaskie Voivodeship",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04634890",
@@ -176,6 +176,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age: 35-65 years old"
+   },
+   {
+    "text": "BMI: 25-35 kg/m2"
+   },
+   {
+    "text": "Male gender"
+   },
+   {
+    "text": "Ability of performing exercise trainings"
+   },
+   {
+    "text": "Sedentary lifestyle"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Smoking"
+   },
+   {
+    "text": "Drug or alcohol addiction"
+   },
+   {
+    "text": "Any chronic disease (exceptions: hypertension, obesity with BMI ≤ 35 kg/m2, type 2 diabetes)"
+   },
+   {
+    "text": "Any chronic medications (exceptions: angiotensin-converting-enzyme inhibitors for hypertension and metformin in type 2 diabetics)"
+   },
+   {
+    "text": "Highly active lifestyle"
+   },
+   {
+    "text": "Medical contraindications to participate in planned exercise sessions"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

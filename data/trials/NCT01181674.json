@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-05-21",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Population Health Research Institute",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Population Health Research Institute"
  },
  "collaborators": [
   "Hamilton Health Sciences Corporation"
@@ -50,78 +50,78 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "insulin glargine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "acarbose",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "lifestyle therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DRUG",
    "name": "insulin glargine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "acarbose",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "lifestyle therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "OTHER",
    "name": "Standard glycemic care",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: insulin glargine",
+    "Drug: metformin",
+    "Drug: acarbose",
+    "Behavioral: lifestyle therapy"
+   ],
    "label": "Group 1 (short)",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: insulin glargine",
     "Drug: metformin",
     "Drug: acarbose",
     "Behavioral: lifestyle therapy"
-   ]
-  },
-  {
+   ],
    "label": "Group 2 (long)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: insulin glargine",
-    "Drug: metformin",
-    "Drug: acarbose",
-    "Behavioral: lifestyle therapy"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Standard care",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Standard glycemic care"
-   ]
+   ],
+   "label": "Standard care",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -133,10 +133,10 @@
  "brief_summary": "The purpose of this pilot trial is to determine whether an intensive treatment with insulin glargine, metformin, acarbose and lifestyle can normalize blood glucose levels in patients with recently diagnosed type 2 diabetes mellitus when compared to standard diabetes care.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. men and women 30-80 years of age inclusive\n2. type 2 diabetes mellitus diagnosed by a physician within 3 years prior to patient enrollment\n3. anti-diabetic drug regimen (either drug or dose of drug) unchanged during 8 weeks prior to screening and randomization\n4. HbA1C ≤ 8.5% on no oral hypoglycemic agents or HbA1C ≤ 7.5% on 1 agent or on half-maximal doses of 2 agents\n5. body mass index ≥ 23 kg/m2\n6. a negative pregnancy test and an agreement to use a reliable method of birth control for the duration of the trial in all females with childbearing potential\n7. ability and willingness to perform self-monitoring of capillary blood glucose (SMBG)\n8. ability and willingness to self-inject insulin\n9. provision of informed consent.\n\nExclusion Criteria:\n\n1. current use of insulin therapy\n2. history of hypoglycemia unawareness, or severe hypoglycemia requiring assistance\n3. renal dysfunction as evidenced by serum creatinine (Cr) ≥ 124 μmol/l\n4. history of lactic acidosis or diabetic ketoacidosis\n5. active liver disease or elevated alanine transferase (ALT) levels ≥ 2.5 times upper limit of normal at the time of enrollment\n6. history of inflammatory bowel disease, colonic ulcers, recent or significant bowel surgery, or predisposition to bowel obstruction\n7. cardiovascular disease including any of:\n\n   * systolic blood pressure \\>180 mmHg or diastolic blood pressure \\>105 mmHg\n   * peripheral vascular disease\n   * left bundle branch block or third degree AV block\n   * tachyarrhythmias or bradyarrhythmias with uncontrolled ventricular rate\n   * stenotic valvular heart disease\n   * cardiomyopathy\n   * history of heart failure\n   * history of aortic dissection\n   * documented history of angina or coronary artery disease\n   * history of stroke or transient ischemic attack\n8. pulmonary disease with dependence on oxygen\n9. history of any disease requiring intermittent or continuous systemic glucocorticoid treatment\n10. history of any major illness with a life expectancy of \\<3 years\n11. history of injury or any other condition that significantly limits participant's ability to achieve moderate levels of physical activity\n12. any history of excessive alcohol intake, acute or chronic\n13. known hypersensitivity to metformin, acarbose, or insulin glargine.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -144,13 +144,13 @@
  },
  "sites": [
   {
-   "facility": "McMaster University Medical Centre, Diabetes Care and Research Program",
    "city": "Hamilton",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "McMaster University Medical Centre, Diabetes Care and Research Program",
    "lat": 43.25011,
-   "lon": -79.84963
+   "lon": -79.84963,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01181674",
@@ -162,6 +162,92 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "men and women 30-80 years of age inclusive"
+   },
+   {
+    "text": "type 2 diabetes mellitus diagnosed by a physician within 3 years prior to patient enrollment"
+   },
+   {
+    "text": "anti-diabetic drug regimen (either drug or dose of drug) unchanged during 8 weeks prior to screening and randomization"
+   },
+   {
+    "text": "HbA1C ≤ 8.5% on no oral hypoglycemic agents or HbA1C ≤ 7.5% on 1 agent or on half-maximal doses of 2 agents"
+   },
+   {
+    "text": "body mass index ≥ 23 kg/m2"
+   },
+   {
+    "text": "a negative pregnancy test and an agreement to use a reliable method of birth control for the duration of the trial in all females with childbearing potential"
+   },
+   {
+    "text": "ability and willingness to perform self-monitoring of capillary blood glucose (SMBG)"
+   },
+   {
+    "text": "ability and willingness to self-inject insulin"
+   },
+   {
+    "text": "provision of informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "current use of insulin therapy"
+   },
+   {
+    "text": "history of hypoglycemia unawareness, or severe hypoglycemia requiring assistance"
+   },
+   {
+    "text": "renal dysfunction as evidenced by serum creatinine (Cr) ≥ 124 μmol/l"
+   },
+   {
+    "text": "history of lactic acidosis or diabetic ketoacidosis"
+   },
+   {
+    "text": "active liver disease or elevated alanine transferase (ALT) levels ≥ 2.5 times upper limit of normal at the time of enrollment"
+   },
+   {
+    "text": "history of inflammatory bowel disease, colonic ulcers, recent or significant bowel surgery, or predisposition to bowel obstruction"
+   },
+   {
+    "text": "cardiovascular disease including any of:",
+    "sub_items": [
+     "systolic blood pressure >180 mmHg or diastolic blood pressure >105 mmHg",
+     "peripheral vascular disease",
+     "left bundle branch block or third degree AV block",
+     "tachyarrhythmias or bradyarrhythmias with uncontrolled ventricular rate",
+     "stenotic valvular heart disease",
+     "cardiomyopathy",
+     "history of heart failure",
+     "history of aortic dissection",
+     "documented history of angina or coronary artery disease",
+     "history of stroke or transient ischemic attack"
+    ]
+   },
+   {
+    "text": "pulmonary disease with dependence on oxygen"
+   },
+   {
+    "text": "history of any disease requiring intermittent or continuous systemic glucocorticoid treatment"
+   },
+   {
+    "text": "history of any major illness with a life expectancy of <3 years"
+   },
+   {
+    "text": "history of injury or any other condition that significantly limits participant's ability to achieve moderate levels of physical activity"
+   },
+   {
+    "text": "any history of excessive alcohol intake, acute or chronic"
+   },
+   {
+    "text": "known hypersensitivity to metformin, acarbose, or insulin glargine."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

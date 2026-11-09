@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Zealand Pharma",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Zealand Pharma"
  },
  "collaborators": [
   "Profil Institut für Stoffwechselforschung GmbH"
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ZP7570",
    "other_names": [
     "GLP-1/GLP-2 agonist"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ZP7570",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: ZP7570"
-   ]
+   ],
+   "label": "ZP7570",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,23 +90,23 @@
  "brief_summary": "The trial is a Phase 1, single-centre, randomised and double-blind within cohorts, placebo-controlled, sequential multiple ascending dose trial including three cohorts in Part 1 in a semi-parallel design and one cohort in Part 2 in overweight and obese but otherwise healthy subjects, randomised to ZP7570 or placebo within each cohort where the observational period is 18 weeks for Part 1 and 28 weeks for Part 2. All subjects will be dosed for 13 weeks in Part 1 and for 28 weeks in Part 2 with ascending weekly doses of ZP7570 at dose levels with corresponding volume of placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age between 18 and 64 years, both inclusive.\n* Body Mass Index (BMI) between 27.0 and 39.9 kg/m\\^2, both inclusive.\n* In overall good health according to age (medical history, physical and neurological examination, vital signs, and laboratory assessments), as judged by the investigator at screening.\n\nExclusion Criteria:\n\n* History of gastrointestinal (GI) diseases including functional complaints that could interfere with the pharmacokinetics of the IMP or auxiliary medicinal product (acetaminophen) of the trial.\n* Any relevant abnormal renal parameters in the following ranges:\n\nSerum creatinine above UNL+10% or normalised estimated glomerular filtration rate (eGFR) below 60.0 l/min/1.73m2, as defined by CKD-EPI.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "64 Years",
   "healthy_volunteers": true,
+  "maximum_age": "64 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Profil Institut für Stoffwechselforschung GmbH",
    "city": "Neuss",
-   "state": "North Rhine-Westphalia",
    "country": "Germany",
-   "status": null,
+   "facility": "Profil Institut für Stoffwechselforschung GmbH",
    "lat": 51.19807,
-   "lon": 6.68504
+   "lon": 6.68504,
+   "state": "North Rhine-Westphalia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06000891",
@@ -118,6 +118,32 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age between 18 and 64 years, both inclusive."
+   },
+   {
+    "text": "Body Mass Index (BMI) between 27.0 and 39.9 kg/m^2, both inclusive."
+   },
+   {
+    "text": "In overall good health according to age (medical history, physical and neurological examination, vital signs, and laboratory assessments), as judged by the investigator at screening."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of gastrointestinal (GI) diseases including functional complaints that could interfere with the pharmacokinetics of the IMP or auxiliary medicinal product (acetaminophen) of the trial."
+   },
+   {
+    "text": "Any relevant abnormal renal parameters in the following ranges:"
+   },
+   {
+    "text": "Serum creatinine above UNL+10% or normalised estimated glomerular filtration rate (eGFR) below 60.0 l/min/1.73m2, as defined by CKD-EPI."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

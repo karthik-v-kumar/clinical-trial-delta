@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sun Yat-sen University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Sun Yat-sen University"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dorzagliatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Linagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dorzagliatin Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dorzagliatin"
-   ]
+   ],
+   "label": "Dorzagliatin Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Linagliptin Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Linagliptin"
-   ]
+   ],
+   "label": "Linagliptin Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This study aims to evaluate whether dorzagliatin can improve glycemic homeostasis in patients with type 2 diabetes mellitus (T2DM) complicated by chronic renal insufficiency, and to compare the efficacy of dorzagliatin with linagliptin in improving glycemic control in patients with T2DM and moderate to severe chronic renal insufficiency (estimated glomerular filtration rate \\[eGFR\\] \\<45 mL/min/1.73 m²).\n\nThis is a prospective, randomized, active-controlled, multicenter clinical study planned to enroll 206 eligible patients. After successful screening, patients will enter a 2-week run-in period consisting of diet and exercise control together with continuous glucose monitoring (CGM). Eligible patients will then be randomized to receive dorzagliatin 75 mg twice daily (BID) or linagliptin 5 mg once daily (QD) on top of background antihyperglycemic therapy. Basal insulin therapy will be standardized to insulin glargine U300 after treatment initiation. The treatment period will last 14 weeks, followed by a 1-week safety follow-up period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Aged 18 to 80 years.\n2. Diagnosed with type 2 diabetes mellitus according to the 2026 American Diabetes Association (ADA) criteria or the 2024 Chinese Guidelines for the Prevention and Treatment of Diabetes.\n3. Diagnosed with chronic renal insufficiency, with eGFR \\<45 mL/min/1.73 m² calculated using the Modification of Diet in Renal Disease (MDRD) equation, and not receiving maintenance dialysis.\n4. HbA1c between 7.0% and 9.0%.\n5. Receiving a stable antihyperglycemic treatment regimen for at least 4 weeks prior to enrollment. The regimen should include basal insulin injection (excluding insulin-incretin combination preparations) and 0 to 2 oral antidiabetic drugs. Oral antidiabetic drugs are limited to metformin, SGLT2 inhibitors, alpha-glucosidase inhibitors, meglitinides, and TZDs.\n6. Written informed consent provided.\n\nExclusion Criteria:\n\n1. Type 1 diabetes mellitus, latent autoimmune diabetes in adults (LADA), or other specific types of diabetes.\n2. Diabetic ketoacidosis or hyperosmolar hyperglycemic state within the past 3 months.\n3. Active liver disease (ALT/AST \\>3 × ULN) or liver cirrhosis (Child-Pugh class B or above).\n4. Severe heart failure (NYHA class III-IV) or a history of acute coronary syndrome or stroke within the past 6 months.\n5. Malignancy or life expectancy \\<6 months.\n6. Pregnant or lactating women, or women of childbearing potential not using effective contraception.\n7. Known allergy to dorzagliatin or any of its components.\n8. Known allergy to linagliptin or any of its components.\n9. Current participation in another interventional clinical trial.\n10. Mental illness or cognitive impairment preventing compliance with study follow-up.\n11. Severe gastrointestinal disease affecting drug absorption.\n12. Current use of strong CYP3A4 inducers (e.g., rifampicin) or inhibitors (e.g., ketoconazole) that cannot be discontinued.\n13. Severe hypertriglyceridemia (\\>5.7 mmol/L).\n14. Dialysis for acute renal failure within 3 months before run-in, current dialysis, or need for/planned kidney transplantation within 12 months.\n15. Use of corticosteroids or immunosuppressants within the past 6 months.\n16. Current use of incretin-based therapies.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "The First Affiliated Hospital, Sun Yat-sen University",
    "city": "Guangzhou",
-   "state": "Guangdong",
    "country": "China",
-   "status": null,
+   "facility": "The First Affiliated Hospital, Sun Yat-sen University",
    "lat": 23.11667,
-   "lon": 113.25
+   "lon": 113.25,
+   "state": "Guangdong",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07786571",
@@ -115,6 +115,80 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Aged 18 to 80 years."
+   },
+   {
+    "text": "Diagnosed with type 2 diabetes mellitus according to the 2026 American Diabetes Association (ADA) criteria or the 2024 Chinese Guidelines for the Prevention and Treatment of Diabetes."
+   },
+   {
+    "text": "Diagnosed with chronic renal insufficiency, with eGFR <45 mL/min/1.73 m² calculated using the Modification of Diet in Renal Disease (MDRD) equation, and not receiving maintenance dialysis."
+   },
+   {
+    "text": "HbA1c between 7.0% and 9.0%."
+   },
+   {
+    "text": "Receiving a stable antihyperglycemic treatment regimen for at least 4 weeks prior to enrollment. The regimen should include basal insulin injection (excluding insulin-incretin combination preparations) and 0 to 2 oral antidiabetic drugs. Oral antidiabetic drugs are limited to metformin, SGLT2 inhibitors, alpha-glucosidase inhibitors, meglitinides, and TZDs."
+   },
+   {
+    "text": "Written informed consent provided."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus, latent autoimmune diabetes in adults (LADA), or other specific types of diabetes."
+   },
+   {
+    "text": "Diabetic ketoacidosis or hyperosmolar hyperglycemic state within the past 3 months."
+   },
+   {
+    "text": "Active liver disease (ALT/AST >3 × ULN) or liver cirrhosis (Child-Pugh class B or above)."
+   },
+   {
+    "text": "Severe heart failure (NYHA class III-IV) or a history of acute coronary syndrome or stroke within the past 6 months."
+   },
+   {
+    "text": "Malignancy or life expectancy <6 months."
+   },
+   {
+    "text": "Pregnant or lactating women, or women of childbearing potential not using effective contraception."
+   },
+   {
+    "text": "Known allergy to dorzagliatin or any of its components."
+   },
+   {
+    "text": "Known allergy to linagliptin or any of its components."
+   },
+   {
+    "text": "Current participation in another interventional clinical trial."
+   },
+   {
+    "text": "Mental illness or cognitive impairment preventing compliance with study follow-up."
+   },
+   {
+    "text": "Severe gastrointestinal disease affecting drug absorption."
+   },
+   {
+    "text": "Current use of strong CYP3A4 inducers (e.g., rifampicin) or inhibitors (e.g., ketoconazole) that cannot be discontinued."
+   },
+   {
+    "text": "Severe hypertriglyceridemia (>5.7 mmol/L)."
+   },
+   {
+    "text": "Dialysis for acute renal failure within 3 months before run-in, current dialysis, or need for/planned kidney transplantation within 12 months."
+   },
+   {
+    "text": "Use of corticosteroids or immunosuppressants within the past 6 months."
+   },
+   {
+    "text": "Current use of incretin-based therapies."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

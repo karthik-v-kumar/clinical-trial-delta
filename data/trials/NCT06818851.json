@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "QUADRUPLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Xinhua Hospital, Shanghai Jiao Tong University School of Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Xinhua Hospital, Shanghai Jiao Tong University School of Medicine"
  },
  "collaborators": [
   "Jiangsu Hengrui Pharmaceutical Co., Ltd."
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Henggliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Henggliflozin"
-   ]
+   ],
+   "label": "Experimental Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control Group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Control Group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The goal of this clinical trial is to learn if SGLT2 inhibitor Henggliflozin works to improve glucose variability in type 2 diabetes and if Henggliflozin can benefit immunosenescence.\n\nThe main questions it aims to answer are:\n\nDoes Henggliflozin as an add on treatment works to improve blood glucose fluctuation in type 2 diabetes? Does Henggliflozin has extra benefits like improve immunosenescence beyond hypoglycemic effects? Researchers will compare Henggliflozin to a placebo to see if Henggliflozin can improve glucose variability and immunosenescence.\n\nParticipants will:\n\nTake Henggliflozin or a placebo every day for 16 weeks. Receive weekly follow-up calls to guide them in adjusting their insulin doses. Return for an on-site visit at 4 weeks and 16 weeks. Take a continuous glucose monitoring (CGM) for 7 days at the Visit 1 and at the end of the study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed with type 2 diabetes mellitus (T2DM) for at least 6 months based on the 1999 WHO criteria.\n\n  * Age between 50 and 70 years at the time of signing the informed consent form (inclusive).\n  * Poor glycemic control despite treatment with basal insulin or insulin degludec/aspart (with or without oral antidiabetic drugs) within the 3 months prior to screening.\n  * HbA1c level above 8%.\n  * BMI ≥ 20 kg/m².\n  * C-peptide levels within the normal reference range.\n  * Able to maintain stable dietary and exercise habits during the study.\n  * Capable of understanding the study procedures and methods, willing to strictly comply with the clinical trial protocol, and voluntarily sign the informed consent form.\n\nExclusion Criteria:\n\n* Patients considered by the investigator to have potential allergies to the components of the study drug or drugs of the same class.\n\n  * Use of SGLT2 inhibitors or GLP-1 receptor agonists within 3 months prior to screening.\n  * Adjustments to antidiabetic treatment regimens within 3 months prior to screening.\n  * Hospitalization due to acute coronary syndrome (ST-segment elevation myocardial infarction, non-ST-segment elevation myocardial infarction, or unstable angina), percutaneous coronary intervention, or cardiac surgery within 30 days prior to the screening visit.\n  * Volume depletion.\n  * Chronic (\\>2 weeks) systemic glucocorticoid therapy or use of glucocorticoids within 4 weeks prior to screening (except for topical, intraocular, intranasal, or inhaled administration).\n  * Pregnancy, lactation, or plans for pregnancy within the next 6 months.\n  * Persistently elevated serum transaminase levels (more than 3 times the upper limit of normal).\n  * Renal impairment (estimated glomerular filtration rate \\[eGFR\\] \\< 45 mL/min/1.73 m²).\n  * History of malignant tumors.\n  * Presence of acute complications (e.g., ketoacidosis, diabetic ketoacidosis, lactic acidosis, or hyperosmolar coma).\n  * Systemic autoimmune diseases, such as systemic lupus erythematosus.\n  * Clinically significant urinary tract infections and/or genital infections, or a history of recurrent urinary tract and/or genital infections.\n  * Any other factors deemed by the investigator to potentially affect the efficacy or safety evaluation of the study.\n  * Participation in other clinical trials and receipt of investigational drugs within 3 months prior to screening.",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Shanghai Jiaotong University School of Medicine, Xinhua Hospital",
    "city": "Shanghai",
-   "state": "Shanghai Municipality",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Shanghai Jiaotong University School of Medicine, Xinhua Hospital",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": "Shanghai Municipality",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06818851",
@@ -119,6 +119,45 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosed with type 2 diabetes mellitus (T2DM) for at least 6 months based on the 1999 WHO criteria.",
+    "sub_items": [
+     "Age between 50 and 70 years at the time of signing the informed consent form (inclusive).",
+     "Poor glycemic control despite treatment with basal insulin or insulin degludec/aspart (with or without oral antidiabetic drugs) within the 3 months prior to screening.",
+     "HbA1c level above 8%.",
+     "BMI ≥ 20 kg/m².",
+     "C-peptide levels within the normal reference range.",
+     "Able to maintain stable dietary and exercise habits during the study.",
+     "Capable of understanding the study procedures and methods, willing to strictly comply with the clinical trial protocol, and voluntarily sign the informed consent form."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients considered by the investigator to have potential allergies to the components of the study drug or drugs of the same class.",
+    "sub_items": [
+     "Use of SGLT2 inhibitors or GLP-1 receptor agonists within 3 months prior to screening.",
+     "Adjustments to antidiabetic treatment regimens within 3 months prior to screening.",
+     "Hospitalization due to acute coronary syndrome (ST-segment elevation myocardial infarction, non-ST-segment elevation myocardial infarction, or unstable angina), percutaneous coronary intervention, or cardiac surgery within 30 days prior to the screening visit.",
+     "Volume depletion.",
+     "Chronic (>2 weeks) systemic glucocorticoid therapy or use of glucocorticoids within 4 weeks prior to screening (except for topical, intraocular, intranasal, or inhaled administration).",
+     "Pregnancy, lactation, or plans for pregnancy within the next 6 months.",
+     "Persistently elevated serum transaminase levels (more than 3 times the upper limit of normal).",
+     "Renal impairment (estimated glomerular filtration rate [eGFR] < 45 mL/min/1.73 m²).",
+     "History of malignant tumors.",
+     "Presence of acute complications (e.g., ketoacidosis, diabetic ketoacidosis, lactic acidosis, or hyperosmolar coma).",
+     "Systemic autoimmune diseases, such as systemic lupus erythematosus.",
+     "Clinically significant urinary tract infections and/or genital infections, or a history of recurrent urinary tract and/or genital infections.",
+     "Any other factors deemed by the investigator to potentially affect the efficacy or safety evaluation of the study.",
+     "Participation in other clinical trials and receipt of investigational drugs within 3 months prior to screening."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Kyu Chang Won",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Kyu Chang Won"
  },
  "collaborators": [
   "Boryung Pharmaceutical Co., Ltd",
@@ -57,36 +57,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dual-combination therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Triple-combination therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DEVICE",
    "name": "Dexcom G7, Pasta",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Standard treatment arm (HbA1c 7.0% target)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dual-combination therapy"
-   ]
+   ],
+   "label": "Standard treatment arm (HbA1c 7.0% target)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Intensive treatment arm (HbA1c 6.0% target): plus real-time CGM",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Triple-combination therapy",
     "Device: Dexcom G7, Pasta"
-   ]
+   ],
+   "label": "Intensive treatment arm (HbA1c 6.0% target): plus real-time CGM",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "Glycemic control is a mainstay of diabetes management to reduce the risk of microvascular complications and cardiovascular outcomes in people with type 2 diabetes (T2D). However, intensive control to near-normal glycated hemoglobin (HbA1c) yielded complex results in previous landmark trials. Potential risks of intensive glycemic control, such as hypoglycemia and weight gain, may partly contributed to the possible harms associated with this approach. Recent advances in diabetes management with development of newer antidiabetic drugs which minimize possible harms of intensive glycemic control as well as reduce cardiorenal risks enabled safer glycemic reduction. Thus, this randomized trial aims to evaluate the effects of near normalization of HbA1c with novel approaches on microvascular complications and cardiovascular outcomes in people with T2D.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. ≥19 years of age\n2. Patient agreed to participate in the study and signed a written informed consent form\n3. Type 2 diabetes (ADA criteria)\n4. HbA1c≥7.0% and \\&lt;10.0% in patients receiving monotherapy, dual-combination therapy, or triple-combination therapy (when the submaximal dose was administered) with oral antidiabetic drugs (OADs)\n5. Any of the following:\n\nA. Patients who one or more of the following conditions\n\n1. Coronary artery disease\n2. Atherosclerotic ischemic stroke, transient ischemic attack, carotid artery disease, peripheral artery disease, abdominal aortic aneurysm\n3. Prevalence of diabetes ≥10 years\n4. Left ventricular hypertrophy\n5. Albuminuria\n6. Chronic kidney disease (eGFR\\&lt;60mL/min/1.73m²)\n7. Diabetic Retinopathy\n8. Diabetic neuropathy or B. Patients who have two or more of the following cardiovascular risk factors\n\n(1) Family history of early-onset ASCVD (first-degree relatives with disease before age 55 for men and before age 65 for women) (2) Hypertension (on medication or with SBP≥140 mm Hg or DBP≥90 mm Hg) (3) Low HDL cholesterol concentration (\\&lt;40 mg/dL) (4) Current smoker (5) Obese (BMI≥25 kg/m²)\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. Estimated GFR\\&lt;45 ml/min/1.73m²\n3. AST or ALT greater than 3 times the normal upper limit\n4. Symptomatic heart failure (NYHA Class III or IV)\n5. History of hospitalization for acute cardiovascular events within 3 months prior to the date of consent\n6. Currently in active treatment for malignancy\n7. Contraindications for each assigned drug, as applicable\n8. Pregnant and nursing women\n9. If the investigator determines that assignment to the standard glycemic control arm raises ethical concerns",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,22 +109,22 @@
  },
  "sites": [
   {
-   "facility": "Yeungnam University Medical Center",
    "city": "Daegu",
-   "state": null,
    "country": "South Korea",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Yeungnam University Medical Center",
    "lat": 35.87102,
-   "lon": 128.60121
+   "lon": 128.60121,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   },
   {
-   "facility": "Korea University Anam Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Korea University Anam Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06627322",
@@ -136,6 +136,86 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "≥19 years of age"
+   },
+   {
+    "text": "Patient agreed to participate in the study and signed a written informed consent form"
+   },
+   {
+    "text": "Type 2 diabetes (ADA criteria)"
+   },
+   {
+    "text": "HbA1c≥7.0% and &lt;10.0% in patients receiving monotherapy, dual-combination therapy, or triple-combination therapy (when the submaximal dose was administered) with oral antidiabetic drugs (OADs)"
+   },
+   {
+    "text": "Any of the following:",
+    "sub_items": [
+     "Patients who one or more of the following conditions"
+    ]
+   },
+   {
+    "text": "Coronary artery disease"
+   },
+   {
+    "text": "Atherosclerotic ischemic stroke, transient ischemic attack, carotid artery disease, peripheral artery disease, abdominal aortic aneurysm"
+   },
+   {
+    "text": "Prevalence of diabetes ≥10 years"
+   },
+   {
+    "text": "Left ventricular hypertrophy"
+   },
+   {
+    "text": "Albuminuria"
+   },
+   {
+    "text": "Chronic kidney disease (eGFR&lt;60mL/min/1.73m²)"
+   },
+   {
+    "text": "Diabetic Retinopathy"
+   },
+   {
+    "text": "Diabetic neuropathy or B. Patients who have two or more of the following cardiovascular risk factors"
+   },
+   {
+    "text": "Family history of early-onset ASCVD (first-degree relatives with disease before age 55 for men and before age 65 for women) (2) Hypertension (on medication or with SBP≥140 mm Hg or DBP≥90 mm Hg) (3) Low HDL cholesterol concentration (&lt;40 mg/dL) (4) Current smoker (5) Obese (BMI≥25 kg/m²)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Estimated GFR&lt;45 ml/min/1.73m²"
+   },
+   {
+    "text": "AST or ALT greater than 3 times the normal upper limit"
+   },
+   {
+    "text": "Symptomatic heart failure (NYHA Class III or IV)"
+   },
+   {
+    "text": "History of hospitalization for acute cardiovascular events within 3 months prior to the date of consent"
+   },
+   {
+    "text": "Currently in active treatment for malignancy"
+   },
+   {
+    "text": "Contraindications for each assigned drug, as applicable"
+   },
+   {
+    "text": "Pregnant and nursing women"
+   },
+   {
+    "text": "If the investigator determines that assignment to the standard glycemic control arm raises ethical concerns"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

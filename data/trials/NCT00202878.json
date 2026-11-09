@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2015-09-30",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [],
  "conditions": [
@@ -53,48 +53,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ezetimibe/simvastatin",
    "other_names": [
     "Vytorin",
     "Inegy"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "simvastatin",
    "other_names": [
     "Zocor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for simvastatin 40 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for ezetimibe 10 mg/simvastatin 40 mg combination",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ezetimibe/simvastatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ezetimibe/simvastatin",
     "Drug: Placebo for simvastatin 40 mg"
-   ]
+   ],
+   "label": "ezetimibe/simvastatin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "simvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: simvastatin",
     "Drug: Placebo for simvastatin 40 mg",
     "Drug: Placebo for ezetimibe 10 mg/simvastatin 40 mg combination"
-   ]
+   ],
+   "label": "simvastatin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "This is a randomized, active-control, double-blind study of subjects with stabilized high-risk acute coronary syndrome (ACS). The primary objective is to evaluate the clinical benefit of Ezetimibe/Simvastatin Combination 10/40 (single tablet, under the brand VYTORIN in the United States) compared with Simvastatin 40 mg. As per the original protocol, if low-density lipoprotein cholesterol (LDL-C) response was inadequate, the dose of simvastatin in the VYTORIN arm or simvastatin arm, could be increased to 80 mg (Note: per June 2011 protocol amendment, criteria for continued use of 80 mg simvastatin were modified and new increases of simvastatin dose to 80 mg were stopped). Clinical benefit will be defined as the reduction in the risk of the occurrence of the composite endpoint of cardiovascular (CV) death, major coronary events, and stroke.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Clinically stable participants may be eligible to enroll within 10 days following hospital admission with high-risk acute coronary syndrome (either ST-elevation myocardial infarction \\[STEMI\\] or Non-STEMI or unstable angina)\n* Participants not taking a statin must have an LDL-C of 125 mg/dl or less. Participants taking a statin must have an LDL-C of 100 mg/dl or less.\n\nExclusion Criteria:\n\n* Pregnant or lactating woman, or intending to become pregnant\n* Participant with active liver disease or persistent unexplained serum transaminase elevation\n* History of alcohol or drug abuse\n* History of sensitivity to statin or ezetimibe\n* A participant for whom discontinuation of existing lipid lowering regimen poses an unacceptable risk.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -125,6 +125,35 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Clinically stable participants may be eligible to enroll within 10 days following hospital admission with high-risk acute coronary syndrome (either ST-elevation myocardial infarction [STEMI] or Non-STEMI or unstable angina)"
+   },
+   {
+    "text": "Participants not taking a statin must have an LDL-C of 125 mg/dl or less. Participants taking a statin must have an LDL-C of 100 mg/dl or less."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant or lactating woman, or intending to become pregnant"
+   },
+   {
+    "text": "Participant with active liver disease or persistent unexplained serum transaminase elevation"
+   },
+   {
+    "text": "History of alcohol or drug abuse"
+   },
+   {
+    "text": "History of sensitivity to statin or ezetimibe"
+   },
+   {
+    "text": "A participant for whom discontinuation of existing lipid lowering regimen poses an unacceptable risk."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Castilla-La Mancha",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Castilla-La Mancha"
  },
  "collaborators": [
   "Ministerio de Economía y Competitividad, Spain",
@@ -60,32 +60,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "EXERCISE TRAINING WITH OR WITHOUT MEDICATION",
    "other_names": [
     "Exercise timing with respect to medication (metformin, statins, ARAII/ACEI)"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "NO EXERCISE TRAINING",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
+   "intervention_names": [
+    "Drug: EXERCISE TRAINING WITH OR WITHOUT MEDICATION"
+   ],
    "label": "EXERCISE TRAINING FED",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: EXERCISE TRAINING WITH OR WITHOUT MEDICATION"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "EXERCISE TRAINING FASTED",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: EXERCISE TRAINING WITH OR WITHOUT MEDICATION"
-   ]
+   ],
+   "label": "EXERCISE TRAINING FASTED",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "To analyze the effects of altering the time of ingestion of participants' habitual medication (i.e., metformin, statins, ARAII/IACE) and meals around the time of exercise training (exercise fasted or fed) on the improvement of metabolic syndrome factors (hypertension, insulin sensitivity, dyslipidemia, and obesity). There will be a preliminary study of the effects of training \"time-of-day\" on the primary study outcomes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Metabolic syndrome patients diagnosed according to The International diabetes federation consensus of 2009 (Alberti, et al., Circulation).\n\nExclusion Criteria:\n\n* Cardiovascular disease or musculo-skeletal that prevents them from being able to perform intense exercise.\n\n  * Respiratory failure\n  * Liver o renal disease\n  * Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,13 +120,13 @@
  },
  "sites": [
   {
-   "facility": "University of Castilla-La Mancha (Exercise Physiology Lab)",
    "city": "Toledo",
-   "state": null,
    "country": "Spain",
-   "status": "RECRUITING",
+   "facility": "University of Castilla-La Mancha (Exercise Physiology Lab)",
    "lat": 39.8581,
-   "lon": -4.02263
+   "lon": -4.02263,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04477590",
@@ -138,6 +138,25 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Metabolic syndrome patients diagnosed according to The International diabetes federation consensus of 2009 (Alberti, et al., Circulation)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Cardiovascular disease or musculo-skeletal that prevents them from being able to perform intense exercise.",
+    "sub_items": [
+     "Respiratory failure",
+     "Liver o renal disease",
+     "Pregnancy"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

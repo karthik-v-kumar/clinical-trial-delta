@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Kangbuk Samsung Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Kangbuk Samsung Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,25 +48,25 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "FreeStyle Libre 2 Continuous Glucose Monitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Periodic CGM Use",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: FreeStyle Libre 2 Continuous Glucose Monitoring"
-   ]
+   ],
+   "label": "Periodic CGM Use",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Continuous CGM Use",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: FreeStyle Libre 2 Continuous Glucose Monitoring"
-   ]
+   ],
+   "label": "Continuous CGM Use",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "The goal of this clinical trial is to test whether wearing a continuous glucose monitor (CGM) part-time works as well as wearing it full-time in adults with type 2 diabetes who do not use insulin. The main questions it aims to answer are:\n\n* Does wearing CGM part-time (2 weeks per month) control blood sugar as well as wearing it continuously?\n* How do the two wearing patterns compare for blood sugar levels throughout the day, weight, blood pressure, and patient satisfaction?\n\nResearchers will compare part-time CGM use to continuous CGM use to see if part-time use is just as effective for blood sugar control.\n\nAll participants will:\n\n* Wear a CGM device continuously for 3 months to learn how their blood sugar responds to different foods and activities\n* Then be randomly assigned to wear CGM either part-time (2 weeks each month) or continuously for another 3 months\n* Replace the CGM sensor on their arm every 2 weeks\n* Use a smartphone app to track their blood sugar readings\n* Visit the clinic 3 times for blood tests and check-ups\n* Receive education on adjusting diet based on their CGM readings\n* Keep their current diabetes medications unchanged during the study\n\nThe study will last about 6 months total. Participants will use the FreeStyle Libre 2 CGM device, which is already approved for use in people with diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults aged 19 to 80 years at the time of informed consent\n* Adults with type 2 diabetes not using insulin\n* Patients treated with GLP-1 agonist, oral hypoglycemic agents, and/or lifestyle modifications\n* Patients who have maintained stable diabetes treatment for at least 3 months without changes\n* HbA1c between 7.5% and 10.0%\n* Willing to wear personal continuous glucose monitoring device (CGM)\n* Willing to install and use CGM-linked app on personal smartphone with continuous access to WIFI or cellular data\n* Able to read and write Korean as judged by investigator\n* Willing to use medically acceptable contraception until end of study (sterile status, intrauterine device, or concurrent use of male/female barrier method with spermicide)\n* Fully informed about the clinical trial and voluntarily consenting to participate\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus\n* Gestational diabetes mellitus\n* History of pancreatectomy\n* Continuous or intermittent insulin therapy for 7 days or more within 3 months\n* Oral or IV steroid treatment within 1 month prior to informed consent\n* Serious infection, surgery (scheduled or history), or severe trauma within 3 months prior to informed consent\n* History of malignancy within 1 year prior to informed consent (except thyroid cancer)\n* On hemodialysis or peritoneal dialysis or eGFR \\< 30 mL/min/1.73m2\n* Unable to avoid the following concomitant medications, devices, or treatments during the study: CGM other than study device, X-ray/MRI/CT scans, radiofrequency thermal therapy, implantable devices such as pacemakers, immunosuppressants, steroids, IV vitamin preparations, cancer treatment, hemodialysis/peritoneal dialysis, insulin therapy\n* Uncontrolled thyroid disease or clinically significant severe endocrine disorders (Cushing's syndrome, pheochromocytoma, etc.)\n* Severe allergic reaction to skin adhesives (e.g., dyspnea, severe rash, edema)\n* Whole blood donation within 60 days, apheresis within 30 days, or blood transfusion within 90 days prior to device application\n* Judged by investigator as unable to handle continuous glucose monitoring device\n* Pregnant or lactating women\n* Planning pregnancy within 1 year\n* Otherwise judged by investigator as inappropriate for participation in this clinical trial",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "Kangbuk Samsung Hospital",
    "city": "Seoul",
-   "state": "South Korea",
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Kangbuk Samsung Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": "South Korea",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07336329",
@@ -107,6 +107,92 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults aged 19 to 80 years at the time of informed consent"
+   },
+   {
+    "text": "Adults with type 2 diabetes not using insulin"
+   },
+   {
+    "text": "Patients treated with GLP-1 agonist, oral hypoglycemic agents, and/or lifestyle modifications"
+   },
+   {
+    "text": "Patients who have maintained stable diabetes treatment for at least 3 months without changes"
+   },
+   {
+    "text": "HbA1c between 7.5% and 10.0%"
+   },
+   {
+    "text": "Willing to wear personal continuous glucose monitoring device (CGM)"
+   },
+   {
+    "text": "Willing to install and use CGM-linked app on personal smartphone with continuous access to WIFI or cellular data"
+   },
+   {
+    "text": "Able to read and write Korean as judged by investigator"
+   },
+   {
+    "text": "Willing to use medically acceptable contraception until end of study (sterile status, intrauterine device, or concurrent use of male/female barrier method with spermicide)"
+   },
+   {
+    "text": "Fully informed about the clinical trial and voluntarily consenting to participate"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus"
+   },
+   {
+    "text": "Gestational diabetes mellitus"
+   },
+   {
+    "text": "History of pancreatectomy"
+   },
+   {
+    "text": "Continuous or intermittent insulin therapy for 7 days or more within 3 months"
+   },
+   {
+    "text": "Oral or IV steroid treatment within 1 month prior to informed consent"
+   },
+   {
+    "text": "Serious infection, surgery (scheduled or history), or severe trauma within 3 months prior to informed consent"
+   },
+   {
+    "text": "History of malignancy within 1 year prior to informed consent (except thyroid cancer)"
+   },
+   {
+    "text": "On hemodialysis or peritoneal dialysis or eGFR < 30 mL/min/1.73m2"
+   },
+   {
+    "text": "Unable to avoid the following concomitant medications, devices, or treatments during the study: CGM other than study device, X-ray/MRI/CT scans, radiofrequency thermal therapy, implantable devices such as pacemakers, immunosuppressants, steroids, IV vitamin preparations, cancer treatment, hemodialysis/peritoneal dialysis, insulin therapy"
+   },
+   {
+    "text": "Uncontrolled thyroid disease or clinically significant severe endocrine disorders (Cushing's syndrome, pheochromocytoma, etc.)"
+   },
+   {
+    "text": "Severe allergic reaction to skin adhesives (e.g., dyspnea, severe rash, edema)"
+   },
+   {
+    "text": "Whole blood donation within 60 days, apheresis within 30 days, or blood transfusion within 90 days prior to device application"
+   },
+   {
+    "text": "Judged by investigator as unable to handle continuous glucose monitoring device"
+   },
+   {
+    "text": "Pregnant or lactating women"
+   },
+   {
+    "text": "Planning pregnancy within 1 year"
+   },
+   {
+    "text": "Otherwise judged by investigator as inappropriate for participation in this clinical trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

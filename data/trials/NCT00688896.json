@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shionogi Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Shionogi Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "JTT-705 600 mg and pravastatin 40 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "JTT-705 300 mg and pravastatin 40 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo and pravastatin 40 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: JTT-705 600 mg and pravastatin 40 mg"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: JTT-705 300 mg and pravastatin 40 mg"
-   ]
+   ],
+   "label": "2",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "3",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo and pravastatin 40 mg"
-   ]
+   ],
+   "label": "3",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effect of two dose levels of JTT-705 when co-administered with pravastatin 40 mg on HDL-C and LDL-C and the inhibition rate of CETP activity and to document short term safety.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients having lipid values as indicated below:\n* HDL-C less than 1.6 mmol/L (60 mg/dL)\n* TG less than 4.5 mmol/L (400 mg/dL)\n* LDL more than 4.0 mmol/L (160 mg/dL)\n* Patients with CHD or CHD risk equivalent\n* Male and females between 18 and 65 years of age (female patients must be post-menopausal, surgically sterile or using an acceptable form of contraception)\n\nExclusion Criteria:\n\n* Body Mass Index of ≥ 35 kg/m2\n* Females that are pregnant or breast-feeding, and females of child bearing potential who are not using an effective method of contraception\n* Concomitant use of medications identified in the protocol",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Amsterdam",
-   "state": "Amsterdam",
    "country": "Netherlands",
-   "status": null,
+   "facility": null,
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": "Amsterdam",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00688896",
@@ -129,6 +129,41 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients having lipid values as indicated below:"
+   },
+   {
+    "text": "HDL-C less than 1.6 mmol/L (60 mg/dL)"
+   },
+   {
+    "text": "TG less than 4.5 mmol/L (400 mg/dL)"
+   },
+   {
+    "text": "LDL more than 4.0 mmol/L (160 mg/dL)"
+   },
+   {
+    "text": "Patients with CHD or CHD risk equivalent"
+   },
+   {
+    "text": "Male and females between 18 and 65 years of age (female patients must be post-menopausal, surgically sterile or using an acceptable form of contraception)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Body Mass Index of ≥ 35 kg/m2"
+   },
+   {
+    "text": "Females that are pregnant or breast-feeding, and females of child bearing potential who are not using an effective method of contraception"
+   },
+   {
+    "text": "Concomitant use of medications identified in the protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Medical Centre Ljubljana",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Medical Centre Ljubljana"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Treatment with tirzapatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Treatment with placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Trizepatide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Treatment with tirzapatide"
-   ]
+   ],
+   "label": "Trizepatide",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Treatment with placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Several drugs have been shown effective in the treatment of obesity, with concomitant favourable cardiovascular effects. Today, there are no studies on novel anti-obesity drugs in patients with adult congenital heart disease (ACHD). Therefore, the investigators aim to study the effects of the anti-obesity drug tirzepatide (Munjaro) on cardiovascular and metabolic factors in obese patients with ACHD.\n\nIn a 24-week, randomized, open-label, placebo-controlled clinical trial the investigators will compare the effects of tirzepatide versus placebo in ACHD patients diagnosed with obesity. Patients will be randomized in a 1:1 ratio to either the intervention or placebo group. Participants will have monthly visits to monitor progress. At the beginning and end of the study, a full investigation protocol will be performed.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Obese or overweight adult patients with congenital heart disease\n* BMI between 30 kg/m² and 40 kg/m²\n* Prior comprehensive non-pharmacological and non-surgical management of obesity, including a history of at least 12 months of intensive lifestyle intervention with a maximum weight reduction of less than 5%\n* Stable body weight within the three months preceding study enrollment (defined as weight fluctuations within 5%)\n* No prior pharmacological or surgical interventions for obesity\n* Euthyroid state\n* Eumenorrhea or oligomenorrhea\n* Ability to comprehend the study objectives and procedures\n* Willingness to provide informed consent and to comply with the study protocol, including the use of highly effective contraception during the study period, with signed consent and agreement provided in duplicate\n* Commitment to use highly reliable contraception and absence of plans for pregnancy within the 8 months following enrollment.\n\nExclusion Criteria:\n\n* Down syndrome\n* Type 2 diabetes\n* Severe heart failure (NYHA IV), EF of systemic or subpulmonary ventricle \\< 30%, malignant arrhythmias, severe heart valve disease\n* Personal history of malignancy, personal or family history of medullary thyroid carcinoma\n* Personal history of pancreatitis or cholelithiasis\n* Personal history of acute coronary events or hemodynamically significant coronary artery disease\n* Current treatment with sympathomimetics or sympatholytic\n* Psychiatric disorders, personal history of depressive disorders or suicidal ideation\n* Pregnancy or lactation, postmenopausal, amenorrhea, reliance on natural contraception methods\n* Excessive alcohol consumption\n* Smoking",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,6 +114,77 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Obese or overweight adult patients with congenital heart disease"
+   },
+   {
+    "text": "BMI between 30 kg/m² and 40 kg/m²"
+   },
+   {
+    "text": "Prior comprehensive non-pharmacological and non-surgical management of obesity, including a history of at least 12 months of intensive lifestyle intervention with a maximum weight reduction of less than 5%"
+   },
+   {
+    "text": "Stable body weight within the three months preceding study enrollment (defined as weight fluctuations within 5%)"
+   },
+   {
+    "text": "No prior pharmacological or surgical interventions for obesity"
+   },
+   {
+    "text": "Euthyroid state"
+   },
+   {
+    "text": "Eumenorrhea or oligomenorrhea"
+   },
+   {
+    "text": "Ability to comprehend the study objectives and procedures"
+   },
+   {
+    "text": "Willingness to provide informed consent and to comply with the study protocol, including the use of highly effective contraception during the study period, with signed consent and agreement provided in duplicate"
+   },
+   {
+    "text": "Commitment to use highly reliable contraception and absence of plans for pregnancy within the 8 months following enrollment."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Down syndrome"
+   },
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Severe heart failure (NYHA IV), EF of systemic or subpulmonary ventricle < 30%, malignant arrhythmias, severe heart valve disease"
+   },
+   {
+    "text": "Personal history of malignancy, personal or family history of medullary thyroid carcinoma"
+   },
+   {
+    "text": "Personal history of pancreatitis or cholelithiasis"
+   },
+   {
+    "text": "Personal history of acute coronary events or hemodynamically significant coronary artery disease"
+   },
+   {
+    "text": "Current treatment with sympathomimetics or sympatholytic"
+   },
+   {
+    "text": "Psychiatric disorders, personal history of depressive disorders or suicidal ideation"
+   },
+   {
+    "text": "Pregnancy or lactation, postmenopausal, amenorrhea, reliance on natural contraception methods"
+   },
+   {
+    "text": "Excessive alcohol consumption"
+   },
+   {
+    "text": "Smoking"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

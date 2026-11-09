@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Assistance Publique - Hôpitaux de Paris",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Assistance Publique - Hôpitaux de Paris"
  },
  "collaborators": [],
  "conditions": [
@@ -49,25 +49,25 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Control Glucose Monitoring System",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Novel strategy",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Control Glucose Monitoring System"
-   ]
+   ],
+   "label": "Novel strategy",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Conventional strategy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Control Glucose Monitoring System"
-   ]
+   ],
+   "label": "Conventional strategy",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "The investigators hypothesize that the use of a continuous glucose monitoring system (CGMS) can reduce glycemic variability assessed by coefficient of variation (CV) during the acute phase of acute coronary syndrome (ACS) in patients with diabetes treated by insulin infusion.\n\nThe purpose of this project is to assess the impact of the use of CGMS on glycemic variability in diabetic patients with ACS .\n\nThis is a randomized, multicenter (2 centers), open study. The patients included, as soon as possible, after admission will be randomized before the beginning of insulin therapy with intravenous insulin .",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patient over 18 years old admitted to Cardiac Intensive Care Unit (CICU for acute coronary syndrome (ACS):\n\n   * ACS with STsegment elevation (STEMI), defined by thoracic pain of more than 30 minutes and sus-offset persist of the ST segment at ECG in two contiguous derivations.\n   * ACS without ST segment elevation (NSTEMI), defined by a significant elevation of the troponin (\\> 99th percentile) with one of the following signs:\n\n     * Symptoms of ischemia\n     * Recent modification of the ST or wave segment T to ECG\n     * Appearance of a wave q at ECG\n     * Loss of segmental viability of myocardial imaging\n     * intracoronal thrombus in angiography\n2. patient with type 2 diabetes (defined according to the American Diabetes Association (ADA) recommendations) known with:\n\n   * be a hyperglycemia\\> 180 mg / dl to admission that requires intravenous insulin therapy\n   * Either chronic insulin treatment before admission\n3. Patient who has not yet received insulin therapy with intravenous insulin since admission\n4. Signed informed consent\n5. oral and written comprehension of the French language\n\nExclusion Criteria:\n\n1. Patient with hemodynamic instability (shock, catecholamine use, mechanical ventilation, circulatory assistance ...)\n2. Patient admitted to the CICU since more than 24 hours\n3. Patient requiring Corticotherapy\n4. patient with type 1 diabetes (defined according to the ADA recommendations)\n5. Needs to perform MRI during CICU stay\n6. Pregnancy or breastfeeding\n7. patient under legal protection\n8. Patient with no social security\n9. Patient participating in another interventional research",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "facility": "Lariboisière Hospital",
    "city": "Paris",
-   "state": "Île-de-France Region",
    "country": "France",
-   "status": null,
+   "facility": "Lariboisière Hospital",
    "lat": 48.85341,
-   "lon": 2.3488
+   "lon": 2.3488,
+   "state": "Île-de-France Region",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04822740",
@@ -108,6 +108,69 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient over 18 years old admitted to Cardiac Intensive Care Unit (CICU for acute coronary syndrome (ACS):",
+    "sub_items": [
+     "ACS with STsegment elevation (STEMI), defined by thoracic pain of more than 30 minutes and sus-offset persist of the ST segment at ECG in two contiguous derivations.",
+     "ACS without ST segment elevation (NSTEMI), defined by a significant elevation of the troponin (> 99th percentile) with one of the following signs:",
+     "Symptoms of ischemia",
+     "Recent modification of the ST or wave segment T to ECG",
+     "Appearance of a wave q at ECG",
+     "Loss of segmental viability of myocardial imaging",
+     "intracoronal thrombus in angiography"
+    ]
+   },
+   {
+    "text": "patient with type 2 diabetes (defined according to the American Diabetes Association (ADA) recommendations) known with:",
+    "sub_items": [
+     "be a hyperglycemia> 180 mg / dl to admission that requires intravenous insulin therapy",
+     "Either chronic insulin treatment before admission"
+    ]
+   },
+   {
+    "text": "Patient who has not yet received insulin therapy with intravenous insulin since admission"
+   },
+   {
+    "text": "Signed informed consent"
+   },
+   {
+    "text": "oral and written comprehension of the French language"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient with hemodynamic instability (shock, catecholamine use, mechanical ventilation, circulatory assistance ...)"
+   },
+   {
+    "text": "Patient admitted to the CICU since more than 24 hours"
+   },
+   {
+    "text": "Patient requiring Corticotherapy"
+   },
+   {
+    "text": "patient with type 1 diabetes (defined according to the ADA recommendations)"
+   },
+   {
+    "text": "Needs to perform MRI during CICU stay"
+   },
+   {
+    "text": "Pregnancy or breastfeeding"
+   },
+   {
+    "text": "patient under legal protection"
+   },
+   {
+    "text": "Patient with no social security"
+   },
+   {
+    "text": "Patient participating in another interventional research"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

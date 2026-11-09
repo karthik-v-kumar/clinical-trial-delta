@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2023-12-26",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Adrian Vella",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Adrian Vella"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -51,54 +51,54 @@
  ],
  "interventions": [
   {
-   "type": "BIOLOGICAL",
    "name": "Saline",
-   "other_names": []
+   "other_names": [],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "Exendin-9,39",
-   "other_names": []
+   "other_names": [],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "Saline + Intralipid/Heparin",
-   "other_names": []
+   "other_names": [],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "Exendin-9,39 + Intralipid/Heparin",
-   "other_names": []
+   "other_names": [],
+   "type": "BIOLOGICAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Saline",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Biological: Saline"
-   ]
+   ],
+   "label": "Saline",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Exendin-9,39",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Biological: Exendin-9,39"
-   ]
+   ],
+   "label": "Exendin-9,39",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Saline + Intralipid/Heparin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Biological: Saline + Intralipid/Heparin"
-   ]
+   ],
+   "label": "Saline + Intralipid/Heparin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Exendin-9,39 + Intralipid/Heparin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Biological: Exendin-9,39 + Intralipid/Heparin"
-   ]
+   ],
+   "label": "Exendin-9,39 + Intralipid/Heparin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "GLP-1 is a hormone made by the body that promotes the production of insulin in response to GLP-1 is produced within the islets expressing prohormone convertase 1/3eating. However, there is increasing evidence that this hormone might help support the body's ability to produce insulin when diabetes develops. The purpose of this study is to determine the effect of endogenous GLP-1 secretion on insulin secretion in people with and without type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion criteria - non-diabetic subjects:\n\n* Weight-stable, non-diabetic subjects\n\nExclusion Criteria - non-diabetic subjects:\n\n* Age \\< 25 or \\> 65 years (to avoid studying subjects who could have latent type 1 diabetes, or the effects of age extremes in subjects with normal or impaired fasting glucose).\n* HbA1c ≥ 6.5%\n* Use of glucose-lowering agents.\n* For female subjects: positive pregnancy test at the time of enrollment or study\n* History of prior upper abdominal surgery such as adjustable gastric banding, pyloroplasty and vagotomy.\n* Active systemic illness or malignancy.\n* Symptomatic macrovascular or microvascular disease.\n\nInclusion criteria - diabetic subjects:\n\n* Weight-stable, diabetic subjects treated with diet and lifestyle alone or with metformin monotherapy\n\nExclusion Criteria - diabetic subjects:\n\n* Age \\< 25 or \\> 65 years (to avoid studying subjects who could have latent type 1 diabetes, or the effects of age extremes in subjects with normal or impaired fasting glucose).\n* Use of any glucose-lowering agent other than metformin.\n* 2 or more fasting glucose values \\> 250mg/dl on medication or after medication withdrawal.\n* Unwillingness or inability to withdraw medication for three weeks prior to, and for the duration of the study.\n* For female subjects: positive pregnancy test at the time of enrollment or study\n* History of prior upper abdominal surgery such as adjustable gastric banding, pyloroplasty and vagotomy.\n* Active systemic illness or malignancy.\n* Symptomatic macrovascular or microvascular disease.",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -121,13 +121,13 @@
  },
  "sites": [
   {
-   "facility": "Mayo Clinic in Rochester",
    "city": "Rochester",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic in Rochester",
    "lat": 44.02163,
-   "lon": -92.4699
+   "lon": -92.4699,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04466618",
@@ -139,6 +139,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "non-diabetic subjects:"
+   },
+   {
+    "text": "Weight-stable, non-diabetic subjects"
+   },
+   {
+    "text": "diabetic subjects:"
+   },
+   {
+    "text": "Weight-stable, diabetic subjects treated with diet and lifestyle alone or with metformin monotherapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "non-diabetic subjects:"
+   },
+   {
+    "text": "Age < 25 or > 65 years (to avoid studying subjects who could have latent type 1 diabetes, or the effects of age extremes in subjects with normal or impaired fasting glucose)."
+   },
+   {
+    "text": "HbA1c ≥ 6.5%"
+   },
+   {
+    "text": "Use of glucose-lowering agents."
+   },
+   {
+    "text": "For female subjects: positive pregnancy test at the time of enrollment or study"
+   },
+   {
+    "text": "History of prior upper abdominal surgery such as adjustable gastric banding, pyloroplasty and vagotomy."
+   },
+   {
+    "text": "Active systemic illness or malignancy."
+   },
+   {
+    "text": "Symptomatic macrovascular or microvascular disease."
+   },
+   {
+    "text": "diabetic subjects:"
+   },
+   {
+    "text": "Age < 25 or > 65 years (to avoid studying subjects who could have latent type 1 diabetes, or the effects of age extremes in subjects with normal or impaired fasting glucose)."
+   },
+   {
+    "text": "Use of any glucose-lowering agent other than metformin."
+   },
+   {
+    "text": "2 or more fasting glucose values > 250mg/dl on medication or after medication withdrawal."
+   },
+   {
+    "text": "Unwillingness or inability to withdraw medication for three weeks prior to, and for the duration of the study."
+   },
+   {
+    "text": "For female subjects: positive pregnancy test at the time of enrollment or study"
+   },
+   {
+    "text": "History of prior upper abdominal surgery such as adjustable gastric banding, pyloroplasty and vagotomy."
+   },
+   {
+    "text": "Active systemic illness or malignancy."
+   },
+   {
+    "text": "Symptomatic macrovascular or microvascular disease."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Bologna",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Bologna"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Combined nutraceutical",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Active treatment",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Combined nutraceutical"
-   ]
+   ],
+   "label": "Active treatment",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "A large body of evidence confirm the cholesterol lowering effect of red yeast rice, phytosterols and L-tyrosol. Because their mechanisms of action mime the ones of chemical statins and cholesterol absorption inhibitors, it is plausible that their association will provide a more relevant (and safe) LDL cholesterolemia reduction.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Suboptimal LDL level (115-160 mg/dL)\n* TG\\<400 mg/dL\n* Signed informed consent form\n\nExclusion Criteria:\n\n* Patients already affected by cardiovascular diseases (secondary prevention) or with estimated 10 years cardiovascular disease risk\\> 10 years\n* LDL-C\\<115 mg/dL or \\>160 mg/dL, TG\\>400 mg/dL\n* Obesity (BMI\\>30 kg/m2) or diabetes mellitus\n* Assumption of lipid lowering drugs or dietary supplements, or drugs potentially affecting the lipid metabolism\n* Antihypertensive treatment not stabilized since at least 3 months\n* Known current thyroid, gastrointestinal or liver diseases\n* Any medical or surgical condition that would limit the patient adhesion to the study protocol",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "S. Orsola-Malpighi University Hospital",
    "city": "Bologna",
-   "state": "BO",
    "country": "Italy",
-   "status": null,
+   "facility": "S. Orsola-Malpighi University Hospital",
    "lat": 44.49381,
-   "lon": 11.33875
+   "lon": 11.33875,
+   "state": "BO",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03065491",
@@ -119,6 +119,44 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Suboptimal LDL level (115-160 mg/dL)"
+   },
+   {
+    "text": "TG<400 mg/dL"
+   },
+   {
+    "text": "Signed informed consent form"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients already affected by cardiovascular diseases (secondary prevention) or with estimated 10 years cardiovascular disease risk> 10 years"
+   },
+   {
+    "text": "LDL-C<115 mg/dL or >160 mg/dL, TG>400 mg/dL"
+   },
+   {
+    "text": "Obesity (BMI>30 kg/m2) or diabetes mellitus"
+   },
+   {
+    "text": "Assumption of lipid lowering drugs or dietary supplements, or drugs potentially affecting the lipid metabolism"
+   },
+   {
+    "text": "Antihypertensive treatment not stabilized since at least 3 months"
+   },
+   {
+    "text": "Known current thyroid, gastrointestinal or liver diseases"
+   },
+   {
+    "text": "Any medical or surgical condition that would limit the patient adhesion to the study protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

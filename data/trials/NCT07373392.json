@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Aalborg University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Aalborg University"
  },
  "collaborators": [
   "Steno Diabetes Center Nordjylland",
@@ -58,32 +58,32 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Lactobacillus plantarum ECGC 13110402",
    "other_names": [
     "LP-LDL"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "LP-LDL® (Active Treatment)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Lactobacillus plantarum ECGC 13110402"
-   ]
+   ],
+   "label": "LP-LDL® (Active Treatment)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "This randomized, double-blind, placebo-controlled clinical trial investigates the effects of the probiotic LP-LDL® (Lactobacillus plantarum ECGC 13110402) on lipid metabolism, glycemic control, inflammatory biomarkers, and cognitive function in adults with prediabetes, type 1 diabetes, or type 2 diabetes who also exhibit elevated cholesterol or triglyceride levels.\n\nA total of 210 participants will be enrolled across three parallel sub-studies:\n\n* Type 1 diabetes (n = 76)\n* Type 2 diabetes (n = 54)\n* Prediabetes (n = 80)\n\nParticipants will be randomized 1:1 to receive LP-LDL® or matching placebo once daily for 12 weeks, followed by a 4-week washout period. Study assessments include fasting blood tests (lipids, glucose, HbA1c, liver enzymes, inflammatory markers), cognitive testing (ACE-III), blood pressure, anthropometry, and stool measurements (microbiome, bile acids, fecal fat).\n\nExploratory analyses include bile acid metabolism, microbiome profiling (16S rRNA), and gene expression of cholesterol transporters ABCG5/ABCG8.\n\nThe study aims to determine whether LP-LDL® can improve cardiometabolic profiles and cognitive outcomes in these populations, and to clarify the mechanistic pathways underlying metabolic dysfunction, inflammation, and gut-brain communication.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults ≥ 18 years\n* Prediabetes (FPG 100-125 mg/dL or HbA1c 42-47 mmol/mol), or Type 1 or Type 2 diabetes\n* Elevated cholesterol or triglycerides (TC ≥200 mg/dL, LDL 130-189 mg/dL, or TG \\>150 mg/dL)\n* Either no lipid-lowering medication or stable dose for ≥4 weeks\n* Able to swallow capsules and understand Danish\n* Willing to maintain lifestyle habits and provide stool and blood samples\n\nExclusion Criteria:\n\n* Antibiotic use in the past 3 months\n* Severe dyslipidemia (\\>500 mg/dL triglycerides)\n* Significant liver, kidney, thyroid disease\n* Pregnancy or breastfeeding\n* GI surgery or chronic GI disease (IBD, IBS, Crohn's disease)\n* Long-term medications influencing lipid/glucose metabolism (except approved antidiabetic medications)\n* Participation in another trial within 3 months\n* Capsule intake \\<80%",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,22 +106,22 @@
  },
  "sites": [
   {
-   "facility": "Department of Health Science and Technology, Aalborg University",
    "city": "Gistrup",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Department of Health Science and Technology, Aalborg University",
    "lat": 56.9943,
-   "lon": 9.99085
+   "lon": 9.99085,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Steno Diabetes Center Nordjylland",
    "city": "Gistrup",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Steno Diabetes Center Nordjylland",
    "lat": 56.9943,
-   "lon": 9.99085
+   "lon": 9.99085,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07373392",
@@ -133,6 +133,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults ≥ 18 years"
+   },
+   {
+    "text": "Prediabetes (FPG 100-125 mg/dL or HbA1c 42-47 mmol/mol), or Type 1 or Type 2 diabetes"
+   },
+   {
+    "text": "Elevated cholesterol or triglycerides (TC ≥200 mg/dL, LDL 130-189 mg/dL, or TG >150 mg/dL)"
+   },
+   {
+    "text": "Either no lipid-lowering medication or stable dose for ≥4 weeks"
+   },
+   {
+    "text": "Able to swallow capsules and understand Danish"
+   },
+   {
+    "text": "Willing to maintain lifestyle habits and provide stool and blood samples"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Antibiotic use in the past 3 months"
+   },
+   {
+    "text": "Severe dyslipidemia (>500 mg/dL triglycerides)"
+   },
+   {
+    "text": "Significant liver, kidney, thyroid disease"
+   },
+   {
+    "text": "Pregnancy or breastfeeding"
+   },
+   {
+    "text": "GI surgery or chronic GI disease (IBD, IBS, Crohn's disease)"
+   },
+   {
+    "text": "Long-term medications influencing lipid/glucose metabolism (except approved antidiabetic medications)"
+   },
+   {
+    "text": "Participation in another trial within 3 months"
+   },
+   {
+    "text": "Capsule intake <80%"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

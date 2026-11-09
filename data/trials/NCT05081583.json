@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-12-19",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Washington State University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Washington State University"
  },
  "collaborators": [
   "National Center for Complementary and Integrative Health (NCCIH)"
@@ -51,41 +51,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Midazolam Hcl 1Mg/Ml Inj",
    "other_names": [
     "Versed"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Goldenseal (Hydrastis canadensis)",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Study Arm 1: Baseline",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Midazolam Hcl 1Mg/Ml Inj"
-   ]
+   ],
+   "label": "Study Arm 1: Baseline",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Midazolam Hcl 1Mg/Ml Inj",
+    "Dietary Supplement: Goldenseal (Hydrastis canadensis)"
+   ],
    "label": "Study Arm 2: Acute Goldenseal Exposure",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Midazolam Hcl 1Mg/Ml Inj",
-    "Dietary Supplement: Goldenseal (Hydrastis canadensis)"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Study Arm 3: Chronic Goldenseal Exposure",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Midazolam Hcl 1Mg/Ml Inj",
     "Dietary Supplement: Goldenseal (Hydrastis canadensis)"
-   ]
+   ],
+   "label": "Study Arm 3: Chronic Goldenseal Exposure",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "Supplements containing goldenseal, a perennial herb native to North America, have consistently ranked among the top 20 highest selling natural products throughout the last decade. Goldenseal products are marketed as licensed natural health products in Canada and as dietary supplements in the United States. Natural products made from dried roots of the goldenseal plant are purported to have therapeutic value and are used to self-treat a range of medical complications, including the common cold, allergic rhinitis, and digestive disorders, such as diarrhea and constipation. Based on a previous clinical study, goldenseal have been shown to precipitate pharmacokinetic interactions with metformin in healthy volunteers. This follow-up study aims to evaluate the goldenseal-metformin interaction in type 2 diabetic patients. Results from this proposed clinical study will (1) characterize the pharmacokinetic interaction between the botanical dietary supplement goldenseal and anti-diabetic drug metformin, (2) provide evidence-based recommendations to mitigate drug interaction risks, and (3) contribute to the development of a comprehensive strategy for effectively assessing other potential natural-product drug interactions.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* are 18-65 years old and healthy\n* have been medically diagnosed with Type 2 diabetes and currently taking metformin (1- 2 g daily), but otherwise healthy as determined by the study physician\n* have an HbA1c \\< 8% as determined by laboratory analysis on initial screening\n* are not taking any medications, dietary/herbal supplements, or citrus juices that can interfere with your ability to eliminate the study drugs and goldenseal from your body\n* are willing to stop consuming alcohol, caffeinated beverages or other caffeine- containing products the evening before and the morning of the first day of each study arm\n* are female and are willing to use an acceptable method of birth control that does not include oral birth control pills or patches (such as abstinence, copper IUD, condom)\n* can provide written informed consent (and assent when applicable) obtained from subject or subject's legal representative and ability for the subject to comply with the requirements of the study\n\nExclusion Criteria:\n\n* have an HbA1c ≥ 8%\n* have other chronic illnesses other than type 2 diabetes (e.g., type 1 diabetes, kidney disease, hepatic disease, uncontrolled hypertension, coronary artery disease, chronic obstructive pulmonary disease, cancer, or HIV/AIDS)\n* have a hematologic (blood) disorder\n* have a history of drug or alcohol abuse\n* have any major psychiatric illness\n* are pregnant or breastfeeding\n* have a history of intolerance or allergy to midazolam or goldenseal products\n* are taking concomitant medications, both prescription and non-prescription (including dietary supplements/herbal products) known to alter the pharmacokinetics of either study drug or goldenseal constituents",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "facility": "Washington State University College of Pharmacy and Pharmaceutical Sciences",
    "city": "Spokane",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "Washington State University College of Pharmacy and Pharmaceutical Sciences",
    "lat": 47.65966,
-   "lon": -117.42908
+   "lon": -117.42908,
+   "state": "Washington",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05081583",
@@ -130,6 +130,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "are 18-65 years old and healthy"
+   },
+   {
+    "text": "have been medically diagnosed with Type 2 diabetes and currently taking metformin (1- 2 g daily), but otherwise healthy as determined by the study physician"
+   },
+   {
+    "text": "have an HbA1c < 8% as determined by laboratory analysis on initial screening"
+   },
+   {
+    "text": "are not taking any medications, dietary/herbal supplements, or citrus juices that can interfere with your ability to eliminate the study drugs and goldenseal from your body"
+   },
+   {
+    "text": "are willing to stop consuming alcohol, caffeinated beverages or other caffeine- containing products the evening before and the morning of the first day of each study arm"
+   },
+   {
+    "text": "are female and are willing to use an acceptable method of birth control that does not include oral birth control pills or patches (such as abstinence, copper IUD, condom)"
+   },
+   {
+    "text": "can provide written informed consent (and assent when applicable) obtained from subject or subject's legal representative and ability for the subject to comply with the requirements of the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "have an HbA1c ≥ 8%"
+   },
+   {
+    "text": "have other chronic illnesses other than type 2 diabetes (e.g., type 1 diabetes, kidney disease, hepatic disease, uncontrolled hypertension, coronary artery disease, chronic obstructive pulmonary disease, cancer, or HIV/AIDS)"
+   },
+   {
+    "text": "have a hematologic (blood) disorder"
+   },
+   {
+    "text": "have a history of drug or alcohol abuse"
+   },
+   {
+    "text": "have any major psychiatric illness"
+   },
+   {
+    "text": "are pregnant or breastfeeding"
+   },
+   {
+    "text": "have a history of intolerance or allergy to midazolam or goldenseal products"
+   },
+   {
+    "text": "are taking concomitant medications, both prescription and non-prescription (including dietary supplements/herbal products) known to alter the pharmacokinetics of either study drug or goldenseal constituents"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

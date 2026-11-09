@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Colorado, Denver",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Colorado, Denver"
  },
  "collaborators": [
   "American Diabetes Association"
@@ -51,25 +51,25 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Periodic, over-the-counter continuous glucose monitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "30 day",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Periodic, over-the-counter continuous glucose monitoring"
-   ]
+   ],
+   "label": "30 day",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "90 day",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Periodic, over-the-counter continuous glucose monitoring"
-   ]
+   ],
+   "label": "90 day",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "The goal of this clinical trial is to learn if periodic use of over-the-counter continuous glucose monitoring (CGM) can support glucose management in people with type 2 diabetes not using insulin being treated in primary care settings. The main questions it aims to answer are:\n\n* Is periodic use of CGM every 30 or 90 days for six months associated with reduced A1C compared to usual care at baseline?\n* Is periodic use of CGM every 30 or 90 days for six months associated with increased time in range and time in tight range compared to usual care at baseline?\n* Is periodic use of CGM every 90 days over six months associated with non-inferior A1C reduction compared to periodic use of CGM every 30 days?\n* Are clinician feasibility and acceptability of periodic, OTC CGM higher than for prescription CGM?\n* How acceptable is periodic, OTC CGM to people with non-insulin-treated type 2 diabetes? Researchers will compare use of periodic CGM every 30 and 90 days to see if less frequent periodic CGM use can support glucose management as effectively as more frequent use.\n\nParticipants will:\n\n* be assigned to one of two groups using the 15-day Dexcom Stelo® glucose biosensor every 30 or 90 days over a six-month period.\n* receive Stelo devices every 30 or 90 days (as randomized)\n* complete up to 9 virtual or in-person visits with the study team.\n* complete 3 fingerstick A1c tests.\n* wear a blinded CGM device at 3 time points outside of Dexcom Stelo® use.\n* complete a survey at the end of the study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years at time of enrollment\n2. Diagnosis of type 2 diabetes\n3. Able to read and understand English (Dexcom Stelo is currently only available in English)\n4. No real-time or intermittently scanned (Flash) CGM use 12 months prior to enrollment\n5. Stable medication regimen (medication classes) and dose (equivalent dose if medication has been changed within the same medication class) for any glucose lowering or weight loss medications for 30 days prior to enrollment and willing to not change medications prior to randomization unless safety concerns.\n6. Cell phone meeting minimum required OS compatibility with Stelo\n7. Willing to use the study device and download the Stelo app\n8. Willing and able to complete all study procedures per investigator discretion, including willingness to accept either experimental group (q30 or q90).\n9. A1C value (from lab data or chart review) greater than or equal to 6.5 in the 6 months prior to enrollment\n10. Currently receiving primary care in a participating study practice\n\nExclusion Criteria:\n\n1. Use of insulin in the 12 months prior to screening or planning to initiate insulin during the next 12 months (short-term use of insulin in an inpatient setting is acceptable)\n2. Concomitant disease or condition that in the opinion of the investigator may compromise patient safety including but not limited to severe mental illness, a diagnosed or suspected eating disorder, or any uncontrolled or chronic medical condition that would interfere with study related tasks or visits\n3. Use within 30 days of screening visit of any medication that in the opinion of the investigator may exacerbate glucose dysfunction (e.g. systemic corticosteroids)\n4. Current or planned use of hydroxyurea (due to interference with CGM)\n5. Known presence of a hemoglobinopathy or other condition that is expected to affect the measurement of A1C in the judgment of the investigator\n6. Known severe allergy to medical grade adhesive, a serious skin condition that could interfere with CGM placement, or extensive tattoos that precludes the use of CGM in an FDA approved location\n7. End stage renal disease currently managed by dialysis or eGFR \\<30 mL/min/1.73m2\n8. Current participation in another interventional study protocol that could impact participation in this study per investigator discretion\n9. Pregnant or planning to become pregnant within the next 6 months.\n10. Planning to switch primary care practices in the next 6 months.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "facility": "University of Colorado Denver Anschutz Medical Campus",
    "city": "Aurora",
-   "state": "Colorado",
    "country": "United States",
-   "status": null,
+   "facility": "University of Colorado Denver Anschutz Medical Campus",
    "lat": 39.72943,
-   "lon": -104.83192
+   "lon": -104.83192,
+   "state": "Colorado",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07422831",
@@ -110,6 +110,74 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥ 18 years at time of enrollment"
+   },
+   {
+    "text": "Diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "Able to read and understand English (Dexcom Stelo is currently only available in English)"
+   },
+   {
+    "text": "No real-time or intermittently scanned (Flash) CGM use 12 months prior to enrollment"
+   },
+   {
+    "text": "Stable medication regimen (medication classes) and dose (equivalent dose if medication has been changed within the same medication class) for any glucose lowering or weight loss medications for 30 days prior to enrollment and willing to not change medications prior to randomization unless safety concerns."
+   },
+   {
+    "text": "Cell phone meeting minimum required OS compatibility with Stelo"
+   },
+   {
+    "text": "Willing to use the study device and download the Stelo app"
+   },
+   {
+    "text": "Willing and able to complete all study procedures per investigator discretion, including willingness to accept either experimental group (q30 or q90)."
+   },
+   {
+    "text": "A1C value (from lab data or chart review) greater than or equal to 6.5 in the 6 months prior to enrollment"
+   },
+   {
+    "text": "Currently receiving primary care in a participating study practice"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of insulin in the 12 months prior to screening or planning to initiate insulin during the next 12 months (short-term use of insulin in an inpatient setting is acceptable)"
+   },
+   {
+    "text": "Concomitant disease or condition that in the opinion of the investigator may compromise patient safety including but not limited to severe mental illness, a diagnosed or suspected eating disorder, or any uncontrolled or chronic medical condition that would interfere with study related tasks or visits"
+   },
+   {
+    "text": "Use within 30 days of screening visit of any medication that in the opinion of the investigator may exacerbate glucose dysfunction (e.g. systemic corticosteroids)"
+   },
+   {
+    "text": "Current or planned use of hydroxyurea (due to interference with CGM)"
+   },
+   {
+    "text": "Known presence of a hemoglobinopathy or other condition that is expected to affect the measurement of A1C in the judgment of the investigator"
+   },
+   {
+    "text": "Known severe allergy to medical grade adhesive, a serious skin condition that could interfere with CGM placement, or extensive tattoos that precludes the use of CGM in an FDA approved location"
+   },
+   {
+    "text": "End stage renal disease currently managed by dialysis or eGFR <30 mL/min/1.73m2"
+   },
+   {
+    "text": "Current participation in another interventional study protocol that could impact participation in this study per investigator discretion"
+   },
+   {
+    "text": "Pregnant or planning to become pregnant within the next 6 months."
+   },
+   {
+    "text": "Planning to switch primary care practices in the next 6 months."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

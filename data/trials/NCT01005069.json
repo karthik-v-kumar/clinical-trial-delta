@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Dexa Medica Group",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Dexa Medica Group"
  },
  "collaborators": [],
  "conditions": [
@@ -53,66 +53,66 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "DLBS-32",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DLBS-32",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DLBS-32",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DLBS-32",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo capsule",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: DLBS-32"
+   ],
    "label": "Treatment I",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: DLBS-32"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: DLBS-32"
+   ],
    "label": "Treatment II",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: DLBS-32"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: DLBS-32"
+   ],
    "label": "Treatment III",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: DLBS-32"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: DLBS-32"
+   ],
    "label": "Treatment IV",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: DLBS-32"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo capsule"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -124,32 +124,32 @@
  "brief_summary": "The purpose of this study is to investigate clinical efficacy and safety of DLBS 32 in the management of subjects with type-II-diabetes mellitus and to determine the minimal effective dose of DLBS 32 for subjects with type-II-diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Fasting capillary blood glucose of 127-249 mg/dL at screening\n* BMI \\>= 18.5 kg/m\\^2 or waist circumference of \\>= 90 cm (male) or \\>= 80 cm (female)\n* Normal liver function\n* Normal renal function\n* OHA-naive type-II-diabetic patients\n\nExclusion Criteria:\n\n* Symptomatic congestive heart failure, unstable angina pectoris, or cardiac arrhythmia\n* Uncontrolled hypertension\n* History of or current treatment with insulin\n* Current treatment with systemic corticosteroids or herbal (alternative) medicines\n* History of renal and/or liver disease\n* Pregnant or breast feeding females",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Sanglah Hospital Denpasar",
    "city": "Denpasar",
-   "state": "Bali",
    "country": "Indonesia",
-   "status": null,
+   "facility": "Sanglah Hospital Denpasar",
    "lat": -8.65,
-   "lon": 115.21667
+   "lon": 115.21667,
+   "state": "Bali",
+   "status": null
   },
   {
-   "facility": "RSUD Tarakan",
    "city": "Jakarta Pusat",
-   "state": "DKI Jakarta",
    "country": "Indonesia",
-   "status": null,
+   "facility": "RSUD Tarakan",
    "lat": -6.1818,
-   "lon": 106.8223
+   "lon": 106.8223,
+   "state": "DKI Jakarta",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01005069",
@@ -161,6 +161,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Fasting capillary blood glucose of 127-249 mg/dL at screening"
+   },
+   {
+    "text": "BMI >= 18.5 kg/m^2 or waist circumference of >= 90 cm (male) or >= 80 cm (female)"
+   },
+   {
+    "text": "Normal liver function"
+   },
+   {
+    "text": "Normal renal function"
+   },
+   {
+    "text": "OHA-naive type-II-diabetic patients"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Symptomatic congestive heart failure, unstable angina pectoris, or cardiac arrhythmia"
+   },
+   {
+    "text": "Uncontrolled hypertension"
+   },
+   {
+    "text": "History of or current treatment with insulin"
+   },
+   {
+    "text": "Current treatment with systemic corticosteroids or herbal (alternative) medicines"
+   },
+   {
+    "text": "History of renal and/or liver disease"
+   },
+   {
+    "text": "Pregnant or breast feeding females"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

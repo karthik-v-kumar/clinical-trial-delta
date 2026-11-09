@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2023-06-06",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The University of Texas Health Science Center at San Antonio",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The University of Texas Health Science Center at San Antonio"
  },
  "collaborators": [
   "AstraZeneca"
@@ -50,46 +50,46 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Farxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Dapagliflozin"
+   ],
    "label": "T2DM individuals on Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Dapagliflozin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "T2DM individuals on Placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Normal Glucose Tolerance (NGT) on Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Normal Glucose Tolerance (NGT) on Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Normal Glucose Tolerance (NGT) Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Normal Glucose Tolerance (NGT) Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "Researchers hope to determine the organ (liver and/or kidney) responsible for the increase in endogenous glucose production (EGP) following the induction of glucosuria (when glucose is excreted in detectable amounts in the urine) with an SGLT2 inhibitor, dapagliflozin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 25-35 kg/m\\^2\n* Normal Glucose Tolerance subjects (24)\n* Type 2 Diabetic Subjects (24)\n* Diabetic subjects must be on a stable dose (more than 3 months) of monotherapy or combination therapy with metformin and/or a sulfonylurea\n* Diabetic subjects must have HbA1c \\<8.0%\n* Other than diabetes, subjects must be in good general health as determined by physical exam, medical history, blood chemistries, CBC (complete blood count), TSH (thyroid-stimulating hormone), T4 (thyroxine), EKG (electrocardiogram) and urinanalysis.\n* Only subjects whose body weight has been stable (± 3 lbs) over the preceding three months and who do not participate in an excessively heavy exercise program will be included.\n\nExclusion Criteria:\n\n* Subjects taking drugs known to affect glucose metabolism (other than metformin and sulfonylurea) will be excluded.\n* Individuals with evidence of proliferative diabetic retinopathy, plasma creatinine \\>1.4 females or \\>1.5 males, or 24-hour urine albumin excretion \\> 300 mg will be excluded.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "facility": "University of Texas Health Science Center",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "University of Texas Health Science Center",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02981966",
@@ -133,6 +133,41 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "25-35 kg/m^2"
+   },
+   {
+    "text": "Normal Glucose Tolerance subjects (24)"
+   },
+   {
+    "text": "Type 2 Diabetic Subjects (24)"
+   },
+   {
+    "text": "Diabetic subjects must be on a stable dose (more than 3 months) of monotherapy or combination therapy with metformin and/or a sulfonylurea"
+   },
+   {
+    "text": "Diabetic subjects must have HbA1c <8.0%"
+   },
+   {
+    "text": "Other than diabetes, subjects must be in good general health as determined by physical exam, medical history, blood chemistries, CBC (complete blood count), TSH (thyroid-stimulating hormone), T4 (thyroxine), EKG (electrocardiogram) and urinanalysis."
+   },
+   {
+    "text": "Only subjects whose body weight has been stable (± 3 lbs) over the preceding three months and who do not participate in an excessively heavy exercise program will be included."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects taking drugs known to affect glucose metabolism (other than metformin and sulfonylurea) will be excluded."
+   },
+   {
+    "text": "Individuals with evidence of proliferative diabetic retinopathy, plasma creatinine >1.4 females or >1.5 males, or 24-hour urine albumin excretion > 300 mg will be excluded."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

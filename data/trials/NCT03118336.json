@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Assistance Publique Hopitaux De Marseille",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Assistance Publique Hopitaux De Marseille"
  },
  "collaborators": [],
  "conditions": [
@@ -51,25 +51,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin 10Mg Tab",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "placebo group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Empagliflozin 10Mg Tab"
-   ]
+   ],
+   "label": "placebo group",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "empaglifozine group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin 10Mg Tab"
-   ]
+   ],
+   "label": "empaglifozine group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "There is substantial evidence supporting the fact that ectopic fat accumulation is an important contributor to type 2 diabetes complications and cardiovascular risk \\[1\\]. Epicardial adipose tissue (EAT), located between the myocardium and the visceral layer of the pericardium has been associated with atrial fibrillation and with coronary artery disease \\[2, 3\\] and its abundance predicts the number of cardiac events within 8 years \\[4\\]. In addition, myocardial steatosis has been shown to be an independent predictor of diastolic dysfunction \\[5\\] \\[6\\]. Furthermore, in type 2 diabetic patients, bariatric surgery can reduce cardiac ectopic fat accumulation and improve cardiac function \\[7\\] \\[8\\]. When added to standard care, 10 or 25 mg/d of empagliflozin, an inhibitor of sodium-glucose cotransporter 2 (iSGLT2), significantly reduces the risk of death, cardiovascular death, and hospitalisation for heart failure among individuals with type 2 diabetes and established cardiovascular disease when compared to placebo \\[9\\]. The mechanisms of empagliflozin-improved cardiovascular outcomes in type 2 diabetic patients at high risk of cardiovascular events are not known. We hypotheses that empaglifozin could modulate cardiac ectopic fat and cardiac metabolism in obese type 2 diabetic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age \\> 18 years,\n* Type 2 diabetes based on the disease diagnostic criteria as described by the WHO,\n* HbA1c \\> 7% and \\< 10 %\n* Stable glucose-lowering therapy for at least 3 weeks before randomization\n* Estimated glomerular filtration rate \\> 60/ml (MDRD)\n* Signed informed consent form obtained prior to any study procedure\n\nExclusion Criteria:\n\n* Evolutive or planned pregnancy during the six months\n* Lactation\n* Recent weight loss (\\>5% of body weight within one month),\n* Treatment modifying adipose distribution such as corticoids\n* Acute coronary syndrome or instable angina during the last 2 months,\n* MRI contraindication (metal cardiac valve, pace maker, metal foreign body, claustrophobia)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Assistance Publique Hopitaux de Marseille",
    "city": "Marseille",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Assistance Publique Hopitaux de Marseille",
    "lat": 43.29695,
-   "lon": 5.38107
+   "lon": 5.38107,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03118336",
@@ -114,6 +114,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age > 18 years,"
+   },
+   {
+    "text": "Type 2 diabetes based on the disease diagnostic criteria as described by the WHO,"
+   },
+   {
+    "text": "HbA1c > 7% and < 10 %"
+   },
+   {
+    "text": "Stable glucose-lowering therapy for at least 3 weeks before randomization"
+   },
+   {
+    "text": "Estimated glomerular filtration rate > 60/ml (MDRD)"
+   },
+   {
+    "text": "Signed informed consent form obtained prior to any study procedure"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Evolutive or planned pregnancy during the six months"
+   },
+   {
+    "text": "Lactation"
+   },
+   {
+    "text": "Recent weight loss (>5% of body weight within one month),"
+   },
+   {
+    "text": "Treatment modifying adipose distribution such as corticoids"
+   },
+   {
+    "text": "Acute coronary syndrome or instable angina during the last 2 months,"
+   },
+   {
+    "text": "MRI contraindication (metal cardiac valve, pace maker, metal foreign body, claustrophobia)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

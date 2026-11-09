@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2020-02-12",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Jody Dushay",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Jody Dushay"
  },
  "collaborators": [
   "AstraZeneca"
@@ -52,36 +52,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Exenatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Dietary counseling",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Exenatide"
-   ]
+   ],
+   "label": "Exenatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Behavioral: Dietary counseling"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "The investigators are conducting a study that will investigate the possible mechanisms of weight loss associated with exenatide treatment and the metabolic characteristics of high responders (i.e. subjects who achieve greater than 5% weight loss) to exenatide treatment. The investigators will also examine the magnitude and duration of weight loss among a cohort of high responders over 52 weeks of treatment, and at 3 and 6 months following treatment.\n\nHypothesis:\n\nThe mechanisms of weight loss with exenatide are not fully understood, and weight loss responses to exenatide are highly variable, possibly reflecting distinct metabolic parameters. By identifying and following a group of obese women who lose greater than 5% body weight after short-term exenatide treatment, the investigators can gain insights into the possible mechanisms of weight loss and assess long-term weight loss with this pharmacotherapeutic intervention.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Females age 18-70\n* BMI 28-48 kg/m\\^2\n* Stable weight (greater than 3 kg weight gain or loss within 6 months of screening visit).\n* Ability to give informed consent and follow verbal and written instructions in English.\n\nExclusion Criteria:\n\n* Type 1 or type 2 diabetes mellitus diagnosed according to American Diabetes Association criteria\n* Unstable heart disease as evidenced by ongoing angina\n* Congestive heart failure\n* Uncontrolled hypertension (BP greater than 170/100 mmHg on or off antihypertensive medication)\n* Uncontrolled dyslipidemia (LDL greater than 200 or TG greater than 400 on or off lipid lowering medication)\n* Tobacco, marijuana, cocaine, or intravenous drug use\n* Shift workers (night shift or alternating day/night shifts)\n* Gastroparesis\n* Inflammatory bowel disease or irritable bowel syndrome\n* Malignancy treated with chemotherapy within the past 3 years\n* History of pancreatitis\n* Depression requiring hospitalization or diagnosis of psychosis\n* Renal insufficiency (eGFR less than 50)\n* Transaminases greater than 2 times above the normal range\n* Pregnancy within 6 months of the screening visit\n* Lactation\n* Failure to use medically approved contraceptive methods (monophasic oral contraception, intra uterine device, surgical sterilization or 2 combined barrier methods)\n* History of an eating disorder (anorexia, bulimia or laxative abuse)\n* Treatment with FDA-approved or over-the-counter weight loss medication within 6 months, with the exception of Xenical if there was no weight loss\n* History of gastric bypass surgery or gastric stapling\n* Biochemical evidence of hyper or hypothyroidism, or new diagnosis of hypo or hyperthyroidism within 3 months of screening visit\n* Previous treatment with exenatide\n* Discretion of the PI",
-  "sex": "FEMALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Beth Israel Deaconess Medical Center",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Beth Israel Deaconess Medical Center",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01590433",
@@ -124,6 +124,95 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Females age 18-70"
+   },
+   {
+    "text": "BMI 28-48 kg/m^2"
+   },
+   {
+    "text": "Stable weight (greater than 3 kg weight gain or loss within 6 months of screening visit)."
+   },
+   {
+    "text": "Ability to give informed consent and follow verbal and written instructions in English."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 or type 2 diabetes mellitus diagnosed according to American Diabetes Association criteria"
+   },
+   {
+    "text": "Unstable heart disease as evidenced by ongoing angina"
+   },
+   {
+    "text": "Congestive heart failure"
+   },
+   {
+    "text": "Uncontrolled hypertension (BP greater than 170/100 mmHg on or off antihypertensive medication)"
+   },
+   {
+    "text": "Uncontrolled dyslipidemia (LDL greater than 200 or TG greater than 400 on or off lipid lowering medication)"
+   },
+   {
+    "text": "Tobacco, marijuana, cocaine, or intravenous drug use"
+   },
+   {
+    "text": "Shift workers (night shift or alternating day/night shifts)"
+   },
+   {
+    "text": "Gastroparesis"
+   },
+   {
+    "text": "Inflammatory bowel disease or irritable bowel syndrome"
+   },
+   {
+    "text": "Malignancy treated with chemotherapy within the past 3 years"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Depression requiring hospitalization or diagnosis of psychosis"
+   },
+   {
+    "text": "Renal insufficiency (eGFR less than 50)"
+   },
+   {
+    "text": "Transaminases greater than 2 times above the normal range"
+   },
+   {
+    "text": "Pregnancy within 6 months of the screening visit"
+   },
+   {
+    "text": "Lactation"
+   },
+   {
+    "text": "Failure to use medically approved contraceptive methods (monophasic oral contraception, intra uterine device, surgical sterilization or 2 combined barrier methods)"
+   },
+   {
+    "text": "History of an eating disorder (anorexia, bulimia or laxative abuse)"
+   },
+   {
+    "text": "Treatment with FDA-approved or over-the-counter weight loss medication within 6 months, with the exception of Xenical if there was no weight loss"
+   },
+   {
+    "text": "History of gastric bypass surgery or gastric stapling"
+   },
+   {
+    "text": "Biochemical evidence of hyper or hypothyroidism, or new diagnosis of hypo or hyperthyroidism within 3 months of screening visit"
+   },
+   {
+    "text": "Previous treatment with exenatide"
+   },
+   {
+    "text": "Discretion of the PI"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

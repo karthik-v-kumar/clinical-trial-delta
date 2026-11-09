@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Wake Forest University Health Sciences",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Wake Forest University Health Sciences"
  },
  "collaborators": [
   "National Institutes of Health (NIH)",
@@ -54,40 +54,40 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Statin (rosuvastatin 10 or 40 mg daily, depending on risk)",
    "other_names": [
     "Crestor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Healthy Lifestyle Counseling",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "OTHER",
    "name": "Outpatient Followup",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Emergency Medicine Cardiovascular Risk Assessment for Lipid Disorders (EMERALD) arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Statin (rosuvastatin 10 or 40 mg daily, depending on risk)",
     "Behavioral: Healthy Lifestyle Counseling",
     "Other: Outpatient Followup"
-   ]
+   ],
+   "label": "Emergency Medicine Cardiovascular Risk Assessment for Lipid Disorders (EMERALD) arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Usual Care Arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Healthy Lifestyle Counseling",
     "Other: Outpatient Followup"
-   ]
+   ],
+   "label": "Usual Care Arm",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "Emergency Medicine Cardiovascular Risk Assessment for Lipid Disorders (EMERALD) is a protocolized intervention based on American College of Cardiology/American Heart Association and US Preventive Services Task Force guidelines designed to initiate preventive cardiovascular care for emergency department patients being evaluated for acute coronary syndrome. The overarching goals of this proposal are to (1) determine the efficacy of EMERALD at lowering low-density lipoprotein cholesterol (LDL-C) and non high-density lipoprotein cholesterol (non-HDL-C) among at-risk Emergency Department (ED) patients who are not already receiving guideline-directed outpatient preventive care and (2) inform our understanding of patient adherence and determinants of implementation for ED-based cardiovascular disease prevention strategies.",
  "eligibility": {
   "criteria": "Inclusion Criteria\n\n1. Evaluation for Acute Coronary Syndrome\n2. Age 40-75 Years\n3. 10-year Atherosclerotic Cardiovascular Disease (ASCVD) Risk ≥7.5% or Known Diabetes or\n\nKnown ASCVD:\n\n1. Myocardial Infarction\n2. Unstable Angina\n3. Percutaneous Coronary Intervention\n4. Coronary Artery Bypass Graft\n5. Stroke\n6. Transient Ischemic Attack\n7. Peripheral Artery Disease\n\nExclusion Criteria\n\n1. ST-Segment Elevation Myocardial Infarction (STEMI) Activation\n2. ST Depression \\>1 mm in Contiguous Leads\n3. On a Lipid Lowering Agent (Statin, PCSK9 Inhibitor, Bempedoic Acid, Ezetimibe, Inclisiran, etc.)\n4. Inability to Return for 30-day Follow-up\n5. Unstable Vitals (Systolic blood pressure \\<90, HR \\>120 or \\<50, oxygen saturation \\<90%)\n6. Statin Intolerance\n7. Any Resulted High-Sensitivity Troponin I ≥100 ng/L\n8. End-stage renal disease (ESRD) and/or glomerular filtration rate (GFR) \\<30 mL/min/1.73 m2\n9. Liver Cirrhosis\n10. Pregnancy\n11. Anticipated Hospitalization\n12. Life Expectancy \\<1 Year\n13. Transfer from Another Hospital\n14. Prisoner\n15. Non-English Speaking",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "Wake Forest University Health Sciences",
    "city": "Winston-Salem",
-   "state": "North Carolina",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Wake Forest University Health Sciences",
    "lat": 36.09986,
-   "lon": -80.24422
+   "lon": -80.24422,
+   "state": "North Carolina",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06488105",
@@ -128,6 +128,96 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Evaluation for Acute Coronary Syndrome"
+   },
+   {
+    "text": "Age 40-75 Years"
+   },
+   {
+    "text": "10-year Atherosclerotic Cardiovascular Disease (ASCVD) Risk ≥7.5% or Known Diabetes or"
+   },
+   {
+    "text": "Myocardial Infarction",
+    "group": "Known ASCVD"
+   },
+   {
+    "text": "Unstable Angina",
+    "group": "Known ASCVD"
+   },
+   {
+    "text": "Percutaneous Coronary Intervention",
+    "group": "Known ASCVD"
+   },
+   {
+    "text": "Coronary Artery Bypass Graft",
+    "group": "Known ASCVD"
+   },
+   {
+    "text": "Stroke",
+    "group": "Known ASCVD"
+   },
+   {
+    "text": "Transient Ischemic Attack",
+    "group": "Known ASCVD"
+   },
+   {
+    "text": "Peripheral Artery Disease",
+    "group": "Known ASCVD"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "ST-Segment Elevation Myocardial Infarction (STEMI) Activation"
+   },
+   {
+    "text": "ST Depression >1 mm in Contiguous Leads"
+   },
+   {
+    "text": "On a Lipid Lowering Agent (Statin, PCSK9 Inhibitor, Bempedoic Acid, Ezetimibe, Inclisiran, etc.)"
+   },
+   {
+    "text": "Inability to Return for 30-day Follow-up"
+   },
+   {
+    "text": "Unstable Vitals (Systolic blood pressure <90, HR >120 or <50, oxygen saturation <90%)"
+   },
+   {
+    "text": "Statin Intolerance"
+   },
+   {
+    "text": "Any Resulted High-Sensitivity Troponin I ≥100 ng/L"
+   },
+   {
+    "text": "End-stage renal disease (ESRD) and/or glomerular filtration rate (GFR) <30 mL/min/1.73 m2"
+   },
+   {
+    "text": "Liver Cirrhosis"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Anticipated Hospitalization"
+   },
+   {
+    "text": "Life Expectancy <1 Year"
+   },
+   {
+    "text": "Transfer from Another Hospital"
+   },
+   {
+    "text": "Prisoner"
+   },
+   {
+    "text": "Non-English Speaking"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

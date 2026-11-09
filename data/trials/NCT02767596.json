@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Laniado Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Laniado Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,28 +48,28 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Lixisenatide",
    "other_names": [
     "Lyxumia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Basal insulins",
    "other_names": [
     "Glargine, Detemir, Degludec"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Lixisenatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Lixisenatide",
     "Drug: Basal insulins"
-   ]
+   ],
+   "label": "Lixisenatide",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The study aims to examine the effectiveness of the short acting GLP-1 analog, Lixisenatide to achieve glycemic control in type 2 diabetes patients, in patients with failure of long acting GLP-1 analog.\n\nPatients who fail to achieve significant improvement in diabetes control on basal insulin and Liraglutide will be switched to basal insulin and lixisenatide treatment for 12 weeks. The primary outcomes will be changes in HBA1C and weight.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nType Diabetes Mellitus on combination of basal insulin therapy and GLP1 analog, with secondary failure of non-fasting glycemic control\n\nExclusion Criteria:\n\n* Pregnant or lactating woman\n* Renal failure (eGFR\\<30)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Bildirici Diabetes Center, Laniado Hospital",
    "city": "Netanya",
-   "state": null,
    "country": "Israel",
-   "status": null,
+   "facility": "Bildirici Diabetes Center, Laniado Hospital",
    "lat": 32.33294,
-   "lon": 34.85917
+   "lon": 34.85917,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02767596",
@@ -114,6 +114,23 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type Diabetes Mellitus on combination of basal insulin therapy and GLP1 analog, with secondary failure of non-fasting glycemic control"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant or lactating woman"
+   },
+   {
+    "text": "Renal failure (eGFR<30)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

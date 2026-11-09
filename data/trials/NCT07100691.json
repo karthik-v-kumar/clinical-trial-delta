@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mater Misericordiae University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mater Misericordiae University Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -54,25 +54,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metoclopramide",
    "other_names": [
     "Maxolon"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Standard Care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Metoclopramide + Standard Care",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metoclopramide"
-   ]
+   ],
+   "label": "Metoclopramide + Standard Care",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "This is a multicentre, investigator-blinded, randomised controlled trial evaluating whether the use of oral metoclopramide before surgery can reduce the amount of residual gastric content in patients who are taking glucagon-like peptide-1 receptor agonists (GLP-1 RAs) for weight loss. These medications are known to slow down gastric emptying, which may increase the risk of pulmonary aspiration during anaesthesia. Patients will be randomly assigned to either receive metoclopramide 24 hours before surgery or continue with standard care. The primary outcome will be the presence or absence of residual gastric content on ultrasound before surgery. Secondary outcomes include nausea, vomiting, constipation, and any adverse effects of the medication.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients taking GLP-1 receptor agonists (for weight loss only)\n* Male and female patients aged 18 years or older\n* Able to provide written informed consent\n* ASA grade I-V\n* Scheduled for elective surgery with an expected overnight hospital stay\n\nExclusion Criteria:\n\n* Inability to provide informed consent\n* Presence of hiatus hernia\n* History of any gastric surgery\n* Pregnancy\n* Inability to lie in the right lateral decubitus position\n* Patients taking chronic opioids\n* Poorly controlled diabetes (HbA1c \\>69 mmol/mol)\n* Urgent or emergency surgery, including trauma\n* Diagnosis of Parkinson's disease\n* Allergy or intolerance to metoclopramide",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,22 +95,22 @@
  },
  "sites": [
   {
-   "facility": "Rotunda Hospital",
    "city": "Dublin",
-   "state": null,
    "country": "Ireland",
-   "status": null,
+   "facility": "Rotunda Hospital",
    "lat": 53.33306,
-   "lon": -6.24889
+   "lon": -6.24889,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "National Orthopaedic Hospital Cappagh",
    "city": "Dublin",
-   "state": "Dublin 5",
    "country": "Ireland",
-   "status": null,
+   "facility": "National Orthopaedic Hospital Cappagh",
    "lat": 53.33306,
-   "lon": -6.24889
+   "lon": -6.24889,
+   "state": "Dublin 5",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07100691",
@@ -122,6 +122,59 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients taking GLP-1 receptor agonists (for weight loss only)"
+   },
+   {
+    "text": "Male and female patients aged 18 years or older"
+   },
+   {
+    "text": "Able to provide written informed consent"
+   },
+   {
+    "text": "ASA grade I-V"
+   },
+   {
+    "text": "Scheduled for elective surgery with an expected overnight hospital stay"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Inability to provide informed consent"
+   },
+   {
+    "text": "Presence of hiatus hernia"
+   },
+   {
+    "text": "History of any gastric surgery"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Inability to lie in the right lateral decubitus position"
+   },
+   {
+    "text": "Patients taking chronic opioids"
+   },
+   {
+    "text": "Poorly controlled diabetes (HbA1c >69 mmol/mol)"
+   },
+   {
+    "text": "Urgent or emergency surgery, including trauma"
+   },
+   {
+    "text": "Diagnosis of Parkinson's disease"
+   },
+   {
+    "text": "Allergy or intolerance to metoclopramide"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

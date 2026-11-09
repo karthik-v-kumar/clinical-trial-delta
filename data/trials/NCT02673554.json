@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Diabeteszentrum Bad Lauterberg im Harz",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Diabeteszentrum Bad Lauterberg im Harz"
  },
  "collaborators": [],
  "conditions": [
@@ -45,49 +45,49 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "GIP Bolus",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "GIP Clamp",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "PROCEDURE",
    "name": "Oral glucose tolerance test (OGTT)",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "PROCEDURE",
    "name": "hyperglycemic clamp",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Oral glucose tolerance test",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Oral glucose tolerance test (OGTT)"
-   ]
+   ],
+   "label": "Oral glucose tolerance test",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "GIP Bolus",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: GIP Bolus",
     "Procedure: hyperglycemic clamp"
-   ]
+   ],
+   "label": "GIP Bolus",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "GIP Infusion",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: GIP Clamp",
     "Procedure: hyperglycemic clamp"
-   ]
+   ],
+   "label": "GIP Infusion",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "In patients with type 2 diabetes, the incretin hormone glucose-dependent insulinotropic polypeptide (GIP) has lost its insulinotropic activity, but more so after continuous versus bolus administration. The design was a two-way crossover design comparing repeated bolus injection and continuous infusion of GIP under hyperglycaemic clamp conditions. Patients were age- gender- and weight-matched with type 2 diabetes, first degree relatives of such patients, and healthy subjects. Investigators performed a:\n\n1. Oral glucose challenge;\n2. hyperglycemic clamp (8.5 mmol/l) with two repeated GIP bolus administrations (50 pmol/kg body weight at 30 and 120 min); and\n3. hyperglycemic clamp with continuous administration of GIP (2 pmol.kg-1.min-1 from 30-180 min).\n\nTo answer the question, whether rapid tachyphylaxis occurs with regard to the insulinotropic action of GIP, investigators studied type 2-diabetic patients, their first-degree relatives, and healthy controls under hyperglycaemic clamp conditions with two GIP bolus injections 90 min apart, and compared this to a continued intravenous infusion of GIP.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Exclusion of pregnancy\n* Exclusion of impaired glucose tolerance or type 2 diabetes in metabolical healthy subjects\n* current diagnosis of type 2 diabetes according to the guidelines of the German Diabetes Association (DDG) ( Kerner et al . 2001) in subjects of diabetes group\n* fasting glucose ≤ 150 mg/dl\n* Body-mass-index ≥ 20 kg/m²\n* Written consent\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* Impaired glucose tolerance or Type 2 diabetes in metabolical healthy subjects\n* Ketone bodies urine diagnostics at least ++\n* Acidosis\n* Fasting blood glucose \\> 150 mg/dl\n* Body-mass-index \\< 20 kg/m²\n* No written consent\n* Pregnancy or unsafe contraception in women before menopause\n* Active malignancy\n* Angina as current, unsolved clinical problem\n* Inadequately treated or untreated arterial hypertension ( \\> 160 mmHg systolic and / or \\> 95 mmHg diastolic )\n* Infection / fever \\> 37.5 ° C\n* Treatment with glucocorticoids\n* Insulin therapy within the last three months\n* Anemia with a hemoglobin level \\< 12 g/dl\n* Liver function limitations\n* Renal impairment ( serum creatinine \\> 1.5 mg/dl )\n* Alcohol or drug abuse\n* Participation in clinical trials in the last 3 months\n* Inability or unwillingness to comply with the requirements of the Protocol\n* Known hypersensitivity to GIP",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,6 +118,95 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Exclusion of pregnancy"
+   },
+   {
+    "text": "Exclusion of impaired glucose tolerance or type 2 diabetes in metabolical healthy subjects"
+   },
+   {
+    "text": "current diagnosis of type 2 diabetes according to the guidelines of the German Diabetes Association (DDG) ( Kerner et al . 2001) in subjects of diabetes group"
+   },
+   {
+    "text": "fasting glucose ≤ 150 mg/dl"
+   },
+   {
+    "text": "Body-mass-index ≥ 20 kg/m²"
+   },
+   {
+    "text": "Written consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Impaired glucose tolerance or Type 2 diabetes in metabolical healthy subjects"
+   },
+   {
+    "text": "Ketone bodies urine diagnostics at least ++"
+   },
+   {
+    "text": "Acidosis"
+   },
+   {
+    "text": "Fasting blood glucose > 150 mg/dl"
+   },
+   {
+    "text": "Body-mass-index < 20 kg/m²"
+   },
+   {
+    "text": "No written consent"
+   },
+   {
+    "text": "Pregnancy or unsafe contraception in women before menopause"
+   },
+   {
+    "text": "Active malignancy"
+   },
+   {
+    "text": "Angina as current, unsolved clinical problem"
+   },
+   {
+    "text": "Inadequately treated or untreated arterial hypertension ( > 160 mmHg systolic and / or > 95 mmHg diastolic )"
+   },
+   {
+    "text": "Infection / fever > 37.5 ° C"
+   },
+   {
+    "text": "Treatment with glucocorticoids"
+   },
+   {
+    "text": "Insulin therapy within the last three months"
+   },
+   {
+    "text": "Anemia with a hemoglobin level < 12 g/dl"
+   },
+   {
+    "text": "Liver function limitations"
+   },
+   {
+    "text": "Renal impairment ( serum creatinine > 1.5 mg/dl )"
+   },
+   {
+    "text": "Alcohol or drug abuse"
+   },
+   {
+    "text": "Participation in clinical trials in the last 3 months"
+   },
+   {
+    "text": "Inability or unwillingness to comply with the requirements of the Protocol"
+   },
+   {
+    "text": "Known hypersensitivity to GIP"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

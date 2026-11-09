@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "QUADRUPLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Portsmouth",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Portsmouth"
  },
  "collaborators": [],
  "conditions": [
@@ -53,60 +53,60 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Aspirin",
    "other_names": [
     "acetyl salicylic acid"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Aspirin",
    "other_names": [
     "acetyl salicylic acid"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Aspirin",
    "other_names": [
     "acetyl salicylic acid"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "placebo tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Aspirin"
+   ],
    "label": "Aspirin low dose",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Aspirin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Aspirin"
+   ],
    "label": "Aspirin medium dose",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Aspirin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Aspirin"
+   ],
    "label": "aspirin high dose",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Aspirin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: placebo tablet"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "This study was set up to assess the effects of different doses of aspirin when compared with placebo (dummy drug), used sequentially over a 2 week study period with a 2 week wash-out (rest period) in between, in people with type-2 diabetes and high cardiovascular risk. Specifically, its effects on different factors which are thought to contribute to diabetes such as insulin resistance (body's ability to effectively use insulin), dysglycaemia (excess glucose in the blood), oxidative stress (effects from accumulation of by-products of metabolism), endothelial function (function of lining of blood vessels) and inflammation were studied.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* diabetes type 2\n* age \\> 18 and \\< 70\n* high cardiovascular risk\n\nExclusion Criteria:\n\n* presence of active/established cardiovascular disease (ischaemic heart disease, cerebrovascular disease or peripheral vascular disease)\n* insulin treatment\n* patients with known peptic ulcer disease or those on anti-coagulation\n* significant renal impairment\n* aspirin intolerance\n* use of anticoagulants\n* significant liver disease",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,22 +129,22 @@
  },
  "sites": [
   {
-   "facility": "Diabetes Centre, Queen Alexandra Hospital, Portsmouth Hospitals NHS Trust",
    "city": "Portsmouth",
-   "state": "Hampshire",
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Diabetes Centre, Queen Alexandra Hospital, Portsmouth Hospitals NHS Trust",
    "lat": 50.79899,
-   "lon": -1.09125
+   "lon": -1.09125,
+   "state": "Hampshire",
+   "status": null
   },
   {
-   "facility": "School of Pharmacy and Biomedical Sciences, University of Posrtmouth",
    "city": "Portsmouth",
-   "state": "Hampshire",
    "country": "United Kingdom",
-   "status": null,
+   "facility": "School of Pharmacy and Biomedical Sciences, University of Posrtmouth",
    "lat": 50.79899,
-   "lon": -1.09125
+   "lon": -1.09125,
+   "state": "Hampshire",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00898950",
@@ -156,6 +156,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "diabetes type 2"
+   },
+   {
+    "text": "age > 18 and < 70"
+   },
+   {
+    "text": "high cardiovascular risk"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "presence of active/established cardiovascular disease (ischaemic heart disease, cerebrovascular disease or peripheral vascular disease)"
+   },
+   {
+    "text": "insulin treatment"
+   },
+   {
+    "text": "patients with known peptic ulcer disease or those on anti-coagulation"
+   },
+   {
+    "text": "significant renal impairment"
+   },
+   {
+    "text": "aspirin intolerance"
+   },
+   {
+    "text": "use of anticoagulants"
+   },
+   {
+    "text": "significant liver disease"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

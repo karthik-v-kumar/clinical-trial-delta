@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Laboratorios Manuell SA",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Laboratorios Manuell SA"
  },
  "collaborators": [
   "Universidad Nacional Autonoma de Mexico"
@@ -53,39 +53,39 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Thiamine pyrophosphate",
    "other_names": [
     "Cocarboxylase"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Thiamine pyrophosphate",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Experimental group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Placebo group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "Chronic non-infectious diseases have a bigger impact and a higher prevalence every day world-wide. Among them, diabetes stands out being the number one cause of death from degenerative chronic illness in Mexico. Diabetes not only affects quality of life, it can also lead to severe complications that have a great economic impact as well as a health impact on the patient and their family. Some of the complications include liver failure and hypertension. This whole problem can be dated back to an initial hyperglycemic state that when left untreated further develops into insulin resistance, chronic inflammation, metabolic syndrome and diabetes. The purpose of this study is to stop this chain reaction that starts with every hyperglycemic patient by adding thiamine pyrophosphate to the treatment plan of patients diagnosed with type 2 diabetes that are poorly managed with metformin monotherapy. Thiamine pyrophosphate is a form of B1 vitamin that plays an important role as a coenzyme in multiple metabolic routes including the link between glycolysis and Krebs cycle, fatty acids metabolism and branched-chain amino acid metabolism. By doing so, these pathways improve their function and efficiency and thereby utilize plasma glucose. This in turn, decreases the formation of advanced glycation end products (AGEs) which prevents the formation of reactive oxygen and nitrogen species, ultimately there is also an anti-oxidative mechanism involved that improves the inflammatory state the patient is living with. Our hypothesis is that by adding thiamine pyrophosphate to the treatment of patients taking metformin, there will be important progress regarding the inflammatory and metabolic control of patients with type 2 diabetes.\n\nThe study will have a duration of approximately 4 months after the total sample is recruited. During this time, subjects will first be examined to determine their eligibility according to the pre-established criteria, in case of inclusion in the study they will sign an informed consent after reading it thoroughly and having answered all their questions. Baseline labs will be taken for every subject for future comparison. They will then be randomized into two parallel groups: an experimental group that will receive weekly infusions of saline infused with 1 gram of thiamine pyrophosphate or a placebo group that will also receive weekly infusions of pure saline. The patients as well as the doctors treating them will be blinded to the assignment of either group. This model will be carried out for a duration of 12 weeks total, during which every patient will continue their metformin treatment with their tolerated dose. There will be verification of treatment adherence by counting the metformin pills during every weekly visit. For the assessment of dependent variables there will be a visit every month with a blinded doctor. These visits will be for: physical and clinical evaluation, evaluation of adverse events, evaluation of treatment adherence and a heart rate variability study. The first and third months a questionnaire about lifestyle will be added to the visit schedule. On the third month, final lab tests will be performed. Finally, one month after completing the treatment, a final visit will be scheduled for a clinical and physical evaluation to make sure there are no problems.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* signed informed consent\n* diagnosed type 2 diabetes mellitus\n* HbA1c between 7.5 and 11%\n* monotherapy treatment with metformin at tolerated successful dose\n\nExclusion Criteria:\n\n* glomerular filtration rate \\<60 ml/min/1.73m2\n* cardiac o respiratory insufficiency\n* liver enzymes 3 times higher than normal parameters\n* known allergy to metformin or thiamine pyrophosphate\n* pregnancy, lactation or fertile age without a contraceptive method\n* participation in another study in the last 6 months\n* programmed surgery for the next 4 months\n* treatment with any other hypoglycemic agents",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "Centro Especializado en Diabetes, Obesidad, Prevención y Enfermedades Cardiovasculares, S.C.",
    "city": "Mexico City",
-   "state": "Mexico City",
    "country": "Mexico",
-   "status": null,
+   "facility": "Centro Especializado en Diabetes, Obesidad, Prevención y Enfermedades Cardiovasculares, S.C.",
    "lat": 19.42847,
-   "lon": -99.12766
+   "lon": -99.12766,
+   "state": "Mexico City",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04053621",
@@ -126,6 +126,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "signed informed consent"
+   },
+   {
+    "text": "diagnosed type 2 diabetes mellitus"
+   },
+   {
+    "text": "HbA1c between 7.5 and 11%"
+   },
+   {
+    "text": "monotherapy treatment with metformin at tolerated successful dose"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "glomerular filtration rate <60 ml/min/1.73m2"
+   },
+   {
+    "text": "cardiac o respiratory insufficiency"
+   },
+   {
+    "text": "liver enzymes 3 times higher than normal parameters"
+   },
+   {
+    "text": "known allergy to metformin or thiamine pyrophosphate"
+   },
+   {
+    "text": "pregnancy, lactation or fertile age without a contraceptive method"
+   },
+   {
+    "text": "participation in another study in the last 6 months"
+   },
+   {
+    "text": "programmed surgery for the next 4 months"
+   },
+   {
+    "text": "treatment with any other hypoglycemic agents"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

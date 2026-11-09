@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2018-09-13",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Washington",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Washington"
  },
  "collaborators": [
   "American Diabetes Association",
@@ -56,32 +56,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Linagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glipizide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Linagliptin/Glipizide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Linagliptin",
     "Drug: Glipizide"
-   ]
+   ],
+   "label": "Linagliptin/Glipizide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glipizide/Linagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Linagliptin",
     "Drug: Glipizide"
-   ]
+   ],
+   "label": "Glipizide/Linagliptin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "The goal of this study is to test whether a dipeptidyl peptidase-4 inhibitor, compared with a sulfonylurea, improves time in normal blood glucose range and reduces blood glucose variability. Blood glucose is measured using a continuous glucose monitoring device.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* eGFR 15-59 mL/min/1.73 m2\n* Hemoglobin A1c \\< 8%\n* Age ≥ 18 years\n* Current use of sulfonylurea\n\nExclusion Criteria:\n\n* BMI \\> 40 kg/m2\n* Actively using CGM for clinical care\n* End stage renal disease needing dialysis\n* Kidney transplant\n* Pregnant or nursing\n* Unable to provide informed consent",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "University of Washington",
    "city": "Seattle",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "University of Washington",
    "lat": 47.60621,
-   "lon": -122.33207
+   "lon": -122.33207,
+   "state": "Washington",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02608177",
@@ -122,6 +122,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "eGFR 15-59 mL/min/1.73 m2"
+   },
+   {
+    "text": "Hemoglobin A1c < 8%"
+   },
+   {
+    "text": "Age ≥ 18 years"
+   },
+   {
+    "text": "Current use of sulfonylurea"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "BMI > 40 kg/m2"
+   },
+   {
+    "text": "Actively using CGM for clinical care"
+   },
+   {
+    "text": "End stage renal disease needing dialysis"
+   },
+   {
+    "text": "Kidney transplant"
+   },
+   {
+    "text": "Pregnant or nursing"
+   },
+   {
+    "text": "Unable to provide informed consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

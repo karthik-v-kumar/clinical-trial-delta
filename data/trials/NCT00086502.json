@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2010-04-19",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,48 +51,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Comparator: Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Pioglitazone",
    "other_names": [
     "ACTOS"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin 100 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Sitagliptin",
     "Drug: Comparator: Pioglitazone",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Sitagliptin 100 mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Placebo",
     "Drug: Comparator: Pioglitazone",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "The purpose of this study is to determine the safety and efficacy of an investigational drug in patients with type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient has type 2 diabetes mellitus (T2DM)\n* Patient is 18 years of age (or older)\n* Patient is not pregnant or breast-feeding and does not plan to become pregnant for the duration of the study and poststudy follow-up period\n\nExclusion Criteria:\n\n* Patient has a history of type 1 diabetes mellitus or a history of ketoacidosis\n* Patient required insulin within the prior 8 weeks\n* Patient is on a weight loss program and is not in the maintenance phase\n* Patient started on a weight loss medication (e.g., orlistat or sibutramine) within the prior 8 weeks\n* Patient is on or likely to require treatment with treatment with immunosuppressive agents (e.g., cyclosporin, methotrexate)\n* Patient has cirrhosis, active liver disease (other than fatty liver) or symptomatic gallbladder disease\n* Patient has chronic myopathy, or a progressive neurological or neuromuscular disorder (e.g., multiple sclerosis or polymyositis)\n* Patient has any of the following disorders within the past 6 months:\n\nAcute coronary syndrome (e.g., MI or unstable angina), Coronary artery intervention, Stroke or transient ischemic neurological disorder.\n\n* Patient has new or worsening signs or symptoms of coronary heart disease within the past 3 months\n* Patient has severe peripheral vascular disease\n* Patient has congestive heart failure\n* Patient is HIV positive\n* Patient has a clinically important hematological disorder (e.g., aplastic anemia, myeloproliferative or myelodysplastic syndromes, thrombocytopenia)\n* Patient has a history of neoplastic disease\n* Patient has a history of alcohol or drug abuse within the past 3 years\n* Patient has viral hepatitis (hepatitis B or C)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -123,6 +123,74 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient has type 2 diabetes mellitus (T2DM)"
+   },
+   {
+    "text": "Patient is 18 years of age (or older)"
+   },
+   {
+    "text": "Patient is not pregnant or breast-feeding and does not plan to become pregnant for the duration of the study and poststudy follow-up period"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has a history of type 1 diabetes mellitus or a history of ketoacidosis"
+   },
+   {
+    "text": "Patient required insulin within the prior 8 weeks"
+   },
+   {
+    "text": "Patient is on a weight loss program and is not in the maintenance phase"
+   },
+   {
+    "text": "Patient started on a weight loss medication (e.g., orlistat or sibutramine) within the prior 8 weeks"
+   },
+   {
+    "text": "Patient is on or likely to require treatment with treatment with immunosuppressive agents (e.g., cyclosporin, methotrexate)"
+   },
+   {
+    "text": "Patient has cirrhosis, active liver disease (other than fatty liver) or symptomatic gallbladder disease"
+   },
+   {
+    "text": "Patient has chronic myopathy, or a progressive neurological or neuromuscular disorder (e.g., multiple sclerosis or polymyositis)"
+   },
+   {
+    "text": "Patient has any of the following disorders within the past 6 months:"
+   },
+   {
+    "text": "Acute coronary syndrome (e.g., MI or unstable angina), Coronary artery intervention, Stroke or transient ischemic neurological disorder."
+   },
+   {
+    "text": "Patient has new or worsening signs or symptoms of coronary heart disease within the past 3 months"
+   },
+   {
+    "text": "Patient has severe peripheral vascular disease"
+   },
+   {
+    "text": "Patient has congestive heart failure"
+   },
+   {
+    "text": "Patient is HIV positive"
+   },
+   {
+    "text": "Patient has a clinically important hematological disorder (e.g., aplastic anemia, myeloproliferative or myelodysplastic syndromes, thrombocytopenia)"
+   },
+   {
+    "text": "Patient has a history of neoplastic disease"
+   },
+   {
+    "text": "Patient has a history of alcohol or drug abuse within the past 3 years"
+   },
+   {
+    "text": "Patient has viral hepatitis (hepatitis B or C)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hoffmann-La Roche",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hoffmann-La Roche"
  },
  "collaborators": [
   "Zealand Pharma"
@@ -56,33 +56,33 @@
  ],
  "interventions": [
   {
-   "type": "COMBINATION_PRODUCT",
    "name": "Petrelintide",
    "other_names": [
     "RO7895515",
     "ZP8396"
-   ]
+   ],
+   "type": "COMBINATION_PRODUCT"
   },
   {
-   "type": "COMBINATION_PRODUCT",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "COMBINATION_PRODUCT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Petrelintide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Combination Product: Petrelintide"
-   ]
+   ],
+   "label": "Petrelintide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Combination Product: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "This study will evaluate the efficacy and safety of petrelintide compared with placebo, in conjunction with a reduced-calorie diet and increased physical activity, for weight management in participants living with overweight or obesity and with Type 2 Diabetes (T2D).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants with BMI ≥ 27 kg/m²\n* T2D diagnosis as per World Health Organization (WHO) classification (or other locally applicable standards) with HbA1c ≥ 6.5% to ≤ 10% (48-86 mmol/mol), measured by the central laboratory at screening\n* Stable treatment with either diet and exercise alone, basal insulin, or selected oral glucose-lowering agents, for at least 90 days prior to and during screening\n* History of at least one self-reported unsuccessful dietary effort to lose body weight\n\nExclusion Criteria:\n\n* History or presence of proliferative diabetic retinopathy, or diabetic macular edema\n* Current or previous treatment with petrelintide or any other amylin analog",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,22 +105,22 @@
  },
  "sites": [
   {
-   "facility": "Institute for Metabolic Research Los Angeles",
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Institute for Metabolic Research Los Angeles",
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": "RECRUITING"
   },
   {
-   "facility": "Manassas Clinical Research Center",
    "city": "Manassas",
-   "state": "Virginia",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Manassas Clinical Research Center",
    "lat": 38.75095,
-   "lon": -77.47527
+   "lon": -77.47527,
+   "state": "Virginia",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07843485",
@@ -134,6 +134,32 @@
  "sponsors_of_note": [
   "Roche"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants with BMI ≥ 27 kg/m²"
+   },
+   {
+    "text": "T2D diagnosis as per World Health Organization (WHO) classification (or other locally applicable standards) with HbA1c ≥ 6.5% to ≤ 10% (48-86 mmol/mol), measured by the central laboratory at screening"
+   },
+   {
+    "text": "Stable treatment with either diet and exercise alone, basal insulin, or selected oral glucose-lowering agents, for at least 90 days prior to and during screening"
+   },
+   {
+    "text": "History of at least one self-reported unsuccessful dietary effort to lose body weight"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History or presence of proliferative diabetic retinopathy, or diabetic macular edema"
+   },
+   {
+    "text": "Current or previous treatment with petrelintide or any other amylin analog"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

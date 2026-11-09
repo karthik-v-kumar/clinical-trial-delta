@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2025-02-05",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -48,20 +48,20 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dulaglutide",
    "other_names": [
     "LY2189265"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dulaglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dulaglutide"
-   ]
+   ],
+   "label": "Dulaglutide",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The main purpose of this study is to evaluate safety of dulaglutide in participants with type 2 diabetes mellitus in India.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have a diagnosis of type 2 diabetes mellitus (T2DM) of at least 1-year duration currently treated with stable doses of oral antihyperglycemic medications with or without stable doses of basal or premix insulin for the last 3 months prior to screening\n* Have hemoglobin A1c (HbA1c) greater than or equal to (≥) 7.5 percent (%) and less than or equal to (≤) 11.5%, both inclusive, at screening\n* Have body mass index (BMI) ≥ 23 kilogram/square meter (kg/m²)\n\nExclusion Criteria:\n\n* A diagnosis of type 1 diabetes mellitus (T1DM) or latent autoimmune diabetes, or specific type of diabetes other than T2DM\n* Been treated with antihyperglycemic medication like glucagon-like peptide receptor agonists (GLP-1 RA) or have a prior history of any contraindication to GLP-1 RA therapy within 3 months prior to screening or estimated glomerular filtration rate (eGFR) \\<15 milliliter/minute (ml/min)/1.73 square meter (m²)\n* Participants have known hypersensitivity or allergy to dulaglutide or its excipients\n* Participants are on systemic steroids for any period of more than 14 days\n* Participants have severe gastrointestinal (GI) disease, including severe gastroparesis\n* Participants have an active or untreated malignancy, except for successfully treated basal or squamous cell carcinoma",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,67 +96,67 @@
  },
  "sites": [
   {
-   "facility": "Medlink Hospital Opp Someshwara Jain Temple",
    "city": "Ahmedabad",
-   "state": "Ambavadi",
    "country": "India",
-   "status": null,
+   "facility": "Medlink Hospital Opp Someshwara Jain Temple",
    "lat": 23.02579,
-   "lon": 72.58727
+   "lon": 72.58727,
+   "state": "Ambavadi",
+   "status": null
   },
   {
-   "facility": "Life Care Hospital and Research Centre",
    "city": "Bangalore",
-   "state": "Karnataka",
    "country": "India",
-   "status": null,
+   "facility": "Life Care Hospital and Research Centre",
    "lat": 12.97194,
-   "lon": 77.59369
+   "lon": 77.59369,
+   "state": "Karnataka",
+   "status": null
   },
   {
+   "city": "Pune",
+   "country": "India",
    "facility": "Akshay Hospital",
-   "city": "Pune",
-   "state": "Maharashtra",
-   "country": "India",
-   "status": null,
    "lat": 18.51957,
-   "lon": 73.85535
+   "lon": 73.85535,
+   "state": "Maharashtra",
+   "status": null
   },
   {
+   "city": "Pune",
+   "country": "India",
    "facility": "Grant Medical Foundation - Ruby Hall Clinic",
-   "city": "Pune",
-   "state": "Maharashtra",
-   "country": "India",
-   "status": null,
    "lat": 18.51957,
-   "lon": 73.85535
+   "lon": 73.85535,
+   "state": "Maharashtra",
+   "status": null
   },
   {
-   "facility": "Lifepoint Multispecialty Hsptl",
    "city": "Wākad",
-   "state": "Pune",
    "country": "India",
-   "status": null,
+   "facility": "Lifepoint Multispecialty Hsptl",
    "lat": 20.13769,
-   "lon": 77.04481
+   "lon": 77.04481,
+   "state": "Pune",
+   "status": null
   },
   {
-   "facility": "Kovai Diabetes Speciality Center and Hospital",
    "city": "Coimbatore",
-   "state": "Tamil Nadu",
    "country": "India",
-   "status": null,
+   "facility": "Kovai Diabetes Speciality Center and Hospital",
    "lat": 11.00555,
-   "lon": 76.96612
+   "lon": 76.96612,
+   "state": "Tamil Nadu",
+   "status": null
   },
   {
-   "facility": "Virinchi Hospital",
    "city": "Hyderabad",
-   "state": "Telangana",
    "country": "India",
-   "status": null,
+   "facility": "Virinchi Hospital",
    "lat": 17.38405,
-   "lon": 78.45636
+   "lon": 78.45636,
+   "state": "Telangana",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05659537",
@@ -170,6 +170,41 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have a diagnosis of type 2 diabetes mellitus (T2DM) of at least 1-year duration currently treated with stable doses of oral antihyperglycemic medications with or without stable doses of basal or premix insulin for the last 3 months prior to screening"
+   },
+   {
+    "text": "Have hemoglobin A1c (HbA1c) greater than or equal to (≥) 7.5 percent (%) and less than or equal to (≤) 11.5%, both inclusive, at screening"
+   },
+   {
+    "text": "Have body mass index (BMI) ≥ 23 kilogram/square meter (kg/m²)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A diagnosis of type 1 diabetes mellitus (T1DM) or latent autoimmune diabetes, or specific type of diabetes other than T2DM"
+   },
+   {
+    "text": "Been treated with antihyperglycemic medication like glucagon-like peptide receptor agonists (GLP-1 RA) or have a prior history of any contraindication to GLP-1 RA therapy within 3 months prior to screening or estimated glomerular filtration rate (eGFR) <15 milliliter/minute (ml/min)/1.73 square meter (m²)"
+   },
+   {
+    "text": "Participants have known hypersensitivity or allergy to dulaglutide or its excipients"
+   },
+   {
+    "text": "Participants are on systemic steroids for any period of more than 14 days"
+   },
+   {
+    "text": "Participants have severe gastrointestinal (GI) disease, including severe gastroparesis"
+   },
+   {
+    "text": "Participants have an active or untreated malignancy, except for successfully treated basal or squamous cell carcinoma"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

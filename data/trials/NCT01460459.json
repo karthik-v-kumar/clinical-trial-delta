@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Medical Research Foundation, The Netherlands",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Medical Research Foundation, The Netherlands"
  },
  "collaborators": [
   "Sanofi"
@@ -50,32 +50,32 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "a specific frequency of SMBG",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Behavioral: a specific frequency of SMBG"
+   ],
    "label": "high frequency of SMBG",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Behavioral: a specific frequency of SMBG"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Behavioral: a specific frequency of SMBG"
+   ],
    "label": "middle frequency of SMBG",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Behavioral: a specific frequency of SMBG"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "low frequency of SMBG",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: a specific frequency of SMBG"
-   ]
+   ],
+   "label": "low frequency of SMBG",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "Primary Objective:\n\nThe objective of the study is to investigate the effect of a specific frequency of Self-monitoring of blood glucose (SMBG) on glycemic control and quality of life in patients with type 2 diabetes and who are in stable good glycemic control and using 1 insulin injection daily.\n\nThe research question is:\n\nDoes a less intensive frequency of SMBG in insulin-treated patients with type 2 diabetes, who are in stable good glycemic control, using 1 insulin injection daily, lead to a clinically relevant increase of HbA1c (an increase of 0.5%) and what is the effect on quality of life?\n\nSecondary objectives:\n\nThe secondary objectives is to investigate the effect of a specific frequency of SMBG on the number of hypo and hyper glycaemia, number of extra diabetes-related contacts with the health care provider, and the diabetes medication.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with insulin-treated diabetes type 2\n* \\> 18 years of age\n* using 1 insulin injection daily,\n* performing SMBG \\> 1 year\n* HbA1c ≤ 58 mmol/mol (\\< 7.5%) in the preceding 12 months\n* sufficient knowledge of the Dutch language.-\n\nExclusion Criteria:\n\n* no hypo-unawareness\n* no serious co-morbidity (as judged by their own GP)\n* patients who measure their blood glucose concentration (4 measurements a day) more than once a week on average",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Diabetes Centre, Isala Clinics",
    "city": "Zwolle",
-   "state": null,
    "country": "Netherlands",
-   "status": "RECRUITING",
+   "facility": "Diabetes Centre, Isala Clinics",
    "lat": 52.5125,
-   "lon": 6.09444
+   "lon": 6.09444,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01460459",
@@ -116,6 +116,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with insulin-treated diabetes type 2"
+   },
+   {
+    "text": "> 18 years of age"
+   },
+   {
+    "text": "using 1 insulin injection daily,"
+   },
+   {
+    "text": "performing SMBG > 1 year"
+   },
+   {
+    "text": "HbA1c ≤ 58 mmol/mol (< 7.5%) in the preceding 12 months"
+   },
+   {
+    "text": "sufficient knowledge of the Dutch language.-"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "no hypo-unawareness"
+   },
+   {
+    "text": "no serious co-morbidity (as judged by their own GP)"
+   },
+   {
+    "text": "patients who measure their blood glucose concentration (4 measurements a day) more than once a week on average"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

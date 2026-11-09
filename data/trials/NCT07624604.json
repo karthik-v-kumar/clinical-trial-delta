@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Medicine and Pharmacy at Ho Chi Minh City",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Medicine and Pharmacy at Ho Chi Minh City"
  },
  "collaborators": [],
  "conditions": [
@@ -50,54 +50,54 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Auricular Acupressure",
    "other_names": [
     "Auricular Therapy",
     "Ear Acupressure",
     "Auricular Pellets"
-   ]
+   ],
+   "type": "PROCEDURE"
   },
   {
-   "type": "PROCEDURE",
    "name": "Sham Auricular Acupressure",
    "other_names": [
     "Placebo Auricular Acupressure",
     "Sham Ear Acupressure"
-   ]
+   ],
+   "type": "PROCEDURE"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Diet and exercise regimen",
    "other_names": [
     "Standard Care",
     "Routine Dyslipidemia Management"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Auricular Acupressure",
     "Drug: Atorvastatin",
     "Behavioral: Diet and exercise regimen"
-   ]
+   ],
+   "label": "Experimental Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sham Comparator Group",
-   "type": "SHAM_COMPARATOR",
    "intervention_names": [
     "Procedure: Sham Auricular Acupressure",
     "Drug: Atorvastatin",
     "Behavioral: Diet and exercise regimen"
-   ]
+   ],
+   "label": "Sham Comparator Group",
+   "type": "SHAM_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "Dyslipidemia (DL) is a metabolic disorder characterized by abnormal levels of blood lipids and is an important risk factor for cardiovascular disease. Although current management primarily relies on lifestyle modification and lipid-lowering medications, particularly statins, some patients may have an inadequate treatment response, experience adverse effects, or have difficulty maintaining long-term adherence.\n\nTraditional Chinese Medicine therapies are increasingly used as complementary approaches to conventional treatment. Auricular acupuncture, which stimulates specific acupoints on the ear, has been investigated for its potential effects on lipid metabolism. In Traditional Chinese Medicine, Phlegm-Dampness syndrome is considered a common syndrome pattern associated with dyslipidemia. However, clinical evidence regarding the effects of auricular acupuncture on blood lipid parameters and Phlegm-Dampness symptoms in patients with dyslipidemia remains limited, particularly in Vietnam.\n\nThis randomized controlled trial evaluates the effects of auricular acupuncture combined with atorvastatin compared with atorvastatin plus sham auricular acupuncture in patients with dyslipidemia presenting with Phlegm-Dampness syndrome. The primary outcome is the change in blood lipid parameters, including total cholesterol (TC), triglycerides (TG), low-density lipoprotein cholesterol (LDL-C), and high-density lipoprotein cholesterol (HDL-C), from baseline to the end of the 8-week intervention. Changes in clinical symptoms of Phlegm-Dampness syndrome are also evaluated.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis: Dyslipidemia (DL), untreated or discontinued treatment for at least 1 month, and not taking drugs that induce DL.\n* Laboratory Criteria: LDL-c levels between 2.6 and 4.9 mmol/L.\n* TCM Criteria:\n\nDiagnosed with Phlegm-Dampness syndrome in patients with DL according to the \"Guiding Principles for Clinical Research on Combined Traditional Chinese and Western Medicine\":\n\nPrimary symptoms: Obesity, heavy sensation in the head, chest tightness, nausea/phlegm expectoration, numbness in limbs.\n\nSecondary symptoms: Palpitations, insomnia, bland taste in the mouth, poor appetite.\n\nTongue manifestations: Enlarged/flabby tongue, greasy/slippery tongue coating. Pulse: String-taut and slippery pulse (Wiry-Slippery pulse). Diagnostic threshold: Confirmed when presenting \\>= 50% of TCM Phlegm-Dampness syndrome symptoms in patients with DL.\n\nExclusion Criteria:\n\n* Participants are non-compliant with the treatment protocol.\n* Participants decline to continue study participation for any reason (Withdrawal of consent).\n* Participants experience health events during the study and do not wish to continue participation.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,13 +120,13 @@
  },
  "sites": [
   {
-   "facility": "Bệnh viện Lê Văn Thịnh",
    "city": "Hồ Chí Minh",
-   "state": null,
    "country": "Vietnam",
-   "status": null,
+   "facility": "Bệnh viện Lê Văn Thịnh",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07624604",
@@ -138,6 +138,44 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis: Dyslipidemia (DL), untreated or discontinued treatment for at least 1 month, and not taking drugs that induce DL."
+   },
+   {
+    "text": "Laboratory Criteria: LDL-c levels between 2.6 and 4.9 mmol/L."
+   },
+   {
+    "text": "TCM Criteria:"
+   },
+   {
+    "text": "Diagnosed with Phlegm-Dampness syndrome in patients with DL according to the \"Guiding Principles for Clinical Research on Combined Traditional Chinese and Western Medicine\":"
+   },
+   {
+    "text": "Primary symptoms: Obesity, heavy sensation in the head, chest tightness, nausea/phlegm expectoration, numbness in limbs."
+   },
+   {
+    "text": "Secondary symptoms: Palpitations, insomnia, bland taste in the mouth, poor appetite."
+   },
+   {
+    "text": "Tongue manifestations: Enlarged/flabby tongue, greasy/slippery tongue coating. Pulse: String-taut and slippery pulse (Wiry-Slippery pulse). Diagnostic threshold: Confirmed when presenting >= 50% of TCM Phlegm-Dampness syndrome symptoms in patients with DL."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participants are non-compliant with the treatment protocol."
+   },
+   {
+    "text": "Participants decline to continue study participation for any reason (Withdrawal of consent)."
+   },
+   {
+    "text": "Participants experience health events during the study and do not wish to continue participation."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Aarhus",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Aarhus"
  },
  "collaborators": [
   "Region MidtJylland Denmark"
@@ -52,50 +52,50 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Oral Glucose tolerance test (OGGT)",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Liquid mixed meal",
    "other_names": [
     "Liquid mixed meal containing carbohydrate, fat and proteins"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DRUG",
    "name": "Octreotide",
    "other_names": [
     "Somatostatin analogue"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Gastric bypass surgery, hypoglycemia",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Oral Glucose tolerance test (OGGT)",
     "Dietary Supplement: Liquid mixed meal",
     "Drug: Octreotide"
-   ]
+   ],
+   "label": "Gastric bypass surgery, hypoglycemia",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Dietary Supplement: Oral Glucose tolerance test (OGGT)",
+    "Dietary Supplement: Liquid mixed meal"
+   ],
    "label": "Gastric bypass surgery, asymptomatic",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Dietary Supplement: Oral Glucose tolerance test (OGGT)",
-    "Dietary Supplement: Liquid mixed meal"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Controls",
-   "type": "OTHER",
    "intervention_names": [
     "Dietary Supplement: Oral Glucose tolerance test (OGGT)",
     "Dietary Supplement: Liquid mixed meal"
-   ]
+   ],
+   "label": "Controls",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -107,10 +107,10 @@
  "brief_summary": "With increasing rates of obesity the number of anti-obesity operations performed is increasing; one of the most common is gastric bypass. Anti-obesity surgery ameliorates diabetes and several other serious comorbidities, but bariatric surgery is also associated with medical and nutritional complications.\n\nPost-gastric bypass hyperinsulinemic hypoglycemia is a relative rare but serious complication often seen months to years after gastric bypass surgery. The patients experience neuroglycopenic symptoms (eg. inability to concentrate, weakness, altered mental status, loss of consciousness).\n\nThe purpose of this study is to determine whether glucagon-like peptide-1 (GLP-1)or other enteropancreatic factors (eg. gastric emptying rate) are responsible for the excessed insulin secretion seen in some patients after bariatric surgery.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male/female\n* Legally competent (habil)\n* Age 20-65 years\n* Speak and understand Danish\n* Written consent\n* Investigators verification of suitability\n\nExclusion Criteria:\n\n* Heart, liver or kidney disease\n* Treatment with Cortisol\n* Current treatment with antidiabetic medication\n* Epilepsy\n* Abuse/addiction to drugs",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,13 +118,13 @@
  },
  "sites": [
   {
-   "facility": "Department of Endocrinology, Aarhus University Hospital",
    "city": "Aarhus C",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Department of Endocrinology, Aarhus University Hospital",
    "lat": 56.16558,
-   "lon": 10.21231
+   "lon": 10.21231,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01865760",
@@ -136,6 +136,47 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male/female"
+   },
+   {
+    "text": "Legally competent (habil)"
+   },
+   {
+    "text": "Age 20-65 years"
+   },
+   {
+    "text": "Speak and understand Danish"
+   },
+   {
+    "text": "Written consent"
+   },
+   {
+    "text": "Investigators verification of suitability"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Heart, liver or kidney disease"
+   },
+   {
+    "text": "Treatment with Cortisol"
+   },
+   {
+    "text": "Current treatment with antidiabetic medication"
+   },
+   {
+    "text": "Epilepsy"
+   },
+   {
+    "text": "Abuse/addiction to drugs"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "National Institute on Aging (NIA)",
-  "class": "NIH"
+  "class": "NIH",
+  "name": "National Institute on Aging (NIA)"
  },
  "collaborators": [],
  "conditions": [
@@ -51,48 +51,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "GIP",
    "other_names": [
     "Glucose dependent insulinotropic peptide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Modified GIP",
    "other_names": [
     "GIP analog"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Normal Saline",
    "other_names": [
     "Saline"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Infusion 1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: GIP"
-   ]
+   ],
+   "label": "Infusion 1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Infusion 2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Modified GIP"
-   ]
+   ],
+   "label": "Infusion 2",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Infusion 3",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Normal Saline"
-   ]
+   ],
+   "label": "Infusion 3",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "The purpose of this study is to test the safety of glucose-dependent insulinotropic peptide (GIP)/GIP Analog on people with Type 2 Diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 18 years of age and older\n* Healthy Type 2 Diabetics\n* Agree to stay off glucosidases for 3 days prior to infusion visits (Examples: Precose, Glyset)\n* Agree to stay off Sulfonylureas 5 days prior to infusion visits (Examples: Glucotrol, Amaryl, glyburide, metformin\n* Able to ingest 1000 mg Tylenol on study visits\n* Able to consume study breakfast consisting of scrambled egg, white toast with margarine, corn flakes, 2% milk, banana at each infusion visit\n* Female participants must have Hct \\> 36\n* Male participant must have Hct \\> 38\n* No kidney or liver disease per history and evidenced by blood and urine tests\n* Physical Exam and EKG that do not contraindicate patient to be in the study\n\nExclusion Criteria:\n\n* Taking the following medications: Insulin, or Thiazolidinediones, i.e. Avandia, Actos\n* Pregnancy\n* Steroid use within the past 3 months\n* Recent infection, fever or chills",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -115,13 +115,13 @@
  },
  "sites": [
   {
-   "facility": "National Institute on Aging, Clinical Research Branch",
    "city": "Baltimore",
-   "state": "Maryland",
    "country": "United States",
-   "status": null,
+   "facility": "National Institute on Aging, Clinical Research Branch",
    "lat": 39.29038,
-   "lon": -76.61219
+   "lon": -76.61219,
+   "state": "Maryland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00239707",
@@ -133,6 +133,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "18 years of age and older"
+   },
+   {
+    "text": "Healthy Type 2 Diabetics"
+   },
+   {
+    "text": "Agree to stay off glucosidases for 3 days prior to infusion visits (Examples: Precose, Glyset)"
+   },
+   {
+    "text": "Agree to stay off Sulfonylureas 5 days prior to infusion visits (Examples: Glucotrol, Amaryl, glyburide, metformin"
+   },
+   {
+    "text": "Able to ingest 1000 mg Tylenol on study visits"
+   },
+   {
+    "text": "Able to consume study breakfast consisting of scrambled egg, white toast with margarine, corn flakes, 2% milk, banana at each infusion visit"
+   },
+   {
+    "text": "Female participants must have Hct > 36"
+   },
+   {
+    "text": "Male participant must have Hct > 38"
+   },
+   {
+    "text": "No kidney or liver disease per history and evidenced by blood and urine tests"
+   },
+   {
+    "text": "Physical Exam and EKG that do not contraindicate patient to be in the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Taking the following medications: Insulin, or Thiazolidinediones, i.e. Avandia, Actos"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Steroid use within the past 3 months"
+   },
+   {
+    "text": "Recent infection, fever or chills"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

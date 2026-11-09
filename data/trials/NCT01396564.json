@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Coordinación de Investigación en Salud, Mexico",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Coordinación de Investigación en Salud, Mexico"
  },
  "collaborators": [],
  "conditions": [
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Recommended diet and 30 minutes of exercise daily"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Recommended diet and 30 minutes of exercise daily"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Pioglitazone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pioglitazone"
-   ]
+   ],
+   "label": "Pioglitazone",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,23 +92,23 @@
  "brief_summary": "HYPOTHESIS: Treatment with pioglitazone is more effective in reducing resistin concentrations and insulin resistance than metformin in children with Type 2 Diabetes (T2D).\n\nMATERIAL AND METHODS: Pediatric patients aged 8-17 with T2D as defined by the American Diabetes Association (ADA) were included, not under treatment or who had been treated exclusively with diet and exercise or who only received an anti-diabetic agent, as well as those with a history of insulin use who had not applied insulin within 1 month before the initial visit. History of T2D, hypertension, exercise, diet, age, gender and somatometry are recorded. A Blood sample is taken to determine HbA1c, glucose, insulin and resistin.\n\nSTATISTICAL ANALYSIS: The percentual change over 4 weeks is analyzed for concentrations of resistin, insulin resistance. Changes are noted for weeks 12, 24, 36 and 48 for resistin concentrations, HbA1c and HOMA values. Baseline and final values are compared with a paired t test. Lineal or logarithmic regression analysis is used to evaluate the relationship between homeostasis model assessment of insulin resistance (HOMA-IR) and resistin concentrations. The statistical significance between variables is determined using ANOVA. The effect of confounding variables is analyzed with a test of co-variance analysis. Statistical significance is considered as p \\<0.05.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Pediatric patients with type 2 diabetes according to ADA.\n* Patients who have not previously received anti-diabetic treatment or have been treated solely with diet and exercise or have received only one anti-diabetic agent, and who have not applied insulin within 1 month of study start.\n* HbA1c between \\>6.5% and \\<10%.\n* Stable body weight at least 3 months before study start.\n* No intense exercise.\n* Free of other infectious, chronic, or acute inflammatory processes in the 3 months prior to study.\n* Previous informed consent signed (both children and parents or guardians).\n* Either sex\n* 8-17 years old.\n\nExclusion Criteria:\n\n* Personal history of type 1 diabetes\n* Chronic renal failure or serum creatinine over 1.0 mg/dl.\n* Active hepatic disease (ALT and AST 3 times normal)\n* Heart conditions\n* Acute or chronic metabolic acidosis\n* Receiving steroids or insulin",
-  "sex": "ALL",
-  "minimum_age": "8 Years",
-  "maximum_age": "17 Years",
   "healthy_volunteers": false,
+  "maximum_age": "17 Years",
+  "minimum_age": "8 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "facility": "Endocrine Outpatient Clinic of the Hospital de Pediatria del CMN \"Siglo XXI\"",
    "city": "Mexico City",
-   "state": "Mexico City",
    "country": "Mexico",
-   "status": null,
+   "facility": "Endocrine Outpatient Clinic of the Hospital de Pediatria del CMN \"Siglo XXI\"",
    "lat": 19.42847,
-   "lon": -99.12766
+   "lon": -99.12766,
+   "state": "Mexico City",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01396564",
@@ -120,6 +120,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Pediatric patients with type 2 diabetes according to ADA."
+   },
+   {
+    "text": "Patients who have not previously received anti-diabetic treatment or have been treated solely with diet and exercise or have received only one anti-diabetic agent, and who have not applied insulin within 1 month of study start."
+   },
+   {
+    "text": "HbA1c between >6.5% and <10%."
+   },
+   {
+    "text": "Stable body weight at least 3 months before study start."
+   },
+   {
+    "text": "No intense exercise."
+   },
+   {
+    "text": "Free of other infectious, chronic, or acute inflammatory processes in the 3 months prior to study."
+   },
+   {
+    "text": "Previous informed consent signed (both children and parents or guardians)."
+   },
+   {
+    "text": "Either sex"
+   },
+   {
+    "text": "8-17 years old."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Personal history of type 1 diabetes"
+   },
+   {
+    "text": "Chronic renal failure or serum creatinine over 1.0 mg/dl."
+   },
+   {
+    "text": "Active hepatic disease (ALT and AST 3 times normal)"
+   },
+   {
+    "text": "Heart conditions"
+   },
+   {
+    "text": "Acute or chronic metabolic acidosis"
+   },
+   {
+    "text": "Receiving steroids or insulin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

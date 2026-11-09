@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -56,36 +56,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ezetimibe + Atorvastatin",
    "other_names": [
     "SCH 58235",
     "Zetia",
     "Lipitor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "Lipitor"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Ezetimibe + Atorvastatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe + Atorvastatin"
-   ]
+   ],
+   "label": "Ezetimibe + Atorvastatin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Atorvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "Atorvastatin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "The primary objective is to evaluate the efficacy and safety of coadministration of ezetimibe 10 mg with atorvastatin 10 mg in untreated subjects with primary hypercholesterolemia and coronary heart disease for whom diet and exercise have failed. The primary variable is LDL-cholesterol (LDL-C), and the secondary variable is total cholesterol (TC), HDL-C, and triglycerides (TG). The following variables were used to assess the safety and compliance of the drug: vital signs and laboratory values. Variables were measured before the first administration of the drug and at the last administration of the drug, after 6 weeks of treatment. Adverse events were also assessed.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nDiagnosis and Criteria for Inclusion:\n\n* Diagnosis: This study was designed for untreated subjects with primary hypercholesterolemia with plasma LDL-C concentrations between \\>=3.3 mmol/L (130 mg/dL) to \\<=4.6 mmol/L (180 mg/dL) and triglyceride concentrations of \\<3.99 mmol/L (350 mg/dL), and coronary heart disease for whom diet and exercise have failed and now require drug therapy.\n* Subjects must demonstrate their willingness to participate in the study and comply with its procedures by signing a written informed consent.\n* Subjects must be \\>=18 years and \\<=75 years of age.\n* Subjects must have an LDL-C concentration \\>=3.3 mmol/L (130 mg/dL) to \\<=4.6 mmol/L (180 mg/dL) using the Friedewald calculation available at the time of randomization Visit 3 (Baseline Visit).\n* Subjects must have triglyceride concentrations of \\<3.99 mmol/L (350 mg/dL) at Visit 3 (Baseline Visit).\n* Subjects must have documented coronary heart disease (CHD). For the purposes of this study, CHD will include one or more of the following features: documented stable angina (with evidence of ischemia on exercise testing); history of myocardial infarction; history of percutaneous coronary intervention (primarily PTCA with or without stent placement); symptomatic peripheral vascular disease (claudication); documented history of atherothrombotic cerebrovascular disease; and/or documented history of unstable angina or non-Q wave myocardial infarction.\n* Subjects must not be currently taking an approved statin. Subjects with a previous history of statin use must have not used a statin for at least 6 months prior to Visit 3 (Baseline Visit).\n* Subjects must have liver transaminases (ALT, AST) \\<50% above the upper limit of normal, with no active liver disease, and CK \\<50% above the upper limit of normal at Visit 3 (Baseline Visit).\n* Clinical laboratory tests (CBC, blood chemistries, urinalysis) must be within normal limits or clinically acceptable to the investigator at Visit 3 (Baseline Visit).\n* Subjects must have failed a cholesterol-lowering diet and exercise program of at least 4 weeks duration prior to Visit 3 (Baseline Visit).\n* Subjects must report a stable weight history for at least 4 weeks prior to entry into study at Visit 3 (Baseline visit).\n* Women receiving hormonal therapy, including hormone replacement, any estrogen antagonist/agonist, or oral contraceptives, must have been maintained on a stable dose and regimen for at least 8 weeks and be willing to continue the same regimen for the duration of the study.\n* Women of childbearing potential (includes women who are less than 1 year postmenopausal and women who became sexually active) must be using an acceptable method of birth control (eg, hormonal contraceptive, medically prescribed IUD, condom in combination with spermicide) or be surgically sterilized (eg, hysterectomy or tubal ligation).\n* Subjects must be free of any clinically significant diseases other than hyperlipidemia or coronary heart disease that would interfere with study evaluations.\n* Subjects must understand and be able to adhere to the dosing and visit schedules, and must agree to maintain their current cholesterol-lowering diet and their current exercise program for the duration of the study.\n\nExclusion Criteria:\n\n* Subjects whose body mass index is \\>=30 kg/sqm at baseline.\n* Subjects who have known hypersensitivity to HMG-CoA reductase inhibitors.\n* Subjects who consume \\>14 alcoholic drinks per week.\n* Any condition or situation that, in the opinion of the investigator, might pose a risk to the subject or interfere with participation in the study.\n* Women who are pregnant or nursing.\n* Subjects who have not observed designated washout periods for prohibited medications (eg, potent inhibitors of CYP3A4, prescription or over-the-counter agents know to lower lipid levels, corticosteroids), or have been on a stable regimen of any cardiovascular agent for \\<6 weeks.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,6 +116,92 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis: This study was designed for untreated subjects with primary hypercholesterolemia with plasma LDL-C concentrations between >=3.3 mmol/L (130 mg/dL) to <=4.6 mmol/L (180 mg/dL) and triglyceride concentrations of <3.99 mmol/L (350 mg/dL), and coronary heart disease for whom diet and exercise have failed and now require drug therapy.",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must demonstrate their willingness to participate in the study and comply with its procedures by signing a written informed consent.",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must be >=18 years and <=75 years of age.",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must have an LDL-C concentration >=3.3 mmol/L (130 mg/dL) to <=4.6 mmol/L (180 mg/dL) using the Friedewald calculation available at the time of randomization Visit 3 (Baseline Visit).",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must have triglyceride concentrations of <3.99 mmol/L (350 mg/dL) at Visit 3 (Baseline Visit).",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must have documented coronary heart disease (CHD). For the purposes of this study, CHD will include one or more of the following features: documented stable angina (with evidence of ischemia on exercise testing); history of myocardial infarction; history of percutaneous coronary intervention (primarily PTCA with or without stent placement); symptomatic peripheral vascular disease (claudication); documented history of atherothrombotic cerebrovascular disease; and/or documented history of unstable angina or non-Q wave myocardial infarction.",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must not be currently taking an approved statin. Subjects with a previous history of statin use must have not used a statin for at least 6 months prior to Visit 3 (Baseline Visit).",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must have liver transaminases (ALT, AST) <50% above the upper limit of normal, with no active liver disease, and CK <50% above the upper limit of normal at Visit 3 (Baseline Visit).",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Clinical laboratory tests (CBC, blood chemistries, urinalysis) must be within normal limits or clinically acceptable to the investigator at Visit 3 (Baseline Visit).",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must have failed a cholesterol-lowering diet and exercise program of at least 4 weeks duration prior to Visit 3 (Baseline Visit).",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must report a stable weight history for at least 4 weeks prior to entry into study at Visit 3 (Baseline visit).",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Women receiving hormonal therapy, including hormone replacement, any estrogen antagonist/agonist, or oral contraceptives, must have been maintained on a stable dose and regimen for at least 8 weeks and be willing to continue the same regimen for the duration of the study.",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Women of childbearing potential (includes women who are less than 1 year postmenopausal and women who became sexually active) must be using an acceptable method of birth control (eg, hormonal contraceptive, medically prescribed IUD, condom in combination with spermicide) or be surgically sterilized (eg, hysterectomy or tubal ligation).",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must be free of any clinically significant diseases other than hyperlipidemia or coronary heart disease that would interfere with study evaluations.",
+    "group": "Diagnosis and Criteria for Inclusion"
+   },
+   {
+    "text": "Subjects must understand and be able to adhere to the dosing and visit schedules, and must agree to maintain their current cholesterol-lowering diet and their current exercise program for the duration of the study.",
+    "group": "Diagnosis and Criteria for Inclusion"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects whose body mass index is >=30 kg/sqm at baseline."
+   },
+   {
+    "text": "Subjects who have known hypersensitivity to HMG-CoA reductase inhibitors."
+   },
+   {
+    "text": "Subjects who consume >14 alcoholic drinks per week."
+   },
+   {
+    "text": "Any condition or situation that, in the opinion of the investigator, might pose a risk to the subject or interfere with participation in the study."
+   },
+   {
+    "text": "Women who are pregnant or nursing."
+   },
+   {
+    "text": "Subjects who have not observed designated washout periods for prohibited medications (eg, potent inhibitors of CYP3A4, prescription or over-the-counter agents know to lower lipid levels, corticosteroids), or have been on a stable regimen of any cardiovascular agent for <6 weeks."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

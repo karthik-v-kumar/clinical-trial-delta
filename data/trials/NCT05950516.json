@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Qilu Pharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Qilu Pharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "QLG2065"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide Pen Injector [Ozempic]",
    "other_names": [
     "Ozempic Injectable Product"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "QLG2065",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "QLG2065",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Ozempic",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide Pen Injector [Ozempic]"
-   ]
+   ],
+   "label": "Ozempic",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "To evaluate the similarity of the efficacy and safety of semaglutide injection (QLG2065) vs. Ozempic® in patients with type 2 diabetes mellitus (T2DM) with poor blood glucose control after metformin treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male or female, age ≥ 18 years and ≤75 years old at the time of screening.\n2. Subjects diagnosed with type 2 diabetes for at least 6 months (WHO, 1999)\n3. Within 60 days before screening, subjects received stable treatment with only metformin ≥ 1500 mg/day (or maximum tolerated dose ≥ 1000 mg/day), or receive combination metformin (dose ≥ 750 mg/day) and another OAD (alpha-glucosidase inhibitors, sulfonylureas, glinides, SGLT-2i or thiazolidinedione), stable treatment is defined as unchanged medication and daily doses;\n4. At the time of screening, for those who have previously been treated with metformin alone, HbA1c ≥ 7.0% and ≤ 11.0%（local lab）; for those who have previously used metformin in combination with another OAD treatment, HbA1c ≥ 7.0% and ≤10.0%（local lab）;\n5. BMI≥18.5kg/m2 and ≤35 kg/m2\n6. Subjects voluntarily participate in this research, can communicate well with researchers, are willing to maintain the same diet and exercise habits throughout the study, and sign an informed consent form (ICF) .\n7. At baseline，HbAlc ≥ 7.0% and ≤ 11.0%（cental lab）\n\nExclusion Criteria:\n\n1. Known or suspected hypersensitivity to any GLP-1RA or related products, or allergic constitution\n2. Treatment with GLP-1RA, DPP-4 inhibitor, or insulin in a period of 60 days before screening. An exception is short-term insulin therapy (≤7 days in total).\n3. History of chronic or acute pancreatitis\n4. Screening calcitonin value ≥ 50 ng/L (pg/mL)\n5. Personal or family history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN 2)\n6. Have a history of major cardiovascular and cerebrovascular diseases within 90 days before screening.\n7. Known proliferative retinopathy or maculopathy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Shandong Provincial Hospital",
    "city": "Jinan",
-   "state": "Shandong",
    "country": "China",
-   "status": null,
+   "facility": "Shandong Provincial Hospital",
    "lat": 36.66833,
-   "lon": 116.99722
+   "lon": 116.99722,
+   "state": "Shandong",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05950516",
@@ -116,6 +116,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female, age ≥ 18 years and ≤75 years old at the time of screening."
+   },
+   {
+    "text": "Subjects diagnosed with type 2 diabetes for at least 6 months (WHO, 1999)"
+   },
+   {
+    "text": "Within 60 days before screening, subjects received stable treatment with only metformin ≥ 1500 mg/day (or maximum tolerated dose ≥ 1000 mg/day), or receive combination metformin (dose ≥ 750 mg/day) and another OAD (alpha-glucosidase inhibitors, sulfonylureas, glinides, SGLT-2i or thiazolidinedione), stable treatment is defined as unchanged medication and daily doses;"
+   },
+   {
+    "text": "At the time of screening, for those who have previously been treated with metformin alone, HbA1c ≥ 7.0% and ≤ 11.0%（local lab）; for those who have previously used metformin in combination with another OAD treatment, HbA1c ≥ 7.0% and ≤10.0%（local lab）;"
+   },
+   {
+    "text": "BMI≥18.5kg/m2 and ≤35 kg/m2"
+   },
+   {
+    "text": "Subjects voluntarily participate in this research, can communicate well with researchers, are willing to maintain the same diet and exercise habits throughout the study, and sign an informed consent form (ICF) ."
+   },
+   {
+    "text": "At baseline，HbAlc ≥ 7.0% and ≤ 11.0%（cental lab）"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known or suspected hypersensitivity to any GLP-1RA or related products, or allergic constitution"
+   },
+   {
+    "text": "Treatment with GLP-1RA, DPP-4 inhibitor, or insulin in a period of 60 days before screening. An exception is short-term insulin therapy (≤7 days in total)."
+   },
+   {
+    "text": "History of chronic or acute pancreatitis"
+   },
+   {
+    "text": "Screening calcitonin value ≥ 50 ng/L (pg/mL)"
+   },
+   {
+    "text": "Personal or family history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN 2)"
+   },
+   {
+    "text": "Have a history of major cardiovascular and cerebrovascular diseases within 90 days before screening."
+   },
+   {
+    "text": "Known proliferative retinopathy or maculopathy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

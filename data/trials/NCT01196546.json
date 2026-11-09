@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "vildagliptin/metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Vildagliptin/metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: vildagliptin/metformin"
-   ]
+   ],
+   "label": "Vildagliptin/metformin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -71,10 +71,10 @@
  "brief_summary": "This study will assess the efficacy and safety of combination therapy of vildagliptin/metformin in patients with T2DM inadequately controlled with metformin 1,000 mg/day.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes mellitus patients who are treated with metformin monotherapy 1,000 mg daily for at least 3 months\n* The patient is required to have HbA1c 6.5-11.0%\n* BMI in the range of 22-48 kg/m2\n\nExclusion Criteria:\n\n* Severe or uncontrolled Type 2 diabetes mellitus (HbA1c\\> 11.0%)\n* Acute metabolic diabetes complications such as ketoacidosis or hyperosmolar state (coma) within the past 6 months\n* Congestive heart failure requiring pharmacologic treatment\n* Any of following within past 6 months: (1) myocardial infarction; (2) unstable angina (3) coronary artery bypass surgery or percutaneous coronary intervention\n* Liver disease such as cirrhosis or chronic active hepatitis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": true,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -82,76 +82,76 @@
  },
  "sites": [
   {
+   "city": "Bangkok",
+   "country": "Thailand",
    "facility": "BMA Medical College and Vajira Hospital",
-   "city": "Bangkok",
-   "state": null,
-   "country": "Thailand",
-   "status": null,
    "lat": 13.75398,
-   "lon": 100.50144
+   "lon": 100.50144,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Bangkok",
+   "country": "Thailand",
    "facility": "King Chulalongkorn Memorial Hospital",
-   "city": "Bangkok",
-   "state": null,
-   "country": "Thailand",
-   "status": null,
    "lat": 13.75398,
-   "lon": 100.50144
+   "lon": 100.50144,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Bangkok",
+   "country": "Thailand",
    "facility": "Phamongkutklao Hospital",
-   "city": "Bangkok",
-   "state": null,
-   "country": "Thailand",
-   "status": null,
    "lat": 13.75398,
-   "lon": 100.50144
+   "lon": 100.50144,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Bangkok",
+   "country": "Thailand",
    "facility": "Police General Hospital",
-   "city": "Bangkok",
-   "state": null,
-   "country": "Thailand",
-   "status": null,
    "lat": 13.75398,
-   "lon": 100.50144
+   "lon": 100.50144,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Bangkok",
+   "country": "Thailand",
    "facility": "Siriraj Hospital",
-   "city": "Bangkok",
-   "state": null,
-   "country": "Thailand",
-   "status": null,
    "lat": 13.75398,
-   "lon": 100.50144
+   "lon": 100.50144,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Khon Kaen Hospital",
    "city": "Khon Kaen",
-   "state": null,
    "country": "Thailand",
-   "status": null,
+   "facility": "Khon Kaen Hospital",
    "lat": 16.44671,
-   "lon": 102.833
+   "lon": 102.833,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Nakhon Ratchasima",
+   "country": "Thailand",
    "facility": "Fort Suranaree Hospital",
-   "city": "Nakhon Ratchasima",
-   "state": null,
-   "country": "Thailand",
-   "status": null,
    "lat": 14.97066,
-   "lon": 102.10196
+   "lon": 102.10196,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Maharat Nakhon Ratchasima Hospital",
    "city": "Nakhon Ratchasima",
-   "state": null,
    "country": "Thailand",
-   "status": null,
+   "facility": "Maharat Nakhon Ratchasima Hospital",
    "lat": 14.97066,
-   "lon": 102.10196
+   "lon": 102.10196,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01196546",
@@ -165,6 +165,38 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes mellitus patients who are treated with metformin monotherapy 1,000 mg daily for at least 3 months"
+   },
+   {
+    "text": "The patient is required to have HbA1c 6.5-11.0%"
+   },
+   {
+    "text": "BMI in the range of 22-48 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe or uncontrolled Type 2 diabetes mellitus (HbA1c> 11.0%)"
+   },
+   {
+    "text": "Acute metabolic diabetes complications such as ketoacidosis or hyperosmolar state (coma) within the past 6 months"
+   },
+   {
+    "text": "Congestive heart failure requiring pharmacologic treatment"
+   },
+   {
+    "text": "Any of following within past 6 months: (1) myocardial infarction; (2) unstable angina (3) coronary artery bypass surgery or percutaneous coronary intervention"
+   },
+   {
+    "text": "Liver disease such as cirrhosis or chronic active hepatitis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-07-31",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Comparator: simvastatin",
    "other_names": [
     "Zocor®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "niacin (+) laropiprant",
    "other_names": [
     "MK0524A"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: atorvastatin calcium",
    "other_names": [
     "atorvastatin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: niacin (+) laropiprant"
-   ]
+   ],
+   "label": "1",
+   "type": "OTHER"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: simvastatin",
     "Drug: Comparator: atorvastatin calcium"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "This is a 12-Week clinical trial in patients with Primary hypercholesterolemia or mixed dyslipidemia to study the effects of ER niacin/laropiprant on lipids.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients 18 to 80 years of age with Primary hypercholesterolemia or mixed dyslipidemia\n* Patients will be eligible for the study if their LDL-C values are within protocol specified range and meet other entry criteria\n\nExclusion Criteria:\n\n* Patient whose LDL-C values are not within protocol specified range",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,6 +118,23 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients 18 to 80 years of age with Primary hypercholesterolemia or mixed dyslipidemia"
+   },
+   {
+    "text": "Patients will be eligible for the study if their LDL-C values are within protocol specified range and meet other entry criteria"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient whose LDL-C values are not within protocol specified range"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

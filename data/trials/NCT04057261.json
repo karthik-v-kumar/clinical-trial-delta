@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "QUADRUPLE",
+  "primary_purpose": "OTHER",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "RWTH Aachen University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "RWTH Aachen University"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -56,30 +56,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide Pen Injector [Victoza]",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Liraglutide Pen Injector [Victoza]"
-   ]
+   ],
+   "label": "Liraglutide",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "In an unbiased metabolomics approach with subsequent pathway analyses, the current study seeks to examine the effect of Liraglutide treatment on the metabolic signature in treated patients as well as the effect of Liraglutide on various echocardiographic parameters of cardiac function and rhythm profile, thus paving the way for future research to explain the effects of Liraglutide on cardiovascular mortality and overall mortality in treated patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes\n2. Serum levels of HbA1c ≥ 7,0%\n3. Age ≥ 18 years\n4. Patients with existing cardiovascular disease: coronary heart disease, cerebrovascular disease, peripheral vascular disease, chronic kidney disease of stage III or chronic heart failure of NYHA II or III)\n5. Written informed consent prior to study participation\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. Treatment with GLP-1 receptor agonists or DPP-4 inhibitors within the last 4 weeks\n3. Patients with familiar or personal history of multiple endocrine neoplasia-type 2 or medullary C-cell cancer\n4. Renal impairment (eGFR \\< 30 mL/min)\n5. Occurrence of acute vascular events within 6 weeks before screening and randomization\n6. Known or suspected hypersensitivity to Liraglutide\n7. Pregnant females as determined by positive (serum or urine) hCG test at Screening or prior to dosing. Participants of child-bearing age should use adequate contraception as defined in the study protocol.\n8. Lactating females\n9. The subject has a history of any other illness, which, in the opinion of the Investigator, might pose an unacceptable risk by administering study medication.\n10. The subject received an investigational drug within 30 days prior to inclusion into this study.\n11. The subject has any current or past medical condition and/or required medication to treat a condition that could affect the evaluation of the study.\n12. The subject is unwilling or unable to follow the procedures outlined in the protocol.\n13. The subject is mentally or legally incapacitated.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Department of Internal Medicine I, University Hospital",
    "city": "Aachen",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Department of Internal Medicine I, University Hospital",
    "lat": 50.77664,
-   "lon": 6.08342
+   "lon": 6.08342,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04057261",
@@ -122,6 +122,68 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Serum levels of HbA1c ≥ 7,0%"
+   },
+   {
+    "text": "Age ≥ 18 years"
+   },
+   {
+    "text": "Patients with existing cardiovascular disease: coronary heart disease, cerebrovascular disease, peripheral vascular disease, chronic kidney disease of stage III or chronic heart failure of NYHA II or III)"
+   },
+   {
+    "text": "Written informed consent prior to study participation"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Treatment with GLP-1 receptor agonists or DPP-4 inhibitors within the last 4 weeks"
+   },
+   {
+    "text": "Patients with familiar or personal history of multiple endocrine neoplasia-type 2 or medullary C-cell cancer"
+   },
+   {
+    "text": "Renal impairment (eGFR < 30 mL/min)"
+   },
+   {
+    "text": "Occurrence of acute vascular events within 6 weeks before screening and randomization"
+   },
+   {
+    "text": "Known or suspected hypersensitivity to Liraglutide"
+   },
+   {
+    "text": "Pregnant females as determined by positive (serum or urine) hCG test at Screening or prior to dosing. Participants of child-bearing age should use adequate contraception as defined in the study protocol."
+   },
+   {
+    "text": "Lactating females"
+   },
+   {
+    "text": "The subject has a history of any other illness, which, in the opinion of the Investigator, might pose an unacceptable risk by administering study medication."
+   },
+   {
+    "text": "The subject received an investigational drug within 30 days prior to inclusion into this study."
+   },
+   {
+    "text": "The subject has any current or past medical condition and/or required medication to treat a condition that could affect the evaluation of the study."
+   },
+   {
+    "text": "The subject is unwilling or unable to follow the procedures outlined in the protocol."
+   },
+   {
+    "text": "The subject is mentally or legally incapacitated."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

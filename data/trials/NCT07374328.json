@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Second Affiliated Hospital of Guangzhou Medical University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Second Affiliated Hospital of Guangzhou Medical University"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide (1 Mg Dose)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin (DPP4 inhibitor)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide group: patients receive semaglutide treatment.",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide (1 Mg Dose)"
-   ]
+   ],
+   "label": "Semaglutide group: patients receive semaglutide treatment.",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Oral medication group: patients receive triple hypoglycemic oral medications.",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin (DPP4 inhibitor)"
-   ]
+   ],
+   "label": "Oral medication group: patients receive triple hypoglycemic oral medications.",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This study is a multicenter, randomized, controlled study. A sample size of 240 cases is proposed to be included. The inclusion criteria are: (1) patients with newly diagnosed type 2 diabetes; (2) age between 18 and 65 years old; (3) HbA1c ≥ 9.0%. The exclusion criteria include: (1) type 1 diabetes; (2) elevated creatinine or urinary albumin/creatinine; (3) combined with coronary heart disease, tumor or pregnancy; (4) receiving glucocorticoids. The selected participants are randomly divided into two groups: one group is the semaglutide group, and the other isthe oral medication group. The treatment plan is as follows. Semaglutide group: 0.25 mg per week in the first month, 0.5 mg per week in the second month, and 1.0mg per week from the 3rd to the 8th month of semaglutide. Oral medication group: Sitagliptin 0.1g per day. Both groups were simultaneously treated with metformin (1.0g daily, divided into two doses) and empagliflozin (10mg daily). The first phase of the study was as follows: Semaglutide group: Treatment was initiated until 6 months after the titration dose of 1mg was reached; Oral medication group: Initiate treatment until 6 months after reaching a fixed dose. At the end of the first stage of the study, for the selected participants with HbA1c\\<6.5%, the hypoglycemic drugs were discontinued and they entered the second stage of the study. The study was concluded after a 3-month follow-up. The evaluation indicators include: effectiveness indicators (HbA1c, diabetes remission rate, continuous glucose monitoring), safety indicators (hypoglycemia, adverse reactions, etc.).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with newly diagnosed type 2 diabetes.\n* Age between 18 and 65 years old.\n* HbA1c ≥ 9.0%.\n\nExclusion Criteria:\n\n* Type 1 diabetes.\n* Elevated creatinine or urinary albumin/creatinine.\n* Combined with coronary heart disease, tumor or pregnancy.\n* Receiving glucocorticoids.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "The Second Affiliated Hospital, Guangzhou Medical University",
    "city": "Guangzhou",
-   "state": "Guangdong",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "The Second Affiliated Hospital, Guangzhou Medical University",
    "lat": 23.11667,
-   "lon": 113.25
+   "lon": 113.25,
+   "state": "Guangdong",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07374328",
@@ -115,6 +115,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with newly diagnosed type 2 diabetes."
+   },
+   {
+    "text": "Age between 18 and 65 years old."
+   },
+   {
+    "text": "HbA1c ≥ 9.0%."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes."
+   },
+   {
+    "text": "Elevated creatinine or urinary albumin/creatinine."
+   },
+   {
+    "text": "Combined with coronary heart disease, tumor or pregnancy."
+   },
+   {
+    "text": "Receiving glucocorticoids."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

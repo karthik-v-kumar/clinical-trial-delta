@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Medical Centre Ljubljana",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Medical Centre Ljubljana"
  },
  "collaborators": [],
  "conditions": [
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "Ozempic"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "group P",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "group P",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "group S",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "group S",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -96,23 +96,23 @@
  "brief_summary": "The purpose of the study is to explore the effects of GLP-1 receptor agonist (GLP-1 RA) semaglutide on modulation of taste sensitivity, tongue tissue transcriptome, modulation of neural response in central reward processing regions and gastric emptying rate. In addition, we aim to investigate the associations between semaglutide induced modulation of taste sensitivity, neural responses and gastric emptying with changes in body mass, eating- behavioural pattern, food perception and food intake.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Informed written consent\n* Diagnosed with PCOS by Rotterdam criteria\n* BMI \\> 30 kg/m2\n* Age 18 years-menopause\n\nExclusion Criteria:\n\n* Severe psychiatric disease including schizophrenia, paranoid psychosis, bipolar disorder or mental retardation\n* Current history of neurological disease including traumatic brain surgery\n* Current history of diagnosis of type I or type II diabetes or plasma haemoglobin A1c 6.5% at inclusion\n* Impaired hepatic function (liver transaminases\\>3 times upper normal limit)\n* Impaired renal function (estimated glomerular filtration rate (eGFR)\\< 50 ml/min\n* Impaired pancreatic function (any history of acute or chronic pancreatitis and/or amylase \\>2 times upper limit)\n* Bleeding disorders\n* Women who are pregnant, breast feeding or have intention of becoming pregnant within the next 9 months\n* Women who are planning any operation within the next 6 months\n* History of medullary thyroid carcinoma (MTC) and/or family history with MTC and/or multiple endocrine neoplasia syndrome type 2\n* Cardiac problems defined as decompensated heart failure (New York Herat Association functional class III or IV), unstable angina pectoris, and/or myocardial infarction within the last 12 months\n* Uncontrolled hypertension (systolic blood pressure \\> 180 mmHg, diastolic blood pressure \\> 110 mmHg\n* Receiving GLP-1 agonist within the last 12 months\n* Use of any weight-lowering pharmacotherapy within the preceding 3 months\n* Contraindication for MR scanning (magnetic implants, pacemaker, claustrophobia etc)\n* Any condition that the investigator feels would interfere with trial participation",
-  "sex": "FEMALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "50 Years",
   "healthy_volunteers": false,
+  "maximum_age": "50 Years",
+  "minimum_age": "18 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "UMC Ljubljana",
    "city": "Ljubljana",
-   "state": null,
    "country": "Slovenia",
-   "status": null,
+   "facility": "UMC Ljubljana",
    "lat": 46.05108,
-   "lon": 14.50513
+   "lon": 14.50513,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04263415",
@@ -124,6 +124,74 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Informed written consent"
+   },
+   {
+    "text": "Diagnosed with PCOS by Rotterdam criteria"
+   },
+   {
+    "text": "BMI > 30 kg/m2"
+   },
+   {
+    "text": "Age 18 years-menopause"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe psychiatric disease including schizophrenia, paranoid psychosis, bipolar disorder or mental retardation"
+   },
+   {
+    "text": "Current history of neurological disease including traumatic brain surgery"
+   },
+   {
+    "text": "Current history of diagnosis of type I or type II diabetes or plasma haemoglobin A1c 6.5% at inclusion"
+   },
+   {
+    "text": "Impaired hepatic function (liver transaminases>3 times upper normal limit)"
+   },
+   {
+    "text": "Impaired renal function (estimated glomerular filtration rate (eGFR)< 50 ml/min"
+   },
+   {
+    "text": "Impaired pancreatic function (any history of acute or chronic pancreatitis and/or amylase >2 times upper limit)"
+   },
+   {
+    "text": "Bleeding disorders"
+   },
+   {
+    "text": "Women who are pregnant, breast feeding or have intention of becoming pregnant within the next 9 months"
+   },
+   {
+    "text": "Women who are planning any operation within the next 6 months"
+   },
+   {
+    "text": "History of medullary thyroid carcinoma (MTC) and/or family history with MTC and/or multiple endocrine neoplasia syndrome type 2"
+   },
+   {
+    "text": "Cardiac problems defined as decompensated heart failure (New York Herat Association functional class III or IV), unstable angina pectoris, and/or myocardial infarction within the last 12 months"
+   },
+   {
+    "text": "Uncontrolled hypertension (systolic blood pressure > 180 mmHg, diastolic blood pressure > 110 mmHg"
+   },
+   {
+    "text": "Receiving GLP-1 agonist within the last 12 months"
+   },
+   {
+    "text": "Use of any weight-lowering pharmacotherapy within the preceding 3 months"
+   },
+   {
+    "text": "Contraindication for MR scanning (magnetic implants, pacemaker, claustrophobia etc)"
+   },
+   {
+    "text": "Any condition that the investigator feels would interfere with trial participation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

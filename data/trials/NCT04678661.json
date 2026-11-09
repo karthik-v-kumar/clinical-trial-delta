@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-02-14",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Linda Siminerio",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Linda Siminerio"
  },
  "collaborators": [
   "Sanofi"
@@ -50,33 +50,33 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Smartphone application and web portal",
    "other_names": [
     "My Dose Coach"
-   ]
+   ],
+   "type": "DEVICE"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Standard Insulin Therapy Education",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "My Dose Coach (Insulin Dosing Support App)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Smartphone application and web portal",
     "Behavioral: Standard Insulin Therapy Education"
-   ]
+   ],
+   "label": "My Dose Coach (Insulin Dosing Support App)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Usual Care Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Standard Insulin Therapy Education"
-   ]
+   ],
+   "label": "Usual Care Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The purpose of this research study is to evaluate an electronic application (app) designed to help people with type 2 diabetes (T2DM) adjust their insulin doses. The app is called My Dose Coach. This research study is being done in 2 phases. Specifically in Phase 1, the study is assessing the role of the My Dose Coach app in helping participants make insulin adjustments to get their blood glucoses to the target level that is planned for with the diabetes team, called the dosing or titration phase, when first starting insulin. In Phase 2, the study is assessing the role of the My Dose Coach app in helping participants keep blood glucoses in the target range, called the maintenance phase.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nIntervention Group\n\n* Patient receiving care at a UPMC Diabetes Outpatient and/or Inpatient settings\n* Adult male and female patients 18 to 75 years old\n* HbA1c \\> 7.5%\n* Recommended to start self titration of basal insulin\n* Access to and able to use an iOS (Apple phone operating system) or Android enabled device and have reliable internet access\n* Willing and able to use the MDC app\n* Able to comprehend basic diabetes survival skills, signs and symptoms of hypoglycemia and treatment of BG\n\nUsual Care Group\n\n* Adult male and female patients 18 to 75 years old\n* HbA1c \\> 7.5%\n* Started on basal insulin in a UPMC Diabetes Outpatient facility within the past three years of study start\n* Has blood glucose data available in electronic medical records (EMR) (At least two HbA1c measurements corresponding to baseline and a subsequent time point after insulin titration)\n\nExclusion Criteria:\n\n* Pregnant or breastfeeding\n* Patients unwilling to use MDC app",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "University of Pittsburgh Medical Center",
    "city": "Pittsburgh",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "University of Pittsburgh Medical Center",
    "lat": 40.44062,
-   "lon": -79.99589
+   "lon": -79.99589,
+   "state": "Pennsylvania",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04678661",
@@ -117,6 +117,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Intervention Group"
+   },
+   {
+    "text": "Patient receiving care at a UPMC Diabetes Outpatient and/or Inpatient settings"
+   },
+   {
+    "text": "Adult male and female patients 18 to 75 years old"
+   },
+   {
+    "text": "HbA1c > 7.5%"
+   },
+   {
+    "text": "Recommended to start self titration of basal insulin"
+   },
+   {
+    "text": "Access to and able to use an iOS (Apple phone operating system) or Android enabled device and have reliable internet access"
+   },
+   {
+    "text": "Willing and able to use the MDC app"
+   },
+   {
+    "text": "Able to comprehend basic diabetes survival skills, signs and symptoms of hypoglycemia and treatment of BG"
+   },
+   {
+    "text": "Usual Care Group"
+   },
+   {
+    "text": "Adult male and female patients 18 to 75 years old"
+   },
+   {
+    "text": "HbA1c > 7.5%"
+   },
+   {
+    "text": "Started on basal insulin in a UPMC Diabetes Outpatient facility within the past three years of study start"
+   },
+   {
+    "text": "Has blood glucose data available in electronic medical records (EMR) (At least two HbA1c measurements corresponding to baseline and a subsequent time point after insulin titration)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant or breastfeeding"
+   },
+   {
+    "text": "Patients unwilling to use MDC app"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

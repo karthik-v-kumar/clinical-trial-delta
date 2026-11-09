@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Rehman Medical Institute - RMI",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Rehman Medical Institute - RMI"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dose adjustment of statins",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "no dose adjustment",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "treat to target",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dose adjustment of statins"
-   ]
+   ],
+   "label": "treat to target",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Fixed dose",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: no dose adjustment"
-   ]
+   ],
+   "label": "Fixed dose",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "To compare the efficacy of fixed-dose versus treat-to-target statin regimens in achieving the predefined LDL-C target at 12 weeks in patients with established ASCVD.\n\nTo compare the frequency of adverse effects of statin therapy between patients receiving a fixed-dose regimen and those managed with a treat-to-target approach.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* adults aged between 18 to 80 years requiring primary prevention or those with history of at least 1 episode of ASCVD\n* who are either statin-naïve or already on statins but not at target LDL-C levels and are eligible for dose adjustment.\n\nExclusion Criteria:\n\n* have already achieved target LDL-C levels on a high-dose statin and tolerate it well\n* have contraindications to statin therapy such as active liver disease or severe renal impairment (eGFR \\< 30 mL/min/1.73m²)\n* have known hypersensitivity or a prior life-threatening reaction to any statin\n* are pregnant or lactating\n* are using other lipid-lowering agents like ezetimibe, PCSK9 inhibitors, fibrates, or bile acid sequestrants.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Rehman Medical Institute",
    "city": "Peshawar",
-   "state": "KPK",
    "country": "Pakistan",
-   "status": null,
+   "facility": "Rehman Medical Institute",
    "lat": 34.008,
-   "lon": 71.57849
+   "lon": 71.57849,
+   "state": "KPK",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07909915",
@@ -114,6 +114,35 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "adults aged between 18 to 80 years requiring primary prevention or those with history of at least 1 episode of ASCVD"
+   },
+   {
+    "text": "who are either statin-naïve or already on statins but not at target LDL-C levels and are eligible for dose adjustment."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "have already achieved target LDL-C levels on a high-dose statin and tolerate it well"
+   },
+   {
+    "text": "have contraindications to statin therapy such as active liver disease or severe renal impairment (eGFR < 30 mL/min/1.73m²)"
+   },
+   {
+    "text": "have known hypersensitivity or a prior life-threatening reaction to any statin"
+   },
+   {
+    "text": "are pregnant or lactating"
+   },
+   {
+    "text": "are using other lipid-lowering agents like ezetimibe, PCSK9 inhibitors, fibrates, or bile acid sequestrants."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

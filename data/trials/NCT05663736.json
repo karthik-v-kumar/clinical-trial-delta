@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Seoul National University Bundang Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Seoul National University Bundang Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Gemigliptin",
    "other_names": [
     "Zemiglo"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Gemiglipitin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Gemigliptin"
-   ]
+   ],
+   "label": "Gemiglipitin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride"
-   ]
+   ],
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Among DPP-4 inhibitors, gemigliptin is a relatively recently developed drug, and many clinical studies have shown results that are equivalent to or superior to existing DPP-4 inhibitors such as sitagliptin. However, studies on the safety of gemigliptin in cardiovascular disease have not been conducted, and studies on its effect on cardiac function are lacking. Considering the increase in hospitalizations due to heart failure found in some DPP-4 inhibitor studies, investigation of directly effect of gemigliptin on heart function would be clinically important.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Individuals with type 2 diabetes were eligible if they were aged \\>20 years, had received metformin (500 mg - 2550 mg) alone for more than 6 weeks and have a glycated hemoglobin of 7%-9.5%.\n\nExclusion Criteria:\n\n* if they had type 1 diabetes, were pregnant or lactating, or had New York Heart Association class III or IV heart failure. Other exclusion criteria were thyroid stimulating hormone \\> 10.0 IU/ml, severe infection, chronic kidney disease with eGFR \\< 30, AST/ALT exceeding 3 times the upper limit of the normal range, use of anti-obesity drugs within 12 weeks of the study, primary coronary intervention for acute coronary syndrome or myocardial infarction within 6 months prior to the study",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul National University Bundang Hospital",
    "city": "Seongnam-si",
-   "state": "Gyeonggi-do",
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Seoul National University Bundang Hospital",
    "lat": 37.43861,
-   "lon": 127.13778
+   "lon": 127.13778,
+   "state": "Gyeonggi-do",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05663736",
@@ -119,6 +119,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Individuals with type 2 diabetes were eligible if they were aged >20 years, had received metformin (500 mg - 2550 mg) alone for more than 6 weeks and have a glycated hemoglobin of 7%-9.5%."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "if they had type 1 diabetes, were pregnant or lactating, or had New York Heart Association class III or IV heart failure. Other exclusion criteria were thyroid stimulating hormone > 10.0 IU/ml, severe infection, chronic kidney disease with eGFR < 30, AST/ALT exceeding 3 times the upper limit of the normal range, use of anti-obesity drugs within 12 weeks of the study, primary coronary intervention for acute coronary syndrome or myocardial infarction within 6 months prior to the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

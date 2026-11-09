@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "SINGLE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Campinas, Brazil",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Campinas, Brazil"
  },
  "collaborators": [],
  "conditions": [
@@ -52,25 +52,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Evolocumab 140 MG/ML",
    "other_names": [
     "Control"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Evolocumabe",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Evolocumab 140 MG/ML"
-   ]
+   ],
+   "label": "Evolocumabe",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "Based on the current evidence, empagliflozin could reduce cardiovascular morbidity and mortality in Diabetes Mellitus Type 2 (T2DM). Anti-PCSK9 therapy (evolocumab) can reduce the major cardiovascular events incidence in secondary prevention individuals, some of them presenting T2DM. The beneficial effect of the combined use of these two agents in T2DM remains unknown. Evaluating the effect of evolocumab on top of the best of care therapy for T2DM, including empaglifozin, on endothelial function may indicate the existence of some benefit related to cardiovascular outcomes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* T2DM between 40 and 70 years old;\n* Adequate glycemic control (HbA1c 7 to 9%) after run-in phase;\n* Adequate blood pressure control (SBP ≤ 140 mm Hg)\n* Maximal tolerated dose of statins and LDL-C between 70 and 100 mg/dL.\n\nExclusion Criteria:\n\n* HbA1c \\> 9% after run-in phase;\n* Hospitalization for unstable angina or acute myocardial infarction within 6 months prior to enrolment;\n* Acute stroke or transient ischemic attack (TIA) within 6 months prior to enrolment;\n* Less than two months post coronary artery revascularization;\n* BP ≥ 140 x 90 after anti-hypertensive medication adjustment;\n* FMD \\<2% or \\> 10% at the time of randomization;\n* Triglycerides \\> 500 mg/dL;\n* Known allergy to any of the study drugs;\n* Severe coronary artery disease or heart failure;\n* Systemic inflammation (C-reactive protein ≥ 5 mg/dL);\n* Pregnancy or women during reproductive age;\n* Active smoking or stopped smoking less than six months ago;\n* Participation in other clinical studies or whose participation ended less than six months -ago.\n* Use of SGLT2i or GLP-1a in the last sex months",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,26 +93,88 @@
  },
  "sites": [
   {
-   "facility": "Centro de Pesquisa Clinica - FCM/Unicamp",
    "city": "Campinas",
-   "state": "São Paulo",
    "country": "Brazil",
-   "status": null,
+   "facility": "Centro de Pesquisa Clinica - FCM/Unicamp",
    "lat": -22.90556,
-   "lon": -47.06083
+   "lon": -47.06083,
+   "state": "São Paulo",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03932721",
  "content_hash": "63b709b1a38b32d0",
  "collections": [
-  "type-2-diabetes",
-  "cholesterol-lipids"
+  "cholesterol-lipids",
+  "type-2-diabetes"
  ],
  "matched_queries": [
-  "t2d-drugs",
-  "lipids-drugs"
+  "lipids-drugs",
+  "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "T2DM between 40 and 70 years old;"
+   },
+   {
+    "text": "Adequate glycemic control (HbA1c 7 to 9%) after run-in phase;"
+   },
+   {
+    "text": "Adequate blood pressure control (SBP ≤ 140 mm Hg)"
+   },
+   {
+    "text": "Maximal tolerated dose of statins and LDL-C between 70 and 100 mg/dL."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "HbA1c > 9% after run-in phase;"
+   },
+   {
+    "text": "Hospitalization for unstable angina or acute myocardial infarction within 6 months prior to enrolment;"
+   },
+   {
+    "text": "Acute stroke or transient ischemic attack (TIA) within 6 months prior to enrolment;"
+   },
+   {
+    "text": "Less than two months post coronary artery revascularization;"
+   },
+   {
+    "text": "BP ≥ 140 x 90 after anti-hypertensive medication adjustment;"
+   },
+   {
+    "text": "FMD <2% or > 10% at the time of randomization;"
+   },
+   {
+    "text": "Triglycerides > 500 mg/dL;"
+   },
+   {
+    "text": "Known allergy to any of the study drugs;"
+   },
+   {
+    "text": "Severe coronary artery disease or heart failure;"
+   },
+   {
+    "text": "Systemic inflammation (C-reactive protein ≥ 5 mg/dL);"
+   },
+   {
+    "text": "Pregnancy or women during reproductive age;"
+   },
+   {
+    "text": "Active smoking or stopped smoking less than six months ago;"
+   },
+   {
+    "text": "Participation in other clinical studies or whose participation ended less than six months -ago."
+   },
+   {
+    "text": "Use of SGLT2i or GLP-1a in the last sex months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

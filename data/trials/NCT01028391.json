@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2010-02-10",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,37 +51,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin 100 mg q.d.+ Pioglitazone 45 mg q.d.",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone 45 mg q.d. + Sitagliptin 100 mg placebo q.d.",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin + Pioglitazone",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin 100 mg q.d.+ Pioglitazone 45 mg q.d.",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Sitagliptin + Pioglitazone",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Pioglitazone + Placebo",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pioglitazone 45 mg q.d. + Sitagliptin 100 mg placebo q.d.",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Pioglitazone + Placebo",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "A 30-week extension to a 24-week study assessing the hemoglobin A1c (HbA1c)- and fasting plasma glucose (FPG)-lowering efficacy of the combination of sitagliptin and pioglitazone in patients with type 2 diabetes mellitus (T2DM) with inadequate glycemic control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients must complete the double-blind base study (MK-0431-064-00)(NCT00397631) and have at least 75% compliance with study medication during the base study treatment period.\n* Women of childbearing potential must continue to comply with the protocol-specified contraceptive methods",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,6 +112,19 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients must complete the double-blind base study (MK-0431-064-00)(NCT00397631) and have at least 75% compliance with study medication during the base study treatment period."
+   },
+   {
+    "text": "Women of childbearing potential must continue to comply with the protocol-specified contraceptive methods"
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

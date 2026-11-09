@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "National Medical Research Center for Therapy and Preventive Medicine",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "National Medical Research Center for Therapy and Preventive Medicine"
  },
  "collaborators": [
   "Moscow State University of Medicine and Dentistry"
@@ -77,90 +77,88 @@
  ],
  "interventions": [
   {
-   "type": "GENETIC",
    "name": "Genetic Testing",
-   "other_names": []
+   "other_names": [],
+   "type": "GENETIC"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Motivational Counseling",
    "other_names": [
     "Motivational Interviewing"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "Lipid analysis",
-   "other_names": []
+   "other_names": [],
+   "type": "DIAGNOSTIC_TEST"
   },
   {
-   "type": "OTHER",
    "name": "Consultation with a cardiologist-lipidologist (correction of therapy, lifestyle, diet)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Visit 1",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Visit 2",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Visit 3",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Visit 4",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Diagnostic Test: Lipid analysis",
+    "Other: Consultation with a cardiologist-lipidologist (correction of therapy, lifestyle, diet)",
+    "Other: Visit 1",
+    "Other: Visit 2",
+    "Other: Visit 3",
+    "Other: Visit 4"
+   ],
    "label": "Group 1 - without genetic testing; subgroup without motivational counseling",
-   "type": "ACTIVE_COMPARATOR",
+   "type": "ACTIVE_COMPARATOR"
+  },
+  {
    "intervention_names": [
+    "Behavioral: Motivational Counseling",
     "Diagnostic Test: Lipid analysis",
     "Other: Consultation with a cardiologist-lipidologist (correction of therapy, lifestyle, diet)",
     "Other: Visit 1",
     "Other: Visit 2",
     "Other: Visit 3",
     "Other: Visit 4"
-   ]
-  },
-  {
+   ],
    "label": "Group 1 - without genetic testing; subgroup with motivational counseling",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
-    "Behavioral: Motivational Counseling",
+    "Genetic: Genetic Testing",
     "Diagnostic Test: Lipid analysis",
     "Other: Consultation with a cardiologist-lipidologist (correction of therapy, lifestyle, diet)",
     "Other: Visit 1",
     "Other: Visit 2",
     "Other: Visit 3",
     "Other: Visit 4"
-   ]
-  },
-  {
+   ],
    "label": "Group 2 - with genetic testing; subgroup without motivational counseling",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Genetic: Genetic Testing",
-    "Diagnostic Test: Lipid analysis",
-    "Other: Consultation with a cardiologist-lipidologist (correction of therapy, lifestyle, diet)",
-    "Other: Visit 1",
-    "Other: Visit 2",
-    "Other: Visit 3",
-    "Other: Visit 4"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group 2 - with genetic testing; subgroup with motivational counseling",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Genetic: Genetic Testing",
     "Behavioral: Motivational Counseling",
@@ -170,7 +168,9 @@
     "Other: Visit 2",
     "Other: Visit 3",
     "Other: Visit 4"
-   ]
+   ],
+   "label": "Group 2 - with genetic testing; subgroup with motivational counseling",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -198,10 +198,10 @@
  "brief_summary": "To date, there are highly effective lipid-lowering drugs, the combination of which makes it possible to achieve the target level of LDL-C in most patients with familial hypercholesterolemia (FH). However, the effectiveness of treatment of FH patients strongly depends on adherence to lipid-lowering therapy and to the healthy lifestyle, as well as the detection of the disease and the therapy prescription as early as possible, better in childhood. The aim of the study is to assess the impact of genetic testing and motivational counseling on the effectiveness of treatment and cascade screening in patients with FH.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Probable or definite diagnosis of FH according to the Dutch criteria (6 points or more);\n* Signed informed consent;\n\nExclusion Criteria:\n\n* Pregnancy or lactation at the time of enrollment\n* Established active severe infectious disease or severe hematologic, metabolic, gastrointestinal or endocrine dysfunctions (for example, uncontrolled thyroid dysfunction or uncontrolled diabetes mellitus) in the opinion of the investigator\n* Active liver disease\n* Estimated GFR≤ 30 ml / min / 1.73m2\n* Any other conditions at Visit 1 that, according to the investigator's opinion, render the patient ineligible for inclusion in the study, may interfere with the patient's participation in the study or patient's completion of the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -209,13 +209,13 @@
  },
  "sites": [
   {
-   "facility": "National Medical Research Centre for Therapy and Preventive Medicine of the Ministry of Health of Russia",
    "city": "Moscow",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "National Medical Research Centre for Therapy and Preventive Medicine of the Ministry of Health of Russia",
    "lat": 55.75204,
-   "lon": 37.61781
+   "lon": 37.61781,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04656028",
@@ -227,6 +227,35 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Probable or definite diagnosis of FH according to the Dutch criteria (6 points or more);"
+   },
+   {
+    "text": "Signed informed consent;"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy or lactation at the time of enrollment"
+   },
+   {
+    "text": "Established active severe infectious disease or severe hematologic, metabolic, gastrointestinal or endocrine dysfunctions (for example, uncontrolled thyroid dysfunction or uncontrolled diabetes mellitus) in the opinion of the investigator"
+   },
+   {
+    "text": "Active liver disease"
+   },
+   {
+    "text": "Estimated GFR≤ 30 ml / min / 1.73m2"
+   },
+   {
+    "text": "Any other conditions at Visit 1 that, according to the investigator's opinion, render the patient ineligible for inclusion in the study, may interfere with the patient's participation in the study or patient's completion of the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

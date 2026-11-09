@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-09-25",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,34 +51,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin phosphate",
    "other_names": [
     "MK0431"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: voglibose",
    "other_names": [
     "voglibose"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin 50 mg QD",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin phosphate"
-   ]
+   ],
+   "label": "Sitagliptin 50 mg QD",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Voglibose 0.2 mg TID",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: voglibose"
-   ]
+   ],
+   "label": "Voglibose 0.2 mg TID",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The clinical study determines the safety and efficacy of Sitagliptin (MK0431) in patients with type 2 diabetes mellitus who have inadequate glycemic control on diet/exercise therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients have type 2 diabetes mellitus on diet/exercise therapy\n\nExclusion Criteria:\n\n* Patients have type 1 diabetes mellitus",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,6 +109,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients have type 2 diabetes mellitus on diet/exercise therapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients have type 1 diabetes mellitus"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

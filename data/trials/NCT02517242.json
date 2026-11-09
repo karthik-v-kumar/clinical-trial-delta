@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hospital de Clinicas de Porto Alegre",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hospital de Clinicas de Porto Alegre"
  },
  "collaborators": [],
  "conditions": [
@@ -45,37 +45,37 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Pens Device",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "Syringe",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "OTHER",
    "name": "Monitoring capillary blood glucose with blood glucose monitor, lancet tapes and capillary blood glucose tests (3 tests/day)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pens Device",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Pens Device",
     "Other: Monitoring capillary blood glucose with blood glucose monitor, lancet tapes and capillary blood glucose tests (3 tests/day)"
-   ]
+   ],
+   "label": "Pens Device",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Syringe",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Syringe",
     "Other: Monitoring capillary blood glucose with blood glucose monitor, lancet tapes and capillary blood glucose tests (3 tests/day)"
-   ]
+   ],
+   "label": "Syringe",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "This is a prospective, intervention, randomized, phase IV study. Patients will be included with 60 years or older, both sexes, with HbA1c \\>8.5% using oral antidiabetics agents and insulin and then we will be randomized by use syringe or pens device to use insulin NPH and regular. All patients will receive a blood glucose monitor, lancet tapes, capillary blood glucose tests (3 tests/day). HbA1c will be measured at baseline, 3 and 6 months. Patients will see monthly.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Sixty years or older\n* Diabetes type 2 with Glycated Hemoglobin higher than 8.5%\n* Using or necessity to use insulin\n* Using syringe to insulin\n* Using at least one oral antidiabetic\n* Accept to participate\n\nExclusion Criteria:\n\n* Glomerular Filtration Rate lower than 30\n* Considering unfit for self administration of insulin",
-  "sex": "ALL",
-  "minimum_age": "60 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "60 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Rafael Vaz Machry",
    "city": "Porto Alegre",
-   "state": "Rio Grande do Sul",
    "country": "Brazil",
-   "status": "RECRUITING",
+   "facility": "Rafael Vaz Machry",
    "lat": -30.03283,
-   "lon": -51.23019
+   "lon": -51.23019,
+   "state": "Rio Grande do Sul",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02517242",
@@ -116,6 +116,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Sixty years or older"
+   },
+   {
+    "text": "Diabetes type 2 with Glycated Hemoglobin higher than 8.5%"
+   },
+   {
+    "text": "Using or necessity to use insulin"
+   },
+   {
+    "text": "Using syringe to insulin"
+   },
+   {
+    "text": "Using at least one oral antidiabetic"
+   },
+   {
+    "text": "Accept to participate"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Glomerular Filtration Rate lower than 30"
+   },
+   {
+    "text": "Considering unfit for self administration of insulin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

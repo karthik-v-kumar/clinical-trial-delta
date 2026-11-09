@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Simvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "acetylsalicylic acid (ASA)",
    "other_names": [
     "aspirin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "omefas",
    "other_names": [
     "Epanova"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Epanova and Simvastatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Simvastatin",
     "Drug: acetylsalicylic acid (ASA)",
     "Drug: omefas"
-   ]
+   ],
+   "label": "Epanova and Simvastatin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Simvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Simvastatin",
     "Drug: acetylsalicylic acid (ASA)"
-   ]
+   ],
+   "label": "Simvastatin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,23 +99,23 @@
  "brief_summary": "The primary objective is to determine the effect of multiple doses of Epanova® (omega fatty acids) on the pharmacokinetics (PK) of multiple 40 mg doses of simvastatin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nSubjects must fulfil all of the following inclusion criteria to be eligible for participation in the study, unless otherwise specified:\n\n1. Healthy adult male or female volunteers, 18-55 years of age, inclusive.\n2. Body mass index (BMI) ≥ 18 and ≤ 29.9 (kg/m2).\n3. Medically healthy with clinically insignificant screening results. Hemoglobin must be ≥ the lower limit of normal.\n4. Continuous non-smokers who haven't used nicotine-containing products for at least 6 months prior to the first dose.\n5. Voluntarily consent to participate in the study and to follow the restrictions and procedures outlined for the study.\n6. Females must be of non-childbearing potential, and have undergone sterilization procedures at least 6 months prior to the first dose or be postmenopausal with amenorrhea for at least 2 years prior to first dosing and follicle stimulating hormone (FSH) serum levels ≥ 40 mIU/mL.\n\nExclusion Criteria:\n\nSubjects may be excluded from the study if there is evidence of any of the following criteria at screening, check-in, or at any time during the study, as appropriate:\n\n1. History or presence of significant cardiovascular, pulmonary, hepatic, renal, haematological, gastrointestinal (GI), endocrine, immunologic, dermatologic, neurological, or psychiatric disease in the opinion of the PI.\n2. Personal or familial history of bleeding disorder(s), thromboembolic disease, clinical GI bleeding, or any history of GI surgery except uncomplicated appendectomy or cholecystectomy, or colorectal surgery for polyps, nonmalignant tumors, or diverticula.\n3. Positive urine drug/alcohol testing at screening or check-in.\n4. Positive result for human immunodeficiency virus (HIV), hepatitis B surface antigen (HBsAg), or hepatitis C antibodies (HCV).\n5. History or presence of alcoholism or drug abuse within the past 2 years.\n6. Subject has been on a special diet (for whatever reason) within the 28 days prior to the assigned first dose of study drug or anytime during the study.\n7. Known sensitivity or allergy to soybeans, fish, and/or shellfish.\n8. Hypersensitivity or idiosyncratic reaction to compounds related to simvastatin (i.e., HMG-CoA reductase inhibitors) and/or Epanova® and/or aspirin.\n9. Subject is a female who is pregnant or lactating.\n10. Use of any prescription medication within 14 days prior to the first dose.\n11. Use of any over-the-counter (OTC) medication, including herbal products (e.g., bromelains, danshen, dong quai \\[Angelica sinensis\\], garlic, ginko biloba, ginseng, and St. John's wort, NSAIDs), vitamin K or food supplements (especially omega-3-fatty acids) within the 7 days prior to first dosing.\n12. Use of any drugs known to significantly inhibit \\[strong or moderate\\] or induce liver enzymes involved in drug metabolism \\[CYP P450\\]) within 30 days prior to check-in.\n13. Donation of blood or significant blood loss within 56 days prior to check- in.\n14. Donation of plasma within 7 days prior to check-in.\n15. Participation in another clinical trial within 30 days prior to check-in.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": null,
    "city": "Tempe",
-   "state": "Arizona",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 33.41477,
-   "lon": -111.90931
+   "lon": -111.90931,
+   "state": "Arizona",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01486433",
@@ -129,6 +129,83 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects must fulfil all of the following inclusion criteria to be eligible for participation in the study, unless otherwise specified:"
+   },
+   {
+    "text": "Healthy adult male or female volunteers, 18-55 years of age, inclusive."
+   },
+   {
+    "text": "Body mass index (BMI) ≥ 18 and ≤ 29.9 (kg/m2)."
+   },
+   {
+    "text": "Medically healthy with clinically insignificant screening results. Hemoglobin must be ≥ the lower limit of normal."
+   },
+   {
+    "text": "Continuous non-smokers who haven't used nicotine-containing products for at least 6 months prior to the first dose."
+   },
+   {
+    "text": "Voluntarily consent to participate in the study and to follow the restrictions and procedures outlined for the study."
+   },
+   {
+    "text": "Females must be of non-childbearing potential, and have undergone sterilization procedures at least 6 months prior to the first dose or be postmenopausal with amenorrhea for at least 2 years prior to first dosing and follicle stimulating hormone (FSH) serum levels ≥ 40 mIU/mL."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects may be excluded from the study if there is evidence of any of the following criteria at screening, check-in, or at any time during the study, as appropriate:"
+   },
+   {
+    "text": "History or presence of significant cardiovascular, pulmonary, hepatic, renal, haematological, gastrointestinal (GI), endocrine, immunologic, dermatologic, neurological, or psychiatric disease in the opinion of the PI."
+   },
+   {
+    "text": "Personal or familial history of bleeding disorder(s), thromboembolic disease, clinical GI bleeding, or any history of GI surgery except uncomplicated appendectomy or cholecystectomy, or colorectal surgery for polyps, nonmalignant tumors, or diverticula."
+   },
+   {
+    "text": "Positive urine drug/alcohol testing at screening or check-in."
+   },
+   {
+    "text": "Positive result for human immunodeficiency virus (HIV), hepatitis B surface antigen (HBsAg), or hepatitis C antibodies (HCV)."
+   },
+   {
+    "text": "History or presence of alcoholism or drug abuse within the past 2 years."
+   },
+   {
+    "text": "Subject has been on a special diet (for whatever reason) within the 28 days prior to the assigned first dose of study drug or anytime during the study."
+   },
+   {
+    "text": "Known sensitivity or allergy to soybeans, fish, and/or shellfish."
+   },
+   {
+    "text": "Hypersensitivity or idiosyncratic reaction to compounds related to simvastatin (i.e., HMG-CoA reductase inhibitors) and/or Epanova® and/or aspirin."
+   },
+   {
+    "text": "Subject is a female who is pregnant or lactating."
+   },
+   {
+    "text": "Use of any prescription medication within 14 days prior to the first dose."
+   },
+   {
+    "text": "Use of any over-the-counter (OTC) medication, including herbal products (e.g., bromelains, danshen, dong quai [Angelica sinensis], garlic, ginko biloba, ginseng, and St. John's wort, NSAIDs), vitamin K or food supplements (especially omega-3-fatty acids) within the 7 days prior to first dosing."
+   },
+   {
+    "text": "Use of any drugs known to significantly inhibit [strong or moderate] or induce liver enzymes involved in drug metabolism [CYP P450]) within 30 days prior to check-in."
+   },
+   {
+    "text": "Donation of blood or significant blood loss within 56 days prior to check- in."
+   },
+   {
+    "text": "Donation of plasma within 7 days prior to check-in."
+   },
+   {
+    "text": "Participation in another clinical trial within 30 days prior to check-in."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

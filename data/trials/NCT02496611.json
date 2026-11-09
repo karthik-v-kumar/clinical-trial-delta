@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2022-01-03",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Minnesota",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Minnesota"
  },
  "collaborators": [],
  "conditions": [
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Weight loss with pharmacotherapy",
    "other_names": [
     "Exenatide extended release"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Weight loss without pharmacotherapy",
    "other_names": [
     "Placebo"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Weight Loss Maintenance without Pharmacotherapy",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Weight loss without pharmacotherapy"
-   ]
+   ],
+   "label": "Weight Loss Maintenance without Pharmacotherapy",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Weight Loss Maintenance with Pharmacotherapy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Weight loss with pharmacotherapy"
-   ]
+   ],
+   "label": "Weight Loss Maintenance with Pharmacotherapy",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,23 +92,23 @@
  "brief_summary": "Long-term weight loss maintenance is seldom achieved by individuals with obesity owing to numerous biological adaptations involving appetite, satiety, and energy expenditure in the post- weight loss setting. Following a loss in body weight, peripheral and central mechanisms convey a sense that energy reserves have dwindled, activating a strong counter response to increase caloric intake. Adolescents with severe obesity are not immune to the vexing issue of weight regain. Indeed, only 2% are able to achieve and maintain clinically-meaningful weight loss with lifestyle modification therapy. Therefore, novel treatment paradigms focused on long-term weight loss maintenance are urgently needed. Pharmacotherapy has the potential to prevent weight regain by targeting specific counter-regulatory mechanisms in the post- weight loss setting. One of the most promising candidates is the glucagon like peptide-1 receptor agonist (GLP-1RA) class, which greatly enhanced weight loss maintenance following a short-term low calorie diet among adults with obesity. The rationale for focusing on GLP-1RA treatment (BYDUREON™) to prevent weight regain is supported by the multiple central and peripheral mechanisms of action targeted by this class of drug; many of which specifically address the biological adaptations known to induce relapse. The investigators have strong preliminary data demonstrating that GLP-1RA treatment reduces BMI in adolescents with severe obesity. Moreover, the investigators and others have shown that although meal replacement therapy (structured meals of known caloric content) can elicit robust short-term weight loss among adolescents with severe obesity, weight regain is a pervasive problem. Therefore, in this clinical trial, our innovative approach will utilize GLP-1RA treatment to target weight regain following short-term meal replacement therapy in youth with severe obesity. Participants who achieve ≥5% BMI reduction during the meal replacement phase will be randomized to GLP-1RA treatment or placebo for an additional 52 weeks while simultaneously engaging in lifestyle modification therapy. Importantly, this study will also allow us to examine the extent to which GLP-1RA treatment addresses mechanisms of weight regain, investigate other pleiotropic benefits of GLP-1RA, and identify predictors of weight loss response.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI ≥1.2 times the 95th percentile (based on sex and age) or BMI ≥35 kg/m2\n* 12-17 years old\n\nExclusion Criteria:\n\n* Type 1 or 2 diabetes mellitus\n* Previous (within 6 months) or current use of medication(s) prescribed primarily for weight loss (refer to appendix material for comprehensive list)\n* If currently using weight altering drug(s) for non-obesity indication(s) (refer to appendix material for comprehensive list), any change in drug(s) or dose within the previous 6 months\n* Previous bariatric surgery\n* If currently using anti-hypertensive medication(s), lipid medication(s), and/or medication(s) to treat insulin resistance (refer to appendix material for comprehensive list), any change in drug(s) or dose within the previous 6 months\n* If currently using CPAP/BIPAP (for sleep apnea), change in frequency of use or settings within the previous 6 months\n* History of treatment with growth hormone\n* Neurodevelopmental disorder severe enough to impair ability to comply with study protocol\n* Clinical diagnosis of bipolar illness, schizophrenia, conduct disorder, and/or substance use/abuse\n* Females: currently pregnant, planning to become pregnant, or unwilling to use 2 or more acceptable methods of contraception when engaging in sexual activity throughout the study\n* Tobacco use\n* Liver/renal dysfunction\n* ALT or AST \\>2 times the upper limit of normal\n* Bicarbonate \\<18 mmol/L\n* Creatinine \\>1.2 mg/dL\n* History of pancreatitis\n* Personal- and/or family history of medullary thyroid carcinoma\n* Personal- and/or family history of multiple endocrine neoplasia type 2\n* Calcitonin level \\>50 ng/L\n* Bulimia nervosa\n* Neurological disorder\n* Hypothalamic obesity\n* Obesity associated with genetic disorder (monogenetic obesity)\n* Hyperthyroidism or uncontrolled hypothyroidism\n* History of suicide attempt\n* History of suicidal ideation or self-harm within the past year\n* History of cholelithiasis",
-  "sex": "ALL",
-  "minimum_age": "12 Years",
-  "maximum_age": "17 Years",
   "healthy_volunteers": true,
+  "maximum_age": "17 Years",
+  "minimum_age": "12 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "facility": "University of Minnesota",
    "city": "Minneapolis",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "University of Minnesota",
    "lat": 44.97997,
-   "lon": -93.26384
+   "lon": -93.26384,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02496611",
@@ -120,6 +120,101 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI ≥1.2 times the 95th percentile (based on sex and age) or BMI ≥35 kg/m2"
+   },
+   {
+    "text": "12-17 years old"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 or 2 diabetes mellitus"
+   },
+   {
+    "text": "Previous (within 6 months) or current use of medication(s) prescribed primarily for weight loss (refer to appendix material for comprehensive list)"
+   },
+   {
+    "text": "If currently using weight altering drug(s) for non-obesity indication(s) (refer to appendix material for comprehensive list), any change in drug(s) or dose within the previous 6 months"
+   },
+   {
+    "text": "Previous bariatric surgery"
+   },
+   {
+    "text": "If currently using anti-hypertensive medication(s), lipid medication(s), and/or medication(s) to treat insulin resistance (refer to appendix material for comprehensive list), any change in drug(s) or dose within the previous 6 months"
+   },
+   {
+    "text": "If currently using CPAP/BIPAP (for sleep apnea), change in frequency of use or settings within the previous 6 months"
+   },
+   {
+    "text": "History of treatment with growth hormone"
+   },
+   {
+    "text": "Neurodevelopmental disorder severe enough to impair ability to comply with study protocol"
+   },
+   {
+    "text": "Clinical diagnosis of bipolar illness, schizophrenia, conduct disorder, and/or substance use/abuse"
+   },
+   {
+    "text": "Females: currently pregnant, planning to become pregnant, or unwilling to use 2 or more acceptable methods of contraception when engaging in sexual activity throughout the study"
+   },
+   {
+    "text": "Tobacco use"
+   },
+   {
+    "text": "Liver/renal dysfunction"
+   },
+   {
+    "text": "ALT or AST >2 times the upper limit of normal"
+   },
+   {
+    "text": "Bicarbonate <18 mmol/L"
+   },
+   {
+    "text": "Creatinine >1.2 mg/dL"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Personal- and/or family history of medullary thyroid carcinoma"
+   },
+   {
+    "text": "Personal- and/or family history of multiple endocrine neoplasia type 2"
+   },
+   {
+    "text": "Calcitonin level >50 ng/L"
+   },
+   {
+    "text": "Bulimia nervosa"
+   },
+   {
+    "text": "Neurological disorder"
+   },
+   {
+    "text": "Hypothalamic obesity"
+   },
+   {
+    "text": "Obesity associated with genetic disorder (monogenetic obesity)"
+   },
+   {
+    "text": "Hyperthyroidism or uncontrolled hypothyroidism"
+   },
+   {
+    "text": "History of suicide attempt"
+   },
+   {
+    "text": "History of suicidal ideation or self-harm within the past year"
+   },
+   {
+    "text": "History of cholelithiasis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

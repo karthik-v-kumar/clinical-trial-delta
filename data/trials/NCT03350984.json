@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-01-18",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Universidad de Guanajuato",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Universidad de Guanajuato"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "NPH insulin",
    "other_names": [
     "NPH"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glargine and Lispro insulin",
    "other_names": [
     "Glargine and Lispro"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "NPH insulin group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: NPH insulin"
-   ]
+   ],
+   "label": "NPH insulin group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glargine and Lispro insulin group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glargine and Lispro insulin"
-   ]
+   ],
+   "label": "Glargine and Lispro insulin group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The aim of the study is to determine differences in glycemic control between a basal-bolus scheme insulin and NPH scheme insulin in a population of hospitalized patients with type 2 diabetes in a Noncritical Care Facility in Mexico. Patients with a recent diagnosis of type 2 and patients on treatment with oral hypoglycaemic agents and insulin or only insulin were included.\n\nThe primary outcome of the study is to determine difference in efficacy and security between a basal-bolus scheme insulin and NPH scheme insulin in patients with type 2 diabetes hospitalized in non-critical areas in a hospital in Mexico",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients between 18 and 100 years old.\n* History of type 2 diabetes mellitus (DM2) or that upon admission is diagnosed by values of glycated haemoglobin (HbA1) \\> 6.5%\n* Fasting central glucose before randomization between 140mg/dl and 400mg/dl\n* Non-critical patients hospitalized in the service of Internal Medicine (MI), General Surgery (CG) and Traumatology (TyO).\n* Patients receiving a diabetic diet orally\n* Treated with diet alone, o any combination of oral anti-diabetic agents or insulin treatment with any dosage before admission.\n\nExclusion Criteria:\n\n* Parenteral nutrition\n* Hyperglycemia without a known history of diabetes\n* Impaired renal function (glomerular filtration rate less than 30)\n* Diabetic ketoacidosis and hyperosmolar state\n* Type 1 Diabetes mellitus\n* Pregnancy\n* Patients on treatment with more than 10mg prednisone or steroid boluses.\n* Known hypopituitarism or adrenal insufficiency\n* Hyperglycaemia due to stress (negative antecedent of DM2, hyperglycemia and HbA1 \\<6.5)\n* Severe liver disease (Child-Pugh C score)\n* Acute pancreatitis\n* Patients with sepsis or multiple organ failure\n* Candidates for intensive care unit",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "100 Years",
   "healthy_volunteers": false,
+  "maximum_age": "100 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital General de León",
    "city": "León",
-   "state": "Guanajuato",
    "country": "Mexico",
-   "status": null,
+   "facility": "Hospital General de León",
    "lat": 21.12183,
-   "lon": -101.68253
+   "lon": -101.68253,
+   "state": "Guanajuato",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03350984",
@@ -116,6 +116,71 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients between 18 and 100 years old."
+   },
+   {
+    "text": "History of type 2 diabetes mellitus (DM2) or that upon admission is diagnosed by values of glycated haemoglobin (HbA1) > 6.5%"
+   },
+   {
+    "text": "Fasting central glucose before randomization between 140mg/dl and 400mg/dl"
+   },
+   {
+    "text": "Non-critical patients hospitalized in the service of Internal Medicine (MI), General Surgery (CG) and Traumatology (TyO)."
+   },
+   {
+    "text": "Patients receiving a diabetic diet orally"
+   },
+   {
+    "text": "Treated with diet alone, o any combination of oral anti-diabetic agents or insulin treatment with any dosage before admission."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Parenteral nutrition"
+   },
+   {
+    "text": "Hyperglycemia without a known history of diabetes"
+   },
+   {
+    "text": "Impaired renal function (glomerular filtration rate less than 30)"
+   },
+   {
+    "text": "Diabetic ketoacidosis and hyperosmolar state"
+   },
+   {
+    "text": "Type 1 Diabetes mellitus"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Patients on treatment with more than 10mg prednisone or steroid boluses."
+   },
+   {
+    "text": "Known hypopituitarism or adrenal insufficiency"
+   },
+   {
+    "text": "Hyperglycaemia due to stress (negative antecedent of DM2, hyperglycemia and HbA1 <6.5)"
+   },
+   {
+    "text": "Severe liver disease (Child-Pugh C score)"
+   },
+   {
+    "text": "Acute pancreatitis"
+   },
+   {
+    "text": "Patients with sepsis or multiple organ failure"
+   },
+   {
+    "text": "Candidates for intensive care unit"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

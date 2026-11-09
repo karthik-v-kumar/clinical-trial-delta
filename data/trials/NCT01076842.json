@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [
   "BodyMedia"
@@ -50,68 +50,68 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin-Levemir",
    "other_names": [
     "Levemir"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Exenatide-Bayetta",
    "other_names": [
     "Exenatide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin-Levemir and Exenatide-Bayetta",
    "other_names": [
     "Levemir+Exenatide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DEVICE",
    "name": "SenseWear Pro3® armband",
    "other_names": [
     "armband"
-   ]
+   ],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "DexCom CGM",
    "other_names": [
     "continuous glucose monitoring"
-   ]
+   ],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "A Levemir",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin-Levemir",
     "Device: SenseWear Pro3® armband",
     "Device: DexCom CGM"
-   ]
+   ],
+   "label": "A Levemir",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "B Exenatide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Exenatide-Bayetta",
     "Device: SenseWear Pro3® armband",
     "Device: DexCom CGM"
-   ]
+   ],
+   "label": "B Exenatide",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "C Levemir+Exenatide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin-Levemir and Exenatide-Bayetta",
     "Device: SenseWear Pro3® armband",
     "Device: DexCom CGM"
-   ]
+   ],
+   "label": "C Levemir+Exenatide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -123,10 +123,10 @@
  "brief_summary": "The purpose of this study is to compare the effectiveness of two different kinds of diabetes medications, insulin detemir (Levemir) and exenatide (Byetta), in improving blood sugar levels with little or no weight gain in patients with type 2 diabetes who are not well controlled on two or more oral (by mouth) diabetes medications. Both medications are given by injection with a very small needle just below the surface of your skin (called subcutaneous injection). The medication that you inject will be in addition to your oral medications.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. A diagnosis of Type 2 DM for over six months\n2. A history of inadequate glycemic control (A1c \\> 7.5% but \\< 10%) despite treatment with 2 or more oral hypoglycemic agents\n3. 18 years of age or older\n4. Stable medical status (e.g., no myocardial infarction, stroke, major surgery, or major mental illness during the previous 6 months)\n5. Naïve to insulin (no insulin for more than 14 days during the previous 6 months and none within 60 days of beginning the study)\n6. On at least ½ maximum or the greatest tolerable dose of their oral agents according to the label for at least 3 months\n7. BMI \\< 40 kg/m2\n8. Willing to perform at least four finger stick blood glucose measurements each day\n\nExclusion Criteria:\n\n1. A diagnosis of Type 2 DM for less than six months\n2. An A1c of \\< 7.5% or \\> 10%\n3. Pregnancy as determined by a serum ß HCG.\n4. An unstable medical status\n5. Taking glucocorticoids, amphetamines, anabolic, or weight-reducing agents during the course of the study\n6. Inability to read and write English\n7. Someone who is not likely to return for the follow-up because they or their sponsor is likely to have a permanent change of station or termination of service before completion of the protocol\n8. Unwilling to perform four finger stick blood glucose measurements each day\n9. Previous history of use of exenatide",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "90 Years",
   "healthy_volunteers": false,
+  "maximum_age": "90 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -134,22 +134,22 @@
  },
  "sites": [
   {
-   "facility": "MedStar Research Institute",
    "city": "Washington D.C.",
-   "state": "District of Columbia",
    "country": "United States",
-   "status": null,
+   "facility": "MedStar Research Institute",
    "lat": 38.89511,
-   "lon": -77.03637
+   "lon": -77.03637,
+   "state": "District of Columbia",
+   "status": null
   },
   {
-   "facility": "Walter Reed Army Medical Center",
    "city": "Washington D.C.",
-   "state": "District of Columbia",
    "country": "United States",
-   "status": null,
+   "facility": "Walter Reed Army Medical Center",
    "lat": 38.89511,
-   "lon": -77.03637
+   "lon": -77.03637,
+   "state": "District of Columbia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01076842",
@@ -164,6 +164,65 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "A diagnosis of Type 2 DM for over six months"
+   },
+   {
+    "text": "A history of inadequate glycemic control (A1c > 7.5% but < 10%) despite treatment with 2 or more oral hypoglycemic agents"
+   },
+   {
+    "text": "18 years of age or older"
+   },
+   {
+    "text": "Stable medical status (e.g., no myocardial infarction, stroke, major surgery, or major mental illness during the previous 6 months)"
+   },
+   {
+    "text": "Naïve to insulin (no insulin for more than 14 days during the previous 6 months and none within 60 days of beginning the study)"
+   },
+   {
+    "text": "On at least ½ maximum or the greatest tolerable dose of their oral agents according to the label for at least 3 months"
+   },
+   {
+    "text": "BMI < 40 kg/m2"
+   },
+   {
+    "text": "Willing to perform at least four finger stick blood glucose measurements each day"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A diagnosis of Type 2 DM for less than six months"
+   },
+   {
+    "text": "An A1c of < 7.5% or > 10%"
+   },
+   {
+    "text": "Pregnancy as determined by a serum ß HCG."
+   },
+   {
+    "text": "An unstable medical status"
+   },
+   {
+    "text": "Taking glucocorticoids, amphetamines, anabolic, or weight-reducing agents during the course of the study"
+   },
+   {
+    "text": "Inability to read and write English"
+   },
+   {
+    "text": "Someone who is not likely to return for the follow-up because they or their sponsor is likely to have a permanent change of station or termination of service before completion of the protocol"
+   },
+   {
+    "text": "Unwilling to perform four finger stick blood glucose measurements each day"
+   },
+   {
+    "text": "Previous history of use of exenatide"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

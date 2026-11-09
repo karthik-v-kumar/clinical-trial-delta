@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School"
  },
  "collaborators": [],
  "conditions": [
@@ -50,47 +50,47 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide injection",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Diet and exercise guidelines",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Behavioral: Diet and exercise guidelines"
+   ],
    "label": "control group",
-   "type": "SHAM_COMPARATOR",
-   "intervention_names": [
-    "Behavioral: Diet and exercise guidelines"
-   ]
+   "type": "SHAM_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Liraglutide injection",
+    "Behavioral: Diet and exercise guidelines"
+   ],
    "label": "Liraglutide 6 month group",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Liraglutide injection",
     "Behavioral: Diet and exercise guidelines"
-   ]
-  },
-  {
+   ],
    "label": "Liraglutide 9 month group",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Liraglutide injection",
-    "Behavioral: Diet and exercise guidelines"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Liraglutide 12 month group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide injection",
     "Behavioral: Diet and exercise guidelines"
-   ]
+   ],
+   "label": "Liraglutide 12 month group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "The goal of this clinical trial is to compare the weight loss and metabolic benefit in patients remaining obesity at 6 months after metabolic surgery. The main questions it aims to answer are:\n\n\\[primary hypothesis 1\\] Whether liraglutide benefits weight loss when it is initiated early after metabolic surgery.\n\n\\[primary hypothesis 2\\] Whether weight loss and metabolic benefits are greater when linaglutide is initiated in patients who are obese at 6 months after metabolic surgery",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients 6 months after metabolic surgery;\n* 18 years ≤ age ≤ 65 years;\n* Body Mass Index (BMI) ≥ 28 kg/m\\^2\n\nExclusion Criteria:\n\n* allergy to liraglutide, severe hepatic or renal impairment (eGFR \\<60 mL/min/1.73 m² or ALT/AST ≥3× ULN)\n* history of medullary thyroid carcinoma, MEN-2 or other malignancies\n* pancreatitis or severe gastrointestinal disease, pregnancy or lactation\n* use of anti-obesity drugs or other interventional trials within 3 months or major uncontrolled illness\n* Patients were discontinued if withdrawn, intolerant, lost to follow-up, or developed severe adverse events.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "Nanjing Drum Tower Hospital",
    "city": "Nanjing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Nanjing Drum Tower Hospital",
    "lat": 32.06167,
-   "lon": 118.77778
+   "lon": 118.77778,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07374445",
@@ -131,6 +131,38 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients 6 months after metabolic surgery;"
+   },
+   {
+    "text": "18 years ≤ age ≤ 65 years;"
+   },
+   {
+    "text": "Body Mass Index (BMI) ≥ 28 kg/m^2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "allergy to liraglutide, severe hepatic or renal impairment (eGFR <60 mL/min/1.73 m² or ALT/AST ≥3× ULN)"
+   },
+   {
+    "text": "history of medullary thyroid carcinoma, MEN-2 or other malignancies"
+   },
+   {
+    "text": "pancreatitis or severe gastrointestinal disease, pregnancy or lactation"
+   },
+   {
+    "text": "use of anti-obesity drugs or other interventional trials within 3 months or major uncontrolled illness"
+   },
+   {
+    "text": "Patients were discontinued if withdrawn, intolerant, lost to follow-up, or developed severe adverse events."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

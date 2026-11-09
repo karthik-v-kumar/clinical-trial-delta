@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Anacetrapib",
    "other_names": [
     "MK-0859"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Anacetrapib",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Anacetrapib"
-   ]
+   ],
+   "label": "Anacetrapib",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -112,10 +112,10 @@
  "brief_summary": "This study will evaluate the effects of anacetrapib on low-density lipoprotein-cholesterol (LDL-C) and high-density lipoprotein cholesterol (HDL-C) in participants with hypercholesterolemia when added to an existing statin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* If female, cannot be of reproductive potential\n* Has been treated with an appropriate dose of statin for at least 6 weeks\n* Coronary heart disease (CHD) or other atherosclerotic vascular disease with multiple risk factors (including diabetes, metabolic syndrome) and/or high LDL-C/low HDL-C, or needing to meet a specific LDL-C/HDL-C goal\n\nExclusion Criteria:\n\n* Previously participated in a study with a cholesteryl ester transfer protein (CETP) inhibitor\n* Homozygous familial hypercholesterolemia\n* Severe chronic heart failure\n* Uncontrolled cardiac arrhythmias, myocardial infarction (MI), percutaneous coronary intervention (PCI), coronary artery by-pass graft (CABG), unstable angina, or stroke within 3 months\n* Uncontrolled hypertension\n* Uncontrolled endocrine or metabolic disease known to influence serum lipids or lipoproteins\n* Active or chronic hepatobiliary, hepatic, or gall bladder disease\n* History of mental instability, drug/alcohol abuse within the past five years or major psychiatric illness inadequately controlled and unstable\n* History of ileal bypass, gastric bypass, or other significant condition associated with malabsorption\n* Human immunodeficiency virus (HIV) positive\n* History of malignancy ≤5 years\n* Donated blood products or has had phlebotomy of \\>300 mL within 8 weeks or intends to donate 250 mL of blood products or receive blood products within the projected duration of the study\n* Currently taking medications that are potent inhibitors or inducers of cytochrome P450 3A4 (CYP3A) (including but not limited to cyclosporine, systemic itraconazole or ketoconazole, erythromycin, clarithromycin, or telithromycin, nefazodone, protease inhibitors, carbamazepine, phenobarbital, phenytoin, rifabutin, rifampin, St John's wort) or has discontinued treatment \\<3 weeks prior\n* Consumes more than 2 alcoholic drinks per day\n* Currently participating or has participated in a study with an investigational compound or device within 3 months\n* Receiving treatment with systemic corticosteroids or taking systemic anabolic agents",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,6 +131,71 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "If female, cannot be of reproductive potential"
+   },
+   {
+    "text": "Has been treated with an appropriate dose of statin for at least 6 weeks"
+   },
+   {
+    "text": "Coronary heart disease (CHD) or other atherosclerotic vascular disease with multiple risk factors (including diabetes, metabolic syndrome) and/or high LDL-C/low HDL-C, or needing to meet a specific LDL-C/HDL-C goal"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Previously participated in a study with a cholesteryl ester transfer protein (CETP) inhibitor"
+   },
+   {
+    "text": "Homozygous familial hypercholesterolemia"
+   },
+   {
+    "text": "Severe chronic heart failure"
+   },
+   {
+    "text": "Uncontrolled cardiac arrhythmias, myocardial infarction (MI), percutaneous coronary intervention (PCI), coronary artery by-pass graft (CABG), unstable angina, or stroke within 3 months"
+   },
+   {
+    "text": "Uncontrolled hypertension"
+   },
+   {
+    "text": "Uncontrolled endocrine or metabolic disease known to influence serum lipids or lipoproteins"
+   },
+   {
+    "text": "Active or chronic hepatobiliary, hepatic, or gall bladder disease"
+   },
+   {
+    "text": "History of mental instability, drug/alcohol abuse within the past five years or major psychiatric illness inadequately controlled and unstable"
+   },
+   {
+    "text": "History of ileal bypass, gastric bypass, or other significant condition associated with malabsorption"
+   },
+   {
+    "text": "Human immunodeficiency virus (HIV) positive"
+   },
+   {
+    "text": "History of malignancy ≤5 years"
+   },
+   {
+    "text": "Donated blood products or has had phlebotomy of >300 mL within 8 weeks or intends to donate 250 mL of blood products or receive blood products within the projected duration of the study"
+   },
+   {
+    "text": "Currently taking medications that are potent inhibitors or inducers of cytochrome P450 3A4 (CYP3A) (including but not limited to cyclosporine, systemic itraconazole or ketoconazole, erythromycin, clarithromycin, or telithromycin, nefazodone, protease inhibitors, carbamazepine, phenobarbital, phenytoin, rifabutin, rifampin, St John's wort) or has discontinued treatment <3 weeks prior"
+   },
+   {
+    "text": "Consumes more than 2 alcoholic drinks per day"
+   },
+   {
+    "text": "Currently participating or has participated in a study with an investigational compound or device within 3 months"
+   },
+   {
+    "text": "Receiving treatment with systemic corticosteroids or taking systemic anabolic agents"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

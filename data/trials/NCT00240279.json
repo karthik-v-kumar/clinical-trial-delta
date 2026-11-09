@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,14 +48,14 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "PROCEDURE",
    "name": "aortic pulse wave velocity measurements",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [],
@@ -68,10 +68,10 @@
  "brief_summary": "To investigate the effect of rosuvastatin compared to placebo on the aortic stiffness in hemodialysis patients as measured by pulse wave velocity (at 3, 6 and 12 months)",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent, between 50 and 80 years of age, end stage renal failure patients receiving hemodialysis\n\nExclusion Criteria:\n\n* Received statins within past 6 months, a clear indication for use of lipid altering drug, contra indication for lipid altering drug, history of statin induced myopathy items in very",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -79,13 +79,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Nieuwegein",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 52.02917,
-   "lon": 5.08056
+   "lon": 5.08056,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00240279",
@@ -99,6 +99,20 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed informed consent, between 50 and 80 years of age, end stage renal failure patients receiving hemodialysis"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Received statins within past 6 months, a clear indication for use of lipid altering drug, contra indication for lipid altering drug, history of statin induced myopathy items in very"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

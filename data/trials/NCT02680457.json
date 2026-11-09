@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2020-09-28",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Guadalajara",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Guadalajara"
  },
  "collaborators": [],
  "conditions": [
@@ -51,36 +51,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin Degludec",
    "other_names": [
     "Tresiba ® (Novo Nordisk A/S. Bagsvaerd, Denmark)"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine",
    "other_names": [
     "Lantus ® (Sanofi-Aventis Deutschland GmbH. Frankfurt, Germany)"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Insulin Degludec - Insulin Glargine",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Degludec",
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "Insulin Degludec - Insulin Glargine",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Insulin Glargine - Insulin Degludec",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Degludec",
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "Insulin Glargine - Insulin Degludec",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "Type 2 diabetes mellitus (T2DM) is characterized by wide fluctuations of glucose. The long-acting insulin has showed to improve glycemic variability however the behavior of insulin glargine versus insulin degludec is unknown.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with T2DM without treatment for at least 3 months Body mass index (BMI) from 25.0-34.9 kg/m2 Diagnosis of T2DM\n* Fasting plasma glucose ≤300 mg/dL at the time of scrutiny\n* A1C between 6.5 and 11%\n* Written informed consent\n\nExclusion Criteria:\n\n* Women pregnant or breastfeeding\n* Untreated thyroid disease and/or uncontrolled hypertension \\[≥150 systolic and diastolic ≥90\\]\n* Consumption of oral agents or other medications or supplements with proven properties that modify the behavior of glucose. In the case of antihypertensives, these may be included if treatment was not modified previous 3 months and no change during the study.\n* Total cholesterol \\>240 mg/dL\n* Triglycerides ≥400 mg/dL\n* Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) more than twice the normal range\n* Glomerular filtration rate \\<60 mL/min \\[Cockcroft-Gault\\]",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Instituto de Terapeútica Experimental y Clínica. Centro Universitario de Ciencias de la Salud. Universidad de Guadalajara",
    "city": "Guadalajara",
-   "state": "Jalisco",
    "country": "Mexico",
-   "status": null,
+   "facility": "Instituto de Terapeútica Experimental y Clínica. Centro Universitario de Ciencias de la Salud. Universidad de Guadalajara",
    "lat": 20.67738,
-   "lon": -103.34749
+   "lon": -103.34749,
+   "state": "Jalisco",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02680457",
@@ -121,6 +121,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with T2DM without treatment for at least 3 months Body mass index (BMI) from 25.0-34.9 kg/m2 Diagnosis of T2DM"
+   },
+   {
+    "text": "Fasting plasma glucose ≤300 mg/dL at the time of scrutiny"
+   },
+   {
+    "text": "A1C between 6.5 and 11%"
+   },
+   {
+    "text": "Written informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Women pregnant or breastfeeding"
+   },
+   {
+    "text": "Untreated thyroid disease and/or uncontrolled hypertension [≥150 systolic and diastolic ≥90]"
+   },
+   {
+    "text": "Consumption of oral agents or other medications or supplements with proven properties that modify the behavior of glucose. In the case of antihypertensives, these may be included if treatment was not modified previous 3 months and no change during the study."
+   },
+   {
+    "text": "Total cholesterol >240 mg/dL"
+   },
+   {
+    "text": "Triglycerides ≥400 mg/dL"
+   },
+   {
+    "text": "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) more than twice the normal range"
+   },
+   {
+    "text": "Glomerular filtration rate <60 mL/min [Cockcroft-Gault]"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

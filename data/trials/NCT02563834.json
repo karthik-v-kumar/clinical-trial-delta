@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2016-08-31",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Indiana University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Indiana University"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -50,39 +50,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "thiapalmitate tracer",
    "other_names": [
     "16- 18-F-fluoro-4-thiapalmitate"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Saline",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Saline",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: thiapalmitate tracer",
     "Drug: Saline"
-   ]
+   ],
+   "label": "Saline",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin Clamp",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: thiapalmitate tracer",
     "Drug: Insulin"
-   ]
+   ],
+   "label": "Insulin Clamp",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -94,23 +94,23 @@
  "brief_summary": "Studies of myocardial fuel selection using a novel palmitate-based PET probe",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Lean:\n\n  * BMI\\<25 kg/m2\n  * normal glucose tolerance by 75g oral glucose tolerance test\n* Type 2 diabetes mellitus:\n\n  * BMI \\>25 kg/m2\n  * previously diagnosed type 2 diabetes mellitus\n  * on oral and/or injected insulin treatment.\n\nExclusion Criteria:\n\n* Lean:\n\n  \\*Use of any chronic medications\n* Type 2 diabetes mellitus\n\n  * known microvascular disease\n  * known coronary or other macro vascular disease\n  * use of PPARgamma class antidiabetic agents within 6 months",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": true,
+  "maximum_age": "45 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Indiana University Hospital GCRC",
    "city": "Indianapolis",
-   "state": "Indiana",
    "country": "United States",
-   "status": null,
+   "facility": "Indiana University Hospital GCRC",
    "lat": 39.76838,
-   "lon": -86.15804
+   "lon": -86.15804,
+   "state": "Indiana",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02563834",
@@ -122,6 +122,43 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Lean:",
+    "sub_items": [
+     "BMI<25 kg/m2",
+     "normal glucose tolerance by 75g oral glucose tolerance test"
+    ]
+   },
+   {
+    "text": "Type 2 diabetes mellitus:",
+    "sub_items": [
+     "BMI >25 kg/m2",
+     "previously diagnosed type 2 diabetes mellitus",
+     "on oral and/or injected insulin treatment."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Lean:"
+   },
+   {
+    "text": "*Use of any chronic medications"
+   },
+   {
+    "text": "Type 2 diabetes mellitus",
+    "sub_items": [
+     "known microvascular disease",
+     "known coronary or other macro vascular disease",
+     "use of PPARgamma class antidiabetic agents within 6 months"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

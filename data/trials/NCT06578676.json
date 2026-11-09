@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hyundai Pharm",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hyundai Pharm"
  },
  "collaborators": [
   "Kyungpook National University Hospital"
@@ -51,38 +51,38 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin 25 MG",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ezetimibe/Rosuvastatin 10/10mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Empagliflozin 25 MG with Ezetimibe/Rosuvastatin 10/10mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin 25mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin 25 MG",
     "Drug: Ezetimibe/Rosuvastatin 10/10mg",
     "Drug: Empagliflozin 25 MG with Ezetimibe/Rosuvastatin 10/10mg"
-   ]
+   ],
+   "label": "Empagliflozin 25mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Rosuvastatin/Ezetimibe 10/10mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe/Rosuvastatin 10/10mg",
     "Drug: Empagliflozin 25 MG with Ezetimibe/Rosuvastatin 10/10mg"
-   ]
+   ],
+   "label": "Rosuvastatin/Ezetimibe 10/10mg",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The purpose of this study is to evaluate pharmacokinetic interaction and safety of co-administrated 25mg of Empagliflozin and 10/10mg Ezetimibe/Rosuvastatin in steady state in healthy volunteers.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent\n* Age: 19 and over , healthy volunteer\n* Body mass index (BMI): 18.5≤BMI≤29.9 kg/m²\n\nExclusion Criteria:\n\n* Incompletely cured pre-existing diseases for which it can be assumed that the absorption, distribution, metabolism, elimination or effects of the study drugs will not be normal\n* Clinically relevant findings(e.g. blood pressure, electrocardiogram(ECG); physical and gynecological examination, laboratory examination)",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,26 +109,49 @@
  },
  "sites": [
   {
-   "facility": "Kyungpook national university hospital",
    "city": "Daegu",
-   "state": "Gyeongsangbuk-do",
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Kyungpook national university hospital",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Gyeongsangbuk-do",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06578676",
  "content_hash": "e32235577a3363ee",
  "collections": [
-  "type-2-diabetes",
-  "cholesterol-lipids"
+  "cholesterol-lipids",
+  "type-2-diabetes"
  ],
  "matched_queries": [
-  "t2d-drugs",
-  "lipids-drugs"
+  "lipids-drugs",
+  "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed informed consent"
+   },
+   {
+    "text": "Age: 19 and over , healthy volunteer"
+   },
+   {
+    "text": "Body mass index (BMI): 18.5≤BMI≤29.9 kg/m²"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Incompletely cured pre-existing diseases for which it can be assumed that the absorption, distribution, metabolism, elimination or effects of the study drugs will not be normal"
+   },
+   {
+    "text": "Clinically relevant findings(e.g. blood pressure, electrocardiogram(ECG); physical and gynecological examination, laboratory examination)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

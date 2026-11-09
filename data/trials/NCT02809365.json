@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Wolfson Medical Center",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Wolfson Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -48,32 +48,32 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "FreeStyle Libre",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "personal glucometer",
    "other_names": [
     "SMBG"
-   ]
+   ],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Libre",
-   "type": "OTHER",
    "intervention_names": [
     "Device: FreeStyle Libre"
-   ]
+   ],
+   "label": "Libre",
+   "type": "OTHER"
   },
   {
-   "label": "SMBG",
-   "type": "OTHER",
    "intervention_names": [
     "Device: personal glucometer"
-   ]
+   ],
+   "label": "SMBG",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "This is a randomized controlled study in type 2 diabetic patients who are presently uncontrolled on at least 2 injections of insulin daily with an A1C \\>7.5 % and \\<10%. Patients need to be stabilized on their MDI for 1 week then randomized to either SBGM or FreeStyle Libre for 10 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes - more than 1 year\n2. Age: 30 - 80 yrs\n3. Treated with MDI: ≥ 2 injections daily\n4. HbA1c: 7.5% to 10%\n5. Willing to measure 7 daily blood tests at least one day each week\n6. Willing to sign informed consent\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. CV event within the last 6 months\n3. Steroid therapy \\> 7 days in last 6 months\n4. Retinopathy - grade 3\n5. Creatinine \\>2 mg%",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,22 +96,22 @@
  },
  "sites": [
   {
-   "facility": "E. Wolfson Medical Center",
    "city": "Holon",
-   "state": null,
    "country": "Israel",
-   "status": null,
+   "facility": "E. Wolfson Medical Center",
    "lat": 32.0122,
-   "lon": 34.77826
+   "lon": 34.77826,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Wolfson Medical Center, Bariatric Surgery Clinic",
    "city": "Holon",
-   "state": null,
    "country": "Israel",
-   "status": null,
+   "facility": "Wolfson Medical Center, Bariatric Surgery Clinic",
    "lat": 32.0122,
-   "lon": 34.77826
+   "lon": 34.77826,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02809365",
@@ -123,6 +123,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes - more than 1 year"
+   },
+   {
+    "text": "Age: 30 - 80 yrs"
+   },
+   {
+    "text": "Treated with MDI: ≥ 2 injections daily"
+   },
+   {
+    "text": "HbA1c: 7.5% to 10%"
+   },
+   {
+    "text": "Willing to measure 7 daily blood tests at least one day each week"
+   },
+   {
+    "text": "Willing to sign informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "CV event within the last 6 months"
+   },
+   {
+    "text": "Steroid therapy > 7 days in last 6 months"
+   },
+   {
+    "text": "Retinopathy - grade 3"
+   },
+   {
+    "text": "Creatinine >2 mg%"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

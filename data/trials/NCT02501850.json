@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hospital Universitari Vall d'Hebron Research Institute",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hospital Universitari Vall d'Hebron Research Institute"
  },
  "collaborators": [],
  "conditions": [
@@ -48,35 +48,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Exenatide",
     "Lixisenatide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
    "other_names": [
     "sulphonilurea"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide"
-   ]
+   ],
+   "label": "Group A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group B",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: metformin"
-   ]
+   ],
+   "label": "Group B",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Lipoprotein (a) \\[Lp (a)\\] is an independent cardiovascular risk (CVR) both in the general population and in patients with type 2 diabetes mellitus (DM-2). Until now no effective treatment is known to decrease the levels of Lp (a) levels and thus achieve a reduction of CVR. Among the new antidiabetic drugs are GLP-1Receptor agonists(GLP-1R). In addition to lowering blood glucose, these drugs have other beneficial effects. In our laboratory we have demonstrated that both native GLP-1 and various GLP-1R agonsits reduce the synthesis of Lp (a) in hepatocytes. The objective of the study is to test in humans the results observed in vitro. We will analyze whether treatment with GLP-1R agonists (Liraglutide, Exenatide or Lixisenatida) will reduce serum levels of Lp (a) in patients with DM-2.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* age between 50-65 years\n* written informed consent\n\nExclusion Criteria:\n\n* active GLP-1R agonist, insulin or DPP-IV treatment.\n* Liver failure (3lsn AST and/or ALT)\n* Kidney failure (FG \\<30ml/min/1,73m2),\n* HbA1c\\> 10%\n* LDL-cholesterol\\> 180 mg/dl\n* Triglycerides\\> 350 mg/dl",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital Universitari Vall d'Hebron",
    "city": "Barcelona",
-   "state": "Barcelona",
    "country": "Spain",
-   "status": "RECRUITING",
+   "facility": "Hospital Universitari Vall d'Hebron",
    "lat": 41.38879,
-   "lon": 2.15899
+   "lon": 2.15899,
+   "state": "Barcelona",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02501850",
@@ -117,6 +117,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "age between 50-65 years"
+   },
+   {
+    "text": "written informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "active GLP-1R agonist, insulin or DPP-IV treatment."
+   },
+   {
+    "text": "Liver failure (3lsn AST and/or ALT)"
+   },
+   {
+    "text": "Kidney failure (FG <30ml/min/1,73m2),"
+   },
+   {
+    "text": "HbA1c> 10%"
+   },
+   {
+    "text": "LDL-cholesterol> 180 mg/dl"
+   },
+   {
+    "text": "Triglycerides> 350 mg/dl"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

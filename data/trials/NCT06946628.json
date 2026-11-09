@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sun Yat-sen University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Sun Yat-sen University"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Group A (triple combination therapy group)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Group B (standard therapy group)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group A (triple combination therapy group)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Group A (triple combination therapy group)"
-   ]
+   ],
+   "label": "Group A (triple combination therapy group)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group B (standard therapy group)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Group B (standard therapy group)"
-   ]
+   ],
+   "label": "Group B (standard therapy group)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The goal of this clinical trial is to learn the efficany of combination therapy with semaglutide, empagliflozin and pioglitazone versus standard therapy in newly diagnosed type 2 diabetes. The main objectives to achieve are:\n\n1. To compare efficacy of the triple combination therapy against standard therapy in achieving type 2 diabetes remission in patients newly diagnosed with T2DM.\n2. To compare the effects on β-cell function and glycemic control of the triple combination therapy against standard therapy in patients newly diagnosed with T2DM\n\nResearchers will compare drug new triple combination therapy with semaglutide, empagliflozin, and pioglitazone to standard therapy (metformin-based treatment) to see if new triple combination therapy works better in achieving type 2 diabetes remission .\n\nParticipants will:\n\n1. Take new triple combination therapy or a standard therapy every day for 6 months\n2. Visit the clinic once every 0.5-1 month for checkups and tests\n3. Keep a diary of their fingertip blood glucose and adverse events",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male or female, 18 years≤age≤75 years at the time of signing informed consent.\n2. Newly diagnosed with type 2 diabetes, or diagnosed within 1 years according to the WHO diagnostic criteria.\n3. Individuals who had not received previous antidiabetic therapy, or had not received antidiabetic therapy within 3 months prior to screening, or had not received antidiabetic therapy for more than 3 consecutive months or a combined total of more than 3 months in the past 2 years.\n4. 6.5%≤HbA1c≤9.0% at screening confirmed by central laboratory analysis.\n5. BMI≥24 kg/m2.\n\nExclusion Criteria:\n\n1. Individuals with type 1 diabetes or special types of diabetes.\n2. Allergy or intolerance to investigational drugs.\n3. Estimated Glomerular Filtration Rate (eGFR) \\<20 mL/min/1.73 m².\n4. Individuals with heart failure in New York Heart Association \\[NYHA\\] class III or IV in the 6 months prior to randomization.\n5. History of bladder cancer or hematuria.\n6. History of Multiple Endocrine Neoplasia Type 2 (MEN 2) or relevant family history.\n7. History or family history of Medullary Thyroid Carcinoma (MTC), or susceptibility to MTC due to hereditary conditions.\n8. History of fasting blood glucose≥13.9 mmol/L or the necessity for insulin use due to severe infection, diabetic foot, etc.\n9. History of acute diabetic complications: including diabetic ketoacidosis, hyperglycemic hyperosmolar state, lactic acidosis.\n10. Severe diabetic microvascular complications: proliferative retinopathy, or urinary AER\\>300mg/g, or urinary protein positive, quantitative \\>0.5g/24h.\n11. Uncontrolled painful diabetic neuropathy and significant diabetic autonomic neuropathy.\n12. Severe diabetic macrovascular complications: myocardial infarction, stroke or hospitalization for unstable angina and/or transient ischemic attack and/or peripheral arterial disease required for vascular intervention or amputation within the 12 months prior to screening.\n13. Blood pressure persistently higher than 180/110 mmHg and not controllable to ≤160/100 mmHg within 1 week.\n14. Alanine Aminotransferase (ALT) ≥2.5 times the upper normal limit, total bilirubin ≥1.5 times the upper normal limit.\n15. Hemoglobin \\<100g/L or requiring regular blood transfusion.\n16. Use of medicines potentially affecting blood glucose for more than 1 week cumulatively in the past 12 weeks, such as corticosteroids, growth hormone analogs, estrogen/progestogen, high-dose diuretics, antipsychotic drugs, etc.\n17. Participation in another trial involving medicine therapy within the past 3 months.\n18. Expected lifespan less than 2 years as per the investigator's clinical judgment, e.g., but not limited to malignancy.\n19. Pregnant or lactating females, or females of childbearing potential who cannot or are unwilling to use adequate contraception.\n20. Deemed unsuitable for participation in this clinical trial at the discretion of the investigator.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "The First Affiliated Hospital of Sun Yat-sen University",
    "city": "Guangzhou",
-   "state": "Guangdong",
    "country": "China",
-   "status": null,
+   "facility": "The First Affiliated Hospital of Sun Yat-sen University",
    "lat": 23.11667,
-   "lon": 113.25
+   "lon": 113.25,
+   "state": "Guangdong",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06946628",
@@ -112,6 +112,89 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female, 18 years≤age≤75 years at the time of signing informed consent."
+   },
+   {
+    "text": "Newly diagnosed with type 2 diabetes, or diagnosed within 1 years according to the WHO diagnostic criteria."
+   },
+   {
+    "text": "Individuals who had not received previous antidiabetic therapy, or had not received antidiabetic therapy within 3 months prior to screening, or had not received antidiabetic therapy for more than 3 consecutive months or a combined total of more than 3 months in the past 2 years."
+   },
+   {
+    "text": "6.5%≤HbA1c≤9.0% at screening confirmed by central laboratory analysis."
+   },
+   {
+    "text": "BMI≥24 kg/m2."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Individuals with type 1 diabetes or special types of diabetes."
+   },
+   {
+    "text": "Allergy or intolerance to investigational drugs."
+   },
+   {
+    "text": "Estimated Glomerular Filtration Rate (eGFR) <20 mL/min/1.73 m²."
+   },
+   {
+    "text": "Individuals with heart failure in New York Heart Association [NYHA] class III or IV in the 6 months prior to randomization."
+   },
+   {
+    "text": "History of bladder cancer or hematuria."
+   },
+   {
+    "text": "History of Multiple Endocrine Neoplasia Type 2 (MEN 2) or relevant family history."
+   },
+   {
+    "text": "History or family history of Medullary Thyroid Carcinoma (MTC), or susceptibility to MTC due to hereditary conditions."
+   },
+   {
+    "text": "History of fasting blood glucose≥13.9 mmol/L or the necessity for insulin use due to severe infection, diabetic foot, etc."
+   },
+   {
+    "text": "History of acute diabetic complications: including diabetic ketoacidosis, hyperglycemic hyperosmolar state, lactic acidosis."
+   },
+   {
+    "text": "Severe diabetic microvascular complications: proliferative retinopathy, or urinary AER>300mg/g, or urinary protein positive, quantitative >0.5g/24h."
+   },
+   {
+    "text": "Uncontrolled painful diabetic neuropathy and significant diabetic autonomic neuropathy."
+   },
+   {
+    "text": "Severe diabetic macrovascular complications: myocardial infarction, stroke or hospitalization for unstable angina and/or transient ischemic attack and/or peripheral arterial disease required for vascular intervention or amputation within the 12 months prior to screening."
+   },
+   {
+    "text": "Blood pressure persistently higher than 180/110 mmHg and not controllable to ≤160/100 mmHg within 1 week."
+   },
+   {
+    "text": "Alanine Aminotransferase (ALT) ≥2.5 times the upper normal limit, total bilirubin ≥1.5 times the upper normal limit."
+   },
+   {
+    "text": "Hemoglobin <100g/L or requiring regular blood transfusion."
+   },
+   {
+    "text": "Use of medicines potentially affecting blood glucose for more than 1 week cumulatively in the past 12 weeks, such as corticosteroids, growth hormone analogs, estrogen/progestogen, high-dose diuretics, antipsychotic drugs, etc."
+   },
+   {
+    "text": "Participation in another trial involving medicine therapy within the past 3 months."
+   },
+   {
+    "text": "Expected lifespan less than 2 years as per the investigator's clinical judgment, e.g., but not limited to malignancy."
+   },
+   {
+    "text": "Pregnant or lactating females, or females of childbearing potential who cannot or are unwilling to use adequate contraception."
+   },
+   {
+    "text": "Deemed unsuitable for participation in this clinical trial at the discretion of the investigator."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "TRIPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Taipei Medical University WanFang Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Taipei Medical University WanFang Hospital"
  },
  "collaborators": [
   "Hi-Q Marine Biotech International, Ltd."
@@ -54,44 +54,44 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Brown seaweed",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Dietary Supplement: placebo"
+   ],
    "label": "Pre-DM patients with placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Dietary Supplement: placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Dietary Supplement: Brown seaweed"
+   ],
    "label": "Pre-DM patients with supplement",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Dietary Supplement: Brown seaweed"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DM patients with placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: placebo"
-   ]
+   ],
+   "label": "DM patients with placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "DM patients with supplement",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Brown seaweed"
-   ]
+   ],
+   "label": "DM patients with supplement",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "Investigators research team conducted a previous human clinical trial of brown algae and conducted liver and metabolic indicators of brown algae to improve nonalcoholic fatty liver disease, and found brown algae extract (LMF-HSFx, commodity In addition to reducing the liver function index, HbA1c in some patients with early stage diabetes or type 2 diabetes has an improved effect. In the mouse model of type 2 diabetes, comprehensive anti-hyperglycemia, anti-hyperlipidemia and hepatoprotective activity were studied using LMF-HSFx. Intake of LMF-HSFx reduced fasting blood glucose, increased adiponectin levels, reduced urine glucose, and improved hepatic glucose metabolism. LMF-HSFx can improve glucose and lipid metabolism in adipose tissue of diabetic mice, and inflammatory factors such as TNF-α and IL-6 can also be reduced.\n\nIn this study,participants will be given Fuco-HiQ, and their effects on blood glucose and various metabolic indicators will be evaluated.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nBetween the ages of 20 and 75 years old, biochemical test data and abdominal ultrasound screening were selected according to the following conditions.\n\n1. Prediabetes: AC at 101 to 125 and HbA1c at 5.8 to 6.4 and abdominal ultrasound confirmed fatty liver.\n2. Type 2 Diabetes: Abdominal ultrasound confirms the presence of fatty liver; Hypoglycemic agent HbA1c controls 8% (but does not contain Pioglitazone or injection of Liraglutide), or patient HbA1c is controlled below 9% but does not want to increase drug Dosage or add other hypoglycemic agents.\n\nExclusion Criteria:\n\n1. Severe renal insufficiency (diabetic or eGFR less than 30 mL/min/1.73 m2), severe heart failure (NYHA function classification III or IV), etc.\n2. Allergies to seafood and seaweed ingredients.\n3. Cannot or refuse to sign test consent.\n4. Inject insulin or Liraglutide or take Pioglitazone.\n5. Type 1 diabetes patients.\n6. People who drink alcohol and take weight-related drugs and health products.\n7. There are blood transfusion recipients within three months.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "facility": "Wanfang Hospital",
    "city": "Taipei",
-   "state": "Wenshan District",
    "country": "Taiwan",
-   "status": null,
+   "facility": "Wanfang Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": "Wenshan District",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04715776",
@@ -132,6 +132,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Between the ages of 20 and 75 years old, biochemical test data and abdominal ultrasound screening were selected according to the following conditions."
+   },
+   {
+    "text": "Prediabetes: AC at 101 to 125 and HbA1c at 5.8 to 6.4 and abdominal ultrasound confirmed fatty liver."
+   },
+   {
+    "text": "Type 2 Diabetes: Abdominal ultrasound confirms the presence of fatty liver; Hypoglycemic agent HbA1c controls 8% (but does not contain Pioglitazone or injection of Liraglutide), or patient HbA1c is controlled below 9% but does not want to increase drug Dosage or add other hypoglycemic agents."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe renal insufficiency (diabetic or eGFR less than 30 mL/min/1.73 m2), severe heart failure (NYHA function classification III or IV), etc."
+   },
+   {
+    "text": "Allergies to seafood and seaweed ingredients."
+   },
+   {
+    "text": "Cannot or refuse to sign test consent."
+   },
+   {
+    "text": "Inject insulin or Liraglutide or take Pioglitazone."
+   },
+   {
+    "text": "Type 1 diabetes patients."
+   },
+   {
+    "text": "People who drink alcohol and take weight-related drugs and health products."
+   },
+   {
+    "text": "There are blood transfusion recipients within three months."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

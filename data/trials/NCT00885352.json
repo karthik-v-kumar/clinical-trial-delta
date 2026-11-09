@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2012-02-01",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,60 +51,60 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia",
     "MK-0431"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Actos"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glipizide",
    "other_names": [
     "Glucotrol"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: Pioglitazone",
     "Drug: Metformin",
     "Drug: Glipizide"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Placebo",
     "Drug: Pioglitazone",
     "Drug: Metformin",
     "Drug: Glipizide"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -116,10 +116,10 @@
  "brief_summary": "This study will examine the safety and efficacy of the addition of sitagliptin (MK-0431) compared to placebo in patients with type 2 diabetes mellitus with inadequate glycemic control who are taking pioglitazone and metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* has type 2 diabetes and is at least 18 years of age and no older than 78 years of age\n* is male or is a female who is unlikely to conceive children\n* is on stable doses of a peroxisome proliferator-activated receptor gamma agonist and metformin OR metformin and a sulfonylurea agent\n\nExclusion Criteria:\n\n* has type 1 diabetes\n* has taken a dipeptidyl peptidase (DPP-4) inhibitor or a glucagon-like peptide-1 (GLP-1) analogue\n* is on a weight loss program that is not in the maintenance phase or has started a weight loss medication within 8 weeks of screening\n* has had surgery within 30 days of screening or has major surgery planned during the study\n* is on or is likely to require treatment with corticosteroids for more than 2 weeks\n* has a history of active liver disease, including hepatitis B or C, cirrhosis, or gallbladder disease\n* is human immunodeficiency virus (HIV) positive\n* has congestive heart failure, or has had new or worsening symptoms of coronary heart disease within 3 months prior to screening\n* has had acute coronary syndrome, coronary artery intervention, or stroke within 3 months of screening\n* has severe active peripheral vascular disease\n* has a history of cancer or blood disorder\n* is pregnant or breast feeding",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -135,6 +135,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "has type 2 diabetes and is at least 18 years of age and no older than 78 years of age"
+   },
+   {
+    "text": "is male or is a female who is unlikely to conceive children"
+   },
+   {
+    "text": "is on stable doses of a peroxisome proliferator-activated receptor gamma agonist and metformin OR metformin and a sulfonylurea agent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "has type 1 diabetes"
+   },
+   {
+    "text": "has taken a dipeptidyl peptidase (DPP-4) inhibitor or a glucagon-like peptide-1 (GLP-1) analogue"
+   },
+   {
+    "text": "is on a weight loss program that is not in the maintenance phase or has started a weight loss medication within 8 weeks of screening"
+   },
+   {
+    "text": "has had surgery within 30 days of screening or has major surgery planned during the study"
+   },
+   {
+    "text": "is on or is likely to require treatment with corticosteroids for more than 2 weeks"
+   },
+   {
+    "text": "has a history of active liver disease, including hepatitis B or C, cirrhosis, or gallbladder disease"
+   },
+   {
+    "text": "is human immunodeficiency virus (HIV) positive"
+   },
+   {
+    "text": "has congestive heart failure, or has had new or worsening symptoms of coronary heart disease within 3 months prior to screening"
+   },
+   {
+    "text": "has had acute coronary syndrome, coronary artery intervention, or stroke within 3 months of screening"
+   },
+   {
+    "text": "has severe active peripheral vascular disease"
+   },
+   {
+    "text": "has a history of cancer or blood disorder"
+   },
+   {
+    "text": "is pregnant or breast feeding"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

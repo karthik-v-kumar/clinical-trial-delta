@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Southern Denmark",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Southern Denmark"
  },
  "collaborators": [],
  "conditions": [
@@ -48,47 +48,45 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucose lowering treatment"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Caffeine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Efavirenz",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Losartan",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Omeprazol",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metoprolol",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Midazolam",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Caffeine",
@@ -97,7 +95,9 @@
     "Drug: Omeprazol",
     "Drug: Metoprolol",
     "Drug: Midazolam"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -113,10 +113,10 @@
  "brief_summary": "Type 2 diabetes is a major public health concern. It is widely established that type 2 diabetes in linked to activated innate immunity and increased levels of C-reactive protein and interleukin-6 (IL-6) in plasma. Studies in humans and in liver cells has shown that IL-6 downregulates important drug metabolizing enzymes in the liver (cytochrome P450 (CYP) enzymes). More than half of the most prescribed drugs are eliminated by biotransformation of these enzymes.\n\nThe investigators have previously shown that initiating glucose-lowering treatment (e.g. metformin, sulphonylureas and insulin) leads to decreased therapeutic efficacy of the blood-thinning vitamin-K antagonist warfarin. Due to the non-specific effect of glucose lowering drugs, the investigators hypothesize that this is caused by the glucose-lowering effect rather than drug-drug interactions caused by the individual drugs.\n\nBased on the proposal that reversal of increased plasma glucose affects drug metabolism, the investigators will perform a clinical pharmacokinetic trial. The purpose of the study is to elucidate whether initiation of glucose-lowering treatment causes altered drug metabolism among patients with type 2 diabetes. The study will include newly diagnosed and untreated type 2 diabetes patients who will ingest a 6-drug cocktail consisting of probes for specific CYP enzymes. Plasma and urine will be drawn over 6 hours to determine concentrations of the drugs and their metabolites. Patients will then initiate metformin treatment and to assess both short- and long-term impact of glucose-lowering, the same 6-drug cocktail will be ingested, and concentrations measured, after three weeks and three months. To help understand the mechanism and the putative involvement of inflammation, markers of inflammation such as cytokines, transcription factors, etc. will also be assesses.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes, not treated metformin.\n* Hemoglobin 1Ac (HbA1c): ≥48 mmol/mol\n* Age: 18-75 years\n* Body Mass Index (BMI) ≤ 40 kg/m2\n* Estimated Glomerular Filtration Rate (eGFR) \\> 60 mL/min\n* Alanine Aminotransferase (ALAT), bilirubin and hemoglobin within reference range or clinically insignificant differ from this.\n\nExclusion Criteria:\n\n* Acute or chronic infection or inflammation\n* Active cancer\n* Glutamic acid decarboxylase (GAD)-antibodies\n* Known hypersensitivity to one or several of the drugs\n* Intake of medications which can influence the safety of the patient or the results of the study\n* Alcohol consumption above the limits recommended by the Danish Health Authorities (Men 14 units/week, women 7 units/week)\n* Participation in other trials with interventions.\n* Women: Positive pregnancy test at inclusion or on one of the test-days.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -124,13 +124,13 @@
  },
  "sites": [
   {
-   "facility": "University of Southern Denmark",
    "city": "Odense",
-   "state": "Region Syddanmark",
    "country": "Denmark",
-   "status": null,
+   "facility": "University of Southern Denmark",
    "lat": 55.39594,
-   "lon": 10.38831
+   "lon": 10.38831,
+   "state": "Region Syddanmark",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04504045",
@@ -142,6 +142,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes, not treated metformin."
+   },
+   {
+    "text": "Hemoglobin 1Ac (HbA1c): ≥48 mmol/mol"
+   },
+   {
+    "text": "Age: 18-75 years"
+   },
+   {
+    "text": "Body Mass Index (BMI) ≤ 40 kg/m2"
+   },
+   {
+    "text": "Estimated Glomerular Filtration Rate (eGFR) > 60 mL/min"
+   },
+   {
+    "text": "Alanine Aminotransferase (ALAT), bilirubin and hemoglobin within reference range or clinically insignificant differ from this."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Acute or chronic infection or inflammation"
+   },
+   {
+    "text": "Active cancer"
+   },
+   {
+    "text": "Glutamic acid decarboxylase (GAD)-antibodies"
+   },
+   {
+    "text": "Known hypersensitivity to one or several of the drugs"
+   },
+   {
+    "text": "Intake of medications which can influence the safety of the patient or the results of the study"
+   },
+   {
+    "text": "Alcohol consumption above the limits recommended by the Danish Health Authorities (Men 14 units/week, women 7 units/week)"
+   },
+   {
+    "text": "Participation in other trials with interventions."
+   },
+   {
+    "text": "Women: Positive pregnancy test at inclusion or on one of the test-days."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

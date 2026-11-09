@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shanghai Junshi Bioscience Co., Ltd.",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Shanghai Junshi Bioscience Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -53,46 +53,46 @@
  ],
  "interventions": [
   {
-   "type": "BIOLOGICAL",
    "name": "Ongericimab",
    "other_names": [
     "JS002"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Biological: Ongericimab"
+   ],
    "label": "JS002 150mg Q2W for 24 weeks",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Biological: Ongericimab"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "placebo 150mg Q2W for 24 weeks",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "JS002 450mg Q4W for 24 weeks",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: Ongericimab"
-   ]
+   ],
+   "label": "JS002 450mg Q4W for 24 weeks",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "placebo 450mg Q4W for 24 weeks",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "placebo 450mg Q4W for 24 weeks",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "JS002 is a recombinant human anti-PCSK9 monoclonal antibody.The study is a multicenter, randomized, double-blind, placebo-controlled Phase III clinical study in Chinese patients with heterozygous familial hypercholesterolemia (HeFH). Objective To evaluate the efficacy and safety of JS002 150 mg (Q2W) and 450 mg (Q4W) subcutaneous injection (SC).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Signed informed consent.\n2. Males and females ≥ 18 to ≤ 80 years of age\n3. DLCN\\>8 in HeFH\n4. Stable lipid-lowering therapies for at least 4 weeks\n5. Patients with ASCVD LDL cholesterol≥1.4mmol/L at screening Patients without ASCVD LDL cholesterol≥2.6mmol/L at screening\n6. Triglyceride≤4.5 mmol/L（400 mg/dL）;\n\nExclusion Criteria:\n\n1. HoFH or meet the diagnostic criteria of HoFH\n2. New York Heart Association (NYHA) class III or IV or last known left ventricular ejection fraction \\< 30%\n3. History of uncontrolled arrhythmia within 90 days\n4. Myocardial infarction, unstable angina, percutaneous coronary intervention (PCI), coronary artery bypass graft (CABG) or stroke within 90 days of randomization\n5. Planned cardiac surgery or revascularization.\n6. Uncontrolled diabetes mellitius (HbA1c\\>8.0%）.\n7. Uncontrolled hypertension.\n8. Other conditions that the researchers considered inappropriate to participate in the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -115,13 +115,13 @@
  },
  "sites": [
   {
-   "facility": "Beijing Anzhen Hospital Capital Medical University City:Beijing",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Beijing Anzhen Hospital Capital Medical University City:Beijing",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05325203",
@@ -133,6 +133,56 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed informed consent."
+   },
+   {
+    "text": "Males and females ≥ 18 to ≤ 80 years of age"
+   },
+   {
+    "text": "DLCN>8 in HeFH"
+   },
+   {
+    "text": "Stable lipid-lowering therapies for at least 4 weeks"
+   },
+   {
+    "text": "Patients with ASCVD LDL cholesterol≥1.4mmol/L at screening Patients without ASCVD LDL cholesterol≥2.6mmol/L at screening"
+   },
+   {
+    "text": "Triglyceride≤4.5 mmol/L（400 mg/dL）;"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "HoFH or meet the diagnostic criteria of HoFH"
+   },
+   {
+    "text": "New York Heart Association (NYHA) class III or IV or last known left ventricular ejection fraction < 30%"
+   },
+   {
+    "text": "History of uncontrolled arrhythmia within 90 days"
+   },
+   {
+    "text": "Myocardial infarction, unstable angina, percutaneous coronary intervention (PCI), coronary artery bypass graft (CABG) or stroke within 90 days of randomization"
+   },
+   {
+    "text": "Planned cardiac surgery or revascularization."
+   },
+   {
+    "text": "Uncontrolled diabetes mellitius (HbA1c>8.0%）."
+   },
+   {
+    "text": "Uncontrolled hypertension."
+   },
+   {
+    "text": "Other conditions that the researchers considered inappropriate to participate in the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

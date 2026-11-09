@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "DOUBLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Central Park Medical College",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Central Park Medical College"
  },
  "collaborators": [],
  "conditions": [
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Rosuvastatin"
+   ],
    "label": "Group 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Rosuvastatin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Rosuvastatin"
+   ],
    "label": "Group 2",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Rosuvastatin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Group 3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin"
-   ]
+   ],
+   "label": "Group 3",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -107,10 +107,10 @@
  "brief_summary": "Particpants were divided into groups based on doses of rosuvastatin and were assessed and for CPK, LDL and AST levels",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\npatients who were already on statins\n\nExclusion Criteria:\n\nhereditary diseases including familial hypercholesterolemia and kidney diseases",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,13 +118,13 @@
  },
  "sites": [
   {
-   "facility": "Central Park Teaching Hospital",
    "city": "Lahore",
-   "state": null,
    "country": "Pakistan",
-   "status": null,
+   "facility": "Central Park Teaching Hospital",
    "lat": 31.558,
-   "lon": 74.35071
+   "lon": 74.35071,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06910098",
@@ -136,6 +136,20 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "patients who were already on statins"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "hereditary diseases including familial hypercholesterolemia and kidney diseases"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

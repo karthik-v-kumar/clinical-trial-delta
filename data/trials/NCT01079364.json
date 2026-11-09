@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sanofi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sanofi"
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin glulisine",
    "other_names": [
     "Apidra®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin glargine",
    "other_names": [
     "Lantus®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Premixed insulin (Insulin Aspart 30/70 )",
    "other_names": [
     "NovoMix 30/70®"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Insulin glargine + Insulin glulisine",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin glulisine",
     "Drug: Insulin glargine"
-   ]
+   ],
+   "label": "Insulin glargine + Insulin glulisine",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Premixed insulin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Premixed insulin (Insulin Aspart 30/70 )"
-   ]
+   ],
+   "label": "Premixed insulin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "Primary Objective:\n\nTo demonstrate non-inferiority of once daily injection of insulin glargine (Lantus) plus one injection of mealtime insulin glulisine (Apidra) at the main meal versus twice daily premixed insulin (NovoMix 30/70) based on the reduction of HbA1c percentage from baseline to endpoint.\n\nSecondary Objective:\n\n* To determine treatment satisfaction (DTSQs/Diabetes Treatment Questionnaire - Status, DTSQc/ Diabetes Treatment Questionnaire - change and ITSQ/Insulin Treatment Satisfaction Questionnaire)\n* To determine the mean HbA1c, FBG (Fasting Blood Glucose), prandial BG (Blood Glucose) and proportion of patients with a HbA1c \\<7%\n* To determine the effect on adverse events (e.g. symptomatic hypoglycemic events, weight gain and injection site reactions)\n* To determine the total insulin dose, average insulin glargine, insulin glulisine and premixed insulin dosages.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Patients with type 2 diabetes mellitus treated with insulin glargine once daily and oral blood glucose lowering medication\n* Patients with a HbA1c \\> 7%\n* Patients with a FBG within range (4-7 mmol/L) at baseline, based on the mean of 3 FBG values (measured 5x during the run-in phase, with the highest and lowest value excluded)\n\nExclusion criteria:\n\n* Patients treated with an insulin other than insulin glargine\n* Patients with hypersensitivity to insulin glargine, insulin glulisine, biphasic insulin aspart/insulin aspart protamine 30/70 or any of the excipients\n* Patients with a (pre)proliferative retinopathy (an optic fundus examination should have been performed within the 2 years prior to study entry)\n* Pregnant or lactating women\n* Patients who are unable to fill in the PRO (Patient Reported Outcomes) questionnaires\n\nThe above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "Sanofi-Aventis Administrative Office",
    "city": "Gouda",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Sanofi-Aventis Administrative Office",
    "lat": 52.01667,
-   "lon": 4.70833
+   "lon": 4.70833,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01079364",
@@ -128,6 +128,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with type 2 diabetes mellitus treated with insulin glargine once daily and oral blood glucose lowering medication"
+   },
+   {
+    "text": "Patients with a HbA1c > 7%"
+   },
+   {
+    "text": "Patients with a FBG within range (4-7 mmol/L) at baseline, based on the mean of 3 FBG values (measured 5x during the run-in phase, with the highest and lowest value excluded)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients treated with an insulin other than insulin glargine"
+   },
+   {
+    "text": "Patients with hypersensitivity to insulin glargine, insulin glulisine, biphasic insulin aspart/insulin aspart protamine 30/70 or any of the excipients"
+   },
+   {
+    "text": "Patients with a (pre)proliferative retinopathy (an optic fundus examination should have been performed within the 2 years prior to study entry)"
+   },
+   {
+    "text": "Pregnant or lactating women"
+   },
+   {
+    "text": "Patients who are unable to fill in the PRO (Patient Reported Outcomes) questionnaires"
+   },
+   {
+    "text": "The above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

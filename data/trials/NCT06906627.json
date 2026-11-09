@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Duke University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Duke University"
  },
  "collaborators": [
   "Bayer",
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "(IRIS-CKD Screening Program): Home Kit",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "(IRIS-CKD Screening Program): Standard Lab Order",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "(IRIS-CKD Screening Program): Home Kit",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: (IRIS-CKD Screening Program): Home Kit"
-   ]
+   ],
+   "label": "(IRIS-CKD Screening Program): Home Kit",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "(IRIS-CKD Screening Program): Standard Lab Testing",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: (IRIS-CKD Screening Program): Standard Lab Order"
-   ]
+   ],
+   "label": "(IRIS-CKD Screening Program): Standard Lab Testing",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "IRIS-CKD is an implementation study to improve guideline-recommended screening of chronic kidney disease (CKD) in individuals with type 2 diabetes (T2D) in the United States.",
  "eligibility": {
   "criteria": "Screening Program-\n\nInclusion Criteria:\n\n* Adults with type 2 diabetes (T2D)\n* Receiving primary care within the healthcare system, Primary Care Provider (PCP) visit within the past 24 months (any PCP provider, including APP).\n* Lack of estimated glomerular filtration rate (eGFR) and/or urine albumin- creatinine ratio (UACR) measurement in the prior 15 months within the EHR\n\nExclusion Criteria:\n\n• Chronic kidney disease (CKD) diagnosis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,67 +99,67 @@
  },
  "sites": [
   {
-   "facility": "University of Alabama",
    "city": "Birmingham",
-   "state": "Alabama",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "University of Alabama",
    "lat": 33.52066,
-   "lon": -86.80249
+   "lon": -86.80249,
+   "state": "Alabama",
+   "status": "RECRUITING"
   },
   {
-   "facility": "Orlando Health",
    "city": "St. Petersburg",
-   "state": "Florida",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Orlando Health",
    "lat": 27.77086,
-   "lon": -82.67927
+   "lon": -82.67927,
+   "state": "Florida",
+   "status": "RECRUITING"
   },
   {
-   "facility": "University of Michigan",
    "city": "Ann Arbor",
-   "state": "Michigan",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "University of Michigan",
    "lat": 42.27756,
-   "lon": -83.74088
+   "lon": -83.74088,
+   "state": "Michigan",
+   "status": "RECRUITING"
   },
   {
-   "facility": "Essentia Health",
    "city": "Duluth",
-   "state": "Minnesota",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Essentia Health",
    "lat": 46.78327,
-   "lon": -92.10658
+   "lon": -92.10658,
+   "state": "Minnesota",
+   "status": "RECRUITING"
   },
   {
-   "facility": "Duke University",
    "city": "Durham",
-   "state": "North Carolina",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Duke University",
    "lat": 35.99403,
-   "lon": -78.89862
-  },
-  {
-   "facility": "Houston Methodist",
-   "city": "Houston",
+   "lon": -78.89862,
    "state": "North Carolina",
-   "country": "United States",
-   "status": "RECRUITING",
-   "lat": 34.95737,
-   "lon": -80.62812
+   "status": "RECRUITING"
   },
   {
-   "facility": "Baylor Scott & White",
-   "city": "Temple",
-   "state": "Texas",
+   "city": "Houston",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Houston Methodist",
+   "lat": 34.95737,
+   "lon": -80.62812,
+   "state": "North Carolina",
+   "status": "RECRUITING"
+  },
+  {
+   "city": "Temple",
+   "country": "United States",
+   "facility": "Baylor Scott & White",
    "lat": 31.09823,
-   "lon": -97.34278
+   "lon": -97.34278,
+   "state": "Texas",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06906627",
@@ -173,6 +173,28 @@
  "sponsors_of_note": [
   "Boehringer Ingelheim"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults with type 2 diabetes (T2D)"
+   },
+   {
+    "text": "Receiving primary care within the healthcare system, Primary Care Provider (PCP) visit within the past 24 months (any PCP provider, including APP)."
+   },
+   {
+    "text": "Lack of estimated glomerular filtration rate (eGFR) and/or urine albumin- creatinine ratio (UACR) measurement in the prior 15 months within the EHR"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Chronic kidney disease (CKD) diagnosis"
+   }
+  ],
+  "notes": [
+   "Screening Program-"
+  ]
+ },
  "in_watchlist": true,
  "history": []
 }

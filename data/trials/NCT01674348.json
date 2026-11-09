@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Piramal Enterprises Limited",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Piramal Enterprises Limited"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "P2202",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "P2202",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: P2202"
-   ]
+   ],
+   "label": "P2202",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "It is a phase II, randomized, double-blind, placebo-controlled study of P2202 in patients of type 2 diabetes mellitus, inadequately controlled with a stable dose of metformin or sulfonylurea or both.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects who understand and are willing to give informed consent to participate in the trial.\n* Adult male and female subjects between 18 years to 65 years of age with a BMI ≥ 27 kg/m2 ≤ 40 kg/m2, inclusively.\n* Subjects with established type 2 diabetes mellitus of at least 3 months duration at the time of screening.\n* Subjects with an inadequate glycemic control defined by an HbA1c level of ≥ 7.5% and ≥10% at screening.\n* Subjects who are on a stable dose of:\n\n  * Metformin (up to 2.55 gm/day or maximum tolerated dose of at least 1 gm/day) and/or\n  * Sulfonylurea (glimepiride ≤ 4 mg/day, gliclazide ≤ 160 mg, glibenclamide or glyburide ≤ 10 mg and glipizide ≤ 10 mg), for ≤ 2 months prior to the screening visit.\n* Subjects with fasting plasma glucose of ≤14.4 mmol/L (260 mg/dL) and at least 5.5 mmol/L or 100 mg/dL.\n\nExclusion Criteria:\n\n* Subjects who have type 1 diabetes mellitus, maturity-onset diabetes of the young or any rare form of diabetes. Subjects with hyperglycemia due to secondary causes.\n* Subjects who have had more than 4 episodes of severe hypoglycemia in the 6 months prior to screening.\n* Subjects with a history of acute diabetic complications\n* Subjects who have been treated with insulin (except for use of insulin for short term management of acute conditions), thiazolidinediones, dual proliferator activated receptors agonists, glucagon-like peptide analogues, dipeptidyl peptidase inhibitors or 11bHSD-1 inhibitors in any form, in the 3 months prior to screening.\n* Subjects who are receiving systemic glucocorticoids (≥14 days)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "LMC Endocrinolgy Centres Ltd",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "LMC Endocrinolgy Centres Ltd",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01674348",
@@ -115,6 +115,51 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects who understand and are willing to give informed consent to participate in the trial."
+   },
+   {
+    "text": "Adult male and female subjects between 18 years to 65 years of age with a BMI ≥ 27 kg/m2 ≤ 40 kg/m2, inclusively."
+   },
+   {
+    "text": "Subjects with established type 2 diabetes mellitus of at least 3 months duration at the time of screening."
+   },
+   {
+    "text": "Subjects with an inadequate glycemic control defined by an HbA1c level of ≥ 7.5% and ≥10% at screening."
+   },
+   {
+    "text": "Subjects who are on a stable dose of:",
+    "sub_items": [
+     "Metformin (up to 2.55 gm/day or maximum tolerated dose of at least 1 gm/day) and/or",
+     "Sulfonylurea (glimepiride ≤ 4 mg/day, gliclazide ≤ 160 mg, glibenclamide or glyburide ≤ 10 mg and glipizide ≤ 10 mg), for ≤ 2 months prior to the screening visit."
+    ]
+   },
+   {
+    "text": "Subjects with fasting plasma glucose of ≤14.4 mmol/L (260 mg/dL) and at least 5.5 mmol/L or 100 mg/dL."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects who have type 1 diabetes mellitus, maturity-onset diabetes of the young or any rare form of diabetes. Subjects with hyperglycemia due to secondary causes."
+   },
+   {
+    "text": "Subjects who have had more than 4 episodes of severe hypoglycemia in the 6 months prior to screening."
+   },
+   {
+    "text": "Subjects with a history of acute diabetic complications"
+   },
+   {
+    "text": "Subjects who have been treated with insulin (except for use of insulin for short term management of acute conditions), thiazolidinediones, dual proliferator activated receptors agonists, glucagon-like peptide analogues, dipeptidyl peptidase inhibitors or 11bHSD-1 inhibitors in any form, in the 3 months prior to screening."
+   },
+   {
+    "text": "Subjects who are receiving systemic glucocorticoids (≥14 days)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

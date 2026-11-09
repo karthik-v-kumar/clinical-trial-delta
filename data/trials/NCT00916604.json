@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -38,8 +38,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -47,30 +47,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD1656",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD1656"
-   ]
+   ],
+   "label": "A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "B",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "B",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "The purpose of this study is to assess the safety and tolerability of AZD1656 after multiple repeated oral doses in Japanese patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female non-childbearing potential Japanese T2DM patients, 30-75 years.\n* A body mass index (BMI) of 19 to 27 kg/m2.\n* Diagnosed Diabetes Mellitus patients treated with diet and exercise or with up to two oral anti-diabetic drugs. Stable glycemic control indicated by no changed treatment within 3 months prior to enrollment.\n\nExclusion Criteria:\n\n* Renal dysfunction GFR \\< 60 mL/min.\n* Systolic pressure (SBP) \\> 160 mmHg or diastolic pressure (DBP) \\> 95 mmHg\n* Clinically significant illness or clinically relevant trauma, as judged by the investigator, within two weeks before the first administration of the IP.\n* History of ischemic heart disease, stroke, transient ischemic attack or symptomatic peripheral vascular disease.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,22 +93,22 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Fukuoka",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Research Site",
    "lat": 33.6,
-   "lon": 130.41667
+   "lon": 130.41667,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Tokyo",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Research Site",
    "lat": 35.6895,
-   "lon": 139.69171
+   "lon": 139.69171,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00916604",
@@ -122,6 +122,35 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female non-childbearing potential Japanese T2DM patients, 30-75 years."
+   },
+   {
+    "text": "A body mass index (BMI) of 19 to 27 kg/m2."
+   },
+   {
+    "text": "Diagnosed Diabetes Mellitus patients treated with diet and exercise or with up to two oral anti-diabetic drugs. Stable glycemic control indicated by no changed treatment within 3 months prior to enrollment."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Renal dysfunction GFR < 60 mL/min."
+   },
+   {
+    "text": "Systolic pressure (SBP) > 160 mmHg or diastolic pressure (DBP) > 95 mmHg"
+   },
+   {
+    "text": "Clinically significant illness or clinically relevant trauma, as judged by the investigator, within two weeks before the first administration of the IP."
+   },
+   {
+    "text": "History of ischemic heart disease, stroke, transient ischemic attack or symptomatic peripheral vascular disease."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

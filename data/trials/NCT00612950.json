@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hvidovre University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hvidovre University Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,42 +50,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "glucagon-like peptide-1,",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "glucose dependent insulinotropic polypeptide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Saline",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "GLP-1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: glucagon-like peptide-1,"
-   ]
+   ],
+   "label": "GLP-1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "GIP",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: glucose dependent insulinotropic polypeptide"
-   ]
+   ],
+   "label": "GIP",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "saline",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Saline"
-   ]
+   ],
+   "label": "saline",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "The incretin effect is attenuated in patients with type 2 diabetes mellitus partly due to impaired potentiation of beta-cell responsiveness to glucose by glucose dependent insulinotropic polypeptide and glucagon-like peptide-1 respectively. The aim of the present study was to investigate whether 4 weeks of near-normalization of blood glucose could improve the insulin responses to GIP and GLP-1 in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 18-70 years\n* Type 2 diabetes diagnosed after 30 years of age\n* BMI \\> 25\n\nExclusion Criteria:\n\n* Severe complications to diabetes\n* Abnormal liver and kidney function\n* Haemoglobin below the lower limit\n* Macroalbuminuria\n* Systemic disease\n* Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "Dept. of Endocrinology, Hvidovre Hospital",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Dept. of Endocrinology, Hvidovre Hospital",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00612950",
@@ -126,6 +126,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 18-70 years"
+   },
+   {
+    "text": "Type 2 diabetes diagnosed after 30 years of age"
+   },
+   {
+    "text": "BMI > 25"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe complications to diabetes"
+   },
+   {
+    "text": "Abnormal liver and kidney function"
+   },
+   {
+    "text": "Haemoglobin below the lower limit"
+   },
+   {
+    "text": "Macroalbuminuria"
+   },
+   {
+    "text": "Systemic disease"
+   },
+   {
+    "text": "Pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

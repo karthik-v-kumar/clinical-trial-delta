@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2010-03-31",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -49,38 +49,38 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "biphasic insulin aspart 30",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "biphasic insulin aspart 50",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "BIAsp 50-50-30",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: biphasic insulin aspart 30",
     "Drug: metformin",
     "Drug: biphasic insulin aspart 50"
-   ]
+   ],
+   "label": "BIAsp 50-50-30",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "BIAsp 30-30",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: biphasic insulin aspart 30",
     "Drug: metformin"
-   ]
+   ],
+   "label": "BIAsp 30-30",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This trial is conducted in Asia. The trial aims to investigate if the blood glucose control of biphasic insulin aspart 50 is at least as effective as treatment with biphasic insulin aspart 30 both in combination with metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Currently treated with premix human insulin twice daily with or without oral antidiabetic drugs for at least 3 months\n* HbA1c (Glycosylated Haemoglobin A1c) between 7.5% - 12.0% (both inclusive)\n* FPG (Fasting Plasma Glucose) higher than 7.0 mmol/L\n* BMI (Body Mass Index) 23-40 kg/sq.m (both inclusive)\n\nExclusion Criteria:\n\n* Metformin contraindications according to local practice\n* Systemic use of TZDs (thiazolidinediones) for more than 1 month within 6 months prior to this trial",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00627445",
@@ -124,6 +124,35 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Currently treated with premix human insulin twice daily with or without oral antidiabetic drugs for at least 3 months"
+   },
+   {
+    "text": "HbA1c (Glycosylated Haemoglobin A1c) between 7.5% - 12.0% (both inclusive)"
+   },
+   {
+    "text": "FPG (Fasting Plasma Glucose) higher than 7.0 mmol/L"
+   },
+   {
+    "text": "BMI (Body Mass Index) 23-40 kg/sq.m (both inclusive)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Metformin contraindications according to local practice"
+   },
+   {
+    "text": "Systemic use of TZDs (thiazolidinediones) for more than 1 month within 6 months prior to this trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

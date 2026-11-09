@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "SINGLE",
+  "primary_purpose": "OTHER",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hospital de Clinicas de Porto Alegre",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hospital de Clinicas de Porto Alegre"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Does not reuse the syringe for insulin application",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "Uses the syringe for insulin delivery five times",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group 1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Does not reuse the syringe for insulin application"
-   ]
+   ],
+   "label": "Group 1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Group 2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Uses the syringe for insulin delivery five times"
-   ]
+   ],
+   "label": "Group 2",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "A randomized clinical trial (RCT) will be carried out to compare the reuse or not of needles in patients with type 2 diabetes (T2DM) that use insulin. Two groups will be studied: a group that will not reuse the needles and a group that will reuse the needles five times. The aim of this study is to evaluate related outcomes such as bruises, infection, lipodystrophy, pain and glycemic control, whether or not to reuse insulin delivery needles in patients with T2DM who use insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with T2DM\n* Over 18 years of age\n* Reuses each syringe at least three times for insulin application.\n\nExclusion Criteria:\n\n* Use of insulin pens\n* Pregnant women\n* Patients undergoing chemotherapy\n* Use of anticoagulants\n* Clotting disorders, lesions or skin changes",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Gabriela Berlanda",
    "city": "Porto Alegre",
-   "state": "Rio Grande do Sul",
    "country": "Brazil",
-   "status": null,
+   "facility": "Gabriela Berlanda",
    "lat": -30.03283,
-   "lon": -51.23019
+   "lon": -51.23019,
+   "state": "Rio Grande do Sul",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05407233",
@@ -122,6 +122,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with T2DM"
+   },
+   {
+    "text": "Over 18 years of age"
+   },
+   {
+    "text": "Reuses each syringe at least three times for insulin application."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of insulin pens"
+   },
+   {
+    "text": "Pregnant women"
+   },
+   {
+    "text": "Patients undergoing chemotherapy"
+   },
+   {
+    "text": "Use of anticoagulants"
+   },
+   {
+    "text": "Clotting disorders, lesions or skin changes"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

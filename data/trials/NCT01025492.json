@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "QUADRUPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2016-09-01",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Utah",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Utah"
  },
  "collaborators": [
   "Abbott"
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Trilipix",
    "other_names": [
     "fenofibric acid"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Trilipix",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Trilipix"
-   ]
+   ],
+   "label": "Trilipix",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "Fibrates reduce atherosclerosis and cardiovascular disease events. A major mechanism of this benefit appears to be their ability to raise plasma high density lipoprotein cholesterol (HDL-C), especially in patients with high triglyceride levels. This study will investigate the effects of the addition of Trilipix (fenofibric acid) versus placebo to ongoing statin treatment on high density lipoprotein (HDL) composition and arterial function in subjects with insulin resistance.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Triglyceride 150-500 mg/dL\n* HDL-C \\< 45 mg/dL in men, \\< 55 in women\n* LDL-C \\< 130 mg/dL\n* stable statin dose x 8 weeks\n\nExclusion Criteria:\n\n* Prior use of a fibrate \\> 4 weeks ever (minimum 12 months off fibrate)\n* Intolerance to medications to be used in study (fenofibric acid, albuterol, nitroglycerin)\n* Niacin or thiazolidinedione within the prior 12 months, or anticipated need to add either during 6-month study period\n* Diabetes Mellitus if either (1) diagnosed less than 3 months ago, (2) treated with insulin, or (3) with an A1c \\>8%\n* Anticipated need to change treatment regimen of statin (or other lipid agent) or glycemic treatment during 6-month study period\n* Uncontrolled hypertension (BP \\> 140/90 mm Hg), or changes in BP meds within prior 4 weeks, or anticipated need to change BP meds during 6-month study period\n* Documented cardiovascular disease event (heart attack, stroke, or hospitalization for unstable angina or revascularization procedure) in the past 6 months\n* Use of warfarin (potential to interact adversely with fibrate therapy)\n* Uncontrolled thyroid disease (TSH outside of normal range)\n* Renal insufficiency (calculated Glomerular Filtration Rate \\<50 ml/min)\n* Hepatic disease (ALT \\> 1.5x Upper Limit of Normal, diagnosis of hepatitis, cirrhosis)\n* Active cholecystitis/cholelithiasis\n* Active cancer (except basal cell or squamous cell skin cancer)\n* Pregnancy, plan/desire to become pregnant, breast feeding\n* Inability or unwillingness to provide informed consent",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "University of Utah",
    "city": "Salt Lake City",
-   "state": "Utah",
    "country": "United States",
-   "status": null,
+   "facility": "University of Utah",
    "lat": 40.76078,
-   "lon": -111.89105
+   "lon": -111.89105,
+   "state": "Utah",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01025492",
@@ -121,6 +121,71 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Triglyceride 150-500 mg/dL"
+   },
+   {
+    "text": "HDL-C < 45 mg/dL in men, < 55 in women"
+   },
+   {
+    "text": "LDL-C < 130 mg/dL"
+   },
+   {
+    "text": "stable statin dose x 8 weeks"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Prior use of a fibrate > 4 weeks ever (minimum 12 months off fibrate)"
+   },
+   {
+    "text": "Intolerance to medications to be used in study (fenofibric acid, albuterol, nitroglycerin)"
+   },
+   {
+    "text": "Niacin or thiazolidinedione within the prior 12 months, or anticipated need to add either during 6-month study period"
+   },
+   {
+    "text": "Diabetes Mellitus if either (1) diagnosed less than 3 months ago, (2) treated with insulin, or (3) with an A1c >8%"
+   },
+   {
+    "text": "Anticipated need to change treatment regimen of statin (or other lipid agent) or glycemic treatment during 6-month study period"
+   },
+   {
+    "text": "Uncontrolled hypertension (BP > 140/90 mm Hg), or changes in BP meds within prior 4 weeks, or anticipated need to change BP meds during 6-month study period"
+   },
+   {
+    "text": "Documented cardiovascular disease event (heart attack, stroke, or hospitalization for unstable angina or revascularization procedure) in the past 6 months"
+   },
+   {
+    "text": "Use of warfarin (potential to interact adversely with fibrate therapy)"
+   },
+   {
+    "text": "Uncontrolled thyroid disease (TSH outside of normal range)"
+   },
+   {
+    "text": "Renal insufficiency (calculated Glomerular Filtration Rate <50 ml/min)"
+   },
+   {
+    "text": "Hepatic disease (ALT > 1.5x Upper Limit of Normal, diagnosis of hepatitis, cirrhosis)"
+   },
+   {
+    "text": "Active cholecystitis/cholelithiasis"
+   },
+   {
+    "text": "Active cancer (except basal cell or squamous cell skin cancer)"
+   },
+   {
+    "text": "Pregnancy, plan/desire to become pregnant, breast feeding"
+   },
+   {
+    "text": "Inability or unwillingness to provide informed consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

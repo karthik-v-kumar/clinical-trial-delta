@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "PREVENTION",
   "masking": "SINGLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Padova",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Padova"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Linagliptin",
    "other_names": [
     "Trajenta 5 mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Linagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Linagliptin"
-   ]
+   ],
+   "label": "Linagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Diabetes mellitus is characterized by chronic low grade inflammation, which is worsened by the co-existence of renal failure.\n\nOne key aspect of chronic inflammatory diseases is the alteration in the polarization profile of circulating monocyte-macrophage cells.\n\nNamely, monocytes-macrophages can exist in a pro-inflammatory (M1) polarized form or an anti-inflammatory (M2) polarized state. Alterations in the M1/M2 balance is thought to contribute to inflammation within atherosclerotic lesions and visceral adipose tissue which, in turn, can worsen cardiovascular disease and metabolic features in type 2 diabetic patients.\n\nM1 and M2 are regulated by a complex interplay of soluble signaling molecules, many of which are substrate of the enzyme DPP-4 (dipeptidyl peptidase-4). Therefore, inhibition of DPP-4 can affect the M1/M2 polarization balance.\n\nIn this clinical trial, the investigators will test whether the DPP-4 inhibitor Linagliptin, compared to placebo, modifies the M1/M2 balance in type 2 diabetic patients with and without chronic renal failure.\n\nIn addition, we will test whether DPP-4 inhibition with Linagliptin acutely affects endothelial progenitor cells (EPCs), which are vasculoprotective cells implicated in the pathobiology of diabetic complications.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* eGFR \\> 60 mL/min/1.73 mq (for the patients without renal failure)\n* eGFR 10-60 mL/min/1.73 mq (for the patients with renal failure)\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* Hypersensitivity to Linagliptin or excipients\n* Intolerance to other DPP-4 inhibitors\n* Terminal renal failure (eGFR \\< 10 mL/min/1.73 mq)\n* Use of GLP-1 analogs or other DPP-4 inhibitors\n* Recent (within 1 month) trauma or surgery or acute diseases\n* Any acute or chronic inflammatory condition\n* Immunosuppression or organ transplantation\n* Pregnancy or lactation\n* Inability to provide informed consent.",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "University Hospital Diabetes Outpatient Clinic",
    "city": "Padova",
-   "state": null,
    "country": "Italy",
-   "status": null,
+   "facility": "University Hospital Diabetes Outpatient Clinic",
    "lat": 44.38225,
-   "lon": 11.14261
+   "lon": 11.14261,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01617824",
@@ -117,6 +117,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "eGFR > 60 mL/min/1.73 mq (for the patients without renal failure)"
+   },
+   {
+    "text": "eGFR 10-60 mL/min/1.73 mq (for the patients with renal failure)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Hypersensitivity to Linagliptin or excipients"
+   },
+   {
+    "text": "Intolerance to other DPP-4 inhibitors"
+   },
+   {
+    "text": "Terminal renal failure (eGFR < 10 mL/min/1.73 mq)"
+   },
+   {
+    "text": "Use of GLP-1 analogs or other DPP-4 inhibitors"
+   },
+   {
+    "text": "Recent (within 1 month) trauma or surgery or acute diseases"
+   },
+   {
+    "text": "Any acute or chronic inflammatory condition"
+   },
+   {
+    "text": "Immunosuppression or organ transplantation"
+   },
+   {
+    "text": "Pregnancy or lactation"
+   },
+   {
+    "text": "Inability to provide informed consent."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

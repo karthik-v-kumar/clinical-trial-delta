@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mayo Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mayo Clinic"
  },
  "collaborators": [],
  "conditions": [
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "semaglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "semaglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Tirzepatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Tirzepatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "The purpose of this study is to compare effects of weekly SQ semaglutide 2.4mg SQ, SQ tirzepatide 10mg, and placebo administered for 24 weeks on GES measured repeatedly at baseline, 16 weeks, 24 weeks, 28 weeks, 4 weeks after stopping the medication, and accommodation and satiation at 24 weeks compared to baseline.",
  "eligibility": {
   "criteria": "PLEASE NOTE: Potential participants must reside within 50 miles of Mayo Clinic for 7 consecutive months due to non-mobile GI imaging cameras.\n\nInclusion criteria:\n\n* Adults (18-75 years) who have BMI \\>30 or \\>27kg/m2 who also have prediabetes or T2DM on diet treatment only\n* Able to reside within 50 miles of Mayo Clinic for the duration of the study\n* Not currently on treatment (exceptions below) for cardiac, pulmonary, GI, hepatic, renal, hematological, neurological, or endocrine disorders.\n* Biological sex: men or women. We shall attempt to recruit equal proportions of men and women. Women of childbearing potential will be using an effective form of contraception and have negative pregnancy tests within 48 hours of enrollment and before each isotope-based radiation exposure as part of the tests for gastric emptying. In addition, monthly urine pregnancy tests will be performed in females with childbearing potential.\n\nExclusion criteria:\n\n* Weight exceeding 137kg (safety limit of camera for measuring gastric volumes)\n* Abdominal surgery other than appendectomy, Caesarian section or tubal ligation, cholecystectomy\n* Chronic GI diseases, systemic disease or medications that could affect GI motility, appetite or absorption\n* Patients with a personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia II\n* Patients with T2DM on GLP-1RAs, amylin agonists/analogs (e.g. pramlintide), insulin, sulfonylureas (all due to risk of hypoglycemia with semaglutide or tirzepatide treatment); or on metformin, acarbose or DPP-4 inhibitors (e.g. sitagliptin and vildagliptin).\n* Past or current history of pancreatitis, gallstones, history of alcoholism, blood triglyceride levels \\> 500mg/dL\n* Significant untreated psychiatric dysfunction or an active eating disorder (Clark et al 2007, Cunningham et al 2012) based on screening with the Hospital Anxiety and Depression Inventory \\[HAD (Zigmond \\& Snaith 1983)\\], a self-administered alcoholism screening test \\[AUDIT-C (Bush et al 1998)\\], and the Questionnaire on Eating and Weight Patterns-Revised \\[binge eating disorders and bulimia (Yanovski et al 2015)\\]. If such a dysfunction is identified by a HAD score \\>11 on either the anxiety or depression subscales or difficulties with substance or eating disorders, the participant will be interviewed by a study investigator and, if excluded, will be given a referral letter to his/her primary care doctor for further appraisal and follow-up treatment.\n* Intake of any medication (except multivitamins) within 7 days of the study. Exceptions are birth control pill, estrogen and thyroxine replacement, and medication administered for co-morbidities as long as they do not alter gastric functions. Thus, statins for hyperlipidemia, diuretics, β-adrenergic blockers, ACE inhibitors and angiotensin antagonists for hypertension are permissible. In contrast, resin sequestrants for hyperlipidemia (Psichas et al 2012), α2-adrenergic agonists for hypertension, are not permissible due to effects on stomach or appetite.\n* Documented delayed gastric emptying: gastric emptying T1/2 \\>174 min or gastric retention at 4 hours \\>25% based on 5-95%ile of 319 controls' GES of the same meal (320kcal, 30% fat) (Camilleri et al 2012a, Table 1)\n* Hypersensitivity to semaglutide or tirzepatide\n* Participate in highly intense physical activity program that could potentially interfere with study interpretation",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -115,13 +115,13 @@
  },
  "sites": [
   {
-   "facility": "Mayo Clinic in Rochester",
    "city": "Rochester",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic in Rochester",
    "lat": 44.02163,
-   "lon": -92.4699
+   "lon": -92.4699,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06801015",
@@ -133,6 +133,61 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults (18-75 years) who have BMI >30 or >27kg/m2 who also have prediabetes or T2DM on diet treatment only"
+   },
+   {
+    "text": "Able to reside within 50 miles of Mayo Clinic for the duration of the study"
+   },
+   {
+    "text": "Not currently on treatment (exceptions below) for cardiac, pulmonary, GI, hepatic, renal, hematological, neurological, or endocrine disorders."
+   },
+   {
+    "text": "Biological sex: men or women. We shall attempt to recruit equal proportions of men and women. Women of childbearing potential will be using an effective form of contraception and have negative pregnancy tests within 48 hours of enrollment and before each isotope-based radiation exposure as part of the tests for gastric emptying. In addition, monthly urine pregnancy tests will be performed in females with childbearing potential."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Weight exceeding 137kg (safety limit of camera for measuring gastric volumes)"
+   },
+   {
+    "text": "Abdominal surgery other than appendectomy, Caesarian section or tubal ligation, cholecystectomy"
+   },
+   {
+    "text": "Chronic GI diseases, systemic disease or medications that could affect GI motility, appetite or absorption"
+   },
+   {
+    "text": "Patients with a personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia II"
+   },
+   {
+    "text": "Patients with T2DM on GLP-1RAs, amylin agonists/analogs (e.g. pramlintide), insulin, sulfonylureas (all due to risk of hypoglycemia with semaglutide or tirzepatide treatment); or on metformin, acarbose or DPP-4 inhibitors (e.g. sitagliptin and vildagliptin)."
+   },
+   {
+    "text": "Past or current history of pancreatitis, gallstones, history of alcoholism, blood triglyceride levels > 500mg/dL"
+   },
+   {
+    "text": "Significant untreated psychiatric dysfunction or an active eating disorder (Clark et al 2007, Cunningham et al 2012) based on screening with the Hospital Anxiety and Depression Inventory [HAD (Zigmond & Snaith 1983)], a self-administered alcoholism screening test [AUDIT-C (Bush et al 1998)], and the Questionnaire on Eating and Weight Patterns-Revised [binge eating disorders and bulimia (Yanovski et al 2015)]. If such a dysfunction is identified by a HAD score >11 on either the anxiety or depression subscales or difficulties with substance or eating disorders, the participant will be interviewed by a study investigator and, if excluded, will be given a referral letter to his/her primary care doctor for further appraisal and follow-up treatment."
+   },
+   {
+    "text": "Intake of any medication (except multivitamins) within 7 days of the study. Exceptions are birth control pill, estrogen and thyroxine replacement, and medication administered for co-morbidities as long as they do not alter gastric functions. Thus, statins for hyperlipidemia, diuretics, β-adrenergic blockers, ACE inhibitors and angiotensin antagonists for hypertension are permissible. In contrast, resin sequestrants for hyperlipidemia (Psichas et al 2012), α2-adrenergic agonists for hypertension, are not permissible due to effects on stomach or appetite."
+   },
+   {
+    "text": "Documented delayed gastric emptying: gastric emptying T1/2 >174 min or gastric retention at 4 hours >25% based on 5-95%ile of 319 controls' GES of the same meal (320kcal, 30% fat) (Camilleri et al 2012a, Table 1)"
+   },
+   {
+    "text": "Hypersensitivity to semaglutide or tirzepatide"
+   },
+   {
+    "text": "Participate in highly intense physical activity program that could potentially interfere with study interpretation"
+   }
+  ],
+  "notes": [
+   "PLEASE NOTE: Potential participants must reside within 50 miles of Mayo Clinic for 7 consecutive months due to non-mobile GI imaging cameras."
+  ]
+ },
  "in_watchlist": true,
  "history": []
 }

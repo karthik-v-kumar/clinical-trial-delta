@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2010-05-27",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin 100 mg q.d./metformin ≥ 1500 mg/day",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "comparator: placebo to match sitagliptin 100 mg q.d./metformin ≥ 1500 mg/day",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "sitagliptin 100 mg once a day (q.d.)/metformin ≥1500 mg a day",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin 100 mg q.d./metformin ≥ 1500 mg/day"
-   ]
+   ],
+   "label": "sitagliptin 100 mg once a day (q.d.)/metformin ≥1500 mg a day",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "sitagliptin 100 mg placebo q.d./ metformin ≥ 1500 mg/day",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: comparator: placebo to match sitagliptin 100 mg q.d./metformin ≥ 1500 mg/day"
-   ]
+   ],
+   "label": "sitagliptin 100 mg placebo q.d./ metformin ≥ 1500 mg/day",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "A clinical study to determine the safety and efficacy of sitagliptin in patients with Type 2 Diabetes Mellitus who have inadequate glycemic (blood sugar) control on metformin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient has type 2 diabetes mellitus\n* Males\n* Females who are highly unlikely to become pregnant\n* Patients poorly controlled while taking one or two oral antidiabetic medications\n\nExclusion Criteria:\n\n* Patient has a history of type 1 diabetes mellitus or history of ketoacidosis\n* Patient required insulin therapy within the prior 8 weeks\n* Patient is on or has been taking Thiazolidinediones (TZDs) such as Actos® (pioglitazone) or Avandia® (rosiglitazone) or is on or has been taking Byetta® (exenatide) within the prior 12 weeks of the screening visit",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,6 +107,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient has type 2 diabetes mellitus"
+   },
+   {
+    "text": "Males"
+   },
+   {
+    "text": "Females who are highly unlikely to become pregnant"
+   },
+   {
+    "text": "Patients poorly controlled while taking one or two oral antidiabetic medications"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has a history of type 1 diabetes mellitus or history of ketoacidosis"
+   },
+   {
+    "text": "Patient required insulin therapy within the prior 8 weeks"
+   },
+   {
+    "text": "Patient is on or has been taking Thiazolidinediones (TZDs) such as Actos® (pioglitazone) or Avandia® (rosiglitazone) or is on or has been taking Byetta® (exenatide) within the prior 12 weeks of the screening visit"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

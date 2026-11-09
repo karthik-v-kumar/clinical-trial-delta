@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2017-04-06",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Beth Israel Deaconess Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Beth Israel Deaconess Medical Center"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "r-metHuLeptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "r-MetHuLeptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: r-metHuLeptin"
-   ]
+   ],
+   "label": "r-MetHuLeptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The purpose of this study is to examine whether replacing leptin to normal levels can reverse the changes in fat distribution, lipid profile, and other metabolic problems associated with highly active antiretroviral therapy (HAART)-induced lipodystrophy and metabolic syndrome in HIV patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* At least 18 years old\n* Documented HIV infection\n* Exposed to at least 6 months of cumulative highly active antiretroviral medications for HIV\n* Developed fat depletion after starting HIV medications\n* Low leptin level in the blood\n* Fasting triglyceride level \\> 300 mg/dl\n\nExclusion Criteria:\n\n* Active infectious diseases, except HIV\n* Diabetes prior to starting HIV medications\n* Alcohol or drug abuse\n* Triglyceride level \\> 1000 mg/dl\n* Significant kidney, liver, or thyroid dysfunction\n* Cancer or lymphoma\n* Pregnancy or planning to become pregnant during the study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Beth Israel Deaconess Medical Center",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Beth Israel Deaconess Medical Center",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00140244",
@@ -121,6 +121,53 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "At least 18 years old"
+   },
+   {
+    "text": "Documented HIV infection"
+   },
+   {
+    "text": "Exposed to at least 6 months of cumulative highly active antiretroviral medications for HIV"
+   },
+   {
+    "text": "Developed fat depletion after starting HIV medications"
+   },
+   {
+    "text": "Low leptin level in the blood"
+   },
+   {
+    "text": "Fasting triglyceride level > 300 mg/dl"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Active infectious diseases, except HIV"
+   },
+   {
+    "text": "Diabetes prior to starting HIV medications"
+   },
+   {
+    "text": "Alcohol or drug abuse"
+   },
+   {
+    "text": "Triglyceride level > 1000 mg/dl"
+   },
+   {
+    "text": "Significant kidney, liver, or thyroid dysfunction"
+   },
+   {
+    "text": "Cancer or lymphoma"
+   },
+   {
+    "text": "Pregnancy or planning to become pregnant during the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

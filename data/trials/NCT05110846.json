@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Carmot Therapeutics, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Carmot Therapeutics, Inc."
  },
  "collaborators": [
   "Hoffmann-La Roche"
@@ -57,37 +57,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "CT-868",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: CT-868"
+   ],
    "label": "CT-868 1.75 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: CT-868"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "CT-868 4.0 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: CT-868"
-   ]
+   ],
+   "label": "CT-868 4.0 mg",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "A study to assess the effect of CT-868 in lowering glycated hemoglobin A1c (HbA1c) in overweight and obese participants with inadequately controlled Type 2 diabetes mellitus (T2DM).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males or Females with T2DM\n* BMI of ≥27 kg/m2, inclusive\n* 18-75 years old, inclusive\n* Stable body weight for 3 months\n\nExclusion Criteria:\n\n* Significant medical history\n* Uncontrolled diabetes\n* History of malignancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,49 +110,49 @@
  },
  "sites": [
   {
-   "facility": "Carmot Clinical Center MX03",
    "city": "Mexico City",
-   "state": null,
    "country": "Mexico",
-   "status": null,
+   "facility": "Carmot Clinical Center MX03",
    "lat": 19.42847,
-   "lon": -99.12766
+   "lon": -99.12766,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Carmot Clinical Center MX04",
    "city": "Guadalajara",
-   "state": "Jalisco",
    "country": "Mexico",
-   "status": null,
+   "facility": "Carmot Clinical Center MX04",
    "lat": 20.67738,
-   "lon": -103.34749
+   "lon": -103.34749,
+   "state": "Jalisco",
+   "status": null
   },
   {
+   "city": "Monterrey",
+   "country": "Mexico",
    "facility": "Carmot Clinical Center MX01",
-   "city": "Monterrey",
-   "state": "Nuevo León",
-   "country": "Mexico",
-   "status": null,
    "lat": 25.68435,
-   "lon": -100.31721
+   "lon": -100.31721,
+   "state": "Nuevo León",
+   "status": null
   },
   {
+   "city": "Monterrey",
+   "country": "Mexico",
    "facility": "Carmot Clinical Center MX02",
-   "city": "Monterrey",
-   "state": "Nuevo León",
-   "country": "Mexico",
-   "status": null,
    "lat": 25.68435,
-   "lon": -100.31721
+   "lon": -100.31721,
+   "state": "Nuevo León",
+   "status": null
   },
   {
-   "facility": "Carmot Clinical Center MX05",
    "city": "Mérida",
-   "state": "Yucatán",
    "country": "Mexico",
-   "status": null,
+   "facility": "Carmot Clinical Center MX05",
    "lat": 20.967,
-   "lon": -89.62318
+   "lon": -89.62318,
+   "state": "Yucatán",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05110846",
@@ -166,6 +166,35 @@
  "sponsors_of_note": [
   "Roche"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males or Females with T2DM"
+   },
+   {
+    "text": "BMI of ≥27 kg/m2, inclusive"
+   },
+   {
+    "text": "18-75 years old, inclusive"
+   },
+   {
+    "text": "Stable body weight for 3 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Significant medical history"
+   },
+   {
+    "text": "Uncontrolled diabetes"
+   },
+   {
+    "text": "History of malignancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

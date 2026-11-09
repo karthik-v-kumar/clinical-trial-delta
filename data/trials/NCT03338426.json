@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Boryung Pharmaceutical Co., Ltd",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Boryung Pharmaceutical Co., Ltd"
  },
  "collaborators": [],
  "conditions": [
@@ -52,50 +52,50 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Fimasartan 120mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin 40mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for Fimasartan 120mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for Atorvastatin 40mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Fimasartan 120mg",
     "Drug: Atorvastatin 40mg"
-   ]
+   ],
+   "label": "Experimental",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Active Comparator 1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Fimasartan 120mg",
     "Drug: Placebo for Atorvastatin 40mg"
-   ]
+   ],
+   "label": "Active Comparator 1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Active Comparator 2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin 40mg",
     "Drug: Placebo for Fimasartan 120mg"
-   ]
+   ],
+   "label": "Active Comparator 2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -111,10 +111,10 @@
  "brief_summary": "The objective of this clinical study is to evaluate the efficacy and safety by comparing the fimasartan/atorvastatin treatment group to the fimasartan/placebo treatment group and the placebo/atorvastatin treatment group respectively at Week 8 in patients with essential hypertension and dyslipidemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Voluntarily provided a written consent to participate in this clinical study\n2. Male or female adults aged 19-70 years\n3. Patients must have been confirmed essential hypertension and dyslipidemia at Screening visit (V1)\n4. Uncontrolled blood pressure (140 mmHg ≤ mean SiSBP \\< 180 mmHg) at the pre- baseline visit (V2) after wash-out period\n5. Able to understand this study, be cooperative in the execution of the study, and participate in the study until its completion\n\nExclusion Criteria:\n\n1. Severe hypertension with mean Sitting systolic blood pressure(SiSBP)≥180 mmHg or Sitting diastolic blood pressure(SiDBP) ≥110 mmHg at the screening visit (V1) and the pre-baseline visit (V2), or orthostatic hypotension accompanied by symptoms\n2. Difference of Sitting systolic blood pressure(SiSBP) ≥ 20 mmHg and Sitting diastolic blood pressure(SiDBP) ≥ 10 mmHg between Lt and Rt arms for 3 consecutive times at the screening visit (V1)\n3. Secondary hypertension patients: Secondary hypertension is not limited to the following diseases; (e.g., renovascular disease, adrenal medullary and cortical hyperfunctions, coarctation of the aorta, hyperaldosteronism, unilateral or bilateral renal artery stenosis, Cushing's syndrome, pheochromocytoma, and polycystic kidney disease)\n4. Uncontrolled diabetes mellitus (currently on insulin, or HbA1c \\>9% at the pre-baseline visit (V2)), or uncontrolled hypothyroidism (TSH ≥1.5 times the upper limit at the pre-baseline visit (V2))\n5. Heart disease (heart failure of New York Heart Association (NYHA) class 3 and 4), or ischemic heart disease (angina pectoris, myocardial infarction), peripheral vascular diseasenewly diagnosed within 6 months prior to the screening visit (V1), percutaneous transluminal coronary angioplasty, or coronary artery bypass graft, etc.\n6. Clinically significant ventricular tachycardia, atrial fibrillation, atrial flutter; or other arrhythmia conditions that are determined to be clinically significant by the investigator\n7. Hypertrophic obstructive cardiomyopathy, severe obstructive coronary artery disease, aortic stenosis, or hemodynamically significant aortic valve stenosis or mitral valve stenosis\n8. Cerebrovascular disorder (stroke, cerebral infarction, transient cerebral ischemic attack, cerebral hemorrhage, etc. within 6 months prior to the screening visit (V1)\n9. Pregnant or lactating women",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -122,13 +122,13 @@
  },
  "sites": [
   {
-   "facility": "Severance Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Severance Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03338426",
@@ -140,6 +140,56 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Voluntarily provided a written consent to participate in this clinical study"
+   },
+   {
+    "text": "Male or female adults aged 19-70 years"
+   },
+   {
+    "text": "Patients must have been confirmed essential hypertension and dyslipidemia at Screening visit (V1)"
+   },
+   {
+    "text": "Uncontrolled blood pressure (140 mmHg ≤ mean SiSBP < 180 mmHg) at the pre- baseline visit (V2) after wash-out period"
+   },
+   {
+    "text": "Able to understand this study, be cooperative in the execution of the study, and participate in the study until its completion"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe hypertension with mean Sitting systolic blood pressure(SiSBP)≥180 mmHg or Sitting diastolic blood pressure(SiDBP) ≥110 mmHg at the screening visit (V1) and the pre-baseline visit (V2), or orthostatic hypotension accompanied by symptoms"
+   },
+   {
+    "text": "Difference of Sitting systolic blood pressure(SiSBP) ≥ 20 mmHg and Sitting diastolic blood pressure(SiDBP) ≥ 10 mmHg between Lt and Rt arms for 3 consecutive times at the screening visit (V1)"
+   },
+   {
+    "text": "Secondary hypertension patients: Secondary hypertension is not limited to the following diseases; (e.g., renovascular disease, adrenal medullary and cortical hyperfunctions, coarctation of the aorta, hyperaldosteronism, unilateral or bilateral renal artery stenosis, Cushing's syndrome, pheochromocytoma, and polycystic kidney disease)"
+   },
+   {
+    "text": "Uncontrolled diabetes mellitus (currently on insulin, or HbA1c >9% at the pre-baseline visit (V2)), or uncontrolled hypothyroidism (TSH ≥1.5 times the upper limit at the pre-baseline visit (V2))"
+   },
+   {
+    "text": "Heart disease (heart failure of New York Heart Association (NYHA) class 3 and 4), or ischemic heart disease (angina pectoris, myocardial infarction), peripheral vascular diseasenewly diagnosed within 6 months prior to the screening visit (V1), percutaneous transluminal coronary angioplasty, or coronary artery bypass graft, etc."
+   },
+   {
+    "text": "Clinically significant ventricular tachycardia, atrial fibrillation, atrial flutter; or other arrhythmia conditions that are determined to be clinically significant by the investigator"
+   },
+   {
+    "text": "Hypertrophic obstructive cardiomyopathy, severe obstructive coronary artery disease, aortic stenosis, or hemodynamically significant aortic valve stenosis or mitral valve stenosis"
+   },
+   {
+    "text": "Cerebrovascular disorder (stroke, cerebral infarction, transient cerebral ischemic attack, cerebral hemorrhage, etc. within 6 months prior to the screening visit (V1)"
+   },
+   {
+    "text": "Pregnant or lactating women"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "The Cleveland Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The Cleveland Clinic"
  },
  "collaborators": [],
  "conditions": [
@@ -50,23 +50,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "COPD control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "COPD tirzepatide treatment",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "COPD tirzepatide treatment",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "Chronic obstructive pulmonary disease (COPD) is associated with systemic inflammation, obesity-related metabolic dysfunction, skeletal muscle impairment, and progressive decline in lung function. While obesity has historically been viewed as protective in COPD, emerging evidence suggests that excess adiposity and adipokine dysregulation, particularly elevated leptin levels, contribute to chronic inflammation, impaired muscle function, and worse clinical outcomes. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have demonstrated anti-inflammatory, metabolic, and potential muscle-preserving effects beyond weight loss, making them promising therapeutic candidates for COPD.\n\nThe GLIMR COPD study is a prospective, randomized, controlled pilot trial designed to evaluate the effects of tirzepatide on lung function, skeletal muscle health, inflammation, and body composition in overweight and obese adults with COPD. Thirty participants will be enrolled at the Cleveland Clinic COPD Center, including 20 participants receiving tirzepatide and 10 age- and sex-matched control participants. Study participants will be followed for 12 months with assessments performed at screening, baseline, 6 months, and 12 months. Tirzepatide-treated participants will undergo standard dose escalation to a maintenance dose of 2.4 mg weekly.\n\nThe primary objective is to determine the effect of GLP-1 receptor agonist therapy on skeletal muscle function and physiology over 12 months. Secondary objectives include evaluating changes in body composition, systemic inflammation, adipokine signaling, immune function, pulmonary physiology, physical performance, and treatment tolerability.\n\nThe study is built around three mechanistic aims. First, we will characterize the effects of GLP-1 therapy on systemic inflammation and immune dysregulation using longitudinal blood-based proteomic analyses and adipokine measurements, including leptin and adiponectin. Second, we will investigate the impact of GLP-1 therapy on skeletal muscle mitochondrial function and fatty acid oxidation using muscle biopsies obtained at baseline and 12 months, combined with high-resolution respirometry, transcriptomics, metabolomics, and proteomics. Third, we will assess changes in clinical outcomes including lung function, body composition, muscle strength, and physical performance.\n\nParticipants will undergo comprehensive phenotyping that includes spirometry, respiratory muscle strength testing, six-minute walk testing, handgrip strength, sit-to-stand testing, body composition assessment, diaphragm ultrasound, and non-contrast CT imaging of the lungs and thighs. Blood samples will be collected for biomarker, proteomic, metabolomic, genomic, and immunologic analyses. Vastus lateralis muscle biopsies will be performed at baseline and study completion to evaluate mitochondrial bioenergetics and molecular pathways associated with muscle remodeling.\n\nEligible participants will be adults aged 40-80 years with COPD, a smoking history of at least 10 pack-years, and overweight or obesity. Individuals with diabetes, active malignancy, recent COPD exacerbations, contraindications to tirzepatide, or conditions that could interfere with study participation will be excluded.\n\nThis pilot study is designed to generate critical mechanistic and clinical data regarding the role of GLP-1 receptor agonists in COPD. Findings will help define the relationships among obesity, adipokine signaling, systemic inflammation, skeletal muscle dysfunction, and lung disease progression, while providing preliminary efficacy estimates to support the design of a future multicenter randomized clinical trial evaluating GLP-1 therapy as a novel treatment strategy for COPD.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 40-80 years\n* Diagnosis of chronic obstructive pulmonary disease (COPD) with post-bronchodilator FEV₁/FVC \\< 0.70\n* GOLD stage 1-3 COPD (FEV₁ \\>30% predicted)\n* Former smoker with a smoking history of at least 10 pack-years\n* Body mass index (BMI) ≥27 kg/m² with at least one weight-related comorbidity (e.g., prediabetes, hypertension, dyslipidemia, obstructive sleep apnea, or cardiovascular disease) or BMI 30-40 kg/m²\n* Able and willing to provide written informed consent\n* Able to comply with study procedures and follow-up visits\n\nExclusion Criteria:\n\n* Type 2 diabetes mellitus (HbA1c \\> 6.5%)\n* Pregnancy or breastfeeding\n* Coagulopathy, defined as INR \\> 1.4 or platelet count \\<80,000/μL\n* Active malignancy, including lung cancer\n* Use of medications known to significantly alter muscle protein metabolism within 6 weeks of enrollment (e.g., oral corticosteroids, tamoxifen, high-dose estrogen, testosterone)\n* Personal or family history of medullary thyroid carcinoma\n* Multiple endocrine neoplasia syndrome type 2 (MEN2)\n* Known hypersensitivity or contraindication to tirzepatide or its components\n* History of pancreatitis\n* Severe gastrointestinal disease that, in the opinion of the investigator, would increase risk from study participation\n* Significant diabetic retinopathy\n* Clinically significant renal impairment\n* Clinically significant gallbladder disease\n* Current treatment with a DPP-4 inhibitor\n* COPD exacerbation within 60 days prior to enrollment\n* Participation in pulmonary rehabilitation within 2 weeks prior to enrollment\n* Any medical, psychiatric, or social condition that, in the opinion of the investigators, may interfere with study participation, adherence to study procedures, or participant safety",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "Cleveland Clinic",
    "city": "Cleveland",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Cleveland Clinic",
    "lat": 41.4995,
-   "lon": -81.69541
+   "lon": -81.69541,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07747805",
@@ -107,6 +107,86 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 40-80 years"
+   },
+   {
+    "text": "Diagnosis of chronic obstructive pulmonary disease (COPD) with post-bronchodilator FEV₁/FVC < 0.70"
+   },
+   {
+    "text": "GOLD stage 1-3 COPD (FEV₁ >30% predicted)"
+   },
+   {
+    "text": "Former smoker with a smoking history of at least 10 pack-years"
+   },
+   {
+    "text": "Body mass index (BMI) ≥27 kg/m² with at least one weight-related comorbidity (e.g., prediabetes, hypertension, dyslipidemia, obstructive sleep apnea, or cardiovascular disease) or BMI 30-40 kg/m²"
+   },
+   {
+    "text": "Able and willing to provide written informed consent"
+   },
+   {
+    "text": "Able to comply with study procedures and follow-up visits"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 diabetes mellitus (HbA1c > 6.5%)"
+   },
+   {
+    "text": "Pregnancy or breastfeeding"
+   },
+   {
+    "text": "Coagulopathy, defined as INR > 1.4 or platelet count <80,000/μL"
+   },
+   {
+    "text": "Active malignancy, including lung cancer"
+   },
+   {
+    "text": "Use of medications known to significantly alter muscle protein metabolism within 6 weeks of enrollment (e.g., oral corticosteroids, tamoxifen, high-dose estrogen, testosterone)"
+   },
+   {
+    "text": "Personal or family history of medullary thyroid carcinoma"
+   },
+   {
+    "text": "Multiple endocrine neoplasia syndrome type 2 (MEN2)"
+   },
+   {
+    "text": "Known hypersensitivity or contraindication to tirzepatide or its components"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Severe gastrointestinal disease that, in the opinion of the investigator, would increase risk from study participation"
+   },
+   {
+    "text": "Significant diabetic retinopathy"
+   },
+   {
+    "text": "Clinically significant renal impairment"
+   },
+   {
+    "text": "Clinically significant gallbladder disease"
+   },
+   {
+    "text": "Current treatment with a DPP-4 inhibitor"
+   },
+   {
+    "text": "COPD exacerbation within 60 days prior to enrollment"
+   },
+   {
+    "text": "Participation in pulmonary rehabilitation within 2 weeks prior to enrollment"
+   },
+   {
+    "text": "Any medical, psychiatric, or social condition that, in the opinion of the investigators, may interfere with study participation, adherence to study procedures, or participant safety"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

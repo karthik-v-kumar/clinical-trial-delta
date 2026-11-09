@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2014-06-12",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Emory University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Emory University"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -52,48 +52,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "glargine",
    "other_names": [
     "Lantus (glargine)"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "lispro",
    "other_names": [
     "Humalog (lispro)"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin + SSI prn",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin + SSI prn",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sitagliptin and glargine+ SSI",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: glargine"
-   ]
+   ],
+   "label": "Sitagliptin and glargine+ SSI",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glargine and Lispro + SSI",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: lispro"
-   ]
+   ],
+   "label": "Glargine and Lispro + SSI",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The study is a multicenter, prospective, open-label, randomized pilot study to investigate the safety and efficacy of sitagliptin (Januvia) for the inpatient management of type 2 diabetes (T2D) in general medicine and surgery patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Males or females between the ages of 18 and 80 years admitted to a general medicine and surgery services.\n2. A known history of type 2 diabetes mellitus \\> 3 months, receiving either diet alone, oral antidiabetic agents: sulfonylureas and metformin as monotherapy or in combination therapy (excluding Trazodone (TZDs) and DPP4 inhibitors), or low-dose (≤ 0.4 units/kg/day) insulin therapy.\n3. Subjects with a BG \\>140 mg and \\< 400 mg/dL without laboratory evidence of diabetic ketoacidosis (serum bicarbonate \\< 18 milliequivalent /L or positive serum or urinary ketones).\n\nExclusion Criteria:\n\n1. Age \\< 18 or \\> 80 years.\n2. Subjects with increased blood glucose concentration, but without a known history of diabetes (stress hyperglycemia).\n3. Subjects with a history of type 1 diabetes (suggested by BMI \\< 25 requiring insulin therapy or with a history of diabetic ketoacidosis and hyperosmolar hyperglycemic state, or ketonuria) \\[46\\].\n4. History of TZD treatment (pioglitazone or rosiglitazone) or DPP4 inhibitor (sitagliptin or saxagliptin) during the past 3 months prior to admission.\n5. Acute critical illness or coronary artery bypass graft (CABG) surgery expected to require prolonged admission to a critical care unit (ICU, cardiac care unit , surgical intensive care unit, neuro ICU).\n6. Subjects with gastrointestinal obstruction or adynamic ileus or those expected to require gastrointestinal suction.\n7. Medical or surgical patients expected to be kept nil per os (NPO) for \\>24-48 hours after admission or after completion of surgical procedure.\n8. Patients with clinically relevant pancreatic or gallbladder disease.\n9. Patients with congestive heart failure (NYHA class III and IV), acute myocardial infarction, clinically significant hepatic disease or significantly impaired renal function (serum creatinine ≥ 2.0 mg/dL).\n10. Treatment with oral or injectable corticosteroid.\n11. Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study.\n12. Female subjects are pregnant or breast feeding at time of enrollment into the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,22 +116,22 @@
  },
  "sites": [
   {
-   "facility": "Emory University Hospital",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Emory University Hospital",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   },
   {
-   "facility": "Grady Memorial Hospital",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Grady Memorial Hospital",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01378117",
@@ -143,6 +143,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males or females between the ages of 18 and 80 years admitted to a general medicine and surgery services."
+   },
+   {
+    "text": "A known history of type 2 diabetes mellitus > 3 months, receiving either diet alone, oral antidiabetic agents: sulfonylureas and metformin as monotherapy or in combination therapy (excluding Trazodone (TZDs) and DPP4 inhibitors), or low-dose (≤ 0.4 units/kg/day) insulin therapy."
+   },
+   {
+    "text": "Subjects with a BG >140 mg and < 400 mg/dL without laboratory evidence of diabetic ketoacidosis (serum bicarbonate < 18 milliequivalent /L or positive serum or urinary ketones)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Age < 18 or > 80 years."
+   },
+   {
+    "text": "Subjects with increased blood glucose concentration, but without a known history of diabetes (stress hyperglycemia)."
+   },
+   {
+    "text": "Subjects with a history of type 1 diabetes (suggested by BMI < 25 requiring insulin therapy or with a history of diabetic ketoacidosis and hyperosmolar hyperglycemic state, or ketonuria) [46]."
+   },
+   {
+    "text": "History of TZD treatment (pioglitazone or rosiglitazone) or DPP4 inhibitor (sitagliptin or saxagliptin) during the past 3 months prior to admission."
+   },
+   {
+    "text": "Acute critical illness or coronary artery bypass graft (CABG) surgery expected to require prolonged admission to a critical care unit (ICU, cardiac care unit , surgical intensive care unit, neuro ICU)."
+   },
+   {
+    "text": "Subjects with gastrointestinal obstruction or adynamic ileus or those expected to require gastrointestinal suction."
+   },
+   {
+    "text": "Medical or surgical patients expected to be kept nil per os (NPO) for >24-48 hours after admission or after completion of surgical procedure."
+   },
+   {
+    "text": "Patients with clinically relevant pancreatic or gallbladder disease."
+   },
+   {
+    "text": "Patients with congestive heart failure (NYHA class III and IV), acute myocardial infarction, clinically significant hepatic disease or significantly impaired renal function (serum creatinine ≥ 2.0 mg/dL)."
+   },
+   {
+    "text": "Treatment with oral or injectable corticosteroid."
+   },
+   {
+    "text": "Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study."
+   },
+   {
+    "text": "Female subjects are pregnant or breast feeding at time of enrollment into the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

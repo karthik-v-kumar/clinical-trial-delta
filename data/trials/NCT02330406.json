@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Institute for Clinical Effectiveness, Japan",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Institute for Clinical Effectiveness, Japan"
  },
  "collaborators": [],
  "conditions": [
@@ -55,35 +55,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Anagliptin",
    "other_names": [
     "Suiny"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia",
     "Glactiv"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Anagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Anagliptin"
-   ]
+   ],
+   "label": "Anagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The purpose of this study is to determine whether Anagliptin or Sitagliptin are effective in reducing the low-density lipoprotein cholesterol in patients with type 2 diabetes and cardiovascular risk factors on statin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with type 2 diabetes with cardiovascular risk factors (\\*) who treated with diet, exercise or antidiabetic medications\n* Patients who were treated with statins for 8 weeks or longer\n* Patients with low-density lipoprotein cholesterol equal to or greater than 100 mg/dL in the at least one of three measurements after the administration of statins\n* Patients with glycerated hemoglobin (HbA1c, NGSP) equal to or greater than 6.0 % (7.0 % if patients were not treated with dipeptidyl-peptidase 4 inhibitors) and lesser than 10.5 %\n\n(\\*) cardiovascular risk factors were any of following conditions\n\n1. Presence of stenosis (\\>=25%) or plaque on the previous coronary angiography or coronary CT\n2. Presence of coronary calcification on the previous coronary CT\n3. History of acute coronary syndrome\n4. History of percutaneous coronary intervention or coronary artery bypass graft\n5. History of stroke (ischemic stroke or hemorrhagic stroke)\n6. History of transient ischemic attack\n7. History of peripheral artery diseases or aortic disorders\n8. Ankle-Brachial Index (AMI) equal to or less than 0.9 in the past measurement\n9. Presence of carotid artery plaque (including Max IMT \\>=1.1mm) on carotid ultrasonography in the past\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes\n* Patients with triglyceride equal to or greater than 400 mg/dL in the previous fasting measurements\n* Patients with pregnancy, possible pregnancy, or on breast-feeding\n* Patients with severe infections, perioperative status, or severe trauma\n* Patients with renal dysfunction (creatinine \\>= 2.4 mg/dl for men, \\>= 2.0 mg/dl for women)\n* Patients who were received glucagon-like peptide-1receptor agonists\n* Patients whom physician in charge considered inappropriate for the study",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "Department of Cardiovascular Medicine, Tomishiro Central Hospital",
    "city": "Tomishiro",
-   "state": "Okinawa",
    "country": "Japan",
-   "status": null,
+   "facility": "Department of Cardiovascular Medicine, Tomishiro Central Hospital",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Okinawa",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02330406",
@@ -128,6 +128,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with type 2 diabetes with cardiovascular risk factors (*) who treated with diet, exercise or antidiabetic medications"
+   },
+   {
+    "text": "Patients who were treated with statins for 8 weeks or longer"
+   },
+   {
+    "text": "Patients with low-density lipoprotein cholesterol equal to or greater than 100 mg/dL in the at least one of three measurements after the administration of statins"
+   },
+   {
+    "text": "Patients with glycerated hemoglobin (HbA1c, NGSP) equal to or greater than 6.0 % (7.0 % if patients were not treated with dipeptidyl-peptidase 4 inhibitors) and lesser than 10.5 %"
+   },
+   {
+    "text": "(*) cardiovascular risk factors were any of following conditions"
+   },
+   {
+    "text": "Presence of stenosis (>=25%) or plaque on the previous coronary angiography or coronary CT"
+   },
+   {
+    "text": "Presence of coronary calcification on the previous coronary CT"
+   },
+   {
+    "text": "History of acute coronary syndrome"
+   },
+   {
+    "text": "History of percutaneous coronary intervention or coronary artery bypass graft"
+   },
+   {
+    "text": "History of stroke (ischemic stroke or hemorrhagic stroke)"
+   },
+   {
+    "text": "History of transient ischemic attack"
+   },
+   {
+    "text": "History of peripheral artery diseases or aortic disorders"
+   },
+   {
+    "text": "Ankle-Brachial Index (AMI) equal to or less than 0.9 in the past measurement"
+   },
+   {
+    "text": "Presence of carotid artery plaque (including Max IMT >=1.1mm) on carotid ultrasonography in the past"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes"
+   },
+   {
+    "text": "Patients with triglyceride equal to or greater than 400 mg/dL in the previous fasting measurements"
+   },
+   {
+    "text": "Patients with pregnancy, possible pregnancy, or on breast-feeding"
+   },
+   {
+    "text": "Patients with severe infections, perioperative status, or severe trauma"
+   },
+   {
+    "text": "Patients with renal dysfunction (creatinine >= 2.4 mg/dl for men, >= 2.0 mg/dl for women)"
+   },
+   {
+    "text": "Patients who were received glucagon-like peptide-1receptor agonists"
+   },
+   {
+    "text": "Patients whom physician in charge considered inappropriate for the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

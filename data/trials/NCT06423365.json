@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "NONE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Utah",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Utah"
  },
  "collaborators": [
   "Kaiser Permanente",
@@ -55,23 +55,23 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Virtual Statin Management (VSM)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Usual care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Usual Care + Virtual Statin Management (VSM)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Virtual Statin Management (VSM)"
-   ]
+   ],
+   "label": "Usual Care + Virtual Statin Management (VSM)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The goal of this clinical trial is to learn if an educational website can help patients make an informed decision and engage in shared decision-making with their healthcare provider regarding cholesterol lowering medication use after they have stopped statin therapy due to self-reported muscle symptoms from taking a statin medication. The main questions the trial aims to answer are:\n\n1. Compared to usual care, are patients who engage with the website after experiencing statin-associated muscle symptoms (SAMS) more likely to retry statin therapy?\n2. Compared to usual care, are patients who retry statin therapy after engaging with the website more likely to persist on statin therapy?\n\nResearchers will compare people randomized to use the website to those who are receiving usual care to see if statin re-start and persistence rates change.\n\nAll participants will take baseline questionnaires and receive usual care as they would if they were not in the study (e.g., visit their doctor, get labs drawn, take medication as prescribed). Patients randomized to the website arm will be asked to engage with content in a website which is anticipated to take most patients approximately 30-minutes. Their clinician will then contact them for a follow-up visit as needed.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* KPCO member\n* Sold a statin from KPCO pharmacy in the previous six months\n* Have a gap of \\>1.0x the days' supply in refilling their statin\n* Patient who stopped therapy (or delayed filling prescription) due to some perceived side effect\n* Has email address available in kp.org (and therefore has access to a computer with internet)\n\nExclusion Criteria:\n\n* Unable to verbalize comprehension of study or impaired decision-making\n* Non-English speaking\n* Limited life expectancy (e.g. hospice or palliative care)\n* Pregnant or planning to become pregnant\n* Patients on Kaiser Permanente's \"do not call\" list for research will also be excluded.",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Kaiser Permanente Colorado",
    "city": "Aurora",
-   "state": "Colorado",
    "country": "United States",
-   "status": null,
+   "facility": "Kaiser Permanente Colorado",
    "lat": 39.72943,
-   "lon": -104.83192
+   "lon": -104.83192,
+   "state": "Colorado",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06423365",
@@ -116,6 +116,44 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "KPCO member"
+   },
+   {
+    "text": "Sold a statin from KPCO pharmacy in the previous six months"
+   },
+   {
+    "text": "Have a gap of >1.0x the days' supply in refilling their statin"
+   },
+   {
+    "text": "Patient who stopped therapy (or delayed filling prescription) due to some perceived side effect"
+   },
+   {
+    "text": "Has email address available in kp.org (and therefore has access to a computer with internet)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Unable to verbalize comprehension of study or impaired decision-making"
+   },
+   {
+    "text": "Non-English speaking"
+   },
+   {
+    "text": "Limited life expectancy (e.g. hospice or palliative care)"
+   },
+   {
+    "text": "Pregnant or planning to become pregnant"
+   },
+   {
+    "text": "Patients on Kaiser Permanente's \"do not call\" list for research will also be excluded."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

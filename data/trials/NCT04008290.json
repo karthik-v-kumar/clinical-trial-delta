@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "PREVENTION",
   "masking": "DOUBLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Universitaire Ziekenhuizen KU Leuven",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Universitaire Ziekenhuizen KU Leuven"
  },
  "collaborators": [],
  "conditions": [
@@ -51,34 +51,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "0.6 mg Liraglutide",
    "other_names": [
     "Victoza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "saline solution"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "0.6 mg Liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: 0.6 mg Liraglutide"
-   ]
+   ],
+   "label": "0.6 mg Liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Liraglutide is a glucose-like peptide 1 agonist, currently used as an effective weight-loss treatment. Its mechanism of action has not yet been elucidated. We want to investigate whether liraglutide affects MMC activity, gastrointestinal hormone release, glucose whole blood levels, hunger ratings and ad libitum food intake in healthy volunteers.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subject is female or male between 18 and 65 years of age.\n* Subject has a BMI between 18 and 25 kg/m² and has a stable body weight for at least 3 consecutive months at the start of the study and keeps a stable weight during the study visits.\n* Women of child-bearing potential agree to apply during the entire duration of the trial a highly effective method of birth control, which is defined as those which result in a low failure rate (i.e., less than 1% per year) when used constantly and correctly such as implants, injectables, combined oral contraceptive method, or some intrauterine devices (IUDs), sexual abstinence, or vasectomized partner. Women of nonchildbearing potential may be included if surgically sterile (tubal ligation or hysterectomy) or postmenopausal with at least 2 year without spontaneous menses.\n* Subject understands the study procedures and agrees to participate in the study by giving written informed consent.\n\nExclusion Criteria:\n\n* Subject is under age of legal consent, pregnant or breastfeeding.\n* Subject with a BMI ≤ 18 kg/m² or BMI ≥ 25 kg/m².\n* Subject has current symptoms or a history of gastrointestinal or other significant somatic or psychiatric diseases or drug allergies.\n* Subject has diabetes.\n* Subject has a significant heart, lung, liver or kidney disease.\n* Subject has any history of a neurological disorder.\n* Subject has a history of abdominal surgery. Those having undergone a simple appendectomy more than 1 year prior to the screening visit may participate.\n* Subject shows abnormal eating behavior or has an eating disorder.\n* History or current use of drugs that can affect glycaemia, gastrointestinal function, motility or sensitivity or gastric acidity.\n* History or current use of centrally acting medication, including antidepressants, antipsychotics and/or benzodiazepines (in the last year before screening visit).\n* Subject consumes excessive amounts of alcohol, defined as \\>14 units per week for women and \\>21 units per week for men.\n* Subject is currently (defined as within approximately 1 year of the screening visit) a regular or irregular user (including \"recreational use\") of any illicit drugs (including marijuana) or has a history of drug (including alcohol) abuse. Further, patient is unwilling to refrain from the use of drugs during this study.\n* High caffeine intake (\\> 500 ml coffee daily or equivalent).\n* Inability or unwillingness to perform all of the study procedures, or the subject is considered unsuitable in any way by the principal investigator.\n* Recent participation (\\<30 days) or simultaneous participation in another clinical study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,6 +109,71 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subject is female or male between 18 and 65 years of age."
+   },
+   {
+    "text": "Subject has a BMI between 18 and 25 kg/m² and has a stable body weight for at least 3 consecutive months at the start of the study and keeps a stable weight during the study visits."
+   },
+   {
+    "text": "Women of child-bearing potential agree to apply during the entire duration of the trial a highly effective method of birth control, which is defined as those which result in a low failure rate (i.e., less than 1% per year) when used constantly and correctly such as implants, injectables, combined oral contraceptive method, or some intrauterine devices (IUDs), sexual abstinence, or vasectomized partner. Women of nonchildbearing potential may be included if surgically sterile (tubal ligation or hysterectomy) or postmenopausal with at least 2 year without spontaneous menses."
+   },
+   {
+    "text": "Subject understands the study procedures and agrees to participate in the study by giving written informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subject is under age of legal consent, pregnant or breastfeeding."
+   },
+   {
+    "text": "Subject with a BMI ≤ 18 kg/m² or BMI ≥ 25 kg/m²."
+   },
+   {
+    "text": "Subject has current symptoms or a history of gastrointestinal or other significant somatic or psychiatric diseases or drug allergies."
+   },
+   {
+    "text": "Subject has diabetes."
+   },
+   {
+    "text": "Subject has a significant heart, lung, liver or kidney disease."
+   },
+   {
+    "text": "Subject has any history of a neurological disorder."
+   },
+   {
+    "text": "Subject has a history of abdominal surgery. Those having undergone a simple appendectomy more than 1 year prior to the screening visit may participate."
+   },
+   {
+    "text": "Subject shows abnormal eating behavior or has an eating disorder."
+   },
+   {
+    "text": "History or current use of drugs that can affect glycaemia, gastrointestinal function, motility or sensitivity or gastric acidity."
+   },
+   {
+    "text": "History or current use of centrally acting medication, including antidepressants, antipsychotics and/or benzodiazepines (in the last year before screening visit)."
+   },
+   {
+    "text": "Subject consumes excessive amounts of alcohol, defined as >14 units per week for women and >21 units per week for men."
+   },
+   {
+    "text": "Subject is currently (defined as within approximately 1 year of the screening visit) a regular or irregular user (including \"recreational use\") of any illicit drugs (including marijuana) or has a history of drug (including alcohol) abuse. Further, patient is unwilling to refrain from the use of drugs during this study."
+   },
+   {
+    "text": "High caffeine intake (> 500 ml coffee daily or equivalent)."
+   },
+   {
+    "text": "Inability or unwillingness to perform all of the study procedures, or the subject is considered unsuitable in any way by the principal investigator."
+   },
+   {
+    "text": "Recent participation (<30 days) or simultaneous participation in another clinical study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

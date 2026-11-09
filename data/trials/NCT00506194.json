@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Taipei Veterans General Hospital, Taiwan",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Taipei Veterans General Hospital, Taiwan"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin",
    "other_names": [
     "Insulatard, Actrapid, Lantus, monotard"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "OAD",
    "other_names": [
     "Diamicron-MR, Glucophage, Amaryl"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Insulin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin"
-   ]
+   ],
+   "label": "Insulin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "OAD",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: OAD"
-   ]
+   ],
+   "label": "OAD",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "We designed this prospective, randomized control study to compare the benefits between the insulin therapy and OADs after correction of the glucose toxicity with a short period of intensive insulin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Newly diagnosed type 2 diabetic patients.\n2. Hospitalization due to hyperglycemia hyperosmolality syndrome.\n3. Those who age between 30 and 80 years old and can inject insulin by themselves.\n\nExclusion Criteria:\n\n1. Pregnant women.\n2. Impaired liver function (ALT \\> 120 U/L)\n3. Impaired renal function (Serum creatinine \\>3.0 mg/dL)\n4. Recently suffered from MI or CVA.\n5. Patients are acute intercurrent illness.\n6. 2-hour C-peptide level \\< 1.8 ng/mL.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Division of Endocrinology and Metabolism, Department of Medicine",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Division of Endocrinology and Metabolism, Department of Medicine",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00506194",
@@ -116,6 +116,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Newly diagnosed type 2 diabetic patients."
+   },
+   {
+    "text": "Hospitalization due to hyperglycemia hyperosmolality syndrome."
+   },
+   {
+    "text": "Those who age between 30 and 80 years old and can inject insulin by themselves."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant women."
+   },
+   {
+    "text": "Impaired liver function (ALT > 120 U/L)"
+   },
+   {
+    "text": "Impaired renal function (Serum creatinine >3.0 mg/dL)"
+   },
+   {
+    "text": "Recently suffered from MI or CVA."
+   },
+   {
+    "text": "Patients are acute intercurrent illness."
+   },
+   {
+    "text": "2-hour C-peptide level < 1.8 ng/mL."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

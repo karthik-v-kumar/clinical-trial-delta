@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2018-05-29",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Washington University School of Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Washington University School of Medicine"
  },
  "collaborators": [],
  "conditions": [
@@ -52,46 +52,46 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "tauroursodeoxycholic acid",
    "other_names": [
     "TUDCA"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "sodium phenylbutyrate",
    "other_names": [
     "PBA"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "tauroursodeoxycholic acid",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: tauroursodeoxycholic acid"
-   ]
+   ],
+   "label": "tauroursodeoxycholic acid",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "PBA",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sodium phenylbutyrate"
-   ]
+   ],
+   "label": "PBA",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "Normally, the hormone insulin works to help keep blood sugar normal. However, as a person gains weight, insulin does not work as well and blood sugar tends to be a little higher than normal. This is called \"insulin resistance\".\n\nTwo investigational drugs (not approved by the Food and Drug Administration) for the treatment of high lipid levels or insulin resistance are being examined in this study: one drug is called tauroursodeoxycholic acid (TUDCA), the other is called sodium phenylbutyrate (PBA). This study is designed to test if TUDCA and/or PBA is effective in people who are obese with insulin resistance and high lipids. We hypothesize that pharmacologically-induced decreases in ER stress will improve insulin action and hepatic lipid metabolism in obese subjects.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI range 30 to 45\n* sedentary (defined as regular exercise \\< 1 h per week or \\< 2 x/week for the last 6 months)\n\nExclusion Criteria:\n\n* active or previous infection with hepatitis B or C\n* liver diseases\n* history of alcohol abuse\n* current alcohol consumption \\> 20 g/day\n* severe hypertriglyceridemia ( \\> 400 mg/dL)\n* active peptic ulcer disease\n* taking cholestyramine or oral contraceptives\n* women who are pregnant or lactating",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "facility": "Washington University School of Medicine",
    "city": "St Louis",
-   "state": "Missouri",
    "country": "United States",
-   "status": null,
+   "facility": "Washington University School of Medicine",
    "lat": 38.62727,
-   "lon": -90.19789
+   "lon": -90.19789,
+   "state": "Missouri",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00771901",
@@ -132,6 +132,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI range 30 to 45"
+   },
+   {
+    "text": "sedentary (defined as regular exercise < 1 h per week or < 2 x/week for the last 6 months)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "active or previous infection with hepatitis B or C"
+   },
+   {
+    "text": "liver diseases"
+   },
+   {
+    "text": "history of alcohol abuse"
+   },
+   {
+    "text": "current alcohol consumption > 20 g/day"
+   },
+   {
+    "text": "severe hypertriglyceridemia ( > 400 mg/dL)"
+   },
+   {
+    "text": "active peptic ulcer disease"
+   },
+   {
+    "text": "taking cholestyramine or oral contraceptives"
+   },
+   {
+    "text": "women who are pregnant or lactating"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

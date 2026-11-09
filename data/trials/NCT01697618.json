@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "biphasic insulin aspart 30",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "biphasic human insulin 30",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "BIAsp 30",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: biphasic insulin aspart 30",
     "Drug: biphasic human insulin 30"
-   ]
+   ],
+   "label": "BIAsp 30",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "BHI 30",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: biphasic insulin aspart 30",
     "Drug: biphasic human insulin 30"
-   ]
+   ],
+   "label": "BHI 30",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This trial is conducted in Europe. The aim of this trial is to investigate pharmacokinetics, pharmacodynamics and safety of biphasic insulin aspart 30 in subjects with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes for at least 12 months\n* Treated with a combination of soluble/protracted human insulin in the ratio of 30/70 in a twice-daily regimen for at least 6 months\n* BMI (body mass index) below 39 kg/m\\^2\n* HbA1c (glycosylated haemoglobin) below 12%",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,22 +100,22 @@
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Alphen aan den Rijn",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 52.12917,
-   "lon": 4.65546
+   "lon": 4.65546,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Crawley",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 51.11303,
-   "lon": -0.18312
+   "lon": -0.18312,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01697618",
@@ -130,6 +130,25 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes for at least 12 months"
+   },
+   {
+    "text": "Treated with a combination of soluble/protracted human insulin in the ratio of 30/70 in a twice-daily regimen for at least 6 months"
+   },
+   {
+    "text": "BMI (body mass index) below 39 kg/m^2"
+   },
+   {
+    "text": "HbA1c (glycosylated haemoglobin) below 12%"
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

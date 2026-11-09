@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Insulet Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Insulet Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Omnipod 5 SA2.0 System",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental: Participants with Type 1 and Type 2 diabetes",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Omnipod 5 SA2.0 System"
-   ]
+   ],
+   "label": "Experimental: Participants with Type 1 and Type 2 diabetes",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -75,10 +75,10 @@
  "brief_summary": "This study will evaluate the safety and effectiveness of the Omnipod 5 SmartAdjust 2.0 System in individuals aged 2-70 years with type 1 or type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nIndividuals must meet all the following criteria at screening to be included in the study:\n\n1. Age at time of consent 2-70 years (inclusive)\n2. Diabetes diagnosis, based on Investigator's clinical judgement, and meets the following:\n\n   * Type 1 Diabetes: 2-70 years old with A1c \\<11%. Diagnosed for at least 6 months for participants aged 2- \\<7 years or at least 1 year for participants aged 7-70 years. OR\n   * Type 2 Diabetes: 16-70 years old, diagnosed with T2D and on current insulin regimen for at least 3 months. Includes basal-bolus, pre-mix, or basal only users. For basal-bolus and premix users, must have A1c \\< 12.0%. For basal only users must have A1c \\> 7.0% and \\< 12.0%.\n3. Living with a parent or guardian if \\< 16 years old\n4. Currently using U-100 rapid-acting insulin analogs with insulin pump or basal-bolus, pre-mix, or basal only users suitable for conversion to pump therapy for at least 3 months prior to study start\n5. Willing to use only the following types of U-100 insulin during the study: Humalog U-100, Novorapid, or their generic equivalents\n6. Deemed appropriate for pump therapy per Investigator's assessment considering previous history of severe hypoglycemic and hyperglycemic events, and other comorbidities\n7. Stable doses over the preceding 4 weeks of other glucose-lowering medications, as determined by Investigator, including within class dose equivalent medication\n8. Stable doses over the preceding 4 weeks of weight loss medications that may affect glycemic control directly and/or indirectly, as determined by Investigator\n9. Investigator has confidence that the participant and/or caregiver can safely operate all study devices and can adhere to the protocol\n10. Willing to wear the system, including Pods, continuously throughout the study\n11. If female of childbearing potential, willing and able to have pregnancy testing\n\nExclusion Criteria:\n\nIndividuals who meet any of the following criteria at screening will be excluded from study participation:\n\n1. Any medical condition, which in the opinion of the Investigator, would put the participant at an unacceptable safety risk\n2. Current or known history of coronary artery disease that is not stable with medical management, including unstable angina, or angina that prevents moderate exercise despite medical management, or a history of myocardial infarction, percutaneous coronary intervention, or coronary artery bypass grafting within the 12 months prior to screening\n3. Any planned surgery during the study which could be considered major in the opinion of the Investigator\n4. Severe retinopathy based on retinal screening performed within the last 24 months\n5. History of severe hypoglycemia in the past 6 months. Severe hypoglycemia is defined as an event that requires the assistance of another person due to altered consciousness, and requires another person to actively administer carbohydrate, glucagon, or other resuscitative actions\n6. History of diabetic ketoacidosis (DKA) or hyperosmolar hyperglycemic state (HHS) in the past 6 months, unrelated to an intercurrent illness or infusion failure\n7. Unable to tolerate adhesive tape or has any unresolved skin condition in the area of sensor or pump placement\n8. Blood disorder or dyscrasia within 3 months prior to screening, including use of hydroxyurea, which in the Investigator's opinion could interfere with determination of HbA1c\n9. Plans to receive blood transfusion over the course of the study\n10. Pregnant or lactating, or is a woman of childbearing potential and not on acceptable form of birth control (acceptable forms of contraception include abstinence, barrier methods such as condoms, hormonal contraceptives, intrauterine device, surgical sterilization such as tubal ligation or hysterectomy, or vasectomized partner)\n11. Participation in another clinical study using an investigational drug or device within 30-days or intends to participate in any other study during this study period\n12. Unable to follow clinical protocol for the duration of the study or is otherwise deemed unacceptable to participate in the study per the Investigator's clinical judgment\n13. Participant is an employee of Insulet, an Investigator or Investigator's study team, or immediate family member of any of the aforementioned",
-  "sex": "ALL",
-  "minimum_age": "2 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "2 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -87,22 +87,22 @@
  },
  "sites": [
   {
-   "facility": "University of Otago, Christchurch",
    "city": "Christchurch",
-   "state": null,
    "country": "New Zealand",
-   "status": null,
+   "facility": "University of Otago, Christchurch",
    "lat": -43.53333,
-   "lon": 172.63333
+   "lon": 172.63333,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Wellington Regional Hospital",
    "city": "Wellington",
-   "state": null,
    "country": "New Zealand",
-   "status": null,
+   "facility": "Wellington Regional Hospital",
    "lat": -41.28664,
-   "lon": 174.77557
+   "lon": 174.77557,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06547918",
@@ -114,6 +114,104 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age at time of consent 2-70 years (inclusive)",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "Diabetes diagnosis, based on Investigator's clinical judgement, and meets the following:",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study",
+    "sub_items": [
+     "Type 1 Diabetes: 2-70 years old with A1c <11%. Diagnosed for at least 6 months for participants aged 2- <7 years or at least 1 year for participants aged 7-70 years. OR",
+     "Type 2 Diabetes: 16-70 years old, diagnosed with T2D and on current insulin regimen for at least 3 months. Includes basal-bolus, pre-mix, or basal only users. For basal-bolus and premix users, must have A1c < 12.0%. For basal only users must have A1c > 7.0% and < 12.0%."
+    ]
+   },
+   {
+    "text": "Living with a parent or guardian if < 16 years old",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "Currently using U-100 rapid-acting insulin analogs with insulin pump or basal-bolus, pre-mix, or basal only users suitable for conversion to pump therapy for at least 3 months prior to study start",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "Willing to use only the following types of U-100 insulin during the study: Humalog U-100, Novorapid, or their generic equivalents",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "Deemed appropriate for pump therapy per Investigator's assessment considering previous history of severe hypoglycemic and hyperglycemic events, and other comorbidities",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "Stable doses over the preceding 4 weeks of other glucose-lowering medications, as determined by Investigator, including within class dose equivalent medication",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "Stable doses over the preceding 4 weeks of weight loss medications that may affect glycemic control directly and/or indirectly, as determined by Investigator",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "Investigator has confidence that the participant and/or caregiver can safely operate all study devices and can adhere to the protocol",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "Willing to wear the system, including Pods, continuously throughout the study",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   },
+   {
+    "text": "If female of childbearing potential, willing and able to have pregnancy testing",
+    "group": "Individuals must meet all the following criteria at screening to be included in the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Individuals who meet any of the following criteria at screening will be excluded from study participation:"
+   },
+   {
+    "text": "Any medical condition, which in the opinion of the Investigator, would put the participant at an unacceptable safety risk"
+   },
+   {
+    "text": "Current or known history of coronary artery disease that is not stable with medical management, including unstable angina, or angina that prevents moderate exercise despite medical management, or a history of myocardial infarction, percutaneous coronary intervention, or coronary artery bypass grafting within the 12 months prior to screening"
+   },
+   {
+    "text": "Any planned surgery during the study which could be considered major in the opinion of the Investigator"
+   },
+   {
+    "text": "Severe retinopathy based on retinal screening performed within the last 24 months"
+   },
+   {
+    "text": "History of severe hypoglycemia in the past 6 months. Severe hypoglycemia is defined as an event that requires the assistance of another person due to altered consciousness, and requires another person to actively administer carbohydrate, glucagon, or other resuscitative actions"
+   },
+   {
+    "text": "History of diabetic ketoacidosis (DKA) or hyperosmolar hyperglycemic state (HHS) in the past 6 months, unrelated to an intercurrent illness or infusion failure"
+   },
+   {
+    "text": "Unable to tolerate adhesive tape or has any unresolved skin condition in the area of sensor or pump placement"
+   },
+   {
+    "text": "Blood disorder or dyscrasia within 3 months prior to screening, including use of hydroxyurea, which in the Investigator's opinion could interfere with determination of HbA1c"
+   },
+   {
+    "text": "Plans to receive blood transfusion over the course of the study"
+   },
+   {
+    "text": "Pregnant or lactating, or is a woman of childbearing potential and not on acceptable form of birth control (acceptable forms of contraception include abstinence, barrier methods such as condoms, hormonal contraceptives, intrauterine device, surgical sterilization such as tubal ligation or hysterectomy, or vasectomized partner)"
+   },
+   {
+    "text": "Participation in another clinical study using an investigational drug or device within 30-days or intends to participate in any other study during this study period"
+   },
+   {
+    "text": "Unable to follow clinical protocol for the duration of the study or is otherwise deemed unacceptable to participate in the study per the Investigator's clinical judgment"
+   },
+   {
+    "text": "Participant is an employee of Insulet, an Investigator or Investigator's study team, or immediate family member of any of the aforementioned"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

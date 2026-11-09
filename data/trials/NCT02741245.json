@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2018-03-09",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [],
  "conditions": [
@@ -51,68 +51,68 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ezetimibe 10 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin 2.5 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for Ezetimibe",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Ezetimibe 10 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe 10 mg",
     "Drug: Placebo for Rosuvastatin"
-   ]
+   ],
+   "label": "Ezetimibe 10 mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Rosuvastatin 2.5 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin 2.5 mg",
     "Drug: Placebo for Ezetimibe",
     "Drug: Placebo for Rosuvastatin"
-   ]
+   ],
+   "label": "Rosuvastatin 2.5 mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Rosuvastatin 5.0 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin 2.5 mg",
     "Drug: Placebo for Ezetimibe"
-   ]
+   ],
+   "label": "Rosuvastatin 5.0 mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Ezetimibe 10 mg+ Rosuvastatin 2.5 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe 10 mg",
     "Drug: Rosuvastatin 2.5 mg",
     "Drug: Placebo for Rosuvastatin"
-   ]
+   ],
+   "label": "Ezetimibe 10 mg+ Rosuvastatin 2.5 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Ezetimibe 10 mg+ Rosuvastatin 5.0 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe 10 mg",
     "Drug: Rosuvastatin 2.5 mg"
-   ]
+   ],
+   "label": "Ezetimibe 10 mg+ Rosuvastatin 5.0 mg",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -196,10 +196,10 @@
  "brief_summary": "This study will evaluate the efficacy and safety and tolerability of 2 dose levels of MK-0653H in Japanese participants. The primary hypotheses are that the administration of MK-0653H is safe and tolerable and that MK-0653H is superior to single entity of Ezetimibe and Rosuvastatin in percent reduction from baseline in low-density lipoprotein-cholesterol (LDL-C) after 12 weeks of treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Japanese\n* Outpatient with hypercholesterolemia\n* Female participant who is of reproductive potential has to agree to remain abstinent or use (or partner use) two acceptable methods of birth control from date of signed informed consent to the 14 days after the last dose of study drug\n* Will maintain a stable diet that is consistent with the Japan Atherosclerosis Society Guideline 2012 (JAS 2012) for prevention of atherosclerotic cardiovascular diseases for the duration of the study\n\nExclusion Criteria:\n\n* Uncontrolled hypertension (treated or untreated)\n* Uncontrolled type 1 or type 2 diabetes mellitus\n* History of coronary artery disease (CAD), CAD-equivalent disease\n* Familial hypercholesterolemia or has undergone LDL apheresis\n* Uncontrolled endocrine or metabolic disease known to influence serum lipids or lipoproteins\n* Has had a gastrointestinal tract bypass, or other significant intestinal malabsorption\n* History of cancer within the past 5 years (except for successfully treated dermatological basal cell or squamous cell carcinoma or in situ cervical cancer)\n* Human Immunodeficiency Virus (HIV) positive\n* History of drug/ alcohol abuse within the past 5 years or psychiatric illness not adequately controlled and stable on pharmacotherapy\n* Consumes more than 25 g of alcohol per day\n* Currently following an excessive weight reduction diet\n* Currently engages in a vigorous exercise regimen (e.g.; marathon training, body building training etc.) or intends to start training during the study\n* Hypersensitivity or intolerance to Ezetimibe or Rosuvastatin\n* Myopathy or rhabdomyolysis with Ezetimibe or any statin\n* Pregnant or lactating\n* Taking any other investigational drugs and/or has taken any investigational drugs within 30 days",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -215,6 +215,74 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Japanese"
+   },
+   {
+    "text": "Outpatient with hypercholesterolemia"
+   },
+   {
+    "text": "Female participant who is of reproductive potential has to agree to remain abstinent or use (or partner use) two acceptable methods of birth control from date of signed informed consent to the 14 days after the last dose of study drug"
+   },
+   {
+    "text": "Will maintain a stable diet that is consistent with the Japan Atherosclerosis Society Guideline 2012 (JAS 2012) for prevention of atherosclerotic cardiovascular diseases for the duration of the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Uncontrolled hypertension (treated or untreated)"
+   },
+   {
+    "text": "Uncontrolled type 1 or type 2 diabetes mellitus"
+   },
+   {
+    "text": "History of coronary artery disease (CAD), CAD-equivalent disease"
+   },
+   {
+    "text": "Familial hypercholesterolemia or has undergone LDL apheresis"
+   },
+   {
+    "text": "Uncontrolled endocrine or metabolic disease known to influence serum lipids or lipoproteins"
+   },
+   {
+    "text": "Has had a gastrointestinal tract bypass, or other significant intestinal malabsorption"
+   },
+   {
+    "text": "History of cancer within the past 5 years (except for successfully treated dermatological basal cell or squamous cell carcinoma or in situ cervical cancer)"
+   },
+   {
+    "text": "Human Immunodeficiency Virus (HIV) positive"
+   },
+   {
+    "text": "History of drug/ alcohol abuse within the past 5 years or psychiatric illness not adequately controlled and stable on pharmacotherapy"
+   },
+   {
+    "text": "Consumes more than 25 g of alcohol per day"
+   },
+   {
+    "text": "Currently following an excessive weight reduction diet"
+   },
+   {
+    "text": "Currently engages in a vigorous exercise regimen (e.g.; marathon training, body building training etc.) or intends to start training during the study"
+   },
+   {
+    "text": "Hypersensitivity or intolerance to Ezetimibe or Rosuvastatin"
+   },
+   {
+    "text": "Myopathy or rhabdomyolysis with Ezetimibe or any statin"
+   },
+   {
+    "text": "Pregnant or lactating"
+   },
+   {
+    "text": "Taking any other investigational drugs and/or has taken any investigational drugs within 30 days"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

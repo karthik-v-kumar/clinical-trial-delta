@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Handok Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Handok Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -48,36 +48,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "glimepiride + insulin glargine (Amaryl + Lantus)",
    "other_names": [
     "Amaryl",
     "Lantus injection solostar"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "glimepiride/metformin fixed combination+insulin glargine (AmarylM + Lantus)",
    "other_names": [
     "Amaryl M",
     "Lantus injection solostar"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Amaryl group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: glimepiride + insulin glargine (Amaryl + Lantus)"
-   ]
+   ],
+   "label": "Amaryl group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Amaryl M group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: glimepiride/metformin fixed combination+insulin glargine (AmarylM + Lantus)"
-   ]
+   ],
+   "label": "Amaryl M group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The purpose of this study is to compare the efficacy of Amaryl®M 1/500 mg twice daily versus Amaryl® 4 mg both in combination with Lantus® once-daily regimen in type 2 Diabetes Mellitus patients with inadequate glycemic control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients over 20 years old with type 2 DM\n* Patients with inadequate glycemic control despite continuous use of tolerable or maximal doses of one or more OADs for 3months or more.\n* 7%\\<HbA1c\\<11 % at screening\n* 21 kg/m2 ≤ BMI ≤ 30 kg/m2\n* Patents who need insulin add-on therapy based on investigator's discretion\n* Patients who would give the informed consent\n* Patients who can perform SMBG and record the data on the patient's diary\n\nExclusion Criteria:\n\n* History of acute metabolic complications such as diabetic ketoacidosis or hyperosmolar nonketotic coma within 3 months before screening\n* Pregnant or lactating females\n* History of drug or alcohol abuse\n* Patients with known hypersensitivity to glimepiride, metformin HCL or insulin\n* Night-shift workers\n* Patients who are under insulin therapy at screening\n* Treatment with any investigational products in the last 3 months before screening\n* Clinically significant laboratory abnormality on screening labs or any medical condition that would affect the completion or outcome of the study based on investigator's decision\n* Patients with serum creatinine level \\> 1.5 mg/dl in male and \\> 1.4 mg/dl in female\n* Patients with ALT or AST \\> 3x ULN",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "HeeYoung Lee",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "HeeYoung Lee",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00913367",
@@ -118,6 +118,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients over 20 years old with type 2 DM"
+   },
+   {
+    "text": "Patients with inadequate glycemic control despite continuous use of tolerable or maximal doses of one or more OADs for 3months or more."
+   },
+   {
+    "text": "7%<HbA1c<11 % at screening"
+   },
+   {
+    "text": "21 kg/m2 ≤ BMI ≤ 30 kg/m2"
+   },
+   {
+    "text": "Patents who need insulin add-on therapy based on investigator's discretion"
+   },
+   {
+    "text": "Patients who would give the informed consent"
+   },
+   {
+    "text": "Patients who can perform SMBG and record the data on the patient's diary"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of acute metabolic complications such as diabetic ketoacidosis or hyperosmolar nonketotic coma within 3 months before screening"
+   },
+   {
+    "text": "Pregnant or lactating females"
+   },
+   {
+    "text": "History of drug or alcohol abuse"
+   },
+   {
+    "text": "Patients with known hypersensitivity to glimepiride, metformin HCL or insulin"
+   },
+   {
+    "text": "Night-shift workers"
+   },
+   {
+    "text": "Patients who are under insulin therapy at screening"
+   },
+   {
+    "text": "Treatment with any investigational products in the last 3 months before screening"
+   },
+   {
+    "text": "Clinically significant laboratory abnormality on screening labs or any medical condition that would affect the completion or outcome of the study based on investigator's decision"
+   },
+   {
+    "text": "Patients with serum creatinine level > 1.5 mg/dl in male and > 1.4 mg/dl in female"
+   },
+   {
+    "text": "Patients with ALT or AST > 3x ULN"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

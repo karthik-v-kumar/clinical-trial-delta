@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "GlaxoSmithKline",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "GlaxoSmithKline"
  },
  "collaborators": [],
  "conditions": [
@@ -51,18 +51,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Rosiglitazone",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Arm 1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Rosiglitazone"
-   ]
+   ],
+   "label": "Arm 1",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -74,10 +74,10 @@
  "brief_summary": "The study investigated the effect of rosiglitazone and placebo on carotid intima media thickness in patients with insulin resistance syndrome and/or type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* insulin resistant syndrome or Type 2 Diabetes.\n\nExclusion criteria:\n\n* Use of \\>= 2 concomitant oral antihyperglycaemic agents within 3 months of study start.\n* Initiation of anti-hypertensive or lipid lowering therapy \\<= 6 months prior to study start or who increased the dose 3 months prior to study start.\n* Unstable or severe angina or congestive heart failure NYHA class i-iv, history of acute myocardial infarction or stroke within last 6 months.\n* Any history of surgical intervention in the right carotid artery.\n* Clinically significant hepatic disease.\n* Creatinine clearance \\<40ml/min.",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -85,13 +85,13 @@
  },
  "sites": [
   {
-   "facility": "GSK Investigational Site",
    "city": "Malmö",
-   "state": null,
    "country": "Sweden",
-   "status": null,
+   "facility": "GSK Investigational Site",
    "lat": 55.60587,
-   "lon": 13.00073
+   "lon": 13.00073,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00306644",
@@ -103,6 +103,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "insulin resistant syndrome or Type 2 Diabetes."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of >= 2 concomitant oral antihyperglycaemic agents within 3 months of study start."
+   },
+   {
+    "text": "Initiation of anti-hypertensive or lipid lowering therapy <= 6 months prior to study start or who increased the dose 3 months prior to study start."
+   },
+   {
+    "text": "Unstable or severe angina or congestive heart failure NYHA class i-iv, history of acute myocardial infarction or stroke within last 6 months."
+   },
+   {
+    "text": "Any history of surgical intervention in the right carotid artery."
+   },
+   {
+    "text": "Clinically significant hepatic disease."
+   },
+   {
+    "text": "Creatinine clearance <40ml/min."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

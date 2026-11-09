@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Klavs Würgler Hansen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Klavs Würgler Hansen"
  },
  "collaborators": [
   "Aarhus University Hospital"
@@ -50,23 +50,23 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Continuous glucose monitoring and use of connected insulinpen for bolus insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "1 (Standard care)",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "2 (CGM and connected pen)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Continuous glucose monitoring and use of connected insulinpen for bolus insulin"
-   ]
+   ],
+   "label": "2 (CGM and connected pen)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "The aim of the study is to evaluate the effect of a combination of 12 months treatment with CGM (Freestyle Libre 2) with hypo and hyper alert in combination with a smart pen for bolus insulin (NOVOpen6) on HbA1c and time in range (TIR) in T2DM patients with baseline HbA1c \\>53 mmol/mol (7. 0%, eAG 8,6 mmol/l) as compared with standard care.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. \\- Type 2 DM.\n2. \\- HbA1c \\> 53 mmol/l (7.0 %, estimated average glucose (eAG) 8.6 mmol/l).\n3. \\- Contact to diabetes clinic for ≥ 6 months.\n4. \\- Insulin treatment ≥ 12 months.\n5. \\- Basal insulin and bolus insulin at least for one meal every day.\n6. \\- Bolus insulin is insulin aspart.\n7. \\- Stable insulin treatment (change 10 % or less) and no introduction of other antihyperglycemic agents (oral or GLP1 analogue) for at least 2 months before randomization.\n8. \\- Considered to be technically and intellectually capable of using isCGM and smart pen.\n9. \\- Can communicate in Danish.\n10. \\- Informed consent including acceptance to share glucose data from the Libreview platforms.\n11. \\- The patient has a smart phone suitable for Libre and NOVOpen6 data registration.\n\nExclusion Criteria:\n\n1. \\- Individual goal for HbA1c is reached (even if \\> 53 mmol/mol), i.e. relaxed treatment goals as relevant for fragile patients with severe diabetic complications or comorbidities.\n2. \\- Fasting C-peptide \\< 370 pmol/l.\n3. \\- Actual treatment with CGM or previous use of CGM for more than four weeks or \\< 6 months before recruitment. No actual or previous use of connected pen.\n4. \\- One or more severe hypoglycemic episode (assistance of third party) within the previous 12 months.\n5. \\- Considered unable to participate due to frequent cancellation of appointments.\n6. \\- Ongoing steroid treatment or expected intermittent treatment of more than 14 days' duration.\n7. \\- Pregnant or planning pregnancy.\n8. \\- Participating in other trials.\n9. \\- Clinical conditions interfering with interpretation of HbA1c (phlebectomy, bleeding or haemolytic disorders, erythropoietin treatment, known haemoglobin variants, etc.) or continuous intake of high dose of vitamin C (\\> 1000 mg), salicylic acid (650 mg daily), Salazopyrin or Dapsone.\n10. \\- Allergic reaction to the adhesive used in the isCGM.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,49 +89,49 @@
  },
  "sites": [
   {
-   "facility": "Steno Diabetes Center Aarhus",
    "city": "Aarhus",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Steno Diabetes Center Aarhus",
    "lat": 56.15674,
-   "lon": 10.21076
+   "lon": 10.21076,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Gødstrup Regional Hospital",
    "city": "Herning",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Gødstrup Regional Hospital",
    "lat": 56.13615,
-   "lon": 8.97662
+   "lon": 8.97662,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Horsens Regional Hospital",
    "city": "Horsens",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Horsens Regional Hospital",
    "lat": 55.86066,
-   "lon": 9.85034
+   "lon": 9.85034,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Randers Regional Hospital",
    "city": "Randers",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Randers Regional Hospital",
    "lat": 56.4607,
-   "lon": 10.03639
+   "lon": 10.03639,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Regional Hospital Silkeborg, Central Jutland Hospital",
    "city": "Silkeborg",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Regional Hospital Silkeborg, Central Jutland Hospital",
    "lat": 56.1697,
-   "lon": 9.54508
+   "lon": 9.54508,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06311019",
@@ -143,6 +143,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "- Type 2 DM."
+   },
+   {
+    "text": "- HbA1c > 53 mmol/l (7.0 %, estimated average glucose (eAG) 8.6 mmol/l)."
+   },
+   {
+    "text": "- Contact to diabetes clinic for ≥ 6 months."
+   },
+   {
+    "text": "- Insulin treatment ≥ 12 months."
+   },
+   {
+    "text": "- Basal insulin and bolus insulin at least for one meal every day."
+   },
+   {
+    "text": "- Bolus insulin is insulin aspart."
+   },
+   {
+    "text": "- Stable insulin treatment (change 10 % or less) and no introduction of other antihyperglycemic agents (oral or GLP1 analogue) for at least 2 months before randomization."
+   },
+   {
+    "text": "- Considered to be technically and intellectually capable of using isCGM and smart pen."
+   },
+   {
+    "text": "- Can communicate in Danish."
+   },
+   {
+    "text": "- Informed consent including acceptance to share glucose data from the Libreview platforms."
+   },
+   {
+    "text": "- The patient has a smart phone suitable for Libre and NOVOpen6 data registration."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "- Individual goal for HbA1c is reached (even if > 53 mmol/mol), i.e. relaxed treatment goals as relevant for fragile patients with severe diabetic complications or comorbidities."
+   },
+   {
+    "text": "- Fasting C-peptide < 370 pmol/l."
+   },
+   {
+    "text": "- Actual treatment with CGM or previous use of CGM for more than four weeks or < 6 months before recruitment. No actual or previous use of connected pen."
+   },
+   {
+    "text": "- One or more severe hypoglycemic episode (assistance of third party) within the previous 12 months."
+   },
+   {
+    "text": "- Considered unable to participate due to frequent cancellation of appointments."
+   },
+   {
+    "text": "- Ongoing steroid treatment or expected intermittent treatment of more than 14 days' duration."
+   },
+   {
+    "text": "- Pregnant or planning pregnancy."
+   },
+   {
+    "text": "- Participating in other trials."
+   },
+   {
+    "text": "- Clinical conditions interfering with interpretation of HbA1c (phlebectomy, bleeding or haemolytic disorders, erythropoietin treatment, known haemoglobin variants, etc.) or continuous intake of high dose of vitamin C (> 1000 mg), salicylic acid (650 mg daily), Salazopyrin or Dapsone."
+   },
+   {
+    "text": "- Allergic reaction to the adhesive used in the isCGM."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

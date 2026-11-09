@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-07-06",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Medtronic MiniMed, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Medtronic MiniMed, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Pump",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "OTHER",
    "name": "CGMS Gold",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pump",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Pump"
-   ]
+   ],
+   "label": "Pump",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "MDI",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: CGMS Gold"
-   ]
+   ],
+   "label": "MDI",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "This is a prospective, randomized (open label), multi-center and post-market study. The study is to compare effectiveness of sensor-augmented pump (SAP) therapy versus multiple daily injection (MDI) therapy in hospitalized patients with insulin treating type 2 diabetes in China",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Subject is 18 to 65 years old at time of screening\n2. A clinical diagnosis of type 2 diabetes \\> 6 months prior to the screening as determined by the Investigator,\n3. Treating with insulin at least one injection per day prior to participate in the study\n4. Glycosylated hemoglobin (A1C) \\> 8% at screening\n5. Subject needs to be hospitalized to receive treatment for glucose management according to Endocrinologists' discretion\n6. Subject is willing to follow protocol and underdo all study procedures\n7. Subject is willing and able to provide informed written consent personally or by legal proxy\n\nExclusion Criteria:\n\n1. Subject has known hypersensitivity to insulin or insulin infusion set\n2. Subject has been treated with drugs with a known effect on BG within 8 weeks before enrollment other than diabetes medications such as insulin or oral agents.\n3. random blood glucose is above 33 mmol/L\n4. Subject is currently using real time CGM therapy prior to screening\n5. Subject is currently using insulin pump therapy prior to screening\n6. Female subject who is pregnant, or plans to become pregnant during the course of the study\n7. Patients who are critically ill that must go to intensive critical care unit per Investigator discretion\n8. Subject has any systemic disease or medical condition found on the screening tests that may interfere with the safety of the patient and efficacy of the study treatment, in the opinion of the Investigator, may preclude him/her from participating in the study. The following includes, but not limited to, those conditions:\n\n   * Female subject has a positive serum pregnancy screening test\n   * Subject has visually impaired or disability limits the use of RT-CGM.\n   * Subject has any unresolved adverse skin condition in the area of sensor placement or device replacement (e.g., psoriasis, rash, Staphylococcus infection)\n   * Subject has disease with a known effect on BG such as Active Graves' disease\n   * Subject has a history of alcohol abuse\n9. Any other condition, which may not be suitable for the study at physician's discretion.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,22 +94,22 @@
  },
  "sites": [
   {
-   "facility": "Chinese PLA General Hospital",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Chinese PLA General Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "The Second Hospital of Jilin University",
    "city": "Changchun",
-   "state": "Jilin",
    "country": "China",
-   "status": null,
+   "facility": "The Second Hospital of Jilin University",
    "lat": 43.88,
-   "lon": 125.32278
+   "lon": 125.32278,
+   "state": "Jilin",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01921322",
@@ -121,6 +121,69 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subject is 18 to 65 years old at time of screening"
+   },
+   {
+    "text": "A clinical diagnosis of type 2 diabetes > 6 months prior to the screening as determined by the Investigator,"
+   },
+   {
+    "text": "Treating with insulin at least one injection per day prior to participate in the study"
+   },
+   {
+    "text": "Glycosylated hemoglobin (A1C) > 8% at screening"
+   },
+   {
+    "text": "Subject needs to be hospitalized to receive treatment for glucose management according to Endocrinologists' discretion"
+   },
+   {
+    "text": "Subject is willing to follow protocol and underdo all study procedures"
+   },
+   {
+    "text": "Subject is willing and able to provide informed written consent personally or by legal proxy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subject has known hypersensitivity to insulin or insulin infusion set"
+   },
+   {
+    "text": "Subject has been treated with drugs with a known effect on BG within 8 weeks before enrollment other than diabetes medications such as insulin or oral agents."
+   },
+   {
+    "text": "random blood glucose is above 33 mmol/L"
+   },
+   {
+    "text": "Subject is currently using real time CGM therapy prior to screening"
+   },
+   {
+    "text": "Subject is currently using insulin pump therapy prior to screening"
+   },
+   {
+    "text": "Female subject who is pregnant, or plans to become pregnant during the course of the study"
+   },
+   {
+    "text": "Patients who are critically ill that must go to intensive critical care unit per Investigator discretion"
+   },
+   {
+    "text": "Subject has any systemic disease or medical condition found on the screening tests that may interfere with the safety of the patient and efficacy of the study treatment, in the opinion of the Investigator, may preclude him/her from participating in the study. The following includes, but not limited to, those conditions:",
+    "sub_items": [
+     "Female subject has a positive serum pregnancy screening test",
+     "Subject has visually impaired or disability limits the use of RT-CGM.",
+     "Subject has any unresolved adverse skin condition in the area of sensor placement or device replacement (e.g., psoriasis, rash, Staphylococcus infection)",
+     "Subject has disease with a known effect on BG such as Active Graves' disease",
+     "Subject has a history of alcohol abuse"
+    ]
+   },
+   {
+    "text": "Any other condition, which may not be suitable for the study at physician's discretion."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

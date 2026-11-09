@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Dong-A ST Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Dong-A ST Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "evogliptin",
    "other_names": [
     "Suganon"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "januvia"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "evogliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: evogliptin"
-   ]
+   ],
+   "label": "evogliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This is a randomized, double-blind, active-controlled, phase III clinical trial to investigate the efficacy and safety of evogliptin when added to ongoing metformin monotherapy in patients with type 2 diabetes who have inadequate glycemic control",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects with 6.5%≤HbA1c≤11.0% at screening\n* Subjects treated with 1,000mg/day or higher dose of metformin for at least 6 weeks prior to screening among people treated with metformin monotherapy for at least 12 weeks before screening\n* Subjects with 20kg/m2≤BMI≤40kg/m2 at screening\n\nExclusion Criteria:\n\n* Subjects with fasting plasma glucose≥270mg/dL at screening\n* Patients with type 1 diabetes mellitus, secondary diabetes mellitus or gestational diabetes mellitus\n* Subjects with history of myocardial infarction, cerebral infarction within 6 months prior to screening\n* Subjects with ALT and AST 2.5 times or higher than upper normal range",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Kangbuk Samsung Medical Center",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Kangbuk Samsung Medical Center",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02949193",
@@ -121,6 +121,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects with 6.5%≤HbA1c≤11.0% at screening"
+   },
+   {
+    "text": "Subjects treated with 1,000mg/day or higher dose of metformin for at least 6 weeks prior to screening among people treated with metformin monotherapy for at least 12 weeks before screening"
+   },
+   {
+    "text": "Subjects with 20kg/m2≤BMI≤40kg/m2 at screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with fasting plasma glucose≥270mg/dL at screening"
+   },
+   {
+    "text": "Patients with type 1 diabetes mellitus, secondary diabetes mellitus or gestational diabetes mellitus"
+   },
+   {
+    "text": "Subjects with history of myocardial infarction, cerebral infarction within 6 months prior to screening"
+   },
+   {
+    "text": "Subjects with ALT and AST 2.5 times or higher than upper normal range"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

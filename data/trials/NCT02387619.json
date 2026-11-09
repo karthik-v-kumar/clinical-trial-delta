@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Jeil Pharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Jeil Pharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -49,59 +49,59 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Crestor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Telmisartan/Amlodipine",
    "other_names": [
     "Twynsta"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin and Telmisartan/Amlodipine",
    "other_names": [
     "Crestor and Twynsta"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Rosuvastatin",
+    "Drug: Rosuvastatin and Telmisartan/Amlodipine"
+   ],
    "label": "Group 1 of part 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Rosuvastatin",
-    "Drug: Rosuvastatin and Telmisartan/Amlodipine"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Telmisartan/Amlodipine",
+    "Drug: Rosuvastatin and Telmisartan/Amlodipine"
+   ],
    "label": "Group 2 of part 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Telmisartan/Amlodipine",
-    "Drug: Rosuvastatin and Telmisartan/Amlodipine"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group 1 of part 2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Rosuvastatin",
     "Drug: Rosuvastatin and Telmisartan/Amlodipine"
-   ]
+   ],
+   "label": "Group 1 of part 2",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group 2 of part 2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Telmisartan/Amlodipine",
     "Drug: Rosuvastatin and Telmisartan/Amlodipine"
-   ]
+   ],
+   "label": "Group 2 of part 2",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -113,23 +113,23 @@
  "brief_summary": "A randomized, open-label, multiple-dose, crossover study to investigate the pharmacokinetic drug interaction between rosuvastatin and telmisartan/amlodipine in healthy male volunteers",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 19\\~55 years healthy male\n* Body weight is over 55kg, The result of Body Mass Index(BMI) is not less than 18 kg/m2 , no more than 27 kg/m2\n* Subjects who agree to keep contraceptive methods during the clinical trial.\n\nExclusion Criteria:\n\n* Subjects who are allergic to investigational drug.\n* Subjects who have a medical history which can affect the clinical trial.\n* Hypertension(Systolic BP ≥ 150mmHG or Diastolic BP ≥ 100mmHg), Hypotension(Systolic BP ≤ 100mmHg or Diastolic BP ≤ 65mmHg)\n* Liver enzyme (AST, ALT) level exceeds the maximum normal range more than one and a half times.",
-  "sex": "MALE",
-  "minimum_age": "19 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "19 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Yonsei University Health System",
    "city": "Seoul",
-   "state": "Seodaemun-gu",
    "country": "South Korea",
-   "status": null,
+   "facility": "Yonsei University Health System",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": "Seodaemun-gu",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02387619",
@@ -141,6 +141,35 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "19~55 years healthy male"
+   },
+   {
+    "text": "Body weight is over 55kg, The result of Body Mass Index(BMI) is not less than 18 kg/m2 , no more than 27 kg/m2"
+   },
+   {
+    "text": "Subjects who agree to keep contraceptive methods during the clinical trial."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects who are allergic to investigational drug."
+   },
+   {
+    "text": "Subjects who have a medical history which can affect the clinical trial."
+   },
+   {
+    "text": "Hypertension(Systolic BP ≥ 150mmHG or Diastolic BP ≥ 100mmHg), Hypotension(Systolic BP ≤ 100mmHg or Diastolic BP ≤ 65mmHg)"
+   },
+   {
+    "text": "Liver enzyme (AST, ALT) level exceeds the maximum normal range more than one and a half times."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "OTHER",
   "masking": "QUADRUPLE",
+  "primary_purpose": "OTHER",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Pennsylvania",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Pennsylvania"
  },
  "collaborators": [],
  "conditions": [
@@ -55,34 +55,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin 100mg",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo Oral Tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Crossover AB",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Sitagliptin 100mg",
     "Drug: Placebo Oral Tablet"
-   ]
+   ],
+   "label": "Crossover AB",
+   "type": "OTHER"
   },
   {
-   "label": "Crossover BA",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Sitagliptin 100mg",
     "Drug: Placebo Oral Tablet"
-   ]
+   ],
+   "label": "Crossover BA",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "This is a pilot clinical trial to test the hypothesis that during sitagliptin (DPP4 inhibitor), individuals heterozygous for DPP4 loss of function variants will have a reduction in DPP4 activity and antigen, lower glucose after a mixed meal, and higher levels of intact DPP4 substrates compared to during placebo and compared to matched controls.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participant of the Penn Medicine Biobank who is willing to be recontacted to participate in future research.\n* Cases are defined as adults 18-70 years with likely decreased DPP4.\n* Controls are defined as adults who are matched to cases by: age, gender, race, BMI, hypertension status, diabetes status, renal function, and medication use that may affect outcomes of interest.\n\nExclusion Criteria:\n\n* The study will exclude volunteers with any significant medical conditions that may interfere with study participation, data interpretation, or pose safety risk(s) to the subject.\n* Recent hospitalization or acute illness such as infection within the past two weeks\n* Pregnancy\n* Use of insulin\n* Use of a GLP-1 agonist or DPP4 inhibitor medication\n* Use of oral diabetes agents other than metformin unless matched with controls\n* Type 1 diabetes\n* Chronic steroid use or use within the last 30 days\n* Significant liver disease including liver enzymes \\>3 x upper limit of normal range\n* Renal dysfunction defined as eGFR\\< 50mL/min/1.73m2\n* Significant cardiac disease such as heart transplantation\n* Significant gastrointestinal conditions that may interfere with drug absorption or GLP-1 release including bariatric surgery\n* Significant hematologic disease such as hematocrit \\<35%\n* Use of chronic anticoagulation\n* Severe pulmonary disease\n* Severe neurologic or psychiatric disease\n* Inability to comprehend study procedures",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "facility": "University of Pennsylvania",
    "city": "Philadelphia",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "University of Pennsylvania",
    "lat": 39.95238,
-   "lon": -75.16362
+   "lon": -75.16362,
+   "state": "Pennsylvania",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04323189",
@@ -123,6 +123,74 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participant of the Penn Medicine Biobank who is willing to be recontacted to participate in future research."
+   },
+   {
+    "text": "Cases are defined as adults 18-70 years with likely decreased DPP4."
+   },
+   {
+    "text": "Controls are defined as adults who are matched to cases by: age, gender, race, BMI, hypertension status, diabetes status, renal function, and medication use that may affect outcomes of interest."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "The study will exclude volunteers with any significant medical conditions that may interfere with study participation, data interpretation, or pose safety risk(s) to the subject."
+   },
+   {
+    "text": "Recent hospitalization or acute illness such as infection within the past two weeks"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Use of insulin"
+   },
+   {
+    "text": "Use of a GLP-1 agonist or DPP4 inhibitor medication"
+   },
+   {
+    "text": "Use of oral diabetes agents other than metformin unless matched with controls"
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Chronic steroid use or use within the last 30 days"
+   },
+   {
+    "text": "Significant liver disease including liver enzymes >3 x upper limit of normal range"
+   },
+   {
+    "text": "Renal dysfunction defined as eGFR< 50mL/min/1.73m2"
+   },
+   {
+    "text": "Significant cardiac disease such as heart transplantation"
+   },
+   {
+    "text": "Significant gastrointestinal conditions that may interfere with drug absorption or GLP-1 release including bariatric surgery"
+   },
+   {
+    "text": "Significant hematologic disease such as hematocrit <35%"
+   },
+   {
+    "text": "Use of chronic anticoagulation"
+   },
+   {
+    "text": "Severe pulmonary disease"
+   },
+   {
+    "text": "Severe neurologic or psychiatric disease"
+   },
+   {
+    "text": "Inability to comprehend study procedures"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-01-23",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -48,32 +48,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "MK-0431"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glibenclamide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin 50 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin 50 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glibenclamide 2.50 mg TDD",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glibenclamide"
-   ]
+   ],
+   "label": "Glibenclamide 2.50 mg TDD",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "This is a study of the efficacy of sitagliptin and glibenclamide in a short-term treatment on the glucose variability using continuous glucose monitoring (CGM) in Japanese participants with type 2 diabetes mellitus (T2DM). The primary hypothesis is that treatment with sitagliptin will be superior to treatment with glibenclamide in the change from baseline in mean amplitude of glycemic excursions (MAGE) through continuous glucose monitoring (CGM) after 13 days of treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Japanese participants with a diagnosis of Type 2 diabetes mellitus\n\nExclusion Criteria:\n\n* History of Type 1 diabetes mellitus or ketoacidosis\n* History of insulin or thiazolidinedione (including fixed-dose drug combinations containing one of these drugs) in the 12 weeks before study participation",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,6 +104,23 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Japanese participants with a diagnosis of Type 2 diabetes mellitus"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of Type 1 diabetes mellitus or ketoacidosis"
+   },
+   {
+    "text": "History of insulin or thiazolidinedione (including fixed-dose drug combinations containing one of these drugs) in the 12 weeks before study participation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Aarhus",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Aarhus"
  },
  "collaborators": [
   "Aarhus University Hospital",
@@ -55,25 +55,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Cholecalciferol",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Cholecalciferol",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Cholecalciferol"
-   ]
+   ],
+   "label": "Cholecalciferol",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo pill",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Cholecalciferol"
-   ]
+   ],
+   "label": "Placebo pill",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The purpose of the study is to examine the effect on metabolic parameters after 12 weeks of treatment with high dose vitamin D in patients with type 2 diabetes and vitamin D insufficiency.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Informed consent\n* Type 2 diabetes\n* Patients of Danish extraction\n* Vitamin D insufficiency (1,25OHvitD \\< 50 nmol/l)\n\nExclusion Criteria:\n\n* Nephropathy (Urea \\> 12 mmol/l)\n* S-calcium \\> 2,52 mmol/L\n* Primary hyperparathyroidism\n* Serious disease\n* Malabsorption\n* Sarcoidosis\n* Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Medical Research Unit, Medical Department M, Aarhus University Hospital",
    "city": "Aarhus",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Medical Research Unit, Medical Department M, Aarhus University Hospital",
    "lat": 56.15674,
-   "lon": 10.21076
+   "lon": 10.21076,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00812578",
@@ -114,6 +114,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Informed consent"
+   },
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Patients of Danish extraction"
+   },
+   {
+    "text": "Vitamin D insufficiency (1,25OHvitD < 50 nmol/l)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Nephropathy (Urea > 12 mmol/l)"
+   },
+   {
+    "text": "S-calcium > 2,52 mmol/L"
+   },
+   {
+    "text": "Primary hyperparathyroidism"
+   },
+   {
+    "text": "Serious disease"
+   },
+   {
+    "text": "Malabsorption"
+   },
+   {
+    "text": "Sarcoidosis"
+   },
+   {
+    "text": "Pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

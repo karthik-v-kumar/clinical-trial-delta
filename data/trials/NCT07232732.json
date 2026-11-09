@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -50,39 +50,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "LY3549492",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: LY3549492"
+   ],
    "label": "LY3549492 (Treatment Group 1)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: LY3549492"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: LY3549492"
+   ],
    "label": "LY3549492 (Treatment Group 2)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: LY3549492"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: LY3549492"
+   ],
    "label": "LY3549492 (Treatment Group 3)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: LY3549492"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "LY3549492 (Treatment Group 4)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3549492"
-   ]
+   ],
+   "label": "LY3549492 (Treatment Group 4)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "The purpose of this study is to see how safe and well-tolerated the drug LY3549492 is and how it behaves in the body, when given in multiple doses to healthy people who are overweight or have obesity. Participation in the study will last approximately 8 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have a hemoglobin A1c level of less than 6.5 percent (%) at screening.\n* Have a body mass index (BMI) of 25.0 to 45.0 kilogram per square meter (kg/m²), inclusive, at screening\n* Participants assigned male at birth (AMAB) or participants assigned female at birth (AFAB) who are individual of childbearing potential (INOCBP) Contraceptive use by participants should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies.\n\nExclusion Criteria:\n\n* Have obesity induced by endocrine disorders such as Cushing's syndrome or Prader Willi syndrome.\n* Have any of the following conditions at screening,\n\n  * supine systolic blood pressure of 160 millimeter of mercury (mmHg) or greater\n  * supine diastolic blood pressure of 100 mmHg or greater, or\n  * resting pulse rate of greater than 95 beats per minute (bpm) or less than 45 bpm. (Note: white-coat hypertension is excluded; therefore, if a repeated measurement of blood pressure after at least 5 minutes shows values within the range, the participant can be included).\n* Have had any of the following within 6-months prior to screening\n\n  * myocardial infarction\n  * unstable angina\n  * coronary artery bypass graft\n  * percutaneous coronary intervention. (Note: diagnostic angiograms are permitted)\n  * transient ischemic attack\n  * cerebrovascular accident or decompensated congestive heart failure, or\n  * New York Health Association Class III or IV heart failure.\n* Have serum triglyceride of 5 millimoles per liter (mmol/L) or greater (442 milligrams per deciliter \\[mg/dL\\]) at screening\n* Have had any exposure to glucagon-like peptide-1 (GLP-1) analogs or other related compounds within the 3 months prior to screening",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,31 +105,31 @@
  },
  "sites": [
   {
-   "facility": "Fortrea Clinical Research Unit",
    "city": "Daytona Beach",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Fortrea Clinical Research Unit",
    "lat": 29.21081,
-   "lon": -81.02283
+   "lon": -81.02283,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Fortrea Clinical Research Unit",
    "city": "Dallas",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Fortrea Clinical Research Unit",
    "lat": 32.78306,
-   "lon": -96.80667
+   "lon": -96.80667,
+   "state": "Texas",
+   "status": null
   },
   {
-   "facility": "Fortrea Clinical Research Unit",
    "city": "Madison",
-   "state": "Wisconsin",
    "country": "United States",
-   "status": null,
+   "facility": "Fortrea Clinical Research Unit",
    "lat": 43.07305,
-   "lon": -89.40123
+   "lon": -89.40123,
+   "state": "Wisconsin",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07232732",
@@ -143,6 +143,52 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have a hemoglobin A1c level of less than 6.5 percent (%) at screening."
+   },
+   {
+    "text": "Have a body mass index (BMI) of 25.0 to 45.0 kilogram per square meter (kg/m²), inclusive, at screening"
+   },
+   {
+    "text": "Participants assigned male at birth (AMAB) or participants assigned female at birth (AFAB) who are individual of childbearing potential (INOCBP) Contraceptive use by participants should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have obesity induced by endocrine disorders such as Cushing's syndrome or Prader Willi syndrome."
+   },
+   {
+    "text": "Have any of the following conditions at screening,",
+    "sub_items": [
+     "supine systolic blood pressure of 160 millimeter of mercury (mmHg) or greater",
+     "supine diastolic blood pressure of 100 mmHg or greater, or",
+     "resting pulse rate of greater than 95 beats per minute (bpm) or less than 45 bpm. (Note: white-coat hypertension is excluded; therefore, if a repeated measurement of blood pressure after at least 5 minutes shows values within the range, the participant can be included)."
+    ]
+   },
+   {
+    "text": "Have had any of the following within 6-months prior to screening",
+    "sub_items": [
+     "myocardial infarction",
+     "unstable angina",
+     "coronary artery bypass graft",
+     "percutaneous coronary intervention. (Note: diagnostic angiograms are permitted)",
+     "transient ischemic attack",
+     "cerebrovascular accident or decompensated congestive heart failure, or",
+     "New York Health Association Class III or IV heart failure."
+    ]
+   },
+   {
+    "text": "Have serum triglyceride of 5 millimoles per liter (mmol/L) or greater (442 milligrams per deciliter [mg/dL]) at screening"
+   },
+   {
+    "text": "Have had any exposure to glucagon-like peptide-1 (GLP-1) analogs or other related compounds within the 3 months prior to screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2012-11-16",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD1656",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AZD1656",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD1656"
-   ]
+   ],
+   "label": "AZD1656",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "The purpose of this study is to assess the 1 month safety and tolerability after multiple oral doses of AZD1656 in patients with Type 2 Diabetes Mellitus Treated with Metformin",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or women of non-childbearing potential (postmenopausal, and/or have undergone hysterectomy and/or bilateral oophorectomy or salpingectomy/ tubal ligation)\n* Ongoing treatment with metformin on a stable dose of ≥ 1500 mg/day for at least 8 weeks prior to randomisation\n* HbA1c ≤ 10% at enrolment (HbA1c value according to international Diabetes Control and Complications Trial \\[DCCT\\] standard)\n\nExclusion Criteria:\n\n* History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease\n* Clinically significant abnormalities in ECG, clinical chemistry, haematology, or urine analysis results. Positive test for Hepatitis B surface antigen or antibodies to human immunodeficiency virus (HIV) or antibodies to Hepatitis C virus",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00817778",
@@ -133,6 +133,29 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or women of non-childbearing potential (postmenopausal, and/or have undergone hysterectomy and/or bilateral oophorectomy or salpingectomy/ tubal ligation)"
+   },
+   {
+    "text": "Ongoing treatment with metformin on a stable dose of ≥ 1500 mg/day for at least 8 weeks prior to randomisation"
+   },
+   {
+    "text": "HbA1c ≤ 10% at enrolment (HbA1c value according to international Diabetes Control and Complications Trial [DCCT] standard)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease"
+   },
+   {
+    "text": "Clinically significant abnormalities in ECG, clinical chemistry, haematology, or urine analysis results. Positive test for Hepatitis B surface antigen or antibodies to human immunodeficiency virus (HIV) or antibodies to Hepatitis C virus"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

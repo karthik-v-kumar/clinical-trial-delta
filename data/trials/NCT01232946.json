@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2019-08-07",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Indiana University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Indiana University"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -50,48 +50,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "liraglutide",
    "other_names": [
     "Victoza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin detemir",
    "other_names": [
     "Levemir"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "liraglutide plus insulin detemir",
    "other_names": [
     "Vyctoza plus Levemir"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Iiraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: liraglutide"
-   ]
+   ],
+   "label": "Iiraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "insulin detemir",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: insulin detemir"
-   ]
+   ],
+   "label": "insulin detemir",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Liraglutide plus insulin detemir",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: liraglutide plus insulin detemir"
-   ]
+   ],
+   "label": "Liraglutide plus insulin detemir",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -111,23 +111,23 @@
  "brief_summary": "27 Type 2 diabetic subjects (HbA1c 7.5 - 9.5%) currently treated with diet and exercise alone or with oral antidiabetic agents will be randomly assigned to one of three treatment groups: insulin detemir, liraglutide, or liraglutide plus detemir (9 subjects per group), on a background of metformin 2000 mg per day. After 3 months' treatment, PET measurements of myocardial fuel selection will take place, under fasting conditions in the morning following that day's treatment injection(s).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetic\n* 18-50 years\n* BMI \\> 25kg/m2\n* HbA1c 7.0-10.0%\n* Treated with up to 2 oral agents\n\nExclusion Criteria:\n\n* Chronic illness or infection (other than diabetes mellitus)\n* Known coronary artery disease, structural heart disease or abnormal ECG on screen.\n* Treatment with \\>2 antihypertensive agents or blood pressure \\>140/95 on two occasions during screening\n* History of claustrophobia, musculoskeletal or other factors which would result in an inability to comfortably remain within the PET scanner gantry for the duration of the imaging protocol.\n* Occupational, investigational or other known radiation exposure which together with the planned radiologic studies, will result in greater than 500 mrem total exposure in a 12 month period.\n* Current pregnancy\n* Treatment with GLP-1 agonist or DPP4 inhibitor within the past 6 months\n* Known intolerance to GLP-1 agonist\n* Personal history of pancreatitis, personal or family history of medullary thyroid carcinoma, or other contraindications to liraglutide treatment.\n* Recognized microvascular complications (neuropathy, nephropathy, retinopathy).",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "50 Years",
   "healthy_volunteers": false,
+  "maximum_age": "50 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Indiana Clinical Research Center",
    "city": "Indianapolis",
-   "state": "Indiana",
    "country": "United States",
-   "status": null,
+   "facility": "Indiana Clinical Research Center",
    "lat": 39.76838,
-   "lon": -86.15804
+   "lon": -86.15804,
+   "state": "Indiana",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01232946",
@@ -142,6 +142,59 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetic"
+   },
+   {
+    "text": "18-50 years"
+   },
+   {
+    "text": "BMI > 25kg/m2"
+   },
+   {
+    "text": "HbA1c 7.0-10.0%"
+   },
+   {
+    "text": "Treated with up to 2 oral agents"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Chronic illness or infection (other than diabetes mellitus)"
+   },
+   {
+    "text": "Known coronary artery disease, structural heart disease or abnormal ECG on screen."
+   },
+   {
+    "text": "Treatment with >2 antihypertensive agents or blood pressure >140/95 on two occasions during screening"
+   },
+   {
+    "text": "History of claustrophobia, musculoskeletal or other factors which would result in an inability to comfortably remain within the PET scanner gantry for the duration of the imaging protocol."
+   },
+   {
+    "text": "Occupational, investigational or other known radiation exposure which together with the planned radiologic studies, will result in greater than 500 mrem total exposure in a 12 month period."
+   },
+   {
+    "text": "Current pregnancy"
+   },
+   {
+    "text": "Treatment with GLP-1 agonist or DPP4 inhibitor within the past 6 months"
+   },
+   {
+    "text": "Known intolerance to GLP-1 agonist"
+   },
+   {
+    "text": "Personal history of pancreatitis, personal or family history of medullary thyroid carcinoma, or other contraindications to liraglutide treatment."
+   },
+   {
+    "text": "Recognized microvascular complications (neuropathy, nephropathy, retinopathy)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

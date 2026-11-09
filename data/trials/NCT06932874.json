@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "China National Center for Cardiovascular Diseases",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "China National Center for Cardiovascular Diseases"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Glucophage (Metformin Hydrochloride Tablets)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "New sustained-release metformin tablets (Ⅲ)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Glucophage (Metformin Hydrochloride Tablets)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glucophage (Metformin Hydrochloride Tablets)"
-   ]
+   ],
+   "label": "Glucophage (Metformin Hydrochloride Tablets)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "New type of metformin sustained-release tablets (Ⅲ)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: New sustained-release metformin tablets (Ⅲ)"
-   ]
+   ],
+   "label": "New type of metformin sustained-release tablets (Ⅲ)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "The purpose of this study is1. Compare the differences in the changes of glycated hemoglobin after 24 weeks of treatment between the new metformin sustained-release tablets (Ⅲ) group and the metformin ordinary tablets group.\n\n2\\. Compare the differences in the changes of fasting blood glucose, gastrointestinal adverse reactions of the drug and compliance after 24 weeks of treatment between the new metformin sustained-release tablets (Ⅲ) group and the metformin ordinary tablets group.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age: 30 - 75 years old; BMI: 18.5 - 35 kg/m²\n* T2DM meets the WHO standards of 1999, with HbA1c ranging from 7% to 9%, and fasting blood glucose ranging from 7 to 10 mmol/L.\n\n  1. Newly diagnosed T2DM patients who only receive dietary control and exercise therapy\n  2. T2DM patients who have been diagnosed before, with HbA1c still not reaching the standard after oral hypoglycemic drug treatment for at least 12 weeks, and the oral hypoglycemic drugs include two types: dipeptidyl peptidase-4 inhibitors (DPP-4i) and sodium-glucose cotransporter 2 inhibitors (SGLT2i), and have taken these drugs for at least 4 weeks.\n* Before admission or during this admission, coronary heart disease was diagnosed by coronary angiography, and standard coronary heart disease routine treatment was carried out, including standard antiplatelet therapy, lipid-lowering therapy, and control of ventricular rate. Beta-blockers were uniformly treated with metoprolol sustained-release tablets, and antiplatelet drugs were uniformly treated with aspirin to avoid the influence of coronary heart disease drugs on hypoglycemic effects.\n\nExclusion Criteria:\n\n* Within 4 weeks prior to enrollment, used glucagon-like peptide-1 receptor agonists (GLP-1RA) or metformin.\n* Within 4 weeks prior to enrollment, had acute coronary syndrome, severe heart disease other than coronary artery disease, or chronic heart failure (NYHA IV grade).\n* Patients who had failed PCI, planned staged revascularization, or had other types of stent implantation in the past.\n* Patients with acute or chronic pancreatitis, severe neurological diseases, renal dialysis, advanced liver disease, other tumors, organ transplant post-operation, patients with a history of hormone therapy.\n* Special types of diabetes, and endocrine diseases such as hyperthyroidism, hypothyroidism, primary aldosteronism, pheochromocytoma, Cushing's syndrome, congenital adrenal cortical hypofunction, pituitary tumor and hypopituitarism, multiple endocrine neoplasia type 2 or familial medullary thyroid carcinoma family or personal history, personal history of non-familial medullary thyroid carcinoma.\n* Pregnant, in the process of pregnancy or lactation during the postpartum period.\n* Within the past 12 weeks, had acute or chronic infectious diseases, fever, anemia, dehydration and electrolyte imbalance, elevated blood lactate level (reaching 2-4 mmol/L).\n* Had lactate acidosis in the past (blood lactate ≥ 5 mmol/L, pH value ≤ 7.35 (arterial blood)).\n* Liver and kidney dysfunction, with alanine aminotransferase and aspartate aminotransferase ≥ 3 times the upper limit, glomerular filtration rate ≤ 45 ml/min/min.\n* Had esophageal reflux, gastric bleeding, peptic ulcer or other severe gastrointestinal diseases within the past 12 weeks.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06932874",
@@ -113,6 +113,57 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age: 30 - 75 years old; BMI: 18.5 - 35 kg/m²"
+   },
+   {
+    "text": "T2DM meets the WHO standards of 1999, with HbA1c ranging from 7% to 9%, and fasting blood glucose ranging from 7 to 10 mmol/L.",
+    "sub_items": [
+     "Newly diagnosed T2DM patients who only receive dietary control and exercise therapy",
+     "T2DM patients who have been diagnosed before, with HbA1c still not reaching the standard after oral hypoglycemic drug treatment for at least 12 weeks, and the oral hypoglycemic drugs include two types: dipeptidyl peptidase-4 inhibitors (DPP-4i) and sodium-glucose cotransporter 2 inhibitors (SGLT2i), and have taken these drugs for at least 4 weeks."
+    ]
+   },
+   {
+    "text": "Before admission or during this admission, coronary heart disease was diagnosed by coronary angiography, and standard coronary heart disease routine treatment was carried out, including standard antiplatelet therapy, lipid-lowering therapy, and control of ventricular rate. Beta-blockers were uniformly treated with metoprolol sustained-release tablets, and antiplatelet drugs were uniformly treated with aspirin to avoid the influence of coronary heart disease drugs on hypoglycemic effects."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Within 4 weeks prior to enrollment, used glucagon-like peptide-1 receptor agonists (GLP-1RA) or metformin."
+   },
+   {
+    "text": "Within 4 weeks prior to enrollment, had acute coronary syndrome, severe heart disease other than coronary artery disease, or chronic heart failure (NYHA IV grade)."
+   },
+   {
+    "text": "Patients who had failed PCI, planned staged revascularization, or had other types of stent implantation in the past."
+   },
+   {
+    "text": "Patients with acute or chronic pancreatitis, severe neurological diseases, renal dialysis, advanced liver disease, other tumors, organ transplant post-operation, patients with a history of hormone therapy."
+   },
+   {
+    "text": "Special types of diabetes, and endocrine diseases such as hyperthyroidism, hypothyroidism, primary aldosteronism, pheochromocytoma, Cushing's syndrome, congenital adrenal cortical hypofunction, pituitary tumor and hypopituitarism, multiple endocrine neoplasia type 2 or familial medullary thyroid carcinoma family or personal history, personal history of non-familial medullary thyroid carcinoma."
+   },
+   {
+    "text": "Pregnant, in the process of pregnancy or lactation during the postpartum period."
+   },
+   {
+    "text": "Within the past 12 weeks, had acute or chronic infectious diseases, fever, anemia, dehydration and electrolyte imbalance, elevated blood lactate level (reaching 2-4 mmol/L)."
+   },
+   {
+    "text": "Had lactate acidosis in the past (blood lactate ≥ 5 mmol/L, pH value ≤ 7.35 (arterial blood))."
+   },
+   {
+    "text": "Liver and kidney dysfunction, with alanine aminotransferase and aspartate aminotransferase ≥ 3 times the upper limit, glomerular filtration rate ≤ 45 ml/min/min."
+   },
+   {
+    "text": "Had esophageal reflux, gastric bleeding, peptic ulcer or other severe gastrointestinal diseases within the past 12 weeks."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

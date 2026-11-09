@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-05-07",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Emory University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Emory University"
  },
  "collaborators": [],
  "conditions": [
@@ -48,43 +48,43 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Glargine U300",
    "other_names": [
     "Toujeo"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glargine U100",
    "other_names": [
     "Lantus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glulisine Insulin",
    "other_names": [
     "Apidra"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Basal bolus insulin with glargine U300 and glulisine insulin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Glargine U300",
     "Drug: Glulisine Insulin"
-   ]
+   ],
+   "label": "Basal bolus insulin with glargine U300 and glulisine insulin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Basal bolus insulin with glargine U100 and glulisine insulin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glargine U100",
     "Drug: Glulisine Insulin"
-   ]
+   ],
+   "label": "Basal bolus insulin with glargine U100 and glulisine insulin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The purpose of this study is to find out if treatment with Glargine U300 when compared to Glargine U100 will result in similar sugar control in patients with Type 2 Diabetes (T2D), who are admitted to the hospital and then transition at home, after discharge from the hospital.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males or females between \\> 18 years admitted to a general medicine or surgical service.\n* Known histories of T2D treated with either diet alone, oral monotherapy, any combination of oral antidiabetic agents, short-acting GLP1-RA (exenatide, liraglutide) or insulin therapy with the exception of degludec and glargine U300.\n* Subjects must have an admission/randomization BG \\> 140 mg and \\< 400 mg/dL without laboratory evidence of diabetic ketoacidosis (bicarbonate \\< 18 mEq/L, pH \\< 7.30, or positive serum or urinary ketones).\n\nExclusion Criteria:\n\n* Subjects with increased BG concentration, but without a known history of diabetes.\n* Patients treated with degludec or glargine U300, or with long-acting weekly GLP1-RA (weekly exenatide, dulaglutide or albiglutide).\n* Patients with acute critical or surgical illness admitted to the ICU or expected to require admission to the ICU.\n* Patients with clinically relevant hepatic disease (diagnosed liver cirrhosis and portal hypertension), corticosteroid therapy, or impaired renal function (eGFR\\< 30 ml/min).\n* Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study.\n* Female subjects who are pregnant or breast feeding at time of enrollment into the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,40 +111,40 @@
  },
  "sites": [
   {
+   "city": "Atlanta",
+   "country": "United States",
    "facility": "Emory University",
-   "city": "Atlanta",
-   "state": "Georgia",
-   "country": "United States",
-   "status": null,
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   },
   {
+   "city": "Atlanta",
+   "country": "United States",
    "facility": "Grady Memorial Hospital",
-   "city": "Atlanta",
-   "state": "Georgia",
-   "country": "United States",
-   "status": null,
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   },
   {
-   "facility": "Hennepin County Medical Center",
    "city": "Minneapolis",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Hennepin County Medical Center",
    "lat": 44.97997,
-   "lon": -93.26384
+   "lon": -93.26384,
+   "state": "Minnesota",
+   "status": null
   },
   {
-   "facility": "Cleveland Clinic",
    "city": "Cleveland",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Cleveland Clinic",
    "lat": 41.4995,
-   "lon": -81.69541
+   "lon": -81.69541,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03013985",
@@ -156,6 +156,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males or females between > 18 years admitted to a general medicine or surgical service."
+   },
+   {
+    "text": "Known histories of T2D treated with either diet alone, oral monotherapy, any combination of oral antidiabetic agents, short-acting GLP1-RA (exenatide, liraglutide) or insulin therapy with the exception of degludec and glargine U300."
+   },
+   {
+    "text": "Subjects must have an admission/randomization BG > 140 mg and < 400 mg/dL without laboratory evidence of diabetic ketoacidosis (bicarbonate < 18 mEq/L, pH < 7.30, or positive serum or urinary ketones)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with increased BG concentration, but without a known history of diabetes."
+   },
+   {
+    "text": "Patients treated with degludec or glargine U300, or with long-acting weekly GLP1-RA (weekly exenatide, dulaglutide or albiglutide)."
+   },
+   {
+    "text": "Patients with acute critical or surgical illness admitted to the ICU or expected to require admission to the ICU."
+   },
+   {
+    "text": "Patients with clinically relevant hepatic disease (diagnosed liver cirrhosis and portal hypertension), corticosteroid therapy, or impaired renal function (eGFR< 30 ml/min)."
+   },
+   {
+    "text": "Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study."
+   },
+   {
+    "text": "Female subjects who are pregnant or breast feeding at time of enrollment into the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

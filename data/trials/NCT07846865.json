@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Woolcock Institute of Medical Research",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Woolcock Institute of Medical Research"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Continuous Positive Airway Pressure",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Continuous Positive Airway Pressure (CPAP)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Continuous Positive Airway Pressure"
-   ]
+   ],
+   "label": "Continuous Positive Airway Pressure (CPAP)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Tirzepatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Tirzepatide",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "When used, continuous positive airway pressure (CPAP) is an effective treatment for obstructive sleep apnea (OSA), a condition that is mainly caused by overweight and obesity. However, CPAP is plagued by poor adherence and high rates of discontinued use leaving most patients undertreated and at risk of serious health complications. This study aims to test whether new effective weight loss pharmacotherapy is superior to CPAP for alleviating OSA and improving health outcomes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Females and Males aged ≥ 18 years at the time of signing informed consent\n* Moderate-severe OSA defined as an AHI ≥ 15/hr determined from a Type 1 or 2 sleep study conducted within the previous 12 months with a clinician recommendation for CPAP therapy.\n* Moderate overweight or obesity defined as BMI ≥ 27 kg/m2. (Adjusted to BMI ≥ 25 kg/m2 for Asian populations as per WHO guidelines (WHO Expert Consultation (2004))\n* No contraindication to tirzepatide use as per Australian Product Information\n* Home internet access to enable cloud storage of SleepTracker-AI in-home BDI.\n* Fluent English literacy and able to provide informed consent.\n\nExclusion Criteria:\n\nOSA or other respiratory related criteria:\n\n* Respiratory failure including obesity hypoventilation syndrome (OHS) or daytime hypercapnia or moderate-severe chronic obstructive pulmonary disease (COPD) with FEV1/FVC ratio\\<0.7 and FEV1\\<80% predicted (GOLD criteria).\n* Driver occupation with excessive sleepiness (Epworth Sleepiness Scale \\>=16) or sleepiness-related motor vehicle accident or near accident within 12 months prior to enrolment\n* Current or prior (≤3 months) OSA treatment with mechanical therapy (CPAP, MAS, Positional)\n* \\>50% respiratory events with Cheyne-Stokes Respiration (CSR) or Central Sleep Apnoea (CSA)\n* Relative or absolute contraindication to CPAP including chronic cranial injury; recurrent pneumothorax; indication for oral-pharyngeal surgery, significant craniofacial abnormalities that may affect breathing, or are unwilling to use CPAP\n* Any previous or planned surgery for OSA or major ear, nose or throat surgery, including tonsillectomy and adenoidectomy that still may affect breathing (NB: Inclusion of a participant with more minor ear, nose or throat surgery (for example, deviated septum) will be at the investigator's discretion)\n\nGlycaemia related criteria:\n\n* HbA1c ≥ 48 mmol/mol (6.5%) at screening\n* Type 1 or type 2 diabetes mellitus\n* Treatment with glucose-lowering agent(s) within 90 days before screening\n* Treatment with a GLP-1 receptor agonist within 90 days before screening\n\nObesity related criteria:\n\n* A self-reported change in body weight \\>5 kg or \\>5% within 90 days before baseline\n* Treatment with medication for the indication of obesity within 90 days before baseline and/or currently enrolled in a weight loss program\n\nOther criteria:\n\n* Pregnancy/breast feeding or planning a pregnancy during the trial period\n* Relative or absolute contraindication to tirzepatide including needle phobia",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Woolcock Institute of Medical Research",
    "city": "Macquarie Park",
-   "state": "New South Wales",
    "country": "Australia",
-   "status": null,
+   "facility": "Woolcock Institute of Medical Research",
    "lat": -33.78105,
-   "lon": 151.12757
+   "lon": 151.12757,
+   "state": "New South Wales",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07846865",
@@ -115,6 +115,88 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Females and Males aged ≥ 18 years at the time of signing informed consent"
+   },
+   {
+    "text": "Moderate-severe OSA defined as an AHI ≥ 15/hr determined from a Type 1 or 2 sleep study conducted within the previous 12 months with a clinician recommendation for CPAP therapy."
+   },
+   {
+    "text": "Moderate overweight or obesity defined as BMI ≥ 27 kg/m2. (Adjusted to BMI ≥ 25 kg/m2 for Asian populations as per WHO guidelines (WHO Expert Consultation (2004))"
+   },
+   {
+    "text": "No contraindication to tirzepatide use as per Australian Product Information"
+   },
+   {
+    "text": "Home internet access to enable cloud storage of SleepTracker-AI in-home BDI."
+   },
+   {
+    "text": "Fluent English literacy and able to provide informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Respiratory failure including obesity hypoventilation syndrome (OHS) or daytime hypercapnia or moderate-severe chronic obstructive pulmonary disease (COPD) with FEV1/FVC ratio<0.7 and FEV1<80% predicted (GOLD criteria).",
+    "group": "OSA or other respiratory related criteria"
+   },
+   {
+    "text": "Driver occupation with excessive sleepiness (Epworth Sleepiness Scale >=16) or sleepiness-related motor vehicle accident or near accident within 12 months prior to enrolment",
+    "group": "OSA or other respiratory related criteria"
+   },
+   {
+    "text": "Current or prior (≤3 months) OSA treatment with mechanical therapy (CPAP, MAS, Positional)",
+    "group": "OSA or other respiratory related criteria"
+   },
+   {
+    "text": ">50% respiratory events with Cheyne-Stokes Respiration (CSR) or Central Sleep Apnoea (CSA)",
+    "group": "OSA or other respiratory related criteria"
+   },
+   {
+    "text": "Relative or absolute contraindication to CPAP including chronic cranial injury; recurrent pneumothorax; indication for oral-pharyngeal surgery, significant craniofacial abnormalities that may affect breathing, or are unwilling to use CPAP",
+    "group": "OSA or other respiratory related criteria"
+   },
+   {
+    "text": "Any previous or planned surgery for OSA or major ear, nose or throat surgery, including tonsillectomy and adenoidectomy that still may affect breathing (NB: Inclusion of a participant with more minor ear, nose or throat surgery (for example, deviated septum) will be at the investigator's discretion)",
+    "group": "OSA or other respiratory related criteria"
+   },
+   {
+    "text": "HbA1c ≥ 48 mmol/mol (6.5%) at screening",
+    "group": "Glycaemia related criteria"
+   },
+   {
+    "text": "Type 1 or type 2 diabetes mellitus",
+    "group": "Glycaemia related criteria"
+   },
+   {
+    "text": "Treatment with glucose-lowering agent(s) within 90 days before screening",
+    "group": "Glycaemia related criteria"
+   },
+   {
+    "text": "Treatment with a GLP-1 receptor agonist within 90 days before screening",
+    "group": "Glycaemia related criteria"
+   },
+   {
+    "text": "A self-reported change in body weight >5 kg or >5% within 90 days before baseline",
+    "group": "Obesity related criteria"
+   },
+   {
+    "text": "Treatment with medication for the indication of obesity within 90 days before baseline and/or currently enrolled in a weight loss program",
+    "group": "Obesity related criteria"
+   },
+   {
+    "text": "Pregnancy/breast feeding or planning a pregnancy during the trial period",
+    "group": "Other criteria"
+   },
+   {
+    "text": "Relative or absolute contraindication to tirzepatide including needle phobia",
+    "group": "Other criteria"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

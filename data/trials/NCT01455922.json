@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Intarcia Therapeutics",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Intarcia Therapeutics"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ITCA 650",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ITCA 650 60 mcg/day",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ITCA 650"
-   ]
+   ],
+   "label": "ITCA 650 60 mcg/day",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "glimepiride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: glimepiride"
-   ]
+   ],
+   "label": "glimepiride",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Phase 3 study to examine treatment with ITCA 650 compared to glimepiride when added to metformin monotherapy in reducing HbA1c in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* HbA1c between 7.5% - 10.5%\n* on metformin monotherapy\n* BMI between 25 \\& 45 kg/m2\n\nExclusion Criteria:\n\n* On thiazolidinedione, sulfonylurea, DPP-4, alpha glucosidase inhibitor, meglitinides or insulin within last 3 months\n* history of pancreatitis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Intarcia Therapeutics, Inc",
    "city": "Hayward",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Intarcia Therapeutics, Inc",
    "lat": 37.66882,
-   "lon": -122.0808
+   "lon": -122.0808,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01455922",
@@ -117,6 +117,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "HbA1c between 7.5% - 10.5%"
+   },
+   {
+    "text": "on metformin monotherapy"
+   },
+   {
+    "text": "BMI between 25 & 45 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "On thiazolidinedione, sulfonylurea, DPP-4, alpha glucosidase inhibitor, meglitinides or insulin within last 3 months"
+   },
+   {
+    "text": "history of pancreatitis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

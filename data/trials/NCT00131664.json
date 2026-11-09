@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2013-04-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Canadian Heart Research Centre",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Canadian Heart Research Centre"
  },
  "collaborators": [
   "GlaxoSmithKline"
@@ -50,17 +50,16 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Avandamet",
    "other_names": [
     "rosiglitazone maleate and metformin hydrochloride",
     "Avandamet 2 mg / 500 mg",
     "Avandamet 4 mg / 500 mg",
     "Avandamet 4 mg / 1000 mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Avandia and Amaryl",
    "other_names": [
     "rosiglitazone maleate and glimepiride",
@@ -69,38 +68,39 @@
     "Amaryl (glimepiride) 1 mg",
     "Amaryl (glimepiride) 2 mg",
     "Amaryl (glimepiride) 4 mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Metformin 500 mg",
     "Metformin 850 mg"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Avandamet",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Avandamet"
-   ]
+   ],
+   "label": "Avandamet",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Avandia and Amaryl",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Avandia and Amaryl"
-   ]
+   ],
+   "label": "Avandia and Amaryl",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -112,10 +112,10 @@
  "brief_summary": "The incidence of type 2 diabetes is on the increase. According to recent Canadian Diabetes Association guidelines glucose control, based on the A1C measurement, needs to be achieved within a 6-12 month period of time after the initial diagnosis of type 2 diabetes. The guidelines on the use of antihyperglycemic agents identify the potential benefits of sub-maximal oral combination therapy in order to achieve more rapid and improved glycemic control compared with higher dose monotherapy. Furthermore, many patients on prolonged oral antihyperglycemic monotherapy who then start on combination therapy may not achieve the required target glycemic control. Indeed early initiation of combination therapies may be necessary to achieve and maintain glycemic targets because of the progressive deterioration of pancreatic β cell function and glycemic control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes patients\n2. 18 - 75 years old\n3. Type 2 diabetes mellitus (DM) drug naïve or on submaximal oral monotherapy \\< 3 years\n4. A1C criteria at screening:\n\n   1. 7.1-10% for drug naïve patients after failure of diet control and life-style modification\n   2. 7.1 - 9% on single therapy (e.g. not more 10 mg of Glyburide or 4 mg of Amaryl™ or 1000mg of Metformin) who will start after 2 weeks wash-out. During wash out the following will be done: i) diet and life style modification ii) Angiotensin converting enzyme inhibitor (ACE), aspirin (80 mg), and statin if appropriate\n5. Signed informed consent\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. Subjects currently treated with insulin\n3. Subject treated for previous 3 month with any thiazolidinedione (TZD)\n4. Evidence of clinically significant concomitant illnesses which are not controlled by medication and/or may limit participation in the study as judged by the investigator\n5. Subjects who have hypersensitivity to any components of study drugs\n6. Participation in a clinical trial and/or intake of an investigational drug within 30 days prior to screening.\n7. Pregnant or nursing females\n8. Females of childbearing potential who are not on adequate birth control\n9. Liver enzymes (Alanine Aminotransferase (ALT) \\> 2.5 times upper limit of normal)\n10. Renal impairment: serum creatinine ≥ 136umol/L (males) and ≥ 124 umol/L (females)\n11. Congestive Heart Failure (CHF class III/IV)\n12. Weight \\>160 kg",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -123,13 +123,13 @@
  },
  "sites": [
   {
-   "facility": "Canadian Heart Research Centre",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Canadian Heart Research Centre",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00131664",
@@ -141,6 +141,69 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes patients"
+   },
+   {
+    "text": "18 - 75 years old"
+   },
+   {
+    "text": "Type 2 diabetes mellitus (DM) drug naïve or on submaximal oral monotherapy < 3 years"
+   },
+   {
+    "text": "A1C criteria at screening:",
+    "sub_items": [
+     "7.1-10% for drug naïve patients after failure of diet control and life-style modification",
+     "7.1 - 9% on single therapy (e.g. not more 10 mg of Glyburide or 4 mg of Amaryl™ or 1000mg of Metformin) who will start after 2 weeks wash-out. During wash out the following will be done: i) diet and life style modification ii) Angiotensin converting enzyme inhibitor (ACE), aspirin (80 mg), and statin if appropriate"
+    ]
+   },
+   {
+    "text": "Signed informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Subjects currently treated with insulin"
+   },
+   {
+    "text": "Subject treated for previous 3 month with any thiazolidinedione (TZD)"
+   },
+   {
+    "text": "Evidence of clinically significant concomitant illnesses which are not controlled by medication and/or may limit participation in the study as judged by the investigator"
+   },
+   {
+    "text": "Subjects who have hypersensitivity to any components of study drugs"
+   },
+   {
+    "text": "Participation in a clinical trial and/or intake of an investigational drug within 30 days prior to screening."
+   },
+   {
+    "text": "Pregnant or nursing females"
+   },
+   {
+    "text": "Females of childbearing potential who are not on adequate birth control"
+   },
+   {
+    "text": "Liver enzymes (Alanine Aminotransferase (ALT) > 2.5 times upper limit of normal)"
+   },
+   {
+    "text": "Renal impairment: serum creatinine ≥ 136umol/L (males) and ≥ 124 umol/L (females)"
+   },
+   {
+    "text": "Congestive Heart Failure (CHF class III/IV)"
+   },
+   {
+    "text": "Weight >160 kg"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

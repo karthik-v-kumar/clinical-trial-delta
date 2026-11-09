@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "TRIPLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shahid Beheshti University of Medical Sciences",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Shahid Beheshti University of Medical Sciences"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Tonalin SG1000T FFA",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Dietary Supplement: Tonalin SG1000T FFA"
+   ],
    "label": "3g CLA",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Dietary Supplement: Tonalin SG1000T FFA"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Dietary Supplement: Tonalin SG1000T FFA"
+   ],
    "label": "3 g CLA",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Dietary Supplement: Tonalin SG1000T FFA"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "3 g MCT + vit E placebo",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Conjugated linoleic acids (CLAs) comprise a family of linoleic acid (18:2n-6; LA) isomers that are formed by biohydrogenation and oxidation processes in nature. The main form of CLA, cis-9, trans-11-18:2, can be produced directly by bacterial hydrogenation in the rumen or by delta-9 desaturation of the co-product vaccenic acid (trans-11-18:1) in most mammalian tissues including man. The second most abundant isomer of CLA is the trans-10, cis-12-18:2 form. Observations clearly emphasize that differences exist between mammalian species in their response to CLAs with mice being the most sensitive. The majority of studies on body compositional effects (i.e. fat loss, lean gain), on cancer and cardiovascular disease attenuation, on insulin sensitivity and diabetes and on immune function have been conducted with a variety of animal models. Recent studies indicate that some but not all of the effects observed in animals also pertain to human volunteers. Reports of detrimental effects of CLA intake appear to be largely in mice and due mainly to the trans-10, cis-12 isomer. Suggestions of possible deleterious effects in man due to an increase in oxidative lipid products (isoprostanes) with trans-10, cis-12 CLA ingestion require substantiation. Unresponsiveness to antioxidants of these non-enzymatic oxidation products casts some doubt on their physiological relevance. We hypothesized that supplementation with CLA + an antioxidant (vitamin E) in patients with diabetes mellitus may have beneficial effects on glycemic control and insulin sensitivity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes mellitus \\> 5 years\n* HbA1c ≤ 9%\n* Overweight or obese (BMI ≥ 25 kg/m2 and ≤ 30 kg/m2)\n* Age ≥ 30 and ≤ 70 years (postmenopausal if female)\n* Stable medical therapy for past 3 months\n* Stable serum glucose for past 3 months (128-180 mg/Dl)\n* Age between 30 to 50\n* Use of metformin\n* TG \\< 240 mg/Dl\n* No alcohol, no insulin, no smoke\n* No pregnancy, no menopause\n\nExclusion Criteria:\n\n* Personal history of coronary heart disease\n* Cerebrovascular disease or vascular disease\n* Renal or hepatic disease\n* Inflammatory diseases and thyroid diseases within the last years\n* Use of drugs known to affect glycemic control, beta blockers, any change in daily activity profile, and diet",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Taleghani Hospital",
    "city": "Tehran",
-   "state": "Tehran Province",
    "country": "Iran",
-   "status": null,
+   "facility": "Taleghani Hospital",
    "lat": 35.69439,
-   "lon": 51.42151
+   "lon": 51.42151,
+   "state": "Tehran Province",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01099163",
@@ -124,6 +124,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 2 diabetes mellitus > 5 years"
+   },
+   {
+    "text": "HbA1c ≤ 9%"
+   },
+   {
+    "text": "Overweight or obese (BMI ≥ 25 kg/m2 and ≤ 30 kg/m2)"
+   },
+   {
+    "text": "Age ≥ 30 and ≤ 70 years (postmenopausal if female)"
+   },
+   {
+    "text": "Stable medical therapy for past 3 months"
+   },
+   {
+    "text": "Stable serum glucose for past 3 months (128-180 mg/Dl)"
+   },
+   {
+    "text": "Age between 30 to 50"
+   },
+   {
+    "text": "Use of metformin"
+   },
+   {
+    "text": "TG < 240 mg/Dl"
+   },
+   {
+    "text": "No alcohol, no insulin, no smoke"
+   },
+   {
+    "text": "No pregnancy, no menopause"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Personal history of coronary heart disease"
+   },
+   {
+    "text": "Cerebrovascular disease or vascular disease"
+   },
+   {
+    "text": "Renal or hepatic disease"
+   },
+   {
+    "text": "Inflammatory diseases and thyroid diseases within the last years"
+   },
+   {
+    "text": "Use of drugs known to affect glycemic control, beta blockers, any change in daily activity profile, and diet"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

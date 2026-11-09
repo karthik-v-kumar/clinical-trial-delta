@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2021-02-15",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [
   "Pfizer"
@@ -53,48 +53,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ertugliflozin",
    "other_names": [
     "MK-8835, PF-04971729, Steglatro"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glycemic Rescue",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Ertugliflozin",
+    "Drug: Glycemic Rescue"
+   ],
    "label": "Ertugliflozin, 15 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Ertugliflozin",
-    "Drug: Glycemic Rescue"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Ertugliflozin",
+    "Drug: Placebo",
+    "Drug: Glycemic Rescue"
+   ],
    "label": "Ertugliflozin, 5 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Ertugliflozin",
-    "Drug: Placebo",
-    "Drug: Glycemic Rescue"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Glycemic Rescue"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -130,10 +130,10 @@
  "brief_summary": "An overall study of the cardiovascular outcomes following treatment with ertugliflozin in participants with type 2 diabetes mellitus (T2DM) and established vascular disease. The main objective of this study is to assess the cardiovascular safety of ertugliflozin. This trial includes 3 pre-defined glycemic sub-studies; 1. In participants receiving background insulin with or without metformin, 2. In participants receiving background sulfonylurea monotherapy, and 3. In participants receiving background metformin with sulfonylurea (all fully-enrolled).\n\nParticipants enrolled prior to Amendment 1 were in the overall study as well as a sub-study, if they met certain entry criteria. Participants enrolled following the start of Amendment 1 were only enrolled in the overall study. The sub-studies were the initial 18 weeks of the overall study period.",
  "eligibility": {
   "criteria": "Inclusion Criteria (Overall Cardiovascular Study):\n\n* Diagnosis of T2DM in accordance with American Diabetes Association (ADA) guidelines\n* Hemoglobin A1c (A1C) at the start of study participation of 7.0-10.5% (53-91 mmol/mol)\n* On stable allowable anti-hyperglycemic agents (AHA) or on no background AHA for at least 8 weeks prior to the study participation\n* Body Mass Index (BMI) \\> or = to 18.0 kg/m\\^2\n* Evidence or a history of atherosclerosis involving the coronary, cerebral or peripheral vascular systems\n* There is adequate documentation of the objective evidence that the participant has established vascular disease such as investigational site's medical records, copies of such records from other institutions, or a letter from a referring physician that specifically states the diagnosis and date of the most recent occurrence of the qualifying event(s) or procedure(s).\n* Male, female not or reproductive potential, or female of reproductive potential who agrees to be abstinent from heterosexual activity or agrees to use or have their partner use 2 acceptable methods of contraception\n\nExclusion Criteria (Overall Cardiovascular Study):\n\n* Previous randomization into this trial\n* Experiencing a cardiovascular event (myocardial infarction or stroke) or undergoing coronary angioplasty or peripheral intervention procedure between the Screening Visit and randomization\n* Undergoing any cardiovascular surgery (valvular surgery) within 3 months of study participation\n* Planned revascularization or peripheral intervention procedure or other cardiovascular surgery\n* New York Heart Association (NYHA) IV heart failure at study participation\n* History of type 1 diabetes mellitus or a history of ketoacidosis\n\nKey Inclusion Criteria for the 3 Glycemic Sub-studies:\n\n1. Insulin With or Without Metformin Sub-study: Stable doses of insulin (\\>=20 units/day, with variations up to 10% in the daily dose permitted) with or without metformin (\\>=1500 mg/day) for at least 8 weeks prior to the time of the Screening Visit (V1) and during the period between the Screening Visit (V1) and randomization.\n2. Sulfonylurea (SU) Monotherapy Sub-study: Participants receiving a stable dose of SU monotherapy for at least 8 weeks prior to the time of the Screening Visit (V1) and during the period between the Screening Visit (V1) and randomization.\n3. Metformin with SU Sub-study: Participants receiving a stable dose metformin (≥1500 mg/day) with a SU for at least 8 weeks prior to the time of the Screening Visit (V1) and during the period between the Screening Visit (V1) and randomization.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -149,6 +149,78 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of T2DM in accordance with American Diabetes Association (ADA) guidelines",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "Hemoglobin A1c (A1C) at the start of study participation of 7.0-10.5% (53-91 mmol/mol)",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "On stable allowable anti-hyperglycemic agents (AHA) or on no background AHA for at least 8 weeks prior to the study participation",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "Body Mass Index (BMI) > or = to 18.0 kg/m^2",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "Evidence or a history of atherosclerosis involving the coronary, cerebral or peripheral vascular systems",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "There is adequate documentation of the objective evidence that the participant has established vascular disease such as investigational site's medical records, copies of such records from other institutions, or a letter from a referring physician that specifically states the diagnosis and date of the most recent occurrence of the qualifying event(s) or procedure(s).",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "Male, female not or reproductive potential, or female of reproductive potential who agrees to be abstinent from heterosexual activity or agrees to use or have their partner use 2 acceptable methods of contraception",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "Insulin With or Without Metformin Sub-study: Stable doses of insulin (>=20 units/day, with variations up to 10% in the daily dose permitted) with or without metformin (>=1500 mg/day) for at least 8 weeks prior to the time of the Screening Visit (V1) and during the period between the Screening Visit (V1) and randomization.",
+    "group": "for the 3 Glycemic Sub-studies"
+   },
+   {
+    "text": "Sulfonylurea (SU) Monotherapy Sub-study: Participants receiving a stable dose of SU monotherapy for at least 8 weeks prior to the time of the Screening Visit (V1) and during the period between the Screening Visit (V1) and randomization.",
+    "group": "for the 3 Glycemic Sub-studies"
+   },
+   {
+    "text": "Metformin with SU Sub-study: Participants receiving a stable dose metformin (≥1500 mg/day) with a SU for at least 8 weeks prior to the time of the Screening Visit (V1) and during the period between the Screening Visit (V1) and randomization.",
+    "group": "for the 3 Glycemic Sub-studies"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Previous randomization into this trial",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "Experiencing a cardiovascular event (myocardial infarction or stroke) or undergoing coronary angioplasty or peripheral intervention procedure between the Screening Visit and randomization",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "Undergoing any cardiovascular surgery (valvular surgery) within 3 months of study participation",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "Planned revascularization or peripheral intervention procedure or other cardiovascular surgery",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "New York Heart Association (NYHA) IV heart failure at study participation",
+    "group": "(Overall Cardiovascular Study)"
+   },
+   {
+    "text": "History of type 1 diabetes mellitus or a history of ketoacidosis",
+    "group": "(Overall Cardiovascular Study)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

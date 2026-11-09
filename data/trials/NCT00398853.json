@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Pennington Biomedical Research Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Pennington Biomedical Research Center"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "chromium picolinate 1000 mcg daily vs placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Chromium Picolinate",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: chromium picolinate 1000 mcg daily vs placebo"
-   ]
+   ],
+   "label": "Chromium Picolinate",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The effect of Chromium to improve glucose levels in diabetes is controversial. The hypothesis of the study was to evaluate the effect of supplementing the diet of individuals with Type 2 diabetes with chromium picolinate and assessing the effect of the supplementation on insulin sensitivity as assessed with hyperinsulinemic clamps",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* On no meds to alter glucose metabolism\n* age greater than 25 years old\n* Fasting glucose greater than 125 mg/dl at screening\n\nExclusion Criteria:\n\n* Subjects on insulin\n* Sujbects on meds that alter glucose metabolism\n* Use of glitazones\n* C0-existing disorders in major organ systems such as heart, kidneys, liver",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Pennington Biomedical Research Center",
    "city": "Baton Rouge",
-   "state": "Louisiana",
    "country": "United States",
-   "status": null,
+   "facility": "Pennington Biomedical Research Center",
    "lat": 30.44332,
-   "lon": -91.18747
+   "lon": -91.18747,
+   "state": "Louisiana",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00398853",
@@ -115,6 +115,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "On no meds to alter glucose metabolism"
+   },
+   {
+    "text": "age greater than 25 years old"
+   },
+   {
+    "text": "Fasting glucose greater than 125 mg/dl at screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects on insulin"
+   },
+   {
+    "text": "Sujbects on meds that alter glucose metabolism"
+   },
+   {
+    "text": "Use of glitazones"
+   },
+   {
+    "text": "C0-existing disorders in major organ systems such as heart, kidneys, liver"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

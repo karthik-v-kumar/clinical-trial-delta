@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital, Strasbourg, France",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital, Strasbourg, France"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Continuous blind glucose measurement device (Free style Pro)",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Tele-expertise",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Standard",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Continuous blind glucose measurement device (Free style Pro)"
-   ]
+   ],
+   "label": "Standard",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -76,10 +76,10 @@
  "brief_summary": "Diabetes is a major factor of morbi-mortality in Covid-19 infection. Currently, steroid therapy is required in patients under oxygen therapy. This treatment is associated with hyper glycaemia in patients with diabetes. Recommendations for the management of diabetes during Covid-19 infection is to use insulin treatment. The majority of units involves in the management of patient with Covid19 infection are not the experience in managing intensive insulin therapy and the time to ensure this follow-up. All the data in the literature are in favor of a positive impact of telemedicine on the metabolic control of diabetic patients. However, the routine use of telemedicine and more particularly tele-expertise within hospital units is very underdeveloped in France. The epidemic of Covid-19 represents a unique situation where the health authorities recommend to physicians to use telemedicine to ensure the follow-up and optimal management of patients. The aim of this study was to compare the metabolic control of diabetic patients infected with Covid-19 followed in tele-expertise to a group of diabetic patients infected with Covid-19 managed in standard conditions.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient adult hospitalized for Covid-19 infection in the Infectious Diseases Department of the University Hospital of Strasbourg (HUS)\n* Patient requiring steroid treatment\n* Diabetic patient (type 1,2, MODY, secondary) or with corticosteroid-induced diabetes following initiation of corticosteroid treatment\n\nExclusion Criteria:\n\n* Contraindication to the use of the Free-Style Medical Device",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -87,13 +87,13 @@
  },
  "sites": [
   {
-   "facility": "Hopitaux Universitaires de Strasbourg",
    "city": "Strasbourg",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Hopitaux Universitaires de Strasbourg",
    "lat": 48.58392,
-   "lon": 7.74553
+   "lon": 7.74553,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04726163",
@@ -105,6 +105,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient adult hospitalized for Covid-19 infection in the Infectious Diseases Department of the University Hospital of Strasbourg (HUS)"
+   },
+   {
+    "text": "Patient requiring steroid treatment"
+   },
+   {
+    "text": "Diabetic patient (type 1,2, MODY, secondary) or with corticosteroid-induced diabetes following initiation of corticosteroid treatment"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Contraindication to the use of the Free-Style Medical Device"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

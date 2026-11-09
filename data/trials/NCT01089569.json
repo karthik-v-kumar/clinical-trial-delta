@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-05-23",
  "has_results": true,
  "lead_sponsor": {
-  "name": "HealthPartners Institute",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "HealthPartners Institute"
  },
  "collaborators": [
   "International Diabetes Center at Park Nicollet",
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Exenatide",
    "other_names": [
     "Bydureon"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine",
    "other_names": [
     "Lantus"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Exenatide"
-   ]
+   ],
+   "label": "Exenatide",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Insulin Glargine",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "Insulin Glargine",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Exenatide + Insulin Glargine",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Exenatide",
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "Exenatide + Insulin Glargine",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The primary purpose of this study is to compare the effect on 24-hour blood glucose patterns, HbA1c, and weight management when adding insulin glargine, or exenatide, or a combination of insulin glargine and exenatide to metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female subjects ≥18 and ≤75 years of age\n* Clinical diagnosis of type 2 diabetes\n* Diabetes duration ≥ 1 year\n* HbA1c ≥7.0%\n* Currently treated with metformin (HbA1c ≤9%) or metformin/sulfonylurea (SU) (HbA1c ≤8%)or SU alone (HbA1c ≤8%)\n\nExclusion Criteria:\n\n* Previously treated with insulin or incretin-based therapy\n* Treated with a thiazolidinedione within past 6 weeks\n* Taken oral or injected prednisone or cortisone medications in the previous 30 days\n* Any pancreatic disease or at high risk of pancreatitis (history of alcohol abuse, active gallbladder disease)\n* Serum creatinine \\>1.4mg/dL (women) or \\>1.5 mg/dL (men)\n* eGFR (Estimated Glomerular Filtration Rate) \\<30 ml/min (using MDRD/ Modification of Diet in Renal Disease equation)\n* ALT(Alanine Transaminase) \\> 2x Upper Limit of Normal (ULN)\n* Presence of any severe medical or psychological condition or chronic conditions/infections that in the opinion of the Investigator would compromise he subject's safety or successful participation in the study\n* Currently pregnant or planning pregnancy during the study period\n* Unable to follow the study protocol\n* Unable to speak, read and write in English\n* Uncontrolled hyperglycemia with HbA1c \\> 9% on metformin or \\>8% on SU or metformin/SU combination or ketonuria requiring immediate insulin therapy\n* At the investigator's discretion for other medical or psychological reasons",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "International Diabetes Center",
    "city": "Minneapolis",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "International Diabetes Center",
    "lat": 44.97997,
-   "lon": -93.26384
+   "lon": -93.26384,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01089569",
@@ -127,6 +127,68 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female subjects ≥18 and ≤75 years of age"
+   },
+   {
+    "text": "Clinical diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "Diabetes duration ≥ 1 year"
+   },
+   {
+    "text": "HbA1c ≥7.0%"
+   },
+   {
+    "text": "Currently treated with metformin (HbA1c ≤9%) or metformin/sulfonylurea (SU) (HbA1c ≤8%)or SU alone (HbA1c ≤8%)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Previously treated with insulin or incretin-based therapy"
+   },
+   {
+    "text": "Treated with a thiazolidinedione within past 6 weeks"
+   },
+   {
+    "text": "Taken oral or injected prednisone or cortisone medications in the previous 30 days"
+   },
+   {
+    "text": "Any pancreatic disease or at high risk of pancreatitis (history of alcohol abuse, active gallbladder disease)"
+   },
+   {
+    "text": "Serum creatinine >1.4mg/dL (women) or >1.5 mg/dL (men)"
+   },
+   {
+    "text": "eGFR (Estimated Glomerular Filtration Rate) <30 ml/min (using MDRD/ Modification of Diet in Renal Disease equation)"
+   },
+   {
+    "text": "ALT(Alanine Transaminase) > 2x Upper Limit of Normal (ULN)"
+   },
+   {
+    "text": "Presence of any severe medical or psychological condition or chronic conditions/infections that in the opinion of the Investigator would compromise he subject's safety or successful participation in the study"
+   },
+   {
+    "text": "Currently pregnant or planning pregnancy during the study period"
+   },
+   {
+    "text": "Unable to follow the study protocol"
+   },
+   {
+    "text": "Unable to speak, read and write in English"
+   },
+   {
+    "text": "Uncontrolled hyperglycemia with HbA1c > 9% on metformin or >8% on SU or metformin/SU combination or ketonuria requiring immediate insulin therapy"
+   },
+   {
+    "text": "At the investigator's discretion for other medical or psychological reasons"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

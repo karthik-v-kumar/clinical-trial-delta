@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Dr. Zarmina Younes",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Dr. Zarmina Younes"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Empagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This randomized controlled trial studied whether empagliflozin lowers blood pressure better than non-SGLT2 oral hypoglycemic treatment in adults with type 2 diabetes mellitus and hypertension. A total of 300 participants were assigned to 1 of 2 treatment groups and followed for 12 weeks. One group received empagliflozin and the other received non-SGLT2 oral therapy. Blood pressure was measured at baseline and again after 12 weeks to compare the effect of treatment on systolic and diastolic blood pressure.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults aged 20 to 70 years Either male or female Type 2 diabetes mellitus for more than 3 months Hypertension for more than 3 months\n\nExclusion Criteria:\n\n* Heart failure Chronic renal failure Pregnant women History of hypertension preceding type 2 diabetes mellitus by more than 6 months",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Shahida Islam Medical College, Lodhran",
    "city": "Lodhran",
-   "state": "Punjab Province",
    "country": "Pakistan",
-   "status": null,
+   "facility": "Shahida Islam Medical College, Lodhran",
    "lat": 29.5339,
-   "lon": 71.63244
+   "lon": 71.63244,
+   "state": "Punjab Province",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07541456",
@@ -115,6 +115,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults aged 20 to 70 years Either male or female Type 2 diabetes mellitus for more than 3 months Hypertension for more than 3 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Heart failure Chronic renal failure Pregnant women History of hypertension preceding type 2 diabetes mellitus by more than 6 months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

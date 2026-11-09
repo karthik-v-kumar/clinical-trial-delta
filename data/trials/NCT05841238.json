@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2026-07-10",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -49,39 +49,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "LY3502970",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: LY3502970"
+   ],
    "label": "Part A: LY3502970 (Periods 1 to 11)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: LY3502970"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: LY3502970"
+   ],
    "label": "Part B: 45 mg LY3502970 / 60 mg LY3502970 (Periods 12 to 13)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: LY3502970"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: LY3502970"
+   ],
    "label": "Part B: 35 mg LY3502970 / 35 mg LY3502970 (Periods 12 to 13)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: LY3502970"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part B: 36 mg LY3502970 DF / 36 mg LY3502970 EPB (Periods 12 to 13)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3502970"
-   ]
+   ],
+   "label": "Part B: 36 mg LY3502970 DF / 36 mg LY3502970 EPB (Periods 12 to 13)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "The main purpose of this study is to evaluate how much LY3502970 gets into the bloodstream and how long it takes the body to eliminate when administered orally as tablet and capsule formulations along with effect of food on LY3502970 in healthy overweight and obese participants. The study will also evaluate the safety and tolerability of LY3502970 in these participants. The study is conducted in two parts (part A and B) and will last up to 135 days including the screening period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female participants who are overtly healthy as determined by medical evaluation\n* Participants with body mass index (BMI) of 27.0 kilograms per meter squared (kg/m²) or more\n* Participants with a stable body weight, with 5% or less body weight gain or loss\n\nExclusion Criteria:\n\n* Have any type of diabetes with hemoglobin A1c (HbA1c) level of 6.5% or greater or a fasting blood sugar over 120 milligram per deciliter (mg/dL)\n* Obesity induced by other endocrine disorders, such as Cushing's syndrome or Prader-Willi syndrome\n* Have known clinically significant gastric emptying abnormality\n* Have undergone bariatric surgery (for example: Lap-Band, Gastric Bypass)\n* Known self or family history (first-degree relative) of multiple endocrine neoplasia type 2A or type 2B, thyroid C-cell hyperplasia, or any form of thyroid cancer\n* Have significant previous or current history of comorbidities capable of significantly altering the absorption, metabolism, or elimination of drug\n* Have significant history of or currently have Major Depressive Disorder or psychiatric disorder within the last 2 years",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,31 +112,31 @@
  },
  "sites": [
   {
-   "facility": "LabCorp CRU, Inc.",
    "city": "Daytona Beach",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
-   "lat": 29.21081,
-   "lon": -81.02283
-  },
-  {
-   "facility": "Labcorp Clinical Research LP",
-   "city": "Dallas",
-   "state": "Texas",
-   "country": "United States",
-   "status": null,
-   "lat": 32.78306,
-   "lon": -96.80667
-  },
-  {
    "facility": "LabCorp CRU, Inc.",
-   "city": "Madison",
-   "state": "Wisconsin",
+   "lat": 29.21081,
+   "lon": -81.02283,
+   "state": "Florida",
+   "status": null
+  },
+  {
+   "city": "Dallas",
    "country": "United States",
-   "status": null,
+   "facility": "Labcorp Clinical Research LP",
+   "lat": 32.78306,
+   "lon": -96.80667,
+   "state": "Texas",
+   "status": null
+  },
+  {
+   "city": "Madison",
+   "country": "United States",
+   "facility": "LabCorp CRU, Inc.",
    "lat": 43.07305,
-   "lon": -89.40123
+   "lon": -89.40123,
+   "state": "Wisconsin",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05841238",
@@ -151,6 +151,44 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female participants who are overtly healthy as determined by medical evaluation"
+   },
+   {
+    "text": "Participants with body mass index (BMI) of 27.0 kilograms per meter squared (kg/m²) or more"
+   },
+   {
+    "text": "Participants with a stable body weight, with 5% or less body weight gain or loss"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have any type of diabetes with hemoglobin A1c (HbA1c) level of 6.5% or greater or a fasting blood sugar over 120 milligram per deciliter (mg/dL)"
+   },
+   {
+    "text": "Obesity induced by other endocrine disorders, such as Cushing's syndrome or Prader-Willi syndrome"
+   },
+   {
+    "text": "Have known clinically significant gastric emptying abnormality"
+   },
+   {
+    "text": "Have undergone bariatric surgery (for example: Lap-Band, Gastric Bypass)"
+   },
+   {
+    "text": "Known self or family history (first-degree relative) of multiple endocrine neoplasia type 2A or type 2B, thyroid C-cell hyperplasia, or any form of thyroid cancer"
+   },
+   {
+    "text": "Have significant previous or current history of comorbidities capable of significantly altering the absorption, metabolism, or elimination of drug"
+   },
+   {
+    "text": "Have significant history of or currently have Major Depressive Disorder or psychiatric disorder within the last 2 years"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

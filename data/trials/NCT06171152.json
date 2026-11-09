@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Chicago",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Chicago"
  },
  "collaborators": [],
  "conditions": [
@@ -54,35 +54,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide Pen Injector [Saxenda]",
    "other_names": [
     "Saxenda",
     "Victoza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Medication Diary",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Study Group 1 (Drug Regimen A)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide Pen Injector [Saxenda]",
     "Other: Medication Diary"
-   ]
+   ],
+   "label": "Study Group 1 (Drug Regimen A)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Study Group 2 (Drug Regimen B)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide Pen Injector [Saxenda]",
     "Other: Medication Diary"
-   ]
+   ],
+   "label": "Study Group 2 (Drug Regimen B)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -94,23 +94,23 @@
  "brief_summary": "This study is for people who have multiple sclerosis, acute leukemia (in remission), or long-COVID and a Body Mass Index over 27 and may struggle with cognitive issues such as remembering information, concentrating, or making decisions that affect everyday life.\n\nBy doing this study, researchers hope to learn how liraglutide (Saxenda®), a weight loss drug, affects levels of a certain disease marker in the body called Brain Derived Neurotrophic Factor (BDNF). Participation in this research will last about 21 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patients with MS, acute leukemia in remission, or long-COVID and subjective symptoms of cognitive impairment a. Patients with acute leukemia must be in remission for at least 6 months but may be on maintenance therapy\n\n   * Must have BMI greater than or equal to 27 along with one weight related condition such as hypertension, insulin resistance, or dyslipidemia or with BMI greater than or equal to 30 alone\n   * Ages ≥18 but \\<40 years old\n   * Adequate organ function as defined by the following:\n\n     1. Creatinine ≤1.5 mg/dL\n     2. Aspartate aminotransferase (AST) and alanine transaminase (ALT) ≤5 x upper limit normal (ULN) and bilirubin ≤1.5 mg/dL\n   * Participants must be at least 2 months from major surgery, radiation therapy, or participation in other investigational trials, and must have recovered from clinically significant toxicities related to these prior treatments.\n   * Female participants of childbearing potential must have negative results for a pregnancy test at baseline testing time point\n   * Must be willing to use appropriate contraception\n   * The effects of liraglutide on the developing human fetus are unknown. For this reason, women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she is participating in this study, she should inform her treating physician immediately. Men treated or enrolled on this protocol must also agree to use adequate contraception prior to the study, for the duration of study participation, and 8 weeks after completion of liraglutide administration.\n   * Ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* History of multiple endocrine neoplasia type 2 (MEN2)\n* Personal or family history of thyroid cancer\n* Previous or current diagnosis of acute and/or chronic pancreatitis\n* Any prior GLP-1 agonist therapy\n* Poorly controlled diabetes mellitus with an indication for liraglutide (Victoza) for its management\n* Previous or current diagnosis of fibromyalgia\n* Participants who are receiving any other investigational agents.\n* Participants with a \"currently active\" second malignancy other than non-melanoma skin cancers. Patients are not considered to have a \"currently active\" malignancy if they have completed therapy and are free of disease for ≥ 3 years.\n* Participants with known brain metastases should be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events.\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to liraglutide.\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.\n* Pregnant women are excluded from this study because liraglutide is a Category X agent with the potential for teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with liraglutide, breastfeeding should be discontinued prior to enrollment in the trial.\n* Participants with congenital cognitive dysfunction or severe cognitive dysfunction unrelated to diagnosis of leukemia, Multiple Sclerosis, or COVID.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "40 Years",
   "healthy_volunteers": false,
+  "maximum_age": "40 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "University of Chicago Medicine Comprehensive Cancer Center",
    "city": "Chicago",
-   "state": "Illinois",
    "country": "United States",
-   "status": null,
+   "facility": "University of Chicago Medicine Comprehensive Cancer Center",
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06171152",
@@ -122,6 +122,68 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with MS, acute leukemia in remission, or long-COVID and subjective symptoms of cognitive impairment a. Patients with acute leukemia must be in remission for at least 6 months but may be on maintenance therapy",
+    "sub_items": [
+     "Must have BMI greater than or equal to 27 along with one weight related condition such as hypertension, insulin resistance, or dyslipidemia or with BMI greater than or equal to 30 alone",
+     "Ages ≥18 but <40 years old",
+     "Adequate organ function as defined by the following:",
+     "Creatinine ≤1.5 mg/dL",
+     "Aspartate aminotransferase (AST) and alanine transaminase (ALT) ≤5 x upper limit normal (ULN) and bilirubin ≤1.5 mg/dL",
+     "Participants must be at least 2 months from major surgery, radiation therapy, or participation in other investigational trials, and must have recovered from clinically significant toxicities related to these prior treatments.",
+     "Female participants of childbearing potential must have negative results for a pregnancy test at baseline testing time point",
+     "Must be willing to use appropriate contraception",
+     "The effects of liraglutide on the developing human fetus are unknown. For this reason, women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she is participating in this study, she should inform her treating physician immediately. Men treated or enrolled on this protocol must also agree to use adequate contraception prior to the study, for the duration of study participation, and 8 weeks after completion of liraglutide administration.",
+     "Ability to understand and the willingness to sign a written informed consent document."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of multiple endocrine neoplasia type 2 (MEN2)"
+   },
+   {
+    "text": "Personal or family history of thyroid cancer"
+   },
+   {
+    "text": "Previous or current diagnosis of acute and/or chronic pancreatitis"
+   },
+   {
+    "text": "Any prior GLP-1 agonist therapy"
+   },
+   {
+    "text": "Poorly controlled diabetes mellitus with an indication for liraglutide (Victoza) for its management"
+   },
+   {
+    "text": "Previous or current diagnosis of fibromyalgia"
+   },
+   {
+    "text": "Participants who are receiving any other investigational agents."
+   },
+   {
+    "text": "Participants with a \"currently active\" second malignancy other than non-melanoma skin cancers. Patients are not considered to have a \"currently active\" malignancy if they have completed therapy and are free of disease for ≥ 3 years."
+   },
+   {
+    "text": "Participants with known brain metastases should be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events."
+   },
+   {
+    "text": "History of allergic reactions attributed to compounds of similar chemical or biologic composition to liraglutide."
+   },
+   {
+    "text": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements."
+   },
+   {
+    "text": "Pregnant women are excluded from this study because liraglutide is a Category X agent with the potential for teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with liraglutide, breastfeeding should be discontinued prior to enrollment in the trial."
+   },
+   {
+    "text": "Participants with congenital cognitive dysfunction or severe cognitive dysfunction unrelated to diagnosis of leukemia, Multiple Sclerosis, or COVID."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

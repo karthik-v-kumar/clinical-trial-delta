@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Astellas Pharma Inc",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Astellas Pharma Inc"
  },
  "collaborators": [],
  "conditions": [
@@ -53,63 +53,63 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "YM543",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: YM543"
+   ],
    "label": "1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: YM543"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: YM543"
+   ],
    "label": "2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: YM543"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: YM543"
+   ],
    "label": "3",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: YM543"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: YM543"
+   ],
    "label": "4",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: YM543"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "5",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "5",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "6",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "6",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -121,10 +121,10 @@
  "brief_summary": "The purpose of this study is to investigate the safety of YM543 in type 2 Diabetes Mellitus patients and to investigate whether this study drug is effective in these patients",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Treatment-naive subjects diagnosed with T2DM\n* Stable diet and exercise program for at least 6 weeks\n* Inadequate glycemic control indicated by HbA1c and FPG level at Visit 1\n\nExclusion Criteria:\n\n* Any known complication of T2DM indicating a late disease state, clinical manifestations of macro- and/or micro vascular disorders\n* Use of insulin or oral blood glucose lowering drugs in the last 3 months",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -132,58 +132,58 @@
  },
  "sites": [
   {
-   "facility": "4 Sites",
    "city": "Moscow",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "4 Sites",
    "lat": 55.75204,
-   "lon": 37.61781
+   "lon": 37.61781,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Nizhny Novgorod",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": null,
    "lat": 56.32867,
-   "lon": 44.00205
+   "lon": 44.00205,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Petrozavodsk",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": null,
    "lat": 61.78491,
-   "lon": 34.34691
+   "lon": 34.34691,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "10 Sites",
    "city": "Saint Petersburg",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "10 Sites",
    "lat": 59.93863,
-   "lon": 30.31413
+   "lon": 30.31413,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Samara",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": null,
    "lat": 53.20767,
-   "lon": 50.13553
+   "lon": 50.13553,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Yekaterinburg",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": null,
    "lat": 56.85733,
-   "lon": 60.61529
+   "lon": 60.61529,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00454233",
@@ -195,6 +195,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Treatment-naive subjects diagnosed with T2DM"
+   },
+   {
+    "text": "Stable diet and exercise program for at least 6 weeks"
+   },
+   {
+    "text": "Inadequate glycemic control indicated by HbA1c and FPG level at Visit 1"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any known complication of T2DM indicating a late disease state, clinical manifestations of macro- and/or micro vascular disorders"
+   },
+   {
+    "text": "Use of insulin or oral blood glucose lowering drugs in the last 3 months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

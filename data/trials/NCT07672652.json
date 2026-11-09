@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Izmir Katip Celebi University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Izmir Katip Celebi University"
  },
  "collaborators": [],
  "conditions": [
@@ -49,25 +49,25 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Venous blood sampling and Alb-PRF preparation",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Type 2 Diabetes Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Venous blood sampling and Alb-PRF preparation"
-   ]
+   ],
+   "label": "Type 2 Diabetes Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Systemically Healthy Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Venous blood sampling and Alb-PRF preparation"
-   ]
+   ],
+   "label": "Systemically Healthy Group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "Diabetes mellitus is a metabolic disease that can negatively affect wound healing and tissue repair. Albumin platelet-rich fibrin (Alb-PRF) is a blood-derived biomaterial used in periodontal and regenerative treatments. It contains growth factors and cytokines that may support tissue healing.\n\nThe purpose of this study is to evaluate whether type 2 diabetes affects the biological composition of Alb-PRF. For this purpose, Alb-PRF samples obtained from individuals with type 2 diabetes will be compared with samples obtained from systemically healthy individuals.\n\nA total of 20 participants will be included in the study: 10 individuals with type 2 diabetes and 10 systemically healthy individuals. Venous blood samples will be collected from each participant, and Alb-PRF will be prepared using a standardized protocol. The prepared samples will be stored at -80°C until laboratory analysis.\n\nThe levels of interleukin-6 (IL-6), epidermal growth factor (EGF), and insulin-like growth factor-1 (IGF-1) in Alb-PRF samples will be measured using an enzyme-linked immunosorbent assay (ELISA). These markers are related to inflammation, tissue repair, and wound healing. The results will help determine whether type 2 diabetes changes the cytokine and growth factor profile of Alb-PRF.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nFor the type 2 diabetes group:\n\n* Diagnosis of type 2 diabetes\n* HbA1c value of at least 7%\n* Age over 18 years\n* Non-smoker\n* No use of antibiotics, anti-inflammatory drugs, or systemic corticosteroids within the last 6 months\n* Not pregnant or lactating\n* Willingness to participate in the study and signing of the informed consent form\n\nFor the systemically healthy group:\n\n* No history of diabetes or prediabetes\n* Age over 18 years\n* Non-smoker\n* No use of antibiotics, anti-inflammatory drugs, or systemic corticosteroids within the last 6 months\n* Not pregnant or lactating\n* Willingness to participate in the study and signing of the informed consent form\n\nExclusion Criteria:\n\n* Age under 18 years\n* Pregnancy or lactation\n* Use of antibiotics, anti-inflammatory drugs, or systemic corticosteroids within the last 6 months\n* Smoking\n* Refusal to participate in the study or not signing the informed consent form",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "İzmir Katip Çelebi University",
    "city": "Izmir",
-   "state": "Cigli",
    "country": "Turkey (Türkiye)",
-   "status": null,
+   "facility": "İzmir Katip Çelebi University",
    "lat": 38.41273,
-   "lon": 27.13838
+   "lon": 27.13838,
+   "state": "Cigli",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07672652",
@@ -116,6 +116,81 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 2 diabetes",
+    "group": "For the type 2 diabetes group"
+   },
+   {
+    "text": "HbA1c value of at least 7%",
+    "group": "For the type 2 diabetes group"
+   },
+   {
+    "text": "Age over 18 years",
+    "group": "For the type 2 diabetes group"
+   },
+   {
+    "text": "Non-smoker",
+    "group": "For the type 2 diabetes group"
+   },
+   {
+    "text": "No use of antibiotics, anti-inflammatory drugs, or systemic corticosteroids within the last 6 months",
+    "group": "For the type 2 diabetes group"
+   },
+   {
+    "text": "Not pregnant or lactating",
+    "group": "For the type 2 diabetes group"
+   },
+   {
+    "text": "Willingness to participate in the study and signing of the informed consent form",
+    "group": "For the type 2 diabetes group"
+   },
+   {
+    "text": "No history of diabetes or prediabetes",
+    "group": "For the systemically healthy group"
+   },
+   {
+    "text": "Age over 18 years",
+    "group": "For the systemically healthy group"
+   },
+   {
+    "text": "Non-smoker",
+    "group": "For the systemically healthy group"
+   },
+   {
+    "text": "No use of antibiotics, anti-inflammatory drugs, or systemic corticosteroids within the last 6 months",
+    "group": "For the systemically healthy group"
+   },
+   {
+    "text": "Not pregnant or lactating",
+    "group": "For the systemically healthy group"
+   },
+   {
+    "text": "Willingness to participate in the study and signing of the informed consent form",
+    "group": "For the systemically healthy group"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Age under 18 years"
+   },
+   {
+    "text": "Pregnancy or lactation"
+   },
+   {
+    "text": "Use of antibiotics, anti-inflammatory drugs, or systemic corticosteroids within the last 6 months"
+   },
+   {
+    "text": "Smoking"
+   },
+   {
+    "text": "Refusal to participate in the study or not signing the informed consent form"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

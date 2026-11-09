@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Amgen",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Amgen"
  },
  "collaborators": [],
  "conditions": [
@@ -51,39 +51,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AMG 133",
    "other_names": [
     "Maridebart cafraglutide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Acetaminophen",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AMG 133",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AMG 133",
     "Drug: Acetaminophen"
-   ]
+   ],
+   "label": "AMG 133",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Acetaminophen"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -111,10 +111,10 @@
  "brief_summary": "The primary objective of the trial is to evaluate the effect of AMG 133 versus placebo on acetaminophen pharmacokinetics (PK), a marker for gastric emptying, in participants living with overweight or obesity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female participants between 18 and 65 years of age.\n\n  a. Females must not be pregnant or lactating.\n* Body mass index between ≥ 27 to \\< 40 kg/m\\^2.\n\nExclusion Criteria:\n\n* History or evidence of clinically significant disorder, condition, or disease not otherwise excluded that would pose a risk to participant safety or interfere with the study evaluation, procedures, or completion.\n* History of or active diabetes or Hemoglobin A1C ≥ 6.5% (≥ 48 mmol/mol).\n* History or evidence of endocrine disorder.\n* History of acute or chronic pancreatitis within 1 year, or elevation in serum lipase/amylase (\\> 2 x the upper limit of normal \\[ULN\\]), or fasting serum triglyceride level of \\> 500 mg/dL.\n* Personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia type 2.\n* Uncontrolled thyroid disease.\n* History of or current signs of gastroparesis.\n* History or current signs or symptoms of cardiovascular disease.\n* History suggestive of esophageal, gastric, or duodenal ulceration or bowel disease; or a history of gastrointestinal surgery other than uncomplicated appendectomy or hernia repair.\n* History of gastrointestinal tract disease causing the inability to take oral medication, malabsorption syndrome, requirement for intravenous alimentation, gastric/jejunal tube feeds, or uncontrolled inflammatory gastrointestinal disease.\n* History of hypersensitivity, intolerance, or allergy to AMG 133 or related/similar compounds or acetaminophen or their ingredients.\n* Any contraindication to acetaminophen according to the applicable labelling.\n* Inability to swallow oral medication.\n* Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 2 x the upper limit of normal.\n* Use of any over-the-counter or prescription medications within 30 days or 5 half-lives.\n* Current use or prior use of any glucagon-like peptide 1 receptor (GLP-1R) agonist, or glucose-dependent insulinotropic polypeptide receptor (GIPR) agonist or antagonist within the past 3 months.\n* Current or prior use of all herbal medicines (e.g., St. John's wort), vitamins, and supplements consumed by the participant within the 30 days prior to enrollment.\n* Participant has received a dose of an investigational medicinal product (IMP) within the past 30 days or 5 half-lives.\n* Have previously completed or withdrawn from this study or any other study investigating AMG 133 or have previously received the IMP.\n* Current use of acute or chronic medication known to affect gastric emptying.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -122,13 +122,13 @@
  },
  "sites": [
   {
-   "facility": "Fortrea Clinical Research Unit - Daytona Beach",
    "city": "Daytona Beach",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Fortrea Clinical Research Unit - Daytona Beach",
    "lat": 29.21081,
-   "lon": -81.02283
+   "lon": -81.02283,
+   "state": "Florida",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07429032",
@@ -142,6 +142,83 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female participants between 18 and 65 years of age.",
+    "sub_items": [
+     "Females must not be pregnant or lactating."
+    ]
+   },
+   {
+    "text": "Body mass index between ≥ 27 to < 40 kg/m^2."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History or evidence of clinically significant disorder, condition, or disease not otherwise excluded that would pose a risk to participant safety or interfere with the study evaluation, procedures, or completion."
+   },
+   {
+    "text": "History of or active diabetes or Hemoglobin A1C ≥ 6.5% (≥ 48 mmol/mol)."
+   },
+   {
+    "text": "History or evidence of endocrine disorder."
+   },
+   {
+    "text": "History of acute or chronic pancreatitis within 1 year, or elevation in serum lipase/amylase (> 2 x the upper limit of normal [ULN]), or fasting serum triglyceride level of > 500 mg/dL."
+   },
+   {
+    "text": "Personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia type 2."
+   },
+   {
+    "text": "Uncontrolled thyroid disease."
+   },
+   {
+    "text": "History of or current signs of gastroparesis."
+   },
+   {
+    "text": "History or current signs or symptoms of cardiovascular disease."
+   },
+   {
+    "text": "History suggestive of esophageal, gastric, or duodenal ulceration or bowel disease; or a history of gastrointestinal surgery other than uncomplicated appendectomy or hernia repair."
+   },
+   {
+    "text": "History of gastrointestinal tract disease causing the inability to take oral medication, malabsorption syndrome, requirement for intravenous alimentation, gastric/jejunal tube feeds, or uncontrolled inflammatory gastrointestinal disease."
+   },
+   {
+    "text": "History of hypersensitivity, intolerance, or allergy to AMG 133 or related/similar compounds or acetaminophen or their ingredients."
+   },
+   {
+    "text": "Any contraindication to acetaminophen according to the applicable labelling."
+   },
+   {
+    "text": "Inability to swallow oral medication."
+   },
+   {
+    "text": "Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) > 2 x the upper limit of normal."
+   },
+   {
+    "text": "Use of any over-the-counter or prescription medications within 30 days or 5 half-lives."
+   },
+   {
+    "text": "Current use or prior use of any glucagon-like peptide 1 receptor (GLP-1R) agonist, or glucose-dependent insulinotropic polypeptide receptor (GIPR) agonist or antagonist within the past 3 months."
+   },
+   {
+    "text": "Current or prior use of all herbal medicines (e.g., St. John's wort), vitamins, and supplements consumed by the participant within the 30 days prior to enrollment."
+   },
+   {
+    "text": "Participant has received a dose of an investigational medicinal product (IMP) within the past 30 days or 5 half-lives."
+   },
+   {
+    "text": "Have previously completed or withdrawn from this study or any other study investigating AMG 133 or have previously received the IMP."
+   },
+   {
+    "text": "Current use of acute or chronic medication known to affect gastric emptying."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "CARE_PROVIDER"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mackay Memorial Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mackay Memorial Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,27 +50,27 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "switch twice-daily insulin",
    "other_names": [
     "NovoMix® 30 Penfill®, lantus®, levemir®, NovoRapid®"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Preprandial premix therapy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: switch twice-daily insulin"
-   ]
+   ],
+   "label": "Preprandial premix therapy",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Basal-plus insulin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: switch twice-daily insulin"
-   ]
+   ],
+   "label": "Basal-plus insulin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "Comparison of efficacy and safety of different insulin regimens between basal bolus and premixed insulin in poorly controlled type 2 diabetes",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women with type 2 diabetes.(World Health Organization classification) \\> 20 years of age.\n* Patients who have received stable doses of any OADs for at least 12 weeks prior to the screening visit.\n* treatment with basal insulin plus OADs \\>3 months with suboptimal glycemic control (HbA1c \\>7%)\n* FBG \\<130 mg/dl or FBG ≥130 mg/dl, but daily insulin dose \\>0.7U/kg or had history of nocturnal hypoglycemia\n* Patients who are willing and able to cooperate with study and give signed informed consent.\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes.\n* History of severe hypoglycemia or hypoglycemia unawareness within prior 6 months.\n* Patients who had received any investigational insulin for more than 3 months or who have received investigational insulin treatment within 4 weeks prior to screening visit.\n* Patients hypersensitive with insulin analog or its excipients.\n* Patients who are currently pregnant/lactating, or who are preparing for pregnancy or lactation.\n* Renal dialysis patients, patients with severe liver disease or congestive heart failure\n* BMI \\>40kg/m2\n* Excessive insulin resistance (total daily insulin dose\\>2.0unit/kg)",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,13 +93,13 @@
  },
  "sites": [
   {
-   "facility": "Mackay Memerial Hospital",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Mackay Memerial Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02219750",
@@ -111,6 +111,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women with type 2 diabetes.(World Health Organization classification) > 20 years of age."
+   },
+   {
+    "text": "Patients who have received stable doses of any OADs for at least 12 weeks prior to the screening visit."
+   },
+   {
+    "text": "treatment with basal insulin plus OADs >3 months with suboptimal glycemic control (HbA1c >7%)"
+   },
+   {
+    "text": "FBG <130 mg/dl or FBG ≥130 mg/dl, but daily insulin dose >0.7U/kg or had history of nocturnal hypoglycemia"
+   },
+   {
+    "text": "Patients who are willing and able to cooperate with study and give signed informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes."
+   },
+   {
+    "text": "History of severe hypoglycemia or hypoglycemia unawareness within prior 6 months."
+   },
+   {
+    "text": "Patients who had received any investigational insulin for more than 3 months or who have received investigational insulin treatment within 4 weeks prior to screening visit."
+   },
+   {
+    "text": "Patients hypersensitive with insulin analog or its excipients."
+   },
+   {
+    "text": "Patients who are currently pregnant/lactating, or who are preparing for pregnancy or lactation."
+   },
+   {
+    "text": "Renal dialysis patients, patients with severe liver disease or congestive heart failure"
+   },
+   {
+    "text": "BMI >40kg/m2"
+   },
+   {
+    "text": "Excessive insulin resistance (total daily insulin dose>2.0unit/kg)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

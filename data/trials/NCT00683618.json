@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2012-03-12",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -53,41 +53,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Crestor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "Lipitor"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Rosuvastatin"
+   ],
    "label": "1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Rosuvastatin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Rosuvastatin"
+   ],
    "label": "2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Rosuvastatin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "3",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "This trial is to compare the efficacy, safety and tolerability of Rosuvastatin with Atorvastatin by assessing the change of LDL-C in patients with hypercholesterolemia and history of coronary heart disease (CHD) or risk equivalent, or a 10 year CHD risk of no less than 10%, following 6-week treatment and a possible 6 week extension treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Treated for or diagnosed hypercholesterolemia or have had a high risk with hypercholesterolemia\n* LDL-C between 3.36mmol/L and 6.5 mmol/L if not treated with statin or between 2.6mmol/L and 4.14 mmol/L\n* Fasting triglyceride less than 4.52mmol/L\n\nExclusion Criteria:\n\n* History of statin induced myopathy\n* Unstable or uncontrolled cardiovascular diseases\n* Familial dysbetalipoproteinemia",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,58 +114,58 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Research Site",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Research Site",
    "lat": 31.22222,
-   "lon": 121.45806
-  },
-  {
-   "facility": "Research Site",
-   "city": "Tianjin",
+   "lon": 121.45806,
    "state": null,
+   "status": null
+  },
+  {
+   "city": "Tianjin",
    "country": "China",
-   "status": null,
+   "facility": "Research Site",
    "lat": 39.14222,
-   "lon": 117.17667
+   "lon": 117.17667,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Wuhan",
-   "state": "Hubei",
    "country": "China",
-   "status": null,
+   "facility": "Research Site",
    "lat": 30.58333,
-   "lon": 114.26667
+   "lon": 114.26667,
+   "state": "Hubei",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Changsha",
-   "state": "Hunan",
    "country": "China",
-   "status": null,
+   "facility": "Research Site",
    "lat": 28.19874,
-   "lon": 112.97087
+   "lon": 112.97087,
+   "state": "Hunan",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Shenyang",
-   "state": "Liaoning",
    "country": "China",
-   "status": null,
+   "facility": "Research Site",
    "lat": 41.79222,
-   "lon": 123.43278
+   "lon": 123.43278,
+   "state": "Liaoning",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00683618",
@@ -179,6 +179,32 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Treated for or diagnosed hypercholesterolemia or have had a high risk with hypercholesterolemia"
+   },
+   {
+    "text": "LDL-C between 3.36mmol/L and 6.5 mmol/L if not treated with statin or between 2.6mmol/L and 4.14 mmol/L"
+   },
+   {
+    "text": "Fasting triglyceride less than 4.52mmol/L"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of statin induced myopathy"
+   },
+   {
+    "text": "Unstable or uncontrolled cardiovascular diseases"
+   },
+   {
+    "text": "Familial dysbetalipoproteinemia"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

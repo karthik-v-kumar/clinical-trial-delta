@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Third Military Medical University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Third Military Medical University"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Mosapride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Mosapride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Mosapride"
-   ]
+   ],
+   "label": "Mosapride",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "With the improvement of living level, the incidence rates of diabetes, obesity, and hypertension in China increased quickly, which are 11.6%, 7.1% and 18.8% respectively, according to the newly investigated data. The clustering of diabetes, obesity, hypertension and dyslipidemia increases the risk of cardiovascular events for patients. GLP-1 (glucagon like peptide-1) is a kind of incretin discovered in recent years. It was reported that beside its hypoglycemic and losing weight effects, activator of GLP-1 receptor could decrease blood pressure and improve lipid metabolism. Sleeve gastrectomy can improve the level of blood glucose and serum lipid of type 2 diabetic rats by ameliorate insulin level and insulin resistance, which may be related with the change of gastrointestinal hormones such as ghrelin and GLP-1. So, intervention of gastrointestinal tract and gastrointestinal hormone secretion may be a new therapy for glycolipids disorder and vascular complications. But, it is lack of evidence-based medicine proof on the relationship between prokinetic drug and glycolipids metabolism. So, the investigators designed a prospective, randomized, double-blinded, placebo control study, and try to evaluate the effects of prokinetic drug (Mosapride) on the blood glucose and serum lipid in type 2 diabetic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female, age between 30-65 years old\n* Type 2 diabetes\n* Duration of diabetes less than 5 years and pancreatic function be in compensated stage.\n* 7%≤HbA1C≤9%\n* Patients are able to control diet and exercise by themselves in intervention period.\n\nExclusion Criteria:\n\n* Type 2 diabetes with serious complications, such as diabetic neuropathy, diabetic retinopathy, stage IV diabetic nephropathy, or acute diabetic complications.\n* Type 2 diabetes using insulin, GLP-1 analogues or DPP-IV inhibitors).\n* Heart function in NYHA Grade II-IV or history of cardio-cerebral vascular events such as congestive heart failure, myocardial infarction or stroke within 3 months.\n* Hypohepatia (AST or ALT is two times higher than the upper limit) or history of cirrhosis, hepatic encephalopathy, esophageal varices or portal shunt.\n* Renal insufficiency ( serum creatinine is 1.5 times higher than the upper limit) or history of dialysis and nephritic syndrome.\n* Chronic obstructive pulmonary disease (COPD), chronic respiratory failure or hyoxemia.\n* Acute infections, tumor, severe arrhythmia, mental disorders, alcohol or medicine addiction.\n* Fertile woman without contraceptives.\n* Any surgical or medical conditions that significantly influence absorption, distribution, metabolism or excretion of the intervention drugs.\n* Allergic to or have contraindication to the intervention drugs.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,6 +119,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female, age between 30-65 years old"
+   },
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Duration of diabetes less than 5 years and pancreatic function be in compensated stage."
+   },
+   {
+    "text": "7%≤HbA1C≤9%"
+   },
+   {
+    "text": "Patients are able to control diet and exercise by themselves in intervention period."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 diabetes with serious complications, such as diabetic neuropathy, diabetic retinopathy, stage IV diabetic nephropathy, or acute diabetic complications."
+   },
+   {
+    "text": "Type 2 diabetes using insulin, GLP-1 analogues or DPP-IV inhibitors)."
+   },
+   {
+    "text": "Heart function in NYHA Grade II-IV or history of cardio-cerebral vascular events such as congestive heart failure, myocardial infarction or stroke within 3 months."
+   },
+   {
+    "text": "Hypohepatia (AST or ALT is two times higher than the upper limit) or history of cirrhosis, hepatic encephalopathy, esophageal varices or portal shunt."
+   },
+   {
+    "text": "Renal insufficiency ( serum creatinine is 1.5 times higher than the upper limit) or history of dialysis and nephritic syndrome."
+   },
+   {
+    "text": "Chronic obstructive pulmonary disease (COPD), chronic respiratory failure or hyoxemia."
+   },
+   {
+    "text": "Acute infections, tumor, severe arrhythmia, mental disorders, alcohol or medicine addiction."
+   },
+   {
+    "text": "Fertile woman without contraceptives."
+   },
+   {
+    "text": "Any surgical or medical conditions that significantly influence absorption, distribution, metabolism or excretion of the intervention drugs."
+   },
+   {
+    "text": "Allergic to or have contraindication to the intervention drugs."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

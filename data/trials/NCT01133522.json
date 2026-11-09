@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2015-10-22",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Amgen",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Amgen"
  },
  "collaborators": [],
  "conditions": [
@@ -53,33 +53,33 @@
  ],
  "interventions": [
   {
-   "type": "BIOLOGICAL",
    "name": "Evolocumab",
    "other_names": [
     "AMG 145",
     "Repatha"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "BIOLOGICAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Evolocumab",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: Evolocumab"
-   ]
+   ],
+   "label": "Evolocumab",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Biological: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "The purpose of the study is to evaluate the safety and tolerability of multiple doses of evolocumab when given as an add-on to stable statin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women ages 18 to 70 years (inclusive) at the time of screening with hyperlipidemia\n* Body mass index (BMI) ≥18 and ≤ 35 kg/m\\^2 at the time of screening\n* Low-density lipoprotein cholesterol (LDL-C) level of 70-220 mg/dL (inclusive) at screening as measured by direct assay\n* For Cohorts 1-5: On a stable dose of rosuvastatin (Crestor) \\< 40 mg/day, atorvastatin (Lipitor) \\< 80 mg/day, or simvastatin (Zocor) 20-80 mg/day for ≥ 1 month prior to enrollment and expected to remain on this dose for the remainder of the study\n* For Cohort 6: On a stable dose of rosuvastatin (Crestor) 40 mg/day or atorvastatin (Lipitor) 80 mg/day for ≥ 1 month prior to enrollment and expected to remain on this dose for the remainder of the study\n* For Cohort 7: Diagnosis of heterozygous familial hypercholesterolemia, based on a score of ≥ 9 points using the World health Organization (WHO) criteria\n\nExclusion Criteria:\n\n* Diagnosis of homozygous familial hypercholesterolemia\n* History of heart failure, coronary artery bypass graft, or cardiac arrhythmia\n* History of acute coronary syndrome (e.g. myocardial infarction, hospitalization for unstable angina) or percutaneous coronary intervention, within 12 months prior to enrollment\n* Planned cardiac surgery or revascularization\n* Known aortic, peripheral vascular or cerebrovascular disease (including history of stroke or transient ischemic attack)\n* Diabetes mellitus with any of the following:\n\n  1. known microvascular or macrovascular disease\n  2. HbA1c \\> 8.0% at screening\n  3. use of any hypoglycemic medication other than metformin\n* Uncontrolled hypertension (systolic blood pressure ≥ 150 or diastolic blood pressure ≥ 90 mmHg) either on or off therapy at screening or at baseline",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,6 +117,58 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women ages 18 to 70 years (inclusive) at the time of screening with hyperlipidemia"
+   },
+   {
+    "text": "Body mass index (BMI) ≥18 and ≤ 35 kg/m^2 at the time of screening"
+   },
+   {
+    "text": "Low-density lipoprotein cholesterol (LDL-C) level of 70-220 mg/dL (inclusive) at screening as measured by direct assay"
+   },
+   {
+    "text": "For Cohorts 1-5: On a stable dose of rosuvastatin (Crestor) < 40 mg/day, atorvastatin (Lipitor) < 80 mg/day, or simvastatin (Zocor) 20-80 mg/day for ≥ 1 month prior to enrollment and expected to remain on this dose for the remainder of the study"
+   },
+   {
+    "text": "For Cohort 6: On a stable dose of rosuvastatin (Crestor) 40 mg/day or atorvastatin (Lipitor) 80 mg/day for ≥ 1 month prior to enrollment and expected to remain on this dose for the remainder of the study"
+   },
+   {
+    "text": "For Cohort 7: Diagnosis of heterozygous familial hypercholesterolemia, based on a score of ≥ 9 points using the World health Organization (WHO) criteria"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of homozygous familial hypercholesterolemia"
+   },
+   {
+    "text": "History of heart failure, coronary artery bypass graft, or cardiac arrhythmia"
+   },
+   {
+    "text": "History of acute coronary syndrome (e.g. myocardial infarction, hospitalization for unstable angina) or percutaneous coronary intervention, within 12 months prior to enrollment"
+   },
+   {
+    "text": "Planned cardiac surgery or revascularization"
+   },
+   {
+    "text": "Known aortic, peripheral vascular or cerebrovascular disease (including history of stroke or transient ischemic attack)"
+   },
+   {
+    "text": "Diabetes mellitus with any of the following:",
+    "sub_items": [
+     "known microvascular or macrovascular disease",
+     "HbA1c > 8.0% at screening",
+     "use of any hypoglycemic medication other than metformin"
+    ]
+   },
+   {
+    "text": "Uncontrolled hypertension (systolic blood pressure ≥ 150 or diastolic blood pressure ≥ 90 mmHg) either on or off therapy at screening or at baseline"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

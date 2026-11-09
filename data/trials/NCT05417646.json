@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Steno Diabetes Center Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Steno Diabetes Center Copenhagen"
  },
  "collaborators": [
   "University of Copenhagen"
@@ -54,53 +54,53 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Hyperglycaemic clamp",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Other: Hyperglycaemic clamp",
+    "Drug: Empagliflozin"
+   ],
    "label": "HNF1A-MODY - SGLT2 inhibition",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Other: Hyperglycaemic clamp",
-    "Drug: Empagliflozin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Other: Hyperglycaemic clamp",
+    "Drug: Placebo"
+   ],
    "label": "HNF1A-MODY - Placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Other: Hyperglycaemic clamp",
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Type 2 Diabetes - SGLT2 inhibition",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Hyperglycaemic clamp",
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Type 2 Diabetes - SGLT2 inhibition",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Type 2 Diabetes - Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Hyperglycaemic clamp",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Type 2 Diabetes - Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -112,10 +112,10 @@
  "brief_summary": "Maturity onset diabetes of the young (MODY) is a subtype of diabetes which is caused by mutations in specific genes leading to diabetes. The most common cause of MODY is due to mutations in the gene hepatocyte nuclear factor 1 alpha (HNF1A) and is consequently named HNF1A-MODY (or MODY3). HNF1A-MODY is associated with urinary excretion of glucose at lower blood glucose levels compared to other types of diabetes. Normally, glucose is reabsorbed by sodium-glucose cotransporter 2 (SGLT2), but SGLT2 is downregulated due to the mutation in HNF1A. Investigators aim to evaluate the impact of the decreased expression of SGLT2 on glucosuria in patients with HNF1A-MODY compared to patients with type 2 diabetes (T2D) using a single dose of an SGLT2 inhibitor during a glucose clamp experiment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* HNF1A-MODY verified by genetic testing (only patients with HNF1A-MODY)\n* Type 2 diabetes diagnosis according to World Health Organization (only patients with type 2 diabetes)\n* Treatment with diet and/or a glucose-lowering drug (only patients with HNF1A-MODY)\n* Normal haemoglobin (males 8.3-10.5 mmol/l, females 7.3-9.5 mmol/l)\n* Informed consent\n\nExclusion Criteria:\n\n* Nephropathy (estimated GFR \\<60 ml/min/1.73m2 and/or albuminuria)\n* Known significant liver disease and/or plasma alanine aminotransferase (ALT) and/or plasma aspartate aminotransferase (AST) above 2 × normal values)\n* Pregnancy or breastfeeding\n* Treatment with SGLT2 inhibitor\n* Fasting plasma glucose \\> 10 mmol/l\n* Family history of HNF1A-MODY (only patients with type 2 diabetes)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -123,13 +123,13 @@
  },
  "sites": [
   {
-   "facility": "Steno Diabetes Center Copenhagen",
    "city": "Herlev",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Steno Diabetes Center Copenhagen",
    "lat": 55.72366,
-   "lon": 12.43998
+   "lon": 12.43998,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05417646",
@@ -141,6 +141,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥18 years"
+   },
+   {
+    "text": "HNF1A-MODY verified by genetic testing (only patients with HNF1A-MODY)"
+   },
+   {
+    "text": "Type 2 diabetes diagnosis according to World Health Organization (only patients with type 2 diabetes)"
+   },
+   {
+    "text": "Treatment with diet and/or a glucose-lowering drug (only patients with HNF1A-MODY)"
+   },
+   {
+    "text": "Normal haemoglobin (males 8.3-10.5 mmol/l, females 7.3-9.5 mmol/l)"
+   },
+   {
+    "text": "Informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Nephropathy (estimated GFR <60 ml/min/1.73m2 and/or albuminuria)"
+   },
+   {
+    "text": "Known significant liver disease and/or plasma alanine aminotransferase (ALT) and/or plasma aspartate aminotransferase (AST) above 2 × normal values)"
+   },
+   {
+    "text": "Pregnancy or breastfeeding"
+   },
+   {
+    "text": "Treatment with SGLT2 inhibitor"
+   },
+   {
+    "text": "Fasting plasma glucose > 10 mmol/l"
+   },
+   {
+    "text": "Family history of HNF1A-MODY (only patients with type 2 diabetes)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

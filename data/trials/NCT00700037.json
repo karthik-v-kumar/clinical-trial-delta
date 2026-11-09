@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Wakayama Medical University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Wakayama Medical University"
  },
  "collaborators": [],
  "conditions": [
@@ -52,34 +52,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "high-dose atorvastatin",
    "other_names": [
     "Lipitor20"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "low-dose atorvastatin",
    "other_names": [
     "Lipitor5"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: high-dose atorvastatin"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: low-dose atorvastatin"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "To examine effects of intensive lipid lowering therapy with atorvastatin on stabilization of coronary plaque by using optical coherence tomography (OCT) in patients with acute coronary syndrome.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with acute coronary syndrome (myocardial infarction or unstable angina) who will undergo PCI.\n* plasma LDL cholesterol levels : \\>=100mg/dL and ≤160mg/dL\n* at least one atherosclerotic lesion of \\>25% stenosis other than culprit lesions of current ACS\n\nExclusion Criteria:\n\n* Patients who will undergo coronary bypass surgery.\n* Patients with major complications during treatment of culprit coronary lesions.\n* Patients with an atherosclerotic lesion with \\>50% stenosis at a left main trunk.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Wakayama Medical University",
    "city": "Wakayama",
-   "state": "Wakayama",
    "country": "Japan",
-   "status": null,
+   "facility": "Wakayama Medical University",
    "lat": 34.23333,
-   "lon": 135.16667
+   "lon": 135.16667,
+   "state": "Wakayama",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00700037",
@@ -120,6 +120,32 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with acute coronary syndrome (myocardial infarction or unstable angina) who will undergo PCI."
+   },
+   {
+    "text": "plasma LDL cholesterol levels : >=100mg/dL and ≤160mg/dL"
+   },
+   {
+    "text": "at least one atherosclerotic lesion of >25% stenosis other than culprit lesions of current ACS"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients who will undergo coronary bypass surgery."
+   },
+   {
+    "text": "Patients with major complications during treatment of culprit coronary lesions."
+   },
+   {
+    "text": "Patients with an atherosclerotic lesion with >50% stenosis at a left main trunk."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

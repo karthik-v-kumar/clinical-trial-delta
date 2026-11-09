@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2014-12-15",
  "has_results": true,
  "lead_sponsor": {
-  "name": "LG Life Sciences",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "LG Life Sciences"
  },
  "collaborators": [],
  "conditions": [
@@ -53,62 +53,62 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Valsartan 160mg",
    "other_names": [
     "Diovan"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin 20mg",
    "other_names": [
     "Crestor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Valsartan 160mg placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin 20mg placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Valsartan 160mg, Rosuvastatin 20mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Valsartan 160mg",
     "Drug: Rosuvastatin 20mg"
-   ]
+   ],
+   "label": "Valsartan 160mg, Rosuvastatin 20mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Valsartan 160mg, Rosuvastatin 20mg placebo",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Valsartan 160mg",
     "Drug: Rosuvastatin 20mg placebo"
-   ]
+   ],
+   "label": "Valsartan 160mg, Rosuvastatin 20mg placebo",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Valsartan 160mg placebo, Rosuvastatin 20mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin 20mg",
     "Drug: Valsartan 160mg placebo"
-   ]
+   ],
+   "label": "Valsartan 160mg placebo, Rosuvastatin 20mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Valsartan 160mg placebo",
     "Drug: Rosuvastatin 20mg placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -124,10 +124,10 @@
  "brief_summary": "This study aims to evaluate the efficacy and safety of the coadministration of valsartan (Diovan®) 160mg and rosuvastatin (Crestor®) 20mg in comparison to each component administered alone in patients with hypertension and hyperlipidemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patient aged 20-80 years who has hypertension and hyperlipidemia\n2. Patient who has a Hypertension\n3. Patient who has a Hyperlipidemia according to NCEP-ATP III guideline(2004)\n4. Patient who signed the Informed Consent Form after receiving an explanation on the purpose, methods, and effect of the study\n\nExclusion Criteria:\n\n1. If blood pressure and fasting serum lipid level measured at screening and Visit 2 (0 week) satisfy the following criteria 1) sitSBP≥180mmHg or sitDBP≥110mmHg (For high risk group, sitSBP≥ 160mmHg or sitDBP ≥100mmHg ) 2) LDL-C\\>250mg/dL , or TG≥ 400mg/dL\n2. If sitSBP difference between the right and left arms \\>20mmHg or sitDBP difference between the right and left arms \\> 10mmHg at screening\n3. When blood pressure is repeatedly measured from the selected arm at screening, if sitSBP difference ≥ 20mmHg or sitDBP difference ≥10mmHg\n4. Patient with orthostatic hypotension accompanying symptoms at screening (decrease in sitDBP ≥10mmHg or decrease in sitSBP ≥ 20mmHg )",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -135,13 +135,13 @@
  },
  "sites": [
   {
-   "facility": "Yonsei University Health System Severance Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Yonsei University Health System Severance Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01918332",
@@ -153,6 +153,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient aged 20-80 years who has hypertension and hyperlipidemia"
+   },
+   {
+    "text": "Patient who has a Hypertension"
+   },
+   {
+    "text": "Patient who has a Hyperlipidemia according to NCEP-ATP III guideline(2004)"
+   },
+   {
+    "text": "Patient who signed the Informed Consent Form after receiving an explanation on the purpose, methods, and effect of the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "If blood pressure and fasting serum lipid level measured at screening and Visit 2 (0 week) satisfy the following criteria 1) sitSBP≥180mmHg or sitDBP≥110mmHg (For high risk group, sitSBP≥ 160mmHg or sitDBP ≥100mmHg ) 2) LDL-C>250mg/dL , or TG≥ 400mg/dL"
+   },
+   {
+    "text": "If sitSBP difference between the right and left arms >20mmHg or sitDBP difference between the right and left arms > 10mmHg at screening"
+   },
+   {
+    "text": "When blood pressure is repeatedly measured from the selected arm at screening, if sitSBP difference ≥ 20mmHg or sitDBP difference ≥10mmHg"
+   },
+   {
+    "text": "Patient with orthostatic hypotension accompanying symptoms at screening (decrease in sitDBP ≥10mmHg or decrease in sitSBP ≥ 20mmHg )"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

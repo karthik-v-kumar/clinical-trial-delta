@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "LIB Therapeutics LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "LIB Therapeutics LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Lerodalcibep",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Lerodalcibep",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Lerodalcibep"
-   ]
+   ],
+   "label": "Lerodalcibep",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -71,59 +71,59 @@
  "brief_summary": "The goal is to assess the long term efficacy (LDL cholesterol reduction) and safety over 3 years of lerodalcibep (Lerochol) SC 300 mg QM administered by auto-injector (AI)/pre-filled pen (PFP) in male and female pediatric patients 6 to 17 years of age, with inherited high cholesterol (HeFH) on a stable diet and maximally tolerated oral LDL C lowering drug therapy such as statins who completed the 24 week placebo controlled base trial.\n\nThe main question\\[s\\] it aims to answer are:\n\nHow effective is Lerochol in maintaining LDL cholesterol reductions over years? How well is it tolerated and are there any safety concerns?\n\nParticipants will visit the clinic every month for 3 months and then home dosed with clinic visits every 3 months. They will undergo periodic physical exams, height and weight measurements, answer questions, have blood drawn from a vein in their arm, have blood pressure measurements, EKC heart tests, and receive monthly injections lasting about 5 seconds in their arms or abdomen with an autoinjector.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Provision of written and signed informed consent/assent of the LIB003-016 trial prior to any study-specific procedure;\n2. Completion of the LIB003-008 study having received the last dose of study drug at Week 20 and completed the Week 24 visit;\n3. Male or female, 6 to 17 years of age (defined as from 6 to less than 18 years of age), at the first Screening Visit of the LIB003-008 study;\n4. Weight of \\>18 kg (40 lbs) and BMI \\<17 and \\>42 kg/m2;\n5. On stable diet and lipid-lowering oral drug therapy (statins, ezetimibe, bile-acid sequestrants) or combinations thereof (excluded oral lipid-lowering agents are include mipomersen, lomitapide, and gemfibrozil);\n\nExclusion Criteria:\n\n1. History of any prior or active clinical condition or acute and/or unstable systemic disease compromising patient inclusion, at the discretion of the Investigator, which in the Investigator's opinion, would not be suitable for the study from a patient safety consideration or could interfere with the results of the study;\n2. Females of childbearing potential who are sexually active, not using or unwilling to use a highly effective form of contraception during the study and until 60 days after last dose of study drug, pregnant or breastfeeding, or who have a positive urine pregnancy test at the last Screening Visit;\n3. Patients who cannot be available for Protocol-required study visits or procedures, to the best of the patient's and Investigator's knowledge;\n4. A history, during the LIB003-008 study of prescription drug abuse, illicit drug use, or alcohol abuse according to medical history;\n5. Have any other finding which, in the opinion of the Investigator, would compromise the patient's safety or participation in the study;",
-  "sex": "ALL",
-  "minimum_age": "6 Years",
-  "maximum_age": "17 Years",
   "healthy_volunteers": false,
+  "maximum_age": "17 Years",
+  "minimum_age": "6 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "facility": "G.B. Pant Institute of Postgraduate Medical Education & Research",
    "city": "Delhi",
-   "state": null,
    "country": "India",
-   "status": null,
+   "facility": "G.B. Pant Institute of Postgraduate Medical Education & Research",
    "lat": 28.65195,
-   "lon": 77.23149
+   "lon": 77.23149,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Haddassah Medical Center",
    "city": "Jerusalem",
-   "state": null,
    "country": "Israel",
-   "status": null,
+   "facility": "Haddassah Medical Center",
    "lat": 31.76904,
-   "lon": 35.21633
+   "lon": 35.21633,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "New Zealand Clinical Research",
    "city": "Christchurch",
-   "state": null,
    "country": "New Zealand",
-   "status": null,
+   "facility": "New Zealand Clinical Research",
    "lat": -43.53333,
-   "lon": 172.63333
-  },
-  {
-   "facility": "Iatros International",
-   "city": "Bloemfontein",
-   "state": "Oranage Free State",
-   "country": "South Africa",
-   "status": null,
-   "lat": -29.12107,
-   "lon": 26.214
-  },
-  {
-   "facility": "Ege Universitesi Tip Fakultesi",
-   "city": "Izmir",
+   "lon": 172.63333,
    "state": null,
+   "status": null
+  },
+  {
+   "city": "Bloemfontein",
+   "country": "South Africa",
+   "facility": "Iatros International",
+   "lat": -29.12107,
+   "lon": 26.214,
+   "state": "Oranage Free State",
+   "status": null
+  },
+  {
+   "city": "Izmir",
    "country": "Turkey (Türkiye)",
-   "status": null,
+   "facility": "Ege Universitesi Tip Fakultesi",
    "lat": 38.41273,
-   "lon": 27.13838
+   "lon": 27.13838,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07775339",
@@ -135,6 +135,44 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Provision of written and signed informed consent/assent of the LIB003-016 trial prior to any study-specific procedure;"
+   },
+   {
+    "text": "Completion of the LIB003-008 study having received the last dose of study drug at Week 20 and completed the Week 24 visit;"
+   },
+   {
+    "text": "Male or female, 6 to 17 years of age (defined as from 6 to less than 18 years of age), at the first Screening Visit of the LIB003-008 study;"
+   },
+   {
+    "text": "Weight of >18 kg (40 lbs) and BMI <17 and >42 kg/m2;"
+   },
+   {
+    "text": "On stable diet and lipid-lowering oral drug therapy (statins, ezetimibe, bile-acid sequestrants) or combinations thereof (excluded oral lipid-lowering agents are include mipomersen, lomitapide, and gemfibrozil);"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of any prior or active clinical condition or acute and/or unstable systemic disease compromising patient inclusion, at the discretion of the Investigator, which in the Investigator's opinion, would not be suitable for the study from a patient safety consideration or could interfere with the results of the study;"
+   },
+   {
+    "text": "Females of childbearing potential who are sexually active, not using or unwilling to use a highly effective form of contraception during the study and until 60 days after last dose of study drug, pregnant or breastfeeding, or who have a positive urine pregnancy test at the last Screening Visit;"
+   },
+   {
+    "text": "Patients who cannot be available for Protocol-required study visits or procedures, to the best of the patient's and Investigator's knowledge;"
+   },
+   {
+    "text": "A history, during the LIB003-008 study of prescription drug abuse, illicit drug use, or alcohol abuse according to medical history;"
+   },
+   {
+    "text": "Have any other finding which, in the opinion of the Investigator, would compromise the patient's safety or participation in the study;"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

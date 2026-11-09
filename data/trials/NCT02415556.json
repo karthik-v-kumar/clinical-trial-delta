@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2021-09-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Beth Israel Deaconess Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Beth Israel Deaconess Medical Center"
  },
  "collaborators": [
   "Novo Nordisk A/S",
@@ -57,48 +57,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Regular Human Insulin",
    "other_names": [
     "Novolin R Novonordisk"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Sterile normal saline"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Regular Human Insulin"
+   ],
    "label": "Type 2 Diabetes Mellitus - Insulin",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Regular Human Insulin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "Type 2 Diabetes Mellitus - Placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Control - Insulin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Regular Human Insulin"
-   ]
+   ],
+   "label": "Control - Insulin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control - Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Control - Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -122,10 +122,10 @@
  "brief_summary": "The main purpose of this study is to find the long-term effects of daily administration of 40 IU of intranasal insulin (INI) as compared to placebo (sterile saline) on cognition and memory in people with type 2 diabetes mellitus (DM), and non-diabetic controls over 24 weeks with a follow-up period for 24 weeks. Four groups will be tested: DM group treated with INI; DM group treated with placebo; control group treated with INI and the control group treated with placebo. The INI or placebo will be delivered into the nose. The investigators are interested to see whether INI can improve memory and cognition and blood flow in the brain in the type 2 DM group as compared to placebo and to the non-diabetic group over a long-term period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women aged 50-85 years old\n* Able to walk for 6 minutes\n* Diabetes type 2 (DM) group: diagnosis and treatment for type 2 DM with non-insulin oral or injectable agents\n* Non-DM group with similar age range as the DM group, non-diabetic fasting plasma glucose (\\<126 mg/dL) and hemoglobin A1c (HbA1c) (\\<6.5%)\n* Participants capable of providing informed consent\n\nExclusion Criteria:\n\n* Type 2 DM treated with insulin (since 9/25/2017)\n* Type 1 DM\n* Intolerance to insulin\n* History of severe hypoglycemia\n* Participants who have \\>1 asymptomatic and/or symptomatic episode of hypoglycemia (glucose \\< 54 mg/dL) during finger stick or plasma glucose (cut off value since 6/11/2018)\n* Acute medical condition that required either hospitalization or surgery within the past 6 months (e.g., severe hypoglycemia, malignancies, myocardial infarction,stroke)\n* Liver or renal failure or transplant\n* Dementia (Mini Mental State Examination \\[MMSE\\] scores ≤20)\n* Current recreational drug or alcohol abuse\n* Serious systemic disease that would interfere with conduction of clinical trial (mild forms of neurological conditions e.g. Parkinson's Disease, autonomic neuropathy etc. would be allowed)\n* Magnetic Resonance Imaging (MRI) substudy in 40 DM patients only: claustrophobia and implants incompatible with 3-Tesla MRI\n* Safety substudy in 20 IDDM patients only: Insulin-treated type 2 diabetics with a C-peptide of \\<0.8 ng/mLd and fasting blood glucose \\>150 mg/dL will be excluded even without history of hypoglycemia during finger stick measurements.",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": "85 Years",
   "healthy_volunteers": true,
+  "maximum_age": "85 Years",
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -133,22 +133,22 @@
  },
  "sites": [
   {
-   "facility": "Brigham and Women's Hospital",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Brigham and Women's Hospital",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   },
   {
-   "facility": "Vera Novak",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Vera Novak",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02415556",
@@ -163,6 +163,65 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women aged 50-85 years old"
+   },
+   {
+    "text": "Able to walk for 6 minutes"
+   },
+   {
+    "text": "Diabetes type 2 (DM) group: diagnosis and treatment for type 2 DM with non-insulin oral or injectable agents"
+   },
+   {
+    "text": "Non-DM group with similar age range as the DM group, non-diabetic fasting plasma glucose (<126 mg/dL) and hemoglobin A1c (HbA1c) (<6.5%)"
+   },
+   {
+    "text": "Participants capable of providing informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 DM treated with insulin (since 9/25/2017)"
+   },
+   {
+    "text": "Type 1 DM"
+   },
+   {
+    "text": "Intolerance to insulin"
+   },
+   {
+    "text": "History of severe hypoglycemia"
+   },
+   {
+    "text": "Participants who have >1 asymptomatic and/or symptomatic episode of hypoglycemia (glucose < 54 mg/dL) during finger stick or plasma glucose (cut off value since 6/11/2018)"
+   },
+   {
+    "text": "Acute medical condition that required either hospitalization or surgery within the past 6 months (e.g., severe hypoglycemia, malignancies, myocardial infarction,stroke)"
+   },
+   {
+    "text": "Liver or renal failure or transplant"
+   },
+   {
+    "text": "Dementia (Mini Mental State Examination [MMSE] scores ≤20)"
+   },
+   {
+    "text": "Current recreational drug or alcohol abuse"
+   },
+   {
+    "text": "Serious systemic disease that would interfere with conduction of clinical trial (mild forms of neurological conditions e.g. Parkinson's Disease, autonomic neuropathy etc. would be allowed)"
+   },
+   {
+    "text": "Magnetic Resonance Imaging (MRI) substudy in 40 DM patients only: claustrophobia and implants incompatible with 3-Tesla MRI"
+   },
+   {
+    "text": "Safety substudy in 20 IDDM patients only: Insulin-treated type 2 diabetics with a C-peptide of <0.8 ng/mLd and fasting blood glucose >150 mg/dL will be excluded even without history of hypoglycemia during finger stick measurements."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

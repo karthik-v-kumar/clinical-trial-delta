@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Stanford University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Stanford University"
  },
  "collaborators": [],
  "conditions": [
@@ -48,25 +48,25 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Remote Monitoring Program",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Bariatric Surgery",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Remote Monitoring Program"
-   ]
+   ],
+   "label": "Bariatric Surgery",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "GLP-1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Remote Monitoring Program"
-   ]
+   ],
+   "label": "GLP-1",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "This study will develop a simple index to measure how well the body uses insulin and overall heart and metabolic health in children and teens with obesity. The investigators will use data from wearable devices (like fitness trackers) and glucose monitors, along with lab tests, to learn how activity and glucose relate to metabolic problems.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Class 2 and 3 obesity\n* Patient in the Adolescent Bariatric Program at Stanford Children's that is eligible for either laparoscopic sleeve gastrectomy or GLP1 Receptor Agonist Therapy\n* Willingness to wear a CGM and physiological monitor for the duration of the study.\n\nExclusion Criteria:\n\n* Hypothalamic and syndromic obesity\n* BMI \\> 55\n* Plan to undergo bariatric surgical procedure other than sleeve gastrectomy\n* Prior bariatric surgical procedure\n* Active GLP treatment (within past 3 months)\n* Unable to read, understand, or complete the informed consent in English or Spanish",
-  "sex": "ALL",
-  "minimum_age": "10 Years",
-  "maximum_age": "18 Years",
   "healthy_volunteers": false,
+  "maximum_age": "18 Years",
+  "minimum_age": "10 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "Lucile Packard Children's Hospital - Stanford",
    "city": "Palo Alto",
-   "state": "California",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Lucile Packard Children's Hospital - Stanford",
    "lat": 37.44188,
-   "lon": -122.14302
+   "lon": -122.14302,
+   "state": "California",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07316816",
@@ -131,6 +131,41 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Class 2 and 3 obesity"
+   },
+   {
+    "text": "Patient in the Adolescent Bariatric Program at Stanford Children's that is eligible for either laparoscopic sleeve gastrectomy or GLP1 Receptor Agonist Therapy"
+   },
+   {
+    "text": "Willingness to wear a CGM and physiological monitor for the duration of the study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Hypothalamic and syndromic obesity"
+   },
+   {
+    "text": "BMI > 55"
+   },
+   {
+    "text": "Plan to undergo bariatric surgical procedure other than sleeve gastrectomy"
+   },
+   {
+    "text": "Prior bariatric surgical procedure"
+   },
+   {
+    "text": "Active GLP treatment (within past 3 months)"
+   },
+   {
+    "text": "Unable to read, understand, or complete the informed consent in English or Spanish"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

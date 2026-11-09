@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Sao Paulo General Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Sao Paulo General Hospital"
  },
  "collaborators": [
   "Federal University of São Paulo"
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors reduce plasma glucose and haemoglobin A1c(HbA1c) in patients with type 2 diabetes mellitus by increasing urinary glucose excretion in a non-insulin-dependent fashion.\n\nHowever, in some situations lead to a diminished number of functional glomeruli with a consequent hyperfiltration in the remaining ones. This fact may be where the use of SGLT2 inhibitor could attenuate the renal damage.\n\nThe purpose of our study is to evaluate the impact of using dapagliflozin on the renal functional deterioration of renal transplanted patients diabetics or not.\n\nThis is a prospective, randomized, single-blinded, double-center, controlled trial.\n\nPatients will be randomized to add either Dapagliflozin 10 mg or Placebo to their treatment. Study drug will be administered by once-daily orallly. The first dose MUST be started within 1 and 7 days after randomization. The subsequent doses will be administered 24 ± 4 hours after the previous dose.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Renal Transplanted patients with one to 5 years after transplantation, being followed at the out-patient clinics of the HCFMUSP and HRim;\n2. ≥18years of age;\n3. 45 ≥ eGFR ≥ 25 mL/min/1.73m2 or 45\\<eGFR\\<60 ml/min/1.73m2 with a loss of eGFR of ≥10% in the last year.\n\nExclusion Criteria:\n\n1. Type 1 diabetes;\n2. New York Heart Association Class IV congestive heart failure;\n3. Myocardial infarction, unstable angina, stroke or transient ischaemic attack within 8 weeks prior to enrolment;\n4. Coronary revascularization (percutaneous coronary intervention or coronary artery bypass grafting) or valvular repair/replacement within 8weeks prior to enrolment;\n5. Any condition outside the renal and cardiovascular study area with a life expectancy of \\< 1 year based on investigator's clinical judgement;\n6. Hepatic impairment \\[aspartate transaminase or alanine transaminase \\>3 times the upper limit of normal (ULN) or total bilirubin \\>2 times the ULN at the time of enrolment;\n7. Acute or chronic antibody mediated rejection;\n8. Albuminuria due to other causes (mTOR inhibitors, Polyoma nephropathy, lymphoproliferative disorder etc…)\n9. Patients with a previous medical history of recurrent urinary tract infections or severe genital infection;\n10. Renal biopsies showing acute or chronic anti-body mediated rejection, transplant glomerulopathy, BKV nephropathy.\n11. Patients under any other IS regimen besides Tacrolimus/MPA/Steroids\n12. Pregnant patients as well as those breastfeeding.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital das Clinicas - FMUSP",
    "city": "São Paulo",
-   "state": null,
    "country": "Brazil",
-   "status": null,
+   "facility": "Hospital das Clinicas - FMUSP",
    "lat": -23.5475,
-   "lon": -46.63611
+   "lon": -46.63611,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04743453",
@@ -119,6 +119,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Renal Transplanted patients with one to 5 years after transplantation, being followed at the out-patient clinics of the HCFMUSP and HRim;"
+   },
+   {
+    "text": "≥18years of age;"
+   },
+   {
+    "text": "45 ≥ eGFR ≥ 25 mL/min/1.73m2 or 45<eGFR<60 ml/min/1.73m2 with a loss of eGFR of ≥10% in the last year."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes;"
+   },
+   {
+    "text": "New York Heart Association Class IV congestive heart failure;"
+   },
+   {
+    "text": "Myocardial infarction, unstable angina, stroke or transient ischaemic attack within 8 weeks prior to enrolment;"
+   },
+   {
+    "text": "Coronary revascularization (percutaneous coronary intervention or coronary artery bypass grafting) or valvular repair/replacement within 8weeks prior to enrolment;"
+   },
+   {
+    "text": "Any condition outside the renal and cardiovascular study area with a life expectancy of < 1 year based on investigator's clinical judgement;"
+   },
+   {
+    "text": "Hepatic impairment [aspartate transaminase or alanine transaminase >3 times the upper limit of normal (ULN) or total bilirubin >2 times the ULN at the time of enrolment;"
+   },
+   {
+    "text": "Acute or chronic antibody mediated rejection;"
+   },
+   {
+    "text": "Albuminuria due to other causes (mTOR inhibitors, Polyoma nephropathy, lymphoproliferative disorder etc…)"
+   },
+   {
+    "text": "Patients with a previous medical history of recurrent urinary tract infections or severe genital infection;"
+   },
+   {
+    "text": "Renal biopsies showing acute or chronic anti-body mediated rejection, transplant glomerulopathy, BKV nephropathy."
+   },
+   {
+    "text": "Patients under any other IS regimen besides Tacrolimus/MPA/Steroids"
+   },
+   {
+    "text": "Pregnant patients as well as those breastfeeding."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "DexCom, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "DexCom, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Real-Time Continuous Glucose Monitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "real-time continuous glucose monitoring (RT-CGM)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Real-Time Continuous Glucose Monitoring"
-   ]
+   ],
+   "label": "real-time continuous glucose monitoring (RT-CGM)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -71,10 +71,10 @@
  "brief_summary": "This study aims to understand how using real-time continuous glucose monitoring (RT-CGM) can help people with Type-2 diabetes on insulin in Saudi Arabia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n\\- 1. Age of at least 18 years at time of screening. 2. Type 2 diabetes and on either intensive insulin therapy (IIT) or basal insulin therapy for ≥6 months prior to entry.\n\ni. IIT: Defined as basal insulin + ≥2 daily bolus injections of rapid acting insulin or ≥2 injections per day of premixed insulin (e.g. 70/30 or 50/50).\n\nii. Basal: Defined as ≤2 injections per day of basal insulin only and not planning to start rapid acting or premixed insulin in the next 6 months.\n\n3\\. Screening HbA1c ≥8% at enrollment (by local lab at time of screening). 4. Assessment by clinician that participant is thought to be able and willing to wear, and motivated to engage with, a CGM device.\n\n5\\. No personal real-time or intermittent scanned (Flash) CGM use, or use of a glucose biosensor 3 months prior to enrolment.\n\n6\\. Stable diabetes, lipid lowering, and anti-obesity medication regimen (medication classes) and dose (equivalent dose if diabetes/anti-obesity-specific, or lipid-lowering medication has been changed within same medication class) for 3 months prior to enrollment.\n\nNote: Changes ≤ 10% in total daily doses of insulin in the 3 months prior to enrollment are permitted.\n\n7\\. Willing to follow study procedures as defined within the study protocol according to the judgement of the study physician.\n\n8\\. Investigator believes that the participant has the cognitive capacity to provide informed consent, can successfully and safely use CGM, and is capable of adhering to the protocol and completing the study.\n\nExclusion Criteria:\n\n* 1\\. Diagnosis of type 2 diabetes not on insulin or diagnosis of type 1 diabetes 2. Any surgical procedure for weight loss within the year prior to enrollment or plans for undergoing such bariatric surgery during the study.\n\n  3\\. Concomitant disease or condition that in the opinion of the investigator may compromise participant safety including but not limited to: solid organ transplant, cystic fibrosis, severe mental illness, a diagnosed or suspected eating disorder or any uncontrolled long term medical condition that would interfere with study related tasks or visits.\n\n  4\\. Use of medications known to exacerbate hyperglycemia (current or for more than 14 days in the past 3 months), including corticosteroids (oral and injectable) or certain psychotropics (antipsychotics, e.g., clozapine, olanzapine, risperidone, and quetiapine).\n\n  5\\. Known severe allergy to medical grade adhesives or a serious skin condition that precludes use of the CGM.\n\n  6\\. Currently pregnant, planning to become pregnant, or breastfeeding 7. End stage renal disease currently managed by dialysis or anticipating initiating dialysis during the next 6 months, OR eGFR \\<30.\n\n  o Baseline blinded CGM data collection can be initiated prior to the lab result being available but lab result must be available prior to initiation to verify eligibility.\n\n  8\\. Anticipated acute uses of glucocorticoids (oral, injectable, or IV) that will affect glycemic control and impact HbA1c.\n\n  9\\. Current or planned use of hydroxyurea. 10. Presence of a hemoglobinopathy or other condition that is expected to affect the measurement of HbA1c in the judgment of the investigator.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -82,13 +82,13 @@
  },
  "sites": [
   {
-   "facility": "King Fahad Medical City",
    "city": "Riyadh",
-   "state": null,
    "country": "Saudi Arabia",
-   "status": null,
+   "facility": "King Fahad Medical City",
    "lat": 24.68773,
-   "lon": 46.72185
+   "lon": 46.72185,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07603284",
@@ -100,6 +100,55 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "1. Age of at least 18 years at time of screening. 2. Type 2 diabetes and on either intensive insulin therapy (IIT) or basal insulin therapy for ≥6 months prior to entry.",
+    "sub_items": [
+     "IIT: Defined as basal insulin + ≥2 daily bolus injections of rapid acting insulin or ≥2 injections per day of premixed insulin (e.g. 70/30 or 50/50).",
+     "Basal: Defined as ≤2 injections per day of basal insulin only and not planning to start rapid acting or premixed insulin in the next 6 months."
+    ]
+   },
+   {
+    "text": "Screening HbA1c ≥8% at enrollment (by local lab at time of screening). 4. Assessment by clinician that participant is thought to be able and willing to wear, and motivated to engage with, a CGM device."
+   },
+   {
+    "text": "No personal real-time or intermittent scanned (Flash) CGM use, or use of a glucose biosensor 3 months prior to enrolment."
+   },
+   {
+    "text": "Stable diabetes, lipid lowering, and anti-obesity medication regimen (medication classes) and dose (equivalent dose if diabetes/anti-obesity-specific, or lipid-lowering medication has been changed within same medication class) for 3 months prior to enrollment."
+   },
+   {
+    "text": "Note: Changes ≤ 10% in total daily doses of insulin in the 3 months prior to enrollment are permitted."
+   },
+   {
+    "text": "Willing to follow study procedures as defined within the study protocol according to the judgement of the study physician."
+   },
+   {
+    "text": "Investigator believes that the participant has the cognitive capacity to provide informed consent, can successfully and safely use CGM, and is capable of adhering to the protocol and completing the study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "1. Diagnosis of type 2 diabetes not on insulin or diagnosis of type 1 diabetes 2. Any surgical procedure for weight loss within the year prior to enrollment or plans for undergoing such bariatric surgery during the study.",
+    "sub_items": [
+     "Concomitant disease or condition that in the opinion of the investigator may compromise participant safety including but not limited to: solid organ transplant, cystic fibrosis, severe mental illness, a diagnosed or suspected eating disorder or any uncontrolled long term medical condition that would interfere with study related tasks or visits.",
+     "Use of medications known to exacerbate hyperglycemia (current or for more than 14 days in the past 3 months), including corticosteroids (oral and injectable) or certain psychotropics (antipsychotics, e.g., clozapine, olanzapine, risperidone, and quetiapine).",
+     "Known severe allergy to medical grade adhesives or a serious skin condition that precludes use of the CGM.",
+     "Currently pregnant, planning to become pregnant, or breastfeeding 7. End stage renal disease currently managed by dialysis or anticipating initiating dialysis during the next 6 months, OR eGFR <30."
+    ]
+   },
+   {
+    "text": "o Baseline blinded CGM data collection can be initiated prior to the lab result being available but lab result must be available prior to initiation to verify eligibility.",
+    "sub_items": [
+     "Anticipated acute uses of glucocorticoids (oral, injectable, or IV) that will affect glycemic control and impact HbA1c.",
+     "Current or planned use of hydroxyurea. 10. Presence of a hemoglobinopathy or other condition that is expected to affect the measurement of HbA1c in the judgment of the investigator."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

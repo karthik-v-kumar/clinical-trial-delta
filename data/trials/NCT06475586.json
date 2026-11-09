@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Banja Luka",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Banja Luka"
  },
  "collaborators": [],
  "conditions": [
@@ -52,25 +52,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "ozempic"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "semaglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "semaglutide",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "controled group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "The use of semaglutide in patients with DMT2 and psoriasis contributes to improving the clinical picture of psoriasis and reducing the inflammatory response",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who signed a personal consent to participate in the study,\n* Patients with a typical clinical picture of moderately-severe to severe plaque psoriasis (PASI SCORE ≥10) and\n* DMT2 diagnosed at least 6 months before inclusion in the study,\n* Patients who were not treated with immunosuppressive therapy.\n\nExclusion Criteria:\n\n* Other forms of psoriasis,\n* Other chronic, inflammatory diseases (data obtained by reviewing the medical history),\n* Drugs that can cause the appearance of psoriasis (lithium, systemic antimalarials, systemic corticosteroids) - for the past 3 months,\n* Systemic therapy of vulgaris psoriasis 3 months before inclusion in the study,\n* Patients on therapy with other GLP-1 RAs except semaglutide (liraglutide, dulaglutide, lixisenatide), SGLT-2 inhibitors (empagliflozin and dapagliflozin) and NSAIDs, photo UVB therapy,\n* Patients who did not personally sign consent to participate in the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,13 +129,13 @@
  },
  "sites": [
   {
-   "facility": "University of Banja Luka, Faculty of Medicine",
    "city": "Banja Luka",
-   "state": null,
    "country": "Bosnia and Herzegovina",
-   "status": null,
+   "facility": "University of Banja Luka, Faculty of Medicine",
    "lat": 44.77879,
-   "lon": 17.20629
+   "lon": 17.20629,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06475586",
@@ -147,6 +147,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who signed a personal consent to participate in the study,"
+   },
+   {
+    "text": "Patients with a typical clinical picture of moderately-severe to severe plaque psoriasis (PASI SCORE ≥10) and"
+   },
+   {
+    "text": "DMT2 diagnosed at least 6 months before inclusion in the study,"
+   },
+   {
+    "text": "Patients who were not treated with immunosuppressive therapy."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Other forms of psoriasis,"
+   },
+   {
+    "text": "Other chronic, inflammatory diseases (data obtained by reviewing the medical history),"
+   },
+   {
+    "text": "Drugs that can cause the appearance of psoriasis (lithium, systemic antimalarials, systemic corticosteroids) - for the past 3 months,"
+   },
+   {
+    "text": "Systemic therapy of vulgaris psoriasis 3 months before inclusion in the study,"
+   },
+   {
+    "text": "Patients on therapy with other GLP-1 RAs except semaglutide (liraglutide, dulaglutide, lixisenatide), SGLT-2 inhibitors (empagliflozin and dapagliflozin) and NSAIDs, photo UVB therapy,"
+   },
+   {
+    "text": "Patients who did not personally sign consent to participate in the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

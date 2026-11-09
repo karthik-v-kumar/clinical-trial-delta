@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2010-10-07",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Charles Drew University of Medicine and Science",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Charles Drew University of Medicine and Science"
  },
  "collaborators": [
   "National Center for Research Resources (NCRR)"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin glargine at bedtime instead of NPH",
    "other_names": [
     "Trade name: Lantus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "NPH twice-daily",
    "other_names": [
     "(Generic)"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Insulin glargine injected at bedtime",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin glargine at bedtime instead of NPH"
-   ]
+   ],
+   "label": "Insulin glargine injected at bedtime",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "NPH insulin injected twice-daily",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: NPH twice-daily"
-   ]
+   ],
+   "label": "NPH insulin injected twice-daily",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "To compare the efficacy and safety of once-nightly insulin glargine versus twice-daily NPH insulin in ethnic minority type 2 diabetic patients inadequately treated with once-nightly NPH insulin alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female, age 18-75\n* Type 2 diabetes diagnosed for at least 1 year\n* Inadequate glycemic control (hemoglobin A1c ≥ 7.5%) on stable and maximum-tolerated doses of a sulfonylurea, metformin and a thiazolidinedione, plus a single bedtime injection of NPH insulin\n* Except for the subject's current bedtime NPH insulin, no other past history of chronic insulin use (other than treatment of gestational diabetes or hospitalizations of less than 1 week in duration)\n* Average fasting plasma glucose level \\<130 mg/dL without fasting hypoglycemia\n* Hemoglobin A1c between 7.5% and 12%\n* Body mass index (BMI) between 20 and 40 kg/m2\n\nExclusion Criteria:\n\n* History of confirmed (or clinical suspicion of ) type 1 diabetes\n* Female subjects of childbearing potential who are sexually active and not using a reliable form of contraception.\n* Current pregnancy or lactation.\n* Subjects for whom intensive insulin therapy is contraindicated\n* Subjects with advanced proliferative diabetic retinopathy\n* Subjects who are unable to stay on a consistent daily meal schedule\n* History of any clinically significant renal, hepatic, cardiovascular, neurological, endocrinological or other major systemic disease that, in the opinion of the investigator, may make implementation of the protocol or interpretation of the data difficult.\n* Subjects who will likely require or initiate therapy with drugs which may interfere with glucose metabolism during the course of the study\n* Subjects who are in another investigational study or have received another investigational medication within 30 days of study entry\n* Subjects who are unable or unwilling to comply with all components of the study protocol, including contacting the investigators at specified times and attending all scheduled follow-up visits.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Charles Drew University of Medicine and Science",
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Charles Drew University of Medicine and Science",
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00687453",
@@ -118,6 +118,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female, age 18-75"
+   },
+   {
+    "text": "Type 2 diabetes diagnosed for at least 1 year"
+   },
+   {
+    "text": "Inadequate glycemic control (hemoglobin A1c ≥ 7.5%) on stable and maximum-tolerated doses of a sulfonylurea, metformin and a thiazolidinedione, plus a single bedtime injection of NPH insulin"
+   },
+   {
+    "text": "Except for the subject's current bedtime NPH insulin, no other past history of chronic insulin use (other than treatment of gestational diabetes or hospitalizations of less than 1 week in duration)"
+   },
+   {
+    "text": "Average fasting plasma glucose level <130 mg/dL without fasting hypoglycemia"
+   },
+   {
+    "text": "Hemoglobin A1c between 7.5% and 12%"
+   },
+   {
+    "text": "Body mass index (BMI) between 20 and 40 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of confirmed (or clinical suspicion of ) type 1 diabetes"
+   },
+   {
+    "text": "Female subjects of childbearing potential who are sexually active and not using a reliable form of contraception."
+   },
+   {
+    "text": "Current pregnancy or lactation."
+   },
+   {
+    "text": "Subjects for whom intensive insulin therapy is contraindicated"
+   },
+   {
+    "text": "Subjects with advanced proliferative diabetic retinopathy"
+   },
+   {
+    "text": "Subjects who are unable to stay on a consistent daily meal schedule"
+   },
+   {
+    "text": "History of any clinically significant renal, hepatic, cardiovascular, neurological, endocrinological or other major systemic disease that, in the opinion of the investigator, may make implementation of the protocol or interpretation of the data difficult."
+   },
+   {
+    "text": "Subjects who will likely require or initiate therapy with drugs which may interfere with glucose metabolism during the course of the study"
+   },
+   {
+    "text": "Subjects who are in another investigational study or have received another investigational medication within 30 days of study entry"
+   },
+   {
+    "text": "Subjects who are unable or unwilling to comply with all components of the study protocol, including contacting the investigators at specified times and attending all scheduled follow-up visits."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

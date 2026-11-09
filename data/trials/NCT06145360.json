@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "SINA Health Education and Welfare Trust",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "SINA Health Education and Welfare Trust"
  },
  "collaborators": [
   "Horizon Pharmaceutical Pvt Ltd"
@@ -56,32 +56,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin 10 MG",
    "other_names": [
     "EMPAA"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin+Metformin+DPP4 inhibitor (DPP4I)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin 10mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin 10 MG"
-   ]
+   ],
+   "label": "Empagliflozin 10mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "regimen of Insulin+Metformin+DPP4 inhibitor (DPP4I)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin+Metformin+DPP4 inhibitor (DPP4I)"
-   ]
+   ],
+   "label": "regimen of Insulin+Metformin+DPP4 inhibitor (DPP4I)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "The primary aim of this study is to assess the impact of incorporating Empagliflozin, an oral sodium-glucose co-transporter 2 (SGLT2) inhibitor, into the existing therapeutic regimen of Insulin+Metformin+Dipeptidyl peptidase 4 (DPP-4) inhibitors in poorly controlled type 2 diabetes mellitus (T2DM) patients. The study seeks to evaluate its effect on achieving glycemic goals in this patient population.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients aged 35 years or older, diagnosed with Type 2 Diabetes Mellitus,\n* Specifically, individuals with a documented HbA1c level equal to or exceeding 8.5% over the course of the last six months or more are considered eligible candidates.\n* these patients should currently be undergoing treatment involving a combination of Insulin and either Metformin or Sitagliptin.\n\nExclusion Criteria:\n\n* Patients with a history of recurrent urinary tract infections\n* those who are currently pregnant are excluded from participation in the study.\n* patients with an estimated Glomerular Filtration Rate (eGFR) exceeding 40 ml/min/1.73m²,\n* Furthermore, individuals with other concurrent medical conditions, and those who are unable to provide informed consent for the study, have also been excluded.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "SINA Shireen Jinnah colony",
    "city": "Karachi",
-   "state": null,
    "country": "Pakistan",
-   "status": null,
+   "facility": "SINA Shireen Jinnah colony",
    "lat": 24.8608,
-   "lon": 67.0104
+   "lon": 67.0104,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06145360",
@@ -122,6 +122,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients aged 35 years or older, diagnosed with Type 2 Diabetes Mellitus,"
+   },
+   {
+    "text": "Specifically, individuals with a documented HbA1c level equal to or exceeding 8.5% over the course of the last six months or more are considered eligible candidates."
+   },
+   {
+    "text": "these patients should currently be undergoing treatment involving a combination of Insulin and either Metformin or Sitagliptin."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with a history of recurrent urinary tract infections"
+   },
+   {
+    "text": "those who are currently pregnant are excluded from participation in the study."
+   },
+   {
+    "text": "patients with an estimated Glomerular Filtration Rate (eGFR) exceeding 40 ml/min/1.73m²,"
+   },
+   {
+    "text": "Furthermore, individuals with other concurrent medical conditions, and those who are unable to provide informed consent for the study, have also been excluded."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

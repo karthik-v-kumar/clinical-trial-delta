@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hua Medicine Limited",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hua Medicine Limited"
  },
  "collaborators": [],
  "conditions": [
@@ -48,28 +48,28 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
    "other_names": [
     "Jardiance"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dorzagliatin",
    "other_names": [
     "HMS5552"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sequential arm ABC",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin",
     "Drug: Dorzagliatin"
-   ]
+   ],
+   "label": "Sequential arm ABC",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "This is a Phase 1, open-label, sequential, multiple-dose, drug interaction study of glucokinase activator dorzagliatin and empagliflozin in subjects with T2DM. Pharmacokinetics and pharmacodynamics when dorzagliatin and empagliflozin given alone and in combination will be studied.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Subjects diagnosed with T2DM within at least 3 months prior to screening\n2. Male and/or female subjects between the ages of 30 and 65 years, inclusive;\n3. Body Mass Index (BMI) of 19 to 38 kg/m2, inclusive, at screening;\n4. Fasting C-peptide test result \\>0.3 nmol/L (\\>0.90 ng/mL);\n5. HbA1c ≥7% and ≤10.5%;\n\nExclusion Criteria:\n\n1. Fasting blood glucose at screening or Day -1 ≤110 or ≥270 mg/dL ;\n2. Type 1 diabetes mellitus;\n3. Reported incidence of severe hypoglycemia within 3 months prior to screening;\n4. Known contraindications to empagliflozin;\n5. Clinically significant gastrointestinal disorder;\n6. History or symptoms of clinically significant cardiovascular disease;\n7. History of more than three urinary tract infections and/or more than three genital fungal infections in the last 12 months;\n8. Reported history of clinically significant central nervous system disease including within one year prior to screening;\n9. Reported history of liver disease;\n10. Reported history of clinically significant renal disease;\n11. Estimated glomerular filtration rate (eGFR) ≤60 mL/min/1.73m2;\n12. Acute or chronic metabolic acidosis, including diabetic ketoacidosis;\n13. Known or suspected malignancy;\n14. Any reported hypersensitivity or intolerance to empagliflozin;\n15. Antidiabetic treatment with insulin, sulfonylureas, thiazolidinediones or GLP-1 agonist within 3 months prior to screening;\n16. Systolic blood pressure \\<90 or \\>160 mmHg or diastolic blood pressure \\<60 or \\>100 mmHg at screening;\n17. A hospital admission or major surgery within 90 days prior to screening;\n18. Uncontrolled hypertriglyceridemia \\>500 mg/dL;\n19. Positive blood screen for HIV, HBsAg, or hepatitis C antibody;\n20. Positive pregnancy test result;\n21. Treated with any investigational drugs within 6 weeks prior to screening;\n22. Reported history of prescription drug abuse;\n23. Reported history of alcohol abuse\n24. Reported history of donation or acute loss of blood during the 90 days prior to screening;",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,13 +120,13 @@
  },
  "sites": [
   {
-   "facility": "Frontage Clinical Services Inc.",
    "city": "Hackensack",
-   "state": "New Jersey",
    "country": "United States",
-   "status": null,
+   "facility": "Frontage Clinical Services Inc.",
    "lat": 40.88593,
-   "lon": -74.04347
+   "lon": -74.04347,
+   "state": "New Jersey",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03790787",
@@ -138,6 +138,101 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects diagnosed with T2DM within at least 3 months prior to screening"
+   },
+   {
+    "text": "Male and/or female subjects between the ages of 30 and 65 years, inclusive;"
+   },
+   {
+    "text": "Body Mass Index (BMI) of 19 to 38 kg/m2, inclusive, at screening;"
+   },
+   {
+    "text": "Fasting C-peptide test result >0.3 nmol/L (>0.90 ng/mL);"
+   },
+   {
+    "text": "HbA1c ≥7% and ≤10.5%;"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Fasting blood glucose at screening or Day -1 ≤110 or ≥270 mg/dL ;"
+   },
+   {
+    "text": "Type 1 diabetes mellitus;"
+   },
+   {
+    "text": "Reported incidence of severe hypoglycemia within 3 months prior to screening;"
+   },
+   {
+    "text": "Known contraindications to empagliflozin;"
+   },
+   {
+    "text": "Clinically significant gastrointestinal disorder;"
+   },
+   {
+    "text": "History or symptoms of clinically significant cardiovascular disease;"
+   },
+   {
+    "text": "History of more than three urinary tract infections and/or more than three genital fungal infections in the last 12 months;"
+   },
+   {
+    "text": "Reported history of clinically significant central nervous system disease including within one year prior to screening;"
+   },
+   {
+    "text": "Reported history of liver disease;"
+   },
+   {
+    "text": "Reported history of clinically significant renal disease;"
+   },
+   {
+    "text": "Estimated glomerular filtration rate (eGFR) ≤60 mL/min/1.73m2;"
+   },
+   {
+    "text": "Acute or chronic metabolic acidosis, including diabetic ketoacidosis;"
+   },
+   {
+    "text": "Known or suspected malignancy;"
+   },
+   {
+    "text": "Any reported hypersensitivity or intolerance to empagliflozin;"
+   },
+   {
+    "text": "Antidiabetic treatment with insulin, sulfonylureas, thiazolidinediones or GLP-1 agonist within 3 months prior to screening;"
+   },
+   {
+    "text": "Systolic blood pressure <90 or >160 mmHg or diastolic blood pressure <60 or >100 mmHg at screening;"
+   },
+   {
+    "text": "A hospital admission or major surgery within 90 days prior to screening;"
+   },
+   {
+    "text": "Uncontrolled hypertriglyceridemia >500 mg/dL;"
+   },
+   {
+    "text": "Positive blood screen for HIV, HBsAg, or hepatitis C antibody;"
+   },
+   {
+    "text": "Positive pregnancy test result;"
+   },
+   {
+    "text": "Treated with any investigational drugs within 6 weeks prior to screening;"
+   },
+   {
+    "text": "Reported history of prescription drug abuse;"
+   },
+   {
+    "text": "Reported history of alcohol abuse"
+   },
+   {
+    "text": "Reported history of donation or acute loss of blood during the 90 days prior to screening;"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

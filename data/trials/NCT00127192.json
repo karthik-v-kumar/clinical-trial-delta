@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-09-25",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,53 +51,53 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin phosphate",
    "other_names": [
     "MK0431"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: placebo (unspecified)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: placebo (unspecified)"
-   ]
+   ],
+   "label": "1",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: sitagliptin phosphate"
+   ],
    "label": "2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: sitagliptin phosphate"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: sitagliptin phosphate"
+   ],
    "label": "3",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: sitagliptin phosphate"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: sitagliptin phosphate"
+   ],
    "label": "4",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: sitagliptin phosphate"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "5",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin phosphate"
-   ]
+   ],
+   "label": "5",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "The purpose of this trial is to determine the efficacy and safety of an investigational drug in patients with type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with type 2 diabetes mellitus\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes mellitus",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -128,6 +128,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with type 2 diabetes mellitus"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes mellitus"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2011-01-21",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -51,44 +51,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Saxagliptin",
    "other_names": [
     "BMS-477118"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin (blinded)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin (open-label)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Saxagliptin (A)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Saxagliptin"
-   ]
+   ],
+   "label": "Saxagliptin (A)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo (ST) / Metformin (LT) (B)",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Metformin (blinded)",
     "Drug: Metformin (open-label)"
-   ]
+   ],
+   "label": "Placebo (ST) / Metformin (LT) (B)",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The purpose of this clinical research study is to learn whether Saxagliptin can improve the body's ability to make its own insulin and lower blood sugar in people with type 2 diabetes",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* Drug naive\n* Hemoglobin A1c (HbA1c) ≥6.0% and ≤8.0%\n* Fasting C-peptide ≥1.0 ng/mL\n* Body mass index ≤40 kg/m²\n\nExclusion Criteria:\n\n* Recent cardiac or cerebrovascular event\n* Elevated serum creatinine",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,31 +111,31 @@
  },
  "sites": [
   {
-   "facility": "Va San Diego Healthcare System",
    "city": "San Diego",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Va San Diego Healthcare System",
    "lat": 32.71571,
-   "lon": -117.16472
+   "lon": -117.16472,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Pennington Biomedical Research Center",
    "city": "Baton Rouge",
-   "state": "Louisiana",
    "country": "United States",
-   "status": null,
+   "facility": "Pennington Biomedical Research Center",
    "lat": 30.44332,
-   "lon": -91.18747
+   "lon": -91.18747,
+   "state": "Louisiana",
+   "status": null
   },
   {
-   "facility": "Diabetes & Glandular Disease Research Assoc,, Inc.",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Diabetes & Glandular Disease Research Assoc,, Inc.",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00374907",
@@ -150,6 +150,35 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes mellitus"
+   },
+   {
+    "text": "Drug naive"
+   },
+   {
+    "text": "Hemoglobin A1c (HbA1c) ≥6.0% and ≤8.0%"
+   },
+   {
+    "text": "Fasting C-peptide ≥1.0 ng/mL"
+   },
+   {
+    "text": "Body mass index ≤40 kg/m²"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Recent cardiac or cerebrovascular event"
+   },
+   {
+    "text": "Elevated serum creatinine"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

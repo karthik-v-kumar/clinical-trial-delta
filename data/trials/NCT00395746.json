@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2010-03-12",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -52,51 +52,51 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sulfonylurea",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "liraglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "liraglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: sulfonylurea",
+    "Drug: liraglutide"
+   ],
    "label": "0.6 mg + SU",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: sulfonylurea",
     "Drug: liraglutide"
-   ]
-  },
-  {
+   ],
    "label": "0.9 mg + SU",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: sulfonylurea",
-    "Drug: liraglutide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: sulfonylurea"
+   ],
    "label": "SU Mono - 1",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: sulfonylurea"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "SU Mono - 2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: sulfonylurea"
-   ]
+   ],
+   "label": "SU Mono - 2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -108,10 +108,10 @@
  "brief_summary": "This trial is conducted in Japan. The trial aims for comparison of the effect on glycaemic control of liraglutide in combination with sulphonylurea agent (SU) compared to SU monotherapy, as assessed by HbA1c after 24 weeks and 52 weeks in subjects with type 2 diabetes. Liraglutide will be compared to placebo, in combination with SU. Trial has a randomisation period of 24 weeks followed by a 28 week extension period, in total 52 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Diet/exercise therapy with sulfonylurea (SU) for at least eight weeks\n* HbA1c greater than or equal to 7.0% and less than 10.0%\n* BMI less than 35 kg/m2\n\nExclusion Criteria:\n\n* Treatment with insulin within the last 12 weeks\n* Treatment with any drug that could interfere with the glucose level\n* Any serious medical condition\n* Females who are pregnant, have intention of becoming pregnant or are breastfeeding",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,13 +119,13 @@
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Tokyo",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 35.6895,
-   "lon": 139.69171
+   "lon": 139.69171,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00395746",
@@ -139,6 +139,38 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Diet/exercise therapy with sulfonylurea (SU) for at least eight weeks"
+   },
+   {
+    "text": "HbA1c greater than or equal to 7.0% and less than 10.0%"
+   },
+   {
+    "text": "BMI less than 35 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Treatment with insulin within the last 12 weeks"
+   },
+   {
+    "text": "Treatment with any drug that could interfere with the glucose level"
+   },
+   {
+    "text": "Any serious medical condition"
+   },
+   {
+    "text": "Females who are pregnant, have intention of becoming pregnant or are breastfeeding"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

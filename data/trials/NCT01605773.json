@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "repaglinide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "glyburide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "repaglinide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: repaglinide"
-   ]
+   ],
+   "label": "repaglinide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "glyburide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: glyburide"
-   ]
+   ],
+   "label": "glyburide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to compare the effect of repaglinide on postprandial lipemia in subjects with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Newly diagnosed patients with type 2 diabetes currently treated with diet and exercise alone (HbA1c below 10%)\n* Subjects with type 2 diabetes treated with sulphonylurea (HbA1c below 8.5%)\n* Males or non-pregnant, non-lactating females\n* Subjects should have normal renal function\n\nExclusion Criteria:\n\n* Type 1 or other specific causes of diabetes\n* Marked symptomatic diabetes\n* Uncontrolled treated/untreated hypertension\n* Known or suspected allergy to the trial products or related products",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Houston",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 29.76328,
-   "lon": -95.36327
+   "lon": -95.36327,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01605773",
@@ -115,6 +115,38 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Newly diagnosed patients with type 2 diabetes currently treated with diet and exercise alone (HbA1c below 10%)"
+   },
+   {
+    "text": "Subjects with type 2 diabetes treated with sulphonylurea (HbA1c below 8.5%)"
+   },
+   {
+    "text": "Males or non-pregnant, non-lactating females"
+   },
+   {
+    "text": "Subjects should have normal renal function"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 or other specific causes of diabetes"
+   },
+   {
+    "text": "Marked symptomatic diabetes"
+   },
+   {
+    "text": "Uncontrolled treated/untreated hypertension"
+   },
+   {
+    "text": "Known or suspected allergy to the trial products or related products"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

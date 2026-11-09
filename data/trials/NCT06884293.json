@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Innovent Biologics (Suzhou) Co. Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Innovent Biologics (Suzhou) Co. Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "IBI362",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: semaglutide"
-   ]
+   ],
+   "label": "Semaglutide",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "IBI362",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: IBI362"
-   ]
+   ],
+   "label": "IBI362",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "This is a multicenter, randomized, open-label Phase 3 clinical study comparing the efficacy and safety of IBI362 9 mg QW versus Semaglutide 2.4 mg QW in overweight or obese (BMI≥27kg/m2) MAFLD subjects. Subjects will be randomly assigned to IBI362 9 mg and Semaglutide 2.4 mg groups. All study treatment will be administered once-weekly and subcutaneously. The entire trial cycle includes a 4-week screening period, a 48-week open-label treatment period, and a 12-week drug withdrawal safety follow-up period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male or female, age 18 years or older at the time of signing informed consent\n2. diagnosed as MAFLD according to the Chinese Guideline for the prevention and treatment of metabolic dysfunction-associated (non-alcoholic) fatty liver disease (Version 2024)\n3. liver fat content ≥8% measured by MRI-PDFF\n4. BMI≥27 kg/m2\n5. Weight change ≤5% within 3 months before screening\n6. HbA1c≤10%\n\nExclusion Criteria:\n\n1. Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs\n2. Used drugs or alternative therapies with weight loss effects within 3 months before screening, including but not limited to: GLP-1 receptor agonists, orlistat, phenylpropanolamine, chlorpheniramine, phentermine etc.\n3. Received chronic (\\>2 weeks) systemic glucocorticoid treatment within 3 months before screening (excluding topical, intraocular, intranasal, and inhaled administration)\n4. Previous diagnosis of type 1 diabetes (including adult latent autoimmune diabetes)\n5. Active or untreated malignant tumors within 5 years before screening, or patients are in remission of clinical malignant tumors (except patients with skin basal cell carcinoma and squamous cell carcinoma, cervical carcinoma in situ, prostate carcinoma in situ or papillary thyroid carcinoma who have no recurrence after surgery)\n6. Mental illness existed in the past or at the time of screening, and the researcher thinks it is not suitable to participate in this study\n7. Pregnant or lactating women, or men or women who are fertile and unwilling to use contraception throughout the study period",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Beijing Hospital",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Beijing Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06884293",
@@ -117,6 +117,53 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female, age 18 years or older at the time of signing informed consent"
+   },
+   {
+    "text": "diagnosed as MAFLD according to the Chinese Guideline for the prevention and treatment of metabolic dysfunction-associated (non-alcoholic) fatty liver disease (Version 2024)"
+   },
+   {
+    "text": "liver fat content ≥8% measured by MRI-PDFF"
+   },
+   {
+    "text": "BMI≥27 kg/m2"
+   },
+   {
+    "text": "Weight change ≤5% within 3 months before screening"
+   },
+   {
+    "text": "HbA1c≤10%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects who the investigator thinks may be allergic to the components in the study drug or similar drugs"
+   },
+   {
+    "text": "Used drugs or alternative therapies with weight loss effects within 3 months before screening, including but not limited to: GLP-1 receptor agonists, orlistat, phenylpropanolamine, chlorpheniramine, phentermine etc."
+   },
+   {
+    "text": "Received chronic (>2 weeks) systemic glucocorticoid treatment within 3 months before screening (excluding topical, intraocular, intranasal, and inhaled administration)"
+   },
+   {
+    "text": "Previous diagnosis of type 1 diabetes (including adult latent autoimmune diabetes)"
+   },
+   {
+    "text": "Active or untreated malignant tumors within 5 years before screening, or patients are in remission of clinical malignant tumors (except patients with skin basal cell carcinoma and squamous cell carcinoma, cervical carcinoma in situ, prostate carcinoma in situ or papillary thyroid carcinoma who have no recurrence after surgery)"
+   },
+   {
+    "text": "Mental illness existed in the past or at the time of screening, and the researcher thinks it is not suitable to participate in this study"
+   },
+   {
+    "text": "Pregnant or lactating women, or men or women who are fertile and unwilling to use contraception throughout the study period"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

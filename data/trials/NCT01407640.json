@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Assistance Publique - Hôpitaux de Paris",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Assistance Publique - Hôpitaux de Paris"
  },
  "collaborators": [
   "Institut National de la Santé Et de la Recherche Médicale, France",
@@ -55,18 +55,18 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Allergy tests",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Allergy tests"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "Insulin allergy (IA) is still observed even with recombinant human insulin and insulin analogs.\n\nObviously, the usual attitude facing an allergy, i. e. exclusion of the allergen, poses problems in face of IA because insulin is often vital for the patient. IA is thus a complex situation in which a rigorous diagnostic procedure to identify the exact allergen is necessary to propose a therapeutic answer; the purpose of the study is 1/ to validate a diagnostic algorithm for patients presenting with possible allergy. 2/ to investigate immunogenetic profiles of patient with insulin allergy 3/ cellular mechanisms of IA.",
  "eligibility": {
   "criteria": "Inclusion criteria :\n\n* Patients aged 18 years old and more with a written informed consent\n* Experimental group : type 1 or type 2 diabetic patients with insulin allergy based on clinical criteria\n* Active Comparator group: type 1 or type 2 diabetic patients insulin treated without insulin allergy\n\nExclusion criteria :\n\n* Not willing participate\n* Pregnancy\n* Age below 18 years\n* Severe Renal failure\n* Severe Anaphylactic shock only for the experimental group\n* No social security overture",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "Cochin Hospital",
    "city": "Paris",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Cochin Hospital",
    "lat": 48.85341,
-   "lon": 2.3488
+   "lon": 2.3488,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01407640",
@@ -107,6 +107,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients aged 18 years old and more with a written informed consent"
+   },
+   {
+    "text": "Experimental group : type 1 or type 2 diabetic patients with insulin allergy based on clinical criteria"
+   },
+   {
+    "text": "Active Comparator group: type 1 or type 2 diabetic patients insulin treated without insulin allergy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Not willing participate"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Age below 18 years"
+   },
+   {
+    "text": "Severe Renal failure"
+   },
+   {
+    "text": "Severe Anaphylactic shock only for the experimental group"
+   },
+   {
+    "text": "No social security overture"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

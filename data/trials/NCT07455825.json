@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Parexel"
@@ -50,39 +50,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD5004",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: AZD5004"
+   ],
    "label": "Cohort A: Treatment Sequence ABC",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: AZD5004"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: AZD5004"
+   ],
    "label": "Cohort A: Treatment Sequence ACB",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: AZD5004"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: AZD5004"
+   ],
    "label": "Cohort B: Treatment Sequence ADE",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: AZD5004"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Cohort B: Treatment Sequence AED",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD5004"
-   ]
+   ],
+   "label": "Cohort B: Treatment Sequence AED",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -102,32 +102,32 @@
  "brief_summary": "The purpose of this study is to assess the pharmacokinetics (PK), safety and tolerability of different oral formulations of AZD5004, and to evaluate the effect of food on these formulations in healthy participants.",
  "eligibility": {
   "criteria": "Main Inclusion Criteria:\n\n* Participants suitable veins for cannulation or repeated venipuncture.\n* All females must have a negative pregnancy test at the Screening Visit and on admission to the Clinical Unit.\n* Female participants:\n\n  1. of childbearing potential must not be lactating and if heterosexually active must agree to use an approved method of highly effective contraception, to avoid pregnancy.\n  2. of non-childbearing potential must be confirmed at the Screening Visit.\n* Male participants:\n\n  1. Sexually active fertile male participants with partners of childbearing potential must adhere to the contraception methods.\n  2. Additional contraception must be used for the sexual partners of male study participants throughout the clinical study.\n* Have a Body Mass Index (BMI) of ≥ 23 kg/m2 but not exceeding 35 kg/m2 inclusive (at the time of Screening) and weigh at least 60 kg.\n\nMain Exclusion Criteria:\n\n* History of any clinically important disease or disorder which, may either put the participant at risk because of participation in the study, or influence the results or the participant's ability to participate in the study.\n* Any clinically significant illness, medical/surgical procedure, or trauma\n* Participants who have a special dietary requirement and who are unable/unwilling to follow a uniform diet.\n* Participants positive for anti- hepatitis B core antibody (anti-HBc) or anti-hepatitis C Virus Antibody (anti-HCV).\n* Participants who are on or are planning to undertake a weight loss program during the study period.\n* Abnormal vital signs, after 10 minutes supine rest, at Screening and/or admission to the Clinical Unit.\n* Positive screen for drugs of abuse, or alcohol or cotinine (nicotine).\n* Any laboratory values with the deviations specified in protocol and clinically important abnormalities in clinical chemistry, hematology, or urinalysis results.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Glendale",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 34.14251,
-   "lon": -118.25508
+   "lon": -118.25508,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Baltimore",
-   "state": "Maryland",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 39.29038,
-   "lon": -76.61219
+   "lon": -76.61219,
+   "state": "Maryland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07455825",
@@ -141,6 +141,61 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants suitable veins for cannulation or repeated venipuncture."
+   },
+   {
+    "text": "All females must have a negative pregnancy test at the Screening Visit and on admission to the Clinical Unit."
+   },
+   {
+    "text": "Female participants:",
+    "sub_items": [
+     "of childbearing potential must not be lactating and if heterosexually active must agree to use an approved method of highly effective contraception, to avoid pregnancy.",
+     "of non-childbearing potential must be confirmed at the Screening Visit."
+    ]
+   },
+   {
+    "text": "Male participants:",
+    "sub_items": [
+     "Sexually active fertile male participants with partners of childbearing potential must adhere to the contraception methods.",
+     "Additional contraception must be used for the sexual partners of male study participants throughout the clinical study."
+    ]
+   },
+   {
+    "text": "Have a Body Mass Index (BMI) of ≥ 23 kg/m2 but not exceeding 35 kg/m2 inclusive (at the time of Screening) and weigh at least 60 kg."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of any clinically important disease or disorder which, may either put the participant at risk because of participation in the study, or influence the results or the participant's ability to participate in the study."
+   },
+   {
+    "text": "Any clinically significant illness, medical/surgical procedure, or trauma"
+   },
+   {
+    "text": "Participants who have a special dietary requirement and who are unable/unwilling to follow a uniform diet."
+   },
+   {
+    "text": "Participants positive for anti- hepatitis B core antibody (anti-HBc) or anti-hepatitis C Virus Antibody (anti-HCV)."
+   },
+   {
+    "text": "Participants who are on or are planning to undertake a weight loss program during the study period."
+   },
+   {
+    "text": "Abnormal vital signs, after 10 minutes supine rest, at Screening and/or admission to the Clinical Unit."
+   },
+   {
+    "text": "Positive screen for drugs of abuse, or alcohol or cotinine (nicotine)."
+   },
+   {
+    "text": "Any laboratory values with the deviations specified in protocol and clinically important abnormalities in clinical chemistry, hematology, or urinalysis results."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

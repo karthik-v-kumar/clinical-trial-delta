@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-01-05",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Massachusetts General Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Massachusetts General Hospital"
  },
  "collaborators": [
   "University of Massachusetts, Boston"
@@ -51,58 +51,58 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Good high cholesterol video",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Poor high cholesterol video",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Good colon cancer screening video",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Poor colon cancer screening video",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Behavioral: Good high cholesterol video",
+    "Behavioral: Poor high cholesterol video"
+   ],
    "label": "High Cholesterol Good Video First",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Behavioral: Good high cholesterol video",
-    "Behavioral: Poor high cholesterol video"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Behavioral: Good colon cancer screening video",
+    "Behavioral: Poor colon cancer screening video"
+   ],
    "label": "Colorectal Cancer Good Video First",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Behavioral: Good colon cancer screening video",
-    "Behavioral: Poor colon cancer screening video"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "High Cholesterol Poor Video First",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Good high cholesterol video",
     "Behavioral: Poor high cholesterol video"
-   ]
+   ],
+   "label": "High Cholesterol Poor Video First",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Colorectal Cancer Poor Video First",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Good colon cancer screening video",
     "Behavioral: Poor colon cancer screening video"
-   ]
+   ],
+   "label": "Colorectal Cancer Poor Video First",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -114,10 +114,10 @@
  "brief_summary": "This study will recruit subjects online and randomly assigned them to one of four arms. The arms vary by clinical decision (colorectal cancer screening or treatment of high cholesterol) by video order (poor shared decision making followed by good or good shared decision making followed by poor). Participants will view two videos and complete the Shared Decision Making process survey along with a few other measures after each video. Our main hypothesis is that respondents watching the good shared decision making videos will score higher on the Shared Decision Making Process survey compared to those watching the poor videos.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Speak English\n* No prior diagnosis of colorectal cancer\n* No history of heart attack\n* No history of stroke\n\nExclusion Criteria:\n\n* None",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -125,13 +125,13 @@
  },
  "sites": [
   {
-   "facility": "Massachusetts General Hospital",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Massachusetts General Hospital",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04317274",
@@ -143,6 +143,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Speak English"
+   },
+   {
+    "text": "No prior diagnosis of colorectal cancer"
+   },
+   {
+    "text": "No history of heart attack"
+   },
+   {
+    "text": "No history of stroke"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "None"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

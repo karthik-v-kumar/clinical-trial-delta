@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Medical Centre Ljubljana",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Medical Centre Ljubljana"
  },
  "collaborators": [],
  "conditions": [
@@ -48,33 +48,33 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Lifestyle intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "SITA",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin",
     "Behavioral: Lifestyle intervention"
-   ]
+   ],
+   "label": "SITA",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "CON",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Lifestyle intervention"
-   ]
+   ],
+   "label": "CON",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "Metformin is the first-line therapy for PCOS with high metabolic risk, yet a large proportion of patients cannot tolerate it due to associated gastrointestinal adverse events. The alternative pharmacological strategy when metformin cannot be tolerated is not well established in this population. Our aim was to evaluate whether sitagliptin (SITA) preserves metabolic profile in metformin (MET) intolerant PCOS with high metabolic risk.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 18 years old to menopause\n* polycystic ovary syndrome (ASRM-ESHRE Rotterdam criteria)\n* BMI of 30 kg/m2 or higher\n\nExclusion Criteria:\n\n* significant cardiovascular disease\n* significant kidney or hepatic disease\n* personal or family history of medullary thyroid carcinoma\n* known history of gallbladder disease\n* known history of pancreatitis",
-  "sex": "FEMALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": false,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT"
   ]
@@ -104,6 +104,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "18 years old to menopause"
+   },
+   {
+    "text": "polycystic ovary syndrome (ASRM-ESHRE Rotterdam criteria)"
+   },
+   {
+    "text": "BMI of 30 kg/m2 or higher"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "significant cardiovascular disease"
+   },
+   {
+    "text": "significant kidney or hepatic disease"
+   },
+   {
+    "text": "personal or family history of medullary thyroid carcinoma"
+   },
+   {
+    "text": "known history of gallbladder disease"
+   },
+   {
+    "text": "known history of pancreatitis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

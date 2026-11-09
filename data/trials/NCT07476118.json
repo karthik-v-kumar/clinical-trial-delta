@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Brenipatide",
    "other_names": [
     "LY3537031"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Brenipatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Brenipatide"
-   ]
+   ],
+   "label": "Brenipatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The main purpose of this study is to evaluate how different dose levels of brenipatide work and how safe they are in healthy people with overweight or obesity. The study will assess the effects of different doses given as subcutaneous (under the skin) injections. Participation in this study will last about 42 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Are overtly healthy with no comorbidities related to body mass index (BMI), such as type 2 diabetes mellitus or unstable cardiovascular disease, as determined by medical evaluation\n* Have a BMI within the range of 27.0 to 45.0 kilogram per square meter (kg/m\\^2)\n* Have no significant (not more than 5 percent \\[%\\]) self-reported weight gain or loss in the past 3 months prior to screening\n\nExclusion Criteria:\n\n* Have significant history or presence of cardiovascular, respiratory, hepatic, renal, gastrointestinal (GI), endocrine, hematological, dermatological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination; constituting a risk when taking the Investigational Medical Product (IMP); or interfering with the interpretation of data\n* Have a prior diagnosis of type 1 or type 2 diabetes mellitus\n* Have a history of acute or chronic pancreatitis\n* Have a personal or family history of medullary thyroid carcinoma or have multiple endocrine neoplasia syndrome type 2\n* Have received a glucagon-like peptide-1 (GLP-1) receptor agonist, glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 receptor agonist, GIP/GLP-1/glucagon receptor agonist, or amylin receptor agonist within 6 months prior to screening\n* Have been treated with prescription and over-the-counter medications, or alternative remedies (including herbal/nutritional supplements), that promote weight loss within 6 months prior to screening\n* Are pregnant or lactating",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,31 +100,31 @@
  },
  "sites": [
   {
-   "facility": "Fortrea Clinical Research Unit - Daytona Beach",
    "city": "Daytona Beach",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Fortrea Clinical Research Unit - Daytona Beach",
    "lat": 29.21081,
-   "lon": -81.02283
+   "lon": -81.02283,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Fortrea Clinical Research Unit",
    "city": "Dallas",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Fortrea Clinical Research Unit",
    "lat": 32.78306,
-   "lon": -96.80667
+   "lon": -96.80667,
+   "state": "Texas",
+   "status": null
   },
   {
-   "facility": "Fortrea Clinical Research Unit Inc. - Madison",
    "city": "Madison",
-   "state": "Wisconsin",
    "country": "United States",
-   "status": null,
+   "facility": "Fortrea Clinical Research Unit Inc. - Madison",
    "lat": 43.07305,
-   "lon": -89.40123
+   "lon": -89.40123,
+   "state": "Wisconsin",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07476118",
@@ -138,6 +138,44 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Are overtly healthy with no comorbidities related to body mass index (BMI), such as type 2 diabetes mellitus or unstable cardiovascular disease, as determined by medical evaluation"
+   },
+   {
+    "text": "Have a BMI within the range of 27.0 to 45.0 kilogram per square meter (kg/m^2)"
+   },
+   {
+    "text": "Have no significant (not more than 5 percent [%]) self-reported weight gain or loss in the past 3 months prior to screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have significant history or presence of cardiovascular, respiratory, hepatic, renal, gastrointestinal (GI), endocrine, hematological, dermatological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination; constituting a risk when taking the Investigational Medical Product (IMP); or interfering with the interpretation of data"
+   },
+   {
+    "text": "Have a prior diagnosis of type 1 or type 2 diabetes mellitus"
+   },
+   {
+    "text": "Have a history of acute or chronic pancreatitis"
+   },
+   {
+    "text": "Have a personal or family history of medullary thyroid carcinoma or have multiple endocrine neoplasia syndrome type 2"
+   },
+   {
+    "text": "Have received a glucagon-like peptide-1 (GLP-1) receptor agonist, glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 receptor agonist, GIP/GLP-1/glucagon receptor agonist, or amylin receptor agonist within 6 months prior to screening"
+   },
+   {
+    "text": "Have been treated with prescription and over-the-counter medications, or alternative remedies (including herbal/nutritional supplements), that promote weight loss within 6 months prior to screening"
+   },
+   {
+    "text": "Are pregnant or lactating"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

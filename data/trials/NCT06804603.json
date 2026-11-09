@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Vanda Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Vanda Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tradipitant",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo Group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo Group",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Tradipitant Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tradipitant"
-   ]
+   ],
+   "label": "Tradipitant Group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The goal of this study is to measure the effects of using Tradipitant after GLP-1R agonist use on nausea and vomiting in healthy overweight, class I, or class II obese volunteers. The study is placebo-controlled with two treatment arms.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Body Mass Index 25-40 kg/m\\^2 inclusive\n* No serious medical problems or chronic diseases, specifically no type I or type II diabetes\n\nExclusion Criteria:\n\n* Another disorder that contributes to gastrointestinal symptoms\n* History of intolerance and/or hypersensitivity to NK-1 receptor antagonists\n* History of intolerance and/or hypersensitivity to GLP-1 receptor agonists\n* Exposure to any investigational medication within the past 60 days",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,31 +99,31 @@
  },
  "sites": [
   {
-   "facility": "Vanda Investigational Site",
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Vanda Investigational Site",
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Vanda Investigational Site",
    "city": "Rochester",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Vanda Investigational Site",
    "lat": 44.02163,
-   "lon": -92.4699
+   "lon": -92.4699,
+   "state": "Minnesota",
+   "status": null
   },
   {
-   "facility": "Vanda Investigational Site",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Vanda Investigational Site",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06804603",
@@ -135,6 +135,32 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Body Mass Index 25-40 kg/m^2 inclusive"
+   },
+   {
+    "text": "No serious medical problems or chronic diseases, specifically no type I or type II diabetes"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Another disorder that contributes to gastrointestinal symptoms"
+   },
+   {
+    "text": "History of intolerance and/or hypersensitivity to NK-1 receptor antagonists"
+   },
+   {
+    "text": "History of intolerance and/or hypersensitivity to GLP-1 receptor agonists"
+   },
+   {
+    "text": "Exposure to any investigational medication within the past 60 days"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

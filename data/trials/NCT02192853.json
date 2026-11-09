@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital, Gentofte, Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital, Gentofte, Copenhagen"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The investigators want to estimate both the endothelial and the plasma activity of dipeptidyl peptidase 4 during different doses of sitagliptin in healthy subjects and patients with type 2 diabetes. Furthermore, the investigators want to investigate whether the current clinical dose of 100 mg of sitagliptin is sufficient to inhibit both the plasma and the endothelial activity of the enzyme dipeptidyl peptidase 4.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Caucasians with diet and/or metformin treated patients with type 2 diabetes (diagnosed according to the criterias of the World Health Organization)\n* Normal Hemoglobin\n* Prior Informed Consent\n\nExclusion Criteria:\n\n* Nephropathy\n* Liver disease\n* Inflammatory bowel disease\n* Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Diabetes Research Division, Department of Endocrinology, Gentofte Hospital",
    "city": "Hellerup",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Diabetes Research Division, Department of Endocrinology, Gentofte Hospital",
    "lat": 55.73204,
-   "lon": 12.57093
+   "lon": 12.57093,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02192853",
@@ -117,6 +117,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Caucasians with diet and/or metformin treated patients with type 2 diabetes (diagnosed according to the criterias of the World Health Organization)"
+   },
+   {
+    "text": "Normal Hemoglobin"
+   },
+   {
+    "text": "Prior Informed Consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Nephropathy"
+   },
+   {
+    "text": "Liver disease"
+   },
+   {
+    "text": "Inflammatory bowel disease"
+   },
+   {
+    "text": "Pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

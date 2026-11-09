@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -50,32 +50,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD5658",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "6 - 8 cohorts",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD5658",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "6 - 8 cohorts",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "6 - 8 cohorts",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: AZD5658",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "6 - 8 cohorts",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The purpose of this study is to investigate the safety and tolerability of AZD5658 following ascending single oral doses in Type 2 Diabetics. It will also estimate the maximum tolerated dose.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients must be of non-childbearing potential.\n* Body mass index between greater than or equal to 19 and less than or equal to 40 kg/m2\n* Patients with confirmed Type 2 Diabetes diagnosis for at least 1 year and treated with Metformin\n\nExclusion Criteria:\n\n* Clinically significant illness or clinically relevant trauma within 2 weeks before the first administration of the IP\n* Participation in another clinical study during the last 30 days prior to enrollment\n* Significant cardiovascular event within the last 6 months prior to enrollment",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01176097",
@@ -118,6 +118,32 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients must be of non-childbearing potential."
+   },
+   {
+    "text": "Body mass index between greater than or equal to 19 and less than or equal to 40 kg/m2"
+   },
+   {
+    "text": "Patients with confirmed Type 2 Diabetes diagnosis for at least 1 year and treated with Metformin"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Clinically significant illness or clinically relevant trauma within 2 weeks before the first administration of the IP"
+   },
+   {
+    "text": "Participation in another clinical study during the last 30 days prior to enrollment"
+   },
+   {
+    "text": "Significant cardiovascular event within the last 6 months prior to enrollment"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

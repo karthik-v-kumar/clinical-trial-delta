@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "QUADRUPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Freie Universität Berlin",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Freie Universität Berlin"
  },
  "collaborators": [
   "Boehringer Ingelheim"
@@ -58,25 +58,25 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Intervention Group (IG)",
    "other_names": [
     "HAPA-based stage-matched intervention"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention Group (IG)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Intervention Group (IG)"
-   ]
+   ],
+   "label": "Intervention Group (IG)",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Waiting control group (WCG)",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "To help employees to adopt and maintain a healthy lifestyle, it is imperative to increase their self-management competencies. Aim of this research project is to evaluate an evidence- and theory-based computerized expert system in comparison to waiting control group. Employees will be treated psychologically and followed up over 18 months. The computerized expert system is expected to help employees significantly changing their lifestyle. The intervention is hypothesized to improve self-management competencies over and above the regular check-up at their medical appointment (i.e., waiting control group).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* to be capable of exercising on their own at a minimum level and/or to consume fruits and vegetables\n* able to fill out a questionnaire (no illiteracy)\n* adequate German language ability\n\nExclusion Criteria:\n\n* no internet access\n* no computer with keyboard",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Freie Universitaet Berlin",
    "city": "Berlin",
-   "state": "State of Berlin",
    "country": "Germany",
-   "status": null,
+   "facility": "Freie Universitaet Berlin",
    "lat": 52.52437,
-   "lon": 13.41053
+   "lon": 13.41053,
+   "state": "State of Berlin",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00985179",
@@ -119,6 +119,29 @@
  "sponsors_of_note": [
   "Boehringer Ingelheim"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "to be capable of exercising on their own at a minimum level and/or to consume fruits and vegetables"
+   },
+   {
+    "text": "able to fill out a questionnaire (no illiteracy)"
+   },
+   {
+    "text": "adequate German language ability"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "no internet access"
+   },
+   {
+    "text": "no computer with keyboard"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

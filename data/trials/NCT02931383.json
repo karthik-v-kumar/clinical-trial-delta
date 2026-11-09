@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Henrik Gudbergsen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Henrik Gudbergsen"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide 3 mg (Saxenda)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Liraglutide 3 mg placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide 3 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide 3 mg (Saxenda)"
-   ]
+   ],
+   "label": "Liraglutide 3 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Liraglutide 3 mg placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Liraglutide 3 mg placebo"
-   ]
+   ],
+   "label": "Liraglutide 3 mg placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This is a substudy to a randomised trial investigating the effect of liraglutide on body weight and pain in overweight or obese patients with knee osteoarthritis (OA) (NCT02905864). In the parent trial, patients will be subjected to an 8-week diet intervention phase including a low-calorie diet and dietetic counseling, after which patients will be randomised to receive either liraglutide 3 mg or liraglutide 3 mg placebo as an add-on to dietetic guidance on re-introducing regular foods and a focus on continued motivation to engage in a healthy lifestyle.\n\nThis substudy aims to investigate the impact of, and subsequent change of, joint inflammation and clinical symptoms, in obese patients with knee osteoarthritis following a randomisation to Liraglutide 3 mg or Liraglutide 3 mg placebo treatment between weeks 0-52.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Informed consent obtained\n* Clinical diagnosis of knee OA (American College of Rheumatology (ACR) criteria) confirmed by radiology but restricted to definite radiographic OA at early to moderate-stages (Kellgren-Lawrence grades 1, 2, or 3)\n* Age ≥ 18 years and \\< 75 years\n* Body mass index (BMI) ≥ 27 kg/m2\n* Stable body weight during the previous 3 months (\\< 5 kg self-reported weight change)\n* Motivated for weight loss\n\nExclusion Criteria:\n\n* On-going participation, or participation within the last 3 months, in an organised weight loss programme (or within the last 3 months)\n* Current or history of treatment with medications that may cause significant weight gain for at least 3 months before this trial\n* Current use or use within three months before this trial of GLP-1 receptor agonist, pramlintide, sibutramine, orlistat, zonisamide, topiramate, or phentermine\n* Type 1 diabetes\n* Type 2 diabetes treated with glucose-lowering drugs other than metformin\n* Alloplasty in target knee joint (see section 6.3)\n* End stage disease in target knee joint (Kellgren-Lawrence grade 4)\n* Immuno-inflammatory disease\n* Chronic wide-spread pain\n* Pregnancy or insufficient anti-conception therapy for female fertile patients\n* Breast-feeding\n* Estimated glomerular filtration rate (eGFR) \\< 60 ml/min/1.73 m2\n* Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 3 x above upper normal range (UNR)\n* Surgery scheduled for the trial duration period, except for minor surgical procedures\n* Surgical procedures such as arthroscopy or injections into a knee within 3 months prior to enrolment\n* Previous surgical treatment for obesity (excluding liposuction \\>1 year before trial entry)\n* Thyroid stimulating hormone (TSH) outside of the range of 0.4-6.0 mIU/L\n* Obesity secondary to endocrinologic or eating disorders or to treatment with medicinal products that may cause weight gain\n* Family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia type 2\n* Inflammatory bowel disease\n* Congestive heart failure, New York Heart Association (NYHA) class III-IV\n* Diabetic gastroparesis\n* History of or current diagnosis of pancreatitis (acute and/or chronic) or pancreatic cancer\n* History of cancer with the exception of in-situ malignancies of the skin or cervix uteri\n* History of major depressive disorder, a PHQ-9 (Patient Health Questionnaire-9) score of more than 15, or a history of other severe psychiatric disorders or diagnosis of an eating disorder\n* Subjects with a lifetime history of a suicide attempt or history of any suicidal behaviour within the past month before entry into the trial\n* Inability to speak Danish fluently\n* A mental state impeding compliance with the program\n* Use of opioids or similar strong analgesics\n* Allergic reactions to the active ingredients of Saxenda, such as hypotension, palpitations, dyspnoea and oedema",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "74 Years",
   "healthy_volunteers": false,
+  "maximum_age": "74 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "The Parker Institute and Department of Radiology at Bispebjerg and Frederiksberg Hospital",
    "city": "Frederiksberg",
-   "state": "Capital Region",
    "country": "Denmark",
-   "status": null,
+   "facility": "The Parker Institute and Department of Radiology at Bispebjerg and Frederiksberg Hospital",
    "lat": 55.67938,
-   "lon": 12.53463
+   "lon": 12.53463,
+   "state": "Capital Region",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02931383",
@@ -118,6 +118,122 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Informed consent obtained"
+   },
+   {
+    "text": "Clinical diagnosis of knee OA (American College of Rheumatology (ACR) criteria) confirmed by radiology but restricted to definite radiographic OA at early to moderate-stages (Kellgren-Lawrence grades 1, 2, or 3)"
+   },
+   {
+    "text": "Age ≥ 18 years and < 75 years"
+   },
+   {
+    "text": "Body mass index (BMI) ≥ 27 kg/m2"
+   },
+   {
+    "text": "Stable body weight during the previous 3 months (< 5 kg self-reported weight change)"
+   },
+   {
+    "text": "Motivated for weight loss"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "On-going participation, or participation within the last 3 months, in an organised weight loss programme (or within the last 3 months)"
+   },
+   {
+    "text": "Current or history of treatment with medications that may cause significant weight gain for at least 3 months before this trial"
+   },
+   {
+    "text": "Current use or use within three months before this trial of GLP-1 receptor agonist, pramlintide, sibutramine, orlistat, zonisamide, topiramate, or phentermine"
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Type 2 diabetes treated with glucose-lowering drugs other than metformin"
+   },
+   {
+    "text": "Alloplasty in target knee joint (see section 6.3)"
+   },
+   {
+    "text": "End stage disease in target knee joint (Kellgren-Lawrence grade 4)"
+   },
+   {
+    "text": "Immuno-inflammatory disease"
+   },
+   {
+    "text": "Chronic wide-spread pain"
+   },
+   {
+    "text": "Pregnancy or insufficient anti-conception therapy for female fertile patients"
+   },
+   {
+    "text": "Breast-feeding"
+   },
+   {
+    "text": "Estimated glomerular filtration rate (eGFR) < 60 ml/min/1.73 m2"
+   },
+   {
+    "text": "Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) > 3 x above upper normal range (UNR)"
+   },
+   {
+    "text": "Surgery scheduled for the trial duration period, except for minor surgical procedures"
+   },
+   {
+    "text": "Surgical procedures such as arthroscopy or injections into a knee within 3 months prior to enrolment"
+   },
+   {
+    "text": "Previous surgical treatment for obesity (excluding liposuction >1 year before trial entry)"
+   },
+   {
+    "text": "Thyroid stimulating hormone (TSH) outside of the range of 0.4-6.0 mIU/L"
+   },
+   {
+    "text": "Obesity secondary to endocrinologic or eating disorders or to treatment with medicinal products that may cause weight gain"
+   },
+   {
+    "text": "Family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia type 2"
+   },
+   {
+    "text": "Inflammatory bowel disease"
+   },
+   {
+    "text": "Congestive heart failure, New York Heart Association (NYHA) class III-IV"
+   },
+   {
+    "text": "Diabetic gastroparesis"
+   },
+   {
+    "text": "History of or current diagnosis of pancreatitis (acute and/or chronic) or pancreatic cancer"
+   },
+   {
+    "text": "History of cancer with the exception of in-situ malignancies of the skin or cervix uteri"
+   },
+   {
+    "text": "History of major depressive disorder, a PHQ-9 (Patient Health Questionnaire-9) score of more than 15, or a history of other severe psychiatric disorders or diagnosis of an eating disorder"
+   },
+   {
+    "text": "Subjects with a lifetime history of a suicide attempt or history of any suicidal behaviour within the past month before entry into the trial"
+   },
+   {
+    "text": "Inability to speak Danish fluently"
+   },
+   {
+    "text": "A mental state impeding compliance with the program"
+   },
+   {
+    "text": "Use of opioids or similar strong analgesics"
+   },
+   {
+    "text": "Allergic reactions to the active ingredients of Saxenda, such as hypotension, palpitations, dyspnoea and oedema"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

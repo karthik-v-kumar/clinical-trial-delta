@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -53,60 +53,60 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Cagrilintide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo cagrilintide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Cagrilintide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Cagrilintide",
     "Drug: Placebo cagrilintide"
-   ]
+   ],
+   "label": "Cagrilintide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Semaglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide",
     "Drug: Placebo semaglutide"
-   ]
+   ],
+   "label": "Semaglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "CagriSema",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Cagrilintide",
     "Drug: Semaglutide",
     "Drug: Placebo cagrilintide",
     "Drug: Placebo semaglutide"
-   ]
+   ],
+   "label": "CagriSema",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo cagrilintide",
     "Drug: Placebo semaglutide"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "In this study we will investigate how the medicine cagrilintide affects bone health in women after menopause with obesity during weight loss, compared to treatment with placebo (the dummy medicine with no active substances) and semaglutide. The purpose is to examine whether cagrilintide can reduce the decline in bone mass associated to weight loss. Participants will either get cagrilintide, semaglutide, CagriSema (cagrilintide combined with semaglutide) or placebo. Which treatment participants get is decided by chance. Semaglutide is already approved for the treatment of overweight and obesity and can be prescribed by doctors. Cagrilintide and CagriSema are new medications currently under development for weight management. The study will last for about 79 weeks.",
  "eligibility": {
   "criteria": "Inclusion criteria\n\n* Female.\n* Post-menopausal at screening (defined as minimum 12 months of amenorrhea, high levels of follicular stimulating hormone (FSH) 16 - 130 international units per liter (IU/L), and low levels of anti-müllerian hormone (AMH) and inhibin B).\n* Age 50-70 years (both inclusive) at the time of signing the informed consent.\n* Body Mass Index (BMI) greater than or equal to \\>= 30.0 kilograms per square meter (kg/m\\^2).\n\nExclusion criteria\n\n* Previous or current bone disease (e.g., osteoporosis, Paget's disease of bone, or bone cancer).\n* Presence of disease affecting bone metabolism (e.g., diabetes mellitus, hyperparathyroidism, hyper or hypothyroidism, chronic kidney disease, celiac disease, or inflammatory diseases (e.g., psoriatic arthritis or ankylosing spondylitis)).\n* Treatment with any medication affecting bone metabolism within 6 months prior to screening as judged by the investigator (e.g., anti-resorptive medication, anabolic medication, systemic hormone replacement therapy (HRT), or systemic corticosteroids).",
-  "sex": "FEMALE",
-  "minimum_age": "50 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "50 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,13 +129,13 @@
  },
  "sites": [
   {
-   "facility": "Steno Diabetes Center Copenhagen",
    "city": "Herlev",
-   "state": null,
    "country": "Denmark",
-   "status": "RECRUITING",
+   "facility": "Steno Diabetes Center Copenhagen",
    "lat": 55.72366,
-   "lon": 12.43998
+   "lon": 12.43998,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07010432",
@@ -150,6 +150,35 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Female."
+   },
+   {
+    "text": "Post-menopausal at screening (defined as minimum 12 months of amenorrhea, high levels of follicular stimulating hormone (FSH) 16 - 130 international units per liter (IU/L), and low levels of anti-müllerian hormone (AMH) and inhibin B)."
+   },
+   {
+    "text": "Age 50-70 years (both inclusive) at the time of signing the informed consent."
+   },
+   {
+    "text": "Body Mass Index (BMI) greater than or equal to >= 30.0 kilograms per square meter (kg/m^2)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Previous or current bone disease (e.g., osteoporosis, Paget's disease of bone, or bone cancer)."
+   },
+   {
+    "text": "Presence of disease affecting bone metabolism (e.g., diabetes mellitus, hyperparathyroidism, hyper or hypothyroidism, chronic kidney disease, celiac disease, or inflammatory diseases (e.g., psoriatic arthritis or ankylosing spondylitis))."
+   },
+   {
+    "text": "Treatment with any medication affecting bone metabolism within 6 months prior to screening as judged by the investigator (e.g., anti-resorptive medication, anabolic medication, systemic hormone replacement therapy (HRT), or systemic corticosteroids)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

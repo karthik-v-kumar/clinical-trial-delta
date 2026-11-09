@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2009-11-05",
  "has_results": true,
  "lead_sponsor": {
-  "name": "GlaxoSmithKline",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "GlaxoSmithKline"
  },
  "collaborators": [],
  "conditions": [
@@ -48,22 +48,22 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "rosiglitazone-metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin+ gliclazide",
    "other_names": [
     "rosiglitazone-metformin",
     "Metformin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -76,10 +76,10 @@
  "brief_summary": "It has been shown in previous study that progressive glycemic deterioration was associated with progressive loss of b-cell function, measured by the decrease in plasma insulin levels, irrespective of the therapy used (diet, sulfonylureas or metformin).There is growing evidence that thiazolidinediones could have a positive action on the b-cell function. But it has not yet been demonstrated that they could protect from a deterioration in insulin secretion in the long term. So, it appears interesting to study the long term evolution of the b-cell function and the possible protection with rosiglitazone in patients with type 2 diabetes showing evidence of loss of b-cell function with metformin alone.",
  "eligibility": {
   "criteria": "INCLUSION CRITERIA:\n\n* Males and females 40 to 75 years of age (inclusive at the time of screening)\n* Type 2 diabetes mellitus as defined by the WHO criteria, diagnosed for at least 1 year\n* Subjects receiving 1.5 to 3g of metformin alone at a constant dose for at least 8 weeks prior to visit 1\n* Patients with 6.5% \\< HbA1c \\> 8% at visit 1 and visit 2\n* 25 \\< BMI \\< 35\n\nEXCLUSION CRITERIA:\n\n* Patient with type 1 diabetes\n* Treatment with other hypoglycaemic agents than metformin in the last 3 months\n* FPG \\>200 mg/dL at visit 2\n* Hypersensitivity to the studied treatments (rosiglitazone, metformin chlorhydrate, gliclazide)\n* Congestive heart failure (NYHA class I to IV), unstable or severe angina, recent myocardial infarction\n* Respiratory insufficiency\n* Subjects who have required the use of insulin for glycaemic control in the past 6 months prior to visit 1 (except during pregnancy or acute episodes such as hospitalization, trauma or infection) or subjects with a history of metabolic acidosis including diabetic ketoacidosis\n* Anemia defined by haemoglobin concentration \\<11.0 g/dL for males and \\<10.0 g/dL for females\n* Renal disease or renal dysfunction, e.g. as suggested by serum creatinine levels ≥135.0 µmol/L in males and ≥110.0 µmol/L in females and/or creatinine clearance \\<40 mL/min\n* Presence of clinically significant hepatic disease, with ALT, AST, total bilirubin, alkaline phosphatase \\>2.5 times the upper limit of the normal reference range\n* Subjects with chronic diseases requiring periodic ot intermittent treatment with oral or IV corticosteroids\n* Subjects receiving danazol, miconazole or phenylbutazone\n* Active alcohol, drug or medication abuse within the last 6 months or any condition that would indicate the likelihood of poor subject compliance\n* Women who are lactating, pregnant or planning to become pregnant\n* Any clinically significant abnormality identified at screening which, in the investigator's judgement, makes the subject unsuitable for inclusion in the study\n* Use of any other investigational agent within 30 days or 5 half-lives (whichever is longer) prior to visit 1\n* Subjects who receive or anticipate receiving radiocontrast dye during the study",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,6 +95,80 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females 40 to 75 years of age (inclusive at the time of screening)"
+   },
+   {
+    "text": "Type 2 diabetes mellitus as defined by the WHO criteria, diagnosed for at least 1 year"
+   },
+   {
+    "text": "Subjects receiving 1.5 to 3g of metformin alone at a constant dose for at least 8 weeks prior to visit 1"
+   },
+   {
+    "text": "Patients with 6.5% < HbA1c > 8% at visit 1 and visit 2"
+   },
+   {
+    "text": "25 < BMI < 35"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient with type 1 diabetes"
+   },
+   {
+    "text": "Treatment with other hypoglycaemic agents than metformin in the last 3 months"
+   },
+   {
+    "text": "FPG >200 mg/dL at visit 2"
+   },
+   {
+    "text": "Hypersensitivity to the studied treatments (rosiglitazone, metformin chlorhydrate, gliclazide)"
+   },
+   {
+    "text": "Congestive heart failure (NYHA class I to IV), unstable or severe angina, recent myocardial infarction"
+   },
+   {
+    "text": "Respiratory insufficiency"
+   },
+   {
+    "text": "Subjects who have required the use of insulin for glycaemic control in the past 6 months prior to visit 1 (except during pregnancy or acute episodes such as hospitalization, trauma or infection) or subjects with a history of metabolic acidosis including diabetic ketoacidosis"
+   },
+   {
+    "text": "Anemia defined by haemoglobin concentration <11.0 g/dL for males and <10.0 g/dL for females"
+   },
+   {
+    "text": "Renal disease or renal dysfunction, e.g. as suggested by serum creatinine levels ≥135.0 µmol/L in males and ≥110.0 µmol/L in females and/or creatinine clearance <40 mL/min"
+   },
+   {
+    "text": "Presence of clinically significant hepatic disease, with ALT, AST, total bilirubin, alkaline phosphatase >2.5 times the upper limit of the normal reference range"
+   },
+   {
+    "text": "Subjects with chronic diseases requiring periodic ot intermittent treatment with oral or IV corticosteroids"
+   },
+   {
+    "text": "Subjects receiving danazol, miconazole or phenylbutazone"
+   },
+   {
+    "text": "Active alcohol, drug or medication abuse within the last 6 months or any condition that would indicate the likelihood of poor subject compliance"
+   },
+   {
+    "text": "Women who are lactating, pregnant or planning to become pregnant"
+   },
+   {
+    "text": "Any clinically significant abnormality identified at screening which, in the investigator's judgement, makes the subject unsuitable for inclusion in the study"
+   },
+   {
+    "text": "Use of any other investigational agent within 30 days or 5 half-lives (whichever is longer) prior to visit 1"
+   },
+   {
+    "text": "Subjects who receive or anticipate receiving radiocontrast dye during the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

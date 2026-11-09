@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2011-05-16",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Comparator: sitagliptin phosphate",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: placebo (unspecified)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: sitagliptin phosphate"
-   ]
+   ],
+   "label": "sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: placebo (unspecified)"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "A clinical study to determine the safety, efficacy and the way sitagliptin works in patients with Type 2 Diabetes Mellitus who have inadequate glycemic (blood sugar) control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participant has type 2 diabetes mellitus\n* Males\n* Females who are highly unlikely to become pregnant\n* Participants poorly controlled without taking any, or taking one or two oral antidiabetic medications\n\nExclusion Criteria:\n\n* Participant has a history of type 1 diabetes mellitus or history of ketoacidosis\n* Participant required insulin therapy within the prior 8 weeks\n* Participant is on or has been taking TZDs such as Actos® (pioglitazone) or Avandia® (rosiglitazone) within the prior 12 weeks of the screening visit",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,6 +106,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participant has type 2 diabetes mellitus"
+   },
+   {
+    "text": "Males"
+   },
+   {
+    "text": "Females who are highly unlikely to become pregnant"
+   },
+   {
+    "text": "Participants poorly controlled without taking any, or taking one or two oral antidiabetic medications"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participant has a history of type 1 diabetes mellitus or history of ketoacidosis"
+   },
+   {
+    "text": "Participant required insulin therapy within the prior 8 weeks"
+   },
+   {
+    "text": "Participant is on or has been taking TZDs such as Actos® (pioglitazone) or Avandia® (rosiglitazone) within the prior 12 weeks of the screening visit"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

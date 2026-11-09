@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Anacetrapib",
    "other_names": [
     "MK-0859"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for anacetrapib",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Anacetrapib",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Anacetrapib"
-   ]
+   ],
+   "label": "Anacetrapib",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo for anacetrapib"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This study will evaluate the effects of anacetrapib (MK-0859) on low-density lipoprotein-cholesterol (LDL-C) when compared to placebo in Japanese participants with dyslipidemia when added to an existing statin-modifying therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* If female, cannot be of reproductive potential\n* Treatment with an appropriate, stable dose of statin ± other lipid modifying therapy for at least 6 weeks and who is not at LDL-C goal per their category in the Japan Atherosclerosis Society guidelines\n\nExclusion Criteria:\n\n* Previously participated in a study with a cholesteryl ester transfer protein (CETP) inhibitor\n* Homozygous and heterozygous familial hypercholesterolemia\n* Severe chronic heart failure\n* Uncontrolled cardiac arrhythmias, myocardial infarction (MI), percutaneous coronary intervention (PCI), coronary artery by-pass graft (CABG), unstable angina, or stroke within 3 months",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,6 +111,32 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "If female, cannot be of reproductive potential"
+   },
+   {
+    "text": "Treatment with an appropriate, stable dose of statin ± other lipid modifying therapy for at least 6 weeks and who is not at LDL-C goal per their category in the Japan Atherosclerosis Society guidelines"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Previously participated in a study with a cholesteryl ester transfer protein (CETP) inhibitor"
+   },
+   {
+    "text": "Homozygous and heterozygous familial hypercholesterolemia"
+   },
+   {
+    "text": "Severe chronic heart failure"
+   },
+   {
+    "text": "Uncontrolled cardiac arrhythmias, myocardial infarction (MI), percutaneous coronary intervention (PCI), coronary artery by-pass graft (CABG), unstable angina, or stroke within 3 months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

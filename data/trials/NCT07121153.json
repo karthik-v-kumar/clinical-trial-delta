@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -52,40 +52,40 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "NNC0487-0111 A",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo A",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: NNC0487-0111 A",
+    "Drug: Placebo A"
+   ],
    "label": "Cohort A1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: NNC0487-0111 A",
     "Drug: Placebo A"
-   ]
-  },
-  {
+   ],
    "label": "Cohort A2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: NNC0487-0111 A",
-    "Drug: Placebo A"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Cohort A3",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: NNC0487-0111 A",
     "Drug: Placebo A"
-   ]
+   ],
+   "label": "Cohort A3",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -97,23 +97,23 @@
  "brief_summary": "The study is testing a new medicine (NNC0487-0111) for weight control in Chinese people with BMI between 24 kilogram per meter square (kg/m2) and 34.9 kg/m2. The aim of the study is to see how safe the study medicine is and how it behaves in human body. Participants will either get the study medicine or placebo (a \"dummy medicine\" similar to the study medicine but without active ingredients) and which treatment they get is decided by chance. The study medicine is a potential new medicine which cannot be prescribed by doctors but has previously been tested in humans. This study will last for up to 53 days.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Informed consent obtained before any study-related activities. Study-related activities are any procedures that are carried out as part of the study, including activities to determine suitability for the study.\n2. Male Chinese participants, age 18-55 years (both inclusive) at the time of signing the informed consent.\n3. Body mass index between 24.0 and 34.9 kg/m2 (both inclusive) at screening. Overweight and obesity should be due to excess adipose tissue, as judged by the investigator, with a body weight (more than or equal to) ≥ 65.0 kg at screening.\n4. Considered eligible based on the medical history, physical examination, and the results of vital signs, electrocardiogram and clinical laboratory tests performed during the screening visit, as judged by the investigator.\n\nExclusion Criteria:\n\n1. Any condition, unwillingness or inability which in the investigator's opinion might jeopardise participant's safety or compliance with the protocol.\n2. HbA1c ≥ 6.5 percent (%) \\[48 milimol per mole (mmol/mol)\\] at screening.\n3. Any laboratory safety parameters at screening outside the below laboratory ranges:\n\n   * Vitamin D (25-hydroxycholecalciferol) less than (\\<) 12 nanogram per mililiter (ng/mL) \\[30 nanometer (nM)\\] at screening\n   * Parathyroid hormone (PTH) outside normal range at screening\n   * Total calcium outside normal range at screening\n   * Amylase ≥ 2 times upper limit of normal at screening\n   * Lipase ≥ 2 times upper limit of normal at screening\n   * Calcitonin ≥ 50 picogram per mililiter (pg/mL) at screening",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": false,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Jinan Central Hospital",
    "city": "Jinan",
-   "state": "Shandong",
    "country": "China",
-   "status": null,
+   "facility": "Jinan Central Hospital",
    "lat": 36.66833,
-   "lon": 116.99722
+   "lon": 116.99722,
+   "state": "Shandong",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07121153",
@@ -127,6 +127,43 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Informed consent obtained before any study-related activities. Study-related activities are any procedures that are carried out as part of the study, including activities to determine suitability for the study."
+   },
+   {
+    "text": "Male Chinese participants, age 18-55 years (both inclusive) at the time of signing the informed consent."
+   },
+   {
+    "text": "Body mass index between 24.0 and 34.9 kg/m2 (both inclusive) at screening. Overweight and obesity should be due to excess adipose tissue, as judged by the investigator, with a body weight (more than or equal to) ≥ 65.0 kg at screening."
+   },
+   {
+    "text": "Considered eligible based on the medical history, physical examination, and the results of vital signs, electrocardiogram and clinical laboratory tests performed during the screening visit, as judged by the investigator."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any condition, unwillingness or inability which in the investigator's opinion might jeopardise participant's safety or compliance with the protocol."
+   },
+   {
+    "text": "HbA1c ≥ 6.5 percent (%) [48 milimol per mole (mmol/mol)] at screening."
+   },
+   {
+    "text": "Any laboratory safety parameters at screening outside the below laboratory ranges:",
+    "sub_items": [
+     "Vitamin D (25-hydroxycholecalciferol) less than (<) 12 nanogram per mililiter (ng/mL) [30 nanometer (nM)] at screening",
+     "Parathyroid hormone (PTH) outside normal range at screening",
+     "Total calcium outside normal range at screening",
+     "Amylase ≥ 2 times upper limit of normal at screening",
+     "Lipase ≥ 2 times upper limit of normal at screening",
+     "Calcitonin ≥ 50 picogram per mililiter (pg/mL) at screening"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

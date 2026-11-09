@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SCREENING",
   "masking": "QUADRUPLE",
+  "primary_purpose": "SCREENING",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Washington",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Washington"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -56,32 +56,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide Auto-Injector",
    "other_names": [
     "ozempic"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Active",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide Auto-Injector"
-   ]
+   ],
+   "label": "Active",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "A human subjects research study, the primary purpose of which is to assess the EFFECTS OF SEMAGLUTIDE ON INTRACRANIAL BLOOD FLOW AND BLOOD-BRAIN BARRIER PERMEABILITY IN TYPE-2 DIABETES (T2D) through testing of the intervention on patients in a clinical setting. The study will randomize subjects with diabetes to either semaglutide or matching placebo. Magnetic resonance images will be primary endpoint measured at baseline and at one year to assess effect of this FDA approved medication.\n\nGiven the available evidence supporting the neuroprotective effect of this drug class and stroke reduction with semaglutide, and the investigators preliminary data showing that T2D had significantly reduced total number of distal arterial branches in the brain than non-T2D, the investigators expect treatment with semaglutide will be associated with improved intracranial blood flow condition.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Men and women 40-65 years of age\n2. Subjects with type-2 diabetes \\>= 3 years and HbA1C 7%-10% with blood sugar control medications including insulin, metformin, sulfonylureas, or SGLT2 inhibitors\n3. Medically stable\n4. Has not received any investigational drug in the past 6 months\n5. Willing to participate and sign informed consent.\n\nExclusion Criteria:\n\n1. Contraindication to MRI or contrast agent\n2. eGFR\\<45 mL/min/1.73m2 (eGFR is a measurement of kidney function)\n3. Currently treated with glucagon-like peptide-1 receptor antagonist (same drug class as study intervention)\n4. Unable to perform home-glucose monitoring\n5. Currently need more than 100 units of insulin daily\n6. Uncontrolled hypertension with systolic blood pressure (SBP)\\>180 mmHg or diastolic blood pressure (DBP)\\>100 mmHg\n7. LDL-C\\>130 mg/dL or not on stable statin therapy in the past 6 months\n8. Treatment with pioglitazone in the past 3 months\n9. History of pancreatitis\n10. History of myocardial infarction, stroke or transient ischemic attack\n11. History or family history of Medullary Thyroid Carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)\n12. Hypersensitivity to semaglutide or any of the product components\n13. Participating in other clinical trial\n14. Women of child-bearing potential (ie, those who are not chemically or surgically sterilized or who are not post-menopausal) who have a positive pregnancy test at enrollment or who are breastfeeding or who plan to become pregnant in the next 15 months.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "University of Washington - Harborview Medical Center",
    "city": "Seattle",
-   "state": "Washington",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "University of Washington - Harborview Medical Center",
    "lat": 47.60621,
-   "lon": -122.33207
+   "lon": -122.33207,
+   "state": "Washington",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05780905",
@@ -128,6 +128,71 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women 40-65 years of age"
+   },
+   {
+    "text": "Subjects with type-2 diabetes >= 3 years and HbA1C 7%-10% with blood sugar control medications including insulin, metformin, sulfonylureas, or SGLT2 inhibitors"
+   },
+   {
+    "text": "Medically stable"
+   },
+   {
+    "text": "Has not received any investigational drug in the past 6 months"
+   },
+   {
+    "text": "Willing to participate and sign informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Contraindication to MRI or contrast agent"
+   },
+   {
+    "text": "eGFR<45 mL/min/1.73m2 (eGFR is a measurement of kidney function)"
+   },
+   {
+    "text": "Currently treated with glucagon-like peptide-1 receptor antagonist (same drug class as study intervention)"
+   },
+   {
+    "text": "Unable to perform home-glucose monitoring"
+   },
+   {
+    "text": "Currently need more than 100 units of insulin daily"
+   },
+   {
+    "text": "Uncontrolled hypertension with systolic blood pressure (SBP)>180 mmHg or diastolic blood pressure (DBP)>100 mmHg"
+   },
+   {
+    "text": "LDL-C>130 mg/dL or not on stable statin therapy in the past 6 months"
+   },
+   {
+    "text": "Treatment with pioglitazone in the past 3 months"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "History of myocardial infarction, stroke or transient ischemic attack"
+   },
+   {
+    "text": "History or family history of Medullary Thyroid Carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)"
+   },
+   {
+    "text": "Hypersensitivity to semaglutide or any of the product components"
+   },
+   {
+    "text": "Participating in other clinical trial"
+   },
+   {
+    "text": "Women of child-bearing potential (ie, those who are not chemically or surgically sterilized or who are not post-menopausal) who have a positive pregnancy test at enrollment or who are breastfeeding or who plan to become pregnant in the next 15 months."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

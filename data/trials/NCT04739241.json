@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Consorci Sanitari Integral",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Consorci Sanitari Integral"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "premixed insulin therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "basal bolus insulin therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group A (experimental arm)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: premixed insulin therapy"
-   ]
+   ],
+   "label": "Group A (experimental arm)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group B (active comparator)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: basal bolus insulin therapy"
-   ]
+   ],
+   "label": "Group B (active comparator)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The purpose of this study is to compare efficacy and security of premixed insulin treatment vs basal bolus insulin treatment in older patients with poorly controlled type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Outpatients\n* Age ≥ 65 years old\n* Type 2 diabetes mellitus\n* HbA1c ≥9% (74 mmol/mol)\n* Previously treated with one or two doses of basal insulin and oral hypoglycaemic agents\n\nExclusion Criteria:\n\n* Severe insulin-resistance\n* High doses of corticosteroids\n* Chemotherapy treatment\n* High comorbidity\n* Bad compliance of the treatment\n* Frequent severe hypoglycaemia",
-  "sex": "ALL",
-  "minimum_age": "65 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "65 Years",
+  "sex": "ALL",
   "std_ages": [
    "OLDER_ADULT"
   ]
@@ -101,6 +101,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Outpatients"
+   },
+   {
+    "text": "Age ≥ 65 years old"
+   },
+   {
+    "text": "Type 2 diabetes mellitus"
+   },
+   {
+    "text": "HbA1c ≥9% (74 mmol/mol)"
+   },
+   {
+    "text": "Previously treated with one or two doses of basal insulin and oral hypoglycaemic agents"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe insulin-resistance"
+   },
+   {
+    "text": "High doses of corticosteroids"
+   },
+   {
+    "text": "Chemotherapy treatment"
+   },
+   {
+    "text": "High comorbidity"
+   },
+   {
+    "text": "Bad compliance of the treatment"
+   },
+   {
+    "text": "Frequent severe hypoglycaemia"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

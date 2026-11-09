@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Guelph",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Guelph"
  },
  "collaborators": [
   "Ontario Ministry of Agriculture, Food and Rural Affairs"
@@ -54,39 +54,39 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "vegetable",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Other: vegetable"
+   ],
    "label": "White potato",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Other: vegetable"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Other: vegetable"
+   ],
    "label": "Purple Potato",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Other: vegetable"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Other: vegetable"
+   ],
    "label": "Orange carrots",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Other: vegetable"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Purple Carrots",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: vegetable"
-   ]
+   ],
+   "label": "Purple Carrots",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The hypothesis is that richly coloured purple vegetables, rich in polyphenolic compounds including anthocyanins will have higher antioxidant and other biological activities, than more lightly coloured versions of these foods. Diets of human subjects will be modified to allow consumption of 200-300 g of raw carrots or cooked potatoes. Participants will be randomized to consume either orange or purple carrots, or white or purple potatoes. They will consume these diets for 12 weeks and bioavailability of polyphenolics will be examined as well as anthropometry and blood biochemistry for changes in risk factors associated with cardiovascular disease.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* adult men and women 18-65 years of age\n* must have a least one of the following risk factors associated with increased risk of type II diabetes and/or cardiovascular disease:\n\n  * borderline high or hypertension or undergoing treatment for such\n  * abnormal fasting blood glucose or undergoing treatment for such\n  * overweight or obese\n  * borderline high or high LDL-cholesterol or undergoing treatment for such\n  * borderline low or low HDL-cholesterol\n  * borderline high or high triglycerides or undergoing treatment for such\n\nExclusion Criteria:\n\n* smokers, pregnant or nursing women",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "Human Nutraceutical Research Unit",
    "city": "Guelph",
-   "state": "Ontario",
    "country": "Canada",
-   "status": "RECRUITING",
+   "facility": "Human Nutraceutical Research Unit",
    "lat": 43.54594,
-   "lon": -80.25599
+   "lon": -80.25599,
+   "state": "Ontario",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01564498",
@@ -127,6 +127,31 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "adult men and women 18-65 years of age"
+   },
+   {
+    "text": "must have a least one of the following risk factors associated with increased risk of type II diabetes and/or cardiovascular disease:",
+    "sub_items": [
+     "borderline high or hypertension or undergoing treatment for such",
+     "abnormal fasting blood glucose or undergoing treatment for such",
+     "overweight or obese",
+     "borderline high or high LDL-cholesterol or undergoing treatment for such",
+     "borderline low or low HDL-cholesterol",
+     "borderline high or high triglycerides or undergoing treatment for such"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "smokers, pregnant or nursing women"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

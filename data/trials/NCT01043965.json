@@ -15,8 +15,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "SINGLE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Sao Paulo General Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Sao Paulo General Hospital"
  },
  "collaborators": [
   "Fundação de Amparo à Pesquisa do Estado de São Paulo"
@@ -53,25 +53,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Diabetes",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Diabetes",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The investigators aimed to evaluate microvascular circulation with novel method: real-time myocardial contrast echocardiography in patients with type 2 diabetes and normal coronary arteries.\n\nMyocardial blood flow reserve will be determined by quantitative contrast Stress echocardiography. Diabetic individuals will be evaluate in a decompensated state (Phase 1) and after optimization of medical treatment four months later (Phase 2).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* Normal echocardiogram\n* Absence of obstructive epicardial coronary disease\n\nExclusion Criteria:\n\n* Obstructive coronary disease\n* Heart valve disease\n* COPD\n* Cardiac Arrhythmias\n* Cardiomyopathy",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,6 +102,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes mellitus"
+   },
+   {
+    "text": "Normal echocardiogram"
+   },
+   {
+    "text": "Absence of obstructive epicardial coronary disease"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Obstructive coronary disease"
+   },
+   {
+    "text": "Heart valve disease"
+   },
+   {
+    "text": "COPD"
+   },
+   {
+    "text": "Cardiac Arrhythmias"
+   },
+   {
+    "text": "Cardiomyopathy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

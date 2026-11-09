@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-01-14",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The University of Texas Health Science Center at San Antonio",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The University of Texas Health Science Center at San Antonio"
  },
  "collaborators": [
   "National Institutes of Health (NIH)",
@@ -51,43 +51,43 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10mg then Placebo Oral Tablet",
    "other_names": [
     "Farxiga then placebo"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo Oral Tablet then Dapagliflozin 10mg",
    "other_names": [
     "Placebo then Farxiga"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Dapagliflozin 10mg then Placebo Oral Tablet",
+    "Drug: Placebo Oral Tablet then Dapagliflozin 10mg"
+   ],
    "label": "Placebo first and then dapagliflozin",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Dapagliflozin 10mg then Placebo Oral Tablet",
     "Drug: Placebo Oral Tablet then Dapagliflozin 10mg"
-   ]
-  },
-  {
+   ],
    "label": "Dapagliflozin first then placebo",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Dapagliflozin 10mg then Placebo Oral Tablet",
-    "Drug: Placebo Oral Tablet then Dapagliflozin 10mg"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Control Group",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg then Placebo Oral Tablet"
-   ]
+   ],
+   "label": "Control Group",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "Purpose/Objectives: Examining the effect of SGLT2 inhibition on EGP and plasma glucose concentration in diabetic and non-diabetic subjects after kidney transplantation (i.e. renal denervation) or in subjects after renal sympathectomy (63) can add insight about the possible role of a neural arc which mediates the changes in plasma glucagon and/or insulin concentration in response to glucosuria.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* age = 18-70 years\n* BMI = 18.5-40 kg/m2\n* HbA1c ≥ 7.0% and ≤10.0% for type 2 diabetics\n* males or females\n* Must be at least 3 months post renal transplantation and be on a stable dose of prednisone (≤5 mg/day), tacrolimus, and mycophenolate mofetil\n* Not taking any antidiabetic medications or who are treated with metformin, sulfonylurea, dipeptidyl peptidase 4 (DPP4) inhibitor, thiazolidinedione or some combination\n* Must be in good general health as determined by physical exam, medical history, blood chemistries, CBC, TSH, T4, EKG and urinanalysis\n\nExclusion Criteria:\n\n* Subjects who are taking insulin or SGLT2 inhibitor are excluded\n* Only subjects whose body weight has not been stable (± 3 lbs) over the preceding three months and/or who participate in an excessively heavy exercise program will be excluded.\n* Individuals with evidence of proliferative diabetic retinopathy, plasma creatinine \\>1.4 females or \\>1.5 males (and eGFR \\<45ml/min.1.73m2), or 24-hour urine albumin excretion \\> 300 mg will be excluded.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "The University of Texas Health Science Center at San Antonio",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "The University of Texas Health Science Center at San Antonio",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03168295",
@@ -128,6 +128,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "age = 18-70 years"
+   },
+   {
+    "text": "BMI = 18.5-40 kg/m2"
+   },
+   {
+    "text": "HbA1c ≥ 7.0% and ≤10.0% for type 2 diabetics"
+   },
+   {
+    "text": "males or females"
+   },
+   {
+    "text": "Must be at least 3 months post renal transplantation and be on a stable dose of prednisone (≤5 mg/day), tacrolimus, and mycophenolate mofetil"
+   },
+   {
+    "text": "Not taking any antidiabetic medications or who are treated with metformin, sulfonylurea, dipeptidyl peptidase 4 (DPP4) inhibitor, thiazolidinedione or some combination"
+   },
+   {
+    "text": "Must be in good general health as determined by physical exam, medical history, blood chemistries, CBC, TSH, T4, EKG and urinanalysis"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects who are taking insulin or SGLT2 inhibitor are excluded"
+   },
+   {
+    "text": "Only subjects whose body weight has not been stable (± 3 lbs) over the preceding three months and/or who participate in an excessively heavy exercise program will be excluded."
+   },
+   {
+    "text": "Individuals with evidence of proliferative diabetic retinopathy, plasma creatinine >1.4 females or >1.5 males (and eGFR <45ml/min.1.73m2), or 24-hour urine albumin excretion > 300 mg will be excluded."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

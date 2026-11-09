@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Gila Therapeutics, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Gila Therapeutics, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -53,44 +53,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide 6 mg liquid emulsion formulation",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Wegovy® (semaglutide) Tablet",
    "other_names": [
     "Wegovy® (semaglutide) Tablet 25 mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo liquid emulsion formulation",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide liquid emulsion formulation",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide 6 mg liquid emulsion formulation"
-   ]
+   ],
+   "label": "Semaglutide liquid emulsion formulation",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo liquid emulsion formulation",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo liquid emulsion formulation"
-   ]
+   ],
+   "label": "Placebo liquid emulsion formulation",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Wegovy Tablet",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Wegovy® (semaglutide) Tablet"
-   ]
+   ],
+   "label": "Wegovy Tablet",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "This study investigates the Topical-Lingual (T-L) delivery of semaglutide, a GLP-1 receptor agonist (GLP-1RA), via an oral liquid emulsion formulation as a Proof-of-Concept for the T-L delivery of metabolic hormones in general. GLP-1 is a gut-derived hormone that induces satiation through hypothalamic pathways.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Body Mass Index 30 to 45\n\nExclusion Criteria:\n\n* Type 2 Diabetes Mellitus\n* Multiple Endocrine Neoplasia Type 2\n* Medullary thyroid cancer",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Research Institute of Minnesota",
    "city": "Minneapolis",
-   "state": "Minnesota",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Clinical Research Institute of Minnesota",
    "lat": 44.97997,
-   "lon": -93.26384
+   "lon": -93.26384,
+   "state": "Minnesota",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07728383",
@@ -131,6 +131,26 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Body Mass Index 30 to 45"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 Diabetes Mellitus"
+   },
+   {
+    "text": "Multiple Endocrine Neoplasia Type 2"
+   },
+   {
+    "text": "Medullary thyroid cancer"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

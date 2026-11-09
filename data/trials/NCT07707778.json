@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "National Taiwan University Clinical Trial Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "National Taiwan University Clinical Trial Center"
  },
  "collaborators": [],
  "conditions": [
@@ -53,23 +53,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Interventional",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Interventional",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Standard of care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "This study is a pilot, open-lable, two-arm study. The investigators will enroll virally suppressed people living with HIV and obesity to evaluate the effect of tirzepatide on epigenetic aging, assessed by DNA methylation-based clocks using peripheral blood. In parallel, imaging studies will be performed to assess changes in body composition and intrahepatic fat content.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n\\- Adult people living with HIV, who are virally suppressed, defined as plasma HIV viral load is \\< 200 copies/mL within 6 months before enrollment. Participants have to have BMI \\> 30 kg/m2.\n\nExclusion Criteria:\n\n* Participants cannot have undergone treatment with any incretin-based treatment within the past 90 days before enrollment. Participants cannot have any AIDS-defining illnesses, active malignancy, or history of decompensated liver failure. Participants cannot be pregnant. Participants cannot have history of acute pancreatitis or a family history of medullary thyroid cancer.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "National Taiwan University Hospial",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "National Taiwan University Hospial",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07707778",
@@ -114,6 +114,20 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adult people living with HIV, who are virally suppressed, defined as plasma HIV viral load is < 200 copies/mL within 6 months before enrollment. Participants have to have BMI > 30 kg/m2."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participants cannot have undergone treatment with any incretin-based treatment within the past 90 days before enrollment. Participants cannot have any AIDS-defining illnesses, active malignancy, or history of decompensated liver failure. Participants cannot be pregnant. Participants cannot have history of acute pancreatitis or a family history of medullary thyroid cancer."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

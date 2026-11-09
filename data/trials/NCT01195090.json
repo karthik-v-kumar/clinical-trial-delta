@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2012-10-10",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Sung-Chen Liu",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Sung-Chen Liu"
  },
  "collaborators": [
   "Mackay Memorial Hospital"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "pioglitazone",
    "other_names": [
     "actos"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "pioglitazone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: pioglitazone"
-   ]
+   ],
+   "label": "pioglitazone",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "This 24-weeks study will to compare the glycemic efficacy and safety of sitagliptin with pioglitazone in patients with type 2 diabetes who had inadequate glycemic control despite dual therapy with metformin and a sulfonylurea.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes patients who were treated with stable doses of sulfonylurea and metformin to their half maximally dose (sulfonylureas \\> half maximal dose, and metformin \\> 1500 mg/d) for \\> 10 weeks\n* \\> 20 years old\n* A1C: \\> 7.0 % and \\< 11%\n\nExclusion Criteria:\n\n* Insulin use within 12 weeks of the screening visit\n* Any contraindications for use of sitagliptin or pioglitazone, impaired renal function (serum creatinine \\> 1.4 mg/dl), alanine aminotransferase or aspartate aminotransferase levels \\> 2.5 times the upper limit of normal\n* Current or prepare to pregnancy and lactation",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Mackay Memorial Hospital",
    "city": "Taipei",
-   "state": "Taipei",
    "country": "Taiwan",
-   "status": null,
+   "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Mackay Memorial Hospital",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Taipei",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01195090",
@@ -126,6 +126,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes patients who were treated with stable doses of sulfonylurea and metformin to their half maximally dose (sulfonylureas > half maximal dose, and metformin > 1500 mg/d) for > 10 weeks"
+   },
+   {
+    "text": "> 20 years old"
+   },
+   {
+    "text": "A1C: > 7.0 % and < 11%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Insulin use within 12 weeks of the screening visit"
+   },
+   {
+    "text": "Any contraindications for use of sitagliptin or pioglitazone, impaired renal function (serum creatinine > 1.4 mg/dl), alanine aminotransferase or aspartate aminotransferase levels > 2.5 times the upper limit of normal"
+   },
+   {
+    "text": "Current or prepare to pregnancy and lactation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "iGlarLixi",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "IGlar U100",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "iGlarLixi group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: iGlarLixi"
-   ]
+   ],
+   "label": "iGlarLixi group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "iGlar group",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: IGlar U100"
-   ]
+   ],
+   "label": "iGlar group",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "This is a single-center, randomized, open-label, controlled clinical trial to compare the effects of a fixed-ratio combination of insulin glargine 100 U/mL plus lixisenatide (iGlarLixi) versus insulin glargine 100 U/mL (iGlar) on liver fat content in patients with Type 2 Diabetes (T2DM) and Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD). The study includes a 12-week treatment period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Diagnosis of Type 2 Diabetes Mellitus.\n2. Diagnosis of MASLD with liver fat content defined by MRI-PDFF ≥ 10%.\n3. HbA1c ≥ 9.0% at screening.\n4. Body Mass Index (BMI) between 25.0 and 35.0 kg/m², with stable weight (change \\< 10% in the past 3 months).\n5. Stable antidiabetic regimen for at least 3 months prior to screening.\n\nExclusion Criteria:\n\n* 1\\. History of excessive alcohol consumption (≥210 g/week for men, ≥140 g/week for women).\n\n  2\\. Other known causes of chronic liver disease (e.g., viral hepatitis, autoimmune hepatitis, Wilson's disease, hemochromatosis).\n\n  3\\. Use of medications known to affect liver fat content (e.g., thiazolidinediones, SGLT2 inhibitors, GLP-1 receptor agonists, systemic corticosteroids) within 3 months prior to screening.\n\n  4\\. Presence of acute infections or diabetic acute complications (e.g., ketoacidosis, hyperosmolar state) within 2 weeks prior to screening.\n\n  5\\. History of pancreatitis or elevated amylase/lipase \\> 3 times the upper limit of normal (ULN).\n\n  6\\. Significant liver impairment (ALT or AST \\> 3 × ULN). 7. Moderate to severe renal impairment (eGFR \\< 60 mL/min/1.73m²). 8. Congestive heart failure (NYHA class III-IV). 9. Personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN-2).\n\n  10\\. Severe gastrointestinal disease. 11. Contraindications to MRI examination. 12. Pregnancy or lactation. 13. Participation in another investigational drug study within 6 months prior to enrollment.\n\n  14\\. Known hypersensitivity to the study drugs or their excipients.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Department of Endocrinology, the Affiliated Drum Tower Hospital of Nanjing University Medical School",
    "city": "Nanjing",
-   "state": "Jiangsu",
    "country": "China",
-   "status": null,
+   "facility": "Department of Endocrinology, the Affiliated Drum Tower Hospital of Nanjing University Medical School",
    "lat": 32.06167,
-   "lon": 118.77778
+   "lon": 118.77778,
+   "state": "Jiangsu",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07274644",
@@ -113,6 +113,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of Type 2 Diabetes Mellitus."
+   },
+   {
+    "text": "Diagnosis of MASLD with liver fat content defined by MRI-PDFF ≥ 10%."
+   },
+   {
+    "text": "HbA1c ≥ 9.0% at screening."
+   },
+   {
+    "text": "Body Mass Index (BMI) between 25.0 and 35.0 kg/m², with stable weight (change < 10% in the past 3 months)."
+   },
+   {
+    "text": "Stable antidiabetic regimen for at least 3 months prior to screening."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "1. History of excessive alcohol consumption (≥210 g/week for men, ≥140 g/week for women).",
+    "sub_items": [
+     "Other known causes of chronic liver disease (e.g., viral hepatitis, autoimmune hepatitis, Wilson's disease, hemochromatosis).",
+     "Use of medications known to affect liver fat content (e.g., thiazolidinediones, SGLT2 inhibitors, GLP-1 receptor agonists, systemic corticosteroids) within 3 months prior to screening.",
+     "Presence of acute infections or diabetic acute complications (e.g., ketoacidosis, hyperosmolar state) within 2 weeks prior to screening.",
+     "History of pancreatitis or elevated amylase/lipase > 3 times the upper limit of normal (ULN).",
+     "Significant liver impairment (ALT or AST > 3 × ULN). 7. Moderate to severe renal impairment (eGFR < 60 mL/min/1.73m²). 8. Congestive heart failure (NYHA class III-IV). 9. Personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN-2).",
+     "Severe gastrointestinal disease. 11. Contraindications to MRI examination. 12. Pregnancy or lactation. 13. Participation in another investigational drug study within 6 months prior to enrollment.",
+     "Known hypersensitivity to the study drugs or their excipients."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "DOUBLE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2010-08-03",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,43 +51,43 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin",
    "other_names": [
     "sitagliptin phosphate",
     "MK0431"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: sitagliptin",
+    "Drug: Comparator: Placebo"
+   ],
    "label": "Sitagliptin/Sitagliptin/Placebo",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: sitagliptin",
     "Drug: Comparator: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "Sitagliptin/Placebo/Sitaglipitin",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: sitagliptin",
-    "Drug: Comparator: Placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo/Sitagliptin/Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin",
     "Drug: Comparator: Placebo"
-   ]
+   ],
+   "label": "Placebo/Sitagliptin/Sitagliptin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "This study will evaluate the effect of a single dose of sitagliptin on glucose dependent insulin secretion using a meal tolerance test (MTT) during a hyperglycemic clamp (HCG) procedure.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subject is an Asian Indian male between 18 to 45 years of age\n* Subject is in good health\n* Subject is a nonsmoker or has not used nicotine-containing products for six months\n* Subject is willing to avoid strenuous activity\n\nExclusion Criteria:\n\n* Subject has a history of stroke, seizures, or major neurological disorders\n* Subject has irritable bowel disease or recurrent nausea, vomiting, diarrhea, or abdominal pain\n* Subject has a history of high blood pressure requiring treatment\n* Subject has history of cancer\n* Subject has a history of diabetes",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": true,
+  "maximum_age": "45 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
@@ -117,6 +117,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subject is an Asian Indian male between 18 to 45 years of age"
+   },
+   {
+    "text": "Subject is in good health"
+   },
+   {
+    "text": "Subject is a nonsmoker or has not used nicotine-containing products for six months"
+   },
+   {
+    "text": "Subject is willing to avoid strenuous activity"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subject has a history of stroke, seizures, or major neurological disorders"
+   },
+   {
+    "text": "Subject has irritable bowel disease or recurrent nausea, vomiting, diarrhea, or abdominal pain"
+   },
+   {
+    "text": "Subject has a history of high blood pressure requiring treatment"
+   },
+   {
+    "text": "Subject has history of cancer"
+   },
+   {
+    "text": "Subject has a history of diabetes"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

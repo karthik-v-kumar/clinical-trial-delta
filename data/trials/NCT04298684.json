@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Centre Hospitalier Universitaire de la Guadeloupe",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Centre Hospitalier Universitaire de la Guadeloupe"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "METFORMIN",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: METFORMIN"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sitagliptin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "A 2-years prospective, randomized and multicentric study will be performed to assess the efficacy of metformin compared to sitagliptin on benign thyroid nodules size ≥ 2 cm, in newly diagnosed patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with T2DM aged 18 to 65 years;\n* Uncomplicated T2DM, evolving for less than 3 years;\n* Patients with HbA1c levels between 7 and 8% (after the run-in period)\n* Patients with at least one TN ≥ 2 cm non-cystic, whose benignity will be confirmed by a fine-needle aspiration cytology performed twice regardless of ultrasound TIRADS score;\n* Naive subjects of any treatment: never received an anti-diabetic treatment OR received an anti-diabetic treatment of less than 30 days since diagnosis OR did not receive an anti-diabetic treatment during the 30 days before screening;\n* Patients with a creatinine clearance \\> 60 ml/min;\n* Informed and written consent signed by the patient and the investigator;\n* Affiliation to the national social health system or equivalent.\n\nExclusion Criteria:\n\n* Subjects without adequate or impaired decisional abilities for consent to research and placed under guardianship, trusteeship or safeguard of justice\n* Pregnant or breastfeeding woman\n* Woman of childbearing potential without effective contraception (estroprogestative, presentative, intrauterine device)\n* Suspect thyroid nodules in ultrasound (TIRADS 4 to 5) with confirmation after a fine-needle aspiration cytology;\n* Thyroid function abnormalities or a history of thyroid disease;\n* Thyroid nodules whose size or symptoms (compressive signs) require surgery\n* Ioduria \\<100ug /L\n* Thyroid autoimmunity: positive anti-peroxidase, thyroglobulin or anti-TSH receptors antibodies\n* Levothyroxine treatment\n* History of cervical radiotherapy or thyroid surgery\n* Type 1 diabetes\n* Insulin deficiency\n* History of hypersensitivity to one of the active substances\n* History of pancreatitis\n* Obesity linked to endocrine disease\n* Presence of severe complications of T2DM (ischemic heart disease, heart failure with reduced left ventricular ejection fraction, severe lower extremity arteritis, gangrene, retinopathy, end-stage renal failure, cerebrovascular accident)\n* HbA1c levels \\> 8% after the run-in period\n* Liver diseases (liver failure, cirrhosis, viral hepatitis B or C)\n* Acute alcoholic intoxication, chronic alcoholism\n* Psychiatric diseases (depression, schizophrenia)\n* Neurological diseases (epilepsy, demyelinating diseases, etc.)\n* Treatment influencing the morphology or thyroid function: corticosteroids, lithium, iodized products etc. ...\n* Acute conditions that may impair renal function such as: dehydration, severe infection, shock\n* Respiratory failure\n* Metabolic acidosis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,40 +95,40 @@
  },
  "sites": [
   {
-   "facility": "CHU Bordeaux",
    "city": "Bordeaux",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CHU Bordeaux",
    "lat": 44.84124,
-   "lon": -0.58046
+   "lon": -0.58046,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "CHU Limoges",
    "city": "Limoges",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CHU Limoges",
    "lat": 45.83362,
-   "lon": 1.24759
+   "lon": 1.24759,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "University Hospital Center of Guadeloupe",
    "city": "Pointe-à-Pitre",
-   "state": null,
    "country": "Guadeloupe",
-   "status": null,
+   "facility": "University Hospital Center of Guadeloupe",
    "lat": 16.23638,
-   "lon": -61.53459
+   "lon": -61.53459,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "CHU de la Réunion",
    "city": "Saint-Pierre",
-   "state": null,
    "country": "Reunion",
-   "status": null,
+   "facility": "CHU de la Réunion",
    "lat": -21.3393,
-   "lon": 55.47811
+   "lon": 55.47811,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04298684",
@@ -140,6 +140,113 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with T2DM aged 18 to 65 years;"
+   },
+   {
+    "text": "Uncomplicated T2DM, evolving for less than 3 years;"
+   },
+   {
+    "text": "Patients with HbA1c levels between 7 and 8% (after the run-in period)"
+   },
+   {
+    "text": "Patients with at least one TN ≥ 2 cm non-cystic, whose benignity will be confirmed by a fine-needle aspiration cytology performed twice regardless of ultrasound TIRADS score;"
+   },
+   {
+    "text": "Naive subjects of any treatment: never received an anti-diabetic treatment OR received an anti-diabetic treatment of less than 30 days since diagnosis OR did not receive an anti-diabetic treatment during the 30 days before screening;"
+   },
+   {
+    "text": "Patients with a creatinine clearance > 60 ml/min;"
+   },
+   {
+    "text": "Informed and written consent signed by the patient and the investigator;"
+   },
+   {
+    "text": "Affiliation to the national social health system or equivalent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects without adequate or impaired decisional abilities for consent to research and placed under guardianship, trusteeship or safeguard of justice"
+   },
+   {
+    "text": "Pregnant or breastfeeding woman"
+   },
+   {
+    "text": "Woman of childbearing potential without effective contraception (estroprogestative, presentative, intrauterine device)"
+   },
+   {
+    "text": "Suspect thyroid nodules in ultrasound (TIRADS 4 to 5) with confirmation after a fine-needle aspiration cytology;"
+   },
+   {
+    "text": "Thyroid function abnormalities or a history of thyroid disease;"
+   },
+   {
+    "text": "Thyroid nodules whose size or symptoms (compressive signs) require surgery"
+   },
+   {
+    "text": "Ioduria <100ug /L"
+   },
+   {
+    "text": "Thyroid autoimmunity: positive anti-peroxidase, thyroglobulin or anti-TSH receptors antibodies"
+   },
+   {
+    "text": "Levothyroxine treatment"
+   },
+   {
+    "text": "History of cervical radiotherapy or thyroid surgery"
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Insulin deficiency"
+   },
+   {
+    "text": "History of hypersensitivity to one of the active substances"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Obesity linked to endocrine disease"
+   },
+   {
+    "text": "Presence of severe complications of T2DM (ischemic heart disease, heart failure with reduced left ventricular ejection fraction, severe lower extremity arteritis, gangrene, retinopathy, end-stage renal failure, cerebrovascular accident)"
+   },
+   {
+    "text": "HbA1c levels > 8% after the run-in period"
+   },
+   {
+    "text": "Liver diseases (liver failure, cirrhosis, viral hepatitis B or C)"
+   },
+   {
+    "text": "Acute alcoholic intoxication, chronic alcoholism"
+   },
+   {
+    "text": "Psychiatric diseases (depression, schizophrenia)"
+   },
+   {
+    "text": "Neurological diseases (epilepsy, demyelinating diseases, etc.)"
+   },
+   {
+    "text": "Treatment influencing the morphology or thyroid function: corticosteroids, lithium, iodized products etc. ..."
+   },
+   {
+    "text": "Acute conditions that may impair renal function such as: dehydration, severe infection, shock"
+   },
+   {
+    "text": "Respiratory failure"
+   },
+   {
+    "text": "Metabolic acidosis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -53,54 +53,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "semaglutide",
    "other_names": [
     "NN9924"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: semaglutide",
+    "Drug: placebo"
+   ],
    "label": "Oral 1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: semaglutide",
     "Drug: placebo"
-   ]
-  },
-  {
+   ],
    "label": "Oral 2",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: semaglutide",
     "Drug: placebo"
-   ]
-  },
-  {
+   ],
    "label": "Oral 3",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: semaglutide",
-    "Drug: placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "S.c.",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: semaglutide"
-   ]
+   ],
+   "label": "S.c.",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -112,23 +112,23 @@
  "brief_summary": "This trial is conducted in Europe. The aim of the trial is to investigate safety, tolerability, pharmacokinetics (the rate at which the body eliminates the trial drug) and pharmacodynamics (the effect of the investigated drug on the body) of NN9924 in healthy male subjects",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy male subjects, based on an assessment of medical history, physical examination and\n* BMI between 21 and 30 kg/m2 (21 inclusive)\n\nExclusion Criteria:\n\n* Male subjects who are sexually active and unwilling to use a highly effective method of contraception for both them and their nonpregnant partner\n* Any clinically significant, abnormal disease history of the following systems: cardio-pulmonary, gastrointestinal, hepatic, neurological, renal,genitourinary, endocrine or haematological\n* The receipt of any investigational product within 90 days before screening, or is currently enrolled in any other clinical trial",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": null,
    "city": "Berlin",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": null,
    "lat": 52.52437,
-   "lon": 13.41053
+   "lon": 13.41053,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01272973",
@@ -142,6 +142,29 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy male subjects, based on an assessment of medical history, physical examination and"
+   },
+   {
+    "text": "BMI between 21 and 30 kg/m2 (21 inclusive)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Male subjects who are sexually active and unwilling to use a highly effective method of contraception for both them and their nonpregnant partner"
+   },
+   {
+    "text": "Any clinically significant, abnormal disease history of the following systems: cardio-pulmonary, gastrointestinal, hepatic, neurological, renal,genitourinary, endocrine or haematological"
+   },
+   {
+    "text": "The receipt of any investigational product within 90 days before screening, or is currently enrolled in any other clinical trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

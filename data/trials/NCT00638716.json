@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2017-06-02",
  "has_results": true,
  "lead_sponsor": {
-  "name": "ConjuChem",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "ConjuChem"
  },
  "collaborators": [],
  "conditions": [
@@ -53,37 +53,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "CJC-1134-PC",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: CJC-1134-PC"
+   ],
    "label": "1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: CJC-1134-PC"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: CJC-1134-PC"
+   ],
    "label": "2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: CJC-1134-PC"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "3",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "3",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "This is a multicenter, randomized, placebo-controlled, double-blind, Phase II study.\n\nThe objective of this study is to evaluate the efficacy and safety of 12 weeks of treatment with CJC-1134-PC in patients with type 2 diabetes mellitus who are currently on metformin monotherapy.",
  "eligibility": {
   "criteria": "Major Inclusion Criteria:\n\n* BMI: 27 to 45 kg/m2\n* Stable Type 2 diabetes mellitus for at least 3 months, as defined by the Investigator\n* Stable life-style, i.e. diet \\& physical activity, as determined by the Investigator\n* Stable metformin daily dose ≥1000 mg for at least 3 months\n* Glycosylated hemoglobin (HbA1c) at screening ≥ 7.1% and ≤ 11%",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "ConjuChem Biotechnologies Inc.",
    "city": "Montreal",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": "ConjuChem Biotechnologies Inc.",
    "lat": 45.50884,
-   "lon": -73.58781
+   "lon": -73.58781,
+   "state": "Quebec",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00638716",
@@ -124,6 +124,28 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI: 27 to 45 kg/m2"
+   },
+   {
+    "text": "Stable Type 2 diabetes mellitus for at least 3 months, as defined by the Investigator"
+   },
+   {
+    "text": "Stable life-style, i.e. diet & physical activity, as determined by the Investigator"
+   },
+   {
+    "text": "Stable metformin daily dose ≥1000 mg for at least 3 months"
+   },
+   {
+    "text": "Glycosylated hemoglobin (HbA1c) at screening ≥ 7.1% and ≤ 11%"
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

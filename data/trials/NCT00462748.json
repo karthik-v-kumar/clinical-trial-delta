@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-08-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [],
  "conditions": [
@@ -51,48 +51,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ezetimibe (+) simvastatin",
    "other_names": [
     "MK0653A"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: atorvastatin",
    "other_names": [
     "atorvastatin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: rosuvastatin",
    "other_names": [
     "rosuvastatin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ezetimibe (+) simvastatin"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: atorvastatin"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: rosuvastatin"
-   ]
+   ],
+   "label": "3",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "To evaluate the percentage of patients with either established cardiovascular disease (CVD), at \"high risk\" of developing CVD or with diabetes who are on simvastatin 40mg, with fasting LDL-C \\> 2mmol/l, who are able to attain the recommended LDL-C target of \\< 2mmol/l following 6 weeks treatment with either ezetimibe/simvastatin 10/40mg, atorvastatin 40mg or rosuvastatin 10mg.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient Is Male Or Female And Aged Over 18\n* Patient Provides Written Informed Consent\n* Patient Has A Fasting Ldl-C Level \\>2mmol/L At Both Visit 1 And Again At Visit 2\n* Patient Has Established Cvd, Diabetes Or At \"High Risk\" Of Cvd (\\>20 % Risk Over 10 Years, Framingham Scale)\n* Patient Has Taken Simvastatin 40mg Continuously For The Past 6 Weeks\n* Patient Has A Fasting Triglyceride Level Of \\<3.7mmol/L\n* Patient Has Hba1c \\<9% At Visit 1\n* Patient Is 75% Compliant With Medication Between Visit 1 And Visit 2\n\nExclusion Criteria:\n\n* Patient Is Hypersensitive To Any Of The Study Medications Or Their Components\n* Patient Has A History Of, Or Active Liver Disease (Persistent Elevation Of Alt / Ast (\\>3xuln)\n* Patient Is Pregnant, Lactating, Or A Female Patient Of Childbearing Potential Not Using Adequate Contraception\n* Patient Has Severe Renal Impairment: Creatinine Clearance \\<30ml/Min (Cockcroft-Gault Equation) (In Patients With Moderate Renal Impairment: \\<60ml/Min, The Dose Of Rosuvastatin Will Be 5mg In Line With The Spc)\n* Patient Has Uncontrolled Endocrine Or Metabolic Disease Known To Influence Serum Lipids Or Lipoproteins (I.E. Secondary Causes Of Hyperlipidaemia Such As Hypothyroidism Or Hyperthyroidism)\n* Patient Has A Recent History Of, Or Current, Alcohol Abuse\n* Patient Has Ck \\>10 X Uln At Visit 1 Or Visit 2\n* Patient Has Fasting Ldl-C \\>4.2mmol/L\n* Patient Has Any Acute Or Serious Condition, Or History Suggestive Of Myopathy Or Predisposing To The Development Of Renal Failure Secondary To Rhabdomyolysis (E.G. Sepsis, Hypotension, Major Surgery, Trauma, Severe Metabolic, Severe Endocrine And Electrolyte Disorders Or Uncontrolled Seizures)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -123,6 +123,65 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient Is Male Or Female And Aged Over 18"
+   },
+   {
+    "text": "Patient Provides Written Informed Consent"
+   },
+   {
+    "text": "Patient Has A Fasting Ldl-C Level >2mmol/L At Both Visit 1 And Again At Visit 2"
+   },
+   {
+    "text": "Patient Has Established Cvd, Diabetes Or At \"High Risk\" Of Cvd (>20 % Risk Over 10 Years, Framingham Scale)"
+   },
+   {
+    "text": "Patient Has Taken Simvastatin 40mg Continuously For The Past 6 Weeks"
+   },
+   {
+    "text": "Patient Has A Fasting Triglyceride Level Of <3.7mmol/L"
+   },
+   {
+    "text": "Patient Has Hba1c <9% At Visit 1"
+   },
+   {
+    "text": "Patient Is 75% Compliant With Medication Between Visit 1 And Visit 2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient Is Hypersensitive To Any Of The Study Medications Or Their Components"
+   },
+   {
+    "text": "Patient Has A History Of, Or Active Liver Disease (Persistent Elevation Of Alt / Ast (>3xuln)"
+   },
+   {
+    "text": "Patient Is Pregnant, Lactating, Or A Female Patient Of Childbearing Potential Not Using Adequate Contraception"
+   },
+   {
+    "text": "Patient Has Severe Renal Impairment: Creatinine Clearance <30ml/Min (Cockcroft-Gault Equation) (In Patients With Moderate Renal Impairment: <60ml/Min, The Dose Of Rosuvastatin Will Be 5mg In Line With The Spc)"
+   },
+   {
+    "text": "Patient Has Uncontrolled Endocrine Or Metabolic Disease Known To Influence Serum Lipids Or Lipoproteins (I.E. Secondary Causes Of Hyperlipidaemia Such As Hypothyroidism Or Hyperthyroidism)"
+   },
+   {
+    "text": "Patient Has A Recent History Of, Or Current, Alcohol Abuse"
+   },
+   {
+    "text": "Patient Has Ck >10 X Uln At Visit 1 Or Visit 2"
+   },
+   {
+    "text": "Patient Has Fasting Ldl-C >4.2mmol/L"
+   },
+   {
+    "text": "Patient Has Any Acute Or Serious Condition, Or History Suggestive Of Myopathy Or Predisposing To The Development Of Renal Failure Secondary To Rhabdomyolysis (E.G. Sepsis, Hypotension, Major Surgery, Trauma, Severe Metabolic, Severe Endocrine And Electrolyte Disorders Or Uncontrolled Seizures)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital, Montpellier",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital, Montpellier"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Personalized Glucose Predictive and Therapy Advisory System (DIAdvisor)",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "Personalized Glucose Predictive and Therapy Advisory System (DIAdvisor)",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "algorithm DIAdvisor activated",
-   "type": "OTHER",
    "intervention_names": [
     "Device: Personalized Glucose Predictive and Therapy Advisory System (DIAdvisor)"
-   ]
+   ],
+   "label": "algorithm DIAdvisor activated",
+   "type": "OTHER"
   },
   {
-   "label": "algorithm of DIAdvisor disactivated",
-   "type": "OTHER",
    "intervention_names": [
     "Device: Personalized Glucose Predictive and Therapy Advisory System (DIAdvisor)"
-   ]
+   ],
+   "label": "algorithm of DIAdvisor disactivated",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The primary purpose of this study is to see whether a tool that predict blood glucose and suggest therapy advices can help type 1 diabetic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patient must be aged between 18 (inclusive) and 70 years old\n2. Patients diagnosed with type 1 or type 2 diabetes according to WHO criteria for at least one year prior to study entry\n3. Patient treated by a basal-bolus insulin therapy using an external pump or multiple-daily injections. The insulin regimen has to be stable for the previous six months. NPH insulin use will not be acceptable.\n4. Patient should have stable diabetes with a HbA1c between ≥ 7.5 % and \\< 10.5 % with no keto-acidosis for the previous 6 months.\n5. Patient must have a Body Mass Index (BMI) lower than 35 Kg/m²\n6. Patient must be willing to undergo all study procedures\n7. Patient must be affiliated or beneficiary of a social medical insurance\n8. Patient has signed informed consent form prior to study entry\n\nExclusion Criteria:\n\n1. Patient is pregnant, or breast feeding during the period of the study\n2. Patient has impaired renal function with a creatinine blood concentration over 150 μmol/L\n3. Patient has a liver disease (ALAT, ASAT \\> 2 x upper limit of normal range)\n4. Patient is treated by sulfamides, GLP-1 analogues, DPP-IV inhibitors or glitazones\n5. Alcohol or drug addiction, as identified by investigator during screening visit\n6. Allergy to sensors or one of their components\n7. Manifest psychological disorders\n8. Patient health status is not compatible with physical exercise\n9. Patient is actively enrolled in another clinical trial or was part of study within 30 days\n10. Persons deprived of freedom, adults protected by law or vulnerable persons",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,31 +96,31 @@
  },
  "sites": [
   {
-   "facility": "Institute for Clinical and Experimental Medicine",
    "city": "Prague",
-   "state": null,
    "country": "Czechia",
-   "status": null,
+   "facility": "Institute for Clinical and Experimental Medicine",
    "lat": 50.08804,
-   "lon": 14.42076
+   "lon": 14.42076,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Montpellier University Hospital",
    "city": "Montpellier",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Montpellier University Hospital",
    "lat": 43.61093,
-   "lon": 3.87635
+   "lon": 3.87635,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Universita Degli Studi di Padova",
    "city": "Padova",
-   "state": null,
    "country": "Italy",
-   "status": null,
+   "facility": "Universita Degli Studi di Padova",
    "lat": 44.38225,
-   "lon": 11.14261
+   "lon": 11.14261,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01512654",
@@ -132,6 +132,68 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient must be aged between 18 (inclusive) and 70 years old"
+   },
+   {
+    "text": "Patients diagnosed with type 1 or type 2 diabetes according to WHO criteria for at least one year prior to study entry"
+   },
+   {
+    "text": "Patient treated by a basal-bolus insulin therapy using an external pump or multiple-daily injections. The insulin regimen has to be stable for the previous six months. NPH insulin use will not be acceptable."
+   },
+   {
+    "text": "Patient should have stable diabetes with a HbA1c between ≥ 7.5 % and < 10.5 % with no keto-acidosis for the previous 6 months."
+   },
+   {
+    "text": "Patient must have a Body Mass Index (BMI) lower than 35 Kg/m²"
+   },
+   {
+    "text": "Patient must be willing to undergo all study procedures"
+   },
+   {
+    "text": "Patient must be affiliated or beneficiary of a social medical insurance"
+   },
+   {
+    "text": "Patient has signed informed consent form prior to study entry"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient is pregnant, or breast feeding during the period of the study"
+   },
+   {
+    "text": "Patient has impaired renal function with a creatinine blood concentration over 150 μmol/L"
+   },
+   {
+    "text": "Patient has a liver disease (ALAT, ASAT > 2 x upper limit of normal range)"
+   },
+   {
+    "text": "Patient is treated by sulfamides, GLP-1 analogues, DPP-IV inhibitors or glitazones"
+   },
+   {
+    "text": "Alcohol or drug addiction, as identified by investigator during screening visit"
+   },
+   {
+    "text": "Allergy to sensors or one of their components"
+   },
+   {
+    "text": "Manifest psychological disorders"
+   },
+   {
+    "text": "Patient health status is not compatible with physical exercise"
+   },
+   {
+    "text": "Patient is actively enrolled in another clinical trial or was part of study within 30 days"
+   },
+   {
+    "text": "Persons deprived of freedom, adults protected by law or vulnerable persons"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

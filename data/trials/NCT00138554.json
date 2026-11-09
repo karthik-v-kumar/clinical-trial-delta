@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis"
  },
  "collaborators": [],
  "conditions": [
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "vildagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "pioglitazone",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "vildagliptin 50 mg qd + pioglitazone 45 mg qd",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: vildagliptin",
     "Drug: pioglitazone"
-   ]
+   ],
+   "label": "vildagliptin 50 mg qd + pioglitazone 45 mg qd",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "vildagliptin 50 mg bd+ pioglitazone 45 mg qd",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: vildagliptin",
     "Drug: pioglitazone"
-   ]
+   ],
+   "label": "vildagliptin 50 mg bd+ pioglitazone 45 mg qd",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "Many people with type 2 diabetes cannot maintain target blood glucose levels when taking a single oral drug. This is a 28-week extension to a study to assess the safety and effectiveness of vildagliptin, an unapproved drug, in lowering overall blood glucose levels when added to pioglitazone in people with type 2 diabetes not at target blood glucose levels on pioglitazone or rosiglitazone alone. The purpose of the extension study is to gather data on the long-term safety and effectiveness of vildagliptin in people with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Only patients successfully completing study CLAF237A2304 are eligible\n* Written informed consent\n* Ability to comply with all study requirements\n\nExclusion Criteria:\n\n* Premature discontinuation from study CLAF237A2304\n* Other protocol-defined exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": null,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "facility": "Novartis Pharmaceuticals",
    "city": "East Hanover",
-   "state": "New Jersey",
    "country": "United States",
-   "status": null,
+   "facility": "Novartis Pharmaceuticals",
    "lat": 40.8201,
-   "lon": -74.36487
+   "lon": -74.36487,
+   "state": "New Jersey",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00138554",
@@ -125,6 +125,29 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Only patients successfully completing study CLAF237A2304 are eligible"
+   },
+   {
+    "text": "Written informed consent"
+   },
+   {
+    "text": "Ability to comply with all study requirements"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Premature discontinuation from study CLAF237A2304"
+   },
+   {
+    "text": "Other protocol-defined exclusion criteria may apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

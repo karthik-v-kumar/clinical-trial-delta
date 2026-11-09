@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "QUADRUPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Prof. Maurovich-Horvat Pál",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Prof. Maurovich-Horvat Pál"
  },
  "collaborators": [
   "National Research, Development and Innovation Office, Hungary",
@@ -65,50 +65,50 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Rosuvastatin 40mg",
    "other_names": [
     "Intensified Statin Therapy"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "Coronary Computed Tomography Angiography (Coronary CTA)",
    "other_names": [
     "Coronary CTA"
-   ]
+   ],
+   "type": "DIAGNOSTIC_TEST"
   },
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "Blood test",
    "other_names": [
     "Laboratory test"
-   ]
+   ],
+   "type": "DIAGNOSTIC_TEST"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intensified Statin Arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Rosuvastatin 40mg",
     "Diagnostic Test: Coronary Computed Tomography Angiography (Coronary CTA)",
     "Diagnostic Test: Blood test"
-   ]
+   ],
+   "label": "Intensified Statin Arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo Arm",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Diagnostic Test: Coronary Computed Tomography Angiography (Coronary CTA)",
     "Diagnostic Test: Blood test"
-   ]
+   ],
+   "label": "Placebo Arm",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "INTENSE Trial is a prospective, double-blind, randomized, placebo-controlled, single-center study with two arms (40 mg intensified statin therapy vs matching placebo for rosuvastatin) among statin-naive patients referred to coronary CT angiography due to stable chest pain, followed for 24 months by using a photon-counting detector CT (PCD-CT).\n\nINTENSE Trial aims 1) to assess the effect of short-term intensified statin therapy on coronary anatomy and physiology using PCD-CT and 2) to determine the impact of short-term, intensified statin therapy on coronary plaque morphology and hemodynamics to identify statin responder and non-responder patients in addition to testing the hypothesis of \"plaque memory\" after the 24-month follow-up period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* patients referred for coronary computed tomography angiography (CTA)\n* females aged 45-75 years and males aged 40-75 years\n* presence of at least mild coronary atherosclerosis (luminal stenosis \\>25%, with at least one partially calcified or non-calcified plaque)\n* statin-naive patients\n* ability to understand and provide written informed consent\n* FFR-CT value ≥0.75, indicating the absence of hemodynamically significant stenosis\n\nExclusion Criteria:\n\n* contraindications to coronary CTA\n* current or prior treatment with statins or other lipid-lowering agents (e.g., ezetimibe)\n* age below 45 years in females or below 40 years in males\n* age above 75 years in both sexes\n* pregnancy or breastfeeding\n* type 1 or type 2 diabetes mellitus\n* history of coronary stent implantation or coronary artery bypass grafting\n* history of myocardial infarction\n* ≥70% luminal stenosis in the proximal left anterior descending artery (LAD), or ≥50% stenosis in the left main (LM) coronary artery\n* FFR-CT value \\<0.75 in any coronary artery\n* elevated serum alanine aminotransferase (ALT) levels (\\>3× the upper limit of normal)\n* elevated serum creatine kinase (CK) levels (\\>3× the upper limit of normal)\n* LDL cholesterol level \\>5 mmol/L\n* renal failure or significantly impaired renal function (eGFR \\<30 mL/min/1.73 m²)\n* ongoing oncological treatment\n* active liver disease\n* known hypersensitivity to any excipients of the investigational product\n* concomitant treatment with the combination of sofosbuvir/velpatasvir/voxilaprevir\n* concomitant treatment with cyclosporine\n* women of childbearing potential not using adequate contraception\n* presence of myopathy",
-  "sex": "ALL",
-  "minimum_age": "45 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "45 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,13 +131,13 @@
  },
  "sites": [
   {
-   "facility": "Semmelweis University, Medical Imaging Centre",
    "city": "Budapest",
-   "state": "Budapest",
    "country": "Hungary",
-   "status": "RECRUITING",
+   "facility": "Semmelweis University, Medical Imaging Centre",
    "lat": 47.49835,
-   "lon": 19.04045
+   "lon": 19.04045,
+   "state": "Budapest",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06603363",
@@ -149,6 +149,95 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "patients referred for coronary computed tomography angiography (CTA)"
+   },
+   {
+    "text": "females aged 45-75 years and males aged 40-75 years"
+   },
+   {
+    "text": "presence of at least mild coronary atherosclerosis (luminal stenosis >25%, with at least one partially calcified or non-calcified plaque)"
+   },
+   {
+    "text": "statin-naive patients"
+   },
+   {
+    "text": "ability to understand and provide written informed consent"
+   },
+   {
+    "text": "FFR-CT value ≥0.75, indicating the absence of hemodynamically significant stenosis"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "contraindications to coronary CTA"
+   },
+   {
+    "text": "current or prior treatment with statins or other lipid-lowering agents (e.g., ezetimibe)"
+   },
+   {
+    "text": "age below 45 years in females or below 40 years in males"
+   },
+   {
+    "text": "age above 75 years in both sexes"
+   },
+   {
+    "text": "pregnancy or breastfeeding"
+   },
+   {
+    "text": "type 1 or type 2 diabetes mellitus"
+   },
+   {
+    "text": "history of coronary stent implantation or coronary artery bypass grafting"
+   },
+   {
+    "text": "history of myocardial infarction"
+   },
+   {
+    "text": "≥70% luminal stenosis in the proximal left anterior descending artery (LAD), or ≥50% stenosis in the left main (LM) coronary artery"
+   },
+   {
+    "text": "FFR-CT value <0.75 in any coronary artery"
+   },
+   {
+    "text": "elevated serum alanine aminotransferase (ALT) levels (>3× the upper limit of normal)"
+   },
+   {
+    "text": "elevated serum creatine kinase (CK) levels (>3× the upper limit of normal)"
+   },
+   {
+    "text": "LDL cholesterol level >5 mmol/L"
+   },
+   {
+    "text": "renal failure or significantly impaired renal function (eGFR <30 mL/min/1.73 m²)"
+   },
+   {
+    "text": "ongoing oncological treatment"
+   },
+   {
+    "text": "active liver disease"
+   },
+   {
+    "text": "known hypersensitivity to any excipients of the investigational product"
+   },
+   {
+    "text": "concomitant treatment with the combination of sofosbuvir/velpatasvir/voxilaprevir"
+   },
+   {
+    "text": "concomitant treatment with cyclosporine"
+   },
+   {
+    "text": "women of childbearing potential not using adequate contraception"
+   },
+   {
+    "text": "presence of myopathy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

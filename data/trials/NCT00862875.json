@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Institut de Recherches Cliniques de Montreal",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Institut de Recherches Cliniques de Montreal"
  },
  "collaborators": [
   "Novo Nordisk A/S",
@@ -48,7 +48,6 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Detemir or Glargine",
    "other_names": [
     "Detemir",
@@ -57,23 +56,24 @@
     "Bed time insulin",
     "Lantus",
     "basal insulin analogue"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1:Insulin detemir",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Detemir or Glargine"
-   ]
+   ],
+   "label": "1:Insulin detemir",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2:Insulin Glargin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Detemir or Glargine"
-   ]
+   ],
+   "label": "2:Insulin Glargin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The objectives is to compare the changes in body composition (primary objective), diabetes parameters, energy expenditure and energy intake between Insulin detemir (Levemir® - Novolin® 4 pen) and insulin glargine (Lantus® - Solostar®) both in combination with Metformin and insulin secretagogues (SU) between baseline and after 6 months of insulin therapy in 80 type 2 diabetic patients failing on oral diabetic agents .",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetic patients who require basal (long-acting) insulin for the control of hyperglycemia according to the opinion of the investigator.\n* Inadequate Glucose control: Hemoglobin A1c (HbA1c) percentage in the range of ≥ 7.5 - 12.0%\n* Stable body weight for previous 3 months (± 5 kg).\n* Structured exercise lower than 4 hours per week.\n* Metformin ≥1.5 g/day\n\nExclusion Criteria:\n\n* Any medical, social or geographic condition, which, in the opinion of the investigator would not allow safe or reliable completion of the protocol.\n* Type 1 Diabetes Mellitus\n* Previous treatment with insulin (\\< 6 months prior inclusion). Insulin therapy for less than 6 days at the time of an acute event is acceptable.\n* Secondary diabetes mellitus (i.e. steroid induced, Cushing syndrome, chronic pancreatitis, cystic fibrosis, etc.) and maturity-onset diabetes of the young\n* Proliferative retinopathy/maculopathy requiring treatment\n* Hypoglycemia unawareness or recurrent major hypoglycaemia\n* Pregnancy and breast-feeding\n* Unstable coronary artery disease\n* Heart Failure as defined by class IV according to NYHA classification\n* Recent (\\< 6 months) history of myocardial infarction, stroke or T.I.A, ventricular arrhythmias, or unstable supra-ventricular arrhythmias.\n* Renal Insufficiency. Creatinine clearance \\< 40 ml/min (MDRD formula).\n* Acute (\\< 2 months) or Chronic infectious diseases requiring either hospitalization or antibiotic treatment for more than 2 weeks\n* Recent (\\< 1 year) diagnosis of systemic malignancies except thyroid and skin cancer\n* Major psychiatric diseases\n* History of drug addiction\n* Previous bariatric surgery\n* Medication that affects weight such as\n\n  * Systemic corticosteroids (prednisone)\n  * Anti-obesity medication (Xenical® or Meridia®)\n  * Megace ®\n  * Antidepressant medication associated with significant weight impact such as Zyprexa®, Remeron® based on investigator judgment.\n  * Growth hormone therapy or testosterone supplementation should be initiated for at least 6 months and at stable dose for 3 months prior to enrolment\n  * Medication that affects glycemic control and hypoglycemic unawareness based on investigator judgment.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Institut de Recherches Cliniques de Montréal",
    "city": "Montreal",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": "Institut de Recherches Cliniques de Montréal",
    "lat": 45.50884,
-   "lon": -73.58781
+   "lon": -73.58781,
+   "state": "Quebec",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00862875",
@@ -117,6 +117,88 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetic patients who require basal (long-acting) insulin for the control of hyperglycemia according to the opinion of the investigator."
+   },
+   {
+    "text": "Inadequate Glucose control: Hemoglobin A1c (HbA1c) percentage in the range of ≥ 7.5 - 12.0%"
+   },
+   {
+    "text": "Stable body weight for previous 3 months (± 5 kg)."
+   },
+   {
+    "text": "Structured exercise lower than 4 hours per week."
+   },
+   {
+    "text": "Metformin ≥1.5 g/day"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any medical, social or geographic condition, which, in the opinion of the investigator would not allow safe or reliable completion of the protocol."
+   },
+   {
+    "text": "Type 1 Diabetes Mellitus"
+   },
+   {
+    "text": "Previous treatment with insulin (< 6 months prior inclusion). Insulin therapy for less than 6 days at the time of an acute event is acceptable."
+   },
+   {
+    "text": "Secondary diabetes mellitus (i.e. steroid induced, Cushing syndrome, chronic pancreatitis, cystic fibrosis, etc.) and maturity-onset diabetes of the young"
+   },
+   {
+    "text": "Proliferative retinopathy/maculopathy requiring treatment"
+   },
+   {
+    "text": "Hypoglycemia unawareness or recurrent major hypoglycaemia"
+   },
+   {
+    "text": "Pregnancy and breast-feeding"
+   },
+   {
+    "text": "Unstable coronary artery disease"
+   },
+   {
+    "text": "Heart Failure as defined by class IV according to NYHA classification"
+   },
+   {
+    "text": "Recent (< 6 months) history of myocardial infarction, stroke or T.I.A, ventricular arrhythmias, or unstable supra-ventricular arrhythmias."
+   },
+   {
+    "text": "Renal Insufficiency. Creatinine clearance < 40 ml/min (MDRD formula)."
+   },
+   {
+    "text": "Acute (< 2 months) or Chronic infectious diseases requiring either hospitalization or antibiotic treatment for more than 2 weeks"
+   },
+   {
+    "text": "Recent (< 1 year) diagnosis of systemic malignancies except thyroid and skin cancer"
+   },
+   {
+    "text": "Major psychiatric diseases"
+   },
+   {
+    "text": "History of drug addiction"
+   },
+   {
+    "text": "Previous bariatric surgery"
+   },
+   {
+    "text": "Medication that affects weight such as",
+    "sub_items": [
+     "Systemic corticosteroids (prednisone)",
+     "Anti-obesity medication (Xenical® or Meridia®)",
+     "Megace ®",
+     "Antidepressant medication associated with significant weight impact such as Zyprexa®, Remeron® based on investigator judgment.",
+     "Growth hormone therapy or testosterone supplementation should be initiated for at least 6 months and at stable dose for 3 months prior to enrolment",
+     "Medication that affects glycemic control and hypoglycemic unawareness based on investigator judgment."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

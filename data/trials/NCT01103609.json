@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,37 +48,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Warfarin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "AZD1656",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Warfarin",
     "Drug: AZD1656"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Warfarin",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The purpose of this study is to determine whether AZD1656 will affect the Pharmacokinetics and Pharmacodynamics of Warfarin in T2DM patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of T2DM treated with at least 1000 mg metformin as a single treatment or in combination with one other oral anti-diabetics for at least 2 months prior to screening. Doses of anti-diabetic treatment stable for at least 1 month\n* Fasting plasma glucose (FPG) at screening in the range of 6.0 to 15.0 mmol/L (108 to 270 mg/dL) and FPG in the range of 7.5 to 13.0 mmol/L (135 to 234 mg/dL) on Day 1\n* Haemoglobin (Hb) A1c \\>6.5% at screening\n\nExclusion Criteria:\n\n* Use of drugs with anticoagulant effects 3 weeks prior to first warfarin dosing\n* Use of amiodarone within 3 months prior to screening and the use of potent CYP450 inhibitors\n* Previous treatment with warfarin on clinical indication",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "London",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Research Site",
    "lat": 51.50853,
-   "lon": -0.12574
+   "lon": -0.12574,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01103609",
@@ -122,6 +122,32 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Clinical diagnosis of T2DM treated with at least 1000 mg metformin as a single treatment or in combination with one other oral anti-diabetics for at least 2 months prior to screening. Doses of anti-diabetic treatment stable for at least 1 month"
+   },
+   {
+    "text": "Fasting plasma glucose (FPG) at screening in the range of 6.0 to 15.0 mmol/L (108 to 270 mg/dL) and FPG in the range of 7.5 to 13.0 mmol/L (135 to 234 mg/dL) on Day 1"
+   },
+   {
+    "text": "Haemoglobin (Hb) A1c >6.5% at screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of drugs with anticoagulant effects 3 weeks prior to first warfarin dosing"
+   },
+   {
+    "text": "Use of amiodarone within 3 months prior to screening and the use of potent CYP450 inhibitors"
+   },
+   {
+    "text": "Previous treatment with warfarin on clinical indication"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

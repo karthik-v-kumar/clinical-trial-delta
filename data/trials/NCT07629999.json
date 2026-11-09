@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Bristol-Myers Squibb",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Bristol-Myers Squibb"
  },
  "collaborators": [],
  "conditions": [
@@ -53,64 +53,64 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "BMS-986533",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Famotidine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dabigatran Etexilate",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: BMS-986533",
+    "Drug: Placebo"
+   ],
    "label": "Arm A",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: BMS-986533",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "Arm B",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: BMS-986533",
-    "Drug: Placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Arm C",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: BMS-986533",
     "Drug: Famotidine"
-   ]
+   ],
+   "label": "Arm C",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Arm D",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: BMS-986533",
     "Drug: Dabigatran Etexilate",
     "Drug: Rosuvastatin"
-   ]
+   ],
+   "label": "Arm D",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -146,23 +146,23 @@
  "brief_summary": "The purpose of this study is to evaluate the safety and pharmacokinetics of BMS-986533 in healthy participants receiving single and multiple doses, to assess food and pH effects on the relative bioavailability of BMS-986533, and the P-gp and BCRP-mediated drug-drug interaction potential of the study drug",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants must have a body mass index (BMI) of 18 to 32.44 kg/m2, inclusive, and total body weight ≥ 50 kg.\n* Female (as assigned at birth) participants who are not of childbearing potential must have documented proof of reproductive status.\n* A male (as assigned at birth) who is sexually active with IOCBP must agree to follow instructions for method(s) of contraception as described and included in the ICF.\n\nExclusion Criteria:\n\n* Participants must not have presence or history of any clinically relevant abnormality, condition, or disease of renal, hepatic, hematologic, GI, endocrine, pulmonary, neurologic, or immunologic (including history of angioedema or hypersensitivity reactions to medication).\n* Participants must not have current or recent (within 3 months of study intervention administration) clinically significant GI disease.\n* Participants must not have any major surgery within 3 months of study intervention administration.\n* Participants must not have Any surgical or medical intervention that could possibly affect ADME of study intervention (eg, bariatric surgery, GI surgery).\n* Other protocol defined inclusion/exclusion criteria applies.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Celerion Coorporate Office Nebraska",
    "city": "Lincoln",
-   "state": "Nebraska",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Celerion Coorporate Office Nebraska",
    "lat": 40.8,
-   "lon": -96.66696
+   "lon": -96.66696,
+   "state": "Nebraska",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07629999",
@@ -174,6 +174,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants must have a body mass index (BMI) of 18 to 32.44 kg/m2, inclusive, and total body weight ≥ 50 kg."
+   },
+   {
+    "text": "Female (as assigned at birth) participants who are not of childbearing potential must have documented proof of reproductive status."
+   },
+   {
+    "text": "A male (as assigned at birth) who is sexually active with IOCBP must agree to follow instructions for method(s) of contraception as described and included in the ICF."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participants must not have presence or history of any clinically relevant abnormality, condition, or disease of renal, hepatic, hematologic, GI, endocrine, pulmonary, neurologic, or immunologic (including history of angioedema or hypersensitivity reactions to medication)."
+   },
+   {
+    "text": "Participants must not have current or recent (within 3 months of study intervention administration) clinically significant GI disease."
+   },
+   {
+    "text": "Participants must not have any major surgery within 3 months of study intervention administration."
+   },
+   {
+    "text": "Participants must not have Any surgical or medical intervention that could possibly affect ADME of study intervention (eg, bariatric surgery, GI surgery)."
+   },
+   {
+    "text": "Other protocol defined inclusion/exclusion criteria applies."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

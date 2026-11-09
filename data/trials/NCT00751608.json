@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "APL180",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "APL180",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: APL180"
+   ],
    "label": "1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: APL180"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: APL180"
+   ],
    "label": "2",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: APL180"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "3",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "3",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "This study will evaluate the effect of APL180 on endothelial function measured by forearm venous occlusion plethysmography in patients with familial hypercholesterolemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Confirmed presence of familial hypercholesterolemia\n* Women must be sterilized or post-menopausal\n\nExclusion Criteria:\n\n* Smoking an average of greater than 10 cigarettes per day\n* History of cardiac events\n* Very low or high body weight\n* Treatment with fibrates or niacin\n* High blood triglyceride levels\n\nOther protocol-defined inclusion/exclusion criteria may apply.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "50 Years",
   "healthy_volunteers": false,
+  "maximum_age": "50 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
@@ -118,6 +118,38 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Confirmed presence of familial hypercholesterolemia"
+   },
+   {
+    "text": "Women must be sterilized or post-menopausal"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Smoking an average of greater than 10 cigarettes per day"
+   },
+   {
+    "text": "History of cardiac events"
+   },
+   {
+    "text": "Very low or high body weight"
+   },
+   {
+    "text": "Treatment with fibrates or niacin"
+   },
+   {
+    "text": "High blood triglyceride levels"
+   },
+   {
+    "text": "Other protocol-defined inclusion/exclusion criteria may apply."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

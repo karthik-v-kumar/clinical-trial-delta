@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2014-10-16",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Mannkind Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Mannkind Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Technosphere Insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Technosphere Insulin"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "The original protocol was a randomized, open-label, 3-way cross-over study with 9 scheduled visits. The visits comprised an initial screening visit, 3 treatment visits for the meal challenge followed by a 2-6-week blood-loss recovery period, an interim safety visit, 3 sequential visits for the glucose clamp, and a final close-out visit.\n\nProtocol Amendment 1 was a randomized, open-label, 2-way cross-over study with 7 visits for each completed subject. The visits comprise an initial screening visit, 2 treatment visits for the meal challenge followed by a 2-6-week blood-loss recovery period, an interim safety visit, 2 sequential visits for the glucose clamp, and a final close-out visit.\n\nFor both the original protocol and Protocol Amendment 1, subjects were hospitalized in the clinical unit for all procedures.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Receiving diabetes treatment with insulin for a minimum of 3 months\n* Body Mass Index (BMI) of ≤ 34 kg/m2 and ≥ 25 kg/m2\n* HbA1c ≤ 8.5% based upon results from a central laboratory\n* Non-smoking Males and females ≥ 18 and ≤ 70 years of age\n* A clinical diagnosis of type 2 diabetes mellitus for ≥ 12 months\n\nExclusion Criteria:\n\n* Total daily insulin requirement of ≥ 1.2 U/kg body weight\n* Use of Symlin® (pramlintide acetate) and/or Byetta® (exenatide) within the preceding 8 weeks\n* Two or more severe hypoglycemic episodes within 6 months of screening\n* Any hospitalization or emergency room visit due to poor diabetic control within 6 months of Screening\n* Severe complications of diabetes\n* Previous exposure to any inhaled insulin product\n* Currently using an insulin delivery pump\n* Allergy or known hypersensitivity to insulin or to any of the drugs to be used in the trial\n* Any clinically important pulmonary disease, confirmed by documented history, pulmonary function testing, or radiologic findings\n* Chronic use of systemic steroids\n* Inability to perform PFT maneuvers to meet the recommended American Thoracic Society (ATS) standards of acceptability and repeatability\n* Significant improvement in spirometry following bronchodilation\n* Active respiratory infection\n* Seizure disorder\n* Significant cardiovascular dysfunction and/or history within 3 months of Screening\n* Uncontrolled hypertension with a systolic blood pressure of \\>160 mm Hg and/or diastolic blood pressure \\> 95 mm Hg at screening, despite pharmacologic treatment\n* Clinical nephrotic syndrome or renal dysfunction or disease\n* Cancer (other than an excised cutaneous basal cell carcinoma) within the past 5 years or any history of lung neoplasms\n* History of active viral and/or cirrhotic hepatic disease and/or abnormal liver enzymes\n* Active infection eg, Human Immunodeficiency Virus (HIV), Hepatitis, or history of severe infection within 30 days of Screening\n* Anemia\n* A previous diagnosis of systemic autoimmune or collagen vascular disease requiring prior or current treatment with systemic corticosteroids, cytotoxic drugs or penicillamine\n* Any concurrent illness, other than diabetes mellitus not controlled by a stable therapeutic regime\n* Current or previous chemotherapy or radiation therapy that may result in pulmonary toxicity\n* Clinically significant abnormalities on screening laboratory evaluation\n* Female subjects who are pregnant, lactating or planning to become pregnant during the clinical trial period\n* Female subjects of childbearing potential (defined as pre-menopausal and not surgically sterilized or post-menopausal for less than 2 years) not practicing adequate birth control.\n* Current drug or alcohol abuse, or a history of drug or alcohol abuse, that, in the opinion of the PI, would not make the subject a suitable candidate for participation in the clinical trial\n* Exposure to any investigational medications or devices within the previous 30 days prior to trial entry or participation in another clinical trial during this trial\n* Unable and/or unlikely to comprehend and/or follow the trial protocol\n* Concurrent medical or major psychiatric condition which, in the opinion of the PI, makes the subject unsuitable for the clinical trial, or could limit the validity of the informed consent and/or impair the subject's ability to participate in the trial",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "facility": "Profil Institute for Metabolic Research",
    "city": "Neuss",
-   "state": "GER",
    "country": "Germany",
-   "status": null,
+   "facility": "Profil Institute for Metabolic Research",
    "lat": 51.19807,
-   "lon": 6.68504
+   "lon": 6.68504,
+   "state": "GER",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00570687",
@@ -108,6 +108,122 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Receiving diabetes treatment with insulin for a minimum of 3 months"
+   },
+   {
+    "text": "Body Mass Index (BMI) of ≤ 34 kg/m2 and ≥ 25 kg/m2"
+   },
+   {
+    "text": "HbA1c ≤ 8.5% based upon results from a central laboratory"
+   },
+   {
+    "text": "Non-smoking Males and females ≥ 18 and ≤ 70 years of age"
+   },
+   {
+    "text": "A clinical diagnosis of type 2 diabetes mellitus for ≥ 12 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Total daily insulin requirement of ≥ 1.2 U/kg body weight"
+   },
+   {
+    "text": "Use of Symlin® (pramlintide acetate) and/or Byetta® (exenatide) within the preceding 8 weeks"
+   },
+   {
+    "text": "Two or more severe hypoglycemic episodes within 6 months of screening"
+   },
+   {
+    "text": "Any hospitalization or emergency room visit due to poor diabetic control within 6 months of Screening"
+   },
+   {
+    "text": "Severe complications of diabetes"
+   },
+   {
+    "text": "Previous exposure to any inhaled insulin product"
+   },
+   {
+    "text": "Currently using an insulin delivery pump"
+   },
+   {
+    "text": "Allergy or known hypersensitivity to insulin or to any of the drugs to be used in the trial"
+   },
+   {
+    "text": "Any clinically important pulmonary disease, confirmed by documented history, pulmonary function testing, or radiologic findings"
+   },
+   {
+    "text": "Chronic use of systemic steroids"
+   },
+   {
+    "text": "Inability to perform PFT maneuvers to meet the recommended American Thoracic Society (ATS) standards of acceptability and repeatability"
+   },
+   {
+    "text": "Significant improvement in spirometry following bronchodilation"
+   },
+   {
+    "text": "Active respiratory infection"
+   },
+   {
+    "text": "Seizure disorder"
+   },
+   {
+    "text": "Significant cardiovascular dysfunction and/or history within 3 months of Screening"
+   },
+   {
+    "text": "Uncontrolled hypertension with a systolic blood pressure of >160 mm Hg and/or diastolic blood pressure > 95 mm Hg at screening, despite pharmacologic treatment"
+   },
+   {
+    "text": "Clinical nephrotic syndrome or renal dysfunction or disease"
+   },
+   {
+    "text": "Cancer (other than an excised cutaneous basal cell carcinoma) within the past 5 years or any history of lung neoplasms"
+   },
+   {
+    "text": "History of active viral and/or cirrhotic hepatic disease and/or abnormal liver enzymes"
+   },
+   {
+    "text": "Active infection eg, Human Immunodeficiency Virus (HIV), Hepatitis, or history of severe infection within 30 days of Screening"
+   },
+   {
+    "text": "Anemia"
+   },
+   {
+    "text": "A previous diagnosis of systemic autoimmune or collagen vascular disease requiring prior or current treatment with systemic corticosteroids, cytotoxic drugs or penicillamine"
+   },
+   {
+    "text": "Any concurrent illness, other than diabetes mellitus not controlled by a stable therapeutic regime"
+   },
+   {
+    "text": "Current or previous chemotherapy or radiation therapy that may result in pulmonary toxicity"
+   },
+   {
+    "text": "Clinically significant abnormalities on screening laboratory evaluation"
+   },
+   {
+    "text": "Female subjects who are pregnant, lactating or planning to become pregnant during the clinical trial period"
+   },
+   {
+    "text": "Female subjects of childbearing potential (defined as pre-menopausal and not surgically sterilized or post-menopausal for less than 2 years) not practicing adequate birth control."
+   },
+   {
+    "text": "Current drug or alcohol abuse, or a history of drug or alcohol abuse, that, in the opinion of the PI, would not make the subject a suitable candidate for participation in the clinical trial"
+   },
+   {
+    "text": "Exposure to any investigational medications or devices within the previous 30 days prior to trial entry or participation in another clinical trial during this trial"
+   },
+   {
+    "text": "Unable and/or unlikely to comprehend and/or follow the trial protocol"
+   },
+   {
+    "text": "Concurrent medical or major psychiatric condition which, in the opinion of the PI, makes the subject unsuitable for the clinical trial, or could limit the validity of the informed consent and/or impair the subject's ability to participate in the trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

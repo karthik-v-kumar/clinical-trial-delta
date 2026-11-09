@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Weill Medical College of Cornell University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Weill Medical College of Cornell University"
  },
  "collaborators": [
   "West Chester University of Pennsylvania",
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Undermyfork Care App",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "OTHER",
    "name": "Usual Care",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "MNT Usual Care (Control)",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Usual Care"
-   ]
+   ],
+   "label": "MNT Usual Care (Control)",
+   "type": "OTHER"
   },
   {
-   "label": "App-Enhanced MNT",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Undermyfork Care App"
-   ]
+   ],
+   "label": "App-Enhanced MNT",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "The purpose of the study is to see if using a diabetes app along with nutrition counseling from a registered dietitian nutritionist can help improve blood sugars and cholesterol levels, quality of life, physical activity, and food and beverage choices.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female 18-75 years of age.\n* Documentation of a T1D or T2D diagnosis.\n* A1C of 6.5 or greater.\n* Access to a compatible smartphone.\n* Using a Dexcom continuous glucose monitoring device (due to compatibility with Undermyfork app) for at least 1 month with an active time of at least 70% within the last 14 days.\n\nExclusion Criteria:\n\n* Heart failure.\n* Advanced kidney disease.\n* Severe cognitive or psychological disabilities.\n* Depression.\n* Pregnant or breastfeeding.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,13 +117,13 @@
  },
  "sites": [
   {
-   "facility": "Weill Cornell Medicine",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Weill Cornell Medicine",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07773779",
@@ -135,6 +135,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female 18-75 years of age."
+   },
+   {
+    "text": "Documentation of a T1D or T2D diagnosis."
+   },
+   {
+    "text": "A1C of 6.5 or greater."
+   },
+   {
+    "text": "Access to a compatible smartphone."
+   },
+   {
+    "text": "Using a Dexcom continuous glucose monitoring device (due to compatibility with Undermyfork app) for at least 1 month with an active time of at least 70% within the last 14 days."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Heart failure."
+   },
+   {
+    "text": "Advanced kidney disease."
+   },
+   {
+    "text": "Severe cognitive or psychological disabilities."
+   },
+   {
+    "text": "Depression."
+   },
+   {
+    "text": "Pregnant or breastfeeding."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

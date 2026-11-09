@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Marlene Starr",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Marlene Starr"
  },
  "collaborators": [],
  "conditions": [
@@ -49,33 +49,33 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "tirzepatide",
    "other_names": [
     "Mounjaro",
     "Zepbound"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Standard of Care",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Standard of Care plus Drug",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: tirzepatide"
-   ]
+   ],
+   "label": "Standard of Care plus Drug",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Standard of Care Alone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Standard of Care"
-   ]
+   ],
+   "label": "Standard of Care Alone",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -111,10 +111,10 @@
  "brief_summary": "This clinical trial will test whether preoperative tirzepatide treatment improves outcomes after bariatric surgery. The outcome of this study could impact therapeutic guidelines for the multimodal treatment of obesity.\n\nThe major objectives are:\n\n1. To evaluate whether pre-operative tirzepatide treatment reduces tissue and circulating inflammatory markers at the time of surgery.\n2. To establish the relationship of these changes with postoperative improvements in weight loss, metabolic and inflammatory profiles, comorbidity resolution (glycemic control, blood pressure, lipid profile), and 30-day surgical complications. Researchers will compare data from patients taking tirzepatide to data from patients not taking tirzepatide before their planned bariatric surgery to see if tirzepatide reduces inflammation and improves health outcomes after bariatric surgery.\n\nParticipants will:\n\nTake or not take tirzepatide, depending on what study group they are in, once a week for 3 months.\n\nVisit the endocrine clinic once a month for 3 months to be prescribed the drug and for checkups regarding side effects due to the drug.\n\nKeep a diary to document taking the drug and any side effects. Continue with their planned bariatric surgery and post-surgery follow-ups according to their healthcare provider.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* adults who have been enrolled in the multidisciplinary metabolic and bariatric surgery program at the UK HealthCare Weight Loss Surgery Clinic and are scheduled to receive laparoscopic or robotic sleeve gastrectomy, or gastric bypass surgery\n* BMI greater than or equal to 40 kg/m2 with one or more obesity-related comorbidities\n* have demonstrated abstinence from any form of nicotine use, confirmed by serum nicotine and metabolite testing\n* enrollment in the ADORE Bariatric Tissue Bank (IRB #69767)\n\nExclusion Criteria:\n\n* any contraindication to the use of tirzepatide (per package insert)\n* Personal or family history of medullary thyroid carcinoma\n* Patients with Multiple Endocrine Neoplasm syndrome type 2\n* Hypersensitivity to tirzepatide\n* History of pancreatitis\n* Type 1 Diabetes\n* patients with active, untreated or symptomatic cholelithiasis or jaundice\n* consistent use of a GLP-1 or GLP-1/GIP receptor agonist, over the past 90 days\n* diagnosed autoimmune disease\n* current use of immunosuppressive agents or use within the past 30 days\n* moderate or severe substance use disorder according to DSM-5 criteria\n* uncontrolled significant psychiatric disorder as assessed by specialized bariatric psychologist\n* female participant who is pregnant, breast-feeding, or intends to become pregnant with in 1 year following surgery\n* a prisoner",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -122,13 +122,13 @@
  },
  "sites": [
   {
-   "facility": "University of Kentucky",
    "city": "Lexington",
-   "state": "Kentucky",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "University of Kentucky",
    "lat": 37.98869,
-   "lon": -84.47772
+   "lon": -84.47772,
+   "state": "Kentucky",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06721507",
@@ -140,6 +140,68 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "adults who have been enrolled in the multidisciplinary metabolic and bariatric surgery program at the UK HealthCare Weight Loss Surgery Clinic and are scheduled to receive laparoscopic or robotic sleeve gastrectomy, or gastric bypass surgery"
+   },
+   {
+    "text": "BMI greater than or equal to 40 kg/m2 with one or more obesity-related comorbidities"
+   },
+   {
+    "text": "have demonstrated abstinence from any form of nicotine use, confirmed by serum nicotine and metabolite testing"
+   },
+   {
+    "text": "enrollment in the ADORE Bariatric Tissue Bank (IRB #69767)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "any contraindication to the use of tirzepatide (per package insert)"
+   },
+   {
+    "text": "Personal or family history of medullary thyroid carcinoma"
+   },
+   {
+    "text": "Patients with Multiple Endocrine Neoplasm syndrome type 2"
+   },
+   {
+    "text": "Hypersensitivity to tirzepatide"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Type 1 Diabetes"
+   },
+   {
+    "text": "patients with active, untreated or symptomatic cholelithiasis or jaundice"
+   },
+   {
+    "text": "consistent use of a GLP-1 or GLP-1/GIP receptor agonist, over the past 90 days"
+   },
+   {
+    "text": "diagnosed autoimmune disease"
+   },
+   {
+    "text": "current use of immunosuppressive agents or use within the past 30 days"
+   },
+   {
+    "text": "moderate or severe substance use disorder according to DSM-5 criteria"
+   },
+   {
+    "text": "uncontrolled significant psychiatric disorder as assessed by specialized bariatric psychologist"
+   },
+   {
+    "text": "female participant who is pregnant, breast-feeding, or intends to become pregnant with in 1 year following surgery"
+   },
+   {
+    "text": "a prisoner"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

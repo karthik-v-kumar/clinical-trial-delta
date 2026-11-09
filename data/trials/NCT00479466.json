@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2011-11-11",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,78 +51,78 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MK0893",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo to MK0893",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo to Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: MK0893",
+    "Drug: Placebo to MK0893",
+    "Drug: Placebo to Metformin"
+   ],
    "label": "MK0893 80 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK0893",
     "Drug: Placebo to MK0893",
     "Drug: Placebo to Metformin"
-   ]
-  },
-  {
+   ],
    "label": "MK0893 60 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK0893",
     "Drug: Placebo to MK0893",
     "Drug: Placebo to Metformin"
-   ]
-  },
-  {
+   ],
    "label": "MK0893 40 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK0893",
     "Drug: Placebo to MK0893",
     "Drug: Placebo to Metformin"
-   ]
-  },
-  {
+   ],
    "label": "MK0893 20 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: MK0893",
-    "Drug: Placebo to MK0893",
-    "Drug: Placebo to Metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Placebo to MK0893"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to MK0893",
     "Drug: Placebo to Metformin"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -134,10 +134,10 @@
  "brief_summary": "A study to compare MK0893 to metformin or placebo for patients with Type 2 diabetes (Diabetes Mellitus).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who have Type 2 Diabetes Mellitus, with suboptimal glucose control, while either not on AHA (antihyperglycemic agent) therapy or on monotherapy or on low-dose combination therapy\n\nExclusion Criteria:\n\n* Patients have a history of Type 1 Diabetes Mellitus\n* Patients taking insulin or thiazolidinedione (TZD, a peroxisome proliferator-activated receptor \\[PPAR\\]-gamma agonist)\n* Patients who have a contraindication to metformin",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -153,6 +153,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who have Type 2 Diabetes Mellitus, with suboptimal glucose control, while either not on AHA (antihyperglycemic agent) therapy or on monotherapy or on low-dose combination therapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients have a history of Type 1 Diabetes Mellitus"
+   },
+   {
+    "text": "Patients taking insulin or thiazolidinedione (TZD, a peroxisome proliferator-activated receptor [PPAR]-gamma agonist)"
+   },
+   {
+    "text": "Patients who have a contraindication to metformin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": "2020-05-15",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Biocon Limited",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Biocon Limited"
  },
  "collaborators": [],
  "conditions": [
@@ -49,39 +49,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin Tregopil",
    "other_names": [
     "IN-105"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Aspart",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Insulin Tregopil"
+   ],
    "label": "Insulin Tregopil (IN-105) - 45mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Insulin Tregopil"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Insulin Tregopil"
+   ],
    "label": "Insulin Tregopil (IN-105) - 30mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Insulin Tregopil"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin Aspart",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Aspart"
-   ]
+   ],
+   "label": "Insulin Aspart",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "This is an open label Phase II/III study to evaluate the efficacy and safety of test drug, Insulin Tregopil (IN-105) compared with Insulin Aspart (IAsp) in Type 2 Diabetes Mellitus patients. on stable dose of Metformin and insulin Glargine. The study will be conducted in 2 parts, Part I and Part II. The study duration will be approximately 37 weeks for Part I and for Part II of the study respectively",
  "eligibility": {
   "criteria": "Key Inclusion Criteria\n\n* Patients with an established diagnosis of T2DM and a duration of diabetes mellitus of at least 6 months at Screening based on criteria given below as per American Diabetes Association (ADA) 2017 guidelines: i. HbA1c ≥ 6.5% OR ii. FPG ≥ 126 mg/dL. (Fasting is defined as no caloric intake for at least 8 hours.) OR iii. 2-hour prandial glucose (PG) level of ≥ 200 mg/dL during an oral glucose tolerance test (OGTT).\n* Stable dose of metformin (at least 1500 mg daily \\[daily dose of at least 1000 mg is permitted if intolerant to 1500 mg dose\\]) for a period of at least 3 months prior to Screening\n* Eligible for initiation of or already receiving insulin glargine\n* Hemoglobin ≥ 10.0 g/Dl\n* HbA1c of 7.5% to 10.0 %\n* Body mass index of 18.5 to 35.0 kg/m2\n\nKey Exclusion Criteria\n\n* Patients with T1DM\n* Treatment with glucagon-like peptide 1 agonists within 12 weeks prior to Screening\n* Ongoing treatment with OADs (eg, Thiazolidinediones) contraindicated or unapproved for combination treatment with insulin\n* Presence of gastrointestinal (GI) disorders or conditions known to significantly alter the absorption of orally administered drugs or significantly alter upper GI or pancreatic function\n* History of ≥2 episodes of severe hypoglycemia (as per ADA 2017) within the 6 months before Screening\n* History of \\> 1 episode of hyperglycemic hyperosmolar coma or hospitalization for uncontrolled diabetes (eg, diabetic ketoacidosis); within the 6 months prior to Screening\n* Clinically significant cardiovascular and/or cerebrovascular disease within 12 months before Screening including, but not limited to unstable angina, myocardial infarction, Class III or Class IV congestive heart failure according to the New York Heart Association criteria, valvular heart disease, cardiac arrhythmia requiring treatment, pulmonary hypertension, cardiac surgery, coronary angioplasty, stroke or transient ischemic attack.\n* Patients with the following secondary complications of diabetes:\n\n  i. Active proliferative retinopathy as confirmed by a dilated ophthalmoscopy (by the investigator, site ophthalmologist or an optometrist; as per standard site practice) within 6 months prior to Screening. ii. Renal dysfunction indicated by modification of diet in renal disease estimated glomerular filtration rate \\< 45 mL/min/1.73 m2 and/or diabetic nephropathy and/or clinical nephrotic syndrome at Screening. iii. History or presence of severe form of neuropathy or signs and symptoms of severe cardiac autonomic neuropathy. iv. Patients with non-traumatic amputation (at any time) or clinically significant",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Diacon Hospital",
    "city": "Bangalore",
-   "state": "Karnataka",
    "country": "India",
-   "status": null,
+   "facility": "Diacon Hospital",
    "lat": 12.97194,
-   "lon": 77.59369
+   "lon": 77.59369,
+   "state": "Karnataka",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03430856",
@@ -122,6 +122,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with an established diagnosis of T2DM and a duration of diabetes mellitus of at least 6 months at Screening based on criteria given below as per American Diabetes Association (ADA) 2017 guidelines: i. HbA1c ≥ 6.5% OR ii. FPG ≥ 126 mg/dL. (Fasting is defined as no caloric intake for at least 8 hours.) OR iii. 2-hour prandial glucose (PG) level of ≥ 200 mg/dL during an oral glucose tolerance test (OGTT)."
+   },
+   {
+    "text": "Stable dose of metformin (at least 1500 mg daily [daily dose of at least 1000 mg is permitted if intolerant to 1500 mg dose]) for a period of at least 3 months prior to Screening"
+   },
+   {
+    "text": "Eligible for initiation of or already receiving insulin glargine"
+   },
+   {
+    "text": "Hemoglobin ≥ 10.0 g/Dl"
+   },
+   {
+    "text": "HbA1c of 7.5% to 10.0 %"
+   },
+   {
+    "text": "Body mass index of 18.5 to 35.0 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with T1DM"
+   },
+   {
+    "text": "Treatment with glucagon-like peptide 1 agonists within 12 weeks prior to Screening"
+   },
+   {
+    "text": "Ongoing treatment with OADs (eg, Thiazolidinediones) contraindicated or unapproved for combination treatment with insulin"
+   },
+   {
+    "text": "Presence of gastrointestinal (GI) disorders or conditions known to significantly alter the absorption of orally administered drugs or significantly alter upper GI or pancreatic function"
+   },
+   {
+    "text": "History of ≥2 episodes of severe hypoglycemia (as per ADA 2017) within the 6 months before Screening"
+   },
+   {
+    "text": "History of > 1 episode of hyperglycemic hyperosmolar coma or hospitalization for uncontrolled diabetes (eg, diabetic ketoacidosis); within the 6 months prior to Screening"
+   },
+   {
+    "text": "Clinically significant cardiovascular and/or cerebrovascular disease within 12 months before Screening including, but not limited to unstable angina, myocardial infarction, Class III or Class IV congestive heart failure according to the New York Heart Association criteria, valvular heart disease, cardiac arrhythmia requiring treatment, pulmonary hypertension, cardiac surgery, coronary angioplasty, stroke or transient ischemic attack."
+   },
+   {
+    "text": "Patients with the following secondary complications of diabetes:",
+    "sub_items": [
+     "Active proliferative retinopathy as confirmed by a dilated ophthalmoscopy (by the investigator, site ophthalmologist or an optometrist; as per standard site practice) within 6 months prior to Screening. ii. Renal dysfunction indicated by modification of diet in renal disease estimated glomerular filtration rate < 45 mL/min/1.73 m2 and/or diabetic nephropathy and/or clinical nephrotic syndrome at Screening. iii. History or presence of severe form of neuropathy or signs and symptoms of severe cardiac autonomic neuropathy. iv. Patients with non-traumatic amputation (at any time) or clinically significant"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

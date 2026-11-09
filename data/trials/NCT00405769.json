@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "PREVENTION",
   "masking": "TRIPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Chestnut Hill Health System",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Chestnut Hill Health System"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "red yeast rice",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "1",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: red yeast rice"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "This study will attempt to further validate a clinical treatment plan to lower LDL values using non-prescription supplements combined with a lifestyle change and education program which could represent an alternative approach to improve compliance in group of people who are unable to take traditional medication to lower cholesterol.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n1. Baseline cholesterol - LDL more than 160 with one risk factor or LDL more than 130 with 2 or more risk factors for developing coronary artery disease (Smoker, age \\>40, male, Family history, diabetes, obesity) utilizing ATP III guidelines\n2. Have had a statin prescribed by a doctor for high cholesterol, and have stopped medication because of side effects\n3. Ability to exercise without physical restrictions\n4. Ability to attend 12 week consecutive Change of Heart sessions\n5. Not taking any cholesterol lowering medication for at least 1 month prior to initiation of trial. Not taking red yeast rice for at least 1 month prior.\n\nExclusion Criteria:\n\n1. Any active cardiac problem including chest pain, angina, shortness of breath with minimal activity, or unstable angina/acute coronary syndrome within one year\n2. Known intolerance to one of the study drugs\n3. Physical limitation preventing aerobic exercise program, such as severe arthritis, peripheral vascular disease, congestive heart failure, or symptom limiting pulmonary disease\n4. Uncontrolled hypertension (defined as SBP\\>180 mmHg or DBP \\> 100mmHg.\n5. Heart attack, bypass surgery, or angioplasty/stent within 1 year of study\n6. Triglyceride level more than 400 mg/dl",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Chestnut Hill Hospital",
    "city": "Philadelphia",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "Chestnut Hill Hospital",
    "lat": 39.95238,
-   "lon": -75.16362
+   "lon": -75.16362,
+   "state": "Pennsylvania",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00405769",
@@ -114,6 +114,47 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Baseline cholesterol - LDL more than 160 with one risk factor or LDL more than 130 with 2 or more risk factors for developing coronary artery disease (Smoker, age >40, male, Family history, diabetes, obesity) utilizing ATP III guidelines"
+   },
+   {
+    "text": "Have had a statin prescribed by a doctor for high cholesterol, and have stopped medication because of side effects"
+   },
+   {
+    "text": "Ability to exercise without physical restrictions"
+   },
+   {
+    "text": "Ability to attend 12 week consecutive Change of Heart sessions"
+   },
+   {
+    "text": "Not taking any cholesterol lowering medication for at least 1 month prior to initiation of trial. Not taking red yeast rice for at least 1 month prior."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any active cardiac problem including chest pain, angina, shortness of breath with minimal activity, or unstable angina/acute coronary syndrome within one year"
+   },
+   {
+    "text": "Known intolerance to one of the study drugs"
+   },
+   {
+    "text": "Physical limitation preventing aerobic exercise program, such as severe arthritis, peripheral vascular disease, congestive heart failure, or symptom limiting pulmonary disease"
+   },
+   {
+    "text": "Uncontrolled hypertension (defined as SBP>180 mmHg or DBP > 100mmHg."
+   },
+   {
+    "text": "Heart attack, bypass surgery, or angioplasty/stent within 1 year of study"
+   },
+   {
+    "text": "Triglyceride level more than 400 mg/dl"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

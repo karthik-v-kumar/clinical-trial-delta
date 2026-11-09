@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AJU Pharm Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AJU Pharm Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -48,36 +48,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AJU-A51 Tab.",
    "other_names": [
     "Test drug"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "A51R1 Tab. and A51R2 Tab.",
    "other_names": [
     "Reference drug"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sequence A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AJU-A51 Tab.",
     "Drug: A51R1 Tab. and A51R2 Tab."
-   ]
+   ],
+   "label": "Sequence A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sequence B",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AJU-A51 Tab.",
     "Drug: A51R1 Tab. and A51R2 Tab."
-   ]
+   ],
+   "label": "Sequence B",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "To evaluate the safety and pharmacokinetic characteristics of AJU-A51 in healthy adults",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Healthy adults over the age of 19 years at the time of screening\n2. Individuals who had 18.5 kg/m2 ≤ Body Mass Index(BMI) \\< 29.9 kg/m2 and total body weight ≥ 50 kg\n\n   \\* BMI = Weight(kg)/ Height(m)2\n3. Individuals who were deemed to be appropriate as study subjects screening examination(laboratory tests and ECG etc.)\n4. Individuals who agreed proper contraception during the study\n5. Individuals who signed an informed consent form and decided to participate in the study after being fully informed of the study prior to participation\n\nExclusion Criteria:\n\n1. Individuals with a medical evidence or a history of clinically significant hepatobiliary, renal, neurologic, respiratory, digestive, endocrine, blood-oncology, urinary, cardiovascular, musculoskeletal or psychiatric\n2. Individuals with an active chronic or acute disease within 1 month.\n3. Individuals with a medical history of gastrointestinal disease (e.g., Crohn's disease and ulcer) or gastrectomy (excluding simple appendectomy or herniotomy) that may affect drug absorption\n4. Individuals with a severe allergies(except for allergic rhinitis or dermatitis)\n5. Individuals with the following medical histories at screening test:\n\n   * T1DM or diabetic ketoacidosis\n   * Galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption etc.\n   * Renal disorder or pancreatitis etc.\n6. A history of regular alcohol consumption exceeding 21 units/week within the 3 months(1 unit = 10 g = 12.5 ml) prior to screening or individuals who cannot quit drinking from 48hr prior to the first\n7. Individuals who cannot eat standard meal in institution\n8. Women who are pregnant or may be pregnant\n9. Individuals who were deemed to be inappropriate to participate in the study by the investigator",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Jang Hee Hong",
    "city": "Daejeon",
-   "state": "Korea",
    "country": "South Korea",
-   "status": null,
+   "facility": "Jang Hee Hong",
    "lat": 36.35022,
-   "lon": 127.3848
+   "lon": 127.3848,
+   "state": "Korea",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04972539",
@@ -122,6 +122,64 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy adults over the age of 19 years at the time of screening"
+   },
+   {
+    "text": "Individuals who had 18.5 kg/m2 ≤ Body Mass Index(BMI) < 29.9 kg/m2 and total body weight ≥ 50 kg",
+    "sub_items": [
+     "BMI = Weight(kg)/ Height(m)2"
+    ]
+   },
+   {
+    "text": "Individuals who were deemed to be appropriate as study subjects screening examination(laboratory tests and ECG etc.)"
+   },
+   {
+    "text": "Individuals who agreed proper contraception during the study"
+   },
+   {
+    "text": "Individuals who signed an informed consent form and decided to participate in the study after being fully informed of the study prior to participation"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Individuals with a medical evidence or a history of clinically significant hepatobiliary, renal, neurologic, respiratory, digestive, endocrine, blood-oncology, urinary, cardiovascular, musculoskeletal or psychiatric"
+   },
+   {
+    "text": "Individuals with an active chronic or acute disease within 1 month."
+   },
+   {
+    "text": "Individuals with a medical history of gastrointestinal disease (e.g., Crohn's disease and ulcer) or gastrectomy (excluding simple appendectomy or herniotomy) that may affect drug absorption"
+   },
+   {
+    "text": "Individuals with a severe allergies(except for allergic rhinitis or dermatitis)"
+   },
+   {
+    "text": "Individuals with the following medical histories at screening test:",
+    "sub_items": [
+     "T1DM or diabetic ketoacidosis",
+     "Galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption etc.",
+     "Renal disorder or pancreatitis etc."
+    ]
+   },
+   {
+    "text": "A history of regular alcohol consumption exceeding 21 units/week within the 3 months(1 unit = 10 g = 12.5 ml) prior to screening or individuals who cannot quit drinking from 48hr prior to the first"
+   },
+   {
+    "text": "Individuals who cannot eat standard meal in institution"
+   },
+   {
+    "text": "Women who are pregnant or may be pregnant"
+   },
+   {
+    "text": "Individuals who were deemed to be inappropriate to participate in the study by the investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

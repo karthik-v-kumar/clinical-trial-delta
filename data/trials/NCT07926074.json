@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "SINGLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Alexandria University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Alexandria University"
  },
  "collaborators": [],
  "conditions": [
@@ -50,23 +50,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "AI Chatbot-Integrated Mobile Application",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "AI Chatbot App Plus Usual Care",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: AI Chatbot-Integrated Mobile Application"
-   ]
+   ],
+   "label": "AI Chatbot App Plus Usual Care",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Usual Care With Educational Leaflet",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "Type 2 diabetes needs daily self-management, but most of it happens outside the clinic, where patients get little continuous support. Earlier studies of mobile applications and chatbots were mostly short, and few tested whether benefits last after use stops. This randomized controlled trial will test an Arabic-language mobile application with an artificial intelligence chatbot for adults with type 2 diabetes attending outpatient diabetes clinics in Egypt. The application offers diabetes education, reminders, glucose and activity logging, goal setting, prompts that adapt when use declines, a diabetes distress check, and nurse oversight. A total of 120 adults will be randomly assigned equally to usual care plus the application for 8 weeks, or to usual care with an educational leaflet. Outcome assessors will not know group assignment. The main outcome is self-efficacy. Other outcomes are self-care behaviors, medication adherence, disease knowledge, random blood glucose, diabetes distress, and application use, measured at the start, at 8 weeks, and 6 and 12 weeks after the intervention ends. About 20 intervention participants will then be interviewed about their experiences and what helps or hinders continued use, and these findings will be combined with the trial results.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults aged 18 years or older with a diagnosis of type 2 diabetes for at least 6 months\n* Using a smartphone (Android or iOS) with internet access, or willing to use a study-provided basic training to do so\n* Able to read and communicate in Arabic\n* On a stable antidiabetic regimen for at least 3 months\n* Willing to provide written informed consent\n\nExclusion Criteria:\n\n* Type 1 or gestational diabetes\n* Severe cognitive impairment, psychiatric illness, or visual/hearing impairment preventing app use\n* Acute diabetic complications or unstable medical conditions at enrollment\n* Participation in another diabetes self-management trial\n* Healthcare workers (to limit contamination)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "Faculty of Nursing, Alexandria University",
    "city": "Alexandria",
-   "state": "Alexandria Governorate",
    "country": "Egypt",
-   "status": null,
+   "facility": "Faculty of Nursing, Alexandria University",
    "lat": 31.20176,
-   "lon": 29.91582
+   "lon": 29.91582,
+   "state": "Alexandria Governorate",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07926074",
@@ -107,6 +107,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults aged 18 years or older with a diagnosis of type 2 diabetes for at least 6 months"
+   },
+   {
+    "text": "Using a smartphone (Android or iOS) with internet access, or willing to use a study-provided basic training to do so"
+   },
+   {
+    "text": "Able to read and communicate in Arabic"
+   },
+   {
+    "text": "On a stable antidiabetic regimen for at least 3 months"
+   },
+   {
+    "text": "Willing to provide written informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 or gestational diabetes"
+   },
+   {
+    "text": "Severe cognitive impairment, psychiatric illness, or visual/hearing impairment preventing app use"
+   },
+   {
+    "text": "Acute diabetic complications or unstable medical conditions at enrollment"
+   },
+   {
+    "text": "Participation in another diabetes self-management trial"
+   },
+   {
+    "text": "Healthcare workers (to limit contamination)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

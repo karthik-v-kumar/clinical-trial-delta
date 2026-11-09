@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2014-10-02",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Karolinska Institutet",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Karolinska Institutet"
  },
  "collaborators": [
   "Region Stockholm",
@@ -57,31 +57,31 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Omentectomy",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "PROCEDURE",
    "name": "Gastric bypass operation",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Control",
-   "type": "SHAM_COMPARATOR",
    "intervention_names": [
     "Procedure: Gastric bypass operation"
-   ]
+   ],
+   "label": "Control",
+   "type": "SHAM_COMPARATOR"
   },
   {
-   "label": "Omentectomy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Omentectomy",
     "Procedure: Gastric bypass operation"
-   ]
+   ],
+   "label": "Omentectomy",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Obese patients have an increased risk for developing severe metabolic disorders. This risk can only partly be reduced by weight reduction. The investigators have in a pilot study investigated if removal of abdominal fat (visceral) in addition to weight loss has additional beneficial effects on the metabolic profile and weight loss. This study aims to further investigate if removal of abdominal fat (major omentum) leads to beneficial metabolic effects.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nBody mass index over 40 kg/m2\n\nBody mass index over 35 kg/m2 with obesity associated co-morbidities such as type 2 diabetes and/or additional cardiovascular risk factors -\n\nExclusion Criteria:\n\n\\-",
-  "sex": "FEMALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,40 +104,40 @@
  },
  "sites": [
   {
+   "city": "Stockholm",
+   "country": "Sweden",
    "facility": "Danderyds Hospital",
-   "city": "Stockholm",
-   "state": "Stockholm County",
-   "country": "Sweden",
-   "status": null,
    "lat": 59.32938,
-   "lon": 18.06871
+   "lon": 18.06871,
+   "state": "Stockholm County",
+   "status": null
   },
   {
+   "city": "Stockholm",
+   "country": "Sweden",
    "facility": "Ersta Hospital",
-   "city": "Stockholm",
-   "state": "Stockholm County",
-   "country": "Sweden",
-   "status": null,
    "lat": 59.32938,
-   "lon": 18.06871
+   "lon": 18.06871,
+   "state": "Stockholm County",
+   "status": null
   },
   {
+   "city": "Stockholm",
+   "country": "Sweden",
    "facility": "Karolinska University Hospital Huddinge",
-   "city": "Stockholm",
-   "state": "Stockholm County",
-   "country": "Sweden",
-   "status": null,
    "lat": 59.32938,
-   "lon": 18.06871
+   "lon": 18.06871,
+   "state": "Stockholm County",
+   "status": null
   },
   {
-   "facility": "Södertälje Hospital",
    "city": "Södertälje",
-   "state": "Stockholm County",
    "country": "Sweden",
-   "status": null,
+   "facility": "Södertälje Hospital",
    "lat": 59.19554,
-   "lon": 17.62525
+   "lon": 17.62525,
+   "state": "Stockholm County",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01785134",
@@ -149,6 +149,23 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Body mass index over 40 kg/m2"
+   },
+   {
+    "text": "Body mass index over 35 kg/m2 with obesity associated co-morbidities such as type 2 diabetes and/or additional cardiovascular risk factors -"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "-"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

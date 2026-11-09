@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Daewon Pharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Daewon Pharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "DW1026C1",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DW1026C2",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DW1026S",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "DW1026C1 & DW1026C2 placebo & DW1026S placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: DW1026C1"
-   ]
+   ],
+   "label": "DW1026C1 & DW1026C2 placebo & DW1026S placebo",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DW1026C1 placebo & DW1026C2 & DW1026S placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: DW1026C2"
-   ]
+   ],
+   "label": "DW1026C1 placebo & DW1026C2 & DW1026S placebo",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DW1026C1 placebo & DW1026C2 placebo & DW1026S",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: DW1026S"
-   ]
+   ],
+   "label": "DW1026C1 placebo & DW1026C2 placebo & DW1026S",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "A Randomized, Double-blind, Multi-center, Placebo-controlled, Phase III Trial to Evaluate the Efficacy and Safety of DW1026C1 or DW1026C2 Add-on to Metformin in Patients With Type 2 Diabetes Inadequately Controlled With Metformin and Sitagliptin Combination Therapy",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who are diagnosed with Type2 Diabetes\n* 19 ≤ Age ≤ 85\n* 7.0% ≤ HbA1c ≤ 10.5%\n\nExclusion Criteria:\n\n* Patients with a history of acute pancreatitis\n* Patients with a history of pre-diabetic coma\n* Patients with a history of diagnosis of malignant tumors within 5 years prior to visit 1",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "85 Years",
   "healthy_volunteers": false,
+  "maximum_age": "85 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "Yeouido St. Mary's Hospital The Catholic University",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Yeouido St. Mary's Hospital The Catholic University",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07076056",
@@ -127,6 +127,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who are diagnosed with Type2 Diabetes"
+   },
+   {
+    "text": "19 ≤ Age ≤ 85"
+   },
+   {
+    "text": "7.0% ≤ HbA1c ≤ 10.5%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with a history of acute pancreatitis"
+   },
+   {
+    "text": "Patients with a history of pre-diabetic coma"
+   },
+   {
+    "text": "Patients with a history of diagnosis of malignant tumors within 5 years prior to visit 1"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

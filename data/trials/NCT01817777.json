@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2014-09-30",
  "has_results": true,
  "lead_sponsor": {
-  "name": "GlaxoSmithKline",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "GlaxoSmithKline"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin Small Pack",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin Large Pack",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin Small Pack Arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin Small Pack"
-   ]
+   ],
+   "label": "Metformin Small Pack Arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin Large Pack Arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin Large Pack"
-   ]
+   ],
+   "label": "Metformin Large Pack Arm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "MTF116086 is an open-label, randomised, parallel-design study in subjects with type II diabetes. The study is site-based, with local pharmacies serving as the sites and pharmacists as principal investigators for the sites. All subjects will enter an initial 8-week observational phase during which purchase behaviour and compliance with usual metformin use will be observed and recorded. At the end of the observational phase, subjects will be randomised to one of the two arms (metformin small pack vs. metformin large pack) for a 20-week interventional phase. The medication in the interventional phase is provided to the subjects free of charge. HbA1c will be collected for all subjects during Week 0, Week 8, and Week 28. Subjects will be asked questions about their tablet compliance, their satisfaction with the pack size they received and reasons for missing doses throughout the interventional phase by the pharmacist. The pharmacy visit on Week 28 will be end of the study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males and females of age \\>=18 years\n* Diagnosis of type II diabetes\n* HbA1c value no higher than 9.0%\n* Evidence of physician-supplied prescription for metformin use\n* Stable dose of metformin for 3 months prior to enrolment\n* Written informed consent from the subject\n\nExclusion Criteria:\n\n* Current use of any anti-diabetic medication other than metformin",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,67 +94,67 @@
  },
  "sites": [
   {
-   "facility": "GSK Investigational Site",
    "city": "Correintes",
-   "state": null,
    "country": "Argentina",
-   "status": null,
+   "facility": "GSK Investigational Site",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "GSK Investigational Site",
    "city": "Corrientes",
-   "state": null,
    "country": "Argentina",
-   "status": null,
+   "facility": "GSK Investigational Site",
    "lat": -27.46784,
-   "lon": -58.8344
-  },
-  {
-   "facility": "GSK Investigational Site",
-   "city": "Mendoza",
+   "lon": -58.8344,
    "state": null,
-   "country": "Argentina",
-   "status": null,
-   "lat": -32.88946,
-   "lon": -68.84582
+   "status": null
   },
   {
-   "facility": "GSK Investigational Site",
    "city": "Mendoza",
-   "state": null,
    "country": "Argentina",
-   "status": null,
+   "facility": "GSK Investigational Site",
    "lat": -32.88946,
-   "lon": -68.84582
+   "lon": -68.84582,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "GSK Investigational Site",
    "city": "Mendoza",
-   "state": null,
    "country": "Argentina",
-   "status": null,
+   "facility": "GSK Investigational Site",
    "lat": -32.88946,
-   "lon": -68.84582
+   "lon": -68.84582,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Mendoza",
+   "country": "Argentina",
    "facility": "GSK Investigational Site",
+   "lat": -32.88946,
+   "lon": -68.84582,
+   "state": null,
+   "status": null
+  },
+  {
    "city": "Provincia de Buenos Aires",
-   "state": null,
    "country": "Argentina",
-   "status": null,
+   "facility": "GSK Investigational Site",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "GSK Investigational Site",
    "city": "San Miguel de Tucumán",
-   "state": null,
    "country": "Argentina",
-   "status": null,
+   "facility": "GSK Investigational Site",
    "lat": -26.81601,
-   "lon": -65.21051
+   "lon": -65.21051,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01817777",
@@ -166,6 +166,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females of age >=18 years"
+   },
+   {
+    "text": "Diagnosis of type II diabetes"
+   },
+   {
+    "text": "HbA1c value no higher than 9.0%"
+   },
+   {
+    "text": "Evidence of physician-supplied prescription for metformin use"
+   },
+   {
+    "text": "Stable dose of metformin for 3 months prior to enrolment"
+   },
+   {
+    "text": "Written informed consent from the subject"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Current use of any anti-diabetic medication other than metformin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

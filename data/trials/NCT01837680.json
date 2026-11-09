@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-05-30",
  "has_results": true,
  "lead_sponsor": {
-  "name": "St. Luke's-Roosevelt Hospital Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "St. Luke's-Roosevelt Hospital Center"
  },
  "collaborators": [],
  "conditions": [
@@ -49,28 +49,28 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin",
    "other_names": [
     "Insulin NPH",
     "Insulin Levemir"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Levemir",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin"
-   ]
+   ],
+   "label": "Levemir",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "NPH",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin"
-   ]
+   ],
+   "label": "NPH",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "The aim of this study is to compare glycemic control in pregnant women treated with insulin Detemir and pregnant women treated with NPH insulin. These women are diagnosed with gestational diabetes (GDM) in the current pregnancy or have a preexisting diagnosis of type 2 diabetes (T2DM) at the onset of pregnancy. Our hypothesis is that there is no difference between these two treatment modalities in terms of glycemic control in diabetes.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* All pregnant women with a viable singleton or multiple gestation at ≤34 weeks with gestational diabetes diagnosed in their current pregnancy requiring medical therapy. \"Early diagnosis\" GDM patients will also be included; which is defined as a diagnosis made prior to 24 weeks.\n* Women with known preexisting type 2 diabetes that are in need of medical therapy.\n\nExclusion criteria:\n\n* Patients \\<18 years of age\n* a diagnosis of GDM outside of the gestational age stated above\n* known allergy/prior adverse reaction to insulin NPH or insulin detemir.\n* type 1 diabetes",
-  "sex": "FEMALE",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,13 +93,13 @@
  },
  "sites": [
   {
-   "facility": "St. Luke's-Roosevelt Hospital Center",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "St. Luke's-Roosevelt Hospital Center",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01837680",
@@ -111,6 +111,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "All pregnant women with a viable singleton or multiple gestation at ≤34 weeks with gestational diabetes diagnosed in their current pregnancy requiring medical therapy. \"Early diagnosis\" GDM patients will also be included; which is defined as a diagnosis made prior to 24 weeks."
+   },
+   {
+    "text": "Women with known preexisting type 2 diabetes that are in need of medical therapy."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients <18 years of age"
+   },
+   {
+    "text": "a diagnosis of GDM outside of the gestational age stated above"
+   },
+   {
+    "text": "known allergy/prior adverse reaction to insulin NPH or insulin detemir."
+   },
+   {
+    "text": "type 1 diabetes"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

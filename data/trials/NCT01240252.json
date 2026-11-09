@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mayo Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mayo Clinic"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Human insulin",
    "other_names": [
     "Humulin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Human insulin"
+   ],
    "label": "Type 2 Diabetes Mellitus Subjects",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Human insulin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Human insulin"
+   ],
    "label": "Overweight or Obese Subjects with Normal Glucose Tolerance",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Human insulin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Non-Obese Control Subjects",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Human insulin"
-   ]
+   ],
+   "label": "Non-Obese Control Subjects",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The study is being conducted to find out why too much fat in your blood stream may cause insulin resistance in your muscles. Insulin is the hormone, produced normally by your body, which causes your blood sugar to return to normal after you eat.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Age 30-65 y\n* Healthy lean, obese, or known type 2 diabetic\n* Body Mass Index (BMI) less than 36\n* All nondiabetic subjects must have normal oral glucose tolerance\n* Subjects must have the following laboratory values:\n\n  1. Hematocrit ≥ 35 vol%\n  2. Serum creatinine ≤ 1.6 mg/dl\n  3. Aspartate aminotransferase (AST) (SGOT)\\< 2 times upper limit of normal\n  4. Alanine aminotransferase (ALT) (SGPT)\\< 2 times upper limit of normal\n  5. Alkaline phosphatase \\< 2 times upper limit of normal\n  6. Triglycerides \\< 150 mg/dl\n  7. Prothrombin time (PT) 11.7 -14.3 seconds\n  8. Partial thromboplastin time 23.0-37.0 seconds\n\nExclusion criteria:\n\n* No diseases known to affect glucose metabolism other than healthy type 2 diabetes\n* Subjects must not be receiving any of the following medications: thiazide or furosemide diuretics, beta-blockers, or other chronic medications with known adverse effects on glucose tolerance levels unless the patient has been on stable dose of such agents for the past three months before entry into the study. Subjects may be taking a stable dose of estrogens or other hormonal replacement therapy, if the subject has been on these agents for the prior three months. Subjects taking systemic glucocorticoids are excluded.\n* Subjects with a history of clinically significant heart disease (New York Heart Classification greater than grade II; more than non-specific ST-T wave changes on the EKG), peripheral vascular disease (history of claudication), or pulmonary disease (dyspnea on exertion of one flight or less; abnormal breath sounds on auscultation) will not be studied.\n* Recent systemic or pulmonary embolus, untreated high-risk proliferative retinopathy, recent retinal hemorrhage, uncontrolled hypertension, systolic BP\\>180, diastolic BP\\>105, autonomic neuropathy, resting heart rate \\>100, electrolyte abnormalities.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Mayo Clinic in Arizona",
    "city": "Scottsdale",
-   "state": "Arizona",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic in Arizona",
    "lat": 33.50921,
-   "lon": -111.89903
+   "lon": -111.89903,
+   "state": "Arizona",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01240252",
@@ -118,6 +118,51 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 30-65 y"
+   },
+   {
+    "text": "Healthy lean, obese, or known type 2 diabetic"
+   },
+   {
+    "text": "Body Mass Index (BMI) less than 36"
+   },
+   {
+    "text": "All nondiabetic subjects must have normal oral glucose tolerance"
+   },
+   {
+    "text": "Subjects must have the following laboratory values:",
+    "sub_items": [
+     "Hematocrit ≥ 35 vol%",
+     "Serum creatinine ≤ 1.6 mg/dl",
+     "Aspartate aminotransferase (AST) (SGOT)< 2 times upper limit of normal",
+     "Alanine aminotransferase (ALT) (SGPT)< 2 times upper limit of normal",
+     "Alkaline phosphatase < 2 times upper limit of normal",
+     "Triglycerides < 150 mg/dl",
+     "Prothrombin time (PT) 11.7 -14.3 seconds",
+     "Partial thromboplastin time 23.0-37.0 seconds"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "No diseases known to affect glucose metabolism other than healthy type 2 diabetes"
+   },
+   {
+    "text": "Subjects must not be receiving any of the following medications: thiazide or furosemide diuretics, beta-blockers, or other chronic medications with known adverse effects on glucose tolerance levels unless the patient has been on stable dose of such agents for the past three months before entry into the study. Subjects may be taking a stable dose of estrogens or other hormonal replacement therapy, if the subject has been on these agents for the prior three months. Subjects taking systemic glucocorticoids are excluded."
+   },
+   {
+    "text": "Subjects with a history of clinically significant heart disease (New York Heart Classification greater than grade II; more than non-specific ST-T wave changes on the EKG), peripheral vascular disease (history of claudication), or pulmonary disease (dyspnea on exertion of one flight or less; abnormal breath sounds on auscultation) will not be studied."
+   },
+   {
+    "text": "Recent systemic or pulmonary embolus, untreated high-risk proliferative retinopathy, recent retinal hemorrhage, uncontrolled hypertension, systolic BP>180, diastolic BP>105, autonomic neuropathy, resting heart rate >100, electrolyte abnormalities."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

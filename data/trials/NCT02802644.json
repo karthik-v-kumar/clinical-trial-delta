@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Chung-Ang University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Chung-Ang University"
  },
  "collaborators": [],
  "conditions": [
@@ -46,32 +46,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Janiuvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Non DPP-4 Inhibitor",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "DPP-4 Inhibitor",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "DPP-4 Inhibitor",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Non DPP-4 Inhibitor",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Non DPP-4 Inhibitor"
-   ]
+   ],
+   "label": "Non DPP-4 Inhibitor",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "This study evaluate the effect of dipeptidyl-peptidase 4 inhibitor on vascular healing after biodegradable polymer based sirolimus eluting stent implantation in diabetic pateints.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Non-ST segement elevation acute coronary syndrome\n\nExclusion Criteria:\n\n* Left main disease\n* Known hypersensitivity or contraindication to any of the following medications: Heparin, aspirin, clopidogrel, sirolimus, siptagliptin and statin\n* Congestive heart failure (patients with LVEF \\<30% or cardiogenic shock)\n* Uncontrolled myocardial ischemia (repeated chest pain or dyspnea after revascularization)\n* Uncontrolled ventricular arrhythmia\n* History of malignancy with chemotherapy\n* Serious hematologic disease (e.g. CML, MDS)\n* Current infectious disease needs antibiotics therapy\n* Creatinine level \\>1.5 mg/dL or dependence on dialysis\n* Other severe concurrent illness (e.g. active infection, malignancy).\n* Life expectancy of less than one year\n* Pregnancy or women with potential childbearing\n* Type I DM\n* Treatment with insulin\n* History of pancreatitis\n* Who cannot read the informed consent form (e.g. illiteracy, foreigner)",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,58 +94,58 @@
  },
  "sites": [
   {
-   "facility": "Keimyung University Hospital",
    "city": "Daegu",
-   "state": null,
    "country": "South Korea",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Keimyung University Hospital",
    "lat": 35.87102,
-   "lon": 128.60121
+   "lon": 128.60121,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   },
   {
-   "facility": "Chonnam National University Hospital",
    "city": "Gwangju",
-   "state": null,
    "country": "South Korea",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Chonnam National University Hospital",
    "lat": 35.15472,
-   "lon": 126.91556
+   "lon": 126.91556,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   },
   {
-   "facility": "Jeju National University Hospital",
    "city": "Jeju City",
-   "state": null,
    "country": "South Korea",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Jeju National University Hospital",
    "lat": 33.50972,
-   "lon": 126.52194
+   "lon": 126.52194,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   },
   {
+   "city": "Seoul",
+   "country": "South Korea",
    "facility": "Chung-Ang University Hospital",
-   "city": "Seoul",
-   "state": null,
-   "country": "South Korea",
-   "status": "RECRUITING",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
+   "city": "Seoul",
+   "country": "South Korea",
    "facility": "Korea University Guro Hospital",
-   "city": "Seoul",
-   "state": null,
-   "country": "South Korea",
-   "status": "NOT_YET_RECRUITING",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   },
   {
-   "facility": "Ajou University Hospital",
    "city": "Suwon",
-   "state": null,
    "country": "South Korea",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Ajou University Hospital",
    "lat": 37.27818,
-   "lon": 127.03164
+   "lon": 127.03164,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02802644",
@@ -157,6 +157,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Non-ST segement elevation acute coronary syndrome"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Left main disease"
+   },
+   {
+    "text": "Known hypersensitivity or contraindication to any of the following medications: Heparin, aspirin, clopidogrel, sirolimus, siptagliptin and statin"
+   },
+   {
+    "text": "Congestive heart failure (patients with LVEF <30% or cardiogenic shock)"
+   },
+   {
+    "text": "Uncontrolled myocardial ischemia (repeated chest pain or dyspnea after revascularization)"
+   },
+   {
+    "text": "Uncontrolled ventricular arrhythmia"
+   },
+   {
+    "text": "History of malignancy with chemotherapy"
+   },
+   {
+    "text": "Serious hematologic disease (e.g. CML, MDS)"
+   },
+   {
+    "text": "Current infectious disease needs antibiotics therapy"
+   },
+   {
+    "text": "Creatinine level >1.5 mg/dL or dependence on dialysis"
+   },
+   {
+    "text": "Other severe concurrent illness (e.g. active infection, malignancy)."
+   },
+   {
+    "text": "Life expectancy of less than one year"
+   },
+   {
+    "text": "Pregnancy or women with potential childbearing"
+   },
+   {
+    "text": "Type I DM"
+   },
+   {
+    "text": "Treatment with insulin"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Who cannot read the informed consent form (e.g. illiteracy, foreigner)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

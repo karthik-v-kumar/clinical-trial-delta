@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Regeneron Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Regeneron Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -52,40 +52,40 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "REGN1500",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: REGN1500",
+    "Drug: placebo"
+   ],
    "label": "Group A: Cohorts 1 through 6",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: REGN1500",
     "Drug: placebo"
-   ]
-  },
-  {
+   ],
    "label": "Group B",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: REGN1500",
-    "Drug: placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group C: Cohorts 1 and 2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: REGN1500",
     "Drug: placebo"
-   ]
+   ],
+   "label": "Group C: Cohorts 1 and 2",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "Phase 1, first-in-human, randomized, ascending single-dose, placebo-controlled, double-blind study of the safety, tolerability, and bioeffect of REGN1500",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Body mass index 18.0 to 40.0 kg/m2, inclusive\n2. Normal standard 12-lead ECG\n3. Willing to refrain from the consumption of alcohol for 24 hours prior to each study visit\n4. Willing to consistently maintain his/her usual diet for the duration of the study\n5. Willing to refrain from strenuous exercise for the duration of the trial\n6. Willing and able to comply with clinic visits and study-related procedures\n7. Provide signed informed consent\n8. For sexually active men and women, willingness to utilize adequate contraception and not have their partner\\[s\\] become pregnant during the full duration of the study.\n\nExclusion Criteria:\n\n1. Any clinically significant abnormalities observed during the screening visit\n2. History of drug or alcohol abuse within 1 year of screening\n3. Receipt of another investigational drug or therapy within 30 days or at least 5 half-lives (whichever is longer), of the investigational drug prior to the screening visit.\n4. Significant concomitant illness or history of significant illness such as cardiac, renal, neurological, endocrinological, metabolic or lymphatic disease, or any other illness or condition that may adversely affect the subjects participation in this study\n5. Known history of human immunodeficiency virus (HIV) antibody; and/or positive hepatitis B surface antigen (HBsAg), and/or positive hepatitis C antibody (HCV) at the screening visit\n6. Hospitalization for any reason within 60 days of screening\n7. History or presence of malignancy within 5 years prior to the screening visit (other than successfully treated non-metastatic cutaneous squamous cell or basal cell carcinoma, and/or localized carcinoma in situ of the cervix\n8. Any medical or psychiatric condition which, in the opinion of the investigator, would place the subject at risk, interfere with participation in the study or interfere with the interpretation of the study results\n9. Any subject who is the investigator or any sub-investigator, research assistant, pharmacist, study coordinator, or other staff directly involved in the conduct of the protocol, or family member of staff involved in the conduct of the protocol\n10. Pregnant or breast-feeding women\n\n(The inclusion/ exclusion criteria provided above are not intended to contain all considerations relevant to a patient's potential participation in this clinical trial).",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,22 +108,22 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Philadelphia",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 39.95238,
-   "lon": -75.16362
+   "lon": -75.16362,
+   "state": "Pennsylvania",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Dallas",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 32.78306,
-   "lon": -96.80667
+   "lon": -96.80667,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01749878",
@@ -138,6 +138,71 @@
  "sponsors_of_note": [
   "Regeneron"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Body mass index 18.0 to 40.0 kg/m2, inclusive"
+   },
+   {
+    "text": "Normal standard 12-lead ECG"
+   },
+   {
+    "text": "Willing to refrain from the consumption of alcohol for 24 hours prior to each study visit"
+   },
+   {
+    "text": "Willing to consistently maintain his/her usual diet for the duration of the study"
+   },
+   {
+    "text": "Willing to refrain from strenuous exercise for the duration of the trial"
+   },
+   {
+    "text": "Willing and able to comply with clinic visits and study-related procedures"
+   },
+   {
+    "text": "Provide signed informed consent"
+   },
+   {
+    "text": "For sexually active men and women, willingness to utilize adequate contraception and not have their partner[s] become pregnant during the full duration of the study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any clinically significant abnormalities observed during the screening visit"
+   },
+   {
+    "text": "History of drug or alcohol abuse within 1 year of screening"
+   },
+   {
+    "text": "Receipt of another investigational drug or therapy within 30 days or at least 5 half-lives (whichever is longer), of the investigational drug prior to the screening visit."
+   },
+   {
+    "text": "Significant concomitant illness or history of significant illness such as cardiac, renal, neurological, endocrinological, metabolic or lymphatic disease, or any other illness or condition that may adversely affect the subjects participation in this study"
+   },
+   {
+    "text": "Known history of human immunodeficiency virus (HIV) antibody; and/or positive hepatitis B surface antigen (HBsAg), and/or positive hepatitis C antibody (HCV) at the screening visit"
+   },
+   {
+    "text": "Hospitalization for any reason within 60 days of screening"
+   },
+   {
+    "text": "History or presence of malignancy within 5 years prior to the screening visit (other than successfully treated non-metastatic cutaneous squamous cell or basal cell carcinoma, and/or localized carcinoma in situ of the cervix"
+   },
+   {
+    "text": "Any medical or psychiatric condition which, in the opinion of the investigator, would place the subject at risk, interfere with participation in the study or interfere with the interpretation of the study results"
+   },
+   {
+    "text": "Any subject who is the investigator or any sub-investigator, research assistant, pharmacist, study coordinator, or other staff directly involved in the conduct of the protocol, or family member of staff involved in the conduct of the protocol"
+   },
+   {
+    "text": "Pregnant or breast-feeding women"
+   },
+   {
+    "text": "(The inclusion/ exclusion criteria provided above are not intended to contain all considerations relevant to a patient's potential participation in this clinical trial)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

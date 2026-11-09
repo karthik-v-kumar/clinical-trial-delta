@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2014-09-08",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Emory University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Emory University"
  },
  "collaborators": [],
  "conditions": [
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pravastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Atorvastatin 10MG",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "Atorvastatin 10MG",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Pravastatin 80mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pravastatin"
-   ]
+   ],
+   "label": "Pravastatin 80mg",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Thirty-six subjects with hyperlipidemia and metabolic syndrome and/or diabetes were randomized in a double-blind manner to either pravastatin 80 mg or atorvastatin 10 mg daily. Oxidative stress (dROMs assay that measures lipid hydroperoxides, plasma thiobarbituric acid reactive substances \\[TBARS\\], and aminothiol levels) and brachial artery flow-mediated dilation (FMD) were measured at baseline and after 12 weeks of statin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males or females without child bearing potential aged 21-80 years\n* Fasting low-density lipoprotein (LDL) level \\> 120mg/dL.\n* Either known to be diabetic or have at least 3 components of metabolic syndrome that are defined below:\n\n  * Hypertension defined as blood pressure (BP) \\> 140 systolic or \\> 90 mmHg diastolic, or stable medical therapy for documented hypertension;\n  * Fasting glucose \\> 110 mg/dL;\n  * Waist \\> 40 inches in males, and \\> 35 inches in females;\n  * Triglycerides \\> 150mg/dL; or\n  * High-density lipoprotein (HDL) cholesterol \\< 40 mg/dL in males and \\< 50 mg/dL in females.\n* Able to provide written informed consent\n* Non-smoker\n\nExclusion Criteria:\n\n* On any oral antioxidants or lipid lowering medications in the previous 8 weeks\n* Age \\< 21 or \\> 80 years\n* Premenopausal females with potential for pregnancy\n* LDL cholesterol level \\< 120 mg/dl\n* Initiation or change in dose of any concomitant medical therapy within 2 months before the study\n* Uncontrolled hypertension with BP \\> 180 mmHg systolic and \\> 120 mmHg diastolic\n* Current smoker\n* Previous intolerance or allergy to statins\n* Acute infection in previous 4 weeks\n* History of substance abuse\n* Uninterpretable Brachial Artery Reactivity Study\n* Current neoplasm\n* Chronic renal failure (creatinine \\> 2.5 mg/dL) or liver failure (liver enzymes \\> 2X normal)\n* Acute coronary syndrome, heart failure, cerebrovascular accident (CVA), or coronary intervention within 3 months\n* Known aortic stenosis, hypertrophic cardiomyopathy, or symptomatic heart failure.\n* Inability to give informed consent\n* Inability to return to Emory for follow-up",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Emory University Hospital",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Emory University Hospital",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00166036",
@@ -119,6 +119,87 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males or females without child bearing potential aged 21-80 years"
+   },
+   {
+    "text": "Fasting low-density lipoprotein (LDL) level > 120mg/dL."
+   },
+   {
+    "text": "Either known to be diabetic or have at least 3 components of metabolic syndrome that are defined below:",
+    "sub_items": [
+     "Hypertension defined as blood pressure (BP) > 140 systolic or > 90 mmHg diastolic, or stable medical therapy for documented hypertension;",
+     "Fasting glucose > 110 mg/dL;",
+     "Waist > 40 inches in males, and > 35 inches in females;",
+     "Triglycerides > 150mg/dL; or",
+     "High-density lipoprotein (HDL) cholesterol < 40 mg/dL in males and < 50 mg/dL in females."
+    ]
+   },
+   {
+    "text": "Able to provide written informed consent"
+   },
+   {
+    "text": "Non-smoker"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "On any oral antioxidants or lipid lowering medications in the previous 8 weeks"
+   },
+   {
+    "text": "Age < 21 or > 80 years"
+   },
+   {
+    "text": "Premenopausal females with potential for pregnancy"
+   },
+   {
+    "text": "LDL cholesterol level < 120 mg/dl"
+   },
+   {
+    "text": "Initiation or change in dose of any concomitant medical therapy within 2 months before the study"
+   },
+   {
+    "text": "Uncontrolled hypertension with BP > 180 mmHg systolic and > 120 mmHg diastolic"
+   },
+   {
+    "text": "Current smoker"
+   },
+   {
+    "text": "Previous intolerance or allergy to statins"
+   },
+   {
+    "text": "Acute infection in previous 4 weeks"
+   },
+   {
+    "text": "History of substance abuse"
+   },
+   {
+    "text": "Uninterpretable Brachial Artery Reactivity Study"
+   },
+   {
+    "text": "Current neoplasm"
+   },
+   {
+    "text": "Chronic renal failure (creatinine > 2.5 mg/dL) or liver failure (liver enzymes > 2X normal)"
+   },
+   {
+    "text": "Acute coronary syndrome, heart failure, cerebrovascular accident (CVA), or coronary intervention within 3 months"
+   },
+   {
+    "text": "Known aortic stenosis, hypertrophic cardiomyopathy, or symptomatic heart failure."
+   },
+   {
+    "text": "Inability to give informed consent"
+   },
+   {
+    "text": "Inability to return to Emory for follow-up"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

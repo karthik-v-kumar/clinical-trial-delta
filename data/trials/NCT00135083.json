@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sanofi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sanofi"
  },
  "collaborators": [],
  "conditions": [
@@ -45,32 +45,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "insulin glulisine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: insulin glulisine"
+   ],
    "label": "1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: insulin glulisine"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: insulin glulisine"
+   ],
    "label": "2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: insulin glulisine"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "3",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: insulin glulisine"
-   ]
+   ],
+   "label": "3",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "The purpose of this study is to show the non-inferiority of insulin glulisine administered with 1 meal versus 2 meals versus 3 daily meals, as measured by the change in hemoglobin A1c (HbA1c), from baseline to study week 24.",
  "eligibility": {
   "criteria": "Subjects with type 2 diabetes mellitus who have been using a stable combination oral antidiabetic therapy of 2 or 3 agents in different therapeutic classes for on at least 3 months will be enrolled in this study.\n\nInclusion Criteria:\n\n* Male and female subjects 18 to 79 years of age with a diagnosis of type 2 diabetes mellitus for at least 6 months\n* Current treatment with a stable dose of 2 oral antidiabetic agents. The oral agents must be in 2 or 3 of the following 3 different classes:\n\n  * Sulfonylurea: dosage greater than or equal to, one-half the maximum recommended dosage (eg, glimepiride \\>/= 4 mg; glipizide, including gastrointestinal therapeutic system \\[GITS\\], \\>/= 10 mg; glyburide \\>/= 10 mg; Glynase® \\>/=3 mg). The dosage must have been stable for at least 3 months prior to screening.\n  * Biguanide: metformin dosage ≥ 1000 mg daily, including Glucophage XR®. The dosage must have been stable for at least 3 months prior to screening.\n  * Thiazolidinedione (TZD): pioglitazone \\>/= 15 mg or rosiglitazone \\>/= 24 mg. The subject must have been using the same thiazolidinedione for at least 6 months,and the dosage must have been stable for at least 3 months prior to screening.\n* HbA1c \\>/= 8.0%\n* Fasting C-peptide concentration \\> 0.27 nmol/L\n* Able and willing to perform self-monitoring of blood glucose (SMBG) up to 4 times a day\n* Able and willing to adhere to, and be compliant with, the study protocol\n* Able to read English or Spanish at the sixth-grade level in order to complete the subject reported outcomes component of the study\n* Signed informed consent and Health Insurance Portability and Accountability Act (HIPAA) authorization\n\nExclusion Criteria:\n\n* Insulin use within the previous year\n* History of hypoglycemia unawareness\n* Acute or chronic, or history of, metabolic acidosis, including diabetic ketoacidosis\n* Impaired renal function as shown by, but not limited to, serum creatinine ≥ 3mg/dL. For subjects taking metformin, serum creatinine \\>/= 1.5 mg/dL for males, or \\>/= 1.4 mg/dL for females.\n* Serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) levels greater than 2.5 times the upper limit of normal (ULN)\n* Clinically significant peripheral edema if subject is using a TZD\n* History of stroke, myocardial infarction, coronary artery bypass graft, percutaneous transluminal coronary angioplasty, or angina pectoris, within the past 12 months\n* History of, or current, congestive heart failure (New York Heart Association \\[NYHA\\] III-IV) requiring pharmacologic treatment\n* Acute infection\n* Any malignancy within the past 5 years, with the exception of adequately treated basal or squamous cell carcinoma or adequately treated cervical carcinoma in situ\n* Current substance addiction or alcohol abuse or history of substance or alcohol abuse, within the past 2 years\n* Any clinically significant renal disease (other than proteinuria) or hepatic disease\n* Pregnant or lactating females\n* Dementia or mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study\n* Impaired dexterity or vision rendering the subject unable to administer injections\n* Known hypersensitivity to insulin glargine or insulin glulisine or any of the components of Lantus or Apidra\n* Any disease or condition (including abuse of illicit drugs, prescription medications, or alcohol) that, in the opinion of the investigator or sponsor, may interfere with the completion of the study\n* Unlikely to comply with the protocol, eg, uncooperative attitude, inability to return for follow-up visits, or unlikely to complete the study\n* Subject is the investigator or any sub-investigator, research assistant, pharmacist, study coordinator, other staff, or relative thereof, directly involved in the conduct of the protocol\n* No subject will be allowed to enroll in this study more than once.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "79 Years",
   "healthy_volunteers": false,
+  "maximum_age": "79 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,6 +101,105 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male and female subjects 18 to 79 years of age with a diagnosis of type 2 diabetes mellitus for at least 6 months"
+   },
+   {
+    "text": "Current treatment with a stable dose of 2 oral antidiabetic agents. The oral agents must be in 2 or 3 of the following 3 different classes:",
+    "sub_items": [
+     "Sulfonylurea: dosage greater than or equal to, one-half the maximum recommended dosage (eg, glimepiride >/= 4 mg; glipizide, including gastrointestinal therapeutic system [GITS], >/= 10 mg; glyburide >/= 10 mg; Glynase® >/=3 mg). The dosage must have been stable for at least 3 months prior to screening.",
+     "Biguanide: metformin dosage ≥ 1000 mg daily, including Glucophage XR®. The dosage must have been stable for at least 3 months prior to screening.",
+     "Thiazolidinedione (TZD): pioglitazone >/= 15 mg or rosiglitazone >/= 24 mg. The subject must have been using the same thiazolidinedione for at least 6 months,and the dosage must have been stable for at least 3 months prior to screening."
+    ]
+   },
+   {
+    "text": "HbA1c >/= 8.0%"
+   },
+   {
+    "text": "Fasting C-peptide concentration > 0.27 nmol/L"
+   },
+   {
+    "text": "Able and willing to perform self-monitoring of blood glucose (SMBG) up to 4 times a day"
+   },
+   {
+    "text": "Able and willing to adhere to, and be compliant with, the study protocol"
+   },
+   {
+    "text": "Able to read English or Spanish at the sixth-grade level in order to complete the subject reported outcomes component of the study"
+   },
+   {
+    "text": "Signed informed consent and Health Insurance Portability and Accountability Act (HIPAA) authorization"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Insulin use within the previous year"
+   },
+   {
+    "text": "History of hypoglycemia unawareness"
+   },
+   {
+    "text": "Acute or chronic, or history of, metabolic acidosis, including diabetic ketoacidosis"
+   },
+   {
+    "text": "Impaired renal function as shown by, but not limited to, serum creatinine ≥ 3mg/dL. For subjects taking metformin, serum creatinine >/= 1.5 mg/dL for males, or >/= 1.4 mg/dL for females."
+   },
+   {
+    "text": "Serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) levels greater than 2.5 times the upper limit of normal (ULN)"
+   },
+   {
+    "text": "Clinically significant peripheral edema if subject is using a TZD"
+   },
+   {
+    "text": "History of stroke, myocardial infarction, coronary artery bypass graft, percutaneous transluminal coronary angioplasty, or angina pectoris, within the past 12 months"
+   },
+   {
+    "text": "History of, or current, congestive heart failure (New York Heart Association [NYHA] III-IV) requiring pharmacologic treatment"
+   },
+   {
+    "text": "Acute infection"
+   },
+   {
+    "text": "Any malignancy within the past 5 years, with the exception of adequately treated basal or squamous cell carcinoma or adequately treated cervical carcinoma in situ"
+   },
+   {
+    "text": "Current substance addiction or alcohol abuse or history of substance or alcohol abuse, within the past 2 years"
+   },
+   {
+    "text": "Any clinically significant renal disease (other than proteinuria) or hepatic disease"
+   },
+   {
+    "text": "Pregnant or lactating females"
+   },
+   {
+    "text": "Dementia or mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study"
+   },
+   {
+    "text": "Impaired dexterity or vision rendering the subject unable to administer injections"
+   },
+   {
+    "text": "Known hypersensitivity to insulin glargine or insulin glulisine or any of the components of Lantus or Apidra"
+   },
+   {
+    "text": "Any disease or condition (including abuse of illicit drugs, prescription medications, or alcohol) that, in the opinion of the investigator or sponsor, may interfere with the completion of the study"
+   },
+   {
+    "text": "Unlikely to comply with the protocol, eg, uncooperative attitude, inability to return for follow-up visits, or unlikely to complete the study"
+   },
+   {
+    "text": "Subject is the investigator or any sub-investigator, research assistant, pharmacist, study coordinator, other staff, or relative thereof, directly involved in the conduct of the protocol"
+   },
+   {
+    "text": "No subject will be allowed to enroll in this study more than once."
+   }
+  ],
+  "notes": [
+   "Subjects with type 2 diabetes mellitus who have been using a stable combination oral antidiabetic therapy of 2 or 3 agents in different therapeutic classes for on at least 3 months will be enrolled in this study."
+  ]
+ },
  "in_watchlist": true,
  "history": []
 }

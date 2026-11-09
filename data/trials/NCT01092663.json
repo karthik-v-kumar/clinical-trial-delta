@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2013-01-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "KineMed",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "KineMed"
  },
  "collaborators": [],
  "conditions": [
@@ -48,35 +48,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Colesevelam HCl",
    "other_names": [
     "Welchol"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Colesevelam HCl: 3 tablets, 2x/day",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Colesevelam HCl"
-   ]
+   ],
+   "label": "Colesevelam HCl: 3 tablets, 2x/day",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Colesevelam plus Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Colesevelam HCl",
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Colesevelam plus Sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -128,10 +128,10 @@
  "brief_summary": "This study will assess the effects of colesevelam, alone or in combination with sitagliptin, on glucose metabolism in subjects with T2DM inadequately controlled by diet and exercise",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or Female\n* Females of childbearing potential are on approved birth control method\n* Negative pregnancy testing for females of childbearing potential\n* Previously diagnosed or newly diagnosed with T2DM drug naïve subjects\n* HbA1c: 6.7-10%\n* Age 18 - 80 years\n* BMI ≥ 18.5 kg/m2 and ≤ 40 kg/m2\n* Fasting serum glucose \\< 300 mg/dL\n* Normal liver function, normal thyroid function, no history of liver, biliary or intestinal disease\n* Normal TSH\n* On stable diet and exercise routine for at least 4 weeks prior to screening\n* Has had a stable weight (+/-5%) for ≥3 months before screening\n\nExclusion Criteria:\n\n* A history of type 1 diabetes mellitus or history of diabetic ketoacidosis\n* History of chronic (required daily for \\> 2 months) use of insulin therapy\n* Treatment with blood pressure lowering therapy that has not been stable for three months before screening\n* Treatment with lipid lowering medication other than statins\n* Treatment with statins that has not been stable for three months before screening\n* Treatment with a DPP-4 inhibitor or and GLP1 agonists at any time\n* Treatment with a thiazolidinedione (TZD) within the last 6 months of screening\n* History of an allergic or toxic reaction to sitagliptin or colesevelam\n* History of dysphagia, swallowing disorders, bowel obstruction, intestinal motility disorder, and gastrointestinal disorders\n* History of major gastrointestinal surgery\n* History of kidney problems\n* Fasting plasma triglycerides \\> 300 mg/dL\n* Serum LDL-C \\<60 mg/dL\n* Positive toxicology test\n* Known hypersensitivity to colesevelam HCl or sitagliptin.\n* Any contraindications to a study medication (colesevelam HCl or sitagliptin).",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -139,31 +139,31 @@
  },
  "sites": [
   {
-   "facility": "University of California, San Francisco",
    "city": "San Francisco",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "University of California, San Francisco",
    "lat": 37.77493,
-   "lon": -122.41942
+   "lon": -122.41942,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Clinical Pharmacology of Miami",
    "city": "Miami",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Clinical Pharmacology of Miami",
    "lat": 25.77427,
-   "lon": -80.19366
+   "lon": -80.19366,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Healthcare Discoveries, LLC d/b/a ICON Development Solutions",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Healthcare Discoveries, LLC d/b/a ICON Development Solutions",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01092663",
@@ -175,6 +175,98 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or Female"
+   },
+   {
+    "text": "Females of childbearing potential are on approved birth control method"
+   },
+   {
+    "text": "Negative pregnancy testing for females of childbearing potential"
+   },
+   {
+    "text": "Previously diagnosed or newly diagnosed with T2DM drug naïve subjects"
+   },
+   {
+    "text": "HbA1c: 6.7-10%"
+   },
+   {
+    "text": "Age 18 - 80 years"
+   },
+   {
+    "text": "BMI ≥ 18.5 kg/m2 and ≤ 40 kg/m2"
+   },
+   {
+    "text": "Fasting serum glucose < 300 mg/dL"
+   },
+   {
+    "text": "Normal liver function, normal thyroid function, no history of liver, biliary or intestinal disease"
+   },
+   {
+    "text": "Normal TSH"
+   },
+   {
+    "text": "On stable diet and exercise routine for at least 4 weeks prior to screening"
+   },
+   {
+    "text": "Has had a stable weight (+/-5%) for ≥3 months before screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A history of type 1 diabetes mellitus or history of diabetic ketoacidosis"
+   },
+   {
+    "text": "History of chronic (required daily for > 2 months) use of insulin therapy"
+   },
+   {
+    "text": "Treatment with blood pressure lowering therapy that has not been stable for three months before screening"
+   },
+   {
+    "text": "Treatment with lipid lowering medication other than statins"
+   },
+   {
+    "text": "Treatment with statins that has not been stable for three months before screening"
+   },
+   {
+    "text": "Treatment with a DPP-4 inhibitor or and GLP1 agonists at any time"
+   },
+   {
+    "text": "Treatment with a thiazolidinedione (TZD) within the last 6 months of screening"
+   },
+   {
+    "text": "History of an allergic or toxic reaction to sitagliptin or colesevelam"
+   },
+   {
+    "text": "History of dysphagia, swallowing disorders, bowel obstruction, intestinal motility disorder, and gastrointestinal disorders"
+   },
+   {
+    "text": "History of major gastrointestinal surgery"
+   },
+   {
+    "text": "History of kidney problems"
+   },
+   {
+    "text": "Fasting plasma triglycerides > 300 mg/dL"
+   },
+   {
+    "text": "Serum LDL-C <60 mg/dL"
+   },
+   {
+    "text": "Positive toxicology test"
+   },
+   {
+    "text": "Known hypersensitivity to colesevelam HCl or sitagliptin."
+   },
+   {
+    "text": "Any contraindications to a study medication (colesevelam HCl or sitagliptin)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-10-20",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Texas Diabetes & Endocrinology, P.A.",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Texas Diabetes & Endocrinology, P.A."
  },
  "collaborators": [
   "Amylin Pharmaceuticals, LLC."
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "I-PORT",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "OTHER",
    "name": "standard injections",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "I-PORT",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: I-PORT"
-   ]
+   ],
+   "label": "I-PORT",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "standard injections",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: standard injections"
-   ]
+   ],
+   "label": "standard injections",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The purpose of this study is to determine whether injecting Symlin and insulin through a multiple injection port is safe and effective. This will be measured by HbA1c values taken at the beginning of the study and at the final visit.\n\nThe secondary objective of the study is to measure patient satisfaction toward using the multiple injection port.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* male or female ages 18 and up\n* utilizing a regimen of at least two injections daily of insulin and at least two injections daily of Symlin\n* able to understand and sign an informed consent form and HIPPA form\n* agrees to all study visits and procedures\n* HbA1c between \\>6.5 and \\<9.0 (inclusive)\n\nExclusion Criteria:\n\n* history or current diagnosis of chronic disease which in the view of the PI would interfere with adequate involvement in and completion of the requirements of the study\n* history of malignancy with in the last five years of study entry (other than basal cell carcinoma)\n* current use of any drugs that alter gastrointestinal motility (e.g., anticholinergic agents such as atropine), agents that slow intestinal absorption of nutrients (e.g. a-glucosidase inhibitors) or promotility agents (e.g. metaclopromide)\n* any contraindication of Symlin or I-PORT according to the package labeling\n* are female and pregnant, lactating or planning to become pregnant during the duration of the trial\n* are poorly compliant with their current insulin and/or Symlin regimen, as defined by their HCP\n* has history of known hypersensitivity to plastics or polymers\n* treatment with any investigational drug within one month prior to enrollment\n* myocardial infarction or stroke within six months prior to screening\n* initiated use of Symlin pen or any Insulin pen in lieu of a vial in last 4 weeks (pen use is okay as long as they have been using it for at least 4 weeks prior to screening visit)\n* female subjects of childbearing potential practicing inadequate birth control (adequate birth control is defined as using oral contraceptives, double barrier methods, Intrauterine devices, surgical sterilization or vasectomized partner)\n* have confirmed diagnosis of gastroparesis\n* have hypoglycemia unawareness",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Texas Diabetes & Endocrinology, PA",
    "city": "Austin",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Texas Diabetes & Endocrinology, PA",
    "lat": 30.26715,
-   "lon": -97.74306
+   "lon": -97.74306,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00790699",
@@ -115,6 +115,68 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "male or female ages 18 and up"
+   },
+   {
+    "text": "utilizing a regimen of at least two injections daily of insulin and at least two injections daily of Symlin"
+   },
+   {
+    "text": "able to understand and sign an informed consent form and HIPPA form"
+   },
+   {
+    "text": "agrees to all study visits and procedures"
+   },
+   {
+    "text": "HbA1c between >6.5 and <9.0 (inclusive)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "history or current diagnosis of chronic disease which in the view of the PI would interfere with adequate involvement in and completion of the requirements of the study"
+   },
+   {
+    "text": "history of malignancy with in the last five years of study entry (other than basal cell carcinoma)"
+   },
+   {
+    "text": "current use of any drugs that alter gastrointestinal motility (e.g., anticholinergic agents such as atropine), agents that slow intestinal absorption of nutrients (e.g. a-glucosidase inhibitors) or promotility agents (e.g. metaclopromide)"
+   },
+   {
+    "text": "any contraindication of Symlin or I-PORT according to the package labeling"
+   },
+   {
+    "text": "are female and pregnant, lactating or planning to become pregnant during the duration of the trial"
+   },
+   {
+    "text": "are poorly compliant with their current insulin and/or Symlin regimen, as defined by their HCP"
+   },
+   {
+    "text": "has history of known hypersensitivity to plastics or polymers"
+   },
+   {
+    "text": "treatment with any investigational drug within one month prior to enrollment"
+   },
+   {
+    "text": "myocardial infarction or stroke within six months prior to screening"
+   },
+   {
+    "text": "initiated use of Symlin pen or any Insulin pen in lieu of a vial in last 4 weeks (pen use is okay as long as they have been using it for at least 4 weeks prior to screening visit)"
+   },
+   {
+    "text": "female subjects of childbearing potential practicing inadequate birth control (adequate birth control is defined as using oral contraceptives, double barrier methods, Intrauterine devices, surgical sterilization or vasectomized partner)"
+   },
+   {
+    "text": "have confirmed diagnosis of gastroparesis"
+   },
+   {
+    "text": "have hypoglycemia unawareness"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

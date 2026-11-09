@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merete Bechmann Christensen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Merete Bechmann Christensen"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -50,23 +50,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin Degludec 100 UNT/ML [Tresiba]",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Degludec 100 UNT/ML [Tresiba]"
-   ]
+   ],
+   "label": "Intervention",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "Standard",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "Hyperglycemia during admission is associated with increased rate of complications and longer hospital stays, thus insulin treatment is recommended for all diabetes patients with hyperglycemia. Inpatient studies of non-critically ill patients show better glycemic control with the use of basal-bolus insulin therapy compared to sliding scale insulin therapy, but increased rates of hypoglycemia. The investigators hypothesize that basal-bolus insulin therapy with a new ultra-long-action basal insulin can treat hyperglycemia more efficiently than sliding scale insulin, with few episodes of hypoglycemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* History of type 2 diabetes for at least 6 months\n* Age 18 - 90 years\n* Pre-meal plasma glucose in the range 10 - 22,2 mmol/L prior to inclusion\n* Expected hospital stay longer than 4 days\n\nExclusion Criteria:\n\n* Hyperglycemia without known history of type 2 diabetes\n* Type 1 diabetes mellitus\n* Severely impaired renal function (eGFR ≤ 30 mL/min/1,73 m2)\n* Severe hepatic disease\n* Cardiac disease defined as: Decompensated heart failure (NYHA class III-IV) and/or diagnosis of unstable angina pectoris and/or myocardial infarction within the last 6 months\n* Pregnant or lactating women or fertile female patients not using chemical, hormonal or mechanical contraceptives or not in menopause (i.e. must not have had regular menstrual bleeding for at least one year)\n* Planned treatment during hospital stay with intravenous glucose/ insulin for ≥ 12 hours\n* Treatment at admission or planned treatment during hospital stay with parenteral nutrition or enteral nutrition (i.e. gastroenteric tube feeding)\n* Treatment at admission or planned treatment during hospital stay with high dose glucocorticoids (\\>40 mg)\n* History or presence of malignancy (except basal skin cancer) unless a disease-free period exceeding five years\n* Presence of alcohol or drug abuse\n* Inability to understand the written information or incapability to provide informed consent",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "90 Years",
   "healthy_volunteers": false,
+  "maximum_age": "90 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "Hvidovre University Hospital",
    "city": "Hvidovre",
-   "state": null,
    "country": "Denmark",
-   "status": "RECRUITING",
+   "facility": "Hvidovre University Hospital",
    "lat": 55.64297,
-   "lon": 12.47708
+   "lon": 12.47708,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03244241",
@@ -110,6 +110,62 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "History of type 2 diabetes for at least 6 months"
+   },
+   {
+    "text": "Age 18 - 90 years"
+   },
+   {
+    "text": "Pre-meal plasma glucose in the range 10 - 22,2 mmol/L prior to inclusion"
+   },
+   {
+    "text": "Expected hospital stay longer than 4 days"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Hyperglycemia without known history of type 2 diabetes"
+   },
+   {
+    "text": "Type 1 diabetes mellitus"
+   },
+   {
+    "text": "Severely impaired renal function (eGFR ≤ 30 mL/min/1,73 m2)"
+   },
+   {
+    "text": "Severe hepatic disease"
+   },
+   {
+    "text": "Cardiac disease defined as: Decompensated heart failure (NYHA class III-IV) and/or diagnosis of unstable angina pectoris and/or myocardial infarction within the last 6 months"
+   },
+   {
+    "text": "Pregnant or lactating women or fertile female patients not using chemical, hormonal or mechanical contraceptives or not in menopause (i.e. must not have had regular menstrual bleeding for at least one year)"
+   },
+   {
+    "text": "Planned treatment during hospital stay with intravenous glucose/ insulin for ≥ 12 hours"
+   },
+   {
+    "text": "Treatment at admission or planned treatment during hospital stay with parenteral nutrition or enteral nutrition (i.e. gastroenteric tube feeding)"
+   },
+   {
+    "text": "Treatment at admission or planned treatment during hospital stay with high dose glucocorticoids (>40 mg)"
+   },
+   {
+    "text": "History or presence of malignancy (except basal skin cancer) unless a disease-free period exceeding five years"
+   },
+   {
+    "text": "Presence of alcohol or drug abuse"
+   },
+   {
+    "text": "Inability to understand the written information or incapability to provide informed consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

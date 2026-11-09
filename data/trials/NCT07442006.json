@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "JW Pharmaceutical",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "JW Pharmaceutical"
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin/Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Anagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Empagliflozin/Linagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin/Metformin",
     "Drug: Anagliptin"
-   ]
+   ],
+   "label": "Experimental",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Active Comparator",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Empagliflozin/Linagliptin"
-   ]
+   ],
+   "label": "Active Comparator",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Glycemic Variability of Combination Therapies in T2DM",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Inadequate glycemic control despite treatment with Metformin (≥ 1,000mg/day) and SGLT-2 inhibitor.\n\nExclusion Criteria:\n\n* History of acute or chronic metabolic acidosis\n* Moderate to severe renal impairment (eGFR \\< 45 mL/min/1.73m²)\n* Severe hepatic impairment\n* History of heart failure (NYHA Class III/IV)",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "The Catholic University of Korea, Bucheon St. Mary's Hospital, Principal Investigator",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "The Catholic University of Korea, Bucheon St. Mary's Hospital, Principal Investigator",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07442006",
@@ -124,6 +124,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Inadequate glycemic control despite treatment with Metformin (≥ 1,000mg/day) and SGLT-2 inhibitor."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of acute or chronic metabolic acidosis"
+   },
+   {
+    "text": "Moderate to severe renal impairment (eGFR < 45 mL/min/1.73m²)"
+   },
+   {
+    "text": "Severe hepatic impairment"
+   },
+   {
+    "text": "History of heart failure (NYHA Class III/IV)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

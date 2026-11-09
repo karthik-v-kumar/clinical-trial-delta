@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Yaounde 1",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Yaounde 1"
  },
  "collaborators": [],
  "conditions": [
@@ -53,64 +53,64 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dichrostachys glomerata",
    "other_names": [
     "Dyglomera®",
     "DGE"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Cissus quadrangularia",
    "other_names": [
     "CQR-300®",
     "CQE"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dextrin",
    "other_names": [
     "Placebo group"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide (Rybelsus®)",
    "other_names": [
     "semaglutide"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo Group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Dextrin"
-   ]
+   ],
+   "label": "Placebo Group",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Dichrostachys glomerata Extract (DGE) Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dichrostachys glomerata"
-   ]
+   ],
+   "label": "Dichrostachys glomerata Extract (DGE) Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Cissus quadrangularia Extract (CQE) Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Cissus quadrangularia"
-   ]
+   ],
+   "label": "Cissus quadrangularia Extract (CQE) Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Semaglutide Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide (Rybelsus®)"
-   ]
+   ],
+   "label": "Semaglutide Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -126,10 +126,10 @@
  "brief_summary": "Obesity is a global health crisis affecting over 2.3 billion individuals worldwide. This prospective study aims to evaluate the comparative effects of standardised Cissus quadrangularis extract (CQE) and Dichrostachys glomerata extract (DGE) on obesity-related parameters, focusing on their impact on glucagon-like peptide-1 (GLP-1) levels and dipeptidyl peptidase-4 (DPP-4) enzyme activity in obese subjects. Parameters such as GLP-1 levels, DPP-4 activity, food intake, satiety, body weight, blood lipids, fasting blood glucose, and visceral fat mass will be measured at baseline and various intervals.\n\nIn our previous pre-clinical trial involving 18 adult male Wistar rats (150-200 g), randomly divided into three groups: a control group fed a normal diet, and two treatment groups receiving DGE (400 mg/kg) or CQE (300 mg/kg) alongside a normal diet, the results demonstrated that both DGE and CQE significantly increased GLP-1 levels and inhibited DPP-4 activity compared to the control group. These effects were associated with reduced food intake, body weight, and fasting blood glucose levels. Additionally, both extracts positively modified blood lipid profiles, with significant changes in HDL, LDL, and triglyceride levels. The findings suggest that DGE and CQE exert their anti-obesity effects through mechanisms involving GLP-1 enhancement and DPP-4 inhibition, offering potential therapeutic pathways for weight management and metabolic health.\n\nThis prospective study aims to provide clinical evidence supporting the use of these plant extracts in addressing obesity and its related complications.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy males and non-pregnant/non-lactating females\n* Participants aged 18 to 65 years old\n* Participants with BMI between 25 and 34 kg/m²\n* Participants willing to comply with the study protocol\n\nExclusion Criteria:\n\n* Participants younger than 18 years or older than 65 years\n* Participants not available for the study period\n* Morbid obesity (BMI \\> 34.9 kg/m²)\n* Diabetes mellitus requiring daily insulin management\n* Pregnancy or breastfeeding\n* Active infection\n* Systemic diseases, including HIV/AIDS, Active hepatitis, Clinical signs of active malignancy within the past 5 years\n* Use of any medication or natural health product that might affect the parameters of interest in this study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -137,13 +137,13 @@
  },
  "sites": [
   {
-   "facility": "University of Yaounde 1",
    "city": "Yaoundé",
-   "state": "Centre Region",
    "country": "Cameroon",
-   "status": null,
+   "facility": "University of Yaounde 1",
    "lat": 3.86667,
-   "lon": 11.51667
+   "lon": 11.51667,
+   "state": "Centre Region",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06827002",
@@ -155,6 +155,50 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy males and non-pregnant/non-lactating females"
+   },
+   {
+    "text": "Participants aged 18 to 65 years old"
+   },
+   {
+    "text": "Participants with BMI between 25 and 34 kg/m²"
+   },
+   {
+    "text": "Participants willing to comply with the study protocol"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participants younger than 18 years or older than 65 years"
+   },
+   {
+    "text": "Participants not available for the study period"
+   },
+   {
+    "text": "Morbid obesity (BMI > 34.9 kg/m²)"
+   },
+   {
+    "text": "Diabetes mellitus requiring daily insulin management"
+   },
+   {
+    "text": "Pregnancy or breastfeeding"
+   },
+   {
+    "text": "Active infection"
+   },
+   {
+    "text": "Systemic diseases, including HIV/AIDS, Active hepatitis, Clinical signs of active malignancy within the past 5 years"
+   },
+   {
+    "text": "Use of any medication or natural health product that might affect the parameters of interest in this study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

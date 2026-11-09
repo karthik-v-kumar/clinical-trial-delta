@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Göteborg University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Göteborg University"
  },
  "collaborators": [],
  "conditions": [
@@ -48,35 +48,35 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Low intensity intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "High intensity intervention.",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "No intervention",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Low intensity intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Low intensity intervention"
-   ]
+   ],
+   "label": "Low intensity intervention",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "High intensity intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: High intensity intervention."
-   ]
+   ],
+   "label": "High intensity intervention",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "We randomize individuals with impaired glucose tolerance to one of three arms for degree of physical activity: 1. Continue with your current life style; 2. Ordinary life activities for increased physical activity; 3. Scheduled group activities for changed behavior. The overall aim is to focus on change of physical activity and to keep other life style activities more or less unchanged (diet, smoking, etc) and the effect on metabolic variables.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Impaired glucose tolerance\n2. Age: 20-85yrs\n\nExclusion Criteria:\n\n1. Type2 diabetes\n2. Significant disease making life style changes unlikely to happen\n3. Unable to communicate in Swedish",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "85 Years",
   "healthy_volunteers": false,
+  "maximum_age": "85 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,6 +107,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Impaired glucose tolerance"
+   },
+   {
+    "text": "Age: 20-85yrs"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type2 diabetes"
+   },
+   {
+    "text": "Significant disease making life style changes unlikely to happen"
+   },
+   {
+    "text": "Unable to communicate in Swedish"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

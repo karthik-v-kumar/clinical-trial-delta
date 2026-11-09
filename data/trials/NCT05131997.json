@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Addpharma Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Addpharma Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -53,58 +53,58 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AD-221",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "AD-221A",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "AD-221B",
    "other_names": [
     "Ezetimibe"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "AD-221C",
    "other_names": [
     "Atorvastatin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AD-221",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AD-221"
-   ]
+   ],
+   "label": "AD-221",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "AD-221A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AD-221A"
-   ]
+   ],
+   "label": "AD-221A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "AD-221B",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: AD-221B"
-   ]
+   ],
+   "label": "AD-221B",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "AD-221C",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: AD-221C"
-   ]
+   ],
+   "label": "AD-221C",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -116,10 +116,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of AD-221 and AD-221A",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent\n* Subjects with primary hypercholesterolemia\n\nExclusion Criteria:\n\n* Patient with secondary dyslipidemia\n* Other exclusions applied",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -127,13 +127,13 @@
  },
  "sites": [
   {
-   "facility": "Yonsei University Hospital",
    "city": "Seoul",
-   "state": "Seodaemun-gu",
    "country": "South Korea",
-   "status": null,
+   "facility": "Yonsei University Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": "Seodaemun-gu",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05131997",
@@ -145,6 +145,26 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed informed consent"
+   },
+   {
+    "text": "Subjects with primary hypercholesterolemia"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient with secondary dyslipidemia"
+   },
+   {
+    "text": "Other exclusions applied"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

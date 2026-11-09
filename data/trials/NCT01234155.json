@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Copenhagen University Hospital, Rigshospitalet",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Copenhagen University Hospital, Rigshospitalet"
  },
  "collaborators": [],
  "conditions": [
@@ -48,35 +48,35 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Exercise Training - Interval Walking",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Exercise - Continuous Walking",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Exercise - Continuous Walking",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Exercise - Continuous Walking"
-   ]
+   ],
+   "label": "Exercise - Continuous Walking",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Exercise - Interval Walking",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Exercise Training - Interval Walking"
-   ]
+   ],
+   "label": "Exercise - Interval Walking",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The purpose of this study is to assess whether 4-months of interval-walking exercise training improves glycemic control in individuals with type 2 diabetes mellitus. The effects of interval-walking training will be compared to continuous-walking exercise in a randomised, controlled trial design. Changes in glycemic control will be examined using oral glucose tolerance tests (OGTT) with stable isotope methodology. In addition, insulin sensitivity and secretion will be examined using glucose clamps combined with glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* age 18 to 80\n* normal glucose tolerance, impaired glucose tolerance, or type 2 diabetes (as evidenced by use of oral hypoglycemic medication or 2-hour OGTT glucose \\> 11.1 mmol/l)\n\nExclusion Criteria:\n\n* Insulin treatment or type 1 diabetes\n* BMI \\<19 or \\>40\n* Physically active\n* Undergoing weight-loss/gain\n* Pregnancy\n* Contraindication to exercise (ECG/CPX)\n* Significant cardiovascular disease\n* History of renal/hepatic/gastrointestinal/pulmonary disease\n* Clotting or bleeding disorders",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Rigshospitalet",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Rigshospitalet",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01234155",
@@ -119,6 +119,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "age 18 to 80"
+   },
+   {
+    "text": "normal glucose tolerance, impaired glucose tolerance, or type 2 diabetes (as evidenced by use of oral hypoglycemic medication or 2-hour OGTT glucose > 11.1 mmol/l)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Insulin treatment or type 1 diabetes"
+   },
+   {
+    "text": "BMI <19 or >40"
+   },
+   {
+    "text": "Physically active"
+   },
+   {
+    "text": "Undergoing weight-loss/gain"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Contraindication to exercise (ECG/CPX)"
+   },
+   {
+    "text": "Significant cardiovascular disease"
+   },
+   {
+    "text": "History of renal/hepatic/gastrointestinal/pulmonary disease"
+   },
+   {
+    "text": "Clotting or bleeding disorders"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

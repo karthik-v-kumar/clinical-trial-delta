@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2010-06-08",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,33 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin (MK0431)",
    "other_names": [
     "MK0431",
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "MK0431",
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin - Rescue",
    "other_names": [
     "Metformin",
@@ -86,41 +85,42 @@
     "Glumetza",
     "Fortamet",
     "Riomet"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin 100 mg/100 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin (MK0431)",
     "Drug: Metformin - Rescue"
-   ]
+   ],
+   "label": "Sitagliptin 100 mg/100 mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Sitagliptin 200 mg/200 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: Metformin - Rescue"
-   ]
+   ],
+   "label": "Sitagliptin 200 mg/200 mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo",
+    "Drug: Metformin - Rescue"
+   ],
    "label": "Placebo/Sitagliptin 100 mg",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo",
-    "Drug: Metformin - Rescue"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Placebo/Sitagliptin 200 mg",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Metformin - Rescue"
-   ]
+   ],
+   "label": "Placebo/Sitagliptin 200 mg",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -132,10 +132,10 @@
  "brief_summary": "The purpose of this clinical study is to determine the safety and efficacy of an investigational drug in patients with type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with type 2 diabetes mellitus\n* Patient is not pregnant or breastfeeding\n* Male or female patient unlikely to conceive\n* Patient not on an antihyperglycemic drug\n\nExclusion Criteria:\n\n* Patient has history of type 1 diabetes mellitus\n* Patient has history of ketoacidosis\n* Patient requires insulin within 8 weeks prior to start of study\n* Patient on weight loss program and is not in maintenance phase\n* Patient taking weight loss medication within 8 weeks prior to start of study\n* Patient on or likely to require = 14 days or repeated courses of corticosteroids\n* Patient taking immunosuppressive/immunomodulating medication\n* Patient taking digoxin or other cardiac medication\n* Patient has undergone surgical general anesthesia within 30 days prior to start of study\n* Patient taking investigational drug within 8 weeks prior to start of study\n* Patient is diagnosed with liver disease\n* Patient has chronic myopathy, progressive neurological/neuromuscular disorder\n* Patient has with severe cardiac conditions within the last 6 months\n* Patient is Human immunodeficiency virus (HIV) positive\n* Patient has hematological disorder\n* Patient has history of malignancy\n* Patient has history of alcohol or drug abuse within the past 3 years",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -151,6 +151,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with type 2 diabetes mellitus"
+   },
+   {
+    "text": "Patient is not pregnant or breastfeeding"
+   },
+   {
+    "text": "Male or female patient unlikely to conceive"
+   },
+   {
+    "text": "Patient not on an antihyperglycemic drug"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has history of type 1 diabetes mellitus"
+   },
+   {
+    "text": "Patient has history of ketoacidosis"
+   },
+   {
+    "text": "Patient requires insulin within 8 weeks prior to start of study"
+   },
+   {
+    "text": "Patient on weight loss program and is not in maintenance phase"
+   },
+   {
+    "text": "Patient taking weight loss medication within 8 weeks prior to start of study"
+   },
+   {
+    "text": "Patient on or likely to require = 14 days or repeated courses of corticosteroids"
+   },
+   {
+    "text": "Patient taking immunosuppressive/immunomodulating medication"
+   },
+   {
+    "text": "Patient taking digoxin or other cardiac medication"
+   },
+   {
+    "text": "Patient has undergone surgical general anesthesia within 30 days prior to start of study"
+   },
+   {
+    "text": "Patient taking investigational drug within 8 weeks prior to start of study"
+   },
+   {
+    "text": "Patient is diagnosed with liver disease"
+   },
+   {
+    "text": "Patient has chronic myopathy, progressive neurological/neuromuscular disorder"
+   },
+   {
+    "text": "Patient has with severe cardiac conditions within the last 6 months"
+   },
+   {
+    "text": "Patient is Human immunodeficiency virus (HIV) positive"
+   },
+   {
+    "text": "Patient has hematological disorder"
+   },
+   {
+    "text": "Patient has history of malignancy"
+   },
+   {
+    "text": "Patient has history of alcohol or drug abuse within the past 3 years"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

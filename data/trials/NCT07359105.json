@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sin Gon Kim",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Sin Gon Kim"
  },
  "collaborators": [
   "Severance Hospital",
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Moderate-intensity statin monotherapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ezetimibe or ezetimibe-statin combination therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Moderate-intensity statin monotherapy arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Moderate-intensity statin monotherapy"
-   ]
+   ],
+   "label": "Moderate-intensity statin monotherapy arm",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Individualized LDL-C target-based therapy arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe or ezetimibe-statin combination therapy"
-   ]
+   ],
+   "label": "Individualized LDL-C target-based therapy arm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -87,32 +87,32 @@
  "brief_summary": "Statins are the cornerstone of cardiovascular disease (CVD) prevention through the lowering of low-density lipoprotein cholesterol (LDL-C). While the benefits of intensive LDL-C lowering are well-established for secondary prevention, evidence remains insufficient for primary prevention in the elderly-specifically for individuals aged 70 years or older with type 2 diabetes who have no prior history of atherosclerotic cardiovascular events.\n\nCurrent guidelines generally recommend moderate-intensity statins for this population based on extrapolated data. However, there is a significant evidence gap regarding whether these older adults, who have not yet experienced a cardiovascular event, derive the same risk-benefit ratio from pharmacological intervention as younger or secondary prevention groups. Furthermore, while ezetimibe (alone or in combination) is an effective alternative for patients with established disease, its efficacy as a primary prevention strategy in older diabetic patients has not been rigorously confirmed through randomized controlled trials (RCTs).\n\nTherefore, this study specifically focuses on the primary prevention setting, aiming to determine whether individualized LDL-C target-based therapy is non-inferior to standard moderate-intensity statin therapy in preventing first-time cardiovascular events among older patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Provision of written informed consent to participate in the study by the patient or his/her legally authorized representative after receiving and understanding a detailed explanation of the study\n* Adults aged 70 years or older\n* Diagnosed with type 2 diabetes or currently receiving antidiabetic medication, without a history or presence of cardiovascular disease\n* Either: (1) LDL-C≥100 mg/dL if not receiving lipid-lowering therapy, or (2) currently receiving lipid-lowering therapy (in this case, LDL-C level not restricted)\n\nExclusion Criteria:\n\n* Diagnosis of type 1 diabetes\n* Documented history of atherosclerotic cardiovascular disease at screening, confirmed clinically or by imaging: (1) myocardial infarction; (2) coronary revascularization; (3) currently receiving treatment for acute coronary syndrome; (4) history of ischemic stroke; (5) aortic aneurysm; (6) peripheral arterial disease\n* Currently undergoing cancer treatment\n* Severe disease requiring recurrent hospitalization\n* Frailty (defined as a score ≥3 on the Korean FRAIL questionnaire), or any condition significantly limiting self-care\n* AST or ALT \\>3 × ULN, at screening (however, patients will be eligible if repeat testing at the time of randomization shows levels \\<3 × ULN), or liver cirrhosis\n* Contraindications to study drugs\n* Pregnant or breastfeeding women",
-  "sex": "ALL",
-  "minimum_age": "70 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "70 Years",
+  "sex": "ALL",
   "std_ages": [
    "OLDER_ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Korea University ANAM Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Korea University ANAM Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
-   "facility": "Severance Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Severance Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07359105",
@@ -124,6 +124,50 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Provision of written informed consent to participate in the study by the patient or his/her legally authorized representative after receiving and understanding a detailed explanation of the study"
+   },
+   {
+    "text": "Adults aged 70 years or older"
+   },
+   {
+    "text": "Diagnosed with type 2 diabetes or currently receiving antidiabetic medication, without a history or presence of cardiovascular disease"
+   },
+   {
+    "text": "Either: (1) LDL-C≥100 mg/dL if not receiving lipid-lowering therapy, or (2) currently receiving lipid-lowering therapy (in this case, LDL-C level not restricted)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of type 1 diabetes"
+   },
+   {
+    "text": "Documented history of atherosclerotic cardiovascular disease at screening, confirmed clinically or by imaging: (1) myocardial infarction; (2) coronary revascularization; (3) currently receiving treatment for acute coronary syndrome; (4) history of ischemic stroke; (5) aortic aneurysm; (6) peripheral arterial disease"
+   },
+   {
+    "text": "Currently undergoing cancer treatment"
+   },
+   {
+    "text": "Severe disease requiring recurrent hospitalization"
+   },
+   {
+    "text": "Frailty (defined as a score ≥3 on the Korean FRAIL questionnaire), or any condition significantly limiting self-care"
+   },
+   {
+    "text": "AST or ALT >3 × ULN, at screening (however, patients will be eligible if repeat testing at the time of randomization shows levels <3 × ULN), or liver cirrhosis"
+   },
+   {
+    "text": "Contraindications to study drugs"
+   },
+   {
+    "text": "Pregnant or breastfeeding women"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

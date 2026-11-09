@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2012-07-20",
  "has_results": true,
  "lead_sponsor": {
-  "name": "James Backes, PharmD",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "James Backes, PharmD"
  },
  "collaborators": [
   "Marcor Development Corporation"
@@ -53,47 +53,47 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Policosanol",
    "other_names": [
     "Octacosanol, 1-Octacosanol, N-Octacosanol, Octacosyl Alcohol"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Policosanol Plus Already In Use Statin Therapy",
    "other_names": [
     "Octacosanol, 1-Octacosanol, N-Octacosanol, Octacosyl Alcohol",
     "Statin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Policosanol"
-   ]
+   ],
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Policosanol Plus Already In Use Statin Therapy"
-   ]
+   ],
+   "label": "3",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "To determine the effects of policosanol on the cholesterol profile.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL \\> 100\n* Male or Non-Pregnant Female. Women must be surgically sterile or postmenopausal and not using hormone replacement therapy (HRT) or using a stable, consistent HRT dose with intentions to continue therapy throughout the course of the study\n* Mentally competent to understand study rationale and protocol\n* Speak and read English\n* Currently receiving low to moderate dose statin therapy with plans to continue to the same dose for at least 8 weeks. Low to moderate dose statins include the following daily doses: atorvastatin ≤20 mg, fluvastatin ≤40 mg, lovastatin ≤40 mg, pravastatin ≤40 mg, rosuvastatin ≤10 mg, simvastatin ≤ 40 mg\n\nExclusion Criteria:\n\n* LDL \\< 100\n* Sensitivity to policosanol\n* Currently taking a high-dose statin or other lipid-lowering agents (i.e. high-dose niacin formulations \\[\\>500mg/day\\], bile-acid sequestrants, ezetimibe, fibrates and high-dose Omega-3 fish oils \\[\\>900mg of combined EPA/DHA daily\\])\n* Currently taking medications which have the potential to interact with policosanol (i.e. warfarin, high-dose aspirin)\n* Active liver disease or ALT level 2.5 times the upper limit of normal\n* Chronic disease involving hepatic, renal or coronary artery disease\n* Currently experiencing \"flu-like\" symptoms\n* Currently experiencing any form of acute physical injury\n* Acute psychiatric disorders\n* Immuno-compromised state\n* Currently taking systemic steroidal drugs\n* Currently pregnant or lactating\n* Females of childbearing potential\n* Dependence on alcohol or illicit drugs\n* Participation in any other clinical trial within the last 30 days\n* Displays s/s of acute systemic infection (oral temperature \\>100°F, WBC\\>12x10³/µL)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "University of Kansas Medical Center",
    "city": "Kansas City",
-   "state": "Kansas",
    "country": "United States",
-   "status": null,
+   "facility": "University of Kansas Medical Center",
    "lat": 39.11417,
-   "lon": -94.62746
+   "lon": -94.62746,
+   "state": "Kansas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00510809",
@@ -134,6 +134,77 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "LDL > 100"
+   },
+   {
+    "text": "Male or Non-Pregnant Female. Women must be surgically sterile or postmenopausal and not using hormone replacement therapy (HRT) or using a stable, consistent HRT dose with intentions to continue therapy throughout the course of the study"
+   },
+   {
+    "text": "Mentally competent to understand study rationale and protocol"
+   },
+   {
+    "text": "Speak and read English"
+   },
+   {
+    "text": "Currently receiving low to moderate dose statin therapy with plans to continue to the same dose for at least 8 weeks. Low to moderate dose statins include the following daily doses: atorvastatin ≤20 mg, fluvastatin ≤40 mg, lovastatin ≤40 mg, pravastatin ≤40 mg, rosuvastatin ≤10 mg, simvastatin ≤ 40 mg"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "LDL < 100"
+   },
+   {
+    "text": "Sensitivity to policosanol"
+   },
+   {
+    "text": "Currently taking a high-dose statin or other lipid-lowering agents (i.e. high-dose niacin formulations [>500mg/day], bile-acid sequestrants, ezetimibe, fibrates and high-dose Omega-3 fish oils [>900mg of combined EPA/DHA daily])"
+   },
+   {
+    "text": "Currently taking medications which have the potential to interact with policosanol (i.e. warfarin, high-dose aspirin)"
+   },
+   {
+    "text": "Active liver disease or ALT level 2.5 times the upper limit of normal"
+   },
+   {
+    "text": "Chronic disease involving hepatic, renal or coronary artery disease"
+   },
+   {
+    "text": "Currently experiencing \"flu-like\" symptoms"
+   },
+   {
+    "text": "Currently experiencing any form of acute physical injury"
+   },
+   {
+    "text": "Acute psychiatric disorders"
+   },
+   {
+    "text": "Immuno-compromised state"
+   },
+   {
+    "text": "Currently taking systemic steroidal drugs"
+   },
+   {
+    "text": "Currently pregnant or lactating"
+   },
+   {
+    "text": "Females of childbearing potential"
+   },
+   {
+    "text": "Dependence on alcohol or illicit drugs"
+   },
+   {
+    "text": "Participation in any other clinical trial within the last 30 days"
+   },
+   {
+    "text": "Displays s/s of acute systemic infection (oral temperature >100°F, WBC>12x10³/µL)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

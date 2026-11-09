@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2020-05-27",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Ardelyx",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Ardelyx"
  },
  "collaborators": [
   "AstraZeneca"
@@ -56,30 +56,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD1722",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AZD1722",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: AZD1722"
-   ]
+   ],
+   "label": "AZD1722",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "The purpose of this study is to determine if the study drug is safe, tolerable and active in reducing albuminuria in patients with Chronic Kidney Disease with Type 2 Diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males or females aged 18 to 80 years, inclusive.\n* Body mass index between 18 and 45 kg/m2, inclusive.\n* Type 2 diabetes mellitus and receiving ≥1 glucose lowering medication for at least 3 months prior to randomization\n* Stage 3 CKD\n* MSSBP ≥130 mmHg\n* Urinary albumin: mean UACR ≥ 200 mg/g\n\nExclusion Criteria:\n\n* Urinary albumin: UACR \\> 3500 mg/g\n* History of a renal transplant\n* MSSBP \\>180 mmHg or a MSDBP of \\>120 mmHg on two occasions during screening or run-in periods\n* History of inflammatory bowel disease or diarrhea predominant irritable bowel syndrome",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Creekside Endocrine Associates PC",
    "city": "Denver",
-   "state": "Colorado",
    "country": "United States",
-   "status": null,
+   "facility": "Creekside Endocrine Associates PC",
    "lat": 39.73915,
-   "lon": -104.9847
+   "lon": -104.9847,
+   "state": "Colorado",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01847092",
@@ -122,6 +122,44 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males or females aged 18 to 80 years, inclusive."
+   },
+   {
+    "text": "Body mass index between 18 and 45 kg/m2, inclusive."
+   },
+   {
+    "text": "Type 2 diabetes mellitus and receiving ≥1 glucose lowering medication for at least 3 months prior to randomization"
+   },
+   {
+    "text": "Stage 3 CKD"
+   },
+   {
+    "text": "MSSBP ≥130 mmHg"
+   },
+   {
+    "text": "Urinary albumin: mean UACR ≥ 200 mg/g"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Urinary albumin: UACR > 3500 mg/g"
+   },
+   {
+    "text": "History of a renal transplant"
+   },
+   {
+    "text": "MSSBP >180 mmHg or a MSDBP of >120 mmHg on two occasions during screening or run-in periods"
+   },
+   {
+    "text": "History of inflammatory bowel disease or diarrhea predominant irritable bowel syndrome"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

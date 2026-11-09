@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Bristol-Myers Squibb"
@@ -50,55 +50,55 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Warfarin",
    "other_names": [
     "Coumadin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Digoxin",
    "other_names": [
     "Lanoxin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Dapagliflozin",
+    "Drug: Warfarin"
+   ],
    "label": "Dapagliflozin + Warfarin",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Dapagliflozin",
-    "Drug: Warfarin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Warfarin"
+   ],
    "label": "Warfarin",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Warfarin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dapagliflozin + Digoxin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin",
     "Drug: Digoxin"
-   ]
+   ],
+   "label": "Dapagliflozin + Digoxin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Digoxin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Digoxin"
-   ]
+   ],
+   "label": "Digoxin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -110,23 +110,23 @@
  "brief_summary": "The purpose of this study is determine that Dapagliflozin has no effect on the pharmacokinetics (PK) or pharmacodynamics (PD) of warfarin when dapagliflozin is coadministered with warfarin. Also, that Dapagliflozin has no effect on the PK of digoxin when dapagliflozin is coadministered with digoxin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination, ECGs, and clinical laboratory determinations\n* Body Mass Index (BMI) of 18 to 32 kg/m², inclusive. BMI = weight (kg)/ \\[height (m)\\]²\n* Women who are not of childbearing potential (ie, who are postmenopausal or surgically sterile) and men, ages 18 to 45\n\nExclusion Criteria:\n\n* WOCBP include any female who has experienced menarche and who has not undergone successful surgical sterilization (hysterectomy, bilateral tubal ligation, or bilateral oophorectomy) or is not postmenopausal\n* Any significant acute or chronic medical illness or relevant trauma (e.g. history of chronic hypertension, bacterial endocarditis, hemorrhagic stroke, motor vehicle accident resulting in significant head trauma or internal injuries)\n* History of important arrhythmias as determined by the Investigator, including but not limited to ventricular fibrillation, ventricular tachycardia, A-V block, Wolff-Parkinson-White Syndrome, and sinus bradycardia (defined in this study as heart rate \\< 50 bpm based on vital signs and ECG performed within 21 days of Study Day 1)\n* History or evidence of abnormal bleeding or coagulation disorder (e.g., history of prolonged bleeding during dental procedures, pregnancy delivery, previous surgery or injury) and/or having a first degree relative under 50 years of age with a history of abnormal bleeding or coagulation disorder per patient's report\n* History of unexplained syncope\n* Presence of external hemorrhoids with signs of rectal bleeding on physical exam\n* Positive fecal occult blood (FOB), using the Hemoccult Sensa® assay (or equivalent), or hematuria (more than trace), unless deemed not clinically significant by the Investigator and Medical Monitor at screening or dosing\n* Platelet count \\< 150,000 cells/µL at screening or dosing\n* INR or aPTT values above the upper limit of normal (ULN) at screening or dosing\n* Hemoglobin or hematocrit \\< LLN at screening or dosing\n* Abnormal urinalysis at screening or dosing (repeat urinalysis may be allowed for positive hematuria in women)\n* Glucosuria at screening or dosing\n* Abnormal liver functions tests (ALT, AST or total bilirubin \\> 10% above ULN) at screening or dosing\n* History of diabetes mellitus\n* History of heart failure\n* History of renal insufficiency\n* History of recurrent (defined as 3 occurrences per year) or recent vulvovaginal mycotic infections\n* Positive urine screen for drugs of abuse either at screening or before dosing\n* Positive blood screen for hepatitis C antibody, hepatitis B surface antigen, or HIV-1, -2 antibody\n* Protein C or Protein S deficiency\n* History of allergy to SGLT2 inhibitors or related compounds\n* History of allergy to warfarin or related compounds\n* History of allergy to digoxin or related compounds\n* Prior exposure to dapagliflozin within 3 months of Day -1\n* Exposure to any investigational drug or placebo within 4 weeks of Day -1\n* Use of any prescription drugs within or over-the-counter acid controllers or vitamin K containing products within 4 weeks prior to study drug administration",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": true,
+  "maximum_age": "45 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Pra International",
    "city": "Lenexa",
-   "state": "Kansas",
    "country": "United States",
-   "status": null,
+   "facility": "Pra International",
    "lat": 38.95362,
-   "lon": -94.73357
+   "lon": -94.73357,
+   "state": "Kansas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00904176",
@@ -141,6 +141,101 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination, ECGs, and clinical laboratory determinations"
+   },
+   {
+    "text": "Body Mass Index (BMI) of 18 to 32 kg/m², inclusive. BMI = weight (kg)/ [height (m)]²"
+   },
+   {
+    "text": "Women who are not of childbearing potential (ie, who are postmenopausal or surgically sterile) and men, ages 18 to 45"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "WOCBP include any female who has experienced menarche and who has not undergone successful surgical sterilization (hysterectomy, bilateral tubal ligation, or bilateral oophorectomy) or is not postmenopausal"
+   },
+   {
+    "text": "Any significant acute or chronic medical illness or relevant trauma (e.g. history of chronic hypertension, bacterial endocarditis, hemorrhagic stroke, motor vehicle accident resulting in significant head trauma or internal injuries)"
+   },
+   {
+    "text": "History of important arrhythmias as determined by the Investigator, including but not limited to ventricular fibrillation, ventricular tachycardia, A-V block, Wolff-Parkinson-White Syndrome, and sinus bradycardia (defined in this study as heart rate < 50 bpm based on vital signs and ECG performed within 21 days of Study Day 1)"
+   },
+   {
+    "text": "History or evidence of abnormal bleeding or coagulation disorder (e.g., history of prolonged bleeding during dental procedures, pregnancy delivery, previous surgery or injury) and/or having a first degree relative under 50 years of age with a history of abnormal bleeding or coagulation disorder per patient's report"
+   },
+   {
+    "text": "History of unexplained syncope"
+   },
+   {
+    "text": "Presence of external hemorrhoids with signs of rectal bleeding on physical exam"
+   },
+   {
+    "text": "Positive fecal occult blood (FOB), using the Hemoccult Sensa® assay (or equivalent), or hematuria (more than trace), unless deemed not clinically significant by the Investigator and Medical Monitor at screening or dosing"
+   },
+   {
+    "text": "Platelet count < 150,000 cells/µL at screening or dosing"
+   },
+   {
+    "text": "INR or aPTT values above the upper limit of normal (ULN) at screening or dosing"
+   },
+   {
+    "text": "Hemoglobin or hematocrit < LLN at screening or dosing"
+   },
+   {
+    "text": "Abnormal urinalysis at screening or dosing (repeat urinalysis may be allowed for positive hematuria in women)"
+   },
+   {
+    "text": "Glucosuria at screening or dosing"
+   },
+   {
+    "text": "Abnormal liver functions tests (ALT, AST or total bilirubin > 10% above ULN) at screening or dosing"
+   },
+   {
+    "text": "History of diabetes mellitus"
+   },
+   {
+    "text": "History of heart failure"
+   },
+   {
+    "text": "History of renal insufficiency"
+   },
+   {
+    "text": "History of recurrent (defined as 3 occurrences per year) or recent vulvovaginal mycotic infections"
+   },
+   {
+    "text": "Positive urine screen for drugs of abuse either at screening or before dosing"
+   },
+   {
+    "text": "Positive blood screen for hepatitis C antibody, hepatitis B surface antigen, or HIV-1, -2 antibody"
+   },
+   {
+    "text": "Protein C or Protein S deficiency"
+   },
+   {
+    "text": "History of allergy to SGLT2 inhibitors or related compounds"
+   },
+   {
+    "text": "History of allergy to warfarin or related compounds"
+   },
+   {
+    "text": "History of allergy to digoxin or related compounds"
+   },
+   {
+    "text": "Prior exposure to dapagliflozin within 3 months of Day -1"
+   },
+   {
+    "text": "Exposure to any investigational drug or placebo within 4 weeks of Day -1"
+   },
+   {
+    "text": "Use of any prescription drugs within or over-the-counter acid controllers or vitamin K containing products within 4 weeks prior to study drug administration"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

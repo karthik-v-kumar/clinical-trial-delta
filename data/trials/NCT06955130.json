@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Rutgers, The State University of New Jersey",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Rutgers, The State University of New Jersey"
  },
  "collaborators": [],
  "conditions": [
@@ -50,42 +50,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Glycerol",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Lactate",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glucose",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Glycerol",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Glycerol"
-   ]
+   ],
+   "label": "Glycerol",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Lactate",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Lactate"
-   ]
+   ],
+   "label": "Lactate",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glucose",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Glucose"
-   ]
+   ],
+   "label": "Glucose",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "A major cause of increased blood glucose levels in type 2 diabetes (T2D) is increased hepatic gluconeogenesis (GNG), as the liver converts various substrates into glucose. Two of these substrates include glycerol, a molecule from fat, and lactate, a molecule that circulates in the blood. Our previously collected data suggest that glycerol's role in this process has been underestimated, so the investigators will directly compare the carbon contribution of glycerol and lactate to new glucose production under fasting conditions in patients with and without T2D. The investigators will also assess how glucagon, a hormone that raises blood glucose levels, impacts the conversion of glycerol and lactate to glucose. Enrolled participants will undergo three separate isotope tracer infusions with serial blood collections for liquid chromatography-mass spectrometry analysis. This research could identify new therapeutic drug targets that can lower blood glucose levels more directly and effectively.",
  "eligibility": {
   "criteria": "Inclusion Criteria for All Subjects\n\n1. Age 40-70 years.\n2. The subject is otherwise in general good health, based on medical history and physical examination.\n\nInclusion Criteria for Metabolically Healthy Subjects without Obesity\n\n1. No evidence of T2D or prediabetes as indicated by the American Diabetes Association (ADA), i.e., HbA1c \\< 5.7%, fasting glucose \\< 100 mg/dL, or use of glucose-lowering medications.\n2. Body mass index (BMI) ≤ 24.9 kg/m2.\n\nInclusion Criteria for Metabolically Healthy Subjects with Obesity\n\n1. No evidence of T2D or prediabetes as per ADA criteria.\n2. 30.0 ≤ BMI ≤ 45.0 kg/m2.\n\nInclusion Criteria for T2D Subjects\n\n1. Evidence of T2D as indicated by ADA criteria.\n2. 6.5% ≤ HbA1c ≤ 8.0%.\n3. 30.0 ≤ BMI ≤ 45.0 kg/m2.\n\nExclusion Criteria for All Subjects\n\n1. Chronic medical conditions that may affect glucose metabolism, including active malignancy, tobacco use, HIV infection, kidney failure, liver dysfunction, alcoholism, pancreatitis, active viral/bacterial infection, current pregnancy/lactation, anemia, severe cardiac or respiratory failure, and uncontrolled hyperlipidemia (total cholesterol ≥ 260 mg/dL or triglycerides ≥400 mg/dL).\n2. Current medical therapy that affects glucose metabolism such as glucocorticoid, antipsychotic, or oral contraceptive pills.\n3. Type 1 diabetes mellitus diagnosis and/or history of diabetic ketoacidosis.\n4. Use of weekly glucagon-like peptide-1 (GLP-1) receptor agonist therapy.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,6 +116,66 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 40-70 years.",
+    "group": "for All Subjects"
+   },
+   {
+    "text": "The subject is otherwise in general good health, based on medical history and physical examination.",
+    "group": "for All Subjects"
+   },
+   {
+    "text": "No evidence of T2D or prediabetes as indicated by the American Diabetes Association (ADA), i.e., HbA1c < 5.7%, fasting glucose < 100 mg/dL, or use of glucose-lowering medications.",
+    "group": "for Metabolically Healthy Subjects without Obesity"
+   },
+   {
+    "text": "Body mass index (BMI) ≤ 24.9 kg/m2.",
+    "group": "for Metabolically Healthy Subjects without Obesity"
+   },
+   {
+    "text": "No evidence of T2D or prediabetes as per ADA criteria.",
+    "group": "for Metabolically Healthy Subjects with Obesity"
+   },
+   {
+    "text": "30.0 ≤ BMI ≤ 45.0 kg/m2.",
+    "group": "for Metabolically Healthy Subjects with Obesity"
+   },
+   {
+    "text": "Evidence of T2D as indicated by ADA criteria.",
+    "group": "for T2D Subjects"
+   },
+   {
+    "text": "6.5% ≤ HbA1c ≤ 8.0%.",
+    "group": "for T2D Subjects"
+   },
+   {
+    "text": "30.0 ≤ BMI ≤ 45.0 kg/m2.",
+    "group": "for T2D Subjects"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Chronic medical conditions that may affect glucose metabolism, including active malignancy, tobacco use, HIV infection, kidney failure, liver dysfunction, alcoholism, pancreatitis, active viral/bacterial infection, current pregnancy/lactation, anemia, severe cardiac or respiratory failure, and uncontrolled hyperlipidemia (total cholesterol ≥ 260 mg/dL or triglycerides ≥400 mg/dL).",
+    "group": "for All Subjects"
+   },
+   {
+    "text": "Current medical therapy that affects glucose metabolism such as glucocorticoid, antipsychotic, or oral contraceptive pills.",
+    "group": "for All Subjects"
+   },
+   {
+    "text": "Type 1 diabetes mellitus diagnosis and/or history of diabetic ketoacidosis.",
+    "group": "for All Subjects"
+   },
+   {
+    "text": "Use of weekly glucagon-like peptide-1 (GLP-1) receptor agonist therapy.",
+    "group": "for All Subjects"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Bristol-Myers Squibb"
@@ -50,64 +50,64 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "BMS-512148"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "Amaryl"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Glimepiride"
+   ],
    "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Glimepiride"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Dapagliflozin",
+    "Drug: Glimepiride"
+   ],
    "label": "Dapagliflozin + Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Dapagliflozin",
-    "Drug: Glimepiride"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Sitagliptin"
+   ],
    "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Sitagliptin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dapagliflozin + Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin",
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Dapagliflozin + Sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -119,23 +119,23 @@
  "brief_summary": "To assess the effect of glimepiride on the PK of dapagliflozin and the effect of dapagliflozin on the PK of glimepiride, when co-administered in healthy subjects (Phase A) and to assess the effect of sitagliptin on the PK of dapagliflozin and the effect of dapagliflozin on the PK of sitagliptin, when co-administered in healthy subjects (Phase B)",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination, ECGs, and clinical laboratory determinations\n* Body mass index (BMI) of 18 to 32 kg/m2, inclusive BMI = weight (kg)/\\[height(m)\\]2\n\nExclusion Criteria:\n\n* WOCBP who are unwilling or unable to use an acceptable method to avoid pregnancy for the entire study period and for up to 12 weeks after the last dose of investigational product\n* Abnormal liver functions tests (ALT, AST or total bilirubin \\> 10% above ULN)\n* History of chronic or recurrent UTI (defined as 3 occurrences per year) or UTI in the past 3 months\n* History of allergy to SGLT@ inhibitors, DPP$ inhibitors or sulfonylurea or related compounds\n* Prior exposure to dapagliflozin, sitagliptin and glimepiride within 3 months of Day -1\n* History of recurrent (defined as 3 occurrences per year) or recent vulvovaginal mycotic infections",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": true,
+  "maximum_age": "45 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Ppd Development",
    "city": "Austin",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Ppd Development",
    "lat": 30.26715,
-   "lon": -97.74306
+   "lon": -97.74306,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00842556",
@@ -150,6 +150,38 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination, ECGs, and clinical laboratory determinations"
+   },
+   {
+    "text": "Body mass index (BMI) of 18 to 32 kg/m2, inclusive BMI = weight (kg)/[height(m)]2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "WOCBP who are unwilling or unable to use an acceptable method to avoid pregnancy for the entire study period and for up to 12 weeks after the last dose of investigational product"
+   },
+   {
+    "text": "Abnormal liver functions tests (ALT, AST or total bilirubin > 10% above ULN)"
+   },
+   {
+    "text": "History of chronic or recurrent UTI (defined as 3 occurrences per year) or UTI in the past 3 months"
+   },
+   {
+    "text": "History of allergy to SGLT@ inhibitors, DPP$ inhibitors or sulfonylurea or related compounds"
+   },
+   {
+    "text": "Prior exposure to dapagliflozin, sitagliptin and glimepiride within 3 months of Day -1"
+   },
+   {
+    "text": "History of recurrent (defined as 3 occurrences per year) or recent vulvovaginal mycotic infections"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

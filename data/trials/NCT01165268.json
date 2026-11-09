@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Bristol-Myers Squibb"
@@ -50,25 +50,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin (T2DM)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin (T2DM)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dapagliflozin (Healthy Subjects)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin (Healthy Subjects)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "It is anticipated that 7 days of oral administration of 10 mg dapagliflozin will reduce the renal glucose reabsorption similarly in healthy subjects and in subjects with T2DM.",
  "eligibility": {
   "criteria": "Inclusion criteria for T2DM\n\n* Diagnosis of T2DM\n* Must be on one of the following therapies: diet therapy alone, diet plus a sulfonylurea, diet plus metformin, or diet plus sulfonylurea plus metformin\n* Subjects taking metformin, and/or sulfonylurea must be on a stable dose for at least 2 months prior to study drug administration\n* Must have a fasting plasma glucose concentration ≤ 200 mg/dl, and HbA1C ≤ 10%\n\nInclusion criteria for healthy subjects:\n\n* Healthy subjects (as determined by no clinically significant deviation from normal in medical history, physical examination, ECGs, and clinical laboratory determinations)\n\nInclusion criteria for all subjects:\n\n* Subjects with (eGFR ≥ 60 and ≤ 160 mL/min/1.73m² and urinary albumin excretion \\< 300 mg/g creatinine)\n* Body Mass Index (BMI) of 18 to 38 kg/m²\n* Men and women, ages 18 to 65 years, inclusive\n\nExclusion criteria for all subjects:\n\n* Subjects with Type 1 Diabetes or uncontrolled Type 2 Diabetes Mellitus\n* Subjects with T2DM with fasting plasma glucose \\> 200 mg/dL, healthy subjects with fasting plasma glucose \\> 105 mg/dL\n* Subjects with T2DM with HbA1C \\> 10.0%, healthy subjects with HbA1C \\> 6.8%",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Profil Institute For Clinical Research, Inc.",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Profil Institute For Clinical Research, Inc.",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01165268",
@@ -116,6 +116,58 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of T2DM",
+    "group": "for T2DM"
+   },
+   {
+    "text": "Must be on one of the following therapies: diet therapy alone, diet plus a sulfonylurea, diet plus metformin, or diet plus sulfonylurea plus metformin",
+    "group": "for T2DM"
+   },
+   {
+    "text": "Subjects taking metformin, and/or sulfonylurea must be on a stable dose for at least 2 months prior to study drug administration",
+    "group": "for T2DM"
+   },
+   {
+    "text": "Must have a fasting plasma glucose concentration ≤ 200 mg/dl, and HbA1C ≤ 10%",
+    "group": "for T2DM"
+   },
+   {
+    "text": "Healthy subjects (as determined by no clinically significant deviation from normal in medical history, physical examination, ECGs, and clinical laboratory determinations)",
+    "group": "for healthy subjects"
+   },
+   {
+    "text": "Subjects with (eGFR ≥ 60 and ≤ 160 mL/min/1.73m² and urinary albumin excretion < 300 mg/g creatinine)",
+    "group": "for all subjects"
+   },
+   {
+    "text": "Body Mass Index (BMI) of 18 to 38 kg/m²",
+    "group": "for all subjects"
+   },
+   {
+    "text": "Men and women, ages 18 to 65 years, inclusive",
+    "group": "for all subjects"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with Type 1 Diabetes or uncontrolled Type 2 Diabetes Mellitus",
+    "group": "for all subjects"
+   },
+   {
+    "text": "Subjects with T2DM with fasting plasma glucose > 200 mg/dL, healthy subjects with fasting plasma glucose > 105 mg/dL",
+    "group": "for all subjects"
+   },
+   {
+    "text": "Subjects with T2DM with HbA1C > 10.0%, healthy subjects with HbA1C > 6.8%",
+    "group": "for all subjects"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

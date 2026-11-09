@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2012-06-27",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Steward St. Elizabeth's Medical Center of Boston, Inc.",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Steward St. Elizabeth's Medical Center of Boston, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Behavioral education program",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Behavioral education program"
-   ]
+   ],
+   "label": "Intervention",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Standard of Care/Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -80,10 +80,10 @@
  "brief_summary": "This study will evaluate the impact a behavioral intervention can have on BMI. The researchers anticipate the intervention group will experience a decrease in BMI of approximately five points. The intervention group will be compared to a control group. This is a long term, randomized, controlled study. The behavioral intervention is conducted during a four hour monthly session. The behavioral intervention includes: exercise, education on medical aspects and nutrition, and empowerment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Ages 10-20 years\n* BMI\\>85%\n\nExclusion Criteria:\n\n* Endocrine disorder\n* On psychotropic medications",
-  "sex": "ALL",
-  "minimum_age": "10 Years",
-  "maximum_age": "20 Years",
   "healthy_volunteers": true,
+  "maximum_age": "20 Years",
+  "minimum_age": "10 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -91,13 +91,13 @@
  },
  "sites": [
   {
-   "facility": "Caritas St. Elizabeth's Medical Center",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Caritas St. Elizabeth's Medical Center",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00132132",
@@ -109,6 +109,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Ages 10-20 years"
+   },
+   {
+    "text": "BMI>85%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Endocrine disorder"
+   },
+   {
+    "text": "On psychotropic medications"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

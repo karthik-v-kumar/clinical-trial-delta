@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sanofi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sanofi"
  },
  "collaborators": [],
  "conditions": [
@@ -45,14 +45,14 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -65,23 +65,23 @@
  "brief_summary": "To compare the change in glycemic control from baseline to endpoint (last available posttreatment assessment) as measured by HbA1c in pediatric subjects with type 2 diabetes receiving either glimepiride or metformin as monotherapy.",
  "eligibility": {
   "criteria": "INCLUSION CRITERIA:\n\n1. Subjects who had type 2 diabetes treated with diet and exercise only for at least 2 weeks prior to randomization, or who were previously or currently treated with an oral agent and had not responded to diet, exercise, and oral therapy for at least 3 months (documented by an HbA1c \\>7.5%).\n2. Subjects who completed glimepiride pharmacokinetic Study HOE 490/4045 at preselected sites within 3 weeks prior to the screening period were also permitted to enroll.\n3. Subjects were required to be negative for islet cell antigen (ICA) and glutamic acid decarboxylase (GAD) autoantibodies and to have a C-peptide level at 90 minutes of ≥ 1.5 ng/mL. The HbA1c was required to be \\>7.1% at screening and \\<12.0% on the day of randomization.\n\nEXCLUSION CRITERIA:\n\nSubjects meeting any of the following criteria were not to be included in the study:\n\n1. A history of an acute metabolic complication such as diabetic ketoacidosis within 3 months before screening\n2. On insulin therapy, or had received insulin for \\>6 weeks, 3 months prior to randomization\n3. On weight-reduction medication\n4. Known hypersensitivity to biguanides, sulfonamides, or insulin\n5. Pregnant or lactating females\n6. Clinically significant renal (serum creatinine level \\>1.0 mg/dL) or hepatic disease (alanine aminotransferase \\[ALT\\] or aspartate aminotransferase \\[AST\\] \\>2.5 times the upper limits of normal \\[ULN\\])\n7. GI disorders that may interfere with the absorption of the study drugs\n8. Chronic use of medications known to affect glucose levels such as intermittent use of systemic corticosteroids or large dose of inhaled steroids\n9. Clinically significant laboratory abnormality on screening laboratory tests or any medical condition that in the opinion of the investigator would affect the outcome of the study\n10. History of drug or alcohol abuse\n11. Treatment with any investigational product in the last 3 months before study entry\n12. History of noncompliance with regard to follow-up medical care\n13. Any disease or condition that in the opinion of the investigator and/or sponsor may interfere with completion of the study",
-  "sex": "ALL",
-  "minimum_age": "8 Years",
-  "maximum_age": "17 Years",
   "healthy_volunteers": false,
+  "maximum_age": "17 Years",
+  "minimum_age": "8 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "facility": "Sanofi-Aventis",
    "city": "Bridgewater",
-   "state": "New Jersey",
    "country": "United States",
-   "status": null,
+   "facility": "Sanofi-Aventis",
    "lat": 40.60079,
-   "lon": -74.64815
+   "lon": -74.64815,
+   "state": "New Jersey",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00353691",
@@ -93,6 +93,75 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects who had type 2 diabetes treated with diet and exercise only for at least 2 weeks prior to randomization, or who were previously or currently treated with an oral agent and had not responded to diet, exercise, and oral therapy for at least 3 months (documented by an HbA1c >7.5%)."
+   },
+   {
+    "text": "Subjects who completed glimepiride pharmacokinetic Study HOE 490/4045 at preselected sites within 3 weeks prior to the screening period were also permitted to enroll."
+   },
+   {
+    "text": "Subjects were required to be negative for islet cell antigen (ICA) and glutamic acid decarboxylase (GAD) autoantibodies and to have a C-peptide level at 90 minutes of ≥ 1.5 ng/mL. The HbA1c was required to be >7.1% at screening and <12.0% on the day of randomization."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A history of an acute metabolic complication such as diabetic ketoacidosis within 3 months before screening",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "On insulin therapy, or had received insulin for >6 weeks, 3 months prior to randomization",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "On weight-reduction medication",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "Known hypersensitivity to biguanides, sulfonamides, or insulin",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "Pregnant or lactating females",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "Clinically significant renal (serum creatinine level >1.0 mg/dL) or hepatic disease (alanine aminotransferase [ALT] or aspartate aminotransferase [AST] >2.5 times the upper limits of normal [ULN])",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "GI disorders that may interfere with the absorption of the study drugs",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "Chronic use of medications known to affect glucose levels such as intermittent use of systemic corticosteroids or large dose of inhaled steroids",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "Clinically significant laboratory abnormality on screening laboratory tests or any medical condition that in the opinion of the investigator would affect the outcome of the study",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "History of drug or alcohol abuse",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "Treatment with any investigational product in the last 3 months before study entry",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "History of noncompliance with regard to follow-up medical care",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   },
+   {
+    "text": "Any disease or condition that in the opinion of the investigator and/or sponsor may interfere with completion of the study",
+    "group": "Subjects meeting any of the following criteria were not to be included in the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yaounde Central Hospital",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Yaounde Central Hospital"
  },
  "collaborators": [
   "University of Yaounde 1",
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sub cutaneous liraglutide",
    "other_names": [
     "Victoza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Oral Vildagliptin",
    "other_names": [
     "Galvus"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "sub cutaneous liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sub cutaneous liraglutide"
-   ]
+   ],
+   "label": "sub cutaneous liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Oral Vildagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Oral Vildagliptin"
-   ]
+   ],
+   "label": "Oral Vildagliptin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This is a single blind randomised controlled clinical trial in uncontrolled type 2 Diabetes mellitus patients on oral glucose lowering agents, and naive to incretinomimetic. Participants will be randomised in two Arms : arm 1 receiving Liraglutide at 1,2 mg/day and arm 2 Vildagliptine at 100mg/day over 14 days. The two arms will be compared for 14-day changes in insulin secretion and insulin sensitivity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus known for at least one year\n* Uncontrolled glycaemic profile with HbA1c ≥ 7% on oral antidiabetic mono or bi-therapy\n* Naïve of incretinomimetic treatment\n* Informed consent\n\nExclusion Criteria:\n\n* Change in antidiabetic treatment less than 3 months prior to inclusion\n* Pancreatitis\n* Alanine amino transferase \\> 3 times the normal values\n* Pregnant or breastfeeding women\n* Estimated glomerular filtration rate \\< 60ml/min\n* Infection less than 10 days prior to inclusion or during the study\n* Acute complication of diabetes\n* Total haemoglobin \\< 11g/dL in women or \\< 13g/dL in men\n* Withdrawal of consent",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "National Obesity Centre",
    "city": "Yaoundé",
-   "state": null,
    "country": "Cameroon",
-   "status": null,
+   "facility": "National Obesity Centre",
    "lat": 3.86667,
-   "lon": 11.51667
+   "lon": 11.51667,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02832999",
@@ -121,6 +121,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes mellitus known for at least one year"
+   },
+   {
+    "text": "Uncontrolled glycaemic profile with HbA1c ≥ 7% on oral antidiabetic mono or bi-therapy"
+   },
+   {
+    "text": "Naïve of incretinomimetic treatment"
+   },
+   {
+    "text": "Informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Change in antidiabetic treatment less than 3 months prior to inclusion"
+   },
+   {
+    "text": "Pancreatitis"
+   },
+   {
+    "text": "Alanine amino transferase > 3 times the normal values"
+   },
+   {
+    "text": "Pregnant or breastfeeding women"
+   },
+   {
+    "text": "Estimated glomerular filtration rate < 60ml/min"
+   },
+   {
+    "text": "Infection less than 10 days prior to inclusion or during the study"
+   },
+   {
+    "text": "Acute complication of diabetes"
+   },
+   {
+    "text": "Total haemoglobin < 11g/dL in women or < 13g/dL in men"
+   },
+   {
+    "text": "Withdrawal of consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2016-02-05",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,59 +51,59 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Omarigliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo to Omarigliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "AMARYL®",
     "GLIMY"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Omarigliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Omarigliptin",
     "Drug: Glimepiride Placebo",
     "Drug: Metformin",
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "Omarigliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to Omarigliptin",
     "Drug: Glimepiride",
     "Drug: Metformin",
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -123,10 +123,10 @@
  "brief_summary": "This trial will assess the safety and efficacy of omarigliptin (MK-3102) compared with the sulfonylurea, glimepiride, in Type 2 diabetes mellitus participants with inadequate glycemic control on metformin monotherapy. The primay hypothesis of the study is that after 54 weeks, the mean change from baseline in hemoglobin A1C (A1C) in participants treated with omarigliptin is non-inferior compared with that in participants treated with glimepiride.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed with Type 2 diabetes mellitus\n* On a stable dose of metformin (≥1500 mg/day) for at least 12 weeks with inadequate glycemic control\n* Females of reproductive potential agree to remain abstinent or use or have their partner use acceptable methods of birth control\n\nExclusion Criteria:\n\n* History of type 1 diabetes mellitus or a history of ketoacidosis\n* Treated with any antihyperglycemic agents (AHA) therapies other than the protocol-required metformin within the prior 12 weeks of study participation or with omarigliptin at any time prior to signing informed consent\n* On a weight loss program and is not in the maintenance phase or has\n\nstarted a weight loss medication in the past 6 months or has undergone bariatric surgery within 12 months prior to study participation\n\n* Medical history of active liver disease (other than non-alcoholic\n\nhepatic steatosis), including chronic active hepatitis B or C, primary biliary cirrhosis, or symptomatic gallbladder disease\n\n* Human immunodeficiency virus\n* New or worsening coronary heart disease, congestive heart failure, myocardial infarction, unstable angina, coronary artery intervention, stroke or transient ischemic neurological disorder within the past 3 months\n* History of malignancy ≤5 years prior to study participation except for adequately treated basal cell or squamous cell skin cancer, or in situ\n\ncervical cancer\n\n* Clinically important hematological disorder (such as aplastic anemia,\n\nmyeloproliferative or myelodysplastic syndromes, thrombocytopenia)\n\n* Pregnant or breast-feeding, or is expecting to conceive or donate eggs\n\nduring the trial, including 21 days following the last dose of study drug",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -142,6 +142,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosed with Type 2 diabetes mellitus"
+   },
+   {
+    "text": "On a stable dose of metformin (≥1500 mg/day) for at least 12 weeks with inadequate glycemic control"
+   },
+   {
+    "text": "Females of reproductive potential agree to remain abstinent or use or have their partner use acceptable methods of birth control"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of type 1 diabetes mellitus or a history of ketoacidosis"
+   },
+   {
+    "text": "Treated with any antihyperglycemic agents (AHA) therapies other than the protocol-required metformin within the prior 12 weeks of study participation or with omarigliptin at any time prior to signing informed consent"
+   },
+   {
+    "text": "On a weight loss program and is not in the maintenance phase or has"
+   },
+   {
+    "text": "started a weight loss medication in the past 6 months or has undergone bariatric surgery within 12 months prior to study participation"
+   },
+   {
+    "text": "Medical history of active liver disease (other than non-alcoholic"
+   },
+   {
+    "text": "hepatic steatosis), including chronic active hepatitis B or C, primary biliary cirrhosis, or symptomatic gallbladder disease"
+   },
+   {
+    "text": "Human immunodeficiency virus"
+   },
+   {
+    "text": "New or worsening coronary heart disease, congestive heart failure, myocardial infarction, unstable angina, coronary artery intervention, stroke or transient ischemic neurological disorder within the past 3 months"
+   },
+   {
+    "text": "History of malignancy ≤5 years prior to study participation except for adequately treated basal cell or squamous cell skin cancer, or in situ"
+   },
+   {
+    "text": "cervical cancer"
+   },
+   {
+    "text": "Clinically important hematological disorder (such as aplastic anemia,"
+   },
+   {
+    "text": "myeloproliferative or myelodysplastic syndromes, thrombocytopenia)"
+   },
+   {
+    "text": "Pregnant or breast-feeding, or is expecting to conceive or donate eggs"
+   },
+   {
+    "text": "during the trial, including 21 days following the last dose of study drug"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

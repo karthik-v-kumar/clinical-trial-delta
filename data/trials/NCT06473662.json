@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2025-02-06",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Roger New",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Roger New"
  },
  "collaborators": [],
  "conditions": [
@@ -48,32 +48,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Oral insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Oral insulin"
+   ],
    "label": "75iu",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Oral insulin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Oral insulin"
+   ],
    "label": "150iu",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Oral insulin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "300iu",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Oral insulin"
-   ]
+   ],
+   "label": "300iu",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -85,23 +85,23 @@
  "brief_summary": "The aim of the study was to compare the pharmacodynamic properties of different doses of regular human insulin administered in capsule form twice daily in a randomised twelve-week open-label trial.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male or female aged 35 to 60 years (both inclusive)\n2. Type 2 diabetes mellitus diagnosed \\< 2 years prior to enrolment\n3. Glycated haemoglobin level ≥ 7% and ≤ 9.5%\n4. On stable oral monotherapy with metformin hydrochloride (1000 mg to 2500 mg/day) and regular diet and exercise regimen at least 12 weeks prior to enrolment\n5. Body mass index between 18 to 30 kg/m2\n6. Ability to perform capillary blood glucose measurements\n7. Willing to provide informed and written consent for the clinical trial\n8. Able to comply with all requirements of clinical trial protocol\n\nExclusion Criteria:\n\n1. Subject with history or evidence of hypersensitivity to insulin or metformin hydrochloride or its excipients\n2. Suffering from type 1 diabetes mellitus\n3. Received treatment with sulphonylureas or alpha-glucosidase inhibitors, Glucagonlike peptide-1 (GLP-1) receptor agonists or Sodium-glucose co-transporter 2 (SGLT2) inhibitors or meglitinides or pramlintide or thiazolidinediones within 3 months prior to enrolment\n4. Previously treated with insulin within 3 months prior to enrolment\n5. History of episodes of hypoglycaemia during 3 months prior to enrolment.\n6. Reduced awareness of hypoglycaemia or inability to identify and tackle hypoglycaemic episodes\n7. History of substantial weight loss defined as 5% decrease in body weight within the last 6 months\n8. Medical history of unstable angina within 1 year prior to enrolment\n9. History of tobacco or nicotine more than two packs/day within 3 months prior to enrolment\n10. Is, at the time of signing informed consent, a user of recreational or illicit drugs or has had a recent history (within 1 year prior to enrolment) of drug or alcohol abuse or dependence. (Note: Alcohol abuse includes heavy alcohol intake as defined by \\>3 drinks per day or \\>14 drinks per week, or binge drinking).\n11. History of gastrointestinal disorders which may potentially interfere with absorption of the investigational product\n12. Treatment with systemic corticosteroids or with inhalational corticosteroids (Beclomethasone or budesonide) within the 3 months prior to enrolment\n13. Likelihood of requiring treatment during the study period with prohibited medications mentioned (as defined in this clinical trial protocol)\n14. Female subject who is pregnant, lactating or planning pregnancy during the trial\n15. Female subject of childbearing age who is not willing to use adequate method of contraception during the study period\n16. Life expectancy of less than 6 months from screening\n17. Elective surgery or any other surgical procedure/s requiring general anaesthesia during the clinical trial\n18. Has participated in another research trial within 12 weeks prior to screening\n19. History of diabetic ketoacidosis requiring hospitalization within 6 months prior to enrolment, case of proliferative retinopathy or advanced neuropathy\n\n    1. Subject having any of the following laboratory results at screening\n    2. Estimated glomerular filtration rate (eGFR) \\<45 mL/min/1.73 m2\n    3. Alanine aminotransferase (ALT) and/or Aspartate aminotransferase (AST) \\>3 times of upper limit normal\n20. Blood urea nitrogen (BUN) \\> 30 mg/dL\n21. Subject who has a positive serology for hepatitis B virus (HBV) or hepatitis C (HCV) or human immunodeficiency virus (HIV) infections at screening\n22. Subject who has undergone pancreatectomy or pancreas islet transplant or renal transplant\n23. Subject receiving or has received any immunomodulation medications within 1 year prior to enrolment\n24. Subject with history or evidence of diabetic complications (e.g. diabetic retinopathy, diabetic neuropathy, or diabetic nephropathy, etc.), cardiac disorders, or any other systemic complication due to diabetes, which in the opinion of the Investigator signifies subjects' ineligibility for the trial\n25. Has any concurrent disease or medical/surgical condition, which required treatment of more than 3 months and which in the opinion of the Investigator does not allow participation of the subject in this study",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Diabetology",
    "city": "London",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Diabetology",
    "lat": 51.50853,
-   "lon": -0.12574
+   "lon": -0.12574,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06473662",
@@ -113,6 +113,118 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female aged 35 to 60 years (both inclusive)"
+   },
+   {
+    "text": "Type 2 diabetes mellitus diagnosed < 2 years prior to enrolment"
+   },
+   {
+    "text": "Glycated haemoglobin level ≥ 7% and ≤ 9.5%"
+   },
+   {
+    "text": "On stable oral monotherapy with metformin hydrochloride (1000 mg to 2500 mg/day) and regular diet and exercise regimen at least 12 weeks prior to enrolment"
+   },
+   {
+    "text": "Body mass index between 18 to 30 kg/m2"
+   },
+   {
+    "text": "Ability to perform capillary blood glucose measurements"
+   },
+   {
+    "text": "Willing to provide informed and written consent for the clinical trial"
+   },
+   {
+    "text": "Able to comply with all requirements of clinical trial protocol"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subject with history or evidence of hypersensitivity to insulin or metformin hydrochloride or its excipients"
+   },
+   {
+    "text": "Suffering from type 1 diabetes mellitus"
+   },
+   {
+    "text": "Received treatment with sulphonylureas or alpha-glucosidase inhibitors, Glucagonlike peptide-1 (GLP-1) receptor agonists or Sodium-glucose co-transporter 2 (SGLT2) inhibitors or meglitinides or pramlintide or thiazolidinediones within 3 months prior to enrolment"
+   },
+   {
+    "text": "Previously treated with insulin within 3 months prior to enrolment"
+   },
+   {
+    "text": "History of episodes of hypoglycaemia during 3 months prior to enrolment."
+   },
+   {
+    "text": "Reduced awareness of hypoglycaemia or inability to identify and tackle hypoglycaemic episodes"
+   },
+   {
+    "text": "History of substantial weight loss defined as 5% decrease in body weight within the last 6 months"
+   },
+   {
+    "text": "Medical history of unstable angina within 1 year prior to enrolment"
+   },
+   {
+    "text": "History of tobacco or nicotine more than two packs/day within 3 months prior to enrolment"
+   },
+   {
+    "text": "Is, at the time of signing informed consent, a user of recreational or illicit drugs or has had a recent history (within 1 year prior to enrolment) of drug or alcohol abuse or dependence. (Note: Alcohol abuse includes heavy alcohol intake as defined by >3 drinks per day or >14 drinks per week, or binge drinking)."
+   },
+   {
+    "text": "History of gastrointestinal disorders which may potentially interfere with absorption of the investigational product"
+   },
+   {
+    "text": "Treatment with systemic corticosteroids or with inhalational corticosteroids (Beclomethasone or budesonide) within the 3 months prior to enrolment"
+   },
+   {
+    "text": "Likelihood of requiring treatment during the study period with prohibited medications mentioned (as defined in this clinical trial protocol)"
+   },
+   {
+    "text": "Female subject who is pregnant, lactating or planning pregnancy during the trial"
+   },
+   {
+    "text": "Female subject of childbearing age who is not willing to use adequate method of contraception during the study period"
+   },
+   {
+    "text": "Life expectancy of less than 6 months from screening"
+   },
+   {
+    "text": "Elective surgery or any other surgical procedure/s requiring general anaesthesia during the clinical trial"
+   },
+   {
+    "text": "Has participated in another research trial within 12 weeks prior to screening"
+   },
+   {
+    "text": "History of diabetic ketoacidosis requiring hospitalization within 6 months prior to enrolment, case of proliferative retinopathy or advanced neuropathy",
+    "sub_items": [
+     "Subject having any of the following laboratory results at screening",
+     "Estimated glomerular filtration rate (eGFR) <45 mL/min/1.73 m2",
+     "Alanine aminotransferase (ALT) and/or Aspartate aminotransferase (AST) >3 times of upper limit normal"
+    ]
+   },
+   {
+    "text": "Blood urea nitrogen (BUN) > 30 mg/dL"
+   },
+   {
+    "text": "Subject who has a positive serology for hepatitis B virus (HBV) or hepatitis C (HCV) or human immunodeficiency virus (HIV) infections at screening"
+   },
+   {
+    "text": "Subject who has undergone pancreatectomy or pancreas islet transplant or renal transplant"
+   },
+   {
+    "text": "Subject receiving or has received any immunomodulation medications within 1 year prior to enrolment"
+   },
+   {
+    "text": "Subject with history or evidence of diabetic complications (e.g. diabetic retinopathy, diabetic neuropathy, or diabetic nephropathy, etc.), cardiac disorders, or any other systemic complication due to diabetes, which in the opinion of the Investigator signifies subjects' ineligibility for the trial"
+   },
+   {
+    "text": "Has any concurrent disease or medical/surgical condition, which required treatment of more than 3 months and which in the opinion of the Investigator does not allow participation of the subject in this study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

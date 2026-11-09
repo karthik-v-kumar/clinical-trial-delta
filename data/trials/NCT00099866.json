@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "vildagliptin",
    "other_names": [
     "LAF237A"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin Comparator",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Vildagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: vildagliptin"
-   ]
+   ],
+   "label": "Vildagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin Comparator"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The purpose of this study is to assess the safety and effectiveness of vildagliptin, an unapproved drug, compared to metformin in lowering overall blood glucose levels in people with type 2 diabetes who have not been previously treated with drug therapy to lower their blood sugar.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Not currently on durg therapy for type 2 diabetes\n* Body mass index (BMI) in the range 22-45\n* Blood glucose criteria must be met\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* Pregnancy or lactation\n* Evidence of serious diabetic complications\n* Evidence of serious cardiovascular conditions\n* Laboratory value abnormalities as defined by the protocol\n* Other protocol-defined exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Novartis investigative Site",
    "city": "Investigative Sites",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis investigative Site",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00099866",
@@ -119,6 +119,41 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Not currently on durg therapy for type 2 diabetes"
+   },
+   {
+    "text": "Body mass index (BMI) in the range 22-45"
+   },
+   {
+    "text": "Blood glucose criteria must be met"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Pregnancy or lactation"
+   },
+   {
+    "text": "Evidence of serious diabetic complications"
+   },
+   {
+    "text": "Evidence of serious cardiovascular conditions"
+   },
+   {
+    "text": "Laboratory value abnormalities as defined by the protocol"
+   },
+   {
+    "text": "Other protocol-defined exclusion criteria may apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

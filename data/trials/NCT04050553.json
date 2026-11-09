@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2024-05-20",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Tirzepatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Tirzepatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The main purpose of this study is to learn more about how tirzepatide affects the body's response to low blood sugar (hypoglycemia). The study is open to participants with type 2 diabetes. It will last about 42 weeks for each participant.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have type 2 diabetes mellitus (T2DM) for at least 1 year\n* Treated with diet and exercise and stable dose(s) of metformin 3 months prior to study entry with or without 1 additional oral antidiabetic medication (OAM) other than metformin.\n* Have a hemoglobin A1c (HbA1c) value at screening of ≥6.5% and ≤9.0 % if on metformin only.\n* Have a HbA1c value at screening of ≥6.0% and ≤8.5 %, if on metformin and 1 more allowed OAM.\n* Have a body mass index (BMI) between 23 and 45 kilograms per square meter (kg/m²) inclusive, at screening\n* Are of stable weight (±5%) \\>3 months prior to screening\n\nExclusion Criteria:\n\n* Have a history of proliferative retinopathy or maculopathy as determined by the investigator based on a recent (\\<6 months) ophthalmologic examination\n* Impaired renal estimated glomerular filtration rate (eGFR) \\<60 milliliters per minute per 1.73 square meters (mL/min/1.73 m²) calculated by Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI)\n* Have a history of or current cardiovascular, respiratory, hepatic, renal, gastrointestinal (GI), endocrine, hematological or neurological disorders capable of significantly altering the absorption, metabolism or elimination of drugs; of constituting a risk when taking the study drug; or of interfering with the interpretation of data\n* Have had acute myocardial infarction, congestive heart failure New York Heart Association Class III or IV, history of or suspected ischemic heart disease, and/or cerebrovascular accident (stroke \\[including transient ischemic attack\\])",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Universitätsklinikum Graz",
    "city": "Graz",
-   "state": "Styria",
    "country": "Austria",
-   "status": null,
+   "facility": "Universitätsklinikum Graz",
    "lat": 47.06733,
-   "lon": 15.44197
+   "lon": 15.44197,
+   "state": "Styria",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04050553",
@@ -120,6 +120,44 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have type 2 diabetes mellitus (T2DM) for at least 1 year"
+   },
+   {
+    "text": "Treated with diet and exercise and stable dose(s) of metformin 3 months prior to study entry with or without 1 additional oral antidiabetic medication (OAM) other than metformin."
+   },
+   {
+    "text": "Have a hemoglobin A1c (HbA1c) value at screening of ≥6.5% and ≤9.0 % if on metformin only."
+   },
+   {
+    "text": "Have a HbA1c value at screening of ≥6.0% and ≤8.5 %, if on metformin and 1 more allowed OAM."
+   },
+   {
+    "text": "Have a body mass index (BMI) between 23 and 45 kilograms per square meter (kg/m²) inclusive, at screening"
+   },
+   {
+    "text": "Are of stable weight (±5%) >3 months prior to screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have a history of proliferative retinopathy or maculopathy as determined by the investigator based on a recent (<6 months) ophthalmologic examination"
+   },
+   {
+    "text": "Impaired renal estimated glomerular filtration rate (eGFR) <60 milliliters per minute per 1.73 square meters (mL/min/1.73 m²) calculated by Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI)"
+   },
+   {
+    "text": "Have a history of or current cardiovascular, respiratory, hepatic, renal, gastrointestinal (GI), endocrine, hematological or neurological disorders capable of significantly altering the absorption, metabolism or elimination of drugs; of constituting a risk when taking the study drug; or of interfering with the interpretation of data"
+   },
+   {
+    "text": "Have had acute myocardial infarction, congestive heart failure New York Heart Association Class III or IV, history of or suspected ischemic heart disease, and/or cerebrovascular accident (stroke [including transient ischemic attack])"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

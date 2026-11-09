@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -49,19 +49,19 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "insulin detemir",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin NPH",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin aspart",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -74,10 +74,10 @@
  "brief_summary": "This trial is conducted in Europe. The purpose of the trial is to investigate the effect of insulin detemir on weight change in overweight and obese patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* HbA1c: 7.5-11.0%\n* BMI: 25-40 kg/m2\n\nExclusion Criteria:\n\n* Treatment with any OAD (Oral Antidiabetic Drugs) except metformin",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -85,13 +85,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "A Coruña",
-   "state": null,
    "country": "Spain",
-   "status": null,
+   "facility": null,
    "lat": 43.37135,
-   "lon": -8.396
+   "lon": -8.396,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00504673",
@@ -108,6 +108,23 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "HbA1c: 7.5-11.0%"
+   },
+   {
+    "text": "BMI: 25-40 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Treatment with any OAD (Oral Antidiabetic Drugs) except metformin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Bogomolets National Medical University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Bogomolets National Medical University"
  },
  "collaborators": [
   "Taras Shevchenko National University of Kyiv",
@@ -64,32 +64,32 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Probiotic lysate (postbiotic and metabiotic)",
    "other_names": [
     "Del-Immune V® Extra"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Probiotic lysate (postbiotic and metabiotic) group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Probiotic lysate (postbiotic and metabiotic)"
-   ]
+   ],
+   "label": "Probiotic lysate (postbiotic and metabiotic) group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Placebo"
-   ]
+   ],
+   "label": "Placebo group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The current study aim was to conduct placebo-controlled randomize clinical trial to assess the short-term efficacy and safety of postbiotics as an adjunction to the standard anti-diabetic therapy on insulin resistance, glycemic control parameters, β-cells functional activity, anthropometric parameters and markers of a chronic systemic inflammatory response in type 2 diabetes patients.\n\nThe study will include 3 periods. Screening period of up to 1 weeks to assess the eligibility to inclusion/exclusion criteria. Treatment period for 3 month where the participants will receive a twice daily oral dose of postbiotics (cell lysate and DNA fragments of the probiotic strain L. rhamnosus DV - NRRLB-68023) at the assigned dose of 100mg or placebo in capsules. During this period monthly phone contacts will be done for assessment of compliance and safety concerns. Follow-up period of up to 3 month.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* adult participants (ages 18-70)\n* presence of T2D diagnosed according to criteria of the American Diabetes Association;\n* BMI 25-40 kg/m2;\n* patient who treated with diet and exercise alone or metformin, SUs and insulin on a stabilized dose for at least 3 months before the study;\n* daily insulin dosage less than 60IU;\n* HbA1c between 6.5 and 10.0 %;\n* written informed consent.\n\nExclusion Criteria:\n\n* presence of type 1 diabetes;\n* severe diabetes-related complications at screening (ie, end-stage DKD, neuropathy requiring pharmacological treatment, proliferative retinopathy, autonomic neuropathy);\n* treatment with other than mention in inclusion criteria antidiabetic drugs (pioglitazone, SGLT-2 antagonists, GLP-1 analogues, DPP IV inhibitors etc);\n* regular use of an agents with gut microbiota modulation activity (antibiotic, pro-, pre-, post or synbiotics supplement etc.) within 3 months prior to enrollment;\n* allergy on probiotics or their components;\n* presence of gastrointestinal diseases such as food allergy, celiac disease, non-specific ulcerative colitis;\n* uncontrolled cardiovascular or respiratory disease, decompensated liver disease including ascites, encephalopathy or variceal bleeding, active malignancy, or chronic infections;\n* participant who had severe course of COVID-19 (extracorporeal membrane oxygenation, mechanically ventilated), and/or had a confirmed case of COVID-19 within 4 weeks prior to enrollment;\n* participation in other clinical trials;\n* presence of pregnancy or lactation.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,40 +116,40 @@
  },
  "sites": [
   {
+   "city": "Kyiv",
+   "country": "Ukraine",
    "facility": "Bogomolets National Medical University",
-   "city": "Kyiv",
-   "state": null,
-   "country": "Ukraine",
-   "status": null,
    "lat": 50.45466,
-   "lon": 30.5238
+   "lon": 30.5238,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Kyiv",
+   "country": "Ukraine",
    "facility": "Center for Innovative Medical Technologies of the National Academy of Sciences of Ukraine",
-   "city": "Kyiv",
-   "state": null,
-   "country": "Ukraine",
-   "status": null,
    "lat": 50.45466,
-   "lon": 30.5238
+   "lon": 30.5238,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Kyiv",
+   "country": "Ukraine",
    "facility": "Kyiv City Clinical Endocrinology Center",
-   "city": "Kyiv",
-   "state": null,
-   "country": "Ukraine",
-   "status": null,
    "lat": 50.45466,
-   "lon": 30.5238
+   "lon": 30.5238,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Danylo Halytsky Lviv National Medical University",
    "city": "Lviv",
-   "state": null,
    "country": "Ukraine",
-   "status": null,
+   "facility": "Danylo Halytsky Lviv National Medical University",
    "lat": 49.83826,
-   "lon": 24.02324
+   "lon": 24.02324,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05770076",
@@ -161,6 +161,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "adult participants (ages 18-70)"
+   },
+   {
+    "text": "presence of T2D diagnosed according to criteria of the American Diabetes Association;"
+   },
+   {
+    "text": "BMI 25-40 kg/m2;"
+   },
+   {
+    "text": "patient who treated with diet and exercise alone or metformin, SUs and insulin on a stabilized dose for at least 3 months before the study;"
+   },
+   {
+    "text": "daily insulin dosage less than 60IU;"
+   },
+   {
+    "text": "HbA1c between 6.5 and 10.0 %;"
+   },
+   {
+    "text": "written informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "presence of type 1 diabetes;"
+   },
+   {
+    "text": "severe diabetes-related complications at screening (ie, end-stage DKD, neuropathy requiring pharmacological treatment, proliferative retinopathy, autonomic neuropathy);"
+   },
+   {
+    "text": "treatment with other than mention in inclusion criteria antidiabetic drugs (pioglitazone, SGLT-2 antagonists, GLP-1 analogues, DPP IV inhibitors etc);"
+   },
+   {
+    "text": "regular use of an agents with gut microbiota modulation activity (antibiotic, pro-, pre-, post or synbiotics supplement etc.) within 3 months prior to enrollment;"
+   },
+   {
+    "text": "allergy on probiotics or their components;"
+   },
+   {
+    "text": "presence of gastrointestinal diseases such as food allergy, celiac disease, non-specific ulcerative colitis;"
+   },
+   {
+    "text": "uncontrolled cardiovascular or respiratory disease, decompensated liver disease including ascites, encephalopathy or variceal bleeding, active malignancy, or chronic infections;"
+   },
+   {
+    "text": "participant who had severe course of COVID-19 (extracorporeal membrane oxygenation, mechanically ventilated), and/or had a confirmed case of COVID-19 within 4 weeks prior to enrollment;"
+   },
+   {
+    "text": "participation in other clinical trials;"
+   },
+   {
+    "text": "presence of pregnancy or lactation."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

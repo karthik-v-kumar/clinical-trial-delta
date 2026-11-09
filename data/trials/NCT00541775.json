@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2010-06-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,54 +51,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Rosiglitazone",
    "other_names": [
     "Avandia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: Comparator: Metformin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Rosiglitazone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Rosiglitazone",
     "Drug: Comparator: Metformin"
-   ]
+   ],
+   "label": "Rosiglitazone",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Placebo",
     "Drug: Comparator: Metformin"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "The purpose of this study is to test the safety and effectiveness of sitagliptin in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient has Type 2 diabetes\n* Currently taking metformin \\>1500 mg/day for at least 10 weeks\n* Male or female\n\nExclusion Criteria:\n\n* Patient has peripheral edema\n* History of type 1 diabetes\n* Patient required insulin within prior 8 weeks\n* Have participated or are currently participating in another study with an investigational compound or device within 12 weeks of starting this study\n* Participating in a weight loss program",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,6 +129,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient has Type 2 diabetes"
+   },
+   {
+    "text": "Currently taking metformin >1500 mg/day for at least 10 weeks"
+   },
+   {
+    "text": "Male or female"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has peripheral edema"
+   },
+   {
+    "text": "History of type 1 diabetes"
+   },
+   {
+    "text": "Patient required insulin within prior 8 weeks"
+   },
+   {
+    "text": "Have participated or are currently participating in another study with an investigational compound or device within 12 weeks of starting this study"
+   },
+   {
+    "text": "Participating in a weight loss program"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

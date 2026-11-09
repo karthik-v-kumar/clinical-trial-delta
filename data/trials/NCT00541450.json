@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2011-04-14",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,60 +51,60 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Comparator: sitagliptin phosphate (sitagliptin)",
    "other_names": [
     "MK0431, Januvia™"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "sitagliptin phosphate (+) metformin hydrochloride",
    "other_names": [
     "MK-0431A, Janumet™"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: pioglitazone",
    "other_names": [
     "Actos®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching placebo to pioglitazone",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching placebo to sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching Placebo to Sita/Met FDC",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sita/Met FDC",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: sitagliptin phosphate (sitagliptin)",
     "Drug: sitagliptin phosphate (+) metformin hydrochloride",
     "Drug: Matching placebo to pioglitazone"
-   ]
+   ],
+   "label": "Sita/Met FDC",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Pioglitazone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: pioglitazone",
     "Drug: Matching placebo to sitagliptin",
     "Drug: Matching Placebo to Sita/Met FDC"
-   ]
+   ],
+   "label": "Pioglitazone",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of sitagliptin and MK0431A in comparison to a commonly used medication in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients between the ages of 18 and 78 with type 2 diabetes mellitus\n* Patient has not been on any antihyperglycemic agent (Insulin or oral) in the last 3 months\n\nExclusion Criteria:\n\n* Patient has a history of type 1 diabetes mellitus or a history of ketoacidosis\n* Patient has previously been treated with sitagliptin or has previously been in a study using a DPP-4 inhibitor",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -139,6 +139,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients between the ages of 18 and 78 with type 2 diabetes mellitus"
+   },
+   {
+    "text": "Patient has not been on any antihyperglycemic agent (Insulin or oral) in the last 3 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has a history of type 1 diabetes mellitus or a history of ketoacidosis"
+   },
+   {
+    "text": "Patient has previously been treated with sitagliptin or has previously been in a study using a DPP-4 inhibitor"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

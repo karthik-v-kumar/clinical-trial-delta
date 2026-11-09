@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hanmi Pharmaceutical Company Limited",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hanmi Pharmaceutical Company Limited"
  },
  "collaborators": [],
  "conditions": [
@@ -52,25 +52,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Simvastatin CR",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Simvastatin CR 20mg- morning administration",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Simvastatin CR"
-   ]
+   ],
+   "label": "Simvastatin CR 20mg- morning administration",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Simvastatin CR 20mg- evening administration",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Simvastatin CR"
-   ]
+   ],
+   "label": "Simvastatin CR 20mg- evening administration",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of morning versus evening intake of Simvastatin Controlled Release tablet 20mg for 8 weeks in patients with hyperlipidemia. This study will investigate equivalence of the low-density lipoprotein(LDL) cholesterol percent change.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Aged between 19 and 75\n* Defined as a fasting 100mg/dl≤ LDL cholesterol \\<220mg/dl and triglyceride level\\<400 mg/dl\n* Need drug therapy by NCEP ATP III guideline\n* Signed informed consent\n\nExclusion Criteria:\n\n* Has a hypersensitivity to HMG-CoA reductase inhibitor or simvastatin\n* Has a presence or history of alcohol abuse or drug abuse\n* Active gallbladder disease within 12 months\n* Pancreatitis or Hepatic dysfunction (ALT or AST levels \\> 2XUNL)\n* HbA1c≥ 9% in type 2 diabetes mellitus patients\n* SBP \\< 90mmHg or \\> 160mmHg\n* DBP \\< 50mmHg or \\> 100mmHg\n* Myocardial infarction or revascularization procedure within 6 months\n* Has significant cardiovascular disease\n* Malignant tumor within 5years\n* Has fibromyalgia, myopathy, rhabdomyolysis or acute myalgia\n* Uric acid level \\> 9 mg/dl\n* Thyroid stimulating hormone ≥ 2XUNL\n* Active peptic ulcer disease\n* CPK levels \\> 3XUNL\n* creatinine level \\> 2 mg/dl\n* Negative pregnancy test for women of childbearing age and agreement to use contraception while on study\n* Had participated other clinical trial within 4 weeks\n* Need systemic administration of corticosteroids intermittently",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,13 +93,13 @@
  },
  "sites": [
   {
-   "facility": "8 Sites",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "8 Sites",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00973115",
@@ -111,6 +111,83 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Aged between 19 and 75"
+   },
+   {
+    "text": "Defined as a fasting 100mg/dl≤ LDL cholesterol <220mg/dl and triglyceride level<400 mg/dl"
+   },
+   {
+    "text": "Need drug therapy by NCEP ATP III guideline"
+   },
+   {
+    "text": "Signed informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has a hypersensitivity to HMG-CoA reductase inhibitor or simvastatin"
+   },
+   {
+    "text": "Has a presence or history of alcohol abuse or drug abuse"
+   },
+   {
+    "text": "Active gallbladder disease within 12 months"
+   },
+   {
+    "text": "Pancreatitis or Hepatic dysfunction (ALT or AST levels > 2XUNL)"
+   },
+   {
+    "text": "HbA1c≥ 9% in type 2 diabetes mellitus patients"
+   },
+   {
+    "text": "SBP < 90mmHg or > 160mmHg"
+   },
+   {
+    "text": "DBP < 50mmHg or > 100mmHg"
+   },
+   {
+    "text": "Myocardial infarction or revascularization procedure within 6 months"
+   },
+   {
+    "text": "Has significant cardiovascular disease"
+   },
+   {
+    "text": "Malignant tumor within 5years"
+   },
+   {
+    "text": "Has fibromyalgia, myopathy, rhabdomyolysis or acute myalgia"
+   },
+   {
+    "text": "Uric acid level > 9 mg/dl"
+   },
+   {
+    "text": "Thyroid stimulating hormone ≥ 2XUNL"
+   },
+   {
+    "text": "Active peptic ulcer disease"
+   },
+   {
+    "text": "CPK levels > 3XUNL"
+   },
+   {
+    "text": "creatinine level > 2 mg/dl"
+   },
+   {
+    "text": "Negative pregnancy test for women of childbearing age and agreement to use contraception while on study"
+   },
+   {
+    "text": "Had participated other clinical trial within 4 weeks"
+   },
+   {
+    "text": "Need systemic administration of corticosteroids intermittently"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2016-04-18",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Medical College of Wisconsin",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Medical College of Wisconsin"
  },
  "collaborators": [],
  "conditions": [
@@ -50,41 +50,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "simvastatin or ezetimibe",
    "other_names": [
     "Zocor or Zetia"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: simvastatin or ezetimibe"
+   ],
    "label": "Subjects with type 1 diabetes mellitus, option 1",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: simvastatin or ezetimibe"
-   ]
+   "type": "OTHER"
   },
   {
+   "intervention_names": [
+    "Drug: simvastatin or ezetimibe"
+   ],
    "label": "Subjects with type 2 diabetes mellitus option 1",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: simvastatin or ezetimibe"
-   ]
+   "type": "OTHER"
   },
   {
+   "intervention_names": [
+    "Drug: simvastatin or ezetimibe"
+   ],
    "label": "Subjects with type 1 diabetes mellitus, option 2",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: simvastatin or ezetimibe"
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "Subjects with type 2 diabetes mellitus option 2",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: simvastatin or ezetimibe"
-   ]
+   ],
+   "label": "Subjects with type 2 diabetes mellitus option 2",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "HMG CoA reductase inhibitors (statins) are commonly used to treat high cholesterol (HC) in both type 1 and type 2 diabetes mellitus (DM). Several studies have shown benefits of statin among patients of type 2 DM, however, no such data is available for patients with type 1 DM.\n\nIt is known from studies on cholesterol metabolism using surrogate markers that patients with type 1 DM have higher cholesterol absorption compared to normals and those with type 2 DM have higher cholesterol synthesis. Since statins inhibit synthesis, patients with type 1 DM may not have a good response and may respond better to cholesterol absorption inhibitors. The purpose of this study is to determine the cholesterol lowering effects of cholesterol absorption inhibitors and cholesterol synthesis inhibitors in subjects with type 1 and type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 1 DM:\n* Age \\> 18 years\n* Subjects diagnosed with type 1 DM (diagnosed based upon history of ketoacidosis, proven insulin dependence, absent C-peptide and or positive autoantibody profile (such as anti-GAD etc.)\n* Stable A1C \\< 8.5%\n* BMI \\< 31\n* Type 2 DM:\n* Age \\> 18 years\n* Subjects diagnosed with type II DM (diagnosed as adult onset, not-insulin dependent and not on insulin)\n* Stable A1C \\< 8.5%\n* BMI \\< 31\n\nExclusion Criteria:\n\n* History of active, unstable cardiovascular disease (including MI, CHF, Stroke, Angina, CABG, stenting/PTCA, peripheral vascular disease, intermittent claudication)\n* Pregnancy, nursing or likely to get pregnant during the course of the study (not on oral contraceptives and premenopausal)\n* Chronic Kidney Disease (creatinine \\> 2.0)\n* Liver function test abnormalities, not previously worked up (AST or ALT \\>4x upper limit of normal)\n* Active substance abuse including alcohol\n* History of severe Hypertriglyceridemia (untreated TG \\> 500) and on therapy\n* Use of agents that interfere with cholesterol absorption (such as fiber, resins etc.) which can not be discontinued for the duration of the study\n* Actively enrolled in a weight loss program or following a special diet ( e.g.: Atkins diet)\n* History of malignancy \\<5y\n* History of Rhabdomyolysis and Myopathy\n* Use of on-going oral corticosteroids\n* History of HIV infection\n* Use of following drugs/compounds: cyclosporine, itraconazole, ketoconazole, erythromycin, clarithromycin, HIV protease inhibitors, nefazodone, gemfibrozil, niacin, amiodarone, verapamil or large quantities of grape fruit juice (\\> 1 quart per day)\n* Proteinuria: more than or equal to 300mg/24 hours calculated from random urine specimen.\n* BMI \\>31\n* Anyone with hypersensitivity to either one of the study medications\n* Allergy to Soy bean products\n* Unable to consume milk products with or without Lactaid®",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,13 +107,13 @@
  },
  "sites": [
   {
-   "facility": "Medical College of Wisconsin /Froedtert Hospital",
    "city": "Milwaukee",
-   "state": "Wisconsin",
    "country": "United States",
-   "status": null,
+   "facility": "Medical College of Wisconsin /Froedtert Hospital",
    "lat": 43.0389,
-   "lon": -87.90647
+   "lon": -87.90647,
+   "state": "Wisconsin",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00879710",
@@ -125,6 +125,98 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 1 DM:"
+   },
+   {
+    "text": "Age > 18 years"
+   },
+   {
+    "text": "Subjects diagnosed with type 1 DM (diagnosed based upon history of ketoacidosis, proven insulin dependence, absent C-peptide and or positive autoantibody profile (such as anti-GAD etc.)"
+   },
+   {
+    "text": "Stable A1C < 8.5%"
+   },
+   {
+    "text": "BMI < 31"
+   },
+   {
+    "text": "Type 2 DM:"
+   },
+   {
+    "text": "Age > 18 years"
+   },
+   {
+    "text": "Subjects diagnosed with type II DM (diagnosed as adult onset, not-insulin dependent and not on insulin)"
+   },
+   {
+    "text": "Stable A1C < 8.5%"
+   },
+   {
+    "text": "BMI < 31"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of active, unstable cardiovascular disease (including MI, CHF, Stroke, Angina, CABG, stenting/PTCA, peripheral vascular disease, intermittent claudication)"
+   },
+   {
+    "text": "Pregnancy, nursing or likely to get pregnant during the course of the study (not on oral contraceptives and premenopausal)"
+   },
+   {
+    "text": "Chronic Kidney Disease (creatinine > 2.0)"
+   },
+   {
+    "text": "Liver function test abnormalities, not previously worked up (AST or ALT >4x upper limit of normal)"
+   },
+   {
+    "text": "Active substance abuse including alcohol"
+   },
+   {
+    "text": "History of severe Hypertriglyceridemia (untreated TG > 500) and on therapy"
+   },
+   {
+    "text": "Use of agents that interfere with cholesterol absorption (such as fiber, resins etc.) which can not be discontinued for the duration of the study"
+   },
+   {
+    "text": "Actively enrolled in a weight loss program or following a special diet ( e.g.: Atkins diet)"
+   },
+   {
+    "text": "History of malignancy <5y"
+   },
+   {
+    "text": "History of Rhabdomyolysis and Myopathy"
+   },
+   {
+    "text": "Use of on-going oral corticosteroids"
+   },
+   {
+    "text": "History of HIV infection"
+   },
+   {
+    "text": "Use of following drugs/compounds: cyclosporine, itraconazole, ketoconazole, erythromycin, clarithromycin, HIV protease inhibitors, nefazodone, gemfibrozil, niacin, amiodarone, verapamil or large quantities of grape fruit juice (> 1 quart per day)"
+   },
+   {
+    "text": "Proteinuria: more than or equal to 300mg/24 hours calculated from random urine specimen."
+   },
+   {
+    "text": "BMI >31"
+   },
+   {
+    "text": "Anyone with hypersensitivity to either one of the study medications"
+   },
+   {
+    "text": "Allergy to Soy bean products"
+   },
+   {
+    "text": "Unable to consume milk products with or without Lactaid®"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

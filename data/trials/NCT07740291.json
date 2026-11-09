@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Texas Tech University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Texas Tech University"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "GLP-1 Receptor Agonist Therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Structured Lifestyle Intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "GLP-1 Receptor Agonist (Semaglutide or Tirzepatide)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: GLP-1 Receptor Agonist Therapy"
-   ]
+   ],
+   "label": "GLP-1 Receptor Agonist (Semaglutide or Tirzepatide)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Lifestyle Comparator Arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Structured Lifestyle Intervention"
-   ]
+   ],
+   "label": "Lifestyle Comparator Arm",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -135,10 +135,10 @@
  "brief_summary": "This study examines how two different weight-loss strategies affect heart and metabolic health, as well as changes at the molecular level in the body. One group includes adults who are starting a GLP-1 receptor agonist medication (i.e., semaglutide or tirzepatide) prescribed by their own doctor for weight loss. The other group includes adults who will participate in a structured lifestyle program combining a reduced-calorie diet with increased physical activity. Both groups complete assessments at the start of the study and again after three months.\n\nAt each visit, participants have their weight, body composition, blood pressure, and resting metabolic rate measured. A blood draw is collected to evaluate cholesterol, blood sugar, insulin, appetite hormones, and liver and kidney function markers, and to analyze gene activity (RNA sequencing) and metabolites, which are small molecules that reflect how the body is using energy and nutrients. Participants also complete online questionnaires about diet, disordered eating, stress, mental health, and quality of life. Those in the lifestyle group attend three individual nutrition and physical activity counseling sessions over the course of the study.\n\nThe main goals of the study are (1) to determine whether GLP-1 receptor agonist medication or lifestyle changes produce greater improvements in heart and metabolic health markers over three months; (2) to examine if GLP-1 receptor agonist medication or lifestyle changes produce greater improvement in disordered eating, stress, mental health, and quality of life; (3) to investigate if GLP-1 receptor agonist medication or lifestyle changes produce greater improvement in appetite-related hormones (i.e., ghrelin, GLP-1, insulin, leptin, and peptide YY); and (4) to explore whether the two approaches cause different changes in gene expression and metabolic profiles. This is a pilot study conducted at Texas Tech University's Nutrition and Metabolic Health Initiative clinic in Lubbock, Texas.\n\nWho can participate: Adults aged 18 years and older with a BMI of 27.5 or higher who are either starting semaglutide or tirzepatide therapy for weight management or who are seeking weight management without the use of weight-loss medications.\n\nWho cannot participate: Individuals who are pregnant or lactating, have a pacemaker or internal medical device, have certain serious medical conditions (such as active cancer, uncontrolled hypertension, or severe kidney disease), have type 1 diabetes, or use insulin for type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 18 years or older\n* BMI of 27.5 kg/m2 or higher\n* For GLP-1 RA arm: initiating semaglutide or tirzepatide for weight loss as prescribed by their own medical provider\n* For LS comparator arm: not currently taking a GLP-1 receptor agonist or other weight-loss medication, and no use of weight-loss medication within the past 3 months\n\nExclusion Criteria:\n\n* Pregnant\n* Breastfeeding\n* Wears a pacemaker or other internal medical device\n* Chronic kidney disease in the past 2 years\n* Active cancer or cancer treatment within the past 6 months\n* Current diagnosis of any major endocrine, inflammatory, cardiovascular, or neurological disorder/condition, including Addison's disease, autism, congestive heart failure, Crohn's disease, Cushing's syndrome, hyperparathyroidism, multiple sclerosis, neuromuscular disorders (Guillain-Barre syndrome or myasthenia gravis), stroke, thyroid gland disorders (hyperthyroidism or hypothyroidism), type 1 diabetes, and ulcerative colitis\n* Insulin therapy for type 2 diabetes\n* For LS comparator arm only: initiating any weight-loss medication (including a GLP-1 receptor agonist) currently or within the past 3 months",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -146,13 +146,13 @@
  },
  "sites": [
   {
-   "facility": "Nutrition Metabolic Health Initiative (NMHI)",
    "city": "Lubbock",
-   "state": "Texas",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Nutrition Metabolic Health Initiative (NMHI)",
    "lat": 33.57786,
-   "lon": -101.85517
+   "lon": -101.85517,
+   "state": "Texas",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07740291",
@@ -164,6 +164,50 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 18 years or older"
+   },
+   {
+    "text": "BMI of 27.5 kg/m2 or higher"
+   },
+   {
+    "text": "For GLP-1 RA arm: initiating semaglutide or tirzepatide for weight loss as prescribed by their own medical provider"
+   },
+   {
+    "text": "For LS comparator arm: not currently taking a GLP-1 receptor agonist or other weight-loss medication, and no use of weight-loss medication within the past 3 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant"
+   },
+   {
+    "text": "Breastfeeding"
+   },
+   {
+    "text": "Wears a pacemaker or other internal medical device"
+   },
+   {
+    "text": "Chronic kidney disease in the past 2 years"
+   },
+   {
+    "text": "Active cancer or cancer treatment within the past 6 months"
+   },
+   {
+    "text": "Current diagnosis of any major endocrine, inflammatory, cardiovascular, or neurological disorder/condition, including Addison's disease, autism, congestive heart failure, Crohn's disease, Cushing's syndrome, hyperparathyroidism, multiple sclerosis, neuromuscular disorders (Guillain-Barre syndrome or myasthenia gravis), stroke, thyroid gland disorders (hyperthyroidism or hypothyroidism), type 1 diabetes, and ulcerative colitis"
+   },
+   {
+    "text": "Insulin therapy for type 2 diabetes"
+   },
+   {
+    "text": "For LS comparator arm only: initiating any weight-loss medication (including a GLP-1 receptor agonist) currently or within the past 3 months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

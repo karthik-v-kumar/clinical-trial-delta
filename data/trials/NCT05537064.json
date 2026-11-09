@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "DOUBLE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Pennsylvania",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Pennsylvania"
  },
  "collaborators": [],
  "conditions": [
@@ -51,35 +51,35 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Non-visit Based Intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Visit-Based Intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Non-visit Based Intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Non-visit Based Intervention"
-   ]
+   ],
+   "label": "Non-visit Based Intervention",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Visit-Based Intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Visit-Based Intervention"
-   ]
+   ],
+   "label": "Visit-Based Intervention",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "This pilot study consists of a pair of pragmatic clinical trials that will evaluate two separate methods for optimizing referral of eligible patients to a centralized pharmacy service for statin management: 1) A stepped wedge clinical trial, with randomization at the level of the provider, evaluating a visit-based nudge for referral to pharmacy services versus usual care; 2) A cluster randomized trial, with randomization at the level of the practice, evaluating a non-visit based nudge for referral to pharmacy services versus usual care.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Primary Care Providers with at least 10 patients among their entire panel who meet the following criteria:\n* Have a LGH PCP, AND\n* 21-75 years old, AND\n* An indication for high- or moderate-intensity statin, AND\n\n  * Pooled cohort risk equation 10-year ASCVD risk greater than 10%, OR\n  * diabetes mellitus, OR\n  * very high LDL-C \\> 190 mg/dL, OR\n  * familial hyperlipidemia, OR\n  * established ASCVD,\n* Not currently on statin therapy, OR on low dose-statin therapy\n\nExclusion Criteria:\n\n* Have an allergy to statins\n* Severe renal insufficiency defined as glomerular filtration rate (GFR) less than 30 mL/min or on dialysis\n* Adverse reaction to statins including statin-related a) myopathy; b) Rhabdomyolysis; c) hepatitis\n* Pregnant\n* Currently breastfeeding\n* On hospice or at the end-of-life\n* On a PCSK9 Inhibitor medication\n* Physicians (and their respective patients) will be excluded if they have less than 10 patients among their entire panel that are eligible for a statin medication.",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Lancaster General Hospital",
    "city": "Lancaster",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "Lancaster General Hospital",
    "lat": 40.03788,
-   "lon": -76.30551
+   "lon": -76.30551,
+   "state": "Pennsylvania",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05537064",
@@ -124,6 +124,60 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Primary Care Providers with at least 10 patients among their entire panel who meet the following criteria:"
+   },
+   {
+    "text": "Have a LGH PCP, AND"
+   },
+   {
+    "text": "21-75 years old, AND"
+   },
+   {
+    "text": "An indication for high- or moderate-intensity statin, AND",
+    "sub_items": [
+     "Pooled cohort risk equation 10-year ASCVD risk greater than 10%, OR",
+     "diabetes mellitus, OR",
+     "very high LDL-C > 190 mg/dL, OR",
+     "familial hyperlipidemia, OR",
+     "established ASCVD,"
+    ]
+   },
+   {
+    "text": "Not currently on statin therapy, OR on low dose-statin therapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have an allergy to statins"
+   },
+   {
+    "text": "Severe renal insufficiency defined as glomerular filtration rate (GFR) less than 30 mL/min or on dialysis"
+   },
+   {
+    "text": "Adverse reaction to statins including statin-related a) myopathy; b) Rhabdomyolysis; c) hepatitis"
+   },
+   {
+    "text": "Pregnant"
+   },
+   {
+    "text": "Currently breastfeeding"
+   },
+   {
+    "text": "On hospice or at the end-of-life"
+   },
+   {
+    "text": "On a PCSK9 Inhibitor medication"
+   },
+   {
+    "text": "Physicians (and their respective patients) will be excluded if they have less than 10 patients among their entire panel that are eligible for a statin medication."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SCREENING",
   "masking": "NONE",
+  "primary_purpose": "SCREENING",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "NHS Greater Glasgow and Clyde",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "NHS Greater Glasgow and Clyde"
  },
  "collaborators": [
   "AstraZeneca"
@@ -54,23 +54,23 @@
  ],
  "interventions": [
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "NT-proBNP",
-   "other_names": []
+   "other_names": [],
+   "type": "DIAGNOSTIC_TEST"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Routine care arm",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Investigational arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Diagnostic Test: NT-proBNP"
-   ]
+   ],
+   "label": "Investigational arm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "This is a prospective, multicentre, unblinded, randomised, controlled trial. The primary aim is to assess a targeted screening strategy to detect undiagnosed heart failure in high-risk patients with diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female ≥40 years of age\n* Informed consent\n* An established diagnosis of diabetes (type 1 or type 2)\n* At least one additional risk factor for heart failure:\n\n  1. Coronary artery disease (either a previous documented type 1 myocardial infarction or coronary artery bypass grafting or percutaneous coronary intervention or documented stenosis of an epicardial coronary artery \\[\\>50% left main or \\>70% left anterior descending, circumflex or right coronary artery\\])\n  2. Persistent or permanent atrial fibrillation (not paroxysmal atrial fibrillation)\n  3. Previous ischemic or embolic stroke\n  4. Peripheral arterial disease (previous surgical or percutaneous revascularisation or a documented stenosis greater than 50% of a major peripheral arterial vessel).\n  5. Chronic kidney disease (defined as an estimated glomerular filtration rate \\<60mL/min/1.73m2 or eGFR 60-90mL/min/1.73m2 and UACR \\>300mg/g).\n  6. Regular loop diuretic use (any dose at any dosing interval) for \\>30 days.\n  7. COPD (evidenced by one of the following; PFTs showing airway obstruction, diagnosis by respiratory physician, CT scan reporting presence of emphysema or treatment with national guideline-advocated COPD therapy).\n\nExclusion Criteria:\n\n* Inability to give informed consent e.g., due to significant cognitive impairment.\n* Previous documented diagnosis of heart failure.\n* Echocardiogram or NT-proBNP interpreted as excluding heart failure within 12 months.\n* Currently receiving scheduled renal replacement therapy.\n* Anyone who, in the investigators' opinion, is not suitable to participate in the trial for other reasons e.g., a diagnosis which may compromise survival over the study period",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,22 +93,22 @@
  },
  "sites": [
   {
-   "facility": "Glasgow Royal Infirmary",
    "city": "Glasgow",
-   "state": "Scotland",
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Glasgow Royal Infirmary",
    "lat": 55.86515,
-   "lon": -4.25763
+   "lon": -4.25763,
+   "state": "Scotland",
+   "status": null
   },
   {
-   "facility": "Queen Elizabeth University Hospital",
    "city": "Glasgow",
-   "state": "Scotland",
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Queen Elizabeth University Hospital",
    "lat": 55.86515,
-   "lon": -4.25763
+   "lon": -4.25763,
+   "state": "Scotland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05705869",
@@ -122,6 +122,50 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female ≥40 years of age"
+   },
+   {
+    "text": "Informed consent"
+   },
+   {
+    "text": "An established diagnosis of diabetes (type 1 or type 2)"
+   },
+   {
+    "text": "At least one additional risk factor for heart failure:",
+    "sub_items": [
+     "Coronary artery disease (either a previous documented type 1 myocardial infarction or coronary artery bypass grafting or percutaneous coronary intervention or documented stenosis of an epicardial coronary artery [>50% left main or >70% left anterior descending, circumflex or right coronary artery])",
+     "Persistent or permanent atrial fibrillation (not paroxysmal atrial fibrillation)",
+     "Previous ischemic or embolic stroke",
+     "Peripheral arterial disease (previous surgical or percutaneous revascularisation or a documented stenosis greater than 50% of a major peripheral arterial vessel).",
+     "Chronic kidney disease (defined as an estimated glomerular filtration rate <60mL/min/1.73m2 or eGFR 60-90mL/min/1.73m2 and UACR >300mg/g).",
+     "Regular loop diuretic use (any dose at any dosing interval) for >30 days.",
+     "COPD (evidenced by one of the following; PFTs showing airway obstruction, diagnosis by respiratory physician, CT scan reporting presence of emphysema or treatment with national guideline-advocated COPD therapy)."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Inability to give informed consent e.g., due to significant cognitive impairment."
+   },
+   {
+    "text": "Previous documented diagnosis of heart failure."
+   },
+   {
+    "text": "Echocardiogram or NT-proBNP interpreted as excluding heart failure within 12 months."
+   },
+   {
+    "text": "Currently receiving scheduled renal replacement therapy."
+   },
+   {
+    "text": "Anyone who, in the investigators' opinion, is not suitable to participate in the trial for other reasons e.g., a diagnosis which may compromise survival over the study period"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

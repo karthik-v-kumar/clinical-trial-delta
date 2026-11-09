@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -53,63 +53,63 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ezetimibe + Rosuvastatin",
    "other_names": [
     "Zetia",
     "SCH 58235",
     "Crestor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Crestor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ezetimibe",
    "other_names": [
     "Zetia",
     "SCH 58235"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Ezetimibe + Rosuvastatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe + Rosuvastatin"
-   ]
+   ],
+   "label": "Ezetimibe + Rosuvastatin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Ezetimibe",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe"
-   ]
+   ],
+   "label": "Ezetimibe",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Rosuvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin"
-   ]
+   ],
+   "label": "Rosuvastatin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -125,10 +125,10 @@
  "brief_summary": "The purpose of this study is to obtain data of the coadministration of ezetimibe and rosuvastatin to support the concomitant use of these two drugs in patients requiring additional cholesterol-lowering management. Treatment is administered for 14 days.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males and females between the ages of 18 and 55 years inclusive, having a Body Mass Index (BMI) between 19-31 inclusive. BMI=weight (kg)/height (m\\^2).\n* Subjects must have untreated hypercholesterolemia with a directly measured fasting LDL-C \\>=130 mg/dL (3.37 mmol/L) at Screening and on Day -1. Subjects must be free of any clinically significant disease that requires a physician's care and/or would interfere with the study evaluations.\n* Subjects must have a normal or clinically acceptable physical exam and ECG (12-lead recorded at 25 mm/s and reporting heart rate and PR, QRS, QT, and QTc intervals).\n* Subjects' clinical laboratory tests (CBC, blood chemistries, and urinalysis) must be within normal limits or clinically acceptable to the investigator/ sponsor.\n* Screen for drugs with high potential for abuse must be negative.\n* Subjects must be willing to give written informed consent and able to adhere to dose and visit schedules.\n* Subjects must be willing to comply with the NCEP Step 1 diet for at least one week as outpatients, and during the inpatient treatment period.\n* Female subjects must be of nonchildbearing potential (ie, surgically sterilized or postmenopausal for at least one year), or, if they are of childbearing potential they must be using a medically accepted method of birth control prior to Screening and agree to continue its use during the study or be surgically sterilized (eg, hysterectomy or tubal ligation). Females of childbearing potential should be counseled in the appropriate use of birth control while in this study. Females who are not currently sexually active must agree and consent to use one of the above-mentioned methods should they become sexually active while participating in the study.\n* Female subjects must have a negative serum pregnancy test (beta-hCG) at Screening.\n\nExclusion Criteria:\n\n* Female subjects who are pregnant, intend to become pregnant, or are nursing.\n* Subjects who previously received or were treated with ezetimibe (SCH 58235) or rosuvastatin.\n* Subjects who previously received or were treated with lipid lowering drugs (including OTC fish oil and phytosterols) within 6 weeks of Visit 1.\n* Any subject who does not comply with the requirement that he/she should not have used any prescription or over-the-counter drugs (except for aspirin or acetaminophen \\[paracetamol\\]) within two weeks prior to study drug administration nor alcohol within 48 hours prior to study drug administration.\n* Subjects who have used any investigational drugs or donated blood within 30 days of study entry.\n* Subjects with pre-existing gallbladder disease or a history of liver function test abnormalities.\n* Subjects who smoke more than ten cigarettes or equivalent tobacco use per day.\n* Subjects who have a clinically significant allergy or intolerance to foods or drugs, especially to any component of ezetimibe (ZETIA™/EZETROL™) or rosuvastatin (CRESTOR™).\n* Subjects who are positive for HIV antibodies, hepatitis B surface antigen or hepatitis C antibody.\n* Subjects with a history of mental instability or who have been or are being treated for mood disorders.\n* Subjects who are in a situation or have any condition that, in the opinion of the investigator, may interfere with optimal participation in the study.\n* Subjects who are participating in any other clinical study.\n* Subjects who are part of the staff personnel directly involved with this study.\n* Subjects who are a family member of the investigational study staff.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": false,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
@@ -143,6 +143,83 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females between the ages of 18 and 55 years inclusive, having a Body Mass Index (BMI) between 19-31 inclusive. BMI=weight (kg)/height (m^2)."
+   },
+   {
+    "text": "Subjects must have untreated hypercholesterolemia with a directly measured fasting LDL-C >=130 mg/dL (3.37 mmol/L) at Screening and on Day -1. Subjects must be free of any clinically significant disease that requires a physician's care and/or would interfere with the study evaluations."
+   },
+   {
+    "text": "Subjects must have a normal or clinically acceptable physical exam and ECG (12-lead recorded at 25 mm/s and reporting heart rate and PR, QRS, QT, and QTc intervals)."
+   },
+   {
+    "text": "Subjects' clinical laboratory tests (CBC, blood chemistries, and urinalysis) must be within normal limits or clinically acceptable to the investigator/ sponsor."
+   },
+   {
+    "text": "Screen for drugs with high potential for abuse must be negative."
+   },
+   {
+    "text": "Subjects must be willing to give written informed consent and able to adhere to dose and visit schedules."
+   },
+   {
+    "text": "Subjects must be willing to comply with the NCEP Step 1 diet for at least one week as outpatients, and during the inpatient treatment period."
+   },
+   {
+    "text": "Female subjects must be of nonchildbearing potential (ie, surgically sterilized or postmenopausal for at least one year), or, if they are of childbearing potential they must be using a medically accepted method of birth control prior to Screening and agree to continue its use during the study or be surgically sterilized (eg, hysterectomy or tubal ligation). Females of childbearing potential should be counseled in the appropriate use of birth control while in this study. Females who are not currently sexually active must agree and consent to use one of the above-mentioned methods should they become sexually active while participating in the study."
+   },
+   {
+    "text": "Female subjects must have a negative serum pregnancy test (beta-hCG) at Screening."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Female subjects who are pregnant, intend to become pregnant, or are nursing."
+   },
+   {
+    "text": "Subjects who previously received or were treated with ezetimibe (SCH 58235) or rosuvastatin."
+   },
+   {
+    "text": "Subjects who previously received or were treated with lipid lowering drugs (including OTC fish oil and phytosterols) within 6 weeks of Visit 1."
+   },
+   {
+    "text": "Any subject who does not comply with the requirement that he/she should not have used any prescription or over-the-counter drugs (except for aspirin or acetaminophen [paracetamol]) within two weeks prior to study drug administration nor alcohol within 48 hours prior to study drug administration."
+   },
+   {
+    "text": "Subjects who have used any investigational drugs or donated blood within 30 days of study entry."
+   },
+   {
+    "text": "Subjects with pre-existing gallbladder disease or a history of liver function test abnormalities."
+   },
+   {
+    "text": "Subjects who smoke more than ten cigarettes or equivalent tobacco use per day."
+   },
+   {
+    "text": "Subjects who have a clinically significant allergy or intolerance to foods or drugs, especially to any component of ezetimibe (ZETIA™/EZETROL™) or rosuvastatin (CRESTOR™)."
+   },
+   {
+    "text": "Subjects who are positive for HIV antibodies, hepatitis B surface antigen or hepatitis C antibody."
+   },
+   {
+    "text": "Subjects with a history of mental instability or who have been or are being treated for mood disorders."
+   },
+   {
+    "text": "Subjects who are in a situation or have any condition that, in the opinion of the investigator, may interfere with optimal participation in the study."
+   },
+   {
+    "text": "Subjects who are participating in any other clinical study."
+   },
+   {
+    "text": "Subjects who are part of the staff personnel directly involved with this study."
+   },
+   {
+    "text": "Subjects who are a family member of the investigational study staff."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

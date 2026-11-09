@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Instituto Nacional de Salud Publica, Mexico",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Instituto Nacional de Salud Publica, Mexico"
  },
  "collaborators": [
   "Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran",
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Lifestyle intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Lifestyle Intervention",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Lifestyle intervention"
-   ]
+   ],
+   "label": "Lifestyle Intervention",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The PRuDENTE study proposes to assess if metformin therapy a viable, efficient and cost-effective intervention to decrease the incidence of type 2 diabetes (DMT2) in adult subjects with obesity and pre-diabetes in Mexico City. Half of the individuals recruited will receive as intervention, metformin and lifestyle modification therapy and the other half will receive only lifestyle modification therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Having received primary care in the chosen health center (ideally two or more visits to that clinic in the prior year).\n* Subscribers to \"Seguro Popular\" ( Mexican national health insurance)\n* Body mass index \\>=30 kg / m2\n* Results of fasting serum glucose with values for pre-diabetes diagnosis (glucose between 100 and 125 mg / dl)\n\nOptional:\n\n* Family history of DMT2 (1st grade relative).\n* Previous diagnosis of hypertension or dyslipidaemia.\n* Have received antihypertensive medication and / or for cholesterol / lipids.\n* History of gestational diabetes mellitus.\n\nExclusion Criteria:\n\n* Renal insufficiency (Glomerular Filtration Rate (GFR) \\<30 ml/min).\n* Known hepatic impairment or altered liver enzymes (aspartate aminotransferase (AST) AST or alanine aminotransferase (ALT) three times above normal values)\n* Active alcoholism or drug addiction\n* Allergies or previous known intolerance to exercise or metformin.\n* Current pregnancy.\n* Plans to leave the area in the next three years.\n* Previous diagnosis of type 2 diabetes mellitus",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "facility": "Centros de Salud. Secretaría de Salud Ciudad de México",
    "city": "Mexico City",
-   "state": null,
    "country": "Mexico",
-   "status": "RECRUITING",
+   "facility": "Centros de Salud. Secretaría de Salud Ciudad de México",
    "lat": 19.42847,
-   "lon": -99.12766
+   "lon": -99.12766,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03194009",
@@ -129,6 +129,63 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Having received primary care in the chosen health center (ideally two or more visits to that clinic in the prior year)."
+   },
+   {
+    "text": "Subscribers to \"Seguro Popular\" ( Mexican national health insurance)"
+   },
+   {
+    "text": "Body mass index >=30 kg / m2"
+   },
+   {
+    "text": "Results of fasting serum glucose with values for pre-diabetes diagnosis (glucose between 100 and 125 mg / dl)"
+   },
+   {
+    "text": "Family history of DMT2 (1st grade relative).",
+    "group": "Optional"
+   },
+   {
+    "text": "Previous diagnosis of hypertension or dyslipidaemia.",
+    "group": "Optional"
+   },
+   {
+    "text": "Have received antihypertensive medication and / or for cholesterol / lipids.",
+    "group": "Optional"
+   },
+   {
+    "text": "History of gestational diabetes mellitus.",
+    "group": "Optional"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Renal insufficiency (Glomerular Filtration Rate (GFR) <30 ml/min)."
+   },
+   {
+    "text": "Known hepatic impairment or altered liver enzymes (aspartate aminotransferase (AST) AST or alanine aminotransferase (ALT) three times above normal values)"
+   },
+   {
+    "text": "Active alcoholism or drug addiction"
+   },
+   {
+    "text": "Allergies or previous known intolerance to exercise or metformin."
+   },
+   {
+    "text": "Current pregnancy."
+   },
+   {
+    "text": "Plans to leave the area in the next three years."
+   },
+   {
+    "text": "Previous diagnosis of type 2 diabetes mellitus"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

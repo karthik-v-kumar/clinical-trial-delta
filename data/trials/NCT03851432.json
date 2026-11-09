@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sihuan Pharmaceutical Holdings Group Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sihuan Pharmaceutical Holdings Group Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Janagliflozin plus metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Janagliflozin plus metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DEVICE",
    "name": "Placebo plus metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Janagliflozin plus metformin"
+   ],
    "label": "Janagliflozin 25 mg plus metformin",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Janagliflozin plus metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Janagliflozin plus metformin"
+   ],
    "label": "Janagliflozin 50 mg plus metformin",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Janagliflozin plus metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo/Janagliflozin plus metformin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Device: Placebo plus metformin"
-   ]
+   ],
+   "label": "Placebo/Janagliflozin plus metformin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of Janagliflozin compared to placebo, both in combination with Metformin, in Chinese patients with type 2 diabetes mellitus (T2DM) inadequately controlled with Metformin alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* T2DM Patients with inadequate glycemic control (HbA1c level≥7.0% and ≤10.5% at baseline) on metformin monotherapy.\n* Body Mass Index: 18.0\\~35.0 kg/m2 (both inclusive)\n\nExclusion Criteria:\n\n* History of type 1 diabetes mellitus (T1DM), diabetes caused by pancreatic injury, or secondary diabetes (e.g., diabetes caused by Cushing's syndrome or acromegaly)\n* More than 10% change in body weight within the 3 months before screening\n* Any laboratory test indicators meet the following standards:\n\n  * fasting plasma glucose ≥ 15 mmol/L\n  * aspartate aminotransferase, alanine aminotransferase levels \\> 3 times the upper limit of normal (ULN); total bilirubin \\> 1.5 times ULN\n  * hemoglobin \\< 100 g/L\n  * eGFR \\< 60 mL/min/1.73m2\n  * fasting triglycerides \\> 5.64 mmol/L (500 mg/dL)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "facility": "Linong Ji",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Linong Ji",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03851432",
@@ -129,6 +129,36 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "T2DM Patients with inadequate glycemic control (HbA1c level≥7.0% and ≤10.5% at baseline) on metformin monotherapy."
+   },
+   {
+    "text": "Body Mass Index: 18.0~35.0 kg/m2 (both inclusive)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of type 1 diabetes mellitus (T1DM), diabetes caused by pancreatic injury, or secondary diabetes (e.g., diabetes caused by Cushing's syndrome or acromegaly)"
+   },
+   {
+    "text": "More than 10% change in body weight within the 3 months before screening"
+   },
+   {
+    "text": "Any laboratory test indicators meet the following standards:",
+    "sub_items": [
+     "fasting plasma glucose ≥ 15 mmol/L",
+     "aspartate aminotransferase, alanine aminotransferase levels > 3 times the upper limit of normal (ULN); total bilirubin > 1.5 times ULN",
+     "hemoglobin < 100 g/L",
+     "eGFR < 60 mL/min/1.73m2",
+     "fasting triglycerides > 5.64 mmol/L (500 mg/dL)"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

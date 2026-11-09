@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2018-07-31",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The University of Texas Medical Branch, Galveston",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The University of Texas Medical Branch, Galveston"
  },
  "collaborators": [],
  "conditions": [
@@ -49,49 +49,49 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "DPP4 inhibitor",
    "other_names": [
     "sitagliptin100 mg daily",
     "saxagliptin 5 mg daily"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Pioglitazone 15 mg daily"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Lantus insulin",
    "other_names": [
     "Lantus insulin (0.35U/kg of body weight once daily)"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Thiazolidinedione",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pioglitazone"
-   ]
+   ],
+   "label": "Thiazolidinedione",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Lantus Insulin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Lantus insulin"
-   ]
+   ],
+   "label": "Lantus Insulin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "DPP4 inhibitor",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: DPP4 inhibitor"
-   ]
+   ],
+   "label": "DPP4 inhibitor",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "The primary objective of this trial is to measure changes in hepatic lipid content using three common alternative therapeutic strategies to improve glycemic control in patients with type 2 diabetes who are not controlled with metformin alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Subject has provided informed consent in a manner approved by the Institutional Review Board (IRB) and is willing and able to comply with the trial procedures.\n2. Adults at least 18 years of age at the time of consent.\n3. Have type 2 diabetes mellitus.\n4. Be on a stable medication with metformin (2000 mg/day) for at least 3 months prior to study enrollment.\n5. Have blood A1c \\>7.6% and \\< 8.5% within 3 months prior to study enrollment.\n6. Have fatty liver, which is diagnosed by ultrasonographic findings of \"bright liver\" within 1 year of study enrollment.\n7. Stable medication for lipid lowering, blood pressure control, dietary supplements, including vitamins, for at least 3 months.\n8. Women of Childbearing Potential must be willing and able to use acceptable forms of birth control while on the study.\n\nExclusion Criteria:\n\n1. Currently taking medication that can affect glucose metabolism other than Metformin.\n2. History of Kidney diseases that, in the opinion of the investigator , would place the subject at increased risk of participation or plasma levels of creatinine \\> 1.4 for women and \\> 1.5 for men.\n3. History of Cirrhosis of liver, hepatitis, or other liver diseases that, in the opinion of the investigator, would place the subject at increased risk of participation.\n4. Current alcohol consumption more than12 to 15 g of alcohol a day, or \\>12 oz of beer, 5 oz of wine, or 1.5 oz of distilled spirits.\n5. History of heart failure.\n6. Concurrent participation on another research study\n7. Use of an investigational agent in the 30 days prior to signing informed consent.\n8. History of prior non-compliance or the presence or history of psychiatric conditions (including drug or alcohol addiction) that would, in the opinion of the investigator, make it difficult for the subject to comply with the study procedures or follow the investigators instructions.\n9. Females who are pregnant or lactating\n10. Current Diagnosis or History of Bladder Cancer",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "facility": "University of Texas Medical Branch -Galveston",
    "city": "Galveston",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "University of Texas Medical Branch -Galveston",
    "lat": 29.30135,
-   "lon": -94.7977
+   "lon": -94.7977,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02365233",
@@ -132,6 +132,68 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subject has provided informed consent in a manner approved by the Institutional Review Board (IRB) and is willing and able to comply with the trial procedures."
+   },
+   {
+    "text": "Adults at least 18 years of age at the time of consent."
+   },
+   {
+    "text": "Have type 2 diabetes mellitus."
+   },
+   {
+    "text": "Be on a stable medication with metformin (2000 mg/day) for at least 3 months prior to study enrollment."
+   },
+   {
+    "text": "Have blood A1c >7.6% and < 8.5% within 3 months prior to study enrollment."
+   },
+   {
+    "text": "Have fatty liver, which is diagnosed by ultrasonographic findings of \"bright liver\" within 1 year of study enrollment."
+   },
+   {
+    "text": "Stable medication for lipid lowering, blood pressure control, dietary supplements, including vitamins, for at least 3 months."
+   },
+   {
+    "text": "Women of Childbearing Potential must be willing and able to use acceptable forms of birth control while on the study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Currently taking medication that can affect glucose metabolism other than Metformin."
+   },
+   {
+    "text": "History of Kidney diseases that, in the opinion of the investigator , would place the subject at increased risk of participation or plasma levels of creatinine > 1.4 for women and > 1.5 for men."
+   },
+   {
+    "text": "History of Cirrhosis of liver, hepatitis, or other liver diseases that, in the opinion of the investigator, would place the subject at increased risk of participation."
+   },
+   {
+    "text": "Current alcohol consumption more than12 to 15 g of alcohol a day, or >12 oz of beer, 5 oz of wine, or 1.5 oz of distilled spirits."
+   },
+   {
+    "text": "History of heart failure."
+   },
+   {
+    "text": "Concurrent participation on another research study"
+   },
+   {
+    "text": "Use of an investigational agent in the 30 days prior to signing informed consent."
+   },
+   {
+    "text": "History of prior non-compliance or the presence or history of psychiatric conditions (including drug or alcohol addiction) that would, in the opinion of the investigator, make it difficult for the subject to comply with the study procedures or follow the investigators instructions."
+   },
+   {
+    "text": "Females who are pregnant or lactating"
+   },
+   {
+    "text": "Current Diagnosis or History of Bladder Cancer"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

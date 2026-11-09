@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Daniel Chernavvsky, MD",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Daniel Chernavvsky, MD"
  },
  "collaborators": [
   "University of Virginia"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Continuous Glucose Monitor (CGM) + Patient Centered Multi-Agent Decision Support System (PCM-DSS)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Continuous Glucose Monitor (CGM) + Usual Care",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "CGM + Patient Centered Multi-Agent Decision Support System (PCM-DSS) (TREAT2)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Continuous Glucose Monitor (CGM) + Patient Centered Multi-Agent Decision Support System (PCM-DSS)"
-   ]
+   ],
+   "label": "CGM + Patient Centered Multi-Agent Decision Support System (PCM-DSS) (TREAT2)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "CGM + Usual Care (Physician)",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Continuous Glucose Monitor (CGM) + Usual Care"
-   ]
+   ],
+   "label": "CGM + Usual Care (Physician)",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "Decision Support System (Software) for multi antidiabetic drug therapy use in type 2 diabetes (T2D).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age ≥18.0 years old at time of consent.\n2. Clinical diagnosis, based on investigator assessment, of type 2 diabetes for at least 6 months.\n3. Hemoglobin A1c (HbA1c) ≥ 7.0%.\n4. Currently using an approved long-acting insulin for at least 3 months (e.g., insulin glargine, insulin degludec).\n5. Treated or about to be treated with multi-drug therapies for T2D.\n6. If using a CGM, willingness to wear an additional study CGM during the duration of the study.\n7. Access to the internet and willingness to upload data during the study as needed.\n8. If female and sexually active, must agree to use a form of contraception to prevent pregnancy while a participant in the study. A negative serum or urine pregnancy test will be required for all females who self-report that they are of childbearing potential. Participants who become pregnant will be discontinued from the study. Also, participants who during the study develop and express the intention to become pregnant within the timespan of the study will be discontinued.\n\nExclusion Criteria:\n\n1. Currently using rapid insulin for at least three months (e.g., insulin aspart, insulin lispro, insulin regular).\n2. Currently being treated for a seizure disorder.\n3. A known medical condition that in the judgment of the investigator might interfere with the completion of the protocol, such as but not limited to, the following examples:\n\n   1. Seizure disease\n   2. Decompensated cardiac disease\n4. Inpatient psychiatric treatment in the past 6 months\n5. Presence of a known adrenal disorder\n6. Currently pregnant or intent to become pregnant during the trial.\n7. Anticipated surgical, interventional procedures or prolonged periods of fasting during this study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "University of Virginia Center for Diabetes Technology",
    "city": "Charlottesville",
-   "state": "Virginia",
    "country": "United States",
-   "status": null,
+   "facility": "University of Virginia Center for Diabetes Technology",
    "lat": 38.02931,
-   "lon": -78.47668
+   "lon": -78.47668,
+   "state": "Virginia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07063420",
@@ -114,6 +114,63 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥18.0 years old at time of consent."
+   },
+   {
+    "text": "Clinical diagnosis, based on investigator assessment, of type 2 diabetes for at least 6 months."
+   },
+   {
+    "text": "Hemoglobin A1c (HbA1c) ≥ 7.0%."
+   },
+   {
+    "text": "Currently using an approved long-acting insulin for at least 3 months (e.g., insulin glargine, insulin degludec)."
+   },
+   {
+    "text": "Treated or about to be treated with multi-drug therapies for T2D."
+   },
+   {
+    "text": "If using a CGM, willingness to wear an additional study CGM during the duration of the study."
+   },
+   {
+    "text": "Access to the internet and willingness to upload data during the study as needed."
+   },
+   {
+    "text": "If female and sexually active, must agree to use a form of contraception to prevent pregnancy while a participant in the study. A negative serum or urine pregnancy test will be required for all females who self-report that they are of childbearing potential. Participants who become pregnant will be discontinued from the study. Also, participants who during the study develop and express the intention to become pregnant within the timespan of the study will be discontinued."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Currently using rapid insulin for at least three months (e.g., insulin aspart, insulin lispro, insulin regular)."
+   },
+   {
+    "text": "Currently being treated for a seizure disorder."
+   },
+   {
+    "text": "A known medical condition that in the judgment of the investigator might interfere with the completion of the protocol, such as but not limited to, the following examples:",
+    "sub_items": [
+     "Seizure disease",
+     "Decompensated cardiac disease"
+    ]
+   },
+   {
+    "text": "Inpatient psychiatric treatment in the past 6 months"
+   },
+   {
+    "text": "Presence of a known adrenal disorder"
+   },
+   {
+    "text": "Currently pregnant or intent to become pregnant during the trial."
+   },
+   {
+    "text": "Anticipated surgical, interventional procedures or prolonged periods of fasting during this study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

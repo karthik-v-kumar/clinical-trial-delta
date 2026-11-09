@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Vitadio s.r.o.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Vitadio s.r.o."
  },
  "collaborators": [
   "University Hospital Olomouc"
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Vitadio",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Conventional high-intensity lifestyle intervention program",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Participants using Vitadio",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Vitadio"
-   ]
+   ],
+   "label": "Participants using Vitadio",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Participants assigned to conventional high-intensity lifestyle intervention program",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Conventional high-intensity lifestyle intervention program"
-   ]
+   ],
+   "label": "Participants assigned to conventional high-intensity lifestyle intervention program",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The purpose of this prospective randomized controlled study is to evaluate the impact of a six-month digitally administered behavioral change program on body weight, glycemic control and other metabolic parameters in obese adults with insulin resistance, prediabetes or type 2 diabetes as compared to conventional high-intensity lifestyle intervention program administered at a specialized department of a university hospital.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* obesity with body mass index (BMI) above 30 kg/m\\^2\n* insulin resistance or prediabetes or type 2 diabetes mellitus\n* acess to device with internet access (notebook, smartphone, tablet)\n* willingness and ability to comply with all scheduled visits, laboratory tests, lifestyle considerations and other study procedures\n\nExclusion Criteria:\n\n* pregnancy\n* steroid treatment\n* type 2 diabetes mellitus on insulin therapy\n* severe renal and/or hepatic impairment\n* any impairments including mental and psychological or conditions which, in the opinion of the investigator, would seriously compromise the integrity of the study\n* inability to understand, consent to, or comply with the study protocol for any reason, including inability to read or comprehend Czech language\n* inability to comply with study procedures",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "University Hospital Olomouc",
    "city": "Olomouc",
-   "state": null,
    "country": "Czechia",
-   "status": null,
+   "facility": "University Hospital Olomouc",
    "lat": 49.59552,
-   "lon": 17.25175
+   "lon": 17.25175,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04573296",
@@ -117,6 +117,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "obesity with body mass index (BMI) above 30 kg/m^2"
+   },
+   {
+    "text": "insulin resistance or prediabetes or type 2 diabetes mellitus"
+   },
+   {
+    "text": "acess to device with internet access (notebook, smartphone, tablet)"
+   },
+   {
+    "text": "willingness and ability to comply with all scheduled visits, laboratory tests, lifestyle considerations and other study procedures"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "steroid treatment"
+   },
+   {
+    "text": "type 2 diabetes mellitus on insulin therapy"
+   },
+   {
+    "text": "severe renal and/or hepatic impairment"
+   },
+   {
+    "text": "any impairments including mental and psychological or conditions which, in the opinion of the investigator, would seriously compromise the integrity of the study"
+   },
+   {
+    "text": "inability to understand, consent to, or comply with the study protocol for any reason, including inability to read or comprehend Czech language"
+   },
+   {
+    "text": "inability to comply with study procedures"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

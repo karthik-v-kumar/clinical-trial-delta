@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Ionis Pharmaceuticals, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Ionis Pharmaceuticals, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ISIS-APOCIIIRX",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ISIS-APOCIIIRX",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: ISIS-APOCIIIRX"
-   ]
+   ],
+   "label": "ISIS-APOCIIIRX",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effects of ISIS ISIS-APOCIIIRX on Triglyceride Levels and Insulin Sensitivity in Subjects with Type 2 Diabetes on stable treatment with metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI \\>/= 25 to \\</= 40 kg/m2\n* Type 2 Diabetes Mellitus and on a stable dose of metformin\n* Hypertriglyceridemia\n\nExclusion Criteria:\n\n* Significant abnormalities in medical history, clinical examination or clinical testing\n* Use of oral anti-diabetic medication other than metformin within 3 months prior to dosing\n* History of outpatient insulin use for more than 2 weeks in the last year",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Profil Institute for Clinical Research",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Profil Institute for Clinical Research",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01647308",
@@ -117,6 +117,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI >/= 25 to </= 40 kg/m2"
+   },
+   {
+    "text": "Type 2 Diabetes Mellitus and on a stable dose of metformin"
+   },
+   {
+    "text": "Hypertriglyceridemia"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Significant abnormalities in medical history, clinical examination or clinical testing"
+   },
+   {
+    "text": "Use of oral anti-diabetic medication other than metformin within 3 months prior to dosing"
+   },
+   {
+    "text": "History of outpatient insulin use for more than 2 weeks in the last year"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital, Montpellier",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital, Montpellier"
  },
  "collaborators": [
   "DiappyMed"
@@ -52,18 +52,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "EkiYou V2",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Adults with diabetes treated by MDI",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: EkiYou V2"
-   ]
+   ],
+   "label": "Adults with diabetes treated by MDI",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -75,10 +75,10 @@
  "brief_summary": "EkiYou-Study-1 is an interventional before/after clinical investigation according to EU 2017/745. It is conducted in 21 adults with diabetes and treated by multiple daily insulin injections.\n\nAfter a run-in period of 2 weeks, participants will receive for 6 weeks EkiYou V2 application that will help them to estimate their daily bolus and basal insulin doses. This device weekly adjusts insulin parameters including : basal insulin dose, insulin to carb ratios and correction factor.\n\nThe aim of the study is to assess the safety and performance of EkiYou V2 device. Data on glycemic control, safety, quality of life and satisfaction of participants will be collected.",
  "eligibility": {
   "criteria": "Inclusion Criteria :\n\n* Be over 18 years old;\n* Have type 1, type 2, or pancreatogenic diabetes;\n* Have been treated with multiple daily injections of insulin in a basal/bolus regimen for at least 6 months;\n* Be using a continuous glucose monitoring device such as Dexcom G6, Dexcom One or Freestyle Libre for at least 2 weeks;\n* Have a time in the glycemic target range (70-180 mg/dl) of less than 70%;\n* Require at least 15 units of insulin therapy per day;\n* Use a rapid-acting insulin compatible with the device, such as Novorapid, Humalog, Apidra, Asparte, Sanofi, Fiasp, or Lyumjev;\n* Use a long-acting insulin compatible with the device, such as Lantus, Abasaglar, Toujeo, Levemir, or Tresiba;\n* Be able to read and use a smartphone;\n* Have no visual impairment requiring a specific font for smartphones;\n* Have basic knowledge of smartphone use;\n* Indicate their willingness to follow the protocol and sign a written informed consent\n\nExclusion Criteria:\n\n* Ketoacidosis or severe level 3 hypoglycemia requiring third-party intervention within 6 months prior to inclusion;\n* Treatment with any hypoglycemia-inducing agent other than insulin (including sulfonylureas and SGLT-2 inhibitors);\n* Daily insulin requirement exceeding 200 U/day;\n* Suffering from gastroparesis;\n* Pancreatopathy secondary to chronic alcoholism;\n* Known medical condition that, in the investigator's opinion, may interfere with the protocol;\n* Participation in another clinical trial or administration of an unapproved medication within 4 weeks prior to screening;\n* Not affiliated with a social security system;\n* Vulnerable subject: minors, or adults under protection as defined by the Public Health Code, pregnant or breastfeeding women, subjects under guardianship or deprived of liberty;\n* Person under legal protection;\n* Person participating in another study with an ongoing exclusion period",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -86,13 +86,13 @@
  },
  "sites": [
   {
-   "facility": "Centre Hospitalier Universitaire de Montpellier",
    "city": "Montpellier",
-   "state": "France",
    "country": "France",
-   "status": null,
+   "facility": "Centre Hospitalier Universitaire de Montpellier",
    "lat": 43.61093,
-   "lon": 3.87635
+   "lon": 3.87635,
+   "state": "France",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06529705",
@@ -104,6 +104,83 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Be over 18 years old;"
+   },
+   {
+    "text": "Have type 1, type 2, or pancreatogenic diabetes;"
+   },
+   {
+    "text": "Have been treated with multiple daily injections of insulin in a basal/bolus regimen for at least 6 months;"
+   },
+   {
+    "text": "Be using a continuous glucose monitoring device such as Dexcom G6, Dexcom One or Freestyle Libre for at least 2 weeks;"
+   },
+   {
+    "text": "Have a time in the glycemic target range (70-180 mg/dl) of less than 70%;"
+   },
+   {
+    "text": "Require at least 15 units of insulin therapy per day;"
+   },
+   {
+    "text": "Use a rapid-acting insulin compatible with the device, such as Novorapid, Humalog, Apidra, Asparte, Sanofi, Fiasp, or Lyumjev;"
+   },
+   {
+    "text": "Use a long-acting insulin compatible with the device, such as Lantus, Abasaglar, Toujeo, Levemir, or Tresiba;"
+   },
+   {
+    "text": "Be able to read and use a smartphone;"
+   },
+   {
+    "text": "Have no visual impairment requiring a specific font for smartphones;"
+   },
+   {
+    "text": "Have basic knowledge of smartphone use;"
+   },
+   {
+    "text": "Indicate their willingness to follow the protocol and sign a written informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Ketoacidosis or severe level 3 hypoglycemia requiring third-party intervention within 6 months prior to inclusion;"
+   },
+   {
+    "text": "Treatment with any hypoglycemia-inducing agent other than insulin (including sulfonylureas and SGLT-2 inhibitors);"
+   },
+   {
+    "text": "Daily insulin requirement exceeding 200 U/day;"
+   },
+   {
+    "text": "Suffering from gastroparesis;"
+   },
+   {
+    "text": "Pancreatopathy secondary to chronic alcoholism;"
+   },
+   {
+    "text": "Known medical condition that, in the investigator's opinion, may interfere with the protocol;"
+   },
+   {
+    "text": "Participation in another clinical trial or administration of an unapproved medication within 4 weeks prior to screening;"
+   },
+   {
+    "text": "Not affiliated with a social security system;"
+   },
+   {
+    "text": "Vulnerable subject: minors, or adults under protection as defined by the Public Health Code, pregnant or breastfeeding women, subjects under guardianship or deprived of liberty;"
+   },
+   {
+    "text": "Person under legal protection;"
+   },
+   {
+    "text": "Person participating in another study with an ongoing exclusion period"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

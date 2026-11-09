@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Southern California",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Southern California"
  },
  "collaborators": [],
  "conditions": [
@@ -50,24 +50,24 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Angiotensin Receptor Blockers (ARBs)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Hydrophilic Statins or Non-Statin Alternative",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pharmacist-Led Vascular Risk Factor Management",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Angiotensin Receptor Blockers (ARBs)",
     "Drug: Hydrophilic Statins or Non-Statin Alternative"
-   ]
+   ],
+   "label": "Pharmacist-Led Vascular Risk Factor Management",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "The proposed pharmacist-led study is a feasibility pilot trial for the management of vascular risk factors of hypertension and hypercholesterolemia in 10 APOE ε4 carriers, 50-75, at-risk for dementia. All participants will receive angiotensin receptor blockers (ARBs) for high blood pressure, and hydrophilic statins (or a non-statin alternative) for high cholesterol over a six-month period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* APOE ε4 carrier (homozygote or heterozygote)\n* LDL-C of 100-250 mg/dL\n* Systolic blood Pressure (SBP) 130-180 mm Hg\n* Age 50-75 years\n* Fluency in English\n* No dementia based on medical record review\n* Male or post-menopausal female\n\nExclusion Criteria:\n\n* One minute standing SBP \\< 110 mm Hg\n* Arm circumference prevents from accurate BP measurement with use of available devices\n* Lost weight of \\> 10% unintendedly (within the past 6 months),\n* Contraindications to blood pressure and cholesterol lowering medications\n* Use of medications prescribed for dementia (e.g., aducanumab, donanemab, lecanemab, donepezil, galantamine, rivastigmine, memantine)\n* Evidence of dementia based on medical record review\n* Living in a skilled nursing or rehabilitation facility\n* Receiving palliative or hospice care\n* Bipolar illness or schizophrenia\n* Drug or alcohol disorder\n* Receiving chronic opioid therapy\n* Any significant neurological disease (e.g., Parkinson's disease, amyotrophic lateral sclerosis, or multiple sclerosis)\n* Severe loss of visual, hearing or communication ability\n* Organ transplant\n* History of stroke, symptomatic HF or left ventricular ejection fraction \\< 35%\n* ESRD or eGFR \\< 20 ml/min /1.73m2\n* Does not consent to be contacted or to have their medical record reviewed for research purposes\n* Concurrent participation in another clinical trial",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Sciences Building (CSC)",
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Clinical Sciences Building (CSC)",
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07447206",
@@ -108,6 +108,89 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "APOE ε4 carrier (homozygote or heterozygote)"
+   },
+   {
+    "text": "LDL-C of 100-250 mg/dL"
+   },
+   {
+    "text": "Systolic blood Pressure (SBP) 130-180 mm Hg"
+   },
+   {
+    "text": "Age 50-75 years"
+   },
+   {
+    "text": "Fluency in English"
+   },
+   {
+    "text": "No dementia based on medical record review"
+   },
+   {
+    "text": "Male or post-menopausal female"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "One minute standing SBP < 110 mm Hg"
+   },
+   {
+    "text": "Arm circumference prevents from accurate BP measurement with use of available devices"
+   },
+   {
+    "text": "Lost weight of > 10% unintendedly (within the past 6 months),"
+   },
+   {
+    "text": "Contraindications to blood pressure and cholesterol lowering medications"
+   },
+   {
+    "text": "Use of medications prescribed for dementia (e.g., aducanumab, donanemab, lecanemab, donepezil, galantamine, rivastigmine, memantine)"
+   },
+   {
+    "text": "Evidence of dementia based on medical record review"
+   },
+   {
+    "text": "Living in a skilled nursing or rehabilitation facility"
+   },
+   {
+    "text": "Receiving palliative or hospice care"
+   },
+   {
+    "text": "Bipolar illness or schizophrenia"
+   },
+   {
+    "text": "Drug or alcohol disorder"
+   },
+   {
+    "text": "Receiving chronic opioid therapy"
+   },
+   {
+    "text": "Any significant neurological disease (e.g., Parkinson's disease, amyotrophic lateral sclerosis, or multiple sclerosis)"
+   },
+   {
+    "text": "Severe loss of visual, hearing or communication ability"
+   },
+   {
+    "text": "Organ transplant"
+   },
+   {
+    "text": "History of stroke, symptomatic HF or left ventricular ejection fraction < 35%"
+   },
+   {
+    "text": "ESRD or eGFR < 20 ml/min /1.73m2"
+   },
+   {
+    "text": "Does not consent to be contacted or to have their medical record reviewed for research purposes"
+   },
+   {
+    "text": "Concurrent participation in another clinical trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

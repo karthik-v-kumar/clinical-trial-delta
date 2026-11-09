@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "William Marsh Rice University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "William Marsh Rice University"
  },
  "collaborators": [
   "The Methodist Hospital Research Institute"
@@ -54,38 +54,38 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "Wegovy®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Dietary Counseling",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Exercise",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Control Arm: GLP-1 Therapy Alone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Control Arm: GLP-1 Therapy Alone",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Treatment Arm: GLP-1 Therapy + Exercise and Dietary Counseling",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Dietary Counseling",
     "Behavioral: Exercise"
-   ]
+   ],
+   "label": "Treatment Arm: GLP-1 Therapy + Exercise and Dietary Counseling",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -97,23 +97,23 @@
  "brief_summary": "Obesity remains a critical public health challenge and is associated with increased rates of morbidity, mortality, and chronic disease worldwide. In recent years, glucagon-like peptide-1 (GLP-1) receptor agonists, such as semaglutide, have emerged as highly effective pharmacological treatments for obesity, producing substantial weight loss and favorable metabolic improvements. These medications are now widely prescribed, with estimates suggesting that nearly 12% of Americans are currently using or have previously used GLP-1 therapies. Despite their demonstrated benefits, growing evidence indicates that GLP-1-associated weight loss may be accompanied by unintended reductions in skeletal muscle and bone mass. This potential side effect is of increasing concern, as muscle and bone are essential for metabolic health, physical function, injury prevention, and recovery from illness or surgical intervention.\n\nLoss of skeletal muscle during weight reduction may negatively impact strength, mobility, insulin sensitivity, and long-term health outcomes. These risks may be further compounded in individuals experiencing reduced physical activity, mechanical unloading, or prolonged caloric deficits. In clinical and surgical populations, such as individuals undergoing orthopedic procedures, mechanical unloading and disuse already predispose patients to muscle and bone atrophy. When combined with pharmacologically induced weight loss, these factors may further hinder recovery, impair functional capacity, and compromise musculoskeletal integrity. As GLP-1 therapies are increasingly adopted across diverse populations, understanding how to preserve lean mass and bone health during treatment has become an important clinical and public health priority.\n\nExercise training, particularly resistance training, combined with appropriate nutritional support, has consistently been shown to preserve and enhance skeletal muscle and bone mass during weight loss. Structured exercise interventions can mitigate sarcopenia and osteopenia while improving muscular strength, cardiorespiratory fitness, metabolic health, and overall physical function. Similarly, individualized dietary counseling, particularly when focused on adequate protein intake and nutrient timing, plays a critical role in supporting muscle protein synthesis and skeletal health during caloric restriction. Together, these lifestyle strategies may not only counteract the potential adverse musculoskeletal effects associated with GLP-1 therapy but also enhance treatment efficacy by improving cardiovascular risk profiles, insulin sensitivity, systemic inflammation, and physical resilience.\n\nDespite the growing use of GLP-1 medications, there remains a limited body of prospective research examining structured lifestyle interventions specifically designed to preserve muscle and bone mass during GLP-1-induced weight loss. Addressing this gap is essential to ensure that pharmacological obesity treatments support long-term health, functional independence, and quality of life. Integrating exercise and nutrition interventions into GLP-1 treatment protocols may represent a scalable and clinically meaningful strategy to optimize outcomes and reduce unintended consequences of rapid weight loss.\n\nThe purpose of this study is to evaluate whether a structured lifestyle intervention combining exercise and individualized nutritional counseling can mitigate skeletal muscle mass loss in obese adults undergoing treatment with GLP-1 receptor agonists. The primary objective of this study is to determine whether participation in a structured 12-week exercise program, in conjunction with individualized dietary counseling, preserves skeletal muscle mass and bone mineral density during GLP-1 therapy. Secondary objectives include assessing changes in muscular strength, cardiorespiratory fitness, and overall functional capacity. Findings from this study aim to inform best practices for integrating lifestyle interventions with pharmacological obesity treatments and to support safer, more effective, and functionally protective approaches to weight management in adults receiving GLP-1 therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age between 40 and 55 years\n* Body Mass Index (BMI) greater than 30\n* Body fat percentage greater than 30% for males and 40% for females\n* Android to gynoid fat ratio greater than 1.0\n* Currently eligible for GLP-1 therapy\n* No diagnosis of Type II diabetes\n\nExclusion Criteria:\n\n* Presence of abnormal ECG findings, including arrhythmias or ischemic changes\n* Hypertensive response to exercise, defined as systolic blood pressure exceeding 250 mmHg or diastolic pressure exceeding 115 mmHg\n* Hypotensive response to exercise, defined as a drop in systolic pressure greater than 10 mmHg with increasing workload\n* VO₂ max below 15 ml/kg/min\n* Borg Rating of Perceived Exertion (RPE) greater than 19 during submaximal workloads\n* Any contraindications to exercise as defined by ACSM guidelines\n* Musculoskeletal limitations that prevent safe participation in exercise",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": false,
+  "maximum_age": "55 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Rice University",
    "city": "Houston",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Rice University",
    "lat": 29.76328,
-   "lon": -95.36327
+   "lon": -95.36327,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07554417",
@@ -125,6 +125,53 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age between 40 and 55 years"
+   },
+   {
+    "text": "Body Mass Index (BMI) greater than 30"
+   },
+   {
+    "text": "Body fat percentage greater than 30% for males and 40% for females"
+   },
+   {
+    "text": "Android to gynoid fat ratio greater than 1.0"
+   },
+   {
+    "text": "Currently eligible for GLP-1 therapy"
+   },
+   {
+    "text": "No diagnosis of Type II diabetes"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Presence of abnormal ECG findings, including arrhythmias or ischemic changes"
+   },
+   {
+    "text": "Hypertensive response to exercise, defined as systolic blood pressure exceeding 250 mmHg or diastolic pressure exceeding 115 mmHg"
+   },
+   {
+    "text": "Hypotensive response to exercise, defined as a drop in systolic pressure greater than 10 mmHg with increasing workload"
+   },
+   {
+    "text": "VO₂ max below 15 ml/kg/min"
+   },
+   {
+    "text": "Borg Rating of Perceived Exertion (RPE) greater than 19 during submaximal workloads"
+   },
+   {
+    "text": "Any contraindications to exercise as defined by ACSM guidelines"
+   },
+   {
+    "text": "Musculoskeletal limitations that prevent safe participation in exercise"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

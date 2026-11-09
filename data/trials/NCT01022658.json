@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Assistance Publique - Hôpitaux de Paris",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Assistance Publique - Hôpitaux de Paris"
  },
  "collaborators": [],
  "conditions": [
@@ -48,35 +48,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin",
    "other_names": [
     "LEVEMIR",
     "NOVORAPID"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Insulin"
+   ],
    "label": "detemir",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Insulin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Insulin"
+   ],
    "label": "aspart",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Insulin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "detemir and aspart",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin"
-   ]
+   ],
+   "label": "detemir and aspart",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Vago-sympathetic activity, arterial stiffness and endothelial function are integrators of cardiovascular risk. The aim of this pilot study is, in type 2 diabetic patients now requiring insulin, to compare the effects of improving glycemic control on these parameters with 3 different insulin regimens which will act especially at fasting or in post-prandial periods or both. Non invasive explorations will be performed before randomization and after 4 to 5 weeks of insulin therapy, at fasting and each hour after a standardized breakfast.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Consent patient\n* Adults from 30 to 72 years old\n* type 2 diabetic patients for at least 1 year\n* able to self measure capillary blood glucose\n* body mass index 20-37 kg/m²,\n* HbA1c 7.1-12% under Metformin and SULFUNYREAS therapy for at least 2 months\n* anti-hypertensive treatment or dyslipidemic treatment unchanged for 3 months\n\nExclusion criteria:\n\n* pregnancy\n* other antidiabetic medication in the previous 2 months,\n* anti-hypertensive or lipid-lowering therapies having been changed in the previous 2 months,\n* insulin allergy,\n* uncontrolled preproliferative or proliferative diabetic retinopathy\n* uncontrolled hypertension\n* renal failure(creatinin clearance \\<40 ml/min)\n* hepatocellular deficiency (prothrombin time \\<70%)\n* anemia\n* peripheral occlusive arterial disease\n* cardiac arrhythmia",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "72 Years",
   "healthy_volunteers": false,
+  "maximum_age": "72 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Jean Verdier hospital, Department of Endocrinology-Diabetology-Nutrition",
    "city": "Bondy",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Jean Verdier hospital, Department of Endocrinology-Diabetology-Nutrition",
    "lat": 48.9018,
-   "lon": 2.48931
+   "lon": 2.48931,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01022658",
@@ -117,6 +117,68 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Consent patient"
+   },
+   {
+    "text": "Adults from 30 to 72 years old"
+   },
+   {
+    "text": "type 2 diabetic patients for at least 1 year"
+   },
+   {
+    "text": "able to self measure capillary blood glucose"
+   },
+   {
+    "text": "body mass index 20-37 kg/m²,"
+   },
+   {
+    "text": "HbA1c 7.1-12% under Metformin and SULFUNYREAS therapy for at least 2 months"
+   },
+   {
+    "text": "anti-hypertensive treatment or dyslipidemic treatment unchanged for 3 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "other antidiabetic medication in the previous 2 months,"
+   },
+   {
+    "text": "anti-hypertensive or lipid-lowering therapies having been changed in the previous 2 months,"
+   },
+   {
+    "text": "insulin allergy,"
+   },
+   {
+    "text": "uncontrolled preproliferative or proliferative diabetic retinopathy"
+   },
+   {
+    "text": "uncontrolled hypertension"
+   },
+   {
+    "text": "renal failure(creatinin clearance <40 ml/min)"
+   },
+   {
+    "text": "hepatocellular deficiency (prothrombin time <70%)"
+   },
+   {
+    "text": "anemia"
+   },
+   {
+    "text": "peripheral occlusive arterial disease"
+   },
+   {
+    "text": "cardiac arrhythmia"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

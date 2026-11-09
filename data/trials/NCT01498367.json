@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "SINGLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Regional Health Authority of Sterea & Thessaly",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Regional Health Authority of Sterea & Thessaly"
  },
  "collaborators": [
   "Ministry for Health and Social Solidarity, Greece",
@@ -60,23 +60,23 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Telemonitoring of patients with diabetes type 2",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Usual care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Telemonitoring of diabetes 2 patients",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Telemonitoring of patients with diabetes type 2"
-   ]
+   ],
+   "label": "Telemonitoring of diabetes 2 patients",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "To evaluate whether patients with type 2 diabetes mellitus can be followed by simplified, centralized and large scale tele-monitoring of blood glucose levels and blood pressure, and whether this intervention produces health and economic benefits when introduced without major changes to the existing organization of a large tertiary care center.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 Diabetes\n* HbA1c \\> 53 mmol/mol (7.0 % according to NGSP)\n* Capability to use the devices provided\n* Being cognitively able to participate\n* Capability of filling in questionnaires in german or greek language\n* Absence of severe comorbidity prevalent on diabetes with life expectancy \\< 12 months\n\nExclusion Criteria:\n\n* Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Endocrinology and Metabolic Diseases Department - Regional University Hospital of Larisa",
    "city": "Larissa",
-   "state": "Thessaly",
    "country": "Greece",
-   "status": null,
+   "facility": "Endocrinology and Metabolic Diseases Department - Regional University Hospital of Larisa",
    "lat": 39.62847,
-   "lon": 22.42112
+   "lon": 22.42112,
+   "state": "Thessaly",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01498367",
@@ -121,6 +121,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 2 Diabetes"
+   },
+   {
+    "text": "HbA1c > 53 mmol/mol (7.0 % according to NGSP)"
+   },
+   {
+    "text": "Capability to use the devices provided"
+   },
+   {
+    "text": "Being cognitively able to participate"
+   },
+   {
+    "text": "Capability of filling in questionnaires in german or greek language"
+   },
+   {
+    "text": "Absence of severe comorbidity prevalent on diabetes with life expectancy < 12 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2019-12-18",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The University of Texas Health Science Center at San Antonio",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The University of Texas Health Science Center at San Antonio"
  },
  "collaborators": [],
  "conditions": [
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Farxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Placebo for Dapagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "To determine the role of plasma glucagon and insulin in the rise of endogenous glucose production (EGP) following the SGLT2 inhibition.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* T2DM according to ADA criteria-HbA1C \\< 8.0%\n* BMI = 25-35 kg/m2\n* Subjects must be in good general health as determined by physical exam, medical history, blood chemistries, CBC, TSH, T4, EKG and urinanalysis\n* Body weight has been stable (± 3 lbs) over the preceding three months\n* Do not participate in an excessively heavy exercise program\n* Taking stable dose (more than 3 months) of monotherapy or combination therapy with metformin and/or a sulfonylurea\n\nExclusion Criteria:\n\n* Subjects taking drugs known to affect glucose metabolism (other than metformin and sulfonylurea) will be excluded\n* Individuals with evidence of proliferative diabetic retinopathy, plasma creatinine \\>1.4 females or \\>1.5 males, or 24-hour urine albumin excretion \\> 300 mg will be excluded",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,13 +120,13 @@
  },
  "sites": [
   {
-   "facility": "University of Texas Health Science Center",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "University of Texas Health Science Center",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02984644",
@@ -138,6 +138,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "T2DM according to ADA criteria-HbA1C < 8.0%"
+   },
+   {
+    "text": "BMI = 25-35 kg/m2"
+   },
+   {
+    "text": "Subjects must be in good general health as determined by physical exam, medical history, blood chemistries, CBC, TSH, T4, EKG and urinanalysis"
+   },
+   {
+    "text": "Body weight has been stable (± 3 lbs) over the preceding three months"
+   },
+   {
+    "text": "Do not participate in an excessively heavy exercise program"
+   },
+   {
+    "text": "Taking stable dose (more than 3 months) of monotherapy or combination therapy with metformin and/or a sulfonylurea"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects taking drugs known to affect glucose metabolism (other than metformin and sulfonylurea) will be excluded"
+   },
+   {
+    "text": "Individuals with evidence of proliferative diabetic retinopathy, plasma creatinine >1.4 females or >1.5 males, or 24-hour urine albumin excretion > 300 mg will be excluded"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

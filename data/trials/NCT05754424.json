@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Arecor Limited",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Arecor Limited"
  },
  "collaborators": [],
  "conditions": [
@@ -53,39 +53,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AT278",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "NovoRapid",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Humulin R 500 UNT/ML Injectable Solution",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AT278",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AT278",
     "Drug: NovoRapid",
     "Drug: Humulin R 500 UNT/ML Injectable Solution"
-   ]
+   ],
+   "label": "AT278",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "NovoRapid",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: AT278",
     "Drug: NovoRapid",
     "Drug: Humulin R 500 UNT/ML Injectable Solution"
-   ]
+   ],
+   "label": "NovoRapid",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "This is a phase 1, single dose, randomised, double-blind, two-way crossover study to compare ultra-rapid-acting concentrated insulin aspart AT278 (U500/mL) with standard insulin aspart NovoRapid® (U100/mL) in participants with T2D. Participants and Investigators will be blinded to both study interventions. Humulin® R U-500 (U500/mL), a highly concentrated regular human insulin, will be used as an open-label comparator.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes for at least 180 days prior to the day of screening\n* Haemoglobin A1C (HbA1c) concentration of ≤9.5% (≤80 mmol/mol) at screening.\n* BMI within the range of 25 - 45 kg/m2 (both inclusive)\n\nExclusion Criteria:\n\n* Known or suspected hypersensitivity to IMPs or related products\n* Clinically significant concomitant disease or abnormal lab values\n* Severe asthma or chronic obstructive pulmonary disease (GOLD III and IV), or lower if requiring high dose of corticosteroids or beta2-adrenergic agonists",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Trials Unit, Medical University of Graz",
    "city": "Graz",
-   "state": null,
    "country": "Austria",
-   "status": null,
+   "facility": "Clinical Trials Unit, Medical University of Graz",
    "lat": 47.06733,
-   "lon": 15.44197
+   "lon": 15.44197,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05754424",
@@ -126,6 +126,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 2 diabetes for at least 180 days prior to the day of screening"
+   },
+   {
+    "text": "Haemoglobin A1C (HbA1c) concentration of ≤9.5% (≤80 mmol/mol) at screening."
+   },
+   {
+    "text": "BMI within the range of 25 - 45 kg/m2 (both inclusive)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known or suspected hypersensitivity to IMPs or related products"
+   },
+   {
+    "text": "Clinically significant concomitant disease or abnormal lab values"
+   },
+   {
+    "text": "Severe asthma or chronic obstructive pulmonary disease (GOLD III and IV), or lower if requiring high dose of corticosteroids or beta2-adrenergic agonists"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

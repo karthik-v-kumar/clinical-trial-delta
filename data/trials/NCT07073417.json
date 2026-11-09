@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hangzhou Sciwind Biosciences Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hangzhou Sciwind Biosciences Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -49,32 +49,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "XW003 injection",
    "other_names": [
     "ecnoglutide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "semaglutide injection",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "XW003",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: XW003 injection"
-   ]
+   ],
+   "label": "XW003",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "semaglutide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: semaglutide injection"
-   ]
+   ],
+   "label": "semaglutide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The aim of the study is to compare the efficacy and safety of XW003 injection versus semaglutide injection in Chinese adults with obesity",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI≥30 kg/m2 at screening, waist circumference ≥90 cm for men and ≥85 cm for women.\n* Weight change of less than 5% within 3 months prior to screening (self-reported).\n\nExclusion Criteria:\n\n* Diagnosis of obesity due to endocrine disorders or a single gene mutation, including but not limited to hypothalamic obesity, pituitary obesity, Cushing's syndrome, hypothyroidic obesity (except for those with normal thyroid function at screening and expected to remain unchanged throughout the trial period after at least 3 months of thyroid hormone replacement therapy), insulinoma, acromegaly.\n* History of bariatric surgery or planning to undergo bariatric surgery or use other weight-loss drugs or devices during the trial (except acupuncture for weight loss, liposuction, or abdominal fat removal for more than one year before screening; Except the removal or expulsion of the airbag in the stomach for more than 1 year before screening.\n* Diagnosis with any type of diabetes (except gestational diabetes).\n* Have used any weight-loss drugs, hypoglycemic drugs, or drugs that may cause significant weight gain within 3 months prior to screening.\n* History of acute or chronic pancreatitis or pancreatic injury, history of symptomatic gallbladder disease (except cholecystectomy).\n* History of clinically significant gastric emptying abnormalities, such as gastroparesis or gastric outlet obstruction.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Peking University People's Hospital",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Peking University People's Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07073417",
@@ -115,6 +115,38 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI≥30 kg/m2 at screening, waist circumference ≥90 cm for men and ≥85 cm for women."
+   },
+   {
+    "text": "Weight change of less than 5% within 3 months prior to screening (self-reported)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of obesity due to endocrine disorders or a single gene mutation, including but not limited to hypothalamic obesity, pituitary obesity, Cushing's syndrome, hypothyroidic obesity (except for those with normal thyroid function at screening and expected to remain unchanged throughout the trial period after at least 3 months of thyroid hormone replacement therapy), insulinoma, acromegaly."
+   },
+   {
+    "text": "History of bariatric surgery or planning to undergo bariatric surgery or use other weight-loss drugs or devices during the trial (except acupuncture for weight loss, liposuction, or abdominal fat removal for more than one year before screening; Except the removal or expulsion of the airbag in the stomach for more than 1 year before screening."
+   },
+   {
+    "text": "Diagnosis with any type of diabetes (except gestational diabetes)."
+   },
+   {
+    "text": "Have used any weight-loss drugs, hypoglycemic drugs, or drugs that may cause significant weight gain within 3 months prior to screening."
+   },
+   {
+    "text": "History of acute or chronic pancreatitis or pancreatic injury, history of symptomatic gallbladder disease (except cholecystectomy)."
+   },
+   {
+    "text": "History of clinically significant gastric emptying abnormalities, such as gastroparesis or gastric outlet obstruction."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

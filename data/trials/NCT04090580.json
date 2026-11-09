@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2025-05-22",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran"
  },
  "collaborators": [
   "AstraZeneca"
@@ -50,25 +50,25 @@
  ],
  "interventions": [
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "Continuous glucose monitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DIAGNOSTIC_TEST"
   }
  ],
  "arm_groups": [
   {
-   "label": "DAPAGLIFLOZIN 10 mg/day + METFORMIN 2000 mg/day for 12 weeks",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Diagnostic Test: Continuous glucose monitoring"
-   ]
+   ],
+   "label": "DAPAGLIFLOZIN 10 mg/day + METFORMIN 2000 mg/day for 12 weeks",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "METFORMIN 2000 mg/day for 12 weeks",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Diagnostic Test: Continuous glucose monitoring"
-   ]
+   ],
+   "label": "METFORMIN 2000 mg/day for 12 weeks",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "This study will compare the effect of Dapagliflozin added to Metformin vs Metformin alone on blood sugar fluctuations of adults with a recent diagnosis of Type 2 Diabetes (T2D). The duration of the protocol will be 12 weeks. Continuous glucose monitoring will be measured before and at the end of the intervention. The questions this protocol will answer include:\n\n* Is there a difference in blood sugar fluctuations when Dapagliflozin is added to Metformin compared with Metformin alone in adults with type 2 Diabetes?\n* Does Dapagliflozin added to Metformin improve blood glucose control in patients with type 2 Diabetes?",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects \\> 18-77 years-old\n* Both Male and female\n* Hba1c ≥ 7.5 % and ≤12%\n* BMI \\> 25 and \\<45 kg/m2\n* Type 2 diabetes diagnosis, drug-naive\n\nExclusion Criteria:\n\n* Hba1c \\> 12%\n* Creatinine clearance CKD-EPI: \\< 60 mL/min\n* LADA or Type 1 diabetes\n* Gestational diabetes\n* Clinically significant disease like: hepatic, hematological, oncological, psychiatric or rheumatic disease.\n* Symptoms of marked uncontrolled diabetes: (marked poliuria or polidipsia + 10% weight loss prior the last 3 months enrollement)\n* Known hypersensitivity to dapagliflozin or any of the excipients of the product\n* eGFR persistently \\<45 mL/min/1.73 m2\n* Unstable or rapidly progressing renal disease\n* Patients with severe hepatic impairment (Child-Pugh class C)\n* Any major CV event/Vascular Disease within 3 months prior to signing the consent at enrollment, as assessed by the investigator\n* For women only - currently pregnant (confirmed with positive pregnancy test) or breast-feeding.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "77 Years",
   "healthy_volunteers": false,
+  "maximum_age": "77 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -115,13 +115,13 @@
  },
  "sites": [
   {
-   "facility": "Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán ''INCMNSZ''",
    "city": "Mexico City",
-   "state": null,
    "country": "Mexico",
-   "status": null,
+   "facility": "Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán ''INCMNSZ''",
    "lat": 19.42847,
-   "lon": -99.12766
+   "lon": -99.12766,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04090580",
@@ -136,6 +136,65 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects > 18-77 years-old"
+   },
+   {
+    "text": "Both Male and female"
+   },
+   {
+    "text": "Hba1c ≥ 7.5 % and ≤12%"
+   },
+   {
+    "text": "BMI > 25 and <45 kg/m2"
+   },
+   {
+    "text": "Type 2 diabetes diagnosis, drug-naive"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Hba1c > 12%"
+   },
+   {
+    "text": "Creatinine clearance CKD-EPI: < 60 mL/min"
+   },
+   {
+    "text": "LADA or Type 1 diabetes"
+   },
+   {
+    "text": "Gestational diabetes"
+   },
+   {
+    "text": "Clinically significant disease like: hepatic, hematological, oncological, psychiatric or rheumatic disease."
+   },
+   {
+    "text": "Symptoms of marked uncontrolled diabetes: (marked poliuria or polidipsia + 10% weight loss prior the last 3 months enrollement)"
+   },
+   {
+    "text": "Known hypersensitivity to dapagliflozin or any of the excipients of the product"
+   },
+   {
+    "text": "eGFR persistently <45 mL/min/1.73 m2"
+   },
+   {
+    "text": "Unstable or rapidly progressing renal disease"
+   },
+   {
+    "text": "Patients with severe hepatic impairment (Child-Pugh class C)"
+   },
+   {
+    "text": "Any major CV event/Vascular Disease within 3 months prior to signing the consent at enrollment, as assessed by the investigator"
+   },
+   {
+    "text": "For women only - currently pregnant (confirmed with positive pregnancy test) or breast-feeding."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "SINGLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Northwestern University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Northwestern University"
  },
  "collaborators": [
   "Agency for Healthcare Research and Quality (AHRQ)"
@@ -54,23 +54,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Mailed patient outreach intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Mailed patient outreach intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Mailed patient outreach intervention"
-   ]
+   ],
+   "label": "Mailed patient outreach intervention",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Usual Care Control Group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "Cholesterol screening is an important prerequisite for cardiovascular disease (CVD) risk assessment. Cholesterol screening is recommended by the United States Preventive Services Task Force (USPSTF). Since reminder systems have been shown to modestly improve the rates of preventive services, including in safety net settings, we will implement patient-directed reminders to health center patients who meet our eligibility criteria.\n\nThe aim of this study is to determine if a mailed outreach message and facilitated ordering of screening lipid tests increases cholesterol screening test completion within 3 months among federally qualified community health center patients who are eligible for screening compared to usual care.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient at participating health center\n* At least 1 visit to clinic in the prior 12 months\n* No total cholesterol and high-density lipoprotein cholesterol result recorded in the electronic health record in the past 5 years\n* No cholesterol screening order placed within the previous 3 months\n* Men 35-75 years old, or women 45-75 years old who also have one of the following: hypertension, obesity, or current smoking\n\nExclusion Criteria:\n\n* Previously diagnosed cardiovascular disease, peripheral arterial disease or diabetes mellitus\n* Statin on active medication list\n* Preferred language other than English or Spanish",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,31 +93,31 @@
  },
  "sites": [
   {
-   "facility": "North Country Health Care",
    "city": "Flagstaff",
-   "state": "Arizona",
    "country": "United States",
-   "status": null,
+   "facility": "North Country Health Care",
    "lat": 35.19807,
-   "lon": -111.65127
+   "lon": -111.65127,
+   "state": "Arizona",
+   "status": null
   },
   {
+   "city": "Chicago",
+   "country": "United States",
    "facility": "Heartland Health Outreach",
-   "city": "Chicago",
-   "state": "Illinois",
-   "country": "United States",
-   "status": null,
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   },
   {
-   "facility": "Near North Health Service Corporation",
    "city": "Chicago",
-   "state": "Illinois",
    "country": "United States",
-   "status": null,
+   "facility": "Near North Health Service Corporation",
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01930149",
@@ -129,6 +129,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient at participating health center"
+   },
+   {
+    "text": "At least 1 visit to clinic in the prior 12 months"
+   },
+   {
+    "text": "No total cholesterol and high-density lipoprotein cholesterol result recorded in the electronic health record in the past 5 years"
+   },
+   {
+    "text": "No cholesterol screening order placed within the previous 3 months"
+   },
+   {
+    "text": "Men 35-75 years old, or women 45-75 years old who also have one of the following: hypertension, obesity, or current smoking"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Previously diagnosed cardiovascular disease, peripheral arterial disease or diabetes mellitus"
+   },
+   {
+    "text": "Statin on active medication list"
+   },
+   {
+    "text": "Preferred language other than English or Spanish"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

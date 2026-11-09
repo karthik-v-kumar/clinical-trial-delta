@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2011-11-03",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,62 +51,62 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin phosphate",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin hydrochloride",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: placebo sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: placebo metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin + placebo metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin phosphate",
     "Drug: Comparator: placebo metformin"
-   ]
+   ],
+   "label": "Sitagliptin + placebo metformin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin + placebo sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: metformin hydrochloride",
     "Drug: Comparator: placebo sitagliptin"
-   ]
+   ],
+   "label": "Metformin + placebo sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sitagliptin + metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin phosphate",
     "Drug: metformin hydrochloride"
-   ]
+   ],
+   "label": "Sitagliptin + metformin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo sitagliptin + placebo metformin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: placebo sitagliptin",
     "Drug: Comparator: placebo metformin"
-   ]
+   ],
+   "label": "Placebo sitagliptin + placebo metformin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "This study will assess the effects of sitagliptin and metformin alone and after co-administration on incretin hormone concentrations in patients with Type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Female subjects must have a negative pregnancy test\n* Subject has type 2 diabetes and is not currently receiving treatment with an oral AHA agent, has not received such treatment for 3 months prior to study, and/or has not received more than 4 total weeks treatment with an oral AHA agent for 12 to 18 months prior to the study\n* Subject is a nonsmoker or has not smoked and/or used nicotine for at least 6 months\n\nExclusion Criteria:\n\n* Subject has a history of stroke, seizures, or major neurological disorders\n* Female subject is breastfeeding\n* Subject cannot refrain from use of any prescription or non-prescription drugs beginning 2 weeks prior to first dose of study drug\n* Subject consumes more than 3 alcoholic beverages per day\n* Subject consumes more than 6 caffeinated beverages per day\n* Subject has had major surgery, or has donated or lost 1 unit of blood within 4 weeks of screening\n* Subject has a history of cancer, except certain skin or cervical cancer or other cancers treated more than 10 years prior to screening\n* Subject has a history of multiple and/or severe allergies or intolerance to drugs or food",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -137,6 +137,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Female subjects must have a negative pregnancy test"
+   },
+   {
+    "text": "Subject has type 2 diabetes and is not currently receiving treatment with an oral AHA agent, has not received such treatment for 3 months prior to study, and/or has not received more than 4 total weeks treatment with an oral AHA agent for 12 to 18 months prior to the study"
+   },
+   {
+    "text": "Subject is a nonsmoker or has not smoked and/or used nicotine for at least 6 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subject has a history of stroke, seizures, or major neurological disorders"
+   },
+   {
+    "text": "Female subject is breastfeeding"
+   },
+   {
+    "text": "Subject cannot refrain from use of any prescription or non-prescription drugs beginning 2 weeks prior to first dose of study drug"
+   },
+   {
+    "text": "Subject consumes more than 3 alcoholic beverages per day"
+   },
+   {
+    "text": "Subject consumes more than 6 caffeinated beverages per day"
+   },
+   {
+    "text": "Subject has had major surgery, or has donated or lost 1 unit of blood within 4 weeks of screening"
+   },
+   {
+    "text": "Subject has a history of cancer, except certain skin or cervical cancer or other cancers treated more than 10 years prior to screening"
+   },
+   {
+    "text": "Subject has a history of multiple and/or severe allergies or intolerance to drugs or food"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

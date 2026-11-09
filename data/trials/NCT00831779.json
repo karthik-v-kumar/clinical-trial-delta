@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2017-03-01",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Astra Zeneca, Bristol-Myers Squibb"
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "BMS-512148"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effects of dapagliflozin on insulin sensitivity",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects with type 2 diabetes and inadequate glycemic control, defined as A1C ≥ 7.0 and ≤ 10.0% at the enrollment visit\n* Subjects should have been receiving either metformin therapy OR metformin therapy AND one insulin secretagogue for at least 12 weeks prior to enrollment\n* C-peptide ≥ 1.0 ng/ml (0.34 nmol/l)\n* BMI ≤ 45.0 kg/m2\n\nExclusion Criteria:\n\n* Urine albumin to creatinine ratio (UACR) \\> 1,800 mg/g (203.4 mg/mmol/Cr)\n* Aspartate Aminotransferase (AST) \\> 3X Upper limit of normal (ULN)\n* Alanine aminotransferase (ALT) \\> 3X ULN\n* Serum Total Bilirubin \\> 2 mg/dL (34.2 μmol/l)\n* Serum Creatinine (Scr) ≥ 1.50 mg/dL (133 μmol/l) for men; SCr ≥ 1.40 mg/dL (124 μmol/l) for women\n* Currently unstable or serious cardiovascular, renal, hepatic, hematological, oncological, endocrine, psychiatric, or rheumatic diseases",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,31 +103,31 @@
  },
  "sites": [
   {
-   "facility": "Va San Diego Healthcare System",
    "city": "San Diego",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Va San Diego Healthcare System",
    "lat": 32.71571,
-   "lon": -117.16472
+   "lon": -117.16472,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Pennington Biomedical Research Center",
    "city": "Baton Rouge",
-   "state": "Louisiana",
    "country": "United States",
-   "status": null,
+   "facility": "Pennington Biomedical Research Center",
    "lat": 30.44332,
-   "lon": -91.18747
+   "lon": -91.18747,
+   "state": "Louisiana",
+   "status": null
   },
   {
-   "facility": "Temple University General Clinical Research Center",
    "city": "Philadelphia",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "Temple University General Clinical Research Center",
    "lat": 39.95238,
-   "lon": -75.16362
+   "lon": -75.16362,
+   "state": "Pennsylvania",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00831779",
@@ -142,6 +142,44 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects with type 2 diabetes and inadequate glycemic control, defined as A1C ≥ 7.0 and ≤ 10.0% at the enrollment visit"
+   },
+   {
+    "text": "Subjects should have been receiving either metformin therapy OR metformin therapy AND one insulin secretagogue for at least 12 weeks prior to enrollment"
+   },
+   {
+    "text": "C-peptide ≥ 1.0 ng/ml (0.34 nmol/l)"
+   },
+   {
+    "text": "BMI ≤ 45.0 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Urine albumin to creatinine ratio (UACR) > 1,800 mg/g (203.4 mg/mmol/Cr)"
+   },
+   {
+    "text": "Aspartate Aminotransferase (AST) > 3X Upper limit of normal (ULN)"
+   },
+   {
+    "text": "Alanine aminotransferase (ALT) > 3X ULN"
+   },
+   {
+    "text": "Serum Total Bilirubin > 2 mg/dL (34.2 μmol/l)"
+   },
+   {
+    "text": "Serum Creatinine (Scr) ≥ 1.50 mg/dL (133 μmol/l) for men; SCr ≥ 1.40 mg/dL (124 μmol/l) for women"
+   },
+   {
+    "text": "Currently unstable or serious cardiovascular, renal, hepatic, hematological, oncological, endocrine, psychiatric, or rheumatic diseases"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

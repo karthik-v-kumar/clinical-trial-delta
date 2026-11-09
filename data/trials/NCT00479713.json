@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-06-10",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [],
  "conditions": [
@@ -51,45 +51,45 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ezetimibe (+) simvastatin",
    "other_names": [
     "MK0653A",
     "Vytorin®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator : rosuvastatin calcium",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo (unspecified)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo (unspecified)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ezetimibe (+) simvastatin",
     "Drug: Comparator: Placebo (unspecified)"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator : rosuvastatin calcium",
     "Drug: Comparator: Placebo (unspecified)"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "This is a multicenter study to evaluate the safety and efficacy of ezetimibe/simvastatin versus rosuvastatin in participants with high cholesterol.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participant is currently taking a statin medication for the treatment of high cholesterol\n* Participant has an LDL-C level that is greater than or equal to 100 mg/dl and less than or equal to 190 mg/dl\n\nExclusion Criteria:\n\n* Women who are pregnant or nursing, or women who intend to become pregnant\n* Participant has any condition, situation, or is currently taking any medication that might pose a risk to the participant or interfere with participation in the study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "79 Years",
   "healthy_volunteers": false,
+  "maximum_age": "79 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,6 +120,26 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participant is currently taking a statin medication for the treatment of high cholesterol"
+   },
+   {
+    "text": "Participant has an LDL-C level that is greater than or equal to 100 mg/dl and less than or equal to 190 mg/dl"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Women who are pregnant or nursing, or women who intend to become pregnant"
+   },
+   {
+    "text": "Participant has any condition, situation, or is currently taking any medication that might pose a risk to the participant or interfere with participation in the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

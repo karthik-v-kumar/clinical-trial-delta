@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Eloralintide",
    "other_names": [
     "LY3841136"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Eloralintide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Eloralintide"
-   ]
+   ],
+   "label": "Eloralintide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The main purpose of the study is to measure and compare the effects of eloralintide and placebo on insulin sensitivity (how your body responds to insulin), metabolic health (things like sugar and cholesterol), and body weight in participants with obesity or overweight. For each participant, the study will last about 35 weeks and include 3 in patient visits totaling 7 days.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have an hemoglobin A1c (HbA1c) value at screening of less than 6.5 percent (%).\n* Have a body mass index between 25 and 45 Kilogram per Square Meter (kg/m²).\n* Have had a stable body weight that has changed by less than 5% during the 3 months prior to screening.\n* Are individuals assigned male at birth (AMAB) or assigned female at birth (AFAB). Individuals of childbearing potential (IOCBP) and individuals not of childbearing potential (INOCBP) may participate in this study.\n\nExclusion Criteria:\n\n* Have type 1 or type 2 diabetes mellitus, a history of ketoacidosis, or of hyperosmolar state or coma. Note: Participants with a history of gestational diabetes are eligible to participate in this study.\n* Have acute or chronic pancreatitis or a history of acute idiopathic pancreatitis.\n* Have a known clinically significant gastric emptying abnormality or chronically take drugs that directly affect gastrointestinal (GI) motility to a significant extent.\n* Have a prior or planned surgical treatment for obesity. Exceptions: The following are allowed if they occurred more than 1 year before screening:\n\n  * liposuction\n  * cryolipolysis, or\n  * abdominoplasty.\n* Are unwilling to comply with the lifestyle and dietary restrictions required for this study.\n* Are individuals AFAB who are lactating.\n* Are individuals AFAB who are pregnant or intend to become pregnant or to breastfeed during the study, or individuals AMAB who intend to conceive a pregnancy during the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,22 +100,22 @@
  },
  "sites": [
   {
-   "facility": "Profil Institut für Stoffwechselforschung",
    "city": "Neuss",
-   "state": null,
    "country": "Germany",
-   "status": "RECRUITING",
+   "facility": "Profil Institut für Stoffwechselforschung",
    "lat": 51.19807,
-   "lon": 6.68504
+   "lon": 6.68504,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
-   "facility": "CTC GoCo",
    "city": "Mölndal",
-   "state": null,
    "country": "Sweden",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "CTC GoCo",
    "lat": 57.6554,
-   "lon": 12.01378
+   "lon": 12.01378,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07665879",
@@ -129,6 +129,52 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have an hemoglobin A1c (HbA1c) value at screening of less than 6.5 percent (%)."
+   },
+   {
+    "text": "Have a body mass index between 25 and 45 Kilogram per Square Meter (kg/m²)."
+   },
+   {
+    "text": "Have had a stable body weight that has changed by less than 5% during the 3 months prior to screening."
+   },
+   {
+    "text": "Are individuals assigned male at birth (AMAB) or assigned female at birth (AFAB). Individuals of childbearing potential (IOCBP) and individuals not of childbearing potential (INOCBP) may participate in this study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have type 1 or type 2 diabetes mellitus, a history of ketoacidosis, or of hyperosmolar state or coma. Note: Participants with a history of gestational diabetes are eligible to participate in this study."
+   },
+   {
+    "text": "Have acute or chronic pancreatitis or a history of acute idiopathic pancreatitis."
+   },
+   {
+    "text": "Have a known clinically significant gastric emptying abnormality or chronically take drugs that directly affect gastrointestinal (GI) motility to a significant extent."
+   },
+   {
+    "text": "Have a prior or planned surgical treatment for obesity. Exceptions: The following are allowed if they occurred more than 1 year before screening:",
+    "sub_items": [
+     "liposuction",
+     "cryolipolysis, or",
+     "abdominoplasty."
+    ]
+   },
+   {
+    "text": "Are unwilling to comply with the lifestyle and dietary restrictions required for this study."
+   },
+   {
+    "text": "Are individuals AFAB who are lactating."
+   },
+   {
+    "text": "Are individuals AFAB who are pregnant or intend to become pregnant or to breastfeed during the study, or individuals AMAB who intend to conceive a pregnancy during the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

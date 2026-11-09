@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Oslo University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Oslo University Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Saxagliptin",
    "other_names": [
     "Onglyza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Saxagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Saxagliptin"
-   ]
+   ],
+   "label": "Saxagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Dipeptidyl peptidase 4 (DPP-4) inhibitors are approved as add on therapy to improve glycaemic control in Type 2 Diabetes Mellitus (T2DM). DPP-4 inactivates the incretin hormone glucagon-like peptide 1 (GLP-1). Inhibiting the inactivation of GLP-1 leads to increased insulin- and reduced glucagon secretion after meals. DPP-4 has been shown to be present in atherosclerotic plaques. DPP-4 is a protease with substrates including cytokines and chemokines associated with atherosclerosis/inflammation.\n\nThe purpose of this study is to explore the effects of 3 months intervention with DPP-4 inhibitor saxagliptin on biomarkers related to atherosclerosis in patients with stable coronary artery disease (CAD) and T2DM, on circulating levels and on expression levels in circulating monocytes and adipose tissue.\n\nA reduction in markers associated with atherosclerosis could indicate an antiatherosclerotic effect of DPP-4 inhibitors beyond glycaemic control alone.\n\nDue to reduced sample size (recruitment problems) the main focus has changed and will now be on cellular aspects and gene regulation (initially secondary outcome measure).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients \\> 18, \\< 80 years old, with type 2 diabetes mellitus and angiographically proven coronary artery disease.\n* HbA1c \\> 6.5% and under treatment with either metformin and/or glimepiride.\n\nExclusion Criteria:\n\n* Allergy or hypersensitivity to any of the drug's components.\n* Heart failure in NYHA class III or IV.\n* Severe liver failure, moderate or severe kidney failure\n* Malignant disease.\n* Active infectious disease.\n* Acute coronary syndrome in the last 3 months.\n* Pregnancy or breastfeeding.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Center for Clinical Heart Research, Dept. of Cardiology, Oslo University Hospital Ullevaal",
    "city": "Oslo",
-   "state": null,
    "country": "Norway",
-   "status": null,
+   "facility": "Center for Clinical Heart Research, Dept. of Cardiology, Oslo University Hospital Ullevaal",
    "lat": 59.91273,
-   "lon": 10.74609
+   "lon": 10.74609,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01552018",
@@ -120,6 +120,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients > 18, < 80 years old, with type 2 diabetes mellitus and angiographically proven coronary artery disease."
+   },
+   {
+    "text": "HbA1c > 6.5% and under treatment with either metformin and/or glimepiride."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Allergy or hypersensitivity to any of the drug's components."
+   },
+   {
+    "text": "Heart failure in NYHA class III or IV."
+   },
+   {
+    "text": "Severe liver failure, moderate or severe kidney failure"
+   },
+   {
+    "text": "Malignant disease."
+   },
+   {
+    "text": "Active infectious disease."
+   },
+   {
+    "text": "Acute coronary syndrome in the last 3 months."
+   },
+   {
+    "text": "Pregnancy or breastfeeding."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

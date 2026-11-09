@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Vildagliptin 100 mg qd",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin 1500 mg daily",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Vildagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Vildagliptin 100 mg qd"
-   ]
+   ],
+   "label": "Vildagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin 1500 mg daily"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,32 +83,32 @@
  "brief_summary": "This study is designed to demonstrate the efficacy and safety of vildagliptin compared to metformin in elderly drug naive patients with type 2 diabetes",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age from 65 years to the upper age limit recommended by local prescribing information for metformin\n* Drug naive patients with type 2 diabetes.\n* Body mass index (BMI) in the range of 22-40 kg/m2.\n* HbA1c in the range of 7 to 9% inclusive\n* FPG \\<270 mg/dL (15 mmol/L)\n\nExclusion Criteria:\n\n* A history of type 1 diabetes\n* Evidence of significant diabetic complications\n* Treatment with insulin or any other oral antidiabetic agents\n\nOther protocol-defined inclusion/exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "65 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "65 Years",
+  "sex": "ALL",
   "std_ages": [
    "OLDER_ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Investigative Centers",
    "city": "Nuremberg",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Investigative Centers",
    "lat": 49.45421,
-   "lon": 11.07752
+   "lon": 11.07752,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novartis Pharmaceuticals",
    "city": "Basel",
-   "state": null,
    "country": "Switzerland",
-   "status": null,
+   "facility": "Novartis Pharmaceuticals",
    "lat": 47.55839,
-   "lon": 7.57327
+   "lon": 7.57327,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00383578",
@@ -122,6 +122,41 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age from 65 years to the upper age limit recommended by local prescribing information for metformin"
+   },
+   {
+    "text": "Drug naive patients with type 2 diabetes."
+   },
+   {
+    "text": "Body mass index (BMI) in the range of 22-40 kg/m2."
+   },
+   {
+    "text": "HbA1c in the range of 7 to 9% inclusive"
+   },
+   {
+    "text": "FPG <270 mg/dL (15 mmol/L)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A history of type 1 diabetes"
+   },
+   {
+    "text": "Evidence of significant diabetic complications"
+   },
+   {
+    "text": "Treatment with insulin or any other oral antidiabetic agents"
+   },
+   {
+    "text": "Other protocol-defined inclusion/exclusion criteria may apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

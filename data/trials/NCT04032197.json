@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo (semaglutide)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Semaglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo (semaglutide)"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "This study looks into how the type 2 diabetes medicine, semaglutide, can prevent risk of heart disease complications and stroke. Participants will either get semaglutide or placebo (\"dummy\" medicine) - which treatment is decided by chance. Semaglutide is a new medicine to treat type 2 diabetes and can be prescribed by doctors in some countries. The study medicine will be in a pen, and must be injected with a needle in the stomach, thigh or upper arm once a week. The study will last for 57-63 weeks. Participants will have 10 clinic visits with the study doctor, 5 visits to the specialised clinic for imaging and at least 1 phone contact. Participants' health will be monitored carefully and blood samples will therefore be taken at the clinic visits. Women cannot take part if pregnant, breast-feeding or planning to become pregnant during the study period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female, age above or equal to 50 years at the time of signing informed consent\n* Body mass index equal to or less than 39.9 kg/m\\^2\n* Diagnosed with type 2 diabetes 180 daysor more prior to the day of the first screening visit\n* HbA1c 6.0% - 9.0% (42-75 mmol/mol) (both inclusive)\n* Established cardiovascular disease\n\nExclusion Criteria:\n\n* Hospitalisation for unstable angina pectoris or transient ischaemic attack within 90 days prior to the day of the first screening visit\n* Planned coronary, carotid or peripheral artery revascularisation.\n* Presently classified as being in New York Heart Association (NYHA) equal to or above Class III\n* Treatment with glucagon-like peptide-1 receptor agonists (GLP-1 RAs) or systemic anti-inflammatory drugs within 90 days prior to the first screening visit. Stable treatment with acetylsalicylic acid for prevention of cardiovascular events and occasional use of propionic acid derivatives drugs (e.g. ibuprofen) is allowed",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,40 +99,40 @@
  },
  "sites": [
   {
-   "facility": "Clinical Trials Unit / Center for Medical Research",
    "city": "Graz",
-   "state": null,
    "country": "Austria",
-   "status": null,
+   "facility": "Clinical Trials Unit / Center for Medical Research",
    "lat": 47.06733,
-   "lon": 15.44197
+   "lon": 15.44197,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Steno Diabetes Center Copenhagen",
    "city": "Herlev",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Steno Diabetes Center Copenhagen",
    "lat": 55.72366,
-   "lon": 12.43998
+   "lon": 12.43998,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Karolinska Universitetssjukhuset Solna,FOU Tema Hjärta Kärl",
    "city": "Stockholm",
-   "state": null,
    "country": "Sweden",
-   "status": null,
+   "facility": "Karolinska Universitetssjukhuset Solna,FOU Tema Hjärta Kärl",
    "lat": 59.32938,
-   "lon": 18.06871
+   "lon": 18.06871,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "CTC Clinical Trial Consultants AB, Uppsala",
    "city": "Uppsala",
-   "state": null,
    "country": "Sweden",
-   "status": null,
+   "facility": "CTC Clinical Trial Consultants AB, Uppsala",
    "lat": 59.85882,
-   "lon": 17.63889
+   "lon": 17.63889,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04032197",
@@ -146,6 +146,41 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female, age above or equal to 50 years at the time of signing informed consent"
+   },
+   {
+    "text": "Body mass index equal to or less than 39.9 kg/m^2"
+   },
+   {
+    "text": "Diagnosed with type 2 diabetes 180 daysor more prior to the day of the first screening visit"
+   },
+   {
+    "text": "HbA1c 6.0% - 9.0% (42-75 mmol/mol) (both inclusive)"
+   },
+   {
+    "text": "Established cardiovascular disease"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Hospitalisation for unstable angina pectoris or transient ischaemic attack within 90 days prior to the day of the first screening visit"
+   },
+   {
+    "text": "Planned coronary, carotid or peripheral artery revascularisation."
+   },
+   {
+    "text": "Presently classified as being in New York Heart Association (NYHA) equal to or above Class III"
+   },
+   {
+    "text": "Treatment with glucagon-like peptide-1 receptor agonists (GLP-1 RAs) or systemic anti-inflammatory drugs within 90 days prior to the first screening visit. Stable treatment with acetylsalicylic acid for prevention of cardiovascular events and occasional use of propionic acid derivatives drugs (e.g. ibuprofen) is allowed"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

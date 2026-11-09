@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "NONE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Tor Biering-Sørensen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Tor Biering-Sørensen"
  },
  "collaborators": [
   "Novartis"
@@ -54,43 +54,43 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "LDL-C information letter",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Lp(a) information letter",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "LDL letter only",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: LDL-C information letter"
-   ]
+   ],
+   "label": "LDL letter only",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Lp(a) letter only",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Lp(a) information letter"
-   ]
+   ],
+   "label": "Lp(a) letter only",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "No letter",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "LDL-C and Lp(a) letter",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: LDL-C information letter",
     "Behavioral: Lp(a) information letter"
-   ]
+   ],
+   "label": "LDL-C and Lp(a) letter",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "The goal of this clinical trial is to learn whether simple electronic information letters can increase patient activation and improve risk-factor monitoring in adults in Denmark with ischemic heart disease (IHD) who have LDL cholesterol above the recommended treatment target. A subgroup of participants with elevated lipoprotein(a) \\[Lp(a)\\] will also be randomized to receive an additional information letter.\n\nThe main questions the study aims to answer are:\n\n* Does sending an electronic letter about elevated LDL cholesterol increase the proportion of patients who have at least one LDL-cholesterol test within 6 months?\n* Does sending an electronic letter about elevated LDL cholesterol reduce major adverse cardiovascular events (cardiovascular death, myocardial infarction, or stroke) over 5 years?\n* Among patients with ischemic heart disease and elevated Lp(a), does receiving an information letter about Lp(a) increase the proportion who have at least one LDL-cholesterol test within 6 months, and does it reduce major adverse cardiovascular events over 5 years?\n\nBecause this is a randomized trial, researchers will compare people who receive the electronic letter(s) with people who do not receive any letter to determine whether the letters encourage patients to take action, such as obtaining laboratory tests or contacting their doctor.\n\nParticipants will:\n\n* Receive an electronic letter through Denmark's national digital mailbox system (Digital Post) or receive no letter, depending on random assignment.\n* Continue their usual health care, with no additional visits, treatments, or procedures required for the study.\n* Have all study information collected from existing Danish nationwide health registries.",
  "eligibility": {
   "criteria": "Inclusion criteria (primary study population)\n\n* Alive and resident in Denmark on the identification date\n* Diagnosis of IHD defined as an A (action) diagnosis code of I20-I25 in the Danish National Patient Register, first registered \\> 6 months prior to the identification date but after January 1, 2000\n* Latest available LDL-C is over 1.4 mmol/l measured up to 3 years prior to the identification date, defined using NPU codes NPU01568, NPU10171 or DNK35308 from the Danish National Laboratory Register\n* Age \\>= 18 years and \\<= 85 years on the identification date\n\nExclusion criteria\n\n* Nursing home residents\n* Exemption from, and thus no access to, Digital Post\n\nDefinition of the elevated Lp(a) subgroup (secondary study population) Participants in the primary study population who, in addition, have an elevated Lp(a) level recorded at any time prior to the identification date, identified in the Danish National Laboratory Register using NPU codes NPU21687 or NPU19840. Elevated Lp(a) is defined as \\>= 105 nmol/L or \\>= 50 mg/dL. Only participants in this subgroup undergo the second randomization to the Lp(a) letter.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "85 Years",
   "healthy_volunteers": false,
+  "maximum_age": "85 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,13 +117,13 @@
  },
  "sites": [
   {
-   "facility": "Center for Translational Cardiology and Pragmatic Randomized Trials, Department of Cardiology, Copenhagen University Hospital - Herlev and Gentofte, Hellerup, 2900",
    "city": "Hellerup",
-   "state": "Region Sjælland",
    "country": "Denmark",
-   "status": null,
+   "facility": "Center for Translational Cardiology and Pragmatic Randomized Trials, Department of Cardiology, Copenhagen University Hospital - Herlev and Gentofte, Hellerup, 2900",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Region Sjælland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07382414",
@@ -137,6 +137,39 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Alive and resident in Denmark on the identification date",
+    "group": "primary study population"
+   },
+   {
+    "text": "Diagnosis of IHD defined as an A (action) diagnosis code of I20-I25 in the Danish National Patient Register, first registered > 6 months prior to the identification date but after January 1, 2000",
+    "group": "primary study population"
+   },
+   {
+    "text": "Latest available LDL-C is over 1.4 mmol/l measured up to 3 years prior to the identification date, defined using NPU codes NPU01568, NPU10171 or DNK35308 from the Danish National Laboratory Register",
+    "group": "primary study population"
+   },
+   {
+    "text": "Age >= 18 years and <= 85 years on the identification date",
+    "group": "primary study population"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Nursing home residents"
+   },
+   {
+    "text": "Exemption from, and thus no access to, Digital Post"
+   },
+   {
+    "text": "Definition of the elevated Lp(a) subgroup (secondary study population) Participants in the primary study population who, in addition, have an elevated Lp(a) level recorded at any time prior to the identification date, identified in the Danish National Laboratory Register using NPU codes NPU21687 or NPU19840. Elevated Lp(a) is defined as >= 105 nmol/L or >= 50 mg/dL. Only participants in this subgroup undergo the second randomization to the Lp(a) letter."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

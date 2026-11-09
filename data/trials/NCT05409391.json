@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shanghai Zhongshan Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Shanghai Zhongshan Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Insulin Titration System",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "AI",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Insulin Titration System"
-   ]
+   ],
+   "label": "AI",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -71,10 +71,10 @@
  "brief_summary": "This is an open-labeled, one-arm intervention trial to access the effect and safety of the Insulin Titration System Based on Deep Learning in patients with Type 2 Diabetes Mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetes\n* age of 18-75 years\n* HbA1c between 7.0% and 11.0%.\n\nExclusion Criteria:\n\n* subjects with acute complications of diabetes, such as ketoacidosis or hyperglycemic hyperosmolar state;\n* BMI ≥ 45kg/m2;\n* women who are pregnant or breast-feeding;\n* subjects with severe cardiac, hepatic, renal diseases; subjects with any psychiatric or psychological diseases;\n* subjects with severe edema, infections or peripheral circulation disorders, receiving surgery during hospitalization;\n* subjects who could not comply with the protocol",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -82,13 +82,13 @@
  },
  "sites": [
   {
-   "facility": "Department of Endocrinology, Zhongshan Hospital Fudan University",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Department of Endocrinology, Zhongshan Hospital Fudan University",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05409391",
@@ -100,6 +100,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "type 2 diabetes"
+   },
+   {
+    "text": "age of 18-75 years"
+   },
+   {
+    "text": "HbA1c between 7.0% and 11.0%."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "subjects with acute complications of diabetes, such as ketoacidosis or hyperglycemic hyperosmolar state;"
+   },
+   {
+    "text": "BMI ≥ 45kg/m2;"
+   },
+   {
+    "text": "women who are pregnant or breast-feeding;"
+   },
+   {
+    "text": "subjects with severe cardiac, hepatic, renal diseases; subjects with any psychiatric or psychological diseases;"
+   },
+   {
+    "text": "subjects with severe edema, infections or peripheral circulation disorders, receiving surgery during hospitalization;"
+   },
+   {
+    "text": "subjects who could not comply with the protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

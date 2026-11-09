@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2018-04-24",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Nebraska",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Nebraska"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin 100 mg daily",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin 100 mg daily",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This study is designed to see if the use of the drug Sitagliptin (used to reduce insulin resistance) will delay or prevent kidney transplant patients from getting diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Recipient of a kidney transplant at UNMC, including cadaveric or living donor transplant.\n\nExclusion Criteria:\n\n* A previous diagnosis of diabetes or previous criteria for diabetes, according to the American Diabetes Association, not previously recognized as diabetes.\n* Simultaneous transplant of another solid organ, such liver or heart.\n* Patient unable to take oral medication.\n* Patient unable to give informed consent.\n* Hypersensitivity to sitagliptin.",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "University of Nebraska Medical Center",
    "city": "Omaha",
-   "state": "Nebraska",
    "country": "United States",
-   "status": null,
+   "facility": "University of Nebraska Medical Center",
    "lat": 41.25626,
-   "lon": -95.94043
+   "lon": -95.94043,
+   "state": "Nebraska",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00936663",
@@ -118,6 +118,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Recipient of a kidney transplant at UNMC, including cadaveric or living donor transplant."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A previous diagnosis of diabetes or previous criteria for diabetes, according to the American Diabetes Association, not previously recognized as diabetes."
+   },
+   {
+    "text": "Simultaneous transplant of another solid organ, such liver or heart."
+   },
+   {
+    "text": "Patient unable to take oral medication."
+   },
+   {
+    "text": "Patient unable to give informed consent."
+   },
+   {
+    "text": "Hypersensitivity to sitagliptin."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

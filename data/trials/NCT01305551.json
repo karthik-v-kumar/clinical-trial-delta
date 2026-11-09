@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,57 +48,57 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Saxagliptin",
    "other_names": [
     "Onglyza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin XR",
    "other_names": [
     "Glifage XR"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Saxagliptin/Metformin XR FDC",
    "other_names": [
     "Onglyza/Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Saxagliptin",
+    "Drug: Metformin XR"
+   ],
    "label": "Treatment A-Saxagliptin+Metformin XR",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Saxagliptin",
-    "Drug: Metformin XR"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Saxagliptin/Metformin XR FDC"
+   ],
    "label": "Treatment B-Saxagliptin/Metformin XR FDC",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Saxagliptin/Metformin XR FDC"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Treatment C-Saxagliptin+Metformin XR",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Saxagliptin",
     "Drug: Metformin XR"
-   ]
+   ],
+   "label": "Treatment C-Saxagliptin+Metformin XR",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Treatment D-Saxagliptin/Metformin XR FDC",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Saxagliptin/Metformin XR FDC"
-   ]
+   ],
+   "label": "Treatment D-Saxagliptin/Metformin XR FDC",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -126,23 +126,23 @@
  "brief_summary": "The purpose of this study is to demonstrate the bioequivalence (BE) of Saxagliptin and Metformin from a 5 mg Saxagliptin/500 mg Metformin extended release (XR) fixed dose combination (FDC) tablet relative to 5 mg Onglyza™ and 500 mg Glifage® XR (marketed in Brazil by Merck S.A.) tablets administered together in both the fasted and fed states.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy men and women\n* Women of childbearing potential (WOCBP) who are using acceptable method of contraception\n* Women who are not nursing\n\nExclusion Criteria:\n\n* History of Gastrointestinal (GI) disease\n* Any GI surgery that could impact study drug absorption\n* History of allergy to drug class or related compounds\n* History of allergy to metformin or other similar acting agents.\n* History of any significant drug allergy.\n* Estimated creatinine clearance (ClCr) \\< 80 mL/min using Cockcroft-Gault formula",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Local Institution",
    "city": "Campinas",
-   "state": "São Paulo",
    "country": "Brazil",
-   "status": null,
+   "facility": "Local Institution",
    "lat": -22.90556,
-   "lon": -47.06083
+   "lon": -47.06083,
+   "state": "São Paulo",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01305551",
@@ -157,6 +157,41 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy men and women"
+   },
+   {
+    "text": "Women of childbearing potential (WOCBP) who are using acceptable method of contraception"
+   },
+   {
+    "text": "Women who are not nursing"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of Gastrointestinal (GI) disease"
+   },
+   {
+    "text": "Any GI surgery that could impact study drug absorption"
+   },
+   {
+    "text": "History of allergy to drug class or related compounds"
+   },
+   {
+    "text": "History of allergy to metformin or other similar acting agents."
+   },
+   {
+    "text": "History of any significant drug allergy."
+   },
+   {
+    "text": "Estimated creatinine clearance (ClCr) < 80 mL/min using Cockcroft-Gault formula"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Regeneron Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Regeneron Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -53,52 +53,52 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ALN-APOC3",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ALN-APOC3 Ascending Cohorts",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ALN-APOC3",
     "Drug: Matching Placebo"
-   ]
+   ],
+   "label": "ALN-APOC3 Ascending Cohorts",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Matching Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: ALN-APOC3"
+   ],
    "label": "ALN-APOC3 low-dose",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: ALN-APOC3"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: ALN-APOC3"
+   ],
    "label": "ALN-APOC3 medium-dose",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: ALN-APOC3"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "ALN-APOC3 high-dose",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ALN-APOC3"
-   ]
+   ],
+   "label": "ALN-APOC3 high-dose",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "This study is researching an experimental drug called ALN-APOC3 (called \"study drug\"). The study is focused on participants who have dyslipidemia (abnormal amounts of fats in the blood, including triglycerides and cholesterol), but who are otherwise healthy.\n\nThe aim of the study is to see how safe and effective the study drug is.\n\nThe study is looking at several other research questions, including:\n\n* What side effects may happen from taking the study drug\n* How much study drug is in the blood at different times\n* How the study drug changes lipid levels in the blood",
  "eligibility": {
   "criteria": "Key Inclusion Criteria:\n\n1. Judged by the investigator to be in good health based on medical history, physical examination, vital signs, Electrocardiograms (ECG's) and laboratory safety testing, as defined in the protocol\n2. Participants can enter the study under one of the following options, as defined in the protocol:\n\n   1. Currently not taking statin and have not been on statin therapy for the 3 months prior to screening, or\n   2. On a stable dose of statin, taken continuously for 3 months\n3. Fasting triglycerides concentrations ≥100 and \\<500 mg/dL (1.13 to 5.65 mmol/L) during screening visit, as defined in the protocol\n4. Fasting LDL-C ≥70 (1.81 mmol/L) if on stable statin therapy OR if not on statin treatment, as defined in the protocol\n\nKey Exclusion Criteria:\n\n1. History of clinically significant cardiovascular (other than dyslipidemia), respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, psychiatric, or neurological disease, or any other concern, as assessed by the investigator that may confound the results of the study or poses an additional risk to the participant by study participation\n2. Was hospitalized (ie, \\>24 hours) for any reason within 30 days of the screening visit\n3. Is positive for Human Immunodeficiency Virus (HIV) or Hepatitis B surface Antigen (HBsAg) at the screening visit, as defined in the protocol\n4. Is positive for hepatitis C antibody and positive for qualitative Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) test at the screening visit\n5. Any malignancy, except for non-melanoma skin cancer or cervical/anus in-situ, that have been resected with no evidence of metastatic disease for 3 years prior to the screening visit\n\nNOTE: Other protocol defined inclusion/exclusion criteria apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,13 +129,13 @@
  },
  "sites": [
   {
-   "facility": "Arensia Exploratory Medicine at the Republican Clinical Hospital",
    "city": "Chisinau",
-   "state": null,
    "country": "Moldova",
-   "status": null,
+   "facility": "Arensia Exploratory Medicine at the Republican Clinical Hospital",
    "lat": 47.00902,
-   "lon": 28.85938
+   "lon": 28.85938,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06784349",
@@ -149,6 +149,48 @@
  "sponsors_of_note": [
   "Regeneron"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Judged by the investigator to be in good health based on medical history, physical examination, vital signs, Electrocardiograms (ECG's) and laboratory safety testing, as defined in the protocol"
+   },
+   {
+    "text": "Participants can enter the study under one of the following options, as defined in the protocol:",
+    "sub_items": [
+     "Currently not taking statin and have not been on statin therapy for the 3 months prior to screening, or",
+     "On a stable dose of statin, taken continuously for 3 months"
+    ]
+   },
+   {
+    "text": "Fasting triglycerides concentrations ≥100 and <500 mg/dL (1.13 to 5.65 mmol/L) during screening visit, as defined in the protocol"
+   },
+   {
+    "text": "Fasting LDL-C ≥70 (1.81 mmol/L) if on stable statin therapy OR if not on statin treatment, as defined in the protocol"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of clinically significant cardiovascular (other than dyslipidemia), respiratory, hepatic, renal, gastrointestinal, endocrine, hematological, psychiatric, or neurological disease, or any other concern, as assessed by the investigator that may confound the results of the study or poses an additional risk to the participant by study participation"
+   },
+   {
+    "text": "Was hospitalized (ie, >24 hours) for any reason within 30 days of the screening visit"
+   },
+   {
+    "text": "Is positive for Human Immunodeficiency Virus (HIV) or Hepatitis B surface Antigen (HBsAg) at the screening visit, as defined in the protocol"
+   },
+   {
+    "text": "Is positive for hepatitis C antibody and positive for qualitative Hepatitis C Virus (HCV) Ribonucleic Acid (RNA) test at the screening visit"
+   },
+   {
+    "text": "Any malignancy, except for non-melanoma skin cancer or cervical/anus in-situ, that have been resected with no evidence of metastatic disease for 3 years prior to the screening visit"
+   },
+   {
+    "text": "NOTE: Other protocol defined inclusion/exclusion criteria apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

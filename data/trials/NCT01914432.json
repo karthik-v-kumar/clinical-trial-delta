@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yuhan Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Yuhan Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -54,72 +54,72 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "YH16410",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Telmisartan",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "YH16410 placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Telmisartan placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "YH16410",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: YH16410",
     "Drug: Rosuvastatin placebo",
     "Drug: Telmisartan placebo"
-   ]
+   ],
+   "label": "YH16410",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Rosuvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin",
     "Drug: YH16410 placebo",
     "Drug: Telmisartan placebo"
-   ]
+   ],
+   "label": "Rosuvastatin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Telmisartan",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Telmisartan",
     "Drug: YH16410 placebo",
     "Drug: Rosuvastatin placebo"
-   ]
+   ],
+   "label": "Telmisartan",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: YH16410 placebo",
     "Drug: Rosuvastatin placebo",
     "Drug: Telmisartan placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -131,10 +131,10 @@
  "brief_summary": "To evaluate efficacy and safety of YH16410 versus rosuvastatin and telmisartan monotherapies in patients with hypertension and hyperlipidemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed Informed Consent\n* Men and women ≥ 19 years of age\n* Subject who has one of 3 conditions classified by Cardiovascular Risk Factors, 10-Year Risk, Blood Pressure, LDL-C, TG, Coronary Artery Disease and Equivalent\n\nExclusion Criteria:\n\n* Females who are pregnant, breastfeeding, or of childbearing potential, unwilling to practice adequate contraception throughout the study.\n* Other exclusions applied",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -142,13 +142,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul National University Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Seoul National University Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01914432",
@@ -160,6 +160,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed Informed Consent"
+   },
+   {
+    "text": "Men and women ≥ 19 years of age"
+   },
+   {
+    "text": "Subject who has one of 3 conditions classified by Cardiovascular Risk Factors, 10-Year Risk, Blood Pressure, LDL-C, TG, Coronary Artery Disease and Equivalent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Females who are pregnant, breastfeeding, or of childbearing potential, unwilling to practice adequate contraception throughout the study."
+   },
+   {
+    "text": "Other exclusions applied"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

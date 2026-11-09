@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Copenhagen"
  },
  "collaborators": [
   "The Ministry of Science, Technology and Innovation, Denmark"
@@ -50,39 +50,39 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "High intensity interval training",
    "other_names": [
     "High intense interval training",
     "HIT",
     "HIIT"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Behavioral: High intensity interval training"
+   ],
    "label": "HIT (trained leg) DM",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Behavioral: High intensity interval training"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control leg, DM",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "HIT (trained leg), Control subject",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: High intensity interval training"
-   ]
+   ],
+   "label": "HIT (trained leg), Control subject",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control leg, Control subject",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "The purpose of this study is to determine the effect of High Intensity Interval Training (HIT) on insulin sensitivity in skeletal muscle in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 10 subjects with Type 2 diabetes. 10 healthy control subjects.\n* BMI 28-35\n* diet or tablet treatment for diabetes\n\nExclusion Criteria:\n\n* regular physical activity\n* diseases other than type 2 diabetes\n* insulin treatment",
-  "sex": "MALE",
-  "minimum_age": "40 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "40 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "facility": "Xlab, Department of Biomedical Sciences, University of Copenhagen",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Xlab, Department of Biomedical Sciences, University of Copenhagen",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01732705",
@@ -123,6 +123,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "10 subjects with Type 2 diabetes. 10 healthy control subjects."
+   },
+   {
+    "text": "BMI 28-35"
+   },
+   {
+    "text": "diet or tablet treatment for diabetes"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "regular physical activity"
+   },
+   {
+    "text": "diseases other than type 2 diabetes"
+   },
+   {
+    "text": "insulin treatment"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

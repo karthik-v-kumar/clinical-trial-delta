@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -50,25 +50,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD1656",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD1656"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD1656"
-   ]
+   ],
+   "label": "2",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -80,10 +80,10 @@
  "brief_summary": "The purpose of this study is to compare the 24-hour glucose profiles in diabetic patients treated with metformin following once daily and twice daily oral dosing",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type II diabetes patients, female with non child-bearing potential\n* Type 2 Diabetes Mellitus (T2DM) diagnosis confirmed by C-peptide \\>0.3nmol/L and no Glutamic acid decarboxylase (GAD) antibodies at enrolment (screening)\n* Treatment with metformin as single therapy for T2DM for at least 30 days prior to enrolment and the metformin dose must have been unchanged during this period\n\nExclusion Criteria:\n\n* History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease\n* Any clinically significant abnormality identified on physical examination, laboratory test or ECG, which in the judgement of investigator would compromise the subject's safety or successful participation in the clinical study",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -91,13 +91,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00819884",
@@ -112,6 +112,29 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "type II diabetes patients, female with non child-bearing potential"
+   },
+   {
+    "text": "Type 2 Diabetes Mellitus (T2DM) diagnosis confirmed by C-peptide >0.3nmol/L and no Glutamic acid decarboxylase (GAD) antibodies at enrolment (screening)"
+   },
+   {
+    "text": "Treatment with metformin as single therapy for T2DM for at least 30 days prior to enrolment and the metformin dose must have been unchanged during this period"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease"
+   },
+   {
+    "text": "Any clinically significant abnormality identified on physical examination, laboratory test or ECG, which in the judgement of investigator would compromise the subject's safety or successful participation in the clinical study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

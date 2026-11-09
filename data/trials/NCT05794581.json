@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Carmot Therapeutics, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Carmot Therapeutics, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -53,44 +53,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "CT-868",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Victoza",
    "other_names": [
     "Liraglutide"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "CT-868",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: CT-868"
-   ]
+   ],
+   "label": "CT-868",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Victoza",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Victoza"
-   ]
+   ],
+   "label": "Victoza",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "This study will be conducted primarily to evaluate the effects of CT-868 on glucose homeostasis in participants with Type 1 Diabetes Mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Female or male adults with Type 1 diabetes\n* Ages 18-65 years\n* Type 1 DM for at least 3 years\n* Using an insulin pump or multiple daily injections (MDI) for at least 3 months\n* BMI 25.0 - 35.0\n\nExclusion Criteria:\n\n* Significant medical history\n* Uncontrolled diabetes\n* History of surgical treatment for weight loss\n* History of malignancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "Carmot Clinical Research Unit 101",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Carmot Clinical Research Unit 101",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05794581",
@@ -131,6 +131,41 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Female or male adults with Type 1 diabetes"
+   },
+   {
+    "text": "Ages 18-65 years"
+   },
+   {
+    "text": "Type 1 DM for at least 3 years"
+   },
+   {
+    "text": "Using an insulin pump or multiple daily injections (MDI) for at least 3 months"
+   },
+   {
+    "text": "BMI 25.0 - 35.0"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Significant medical history"
+   },
+   {
+    "text": "Uncontrolled diabetes"
+   },
+   {
+    "text": "History of surgical treatment for weight loss"
+   },
+   {
+    "text": "History of malignancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

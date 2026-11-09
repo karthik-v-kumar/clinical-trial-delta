@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,14 +51,14 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MK0431, sitagliptin phosphate / Duration of Treatment: 12 Weeks",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator : placebo (unspecified) / Duration of Treatment: 12 Weeks",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -71,10 +71,10 @@
  "brief_summary": "A clinical study to determine the safety and efficacy of MK-0431 in patients with Type 2 diabetes mellitus who have inadequate glycemic control on diet/exercise therapy",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients have type 2 diabetes mellitus\n* On diet/exercise therapy\n\nExclusion Criteria:\n\n* Patients have type 1 diabetes mellitus",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "69 Years",
   "healthy_volunteers": false,
+  "maximum_age": "69 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,6 +90,23 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients have type 2 diabetes mellitus"
+   },
+   {
+    "text": "On diet/exercise therapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients have type 1 diabetes mellitus"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

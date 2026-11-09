@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Alnylam Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Alnylam Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -53,71 +53,71 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ALN-2232",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: ALN-2232"
+   ],
    "label": "Part A: ALN-2232",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: ALN-2232"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "Part A: Placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Part B: ALN-2232",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ALN-2232"
-   ]
+   ],
+   "label": "Part B: ALN-2232",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part B: Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Part B: Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Part C: ALN-2232",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ALN-2232",
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Part C: ALN-2232",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part C: Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Part C: Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Part C: Tirzepatide",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Part C: Tirzepatide",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -137,10 +137,10 @@
  "brief_summary": "The purpose of this study is to:\n\n* evaluate the safety, tolerability, efficacy, pharmacokinetics (PK), and pharmacodynamics (PD) of single ascending doses of ALN-2232 in patients with obesity\n* evaluate the safety, tolerability, efficacy, PK, and PD of multiple doses of ALN-2232 in patients with obesity\n* evaluate the safety, tolerability, efficacy, PK, and PD of multiple doses of ALN-2232 co-initiated with tirzepatide in patients with obesity",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nAll Parts:\n\n* Has a body mass index (BMI) of ≥30 kg/m\\^2 and \\<40 kg/m\\^2\n* Has a hemoglobin A1c (HbA1c) \\<6.5%\n\nExclusion Criteria:\n\nAll Parts:\n\n* Has any clinically significant concomitant disease, medical condition, or abnormal laboratory finding that could compromise participant safety or confound interpretation of study results\n* Receiving therapies for chronic weight management or antidiabetic medications\n\nNote: other protocol defined inclusion/exclusion criteria apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -148,13 +148,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Trial Site",
    "city": "Mount Royal",
-   "state": null,
    "country": "Canada",
-   "status": "RECRUITING",
+   "facility": "Clinical Trial Site",
    "lat": 45.51675,
-   "lon": -73.64918
+   "lon": -73.64918,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07463846",
@@ -166,6 +166,34 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Has a body mass index (BMI) of ≥30 kg/m^2 and <40 kg/m^2",
+    "group": "All Parts"
+   },
+   {
+    "text": "Has a hemoglobin A1c (HbA1c) <6.5%",
+    "group": "All Parts"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has any clinically significant concomitant disease, medical condition, or abnormal laboratory finding that could compromise participant safety or confound interpretation of study results",
+    "group": "All Parts"
+   },
+   {
+    "text": "Receiving therapies for chronic weight management or antidiabetic medications",
+    "group": "All Parts"
+   },
+   {
+    "text": "Note: other protocol defined inclusion/exclusion criteria apply",
+    "group": "All Parts"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

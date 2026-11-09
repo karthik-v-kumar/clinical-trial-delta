@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -54,54 +54,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide 0.5 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo (semaglutide 0.5 mg)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide 1.0 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo (semaglutide 1.0 mg)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide 0.5 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide 0.5 mg"
-   ]
+   ],
+   "label": "Semaglutide 0.5 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Semaglutide 0.5 mg placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo (semaglutide 0.5 mg)"
-   ]
+   ],
+   "label": "Semaglutide 0.5 mg placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Semaglutide 1.0 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide 1.0 mg"
-   ]
+   ],
+   "label": "Semaglutide 1.0 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Semaglutide 1.0 mg placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo (semaglutide 1.0 mg)"
-   ]
+   ],
+   "label": "Semaglutide 1.0 mg placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -117,23 +117,23 @@
  "brief_summary": "The main purpose of the trial is to assess the pharmacokinetics of semaglutide (i.e. the way the drug is distributed in the body over a period of time) following once-weekly administration of semaglutide in healthy Chinese subjects. Different dose levels (0.5 and 1.0 mg) will be investigated in this trial. Participants will be administered semaglutide or placebo once-weekly by subcutaneous injection (under the skin fold of the abdominal wall) using a pen injector with a very small, thin needle by the trial doctor at the trial site for 13 weeks. The trial consists of 23 visits in total, including visit for screening and safety tests, visit for dose administration and blood sample collection. The total time of participation will be approximately 18-22 weeks depending on participant's individual visit schedule.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy male and female Chinese subjects\n* Age between 18 to 55 years (both inclusive) at the time of signing informed consent\n* Body mass index (BMI) between 20 and 24.9 kg/sqm (both inclusive)\n* Body weight greater than or equal to 54.0 kg\n\nExclusion Criteria:\n\n* Female who is pregnant, breast-feeding or intends to become pregnant or is of child-bearing potential not using an adequate contraceptive method throughout the trial including follow-up period. Adequate contraceptive measures are sterilisation, intrauterine device (IUD), oral contraceptives or barrier methods\n* Any clinically significant disease history, in the opinion of the investigator, or systemic or organ disease including: pulmonary, gastrointestinal, hepatic, neurologic, renal, genitourinary and endocrine, dermatologic or hematologic diseases\n* Use of prescription or non-prescription systemic products (including routine or non-routine vitamins or herbal products) or topical medicinal products (except paracetamol and oral contraceptives) within 3 weeks (or within 5 half-lives of the medicinal product, whichever is longest) prior to Visit 2 (randomisation)\n* Personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2\n* History of pancreatitis (acute or chronic)\n* Calcitonin greater than or equal to 50 ng/L\n* Blood donation, surgery or trauma with significant blood loss (400 mL) within the last 12 weeks prior to screening",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03288740",
@@ -147,6 +147,47 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy male and female Chinese subjects"
+   },
+   {
+    "text": "Age between 18 to 55 years (both inclusive) at the time of signing informed consent"
+   },
+   {
+    "text": "Body mass index (BMI) between 20 and 24.9 kg/sqm (both inclusive)"
+   },
+   {
+    "text": "Body weight greater than or equal to 54.0 kg"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Female who is pregnant, breast-feeding or intends to become pregnant or is of child-bearing potential not using an adequate contraceptive method throughout the trial including follow-up period. Adequate contraceptive measures are sterilisation, intrauterine device (IUD), oral contraceptives or barrier methods"
+   },
+   {
+    "text": "Any clinically significant disease history, in the opinion of the investigator, or systemic or organ disease including: pulmonary, gastrointestinal, hepatic, neurologic, renal, genitourinary and endocrine, dermatologic or hematologic diseases"
+   },
+   {
+    "text": "Use of prescription or non-prescription systemic products (including routine or non-routine vitamins or herbal products) or topical medicinal products (except paracetamol and oral contraceptives) within 3 weeks (or within 5 half-lives of the medicinal product, whichever is longest) prior to Visit 2 (randomisation)"
+   },
+   {
+    "text": "Personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2"
+   },
+   {
+    "text": "History of pancreatitis (acute or chronic)"
+   },
+   {
+    "text": "Calcitonin greater than or equal to 50 ng/L"
+   },
+   {
+    "text": "Blood donation, surgery or trauma with significant blood loss (400 mL) within the last 12 weeks prior to screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

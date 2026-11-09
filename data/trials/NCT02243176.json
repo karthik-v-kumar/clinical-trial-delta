@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-04-14",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Saxagliptin",
    "other_names": [
     "Onglyza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Acarbose",
    "other_names": [
     "Glucobay"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Saxagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Saxagliptin"
-   ]
+   ],
+   "label": "Saxagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Acarbose",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose"
-   ]
+   ],
+   "label": "Acarbose",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "SMART Study - A 24-Week, Multicenter, Randomized, Parallel-group, Open-label, Active Controlled Phase IV Study to Assess the Efficacy, Safety and Tolerability of Saxagliptin Compared with Acarbose when in Combination with Metformin in Patients with Type 2 Diabetes Mellitus (T2D) Inadequately Controlled with Metformin Monotherapy",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Diagnosed with type 2 diabetes mellitus\n2. Men and women (non-pregnant and using a medically approved birth-control method) aged at least 18 years at screening.\n3. T2D patients treated with stable metformin monotherapy for at least 8 weeks prior to screening. Metformin dose should be ≥ 1500 mg/day (or individual maximally tolerated dose), but not more than the maximum dose specified in the label\n4. HbA1c ≥ 7.5% and ≤ 11.0% at screening or within 4 weeks prior to screening (by local laboratory) and HbA1c ≥ 7.0% and ≤ 11.0% at pre-randomization visit (by central laboratory)\n5. FPG ≤ 13.3 mmol/L (≤ 240 mg/dL) at pre-randomization visit (by central laboratory)\n6. Able and willing to provide written informed consent and to comply with the study protocol\n\nExclusion Criteria:\n\n1. Women who are pregnant, intending to become pregnant during the study period, lactating females, or women of child-bearing potential not using highly effective, medically approved birth control methods.\n2. Diagnosis or history of:\n\n   1. Type 1 diabetes mellitus, diabetes resulting from pancreatic injury or secondary forms of diabetes, eg, acromegaly or Cushing's syndrome.\n   2. Acute metabolic diabetic complications such as ketoacidosis or hyperosmolar coma within the past 6 months.\n3. Previous treatment with any dipeptidyl peptidase-4 (DPP4) inhibitor or GLP-1 receptor agonists within the past one year.\n4. History of hypersensitivity reaction (e.g., anaphylaxis, angioedema, exfoliative skin conditions) to dipeptidyl peptidase-4 inhibitor (DPP4) or Acarbose.\n5. Treatment with any anti-diabetic medication for more than 7 consecutive days other than metformin in the last 8 weeks prior to screening",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "150 Years",
   "healthy_volunteers": false,
+  "maximum_age": "150 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Research Site",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02243176",
@@ -123,6 +123,51 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosed with type 2 diabetes mellitus"
+   },
+   {
+    "text": "Men and women (non-pregnant and using a medically approved birth-control method) aged at least 18 years at screening."
+   },
+   {
+    "text": "T2D patients treated with stable metformin monotherapy for at least 8 weeks prior to screening. Metformin dose should be ≥ 1500 mg/day (or individual maximally tolerated dose), but not more than the maximum dose specified in the label"
+   },
+   {
+    "text": "HbA1c ≥ 7.5% and ≤ 11.0% at screening or within 4 weeks prior to screening (by local laboratory) and HbA1c ≥ 7.0% and ≤ 11.0% at pre-randomization visit (by central laboratory)"
+   },
+   {
+    "text": "FPG ≤ 13.3 mmol/L (≤ 240 mg/dL) at pre-randomization visit (by central laboratory)"
+   },
+   {
+    "text": "Able and willing to provide written informed consent and to comply with the study protocol"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Women who are pregnant, intending to become pregnant during the study period, lactating females, or women of child-bearing potential not using highly effective, medically approved birth control methods."
+   },
+   {
+    "text": "Diagnosis or history of:",
+    "sub_items": [
+     "Type 1 diabetes mellitus, diabetes resulting from pancreatic injury or secondary forms of diabetes, eg, acromegaly or Cushing's syndrome.",
+     "Acute metabolic diabetic complications such as ketoacidosis or hyperosmolar coma within the past 6 months."
+    ]
+   },
+   {
+    "text": "Previous treatment with any dipeptidyl peptidase-4 (DPP4) inhibitor or GLP-1 receptor agonists within the past one year."
+   },
+   {
+    "text": "History of hypersensitivity reaction (e.g., anaphylaxis, angioedema, exfoliative skin conditions) to dipeptidyl peptidase-4 inhibitor (DPP4) or Acarbose."
+   },
+   {
+    "text": "Treatment with any anti-diabetic medication for more than 7 consecutive days other than metformin in the last 8 weeks prior to screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

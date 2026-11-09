@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "LY3209590",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "LY3209590",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3209590"
-   ]
+   ],
+   "label": "LY3209590",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Insulin Glargine (Lantus)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "Insulin Glargine (Lantus)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "This trial is conducted to evaluate the safety of a study drug given by injection under the skin to healthy participants and participants with type 2 diabetes. It will also investigate how the body processes the study drug and the effect of the study drug on blood sugar levels. Information about any side effects and tolerability will be documented. This study is approximately 30 days for each participant, not including screening. Screening is required within 28 days prior to the start of the study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nFor all study participants:\n\n* Must be a male, or a female who cannot become pregnant, and who is either a healthy participant, or who has type 2 diabetes for at least 1 year\n* Male participants with female partners who can become pregnant must agree to use an effective method of birth control during the study and for 4 months after study drug dosing\n* Have a body mass index (BMI) of greater than 18.5 kilogram per square meter (kg/m²) and less than or equal to 35 kg/m² at screening\n* Have blood pressure, pulse rate, blood and urine laboratory test results acceptable for the study\n* Have venous access sufficient to allow blood sampling\n\nFor participants with Type 2 Diabetes Mellitus (T2DM):\n\n* Have T2DM controlled with diet and exercise alone or are stable on metformin for at least 30 days\n* If taken, prescription medications for medical conditions (e.g.antihypertensive agents, aspirin or lipid lowering agents) are stable for at least 4 weeks\n* Have a hemoglobin A1c (HbA1c) greater than or equal to 7.0% and less than or equal to 9.5%\n\nExclusion Criteria:\n\nFor all study participants:\n\n* Are currently participating in another clinical study\n* Have a history of multiple and/or severe allergies to drugs or foods or a history of severe anaphylactic reaction\n* Have or used to have health problems or laboratory test results or electrocardiogram (ECG) readings that, in the opinion of the doctor, could make it unsafe to participate or could interfere with understanding the results of the study\n* Have donated blood or have had a loss of 500 milliliters (mL) or more in the last 3 months or have had any blood donation within the last month from screening\n* Intend to start any new over-the-counter or prescription medications 7 and 14 days before planned dosing\n\nFor participants with T2DM:\n\n* Have taken any glucose-lowering medications, other than metformin, including insulin, in the past 3 months before screening\n* Have had more than 1 episode of severe hypoglycemia, within 6 months before entry into the study, or have a history of hypoglycemia unawareness or poor recognition of hypoglycemic symptoms\n* Have had a blood transfusion or severe blood loss in the past 3 months, or any blood disorder that could interfere with the understanding of the results of the study\n* Have received chronic (lasting greater than 14 consecutive days) systemic glucocorticoid therapy (excluding topical, intra-articular, and inhaled preparations) in the 3 past months, or have received any glucocorticoid therapy within 30 days before screening",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri, 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST) or speak with your personal physician.",
    "city": "Neuss",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri, 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST) or speak with your personal physician.",
    "lat": 51.19807,
-   "lon": 6.68504
+   "lon": 6.68504,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02942914",
@@ -130,6 +130,82 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Must be a male, or a female who cannot become pregnant, and who is either a healthy participant, or who has type 2 diabetes for at least 1 year",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Male participants with female partners who can become pregnant must agree to use an effective method of birth control during the study and for 4 months after study drug dosing",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Have a body mass index (BMI) of greater than 18.5 kilogram per square meter (kg/m²) and less than or equal to 35 kg/m² at screening",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Have blood pressure, pulse rate, blood and urine laboratory test results acceptable for the study",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Have venous access sufficient to allow blood sampling",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Have T2DM controlled with diet and exercise alone or are stable on metformin for at least 30 days",
+    "group": "For participants with Type 2 Diabetes Mellitus (T2DM)"
+   },
+   {
+    "text": "If taken, prescription medications for medical conditions (e.g.antihypertensive agents, aspirin or lipid lowering agents) are stable for at least 4 weeks",
+    "group": "For participants with Type 2 Diabetes Mellitus (T2DM)"
+   },
+   {
+    "text": "Have a hemoglobin A1c (HbA1c) greater than or equal to 7.0% and less than or equal to 9.5%",
+    "group": "For participants with Type 2 Diabetes Mellitus (T2DM)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Are currently participating in another clinical study",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Have a history of multiple and/or severe allergies to drugs or foods or a history of severe anaphylactic reaction",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Have or used to have health problems or laboratory test results or electrocardiogram (ECG) readings that, in the opinion of the doctor, could make it unsafe to participate or could interfere with understanding the results of the study",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Have donated blood or have had a loss of 500 milliliters (mL) or more in the last 3 months or have had any blood donation within the last month from screening",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Intend to start any new over-the-counter or prescription medications 7 and 14 days before planned dosing",
+    "group": "For all study participants"
+   },
+   {
+    "text": "Have taken any glucose-lowering medications, other than metformin, including insulin, in the past 3 months before screening",
+    "group": "For participants with T2DM"
+   },
+   {
+    "text": "Have had more than 1 episode of severe hypoglycemia, within 6 months before entry into the study, or have a history of hypoglycemia unawareness or poor recognition of hypoglycemic symptoms",
+    "group": "For participants with T2DM"
+   },
+   {
+    "text": "Have had a blood transfusion or severe blood loss in the past 3 months, or any blood disorder that could interfere with the understanding of the results of the study",
+    "group": "For participants with T2DM"
+   },
+   {
+    "text": "Have received chronic (lasting greater than 14 consecutive days) systemic glucocorticoid therapy (excluding topical, intra-articular, and inhaled preparations) in the 3 past months, or have received any glucocorticoid therapy within 30 days before screening",
+    "group": "For participants with T2DM"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

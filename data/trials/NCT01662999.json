@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2013-12-23",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,69 +48,69 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Saxagliptin",
    "other_names": [
     "Onglyza®",
     "BMS-477118"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "BMS-512148"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Saxagliptin",
+    "Drug: Dapagliflozin"
+   ],
    "label": "A-B-C: Saxagliptin-Dapagliflozin-(Saxagliptin+Dapagliflozin)",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Saxagliptin",
     "Drug: Dapagliflozin"
-   ]
-  },
-  {
+   ],
    "label": "A-C-B: Saxagliptin-(Saxagliptin+Dapagliflozin)-Dapagliflozin",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Saxagliptin",
     "Drug: Dapagliflozin"
-   ]
-  },
-  {
+   ],
    "label": "B-A-C: Dapagliflozin-Saxagliptin-(Saxagliptin+Dapagliflozin)",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Saxagliptin",
     "Drug: Dapagliflozin"
-   ]
-  },
-  {
+   ],
    "label": "B-C-A: Dapagliflozin-(Saxagliptin+Dapagliflozin)-Saxagliptin",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Saxagliptin",
     "Drug: Dapagliflozin"
-   ]
-  },
-  {
+   ],
    "label": "C-A-B: (Saxagliptin+Dapagliflozin)-Saxagliptin-Dapagliflozin",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Saxagliptin",
-    "Drug: Dapagliflozin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "C-B-A: (Saxagliptin+Dapagliflozin)-Dapagliflozin-Saxagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Saxagliptin",
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "C-B-A: (Saxagliptin+Dapagliflozin)-Dapagliflozin-Saxagliptin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -142,23 +142,23 @@
  "brief_summary": "The purpose of this study is to evaluate whether the pharmacokinetics (body concentrations/metabolism of the drug) of Saxagliptin and Dapagliflozin are affected when they are administered together",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy subjects as determined by no clinically significant deviation from normal in medical history, Physical Examination, vital signs, 12-lead ECG, and clinical laboratory determinations\n* Body mass index (BMI) of 18 to 30 kg/m2\n* Men and women, ages 18 to 45 years\n* Women of childbearing potential must use acceptable methods of highly effective birth control\n\nExclusion Criteria:\n\n* History of chronic or recurrent urinary tract infection for females\n* History of allergies or adverse reactions to Dipeptidyl peptidase-IV (DPP4) or Sodium-glucose transporter type 2 (SGLT2) inhibitors\n* Any significant acute or chronic medical illness\n* Current or recent gastrointestinal disease\n* Any major surgery within 4 weeks of study drug administration\n* Prior exposure to saxagliptin or dapagliflozin or related drugs",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": true,
+  "maximum_age": "45 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Icon Clinical Pharmacology",
    "city": "Omaha",
-   "state": "Nebraska",
    "country": "United States",
-   "status": null,
+   "facility": "Icon Clinical Pharmacology",
    "lat": 41.25626,
-   "lon": -95.94043
+   "lon": -95.94043,
+   "state": "Nebraska",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01662999",
@@ -173,6 +173,44 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy subjects as determined by no clinically significant deviation from normal in medical history, Physical Examination, vital signs, 12-lead ECG, and clinical laboratory determinations"
+   },
+   {
+    "text": "Body mass index (BMI) of 18 to 30 kg/m2"
+   },
+   {
+    "text": "Men and women, ages 18 to 45 years"
+   },
+   {
+    "text": "Women of childbearing potential must use acceptable methods of highly effective birth control"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of chronic or recurrent urinary tract infection for females"
+   },
+   {
+    "text": "History of allergies or adverse reactions to Dipeptidyl peptidase-IV (DPP4) or Sodium-glucose transporter type 2 (SGLT2) inhibitors"
+   },
+   {
+    "text": "Any significant acute or chronic medical illness"
+   },
+   {
+    "text": "Current or recent gastrointestinal disease"
+   },
+   {
+    "text": "Any major surgery within 4 weeks of study drug administration"
+   },
+   {
+    "text": "Prior exposure to saxagliptin or dapagliflozin or related drugs"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

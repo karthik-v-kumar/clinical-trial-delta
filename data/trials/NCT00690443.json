@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2013-02-25",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Aegerion Pharmaceuticals, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Aegerion Pharmaceuticals, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "Lipitor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "AEGR-733",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: AEGR-733"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Evaluate the efficacy of combination therapy AEGR-733 plus atorvastatin 20 mg versus monotherapy on serum lipoproteins over 4 and 8 weeks of therapy. The primary efficacy parameter is percent change in LDL-C after 8 weeks of therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* M/F 18-70\n* 0-1 risk factor, mean LDL-C -/\\> 160 and -/\\< 250 mg/dL (Visit 2 \\& 3)\n* 2+ risk factors, mean LDL-C -/\\> 130 \\& -/\\< 250 mg/dL (Visit 2 \\& 3)\n* Fasting mean TGs -/\\< 400 mg/dL\n* Understanding and compliance of protocol\n* sign consent\n\nExclusion Criteria:\n\n* Females pregnant, lactating, or CBP who have not been using acceptable contraceptive methods over previous 3 months\n* Uncontrolled hypertension \\>180/95 at screening\n* Hx of chronic renal insufficiency (serum creatinine \\> 2.5 mg/dL)\n* Hx of liver disease or transaminases \\> 1.5 X ULN\n* Positive for Hepatitis B or C\n* Major surgery within past 3 mos\n* Cardiac insufficiency defined as functional Class II-Class IV\n* Hx of malignancy within previous 5 years\n* Participation in another investigational drug study within past 6 wks\n* Serious or unstable medical or psychological condition\n* Regular alcohol use \\> 1 drink per day\n* Regular consumers of grapefruit juice or medications known to be metabolized by CYP 3A4\n* Use of other lipid-lowering meds (washout permitted)\n* Acute CVD\n* Diabetes Mellitus\n* Fasting glucose \\>110 mg/dL\n* BMI -/\\> 40 kg/m2\n* Significant gastrointestinal symptoms such as IBS\n* Use of fish oils, niacin, herbal wt. loss products (washout permitted)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,49 +100,49 @@
  },
  "sites": [
   {
-   "facility": "Linda Murray, DO - Radiant Research",
    "city": "Pinellas Park",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Linda Murray, DO - Radiant Research",
    "lat": 27.8428,
-   "lon": -82.69954
+   "lon": -82.69954,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Sheila Rodstein, MD",
    "city": "Edina",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Sheila Rodstein, MD",
    "lat": 44.88969,
-   "lon": -93.34995
+   "lon": -93.34995,
+   "state": "Minnesota",
+   "status": null
   },
   {
-   "facility": "Dennis McCluskey, MD - Radiant Research",
    "city": "Mogadore",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Dennis McCluskey, MD - Radiant Research",
    "lat": 41.04645,
-   "lon": -81.39789
+   "lon": -81.39789,
+   "state": "Ohio",
+   "status": null
   },
   {
-   "facility": "Michele Reynolds, MD",
    "city": "Dallas",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Michele Reynolds, MD",
    "lat": 32.78306,
-   "lon": -96.80667
+   "lon": -96.80667,
+   "state": "Texas",
+   "status": null
   },
   {
-   "facility": "William Jennings, MD - Radiant Research",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "William Jennings, MD - Radiant Research",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00690443",
@@ -154,6 +154,89 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "M/F 18-70"
+   },
+   {
+    "text": "0-1 risk factor, mean LDL-C -/> 160 and -/< 250 mg/dL (Visit 2 & 3)"
+   },
+   {
+    "text": "2+ risk factors, mean LDL-C -/> 130 & -/< 250 mg/dL (Visit 2 & 3)"
+   },
+   {
+    "text": "Fasting mean TGs -/< 400 mg/dL"
+   },
+   {
+    "text": "Understanding and compliance of protocol"
+   },
+   {
+    "text": "sign consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Females pregnant, lactating, or CBP who have not been using acceptable contraceptive methods over previous 3 months"
+   },
+   {
+    "text": "Uncontrolled hypertension >180/95 at screening"
+   },
+   {
+    "text": "Hx of chronic renal insufficiency (serum creatinine > 2.5 mg/dL)"
+   },
+   {
+    "text": "Hx of liver disease or transaminases > 1.5 X ULN"
+   },
+   {
+    "text": "Positive for Hepatitis B or C"
+   },
+   {
+    "text": "Major surgery within past 3 mos"
+   },
+   {
+    "text": "Cardiac insufficiency defined as functional Class II-Class IV"
+   },
+   {
+    "text": "Hx of malignancy within previous 5 years"
+   },
+   {
+    "text": "Participation in another investigational drug study within past 6 wks"
+   },
+   {
+    "text": "Serious or unstable medical or psychological condition"
+   },
+   {
+    "text": "Regular alcohol use > 1 drink per day"
+   },
+   {
+    "text": "Regular consumers of grapefruit juice or medications known to be metabolized by CYP 3A4"
+   },
+   {
+    "text": "Use of other lipid-lowering meds (washout permitted)"
+   },
+   {
+    "text": "Acute CVD"
+   },
+   {
+    "text": "Diabetes Mellitus"
+   },
+   {
+    "text": "Fasting glucose >110 mg/dL"
+   },
+   {
+    "text": "BMI -/> 40 kg/m2"
+   },
+   {
+    "text": "Significant gastrointestinal symptoms such as IBS"
+   },
+   {
+    "text": "Use of fish oils, niacin, herbal wt. loss products (washout permitted)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

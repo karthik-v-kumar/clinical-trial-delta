@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Icahn School of Medicine at Mount Sinai",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Icahn School of Medicine at Mount Sinai"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Regular AGE Diet",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Low AGE Diet",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Regular AGE Diet",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Regular AGE Diet"
-   ]
+   ],
+   "label": "Regular AGE Diet",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Low AGE Diet",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Low AGE Diet"
-   ]
+   ],
+   "label": "Low AGE Diet",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The investigators have previously demonstrated that Advanced Glycation End products (AGEs) are associated with several chronic diseases in humans and that blood AGE levels can be significantly reduced by simply changing the way food is cooked.\n\nThis is an interventional-randomized study in which we are trying to determine whether a diet low in AGE followed for 1 year can effectively reduce circulating AGE levels as well as markers of the metabolic syndrome in a group of patients with these abnormal markers.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Non-smoking adult subjects with at least three of the following five characteristics of the metabolic syndrome (MetSyn):\n\n  * Waist circumference:\n\nMen: \\> 102 cm Women: \\> 88 cm\n\n* Blood pressure: \\> 130/85 mm Hg (or use of anti-Blood Pressure medication)\n* HDL-cholesterol:\n\nMen: \\< 40 mg/dL Women: \\< 50 mg/dL\n\n* Triglycerides: \\> 150 mg/dL (or use of medications for high triglycerides such as fibrates or nicotinic acid)\n* Fasting blood sugar \\> 100 mg/dl (or use of metformin), but a Glycated hemoglobin (HbA1c) \\<6.5%\n\n  * Any gender and race 50 years old or above\n  * Dietary AGE intake \\> 12 AGE Eq/day\n\n(Before randomization all participants will be screened with a 3-day food record and 7-day food frequency questionnaire (AGE Quick Score) to determine their average spontaneous daily intake of AGEs. Only those subjects whose daily intake is \\> 12 AGE Eq/day will participate in the study.)\n\nExclusion Criteria:\n\n* Diagnosis of diabetes (HbA1C \\> 6.5 %)\n* Glomerular Filtration Rate (GFR) less than 60 ml/min\n* Any major cardiovascular event within the preceding 3 months\n* Inability to understand or unwillingness to follow study diets\n* Any unstable medical condition requiring medication adjustment or treatment within the preceding 3 months\n* Any severe illness with an expected participant survival less than 1 year\n* Diagnosis of HIV\n* Currently receiving treatment for any inflammatory condition\n* Currently receiving cancer treatment, such as radiation, chemotherapy, hormone therapy, or stem cell transplant\n* Currently participating in any other research study requiring a special diet, medications, supplements or other lifestyle change",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Icahn School of Medicine at Mount Sinai",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Icahn School of Medicine at Mount Sinai",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01363141",
@@ -118,6 +118,75 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Non-smoking adult subjects with at least three of the following five characteristics of the metabolic syndrome (MetSyn):",
+    "sub_items": [
+     "Waist circumference:"
+    ]
+   },
+   {
+    "text": "Men: > 102 cm Women: > 88 cm"
+   },
+   {
+    "text": "Blood pressure: > 130/85 mm Hg (or use of anti-Blood Pressure medication)"
+   },
+   {
+    "text": "HDL-cholesterol:"
+   },
+   {
+    "text": "Men: < 40 mg/dL Women: < 50 mg/dL"
+   },
+   {
+    "text": "Triglycerides: > 150 mg/dL (or use of medications for high triglycerides such as fibrates or nicotinic acid)"
+   },
+   {
+    "text": "Fasting blood sugar > 100 mg/dl (or use of metformin), but a Glycated hemoglobin (HbA1c) <6.5%",
+    "sub_items": [
+     "Any gender and race 50 years old or above",
+     "Dietary AGE intake > 12 AGE Eq/day"
+    ]
+   },
+   {
+    "text": "(Before randomization all participants will be screened with a 3-day food record and 7-day food frequency questionnaire (AGE Quick Score) to determine their average spontaneous daily intake of AGEs. Only those subjects whose daily intake is > 12 AGE Eq/day will participate in the study.)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of diabetes (HbA1C > 6.5 %)"
+   },
+   {
+    "text": "Glomerular Filtration Rate (GFR) less than 60 ml/min"
+   },
+   {
+    "text": "Any major cardiovascular event within the preceding 3 months"
+   },
+   {
+    "text": "Inability to understand or unwillingness to follow study diets"
+   },
+   {
+    "text": "Any unstable medical condition requiring medication adjustment or treatment within the preceding 3 months"
+   },
+   {
+    "text": "Any severe illness with an expected participant survival less than 1 year"
+   },
+   {
+    "text": "Diagnosis of HIV"
+   },
+   {
+    "text": "Currently receiving treatment for any inflammatory condition"
+   },
+   {
+    "text": "Currently receiving cancer treatment, such as radiation, chemotherapy, hormone therapy, or stem cell transplant"
+   },
+   {
+    "text": "Currently participating in any other research study requiring a special diet, medications, supplements or other lifestyle change"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

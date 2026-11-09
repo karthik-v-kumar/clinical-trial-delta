@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Steno Diabetes Center Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Steno Diabetes Center Copenhagen"
  },
  "collaborators": [],
  "conditions": [
@@ -50,23 +50,23 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Continuous glucose monitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "POC-arm",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "CGM-arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Continuous glucose monitoring"
-   ]
+   ],
+   "label": "CGM-arm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "Title: Continuous glucose monitoring vs point of care glucose measurements for in-hospital type 2 diabetes management - STENO In-Hospital CGM Trial - a multisite, randomized controlled trial.\n\nAim To investigate the effects and feasibility of continuous glucose monitoring (CGM) on in-hospital glycemic and clinical outcomes in hospitalized, non-intensive care unit (non-ICU) patients with type 2 diabetes compared to standard point-of-care (POC) glucose testing.\n\nPopulation: Non-ICU adults with type 2 diabetes at the participating departments at hospitals in the Capital Region of Denmark.\n\nDesign: Investigator-initiated, multi-site, two-armed, prospective, randomized, open-labelled blinded endpoint (PROBE) trial. Participants are randomized 1:1 to either a POC-arm (control) or a CGM-arm (intervention):\n\n* POC-arm (control): Participants in this arm are monitored with standard of care POC-based glucose monitoring and treated with insulin according to national guidelines. Blinded CGM is applied.\n* CGM-arm (intervention): Participants in this arm are monitored with CGM and treated with support from a CGM-based algorithm for insulin titration.\n\nIn the CGM-arm, a diabetes support team assists in insulin titration to ensure the execution of algorithmic decisions according to protocol. In the POC-arm the same diabetes support team will ensure that participants are treated with insulin according to national guidelines.\n\nObjectives: To compare in-hospital glycemic control and clinical outcomes between the POC- and CGM-arm participants.\n\nOutcomes: Time in range (3.9-10.0 mmol/L) and in-hospital complications are the primary outcomes. Additional secondary glycemic outcomes are reported in alignment with the newest consensus on CGM-metrics for in-hospital glucose management. Key secondary clinical outcomes are length of stay, 7-, 30-, 60-, and 90-days mortality and readmission rates after discharge. Tertiary outcomes are net costs of the two methods for handling in-hospital diabetes, and an assessment of potential heterogeneity of treatment effects from CGM compared to POC.\n\nMethod: POC glucose measurements are transmitted to the Electronic Medical Record (Sundhedsplatformen). CGM data from the Dexcom G7 is transmitted to a separate web-based platform, Dexcom CLARITY, for retrospective review. Additionally, real-time glucose data from the Dexcom G7 is displayed on tablets/iPhones at diabetes support team stations for ongoing monitoring.\n\nInvestigational device: Dexcom G7 CGM (Dexcom Inc., San Diego, USA). Time schedule: Inclusion Q2 2025 to Q4 2026.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nType 2 diabetes defined as treatment with at least one glucose-lowering therapy prior to inclusion AND\n\n* age ≥ 18 years old AND\n* willingness and ability to comply with the trial protocol AND\n* ability to communicate (in Danish or English) with the trial personnel AND\n* an expected length of hospital stay for at least two days after enrolment.\n\nExclusion Criteria:\n\n* Known hypersensitivity to the band-aid of the CGM Dexcom G7 sensor OR\n* Pregnancy OR\n* Patients admitted with diabetic ketoacidosis (DKA) or hyperosmolar hyperglycemic state (HHS) OR\n* Concomitant treatment with hydroxyurea (CGM contraindication) OR\n* Treatment with enteral or parenteral nutrition.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,6 +101,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes defined as treatment with at least one glucose-lowering therapy prior to inclusion AND"
+   },
+   {
+    "text": "age ≥ 18 years old AND"
+   },
+   {
+    "text": "willingness and ability to comply with the trial protocol AND"
+   },
+   {
+    "text": "ability to communicate (in Danish or English) with the trial personnel AND"
+   },
+   {
+    "text": "an expected length of hospital stay for at least two days after enrolment."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known hypersensitivity to the band-aid of the CGM Dexcom G7 sensor OR"
+   },
+   {
+    "text": "Pregnancy OR"
+   },
+   {
+    "text": "Patients admitted with diabetic ketoacidosis (DKA) or hyperosmolar hyperglycemic state (HHS) OR"
+   },
+   {
+    "text": "Concomitant treatment with hydroxyurea (CGM contraindication) OR"
+   },
+   {
+    "text": "Treatment with enteral or parenteral nutrition."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2019-05-13",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Garvan Institute of Medical Research",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Garvan Institute of Medical Research"
  },
  "collaborators": [],
  "conditions": [
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Glutamine+Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Glutamine+Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glutamine+Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Glutamine+Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "This study investigated the effect of glutamine, an amino acid, glycemia, glucagon-like peptide-1 (GLP-1) and insulin in participants with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes, on metformin or diet alone (not sulphonylureas or insulin)\n\nExclusion Criteria:\n\n* Malabsorption, renal or liver disease, treatment with steroids",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Research Facility",
    "city": "Sydney",
-   "state": "New South Wales",
    "country": "Australia",
-   "status": null,
+   "facility": "Clinical Research Facility",
    "lat": -33.86785,
-   "lon": 151.20732
+   "lon": 151.20732,
+   "state": "New South Wales",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00673894",
@@ -119,6 +119,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes, on metformin or diet alone (not sulphonylureas or insulin)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Malabsorption, renal or liver disease, treatment with steroids"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

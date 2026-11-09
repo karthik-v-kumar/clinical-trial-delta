@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2012-10-19",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Nateglinide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Acarbose",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Nateglinide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Nateglinide"
-   ]
+   ],
+   "label": "Nateglinide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Acarbose",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose"
-   ]
+   ],
+   "label": "Acarbose",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "A 3-week, multi-center, open-label, randomized, active-control, parallel-group study to compare effects of Nateglinide and Acarbose on postprandial glucose fluctuation in Chinese drug-naive patients type 2 diabetes mellitus (T2DM). In this study, participants in different groups took Nateglinide at a dose of 120 mg orally three times daily for up to 3 weeks or Acarbose at a dose of 50 mg three times daily for up to 3 weeks, respectively.",
  "eligibility": {
   "criteria": "Inclusion criteria\n\n1. Patients must give written informed consent before any assessment is performed.\n2. Male, non-fertile female or female of childbearing potential using a medically approved birth control method based on local regulations.\n3. Drug naïve type 2 diabetes patients, defined as who neither take consecutive anti-hyperglycemic drug treatment more than 3 months anytime, nor any anti-hyperglycemic drug treatment in 4 weeks prior to visit 1.\n4. Age in the range of 18-75 years inclusive.\n5. HbA1c in the range of \\> 6.5 to ≤9.0% at Visit 1.\n\nExclusion criteria\n\n1. Pregnant or nursing (lactating) women, where pregnancy is defined as the state of a female after conception and until the termination of gestation, confirmed by a positive hCG laboratory test (\\>5 mIU/mL).\n2. With known hypersensitivity to Nateglinide, Acarbose or any of the excipients.\n3. A history of,\n\n   1. type 1 diabetes, diabetes that is a result of pancreatic injury, or secondary forms of diabetes, e.g., Cushing's syndrome and acromegaly.\n   2. acute metabolic diabetic complications such as ketoacidosis or hyperosmolar state (coma) within the past 6 months.\n   3. Torsades de pointes, sustained and clinically relevant ventricular tachycardia or ventricular fibrillation.\n   4. percutaneous coronary intervention within the past 3 months.\n   5. any of the following within the past 6 months: myocardial infarction (MI), coronary artery bypass surgery, unstable angina, or stroke.\n4. Evidence of significant diabetic complications, e.g., symptomatic autonomic neuropathy or gastroparesis.\n5. Acute infections which may affect blood glucose control within 4 weeks prior to visit 1.\n6. Congestive heart failure requiring pharmacologic treatment. mg/dL (123μmol/L)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,31 +94,31 @@
  },
  "sites": [
   {
-   "facility": "Sir Run Run Shaw Hospital, 3 East Qingchun Road",
    "city": "Hangzhou",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Sir Run Run Shaw Hospital, 3 East Qingchun Road",
    "lat": 30.29365,
-   "lon": 120.16142
+   "lon": 120.16142,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Shanghai",
+   "country": "China",
    "facility": "Shanghai Sixth People's Hospital, 600 Xuanshan Road",
-   "city": "Shanghai",
-   "state": null,
-   "country": "China",
-   "status": null,
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Shanghai Tongji Hospital, 389 Xinchun Road",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Shanghai Tongji Hospital, 389 Xinchun Road",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01030952",
@@ -132,6 +132,54 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients must give written informed consent before any assessment is performed."
+   },
+   {
+    "text": "Male, non-fertile female or female of childbearing potential using a medically approved birth control method based on local regulations."
+   },
+   {
+    "text": "Drug naïve type 2 diabetes patients, defined as who neither take consecutive anti-hyperglycemic drug treatment more than 3 months anytime, nor any anti-hyperglycemic drug treatment in 4 weeks prior to visit 1."
+   },
+   {
+    "text": "Age in the range of 18-75 years inclusive."
+   },
+   {
+    "text": "HbA1c in the range of > 6.5 to ≤9.0% at Visit 1."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant or nursing (lactating) women, where pregnancy is defined as the state of a female after conception and until the termination of gestation, confirmed by a positive hCG laboratory test (>5 mIU/mL)."
+   },
+   {
+    "text": "With known hypersensitivity to Nateglinide, Acarbose or any of the excipients."
+   },
+   {
+    "text": "A history of,",
+    "sub_items": [
+     "type 1 diabetes, diabetes that is a result of pancreatic injury, or secondary forms of diabetes, e.g., Cushing's syndrome and acromegaly.",
+     "acute metabolic diabetic complications such as ketoacidosis or hyperosmolar state (coma) within the past 6 months.",
+     "Torsades de pointes, sustained and clinically relevant ventricular tachycardia or ventricular fibrillation.",
+     "percutaneous coronary intervention within the past 3 months.",
+     "any of the following within the past 6 months: myocardial infarction (MI), coronary artery bypass surgery, unstable angina, or stroke."
+    ]
+   },
+   {
+    "text": "Evidence of significant diabetic complications, e.g., symptomatic autonomic neuropathy or gastroparesis."
+   },
+   {
+    "text": "Acute infections which may affect blood glucose control within 4 weeks prior to visit 1."
+   },
+   {
+    "text": "Congestive heart failure requiring pharmacologic treatment. mg/dL (123μmol/L)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

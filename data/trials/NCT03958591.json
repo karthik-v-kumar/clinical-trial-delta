@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yanbing Li",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Yanbing Li"
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "CSII and thereafter combination therapy, followed up with wearable devices",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "CSII and thereafter combination therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Basal insulin treatment without wearables",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "CSII with wearables",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: CSII and thereafter combination therapy, followed up with wearable devices"
-   ]
+   ],
+   "label": "CSII with wearables",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "CSII without wearbles",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: CSII and thereafter combination therapy"
-   ]
+   ],
+   "label": "CSII without wearbles",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Basal insulin group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Basal insulin treatment without wearables"
-   ]
+   ],
+   "label": "Basal insulin group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Despite advances in diabetes management, many patients with type 2 diabetes in China fail to achieve optimal glycemic control. One of the possible reasons is associated with the delay in therapeutic decision making that lags behind glycemic rise. The investigators design this study and presume that using vildagliptin and metformin in combination with basal insulin as sequential treatment after intensive insulin therapy, might better modulate the dual islet hormone dysfunction than traditionally stepwise upgrading therapy pattern in patients with poorly controlled T2DM, and thus lead to a glucose normalization, β-cell function improvement and therapy simplification.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes diagnosed according to WHO criteria (1999); With a duration of 1\\~15 years;\n2. With two or more oral hypoglycemic drugs, or basal insulin and 1-2 oral hypglycemic agents, used for at least 3 months;\n3. HbA1c of 7.5 to 13% and fasting C-peptide \\> 0.4 nmol/L;\n4. Age of 18 to 70 years;\n5. BMI of 20 to 35 kg/m²；\n6. Capable of and willing to follow doctors' instructions to:\n\n   * Self-monitor blood glucose according to the protocol;\n\n     * Follow the protocol and have regular visits as required; ③ Record and maintain the research diary, as required by the protocol; ④ Keep contact with the investigators and receive phone calls during the study.\n\nExclusion Criteria:\n\n1. Type 1 diabetes or specific types of diabetes;\n2. Those who have received premixed insulin therapy and/or basal - meal insulin and/or basal insulin-oral hypoglycemic agents treatment accumulation for 7 days or more, and those who have received CSII therapy in the last one year, and those who have received GLP-1 analogue within 3 months before screening;\n3. Those who have acute diabetic complications (diabetic ketoacidosis, hyperosmotic hyperglycemia coma or lactic acidosis);\n4. Those who have severe diabetic microvascular complications (proliferative retinopathy, clinical proteinuria, and glomerular filtration rate less than 45 ml/min, uncontrolled diabetic neuropathy and obvious diabetic autonomic neuropathy);\n5. Those with ALT \\>2.5 times of the upper limit of normal (ULN), bilirubin \\> 1.5 times of ULN；\n6. Those with known macrovascular disease: Patients with acute cerebrovascular accident, acute coronary syndrome, unstable angina, peripheral artery disease who have received vascular intervention or amputation in the 12 months before enrollment; Or chronic cardiac dysfunction with cardiac function grade III or above;\n7. Those with poor blood pressure control (systolic blood pressure≥160mmHg and/or sitting diastolic blood pressure ≥110mmHg) and inability to control under 160/110mmhg within 1 week;\n8. Serious systemic disease or malignant tumor, chronic diarrhea, etc；\n9. Those with drugs that may affect blood glucose for a cumulative time of more than 1 week within 12 weeks, such as oral/venous glucocorticoid, growth hormone, estrogen/ progesterone, high-dose diuretics, antipsychotic drugs. However, low-dose diuretics for antihypertensive purposes (HCTZ \\< 25mg/d, indapamide \\< 1.5mg/d) and physiologic dose of thyroid hormone for replacement therapy are not included；\n10. Any factors that may affect the participation of the subject in the study or the evaluation of the results；\n11. Pregnancy or planned pregnancy, lactation subjects.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Department of endocrinology, FAH-SYSU",
    "city": "Guangzhou",
-   "state": "Guangdong",
    "country": "China",
-   "status": null,
+   "facility": "Department of endocrinology, FAH-SYSU",
    "lat": 23.11667,
-   "lon": 113.25
+   "lon": 113.25,
+   "state": "Guangdong",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03958591",
@@ -124,6 +124,69 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes diagnosed according to WHO criteria (1999); With a duration of 1~15 years;"
+   },
+   {
+    "text": "With two or more oral hypoglycemic drugs, or basal insulin and 1-2 oral hypglycemic agents, used for at least 3 months;"
+   },
+   {
+    "text": "HbA1c of 7.5 to 13% and fasting C-peptide > 0.4 nmol/L;"
+   },
+   {
+    "text": "Age of 18 to 70 years;"
+   },
+   {
+    "text": "BMI of 20 to 35 kg/m²；"
+   },
+   {
+    "text": "Capable of and willing to follow doctors' instructions to:",
+    "sub_items": [
+     "Self-monitor blood glucose according to the protocol;",
+     "Follow the protocol and have regular visits as required; ③ Record and maintain the research diary, as required by the protocol; ④ Keep contact with the investigators and receive phone calls during the study."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes or specific types of diabetes;"
+   },
+   {
+    "text": "Those who have received premixed insulin therapy and/or basal - meal insulin and/or basal insulin-oral hypoglycemic agents treatment accumulation for 7 days or more, and those who have received CSII therapy in the last one year, and those who have received GLP-1 analogue within 3 months before screening;"
+   },
+   {
+    "text": "Those who have acute diabetic complications (diabetic ketoacidosis, hyperosmotic hyperglycemia coma or lactic acidosis);"
+   },
+   {
+    "text": "Those who have severe diabetic microvascular complications (proliferative retinopathy, clinical proteinuria, and glomerular filtration rate less than 45 ml/min, uncontrolled diabetic neuropathy and obvious diabetic autonomic neuropathy);"
+   },
+   {
+    "text": "Those with ALT >2.5 times of the upper limit of normal (ULN), bilirubin > 1.5 times of ULN；"
+   },
+   {
+    "text": "Those with known macrovascular disease: Patients with acute cerebrovascular accident, acute coronary syndrome, unstable angina, peripheral artery disease who have received vascular intervention or amputation in the 12 months before enrollment; Or chronic cardiac dysfunction with cardiac function grade III or above;"
+   },
+   {
+    "text": "Those with poor blood pressure control (systolic blood pressure≥160mmHg and/or sitting diastolic blood pressure ≥110mmHg) and inability to control under 160/110mmhg within 1 week;"
+   },
+   {
+    "text": "Serious systemic disease or malignant tumor, chronic diarrhea, etc；"
+   },
+   {
+    "text": "Those with drugs that may affect blood glucose for a cumulative time of more than 1 week within 12 weeks, such as oral/venous glucocorticoid, growth hormone, estrogen/ progesterone, high-dose diuretics, antipsychotic drugs. However, low-dose diuretics for antihypertensive purposes (HCTZ < 25mg/d, indapamide < 1.5mg/d) and physiologic dose of thyroid hormone for replacement therapy are not included；"
+   },
+   {
+    "text": "Any factors that may affect the participation of the subject in the study or the evaluation of the results；"
+   },
+   {
+    "text": "Pregnancy or planned pregnancy, lactation subjects."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

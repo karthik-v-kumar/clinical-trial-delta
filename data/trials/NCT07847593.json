@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "QUADRUPLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Nordic Biotic Sp. z o.o.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Nordic Biotic Sp. z o.o."
  },
  "collaborators": [],
  "conditions": [
@@ -56,30 +56,30 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Four-strain probiotic formulation",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Maltodextrin (Placebo)",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Probiotic",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Four-strain probiotic formulation"
-   ]
+   ],
+   "label": "Probiotic",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Maltodextrin (Placebo)"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "This randomized, double-blind, placebo-controlled trial evaluated the effects of a four-strain probiotic formulation in adults with obesity receiving semaglutide. Participants received either the probiotic formulation or placebo, beginning two weeks before semaglutide initiation and continuing throughout the 12-week semaglutide-treatment and dose-escalation period. The primary objective was to determine whether probiotic supplementation reduced gastrointestinal adverse events associated with semaglutide treatment. The primary outcome comprised two complementary measures during the 12-week semaglutide-treatment period: the proportion of participants reporting at least one protocol-defined gastrointestinal adverse event during scheduled study visits and the proportion of evaluable treatment days on which a participant reported at least one protocol-defined gastrointestinal adverse event in the daily diary. Secondary outcomes included gastrointestinal symptom severity, the number of days with individual gastrointestinal adverse events, health-related quality of life, change in body weight, treatment discontinuation, and inability to escalate the semaglutide dose as planned. Additional gastrointestinal complaints and non-gastrointestinal symptoms were monitored as part of safety assessment.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Body Mass Index (BMI) of at least 30 kg/m², with or without coexisting type 2 diabetes mellitus;\n* patients initiating treatment with a glucagon-like peptide-1 receptor agonist;\n* provided written informed consent;\n* patients with ability to adhere to the investigators' instructions regarding study protocol and procedures.\n\nExclusion criteria:\n\n* patients with gastrointestinal conditions unrelated to glucagon-like peptide-1 receptor agonist therapy, such as inflammatory bowel diseases, celiac disease, irritable bowel syndrome, gastroenteritis, gastric and duodenal ulcers, parasitic or bacterial intestinal infestation/infections,\n* known food allergies and lactose intolerance,\n* severe neurological conditions, malignancy, and hepatic or renal impairment,\n* pregnancy or breastfeeding,\n* anemia and leukocytosis in laboratory tests,\n* the use of intestine microbiota-targeted dietary supplements or drugs (i.e. probiotics, prebiotics, synbiotics, or postbiotics including butyric acid) within the last 3 months,\n* the use of antibiotics within the last 1 month,\n* the use of the following drugs: insulin, glucocorticosteroids, proton pump blockers,\n* a surgical procedure scheduled during the clinical study,\n* being enrolled in another clinical trial within the last 3 months,\n* alcohol or substance abuse.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,31 +106,31 @@
  },
  "sites": [
   {
-   "facility": "The Clinic Centrum Medyczne",
    "city": "Gdynia",
-   "state": null,
    "country": "Poland",
-   "status": null,
+   "facility": "The Clinic Centrum Medyczne",
    "lat": 54.51889,
-   "lon": 18.53188
+   "lon": 18.53188,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Prywatna Specjalistyczna Praktyka Lekarska",
    "city": "Grudziądz",
-   "state": null,
    "country": "Poland",
-   "status": null,
+   "facility": "Prywatna Specjalistyczna Praktyka Lekarska",
    "lat": 53.48411,
-   "lon": 18.75366
+   "lon": 18.75366,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "NEUROMEDIKA Indywidualna Specjalistyczna Praktyka Lekarska",
    "city": "Pruszcz Gdański",
-   "state": null,
    "country": "Poland",
-   "status": null,
+   "facility": "NEUROMEDIKA Indywidualna Specjalistyczna Praktyka Lekarska",
    "lat": 54.26217,
-   "lon": 18.63625
+   "lon": 18.63625,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07847593",
@@ -142,6 +142,59 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Body Mass Index (BMI) of at least 30 kg/m², with or without coexisting type 2 diabetes mellitus;"
+   },
+   {
+    "text": "patients initiating treatment with a glucagon-like peptide-1 receptor agonist;"
+   },
+   {
+    "text": "provided written informed consent;"
+   },
+   {
+    "text": "patients with ability to adhere to the investigators' instructions regarding study protocol and procedures."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "patients with gastrointestinal conditions unrelated to glucagon-like peptide-1 receptor agonist therapy, such as inflammatory bowel diseases, celiac disease, irritable bowel syndrome, gastroenteritis, gastric and duodenal ulcers, parasitic or bacterial intestinal infestation/infections,"
+   },
+   {
+    "text": "known food allergies and lactose intolerance,"
+   },
+   {
+    "text": "severe neurological conditions, malignancy, and hepatic or renal impairment,"
+   },
+   {
+    "text": "pregnancy or breastfeeding,"
+   },
+   {
+    "text": "anemia and leukocytosis in laboratory tests,"
+   },
+   {
+    "text": "the use of intestine microbiota-targeted dietary supplements or drugs (i.e. probiotics, prebiotics, synbiotics, or postbiotics including butyric acid) within the last 3 months,"
+   },
+   {
+    "text": "the use of antibiotics within the last 1 month,"
+   },
+   {
+    "text": "the use of the following drugs: insulin, glucocorticosteroids, proton pump blockers,"
+   },
+   {
+    "text": "a surgical procedure scheduled during the clinical study,"
+   },
+   {
+    "text": "being enrolled in another clinical trial within the last 3 months,"
+   },
+   {
+    "text": "alcohol or substance abuse."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

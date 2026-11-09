@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Jiangxi University of Traditional Chinese Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Jiangxi University of Traditional Chinese Medicine"
  },
  "collaborators": [
   "The Affiliated Hospital of Jiangxi University of Traditional Chinese Medicine"
@@ -50,31 +50,31 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Hebenrun",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Study Group (Metformin + Hebenrun)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin",
     "Dietary Supplement: Hebenrun"
-   ]
+   ],
+   "label": "Study Group (Metformin + Hebenrun)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control Group (Metformin only)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Control Group (Metformin only)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This study aims to evaluate the efficacy and safety of Hebenrun (a functional food based on natural grain bran) combined with metformin in patients with type 2 diabetes mellitus (T2DM). The study hypothesis is that Hebenrun combined with metformin will achieve a higher complete discontinuation rate of oral hypoglycemic drugs compared to metformin alone. A total of 110 T2DM patients will be randomly assigned (1:1) to the study group (metformin + Hebenrun) or the control group (metformin alone) and followed for 48 weeks. The primary outcome is the complete discontinuation rate of oral hypoglycemic drugs at the end of follow-up.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Meets the Western medicine diagnostic criteria for type 2 diabetes (T2DM), referring to the Chinese Guidelines for the Prevention and Treatment of Diabetes (2024 Edition). If typical diabetes symptoms are present (such as polydipsia, polyuria, polyphagia, unexplained weight loss), meeting any one of the following can confirm the diagnosis: fasting blood glucose (FBG) ≥7.0 mmol/L; random blood glucose ≥11.1 mmol/L; oral glucose tolerance test (OGTT) 2-hour blood glucose ≥11.1 mmol/L; glycated hemoglobin (HbA1c) ≥6.5%. If typical diabetes symptoms are lacking, two of the above blood glucose indicators at the same time point or at two different time points (excluding random blood glucose) need to reach or exceed the diagnostic cut-off point to diagnose diabetes.\n2. Age 18-65 years, glycated hemoglobin (HbA1c): 6.5%-8.5%.\n3. Good patient compliance, cooperation with treatment and follow-up.\n4. The research has been approved by the hospital ethics committee, and all patients voluntarily participate and sign informed consent.\n\nExclusion Criteria:\n\n1. Type 1 diabetes, gestational diabetes, and special types of diabetes.\n2. History of acute diabetic complications (ketoacidosis, hyperosmolar coma, lactic acidosis).\n3. Major organ diseases (severe heart, liver, kidney dysfunction), malignant tumors, or severe mental disorders.\n4. Contraindications or allergy history to any component of Hebenrun.\n5. Psychotropic drug dependence, accompanied by obvious anxiety or depression tendencies.\n6. Women preparing for pregnancy, during pregnancy, and lactation.\n7. Expected poor compliance or language communication dysfunction.\n8. Already enrolled or about to enroll in other clinical studies.\n\nWithdrawal/Discontinuation Criteria:\n\n1. Subjects actively request withdrawal.\n2. Unable to contact during follow-up.\n3. Adverse reactions or disease changes making it unsuitable to continue participation.\n4. The researcher determines that continued participation is detrimental to the subject.\n5. Unable to follow the prescribed treatment regimen or unable to persist with medication.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "The Affiliated Hospital of Jiangxi University of Traditional Chinese Medicine",
    "city": "Nanchang",
-   "state": "Jiangxi",
    "country": "China",
-   "status": null,
+   "facility": "The Affiliated Hospital of Jiangxi University of Traditional Chinese Medicine",
    "lat": 28.68396,
-   "lon": 115.85306
+   "lon": 115.85306,
+   "state": "Jiangxi",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07768280",
@@ -115,6 +115,70 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Meets the Western medicine diagnostic criteria for type 2 diabetes (T2DM), referring to the Chinese Guidelines for the Prevention and Treatment of Diabetes (2024 Edition). If typical diabetes symptoms are present (such as polydipsia, polyuria, polyphagia, unexplained weight loss), meeting any one of the following can confirm the diagnosis: fasting blood glucose (FBG) ≥7.0 mmol/L; random blood glucose ≥11.1 mmol/L; oral glucose tolerance test (OGTT) 2-hour blood glucose ≥11.1 mmol/L; glycated hemoglobin (HbA1c) ≥6.5%. If typical diabetes symptoms are lacking, two of the above blood glucose indicators at the same time point or at two different time points (excluding random blood glucose) need to reach or exceed the diagnostic cut-off point to diagnose diabetes."
+   },
+   {
+    "text": "Age 18-65 years, glycated hemoglobin (HbA1c): 6.5%-8.5%."
+   },
+   {
+    "text": "Good patient compliance, cooperation with treatment and follow-up."
+   },
+   {
+    "text": "The research has been approved by the hospital ethics committee, and all patients voluntarily participate and sign informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes, gestational diabetes, and special types of diabetes."
+   },
+   {
+    "text": "History of acute diabetic complications (ketoacidosis, hyperosmolar coma, lactic acidosis)."
+   },
+   {
+    "text": "Major organ diseases (severe heart, liver, kidney dysfunction), malignant tumors, or severe mental disorders."
+   },
+   {
+    "text": "Contraindications or allergy history to any component of Hebenrun."
+   },
+   {
+    "text": "Psychotropic drug dependence, accompanied by obvious anxiety or depression tendencies."
+   },
+   {
+    "text": "Women preparing for pregnancy, during pregnancy, and lactation."
+   },
+   {
+    "text": "Expected poor compliance or language communication dysfunction."
+   },
+   {
+    "text": "Already enrolled or about to enroll in other clinical studies."
+   },
+   {
+    "text": "Subjects actively request withdrawal.",
+    "group": "Withdrawal/Discontinuation Criteria"
+   },
+   {
+    "text": "Unable to contact during follow-up.",
+    "group": "Withdrawal/Discontinuation Criteria"
+   },
+   {
+    "text": "Adverse reactions or disease changes making it unsuitable to continue participation.",
+    "group": "Withdrawal/Discontinuation Criteria"
+   },
+   {
+    "text": "The researcher determines that continued participation is detrimental to the subject.",
+    "group": "Withdrawal/Discontinuation Criteria"
+   },
+   {
+    "text": "Unable to follow the prescribed treatment regimen or unable to persist with medication.",
+    "group": "Withdrawal/Discontinuation Criteria"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

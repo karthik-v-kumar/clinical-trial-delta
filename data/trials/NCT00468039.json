@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "vildagliptin + metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "vildagliptin + metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: vildagliptin + metformin"
-   ]
+   ],
+   "label": "vildagliptin + metformin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -71,10 +71,10 @@
  "brief_summary": "This study will evaluate the effects of treatment with vildagliptin and metformin as initial combination in newly diagnosed patients with type 2 diabetes who have very high levels of HbA1c and/or fasting plasma glucose.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female (non-fertile or of childbearing potential using a medically approved birth control method) patients with type 2 diabetes\n* Diagnosis of type 2 diabetes for at least 4 weeks prior to study entry\n* Body mass index 22-40 kg/meter squared\n* HbA1c \\> 11% and/or FPG \\>270 mg/dL\n\nExclusion Criteria:\n\n* Pregnant or lactating female\n* History of type 1 diabetes\n* Evidence of significant diabetic complications\n* Treatment with insulin or any other oral antidiabetic agent\n\nOther protocol-defined inclusion/exclusion criteria may apply.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -82,13 +82,13 @@
  },
  "sites": [
   {
-   "facility": "Diabetes and Glandular Disease Research Associates",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Diabetes and Glandular Disease Research Associates",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00468039",
@@ -102,6 +102,41 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female (non-fertile or of childbearing potential using a medically approved birth control method) patients with type 2 diabetes"
+   },
+   {
+    "text": "Diagnosis of type 2 diabetes for at least 4 weeks prior to study entry"
+   },
+   {
+    "text": "Body mass index 22-40 kg/meter squared"
+   },
+   {
+    "text": "HbA1c > 11% and/or FPG >270 mg/dL"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant or lactating female"
+   },
+   {
+    "text": "History of type 1 diabetes"
+   },
+   {
+    "text": "Evidence of significant diabetic complications"
+   },
+   {
+    "text": "Treatment with insulin or any other oral antidiabetic agent"
+   },
+   {
+    "text": "Other protocol-defined inclusion/exclusion criteria may apply."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2011-01-10",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -50,41 +50,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "exenatide",
    "other_names": [
     "Byetta"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin glargine",
    "other_names": [
     "Lantus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide Arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Exenatide Arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin Glargine Arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin glargine",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Insulin Glargine Arm",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "This Phase 3, open-label, multicenter study is designed to compare the effects of exenatide and insulin glargine (Lantus® injection) on beta-cell function in patients with type 2 diabetes mellitus using metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes, but otherwise healthy\n* HbA1c between 6.6% and 9.5%, inclusive.\n* Body mass index (BMI) of 25 kg/m2 to 40 kg/m2, inclusive.\n* Treated with a stable dose of metformin for at least 2 months prior to screening.\n\nExclusion Criteria:\n\n* Patients previously in a study using exenatide.\n* Treated with oral anti-diabetic medications other than metformin within 2 months of screening (thiazolidinediones within 5 months of screening).\n* Treated with insulin within 3 months of screening.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,31 +107,31 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Helsinki",
-   "state": null,
    "country": "Finland",
-   "status": null,
+   "facility": "Research Site",
    "lat": 60.16952,
-   "lon": 24.93545
+   "lon": 24.93545,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Amsterdam",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Gothenburg",
-   "state": null,
    "country": "Sweden",
-   "status": null,
+   "facility": "Research Site",
    "lat": 57.70716,
-   "lon": 11.96679
+   "lon": 11.96679,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00097500",
@@ -147,6 +147,35 @@
   "Eli Lilly",
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 2 diabetes, but otherwise healthy"
+   },
+   {
+    "text": "HbA1c between 6.6% and 9.5%, inclusive."
+   },
+   {
+    "text": "Body mass index (BMI) of 25 kg/m2 to 40 kg/m2, inclusive."
+   },
+   {
+    "text": "Treated with a stable dose of metformin for at least 2 months prior to screening."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients previously in a study using exenatide."
+   },
+   {
+    "text": "Treated with oral anti-diabetic medications other than metformin within 2 months of screening (thiazolidinediones within 5 months of screening)."
+   },
+   {
+    "text": "Treated with insulin within 3 months of screening."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

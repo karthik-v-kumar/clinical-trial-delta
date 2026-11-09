@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yuhan Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Yuhan Corporation"
  },
  "collaborators": [
   "Linical Korea"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Rosuvastatin+Ezetimibe",
    "other_names": [
     "Rosuvamibe ® 10/5mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Monorova ® 5mg"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Rosuvastatin+Ezetimibe",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Rosuvastatin+Ezetimibe"
-   ]
+   ],
+   "label": "Rosuvastatin+Ezetimibe",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Rosuvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin"
-   ]
+   ],
+   "label": "Rosuvastatin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "A Study to Compare Rosuvastatin/Ezetimibe Combination and Monotherapy in Patients with Diabetes Mellitus and Hypercholesterolemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects ≥ 19 or ≤ 75 years of age\n* Subjects undergoing treatment for type 2 diabetes\n* Subjects undergoing treatment of statin for hypercholesterolemia\n* Fasting LDL-C ≤ 250mg/dL at the screening visit\n* Fasting LDL-C ≥70mg/dL or ≤ 160mg/dL at the randomization visit\n* Fasting TG\\<500mg/dL\n\nExclusion Criteria:\n\n* Subjects with hypersensitivity reaction to Statin and Ezetimibe\n* Subjects with severe kidney disease\n* Subjects with HIV positive result at the screening\n* Pregnant or breast-feeding subjects\n* Subjects with taking any medication affecting level of LDL (Fenofibrate, Omega 3 fatty aicd etc.)\n* Insulin-treated Subjects\n* Other exclusions applied",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,40 +100,40 @@
  },
  "sites": [
   {
-   "facility": "Soon Chun Hyang University Hospital Cheonan",
    "city": "Cheonan",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Soon Chun Hyang University Hospital Cheonan",
    "lat": 36.8065,
-   "lon": 127.1522
+   "lon": 127.1522,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Soon Chun Hyang University Hospital Gumi",
    "city": "Gumi",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Soon Chun Hyang University Hospital Gumi",
    "lat": 36.1136,
-   "lon": 128.336
+   "lon": 128.336,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Soon Chun Hyang University Hospital Bucheon",
    "city": "Gyeonggi-do",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Soon Chun Hyang University Hospital Bucheon",
    "lat": 37.58944,
-   "lon": 126.76917
+   "lon": 126.76917,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Soon Chun Hyang University Hospital Seoul",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Soon Chun Hyang University Hospital Seoul",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03217409",
@@ -145,6 +145,53 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects ≥ 19 or ≤ 75 years of age"
+   },
+   {
+    "text": "Subjects undergoing treatment for type 2 diabetes"
+   },
+   {
+    "text": "Subjects undergoing treatment of statin for hypercholesterolemia"
+   },
+   {
+    "text": "Fasting LDL-C ≤ 250mg/dL at the screening visit"
+   },
+   {
+    "text": "Fasting LDL-C ≥70mg/dL or ≤ 160mg/dL at the randomization visit"
+   },
+   {
+    "text": "Fasting TG<500mg/dL"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with hypersensitivity reaction to Statin and Ezetimibe"
+   },
+   {
+    "text": "Subjects with severe kidney disease"
+   },
+   {
+    "text": "Subjects with HIV positive result at the screening"
+   },
+   {
+    "text": "Pregnant or breast-feeding subjects"
+   },
+   {
+    "text": "Subjects with taking any medication affecting level of LDL (Fenofibrate, Omega 3 fatty aicd etc.)"
+   },
+   {
+    "text": "Insulin-treated Subjects"
+   },
+   {
+    "text": "Other exclusions applied"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

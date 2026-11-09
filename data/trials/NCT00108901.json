@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "SINGLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
-  "class": "NIH"
+  "class": "NIH",
+  "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Aerobic exercise program",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
+   "intervention_names": [
+    "Behavioral: Aerobic exercise program"
+   ],
    "label": "Low Dose",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Behavioral: Aerobic exercise program"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "High dose",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Aerobic exercise program"
-   ]
+   ],
+   "label": "High dose",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -99,23 +99,23 @@
  "brief_summary": "The study is a behavioral clinical trial of aerobic exercise to determine dose-response effects on risk for type 2 diabetes, fatness, fitness, blood cholesterol levels, and other cardiovascular risk factors in overweight elementary schoolchildren.\n\nThe hypothesis is that the more exercise a child does, the more benefit he or she will gain in reducing the risk of diabetes and other cardiovascular diseases.\n\nAn ancillary study examined effects on cognition and achievement.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Overweight, sedentary children\n* Black or white race\n* Attending specific schools in Augusta, GA area from which this study is recruiting\n\nExclusion Criteria:\n\n* Unable to participate in testing or vigorous exercise program\n* Diabetes\n* Taking medication that would affect study results\n* Sibling enrolled in project",
-  "sex": "ALL",
-  "minimum_age": "7 Years",
-  "maximum_age": "11 Years",
   "healthy_volunteers": true,
+  "maximum_age": "11 Years",
+  "minimum_age": "7 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "facility": "Georgia Prevention Institute, Medical College of Georgia",
    "city": "Augusta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Georgia Prevention Institute, Medical College of Georgia",
    "lat": 33.47097,
-   "lon": -81.97484
+   "lon": -81.97484,
+   "state": "Georgia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00108901",
@@ -127,6 +127,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Overweight, sedentary children"
+   },
+   {
+    "text": "Black or white race"
+   },
+   {
+    "text": "Attending specific schools in Augusta, GA area from which this study is recruiting"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Unable to participate in testing or vigorous exercise program"
+   },
+   {
+    "text": "Diabetes"
+   },
+   {
+    "text": "Taking medication that would affect study results"
+   },
+   {
+    "text": "Sibling enrolled in project"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

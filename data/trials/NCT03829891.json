@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Xijing Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Xijing Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,32 +48,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Beinaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "glargine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Beinaglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Beinaglutide",
     "Drug: glargine"
-   ]
+   ],
+   "label": "Beinaglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "glargine",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Beinaglutide",
     "Drug: glargine"
-   ]
+   ],
+   "label": "glargine",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "The investigators aimed to assess the efficacy and safety of Beinaglutide versus glargine , in individuals with type 2 diabetes who did not achieve adequate glycaemic control with oral antidiabetic drug.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Informed consent obtained before any trial-related activities\n* Male or female between the age of 18 and 70 years by the time of visit 1\n* Have been diagnosed as type 2 diabetes for at least half a year\n* Prestudy combination OAD therapy for at least 1 month(except glinides, DPP-VI inhibitor,insulin,GLP-1 receptor agonists ),\n* The dose of Sulfonylureas less than the half maximum dose of insert\n* 7.5%≤HbA1c≤11.0% in recent 2 weeks or on visit 1(local lab test)\n* 21Kg/m2≤BMI≤35Kg/m2\n\nExclusion Criteria:\n\n* Females of child bearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive methods .\n* Current diagnosis or history of following:\n\n  * Type 1 diabetes\n  * Diabetes caused by impaired pancreas\n  * Diabetes is the secondary diagnosis ,such as acromegaly,Cushing syndrome etc.\n  * Acute decompensation of glycaemic control requiring immediate intensification of treatment to prevent acute complications of diabetes (eg. diabetes ketoacidosis, hyperosmolar coma) within 6months prior to screening.\n  * Use of any glinides, DPP-VI inhibitor,GLP-1 receptor agonists within 3months prior to screening.Use of any insulin within 1months prior to screening.\n  * History of allergy (such as systemic allergy, Vascular neuroedema, epidermal exfoliation, etc.)\n  * Systemic use of glucocorticoids (oral or intravenous) continued for more than seven days in the past half year.\n  * Triglyceride (fasting)\\> 4.5mmol/L at visit 1.\n* Impaired liver function,such as manifested in one of the following situations:\n\n  * Two consecutive measurements of AST or ALT in the first four weeks of the visit exceeded the maximum normal value by more than three times (local laboratory data)\n  * Bilirubin synthesis and/or excretion disorders (such as hyperbilirubinemia) and other decompensated liver diseases such as coagulation,Blood disorders, hepatic encephalopathy, hypoproteinemia, ascites, esophageal variceal bleeding\n  * Acute viral, active autoimmune, alcoholic and other types of hepatitis\n* Moderate to severe renal impairment or end-stage renal disease (estimated kidney) at visit or 4 weeks before visit (local data)Globular filtration rate \\< 60 mL/minNew York Heart Association (NYHA) Class III or IV congestive heart failure\n* Visit 1 has a major history of cardiovascular disease in the past three months, defined as myocardial infarction, coronary angioplasty or bypass surgery, valvular disease or repair, unstable angina, transient ischemic attack or cerebrovascular accident.\n* History of acute or chronic pancreatitis\n* History of gastrointestinal diseases, including gastrointestinal stoma anastomosis, intestinal resection, gastric cardiac syndrome, severe hernia, intestinal obstruction, intestinal ulcer\n* Malignant tumors (except cutaneous basal cell carcinoma, cervical carcinoma in situ and prostate cancer in situ) have been diagnosed in the past five years.\n* History of organ transplantation or AIDS\n* History of medullary thyroid cancer\n* History of alcohol or drug abuse in the past 12 months\n* Individuals or researchers who do not comply with the potential risks of the program are judged to be unsuitable for the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,22 +104,22 @@
  },
  "sites": [
   {
-   "facility": "Chang'an Hospital",
    "city": "Xi'an",
-   "state": "China,Shanxi",
    "country": "China",
-   "status": null,
+   "facility": "Chang'an Hospital",
    "lat": 34.25833,
-   "lon": 108.92861
+   "lon": 108.92861,
+   "state": "China,Shanxi",
+   "status": null
   },
   {
-   "facility": "Shaanxi Aerospace Hospital",
    "city": "Xi'an",
-   "state": "China,Shanxi",
    "country": "China",
-   "status": null,
+   "facility": "Shaanxi Aerospace Hospital",
    "lat": 34.25833,
-   "lon": 108.92861
+   "lon": 108.92861,
+   "state": "China,Shanxi",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03829891",
@@ -131,6 +131,86 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Informed consent obtained before any trial-related activities"
+   },
+   {
+    "text": "Male or female between the age of 18 and 70 years by the time of visit 1"
+   },
+   {
+    "text": "Have been diagnosed as type 2 diabetes for at least half a year"
+   },
+   {
+    "text": "Prestudy combination OAD therapy for at least 1 month(except glinides, DPP-VI inhibitor,insulin,GLP-1 receptor agonists ),"
+   },
+   {
+    "text": "The dose of Sulfonylureas less than the half maximum dose of insert"
+   },
+   {
+    "text": "7.5%≤HbA1c≤11.0% in recent 2 weeks or on visit 1(local lab test)"
+   },
+   {
+    "text": "21Kg/m2≤BMI≤35Kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Females of child bearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive methods ."
+   },
+   {
+    "text": "Current diagnosis or history of following:",
+    "sub_items": [
+     "Type 1 diabetes",
+     "Diabetes caused by impaired pancreas",
+     "Diabetes is the secondary diagnosis ,such as acromegaly,Cushing syndrome etc.",
+     "Acute decompensation of glycaemic control requiring immediate intensification of treatment to prevent acute complications of diabetes (eg. diabetes ketoacidosis, hyperosmolar coma) within 6months prior to screening.",
+     "Use of any glinides, DPP-VI inhibitor,GLP-1 receptor agonists within 3months prior to screening.Use of any insulin within 1months prior to screening.",
+     "History of allergy (such as systemic allergy, Vascular neuroedema, epidermal exfoliation, etc.)",
+     "Systemic use of glucocorticoids (oral or intravenous) continued for more than seven days in the past half year.",
+     "Triglyceride (fasting)> 4.5mmol/L at visit 1."
+    ]
+   },
+   {
+    "text": "Impaired liver function,such as manifested in one of the following situations:",
+    "sub_items": [
+     "Two consecutive measurements of AST or ALT in the first four weeks of the visit exceeded the maximum normal value by more than three times (local laboratory data)",
+     "Bilirubin synthesis and/or excretion disorders (such as hyperbilirubinemia) and other decompensated liver diseases such as coagulation,Blood disorders, hepatic encephalopathy, hypoproteinemia, ascites, esophageal variceal bleeding",
+     "Acute viral, active autoimmune, alcoholic and other types of hepatitis"
+    ]
+   },
+   {
+    "text": "Moderate to severe renal impairment or end-stage renal disease (estimated kidney) at visit or 4 weeks before visit (local data)Globular filtration rate < 60 mL/minNew York Heart Association (NYHA) Class III or IV congestive heart failure"
+   },
+   {
+    "text": "Visit 1 has a major history of cardiovascular disease in the past three months, defined as myocardial infarction, coronary angioplasty or bypass surgery, valvular disease or repair, unstable angina, transient ischemic attack or cerebrovascular accident."
+   },
+   {
+    "text": "History of acute or chronic pancreatitis"
+   },
+   {
+    "text": "History of gastrointestinal diseases, including gastrointestinal stoma anastomosis, intestinal resection, gastric cardiac syndrome, severe hernia, intestinal obstruction, intestinal ulcer"
+   },
+   {
+    "text": "Malignant tumors (except cutaneous basal cell carcinoma, cervical carcinoma in situ and prostate cancer in situ) have been diagnosed in the past five years."
+   },
+   {
+    "text": "History of organ transplantation or AIDS"
+   },
+   {
+    "text": "History of medullary thyroid cancer"
+   },
+   {
+    "text": "History of alcohol or drug abuse in the past 12 months"
+   },
+   {
+    "text": "Individuals or researchers who do not comply with the potential risks of the program are judged to be unsuitable for the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

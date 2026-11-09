@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Brigham and Women's Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Brigham and Women's Hospital"
  },
  "collaborators": [
   "Esperion Therapeutics, Inc."
@@ -56,25 +56,25 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Computer Alert",
    "other_names": [
     "EPIC Best Practice Advisory"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Alert",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Computer Alert"
-   ]
+   ],
+   "label": "Alert",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "No Alert",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This single-center, 400-patient, randomized controlled trial assesses the impact of a patient- and provider-facing EPIC Best Practice Advisory (BPA; alert-based computerized decision support tool) to increase guideline-directed utilization of statin and statin-alternative oral LDL-C lowering therapies in patients with PAD who are not being prescribed LDL-C-lowering therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* All patients ≥ 18 years old\n* Seen in Cardiovascular Medicine Clinic, Primary Care, Podiatry, Vascular Surgery, and Diabetology\n* Medical history entry, visit diagnosis, or problem list entry of PAD\n* Not prescribed LDL-C-lowering therapy\n\nExclusion Criteria:\n\n* Patients taking a statin, ezetimibe, bempedoic acid, a PCSK9 inhibitor, inclisiran or a combination will be excluded",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Brigham and Women's Hospital",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Brigham and Women's Hospital",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06300450",
@@ -117,6 +117,29 @@
  "sponsors_of_note": [
   "Esperion"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "All patients ≥ 18 years old"
+   },
+   {
+    "text": "Seen in Cardiovascular Medicine Clinic, Primary Care, Podiatry, Vascular Surgery, and Diabetology"
+   },
+   {
+    "text": "Medical history entry, visit diagnosis, or problem list entry of PAD"
+   },
+   {
+    "text": "Not prescribed LDL-C-lowering therapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients taking a statin, ezetimibe, bempedoic acid, a PCSK9 inhibitor, inclisiran or a combination will be excluded"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

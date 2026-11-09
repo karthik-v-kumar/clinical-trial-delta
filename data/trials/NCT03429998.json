@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hospital General Universitario Gregorio Marañon",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hospital General Universitario Gregorio Marañon"
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "evolocumab",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "evolocumab and LDL apheresis",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "PROCEDURE",
    "name": "LDL apheresis",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "LDL apheresis",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Procedure: LDL apheresis"
-   ]
+   ],
+   "label": "LDL apheresis",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Evolocumab",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: evolocumab"
-   ]
+   ],
+   "label": "Evolocumab",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "LDL apheresis and evolocumab",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: evolocumab and LDL apheresis"
-   ]
+   ],
+   "label": "LDL apheresis and evolocumab",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "An open-label, prospective phase III study to compare the efficacy and safety of administering evolocumab versus treatment with LDLapheresis in patients with familial hypercholesterolemia and high cardiovascular risk.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* patients with age\\> 18 years\n* hypercholesterolemia with LDL-cholesterol\\> 100 mg / dl in treatment with the maximum dose tolerated by statins and a history of severe cardiovascular disease\n* patients who are included in the LDL-apheresis / biweekly program\n\nExclusion Criteria:\n\n* contraindications to receive evolocumab according to technical data.\n* hospital admission of any cause in the last three months prior to the inclusion of the study\n* cardiovascular event in the three months prior to the inclusion of the study\n* Inability to sign informed consent\n* pregnant women and non-menopausal women who do not use at least one adequate contraceptive method",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital General Universitario Gregorio Marañon",
    "city": "Madrid",
-   "state": null,
    "country": "Spain",
-   "status": null,
+   "facility": "Hospital General Universitario Gregorio Marañon",
    "lat": 40.4165,
-   "lon": -3.70256
+   "lon": -3.70256,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03429998",
@@ -124,6 +124,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "patients with age> 18 years"
+   },
+   {
+    "text": "hypercholesterolemia with LDL-cholesterol> 100 mg / dl in treatment with the maximum dose tolerated by statins and a history of severe cardiovascular disease"
+   },
+   {
+    "text": "patients who are included in the LDL-apheresis / biweekly program"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "contraindications to receive evolocumab according to technical data."
+   },
+   {
+    "text": "hospital admission of any cause in the last three months prior to the inclusion of the study"
+   },
+   {
+    "text": "cardiovascular event in the three months prior to the inclusion of the study"
+   },
+   {
+    "text": "Inability to sign informed consent"
+   },
+   {
+    "text": "pregnant women and non-menopausal women who do not use at least one adequate contraceptive method"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

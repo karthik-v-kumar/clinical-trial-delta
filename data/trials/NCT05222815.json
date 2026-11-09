@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "HealthPartners Institute",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "HealthPartners Institute"
  },
  "collaborators": [
   "Patient-Centered Outcomes Research Institute"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "CGM",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "SMBG",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "CGM (continuous glucose monitoring)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: CGM"
-   ]
+   ],
+   "label": "CGM (continuous glucose monitoring)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "SMBG (Self-monitoring of blood glucose)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: SMBG"
-   ]
+   ],
+   "label": "SMBG (Self-monitoring of blood glucose)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "This research trial will randomize 50 primary care clinics and 354 patients in accordance with their primary care clinic assignment to 2 different glucose monitoring strategies (SMBG vs. CGM) and compare the effectiveness through a pragmatic clinic cluster randomized design, with active glycemic management in a \"usual\" primary care setting, over the course of a 12 month active study period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age 18 to 75 (inclusive)\n2. Diagnosis of type 2 diabetes\n3. A1C 7.5% to 12% (inclusive) in the last 2 months. (If A1C is older than 2 months at the baseline visit, a point-of-care or lab A1C may be done for eligibility)\n4. Insulin use with or without other classes of glycemia medication use\n5. No significant comorbidities that could impair the ability of a primary care team to manage diabetes, including but not limited to end stage renal disease, cognitive impairment, active cancer, and pregnancy\n6. Established care within the HealthPartners Care Group, no plans to move within the next year, and willing to participate for the duration of the study\n7. Willing and able to follow procedures for collecting blinded CGM data at baseline, 6 and 12 months follow-up\n8. Willing to complete surveys at baseline, 3, 6, 9 and 12 months.\n9. Willing to use SMBG or CGM, depending on randomization, in the way that their care team recommends and/or how they feel is most useful in managing their diabetes\n10. Not currently using personal CGM\n11. Not planning to become pregnant\n\nExclusion Criteria:\n\n1. Unwillingness or inability to provide informed consent\n2. Deemed not suitable for participation in the study based on any other clinical criteria as determined by study investigator(s)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "International Diabetes Center",
    "city": "Saint Louis Park",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "International Diabetes Center",
    "lat": 44.9483,
-   "lon": -93.34801
+   "lon": -93.34801,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05222815",
@@ -114,6 +114,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 18 to 75 (inclusive)"
+   },
+   {
+    "text": "Diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "A1C 7.5% to 12% (inclusive) in the last 2 months. (If A1C is older than 2 months at the baseline visit, a point-of-care or lab A1C may be done for eligibility)"
+   },
+   {
+    "text": "Insulin use with or without other classes of glycemia medication use"
+   },
+   {
+    "text": "No significant comorbidities that could impair the ability of a primary care team to manage diabetes, including but not limited to end stage renal disease, cognitive impairment, active cancer, and pregnancy"
+   },
+   {
+    "text": "Established care within the HealthPartners Care Group, no plans to move within the next year, and willing to participate for the duration of the study"
+   },
+   {
+    "text": "Willing and able to follow procedures for collecting blinded CGM data at baseline, 6 and 12 months follow-up"
+   },
+   {
+    "text": "Willing to complete surveys at baseline, 3, 6, 9 and 12 months."
+   },
+   {
+    "text": "Willing to use SMBG or CGM, depending on randomization, in the way that their care team recommends and/or how they feel is most useful in managing their diabetes"
+   },
+   {
+    "text": "Not currently using personal CGM"
+   },
+   {
+    "text": "Not planning to become pregnant"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Unwillingness or inability to provide informed consent"
+   },
+   {
+    "text": "Deemed not suitable for participation in the study based on any other clinical criteria as determined by study investigator(s)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

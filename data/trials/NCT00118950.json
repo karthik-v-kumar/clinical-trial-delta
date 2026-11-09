@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Steno Diabetes Center Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Steno Diabetes Center Copenhagen"
  },
  "collaborators": [],
  "conditions": [
@@ -50,61 +50,61 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Repaglinide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo-Metformin.",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo-Repaglinide.",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Diet-only.",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "4",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Placebo-Repaglinide."
-   ]
+   ],
+   "label": "4",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Repaglinide",
     "Drug: Placebo-Metformin."
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Other: Diet-only."
+   ],
    "label": "1",
-   "type": "OTHER",
-   "intervention_names": [
-    "Other: Diet-only."
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "3",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Diet-only."
-   ]
+   ],
+   "label": "3",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -116,10 +116,10 @@
  "brief_summary": "Background: Metformin is the first drug of choice in obese patients with type-2 diabetes (T2DM) due to its antiglycaemic as well as its cardiovascular protective potentials. In non-obese T2DM patients insulin-secretagogues are empirically used as first choice. The aim of this study was to evaluate the effect of metformin versus an insulin-secretagogue, repaglinide on glycaemic regulation and non-glycaemic cardiovascular risk markers in non-obese patients with T2DM.\n\nMethods: Single-center, randomised, double-masked, double-dummy, cross-over-study of 96 non-obese (BMI ≤ 27 kg/m2) Caucasian T2DM-patients. After a one month run-in on diet-only treatment, patients were randomised to either repaglinide 2mg three times a day (t.i.d). followed by metformin 1g twice a day (b.i.d.) or vice versa each for a period of four months with a one month wash-out between interventions.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nType-2 diabetes, defined as:\n\n* Age at onset of diabetes ≥ 40 years\n* Fasting serum C-peptide ≥ 300 pmol/l or a non-fasting or glucagon-stimulated serum C-peptide ≥ 600 pmol/l\n* No history of ketonuria or ketoacidosis.\n* BMI ≤ 27 kg/m2.\n* Fasting plasma-glucose ≥ 6.5 mmol/l after at least one month of diet-only treatment.\n* HbA1c ≤ 9.5% at ongoing oral anti-hyperglycaemic agents. HbA1c ≥ 6.5% after minimum one month of diet-only treatment.\n* Weight-loss of no more than 5.0 kg during the last 6 months prior to enrolment.\n\nExclusion Criteria:\n\n* Type-1 diabetes\n* Insulin-treated type-2 diabetes\n* Secondary diabetes, heart-failure\n* Serum-creatinine above the upper limit\n* Serum-ASAT elevated more than 3 fold above the upper limit\n* Factor II-VII-X decreased below 0.7\n* Ongoing coexisting illnesses with a life-shortening prognosis\n* Mental retardation or reduced intellectual behaviour\n* Pregnancy\n* History of drug-abuse or HbA1c\\>10.5% at two separate visits with at least one month interval during treatment-periods.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -127,13 +127,13 @@
  },
  "sites": [
   {
-   "facility": "Steno Diabetes Center",
    "city": "Gentofte Municipality",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Steno Diabetes Center",
    "lat": 55.74903,
-   "lon": 12.54601
+   "lon": 12.54601,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00118950",
@@ -145,6 +145,72 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age at onset of diabetes ≥ 40 years",
+    "group": "Type-2 diabetes, defined as"
+   },
+   {
+    "text": "Fasting serum C-peptide ≥ 300 pmol/l or a non-fasting or glucagon-stimulated serum C-peptide ≥ 600 pmol/l",
+    "group": "Type-2 diabetes, defined as"
+   },
+   {
+    "text": "No history of ketonuria or ketoacidosis.",
+    "group": "Type-2 diabetes, defined as"
+   },
+   {
+    "text": "BMI ≤ 27 kg/m2.",
+    "group": "Type-2 diabetes, defined as"
+   },
+   {
+    "text": "Fasting plasma-glucose ≥ 6.5 mmol/l after at least one month of diet-only treatment.",
+    "group": "Type-2 diabetes, defined as"
+   },
+   {
+    "text": "HbA1c ≤ 9.5% at ongoing oral anti-hyperglycaemic agents. HbA1c ≥ 6.5% after minimum one month of diet-only treatment.",
+    "group": "Type-2 diabetes, defined as"
+   },
+   {
+    "text": "Weight-loss of no more than 5.0 kg during the last 6 months prior to enrolment.",
+    "group": "Type-2 diabetes, defined as"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type-1 diabetes"
+   },
+   {
+    "text": "Insulin-treated type-2 diabetes"
+   },
+   {
+    "text": "Secondary diabetes, heart-failure"
+   },
+   {
+    "text": "Serum-creatinine above the upper limit"
+   },
+   {
+    "text": "Serum-ASAT elevated more than 3 fold above the upper limit"
+   },
+   {
+    "text": "Factor II-VII-X decreased below 0.7"
+   },
+   {
+    "text": "Ongoing coexisting illnesses with a life-shortening prognosis"
+   },
+   {
+    "text": "Mental retardation or reduced intellectual behaviour"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "History of drug-abuse or HbA1c>10.5% at two separate visits with at least one month interval during treatment-periods."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hasten Biopharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hasten Biopharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -54,27 +54,27 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "HST101",
    "other_names": [
     "Lerodalcibep"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental: cohort low dose HST101",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: HST101"
-   ]
+   ],
+   "label": "Experimental: cohort low dose HST101",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Experimental: cohort high dose HST101",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: HST101"
-   ]
+   ],
+   "label": "Experimental: cohort high dose HST101",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -86,23 +86,23 @@
  "brief_summary": "This is a single-center, randomized, double-blind, placebo-controlled, single HST101 SC dose cohort study to evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics in Healthy Chinese Participants with Elevated LDL-C Levels.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women who are ≥18 and ≤55 years of age with elevated LDL-C Levels;\n* LDL-C ≥ 2.6 mmol/L (100 mg/dL) and ≤ 4.9 mmol/L (190 mg/dL) and TG ≤ 2.83 mmol/L (250 mg/dL) who are not on a lipid-lowering therapy 30 days prior to screening;\n* Body mass index (BMI) ≥18 and≤28 kg/m2\n\nExclusion Criteria:\n\n* Positive blood screen for HIV antibody, Treponema pallidum antibody, HBsAg or HCV antibody;\n* Clinically significant liver function test abnormalities at screening, such as AST or ALT \\> 2 × ULN, total bilirubin \\> 1.5 × ULN, or ALP \\> 2 × ULN based on normal values;\n* CK \\> 3 × ULN at the screening visit, it can be retested if considered to be related to exercise;\n* History of prescription drug abuse, illicit drug use or alcohol abuse;\n* Use of any prescription drug, herbal and compound decoction, vitamins, minerals, and OTC drugs and nutritional supplements that alter lipid metabolism within 14 days prior to Check-in and planned use of the above drugs throughout the study;\n* Prior treatment with PCSK9 inhibitors, including mAbs, siRNA products, or any Adnectin products;\n* History of allergy to protein-based biologics including, but not limited to, mAbs and vaccine;\n* Less than 30 days or less than 5 half-lives (drug) since the end of participation in another clinical trial (drug or device), whichever is longer;\n* Use of any other biologics within 3 months prior to investigational product administration;\n* Any other significant clinical diseases or psychological diseases that the investigator considers to be inappropriate for participation in this study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "West China Hospital of Sichuan University",
    "city": "Chengdu",
-   "state": "Sichuan",
    "country": "China",
-   "status": null,
+   "facility": "West China Hospital of Sichuan University",
    "lat": 30.66667,
-   "lon": 104.06667
+   "lon": 104.06667,
+   "state": "Sichuan",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06504043",
@@ -114,6 +114,53 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women who are ≥18 and ≤55 years of age with elevated LDL-C Levels;"
+   },
+   {
+    "text": "LDL-C ≥ 2.6 mmol/L (100 mg/dL) and ≤ 4.9 mmol/L (190 mg/dL) and TG ≤ 2.83 mmol/L (250 mg/dL) who are not on a lipid-lowering therapy 30 days prior to screening;"
+   },
+   {
+    "text": "Body mass index (BMI) ≥18 and≤28 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Positive blood screen for HIV antibody, Treponema pallidum antibody, HBsAg or HCV antibody;"
+   },
+   {
+    "text": "Clinically significant liver function test abnormalities at screening, such as AST or ALT > 2 × ULN, total bilirubin > 1.5 × ULN, or ALP > 2 × ULN based on normal values;"
+   },
+   {
+    "text": "CK > 3 × ULN at the screening visit, it can be retested if considered to be related to exercise;"
+   },
+   {
+    "text": "History of prescription drug abuse, illicit drug use or alcohol abuse;"
+   },
+   {
+    "text": "Use of any prescription drug, herbal and compound decoction, vitamins, minerals, and OTC drugs and nutritional supplements that alter lipid metabolism within 14 days prior to Check-in and planned use of the above drugs throughout the study;"
+   },
+   {
+    "text": "Prior treatment with PCSK9 inhibitors, including mAbs, siRNA products, or any Adnectin products;"
+   },
+   {
+    "text": "History of allergy to protein-based biologics including, but not limited to, mAbs and vaccine;"
+   },
+   {
+    "text": "Less than 30 days or less than 5 half-lives (drug) since the end of participation in another clinical trial (drug or device), whichever is longer;"
+   },
+   {
+    "text": "Use of any other biologics within 3 months prior to investigational product administration;"
+   },
+   {
+    "text": "Any other significant clinical diseases or psychological diseases that the investigator considers to be inappropriate for participation in this study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

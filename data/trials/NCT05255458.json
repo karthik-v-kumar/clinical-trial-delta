@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Akeso",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Akeso"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "BIOLOGICAL",
    "name": "AK102",
-   "other_names": []
+   "other_names": [],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AK102 regimen 1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: AK102"
-   ]
+   ],
+   "label": "AK102 regimen 1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This is a randomized, double-blind, placebo-controlled phase 3 clinical study evaluating the long-term efficacy and safety of AK102 in patients with primary hypercholesterolemia and mixed hyperlipidemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Subject understand and voluntarily sign the written Inform Consent Form (ICF), which must be signed before performing the study procedures.\n2. Male or female patients aged between 18 and 80 years (including upper and lower limits).\n3. The fasting serum LDL-C level of subjects did not meet the treatment goal after at least 4 weeks of stable lipid-lowering background treatment.\n4. Triglyceride ≤ 4.5 mmol/L (400 mg/dl).\n\nExclusion Criteria:\n\n1. Homozygous Familial Hypercholesterolemia (HoFH).\n2. Received PCSK9 inhibitors within 6 months before randomization.\n3. Known sensitivity to PCSK9 inhibitors and any substances to be administered.\n4. Severe liver and renal dysfunction.\n5. Previously received organ transplantation.\n6. Uncontrolled hypothyroidism or hyperthyroidism.\n7. Uncontrolled hypertension.\n8. Known hyperlipidemia secondary to comorbidity, including nephrotic syndrome, cholestatic liver failure, etc.\n9. History of malignancy of any organ system within the past 5 years.\n10. Pregnant or lactating women.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "The Third Hospital of Nanchang",
    "city": "Nanchang",
-   "state": "Jiangxi",
    "country": "China",
-   "status": null,
+   "facility": "The Third Hospital of Nanchang",
    "lat": 28.68396,
-   "lon": 115.85306
+   "lon": 115.85306,
+   "state": "Jiangxi",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05255458",
@@ -121,6 +121,56 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subject understand and voluntarily sign the written Inform Consent Form (ICF), which must be signed before performing the study procedures."
+   },
+   {
+    "text": "Male or female patients aged between 18 and 80 years (including upper and lower limits)."
+   },
+   {
+    "text": "The fasting serum LDL-C level of subjects did not meet the treatment goal after at least 4 weeks of stable lipid-lowering background treatment."
+   },
+   {
+    "text": "Triglyceride ≤ 4.5 mmol/L (400 mg/dl)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Homozygous Familial Hypercholesterolemia (HoFH)."
+   },
+   {
+    "text": "Received PCSK9 inhibitors within 6 months before randomization."
+   },
+   {
+    "text": "Known sensitivity to PCSK9 inhibitors and any substances to be administered."
+   },
+   {
+    "text": "Severe liver and renal dysfunction."
+   },
+   {
+    "text": "Previously received organ transplantation."
+   },
+   {
+    "text": "Uncontrolled hypothyroidism or hyperthyroidism."
+   },
+   {
+    "text": "Uncontrolled hypertension."
+   },
+   {
+    "text": "Known hyperlipidemia secondary to comorbidity, including nephrotic syndrome, cholestatic liver failure, etc."
+   },
+   {
+    "text": "History of malignancy of any organ system within the past 5 years."
+   },
+   {
+    "text": "Pregnant or lactating women."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

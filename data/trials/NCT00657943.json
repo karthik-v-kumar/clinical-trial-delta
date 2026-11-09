@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Steno Diabetes Center Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Steno Diabetes Center Copenhagen"
  },
  "collaborators": [
   "Hvidovre University Hospital",
@@ -65,81 +65,81 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "metformin",
    "other_names": [
     "glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin detemir",
    "other_names": [
     "Levemir"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin aspart + insulin aspart protamin",
    "other_names": [
     "novomix"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin aspart",
    "other_names": [
     "NovoRapid"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: metformin",
+    "Drug: insulin detemir"
+   ],
    "label": "1M",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: metformin",
-    "Drug: insulin detemir"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: insulin detemir"
+   ],
    "label": "1P",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: insulin detemir"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: metformin",
+    "Drug: insulin aspart + insulin aspart protamin"
+   ],
    "label": "2M",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: metformin",
-    "Drug: insulin aspart + insulin aspart protamin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: insulin aspart + insulin aspart protamin"
+   ],
    "label": "2P",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: insulin aspart + insulin aspart protamin"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "3M",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: metformin",
     "Drug: insulin detemir",
     "Drug: Insulin aspart"
-   ]
+   ],
+   "label": "3M",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "3P",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: insulin detemir",
     "Drug: Insulin aspart"
-   ]
+   ],
+   "label": "3P",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -151,10 +151,10 @@
  "brief_summary": "Type 2 Diabetes Mellitus patients (T2DM) have an increased mortality rate due to macrovascular disease. The primary objective of the study is to evaluate the effect of an 18-month treatment with metformin versus placebo in combination with one of three insulin analogue regimens following a treat-to-target principle. The primary outcome measure is change in wall thickness of the carotic arteries(CIMT)measured by ultrasound. A total of 900 patients with T2DM and HbA1c above 7.5% will be included.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males and females over 30 years of age\n* Type 2 diabetes\n* Body mass index (BMI): 25.0-39.9 kg/m2\n* HbA1c above 7.5 %\n* Antidiabetic tablet-treatment during 1 year minimum AND / OR\n* Insulin treatment during a minimum of 3 months\n* Negative pregnancy test\n* Signed, informed consent\n\nExclusion Criteria:\n\n* MI, coronary revascularization, TCI,or apoplexy within the last 3 months\n* TCI with verified stenosis of above 70%\n* Heart failure (NYHA class III or IV)\n* Former cancer patient, unless disease-free period of more than 5 years\n* estimated creatinine clearance \\< 60 ml/min Liver disease\n* Alcohol abuse\n* Drug abuse\n* Retinopathy with on-going laser treatment at start of study\n* Other acute or chronic serious disease leading to hypoxia\n* Pregnant or breastfeeding women\n* Women of child-bearing potential, not using contraceptives\n* Allergy to medication used in the study\n* Incapable of understanding the nature of the informed consent",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -162,85 +162,85 @@
  },
  "sites": [
   {
+   "city": "Copenhagen",
+   "country": "Denmark",
    "facility": "Bispebjerg Hospital",
-   "city": "Copenhagen",
-   "state": null,
-   "country": "Denmark",
-   "status": null,
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Copenhagen",
+   "country": "Denmark",
    "facility": "Rigshospitalet",
-   "city": "Copenhagen",
-   "state": null,
-   "country": "Denmark",
-   "status": null,
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Frederiksberg Hospital",
    "city": "Frederiksberg",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Frederiksberg Hospital",
    "lat": 55.67938,
-   "lon": 12.53463
+   "lon": 12.53463,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Gentofte Municipality",
+   "country": "Denmark",
    "facility": "Gentofte Sygehus",
-   "city": "Gentofte Municipality",
-   "state": null,
-   "country": "Denmark",
-   "status": null,
    "lat": 55.74903,
-   "lon": 12.54601
+   "lon": 12.54601,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Gentofte Municipality",
+   "country": "Denmark",
    "facility": "Steno Diabetes Center",
-   "city": "Gentofte Municipality",
-   "state": null,
-   "country": "Denmark",
-   "status": null,
    "lat": 55.74903,
-   "lon": 12.54601
+   "lon": 12.54601,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Herlev Hospital",
    "city": "Herlev",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Herlev Hospital",
    "lat": 55.72366,
-   "lon": 12.43998
+   "lon": 12.43998,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Hillerod Sygehus",
    "city": "Hillerød",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Hillerod Sygehus",
    "lat": 55.92791,
-   "lon": 12.30081
+   "lon": 12.30081,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Hvidovre Hospital",
    "city": "Hvidovre",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Hvidovre Hospital",
    "lat": 55.64297,
-   "lon": 12.47708
+   "lon": 12.47708,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Køge Sygehus",
    "city": "Køge",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Køge Sygehus",
    "lat": 55.45802,
-   "lon": 12.18214
+   "lon": 12.18214,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00657943",
@@ -255,6 +255,77 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females over 30 years of age"
+   },
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Body mass index (BMI): 25.0-39.9 kg/m2"
+   },
+   {
+    "text": "HbA1c above 7.5 %"
+   },
+   {
+    "text": "Antidiabetic tablet-treatment during 1 year minimum AND / OR"
+   },
+   {
+    "text": "Insulin treatment during a minimum of 3 months"
+   },
+   {
+    "text": "Negative pregnancy test"
+   },
+   {
+    "text": "Signed, informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "MI, coronary revascularization, TCI,or apoplexy within the last 3 months"
+   },
+   {
+    "text": "TCI with verified stenosis of above 70%"
+   },
+   {
+    "text": "Heart failure (NYHA class III or IV)"
+   },
+   {
+    "text": "Former cancer patient, unless disease-free period of more than 5 years"
+   },
+   {
+    "text": "estimated creatinine clearance < 60 ml/min Liver disease"
+   },
+   {
+    "text": "Alcohol abuse"
+   },
+   {
+    "text": "Drug abuse"
+   },
+   {
+    "text": "Retinopathy with on-going laser treatment at start of study"
+   },
+   {
+    "text": "Other acute or chronic serious disease leading to hypoxia"
+   },
+   {
+    "text": "Pregnant or breastfeeding women"
+   },
+   {
+    "text": "Women of child-bearing potential, not using contraceptives"
+   },
+   {
+    "text": "Allergy to medication used in the study"
+   },
+   {
+    "text": "Incapable of understanding the nature of the informed consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

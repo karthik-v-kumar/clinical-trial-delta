@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "DOUBLE",
+  "primary_purpose": "OTHER",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Western University, Canada",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Western University, Canada"
  },
  "collaborators": [
   "London Health Sciences Centre Research Institute OR Lawson Research Institute of St. Joseph's",
@@ -56,33 +56,33 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "GLP-1RA",
     "Ozempic",
     "Wegovy"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Virtual Weight Management Coaching",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Virtual Weight Management Program",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide",
     "Behavioral: Virtual Weight Management Coaching"
-   ]
+   ],
+   "label": "Virtual Weight Management Program",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Usual Care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "OK-TRANSPLANT 2 is a vanguard study for a large randomized, pragmatic, open-label trial.\n\nWe will randomize participants with obesity, high-risk CKD/dialysis who are hoping for lose weight for the purpose of kidney transplant. Subjects will either be enrolled on a virtual weight management program or continue their usual care.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults aged 18 years or older\n* BMI; 35 kg/m\\^2\n* 10% risk of ESKD requiring renal replacement therapy over 2 years or receiving dialysis\n\nExclusion Criteria:\n\n* Known contraindication to a GLP-1RA (pancreatitis, personal or family history of medullary thyroid cancer, hypersensitivity)\n* Type 1 diabetes\n* No access to semaglutide via drug coverage\n* Pregnant, breastfeeding or planning to become pregnant\n* Currently in a GLP-1RA or GLP-1RA/GIP study or planning to be in one",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "facility": "London Health Sciences Centre",
    "city": "London",
-   "state": "Ontario",
    "country": "Canada",
-   "status": "RECRUITING",
+   "facility": "London Health Sciences Centre",
    "lat": 42.98339,
-   "lon": -81.23304
+   "lon": -81.23304,
+   "state": "Ontario",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06396416",
@@ -123,6 +123,38 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults aged 18 years or older"
+   },
+   {
+    "text": "BMI; 35 kg/m^2"
+   },
+   {
+    "text": "10% risk of ESKD requiring renal replacement therapy over 2 years or receiving dialysis"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known contraindication to a GLP-1RA (pancreatitis, personal or family history of medullary thyroid cancer, hypersensitivity)"
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "No access to semaglutide via drug coverage"
+   },
+   {
+    "text": "Pregnant, breastfeeding or planning to become pregnant"
+   },
+   {
+    "text": "Currently in a GLP-1RA or GLP-1RA/GIP study or planning to be in one"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

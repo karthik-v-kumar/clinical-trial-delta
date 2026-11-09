@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -50,20 +50,20 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "exenatide",
    "other_names": [
     "Byetta"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide"
-   ]
+   ],
+   "label": "Group A",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -75,10 +75,10 @@
  "brief_summary": "The aim of this study is to assess the long-term safety of exenatide in patients with type 2 diabetes who were treated with exenatide in Study H8O-MC-GWAA (6-month study) or Study H8O-MC-GWAD (12-month study). Study H8O-MC-GWAN serves as an open-ended extension to Studies H8O-MC-GWAA and H8O-MC-GWAD.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients received exenatide therapy in Study H8O-MC-GWAA or Study H8O-MC-GWAD and completed the respective study.\n\nExclusion Criteria:\n\n* Patients were excluded or discontinued early from Study H8O-MC-GWAA or Study H8O-MC-GWAD.\n* Patients have received treatment within the last 30 days with a drug, not including exenatide, that has not received regulatory approval for any indication at the time of study entry.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -86,13 +86,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Renton",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 47.48288,
-   "lon": -122.21707
+   "lon": -122.21707,
+   "state": "Washington",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01876849",
@@ -107,6 +107,23 @@
   "Eli Lilly",
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients received exenatide therapy in Study H8O-MC-GWAA or Study H8O-MC-GWAD and completed the respective study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients were excluded or discontinued early from Study H8O-MC-GWAA or Study H8O-MC-GWAD."
+   },
+   {
+    "text": "Patients have received treatment within the last 30 days with a drug, not including exenatide, that has not received regulatory approval for any indication at the time of study entry."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

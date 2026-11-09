@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": "2024-02-28",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Albert Einstein College of Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Albert Einstein College of Medicine"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC",
@@ -52,34 +52,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "glucagon like peptide-1",
    "other_names": [
     "incretin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "glucose control",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Diabetic Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: glucagon like peptide-1",
     "Dietary Supplement: glucose control"
-   ]
+   ],
+   "label": "Diabetic Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Non-diabetic Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: glucagon like peptide-1",
     "Dietary Supplement: glucose control"
-   ]
+   ],
+   "label": "Non-diabetic Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "The gut hormone glucagon like peptide-1 (GLP-1) has been shown to have important effects on maintaining the function and health of the insulin producing beta cells. This hormone is known to increase the production rate of new insulin as well as increase the release of insulin into the blood.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes\n* Non diabetic\n\nExclusion Criteria:\n\n* Currently taking medication such as thiazolidinediones, metformin, Exenatide, or sitagliptin\n* Chronic condition such as chronic heart failure CHF), Coronary Artery Disease (CAD), or chronic renal failure (CRF)\n* Anemia",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Albert Einstein College of Medicinie",
    "city": "The Bronx",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Albert Einstein College of Medicinie",
    "lat": 40.84985,
-   "lon": -73.86641
+   "lon": -73.86641,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00609154",
@@ -120,6 +120,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes"
+   },
+   {
+    "text": "Non diabetic"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Currently taking medication such as thiazolidinediones, metformin, Exenatide, or sitagliptin"
+   },
+   {
+    "text": "Chronic condition such as chronic heart failure CHF), Coronary Artery Disease (CAD), or chronic renal failure (CRF)"
+   },
+   {
+    "text": "Anemia"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

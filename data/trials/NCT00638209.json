@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -38,8 +38,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital Tuebingen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital Tuebingen"
  },
  "collaborators": [
   "German Research Foundation"
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Human insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Saline",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "I",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Human insulin"
-   ]
+   ],
+   "label": "I",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "P",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Saline"
-   ]
+   ],
+   "label": "P",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "The purpose of the study is to investigate whether insulin sensitivity of the human brain correlates with insulin sensitivity of the liver.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 18-70 Risk factor(s) for type 2 diabetes (e.g. overweight, family history of diabetes)\n\nExclusion Criteria:\n\n* Type 2 diabetes pregnancy acute or chronic diseases",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,22 +95,22 @@
  },
  "sites": [
   {
-   "facility": "University Hospital Tuebingen",
    "city": "Tübingen",
-   "state": null,
    "country": "Germany",
-   "status": "RECRUITING",
+   "facility": "University Hospital Tuebingen",
    "lat": 48.52266,
-   "lon": 9.05222
+   "lon": 9.05222,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
-   "facility": "University Hospital Tuebingen, Internal Medicine IV",
    "city": "Tübingen",
-   "state": null,
    "country": "Germany",
-   "status": "RECRUITING",
+   "facility": "University Hospital Tuebingen, Internal Medicine IV",
    "lat": 48.52266,
-   "lon": 9.05222
+   "lon": 9.05222,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00638209",
@@ -122,6 +122,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 18-70 Risk factor(s) for type 2 diabetes (e.g. overweight, family history of diabetes)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 diabetes pregnancy acute or chronic diseases"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

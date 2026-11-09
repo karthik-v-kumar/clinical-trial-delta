@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Maastricht University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Maastricht University"
  },
  "collaborators": [
   "ZonMw: The Netherlands Organisation for Health Research and Development"
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Time restricted feeding",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Control",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Time Restricted Feeding",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Time restricted feeding"
-   ]
+   ],
+   "label": "Time Restricted Feeding",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control",
-   "type": "OTHER",
    "intervention_names": [
     "Behavioral: Control"
-   ]
+   ],
+   "label": "Control",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "Modern life is characterized by a 24-hour lifestyle in which food intake is no longer restricted to daytime. As a result, people nowadays tend to eat throughout the day. When food is being consumed the energy is both used and stored for later use. Eating for a prolonged period of time makes it unnecessary for the body to use its energy storage. It is hypothesized that the decreased use of energy stores has detrimental effects on our sugar balance, mainly on insulin sensitivity. Conversely, eating within a limited period during the day could improve insulin sensitivity in people with type 2 diabetes by an increased use of energy reserves, specifically liver sugar stores. Therefore, this study examines the effect of eating within a limited time frame during the day on insulin sensitivity and liver sugar stores of people with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent\n* Caucasian\n* Non-insulin treated type 2 diabetes,\n* BMI: \\>25 kg/m2\n* Regular sleeping time (normally 7 - 9 hrs daily)\n* Habitual bedtime at 11 PM plus/minus 2 hours\n\nExclusion Criteria:\n\n* Not being able to adhere to a restricted feeding schedule\n* Uncontrolled hypertension\n* Active cardiovascular disease\n* Insulin therapy\n* Use of SGLT2 inhibitors\n* BMI\\>38 kg/m2\n* Engaged in programmed exercise for \\>3hrs per week\n* Extreme early bird or extreme night person\n* Heavily varying sleep-wake rhythm\n* Shiftwork during last 3 months\n* Smoking\n* Contra-indication to MRI scanning\n* Subjects who intend to donate blood during the intervention or subjects who have donated blood less than three months before the start of the intervention\n* Subjects who do not want to be informed about unexpected medical findings during the screening/study, or do not wish that their physician is informed\n* Unstable body weight (weight gain or loss \\>3kg in the last 3 months)\n* Significant food allergies/intolerance (seriously hampering study meals)\n* Participation in another biomedical study within 1 month before the first study visit, which would possibly hamper our study results\n* Any other medical condition that will preclude the safe performance of the measurements",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Maastricht University",
    "city": "Maastricht",
-   "state": "Limburg",
    "country": "Netherlands",
-   "status": null,
+   "facility": "Maastricht University",
    "lat": 50.84833,
-   "lon": 5.68889
+   "lon": 5.68889,
+   "state": "Limburg",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03992248",
@@ -116,6 +116,86 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed informed consent"
+   },
+   {
+    "text": "Caucasian"
+   },
+   {
+    "text": "Non-insulin treated type 2 diabetes,"
+   },
+   {
+    "text": "BMI: >25 kg/m2"
+   },
+   {
+    "text": "Regular sleeping time (normally 7 - 9 hrs daily)"
+   },
+   {
+    "text": "Habitual bedtime at 11 PM plus/minus 2 hours"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Not being able to adhere to a restricted feeding schedule"
+   },
+   {
+    "text": "Uncontrolled hypertension"
+   },
+   {
+    "text": "Active cardiovascular disease"
+   },
+   {
+    "text": "Insulin therapy"
+   },
+   {
+    "text": "Use of SGLT2 inhibitors"
+   },
+   {
+    "text": "BMI>38 kg/m2"
+   },
+   {
+    "text": "Engaged in programmed exercise for >3hrs per week"
+   },
+   {
+    "text": "Extreme early bird or extreme night person"
+   },
+   {
+    "text": "Heavily varying sleep-wake rhythm"
+   },
+   {
+    "text": "Shiftwork during last 3 months"
+   },
+   {
+    "text": "Smoking"
+   },
+   {
+    "text": "Contra-indication to MRI scanning"
+   },
+   {
+    "text": "Subjects who intend to donate blood during the intervention or subjects who have donated blood less than three months before the start of the intervention"
+   },
+   {
+    "text": "Subjects who do not want to be informed about unexpected medical findings during the screening/study, or do not wish that their physician is informed"
+   },
+   {
+    "text": "Unstable body weight (weight gain or loss >3kg in the last 3 months)"
+   },
+   {
+    "text": "Significant food allergies/intolerance (seriously hampering study meals)"
+   },
+   {
+    "text": "Participation in another biomedical study within 1 month before the first study visit, which would possibly hamper our study results"
+   },
+   {
+    "text": "Any other medical condition that will preclude the safe performance of the measurements"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

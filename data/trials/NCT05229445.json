@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Welldoc",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Welldoc"
  },
  "collaborators": [],
  "conditions": [
@@ -49,18 +49,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "continuous glucose monitor based insulin bolus calculator",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "CGM insulin bolus calculator arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: continuous glucose monitor based insulin bolus calculator"
-   ]
+   ],
+   "label": "CGM insulin bolus calculator arm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -72,10 +72,10 @@
  "brief_summary": "This study examines the safety of an app-based insulin bolus calculator that utilizes glucose values from a continuous glucose monitor",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 1 diabetes\n* type 2 diabetes\n* using Dexcom G6 CGM system\n* injecting bolus insulin\n\nExclusion Criteria:\n\n* pregnancy,\n* insulin pump use",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -83,13 +83,13 @@
  },
  "sites": [
   {
-   "facility": "Northwestern University",
    "city": "Chicago",
-   "state": "Illinois",
    "country": "United States",
-   "status": null,
+   "facility": "Northwestern University",
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05229445",
@@ -101,6 +101,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "type 1 diabetes"
+   },
+   {
+    "text": "type 2 diabetes"
+   },
+   {
+    "text": "using Dexcom G6 CGM system"
+   },
+   {
+    "text": "injecting bolus insulin"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "pregnancy,"
+   },
+   {
+    "text": "insulin pump use"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

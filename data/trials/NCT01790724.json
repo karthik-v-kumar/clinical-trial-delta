@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Illinois at Urbana-Champaign",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Illinois at Urbana-Champaign"
  },
  "collaborators": [
   "National Institute on Aging (NIA)"
@@ -53,25 +53,25 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Walking exercise",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Walking exercise",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Walking exercise"
-   ]
+   ],
+   "label": "Walking exercise",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metabolic health education",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Walking exercise"
-   ]
+   ],
+   "label": "Metabolic health education",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The propose of the study is to test the hypothesis that an eight week program consisting of walking exercise and social cognitive theory based group workshops will increase physical activity adherence six months later in older adults with type 2 diabetes or metabolic syndrome.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* adults between the ages of 50-75 years\n* individuals diagnosed with type 2 diabetes or metabolic syndrome (presence of 3 of the 5 criteria)\n* physician consent to participate.\n\nExclusion Criteria:\n\n* below age 50 or above age 75 at the beginning of the intervention\n* exercising regularly more than twice per week for the last six months\n* diagnosis of type 1 diabetes mellitus\n* failing the Telephone Interview of Cognitive Status\n* inability to communicate in English",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "University of Illinois at Urbana-Champaign",
    "city": "Urbana",
-   "state": "Illinois",
    "country": "United States",
-   "status": null,
+   "facility": "University of Illinois at Urbana-Champaign",
    "lat": 40.11059,
-   "lon": -88.20727
+   "lon": -88.20727,
+   "state": "Illinois",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01790724",
@@ -112,6 +112,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "adults between the ages of 50-75 years"
+   },
+   {
+    "text": "individuals diagnosed with type 2 diabetes or metabolic syndrome (presence of 3 of the 5 criteria)"
+   },
+   {
+    "text": "physician consent to participate."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "below age 50 or above age 75 at the beginning of the intervention"
+   },
+   {
+    "text": "exercising regularly more than twice per week for the last six months"
+   },
+   {
+    "text": "diagnosis of type 1 diabetes mellitus"
+   },
+   {
+    "text": "failing the Telephone Interview of Cognitive Status"
+   },
+   {
+    "text": "inability to communicate in English"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

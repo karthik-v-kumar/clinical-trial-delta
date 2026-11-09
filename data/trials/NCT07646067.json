@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Ideal Medical Technologies",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Ideal Medical Technologies"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -53,18 +53,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "FUSION closed loop glucose control system",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "FUSION closed loop glucose control system safety study",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: FUSION closed loop glucose control system"
-   ]
+   ],
+   "label": "FUSION closed loop glucose control system safety study",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -80,10 +80,10 @@
  "brief_summary": "This is a proof of concept safety study of a rule-based closed loop glucose control system designed for use in the intensive care unit setting.\n\nThe persons with type 1 and type 2 diabetes in this study will have their glucose controlled to a range of 100-140 mg/dL by a fully autonomous novel rule-based closed loop glucose control system for a period of 24 hours. The subjects will consume three standardized meals and receive a continuous intravenous infusion of dextrose (D-glucose) during the 24 hour study period. Meals will not be announced to the glucose control system.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants with type 1 and type 2 diabetes are eligible to be included in the study only if they meet all the following criteria:\n\n  1. Are 18-70 years of age, inclusive.\n  2. Can understand and sign an informed consent, communicate with the investigator, and understand and comply with the protocol requirements.\n  3. Have had a diagnosis of type 1 or type 2 diabetes for a period of at least 3 months.\n  4. Use insulin injections at home for glucose control.\n  5. Have a hemoglobin A1c (HbA1c) in the range of 7.0 - 10.0%.\n  6. Have a hemoglobin in the range for sex:\n\n     1. Females: 7-15.5 grams/dL.\n     2. Males: 7-17.5 grams/dl.\n  7. Have adequate venous access sites in upper extremities.\n  8. Body weight between 40 - 150 kg.\n\nExclusion Criteria:\n\n1. Have participated in an interventional medical, surgical, or pharmaceutical study within 30 days of screening.\n2. Have a known hypersensitivity to any of the components of study treatment.\n3. Have skin disease/injury at Dexcom G6 CGM insertion site(s) that would prevent insertion of the CGM.\n4. Currently abuses drugs or alcohol or has a history of abuse that in the investigator's opinion would cause the individual to be noncompliant.\n5. Have a medical condition that in the opinion of the investigator could affect study participation and/or personal well-being.\n6. Have a clinically significant history or presence of any of the following conditions:\n\n   1. Hepatic failure or has alanine aminotransferase (ALT) greater than 3 times the upper limit of normal.\n   2. Has an estimated GFR \\<30 ml/min/1.73 m2 or End Stage Kidney Disease on renal replacement therapy.\n   3. Have congestive heart failure greater than class 1 on the NYHA classification system.\n   4. Have a history of seizures.\n   5. Have a history of cerebrovascular accident.\n   6. Have a history of ischemic heart disease.\n7. For female subjects of potential childbearing age (age 18 to 55) they will be excluded if:\n\n   1. Pregnant.\n   2. Refuse to agree to a pregnancy test at the time of enrollment.\n   3. Have a positive urine pregnancy test at the time of enrollment.\n8. Have a positive Influenza or COVID test within 14 days of visit 3.\n9. Have any viral lower respiratory related symptoms (e.g., cough, chest tightness, respiratory distress) in the 14-day period prior to visit 3.\n10. Have a known unprotected Influenza or COVID exposure in the 14-day period prior to visit 3.\n11. Are currently being treated with Hydroxyurea, a medication which may cause the Dexcom G6 CGM to produce glucose readings that are higher than the actual glucose value.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,6 +99,75 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants with type 1 and type 2 diabetes are eligible to be included in the study only if they meet all the following criteria:",
+    "sub_items": [
+     "Are 18-70 years of age, inclusive.",
+     "Can understand and sign an informed consent, communicate with the investigator, and understand and comply with the protocol requirements.",
+     "Have had a diagnosis of type 1 or type 2 diabetes for a period of at least 3 months.",
+     "Use insulin injections at home for glucose control.",
+     "Have a hemoglobin A1c (HbA1c) in the range of 7.0 - 10.0%.",
+     "Have a hemoglobin in the range for sex:",
+     "Females: 7-15.5 grams/dL.",
+     "Males: 7-17.5 grams/dl.",
+     "Have adequate venous access sites in upper extremities.",
+     "Body weight between 40 - 150 kg."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have participated in an interventional medical, surgical, or pharmaceutical study within 30 days of screening."
+   },
+   {
+    "text": "Have a known hypersensitivity to any of the components of study treatment."
+   },
+   {
+    "text": "Have skin disease/injury at Dexcom G6 CGM insertion site(s) that would prevent insertion of the CGM."
+   },
+   {
+    "text": "Currently abuses drugs or alcohol or has a history of abuse that in the investigator's opinion would cause the individual to be noncompliant."
+   },
+   {
+    "text": "Have a medical condition that in the opinion of the investigator could affect study participation and/or personal well-being."
+   },
+   {
+    "text": "Have a clinically significant history or presence of any of the following conditions:",
+    "sub_items": [
+     "Hepatic failure or has alanine aminotransferase (ALT) greater than 3 times the upper limit of normal.",
+     "Has an estimated GFR <30 ml/min/1.73 m2 or End Stage Kidney Disease on renal replacement therapy.",
+     "Have congestive heart failure greater than class 1 on the NYHA classification system.",
+     "Have a history of seizures.",
+     "Have a history of cerebrovascular accident.",
+     "Have a history of ischemic heart disease."
+    ]
+   },
+   {
+    "text": "For female subjects of potential childbearing age (age 18 to 55) they will be excluded if:",
+    "sub_items": [
+     "Pregnant.",
+     "Refuse to agree to a pregnancy test at the time of enrollment.",
+     "Have a positive urine pregnancy test at the time of enrollment."
+    ]
+   },
+   {
+    "text": "Have a positive Influenza or COVID test within 14 days of visit 3."
+   },
+   {
+    "text": "Have any viral lower respiratory related symptoms (e.g., cough, chest tightness, respiratory distress) in the 14-day period prior to visit 3."
+   },
+   {
+    "text": "Have a known unprotected Influenza or COVID exposure in the 14-day period prior to visit 3."
+   },
+   {
+    "text": "Are currently being treated with Hydroxyurea, a medication which may cause the Dexcom G6 CGM to produce glucose readings that are higher than the actual glucose value."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

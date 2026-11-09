@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Trisakti University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Trisakti University"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Vitamin D 5000 IU+ placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo : calcium carbonate 500 mg, microcrystalline cellulose, magnesium stearate, sodium starch glycolate",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "control group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo : calcium carbonate 500 mg, microcrystalline cellulose, magnesium stearate, sodium starch glycolate"
-   ]
+   ],
+   "label": "control group",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "vitamin D 5000 IU",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Vitamin D 5000 IU+ placebo"
-   ]
+   ],
+   "label": "vitamin D 5000 IU",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "This is double blind randomized controlled trial study using 92 subject with diabetes mellitus type 2divided into 2 group, one group as control and other group as vitamin D group. At the end of study the study subject only left 40 subjects in each group. Vitamin D group received vitamin D 5000 IU and the control group received calcium carbonate, microcrystalline cellulose, magnesium stearate, sodium starch glycolate for 6 months. The goal of this study was to determine whether suplmentation Vitamin D 5000 IU for 6 months have any effect on HbA1c, insulin, HOMA-IR nd VCAM-1 in Diabetes mellitus type 2",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* male and females age 18 - 65 years old\n* had been diagnosed T2DM,\n* duration T2DM ≤ 3 year\n* HbA1c \\> 6,5 %\n* used single antidibetic\n* were willing to follow the protocol of the study and were willing to participate in this study after receiving explanations, by signing informed consent.\n\nExclusion Criteria:\n\n* used insulin therapy\n* had liver disease, renal disease\n* pregnant women, or breast feeding women\n* alergy\n* hypercalsemia\n* had been consuming vitamin D in three months before the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Trisakti University",
    "city": "Jakarta",
-   "state": "DKI Jakarta",
    "country": "Indonesia",
-   "status": null,
+   "facility": "Trisakti University",
    "lat": -6.21462,
-   "lon": 106.84513
+   "lon": 106.84513,
+   "state": "DKI Jakarta",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07019415",
@@ -119,6 +119,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "male and females age 18 - 65 years old"
+   },
+   {
+    "text": "had been diagnosed T2DM,"
+   },
+   {
+    "text": "duration T2DM ≤ 3 year"
+   },
+   {
+    "text": "HbA1c > 6,5 %"
+   },
+   {
+    "text": "used single antidibetic"
+   },
+   {
+    "text": "were willing to follow the protocol of the study and were willing to participate in this study after receiving explanations, by signing informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "used insulin therapy"
+   },
+   {
+    "text": "had liver disease, renal disease"
+   },
+   {
+    "text": "pregnant women, or breast feeding women"
+   },
+   {
+    "text": "alergy"
+   },
+   {
+    "text": "hypercalsemia"
+   },
+   {
+    "text": "had been consuming vitamin D in three months before the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

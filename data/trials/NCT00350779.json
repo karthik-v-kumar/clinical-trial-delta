@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-07-03",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,57 +51,57 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "rosiglitazone",
    "other_names": [
     "Avandia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "glipizide",
    "other_names": [
     "Glucotrol"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin",
     "Drug: rosiglitazone",
     "Drug: metformin",
     "Drug: glipizide"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Placebo",
     "Drug: rosiglitazone",
     "Drug: metformin",
     "Drug: glipizide"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -113,10 +113,10 @@
  "brief_summary": "A clinical study to determine the safety and efficacy of sitagliptin in patients with Type 2 Diabetes Mellitus who have inadequate glycemic control on metformin/peroxisome proliferator-activated receptor gamma (PPARg) agonist combination therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient has type 2 diabetes mellitus\n* Patient is inadequately controlled while taking two oral antidiabetic medications\n\nExclusion Criteria:\n\n* Patient has a history of type 1 diabetes mellitus or history of ketoacidosis\n* Patient required insulin therapy within the prior 3 months\n* Patient has been taking Byetta (R) (exenatide) within the prior 3 months",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -132,6 +132,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient has type 2 diabetes mellitus"
+   },
+   {
+    "text": "Patient is inadequately controlled while taking two oral antidiabetic medications"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has a history of type 1 diabetes mellitus or history of ketoacidosis"
+   },
+   {
+    "text": "Patient required insulin therapy within the prior 3 months"
+   },
+   {
+    "text": "Patient has been taking Byetta (R) (exenatide) within the prior 3 months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

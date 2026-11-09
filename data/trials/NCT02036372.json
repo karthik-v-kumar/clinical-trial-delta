@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)"
  },
  "collaborators": [],
  "conditions": [
@@ -48,49 +48,49 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Victoza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin bolus",
    "other_names": [
     "novorapid"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "GIK infusion",
    "other_names": [
     "glucose, insulin, potassium infusion"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "BR (bolus regimen)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin bolus"
-   ]
+   ],
+   "label": "BR (bolus regimen)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "LG (Liraglutide)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide",
     "Drug: Insulin bolus"
-   ]
+   ],
+   "label": "LG (Liraglutide)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "GIK (glucose -insulin - potassium) infusion",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: GIK infusion"
-   ]
+   ],
+   "label": "GIK (glucose -insulin - potassium) infusion",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "The incidence of diabetes mellitus type II is increasing. More and more patients who need surgery have diabetes mellitus type II. Despite an enormous amount of glucose lowering protocols and the proven negative effects of hyperglycaemia. There is no evidence for the optimal glucose lowering protocol.\n\nThis study investigates the optimal intraoperative treatment algorithm to lower glucose in patients with diabetes mellitus type 2 undergoing non-cardiac surgery, comparing intraoperative glucose-insulin-potassium infusion (GIK), insulin bolus regimen (BR) and GLP-1 (liraglutide, LG) treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent\n* known diabetes mellitus type II for \\> 3 months\n* aged 18-75 years\n* scheduled for elective non-cardiac surgery\n\nExclusion Criteria:\n\n\\- Daily insulin dosage of \\> 1 IU/kg body weight\n\n* Oral corticosteroid use\n* Planned for day-care (ambulant) surgery\n* Planned ICU stay post-operatively\n* Planned bowel surgery\n* History of chronic pancreatitis or idiopathic acute pancreatitis\n* Impaired renal function defined as serum-creatinine ≥ 133 μmol/L for males and ≥ 115 μmol/L for females\n* Females of child bearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive methods (adequate contraceptive measures as required by local law or practice)\n* Known or suspected allergy to trial product(s) or related products\n* Any condition that the local investigator feels would interfere with trial participation or the evaluation of results",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,31 +113,31 @@
  },
  "sites": [
   {
+   "city": "Amsterdam",
+   "country": "Netherlands",
    "facility": "Onze Lieve Vrouwe Gasthuis",
-   "city": "Amsterdam",
-   "state": null,
-   "country": "Netherlands",
-   "status": null,
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Diakonessenhuis",
    "city": "Utrecht",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Diakonessenhuis",
    "lat": 52.09083,
-   "lon": 5.12222
+   "lon": 5.12222,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Academic Medical Center Amsterdam",
    "city": "Amsterdam",
-   "state": "Please Select",
    "country": "Netherlands",
-   "status": null,
+   "facility": "Academic Medical Center Amsterdam",
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": "Please Select",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02036372",
@@ -149,6 +149,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed informed consent"
+   },
+   {
+    "text": "known diabetes mellitus type II for > 3 months"
+   },
+   {
+    "text": "aged 18-75 years"
+   },
+   {
+    "text": "scheduled for elective non-cardiac surgery"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Daily insulin dosage of > 1 IU/kg body weight"
+   },
+   {
+    "text": "Oral corticosteroid use"
+   },
+   {
+    "text": "Planned for day-care (ambulant) surgery"
+   },
+   {
+    "text": "Planned ICU stay post-operatively"
+   },
+   {
+    "text": "Planned bowel surgery"
+   },
+   {
+    "text": "History of chronic pancreatitis or idiopathic acute pancreatitis"
+   },
+   {
+    "text": "Impaired renal function defined as serum-creatinine ≥ 133 μmol/L for males and ≥ 115 μmol/L for females"
+   },
+   {
+    "text": "Females of child bearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive methods (adequate contraceptive measures as required by local law or practice)"
+   },
+   {
+    "text": "Known or suspected allergy to trial product(s) or related products"
+   },
+   {
+    "text": "Any condition that the local investigator feels would interfere with trial participation or the evaluation of results"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

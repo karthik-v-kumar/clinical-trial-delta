@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mount Sinai Hospital, Canada",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mount Sinai Hospital, Canada"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Victoza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide"
-   ]
+   ],
+   "label": "Liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "Type 2 diabetes mellitus (T2DM) is a chronic metabolic disorder characterized by progressive deterioration in the function of the pancreatic beta-cells, which are the cells that produce and secrete insulin (the hormone primarily responsible for the handling of glucose in the body). We propose a double-blind, randomized controlled study comparing the effect of liraglutide (a novel anti-diabetic drug with beta-cell protective potential) versus placebo, on the preservation of beta-cell function over one year in patients with T2DM. This study may demonstrate an important beta-cell protective capacity of liraglutide.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* men and women between the ages of 30 and 75 years inclusive\n* physician-diagnosed type 2 diabetes of \\</= 7 years duration\n* negative for anti-GAD antibodies\n* on 0-2 oral anti-diabetic medications\n* A1c at screening between 5.5% and 9.0% inclusive, if on oral anti-diabetic medications, or between 6.0% and 10.0% inclusive, if not on oral anti-diabetic medications\n\nExclusion Criteria:\n\n* use of insulin, GLP-1 agonist, or dipeptidyl peptidase-4 (DPP-4) inhibitor\n* type 1 diabetes or secondary forms of diabetes\n* major illness with life expectancy \\< 5 years\n* involvement in another study requiring drug therapy\n* hypersensitivity to insulin, liraglutide, or metformin\n* renal dysfunction\n* hepatic dysfunction\n* history of pancreatitis\n* family or personal history of Multiple Endocrine Neoplasia type 2 (MEN-2) or familial medullary thyroid carcinoma\n* personal history of non-familial medullary thyroid carcinoma\n* malignant neoplasm requiring chemotherapy, surgery, radiation or palliative therapy within the previous 5 years (with the exception of basal cell skin cancer)\n* excessive alcohol consumption\n* unwillingness to undergo multiple daily insulin injection therapy\n* unwillingness to perform capillary blood glucose monitoring at least 4 times per day during intensive insulin therapy\n* congestive heart failure\n* pregnancy",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Mount Sinai Hospital",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Mount Sinai Hospital",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01270789",
@@ -123,6 +123,77 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "men and women between the ages of 30 and 75 years inclusive"
+   },
+   {
+    "text": "physician-diagnosed type 2 diabetes of </= 7 years duration"
+   },
+   {
+    "text": "negative for anti-GAD antibodies"
+   },
+   {
+    "text": "on 0-2 oral anti-diabetic medications"
+   },
+   {
+    "text": "A1c at screening between 5.5% and 9.0% inclusive, if on oral anti-diabetic medications, or between 6.0% and 10.0% inclusive, if not on oral anti-diabetic medications"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "use of insulin, GLP-1 agonist, or dipeptidyl peptidase-4 (DPP-4) inhibitor"
+   },
+   {
+    "text": "type 1 diabetes or secondary forms of diabetes"
+   },
+   {
+    "text": "major illness with life expectancy < 5 years"
+   },
+   {
+    "text": "involvement in another study requiring drug therapy"
+   },
+   {
+    "text": "hypersensitivity to insulin, liraglutide, or metformin"
+   },
+   {
+    "text": "renal dysfunction"
+   },
+   {
+    "text": "hepatic dysfunction"
+   },
+   {
+    "text": "history of pancreatitis"
+   },
+   {
+    "text": "family or personal history of Multiple Endocrine Neoplasia type 2 (MEN-2) or familial medullary thyroid carcinoma"
+   },
+   {
+    "text": "personal history of non-familial medullary thyroid carcinoma"
+   },
+   {
+    "text": "malignant neoplasm requiring chemotherapy, surgery, radiation or palliative therapy within the previous 5 years (with the exception of basal cell skin cancer)"
+   },
+   {
+    "text": "excessive alcohol consumption"
+   },
+   {
+    "text": "unwillingness to undergo multiple daily insulin injection therapy"
+   },
+   {
+    "text": "unwillingness to perform capillary blood glucose monitoring at least 4 times per day during intensive insulin therapy"
+   },
+   {
+    "text": "congestive heart failure"
+   },
+   {
+    "text": "pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

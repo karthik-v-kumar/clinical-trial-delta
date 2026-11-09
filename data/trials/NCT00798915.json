@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Washington University School of Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Washington University School of Medicine"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -52,64 +52,64 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Vehicle alone"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glucose-dependent Insulinotropic Polypeptide (GIP)",
    "other_names": [
     "GIP"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Xenin-25",
    "other_names": [
     "Xenin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glucose-dependent Insulinotropic Polypeptide plus Xenin-25",
    "other_names": [
     "GIP plus Xenin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Placebo",
+    "Drug: Glucose-dependent Insulinotropic Polypeptide (GIP)",
+    "Drug: Xenin-25",
+    "Drug: Glucose-dependent Insulinotropic Polypeptide plus Xenin-25"
+   ],
    "label": "Normal Glucose Tolerance",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Glucose-dependent Insulinotropic Polypeptide (GIP)",
     "Drug: Xenin-25",
     "Drug: Glucose-dependent Insulinotropic Polypeptide plus Xenin-25"
-   ]
-  },
-  {
+   ],
    "label": "Impaired Glucose Tolerance",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Placebo",
-    "Drug: Glucose-dependent Insulinotropic Polypeptide (GIP)",
-    "Drug: Xenin-25",
-    "Drug: Glucose-dependent Insulinotropic Polypeptide plus Xenin-25"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Type 2 diabetes mellitus",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Glucose-dependent Insulinotropic Polypeptide (GIP)",
     "Drug: Xenin-25",
     "Drug: Glucose-dependent Insulinotropic Polypeptide plus Xenin-25"
-   ]
+   ],
+   "label": "Type 2 diabetes mellitus",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -121,10 +121,10 @@
  "brief_summary": "An intestinal hormone called Glucose-dependent Insulinotropic Polypeptide (GIP) is released into the blood immediately after ingestion of a meal and plays an important role in regulating blood sugar levels. However, GIP is not active in persons with type 2 diabetes mellitus (T2DM) which is also known as adult onset or non-insulin-dependent diabetes. This study is being conducted to determine whether a hormone called xenin-25 can restore the activity of GIP in persons with T2DM.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Individuals must be able to consent for their own participation (no mental impairment affecting cognition or willingness to follow study instructions).\n* Healthy volunteers with no clinical evidence of T2DM.\n* Otherwise healthy volunteers that have impaired glucose tolerance.\n* Otherwise healthy volunteers with diet controlled T2DM.\n* Otherwise healthy volunteers with T2DM that take oral agents only if the subject's pre-existing oral anti-diabetic agents can be safely discontinued for 48-hours.\n* Persons with HbA1c less than 9%.\n* Women of childbearing potential must be currently taking/using an acceptable method of birth control. A pregnancy test will be done at the beginning of each visit. Any woman with a positive pregnancy test will be removed from the study.\n* Willingness to complete all required visits.\n\nExclusion Criteria:\n\n* Lacks cognitive ability to sign the consent or follow the study directions.\n* Women unwilling to use an acceptable method of contraception during the course of the study, or who are currently breast-feeding.\n* Any subject whose screening HbA1c is \\>9.0%.\n* Type 2 diabetes requiring the use of supplemental insulin at home.\n* Volunteers with a history of Acute Pancreatitis.\n* Volunteers with a history of cancer (except for skin cancer).\n* Volunteer with a history of Chronic Pancreatitis and/or risk factors for chronic pancreatitis including hypertriglyceridemia (triglycerides \\>400mg/ml) hypercalcemia (blood calcium level \\>11.md/dl) and/or the presence of gallstones.\n* Volunteers with a history of gastrointestinal disorders, particularly related to gastric motility/emptying such as gastric bypass, documented gastro-paresis in diabetic volunteers.\n* Subjects taking medications known to affect glucose tolerance.\n* Hematocrit from the lab is below 33% (or if the finger stick hemoglobin measured with the HemoCue 201+ is \\<11.2% mg/dlL).\n* Diabetics that have the potential to have a low blood sugar without them being aware that their blood sugar is low (hypoglycemia unawareness).\n* Significant systemic illness including heart, kidney, inflammatory, liver, or malignant disease requiring medications.\n* Subjects will be excluded if their liver or kidney function is outside the upper limits of normal by \\> 3%. Total Bilirubin levels should be \\<2.\n* Subjects unwilling to allow the use of human albumin in the preparation of the peptides.\n* Unwillingness to allow blood glucose level adjustment (if needed) with IV insulin",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -132,13 +132,13 @@
  },
  "sites": [
   {
-   "facility": "Washington University School of Medicine",
    "city": "St Louis",
-   "state": "Missouri",
    "country": "United States",
-   "status": null,
+   "facility": "Washington University School of Medicine",
    "lat": 38.62727,
-   "lon": -90.19789
+   "lon": -90.19789,
+   "state": "Missouri",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00798915",
@@ -150,6 +150,83 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Individuals must be able to consent for their own participation (no mental impairment affecting cognition or willingness to follow study instructions)."
+   },
+   {
+    "text": "Healthy volunteers with no clinical evidence of T2DM."
+   },
+   {
+    "text": "Otherwise healthy volunteers that have impaired glucose tolerance."
+   },
+   {
+    "text": "Otherwise healthy volunteers with diet controlled T2DM."
+   },
+   {
+    "text": "Otherwise healthy volunteers with T2DM that take oral agents only if the subject's pre-existing oral anti-diabetic agents can be safely discontinued for 48-hours."
+   },
+   {
+    "text": "Persons with HbA1c less than 9%."
+   },
+   {
+    "text": "Women of childbearing potential must be currently taking/using an acceptable method of birth control. A pregnancy test will be done at the beginning of each visit. Any woman with a positive pregnancy test will be removed from the study."
+   },
+   {
+    "text": "Willingness to complete all required visits."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Lacks cognitive ability to sign the consent or follow the study directions."
+   },
+   {
+    "text": "Women unwilling to use an acceptable method of contraception during the course of the study, or who are currently breast-feeding."
+   },
+   {
+    "text": "Any subject whose screening HbA1c is >9.0%."
+   },
+   {
+    "text": "Type 2 diabetes requiring the use of supplemental insulin at home."
+   },
+   {
+    "text": "Volunteers with a history of Acute Pancreatitis."
+   },
+   {
+    "text": "Volunteers with a history of cancer (except for skin cancer)."
+   },
+   {
+    "text": "Volunteer with a history of Chronic Pancreatitis and/or risk factors for chronic pancreatitis including hypertriglyceridemia (triglycerides >400mg/ml) hypercalcemia (blood calcium level >11.md/dl) and/or the presence of gallstones."
+   },
+   {
+    "text": "Volunteers with a history of gastrointestinal disorders, particularly related to gastric motility/emptying such as gastric bypass, documented gastro-paresis in diabetic volunteers."
+   },
+   {
+    "text": "Subjects taking medications known to affect glucose tolerance."
+   },
+   {
+    "text": "Hematocrit from the lab is below 33% (or if the finger stick hemoglobin measured with the HemoCue 201+ is <11.2% mg/dlL)."
+   },
+   {
+    "text": "Diabetics that have the potential to have a low blood sugar without them being aware that their blood sugar is low (hypoglycemia unawareness)."
+   },
+   {
+    "text": "Significant systemic illness including heart, kidney, inflammatory, liver, or malignant disease requiring medications."
+   },
+   {
+    "text": "Subjects will be excluded if their liver or kidney function is outside the upper limits of normal by > 3%. Total Bilirubin levels should be <2."
+   },
+   {
+    "text": "Subjects unwilling to allow the use of human albumin in the preparation of the peptides."
+   },
+   {
+    "text": "Unwillingness to allow blood glucose level adjustment (if needed) with IV insulin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

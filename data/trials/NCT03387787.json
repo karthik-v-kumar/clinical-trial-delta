@@ -15,8 +15,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Insel Gruppe AG, University Hospital Bern",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Insel Gruppe AG, University Hospital Bern"
  },
  "collaborators": [],
  "conditions": [
@@ -49,24 +49,24 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "GlucoTab",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Degludec",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "GlucoTab Treatment Arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: GlucoTab",
     "Drug: Insulin Degludec"
-   ]
+   ],
+   "label": "GlucoTab Treatment Arm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "The GlucoTab® system is a computerized decision support system built of an android based front-end user interface and a backend server including the REACTION algorithm. GlucoTab® is able to process blood glucose data and physiological confounders of glycaemia. Subsequently, GlucoTab® provides patient-specific basal, bolus, and correction insulin doses together with visualization and documentation of relevant data. The GlucoTab® system was found capable to keep hospitalized diabetic patients in the recommended target range without increasing the risk for hypoglycaemic events. Insulin pharmacokinetic is a critical confounder of glycaemic variability and the main determinant of an algorithm-based decision support-system. GlucoTab® is intended for being used with a basal/bolus insulin regimen. Up to date, feasibility data are limited to the use of insulin glargine.\n\nInsulin degludec, an ultra-long acting basal insulin is characterized by a stable pharmacokinetic profile a half-life of \\~25 hours. It was found equally effective to insulin glargine with respect to glycaemic control, while the incidence of (nocturnal) hypoglycaemia was smaller in patients treated with insulin degludec. Within the present study, insulin glargine will be replaced by insulin degludec, which is not yet approved for dose titration with GlucoTab®.\n\nIn the present study, 15 non-critically ill T2DM patients, who were hospitalized at the University Clinic of Neurosurgery for various reasons and require insulin treatment will be recruited. Patients will be treated with insulin Tresiba and insulin Novorapid. For a maximum duration of 21 days, GlucoTab® will calculate the required insulin doses for each patient, depending on fasting plasma glucose and postprandial glucose measurements during the day. After the calculated Insulin dose has been approved by the physician, the nursing staff will give the dose to the respective patient.\n\nThe present study will analyse the efficacy of GlucoTab® for glycaemic management in T2DM patients using insulin degludec.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Written informed consent after being advised of every detail of the study\n* Male or female sex\n* Aged ≥ 18 years\n* Known history of diabetes of at least 90 days\n* Type 2 diabetes mellitus treated with either diet alone or any combination of oral antidiabetic agents and the absence of diabetic ketoacidosis for at least 90 days.\n* HbA1c 6.5 - 10.0%\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus\n* Gestational diabetes mellitus\n* Pregnancy or currently breast-feeding women\n* Known or suspected allergy to insulin degludec and/or insulin aspart\n* Continuous parenteral nutrition\n* Participation in another trial which may in the opinion of the investigator interfere with the software algorithm\n* Any mental condition rendering the patient incapable of giving informed consent\n* Any disease or condition which in the opinion of the investigator would interfere with the trial performance and/or the physical and/or psychosocial safety of the study participant\n* Critically ill patients",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,13 +93,13 @@
  },
  "sites": [
   {
-   "facility": "Division of Endocrinology, Diabetes, Clinical Nutrition & Metabolism, University Hospital Berne, Switzerland",
    "city": "Bern",
-   "state": null,
    "country": "Switzerland",
-   "status": null,
+   "facility": "Division of Endocrinology, Diabetes, Clinical Nutrition & Metabolism, University Hospital Berne, Switzerland",
    "lat": 46.94809,
-   "lon": 7.44744
+   "lon": 7.44744,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03387787",
@@ -111,6 +111,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Written informed consent after being advised of every detail of the study"
+   },
+   {
+    "text": "Male or female sex"
+   },
+   {
+    "text": "Aged ≥ 18 years"
+   },
+   {
+    "text": "Known history of diabetes of at least 90 days"
+   },
+   {
+    "text": "Type 2 diabetes mellitus treated with either diet alone or any combination of oral antidiabetic agents and the absence of diabetic ketoacidosis for at least 90 days."
+   },
+   {
+    "text": "HbA1c 6.5 - 10.0%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus"
+   },
+   {
+    "text": "Gestational diabetes mellitus"
+   },
+   {
+    "text": "Pregnancy or currently breast-feeding women"
+   },
+   {
+    "text": "Known or suspected allergy to insulin degludec and/or insulin aspart"
+   },
+   {
+    "text": "Continuous parenteral nutrition"
+   },
+   {
+    "text": "Participation in another trial which may in the opinion of the investigator interfere with the software algorithm"
+   },
+   {
+    "text": "Any mental condition rendering the patient incapable of giving informed consent"
+   },
+   {
+    "text": "Any disease or condition which in the opinion of the investigator would interfere with the trial performance and/or the physical and/or psychosocial safety of the study participant"
+   },
+   {
+    "text": "Critically ill patients"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

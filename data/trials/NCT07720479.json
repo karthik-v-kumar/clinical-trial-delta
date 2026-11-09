@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "QUADRUPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Weidong Mi",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Weidong Mi"
  },
  "collaborators": [],
  "conditions": [
@@ -53,37 +53,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin, human",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Intranasal Normal Saline (Placebo)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Insulin, human"
+   ],
    "label": "Intranasal Insulin 40 IU Group",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Insulin, human"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Insulin, human"
+   ],
    "label": "Intranasal Insulin 80 IU Group",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Insulin, human"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control Group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Intranasal Normal Saline (Placebo)"
-   ]
+   ],
+   "label": "Control Group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Postoperative delirium (POD) is highly prevalent in older patients with type 2 diabetes mellitus (T2DM). Cerebral insulin resistance is considered a key pathophysiological mechanism underlying this association. This study aims to investigate whether intranasal insulin (INI) can prevent POD and early postoperative cognitive decline by improving cerebral insulin resistance. We will conduct a randomized, double-blind, placebo-controlled multicenter trial. Older T2DM patients will be randomly assigned to receive intranasal insulin at doses of 40 IU or 80 IU, or placebo. The primary objective is to evaluate the efficacy of INI in preventing POD and to determine the dose-response relationship.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Diagnosis of type 2 diabetes mellitus (T2DM) according to the World Health Organization (WHO) criteria.\n2. Age ≥ 65 years.\n3. Scheduled for elective hepatobiliary tumor resection with an anticipated surgical duration of ≥ 2 hours.\n4. Voluntary provision of written informed consent by the patient or their legally authorized representative.\n\nExclusion Criteria:\n\n1. Preoperative diagnosis of dementia, or an education-adjusted Mini-Mental State Examination (MMSE) score indicating cognitive impairment (illiteracy \\< 17, primary education \\< 20, secondary education or above \\< 24).\n2. Severe visual, auditory, or language impairments precluding the completion of neurocognitive assessments.\n3. American Society of Anesthesiologists (ASA) physical status classification ≥ IV.\n4. History of severe central nervous system disorders (e.g., Parkinson's disease, stroke within the past 6 months, severe traumatic brain injury) or schizophrenia; or chronic use of antipsychotic or antidepressant medications.\n5. Nasal anatomical abnormalities or pathologies that may compromise intranasal drug absorption (e.g., severe allergic rhinitis, severe deviated septum, recent nasal trauma or surgery, nasal polyps).\n6. Known hypersensitivity to insulin or any of its excipients.\n7. Extremely poor glycemic control (e.g., HbA1c \\> 10%), or an episode of severe hypoglycemia or diabetic ketoacidosis within the 3 months prior to enrollment.",
-  "sex": "ALL",
-  "minimum_age": "65 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "65 Years",
+  "sex": "ALL",
   "std_ages": [
    "OLDER_ADULT"
   ]
@@ -113,6 +113,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 2 diabetes mellitus (T2DM) according to the World Health Organization (WHO) criteria."
+   },
+   {
+    "text": "Age ≥ 65 years."
+   },
+   {
+    "text": "Scheduled for elective hepatobiliary tumor resection with an anticipated surgical duration of ≥ 2 hours."
+   },
+   {
+    "text": "Voluntary provision of written informed consent by the patient or their legally authorized representative."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Preoperative diagnosis of dementia, or an education-adjusted Mini-Mental State Examination (MMSE) score indicating cognitive impairment (illiteracy < 17, primary education < 20, secondary education or above < 24)."
+   },
+   {
+    "text": "Severe visual, auditory, or language impairments precluding the completion of neurocognitive assessments."
+   },
+   {
+    "text": "American Society of Anesthesiologists (ASA) physical status classification ≥ IV."
+   },
+   {
+    "text": "History of severe central nervous system disorders (e.g., Parkinson's disease, stroke within the past 6 months, severe traumatic brain injury) or schizophrenia; or chronic use of antipsychotic or antidepressant medications."
+   },
+   {
+    "text": "Nasal anatomical abnormalities or pathologies that may compromise intranasal drug absorption (e.g., severe allergic rhinitis, severe deviated septum, recent nasal trauma or surgery, nasal polyps)."
+   },
+   {
+    "text": "Known hypersensitivity to insulin or any of its excipients."
+   },
+   {
+    "text": "Extremely poor glycemic control (e.g., HbA1c > 10%), or an episode of severe hypoglycemia or diabetic ketoacidosis within the 3 months prior to enrollment."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

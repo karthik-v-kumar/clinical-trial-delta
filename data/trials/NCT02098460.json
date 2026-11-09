@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Otsuka Beijing Research Institute",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Otsuka Beijing Research Institute"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin, Probucol, Cilostazol",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Atorvastatin, Probucol, Cilostazol"
+   ],
    "label": "Probucol,Cilostazol",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Atorvastatin, Probucol, Cilostazol"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Atorvastatin, Probucol, Cilostazol"
+   ],
    "label": "Cilostazol",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Atorvastatin, Probucol, Cilostazol"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Probucol, Cilostazol",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin, Probucol, Cilostazol"
-   ]
+   ],
+   "label": "Probucol, Cilostazol",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "To evaluate the effect of concomitant administration of Probucol and Cilostazol (based on Atorvastatin treatment) on the atherosclerosis related markers (including the thickness of the Achilles tendon) in severe hypercholesterolemia subject, through the observation of the thickness of the Achilles tendon, the thickness of mean carotid intima-media, anti-oxidation biomarkers and serum lipid profile.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. The subject whose voluntary written informed consent is obtained for participation in this study;\n2. 18≤age≤70；\n3. The subject with low-density lipoprotein cholesterol (LDL-C) ≥ 4.66 mmol/L (180 mg/dL) (the highest level either pre-treatment or on treatment);\n4. The subject with ATT≥9mm.\n\nExclusion Criteria:\n\n1. The subject with homozygous familial hyperlipidemia;\n2. The subject who took Probucol within 6 months before the screening test;\n3. The subject who took Cilostazol within 1 month before the screening test;\n4. The subject who took Ezetimibe within 1 month before the screening test;\n5. The subject who hoped to treat with Ezetimibe within this study period;\n6. The subject being treated with Cyclosporine;\n7. The subject with a history of hypersensitivity to Probucol and Cilostazol;\n8. The subject with a triglyceride (TG) level greater than 4.52 mmol/L (400 mg/dL);\n9. The subject with diabetes: HbA1c level greater than 8.4% (NGSP);\n10. The subject with New York Heart Association (NYHA) classification: Class III and IV;\n11. The subject with a QTc interval greater than 450 msec (male) or 470 msec (female);\n12. The subject with serious ventricular arrythmias (frequent episodes of multifocal ventricular extrasystole);\n13. The subject with atrial fibrillation (including paroxysmal atrial fibrillation);\n14. The subject with congestive cardiac failure or unstable angina;\n15. The subject with liver and renal functions that satisfy the following criteria within 28 days prior to start of the investigational medicinal product (IMP) administration.\n\n    * AST ≥100 IU/L, ALT≥100 IU/L\n    * Serum creatinine ≥1.5 mg/dL (133 µmol/L)\n16. The subject who are participating in another clinical trial;\n17. Woman during pregnancy or potential pregnancy, and breastfeeding;\n18. Women of childbearing potential who are not agree to use an appropriate method of contraception;\n19. The subject who are not considered by the Investigators to be appropriate to participate in this study for any other reasons.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Anzhen hospital",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Anzhen hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02098460",
@@ -118,6 +118,87 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "The subject whose voluntary written informed consent is obtained for participation in this study;"
+   },
+   {
+    "text": "18≤age≤70；"
+   },
+   {
+    "text": "The subject with low-density lipoprotein cholesterol (LDL-C) ≥ 4.66 mmol/L (180 mg/dL) (the highest level either pre-treatment or on treatment);"
+   },
+   {
+    "text": "The subject with ATT≥9mm."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "The subject with homozygous familial hyperlipidemia;"
+   },
+   {
+    "text": "The subject who took Probucol within 6 months before the screening test;"
+   },
+   {
+    "text": "The subject who took Cilostazol within 1 month before the screening test;"
+   },
+   {
+    "text": "The subject who took Ezetimibe within 1 month before the screening test;"
+   },
+   {
+    "text": "The subject who hoped to treat with Ezetimibe within this study period;"
+   },
+   {
+    "text": "The subject being treated with Cyclosporine;"
+   },
+   {
+    "text": "The subject with a history of hypersensitivity to Probucol and Cilostazol;"
+   },
+   {
+    "text": "The subject with a triglyceride (TG) level greater than 4.52 mmol/L (400 mg/dL);"
+   },
+   {
+    "text": "The subject with diabetes: HbA1c level greater than 8.4% (NGSP);"
+   },
+   {
+    "text": "The subject with New York Heart Association (NYHA) classification: Class III and IV;"
+   },
+   {
+    "text": "The subject with a QTc interval greater than 450 msec (male) or 470 msec (female);"
+   },
+   {
+    "text": "The subject with serious ventricular arrythmias (frequent episodes of multifocal ventricular extrasystole);"
+   },
+   {
+    "text": "The subject with atrial fibrillation (including paroxysmal atrial fibrillation);"
+   },
+   {
+    "text": "The subject with congestive cardiac failure or unstable angina;"
+   },
+   {
+    "text": "The subject with liver and renal functions that satisfy the following criteria within 28 days prior to start of the investigational medicinal product (IMP) administration.",
+    "sub_items": [
+     "AST ≥100 IU/L, ALT≥100 IU/L",
+     "Serum creatinine ≥1.5 mg/dL (133 µmol/L)"
+    ]
+   },
+   {
+    "text": "The subject who are participating in another clinical trial;"
+   },
+   {
+    "text": "Woman during pregnancy or potential pregnancy, and breastfeeding;"
+   },
+   {
+    "text": "Women of childbearing potential who are not agree to use an appropriate method of contraception;"
+   },
+   {
+    "text": "The subject who are not considered by the Investigators to be appropriate to participate in this study for any other reasons."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

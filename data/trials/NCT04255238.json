@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "LG Chem",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "LG Chem"
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Gemigliptin 50mg",
    "other_names": [
     "Zemiglo tab 50mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10mg",
    "other_names": [
     "Forxiga tab 10mg"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Gemigliptin 50 mg and Dapagliflozin 10 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Gemigliptin 50mg",
     "Drug: Dapagliflozin 10mg"
-   ]
+   ],
+   "label": "Gemigliptin 50 mg and Dapagliflozin 10 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Gemigliptin 50 mg and Dapagliflozin placebo",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Gemigliptin 50mg"
-   ]
+   ],
+   "label": "Gemigliptin 50 mg and Dapagliflozin placebo",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Gemigliptin placebo and Dapagliflozin 10mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg"
-   ]
+   ],
+   "label": "Gemigliptin placebo and Dapagliflozin 10mg",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The objective of this study is to evaluate the efficacy and safety of dual add-on therapy with Gemigliptin 50 mg and Dapagliflozin 10 mg added to Metformin compared to add-on therapy with Gemigliptin 50 mg in combination with Metformin or Dapagliflozin 10 mg in combination with Metformin in patients with type 2 diabetes mellitus who have inadequate glycemic control on metformin alone",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with type 2 diabetes mellitus\n* Patients upper 19 years old\n* Patients who had taken Metformin(≥1000mg/day) more than 8 weeks and who have inadequate blood glucose control\n* Patients who have signed an informed consent themselves after receiving explanation about the clinical study\n* Patients who are applicable to one of the three in the following.\n\n  1. Surgically infertile patients\n  2. Postmenopausal female patients of ≥45 years of age for whom ≥2 years elapsed since their last menstruation\n  3. Premenopausal fertile female patients or surgically non-infertile male patients who have agreed to use at least 2 kinds of contraceptive measures (certainly including one of the barrier methods) to avoid pregnancy until 14 days after the last dose of the investigational product\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes mellitus, Diabetic ketoacidosis, Metabolic acidosis Diabetic coma, Diabetic pre-coma\n* Patients with Gestational diabetes, or secondary diabetes\n* Patients with NYHA Class II\\~IV congestive heart failure or arrhythmia requiring treatment\n* Patients whose TSH level is out of the normal range and who have thyroidal dysfunction requiring drug therapy\n* Patients with positive Serologic results of HBsAg, HCV Ab, HIV Ab test within 4 weeks prior to Visit 1 (Screening) or at Visit 1 (Screening)\n* Patients with Body Mass Index(BMI) #40 kg/m2\n* Patients who are receiving intravenous iodine contrast agents within 48 hours prior to Visit 1(Screening) or planned during the clinical trial period (eg, intravenous urography, venous cholangiography, angiography, computed tomography using contrast media, etc.).\n* Patients with pulmonary embolism, severe pulmonary dysfunction, or who are susceptible to be accompanied by hypoxemia at the time of Visit 1(Screening)\n* Patients on clinically significant dehydration, diarrhea, and vomiting at the time of Visit 1(Screening)\n* Patients with pituitary insufficiency or adrenal insufficiency at the time of Visit 1(Screening)\n* Patients with a history of alcoholism or drug addiction within 1 years prior to Visit 1(Screening)\n* Patients with a history of malignant tumors within 5 years prior to Visit 1(Screening). However, patients with basal cell or squamous cell skin cancer, or in situ cervical cancer treated properly can participate in the study.\n* Patients with the outcomes of the laboratory tests performed at Visit\n\n  1(Screening) applicable to the criteria below\n  * Bilirubin \\>2 × upper limit of normal(ULN)\n  * AST/ALT \\>3 × ULN\n* Patients with a history of hypersensitivity reactions to the drugs below\n\n  * Dipeptidyl-peptidase4(DPP4) inhibitors\n  * Sodium/glucose co transport-2(SGLT-2) inhibitor\n  * Biguanides\n* Patients who were administered the drugs below\n* Patients who had been administered anti-obesity drugs within 12 weeks prior to Visit 1(Screening)\n* Patients who have undergone bariatric surgery within the 1 year prior to Visit 1 (Screening) or are scheduled during the trial\n* Patients with a genetic problems such as Galactose intolerance, Lapp lactose deficiency, Glucose-galactose malabsorption)\n* Female patients who are pregnant or lactating\n* Patients who have an experience of participation in another clinical study within 12 weeks prior to Visit1(screening)\n* Patients who are otherwise considered to be ineligible for this study on investigators' judgment",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,6 +117,109 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with type 2 diabetes mellitus"
+   },
+   {
+    "text": "Patients upper 19 years old"
+   },
+   {
+    "text": "Patients who had taken Metformin(≥1000mg/day) more than 8 weeks and who have inadequate blood glucose control"
+   },
+   {
+    "text": "Patients who have signed an informed consent themselves after receiving explanation about the clinical study"
+   },
+   {
+    "text": "Patients who are applicable to one of the three in the following.",
+    "sub_items": [
+     "Surgically infertile patients",
+     "Postmenopausal female patients of ≥45 years of age for whom ≥2 years elapsed since their last menstruation",
+     "Premenopausal fertile female patients or surgically non-infertile male patients who have agreed to use at least 2 kinds of contraceptive measures (certainly including one of the barrier methods) to avoid pregnancy until 14 days after the last dose of the investigational product"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes mellitus, Diabetic ketoacidosis, Metabolic acidosis Diabetic coma, Diabetic pre-coma"
+   },
+   {
+    "text": "Patients with Gestational diabetes, or secondary diabetes"
+   },
+   {
+    "text": "Patients with NYHA Class II~IV congestive heart failure or arrhythmia requiring treatment"
+   },
+   {
+    "text": "Patients whose TSH level is out of the normal range and who have thyroidal dysfunction requiring drug therapy"
+   },
+   {
+    "text": "Patients with positive Serologic results of HBsAg, HCV Ab, HIV Ab test within 4 weeks prior to Visit 1 (Screening) or at Visit 1 (Screening)"
+   },
+   {
+    "text": "Patients with Body Mass Index(BMI) #40 kg/m2"
+   },
+   {
+    "text": "Patients who are receiving intravenous iodine contrast agents within 48 hours prior to Visit 1(Screening) or planned during the clinical trial period (eg, intravenous urography, venous cholangiography, angiography, computed tomography using contrast media, etc.)."
+   },
+   {
+    "text": "Patients with pulmonary embolism, severe pulmonary dysfunction, or who are susceptible to be accompanied by hypoxemia at the time of Visit 1(Screening)"
+   },
+   {
+    "text": "Patients on clinically significant dehydration, diarrhea, and vomiting at the time of Visit 1(Screening)"
+   },
+   {
+    "text": "Patients with pituitary insufficiency or adrenal insufficiency at the time of Visit 1(Screening)"
+   },
+   {
+    "text": "Patients with a history of alcoholism or drug addiction within 1 years prior to Visit 1(Screening)"
+   },
+   {
+    "text": "Patients with a history of malignant tumors within 5 years prior to Visit 1(Screening). However, patients with basal cell or squamous cell skin cancer, or in situ cervical cancer treated properly can participate in the study."
+   },
+   {
+    "text": "Patients with the outcomes of the laboratory tests performed at Visit"
+   },
+   {
+    "text": "1(Screening) applicable to the criteria below",
+    "sub_items": [
+     "Bilirubin >2 × upper limit of normal(ULN)",
+     "AST/ALT >3 × ULN"
+    ]
+   },
+   {
+    "text": "Patients with a history of hypersensitivity reactions to the drugs below",
+    "sub_items": [
+     "Dipeptidyl-peptidase4(DPP4) inhibitors",
+     "Sodium/glucose co transport-2(SGLT-2) inhibitor",
+     "Biguanides"
+    ]
+   },
+   {
+    "text": "Patients who were administered the drugs below"
+   },
+   {
+    "text": "Patients who had been administered anti-obesity drugs within 12 weeks prior to Visit 1(Screening)"
+   },
+   {
+    "text": "Patients who have undergone bariatric surgery within the 1 year prior to Visit 1 (Screening) or are scheduled during the trial"
+   },
+   {
+    "text": "Patients with a genetic problems such as Galactose intolerance, Lapp lactose deficiency, Glucose-galactose malabsorption)"
+   },
+   {
+    "text": "Female patients who are pregnant or lactating"
+   },
+   {
+    "text": "Patients who have an experience of participation in another clinical study within 12 weeks prior to Visit1(screening)"
+   },
+   {
+    "text": "Patients who are otherwise considered to be ineligible for this study on investigators' judgment"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

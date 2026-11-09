@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mackay Memorial Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mackay Memorial Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "SGLT2 inhibitor (Empagliflozin 25 MG)",
    "other_names": [
     "Jardiance"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DPP4 inhibitor (Linagliptin 5 MG)",
    "other_names": [
     "Trajenta"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "SGLT2 inhibitor (Empagliflozin 25 MG)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: SGLT2 inhibitor (Empagliflozin 25 MG)"
-   ]
+   ],
+   "label": "SGLT2 inhibitor (Empagliflozin 25 MG)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DPP4 inhibitor (Linagliptin 5 MG)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: DPP4 inhibitor (Linagliptin 5 MG)"
-   ]
+   ],
+   "label": "DPP4 inhibitor (Linagliptin 5 MG)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The population of type 2 diabetes increased enormously worldwide. As disease progression, uncontrolled type 2 diabetes patients need multiple daily insulin injections, but the risk of body weight gain and hypoglycemia will increase. In recent years, the newly oral anti-hypoglycemic agents developed, such as dipeptidyl peptidase-4 inhibitors (DPP4i) and sodium-glucose co-transporter 2 inhibitors (SGLT2i). The former indirectly stimulate insulin secretion and suppress glucagon through increase incretin. The later inhibit re-absorption of blood glucose in proximal renal tubule to improve hyperglycemia. According to the guideline published in 2017 by American diabetes Associations, if patients received premix insulin injections twice daily and their glycemic control can't meet the target, increase the frequency of injection such as basal bolus would be considered. However, it is difficult for some patients and it may cause more hypoglycemia and gain of body weight. Because previous report revealed dipeptidyl peptidase-4 inhibitors or sodium-glucose co-transporter 2 inhibitors added to insulin resulted in better glycemic control, but there was no direct comparison, so we design this study to observe the efficacy of these two drugs in uncontrolled diabetes patient received twice daily insulin injections.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes patient received premix insulin twice daily and HbA1c\\>7%\n* \\>20 years old\n\nExclusion Criteria:\n\n* Type 1 diabetes and gestational diabetes\n* Diabetic ketoacidosis in previous 6 months\n* Urinary tract infection in previous 6 months\n* Pancreatitis in previous 6 months\n* estimated GFR\\<45 mL/min/1.73m2\n* Patient whom already received DPP4 inhibitor or SGLT2 inhibitor",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Mackay Memorial Hospital",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": "RECRUITING",
+   "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Mackay Memorial Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03458715",
@@ -116,6 +116,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes patient received premix insulin twice daily and HbA1c>7%"
+   },
+   {
+    "text": ">20 years old"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes and gestational diabetes"
+   },
+   {
+    "text": "Diabetic ketoacidosis in previous 6 months"
+   },
+   {
+    "text": "Urinary tract infection in previous 6 months"
+   },
+   {
+    "text": "Pancreatitis in previous 6 months"
+   },
+   {
+    "text": "estimated GFR<45 mL/min/1.73m2"
+   },
+   {
+    "text": "Patient whom already received DPP4 inhibitor or SGLT2 inhibitor"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

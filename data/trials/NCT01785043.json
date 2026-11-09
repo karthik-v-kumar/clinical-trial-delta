@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Anna Cruceta",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Anna Cruceta"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Victoza®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide"
-   ]
+   ],
+   "label": "Liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "Differences in endothelial function amongst Sitagliptin and Liraglutide Users. A randomized, open-label, parallel-group and active controlled trial",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Informed consent obtained before any trial-related activities. (Trial-related activities are any procedure that would not have been performed during normal management of the subject.)\n2. Male or female patients between 45 and 65 years old\n3. Pre-existing type 2 diabetes with HbA1c between 7.0 and 9.5%\n4. Triglycerides \\>1.68 mmol/L\n5. HDL cholesterol \\<1.29 mmol/L in women and \\<1.04 mmol/L in men\n6. Systolic blood pressure (SBP) \\<130 mmHg and diastolic blood pressure (DBP) \\<85 mmHg or treatment with antihypertensive agents\n\nExclusion Criteria:\n\n1. Known or suspected hypersensitivity to trial product(s) or related products\n2. Previous participation in this trial. Participation is defined as being randomised.\n3. Females of childbearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive, or males who are sexually active and not surgically sterilised, who or whose partner are not using adequate contraception\n4. Moderate or severe renal dysfunction (creatinine clearance \\<60 ml/min)\n5. Previous type 2 diabetes treatment apart from metformin or insulin\n6. Current smoker or history of smoking within 6 months prior to screening.\n7. Evidence of overt cardiovascular disease, (documented coronary heart disease, class II-IV congestive heart failure, cerebrovascular disease, or peripheral vascular disease).\n8. Caffeine intake within 24 hours of endothelial function measurements.\n9. Use of any drug with known clinically significant sympathetic or parasympathetic effects, as determined by the Investigator.\n10. Initiation or change (dose or treatment regimen) in concomitant blood pressure-lowering medication within 4 weeks prior to screening and throughout the day.\n11. The receipt of any investigational medicinal product within 6 months prior to screening.\n12. Presence of cancer or other significant medical condition\n13. Inability to follow verbal or written instructions",
-  "sex": "ALL",
-  "minimum_age": "45 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "45 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital Clínic de Barcelona",
    "city": "Barcelona",
-   "state": "Barcelona",
    "country": "Spain",
-   "status": null,
+   "facility": "Hospital Clínic de Barcelona",
    "lat": 41.38879,
-   "lon": 2.15899
+   "lon": 2.15899,
+   "state": "Barcelona",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01785043",
@@ -116,6 +116,71 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Informed consent obtained before any trial-related activities. (Trial-related activities are any procedure that would not have been performed during normal management of the subject.)"
+   },
+   {
+    "text": "Male or female patients between 45 and 65 years old"
+   },
+   {
+    "text": "Pre-existing type 2 diabetes with HbA1c between 7.0 and 9.5%"
+   },
+   {
+    "text": "Triglycerides >1.68 mmol/L"
+   },
+   {
+    "text": "HDL cholesterol <1.29 mmol/L in women and <1.04 mmol/L in men"
+   },
+   {
+    "text": "Systolic blood pressure (SBP) <130 mmHg and diastolic blood pressure (DBP) <85 mmHg or treatment with antihypertensive agents"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known or suspected hypersensitivity to trial product(s) or related products"
+   },
+   {
+    "text": "Previous participation in this trial. Participation is defined as being randomised."
+   },
+   {
+    "text": "Females of childbearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive, or males who are sexually active and not surgically sterilised, who or whose partner are not using adequate contraception"
+   },
+   {
+    "text": "Moderate or severe renal dysfunction (creatinine clearance <60 ml/min)"
+   },
+   {
+    "text": "Previous type 2 diabetes treatment apart from metformin or insulin"
+   },
+   {
+    "text": "Current smoker or history of smoking within 6 months prior to screening."
+   },
+   {
+    "text": "Evidence of overt cardiovascular disease, (documented coronary heart disease, class II-IV congestive heart failure, cerebrovascular disease, or peripheral vascular disease)."
+   },
+   {
+    "text": "Caffeine intake within 24 hours of endothelial function measurements."
+   },
+   {
+    "text": "Use of any drug with known clinically significant sympathetic or parasympathetic effects, as determined by the Investigator."
+   },
+   {
+    "text": "Initiation or change (dose or treatment regimen) in concomitant blood pressure-lowering medication within 4 weeks prior to screening and throughout the day."
+   },
+   {
+    "text": "The receipt of any investigational medicinal product within 6 months prior to screening."
+   },
+   {
+    "text": "Presence of cancer or other significant medical condition"
+   },
+   {
+    "text": "Inability to follow verbal or written instructions"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

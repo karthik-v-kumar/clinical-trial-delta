@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "IlDong Pharmaceutical Co Ltd",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "IlDong Pharmaceutical Co Ltd"
  },
  "collaborators": [],
  "conditions": [
@@ -51,90 +51,90 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Telmisartan 80mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin 20mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin 10mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo(for Telmisartan 80mg)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo(for Rosuvastatin 20mg)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo(for Rosuvastatin 10mg)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Telmisartan 80mg",
+    "Drug: Rosuvastatin 20mg",
+    "Drug: Placebo(for Rosuvastatin 10mg)"
+   ],
    "label": "Telmisartan 80mg & Rosuvastatin 20mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Telmisartan 80mg",
-    "Drug: Rosuvastatin 20mg",
-    "Drug: Placebo(for Rosuvastatin 10mg)"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Telmisartan 80mg",
+    "Drug: Rosuvastatin 10mg",
+    "Drug: Placebo(for Rosuvastatin 20mg)"
+   ],
    "label": "Telmisartan 80mg & Rosuvastatin 10mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Telmisartan 80mg",
-    "Drug: Rosuvastatin 10mg",
-    "Drug: Placebo(for Rosuvastatin 20mg)"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Telmisartan placebo & Rosuvastatin 20mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin 20mg",
     "Drug: Placebo(for Telmisartan 80mg)",
     "Drug: Placebo(for Rosuvastatin 10mg)"
-   ]
+   ],
+   "label": "Telmisartan placebo & Rosuvastatin 20mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Telmisartan Placebo & Rosuvastatin 10mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin 10mg",
     "Drug: Placebo(for Telmisartan 80mg)",
     "Drug: Placebo(for Rosuvastatin 20mg)"
-   ]
+   ],
+   "label": "Telmisartan Placebo & Rosuvastatin 10mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Telmisartan 80mg & Rosuvastatin placebo",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Telmisartan 80mg",
     "Drug: Placebo(for Telmisartan 80mg)",
     "Drug: Placebo(for Rosuvastatin 20mg)"
-   ]
+   ],
+   "label": "Telmisartan 80mg & Rosuvastatin placebo",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Telmisartan placebo & Rosuvastatin placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo(for Telmisartan 80mg)",
     "Drug: Placebo(for Rosuvastatin 20mg)",
     "Drug: Placebo(for Rosuvastatin 10mg)"
-   ]
+   ],
+   "label": "Telmisartan placebo & Rosuvastatin placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -150,10 +150,10 @@
  "brief_summary": "To identify efficacy and safety of Telmisartan/Rosuvastatin co-administration in hyperlipidemia control in hypertensive patients with hyperlipidemia compared to each monotherapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed Informed Consent\n* Men and women \\>18 years of age\n* Subject who has one of 3 conditions classifed by Cardiovascular Risk Factors, 10-Year Risk, Blood Pressure, LDL-C, Coronary Artery Disease and Equivalent\n\nExclusion Criteria:\n\n* Female who are pregnant, breastfeeding, or of childbearing potential, unwilling to practice adequate contraception throughout the study,.\n* Other exclusions applied",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -161,13 +161,13 @@
  },
  "sites": [
   {
-   "facility": "The Catholic University of Saint Mary's Hosiptal",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "The Catholic University of Saint Mary's Hosiptal",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02087540",
@@ -179,6 +179,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed Informed Consent"
+   },
+   {
+    "text": "Men and women >18 years of age"
+   },
+   {
+    "text": "Subject who has one of 3 conditions classifed by Cardiovascular Risk Factors, 10-Year Risk, Blood Pressure, LDL-C, Coronary Artery Disease and Equivalent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Female who are pregnant, breastfeeding, or of childbearing potential, unwilling to practice adequate contraception throughout the study,."
+   },
+   {
+    "text": "Other exclusions applied"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

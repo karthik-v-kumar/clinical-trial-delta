@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "The University of Western Australia",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The University of Western Australia"
  },
  "collaborators": [
   "National Health and Medical Research Council, Australia"
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Fish oil capsule",
    "other_names": [
     "Omacor"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DRUG",
    "name": "HMG Coenzyme reductase",
    "other_names": [
     "Statin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Fish oil",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Fish oil capsule"
-   ]
+   ],
+   "label": "Fish oil",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: HMG Coenzyme reductase"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The purpose of this study is to determine whether fish oil supplementation is effective in the treatment of abnormal fat metabolism in subjects with elevated cholesterolaemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with FH (genetically defined LDL-receptor mutation or Dutch score \\>8) on statin treatment only\n* Hypertriglyceridaemia on a random blood sample (triglycerides \\>1.5mml/L)\n\nExclusion Criteria:\n\n* Subjects with diabetes mellitus\n* major systemic illness or use of steroids or other lipid-regulating drugs (such as niacin, fibrate and colesevelam)\n* patients on hypocaloric diets or LDL apheresis; anaemia, haemorrhage and pregnancy.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "School of Medicine & Pharmacology,University of Western Australia",
    "city": "Perth",
-   "state": "Western Australia",
    "country": "Australia",
-   "status": null,
+   "facility": "School of Medicine & Pharmacology,University of Western Australia",
    "lat": -31.95224,
-   "lon": 115.8614
+   "lon": 115.8614,
+   "state": "Western Australia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01577056",
@@ -121,6 +121,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with FH (genetically defined LDL-receptor mutation or Dutch score >8) on statin treatment only"
+   },
+   {
+    "text": "Hypertriglyceridaemia on a random blood sample (triglycerides >1.5mml/L)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with diabetes mellitus"
+   },
+   {
+    "text": "major systemic illness or use of steroids or other lipid-regulating drugs (such as niacin, fibrate and colesevelam)"
+   },
+   {
+    "text": "patients on hypocaloric diets or LDL apheresis; anaemia, haemorrhage and pregnancy."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Bologna",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Bologna"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Coenzyme Q10",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Coenzyme Q10",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Coenzyme Q10"
-   ]
+   ],
+   "label": "Coenzyme Q10",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,23 +89,23 @@
  "brief_summary": "This was a double-blind, randomized, placebo-controlled clinical study aiming to assess the effects of supplementation with CoQ10 phytosome on physical performance in older adults with self-reported statin-associated asthenia.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* 65-80 years of age\n* treatment for \\>6 months with statin monotherapy (i.e. enrolled individuals were asked to be on the same statin at the same dosage for \\>6 months)\n* statin-associated asthenia for \\>3 months\n\nExclusion criteria:\n\n* serious or disabling diseases (e.g. severe organ failure, malignancy or dementia)\n* orthopedic disorders, myopathies and any other acute or chronic disease that could significantly affect the individual's perception of asthenia\n* obesity (body mass index (BMI)\\> 30 Kg/m2)\n* known gastrointestinal disorders potentially affecting the absorption of CoQ10",
-  "sex": "ALL",
-  "minimum_age": "65 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "65 Years",
+  "sex": "ALL",
   "std_ages": [
    "OLDER_ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "University of Bologna",
    "city": "Bologna",
-   "state": "BO",
    "country": "Italy",
-   "status": null,
+   "facility": "University of Bologna",
    "lat": 44.49381,
-   "lon": 11.33875
+   "lon": 11.33875,
+   "state": "BO",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06391606",
@@ -117,6 +117,35 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "65-80 years of age"
+   },
+   {
+    "text": "treatment for >6 months with statin monotherapy (i.e. enrolled individuals were asked to be on the same statin at the same dosage for >6 months)"
+   },
+   {
+    "text": "statin-associated asthenia for >3 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "serious or disabling diseases (e.g. severe organ failure, malignancy or dementia)"
+   },
+   {
+    "text": "orthopedic disorders, myopathies and any other acute or chronic disease that could significantly affect the individual's perception of asthenia"
+   },
+   {
+    "text": "obesity (body mass index (BMI)> 30 Kg/m2)"
+   },
+   {
+    "text": "known gastrointestinal disorders potentially affecting the absorption of CoQ10"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

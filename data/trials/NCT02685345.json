@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Daiichi Sankyo Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Daiichi Sankyo Co., Ltd."
  },
  "collaborators": [
   "Mediscience Planning, Inc."
@@ -55,42 +55,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "DS-8500a 25 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DS-8500a 75 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "DS-8500a 25 mg QD",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: DS-8500a 25 mg"
-   ]
+   ],
+   "label": "DS-8500a 25 mg QD",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DS-8500a 75 mg QD",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: DS-8500a 75 mg"
-   ]
+   ],
+   "label": "DS-8500a 75 mg QD",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "The objectives of the study is to evaluate the efficacy and safety of DS-8500a compared with placebo in patients with type 2 diabetes mellitus (T2DM) receiving sitagliptin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Japanese patients with type 2 diabetes\n* Patients aged ≥ 20 years at the time of informed consent\n* Patients who have been treated with sitagliptin 50 mg monotherapy for the treatment of type 2 diabetes mellitus\n* Patients who have HbA1c ≥ 7.0% and \\< 9.0%\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes mellitus or with a history of diabetic coma, precoma, or ketoacidosis\n* Patients receiving or requiring treatment with insulin\n* Patients with a body mass index (BMI) of \\< 18.5 kg/m2 or ≥ 35.0 kg/m2\n* Patients with clinically evident renal impairment (estimated glomerular filtration rate \\[eGFR\\] of \\< 45 mL/min per 1.73 m2) or clinically significant renal disease\n* Patients with fasting plasma glucose ≥ 240 mg/dL",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Yodogawaku",
-   "state": "Osaka",
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Osaka",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02685345",
@@ -131,6 +131,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Japanese patients with type 2 diabetes"
+   },
+   {
+    "text": "Patients aged ≥ 20 years at the time of informed consent"
+   },
+   {
+    "text": "Patients who have been treated with sitagliptin 50 mg monotherapy for the treatment of type 2 diabetes mellitus"
+   },
+   {
+    "text": "Patients who have HbA1c ≥ 7.0% and < 9.0%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes mellitus or with a history of diabetic coma, precoma, or ketoacidosis"
+   },
+   {
+    "text": "Patients receiving or requiring treatment with insulin"
+   },
+   {
+    "text": "Patients with a body mass index (BMI) of < 18.5 kg/m2 or ≥ 35.0 kg/m2"
+   },
+   {
+    "text": "Patients with clinically evident renal impairment (estimated glomerular filtration rate [eGFR] of < 45 mL/min per 1.73 m2) or clinically significant renal disease"
+   },
+   {
+    "text": "Patients with fasting plasma glucose ≥ 240 mg/dL"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

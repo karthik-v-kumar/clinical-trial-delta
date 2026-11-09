@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Essentialis, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Essentialis, Inc."
  },
  "collaborators": [
   "Medpace, Inc."
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Diazoxide Choline Controlled-Release Tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "DCCR",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Diazoxide Choline Controlled-Release Tablet"
-   ]
+   ],
+   "label": "DCCR",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Once a day oral administration with DCCR helps lower triglycerides",
  "eligibility": {
   "criteria": "INCLUSION CRITERIA:\n\nFasting triglycerides\n\n* Difference between Visit 3 (7 days prior to Baseline Visit) and Visit 4 (3 days prior to Baseline Visit) ≤ 60% (compared to the higher value of Visit 3 or Visit 4)\n* Run-in Triglycerides\\* ≥ 500 mg/dL and \\< 1500 mg/dL \\*Run-in Triglyceride is defined as the average fasting triglycerides for Visit 3 (7 days prior to Baseline Visit) and Visit 4 (3 days prior to Baseline Visit).\n\nStatin use • Either Statin-naive\n\n* Must not be on statin at Screening and remaining as such during the Run-in/Washout Period and throughout the study\n\n  • Or Statin-treated\n* Must be on Lipitor 20 mg initiated at the start of the Run-in/Washout Period and continue throughout the study\n\nMedication washout\n\n* All subjects must be willing to undergo washout of all other lipid-lowering medications\n\nGlycemic status\n\n* Fasting glucose \\< 126 mg/dL at Screening Visit\n* HbA1c \\< 6.5% at Screening Visit\n\nEXCLUSION CRITERIA:\n\nMedications: recent, current, anticipated\n\n* Administration of investigational drugs within 1 month prior to Screening Visit\n* Thyroid hormones or preparations within 1 month prior to Screening Visit (except in subjects on stable dose of replacement therapy for at least 1 month)\n* Thiazide diuretics within 2 weeks prior to Screening Visit\n* Discontinuation of beta-blockers within 1 month prior to Screening Visit or planned discontinuation of beta-blocker therapy\n* Anticipated requirement for use of prohibited concomitant medications\n\nHistory of allergic reaction or significant intolerance to:\n\n* Diazoxide\n* Thiazides\n* Sulfonamides\n* Fenofibrate or fenofibric acid derivatives\n\nLifestyle changes\n\n• Subjects intending to change exercise habits, quit smoking and/or quit alcohol use during the entire study\n\nSpecific diagnoses, medical conditions and history\n\n* Known type I or III hyperlipidemia\n* Known type 1 DM\n* Current diagnosis of type 2 DM\n* Any other clinically significant endocrine, cardiovascular, pulmonary, neurological, psychiatric, hepatic, gastrointestinal, hematological, renal, or dermatological disease interfering with the assessments of the study medications, according to the Investigator\n\nSpecific laboratory test results\n\n• Any relevant biochemical abnormality interfering with the assessments of the study medications",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,6 +109,120 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Fasting triglycerides"
+   },
+   {
+    "text": "Difference between Visit 3 (7 days prior to Baseline Visit) and Visit 4 (3 days prior to Baseline Visit) ≤ 60% (compared to the higher value of Visit 3 or Visit 4)"
+   },
+   {
+    "text": "Run-in Triglycerides* ≥ 500 mg/dL and < 1500 mg/dL *Run-in Triglyceride is defined as the average fasting triglycerides for Visit 3 (7 days prior to Baseline Visit) and Visit 4 (3 days prior to Baseline Visit)."
+   },
+   {
+    "text": "Statin use • Either Statin-naive"
+   },
+   {
+    "text": "Must not be on statin at Screening and remaining as such during the Run-in/Washout Period and throughout the study",
+    "sub_items": [
+     "Or Statin-treated"
+    ]
+   },
+   {
+    "text": "Must be on Lipitor 20 mg initiated at the start of the Run-in/Washout Period and continue throughout the study"
+   },
+   {
+    "text": "Medication washout"
+   },
+   {
+    "text": "All subjects must be willing to undergo washout of all other lipid-lowering medications"
+   },
+   {
+    "text": "Glycemic status"
+   },
+   {
+    "text": "Fasting glucose < 126 mg/dL at Screening Visit"
+   },
+   {
+    "text": "HbA1c < 6.5% at Screening Visit"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Medications: recent, current, anticipated"
+   },
+   {
+    "text": "Administration of investigational drugs within 1 month prior to Screening Visit"
+   },
+   {
+    "text": "Thyroid hormones or preparations within 1 month prior to Screening Visit (except in subjects on stable dose of replacement therapy for at least 1 month)"
+   },
+   {
+    "text": "Thiazide diuretics within 2 weeks prior to Screening Visit"
+   },
+   {
+    "text": "Discontinuation of beta-blockers within 1 month prior to Screening Visit or planned discontinuation of beta-blocker therapy"
+   },
+   {
+    "text": "Anticipated requirement for use of prohibited concomitant medications"
+   },
+   {
+    "text": "Diazoxide",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Thiazides",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Sulfonamides",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Fenofibrate or fenofibric acid derivatives",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Lifestyle changes",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Subjects intending to change exercise habits, quit smoking and/or quit alcohol use during the entire study",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Specific diagnoses, medical conditions and history",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Known type I or III hyperlipidemia",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Known type 1 DM",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Current diagnosis of type 2 DM",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Any other clinically significant endocrine, cardiovascular, pulmonary, neurological, psychiatric, hepatic, gastrointestinal, hematological, renal, or dermatological disease interfering with the assessments of the study medications, according to the Investigator",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Specific laboratory test results",
+    "group": "History of allergic reaction or significant intolerance to"
+   },
+   {
+    "text": "Any relevant biochemical abnormality interfering with the assessments of the study medications",
+    "group": "History of allergic reaction or significant intolerance to"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

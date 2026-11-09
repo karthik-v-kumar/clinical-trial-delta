@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Catabasis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Catabasis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -55,54 +55,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "CAT-2003",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Statin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: CAT-2003",
+    "Drug: Placebo"
+   ],
    "label": "CAT-2003 or Placebo Dose 1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: CAT-2003",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "CAT-2003 or Placebo Dose 2",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: CAT-2003",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "CAT-2003 or Placebo Dose 3",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: CAT-2003",
-    "Drug: Placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "CAT-2003 or Placebo Dose 4",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: CAT-2003",
     "Drug: Placebo",
     "Drug: Statin"
-   ]
+   ],
+   "label": "CAT-2003 or Placebo Dose 4",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "The purpose of this study is to determine the safety and efficacy of different doses of CAT-2003 in patients with hyperlipidemia when CAT-2003 is taken for 4 weeks. The study will evaluate effects of CAT-2003 on (1) fasting triglycerides and non-HDL-C in patients with moderate hypertriglyceridemia and (2) fasting LDL-C levels in combination with a statin in patients with hypercholesterolemia who are on a statin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Between 18 and 69 years at Screening\n* Hypertriglyceridemia (TG ≥ 200 mg/dL and \\< 500 mg/dL and non-HDL-C ≥ 100 mg/dL and \\< 220 mg/dL) OR\n* Hypercholesterolemia (LDL-C ≥ 100 mg/dL and \\< 190 mg/dL and TG value \\< 200 mg/dL) plus a stable dose of statin for at least 4 weeks prior to Screening.\n* Body mass index (BMI) ≤ 45 kg/m2\n\nExclusion Criteria:\n\n* History of any major cardiovascular event within 6 months of Screening\n* Type I diabetes mellitus\n* Any condition that may predispose the patient to secondary hyperlipidemia, such as uncontrolled hypothyroidism\n* Any statin at the highest approved dose\n* Non-statin lipid-altering drugs other than cholesterol absorption inhibitors.\n* Active peptic ulcer disease or a history of muscle disease or myopathy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "69 Years",
   "healthy_volunteers": false,
+  "maximum_age": "69 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,130 +129,130 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Sainte-Foy",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": null,
    "lat": 46.78139,
-   "lon": -71.29217
+   "lon": -71.29217,
+   "state": "Quebec",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Muscle Shoals",
-   "state": "Alabama",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 34.74481,
-   "lon": -87.66753
+   "lon": -87.66753,
+   "state": "Alabama",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Jacksonville",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 30.33218,
-   "lon": -81.65565
+   "lon": -81.65565,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Miami",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 25.77427,
-   "lon": -80.19366
-  },
-  {
-   "facility": null,
-   "city": "Winter Park",
+   "lon": -80.19366,
    "state": "Florida",
+   "status": null
+  },
+  {
+   "city": "Winter Park",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 28.6,
-   "lon": -81.33924
+   "lon": -81.33924,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Kansas City",
-   "state": "Kansas",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 39.11417,
-   "lon": -94.62746
+   "lon": -94.62746,
+   "state": "Kansas",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Louisville",
-   "state": "Kentucky",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 38.25424,
-   "lon": -85.75941
+   "lon": -85.75941,
+   "state": "Kentucky",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Auburn",
-   "state": "Maine",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 44.09785,
-   "lon": -70.23117
+   "lon": -70.23117,
+   "state": "Maine",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Raleigh",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 35.7721,
-   "lon": -78.63861
+   "lon": -78.63861,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Raleigh",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 35.7721,
-   "lon": -78.63861
+   "lon": -78.63861,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Cincinnati",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 39.12711,
-   "lon": -84.51439
+   "lon": -84.51439,
+   "state": "Ohio",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Cincinnati",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 39.12711,
-   "lon": -84.51439
+   "lon": -84.51439,
+   "state": "Ohio",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Cincinnati",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 39.12711,
-   "lon": -84.51439
+   "lon": -84.51439,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01912560",
@@ -264,6 +264,44 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Between 18 and 69 years at Screening"
+   },
+   {
+    "text": "Hypertriglyceridemia (TG ≥ 200 mg/dL and < 500 mg/dL and non-HDL-C ≥ 100 mg/dL and < 220 mg/dL) OR"
+   },
+   {
+    "text": "Hypercholesterolemia (LDL-C ≥ 100 mg/dL and < 190 mg/dL and TG value < 200 mg/dL) plus a stable dose of statin for at least 4 weeks prior to Screening."
+   },
+   {
+    "text": "Body mass index (BMI) ≤ 45 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of any major cardiovascular event within 6 months of Screening"
+   },
+   {
+    "text": "Type I diabetes mellitus"
+   },
+   {
+    "text": "Any condition that may predispose the patient to secondary hyperlipidemia, such as uncontrolled hypothyroidism"
+   },
+   {
+    "text": "Any statin at the highest approved dose"
+   },
+   {
+    "text": "Non-statin lipid-altering drugs other than cholesterol absorption inhibitors."
+   },
+   {
+    "text": "Active peptic ulcer disease or a history of muscle disease or myopathy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -15,8 +15,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Signe Schmidt",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Signe Schmidt"
  },
  "collaborators": [
   "Technical University of Denmark",
@@ -52,18 +52,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Starter Kit Algorithm",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "The Starter Kit Algorithm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Starter Kit Algorithm"
-   ]
+   ],
+   "label": "The Starter Kit Algorithm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "The concept consists of an initial period (two weeks) of intensive data capture by use of continuous glucose monitoring (CGM) during basal insulin initiation, followed by a second period (variable duration) of basal insulin titration guided by self monitored blood glucose. Data captured during the first period are used as input to an algorithm that estimates the optimal daily dose for the individual patient. The estimated optimal daily dose is used to guide the titration of the basal insulin during the second period. The goal is to safely and successfully achieve blood glucose targets. The concept is based on the use of basal insulin degludec (Tresiba, Novo Nordisk A/S).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Age 18-75 years\n* HbA1c 53-86 mmol/mol (7.0-10.0%)\n* BMI 20-40 kg/m2\n* Insulin-naïve\n* Willingness to use CGM consistently during the study period and send/receive data and dose advice to/from HCP via a mobile phone\n* Signed informed consent prior to any study procedures\n\nExclusion Criteria:\n\n* Females of childbearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive methods\n* Active proliferative retinopathy\n* Mean blood glucose \\> 15 mmol/l the week prior to screening\n* Blood glucose \\> 20 mmol/l on the screening day\n* Non-fasting ketones \\> 0,5 mmol/l on the screening day\n* Use of sulfonylurea within 14 days prior to or during the study period\n* Change in other antidiabetic medicine than basal insulin during the study period\n* Use of corticosteroids within 30 days prior to or during the study period\n* Marked change in lifestyle within 30 days prior to or during the study period as assessed by the investigator\n* People with type 2 diabetes that suffer from conditions which make tight diabetes control undesirable, e.g. severe cardiovascular disease, according to the investigator\n* Other concomitant medical or psychological condition that according to the investigator's assessment makes the patient unsuitable for study participation\n* Overall treatment",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "facility": "Hvidovre University Hospital",
    "city": "Hvidovre",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Hvidovre University Hospital",
    "lat": 55.64297,
-   "lon": 12.47708
+   "lon": 12.47708,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03365180",
@@ -111,6 +111,71 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Age 18-75 years"
+   },
+   {
+    "text": "HbA1c 53-86 mmol/mol (7.0-10.0%)"
+   },
+   {
+    "text": "BMI 20-40 kg/m2"
+   },
+   {
+    "text": "Insulin-naïve"
+   },
+   {
+    "text": "Willingness to use CGM consistently during the study period and send/receive data and dose advice to/from HCP via a mobile phone"
+   },
+   {
+    "text": "Signed informed consent prior to any study procedures"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Females of childbearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive methods"
+   },
+   {
+    "text": "Active proliferative retinopathy"
+   },
+   {
+    "text": "Mean blood glucose > 15 mmol/l the week prior to screening"
+   },
+   {
+    "text": "Blood glucose > 20 mmol/l on the screening day"
+   },
+   {
+    "text": "Non-fasting ketones > 0,5 mmol/l on the screening day"
+   },
+   {
+    "text": "Use of sulfonylurea within 14 days prior to or during the study period"
+   },
+   {
+    "text": "Change in other antidiabetic medicine than basal insulin during the study period"
+   },
+   {
+    "text": "Use of corticosteroids within 30 days prior to or during the study period"
+   },
+   {
+    "text": "Marked change in lifestyle within 30 days prior to or during the study period as assessed by the investigator"
+   },
+   {
+    "text": "People with type 2 diabetes that suffer from conditions which make tight diabetes control undesirable, e.g. severe cardiovascular disease, according to the investigator"
+   },
+   {
+    "text": "Other concomitant medical or psychological condition that according to the investigator's assessment makes the patient unsuitable for study participation"
+   },
+   {
+    "text": "Overall treatment"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

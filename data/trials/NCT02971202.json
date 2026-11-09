@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2019-08-01",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Vanderbilt University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Vanderbilt University"
  },
  "collaborators": [],
  "conditions": [
@@ -51,43 +51,43 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Hyperinsulinemic, euglycemic clamp",
    "other_names": [
     "glucose clamp",
     "pancreatic clamp"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "20% dextrose",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Hyperinsulinemic, euglycemic clamp",
+    "Drug: 20% dextrose"
+   ],
    "label": "Hyperinsulinemic, euglycemic clamp: T1DM",
-   "type": "OTHER",
+   "type": "OTHER"
+  },
+  {
    "intervention_names": [
     "Drug: Hyperinsulinemic, euglycemic clamp",
     "Drug: 20% dextrose"
-   ]
-  },
-  {
+   ],
    "label": "Hyperinsulinemic, euglycemic clamp:MODY2",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: Hyperinsulinemic, euglycemic clamp",
-    "Drug: 20% dextrose"
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "Hyperinsulinemic euglycemic clamp:Control",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Hyperinsulinemic, euglycemic clamp",
     "Drug: 20% dextrose"
-   ]
+   ],
+   "label": "Hyperinsulinemic euglycemic clamp:Control",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The purpose of this study is to determine the key factors influencing insulin sensitivity in type 1 diabetes (T1DM) and maturity onset diabetes of the young, type 2 (MODY2).\n\nOur study tests the hypothesis that decreased insulin sensitivity is primarily driven by chronically elevated insulin levels in the blood rather than chronic elevations in blood sugar.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nInclusion criteria for all subjects:\n\n\\- BMI 19-28 kg/m\\^2\n\nAdditional inclusion criteria for T1DM subjects:\n\n* Age 13-51\n* T1DM duration 1-20 years\n* HbA1c 5.9-8.0%\n\nAdditional inclusion criteria for MODY2 subjects:\n\n* age 13-51\n* positive GCK genetic sequencing\n* HbA1c 5.9-8.0%\n\nAdditional inclusion criteria for control subjects:\n\n* age 18-5.1\n* HbA1c \\< 5.5%\n\nExclusion Criteria:\n\nExclusion criteria for all subjects:\n\n* severe hypoglycemia (\\>= 1 episode in the past 3 months or diagnosis of hypoglycemia unawareness)\n* diabetes comorbidities (\\>= 1 trip to emergency department for poor glucose control in the past 6 months, New York Heart Association Class II-IV cardiac functional status, systolic blood pressure \\> 140 and diastolic blood pressure \\> 100 mmHg, fasting triglycerides \\> 400 mg/dL, liver transaminases \\> 2 times the upper limit of normal, renal transplantation or serum creatinine \\> 1.5 mg/dL)\n* confounding medications (any systemic glucocorticoid, any antipsychotic, atenolol, metoprolol, propranolol, niacin, any thiazide diuretic, any oral contraceptive pill with \\> 35 mcg ethinyl estradiol, growth hormone, any immunosuppressant, any anti-hypertensive, any-antilipidemic)\n* pregnancy\n* Tanner stage \\< 5\n\nAdditional exclusion criteria for T1DM subjects\n\n* any diabetes medication except insulin\n* fasting c-peptide \\> 0.7 ng/mL",
-  "sex": "ALL",
-  "minimum_age": "13 Years",
-  "maximum_age": "51 Years",
   "healthy_volunteers": true,
+  "maximum_age": "51 Years",
+  "minimum_age": "13 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "Vanderbilt University Medical Center",
    "city": "Nashville",
-   "state": "Tennessee",
    "country": "United States",
-   "status": null,
+   "facility": "Vanderbilt University Medical Center",
    "lat": 36.16589,
-   "lon": -86.78444
+   "lon": -86.78444,
+   "state": "Tennessee",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02971202",
@@ -128,6 +128,78 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI 19-28 kg/m^2",
+    "group": "for all subjects"
+   },
+   {
+    "text": "Age 13-51",
+    "group": "for T1DM subjects"
+   },
+   {
+    "text": "T1DM duration 1-20 years",
+    "group": "for T1DM subjects"
+   },
+   {
+    "text": "HbA1c 5.9-8.0%",
+    "group": "for T1DM subjects"
+   },
+   {
+    "text": "age 13-51",
+    "group": "for MODY2 subjects"
+   },
+   {
+    "text": "positive GCK genetic sequencing",
+    "group": "for MODY2 subjects"
+   },
+   {
+    "text": "HbA1c 5.9-8.0%",
+    "group": "for MODY2 subjects"
+   },
+   {
+    "text": "age 18-5.1",
+    "group": "for control subjects"
+   },
+   {
+    "text": "HbA1c < 5.5%",
+    "group": "for control subjects"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "severe hypoglycemia (>= 1 episode in the past 3 months or diagnosis of hypoglycemia unawareness)",
+    "group": "for all subjects"
+   },
+   {
+    "text": "diabetes comorbidities (>= 1 trip to emergency department for poor glucose control in the past 6 months, New York Heart Association Class II-IV cardiac functional status, systolic blood pressure > 140 and diastolic blood pressure > 100 mmHg, fasting triglycerides > 400 mg/dL, liver transaminases > 2 times the upper limit of normal, renal transplantation or serum creatinine > 1.5 mg/dL)",
+    "group": "for all subjects"
+   },
+   {
+    "text": "confounding medications (any systemic glucocorticoid, any antipsychotic, atenolol, metoprolol, propranolol, niacin, any thiazide diuretic, any oral contraceptive pill with > 35 mcg ethinyl estradiol, growth hormone, any immunosuppressant, any anti-hypertensive, any-antilipidemic)",
+    "group": "for all subjects"
+   },
+   {
+    "text": "pregnancy",
+    "group": "for all subjects"
+   },
+   {
+    "text": "Tanner stage < 5",
+    "group": "for all subjects"
+   },
+   {
+    "text": "any diabetes medication except insulin",
+    "group": "for T1DM subjects"
+   },
+   {
+    "text": "fasting c-peptide > 0.7 ng/mL",
+    "group": "for T1DM subjects"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

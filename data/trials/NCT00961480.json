@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -48,100 +48,100 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin phosphate (+) metformin hydrochloride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: metformin 500mg",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: FMI sitagliptin / metformin 50 mg/500 mg FDC tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: FMI sitagliptin/metformin 50 mg/1000 mg FDC tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: FMI sitagliptin/metformin 50 mg/850 mg FDC tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: metformin 1000 mg",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: metformin 850 mg",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Treatment A",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: sitagliptin phosphate (+) metformin hydrochloride",
     "Drug: Comparator: metformin 500mg",
     "Drug: Comparator: sitagliptin"
-   ]
+   ],
+   "label": "Treatment A",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Treatment B",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: FMI sitagliptin / metformin 50 mg/500 mg FDC tablet"
-   ]
+   ],
+   "label": "Treatment B",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Treatment C",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: sitagliptin",
     "Drug: Comparator: metformin 1000 mg"
-   ]
+   ],
+   "label": "Treatment C",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Treatment D",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: FMI sitagliptin/metformin 50 mg/1000 mg FDC tablet"
-   ]
+   ],
+   "label": "Treatment D",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Treatment E",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: sitagliptin",
     "Drug: Comparator: metformin 850 mg"
-   ]
+   ],
+   "label": "Treatment E",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Treatment F",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: FMI sitagliptin/metformin 50 mg/850 mg FDC tablet"
-   ]
+   ],
+   "label": "Treatment F",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -153,10 +153,10 @@
  "brief_summary": "A three part study to demonstrate the bioequivalence of a single dose of the Final Market Image (FMI) of sitagliptin/metformin 50/500, 50/850 and 50/1000 mg Fixed-Dose Combination (FDC) tablet and co-administration of corresponding doses of sitagliptin and metformin as individual tablets. Subject will only participate in one part, receiving treatment A and B (Part I), Treatment C and D (Part II) or Treatment E and F (Part III).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Female subjects of reproductive potential test negative for pregnancy and agree to use appropriate contraception\n* Subject is in good health and is a non-smoker\n\nExclusion Criteria:\n\n* Subject has a history of neoplastic disease (cancer), stroke, chronic seizures, or major neurological disorder\n* Subject has a history of clinically significant endocrine, gastrointestinal, cardiovascular, hematological, hepatic, immunological, renal, respiratory, or genitourinary abnormalities or diseases\n* Subject is a nursing mother\n* Subject consumes excessive amounts of alcohol or caffeine\n* Subject has donated blood, had surgery or participated in another clinical study within the past 4 weeks",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
@@ -171,6 +171,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Female subjects of reproductive potential test negative for pregnancy and agree to use appropriate contraception"
+   },
+   {
+    "text": "Subject is in good health and is a non-smoker"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subject has a history of neoplastic disease (cancer), stroke, chronic seizures, or major neurological disorder"
+   },
+   {
+    "text": "Subject has a history of clinically significant endocrine, gastrointestinal, cardiovascular, hematological, hepatic, immunological, renal, respiratory, or genitourinary abnormalities or diseases"
+   },
+   {
+    "text": "Subject is a nursing mother"
+   },
+   {
+    "text": "Subject consumes excessive amounts of alcohol or caffeine"
+   },
+   {
+    "text": "Subject has donated blood, had surgery or participated in another clinical study within the past 4 weeks"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

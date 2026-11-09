@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mayo Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mayo Clinic"
  },
  "collaborators": [
   "Arizona State University"
@@ -51,27 +51,27 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "U100 Humulin",
    "other_names": [
     "Humulin",
     "Human insulin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Exercise",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exercise",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: U100 Humulin",
     "Other: Exercise"
-   ]
+   ],
+   "label": "Exercise",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "This protocol is being conducted to determine the mechanisms responsible for insulin resistance, obesity and type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Subjects must be able to communicate meaningfully with the investigator and must be legally competent to provide written informed consent.\n2. Subjects may be of either sex, age as described in each protocol. Female subjects must be non-lactating and must either be at least two years post-menopausal, (if diabetic or obese) or be using adequate contraceptive precautions (i.e. oral contraceptives, approved hormonal implant, intrauterine device, diaphragm with spermicide, condom with spermicide), or be surgically sterilized (i.e. bilateral tubal ligation, bilateral oophorectomy). Female patients (except for those patients who have undergone a hysterectomy or bilateral oophorectomy) are eligible only if they have a negative pregnancy test throughout the study period.\n3. Subjects must range in age as described in each specific protocol.\n4. All nondiabetic subjects must have normal oral glucose tolerance.\n5. Subjects must have the following laboratory values:\n\n   1. Hematocrit ≥ 35 vol%\n   2. Serum creatinine ≤ 1.6 mg/dl\n   3. Aspartate aminotransferase (AST) (SGOT) \\< 2 times upper limit of normal\n   4. Alanine aminotransferase (ALT) (SGPT) \\< 2 times upper limit of normal\n   5. Alkaline phosphatase \\< 2 times upper limit of normal\n   6. Triglycerides \\< 150 mg/dl.\n   7. Prothrombin time (PT) 11.7 -14.3 (During Liposyn/heparin infusion, PT will be determined to insure that it is \\< 1.5-2.0 times the normal value.)\n   8. Partial thromboplastin time (PTT) 23.0-37.0.\n\nExclusion Criteria:\n\n1. Subjects must not be receiving any of the following medications: thiazide or furosemide diuretics, beta-blockers, or other chronic medications with known adverse effects on glucose tolerance levels unless the patient has been on stable dose of such agents for the past three months before entry into the study. Subjects may be taking a stable dose of estrogens or other hormonal replacement therapy, if the subject has been on these agents for the prior three months. Subjects taking systemic glucocorticoids are excluded.\n2. Subjects with a history of clinically significant heart disease (New York Heart Classification greater than grade II; more than non-specific ST-T wave changes on the EKG), peripheral vascular disease (history of claudication), or pulmonary disease (dyspnea on exertion of one flight or less; abnormal breath sounds on auscultation) will not be studied.\n3. Recent systemic or pulmonary embolus, untreated high-risk proliferative retinopathy, recent retinal hemorrhage, uncontrolled hypertension, systolic BP \\> 180, diastolic BP \\> 105, autonomic neuropathy, resting heart rate \\> 100, electrolyte abnormalities.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Mayo Clinic in Arizona",
    "city": "Scottsdale",
-   "state": "Arizona",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic in Arizona",
    "lat": 33.50921,
-   "lon": -111.89903
+   "lon": -111.89903,
+   "state": "Arizona",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01581736",
@@ -112,6 +112,48 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects must be able to communicate meaningfully with the investigator and must be legally competent to provide written informed consent."
+   },
+   {
+    "text": "Subjects may be of either sex, age as described in each protocol. Female subjects must be non-lactating and must either be at least two years post-menopausal, (if diabetic or obese) or be using adequate contraceptive precautions (i.e. oral contraceptives, approved hormonal implant, intrauterine device, diaphragm with spermicide, condom with spermicide), or be surgically sterilized (i.e. bilateral tubal ligation, bilateral oophorectomy). Female patients (except for those patients who have undergone a hysterectomy or bilateral oophorectomy) are eligible only if they have a negative pregnancy test throughout the study period."
+   },
+   {
+    "text": "Subjects must range in age as described in each specific protocol."
+   },
+   {
+    "text": "All nondiabetic subjects must have normal oral glucose tolerance."
+   },
+   {
+    "text": "Subjects must have the following laboratory values:",
+    "sub_items": [
+     "Hematocrit ≥ 35 vol%",
+     "Serum creatinine ≤ 1.6 mg/dl",
+     "Aspartate aminotransferase (AST) (SGOT) < 2 times upper limit of normal",
+     "Alanine aminotransferase (ALT) (SGPT) < 2 times upper limit of normal",
+     "Alkaline phosphatase < 2 times upper limit of normal",
+     "Triglycerides < 150 mg/dl.",
+     "Prothrombin time (PT) 11.7 -14.3 (During Liposyn/heparin infusion, PT will be determined to insure that it is < 1.5-2.0 times the normal value.)",
+     "Partial thromboplastin time (PTT) 23.0-37.0."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects must not be receiving any of the following medications: thiazide or furosemide diuretics, beta-blockers, or other chronic medications with known adverse effects on glucose tolerance levels unless the patient has been on stable dose of such agents for the past three months before entry into the study. Subjects may be taking a stable dose of estrogens or other hormonal replacement therapy, if the subject has been on these agents for the prior three months. Subjects taking systemic glucocorticoids are excluded."
+   },
+   {
+    "text": "Subjects with a history of clinically significant heart disease (New York Heart Classification greater than grade II; more than non-specific ST-T wave changes on the EKG), peripheral vascular disease (history of claudication), or pulmonary disease (dyspnea on exertion of one flight or less; abnormal breath sounds on auscultation) will not be studied."
+   },
+   {
+    "text": "Recent systemic or pulmonary embolus, untreated high-risk proliferative retinopathy, recent retinal hemorrhage, uncontrolled hypertension, systolic BP > 180, diastolic BP > 105, autonomic neuropathy, resting heart rate > 100, electrolyte abnormalities."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

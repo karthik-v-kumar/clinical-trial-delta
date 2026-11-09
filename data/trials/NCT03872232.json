@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Addpharma Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Addpharma Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -54,42 +54,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ezetimibe/Rosuvastatin",
    "other_names": [
     "Rosuvamibe Tab."
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Telmisartan",
    "other_names": [
     "Micardis Tab."
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Ezetimibe/Rosuvastatin and Telmisartan",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe/Rosuvastatin",
     "Drug: Telmisartan"
-   ]
+   ],
+   "label": "Ezetimibe/Rosuvastatin and Telmisartan",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Ezetimibe/Rosuvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe/Rosuvastatin"
-   ]
+   ],
+   "label": "Ezetimibe/Rosuvastatin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Telmisartan",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Telmisartan"
-   ]
+   ],
+   "label": "Telmisartan",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of co-administrated Rosuvastatin/Ezetimibe and Telmisartan in patients with primary hypercholesterolemia and essential hypertension.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent\n* Subjects with hypertension and hyperlipidemia\n\nExclusion Criteria:\n\n* Patient with known or suspected secondary hypertension\n* Other exclusions applied",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul National University Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Seoul National University Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03872232",
@@ -134,6 +134,26 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed informed consent"
+   },
+   {
+    "text": "Subjects with hypertension and hyperlipidemia"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient with known or suspected secondary hypertension"
+   },
+   {
+    "text": "Other exclusions applied"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

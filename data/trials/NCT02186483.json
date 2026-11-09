@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Jeil Pharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Jeil Pharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -49,54 +49,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucodown OR SR tablet"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Crestor tablet"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin and Rosuvastatin",
    "other_names": [
     "Glucodown OR SR tablet and Crestor tablet"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Metformin",
+    "Drug: Rosuvastatin",
+    "Drug: Metformin and Rosuvastatin"
+   ],
    "label": "Metformin",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Rosuvastatin",
     "Drug: Metformin and Rosuvastatin"
-   ]
-  },
-  {
+   ],
    "label": "Rosuvastatin",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Metformin",
-    "Drug: Rosuvastatin",
-    "Drug: Metformin and Rosuvastatin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Co-administration",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Rosuvastatin",
     "Drug: Metformin and Rosuvastatin"
-   ]
+   ],
+   "label": "Co-administration",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -108,23 +108,23 @@
  "brief_summary": "The purpose of this study is to investigate the pharmacokinetic drug interaction between Metformin and Rosuvastatin in healthy male volunteers.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 19\\~55 years healthy male\n* BMI measurement 19.0kg/m\\^2\\~ 28.0kg/m\\^2\n* Signed informed consent form from to participate voluntarily and to comply with the trial requirements.\n\nExclusion Criteria:\n\n* History of clinically significant kidney, liver, gastro-intestinal system, cardiovascular system, respiratory system, tumor or blood disorders, nervous system, immune system, endocrine disorders, cardiovascular diseases, mental disorders (mood disorders, obsessive-compulsive disorder, etc.)\n* SBP\\>140mmHg or \\<90mmHg, DBP\\>90mmHg or \\<60mmHg.\n* An impossible one who participants in clinical trial by investigator's decision including laboratory test result or another reason.\n* History of drug abuse\n* A alcohol consumer(alcohol\\>140g/week) or smoker(cigarette\\>10 cigarettes/day) Hypersensitivity reaction in history of investigational drugs or specific drugs(aspirin, antibiotics)\n* Administrated investigational product in a previous clinical trial within 60 days of the screening day in this study.\n* Administrated drugs which can inhibit or induce OCT2, OATP1B1 transporter within 30 days of the screening day in this study.(ex: proton pump inhibitor, rifampicin)\n* Glomerular filtration rate\\<60mL/min\n* Donated blood within 60 days prior to the screening day or apheresis blood within 30 days prior to the screening day .",
-  "sex": "MALE",
-  "minimum_age": "19 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "19 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Samsung Medical Center(SMC)",
    "city": "Seoul",
-   "state": "Gangnam-Gu",
    "country": "South Korea",
-   "status": null,
+   "facility": "Samsung Medical Center(SMC)",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": "Gangnam-Gu",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02186483",
@@ -136,6 +136,50 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "19~55 years healthy male"
+   },
+   {
+    "text": "BMI measurement 19.0kg/m^2~ 28.0kg/m^2"
+   },
+   {
+    "text": "Signed informed consent form from to participate voluntarily and to comply with the trial requirements."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of clinically significant kidney, liver, gastro-intestinal system, cardiovascular system, respiratory system, tumor or blood disorders, nervous system, immune system, endocrine disorders, cardiovascular diseases, mental disorders (mood disorders, obsessive-compulsive disorder, etc.)"
+   },
+   {
+    "text": "SBP>140mmHg or <90mmHg, DBP>90mmHg or <60mmHg."
+   },
+   {
+    "text": "An impossible one who participants in clinical trial by investigator's decision including laboratory test result or another reason."
+   },
+   {
+    "text": "History of drug abuse"
+   },
+   {
+    "text": "A alcohol consumer(alcohol>140g/week) or smoker(cigarette>10 cigarettes/day) Hypersensitivity reaction in history of investigational drugs or specific drugs(aspirin, antibiotics)"
+   },
+   {
+    "text": "Administrated investigational product in a previous clinical trial within 60 days of the screening day in this study."
+   },
+   {
+    "text": "Administrated drugs which can inhibit or induce OCT2, OATP1B1 transporter within 30 days of the screening day in this study.(ex: proton pump inhibitor, rifampicin)"
+   },
+   {
+    "text": "Glomerular filtration rate<60mL/min"
+   },
+   {
+    "text": "Donated blood within 60 days prior to the screening day or apheresis blood within 30 days prior to the screening day ."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

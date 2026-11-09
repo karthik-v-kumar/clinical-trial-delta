@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Steno Diabetes Center Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Steno Diabetes Center Copenhagen"
  },
  "collaborators": [],
  "conditions": [
@@ -48,49 +48,49 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "CGM",
    "other_names": [
     "Continuous glucose monitoring"
-   ]
+   ],
+   "type": "DEVICE"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "training course",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Peer-support",
    "other_names": [
     "Group sessions"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group A, CGM",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: CGM",
     "Behavioral: training course"
-   ]
+   ],
+   "label": "Group A, CGM",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group B, CGM + peer-support",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: CGM",
     "Behavioral: training course",
     "Behavioral: Peer-support"
-   ]
+   ],
+   "label": "Group B, CGM + peer-support",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Group C, SMBG",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: training course"
-   ]
+   ],
+   "label": "Group C, SMBG",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "The overall objective of this research study is to examine the effectiveness of the use of CGM vs. SMBG in persons with insulin-treated type 2 diabetes on glycemic variables and patient reported outcomes on treatment satisfaction, health behavior and wellbeing. The independent effect of peer-support will also be studied.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes according to clinical definitions\n* Treated with insulin injections at least once daily on top of diet and exercise recommendations. Insulin therapy has been used for at least 12 months. Can be additionally treated with one or more different oral antidiabetic drugs (except sulfonylurea), and/or glucagon-like-peptide 1 (GLP-1) analogues\n* Attending the outpatient clinic at Steno Diabetes Center Copenhagen for at least 12 months\n* Age ≥ 18 years\n* HbA1c \\> 58 mmol/mol (7.5%) at two consecutively measurements over at least 3 months\n* Willing to use possible interventions; to perform self-monitoring of blood glucose (SMBG) as requested by the investigators AND to use CGM continuously without calibration for a 12-month period.\n* Willing to intensify non-medical and medical treatment to achieve better glucose control.\n\nExclusion Criteria:\n\n* Inability to understand the patient information and give informed consent\n* Not speaking and understanding Danish\n* Treatment with sulfonylurea (SU) during the last 3 months before study start\n* New antidiabetic treatment the last three months\n* Use of systematic corticosteroids\n* Visual impairment\n* Severe skin allergy for adhesive tape to the patch of CGM or other skin condition that inhibits the use of a CGM device\n* Comorbidity which does not allow lowering of HbA1c to 53 mmol/mol (7.0%)\n* Hypoglycemic unawareness\n* Impaired renal disease with eGFR \\< 45 ml/min/1.73m2\n* Conditions that impact the stability of a HbA1c measurement (chronic liver disease, haemoglobinopathy, anemia etc.)\n* Known or suspected alcohol or drug abuse\n* Already using Flash glucose monitoring (Libre) or CGM\n* Enrolled in another clinical study\n* Pregnancy, intend to become pregnant, breastfeeding or not using adequate contraceptive methods",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "Steno Diabetes Center Copenhagen",
    "city": "Gentofte Municipality",
-   "state": "Capital Region",
    "country": "Denmark",
-   "status": null,
+   "facility": "Steno Diabetes Center Copenhagen",
    "lat": 55.74903,
-   "lon": 12.54601
+   "lon": 12.54601,
+   "state": "Capital Region",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04331444",
@@ -131,6 +131,80 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes according to clinical definitions"
+   },
+   {
+    "text": "Treated with insulin injections at least once daily on top of diet and exercise recommendations. Insulin therapy has been used for at least 12 months. Can be additionally treated with one or more different oral antidiabetic drugs (except sulfonylurea), and/or glucagon-like-peptide 1 (GLP-1) analogues"
+   },
+   {
+    "text": "Attending the outpatient clinic at Steno Diabetes Center Copenhagen for at least 12 months"
+   },
+   {
+    "text": "Age ≥ 18 years"
+   },
+   {
+    "text": "HbA1c > 58 mmol/mol (7.5%) at two consecutively measurements over at least 3 months"
+   },
+   {
+    "text": "Willing to use possible interventions; to perform self-monitoring of blood glucose (SMBG) as requested by the investigators AND to use CGM continuously without calibration for a 12-month period."
+   },
+   {
+    "text": "Willing to intensify non-medical and medical treatment to achieve better glucose control."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Inability to understand the patient information and give informed consent"
+   },
+   {
+    "text": "Not speaking and understanding Danish"
+   },
+   {
+    "text": "Treatment with sulfonylurea (SU) during the last 3 months before study start"
+   },
+   {
+    "text": "New antidiabetic treatment the last three months"
+   },
+   {
+    "text": "Use of systematic corticosteroids"
+   },
+   {
+    "text": "Visual impairment"
+   },
+   {
+    "text": "Severe skin allergy for adhesive tape to the patch of CGM or other skin condition that inhibits the use of a CGM device"
+   },
+   {
+    "text": "Comorbidity which does not allow lowering of HbA1c to 53 mmol/mol (7.0%)"
+   },
+   {
+    "text": "Hypoglycemic unawareness"
+   },
+   {
+    "text": "Impaired renal disease with eGFR < 45 ml/min/1.73m2"
+   },
+   {
+    "text": "Conditions that impact the stability of a HbA1c measurement (chronic liver disease, haemoglobinopathy, anemia etc.)"
+   },
+   {
+    "text": "Known or suspected alcohol or drug abuse"
+   },
+   {
+    "text": "Already using Flash glucose monitoring (Libre) or CGM"
+   },
+   {
+    "text": "Enrolled in another clinical study"
+   },
+   {
+    "text": "Pregnancy, intend to become pregnant, breastfeeding or not using adequate contraceptive methods"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

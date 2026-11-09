@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shionogi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Shionogi"
  },
  "collaborators": [],
  "conditions": [
@@ -51,65 +51,65 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "S-707106 Dose A",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "S-707106 Dose B",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "S-707106 Dose C",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo A tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "S-707106 Dose A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: S-707106 Dose A",
     "Drug: Placebo A tablet",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "S-707106 Dose A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "S-707106 Dose B",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: S-707106 Dose B",
     "Drug: Placebo A tablet",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "S-707106 Dose B",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "S-707106 Dose C",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: S-707106 Dose C",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "S-707106 Dose C",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo A tablet",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -121,10 +121,10 @@
  "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of S-707106 co-administered with metformin in subjects with type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Main Inclusion Criteria:\n\n* Subjects with type 2 diabetes mellitus receiving a stable dose of metformin for the past 3 months (with no other medication for glycemic control) and who are clinically stable as determined by medical history\n* Body mass index (BMI) ≥25.0 and \\<45.0 (kg/m2) using http://www.bmicalculator.org/ as the BMI calculator\n* No clinically significant abnormal laboratory tests as determined by the investigator except Hemoglobin A1c level ≥7.5% and ≤11.0% and C peptide level \\>1.0 ng/mL\n\nMain Exclusion Criteria:\n\n* Type 1 diabetes mellitus or gestational diabetes mellitus within last 6 months\n* Use of any medication for glycemic control other than metformin during the past 3 months or thiazolidinediones within the past year\n* Congestive heart failure as defined by New York Heart Association class III or IV\n* Fasting glucose \\>270 mg/dL\n* Creatinine clearance is \\<60 mL/minute\n* History of myocardial infarction within the past 3 months, history of clinically significant cardiac arrhythmia, clinically significant hypotension or hypertension, or clinically significant abnormal electrocardiogram as determined by the investigator",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -132,13 +132,13 @@
  },
  "sites": [
   {
-   "facility": "Juno Research, LLC",
    "city": "Houston",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Juno Research, LLC",
    "lat": 29.76328,
-   "lon": -95.36327
+   "lon": -95.36327,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01240759",
@@ -150,6 +150,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects with type 2 diabetes mellitus receiving a stable dose of metformin for the past 3 months (with no other medication for glycemic control) and who are clinically stable as determined by medical history"
+   },
+   {
+    "text": "Body mass index (BMI) ≥25.0 and <45.0 (kg/m2) using http://www.bmicalculator.org/ as the BMI calculator"
+   },
+   {
+    "text": "No clinically significant abnormal laboratory tests as determined by the investigator except Hemoglobin A1c level ≥7.5% and ≤11.0% and C peptide level >1.0 ng/mL"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus or gestational diabetes mellitus within last 6 months"
+   },
+   {
+    "text": "Use of any medication for glycemic control other than metformin during the past 3 months or thiazolidinediones within the past year"
+   },
+   {
+    "text": "Congestive heart failure as defined by New York Heart Association class III or IV"
+   },
+   {
+    "text": "Fasting glucose >270 mg/dL"
+   },
+   {
+    "text": "Creatinine clearance is <60 mL/minute"
+   },
+   {
+    "text": "History of myocardial infarction within the past 3 months, history of clinically significant cardiac arrhythmia, clinically significant hypotension or hypertension, or clinically significant abnormal electrocardiogram as determined by the investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -52,44 +52,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "insulin degludec",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin detemir",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: insulin degludec"
+   ],
    "label": "A1, first period",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: insulin degludec"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: insulin detemir"
+   ],
    "label": "A2, second period",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: insulin detemir"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: insulin detemir"
+   ],
    "label": "B1, first period",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: insulin detemir"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "B2, second period",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: insulin degludec"
-   ]
+   ],
+   "label": "B2, second period",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to investigate the pharmacodynamic (effect) and pharmacokinetic (exposure of drug) properties of NN1250 (insulin degludec, IDeg) in subjects with type 2 diabetes of different race and/or ethnicity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Either - Black or African American not of Hispanic or Latino origin or - White of Hispanic or Latino origin or - White not of Hispanic or Latino origin\n* Type 2 diabetes mellitus (as diagnosed clinically) for at least 12 months\n* Treated with insulin for at least 3 months, alone or in combination with maximum 2 oral antidiabetic drugs (OADs)\n* Body mass index maximum 40.0 kg/m\\^2\n\nExclusion Criteria:\n\n* Use of GLP-1 receptor agonists (exenatide, liraglutide), thiazolidinediones or dipeptidyl peptidase-4 (DPP-4) inhibitors within 3 months prior to screening\n* History of multiple and/or severe allergies to drugs or foods or a history of severe anaphylactic reaction\n* Subject who has donated any blood or plasma in the past month or more than 500 mL within 3 months prior to screening",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01043510",
@@ -133,6 +133,35 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Either - Black or African American not of Hispanic or Latino origin or - White of Hispanic or Latino origin or - White not of Hispanic or Latino origin"
+   },
+   {
+    "text": "Type 2 diabetes mellitus (as diagnosed clinically) for at least 12 months"
+   },
+   {
+    "text": "Treated with insulin for at least 3 months, alone or in combination with maximum 2 oral antidiabetic drugs (OADs)"
+   },
+   {
+    "text": "Body mass index maximum 40.0 kg/m^2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of GLP-1 receptor agonists (exenatide, liraglutide), thiazolidinediones or dipeptidyl peptidase-4 (DPP-4) inhibitors within 3 months prior to screening"
+   },
+   {
+    "text": "History of multiple and/or severe allergies to drugs or foods or a history of severe anaphylactic reaction"
+   },
+   {
+    "text": "Subject who has donated any blood or plasma in the past month or more than 500 mL within 3 months prior to screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

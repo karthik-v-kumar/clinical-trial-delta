@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Dundee",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Dundee"
  },
  "collaborators": [],
  "conditions": [
@@ -48,16 +48,15 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sulfonylurea",
    "other_names": [
     "Diamicron",
     "Nordialex",
     "Gliclazide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DPP4 Inhibitor",
    "other_names": [
     "Sitagliptin",
@@ -67,36 +66,37 @@
     "Tesavel",
     "Velmetia",
     "Xelevia"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "No Treatment",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Low dose sulphonylurea alone",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sulfonylurea"
-   ]
+   ],
+   "label": "Low dose sulphonylurea alone",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DPP4 inhibitor alone",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: DPP4 Inhibitor"
-   ]
+   ],
+   "label": "DPP4 inhibitor alone",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Low dose sulphonylurea + DPP4 inhibitor",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sulfonylurea",
     "Drug: DPP4 Inhibitor"
-   ]
+   ],
+   "label": "Low dose sulphonylurea + DPP4 inhibitor",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -108,10 +108,10 @@
  "brief_summary": "The Study of Sulphonylurea Synergy with DPP4 Inhibitors (SSS Study) will establish whether a very low dose of sulphonylurea will have a synergistic role on augmentation of insulin secretion when given in combination with a DPP4 inhibitor as a primary outcome. The study will recruit 30 patients with type 2 diabetes mellitus controlled with no treatment or metformin monotherapy with an HbA1c \\<64mmol/mol (\\<8%). In this unblinded, randomised physiological study, participants will receive four 14-day intervention blocks: low dose sulphonylurea alone, DPP4 inhibitor alone, low dose sulphonylurea + DPP4 inhibitor or no treatment change. The primary outcome will be assessed through evaulation of insulin secretion and sensitivity at mixed meal test at the end of each treatment block. Glycaemic variability on continuous glucose monitoring for each intervention block will be evaluated as a secondary outcome. In addition, the primary outcome will be evaulated for KCNJ11 genotype as an additional secondary outcome.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≧40 and ≦80\n* Age of diabetes diagnosis ≧35\n* T2DM on no treatment, or metformin monotherapy\n* White British\n* HbA1c ≦8% (64mmol/mol) in last 6 months\n* eGFR ≧50ml/min-1\n* ALT ≦2.5\\*ULN\n* Able to consent\n\nExclusion Criteria:\n\n* Does not meet inclusion criteria\n* Pregnancy, lactation or a female planning to conceive within the study period\n* Previous acute pancreatitis\n* Established pancreatic disease\n* Participating in clinical phase of another interventional trial/study or have done so within the last 30 days.\n* Any other significant medical reason for exclusion as determined by the investigator\n* Inability or unwillingness to comply with protocol",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,13 +119,13 @@
  },
  "sites": [
   {
-   "facility": "Ninewells Hospital and Medical School",
    "city": "Dundee",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Ninewells Hospital and Medical School",
    "lat": 56.46913,
-   "lon": -2.97489
+   "lon": -2.97489,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04192292",
@@ -137,6 +137,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≧40 and ≦80"
+   },
+   {
+    "text": "Age of diabetes diagnosis ≧35"
+   },
+   {
+    "text": "T2DM on no treatment, or metformin monotherapy"
+   },
+   {
+    "text": "White British"
+   },
+   {
+    "text": "HbA1c ≦8% (64mmol/mol) in last 6 months"
+   },
+   {
+    "text": "eGFR ≧50ml/min-1"
+   },
+   {
+    "text": "ALT ≦2.5*ULN"
+   },
+   {
+    "text": "Able to consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Does not meet inclusion criteria"
+   },
+   {
+    "text": "Pregnancy, lactation or a female planning to conceive within the study period"
+   },
+   {
+    "text": "Previous acute pancreatitis"
+   },
+   {
+    "text": "Established pancreatic disease"
+   },
+   {
+    "text": "Participating in clinical phase of another interventional trial/study or have done so within the last 30 days."
+   },
+   {
+    "text": "Any other significant medical reason for exclusion as determined by the investigator"
+   },
+   {
+    "text": "Inability or unwillingness to comply with protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

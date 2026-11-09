@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "TRIPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "IRCCS San Raffaele",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "IRCCS San Raffaele"
  },
  "collaborators": [],
  "conditions": [
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "L-arginine",
    "other_names": [
     "bioarginine"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "L-arginine",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: L-arginine"
-   ]
+   ],
+   "label": "L-arginine",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "Aim\n\nThe principal objective of this project is:\n\n• To evaluate the efficacy of long term (18 months) L-Arginine therapy in preventing or delaying clinical onset of type 2 diabetes mellitus in subjects with impaired glucose tolerance (IGT) and Metabolic Syndrome.\n\nSecondary end points are:\n\n1. To define if a long term treatment with L-arginine is able to ameliorate insulin sensitivity and endothelial dysfunction in this population.\n2. To find new risk profiles and candidate genes able to define the sub-group of patients at higher risk to develop type 2 diabetes mellitus.\n\nMethodology This is a double blind, parallel, one centre study to determine if long term oral L-arginine administration is able to delay or prevent type 2 diabetes mellitus in patients with Metabolic Syndrome. Two hundred and ninety four subjects were recruited at the Cardio-Metabolic and Clinical Trials Unit of the San Raffaele Scientific Institute. One hundred and forty two patients were randomized to enter the study and assigned to two arms: oral L-arginine (6.4 g/die) or placebo, in addition to diet and physical exercise. The treatment were maintained for 18 months. Visits were performed every 3 months for clinical evaluation, blood samples, treatment supply and collection of data on adverse events. Furthermore, patients were contacted every month by telephone to evaluate the accurate continuation of the study and they were instructed to phone to the centre in case of possible adverse events.\n\nAn OGTT were performed before the enter into the study and at the end of the study period. An additional OGTT were performed at an intermediate visit if fasting glucose levels were more than 126 mg/dl. A diabetic response caused the end-point of the patient. Metabolic, hormonal and endothelial activation and inflammation parameters were measured. Evaluation of endothelium-mediated and non-endothelium-mediated vasodilatation were performed by strain gauche plethysmography evaluating forearm blood at the basal state. in post-ischemic conditions and after nitroglycerine administration.\n\nBefore the enter into the study, an additional blood sample were drawn for DNA extraction and candidate genes variants evaluation. Before the enter into the study and at the end of the study period, gene expression for inflammation were measured on mRNA extraction on endothelial progenitor cells.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Written informed consent must be obtained before any procedure of the study is done.\n* Male or Female aged more than 35 years.\n* Diagnosis of IGT after a standard Glucose Tolerance Test (OGTT, 75 g)\n* Moreover, in order to be considered affected by Metabolic Syndrome, they must have two or more of the following criteria:\n* Abdominal obesity (waist\\>120 cm for man, \\>88 cm for women)\n* Hypertriglyceridemia (\\>150 mg/dl)\n* Low HDL cholesterol (\\<40mg/dl in man, \\<50 mg/dl in woman)\n* Hypertension (\\>130 / \\>85 mmHg)\n\nExclusion Criteria:\n\n* Presence of type 1 or type 2 diabetes mellitus\n* Fasting glucose levels \\>126 mg/dl\n* Sitting Systolic Arterial Pressure \\>140mmHg, and Sitting Diastolic Arterial Pressure \\>90mmHg\n* Pregnancy\n* Known renal insufficiency or creatinine levels more than 1.8 mg/dl,\n* Presence of chronic hepatopathy or levels of ALT and AST more than two standard deviations from normality levels\n* Presence of malignancy\n* Abuse of alcohol or abuse substances\n* Psychiatric disorders",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Scientific Institute San Raffaele",
    "city": "Milan",
-   "state": "Milan",
    "country": "Italy",
-   "status": null,
+   "facility": "Scientific Institute San Raffaele",
    "lat": 45.46427,
-   "lon": 9.18951
+   "lon": 9.18951,
+   "state": "Milan",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00917449",
@@ -121,6 +121,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Written informed consent must be obtained before any procedure of the study is done."
+   },
+   {
+    "text": "Male or Female aged more than 35 years."
+   },
+   {
+    "text": "Diagnosis of IGT after a standard Glucose Tolerance Test (OGTT, 75 g)"
+   },
+   {
+    "text": "Moreover, in order to be considered affected by Metabolic Syndrome, they must have two or more of the following criteria:"
+   },
+   {
+    "text": "Abdominal obesity (waist>120 cm for man, >88 cm for women)"
+   },
+   {
+    "text": "Hypertriglyceridemia (>150 mg/dl)"
+   },
+   {
+    "text": "Low HDL cholesterol (<40mg/dl in man, <50 mg/dl in woman)"
+   },
+   {
+    "text": "Hypertension (>130 / >85 mmHg)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Presence of type 1 or type 2 diabetes mellitus"
+   },
+   {
+    "text": "Fasting glucose levels >126 mg/dl"
+   },
+   {
+    "text": "Sitting Systolic Arterial Pressure >140mmHg, and Sitting Diastolic Arterial Pressure >90mmHg"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Known renal insufficiency or creatinine levels more than 1.8 mg/dl,"
+   },
+   {
+    "text": "Presence of chronic hepatopathy or levels of ALT and AST more than two standard deviations from normality levels"
+   },
+   {
+    "text": "Presence of malignancy"
+   },
+   {
+    "text": "Abuse of alcohol or abuse substances"
+   },
+   {
+    "text": "Psychiatric disorders"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

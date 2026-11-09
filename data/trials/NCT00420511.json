@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2011-12-29",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Samuel Lunenfeld Research Institute, Mount Sinai Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Samuel Lunenfeld Research Institute, Mount Sinai Hospital"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -55,41 +55,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
    "other_names": [
     "glucophage"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: metformin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo arm",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: metformin"
-   ]
+   ],
+   "label": "Placebo arm",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "Type 2 diabetes mellitus (T2DM) is a chronic metabolic disorder characterized by progressive deterioration in the function of the pancreatic beta-cells, which are the cells that produce and secrete insulin (the hormone primarily responsible for the handling of glucose in the body). The investigators propose a double-blind, randomized controlled pilot study comparing the effect of sitagliptin (a novel anti-diabetic drug with beta-cell protective potential) versus placebo, on the preservation of beta-cell function over one year in patients with T2DM on metformin, the first-line agent for the treatment of T2DM (ie. the study groups will be (i) sitagliptin and metformin versus (ii) placebo and metformin). This study may demonstrate an important beta-cell protective capacity of sitagliptin.\n\nHypothesis: In patients with T2DM on metformin, treatment with the DPP-IV inhibitor sitagliptin will preserve pancreatic beta-cell function.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Men and women between the ages of 30 and 75 inclusive\n2. Physician-diagnosed type 2 diabetes on 0-2 oral hypoglycemic agents\n3. Negative for anti-glutamic acid decarboxylase (anti-GAD\\_ antibodies (to rule out Latent Autoimmune Diabetes of Adults (LADA)\n4. A1c at screening between 6.5% and 9% inclusive if on no oral hypoglycemic agents or 6.0% and 9.0% inclusive if on 1-2 oral hypoglycemic agents\n\nExclusion Criteria:\n\n1. Current insulin therapy\n2. Type 1 diabetes or secondary forms of diabetes\n3. Any major illness with a life expectancy of \\< 5 years or that may interfere with the patient's participation in the study\n4. Involvement in any other study requiring drug therapy\n5. Renal dysfunction as evidenced by serum creatinine \\>/= 136 umol/L for males or \\>/= 124 umol/L for females or abnormal creatinine clearance (\\< 60 ml/min by Modification of Diet in Renal Disease (MDRD) formula)\n6. Hepatic disease considered to be clinically significant (includes jaundice, chronic hepatitis, or previous liver transplant) or transaminases \\> 2.5 times the upper limit of normal\n7. Excessive alcohol consumption, defined as \\> 14 alcoholic drinks per week for males and \\> 9 alcoholic drinks per week for females\n8. Pregnancy or unwillingness to use reliable contraception. Women should not be planning pregnancy for the duration of the study. Reliable contraception includes: birth control pill, intra-uterine device, abstinence, tubal ligation, partner vasectomy, or condoms with spermicide. Any women who miss a menstrual period or think that they may be pregnant must have a pregnancy test as soon as possible\n9. History of serious arrhythmia or atrioventricular block on baseline electrocardiogram\n10. Uncontrolled hypertension (systolic blood pressure \\> 180 mm Hg or diastolic blood pressure \\> 110 mm Hg)\n11. Unwillingness to undergo multiple daily insulin injection therapy for 4 weeks\n12. Unwillingness to perform capillary blood glucose monitoring at least 4 times per day during intensive insulin therapy",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "facility": "Leadership Sinai Centre for Diabetes",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Leadership Sinai Centre for Diabetes",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00420511",
@@ -130,6 +130,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women between the ages of 30 and 75 inclusive"
+   },
+   {
+    "text": "Physician-diagnosed type 2 diabetes on 0-2 oral hypoglycemic agents"
+   },
+   {
+    "text": "Negative for anti-glutamic acid decarboxylase (anti-GAD_ antibodies (to rule out Latent Autoimmune Diabetes of Adults (LADA)"
+   },
+   {
+    "text": "A1c at screening between 6.5% and 9% inclusive if on no oral hypoglycemic agents or 6.0% and 9.0% inclusive if on 1-2 oral hypoglycemic agents"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Current insulin therapy"
+   },
+   {
+    "text": "Type 1 diabetes or secondary forms of diabetes"
+   },
+   {
+    "text": "Any major illness with a life expectancy of < 5 years or that may interfere with the patient's participation in the study"
+   },
+   {
+    "text": "Involvement in any other study requiring drug therapy"
+   },
+   {
+    "text": "Renal dysfunction as evidenced by serum creatinine >/= 136 umol/L for males or >/= 124 umol/L for females or abnormal creatinine clearance (< 60 ml/min by Modification of Diet in Renal Disease (MDRD) formula)"
+   },
+   {
+    "text": "Hepatic disease considered to be clinically significant (includes jaundice, chronic hepatitis, or previous liver transplant) or transaminases > 2.5 times the upper limit of normal"
+   },
+   {
+    "text": "Excessive alcohol consumption, defined as > 14 alcoholic drinks per week for males and > 9 alcoholic drinks per week for females"
+   },
+   {
+    "text": "Pregnancy or unwillingness to use reliable contraception. Women should not be planning pregnancy for the duration of the study. Reliable contraception includes: birth control pill, intra-uterine device, abstinence, tubal ligation, partner vasectomy, or condoms with spermicide. Any women who miss a menstrual period or think that they may be pregnant must have a pregnancy test as soon as possible"
+   },
+   {
+    "text": "History of serious arrhythmia or atrioventricular block on baseline electrocardiogram"
+   },
+   {
+    "text": "Uncontrolled hypertension (systolic blood pressure > 180 mm Hg or diastolic blood pressure > 110 mm Hg)"
+   },
+   {
+    "text": "Unwillingness to undergo multiple daily insulin injection therapy for 4 weeks"
+   },
+   {
+    "text": "Unwillingness to perform capillary blood glucose monitoring at least 4 times per day during intensive insulin therapy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

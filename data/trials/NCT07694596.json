@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Primorska",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Primorska"
  },
  "collaborators": [
   "University of Ljubljana, Faculty of Medicine"
@@ -51,35 +51,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "SGLT2 Inhibitor",
    "other_names": [
     "empagliflozin or dapagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Standard Diabetes Care",
    "other_names": [
     "Guideline-Directed Standard Diabetes Care"
-   ]
+   ],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Standard Diabetes Care + SGLT2 Inhibitor",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: SGLT2 Inhibitor",
     "Other: Standard Diabetes Care"
-   ]
+   ],
+   "label": "Standard Diabetes Care + SGLT2 Inhibitor",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Standard Diabetes Care",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Standard Diabetes Care"
-   ]
+   ],
+   "label": "Standard Diabetes Care",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "This study is a prospective, randomized, open-label trial with blinded outcome assessment (PROBE design) designed to evaluate the effects of sodium-glucose cotransporter-2 (SGLT2) inhibitor therapy on cognitive function in adults with type 2 diabetes mellitus (T2D). A total of 200 participants aged 50 years or older with T2D of at least five years' duration and HbA1c ≤8.5% will be randomized in a 1:1 ratio to receive either standard diabetes care plus an SGLT2 inhibitor or standard diabetes care without an SGLT2 inhibitor. Participants will be followed for 12 months.\n\nThe primary objective is to compare changes in executive cognitive function between the two treatment groups using a composite cognitive outcome derived from standardized neuropsychological tests. Secondary objectives include assessment of global cognitive function, glycaemic variability measured by continuous glucose monitoring, metabolic control, circulating biomarkers of neurodegeneration and inflammation, functional status, and treatment safety. Baseline brain magnetic resonance imaging (MRI), APOE genotyping, frailty status, sleep quality, psychological well-being, and physical activity will be evaluated as potential modifiers of cognitive outcomes and treatment response.\n\nThe study is intended to provide prospective evidence regarding the association between SGLT2 inhibitor therapy and cognitive outcomes in adults with T2D while exploring the metabolic, neurodegenerative, and behavioural factors that may contribute to cognitive changes over time.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* adults aged 50 years or older.\n* diagnosis of type 2 diabetes mellitus according to current American Diabetes - - association (ADA) diagnostic criteria.\n* duration of type 2 diabetes mellitus of at least 5 years.\n* glycated haemoglobin (HbA1c) ≤8.5% (≤69 mmol/mol) at screening.\n* estimated glomerular filtration rate (eGFR) ≥45 mL/min/1.73 m².\n* stable glucose-lowering therapy for at least 3 months before enrolment.\n* able to complete neuropsychological assessments and all study procedures.\n* willing and able to wear a continuous glucose monitoring (CGM) sensor and a physical activity monitor.\n* able to provide written informed consent.\n\nExclusion Criteria:\n\n* previous or current treatment with a sodium-glucose cotransporter-2 (SGLT2) inhibitor.\n* Montreal Cognitive Assessment (MoCA) score \\<20 at screening.\n* diagnosis of dementia or another major neurocognitive disorder.\n* history of stroke or transient ischaemic attack within the previous 6 months.\n* Parkinson's disease, multiple sclerosis, epilepsy, or another major neurological disorder affecting cognitive function.\n* severe psychiatric illness likely to interfere with study participation or cognitive assessment.\n* estimated glomerular filtration rate (eGFR) \\<45 mL/min/1.73 m².\n* history of diabetic ketoacidosis.\n* recurrent urinary tract infections (≥3 episodes during the previous year).\n* contraindication to magnetic resonance imaging (MRI).\n* pregnancy, breastfeeding, or planned pregnancy during the study period.\n* active malignancy requiring systemic treatment (except adequately treated non-melanoma skin cancer).\n* moderate or severe hepatic impairment (Child-Pugh Class B or C).\n* alcohol or substance abuse likely to interfere with study participation.\n* presence of an established indication for mandatory SGLT2 inhibitor therapy according to current international clinical practice guidelines (e.g., symptomatic heart failure or chronic kidney disease).\n* participation in another interventional clinical trial within the previous 30 days.\n* any medical condition that, in the opinion of the investigator, could compromise participant safety, adherence to the protocol, or interpretation of study results.",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Health Center",
    "city": "Koper",
-   "state": null,
    "country": "Slovenia",
-   "status": null,
+   "facility": "Health Center",
    "lat": 45.5482,
-   "lon": 13.72963
+   "lon": 13.72963,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07694596",
@@ -120,6 +120,92 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "adults aged 50 years or older."
+   },
+   {
+    "text": "diagnosis of type 2 diabetes mellitus according to current American Diabetes - - association (ADA) diagnostic criteria."
+   },
+   {
+    "text": "duration of type 2 diabetes mellitus of at least 5 years."
+   },
+   {
+    "text": "glycated haemoglobin (HbA1c) ≤8.5% (≤69 mmol/mol) at screening."
+   },
+   {
+    "text": "estimated glomerular filtration rate (eGFR) ≥45 mL/min/1.73 m²."
+   },
+   {
+    "text": "stable glucose-lowering therapy for at least 3 months before enrolment."
+   },
+   {
+    "text": "able to complete neuropsychological assessments and all study procedures."
+   },
+   {
+    "text": "willing and able to wear a continuous glucose monitoring (CGM) sensor and a physical activity monitor."
+   },
+   {
+    "text": "able to provide written informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "previous or current treatment with a sodium-glucose cotransporter-2 (SGLT2) inhibitor."
+   },
+   {
+    "text": "Montreal Cognitive Assessment (MoCA) score <20 at screening."
+   },
+   {
+    "text": "diagnosis of dementia or another major neurocognitive disorder."
+   },
+   {
+    "text": "history of stroke or transient ischaemic attack within the previous 6 months."
+   },
+   {
+    "text": "Parkinson's disease, multiple sclerosis, epilepsy, or another major neurological disorder affecting cognitive function."
+   },
+   {
+    "text": "severe psychiatric illness likely to interfere with study participation or cognitive assessment."
+   },
+   {
+    "text": "estimated glomerular filtration rate (eGFR) <45 mL/min/1.73 m²."
+   },
+   {
+    "text": "history of diabetic ketoacidosis."
+   },
+   {
+    "text": "recurrent urinary tract infections (≥3 episodes during the previous year)."
+   },
+   {
+    "text": "contraindication to magnetic resonance imaging (MRI)."
+   },
+   {
+    "text": "pregnancy, breastfeeding, or planned pregnancy during the study period."
+   },
+   {
+    "text": "active malignancy requiring systemic treatment (except adequately treated non-melanoma skin cancer)."
+   },
+   {
+    "text": "moderate or severe hepatic impairment (Child-Pugh Class B or C)."
+   },
+   {
+    "text": "alcohol or substance abuse likely to interfere with study participation."
+   },
+   {
+    "text": "presence of an established indication for mandatory SGLT2 inhibitor therapy according to current international clinical practice guidelines (e.g., symptomatic heart failure or chronic kidney disease)."
+   },
+   {
+    "text": "participation in another interventional clinical trial within the previous 30 days."
+   },
+   {
+    "text": "any medical condition that, in the opinion of the investigator, could compromise participant safety, adherence to the protocol, or interpretation of study results."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

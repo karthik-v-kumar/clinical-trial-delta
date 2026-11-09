@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -41,8 +41,8 @@
  "results_first_posted": "2009-03-25",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Abbott",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Abbott"
  },
  "collaborators": [],
  "conditions": [
@@ -52,69 +52,69 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ABT-335",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: ABT-335",
+    "Drug: Atorvastatin"
+   ],
    "label": "A",
-   "type": "ACTIVE_COMPARATOR",
+   "type": "ACTIVE_COMPARATOR"
+  },
+  {
    "intervention_names": [
     "Drug: ABT-335",
     "Drug: Atorvastatin"
-   ]
-  },
-  {
+   ],
    "label": "B",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: ABT-335",
-    "Drug: Atorvastatin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: ABT-335",
+    "Drug: Placebo"
+   ],
    "label": "C",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: ABT-335",
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Atorvastatin",
+    "Drug: Placebo"
+   ],
    "label": "D",
-   "type": "PLACEBO_COMPARATOR",
+   "type": "PLACEBO_COMPARATOR"
+  },
+  {
    "intervention_names": [
     "Drug: Atorvastatin",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "E",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Atorvastatin",
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "F",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "F",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -134,10 +134,10 @@
  "brief_summary": "The purpose of this study is to compare the safety and efficacy of fenofibric acid (ABT-335) + atorvastatin combination therapy with ABT-335 and atorvastatin monotherapy in subjects with multiple abnormal lipid levels in the blood.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects with mixed dyslipidemia\n* Subjects must agree to utilize adequate birth control methods and to adhere to the American Heart Association (AHA) diet\n\nExclusion Criteria:\n\n* Subjects with unstable medical conditions or medical conditions considered inappropriate in a clinical trial.\n* Patients who are taking certain medications or unstable dose of specific medications.\n* Women who are pregnant or plan on becoming pregnant, or women who are lactating.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -145,13 +145,13 @@
  },
  "sites": [
   {
-   "facility": "Global Medical Information",
    "city": "North Chicago",
-   "state": "Illinois",
    "country": "United States",
-   "status": null,
+   "facility": "Global Medical Information",
    "lat": 42.32558,
-   "lon": -87.84118
+   "lon": -87.84118,
+   "state": "Illinois",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00300469",
@@ -163,6 +163,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects with mixed dyslipidemia"
+   },
+   {
+    "text": "Subjects must agree to utilize adequate birth control methods and to adhere to the American Heart Association (AHA) diet"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with unstable medical conditions or medical conditions considered inappropriate in a clinical trial."
+   },
+   {
+    "text": "Patients who are taking certain medications or unstable dose of specific medications."
+   },
+   {
+    "text": "Women who are pregnant or plan on becoming pregnant, or women who are lactating."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "National Research Center for Preventive Medicine",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "National Research Center for Preventive Medicine"
  },
  "collaborators": [
   "The League of Clinical Research, Russia"
@@ -50,23 +50,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "extended counseling",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "extended statin counseling group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: extended counseling"
-   ]
+   ],
+   "label": "extended statin counseling group",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "convetional statin counseling group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "A systematic collection of retrospective and prospective data based on non-intervention patient observation, aimed to assess the risks, course and outcomes of a disease or a group of diseases:\n\n* the retrospective part: database of patients with cardiovascular risks;\n* the prospective part: observation of patients in the real medical practice",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nMen and women 40-65 years old with the presence of:\n\n* moderate cardiovascular risk (\\<5% but ≥1% on a SCORE scale) and cholesterol level LDL ≥3.0 mmol / l, in which the target is not reached during the improvement of lifestyle level of cholesterol-LDL, and the attending physician considers appropriate the appointment lipid-lowering drugs (statins), or\n* high cardiovascular risk (≥5% but \\<10% on a SCORE scale) and cholesterol level LDL ≥ 2.5 mmol / l, or\n* very high cardiovascular risk (≥10% on the SCORE scale) and cholesterol-LDL ≥1.8mmol / l, or\n* atherosclerotic stenosis of the brachiocephalic arteries\\> 50% in the absence cerebrovascular diseases and the level of cholesterol-LDL ≥1.8 mmol / l, which do not have contraindications to taking statins and not taking drugs of this group in currently.\n\nExclusion Criteria:\n\n* The presence of the following clinically significant events in anamnesis: myocardial infarction, stroke, myocardial infarction\n* The presence of the following diseases at the time of statin administration: ischemic heart disease; heart failure; atherosclerotic disease of peripheral arteries; atherosclerotic stenosis of the brachiocephalic arteries in the presence of cerebrovascular disease; chronic renal failure with creatinine clearance \\<30 ml / min; liver disease with an increase in AST and ALT levels of more than 3 times, compared to the upper limit of normal; history of muscular or neuromuscular diseases, with elevated CPK; alcoholism, oncological, mental and other severe concomitant diseases; intolerance to statins in anamnesis; use of other lipid-modifying agents.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,49 +89,49 @@
  },
  "sites": [
   {
-   "facility": "Deputy Chief Medical Officer for Prevention at the Center for Medical Prevention",
    "city": "Astrakhan",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "Deputy Chief Medical Officer for Prevention at the Center for Medical Prevention",
    "lat": 46.34968,
-   "lon": 48.04076
+   "lon": 48.04076,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Nizhny Novgorod Regional Center for Medical Prevention",
    "city": "Nizhny Novgorod",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "Nizhny Novgorod Regional Center for Medical Prevention",
    "lat": 56.32867,
-   "lon": 44.00205
+   "lon": 44.00205,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Regional Center for Medical Prevention",
    "city": "Novosibirsk",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "Regional Center for Medical Prevention",
    "lat": 55.02259,
-   "lon": 82.93175
+   "lon": 82.93175,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Samara Regional Center for Medical Prevention",
    "city": "Samara",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "Samara Regional Center for Medical Prevention",
    "lat": 53.20767,
-   "lon": 50.13553
+   "lon": 50.13553,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Republican Center for Medical Prevention of the Republic of Bashkortostan",
    "city": "Ufa",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "Republican Center for Medical Prevention of the Republic of Bashkortostan",
    "lat": 54.74306,
-   "lon": 55.96779
+   "lon": 55.96779,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03927196",
@@ -143,6 +143,36 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "moderate cardiovascular risk (<5% but ≥1% on a SCORE scale) and cholesterol level LDL ≥3.0 mmol / l, in which the target is not reached during the improvement of lifestyle level of cholesterol-LDL, and the attending physician considers appropriate the appointment lipid-lowering drugs (statins), or",
+    "group": "Men and women 40-65 years old with the presence of"
+   },
+   {
+    "text": "high cardiovascular risk (≥5% but <10% on a SCORE scale) and cholesterol level LDL ≥ 2.5 mmol / l, or",
+    "group": "Men and women 40-65 years old with the presence of"
+   },
+   {
+    "text": "very high cardiovascular risk (≥10% on the SCORE scale) and cholesterol-LDL ≥1.8mmol / l, or",
+    "group": "Men and women 40-65 years old with the presence of"
+   },
+   {
+    "text": "atherosclerotic stenosis of the brachiocephalic arteries> 50% in the absence cerebrovascular diseases and the level of cholesterol-LDL ≥1.8 mmol / l, which do not have contraindications to taking statins and not taking drugs of this group in currently.",
+    "group": "Men and women 40-65 years old with the presence of"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "The presence of the following clinically significant events in anamnesis: myocardial infarction, stroke, myocardial infarction"
+   },
+   {
+    "text": "The presence of the following diseases at the time of statin administration: ischemic heart disease; heart failure; atherosclerotic disease of peripheral arteries; atherosclerotic stenosis of the brachiocephalic arteries in the presence of cerebrovascular disease; chronic renal failure with creatinine clearance <30 ml / min; liver disease with an increase in AST and ALT levels of more than 3 times, compared to the upper limit of normal; history of muscular or neuromuscular diseases, with elevated CPK; alcoholism, oncological, mental and other severe concomitant diseases; intolerance to statins in anamnesis; use of other lipid-modifying agents."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

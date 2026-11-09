@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Daewoong Pharmaceutical Co. LTD.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Daewoong Pharmaceutical Co. LTD."
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Amlodipine/Olmesartan 10/40mg (Combination drug), Ezetimibe/Rosuvastatin 10/20mg(Combination drug)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Olmesartan 40mg, Ezetimibe/Rosuvastatin 10/20mg(Combination drug)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Amlodipine/Olmesartan 10/40mg (Combination drug)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Amlodpine, Olmesartan, Rosuvastatin, Ezetimibe",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Amlodipine/Olmesartan 10/40mg (Combination drug), Ezetimibe/Rosuvastatin 10/20mg(Combination drug)"
-   ]
+   ],
+   "label": "Amlodpine, Olmesartan, Rosuvastatin, Ezetimibe",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Olmesartan, Rosuvastatin, Ezetimibe",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Olmesartan 40mg, Ezetimibe/Rosuvastatin 10/20mg(Combination drug)"
-   ]
+   ],
+   "label": "Olmesartan, Rosuvastatin, Ezetimibe",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Amlodpine, Olmesartan",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Amlodipine/Olmesartan 10/40mg (Combination drug)"
-   ]
+   ],
+   "label": "Amlodpine, Olmesartan",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "* the change of sitSBP based on baseline between Treatment arm and control 1 arm \\[ Time Frame: 8 weeks \\]\n* the change of LDL-C based on baseline between Treatment arm and control2 arm \\[ Time Frame: 8 weeks \\]",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 19 to 80 years\n* patients with hypertension and hyperlipidemias\n\nExclusion Criteria:\n\n* orthostatic hypotension\n* History of ventricular tachycardia, atrial fibrillation\n* uncontrolled diabetes mellitus",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "Yonsei University Health System, Severance Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Yonsei University Health System, Severance Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04161001",
@@ -131,6 +131,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 19 to 80 years"
+   },
+   {
+    "text": "patients with hypertension and hyperlipidemias"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "orthostatic hypotension"
+   },
+   {
+    "text": "History of ventricular tachycardia, atrial fibrillation"
+   },
+   {
+    "text": "uncontrolled diabetes mellitus"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

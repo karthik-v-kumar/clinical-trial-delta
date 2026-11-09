@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Bing He",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Bing He"
  },
  "collaborators": [],
  "conditions": [
@@ -48,46 +48,46 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Exenatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Metformin"
+   ],
    "label": "Metformin (BMI<24)",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Metformin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Metformin"
+   ],
    "label": "Metformin (BMI≥24)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Metformin",
+    "Drug: Exenatide"
+   ],
    "label": "Combination (BMI<24)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Metformin",
-    "Drug: Exenatide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Combination (BMI≥24)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Exenatide"
-   ]
+   ],
+   "label": "Combination (BMI≥24)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -99,23 +99,23 @@
  "brief_summary": "To study the effects of GLP-1 analogues combined with metformin and metformin on gonadal and metabolic profiles in PCOS patients with BMI ≥ 24 in China. 60 cases of overweight PCOS patients were collected from Shengjing hospital. The intervention period was 3 months after intervention with met or met + GLP-1. To evaluate the improvement of met or met + GLP-1 in the treatment of hyperandremia, glucose metabolism, BMI, waist circumference, menstruation, hairiness and acne in PCOS patients with different BMI.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Females 18 years to 40 years of age Diagnosed as PCOS by the 2003 Rotterdam criteria\n2. Overweight/obesity (BMI≥24 kg/m2)\n3. No pregnant plan in recent 6 months\n4. Written consent for participation in the study\n\nExclusion Criteria:\n\n1. type 1 or type 2 diabetes mellitus\n2. Subjects have other endocrine diseases, such as adrenal hyperplasias or tumor, androgen-secreting tumors, Cushing's syndrome, thyroid diseases, and hyperprolactinemia\n3. Diagnosed with or have a family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)\n4. Serious systemic disease or malignant tumor\n5. History of pancreatitis (chronic, acute or recurrent)\n6. Body weight change ≥10% at 3 months before treatment\n7. Used oral contraceptives or sex hormone drugs in the past 1 month\n8. Used oral glucocorticoids in the past 1 month\n9. Substance (alcohol or drug) abuse or dependence within 3 months\n10. Heavy smokers (smokers who smoke 20 or more cigarettes a day) or heavy drinkers (\\>10g/d)\n11. Subjects have a severe systemic disease, such as cardiovascular system, Renal impairment (eGFR\\<60ml/min/1.73m2)\n12. Increase of transaminases up to \\< 2.5 times of upper limit of normal value\n13. Have a history of thromboembolic disease or thrombotic tendency\n14. Subjects in pregnant or lactating or within 1 year after delivery\n15. Subjects have an allergic history to the drugs used in the study\n16. Subjects have participated in other clinical researches of medicine within 1 month prior to randomization\n17. Use of metformin, glucagon-like peptide -1 receptor agonists, or weight loss medications (prescription or OTC) within 30 days before screening",
-  "sex": "FEMALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "40 Years",
   "healthy_volunteers": false,
+  "maximum_age": "40 Years",
+  "minimum_age": "18 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Shengjing Hospital of China Medical University",
    "city": "Shenyang",
-   "state": "Liaoning",
    "country": "China",
-   "status": null,
+   "facility": "Shengjing Hospital of China Medical University",
    "lat": 41.79222,
-   "lon": 123.43278
+   "lon": 123.43278,
+   "state": "Liaoning",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04969627",
@@ -127,6 +127,77 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Females 18 years to 40 years of age Diagnosed as PCOS by the 2003 Rotterdam criteria"
+   },
+   {
+    "text": "Overweight/obesity (BMI≥24 kg/m2)"
+   },
+   {
+    "text": "No pregnant plan in recent 6 months"
+   },
+   {
+    "text": "Written consent for participation in the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "type 1 or type 2 diabetes mellitus"
+   },
+   {
+    "text": "Subjects have other endocrine diseases, such as adrenal hyperplasias or tumor, androgen-secreting tumors, Cushing's syndrome, thyroid diseases, and hyperprolactinemia"
+   },
+   {
+    "text": "Diagnosed with or have a family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2)"
+   },
+   {
+    "text": "Serious systemic disease or malignant tumor"
+   },
+   {
+    "text": "History of pancreatitis (chronic, acute or recurrent)"
+   },
+   {
+    "text": "Body weight change ≥10% at 3 months before treatment"
+   },
+   {
+    "text": "Used oral contraceptives or sex hormone drugs in the past 1 month"
+   },
+   {
+    "text": "Used oral glucocorticoids in the past 1 month"
+   },
+   {
+    "text": "Substance (alcohol or drug) abuse or dependence within 3 months"
+   },
+   {
+    "text": "Heavy smokers (smokers who smoke 20 or more cigarettes a day) or heavy drinkers (>10g/d)"
+   },
+   {
+    "text": "Subjects have a severe systemic disease, such as cardiovascular system, Renal impairment (eGFR<60ml/min/1.73m2)"
+   },
+   {
+    "text": "Increase of transaminases up to < 2.5 times of upper limit of normal value"
+   },
+   {
+    "text": "Have a history of thromboembolic disease or thrombotic tendency"
+   },
+   {
+    "text": "Subjects in pregnant or lactating or within 1 year after delivery"
+   },
+   {
+    "text": "Subjects have an allergic history to the drugs used in the study"
+   },
+   {
+    "text": "Subjects have participated in other clinical researches of medicine within 1 month prior to randomization"
+   },
+   {
+    "text": "Use of metformin, glucagon-like peptide -1 receptor agonists, or weight loss medications (prescription or OTC) within 30 days before screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

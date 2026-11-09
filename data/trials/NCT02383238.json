@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Erlangen-Nürnberg Medical School",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Erlangen-Nürnberg Medical School"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Forxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Dapagliflozin leads to improved vascular function in the micro- and macrocirculation by action on various cardiovascular risk factors, in particular by effectively controlling hyperglycemia, arterial hypertension and reducing whole sodium content amongst others.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes\n2. HbA1c \\> 6.5%\n3. age \\> 18 years\n4. male and females\n\nExclusion Criteria:\n\n1. age \\> 75 years\n2. HbA1c \\> 10 %,\n3. reduced renal function (eGFR \\< 60 ml/min/1.73 m²).\n4. insulin therapy, or any antidiabetic medication other than metformin.\n5. uncontrolled hypertension (\\> 180/\\>110 mmHg)\n6. cardiovascular event within the last 3 months\n7. Use of loop diuretics",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "University Erlangen-Nuernberg",
    "city": "Erlangen",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "University Erlangen-Nuernberg",
    "lat": 49.59099,
-   "lon": 11.00783
+   "lon": 11.00783,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02383238",
@@ -117,6 +117,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "HbA1c > 6.5%"
+   },
+   {
+    "text": "age > 18 years"
+   },
+   {
+    "text": "male and females"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "age > 75 years"
+   },
+   {
+    "text": "HbA1c > 10 %,"
+   },
+   {
+    "text": "reduced renal function (eGFR < 60 ml/min/1.73 m²)."
+   },
+   {
+    "text": "insulin therapy, or any antidiabetic medication other than metformin."
+   },
+   {
+    "text": "uncontrolled hypertension (> 180/>110 mmHg)"
+   },
+   {
+    "text": "cardiovascular event within the last 3 months"
+   },
+   {
+    "text": "Use of loop diuretics"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

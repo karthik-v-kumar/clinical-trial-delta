@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "DOUBLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of California, Los Angeles",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of California, Los Angeles"
  },
  "collaborators": [
   "Intermountain Health Care, Inc.",
@@ -56,23 +56,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Shared decision-making for diabetes prevention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Shared decision-making with pharmacists",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Shared decision-making for diabetes prevention"
-   ]
+   ],
+   "label": "Shared decision-making with pharmacists",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Usual Care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -84,32 +84,32 @@
  "brief_summary": "Our goal is to test whether shared decision making for diabetes prevention can help women with a history of gestational diabetes mellitus (GDM) who are at high risk of developing type 2 diabetes (T2DM) increase weight loss and adoption of evidence based strategies to lower their risk of incident diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 18 years to 54 (Adult)\n* Females\n* Most recent BMI ≥25 kg/m2 (or \\>23 if Asian American)\n* History of gestational diabetes mellitus based on:\n* Diagnostic code ICD10 or 1-hour glucose challenge test \\> 140 mg/dL, followed by 3-hour glucose tolerance test with TWO or more values. Cut-offs \\>= i. 95 at 0-hour ii. 180 at 1-hour iii. 155 at 2-hour iv. 140 at 3-hour\n* History of prediabetes in prior 36 months defined by either\n\n  1. most recent HbA1c 5.7-6.4% or\n  2. most recent FPG 100-125 mg/dL or\n  3. prior diabetes diagnostic codes + abnormal labs\n* Patient at UCLA or Intermountain Healthcare Systems with provider visit or labs in prior 12 months\n\nExclusion Criteria:\n\n* Delivery within the last 12 months at randomization\n* History of diabetes (i.e., prior HbA1c 6.5% or above, or 2 or more fasting plasma glucose 125 or above, or prior diagnostic code)\n* Any anti-glycemic medications or insulin use 12 months prior to randomization\n* Most recent eGFR \\<45 ml/min\n* BMI \\>60 kg/m2 at randomization\n* History of any type of weight loss surgery 12 months prior to randomization\n* Currently being treated for an eating disorder, such as anorexia or bulimia\n* Currently pregnant or planning to get pregnant in the next 12 months\n* Completed a prior prediabetes SDM consult anytime\n* Currently enrolled OR have ever participated in any CDC certified Diabetes Prevention Program (DPP)\n* Inability or concerns about doing \\>150 minutes of physical activity per week Currently taking a medication called metformin or have been prescribed metformin in the last 12-months\n* History of metformin intolerance\n* Unable to attend 3 virtual or in-person visits over the next 2 years at UCLA or Intermountain Healthcare\n* Non-English primary language",
-  "sex": "FEMALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "54 Years",
   "healthy_volunteers": true,
+  "maximum_age": "54 Years",
+  "minimum_age": "18 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "University of California, Los Angeles",
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "University of California, Los Angeles",
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Intermountain Healthcare System",
    "city": "Salt Lake City",
-   "state": "Utah",
    "country": "United States",
-   "status": null,
+   "facility": "Intermountain Healthcare System",
    "lat": 40.76078,
-   "lon": -111.89105
+   "lon": -111.89105,
+   "state": "Utah",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04897945",
@@ -121,6 +121,82 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "18 years to 54 (Adult)"
+   },
+   {
+    "text": "Females"
+   },
+   {
+    "text": "Most recent BMI ≥25 kg/m2 (or >23 if Asian American)"
+   },
+   {
+    "text": "History of gestational diabetes mellitus based on:"
+   },
+   {
+    "text": "Diagnostic code ICD10 or 1-hour glucose challenge test > 140 mg/dL, followed by 3-hour glucose tolerance test with TWO or more values. Cut-offs >= i. 95 at 0-hour ii. 180 at 1-hour iii. 155 at 2-hour iv. 140 at 3-hour"
+   },
+   {
+    "text": "History of prediabetes in prior 36 months defined by either",
+    "sub_items": [
+     "most recent HbA1c 5.7-6.4% or",
+     "most recent FPG 100-125 mg/dL or",
+     "prior diabetes diagnostic codes + abnormal labs"
+    ]
+   },
+   {
+    "text": "Patient at UCLA or Intermountain Healthcare Systems with provider visit or labs in prior 12 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Delivery within the last 12 months at randomization"
+   },
+   {
+    "text": "History of diabetes (i.e., prior HbA1c 6.5% or above, or 2 or more fasting plasma glucose 125 or above, or prior diagnostic code)"
+   },
+   {
+    "text": "Any anti-glycemic medications or insulin use 12 months prior to randomization"
+   },
+   {
+    "text": "Most recent eGFR <45 ml/min"
+   },
+   {
+    "text": "BMI >60 kg/m2 at randomization"
+   },
+   {
+    "text": "History of any type of weight loss surgery 12 months prior to randomization"
+   },
+   {
+    "text": "Currently being treated for an eating disorder, such as anorexia or bulimia"
+   },
+   {
+    "text": "Currently pregnant or planning to get pregnant in the next 12 months"
+   },
+   {
+    "text": "Completed a prior prediabetes SDM consult anytime"
+   },
+   {
+    "text": "Currently enrolled OR have ever participated in any CDC certified Diabetes Prevention Program (DPP)"
+   },
+   {
+    "text": "Inability or concerns about doing >150 minutes of physical activity per week Currently taking a medication called metformin or have been prescribed metformin in the last 12-months"
+   },
+   {
+    "text": "History of metformin intolerance"
+   },
+   {
+    "text": "Unable to attend 3 virtual or in-person visits over the next 2 years at UCLA or Intermountain Healthcare"
+   },
+   {
+    "text": "Non-English primary language"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

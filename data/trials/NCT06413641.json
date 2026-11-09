@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Aarhus University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Aarhus University Hospital"
  },
  "collaborators": [
   "Esbjerg Hospital - University Hospital of Southern Denmark",
@@ -54,43 +54,43 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Follow up at general practice",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Consultation",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Visualization of CTA images",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Usual care",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Follow up at general practice"
-   ]
+   ],
+   "label": "Usual care",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Low intensity intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Consultation"
-   ]
+   ],
+   "label": "Low intensity intervention",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "High intensity intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Consultation",
     "Other: Visualization of CTA images"
-   ]
+   ],
+   "label": "High intensity intervention",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "The VICAD-RISK study assesses if visualization of coronary CT angiography (CTA) images in participants with non-obstructive coronary artery disease will improve LDL lowering, reduce reporting of side effects by cholesterol lowering medications, and modify the coronary artery disease phenotype over 12 months.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* New diagnosis of nonobstructive coronary artery disease\n* No known coronary artery disease (no previous coronary revascularization)\n* Coronary Artery Disease Reporting and Data System (CAD-RADS) score 1-3\n* LDL cholesterol \\> 2.0 mmol/l\n* Life expectancy \\>3 years\n* Signed informed consent\n\nExclusion Criteria:\n\n* Post CTA test indication for invasive coronary angiography\n* Non-evaluable CTA exam\n* Obstructive coronary disease (One or more coronary stenosis ≥70%, left main \\>40%)\n* Ongoing lipid lowering medical treatment (Patients already on lipid lowering medical therapy can be included if the treatment was initiated \\<3 months before the time of the CTA test)\n* BMI \\>40\n* Renal insufficiency (eGFR \\<40 ml/min)\n* Allergy to iodinated contrast media\n* Contraindications to statins (Active liver disease Child-Pugh A, B and C, excessive alcohol consumption)\n* Participation in a cardiac rehabilitation or lifestyle modification program\n* Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,49 +113,49 @@
  },
  "sites": [
   {
-   "facility": "Aalborg University Hospital",
    "city": "Aalborg",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Aalborg University Hospital",
    "lat": 57.048,
-   "lon": 9.9187
+   "lon": 9.9187,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Bjarne L Nørgaard",
    "city": "Aarhus",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Bjarne L Nørgaard",
    "lat": 56.15674,
-   "lon": 10.21076
+   "lon": 10.21076,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Hospital of South West Jutland",
    "city": "Esbjerg",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Hospital of South West Jutland",
    "lat": 55.47028,
-   "lon": 8.45187
-  },
-  {
-   "facility": "Vejle Hospital",
-   "city": "Vejle",
+   "lon": 8.45187,
    "state": null,
-   "country": "Denmark",
-   "status": null,
-   "lat": 55.70927,
-   "lon": 9.5357
+   "status": null
   },
   {
-   "facility": "Gødstrup Hospital",
-   "city": "Gødstrup",
-   "state": "Jutland",
+   "city": "Vejle",
    "country": "Denmark",
-   "status": null,
+   "facility": "Vejle Hospital",
+   "lat": 55.70927,
+   "lon": 9.5357,
+   "state": null,
+   "status": null
+  },
+  {
+   "city": "Gødstrup",
+   "country": "Denmark",
+   "facility": "Gødstrup Hospital",
    "lat": 56.15584,
-   "lon": 8.89276
+   "lon": 8.89276,
+   "state": "Jutland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06413641",
@@ -167,6 +167,62 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "New diagnosis of nonobstructive coronary artery disease"
+   },
+   {
+    "text": "No known coronary artery disease (no previous coronary revascularization)"
+   },
+   {
+    "text": "Coronary Artery Disease Reporting and Data System (CAD-RADS) score 1-3"
+   },
+   {
+    "text": "LDL cholesterol > 2.0 mmol/l"
+   },
+   {
+    "text": "Life expectancy >3 years"
+   },
+   {
+    "text": "Signed informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Post CTA test indication for invasive coronary angiography"
+   },
+   {
+    "text": "Non-evaluable CTA exam"
+   },
+   {
+    "text": "Obstructive coronary disease (One or more coronary stenosis ≥70%, left main >40%)"
+   },
+   {
+    "text": "Ongoing lipid lowering medical treatment (Patients already on lipid lowering medical therapy can be included if the treatment was initiated <3 months before the time of the CTA test)"
+   },
+   {
+    "text": "BMI >40"
+   },
+   {
+    "text": "Renal insufficiency (eGFR <40 ml/min)"
+   },
+   {
+    "text": "Allergy to iodinated contrast media"
+   },
+   {
+    "text": "Contraindications to statins (Active liver disease Child-Pugh A, B and C, excessive alcohol consumption)"
+   },
+   {
+    "text": "Participation in a cardiac rehabilitation or lifestyle modification program"
+   },
+   {
+    "text": "Pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

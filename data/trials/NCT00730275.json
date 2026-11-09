@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2012-01-30",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,47 +51,47 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin phosphate",
    "other_names": [
     "MK-0431",
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: matching placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Sitagliptin phosphate"
+   ],
    "label": "Sitagliptin 50 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Sitagliptin phosphate"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Sitagliptin phosphate"
+   ],
    "label": "Sitagliptin 100 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Sitagliptin phosphate"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Sitagliptin phosphate"
+   ],
    "label": "Sitagliptin 200 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Sitagliptin phosphate"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo to sitagliptin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: matching placebo"
-   ]
+   ],
+   "label": "Placebo to sitagliptin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -107,10 +107,10 @@
  "brief_summary": "This study will assess the safety, tolerability and pharmacokinetics of sitagliptin in 10 to 17 year old diabetic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males or females who are 10 - 17 years of age\n* History of type 2 diabetes\n* Nonsmoker\n* No clinical or laboratory evidence to indicate a diagnosis of type 1 diabetes\n\nExclusion Criteria:\n\n* History of diabetic ketoacidosis\n* History of stroke, chronic seizures or major neurological disorder\n* Consumes alcohol\n* Consume more than 6 servings (1 serving is approximately equivalent to 120 mg of caffeine) of coffee, tea, cola or other beverages containing caffeine per day\n* Unable to swallow tablets\n* Has had surgery, donated or lost 1 unit of blood, or participated in another investigational study within a minimum of 4 weeks prior to starting the study\n* History of multiple and/or severe allergies or has had an allergic reaction to or significant intolerability to prescription or non-prescription drugs or food\n* Currently a regular user of any illicit drugs or has a history of drug or alcohol abuse\n* History of clinically significant endocrine, gastrointestinal,\n\ncardiovascular, hematological, hepatic, immunological, renal, respiratory, or\n\ngenitourinary abnormalities or diseases\n\n* Has an estimated creatinine clearance of less than or equal to 80 mL/min",
-  "sex": "ALL",
-  "minimum_age": "10 Years",
-  "maximum_age": "17 Years",
   "healthy_volunteers": false,
+  "maximum_age": "17 Years",
+  "minimum_age": "10 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
@@ -125,6 +125,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males or females who are 10 - 17 years of age"
+   },
+   {
+    "text": "History of type 2 diabetes"
+   },
+   {
+    "text": "Nonsmoker"
+   },
+   {
+    "text": "No clinical or laboratory evidence to indicate a diagnosis of type 1 diabetes"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of diabetic ketoacidosis"
+   },
+   {
+    "text": "History of stroke, chronic seizures or major neurological disorder"
+   },
+   {
+    "text": "Consumes alcohol"
+   },
+   {
+    "text": "Consume more than 6 servings (1 serving is approximately equivalent to 120 mg of caffeine) of coffee, tea, cola or other beverages containing caffeine per day"
+   },
+   {
+    "text": "Unable to swallow tablets"
+   },
+   {
+    "text": "Has had surgery, donated or lost 1 unit of blood, or participated in another investigational study within a minimum of 4 weeks prior to starting the study"
+   },
+   {
+    "text": "History of multiple and/or severe allergies or has had an allergic reaction to or significant intolerability to prescription or non-prescription drugs or food"
+   },
+   {
+    "text": "Currently a regular user of any illicit drugs or has a history of drug or alcohol abuse"
+   },
+   {
+    "text": "History of clinically significant endocrine, gastrointestinal,"
+   },
+   {
+    "text": "cardiovascular, hematological, hepatic, immunological, renal, respiratory, or"
+   },
+   {
+    "text": "genitourinary abnormalities or diseases"
+   },
+   {
+    "text": "Has an estimated creatinine clearance of less than or equal to 80 mL/min"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

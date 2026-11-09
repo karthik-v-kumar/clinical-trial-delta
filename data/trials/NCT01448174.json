@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Poznan University of Medical Sciences",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Poznan University of Medical Sciences"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "ATC: C 10 AA 05"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "atorvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "atorvastatin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "Lifestyle counseling",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
+   "intervention_names": [],
    "label": "The controls (healthy volunteers)",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Hyperlipidemia and atherosclerosis lead to cardiovascular diseases and are an indirect cause of increased death rate in the general population. This association is still more evident in specific subpopulations, like patients with advanced chronic kidney disease (CKD), especially hemodialysis (HD) patients, due to a higher prevalence of lipid disturbances and atherosclerosis compared to the general population. Cardiovascular events in CKD patients are frequently associated with traditional risk factors, including diabetes, male sex, hypertension, dyslipidemia and advanced age. However, these factors failed to fully account for the increased risk of cardiovascular events in CKD. The efforts are made to identify new risk factors that contribute to the development of atherosclerosis and participate in causes of cardiovascular death. In 2003, there were identified peptides designated salusin-alpha and salusin-beta. Development of atherosclerosis may be suppressed by salusin-alpha. Salusin-alpha may have a lipid lowering effect, similar to that of statins.\n\nThe purpose of this study is to investigate whether 1) salusin-alpha is associated with lipid metabolism of HD patients (without or with metabolic syndrome or type 2 diabetes mellitus), similarly or not like in healthy or obese subjects; 2) treatment with atorvastatin and its effects are associated with changes in plasma salusin-alpha concentration, if so - whether it is dependent on the direct influence of atorvastatin on salusin-alpha or associated with a decrease in serum lipid level; 3) salusin-alpha may predict mortality in HD patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nFor HD patients:\n\n* HD vintage at least 3 months\n* signed consent for participation in the study\n\nFor obese persons:\n\n* BMI \\> 30 kg/m2\n* eGFR \\> 60 ml/min/1.73 m2 BSA\n* interest in weight loss according to weight loss diet protocol (WLDP)\n* signed consent for participation in the study\n\nFor controls (healthy volunteers):\n\n* declared health, comfort\n* no substantial changes in the medical interview and physical examination\n* no medication\n* signed consent for participation in the study\n\nExclusion Criteria:\n\nFor HD patients:\n\n* active thyroid gland disease and/or thyreotropic medication\n* treatment with corticosteroids, immunosuppressants or hormones\n* treatment with statins or fibrates in 6 weeks before the study commencement\n* diagnosis of genetic lipid abnormalities\n* neoplastic disease\n* acute coronary syndrome and/or cerebral stroke in 6 months before the study commencement\n* surgery in 3 months before the study commencement\n* plasma activities of ALT and/or AST exceeding 3 times the upper laboratory normal limit\n* non compensated diabetes mellitus\n\nFor obese persons:\n\n* a known history of moderate or severe cardiovascular disease, stroke or transient ischemic attack\n* uncontrolled hypertension\n* severe dyslipidemia (triglycerides \\> 500 mg/dl, total cholesterol \\> 350 mg/dl) or taking lipid-lowering agents at the recruitment or 6 weeks before\n* serious chronic disease requiring active treatment (example with glucocorticoids, antineoplastic agents, psychoactive agents, bronchodilators on a regular basis, insulin or oral hypoglycemic drugs)\n* women of child-bearing potential using an effective form of hormonal birth control, pregnant or lactating women",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "BBraun Avitum Dialysis Center",
    "city": "Nowy Tomyśl",
-   "state": "Wielkopolska",
    "country": "Poland",
-   "status": null,
+   "facility": "BBraun Avitum Dialysis Center",
    "lat": 52.3195,
-   "lon": 16.12844
+   "lon": 16.12844,
+   "state": "Wielkopolska",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01448174",
@@ -118,6 +118,110 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "HD vintage at least 3 months",
+    "group": "For HD patients"
+   },
+   {
+    "text": "signed consent for participation in the study",
+    "group": "For HD patients"
+   },
+   {
+    "text": "BMI > 30 kg/m2",
+    "group": "For obese persons"
+   },
+   {
+    "text": "eGFR > 60 ml/min/1.73 m2 BSA",
+    "group": "For obese persons"
+   },
+   {
+    "text": "interest in weight loss according to weight loss diet protocol (WLDP)",
+    "group": "For obese persons"
+   },
+   {
+    "text": "signed consent for participation in the study",
+    "group": "For obese persons"
+   },
+   {
+    "text": "declared health, comfort",
+    "group": "For controls (healthy volunteers)"
+   },
+   {
+    "text": "no substantial changes in the medical interview and physical examination",
+    "group": "For controls (healthy volunteers)"
+   },
+   {
+    "text": "no medication",
+    "group": "For controls (healthy volunteers)"
+   },
+   {
+    "text": "signed consent for participation in the study",
+    "group": "For controls (healthy volunteers)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "active thyroid gland disease and/or thyreotropic medication",
+    "group": "For HD patients"
+   },
+   {
+    "text": "treatment with corticosteroids, immunosuppressants or hormones",
+    "group": "For HD patients"
+   },
+   {
+    "text": "treatment with statins or fibrates in 6 weeks before the study commencement",
+    "group": "For HD patients"
+   },
+   {
+    "text": "diagnosis of genetic lipid abnormalities",
+    "group": "For HD patients"
+   },
+   {
+    "text": "neoplastic disease",
+    "group": "For HD patients"
+   },
+   {
+    "text": "acute coronary syndrome and/or cerebral stroke in 6 months before the study commencement",
+    "group": "For HD patients"
+   },
+   {
+    "text": "surgery in 3 months before the study commencement",
+    "group": "For HD patients"
+   },
+   {
+    "text": "plasma activities of ALT and/or AST exceeding 3 times the upper laboratory normal limit",
+    "group": "For HD patients"
+   },
+   {
+    "text": "non compensated diabetes mellitus",
+    "group": "For HD patients"
+   },
+   {
+    "text": "a known history of moderate or severe cardiovascular disease, stroke or transient ischemic attack",
+    "group": "For obese persons"
+   },
+   {
+    "text": "uncontrolled hypertension",
+    "group": "For obese persons"
+   },
+   {
+    "text": "severe dyslipidemia (triglycerides > 500 mg/dl, total cholesterol > 350 mg/dl) or taking lipid-lowering agents at the recruitment or 6 weeks before",
+    "group": "For obese persons"
+   },
+   {
+    "text": "serious chronic disease requiring active treatment (example with glucocorticoids, antineoplastic agents, psychoactive agents, bronchodilators on a regular basis, insulin or oral hypoglycemic drugs)",
+    "group": "For obese persons"
+   },
+   {
+    "text": "women of child-bearing potential using an effective form of hormonal birth control, pregnant or lactating women",
+    "group": "For obese persons"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of New Mexico",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of New Mexico"
  },
  "collaborators": [
   "American Cancer Society, Inc.",
@@ -52,21 +52,21 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "Zepbound",
     "Mounjaro"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention Arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Intervention Arm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) is the most common cause of chronic liver disease worldwide and predominately affects individuals with overweight and obesity, as well as those with type 2 diabetes and cardiovascular disease. Tirzepatide is a medication used to treat type 2 diabetes and obesity. It has also been shown to help with MASLD. The purpose of this study is to study how tirzepatide affects the liver in patients with MASLD.\n\nParticipants will be asked to:\n\n* Take tirzepatide for 12 months.\n* Come in for clinic visits every 3 months.\n* Have blood drawn at baseline, 6, and 12 months.\n* Complete a liver ultrasound at baseline and at 12 months.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women\n* Age 18-75\n* Diagnosis of MASLD based on the following criteria:\n\n  * Presence of at least 1 out of the 5 following cardiometabolic criteria:\n* BMI \\>25 kg/m2 OR waist circumference \\>94 cm (men) or 80cm (women)\n* Fasting serum glucose \\>100 mg/dL OR 2-hour post-prandial glucose levels \\>140mg/dL OR AbA1c \\>5.7% OR type 2 diabetes OR treatment for type 2 diabetes\n* Blood pressure \\>130/85 mmHg OR specific antihypertensive drug treatment\n* Plasma triglycerides \\>150mg/dL OR on lipid lowering treatment\n* Plasma HDL-cholesterol \\<40mg/dL (men) and \\<50mg/dL (women) OR on lipid lowering medication\n\n  * No other identified causes of steatosis\n  * Evidence of steatotic liver disease (hepatic steatosis identified by imaging or biopsy)\n* English speaking\n\nExclusion Criteria:\n\n* Pregnancy or breast feeding\n* Premenopausal women not on any form of contraception\n* Reports alcohol intake \\>50g/day or 350g/week for women and \\>60g/day or 420g/week for men or an AUDIT score \\>8\n* Other identifiable causes of steatosis\n* Documented allergic reaction to tirzepatide or any other GLP1 RA\n* Decompensated liver disease\n* Decompensated renal disease requiring hemodialysis\n* Decompensated heart failure\n* Active malignancy\n* Prior history of pancreatitis\n* Serum triglyceride levels \\>500 mg/dL\n* Personal or family history of medullary thyroid cancer or MEN2a or MEN2b\n* Concurrent use of other ant-obesity medications\n* Use of other GLP1 RAs within 3 months of study enrollment\n* Unable to obtain the medication due to cost or insurance coverage restrictions.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "University of New Mexico Health Sciences Center",
    "city": "Albuquerque",
-   "state": "New Mexico",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "University of New Mexico Health Sciences Center",
    "lat": 35.08449,
-   "lon": -106.65114
+   "lon": -106.65114,
+   "state": "New Mexico",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06934642",
@@ -107,6 +107,93 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women"
+   },
+   {
+    "text": "Age 18-75"
+   },
+   {
+    "text": "Diagnosis of MASLD based on the following criteria:",
+    "sub_items": [
+     "Presence of at least 1 out of the 5 following cardiometabolic criteria:"
+    ]
+   },
+   {
+    "text": "BMI >25 kg/m2 OR waist circumference >94 cm (men) or 80cm (women)"
+   },
+   {
+    "text": "Fasting serum glucose >100 mg/dL OR 2-hour post-prandial glucose levels >140mg/dL OR AbA1c >5.7% OR type 2 diabetes OR treatment for type 2 diabetes"
+   },
+   {
+    "text": "Blood pressure >130/85 mmHg OR specific antihypertensive drug treatment"
+   },
+   {
+    "text": "Plasma triglycerides >150mg/dL OR on lipid lowering treatment"
+   },
+   {
+    "text": "Plasma HDL-cholesterol <40mg/dL (men) and <50mg/dL (women) OR on lipid lowering medication",
+    "sub_items": [
+     "No other identified causes of steatosis",
+     "Evidence of steatotic liver disease (hepatic steatosis identified by imaging or biopsy)"
+    ]
+   },
+   {
+    "text": "English speaking"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy or breast feeding"
+   },
+   {
+    "text": "Premenopausal women not on any form of contraception"
+   },
+   {
+    "text": "Reports alcohol intake >50g/day or 350g/week for women and >60g/day or 420g/week for men or an AUDIT score >8"
+   },
+   {
+    "text": "Other identifiable causes of steatosis"
+   },
+   {
+    "text": "Documented allergic reaction to tirzepatide or any other GLP1 RA"
+   },
+   {
+    "text": "Decompensated liver disease"
+   },
+   {
+    "text": "Decompensated renal disease requiring hemodialysis"
+   },
+   {
+    "text": "Decompensated heart failure"
+   },
+   {
+    "text": "Active malignancy"
+   },
+   {
+    "text": "Prior history of pancreatitis"
+   },
+   {
+    "text": "Serum triglyceride levels >500 mg/dL"
+   },
+   {
+    "text": "Personal or family history of medullary thyroid cancer or MEN2a or MEN2b"
+   },
+   {
+    "text": "Concurrent use of other ant-obesity medications"
+   },
+   {
+    "text": "Use of other GLP1 RAs within 3 months of study enrollment"
+   },
+   {
+    "text": "Unable to obtain the medication due to cost or insurance coverage restrictions."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

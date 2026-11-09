@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Royal Devon and Exeter NHS Foundation Trust",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Royal Devon and Exeter NHS Foundation Trust"
  },
  "collaborators": [
   "University of Exeter",
@@ -58,48 +58,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin - DPP4i",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Canagliflozin - SGLT2i",
    "other_names": [
     "Invokana"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone - TZD",
    "other_names": [
     "Actos"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin - DPP4i",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin - DPP4i"
-   ]
+   ],
+   "label": "Sitagliptin - DPP4i",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Canagliflozin - SGLT2i",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Canagliflozin - SGLT2i"
-   ]
+   ],
+   "label": "Canagliflozin - SGLT2i",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Pioglitazone - TZD",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pioglitazone - TZD"
-   ]
+   ],
+   "label": "Pioglitazone - TZD",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -115,10 +115,10 @@
  "brief_summary": "The aim of this project is to identify subgroups of patients with type 2 diabetes that respond well or poorly to particular drugs based on particular clinical characteristics such as their weight or kidney function, to enable better targeting of treatment for a particular individual.\n\nThis study will test 2 hypotheses of drug response supported by routine clinical and trial data. 600 patients with type 2 diabetes who have suboptimal glycaemic control on dual oral therapy will be recruited to a randomised double-blind crossover study of a DPP4 inhibitor, SGLT2 inhibitor and thiazolidinedione. Each patient will take each study drug in addition to their existing treatment for four months at a time. At the end of each treatment the patient's glucose control will be measured and information about their experience of the drug will be collected.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of Type 2 diabetes\n* Age ≥30 and ≤80\n* Currently treated with two classes of oral glucose-lowering therapy (given either as separate or combined medications), that do not include a DPP4-inhibitor, a SGLT2-inhibitor or a thiazolidinedione.\n* Diabetes duration ≥12months\n* No change in diabetes treatment (new treatments or dose change) within previous 3 months\n* HbA1c \\> 58mmol/mol (7.5%) and ≤110mmol/mol (12.2%) - confirmed at screening visit\n* eGFR ≥ 60mls/min/1.73m² - confirmed at screening visit\n* Able and willing to give informed consent\n\nExclusion Criteria:\n\n* Changes in glucose-lowering therapy or dose within last 3 months\n* HbA1c ≤ 58mmol/mol (7.5%) or \\>110mmol/mol (12.2%)\n* eGFR \\<60mls/min/1.73m².\n* Diabetes duration \\<12 months\n* ALT \\>2.5 x upper limit of the assay normal range or known liver disease, specifically \\>30 μmol/L that is associated with other evidence of liver failure.\n* Insulin treated within the last 12 months\n* Limb ischaemia shown by absence of both pulses in one or both feet.\n* Currently treated with corticosteroids\n* Currently treated with rifampicin, gemfibrozil, phenytoin and carbamazepine\n* Active infection (any infection requiring antibiotics at present)\n* Foot ulcer requiring antibiotics within previous three months\n* Recent (within 3 months) significant surgery or planned surgery (excluding minor procedures)\n* Acute cardiovascular episode (angina, myocardial infarction, stroke, transient ischemic episode) occurring within the previous 3 months\n* History of heart failure\n* Current use of loop diuretic therapy (Furosemide or Bumetanide)\n* History of bladder carcinoma\n* Current/ongoing investigation for macroscopic haematuria\n* History of Diabetic Ketoacidosis\n* History of pancreatitis\n* Pregnant, breastfeeding or planning a pregnancy over the study period\n* Concurrent Participation on another Clinical Trial of an Investigational Medicinal Product, where the IMP is currently being taken, or without sufficient washout period\\* and without consultation with the CTIMP research team.\n* Unable or unwilling to give informed consent\n\n  * Sufficient washout period = five times the half-life of the IMP / potential IMP if involving a placebo / longest half-life if a trial includes more than one drug",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -126,13 +126,13 @@
  },
  "sites": [
   {
-   "facility": "Exeter Clinical Research Facility",
    "city": "Exeter",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Exeter Clinical Research Facility",
    "lat": 50.7236,
-   "lon": -3.52751
+   "lon": -3.52751,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02653209",
@@ -144,6 +144,107 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Clinical diagnosis of Type 2 diabetes"
+   },
+   {
+    "text": "Age ≥30 and ≤80"
+   },
+   {
+    "text": "Currently treated with two classes of oral glucose-lowering therapy (given either as separate or combined medications), that do not include a DPP4-inhibitor, a SGLT2-inhibitor or a thiazolidinedione."
+   },
+   {
+    "text": "Diabetes duration ≥12months"
+   },
+   {
+    "text": "No change in diabetes treatment (new treatments or dose change) within previous 3 months"
+   },
+   {
+    "text": "HbA1c > 58mmol/mol (7.5%) and ≤110mmol/mol (12.2%) - confirmed at screening visit"
+   },
+   {
+    "text": "eGFR ≥ 60mls/min/1.73m² - confirmed at screening visit"
+   },
+   {
+    "text": "Able and willing to give informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Changes in glucose-lowering therapy or dose within last 3 months"
+   },
+   {
+    "text": "HbA1c ≤ 58mmol/mol (7.5%) or >110mmol/mol (12.2%)"
+   },
+   {
+    "text": "eGFR <60mls/min/1.73m²."
+   },
+   {
+    "text": "Diabetes duration <12 months"
+   },
+   {
+    "text": "ALT >2.5 x upper limit of the assay normal range or known liver disease, specifically >30 μmol/L that is associated with other evidence of liver failure."
+   },
+   {
+    "text": "Insulin treated within the last 12 months"
+   },
+   {
+    "text": "Limb ischaemia shown by absence of both pulses in one or both feet."
+   },
+   {
+    "text": "Currently treated with corticosteroids"
+   },
+   {
+    "text": "Currently treated with rifampicin, gemfibrozil, phenytoin and carbamazepine"
+   },
+   {
+    "text": "Active infection (any infection requiring antibiotics at present)"
+   },
+   {
+    "text": "Foot ulcer requiring antibiotics within previous three months"
+   },
+   {
+    "text": "Recent (within 3 months) significant surgery or planned surgery (excluding minor procedures)"
+   },
+   {
+    "text": "Acute cardiovascular episode (angina, myocardial infarction, stroke, transient ischemic episode) occurring within the previous 3 months"
+   },
+   {
+    "text": "History of heart failure"
+   },
+   {
+    "text": "Current use of loop diuretic therapy (Furosemide or Bumetanide)"
+   },
+   {
+    "text": "History of bladder carcinoma"
+   },
+   {
+    "text": "Current/ongoing investigation for macroscopic haematuria"
+   },
+   {
+    "text": "History of Diabetic Ketoacidosis"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Pregnant, breastfeeding or planning a pregnancy over the study period"
+   },
+   {
+    "text": "Concurrent Participation on another Clinical Trial of an Investigational Medicinal Product, where the IMP is currently being taken, or without sufficient washout period* and without consultation with the CTIMP research team."
+   },
+   {
+    "text": "Unable or unwilling to give informed consent",
+    "sub_items": [
+     "Sufficient washout period = five times the half-life of the IMP / potential IMP if involving a placebo / longest half-life if a trial includes more than one drug"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

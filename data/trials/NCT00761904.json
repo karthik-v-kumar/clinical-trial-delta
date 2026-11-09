@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "SINGLE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Brigham and Women's Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Brigham and Women's Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -51,23 +51,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Free Generic Samples (hydrochlorothiazide, simvastatin)",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "receipt of free generic samples",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Free Generic Samples (hydrochlorothiazide, simvastatin)"
-   ]
+   ],
+   "label": "receipt of free generic samples",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "usual prescribing",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "In this randomized controlled trial, we will provide primary care physicians with free samples of highly effective generic cardiovascular medications. We will test whether this intervention will stimulate cost-effective prescribing, reducing drug costs and improving adherence to essential cardiovascular medications.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Primary care physicians receiving an existing academic detailing program in Pennsylvania\n\nExclusion Criteria:\n\n* Those with administrative policies stating they do not accept free samples",
-  "sex": "ALL",
-  "minimum_age": null,
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": null,
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Brigham and Women's Hospital",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Brigham and Women's Hospital",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00761904",
@@ -113,6 +113,20 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Primary care physicians receiving an existing academic detailing program in Pennsylvania"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Those with administrative policies stating they do not accept free samples"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

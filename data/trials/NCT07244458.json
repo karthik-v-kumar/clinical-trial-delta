@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Ian J. Neeland, MD",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Ian J. Neeland, MD"
  },
  "collaborators": [],
  "conditions": [
@@ -50,31 +50,31 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Peanuts",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "PROCEDURE",
    "name": "Dual-energy X-ray absorptiometry (DEXA) scans",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Peanut Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Peanuts",
     "Procedure: Dual-energy X-ray absorptiometry (DEXA) scans"
-   ]
+   ],
+   "label": "Peanut Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "No Peanut Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Dual-energy X-ray absorptiometry (DEXA) scans"
-   ]
+   ],
+   "label": "No Peanut Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -130,10 +130,10 @@
  "brief_summary": "This study will look at how eating peanuts every day might affect participants weight, how healthy their diet is, and how they feel when eating. Investigators want to see if adding peanuts to meals for 12 weeks helps participants feel fuller, have more energy, and improve body composition. The study will include adults who have been taking GLP-1 medicines like semaglutide or tirzepatide for at least three months. Investigators also want to see if eating peanuts improves overall diet quality and health markers like tiredness and certain levels in blood.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Individuals with a BMI ≥30 kg/m2 or with a BMI ≥27 kg/m2 with at least one weight-related comorbidity who have been using semaglutide or tirzepatide for a clinical indication or at least 6 months\n\nExclusion Criteria:\n\n* No use or contraindication to use of a GLP-1 RA\n* Known allergy to nuts\n* Pregnant or breastfeeding\n* Incarcerated",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -141,13 +141,13 @@
  },
  "sites": [
   {
-   "facility": "University Hospitals Cleveland Medical Center",
    "city": "Clevland",
-   "state": "Ohio",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "University Hospitals Cleveland Medical Center",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Ohio",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07244458",
@@ -159,6 +159,29 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Individuals with a BMI ≥30 kg/m2 or with a BMI ≥27 kg/m2 with at least one weight-related comorbidity who have been using semaglutide or tirzepatide for a clinical indication or at least 6 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "No use or contraindication to use of a GLP-1 RA"
+   },
+   {
+    "text": "Known allergy to nuts"
+   },
+   {
+    "text": "Pregnant or breastfeeding"
+   },
+   {
+    "text": "Incarcerated"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

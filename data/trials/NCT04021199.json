@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Université Catholique de Louvain",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Université Catholique de Louvain"
  },
  "collaborators": [],
  "conditions": [
@@ -49,25 +49,25 @@
  ],
  "interventions": [
   {
-   "type": "GENETIC",
    "name": "Mody test",
-   "other_names": []
+   "other_names": [],
+   "type": "GENETIC"
   }
  ],
  "arm_groups": [
   {
-   "label": "T1D Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Genetic: Mody test"
-   ]
+   ],
+   "label": "T1D Group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "MODY Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Genetic: Mody test"
-   ]
+   ],
+   "label": "MODY Group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -119,10 +119,10 @@
  "brief_summary": "Background/Aims: Diabetes, which affects 420 million people worldwide with a continuously rising incidence, is defined by a state of chronic hyperglycemia; a criterion referring to a heterogeneous group of diseases with various etiologies and distinct therapeutic options. Besides the two main forms of diabetes (i.e., type 1 (T1D) and type 2 (T2D)), there are rare subtypes of the disease called monogenic diabetes (or formerly MODY) that are hardly diagnosed because of their resemblance to T1D or T2D. Since these monogenic diabetes may appear early in life, a consortium of expert pediatric clinical centers was created under a clinical research initiative (the GENEPEDIAB study) to develop tools for accurate diagnosis of rare diabetes and to propose appropriate care to these children and adolescents wrongly assigned to T1D or T2D cohorts. The GENEPEDIAB study was initiated in the context of a broader collaborative project (DiaType) with the objective to develop personalized diabetes medicine and better patient care.\n\nMethods: For discrimination of patients with monogenic diabetes from those with classical forms of diabetes using the MODY probability calculator, patients enrolled in the GENEPEDIAB study are phenotyped and genotyped for T1D risk (anti-islet antibodies and HLA). Patients fulfilling sufficient criteria are then genotyped using the routine MODY panel, before being proposed a thorough gene analysis. More comprehensive genetic tests will be conducted in patients without anomalies found after the MODY gene-sequencing test.\n\nPerspective: the GENEPEDIAB study will enable the investigators to adapt treatment to diabetes etiology and help to provide genetic counseling to patients and their family members. The investigators anticipate that its broad genetic analyses will provide them with important information about the genetic susceptibility of these subgroups of patients with atypical diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age between 0 and 18 years at the age of diabetes diagnosis.\n* Patients followed and/or diagnosed within diabetes care agreements of the pediatric endocrinology departments participating in the study.\n\nExclusion Criteria:\n\n* none",
-  "sex": "ALL",
-  "minimum_age": null,
-  "maximum_age": "50 Years",
   "healthy_volunteers": false,
+  "maximum_age": "50 Years",
+  "minimum_age": null,
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -130,13 +130,13 @@
  },
  "sites": [
   {
-   "facility": "Cliniques universitaires Saint-Luc - UCLouvain",
    "city": "Brussels",
-   "state": null,
    "country": "Belgium",
-   "status": null,
+   "facility": "Cliniques universitaires Saint-Luc - UCLouvain",
    "lat": 50.85045,
-   "lon": 4.34878
+   "lon": 4.34878,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04021199",
@@ -148,6 +148,23 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age between 0 and 18 years at the age of diabetes diagnosis."
+   },
+   {
+    "text": "Patients followed and/or diagnosed within diabetes care agreements of the pediatric endocrinology departments participating in the study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "none"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

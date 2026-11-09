@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hospital Universitario San Ignacio",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hospital Universitario San Ignacio"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "mHealth",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Usual Care",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "mHealth",
-   "type": "OTHER",
    "intervention_names": [
     "Other: mHealth"
-   ]
+   ],
+   "label": "mHealth",
+   "type": "OTHER"
   },
   {
-   "label": "Control",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Usual Care"
-   ]
+   ],
+   "label": "Control",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "Introduction: In patients diagnosed with DM2, it is essential to achieve good metabolic control. One of the tools to optimize said control is self-monitoring with capillary glucometry or SMBG (Self Monitoring of Blood Glucose), which is indicated in all patients treated with insulin and is part of the \"treat to target\" strategies associated with education. Despite this, many patients do not perform self-titration of insulin due to the number of capillary glucose measurements (CG) necessary, or they do not record them adequately, which leads to therapeutic inertia. Digital platforms integrated with the use of smart mobile devices facilitate this process, and in experimental settings, they have shown a significant decrease in glycosylated hemoglobin (HbA1c) and an increase in adherence to therapy. However, at the moment there are no data about the efficacy of this system in the real population.\n\nObjective: To determine the effectiveness of the use of a digital platform for diabetes care, in terms of HbA1c reduction, compared with the usual treatment, in patients with DM2 under follow-up in a chronic patient care center.\n\nMethodology: A controlled clinical study will be carried out. Patients with a diagnosis of DM2, under follow-up in specialized centers, with poor glycemic control defined by HbA1c outside the goals and who have been discharged from a high complexity hospital will be included. Demographic, clinical, and insulin requirement variables will be recorded according to the total daily dose of insulin (DDT) in units. They will be randomly distributed into two groups; the intervention group will use SMBG integrated with a digital platform for diabetes care and the control group will use SMBG associated with usual care for 3 months. A comparison will be made between HbA1c levels, the number of episodes of severe hypoglycemia, nocturnal hypoglycemia, at baseline and 3 months.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Poor metabolic control with HbA1C ≥ 8% and ≤ 11% measured using a method certified by the National Glycohemoglobin Standardization Program (NGSP), ≤ 3 months before the screening visit.\n* Patients who use insulin therapy in the basal plus scheme, basal-bolus, or with two or more applications of insulin per day.\n* Not having modified therapy in the last 3 months\n* Availability of access to a computer to download data.\n* Mobile access with data.\n* The subject's compliance with capillary glucose self-monitoring parameters was greater than 80% during the baseline period after the Screening Visit.\n* Accept the study including signing the informed consent\n\nExclusion Criteria:\n\n* Acute decompensation of diabetes in the last 3 months\n* History of myocardial infarction or acute coronary syndrome in the last three months before recruitment.\n* Treatment with glucocorticoids in the last 3 months before the screening visit or who is scheduled to receive treatment during the study period\n* Visual impairment that limits the ability to view or use the mobile application\n* Cognitive impairment that, in the opinion of the principal investigator or study physician, would result in non-cooperation with study procedures.\n* Active neoplastic disease or in the last year and/or life expectancy less than 6 months.\n* Participating in another clinical study.\n* Proliferative retinopathy, amputations attributable to diabetes, and/or severe peripheral neuropathy that could interfere with the ability to participate and follow the study.\n* Pregnant or lactating, or plan to become pregnant during the study period\n* Real-time or intermittent continuous glucose monitoring user.\n* Significant psychiatric illness, kidney disease, severe liver disease, or other illness that affects the ability to complete the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital San Ignacio Hospital San Ignacio",
    "city": "Bogota",
-   "state": "Cundinamarca",
    "country": "Colombia",
-   "status": null,
+   "facility": "Hospital San Ignacio Hospital San Ignacio",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Cundinamarca",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05372471",
@@ -112,6 +112,68 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Poor metabolic control with HbA1C ≥ 8% and ≤ 11% measured using a method certified by the National Glycohemoglobin Standardization Program (NGSP), ≤ 3 months before the screening visit."
+   },
+   {
+    "text": "Patients who use insulin therapy in the basal plus scheme, basal-bolus, or with two or more applications of insulin per day."
+   },
+   {
+    "text": "Not having modified therapy in the last 3 months"
+   },
+   {
+    "text": "Availability of access to a computer to download data."
+   },
+   {
+    "text": "Mobile access with data."
+   },
+   {
+    "text": "The subject's compliance with capillary glucose self-monitoring parameters was greater than 80% during the baseline period after the Screening Visit."
+   },
+   {
+    "text": "Accept the study including signing the informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Acute decompensation of diabetes in the last 3 months"
+   },
+   {
+    "text": "History of myocardial infarction or acute coronary syndrome in the last three months before recruitment."
+   },
+   {
+    "text": "Treatment with glucocorticoids in the last 3 months before the screening visit or who is scheduled to receive treatment during the study period"
+   },
+   {
+    "text": "Visual impairment that limits the ability to view or use the mobile application"
+   },
+   {
+    "text": "Cognitive impairment that, in the opinion of the principal investigator or study physician, would result in non-cooperation with study procedures."
+   },
+   {
+    "text": "Active neoplastic disease or in the last year and/or life expectancy less than 6 months."
+   },
+   {
+    "text": "Participating in another clinical study."
+   },
+   {
+    "text": "Proliferative retinopathy, amputations attributable to diabetes, and/or severe peripheral neuropathy that could interfere with the ability to participate and follow the study."
+   },
+   {
+    "text": "Pregnant or lactating, or plan to become pregnant during the study period"
+   },
+   {
+    "text": "Real-time or intermittent continuous glucose monitoring user."
+   },
+   {
+    "text": "Significant psychiatric illness, kidney disease, severe liver disease, or other illness that affects the ability to complete the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

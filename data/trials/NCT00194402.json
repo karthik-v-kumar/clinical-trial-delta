@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Washington",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Washington"
  },
  "collaborators": [
   "Upsher-Smith Laboratories"
@@ -50,28 +50,28 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Slo-Niacin, atorvastatin",
    "other_names": [
     "Lipitor (R) (Atorvastatin)",
     "Slo-Niacin (R) (time-release niacin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Slo-Niacin, atorvastatin"
-   ]
+   ],
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Slo-Niacin, atorvastatin"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "Slo-Niacin and atorvastatin (Lipitor) are both drugs that lower cholesterol. In this research, we will compare the effectiveness of Slo-Niacin and atorvastatin taken alone and together. This study will help show how the individual benefits of the two drugs taken separately can be combined when taken together.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL-C \\> 130 mg/dL\n* HDL-C \\<= 45 mg/dL in men and \\<= 55 mg/dL in women\n\nExclusion Criteria:\n\n* history of hypersensitivity to any statin, niacin or aspirin\n* diagnosis of diabetes or a fasting glucose \\> 125 mg/dL\n* hyper or hypothyroidism (unless treatment stable)\n* meet other health, medication, and logistical criteria",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Northwest Lipid Research Clinic, University of Washington",
    "city": "Seattle",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "Northwest Lipid Research Clinic, University of Washington",
    "lat": 47.60621,
-   "lon": -122.33207
+   "lon": -122.33207,
+   "state": "Washington",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00194402",
@@ -112,6 +112,32 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "LDL-C > 130 mg/dL"
+   },
+   {
+    "text": "HDL-C <= 45 mg/dL in men and <= 55 mg/dL in women"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "history of hypersensitivity to any statin, niacin or aspirin"
+   },
+   {
+    "text": "diagnosis of diabetes or a fasting glucose > 125 mg/dL"
+   },
+   {
+    "text": "hyper or hypothyroidism (unless treatment stable)"
+   },
+   {
+    "text": "meet other health, medication, and logistical criteria"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

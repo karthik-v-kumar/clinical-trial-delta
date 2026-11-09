@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Amalgam Rx, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Amalgam Rx, Inc."
  },
  "collaborators": [
   "Kansas City Area Life Sciences Institute, Inc.",
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "iSage App with connected glucometer",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Magnet",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "iSage",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: iSage App with connected glucometer"
-   ]
+   ],
+   "label": "iSage",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Conventional Management",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Magnet"
-   ]
+   ],
+   "label": "Conventional Management",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The principal objective of this application is to improve glycemic control of diabetic patients treated with basal insulin through use of an innovative, FDA-cleared smartphone-based insulin titration application connected to Bluetooth enabled glucose meters. iSage Rx (isageapp.com) allows providers to prescribe basal insulin treatment plans to patients and manages basal insulin doses utilizing clinically proven algorithms. In this pilot study, we hypothesize that this user-friendly application and seamless data capture will improve glycemic control (achieve HgbA1c \\<7%) and reduce the frequency and severity of hypoglycemia. Exploratory measures will include healthcare resource utilization and patient and provider satisfaction. The basal insulin titration algorithms used in iSage have had thousands of user-years' experience in FDA-mandated, closely supervised clinical trials, both for long-acting insulins (e.g., Lantus, Levemir) that have been available for a long time and for the newer ultra-long-acting ones (e.g., Tresiba, Toujeo). However, the effectiveness of iSage with a connected glucose meter has not been studied in a \"real world\" clinical environment. Broad use of such an application and connected devices will, we believe, prove to be cost-effective, favor early and appropriate prescription of insulin, reduce provider effort, shorten time to achieve glycemic goals, and simplify the transition to basal insulin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* T2DM (WHO criteria) treated with basal insulin (glargine, detemir, degludec)\n* HgbA1c 8 or above\n* GFR \\>60 ml/min within the last 12 months\n* English speaking, informed consent\n* Has an Android or iOS based compatible smartphone (iOS 9.0 or above; Android 4.4 or above)\n* Currently performs at least 3 fasting fingerstick glucose measurements/week\n* Have a PCP within the KU Health System\n\nExclusion Criteria:\n\n* Diagnosis of hypoglycemic unawareness within 6 months of enrollment\n* Diagnosis of hyperglycemic hyperosmolar non-ketotic coma (HONK) or diabetic ketoacidosis (DKA) within 6 months of enrollment\n* Recent (within the last 6 months)/current use of non-topical steroids\n* Insulin requirements in excess of 1U/kg per day\n* Use of pioglitazone or another thiazolidinedione (TZD)\n* In the opinion of the provider, HgbA1c goals should adjusted above 7% due to infirmity, unstable cardiovascular disease, etc.",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "100 Years",
   "healthy_volunteers": true,
+  "maximum_age": "100 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Cray Diabetes Self-Management Center",
    "city": "Kansas City",
-   "state": "Kansas",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Cray Diabetes Self-Management Center",
    "lat": 39.11417,
-   "lon": -94.62746
+   "lon": -94.62746,
+   "state": "Kansas",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03908762",
@@ -117,6 +117,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "T2DM (WHO criteria) treated with basal insulin (glargine, detemir, degludec)"
+   },
+   {
+    "text": "HgbA1c 8 or above"
+   },
+   {
+    "text": "GFR >60 ml/min within the last 12 months"
+   },
+   {
+    "text": "English speaking, informed consent"
+   },
+   {
+    "text": "Has an Android or iOS based compatible smartphone (iOS 9.0 or above; Android 4.4 or above)"
+   },
+   {
+    "text": "Currently performs at least 3 fasting fingerstick glucose measurements/week"
+   },
+   {
+    "text": "Have a PCP within the KU Health System"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of hypoglycemic unawareness within 6 months of enrollment"
+   },
+   {
+    "text": "Diagnosis of hyperglycemic hyperosmolar non-ketotic coma (HONK) or diabetic ketoacidosis (DKA) within 6 months of enrollment"
+   },
+   {
+    "text": "Recent (within the last 6 months)/current use of non-topical steroids"
+   },
+   {
+    "text": "Insulin requirements in excess of 1U/kg per day"
+   },
+   {
+    "text": "Use of pioglitazone or another thiazolidinedione (TZD)"
+   },
+   {
+    "text": "In the opinion of the provider, HgbA1c goals should adjusted above 7% due to infirmity, unstable cardiovascular disease, etc."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

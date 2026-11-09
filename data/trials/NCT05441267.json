@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "QUADRUPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Oxford",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Oxford"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide Oral Tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo oral tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Oral semaglutide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide Oral Tablet"
-   ]
+   ],
+   "label": "Oral semaglutide",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo oral tablet"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "ASCEND PLUS is testing whether, for people with type 2 diabetes who have not previously had a heart attack or stroke, regularly taking a tablet called semaglutide can safely help to reduce heart attacks, strokes, mini-strokes, the need for any procedures to unblock or bypass an artery to their heart, and the chance of dying because of vascular problems.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults aged at least 55 years at the time of the Screening assessment\n* Type 2 Diabetes Mellitus (based on self-reported medical history)\n\nExclusion criteria:\n\n* Myocardial Infarction\n* Stroke\n* Current or planned treatment with a GLP-1 RA\n* Previous hypersensitivity to or intolerance of GLP-1 RA therapy\n* Severe hypoglycaemia within the last six months or during run-in\n* Symptomatic hypoglycaemia within the last month\n* Currently under consideration to commence insulin\n* Severe heart failure (NYHA class 4)\n* Current or planned renal replacement therapy\n* Unwilling to complete regular follow-up assessments\n* Ongoing treatment for cancer or diagnosis with cancer (excluding non-melanoma skin cancer) in the last 2 years\n* Type 1 or other type of diabetes (e.g. MODY)\n* History of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma\n* Currently breastfeeding or pregnant, or planning a pregnancy\n* Any serious illness which is likely to limit survival or active participation for at least 5 years\n* Current participation in a clinical trial with an unlicensed investigational medicinal product used to treat diabetes\n* For participants taking thyroxine, lack of agreement to arrange a thyroid function test in the next 3 months and agree to regular testing throughout the trial\n* Non-adherence to run-in treatment (i.e. reports taking the run-in tablets 'Never' or 'Only occasionally')\n* Their doctor does not wish them to be randomised",
-  "sex": "ALL",
-  "minimum_age": "55 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "55 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Trial Service Unit and Epidemiological Studies Unit",
    "city": "Oxford",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Clinical Trial Service Unit and Epidemiological Studies Unit",
    "lat": 51.75222,
-   "lon": -1.25596
+   "lon": -1.25596,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05441267",
@@ -121,6 +121,77 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults aged at least 55 years at the time of the Screening assessment"
+   },
+   {
+    "text": "Type 2 Diabetes Mellitus (based on self-reported medical history)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Myocardial Infarction"
+   },
+   {
+    "text": "Stroke"
+   },
+   {
+    "text": "Current or planned treatment with a GLP-1 RA"
+   },
+   {
+    "text": "Previous hypersensitivity to or intolerance of GLP-1 RA therapy"
+   },
+   {
+    "text": "Severe hypoglycaemia within the last six months or during run-in"
+   },
+   {
+    "text": "Symptomatic hypoglycaemia within the last month"
+   },
+   {
+    "text": "Currently under consideration to commence insulin"
+   },
+   {
+    "text": "Severe heart failure (NYHA class 4)"
+   },
+   {
+    "text": "Current or planned renal replacement therapy"
+   },
+   {
+    "text": "Unwilling to complete regular follow-up assessments"
+   },
+   {
+    "text": "Ongoing treatment for cancer or diagnosis with cancer (excluding non-melanoma skin cancer) in the last 2 years"
+   },
+   {
+    "text": "Type 1 or other type of diabetes (e.g. MODY)"
+   },
+   {
+    "text": "History of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma"
+   },
+   {
+    "text": "Currently breastfeeding or pregnant, or planning a pregnancy"
+   },
+   {
+    "text": "Any serious illness which is likely to limit survival or active participation for at least 5 years"
+   },
+   {
+    "text": "Current participation in a clinical trial with an unlicensed investigational medicinal product used to treat diabetes"
+   },
+   {
+    "text": "For participants taking thyroxine, lack of agreement to arrange a thyroid function test in the next 3 months and agree to regular testing throughout the trial"
+   },
+   {
+    "text": "Non-adherence to run-in treatment (i.e. reports taking the run-in tablets 'Never' or 'Only occasionally')"
+   },
+   {
+    "text": "Their doctor does not wish them to be randomised"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

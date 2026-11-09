@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2010-10-05",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -52,41 +52,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "open-label metformin",
    "other_names": [
     "metformin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin",
     "Drug: open-label metformin"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: glimepiride",
     "Drug: open-label metformin"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "A study to see if better control of type 2 diabetes can occur in patients taking a stable dose of metformin when they are also provided either sitagliptin or glimepiride. This study will also see if this treatment is safe and tolerable.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 18 years or older\n* Diagnosed with type 2 diabetes\n* On a stable dose of metformin of at least 1500 mg per day\n\nExclusion Criteria:\n\n* History of type 1 diabetes\n* Pregnant\n* HIV positive\n* On a weight loss program or medication\n* Has a history of blood disorder, certain cancers, heart, liver or kidney disease",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,6 +117,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "18 years or older"
+   },
+   {
+    "text": "Diagnosed with type 2 diabetes"
+   },
+   {
+    "text": "On a stable dose of metformin of at least 1500 mg per day"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of type 1 diabetes"
+   },
+   {
+    "text": "Pregnant"
+   },
+   {
+    "text": "HIV positive"
+   },
+   {
+    "text": "On a weight loss program or medication"
+   },
+   {
+    "text": "Has a history of blood disorder, certain cancers, heart, liver or kidney disease"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

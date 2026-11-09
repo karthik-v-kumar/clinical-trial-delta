@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Beijing Tsinghua Chang Gung Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Beijing Tsinghua Chang Gung Hospital"
  },
  "collaborators": [
   "Taizhou First People's Hospital",
@@ -62,23 +62,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Degludec insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Treated with Degludec insulin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Degludec insulin"
-   ]
+   ],
+   "label": "Treated with Degludec insulin",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "A randomized open, positive parallel controlled clinical study design was adopted. Participants were randomly assigned 1:1 according to inclusion criteria and exclusion criteria into two treatment regiments: Delu insulin liraglupeptide injection group and premixed insulin (or premixed insulin analogue). After fasting blood glucose was controlled at 7.5mmol /l in the morning, blood glucose was monitored by CGM (14d), and the Time in Range (3.9-10 mmol/l) was compared. Glycated albumin was measured and stool samples were taken before treatment and at 4 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Voluntarily sign the informed consent form;\n2. Male and female between the ages of 18 and 75 (inclusive);\n3. Diagnosed with type 2 diabetes mellitus according to WHO standards (1999) for more than 6 months;\n4. Those who use premixed human insulin or insulin analogues with or without oral hypoglycemic drugs (which cannot contain secretagogues and DPP4 inhibitors) \\>=3 months, and have poor blood sugar control;\n5. Glycosylated hemoglobin \\> 7.0% and \\<=8.0% at screening;\n6. Body mass index (BMI) \\> 18 kg/m\\^2 and \\<=35 kg/m\\^2;\n7. Those who are willing and able to use the blood glucose meter for self-blood glucose monitoring according to the requirements of the program.\n\nExclusion Criteria:\n\n1. People who are known to be allergic to Degu insulin or ingredients in its preparations;\n2. Human glucagon-like peptide-1 (GLP-1) receptor agonist has been used within 3 months before screening;\n3. Patients with hypoglycemic coma within 3 months before screening;\n4. Patients with severe ketosis or ketoacidosis within 1 month before screening;\n5. Severe complications of diabetes at the time of screening: such as severe proliferative diabetic retinopathy, a history of kidney transplantation, active peripheral vascular disease (such as diseases that have led to amputation, chronic foot ulcers, intermittent claudication, or require interventional procedures such as bypass or angioplasty);\n6. Severe hypertension that cannot be controlled by treatment (defined as systolic blood pressure of not less than 180mmHg and/or diastolic blood pressure of not less than 100mmHg);\n7. Patients with acute myocardial infarction, uncontrolled angina pectoris, uncontrolled arrhythmia, or severe heart failure (NYHA grading ≥III) in the 12 months prior to screening; New cerebrovascular accidents (including ischemic stroke, hemorrhagic stroke and transient ischemic attack) within 6 months prior to screening;\n8. Liver and kidney function impairment: ALT, AST greater than 2.5 times the upper limit of normal, serum creatinine greater than 1.5 times the upper limit of normal;\n9. Any conditions or co-existing diseases that the investigator determines may interfere with the test results, such as cardiovascular, respiratory, gastrointestinal, pancreatic, liver, kidney, nervous system, psychiatric, hematological (such as hematological tumors, hemolytic anemia, sickle cell disease, etc.), immune system, or other malignant tumors;\n10. Mental disorder, unwilling to communicate or language barriers, unable to fully understand, cooperate and use the blood glucose meter;\n11. Drugs that may have a significant effect on glucose metabolism, such as systemic corticosteroids, monoamine oxidase inhibitors, etc. are expected to be used within 3 months prior to screening;\n12. Participated in other drug or device clinical studies 3 months before participating in this study;\n13. Have a history of drug abuse and alcohol dependence in the past 5 years;\n14. Known pregnancies (determined by pregnancy tests at the time of screening), women who are preparing to become pregnant or are lactating at the time of the test, or women of childbearing age who are unable to take adequate contraception (adequate contraception means Iuds, oral contraceptives and barrier measures);\n15. Patients deemed unsuitable for participation in this study by the investigator;\n16. Antibiotics and probiotics were used within 3 months before screening;\n17. Family history of medullary thyroid cancer or medullary thyroid cancer or family history of MEN.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "continuous glucose monitoring system（CGMS）",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "continuous glucose monitoring system（CGMS）",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06925334",
@@ -119,6 +119,86 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Voluntarily sign the informed consent form;"
+   },
+   {
+    "text": "Male and female between the ages of 18 and 75 (inclusive);"
+   },
+   {
+    "text": "Diagnosed with type 2 diabetes mellitus according to WHO standards (1999) for more than 6 months;"
+   },
+   {
+    "text": "Those who use premixed human insulin or insulin analogues with or without oral hypoglycemic drugs (which cannot contain secretagogues and DPP4 inhibitors) >=3 months, and have poor blood sugar control;"
+   },
+   {
+    "text": "Glycosylated hemoglobin > 7.0% and <=8.0% at screening;"
+   },
+   {
+    "text": "Body mass index (BMI) > 18 kg/m^2 and <=35 kg/m^2;"
+   },
+   {
+    "text": "Those who are willing and able to use the blood glucose meter for self-blood glucose monitoring according to the requirements of the program."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "People who are known to be allergic to Degu insulin or ingredients in its preparations;"
+   },
+   {
+    "text": "Human glucagon-like peptide-1 (GLP-1) receptor agonist has been used within 3 months before screening;"
+   },
+   {
+    "text": "Patients with hypoglycemic coma within 3 months before screening;"
+   },
+   {
+    "text": "Patients with severe ketosis or ketoacidosis within 1 month before screening;"
+   },
+   {
+    "text": "Severe complications of diabetes at the time of screening: such as severe proliferative diabetic retinopathy, a history of kidney transplantation, active peripheral vascular disease (such as diseases that have led to amputation, chronic foot ulcers, intermittent claudication, or require interventional procedures such as bypass or angioplasty);"
+   },
+   {
+    "text": "Severe hypertension that cannot be controlled by treatment (defined as systolic blood pressure of not less than 180mmHg and/or diastolic blood pressure of not less than 100mmHg);"
+   },
+   {
+    "text": "Patients with acute myocardial infarction, uncontrolled angina pectoris, uncontrolled arrhythmia, or severe heart failure (NYHA grading ≥III) in the 12 months prior to screening; New cerebrovascular accidents (including ischemic stroke, hemorrhagic stroke and transient ischemic attack) within 6 months prior to screening;"
+   },
+   {
+    "text": "Liver and kidney function impairment: ALT, AST greater than 2.5 times the upper limit of normal, serum creatinine greater than 1.5 times the upper limit of normal;"
+   },
+   {
+    "text": "Any conditions or co-existing diseases that the investigator determines may interfere with the test results, such as cardiovascular, respiratory, gastrointestinal, pancreatic, liver, kidney, nervous system, psychiatric, hematological (such as hematological tumors, hemolytic anemia, sickle cell disease, etc.), immune system, or other malignant tumors;"
+   },
+   {
+    "text": "Mental disorder, unwilling to communicate or language barriers, unable to fully understand, cooperate and use the blood glucose meter;"
+   },
+   {
+    "text": "Drugs that may have a significant effect on glucose metabolism, such as systemic corticosteroids, monoamine oxidase inhibitors, etc. are expected to be used within 3 months prior to screening;"
+   },
+   {
+    "text": "Participated in other drug or device clinical studies 3 months before participating in this study;"
+   },
+   {
+    "text": "Have a history of drug abuse and alcohol dependence in the past 5 years;"
+   },
+   {
+    "text": "Known pregnancies (determined by pregnancy tests at the time of screening), women who are preparing to become pregnant or are lactating at the time of the test, or women of childbearing age who are unable to take adequate contraception (adequate contraception means Iuds, oral contraceptives and barrier measures);"
+   },
+   {
+    "text": "Patients deemed unsuitable for participation in this study by the investigator;"
+   },
+   {
+    "text": "Antibiotics and probiotics were used within 3 months before screening;"
+   },
+   {
+    "text": "Family history of medullary thyroid cancer or medullary thyroid cancer or family history of MEN."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Xiangya Hospital of Central South University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Xiangya Hospital of Central South University"
  },
  "collaborators": [],
  "conditions": [
@@ -50,42 +50,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "metformin+empagliflozin+insulin glargine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "IDegLira",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "premixed insulin analogues",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "metformin+empagliflozin+insulin glargine",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: metformin+empagliflozin+insulin glargine"
-   ]
+   ],
+   "label": "metformin+empagliflozin+insulin glargine",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "IDegLira",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: IDegLira"
-   ]
+   ],
+   "label": "IDegLira",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "premixed insulin analogues",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: premixed insulin analogues"
-   ]
+   ],
+   "label": "premixed insulin analogues",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The purpose of this studay is to compare the efficacy of different hypoglycemic regimens versus twice-daily premixed insulin in type 2 diabetes mellitus (T2DM) patients after short-term ntensive Insulin Therapy by using continuous glucose monitoring.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* aged 18-70 years with poorly-controlled T2DM (World Health Organization diagnostic criteria)\n* BMI 21\\~32Kg/m2\n* duration of T2DM more than 1 year\n* FPG≥11.1mmol/L or HbA1c ≥9% for three months\n* fasting C-peptide \\>1 ng/mL\n\nExclusion Criteria:\n\n* acute diabetic complications (diabetic ketoacidosis, lactic acidosis, hyperosmolar nonketotic diabetic coma) within the past 1 month;\n* impaired renal function,defined as (but not limited to) serum creatinine levels ≥1.5 mg/dL for males and ≥1.4 mg/dL for females, or the presence of macroproteinuria (\\> 2 g/day)\n* pregnancy\n* inability to perform self-monitoring of BG (SMBG)\n* acute disease or surgery in the past 3months or preparation for the surgey",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "Xiangya Hospital of Central South University",
    "city": "Changsha",
-   "state": "Hunan",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Xiangya Hospital of Central South University",
    "lat": 28.19874,
-   "lon": 112.97087
+   "lon": 112.97087,
+   "state": "Hunan",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05545800",
@@ -134,6 +134,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "aged 18-70 years with poorly-controlled T2DM (World Health Organization diagnostic criteria)"
+   },
+   {
+    "text": "BMI 21~32Kg/m2"
+   },
+   {
+    "text": "duration of T2DM more than 1 year"
+   },
+   {
+    "text": "FPG≥11.1mmol/L or HbA1c ≥9% for three months"
+   },
+   {
+    "text": "fasting C-peptide >1 ng/mL"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "acute diabetic complications (diabetic ketoacidosis, lactic acidosis, hyperosmolar nonketotic diabetic coma) within the past 1 month;"
+   },
+   {
+    "text": "impaired renal function,defined as (but not limited to) serum creatinine levels ≥1.5 mg/dL for males and ≥1.4 mg/dL for females, or the presence of macroproteinuria (> 2 g/day)"
+   },
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "inability to perform self-monitoring of BG (SMBG)"
+   },
+   {
+    "text": "acute disease or surgery in the past 3months or preparation for the surgey"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

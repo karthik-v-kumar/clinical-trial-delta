@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "SINGLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Imperial College London",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Imperial College London"
  },
  "collaborators": [],
  "conditions": [
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Actrapid insulin+Gloucose",
    "other_names": [
     "insulin+Gloucose"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Actrapid insulin",
    "other_names": [
     "insulin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Actrapid insulin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Actrapid insulin"
-   ]
+   ],
+   "label": "Actrapid insulin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Actrapid insulin+Gloucose",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Actrapid insulin+Gloucose"
-   ]
+   ],
+   "label": "Actrapid insulin+Gloucose",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Gastric bypass surgery has been proposed as an effective treatment strategy for type 2 diabetes mellitus (T2DM), but thus far algorithms for the management of T2DM immediately after surgery have not been established. The investigators designed an algorithm to achieve good glycaemic control in patients with insulin-requiring T2DM upon discharge after gastric bypass surgery, and evaluated this algorithm for feasibility, efficacy, and safety.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Body mass index (BMI) \\> 35,\n* Insulin-requiring T2DM,\n* Age \\>18yr,\n* Having undergone gastric bypass surgery,\n* HbA1C \\>8%\n\nExclusion Criteria:\n\n* Non-insulin requiring T2DM,\n* HbA1C \\<8%",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Imperial College London, Charing Cross Hospital",
    "city": "London",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Imperial College London, Charing Cross Hospital",
    "lat": 51.50853,
-   "lon": -0.12574
+   "lon": -0.12574,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01213563",
@@ -118,6 +118,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Body mass index (BMI) > 35,"
+   },
+   {
+    "text": "Insulin-requiring T2DM,"
+   },
+   {
+    "text": "Age >18yr,"
+   },
+   {
+    "text": "Having undergone gastric bypass surgery,"
+   },
+   {
+    "text": "HbA1C >8%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Non-insulin requiring T2DM,"
+   },
+   {
+    "text": "HbA1C <8%"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

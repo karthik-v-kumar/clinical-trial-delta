@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "JW Pharmaceutical",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "JW Pharmaceutical"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Mitiglinide",
    "other_names": [
     "Glufast"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Voglibose",
    "other_names": [
     "Basen"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "M",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Mitiglinide"
-   ]
+   ],
+   "label": "M",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "V",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Voglibose"
-   ]
+   ],
+   "label": "V",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "We will evaluate the efficacy and safety of combination therapy of 10 mg mitiglinide or 0.2mg voglibose with insulin glargine for 16 weeks after single administration of insulin glargine for 4 weeks in type 2 diabetic patients whose glycemic control were not enough despite administration of oral antidiabetic drug or insulin glargine.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* The type 2 diabetic patients aged between 30 and 70\n* The patients whose Hb1Ac is over 7.0% despite administration of two or more oral antidiabetic drugs over 6 months or only insulin glargine over 3 months before registration\n* Outpatients whose BMI is between 21 and 40 kg/㎡\n* The patients who consented to participate in the clinical study in writing\n\nExclusion Criteria:\n\n* The patients who have been using insulin formulation except insulin glargine\n* The patients whose fasting blood glucose is over 270 mg/dL\n* The patients whose C-peptide is under 1ng/ml on an empty stomach\n* The patients who was surgically operated of gastrointestinal tract\n* The patients who need additional treatment or who underwent operation within 3 months for severe complication such as diabetic foot ulcer, retinopathy and neuropathy\n* The patients with severe hepatic dysfunction : uncompensated hepatic cirrhosis, or the case where aspartate aminotransferase (AST) or alanine aminotransferase (ALT) is over 2.5 times higher than the normal limit ( ≥ 2.5 x normal ranges)\n* The patients with unstable angina or acute myocardial infarction occurred within 3months\n* The patients with renal failure or severe hypertension : diastolic blood pressure is over 110mmHg despite drug treatment\n* The patients who have a life-threatening disease such as cancer or severe infection\n* The patients with a history of drug allergy\n* Pregnant or breast feeding or the women who are likely to be pregnant\n* The patients who need oral or parenteral corticosteroids\n* The patients who were judged to be unsuitable to the clinical study by other reasons",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "The Catholic Univ. of Korea, Kangnam ST. Mary's Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "The Catholic Univ. of Korea, Kangnam ST. Mary's Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00663884",
@@ -116,6 +116,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "The type 2 diabetic patients aged between 30 and 70"
+   },
+   {
+    "text": "The patients whose Hb1Ac is over 7.0% despite administration of two or more oral antidiabetic drugs over 6 months or only insulin glargine over 3 months before registration"
+   },
+   {
+    "text": "Outpatients whose BMI is between 21 and 40 kg/㎡"
+   },
+   {
+    "text": "The patients who consented to participate in the clinical study in writing"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "The patients who have been using insulin formulation except insulin glargine"
+   },
+   {
+    "text": "The patients whose fasting blood glucose is over 270 mg/dL"
+   },
+   {
+    "text": "The patients whose C-peptide is under 1ng/ml on an empty stomach"
+   },
+   {
+    "text": "The patients who was surgically operated of gastrointestinal tract"
+   },
+   {
+    "text": "The patients who need additional treatment or who underwent operation within 3 months for severe complication such as diabetic foot ulcer, retinopathy and neuropathy"
+   },
+   {
+    "text": "The patients with severe hepatic dysfunction : uncompensated hepatic cirrhosis, or the case where aspartate aminotransferase (AST) or alanine aminotransferase (ALT) is over 2.5 times higher than the normal limit ( ≥ 2.5 x normal ranges)"
+   },
+   {
+    "text": "The patients with unstable angina or acute myocardial infarction occurred within 3months"
+   },
+   {
+    "text": "The patients with renal failure or severe hypertension : diastolic blood pressure is over 110mmHg despite drug treatment"
+   },
+   {
+    "text": "The patients who have a life-threatening disease such as cancer or severe infection"
+   },
+   {
+    "text": "The patients with a history of drug allergy"
+   },
+   {
+    "text": "Pregnant or breast feeding or the women who are likely to be pregnant"
+   },
+   {
+    "text": "The patients who need oral or parenteral corticosteroids"
+   },
+   {
+    "text": "The patients who were judged to be unsuitable to the clinical study by other reasons"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

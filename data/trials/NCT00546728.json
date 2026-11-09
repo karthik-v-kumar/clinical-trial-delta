@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2013-11-08",
  "has_results": true,
  "lead_sponsor": {
-  "name": "St. Paul Heart Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "St. Paul Heart Clinic"
  },
  "collaborators": [
   "Amylin Pharmaceuticals, LLC.",
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Exenatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Exenatide"
-   ]
+   ],
+   "label": "Exenatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The purpose of this study is to compare the effects of exenatide versus metformin on vascular health with chronic (3-month) therapy and during a 2-hour period following a meal in patients with pre-diabetes. It is predicted that exenatide will improve vascular health to a greater degree compared to metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Greater than or equal to 18 years old\n* Impaired glucose tolerance: 2-hr oral glucose tolerance test (OGTT) plasma glucose \\>140 mg/dL OR impaired fasting glucose: fasting glucose \\> or = 100 mg/dL OR elevated glycosylated hemoglobin: Hemoglobin A1c \\> or = 5.7%\n* Abdominal obesity: waist circumference \\>102 cm (men) and \\>88 cm (women)\n* Stable cardiovascular medication regimen (or other medications known to affect endothelial function) at least 1 month prior to enrollment and throughout the study\n\nExclusion Criteria:\n\n* Type 2 diabetes\n* Current use of glycemic control medications within one month of randomization\n* Fasting glucose \\>126 mg/dL\n* Current use of weight loss medication\n* Previous weight loss surgery\n* History of severe gastrointestinal disease\n* Standard clinical contraindications to exenatide or metformin therapy\n* Unstable angina\n* Heart failure\n* Stroke or coronary artery bypass graft within 3 months of screening\n* Women who are currently pregnant or planning to become pregnant\n* Breastfeeding women\n* Clinically significant liver disease\n* Creatinine \\> 1.5 mg/dL\n* Hepatic function greater than 3 times upper limit of normal\n* Patients who are mentally incompetent and cannot sign a Patient Informed Consent",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,22 +98,22 @@
  },
  "sites": [
   {
-   "facility": "International Diabetes Center at Park Nicollet",
    "city": "Saint Louis Park",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "International Diabetes Center at Park Nicollet",
    "lat": 44.9483,
-   "lon": -93.34801
+   "lon": -93.34801,
+   "state": "Minnesota",
+   "status": null
   },
   {
-   "facility": "St. Paul Heart Clinic",
    "city": "Saint Paul",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "St. Paul Heart Clinic",
    "lat": 44.94441,
-   "lon": -93.09327
+   "lon": -93.09327,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00546728",
@@ -128,6 +128,74 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Greater than or equal to 18 years old"
+   },
+   {
+    "text": "Impaired glucose tolerance: 2-hr oral glucose tolerance test (OGTT) plasma glucose >140 mg/dL OR impaired fasting glucose: fasting glucose > or = 100 mg/dL OR elevated glycosylated hemoglobin: Hemoglobin A1c > or = 5.7%"
+   },
+   {
+    "text": "Abdominal obesity: waist circumference >102 cm (men) and >88 cm (women)"
+   },
+   {
+    "text": "Stable cardiovascular medication regimen (or other medications known to affect endothelial function) at least 1 month prior to enrollment and throughout the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Current use of glycemic control medications within one month of randomization"
+   },
+   {
+    "text": "Fasting glucose >126 mg/dL"
+   },
+   {
+    "text": "Current use of weight loss medication"
+   },
+   {
+    "text": "Previous weight loss surgery"
+   },
+   {
+    "text": "History of severe gastrointestinal disease"
+   },
+   {
+    "text": "Standard clinical contraindications to exenatide or metformin therapy"
+   },
+   {
+    "text": "Unstable angina"
+   },
+   {
+    "text": "Heart failure"
+   },
+   {
+    "text": "Stroke or coronary artery bypass graft within 3 months of screening"
+   },
+   {
+    "text": "Women who are currently pregnant or planning to become pregnant"
+   },
+   {
+    "text": "Breastfeeding women"
+   },
+   {
+    "text": "Clinically significant liver disease"
+   },
+   {
+    "text": "Creatinine > 1.5 mg/dL"
+   },
+   {
+    "text": "Hepatic function greater than 3 times upper limit of normal"
+   },
+   {
+    "text": "Patients who are mentally incompetent and cannot sign a Patient Informed Consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

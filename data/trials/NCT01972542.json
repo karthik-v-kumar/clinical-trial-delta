@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SCREENING",
   "masking": "NONE",
+  "primary_purpose": "SCREENING",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Seoul National University Bundang Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Seoul National University Bundang Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -49,32 +49,32 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Oral fat tolerance test",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Dietary Supplement: Oral fat tolerance test"
+   ],
    "label": "Type 2 DM",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Dietary Supplement: Oral fat tolerance test"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Dietary Supplement: Oral fat tolerance test"
+   ],
    "label": "Prediabetes",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Dietary Supplement: Oral fat tolerance test"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Normal glucose tolerance",
-   "type": "SHAM_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Oral fat tolerance test"
-   ]
+   ],
+   "label": "Normal glucose tolerance",
+   "type": "SHAM_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The hypertriglyceridemia at fasting status has been known to be an important risk factor for cardiovascular disease (CVD). Recently, postprandial triglyceride (TG) levels draw an attention as a superior predictor of CVD because of non-fasting state for more than 12 hours and importance of triglyceride-rich lipoprotein.\n\nWe aim to investigate the relationship of postprandial triglyceride after fat tolerance test and intima-medial thickness and to suggest normal reference of postprandial triglyceride after fat tolerance test. In addition, we evaluate the correlation of postprandial triglyceride and incretin secretion after fat tolerance test Ultimately, we want to estimate clinical importance of postprandial triglyceride in assessment of cardiovascular risk.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* age : 19 \\~ 70 yrs\n* Type 2 diabetes : HbA1c \\<10%\n* Prediabetic state : HbA1c 5.7\\~6.4%\n\nExclusion Criteria:\n\n* Type 1 diabetes, secondary diabetes\n* dipeptidyl peptidase-4 -inhibitor, glucagon-like peptide-1 agonist, thiazolidinediones users\n* Thyroid disease with abnormal thyroid function test\n* Liver disease with abnormal liver function test\n* severe kidney disease\n* pregnant or lactating women\n* current smoker\n* severe obesity",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul National University Bundang Hospital",
    "city": "Seongnam",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Seoul National University Bundang Hospital",
    "lat": 35.54127,
-   "lon": 127.39683
+   "lon": 127.39683,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01972542",
@@ -115,6 +115,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "age : 19 ~ 70 yrs"
+   },
+   {
+    "text": "Type 2 diabetes : HbA1c <10%"
+   },
+   {
+    "text": "Prediabetic state : HbA1c 5.7~6.4%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes, secondary diabetes"
+   },
+   {
+    "text": "dipeptidyl peptidase-4 -inhibitor, glucagon-like peptide-1 agonist, thiazolidinediones users"
+   },
+   {
+    "text": "Thyroid disease with abnormal thyroid function test"
+   },
+   {
+    "text": "Liver disease with abnormal liver function test"
+   },
+   {
+    "text": "severe kidney disease"
+   },
+   {
+    "text": "pregnant or lactating women"
+   },
+   {
+    "text": "current smoker"
+   },
+   {
+    "text": "severe obesity"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

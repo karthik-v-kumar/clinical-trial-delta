@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2012-02-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,68 +51,68 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MK-0893",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "JANUVIA™",
     "MK0431"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "GLUCOPHAGE®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for MK-0893",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "MK-0893 + Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: MK-0893",
     "Drug: Sitagliptin",
     "Drug: Placebo for Metformin"
-   ]
+   ],
+   "label": "MK-0893 + Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "MK-0893 + Metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: MK-0893",
     "Drug: Metformin",
     "Drug: Placebo for Sitagliptin"
-   ]
+   ],
+   "label": "MK-0893 + Metformin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sitagliptin + Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: Metformin",
     "Drug: Placebo for MK-0893"
-   ]
+   ],
+   "label": "Sitagliptin + Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -124,10 +124,10 @@
  "brief_summary": "This study will test the effectiveness and safety of treatment with MK-0893 in combination with other drugs commonly used to treat type 2 diabetes for a duration up to 13 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants who have Type 2 Diabetes Mellitus, with suboptimal glucose control, while either not on AHA (antihyperglycemic agent) therapy or on monotherapy or on low-dose combination therapy\n\nExclusion Criteria:\n\n* Participants have a history of Type 1 Diabetes Mellitus\n* Participants taking insulin or thiazolidinediones (TZDs: peroxisome proliferator-activated receptor \\[PPAR\\]-gamma agonists)\n* Participants who have a contraindication to metformin or sitagliptin",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -143,6 +143,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants who have Type 2 Diabetes Mellitus, with suboptimal glucose control, while either not on AHA (antihyperglycemic agent) therapy or on monotherapy or on low-dose combination therapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participants have a history of Type 1 Diabetes Mellitus"
+   },
+   {
+    "text": "Participants taking insulin or thiazolidinediones (TZDs: peroxisome proliferator-activated receptor [PPAR]-gamma agonists)"
+   },
+   {
+    "text": "Participants who have a contraindication to metformin or sitagliptin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

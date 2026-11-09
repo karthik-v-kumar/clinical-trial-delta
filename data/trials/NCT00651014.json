@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [
   "Merck Frosst Canada Ltd."
@@ -55,33 +55,33 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ezetimibe",
    "other_names": [
     "SCH 58235",
     "Zetia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Ezetimibe",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe"
-   ]
+   ],
+   "label": "Ezetimibe",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "The study was designed to assess whether 6 weeks of co-administration of ezetimibe and simvastatin is more effective than simvastatin monotherapy in allowing patients in the CHD risk strata of the NCEP III guidelines to achieve their LDL-C target goal of \\<=3.0 mmol/L. As this study was to be conducted in Canada, the target LDL-C goal for patients with CHD, or type II diabetic patients \\>30 years old with no CHD, was \\<2.5 mmol/L.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* \\>=18 years of age and treated with simvastatin 10 mg or 20 mg for at least 6 weeks and LDL-C levels of \\> 2.5 mmol/L to \\<=4.20 mmol/L (97 mg/dL to 160 mg/dL) at Visit 1.\n* history of coronary heart disease (type II diabetic patients \\> 30 years old with no CHD)\n* triglycerides \\<= 4.00 mmol/L drawn, and liver transaminases (ALT, AST) \\<=50% above the upper limit of normal at Visit 2, with no active liver disease, and/or creatine kinase (CK) \\<=50% above the upper limit of normal\n\nExclusion Criteria:\n\n* subjects with Body Mass Index \\>=35 kg/sqm at Visit 1\n* alcohol consumption \\> 14 drinks per week\n* pregnant or lactating\n* treated with any other investigational drug within 30 days prior Visit 1\n* previously treated with ezetimibe or participated in a clinical study with ezetimibe\n* any condition or situation which, in the opinion of the investigator, might pose a risk to the patient or interfere with participation in the study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,6 +112,41 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": ">=18 years of age and treated with simvastatin 10 mg or 20 mg for at least 6 weeks and LDL-C levels of > 2.5 mmol/L to <=4.20 mmol/L (97 mg/dL to 160 mg/dL) at Visit 1."
+   },
+   {
+    "text": "history of coronary heart disease (type II diabetic patients > 30 years old with no CHD)"
+   },
+   {
+    "text": "triglycerides <= 4.00 mmol/L drawn, and liver transaminases (ALT, AST) <=50% above the upper limit of normal at Visit 2, with no active liver disease, and/or creatine kinase (CK) <=50% above the upper limit of normal"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "subjects with Body Mass Index >=35 kg/sqm at Visit 1"
+   },
+   {
+    "text": "alcohol consumption > 14 drinks per week"
+   },
+   {
+    "text": "pregnant or lactating"
+   },
+   {
+    "text": "treated with any other investigational drug within 30 days prior Visit 1"
+   },
+   {
+    "text": "previously treated with ezetimibe or participated in a clinical study with ezetimibe"
+   },
+   {
+    "text": "any condition or situation which, in the opinion of the investigator, might pose a risk to the patient or interfere with participation in the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

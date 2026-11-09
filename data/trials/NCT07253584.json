@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shenzhen Salubris Pharmaceuticals Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Shenzhen Salubris Pharmaceuticals Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "SAL003 140 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Test Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: SAL003 140 mg"
-   ]
+   ],
+   "label": "Test Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Reference Group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Reference Group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Phase III Clinical Study to Evaluate the Safety and Efficacy of Recombinant Fully Human Anti-PCSK9 Monoclonal Antibody Injection (SAL003) in Combination with Statin Therapy in Patients with Hypercholesterolemia and Mixed Dyslipidemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects aged 18 to 75 years.\n* On a stable, moderate- to high-intensity statin regimen (with or without ezetimibe) for at least 4 weeks prior to screening.\n* Fasting LDL-C above target levels per 2023 Chinese guidelines:\n\nWith ASCVD history: ≥1.4 mmol/L (Extreme Risk) or ≥1.8 mmol/L (Very High Risk). Without ASCVD history: ≥2.6 mmol/L (Moderate/High Risk) or ≥3.4 mmol/L (Low Risk).\n\nFasting triglycerides (TG) ≤ 5.6 mmol/L at screening/randomization.\n\n* Provide signed informed consent.\n\nExclusion Criteria:\n\n* Homozygous Familial Hypercholesterolemia (HoFH).\n* Uncontrolled hypertension (SBP ≥160 mmHg or DBP ≥100 mmHg).\n* Significant cardiovascular event (e.g., MI, unstable angina, stroke, PCI, CABG) within 3 months prior to screening.\n* Heart failure (NYHA Class III or IV) or LVEF \\<40% within 3 months.\n* Severe renal impairment (eGFR \\<30 mL/min/1.73m²).\n* Active liver disease or significant hepatic impairment (ALT/AST \\>2.5x ULN or TBiL \\>2x ULN).\n* Uncontrolled diabetes (HbA1c \\>8.0%) or type 1 diabetes.\n* Use of other lipid-lowering therapies (e.g., fibrates, niacin) within 3 months or any PCSK9 inhibitor within 6 months prior to screening.\n* Known hypersensitivity to any component of the investigational product or other antibody therapies.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "The First Affiliated Hospital of Xi 'an Jiaotong University",
    "city": "Xi’an",
-   "state": "Shanxi",
    "country": "China",
-   "status": null,
+   "facility": "The First Affiliated Hospital of Xi 'an Jiaotong University",
    "lat": 35.99785,
-   "lon": 113.52486
+   "lon": 113.52486,
+   "state": "Shanxi",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07253584",
@@ -117,6 +117,59 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects aged 18 to 75 years."
+   },
+   {
+    "text": "On a stable, moderate- to high-intensity statin regimen (with or without ezetimibe) for at least 4 weeks prior to screening."
+   },
+   {
+    "text": "Fasting LDL-C above target levels per 2023 Chinese guidelines:"
+   },
+   {
+    "text": "With ASCVD history: ≥1.4 mmol/L (Extreme Risk) or ≥1.8 mmol/L (Very High Risk). Without ASCVD history: ≥2.6 mmol/L (Moderate/High Risk) or ≥3.4 mmol/L (Low Risk)."
+   },
+   {
+    "text": "Fasting triglycerides (TG) ≤ 5.6 mmol/L at screening/randomization."
+   },
+   {
+    "text": "Provide signed informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Homozygous Familial Hypercholesterolemia (HoFH)."
+   },
+   {
+    "text": "Uncontrolled hypertension (SBP ≥160 mmHg or DBP ≥100 mmHg)."
+   },
+   {
+    "text": "Significant cardiovascular event (e.g., MI, unstable angina, stroke, PCI, CABG) within 3 months prior to screening."
+   },
+   {
+    "text": "Heart failure (NYHA Class III or IV) or LVEF <40% within 3 months."
+   },
+   {
+    "text": "Severe renal impairment (eGFR <30 mL/min/1.73m²)."
+   },
+   {
+    "text": "Active liver disease or significant hepatic impairment (ALT/AST >2.5x ULN or TBiL >2x ULN)."
+   },
+   {
+    "text": "Uncontrolled diabetes (HbA1c >8.0%) or type 1 diabetes."
+   },
+   {
+    "text": "Use of other lipid-lowering therapies (e.g., fibrates, niacin) within 3 months or any PCSK9 inhibitor within 6 months prior to screening."
+   },
+   {
+    "text": "Known hypersensitivity to any component of the investigational product or other antibody therapies."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

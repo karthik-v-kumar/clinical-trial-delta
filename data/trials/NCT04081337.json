@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2024-02-08",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "15 Milligram (mg) Tirzepatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "15 Milligram (mg) Tirzepatide",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,23 +88,23 @@
  "brief_summary": "This is a study of tirzepatide in participants with obesity. The main purpose is to learn more about how tirzepatide affects the number of calories participants burn and the amount of food they eat. The study lasted for 28 weeks and will include about 21 visits to the study center.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have body mass index of 30 to 45 kilograms per square meter (kg/m²), inclusive\n* Have a stable body weight in the past 1 month prior to screening\n* Willing and agreeable to commit to the duration of the study and undergo study procedures as instructed by the clinic staff\n\nExclusion Criteria:\n\n* Have undergone gastric bypass or bariatric surgery\n* Have a diagnosis of type 2 diabetes\n* Have a history or current cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological or neurological disorders capable of significantly altering the absorption, metabolism or elimination of drugs; of constituting a risk when taking the study drug; or of interfering with the interpretation of data\n* Have received prescription drugs or over the counter drugs that promote weight loss in the past 6 months prior to screening\n* Have any lifetime history of a suicide attempt\n* Patient Health Questionnaire-9 (PHQ-9) score of 15 or more at screening\n* Positive responses to selected items on the Columbia Suicide Severity Rating Scale (C-SSRS)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Pennington Biomedical Research Center",
    "city": "Baton Rouge",
-   "state": "Louisiana",
    "country": "United States",
-   "status": null,
+   "facility": "Pennington Biomedical Research Center",
    "lat": 30.44332,
-   "lon": -91.18747
+   "lon": -91.18747,
+   "state": "Louisiana",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04081337",
@@ -119,6 +119,44 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have body mass index of 30 to 45 kilograms per square meter (kg/m²), inclusive"
+   },
+   {
+    "text": "Have a stable body weight in the past 1 month prior to screening"
+   },
+   {
+    "text": "Willing and agreeable to commit to the duration of the study and undergo study procedures as instructed by the clinic staff"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have undergone gastric bypass or bariatric surgery"
+   },
+   {
+    "text": "Have a diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "Have a history or current cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine, hematological or neurological disorders capable of significantly altering the absorption, metabolism or elimination of drugs; of constituting a risk when taking the study drug; or of interfering with the interpretation of data"
+   },
+   {
+    "text": "Have received prescription drugs or over the counter drugs that promote weight loss in the past 6 months prior to screening"
+   },
+   {
+    "text": "Have any lifetime history of a suicide attempt"
+   },
+   {
+    "text": "Patient Health Questionnaire-9 (PHQ-9) score of 15 or more at screening"
+   },
+   {
+    "text": "Positive responses to selected items on the Columbia Suicide Severity Rating Scale (C-SSRS)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

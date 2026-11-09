@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2012-09-03",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,73 +51,73 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MK-0941",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "Lantus",
    "other_names": [
     "Insulin glargine injection"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: MK-0941",
+    "Biological: Lantus",
+    "Drug: Metformin"
+   ],
    "label": "MK-0941 10 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK-0941",
     "Biological: Lantus",
     "Drug: Metformin"
-   ]
-  },
-  {
+   ],
    "label": "MK-0941 20 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK-0941",
     "Biological: Lantus",
     "Drug: Metformin"
-   ]
-  },
-  {
+   ],
    "label": "MK-0941 30 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK-0941",
     "Biological: Lantus",
     "Drug: Metformin"
-   ]
-  },
-  {
+   ],
    "label": "MK-0941 40 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: MK-0941",
-    "Biological: Lantus",
-    "Drug: Metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Placebo",
     "Biological: Lantus",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -137,10 +137,10 @@
  "brief_summary": "The purpose of this study is to test the effect of MK-0941 as add-on therapy for participants taking insulin for type 2 diabetes mellitus. The primary hypotheses of this study are that treatment with MK-0941 added to insulin will provide greater reduction in hemoglobin A1c (HbA1c) level than will placebo added to insulin at 14 weeks, and that MK-0941 will be well-tolerated at 1 or more doses that demonstrate efficacy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* has type 2 diabetes mellitus\n* has body mass index \\>20 and \\<43 kg/m\\^2\n* is a male, or a female who is unlikely to conceive\n* currently on a stable dose of insulin with or without metformin for Type 2 diabetes mellitus\n\nExtension Study Inclusion Criteria:\n\n* completed the base study either on double-blind study medication or as part of the post-treatment follow up population\n* had ≥85% compliance with double-blind and open-label medication during the base study double-blind treatment period\n\nExclusion Criteria:\n\n* has any history of Type 1 diabetes mellitus or ketoacidosis\n* has received more that 1 week of thiazolidinedione (such as pioglitazone or rosiglitazone) therapy or injectable increatin-based therapy (such as Byetta) within the prior 8 weeks\n* has had ≥2 episodes during their lifetime or \\>1 episode within the past year resulting in hypoglycemic seizures, comas, or unconsciousness\n* is on a weight loss program and is not in the maintenance phase, or patient is taking a weight loss medication (e.g., orlistat, sibutramine, rimonabant) within 8 weeks of Visit 1\n* has undergone surgery within 30 days prior to Visit 1 or has planned major surgery",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -156,6 +156,49 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "has type 2 diabetes mellitus"
+   },
+   {
+    "text": "has body mass index >20 and <43 kg/m^2"
+   },
+   {
+    "text": "is a male, or a female who is unlikely to conceive"
+   },
+   {
+    "text": "currently on a stable dose of insulin with or without metformin for Type 2 diabetes mellitus"
+   },
+   {
+    "text": "completed the base study either on double-blind study medication or as part of the post-treatment follow up population",
+    "group": "Extension Study Inclusion Criteria"
+   },
+   {
+    "text": "had ≥85% compliance with double-blind and open-label medication during the base study double-blind treatment period",
+    "group": "Extension Study Inclusion Criteria"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "has any history of Type 1 diabetes mellitus or ketoacidosis"
+   },
+   {
+    "text": "has received more that 1 week of thiazolidinedione (such as pioglitazone or rosiglitazone) therapy or injectable increatin-based therapy (such as Byetta) within the prior 8 weeks"
+   },
+   {
+    "text": "has had ≥2 episodes during their lifetime or >1 episode within the past year resulting in hypoglycemic seizures, comas, or unconsciousness"
+   },
+   {
+    "text": "is on a weight loss program and is not in the maintenance phase, or patient is taking a weight loss medication (e.g., orlistat, sibutramine, rimonabant) within 8 weeks of Visit 1"
+   },
+   {
+    "text": "has undergone surgery within 30 days prior to Visit 1 or has planned major surgery"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Chiang Mai University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Chiang Mai University"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "vildagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "vildagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: vildagliptin"
-   ]
+   ],
+   "label": "vildagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -112,10 +112,10 @@
  "brief_summary": "Type 2 diabetes mellitus (type 2 DM) is an important disease with increasing prevalence worldwide. More than 60% of diabetes patients die of CVD. Diabetes is associated with 2-to 4- fold increase in the risk of coronary artery disease (CAD). Diabetes patients with stable ischemic heart disease may have more prevalent of asymptomatic ischemia or silent ischemia due to autonomic neuropathy. Therefore, detection of total myocardial ischemia including both symptomatic and silent ischemia using ambulatory electrocardiogram monitoring may provide better accuracy in ischemic burden and prognosis in diabetes patients. DDP-4 inhibitors have favorable effects on atherosclerotic risk factors beyond glycemic control. Furthermore, DPP-4 inhibitors may have favorable effects on ischemic preconditioning in patients with CAD. For this study we aim to compare the effects of between vildagliptin and Dapagliflozin on ischemic burden defined by total ischemic time, markers of autonomic function, biomarkers of myocardial injury and biomarkers of inflammation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Adult patients (age \\> 21), male or non-child bearing potential female\n2. Inadequately controlled type 2 diabetes with at least half maximum dose of metformin (HbA1C \\> 6.5 and \\< 9.0%)\n3. Stable documented CAD defined as the followings:\n\n   1. Stable angina with \\> 70% stenosis of at least one major epicardial artery from coronary angiogram (CAG) or coronary CTA\n   2. Post myocardial infarction (\\> 30 days)\n\nExclusion Criteria:\n\n1. Significant renal function (eGFR \\< 30ml/min)\n2. Significant hepatic impairment or ALT/AST elevations beyond X2 upper normal limit or known hepatic failure\n3. Planned coronary intervention or planed surgical intervention (PCI or CABG)\n4. Recent (\\<30 day) acute coronary syndrome (ACS)\n5. Hypersensitivity to either of the study drug components\n6. History of lactic acidosis\n7. Type 1 diabetes\n8. Current HbA1c \\>9%\n9. Current Insulin treatment\n10. Active treatment with GLP-1 or other DPP4i medication\n11. Inability to comply with study protocol\n12. Active malignancy other than basal cell carcinoma\n13. Clinically advanced congestive heart failure - NYHA III-IV\n14. Severe left ventricular dysfunction (LVEF\\<25%)\n15. Recent heart failure decompensation (\\<3 months)\n16. Chronic inflammation (i.e. inflammatory bowel disease, lupus, inflammatory arthritis, rheumatoid arthritis) or chronic infection (i.e. chronic diabetic foot infection)\n17. Pregnancy, lactation or child-bearing potential",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -123,13 +123,13 @@
  },
  "sites": [
   {
-   "facility": "Faculty of Medicine, Chiang Mai University",
    "city": "Chiang Mai",
-   "state": null,
    "country": "Thailand",
-   "status": null,
+   "facility": "Faculty of Medicine, Chiang Mai University",
    "lat": 18.79038,
-   "lon": 98.98468
+   "lon": 98.98468,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03178591",
@@ -141,6 +141,78 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adult patients (age > 21), male or non-child bearing potential female"
+   },
+   {
+    "text": "Inadequately controlled type 2 diabetes with at least half maximum dose of metformin (HbA1C > 6.5 and < 9.0%)"
+   },
+   {
+    "text": "Stable documented CAD defined as the followings:",
+    "sub_items": [
+     "Stable angina with > 70% stenosis of at least one major epicardial artery from coronary angiogram (CAG) or coronary CTA",
+     "Post myocardial infarction (> 30 days)"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Significant renal function (eGFR < 30ml/min)"
+   },
+   {
+    "text": "Significant hepatic impairment or ALT/AST elevations beyond X2 upper normal limit or known hepatic failure"
+   },
+   {
+    "text": "Planned coronary intervention or planed surgical intervention (PCI or CABG)"
+   },
+   {
+    "text": "Recent (<30 day) acute coronary syndrome (ACS)"
+   },
+   {
+    "text": "Hypersensitivity to either of the study drug components"
+   },
+   {
+    "text": "History of lactic acidosis"
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Current HbA1c >9%"
+   },
+   {
+    "text": "Current Insulin treatment"
+   },
+   {
+    "text": "Active treatment with GLP-1 or other DPP4i medication"
+   },
+   {
+    "text": "Inability to comply with study protocol"
+   },
+   {
+    "text": "Active malignancy other than basal cell carcinoma"
+   },
+   {
+    "text": "Clinically advanced congestive heart failure - NYHA III-IV"
+   },
+   {
+    "text": "Severe left ventricular dysfunction (LVEF<25%)"
+   },
+   {
+    "text": "Recent heart failure decompensation (<3 months)"
+   },
+   {
+    "text": "Chronic inflammation (i.e. inflammatory bowel disease, lupus, inflammatory arthritis, rheumatoid arthritis) or chronic infection (i.e. chronic diabetic foot infection)"
+   },
+   {
+    "text": "Pregnancy, lactation or child-bearing potential"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

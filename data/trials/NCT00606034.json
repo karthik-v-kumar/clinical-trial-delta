@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2013-12-30",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Mountain Diabetes and Endocrine Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mountain Diabetes and Endocrine Center"
  },
  "collaborators": [],
  "conditions": [
@@ -49,18 +49,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "U-500 Insulin delivered by Omnipod (disposable insulin pump)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "All subjects active",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: U-500 Insulin delivered by Omnipod (disposable insulin pump)"
-   ]
+   ],
+   "label": "All subjects active",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -72,10 +72,10 @@
  "brief_summary": "Patients with Type 2 diabetes and severe insulin resistance with very large insulin requirements who have failed all previous insulin regimens using non-concentrated forms of insulin (U100 insulin formulations) will receive 5X concentrated insulin (U500 regular insulin)infused via insulin pump.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes on stable insulin regimen with or without oral agents for at least 3 months\n* HbA1c \\> 7%\n* No significant cardiovascular, renal or other serious medical diseases\n\nExclusion Criteria:\n\n* HbA1c \\< 7%\n* Chronic renal, hepatic, cardiovascular, or other serious medical illness\n* Females of childbearing age not using adequate contraception\n* Use of GLP mimetic",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -83,13 +83,13 @@
  },
  "sites": [
   {
-   "facility": "Mountain Diabetes and Endocrine Center",
    "city": "Asheville",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Mountain Diabetes and Endocrine Center",
    "lat": 35.60095,
-   "lon": -82.55402
+   "lon": -82.55402,
+   "state": "North Carolina",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00606034",
@@ -101,6 +101,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes on stable insulin regimen with or without oral agents for at least 3 months"
+   },
+   {
+    "text": "HbA1c > 7%"
+   },
+   {
+    "text": "No significant cardiovascular, renal or other serious medical diseases"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "HbA1c < 7%"
+   },
+   {
+    "text": "Chronic renal, hepatic, cardiovascular, or other serious medical illness"
+   },
+   {
+    "text": "Females of childbearing age not using adequate contraception"
+   },
+   {
+    "text": "Use of GLP mimetic"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

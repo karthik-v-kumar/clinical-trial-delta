@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SCREENING",
   "masking": "NONE",
+  "primary_purpose": "SCREENING",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Ohio State University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Ohio State University"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Office visit intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Electronic Message Intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Office visit-based intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Office visit intervention"
-   ]
+   ],
+   "label": "Office visit-based intervention",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Electronic message-based intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Electronic Message Intervention"
-   ]
+   ],
+   "label": "Electronic message-based intervention",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The purpose of this project is to compare two pharmacist-led population management strategies designed to increase the rate of appropriate monitoring of vitamin B12 and serum creatinine for patients taking metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* On Metformin for at least one year\n* Activated patient portal for electronic messaging\n* Patient of an attending physician at Ohio State General Internal Medicine\n* No serum vitamin B12 and/or no serum creatinine measurement in the past year",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "The Ohio State University General Internal Medicine",
    "city": "Columbus",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "The Ohio State University General Internal Medicine",
    "lat": 39.96118,
-   "lon": -82.99879
+   "lon": -82.99879,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02076347",
@@ -115,6 +115,25 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "On Metformin for at least one year"
+   },
+   {
+    "text": "Activated patient portal for electronic messaging"
+   },
+   {
+    "text": "Patient of an attending physician at Ohio State General Internal Medicine"
+   },
+   {
+    "text": "No serum vitamin B12 and/or no serum creatinine measurement in the past year"
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-08-04",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Amsterdam UMC, location VUmc",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Amsterdam UMC, location VUmc"
  },
  "collaborators": [
   "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)"
@@ -51,28 +51,28 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Forxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Crestor"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin 10mg and Rosuvastatin 10mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin",
     "Drug: Rosuvastatin"
-   ]
+   ],
+   "label": "Dapagliflozin 10mg and Rosuvastatin 10mg",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "Objective: To investigate the effect of 5 weeks dapagliflozin 10 mg once daily treatment on glucose and lipid fluxes in patients with type 2 diabetes.\n\nStudy design: Single center single arm (mechanistic) intervention trial.\n\nStudy Population: Male or postmenopausal female patients with type 2 diabetes BMI \\> 25 kg/m2and more than 12 weeks a stable dose of metformin treatment \\> 1500mg, HbA1C ≥6.5% - \\<8.5%, Fasting Plasma Glucose (FPG) \\<13.2 mmol/l, LDL cholesterol \\>2.5 mmol/l, willing to switch to rosuvastatin 10mg once daily for 4 weeks, and then receive 10 mg dapagliflozin once daily orally, for 5 weeks.\n\nTreatment: After a statin washout fase of 4 weeks, baseline cholesterol synthesis will be measured (2H3 Leucine, 2H2O deuterated water). Then, treatment with rosuvastatin 10mg for 4 weeks will be initiated after which, patients will undergo glucose (2H2enriched glucose) and lipid flux (2H3 Leucine, 2H2O deuterated water and oral 1,2,3,4-13C16 - palmitate enrichment measurements) followed by 5 weeks treatment with dapagliflozin 10mg once daily. In the final week glucose/lipid flux measurements will be repeated.\n\nSample Size: 12 DM2 subjects.\n\nOutcome measures: The primary endpoint is effect of 5 weeks Sodium-Glucose Linked co-transporter (SGLT) 2 inhibition on LDL cholesterol synthesis in patients with DM2. Secondary endpoints are effect of SGLT2 inhibition on triglyceride and cholesterol fluxes as well as (hepatic and peripheral) insulin sensitivity and energy expenditure. Finally, effect of SGLT2 inhibition on dietary intake, liver fat content (MRI liver) and fecal microbiome will be studied at these timepoints.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or postmenopausal female patients ;\n* Type 2 diabetes mellitus(HbA1C ≥6.5% - \\<8.5%)\n* At least 12 weeks of stable dose metformin treatment, FPG\\<13.2 mmol/l\n* LDL cholesterol \\>2.5 mmol/l\n* Willing to switch used statin to rosuvastatin 10mg once daily\n* 18-75 years of age\n* Ability to provide informed consent\n\nExclusion Criteria:\n\n* History of cardiovascular event\n* Smoking\n* exogenous insulin use\n* Creatinin clearance \\< 60ml/min\n* Alcohol abuse (\\>4 units/day)\n* AST or ALT elevation (\\>2.5x upper limit)\n* Contraindication to MR scanning (i.e. pacemaker, metallic foreign body, claustrophobia)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,26 +95,76 @@
  },
  "sites": [
   {
-   "facility": "Academic Medical Center",
    "city": "Amsterdam",
-   "state": "North Holland",
    "country": "Netherlands",
-   "status": null,
+   "facility": "Academic Medical Center",
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": "North Holland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03074630",
  "content_hash": "0cc1e7f3a3ec30a5",
  "collections": [
-  "type-2-diabetes",
-  "cholesterol-lipids"
+  "cholesterol-lipids",
+  "type-2-diabetes"
  ],
  "matched_queries": [
-  "t2d-drugs",
-  "lipids-drugs"
+  "lipids-drugs",
+  "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or postmenopausal female patients ;"
+   },
+   {
+    "text": "Type 2 diabetes mellitus(HbA1C ≥6.5% - <8.5%)"
+   },
+   {
+    "text": "At least 12 weeks of stable dose metformin treatment, FPG<13.2 mmol/l"
+   },
+   {
+    "text": "LDL cholesterol >2.5 mmol/l"
+   },
+   {
+    "text": "Willing to switch used statin to rosuvastatin 10mg once daily"
+   },
+   {
+    "text": "18-75 years of age"
+   },
+   {
+    "text": "Ability to provide informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of cardiovascular event"
+   },
+   {
+    "text": "Smoking"
+   },
+   {
+    "text": "exogenous insulin use"
+   },
+   {
+    "text": "Creatinin clearance < 60ml/min"
+   },
+   {
+    "text": "Alcohol abuse (>4 units/day)"
+   },
+   {
+    "text": "AST or ALT elevation (>2.5x upper limit)"
+   },
+   {
+    "text": "Contraindication to MR scanning (i.e. pacemaker, metallic foreign body, claustrophobia)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

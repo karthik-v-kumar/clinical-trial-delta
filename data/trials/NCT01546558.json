@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Gilead Sciences",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Gilead Sciences"
  },
  "collaborators": [],
  "conditions": [
@@ -48,28 +48,28 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ranolazine",
    "other_names": [
     "Ranexa"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin, Ranolazine",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Ranolazine"
-   ]
+   ],
+   "label": "Metformin, Ranolazine",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effect of steady-state ranolazine 500 mg bid on the steady state pharmacokinetics (PK) of metformin in subjects with type 2 diabetes mellitus (T2DM).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males and females, 30 to 65 years old, inclusive\n* Documented history of T2DM\n* HbA1c 6.5%-10%, inclusive\n* Fasting serum glucose ≤ 270 mg/dL at Screening\n* Fasting C-peptide ≥ 1 ng/mL at Screening\n* Stable metformin monotherapy (metformin ≥ 1500 mg total daily dose for at least 4 weeks prior to Screening)\n* Body mass index (BMI) 25 to 40 kg/m2, inclusive, at Screening\n* Creatinine Clearance \\> 80 mL/min at Screening\n* Females of child-bearing potential must have a negative serum pregnancy test at Screening and a negative urine pregnancy test on Day -1 and must agree to use highly effective contraception methods from Screening throughout the duration of the Treatment Period and for 14 days following the last dose of study drug\n\nExclusion Criteria:\n\n* Type 1 Diabetes Mellitus (T1DM)\n* Use of insulin therapy \\< 3 months prior to Screening\n* History of ketoacidosis, ketosis-prone diabetes, or lactic acidosis\n* Clinically significant complications of diabetes\n* History of hypoglycemia\n* Any non-insulin antidiabetic therapy (other than metformin) \\< 2 months prior to Screening\n* Any clinically significant cardiovascular event \\< 2 months prior to Screening\n* Clinically significant, inadequately controlled, or unstable hypertension\n* Hospitalization \\< 2 months prior to Screening or major surgery \\< 3 months prior to Screening\n* History of gastrointestinal disease or surgery that could impact drug absorption\n* History of substance of alcohol or substance abuse\n* Positive urine drug screen for drugs of abuse\n* Positive alcohol breath test\n* Any other clinically significant existing medical or psychiatric condition or one requiring further evaluation\n* Treatment with selected medications\n* Hemoglobin \\< 12 g/dL for males; or \\< 11 g/dL for females at Screening\n* Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\> 2.5x upper limits of normal\n* Clinically significant history of hepatic disease or evidence of hepatic impairment\n* Positive blood screen for hepatitis C or hepatitis B\n* QTc interval \\> 500 msec at Screening\n* Females who are pregnant or are breastfeeding",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "SeaView Research Inc.",
    "city": "Miami",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "SeaView Research Inc.",
    "lat": 25.77427,
-   "lon": -80.19366
+   "lon": -80.19366,
+   "state": "Florida",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01546558",
@@ -114,6 +114,104 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females, 30 to 65 years old, inclusive"
+   },
+   {
+    "text": "Documented history of T2DM"
+   },
+   {
+    "text": "HbA1c 6.5%-10%, inclusive"
+   },
+   {
+    "text": "Fasting serum glucose ≤ 270 mg/dL at Screening"
+   },
+   {
+    "text": "Fasting C-peptide ≥ 1 ng/mL at Screening"
+   },
+   {
+    "text": "Stable metformin monotherapy (metformin ≥ 1500 mg total daily dose for at least 4 weeks prior to Screening)"
+   },
+   {
+    "text": "Body mass index (BMI) 25 to 40 kg/m2, inclusive, at Screening"
+   },
+   {
+    "text": "Creatinine Clearance > 80 mL/min at Screening"
+   },
+   {
+    "text": "Females of child-bearing potential must have a negative serum pregnancy test at Screening and a negative urine pregnancy test on Day -1 and must agree to use highly effective contraception methods from Screening throughout the duration of the Treatment Period and for 14 days following the last dose of study drug"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 Diabetes Mellitus (T1DM)"
+   },
+   {
+    "text": "Use of insulin therapy < 3 months prior to Screening"
+   },
+   {
+    "text": "History of ketoacidosis, ketosis-prone diabetes, or lactic acidosis"
+   },
+   {
+    "text": "Clinically significant complications of diabetes"
+   },
+   {
+    "text": "History of hypoglycemia"
+   },
+   {
+    "text": "Any non-insulin antidiabetic therapy (other than metformin) < 2 months prior to Screening"
+   },
+   {
+    "text": "Any clinically significant cardiovascular event < 2 months prior to Screening"
+   },
+   {
+    "text": "Clinically significant, inadequately controlled, or unstable hypertension"
+   },
+   {
+    "text": "Hospitalization < 2 months prior to Screening or major surgery < 3 months prior to Screening"
+   },
+   {
+    "text": "History of gastrointestinal disease or surgery that could impact drug absorption"
+   },
+   {
+    "text": "History of substance of alcohol or substance abuse"
+   },
+   {
+    "text": "Positive urine drug screen for drugs of abuse"
+   },
+   {
+    "text": "Positive alcohol breath test"
+   },
+   {
+    "text": "Any other clinically significant existing medical or psychiatric condition or one requiring further evaluation"
+   },
+   {
+    "text": "Treatment with selected medications"
+   },
+   {
+    "text": "Hemoglobin < 12 g/dL for males; or < 11 g/dL for females at Screening"
+   },
+   {
+    "text": "Alanine aminotransferase (ALT) or aspartate aminotransferase (AST) > 2.5x upper limits of normal"
+   },
+   {
+    "text": "Clinically significant history of hepatic disease or evidence of hepatic impairment"
+   },
+   {
+    "text": "Positive blood screen for hepatitis C or hepatitis B"
+   },
+   {
+    "text": "QTc interval > 500 msec at Screening"
+   },
+   {
+    "text": "Females who are pregnant or are breastfeeding"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Physicians Committee for Responsible Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Physicians Committee for Responsible Medicine"
  },
  "collaborators": [
   "Blue Cross Blue Shield",
@@ -54,23 +54,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Low-fat, vegan diet",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Low-fat, vegan diet"
-   ]
+   ],
+   "label": "Intervention Group",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control Group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "The CARING study assesses the health benefits of nutrition education for Blue Cross Blue Shield subscribers, as well as potential healthcare cost savings to subscribers and the insurance company.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Blue Cross Blue Shield subscriber continuously enrolled for the prior 12 months\n2. Male or female\n3. Age at least 18 years\n4. Have a diagnosis of type 2 diabetes\n5. Ability and willingness to participate in all components of the study, including:\n\n   1. Following a plant-based diet for the initial 16 weeks of the study;\n   2. Attending weekly online classes for the initial 16 weeks of the study; and\n   3. Keeping physical activity level consistent throughout the initial 16 weeks of the study.\n\nExclusion Criteria:\n\n1. Diabetes mellitus type 1 or history of any endocrine condition that would affect body weight, such as a pituitary abnormality or Cushing's syndrome\n2. Smoking during the past six months\n3. Alcohol consumption of more than 2 drinks per day or the equivalent, episodic increased drinking (e.g., more than 2 drinks per day on weekends), or a history of alcohol abuse or dependency followed by any current use\n4. Current or unresolved past drug abuse\n5. Recently gave birth, pregnant, or plans to become pregnant before or during the study period\n6. Unstable medical or psychiatric status\n7. Cancer diagnosis\n8. Chronic kidney disease, stage 4 or 5\n9. Evidence of an eating disorder\n10. Lack of English fluency\n11. Bariatric surgery in the last 6 months\n12. Dementia\n13. Institutional custodial care\n14. End of life\n15. Palliative Care\n16. Actively engaged in specific BCBSM diabetes programs and case management programs",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "facility": "Physicians Committee for Responsible Medicine",
    "city": "Washington D.C.",
-   "state": "District of Columbia",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Physicians Committee for Responsible Medicine",
    "lat": 38.89511,
-   "lon": -77.03637
+   "lon": -77.03637,
+   "state": "District of Columbia",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05795439",
@@ -123,6 +123,82 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Blue Cross Blue Shield subscriber continuously enrolled for the prior 12 months"
+   },
+   {
+    "text": "Male or female"
+   },
+   {
+    "text": "Age at least 18 years"
+   },
+   {
+    "text": "Have a diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "Ability and willingness to participate in all components of the study, including:",
+    "sub_items": [
+     "Following a plant-based diet for the initial 16 weeks of the study;",
+     "Attending weekly online classes for the initial 16 weeks of the study; and",
+     "Keeping physical activity level consistent throughout the initial 16 weeks of the study."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diabetes mellitus type 1 or history of any endocrine condition that would affect body weight, such as a pituitary abnormality or Cushing's syndrome"
+   },
+   {
+    "text": "Smoking during the past six months"
+   },
+   {
+    "text": "Alcohol consumption of more than 2 drinks per day or the equivalent, episodic increased drinking (e.g., more than 2 drinks per day on weekends), or a history of alcohol abuse or dependency followed by any current use"
+   },
+   {
+    "text": "Current or unresolved past drug abuse"
+   },
+   {
+    "text": "Recently gave birth, pregnant, or plans to become pregnant before or during the study period"
+   },
+   {
+    "text": "Unstable medical or psychiatric status"
+   },
+   {
+    "text": "Cancer diagnosis"
+   },
+   {
+    "text": "Chronic kidney disease, stage 4 or 5"
+   },
+   {
+    "text": "Evidence of an eating disorder"
+   },
+   {
+    "text": "Lack of English fluency"
+   },
+   {
+    "text": "Bariatric surgery in the last 6 months"
+   },
+   {
+    "text": "Dementia"
+   },
+   {
+    "text": "Institutional custodial care"
+   },
+   {
+    "text": "End of life"
+   },
+   {
+    "text": "Palliative Care"
+   },
+   {
+    "text": "Actively engaged in specific BCBSM diabetes programs and case management programs"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

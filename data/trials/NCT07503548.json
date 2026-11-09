@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "QUADRUPLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Ain Shams University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Ain Shams University"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "tributyrin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Tributyrin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: tributyrin"
-   ]
+   ],
+   "label": "Tributyrin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "This study evaluates the effectiveness and safety of tributyrin supplementation in patients with type 2 diabetes mellitus (T2DM) who are at increased risk of cardiovascular disease. Type 2 diabetes is commonly associated with poor blood sugar control, chronic inflammation, oxidative stress, and an increased risk of heart disease.\n\nTributyrin is a dietary supplement that acts as a precursor to butyrate, a compound known for its anti-inflammatory and metabolic benefits. It may help improve blood sugar levels, reduce inflammation, and lower cardiovascular risk.\n\nIn this randomized, double-blind, controlled clinical trial, participants will receive either tributyrin in addition to their standard diabetes treatment or standard therapy alone. The study will assess whether tributyrin improves glycemic control, inflammation, oxidative stress, lipid profile, and overall cardiovascular risk while maintaining safety and tolerability.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* • Diagnosed with Type 2 DM for ≥ 1 year\n\n  * ASCVD 10-year risk ≥ 7.5%\n  * Stable antidiabetic and cardiovascular medication regimen for ≥ 3 months\n  * Able to provide informed consent and comply with study procedures\n\nExclusion Criteria:\n\n* • Established cardiovascular disease (history of MI, stroke, or revascularization)\n\n  * Chronic gastrointestinal disorders affecting absorption\n  * Severe hepatic or renal impairment\n  * Use of GLP-1 receptor agonists or SGLT2 inhibitors\n  * Pregnancy or lactation\n  * Known hypersensitivity to tributyrin or butyrate",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Matareya Teaching Hospital",
    "city": "Cairo",
-   "state": null,
    "country": "Egypt",
-   "status": null,
+   "facility": "Matareya Teaching Hospital",
    "lat": 30.06263,
-   "lon": 31.24967
+   "lon": 31.24967,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07503548",
@@ -117,6 +117,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "• Diagnosed with Type 2 DM for ≥ 1 year",
+    "sub_items": [
+     "ASCVD 10-year risk ≥ 7.5%",
+     "Stable antidiabetic and cardiovascular medication regimen for ≥ 3 months",
+     "Able to provide informed consent and comply with study procedures"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "• Established cardiovascular disease (history of MI, stroke, or revascularization)",
+    "sub_items": [
+     "Chronic gastrointestinal disorders affecting absorption",
+     "Severe hepatic or renal impairment",
+     "Use of GLP-1 receptor agonists or SGLT2 inhibitors",
+     "Pregnancy or lactation",
+     "Known hypersensitivity to tributyrin or butyrate"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

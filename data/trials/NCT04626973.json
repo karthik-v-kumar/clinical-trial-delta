@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yonsei University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Yonsei University"
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ezetimibe/Statin Combination therarpy (ezetimibe plus rosuvastatin)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Statin monotherapy (rosuvastatin or atorvastatin)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ezetimibe/Statin Combination therarpy (ezetimibe plus rosuvastatin)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Statin monotherapy (rosuvastatin or atorvastatin)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intensive-targeting group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe/Statin Combination therarpy (ezetimibe plus rosuvastatin)",
     "Drug: Statin monotherapy (rosuvastatin or atorvastatin)"
-   ]
+   ],
+   "label": "Intensive-targeting group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Conventional-targeting group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe/Statin Combination therarpy (ezetimibe plus rosuvastatin)",
     "Drug: Statin monotherapy (rosuvastatin or atorvastatin)"
-   ]
+   ],
+   "label": "Conventional-targeting group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Although the clinical efficacy of LDL-cholesterol lowering therapy has been proven with strong evidences and emphasized, there are also growing concerns that intensive lipid-lowering therapy would be related to increased risk of adverse effects. In addition, statin potency from recent guidelines was set from the studies composed of mainly Caucasian population, although there is an inconsistency of statin effect according to ethnicity. Asian population showed more profound LDL reduction not only from high potent statin but also from moderate to low potent statin. Conventional strategies for lowering LDL-cholesterol focused on statins, therefore doubling of previously described dose of statin would be common way in patients with inadequate LDL-cholesterol levels. Adding ezetimibe will be an alternative strategy not only to lower LDL-cholesterol level and also to reduce the need of dosage of high-intensity statin to achieve sufficient LDL-cholesterol lowering effect. However, studies regarding the effect of intensive-targeting of lipid-lowering therapy and therapy regimens are lacking. Thus, on these basis, we sought to evaluate whether intensive-targeting of lipid-lowering therapy will have more prominent beneficial effect compared to conventional-targeting in patients with documented ASCVD with either an ezetimibe/statin combination therapy or a statin monotherapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age 19-80 years\n2. Documented atherosclerotic cardiovascular disease (ASCVD)\n\n   * Previous acute coronary syndrome (myocardial infarction \\[MI\\] or unstable angina),\n   * Or stable angina with imaging or functional studies\n   * Or coronary revascularization (percutaneous coronary intervention \\[PCI\\], coronary artery bypass graft \\[CABG\\], and other arterial revascularization procedures)\n   * Or stroke and transient ischemic attack (TIA)\n   * Or peripheral artery disease\n\nExclusion Criteria:\n\n1. LDL-cholesterol level less than 70 mg/dL without statin therapyAllergy or hypersensitive to ezetimibe or statin\n2. Active liver disease or persistent unexplained serum AST/ALT elevation more than 2 times the upper limit of normal range\n3. Allergy or hypersensitivity to any statin or ezetimibe\n4. Solid organ transplantation recipient\n5. Pregnant women, women with potential childbearing, or lactating women\n6. Life expectancy less than 3 years\n7. Inability to follow the patient over the period of 1 year after enrollment, as assessed by the investigator\n8. Inability to understand or read the informed content",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Division of Cardiology, Yonsei Cardiovascular Hospital, Yonsei University College of Medicine",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Division of Cardiology, Yonsei Cardiovascular Hospital, Yonsei University College of Medicine",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04626973",
@@ -124,6 +124,51 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 19-80 years"
+   },
+   {
+    "text": "Documented atherosclerotic cardiovascular disease (ASCVD)",
+    "sub_items": [
+     "Previous acute coronary syndrome (myocardial infarction [MI] or unstable angina),",
+     "Or stable angina with imaging or functional studies",
+     "Or coronary revascularization (percutaneous coronary intervention [PCI], coronary artery bypass graft [CABG], and other arterial revascularization procedures)",
+     "Or stroke and transient ischemic attack (TIA)",
+     "Or peripheral artery disease"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "LDL-cholesterol level less than 70 mg/dL without statin therapyAllergy or hypersensitive to ezetimibe or statin"
+   },
+   {
+    "text": "Active liver disease or persistent unexplained serum AST/ALT elevation more than 2 times the upper limit of normal range"
+   },
+   {
+    "text": "Allergy or hypersensitivity to any statin or ezetimibe"
+   },
+   {
+    "text": "Solid organ transplantation recipient"
+   },
+   {
+    "text": "Pregnant women, women with potential childbearing, or lactating women"
+   },
+   {
+    "text": "Life expectancy less than 3 years"
+   },
+   {
+    "text": "Inability to follow the patient over the period of 1 year after enrollment, as assessed by the investigator"
+   },
+   {
+    "text": "Inability to understand or read the informed content"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

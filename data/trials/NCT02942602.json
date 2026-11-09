@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yonsei University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Yonsei University"
  },
  "collaborators": [],
  "conditions": [
@@ -48,66 +48,66 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin 20 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Cholestyramine 8 g",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Omega-3 2g",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Concurrent with Atorvastatin 5 mg + Ezetimibe 10 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Lifestyle modification",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Atorvastatin 20 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin 20 mg"
-   ]
+   ],
+   "label": "Atorvastatin 20 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Cholestyramine 8 g",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Cholestyramine 8 g"
-   ]
+   ],
+   "label": "Cholestyramine 8 g",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Omega-3 (EPA+DHA) 2 g",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Omega-3 2g"
-   ]
+   ],
+   "label": "Omega-3 (EPA+DHA) 2 g",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Atorvastatin 5 mg + Ezetimibe 10 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Concurrent with Atorvastatin 5 mg + Ezetimibe 10 mg"
-   ]
+   ],
+   "label": "Atorvastatin 5 mg + Ezetimibe 10 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Life style modification for management of dyslipidemia",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Lifestyle modification"
-   ]
+   ],
+   "label": "Life style modification for management of dyslipidemia",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -131,10 +131,10 @@
  "brief_summary": "1\\) to test HDL function comprehensively in healthy and diseased individuals; 2) to evaluate if this test correlates with cardiovascular risk, independent of traditional risk factors; 3) and to differentiate effects of lipid-modifying or antiatherosclerotic drugs on HDL function and composition",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* The patients who meet the 2013 American College of Cardiology/American Heart Association criteria for receiving lipid-lowering therapy\n* Aged over 20\n* Consent form signed\n\nExclusion Criteria:\n\n* pregnant or lactating women\n* subjects with familial hypercholesterolemia\n* uncontrolled hypertension or DM\n* Thyroid dysfunction\n* Active liver disease (transaminase or bilirubin \\> 1.5 x NL)\n* Serum creatinine \\> 2 mg/dL\n* Included in other clinical trials within 3 months\n* using of other medication: fish oil, fibric acid derivatives, niacin, systemic corticosteroid, thiazolidinedione",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -142,13 +142,13 @@
  },
  "sites": [
   {
-   "facility": "Division of Cardiology, Department of Internal Medicine,",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Division of Cardiology, Department of Internal Medicine,",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02942602",
@@ -160,6 +160,47 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "The patients who meet the 2013 American College of Cardiology/American Heart Association criteria for receiving lipid-lowering therapy"
+   },
+   {
+    "text": "Aged over 20"
+   },
+   {
+    "text": "Consent form signed"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "pregnant or lactating women"
+   },
+   {
+    "text": "subjects with familial hypercholesterolemia"
+   },
+   {
+    "text": "uncontrolled hypertension or DM"
+   },
+   {
+    "text": "Thyroid dysfunction"
+   },
+   {
+    "text": "Active liver disease (transaminase or bilirubin > 1.5 x NL)"
+   },
+   {
+    "text": "Serum creatinine > 2 mg/dL"
+   },
+   {
+    "text": "Included in other clinical trials within 3 months"
+   },
+   {
+    "text": "using of other medication: fish oil, fibric acid derivatives, niacin, systemic corticosteroid, thiazolidinedione"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

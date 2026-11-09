@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Centre for Addiction and Mental Health",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Centre for Addiction and Mental Health"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Sugar pill"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Schizophrenia is associated with a lifespan shortened by 20 years, due to cardiovascular disease (CVD), with antipsychotic (AP) medications understood to contribute to this risk through associated metabolic side-effects. Metformin, a medication used to treat prediabetes, and diabetes in the general population, holds promise with regard to reduction of AP-related metabolic problems, but has not been directly tested in early episode patients beyond weight loss, nor specifically in patients with diabetes or prediabetes and psychosis. We propose to replicate findings that metformin can reduce weight gain, and dysglycemia uniquely focusing on an early episode population diagnosed with prediabetes or diabetes. To help determine long-term risk/benefit of adjunctive metformin, we propose to look at changes in abdominal and liver fat, two well-established risk factors for CVD. Given links between dysglycemia, obesity with hippocampal volume loss and cognitive dysfunction, we will explore if improvements in metabolic indices are associated in changes in cognition and brain structure.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients within 5 years of diagnosis of schizophrenia, schizoaffective disorder , or bipolar disorder(DSM V), or those younger than 40 years old, regardless of duration of illness\n* Co-morbid diagnosis of prediabetes or diabetes (Canadian or American Diabetes Association criteria)\n\nExclusion Criteria:\n\n* Patients with co-morbid axis, other than nicotine dependence, or cannabis abuse\n* Patients with liver, or renal dysfunction,\n* Patients with a positive drug urine screen (other than cannabis or nicotine)\n* Females with a positive pregnancy test will be excluded.\n* Prior trial with metformin, and reported lack of tolerability\n* Patients with an A1C \\> 9.5%, or symptomatic hyperglycemia with metabolic decompensation",
-  "sex": "ALL",
-  "minimum_age": "17 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": false,
+  "maximum_age": "45 Years",
+  "minimum_age": "17 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Center for Addiction and Mental Health",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Center for Addiction and Mental Health",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02167620",
@@ -118,6 +118,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients within 5 years of diagnosis of schizophrenia, schizoaffective disorder , or bipolar disorder(DSM V), or those younger than 40 years old, regardless of duration of illness"
+   },
+   {
+    "text": "Co-morbid diagnosis of prediabetes or diabetes (Canadian or American Diabetes Association criteria)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with co-morbid axis, other than nicotine dependence, or cannabis abuse"
+   },
+   {
+    "text": "Patients with liver, or renal dysfunction,"
+   },
+   {
+    "text": "Patients with a positive drug urine screen (other than cannabis or nicotine)"
+   },
+   {
+    "text": "Females with a positive pregnancy test will be excluded."
+   },
+   {
+    "text": "Prior trial with metformin, and reported lack of tolerability"
+   },
+   {
+    "text": "Patients with an A1C > 9.5%, or symptomatic hyperglycemia with metabolic decompensation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

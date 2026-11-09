@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Sao Paulo",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Sao Paulo"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Duodenal jejunal bypass plus sleeve gastrectomy",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "DRUG",
    "name": "Best medical treatment (Metformin ; gliclazide)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Best medical treatment",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Best medical treatment (Metformin ; gliclazide)"
-   ]
+   ],
+   "label": "Best medical treatment",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Duodenal jejunal bypass plus sleeve gastrectomy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Duodenal jejunal bypass plus sleeve gastrectomy"
-   ]
+   ],
+   "label": "Duodenal jejunal bypass plus sleeve gastrectomy",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Gastric bypass surgery resolves type 2 diabetes mellitus (T2DM) without the need for diabetes therapy in \\~80% of patients. Moreover, improvement in insulin sensitivity and glucose homeostasis occurs within days after surgery before significant weight loss is achieved. This observation has led to the notion that bypassing the upper gastrointestinal (GI) tract has specific therapeutic effects on insulin action and glucose metabolism. In fact, both surgical and endoscopic procedures that bypass the upper GI tract are currently being studied in human subjects. Recently, a new surgical technique, duodenal-jejunal bypass surgery (DJBS), has been developed specifically to treat T2DM. Data from preliminary studies have shown that DJBS results in glycemic control in 87% of overweight and obese patients with T2DM.These subjects will undergo metabolic studies at the University Hospital in Sao Paulo before and after their surgical procedure. Washington University investigators will: 1) provide technical support and guidance to the physicians performing the studies in Brazil, 2) process and analyze blood samples obtained from the study at the Washington University Center for Human Nutrition, and 3) be involved in analyzing the data and writing the final manuscripts. The effects of DJBS on the following clinical and metabolic parameters will be evaluated",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Uncontrolled diabetes ( A1c\\>8%)\n* Less than 10 years of history\n* Not taking insulin\n* Ages between 20 and 65 years old\n* BMI between 26-34\n\nExclusion Criteria:\n\n* previous abdominal surgery\n* LADA\n* Using insulin",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,6 +107,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Uncontrolled diabetes ( A1c>8%)"
+   },
+   {
+    "text": "Less than 10 years of history"
+   },
+   {
+    "text": "Not taking insulin"
+   },
+   {
+    "text": "Ages between 20 and 65 years old"
+   },
+   {
+    "text": "BMI between 26-34"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "previous abdominal surgery"
+   },
+   {
+    "text": "LADA"
+   },
+   {
+    "text": "Using insulin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

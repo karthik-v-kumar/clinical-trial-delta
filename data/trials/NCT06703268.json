@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Haisco Pharmaceutical Group Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Haisco Pharmaceutical Group Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "HSK7653 10 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Daily DPP-4 inhibitor",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "HSK7653",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: HSK7653 10 mg"
-   ]
+   ],
+   "label": "HSK7653",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Daily DPP-4 inhibitor",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Daily DPP-4 inhibitor"
-   ]
+   ],
+   "label": "Daily DPP-4 inhibitor",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "To assess the effectiveness of HSK7653 tablets following the substitution of daily DPP-4 inhibitor (DPP-4i) over a 24-week treatment period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥18 and Age ≤75 years\n* T2DM patients,\n* During the 12 weeks before screening, on the basis of diet control and exercise therapy, patients only regularly received daily DPP-4 inhibitors (such as sitagliptin, vildagliptin, saxagliptin, linagliptin, alogliptin and retagliptin , etc.) or combined with metformin (with a metformin dose of ≥ 1500 mg/day, or the maximum tolerated dose \\< 1500 mg/day but ≥ 1000 mg/day);\n* HbA1c ≥6.5% and HbA1c \\<8.0%\n* FPG \\<10.0 mmol/L\n* BMI ≥19 and BMI ≤ 35 kg/m2 (Body Mass Index)\n\nExclusion Criteria:\n\n* Non-type 2 diabetes: Type 1 diabetes, gestational diabetes or other special types of diabetes.\n* The presence of any of the following medical histories or conditions at the time of screening:\n* History of diabetic ketoacidosis or hyperglycemic hyperosmolar state within the recent 6 months;\n* History of ≥2 episodes of severe hypoglycemia within the last 6 months;\n* History of malignant tumors within the recent 5 years (except for cured basal cell carcinoma of the skin and cervical carcinoma in situ), or currently being evaluated for potential malignant tumors.\n* Presence of severe mental disorders or language barriers, unwilling or unable to fully understand and cooperate.\n* History of drug abuse within the past 5 years\n* Previous history or clinical evidence of acute or chronic pancreatitis.\n* Using other drugs that may affect blood glucose metabolism within 12 weeks prior to screening, including systemic glucocorticoids (except for inhaled or topical ones), growth hormones, etc.\n* Any laboratory test index meeting the following criteria:\n* Hemoglobin \\< 110 g/L (for males) or \\< 100 g/L (for females).\n* Alanine aminotransferase (ALT) and/or aspartate aminotransferase (AST) \\> 3 times the upper limit of the normal value.\n* Total bilirubin (TBIL) \\> 2 times the upper limit of the normal value.\n* Fasting triglyceride (TG) \\> 5.7 mmol/L.\n* Estimated glomerular filtration rate (eGFR) calculated using the CKD-EPI formula \\< 45 mL/min/1.73m².\n* Known to be allergic to the investigational products or related excipients.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Chu Hsien-I Memorial Hospital, Tianjin Medical University",
    "city": "Tianjin",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Chu Hsien-I Memorial Hospital, Tianjin Medical University",
    "lat": 39.14222,
-   "lon": 117.17667
+   "lon": 117.17667,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06703268",
@@ -112,6 +112,80 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥18 and Age ≤75 years"
+   },
+   {
+    "text": "T2DM patients,"
+   },
+   {
+    "text": "During the 12 weeks before screening, on the basis of diet control and exercise therapy, patients only regularly received daily DPP-4 inhibitors (such as sitagliptin, vildagliptin, saxagliptin, linagliptin, alogliptin and retagliptin , etc.) or combined with metformin (with a metformin dose of ≥ 1500 mg/day, or the maximum tolerated dose < 1500 mg/day but ≥ 1000 mg/day);"
+   },
+   {
+    "text": "HbA1c ≥6.5% and HbA1c <8.0%"
+   },
+   {
+    "text": "FPG <10.0 mmol/L"
+   },
+   {
+    "text": "BMI ≥19 and BMI ≤ 35 kg/m2 (Body Mass Index)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Non-type 2 diabetes: Type 1 diabetes, gestational diabetes or other special types of diabetes."
+   },
+   {
+    "text": "The presence of any of the following medical histories or conditions at the time of screening:"
+   },
+   {
+    "text": "History of diabetic ketoacidosis or hyperglycemic hyperosmolar state within the recent 6 months;"
+   },
+   {
+    "text": "History of ≥2 episodes of severe hypoglycemia within the last 6 months;"
+   },
+   {
+    "text": "History of malignant tumors within the recent 5 years (except for cured basal cell carcinoma of the skin and cervical carcinoma in situ), or currently being evaluated for potential malignant tumors."
+   },
+   {
+    "text": "Presence of severe mental disorders or language barriers, unwilling or unable to fully understand and cooperate."
+   },
+   {
+    "text": "History of drug abuse within the past 5 years"
+   },
+   {
+    "text": "Previous history or clinical evidence of acute or chronic pancreatitis."
+   },
+   {
+    "text": "Using other drugs that may affect blood glucose metabolism within 12 weeks prior to screening, including systemic glucocorticoids (except for inhaled or topical ones), growth hormones, etc."
+   },
+   {
+    "text": "Any laboratory test index meeting the following criteria:"
+   },
+   {
+    "text": "Hemoglobin < 110 g/L (for males) or < 100 g/L (for females)."
+   },
+   {
+    "text": "Alanine aminotransferase (ALT) and/or aspartate aminotransferase (AST) > 3 times the upper limit of the normal value."
+   },
+   {
+    "text": "Total bilirubin (TBIL) > 2 times the upper limit of the normal value."
+   },
+   {
+    "text": "Fasting triglyceride (TG) > 5.7 mmol/L."
+   },
+   {
+    "text": "Estimated glomerular filtration rate (eGFR) calculated using the CKD-EPI formula < 45 mL/min/1.73m²."
+   },
+   {
+    "text": "Known to be allergic to the investigational products or related excipients."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

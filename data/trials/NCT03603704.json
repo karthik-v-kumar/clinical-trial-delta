@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "LY3209590",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "LY3209590",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3209590"
-   ]
+   ],
+   "label": "LY3209590",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The main purpose of this study is to evaluate the safety of a study drug known as LY3209590 in Japanese participants with type 2 diabetes. Side effects and tolerability will be documented. Blood samples will be taken to compare how the body handles the drug and how it affects blood sugar levels. The study will last about four weeks, not including screening. Screening is required within 4 weeks before the start of the study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have T2DM diagnosed at least 1 year ago\n* Have hemoglobin A1c (HbA1c) ≥7.0% and ≤10.0% with fasting plasma glucose (FPG) ≥126 milligrams per deciliter (mg/dL) or HbA1c ≥6.5% and \\<7.0% with FPG ≥144 mg/dL at screening\n* Have body weight ≥54 kilograms and a body mass index \\>18.5 and ≤40.0 kilograms per square meter at screening\n\nExclusion Criteria:\n\n* Have received a total daily dose of insulin \\>1.2 units per kilogram at screening\n* Have taken any glucose-lowering medications, other than basal insulin, metformin and dipeptidyl peptidase-IV inhibitor, in the past 3 months before screening\n* Have a history of multiple and/or severe allergies to drugs or foods, or a history of severe anaphylactic reaction\n* Have a history of heart block or a repeated demonstration of abnormality in the 12-lead electrocardiogram at screening, which in the opinion of the investigator, increases the risks associated with participating in the study",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,31 +97,31 @@
  },
  "sites": [
   {
-   "facility": "Hakata Clinic",
    "city": "Fukuoka",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Hakata Clinic",
    "lat": 33.6,
-   "lon": 130.41667
+   "lon": 130.41667,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "P-one clinic",
    "city": "Hachiōji",
-   "state": "Tokyo",
    "country": "Japan",
-   "status": null,
+   "facility": "P-one clinic",
    "lat": 35.65583,
-   "lon": 139.32389
+   "lon": 139.32389,
+   "state": "Tokyo",
+   "status": null
   },
   {
-   "facility": "Sumida Hospital",
    "city": "Sumida-ku",
-   "state": "Tokyo",
    "country": "Japan",
-   "status": null,
+   "facility": "Sumida Hospital",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Tokyo",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03603704",
@@ -136,6 +136,35 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have T2DM diagnosed at least 1 year ago"
+   },
+   {
+    "text": "Have hemoglobin A1c (HbA1c) ≥7.0% and ≤10.0% with fasting plasma glucose (FPG) ≥126 milligrams per deciliter (mg/dL) or HbA1c ≥6.5% and <7.0% with FPG ≥144 mg/dL at screening"
+   },
+   {
+    "text": "Have body weight ≥54 kilograms and a body mass index >18.5 and ≤40.0 kilograms per square meter at screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have received a total daily dose of insulin >1.2 units per kilogram at screening"
+   },
+   {
+    "text": "Have taken any glucose-lowering medications, other than basal insulin, metformin and dipeptidyl peptidase-IV inhibitor, in the past 3 months before screening"
+   },
+   {
+    "text": "Have a history of multiple and/or severe allergies to drugs or foods, or a history of severe anaphylactic reaction"
+   },
+   {
+    "text": "Have a history of heart block or a repeated demonstration of abnormality in the 12-lead electrocardiogram at screening, which in the opinion of the investigator, increases the risks associated with participating in the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

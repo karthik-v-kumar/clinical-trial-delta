@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "The Royal Bournemouth Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The Royal Bournemouth Hospital"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "Amaryl."
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia."
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride"
-   ]
+   ],
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The study is aimed at Type 2 Diabetics who are taking Metformin, but whose Diabetes remains poorly controlled. There are two additional medications already in use, Glimepiride and Sitagliptin will be compared to assess levels of improvement in Diabetes control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diabetes Mellitus\n* Currently on Metformin but poor glycaemic control,\n\nExclusion Criteria:\n\n* Under 18 years of age",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Royal Bournemouth Hospital",
    "city": "Bournemouth",
-   "state": "Dorset",
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Royal Bournemouth Hospital",
    "lat": 50.72048,
-   "lon": -1.8795
+   "lon": -1.8795,
+   "state": "Dorset",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00747383",
@@ -121,6 +121,23 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diabetes Mellitus"
+   },
+   {
+    "text": "Currently on Metformin but poor glycaemic control,"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Under 18 years of age"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

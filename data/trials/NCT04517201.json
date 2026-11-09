@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shanghai Zhongshan Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Shanghai Zhongshan Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "iNCDSS based insulin regime",
    "other_names": [
     "iGMS + iNCDSS based insulin regime"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Physician based insulin regime",
    "other_names": [
     "iGMS + routine insulin treatment regime"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AI group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: iNCDSS based insulin regime"
-   ]
+   ],
+   "label": "AI group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Physician based insulin regime"
-   ]
+   ],
+   "label": "Control group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "This is a multi-center, open-labeled, parallel group, randomized controlled trial to access the effect and safety of the Artificial Intelligence Assisted Insulin Titration System (iNCDSS) in patients with Type 2 Diabetes Mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men or women aged 18-99 years old;\n* Inpatients who had been diagnosed with type 2 diabetes;\n* Subjects who are on treatment with insulin for at least 3 months;\n* HbA1c: 7.0%-10.0%.\n\nExclusion Criteria:\n\n* Patients who were diagnosed with T1D, gestational diabetes or other specific types of diabetes.\n* Subjects with acute complications of diabetes such as ketoacidosis or hyperglycemic hyperosmolar state;\n* Patients with severe cardiac, hepatic, renal or general diseases;\n* Subjects that are, in the judgement of the investigator, unlikely to comply with the protocol.\n* Absence of informed consent.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "99 Years",
   "healthy_volunteers": false,
+  "maximum_age": "99 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,22 +98,22 @@
  },
  "sites": [
   {
-   "facility": "Zhongshan Hospital, Fudan University",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Zhongshan Hospital, Fudan University",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
-   "facility": "Zhongshan Hospital",
    "city": "Shanghai",
-   "state": "Shanghai Municipality",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Zhongshan Hospital",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": "Shanghai Municipality",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04517201",
@@ -125,6 +125,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men or women aged 18-99 years old;"
+   },
+   {
+    "text": "Inpatients who had been diagnosed with type 2 diabetes;"
+   },
+   {
+    "text": "Subjects who are on treatment with insulin for at least 3 months;"
+   },
+   {
+    "text": "HbA1c: 7.0%-10.0%."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients who were diagnosed with T1D, gestational diabetes or other specific types of diabetes."
+   },
+   {
+    "text": "Subjects with acute complications of diabetes such as ketoacidosis or hyperglycemic hyperosmolar state;"
+   },
+   {
+    "text": "Patients with severe cardiac, hepatic, renal or general diseases;"
+   },
+   {
+    "text": "Subjects that are, in the judgement of the investigator, unlikely to comply with the protocol."
+   },
+   {
+    "text": "Absence of informed consent."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

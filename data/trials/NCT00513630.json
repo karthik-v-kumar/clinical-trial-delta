@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shanghai Jiao Tong University School of Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Shanghai Jiao Tong University School of Medicine"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Glipizide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glipizide"
-   ]
+   ],
+   "label": "metformin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "glipizide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "glipizide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "The purpose of this study is to explore the recurrence risk of cardiovascular events in patients with type 2 diabetes mellitus and coronary heart disease after different antidiabetic drug therapy (glipizide or metformin) by using an double-blind, randomized, parallel control and prospective study\n\nThe end point of this study is:\n\n1. follow up 3yr\n2. recurrence of cardiovascular event\n3. death caused by other reasons such as stroke, uremia, blindness and amputation",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Coronary heart disease\n* Type 2 diabetes\n\nExclusion Criteria:\n\n* Severe organ dysfunction, psychopathy, infection, neutropenia\n* Congenital heart disease, rheumatic heart disease, severe arrhythmia, myocardiopathy",
-  "sex": "ALL",
-  "minimum_age": null,
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": null,
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Shanghai Jiao Tong University School of Medicine",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Shanghai Jiao Tong University School of Medicine",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00513630",
@@ -114,6 +114,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Coronary heart disease"
+   },
+   {
+    "text": "Type 2 diabetes"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe organ dysfunction, psychopathy, infection, neutropenia"
+   },
+   {
+    "text": "Congenital heart disease, rheumatic heart disease, severe arrhythmia, myocardiopathy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

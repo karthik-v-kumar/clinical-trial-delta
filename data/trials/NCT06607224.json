@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hospital General Universitario Gregorio Marañon",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hospital General Universitario Gregorio Marañon"
  },
  "collaborators": [],
  "conditions": [
@@ -51,25 +51,25 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Experimental (Decision making guided by CGM)",
    "other_names": [
     "CGM"
-   ]
+   ],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Decision making guided by CGM",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Experimental (Decision making guided by CGM)"
-   ]
+   ],
+   "label": "Decision making guided by CGM",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Decision making guided by CG",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "Type 2 diabetes (T2D) is a common pathology in hospitalized patients and is associated with multiple comorbidities. Moreover, it is widely known that glycemic excursions increase hospital stay, infections, morbidity and mortality. Likewise, asymptomatic hypoglycemia and stress hyperglycemia in hospitalized patients is more frequent due to intercurrent pathology, medication, alteration of counter-regulatory hormones. Therefore, the use of continuous glucose monitoring (CGM) systems would be very useful as it allows early recognition of glycemic excursions and thus improve the management of insulin therapy. The primary objective is to demonstrate the increase in time in range (TIR) with the use of CGM for insulin therapy adjustment in hospitalized patients with T2D during their admission. The investigators randomized, parallel group, 2-arm, 40 participants; 20 in each group, patients with diagnosis of T2D prior to admission.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Over 18 years old\n* Admitted to medical or surgical wards with an expected hospitalization duration of more than 72 hours\n* Requiring basal-bolus insulin therapy during hospitalization.\n\nExclusion Criteria:\n\n* Pregnant women\n* Severe mental illnesses\n* Chronic use of high doses of ascorbic acid (equivalent to more than 500mg/day)\n* Patients hospitalized in Intensive Care Units\n* Severe cognitive impairment\n* Prior outpatient CGM use\n* Refusal of informed consent\n* Patients on prolonged absolute diets or receiving artificial nutrition",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital General Universitario Gregorio Marañón",
    "city": "Madrid",
-   "state": "Madrid",
    "country": "Spain",
-   "status": null,
+   "facility": "Hospital General Universitario Gregorio Marañón",
    "lat": 40.4165,
-   "lon": -3.70256
+   "lon": -3.70256,
+   "state": "Madrid",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06607224",
@@ -110,6 +110,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Over 18 years old"
+   },
+   {
+    "text": "Admitted to medical or surgical wards with an expected hospitalization duration of more than 72 hours"
+   },
+   {
+    "text": "Requiring basal-bolus insulin therapy during hospitalization."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant women"
+   },
+   {
+    "text": "Severe mental illnesses"
+   },
+   {
+    "text": "Chronic use of high doses of ascorbic acid (equivalent to more than 500mg/day)"
+   },
+   {
+    "text": "Patients hospitalized in Intensive Care Units"
+   },
+   {
+    "text": "Severe cognitive impairment"
+   },
+   {
+    "text": "Prior outpatient CGM use"
+   },
+   {
+    "text": "Refusal of informed consent"
+   },
+   {
+    "text": "Patients on prolonged absolute diets or receiving artificial nutrition"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

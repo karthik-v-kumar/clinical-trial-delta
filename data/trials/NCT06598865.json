@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Centre d'Etudes et de Recherche pour l'Intensification du Traitement du Diabète",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Centre d'Etudes et de Recherche pour l'Intensification du Traitement du Diabète"
  },
  "collaborators": [],
  "conditions": [
@@ -50,23 +50,23 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "adapted physical activity",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "experimental",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: adapted physical activity"
-   ]
+   ],
+   "label": "experimental",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "Comparative effectiveness on glycemic balance of a non-pharmacological treatment, Adapted Physical Activity (APA), either supervised by a qualified APA instructor or unsupervised in autonomy, in individuals with inadequately controlled Type 2 Diabetes, under diet alone or non-insulin treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient who has given consent to participate in the study and has signed an informed consent form.\n* Patient aged 18 to 67 years\n* Patient diagnosed with type 2 diabetes\n* Patient newly diagnosed or on non-insulin treatment (metformin +/- DPP4 inhibitor, GLP1 analogue +/- SGLT2 inhibitor) for whom it is considered to initiate or intensify antidiabetic treatment by introducing a new therapeutic class.\n* Patient insufficiently controlled (\\&gt; 1.30 g/L fasting blood glucose measured in the laboratory twice a few days apart in a city laboratory)\n* Patient with good venous access.\n* Patient capable of engaging in regular physical activity\n* Patient who has undergone a coronary artery disease screening test in the year prior to inclusion according to the new recommendations of an expert consensus.\n* Patient agrees to wear a FitBit Charge 6 bracelet for the entire duration of the study, including the run-in period, and agrees to recharge it and transmit the data.\n\nExclusion Criteria:\n\n* Patient diagnosed with type 1 diabetes\n* Patient treated with sulfonylureas\n* Patient with a history of severe cardiovascular diseases (myocardial infarction, acute coronary syndrome, or stroke in the past year)\n* Patient presenting a medical contraindication to performing a physical activity session (uncontrolled resting hypertension, i.e., systolic blood pressure \\&gt; 160 mmHg and/or diastolic blood pressure \\&gt; 100 mmHg, unstable coronary artery disease, heart failure, severe proliferative or non-proliferative evolving retinopathy (unstabilized), or having undergone recent surgical laser treatment of the eye, plantar perforating ulcer, disabling osteoarthritis of the lower limbs, respiratory failure, severe renal impairment, liver failure, severe dysautonomia, i.e., risk of chronotropic insufficiency during exercise, peripheral neuropathy)\n* Patient with a history of severe hypoglycemia in the 6 months prior to entering the study and/or not feeling their hypoglycemia at all\n* Patient with an IPAQ score in the high category\n* Patient with a known latex allergy\n* Patient with morbid obesity (BMI \\&gt; 40 kg/m²)\n* Other conditions that may interfere with glycemic variation: particularly the use of corticosteroids during the study\n* Patient treated with beta-blockers or calcium channel blockers with negative chronotropic action (such as isoptin)\n* Breastfeeding woman\n* Pregnant woman\\* or wishing to become pregnant",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "67 Years",
   "healthy_volunteers": false,
+  "maximum_age": "67 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "CERITD (Centre d'Etudes et de Recherches pour l'Intensification du Traitement du Diabète),",
    "city": "Évry",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CERITD (Centre d'Etudes et de Recherches pour l'Intensification du Traitement du Diabète),",
    "lat": 48.6328,
-   "lon": 2.44049
+   "lon": 2.44049,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06598865",
@@ -107,6 +107,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient who has given consent to participate in the study and has signed an informed consent form."
+   },
+   {
+    "text": "Patient aged 18 to 67 years"
+   },
+   {
+    "text": "Patient diagnosed with type 2 diabetes"
+   },
+   {
+    "text": "Patient newly diagnosed or on non-insulin treatment (metformin +/- DPP4 inhibitor, GLP1 analogue +/- SGLT2 inhibitor) for whom it is considered to initiate or intensify antidiabetic treatment by introducing a new therapeutic class."
+   },
+   {
+    "text": "Patient insufficiently controlled (&gt; 1.30 g/L fasting blood glucose measured in the laboratory twice a few days apart in a city laboratory)"
+   },
+   {
+    "text": "Patient with good venous access."
+   },
+   {
+    "text": "Patient capable of engaging in regular physical activity"
+   },
+   {
+    "text": "Patient who has undergone a coronary artery disease screening test in the year prior to inclusion according to the new recommendations of an expert consensus."
+   },
+   {
+    "text": "Patient agrees to wear a FitBit Charge 6 bracelet for the entire duration of the study, including the run-in period, and agrees to recharge it and transmit the data."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient diagnosed with type 1 diabetes"
+   },
+   {
+    "text": "Patient treated with sulfonylureas"
+   },
+   {
+    "text": "Patient with a history of severe cardiovascular diseases (myocardial infarction, acute coronary syndrome, or stroke in the past year)"
+   },
+   {
+    "text": "Patient presenting a medical contraindication to performing a physical activity session (uncontrolled resting hypertension, i.e., systolic blood pressure &gt; 160 mmHg and/or diastolic blood pressure &gt; 100 mmHg, unstable coronary artery disease, heart failure, severe proliferative or non-proliferative evolving retinopathy (unstabilized), or having undergone recent surgical laser treatment of the eye, plantar perforating ulcer, disabling osteoarthritis of the lower limbs, respiratory failure, severe renal impairment, liver failure, severe dysautonomia, i.e., risk of chronotropic insufficiency during exercise, peripheral neuropathy)"
+   },
+   {
+    "text": "Patient with a history of severe hypoglycemia in the 6 months prior to entering the study and/or not feeling their hypoglycemia at all"
+   },
+   {
+    "text": "Patient with an IPAQ score in the high category"
+   },
+   {
+    "text": "Patient with a known latex allergy"
+   },
+   {
+    "text": "Patient with morbid obesity (BMI &gt; 40 kg/m²)"
+   },
+   {
+    "text": "Other conditions that may interfere with glycemic variation: particularly the use of corticosteroids during the study"
+   },
+   {
+    "text": "Patient treated with beta-blockers or calcium channel blockers with negative chronotropic action (such as isoptin)"
+   },
+   {
+    "text": "Breastfeeding woman"
+   },
+   {
+    "text": "Pregnant woman* or wishing to become pregnant"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

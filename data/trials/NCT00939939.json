@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Ludwig-Maximilians - University of Munich",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Ludwig-Maximilians - University of Munich"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin"
-   ]
+   ],
+   "label": "sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "glimepirid",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: glimepiride"
-   ]
+   ],
+   "label": "glimepirid",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The goal of the study is to evaluate whether sitagliptin can affect postprandial lipoprotein metabolism in type 2 diabetic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetes\n* dietary therapy\n\nExclusion Criteria:\n\n* lipid-lowering therapy\n* anti-hyperglycemic drug therapy",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Medical Dept. 2, Grosshadern, University Munich",
    "city": "Munich",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Medical Dept. 2, Grosshadern, University Munich",
    "lat": 48.13743,
-   "lon": 11.57549
+   "lon": 11.57549,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00939939",
@@ -117,6 +117,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "type 2 diabetes"
+   },
+   {
+    "text": "dietary therapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "lipid-lowering therapy"
+   },
+   {
+    "text": "anti-hyperglycemic drug therapy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

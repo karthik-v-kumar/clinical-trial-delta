@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "vildagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "vildagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: vildagliptin"
-   ]
+   ],
+   "label": "vildagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This study is not being conducted in the United States. The purpose of this study is to assess the effect of vildagliptin, an unapproved drug, on various measures of pancreatic islet function in people with type 2 diabetes who have not previously been treated with drug therapy to lower their blood sugar.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Not currently on drug therapy for type 2 diabetes\n* Blood glucose criteria must be met\n\nExclusion Criteria:\n\n* History of type 1 diabetes\n* Evidence of significant diabetic complications\n* Serious cardiovascular events within the past 6 months\n* Other protocol-defined exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Novartis Pharmaceuticals",
    "city": "Basel",
-   "state": null,
    "country": "Switzerland",
-   "status": null,
+   "facility": "Novartis Pharmaceuticals",
    "lat": 47.55839,
-   "lon": 7.57327
+   "lon": 7.57327,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00260156",
@@ -117,6 +117,32 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Not currently on drug therapy for type 2 diabetes"
+   },
+   {
+    "text": "Blood glucose criteria must be met"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of type 1 diabetes"
+   },
+   {
+    "text": "Evidence of significant diabetic complications"
+   },
+   {
+    "text": "Serious cardiovascular events within the past 6 months"
+   },
+   {
+    "text": "Other protocol-defined exclusion criteria may apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

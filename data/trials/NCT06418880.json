@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Emory University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Emory University"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "AID system with Remote Real-Time CGM",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "COMBINATION_PRODUCT",
    "name": "Standard of Care Insulin Therapy + CGM",
    "other_names": [
     "Multiple Daily Injections +CGM"
-   ]
+   ],
+   "type": "COMBINATION_PRODUCT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Control",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Combination Product: Standard of Care Insulin Therapy + CGM"
-   ]
+   ],
+   "label": "Control",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: AID system with Remote Real-Time CGM"
-   ]
+   ],
+   "label": "Intervention",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This randomized controlled trial will test the efficacy and safety of automated insulin delivery (AID) in hospitalized patients with diabetes (type 1 or type 2) requiring insulin therapy who are admitted to general medical/surgical floors.\n\nThe main objectives of this study are:\n\n* To test the efficacy and safety of AID versus multiple daily insulin injections (MDI) + CGM in the inpatient setting\n* To determine differences in CGM-derived metrics between AID and MDI plus CGM in the hospital and explore differences in treatment effect according to individual characteristics.\n\nParticipants will be:\n\n* Randomized to AID + remote CGM (intervention) or multiple daily insulin injections (MDI) + CGM (control group)\n* Followed for a total of 10 days or until hospital discharge (if less than 10 days).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n• Any person ≥18 years of age with diabetes mellitus (except cystic fibrosis- and pregnancy-related) admitted to general (non-ICU) medical-surgical hospital services which require inpatient insulin therapy (i.e.,TID or T2D with ≥2 glucose values ≥180mg/dl)\n\nExclusion Criteria:\n\n* Patients admitted to ICU\n* Patients anticipated to require less than 48 hours admission.\n* Current evidence of hyperglycemic crises (diabetic ketoacidosis or hyperosmolar hyperglycemic state)\n* Severe anemia with hemoglobin \\<7 g/dL\n* Evidence of hemodynamic instability\n* Hypoxia (SpO2 \\<92% on supplemental oxygen)\n* Pre-admission or inpatient total-daily insulin dose \\>150 units daily\n* T2D patients on sliding scale insulin therapy alone (no scheduled basal or bolus insulin) and with glucose levels below 180 mg/dl\n* Patients without diabetes with stress hyperglycemia (not related to steroids or medical nutrition therapy) and with HbA1c \\<6.5%\n* Patients on AID as outpatient\n* Patients who previously participated in AIDING feasibility trial or this RCT\n* Patients with a condition impeding their ability to consent or answer questionnaires or notify staff of symptoms.\n* Patients who are pregnant time of enrollment\n* Patients who are unable or unwilling to use rapid-acting insulin analogs (Humalog, Admelog, or Novolog) during the study\n* Use of hydroxyurea, high dose of acetaminophen (\\>4 grams/day), or high dose ascorbic acid",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,31 +103,31 @@
  },
  "sites": [
   {
-   "facility": "Stanford University School of Medicine",
    "city": "Stanford",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Stanford University School of Medicine",
    "lat": 37.42411,
-   "lon": -122.16608
+   "lon": -122.16608,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Grady Health System (non-CRN)",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Grady Health System (non-CRN)",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   },
   {
-   "facility": "University of Virginia School of Medicine",
    "city": "Charlottesville",
-   "state": "Virginia",
    "country": "United States",
-   "status": null,
+   "facility": "University of Virginia School of Medicine",
    "lat": 38.02931,
-   "lon": -78.47668
+   "lon": -78.47668,
+   "state": "Virginia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06418880",
@@ -139,6 +139,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Any person ≥18 years of age with diabetes mellitus (except cystic fibrosis- and pregnancy-related) admitted to general (non-ICU) medical-surgical hospital services which require inpatient insulin therapy (i.e.,TID or T2D with ≥2 glucose values ≥180mg/dl)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients admitted to ICU"
+   },
+   {
+    "text": "Patients anticipated to require less than 48 hours admission."
+   },
+   {
+    "text": "Current evidence of hyperglycemic crises (diabetic ketoacidosis or hyperosmolar hyperglycemic state)"
+   },
+   {
+    "text": "Severe anemia with hemoglobin <7 g/dL"
+   },
+   {
+    "text": "Evidence of hemodynamic instability"
+   },
+   {
+    "text": "Hypoxia (SpO2 <92% on supplemental oxygen)"
+   },
+   {
+    "text": "Pre-admission or inpatient total-daily insulin dose >150 units daily"
+   },
+   {
+    "text": "T2D patients on sliding scale insulin therapy alone (no scheduled basal or bolus insulin) and with glucose levels below 180 mg/dl"
+   },
+   {
+    "text": "Patients without diabetes with stress hyperglycemia (not related to steroids or medical nutrition therapy) and with HbA1c <6.5%"
+   },
+   {
+    "text": "Patients on AID as outpatient"
+   },
+   {
+    "text": "Patients who previously participated in AIDING feasibility trial or this RCT"
+   },
+   {
+    "text": "Patients with a condition impeding their ability to consent or answer questionnaires or notify staff of symptoms."
+   },
+   {
+    "text": "Patients who are pregnant time of enrollment"
+   },
+   {
+    "text": "Patients who are unable or unwilling to use rapid-acting insulin analogs (Humalog, Admelog, or Novolog) during the study"
+   },
+   {
+    "text": "Use of hydroxyurea, high dose of acetaminophen (>4 grams/day), or high dose ascorbic acid"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

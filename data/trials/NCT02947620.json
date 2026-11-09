@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Daewoong Pharmaceutical Co. LTD.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Daewoong Pharmaceutical Co. LTD."
  },
  "collaborators": [],
  "conditions": [
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin/Atorvastatin 1500mg/40mg, QD",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin 1500mg, QD",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin 40mg, QD",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin/Atorvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin/Atorvastatin 1500mg/40mg, QD"
-   ]
+   ],
+   "label": "Metformin/Atorvastatin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin 40mg, QD"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Atorvastatin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin 1500mg, QD"
-   ]
+   ],
+   "label": "Atorvastatin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "A Multi-center, Randomized, double-blind, active-controlled, phase 3 trial to evaluate the safety and efficacy of Metformin/Atorvastatin in subjects with Type II Diabetes and dyslipidemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects with Dyslipidemia and Type II Diabetes\n* 19 years later, men and women under the age of 80\n\nExclusion Criteria:\n\n* Pregnant women, nursing mothers or subject who does not agree to assigned contraception in the study\n* Subject with type I Diabetes\n* Subject with hypertension which does not controlled by treatment(have blood pressure \\> 180/110mmHg)",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,26 +114,49 @@
  },
  "sites": [
   {
-   "facility": "Samsung Medical Center",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Samsung Medical Center",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02947620",
  "content_hash": "40279115a1219ae5",
  "collections": [
-  "type-2-diabetes",
-  "cholesterol-lipids"
+  "cholesterol-lipids",
+  "type-2-diabetes"
  ],
  "matched_queries": [
-  "t2d-drugs",
-  "lipids-drugs"
+  "lipids-drugs",
+  "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects with Dyslipidemia and Type II Diabetes"
+   },
+   {
+    "text": "19 years later, men and women under the age of 80"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant women, nursing mothers or subject who does not agree to assigned contraception in the study"
+   },
+   {
+    "text": "Subject with type I Diabetes"
+   },
+   {
+    "text": "Subject with hypertension which does not controlled by treatment(have blood pressure > 180/110mmHg)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

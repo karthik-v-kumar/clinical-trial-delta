@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "TRIPLE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2017-04-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Beth Israel Deaconess Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Beth Israel Deaconess Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -54,43 +54,43 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "ubiquinol",
    "other_names": [
     "coenzyme Q10"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DRUG",
    "name": "statin",
    "other_names": [
     "Simvastatin",
     "Atorvastatin",
     "Rosuvastatin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Statin + placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: placebo",
     "Drug: statin"
-   ]
+   ],
+   "label": "Statin + placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Statin + ubiquinol",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: ubiquinol",
     "Drug: statin"
-   ]
+   ],
+   "label": "Statin + ubiquinol",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "It is our primary hypothesis that statin drugs impair skeletal muscle mitochondrial function and that ubiquinol (the reduced active form of CoQ10) supplementation will block impairment of PCr recovery kinetics in patients using statins. The investigators propose a pilot study to extend our research to examine PCr recovery kinetics in 20 statin users randomized in a parallel arm study to either ubiquinol or placebo over 4 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Persons age 18 years and older who have been advised to use a statin medication by their physician.\n2. Up to ten individuals will have a history of statin myalgia on observed statin rechallenge. All others will have a history (\\>6 months) of tolerating a statin at a standard starting dose or higher.\n3. All persons will be able to cooperate for a period of 1-2 hours, able to provided informed consent and have no known adverse effects or contraindications to an MRI study.\n\nExclusion Criteria:\n\n1. Having diabetes or known lower extremity peripheral vascular disease, as these conditions may interfere with interpretation of the MRI spectroscopy of the lower extremity (the only site we are examining in this study).\n2. Current users of a statin with a recent heart attack, stroke, or revascularization procedure (within the last 1 year) who could be at higher risk of stopping a statin.\n3. Creatine kinase (CK) \\> 5 x ULN. If CK levels are greater than 3 x ULN, the participant will be given the option of returning for a repeat blood draw at their earliest convenience. Any elevation in CK will be treated per the safety guidelines outlined in section B5.\n4. Alanine transferase (ALT) or aspartate transferase (AST) \\> 3 x ULN. If ALT and/or AST levels are greater than 3 x ULN, the participant will return for a repeat blood draw at their earliest convenience. If the participant's ALT and/or AST is found elevated at this repeat analysis, they will be withdrawn from the study. Any elevation in ALT and/or AST will be treated per the safety guidelines outlined in section B5.\n5. Severe uncontrolled medical problems or medications that may influence measurements or impair ability to participate in the study exams (e.g. poorly controlled hypertension; (\\>170/\\>100); known creatinine \\> 2.5 md/dl or GFR \\< 30; anemia with Hgb \\< 10, etc.).\n6. Pregnancy or breastfeeding (a contraindication for statin use)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "Beth Israel Deaconess Medical Center",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Beth Israel Deaconess Medical Center",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01702987",
@@ -131,6 +131,41 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Persons age 18 years and older who have been advised to use a statin medication by their physician."
+   },
+   {
+    "text": "Up to ten individuals will have a history of statin myalgia on observed statin rechallenge. All others will have a history (>6 months) of tolerating a statin at a standard starting dose or higher."
+   },
+   {
+    "text": "All persons will be able to cooperate for a period of 1-2 hours, able to provided informed consent and have no known adverse effects or contraindications to an MRI study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Having diabetes or known lower extremity peripheral vascular disease, as these conditions may interfere with interpretation of the MRI spectroscopy of the lower extremity (the only site we are examining in this study)."
+   },
+   {
+    "text": "Current users of a statin with a recent heart attack, stroke, or revascularization procedure (within the last 1 year) who could be at higher risk of stopping a statin."
+   },
+   {
+    "text": "Creatine kinase (CK) > 5 x ULN. If CK levels are greater than 3 x ULN, the participant will be given the option of returning for a repeat blood draw at their earliest convenience. Any elevation in CK will be treated per the safety guidelines outlined in section B5."
+   },
+   {
+    "text": "Alanine transferase (ALT) or aspartate transferase (AST) > 3 x ULN. If ALT and/or AST levels are greater than 3 x ULN, the participant will return for a repeat blood draw at their earliest convenience. If the participant's ALT and/or AST is found elevated at this repeat analysis, they will be withdrawn from the study. Any elevation in ALT and/or AST will be treated per the safety guidelines outlined in section B5."
+   },
+   {
+    "text": "Severe uncontrolled medical problems or medications that may influence measurements or impair ability to participate in the study exams (e.g. poorly controlled hypertension; (>170/>100); known creatinine > 2.5 md/dl or GFR < 30; anemia with Hgb < 10, etc.)."
+   },
+   {
+    "text": "Pregnancy or breastfeeding (a contraindication for statin use)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

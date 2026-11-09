@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2022-12-07",
  "has_results": true,
  "lead_sponsor": {
-  "name": "George Washington University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "George Washington University"
  },
  "collaborators": [
   "Janssen Scientific Affairs, LLC"
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Canagliflozin",
    "other_names": [
     "INVOKANA"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Active Arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Canagliflozin"
-   ]
+   ],
+   "label": "Active Arm",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo Arm",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo Arm",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "The investigators hypothesize that Cana may be able to improve number and function of CD34+ endothelial progenitor cells. The investigators also propose that this expected cardiovascular benefit is independent of HbA1C reduction.\n\nSubjects will begin taking 100 mg of Cana or placebo after initial 4 weeks. Subjects will be withdrawn from the study if the medication or placebo is not tolerated.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 30-70 years\n* Currently treated with any combination of the following anti-diabetic therapies: metformin (1-2 grams), insulin, GLP-1 agonists, a DPP-IV inhibitor, or sulfonylureas\n* Hemoglobin A1C (HbA1C) between 7.0% and 10.0%\n* Body Mass Index (BMI) between 25 and 39.9 kg/m\\^2 (both inclusive)\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* History of hyperosmolar nonketotic coma\n* History of diabetic ketoacidosis in the last 3 months\n* Abnormal CBC that is judged by physician to be unsafe to enroll or low hematocrit (\\<28 UNITS).\n* History of pancreatitis\n* History of diabetic ketoacidosis in the last 3 months\n* History of cancer (except basal cell carcinoma and cancer that is cured or not active or being treated in the past 5 years)\n* Heart attack or stroke within 6 months of screening\n* Clinically significant coronary and/or peripheral vascular disease that would be unsafe to enroll in the study.\n* Statin use started or dose change in the last 3 months\n* CKD Stages 3,4 and 5\n* Use of oral or injectable anti-diabetic medication other than any combination of the following anti-diabetic therapies: metformin (1-2 grams), insulin, GLP-1 agonists, a DPP-IV inhibitor, or sulfonylureas currently, or in the past 1 month.\n* Use of consistent long-term steroid medication (oral, inhaled, injected) within the last 3 months\n* Uncontrolled inflammatory disease, or current chronic use of anti-inflammatory drugs within the last 3 months. \\*\\*This will be judged on a case by case basis by the PI\\*\\*\n* Implanted devices (e.g., pacemakers) that may interact with Body Composition scale\n* Untreated Systolic Blood Pressure \\> 150 mmHg and diastolic Blood Pressure \\> 90 mmHg\n* Active wounds or recent surgery within 3 months\n* Untreated hyper/hypothyroidism\n\nPhysical and Laboratory Test Findings:\n\n* Pre-existing liver disease and/or ALT and AST \\>2.5X's UNL\n* Serum creatinine levels ≥2.0\n* Estimated CrCl \\< 60 mL/min (measured by eGFR value)\n* Triglycerides \\>450 mg/dL\n\nAllergies and Adverse Drug Reactions:\n\n* Subjects with a history of any serious hypersensitivity reaction to Cana or another SGLT2 inhibitor.\n\nSex and Reproductive Status:\n\n* Women in reproductive age group will be included in the study but encouraged to use contraceptive method to avoid pregnancy within 16 weeks of study duration.\n* Women who are pregnant or breast-feeding will be excluded.\n\nOther Exclusion Criteria:\n\n* Prisoners or subjects who are involuntarily incarcerated.\n* Subjects who are compulsorily detained for treatment of either a psychiatric or physical (e.g., infectious disease) illness.\n* Patients who are active smokers\n* Patients who are pregnant\n* Nursing women\n* Post-menopausal women who are on estrogen hormone replacement therapy will be excluded.\n* Patients on low dose oral contraceptives will be allowed to participate as these formulations contain very low amounts of estrogens.\n* Eligibility criteria for this study have been carefully considered to ensure the safety of the study subjects and to ensure that the results of the study can be used. It is imperative that subjects fully meet all eligibility criteria.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "The George Washington University Medical Faculty Associates",
    "city": "Washington D.C.",
-   "state": "District of Columbia",
    "country": "United States",
-   "status": null,
+   "facility": "The George Washington University Medical Faculty Associates",
    "lat": 38.89511,
-   "lon": -77.03637
+   "lon": -77.03637,
+   "state": "District of Columbia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02964585",
@@ -131,6 +131,132 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 30-70 years"
+   },
+   {
+    "text": "Currently treated with any combination of the following anti-diabetic therapies: metformin (1-2 grams), insulin, GLP-1 agonists, a DPP-IV inhibitor, or sulfonylureas"
+   },
+   {
+    "text": "Hemoglobin A1C (HbA1C) between 7.0% and 10.0%"
+   },
+   {
+    "text": "Body Mass Index (BMI) between 25 and 39.9 kg/m^2 (both inclusive)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "History of hyperosmolar nonketotic coma"
+   },
+   {
+    "text": "History of diabetic ketoacidosis in the last 3 months"
+   },
+   {
+    "text": "Abnormal CBC that is judged by physician to be unsafe to enroll or low hematocrit (<28 UNITS)."
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "History of diabetic ketoacidosis in the last 3 months"
+   },
+   {
+    "text": "History of cancer (except basal cell carcinoma and cancer that is cured or not active or being treated in the past 5 years)"
+   },
+   {
+    "text": "Heart attack or stroke within 6 months of screening"
+   },
+   {
+    "text": "Clinically significant coronary and/or peripheral vascular disease that would be unsafe to enroll in the study."
+   },
+   {
+    "text": "Statin use started or dose change in the last 3 months"
+   },
+   {
+    "text": "CKD Stages 3,4 and 5"
+   },
+   {
+    "text": "Use of oral or injectable anti-diabetic medication other than any combination of the following anti-diabetic therapies: metformin (1-2 grams), insulin, GLP-1 agonists, a DPP-IV inhibitor, or sulfonylureas currently, or in the past 1 month."
+   },
+   {
+    "text": "Use of consistent long-term steroid medication (oral, inhaled, injected) within the last 3 months"
+   },
+   {
+    "text": "Uncontrolled inflammatory disease, or current chronic use of anti-inflammatory drugs within the last 3 months. **This will be judged on a case by case basis by the PI**"
+   },
+   {
+    "text": "Implanted devices (e.g., pacemakers) that may interact with Body Composition scale"
+   },
+   {
+    "text": "Untreated Systolic Blood Pressure > 150 mmHg and diastolic Blood Pressure > 90 mmHg"
+   },
+   {
+    "text": "Active wounds or recent surgery within 3 months"
+   },
+   {
+    "text": "Untreated hyper/hypothyroidism"
+   },
+   {
+    "text": "Pre-existing liver disease and/or ALT and AST >2.5X's UNL",
+    "group": "Physical and Laboratory Test Findings"
+   },
+   {
+    "text": "Serum creatinine levels ≥2.0",
+    "group": "Physical and Laboratory Test Findings"
+   },
+   {
+    "text": "Estimated CrCl < 60 mL/min (measured by eGFR value)",
+    "group": "Physical and Laboratory Test Findings"
+   },
+   {
+    "text": "Triglycerides >450 mg/dL",
+    "group": "Physical and Laboratory Test Findings"
+   },
+   {
+    "text": "Subjects with a history of any serious hypersensitivity reaction to Cana or another SGLT2 inhibitor.",
+    "group": "Allergies and Adverse Drug Reactions"
+   },
+   {
+    "text": "Women in reproductive age group will be included in the study but encouraged to use contraceptive method to avoid pregnancy within 16 weeks of study duration.",
+    "group": "Sex and Reproductive Status"
+   },
+   {
+    "text": "Women who are pregnant or breast-feeding will be excluded.",
+    "group": "Sex and Reproductive Status"
+   },
+   {
+    "text": "Prisoners or subjects who are involuntarily incarcerated."
+   },
+   {
+    "text": "Subjects who are compulsorily detained for treatment of either a psychiatric or physical (e.g., infectious disease) illness."
+   },
+   {
+    "text": "Patients who are active smokers"
+   },
+   {
+    "text": "Patients who are pregnant"
+   },
+   {
+    "text": "Nursing women"
+   },
+   {
+    "text": "Post-menopausal women who are on estrogen hormone replacement therapy will be excluded."
+   },
+   {
+    "text": "Patients on low dose oral contraceptives will be allowed to participate as these formulations contain very low amounts of estrogens."
+   },
+   {
+    "text": "Eligibility criteria for this study have been carefully considered to ensure the safety of the study subjects and to ensure that the results of the study can be used. It is imperative that subjects fully meet all eligibility criteria."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

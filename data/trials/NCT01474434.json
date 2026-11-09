@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2016-04-14",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "pradigastat (LCQ908)",
    "other_names": [
     "Pradigastat"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pradigastat (LCQ908) followed by placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: pradigastat (LCQ908)",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Pradigastat (LCQ908) followed by placebo",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo followed by pradigastat (LCQ908)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: pradigastat (LCQ908)",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo followed by pradigastat (LCQ908)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -108,10 +108,10 @@
  "brief_summary": "This is a study designed to evaluate the potential for the pradigastat (LCQ908) to impact cardiovascular risk.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* History of coronary artery disease\n* Elevated triglycerides\n* On medication to help lower cholesterol\n\nExclusion Criteria:\n\n* Poorly controlled diabetic patients and/or change in diabetic medication within 12 weeks of screening\n* History of myocardial infarction (heart attack) within 6 months of screening\n* History of a procedure to open a blocked coronary artery within 12 months of enrollment\n* History of Coronary Artery Bypass Graft (CABG) surgery\n* History of congestive heart failure\n* History of significant heart valve disease",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,13 +119,13 @@
  },
  "sites": [
   {
-   "facility": "Novartis Investigative Site",
    "city": "Pasadena",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 34.14778,
-   "lon": -118.14452
+   "lon": -118.14452,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01474434",
@@ -139,6 +139,41 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "History of coronary artery disease"
+   },
+   {
+    "text": "Elevated triglycerides"
+   },
+   {
+    "text": "On medication to help lower cholesterol"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Poorly controlled diabetic patients and/or change in diabetic medication within 12 weeks of screening"
+   },
+   {
+    "text": "History of myocardial infarction (heart attack) within 6 months of screening"
+   },
+   {
+    "text": "History of a procedure to open a blocked coronary artery within 12 months of enrollment"
+   },
+   {
+    "text": "History of Coronary Artery Bypass Graft (CABG) surgery"
+   },
+   {
+    "text": "History of congestive heart failure"
+   },
+   {
+    "text": "History of significant heart valve disease"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

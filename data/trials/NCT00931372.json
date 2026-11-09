@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sanofi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sanofi"
  },
  "collaborators": [
   "Profil GmbH, Neuss, Germany"
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Lixisenatide (AVE0010)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sequence 1: AVE0010/Placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Lixisenatide (AVE0010)",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Sequence 1: AVE0010/Placebo",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sequence 2: Placebo/AVE0010",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Lixisenatide (AVE0010)",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Sequence 2: Placebo/AVE0010",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The objective of this study is to test whether Lixisenatide (AVE0010) restores first phase and improves second phase insulin response in subjects with diabetes mellitus type 2.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male and female subjects with type 2 diabetes mellitus on diet and exercise with/without metformin\n* HbA1c\\>=6,0 % and \\<=8,5 % at screening\n* BMI 25 to 35 kg/m²\n* 155\\>=BP systolic \\>=90 mmHg\n* 100\\>=BP diastolic\\>=45 mmHg\n\nThe above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Sanofi-Aventis Administrative Office",
    "city": "Berlin",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Sanofi-Aventis Administrative Office",
    "lat": 52.52437,
-   "lon": 13.41053
+   "lon": 13.41053,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00931372",
@@ -121,6 +121,31 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male and female subjects with type 2 diabetes mellitus on diet and exercise with/without metformin"
+   },
+   {
+    "text": "HbA1c>=6,0 % and <=8,5 % at screening"
+   },
+   {
+    "text": "BMI 25 to 35 kg/m²"
+   },
+   {
+    "text": "155>=BP systolic >=90 mmHg"
+   },
+   {
+    "text": "100>=BP diastolic>=45 mmHg"
+   },
+   {
+    "text": "The above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial."
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

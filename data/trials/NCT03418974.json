@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Fudan University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Fudan University"
  },
  "collaborators": [
   "Peking University People's Hospital",
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pitavastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pitavastatin treatment",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pitavastatin"
-   ]
+   ],
+   "label": "Pitavastatin treatment",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Atorvastatin treatment",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "Atorvastatin treatment",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Rosuvastatin treatment",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Rosuvastatin"
-   ]
+   ],
+   "label": "Rosuvastatin treatment",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "This study is designed to verify the clinical efficacy and safety of different statins in dyslipidemia patients, and explore the effects on glycometabolic in patients with impaired glucose regulation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patients with a clinical diagnosis of ASCVD (Acute coronary syndrome, Stable coronary heart disease, Postoperative revascularization, Ischemic cardiomyopathy, Ischemic stroke, Transient ischemic attack, Peripheral atherosclerotic disease).\n2. ASCVD overall risk assessment for high-risk groups: Diabetic patients with LDL-C≥1.8mmol/L（70mg/dl）and age was equal or greater than 40 years old;\n3. Patients with hypertension, LDL-C \\> 2.6mmol/L (100mg/dL) and combined with at least two risk factors. Risk factors include smoking, low HDL-C (HDL-C\\<1mmol/L, 40mg/dL), male aged over 45 years old or female aged over 55 years old; \\*\\*\\* The above (1)-(3) are juxtapositions, patients can be included into the group if only they are satisfied with at least one of the inclusion criteria.\n\nExclusion Criteria:\n\n1. Patients with any allergy to statins;\n2. ACS patients in acute stage；\n3. Patients with severe liver disease or biliary obstruction；\n4. Patients taking cyclosporine；\n5. Patients who have being treated with statins currently or in the past;\n6. Pregnant or lactating women and those women who planning to be pregnant;\n7. Immunodeficiency or Immunocompromised patients;\n8. Patients with hypothyroidism (expect those patients whose thyroid function returned to normal level after drug therapy);\n9. Patients using systemic hormone drug;\n10. Researchers decided that the patients who was not suitable to participate in the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,22 +109,22 @@
  },
  "sites": [
   {
-   "facility": "Heart Center of Peking University People's Hospital",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Heart Center of Peking University People's Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   },
   {
-   "facility": "School of Public Health, Fudan University",
    "city": "Shanghai",
-   "state": "Shanghai Municipality",
    "country": "China",
-   "status": null,
+   "facility": "School of Public Health, Fudan University",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": "Shanghai Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03418974",
@@ -136,6 +136,53 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with a clinical diagnosis of ASCVD (Acute coronary syndrome, Stable coronary heart disease, Postoperative revascularization, Ischemic cardiomyopathy, Ischemic stroke, Transient ischemic attack, Peripheral atherosclerotic disease)."
+   },
+   {
+    "text": "ASCVD overall risk assessment for high-risk groups: Diabetic patients with LDL-C≥1.8mmol/L（70mg/dl）and age was equal or greater than 40 years old;"
+   },
+   {
+    "text": "Patients with hypertension, LDL-C > 2.6mmol/L (100mg/dL) and combined with at least two risk factors. Risk factors include smoking, low HDL-C (HDL-C<1mmol/L, 40mg/dL), male aged over 45 years old or female aged over 55 years old; *** The above (1)-(3) are juxtapositions, patients can be included into the group if only they are satisfied with at least one of the inclusion criteria."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with any allergy to statins;"
+   },
+   {
+    "text": "ACS patients in acute stage；"
+   },
+   {
+    "text": "Patients with severe liver disease or biliary obstruction；"
+   },
+   {
+    "text": "Patients taking cyclosporine；"
+   },
+   {
+    "text": "Patients who have being treated with statins currently or in the past;"
+   },
+   {
+    "text": "Pregnant or lactating women and those women who planning to be pregnant;"
+   },
+   {
+    "text": "Immunodeficiency or Immunocompromised patients;"
+   },
+   {
+    "text": "Patients with hypothyroidism (expect those patients whose thyroid function returned to normal level after drug therapy);"
+   },
+   {
+    "text": "Patients using systemic hormone drug;"
+   },
+   {
+    "text": "Researchers decided that the patients who was not suitable to participate in the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

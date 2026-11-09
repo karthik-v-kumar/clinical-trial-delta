@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shaochun.Li",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Shaochun.Li"
  },
  "collaborators": [
   "Chinese Academy of Medical Sciences, Fuwai Hospital",
@@ -61,30 +61,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pitavastatin and placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pitavastatin and levothyroxine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pivastatin and placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Pitavastatin and placebo"
-   ]
+   ],
+   "label": "Pivastatin and placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Pivastatin and LT-4",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pitavastatin and levothyroxine"
-   ]
+   ],
+   "label": "Pivastatin and LT-4",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "In ASCVD patients complicated with subclinical hypothyroidism, the percentage of those who did not reach the target of lipid-lowering therapy (LDL-C\\>1.8mmol/L) is usually higher than that in population with normal thyroid function. The present study aims to randomly compare two lipid-lowering therapeutic strategies (statins only vs. statins combined with thyroid hormone supplement).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male or non-pregnant female;\n2. Stable or unstable angina with evidence of myocardial ischemia; coronary angiography reveals stenosis lesions;\n3. Subclinical hypothyroidism defined as mild TSH elevation within 5-10mIU/L and normal serum thyroid hormone levels within reference ranges;\n4. Level of LDL-C is more than 1.8mmol/L before randomization.\n5. Participate in the trial voluntarily and signs the written informed consent form.\n\nExclusion Criteria:\n\n1. Those who have participated in other drug or therapy equipment clinical trials but did not reach the main study endpoint time limit;\n2. Symptoms of severe heart failure (NYHA Class III and above) or left ventricular ejection fraction \\< 40% (ultrasound or left ventricle ngiography);\n3. Pregnant or lactating women;\n4. Complicated with severe organ dysfunction: large number of pericardial effusion; acute myocardial infarction; acute myocarditis; acute left heart failure; cardiogenic shock; severe arrhythmia, such as ventricular tachycardia, ventricular fibrillation, frequent atrial / ventricular premature beat, poor control of fast ventricular fibrillation, and bradycardia requiring pacemaker therapy, etc.\n5. Patients who are unable to withstand lipid-lowering therapy or thyroid hormone replacement due to allergy to statins or levothyroxine;\n6. Serum AST/ALT is three times higher than the upper limits of normal.\n7. Patient's life expectancy is less than 12 months;\n8. Those waiting for heart transplantation;\n9. Patients who are deemed by the researchers to have low compliance and unable to abide by the requirements and complete the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,13 +107,13 @@
  },
  "sites": [
   {
-   "facility": "Fuwai Hospital, China National Center for Cardiovascular Diseases",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Fuwai Hospital, China National Center for Cardiovascular Diseases",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03606824",
@@ -125,6 +125,56 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or non-pregnant female;"
+   },
+   {
+    "text": "Stable or unstable angina with evidence of myocardial ischemia; coronary angiography reveals stenosis lesions;"
+   },
+   {
+    "text": "Subclinical hypothyroidism defined as mild TSH elevation within 5-10mIU/L and normal serum thyroid hormone levels within reference ranges;"
+   },
+   {
+    "text": "Level of LDL-C is more than 1.8mmol/L before randomization."
+   },
+   {
+    "text": "Participate in the trial voluntarily and signs the written informed consent form."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Those who have participated in other drug or therapy equipment clinical trials but did not reach the main study endpoint time limit;"
+   },
+   {
+    "text": "Symptoms of severe heart failure (NYHA Class III and above) or left ventricular ejection fraction < 40% (ultrasound or left ventricle ngiography);"
+   },
+   {
+    "text": "Pregnant or lactating women;"
+   },
+   {
+    "text": "Complicated with severe organ dysfunction: large number of pericardial effusion; acute myocardial infarction; acute myocarditis; acute left heart failure; cardiogenic shock; severe arrhythmia, such as ventricular tachycardia, ventricular fibrillation, frequent atrial / ventricular premature beat, poor control of fast ventricular fibrillation, and bradycardia requiring pacemaker therapy, etc."
+   },
+   {
+    "text": "Patients who are unable to withstand lipid-lowering therapy or thyroid hormone replacement due to allergy to statins or levothyroxine;"
+   },
+   {
+    "text": "Serum AST/ALT is three times higher than the upper limits of normal."
+   },
+   {
+    "text": "Patient's life expectancy is less than 12 months;"
+   },
+   {
+    "text": "Those waiting for heart transplantation;"
+   },
+   {
+    "text": "Patients who are deemed by the researchers to have low compliance and unable to abide by the requirements and complete the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

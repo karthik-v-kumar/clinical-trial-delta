@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Vastra Gotaland Region",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Vastra Gotaland Region"
  },
  "collaborators": [],
  "conditions": [
@@ -49,18 +49,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Simultanious CGM/FGM",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "FGM/CGM",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Simultanious CGM/FGM"
-   ]
+   ],
+   "label": "FGM/CGM",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -72,10 +72,10 @@
  "brief_summary": "The study aims to evaluate the accuracy of two commercial glucose monitoring systems in patients with type 1 or type 2 diabetes and renal impairment, including patients with or without dialysis. Patients treatment experience will even be evaluated.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 1 or type 2 diabetes with renal impairment and eGFR \\<30 ml/min measured within the last three months.\n2. Adult patients, age 18 or older and \\<80 years.\n3. Written Informed Consent\n\nExclusion criteria:\n\n1. Pregnancy\n2. Patients with severe cognitive dysfunction or other disease which makes glucose monitoring use difficult.\n3. Patients requiring continuous use of paracetamol. Paracetamol must not have been used the week before the study and shall not be used during the duration because it disturbs the interpretation of blood glucose levels estimated by the Dexcom G5. However, other pain killers can be used throughout the study period.\n4. Current CGM or FGM use.\n5. History of allergic reaction to any of the CGM or FGM materials or adhesives in contact with the skin.\n6. History of allergic reaction to chlorhexidine or alcohol anti-septic solution.\n7. Abnormal skin at the anticipated glucose sensor attachment sites (excessive hair, burn, inflammation, infection, rash, and/or tattoo).\n8. Patients with renal impairment and eGFR greater or equal to 30 ml/min estimated by the MDRD formula.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "79 Years",
   "healthy_volunteers": false,
+  "maximum_age": "79 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -83,13 +83,13 @@
  },
  "sites": [
   {
-   "facility": "NU-Hospital Group",
    "city": "Uddevalla",
-   "state": null,
    "country": "Sweden",
-   "status": null,
+   "facility": "NU-Hospital Group",
    "lat": 58.34784,
-   "lon": 11.9424
+   "lon": 11.9424,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03378271",
@@ -101,6 +101,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 1 or type 2 diabetes with renal impairment and eGFR <30 ml/min measured within the last three months."
+   },
+   {
+    "text": "Adult patients, age 18 or older and <80 years."
+   },
+   {
+    "text": "Written Informed Consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Patients with severe cognitive dysfunction or other disease which makes glucose monitoring use difficult."
+   },
+   {
+    "text": "Patients requiring continuous use of paracetamol. Paracetamol must not have been used the week before the study and shall not be used during the duration because it disturbs the interpretation of blood glucose levels estimated by the Dexcom G5. However, other pain killers can be used throughout the study period."
+   },
+   {
+    "text": "Current CGM or FGM use."
+   },
+   {
+    "text": "History of allergic reaction to any of the CGM or FGM materials or adhesives in contact with the skin."
+   },
+   {
+    "text": "History of allergic reaction to chlorhexidine or alcohol anti-septic solution."
+   },
+   {
+    "text": "Abnormal skin at the anticipated glucose sensor attachment sites (excessive hair, burn, inflammation, infection, rash, and/or tattoo)."
+   },
+   {
+    "text": "Patients with renal impairment and eGFR greater or equal to 30 ml/min estimated by the MDRD formula."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

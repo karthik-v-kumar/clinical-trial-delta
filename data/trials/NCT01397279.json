@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "German Diabetes Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "German Diabetes Center"
  },
  "collaborators": [],
  "conditions": [
@@ -48,35 +48,35 @@
  ],
  "interventions": [
   {
-   "type": "BIOLOGICAL",
    "name": "intravenous glucose tolerance test",
    "other_names": [
     "ivGTT"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "hyperinsulinemic euglycemic clamp",
    "other_names": [
     "HEC"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Botnia clamp",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Biological: intravenous glucose tolerance test",
     "Biological: hyperinsulinemic euglycemic clamp"
-   ]
+   ],
+   "label": "Botnia clamp",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "hyperinsulinemic euglycemic clamp",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Biological: hyperinsulinemic euglycemic clamp"
-   ]
+   ],
+   "label": "hyperinsulinemic euglycemic clamp",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Type 2 diabetes is associated with hepatic insulin resistance. One consequence of insulin resistance of the liver is an altered hepatic glucose metabolism. This study investigates whether the whole body (M-value) and hepatic insulin sensitivity obtained by hyperinsulinemic euglycemic clamp is influenced by a preceding intravenous glucose tolerance test (Botnia Clamp) in subjects with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* newly diagnosed type 2 diabetes (during the last 12 months)or non-diabetic subjects\n\nExclusion Criteria:\n\n* severe chronic diseases\n* hepatitis B, C oder HIV infection\n* malignancies\n* immune suppressive therapy\n* psychiatric illnesses\n* drug or alcohol abuse\n* anemia\n* renal dysfunction",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "69 Years",
   "healthy_volunteers": true,
+  "maximum_age": "69 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "German Diabetes Center",
    "city": "Düsseldorf",
-   "state": "North Rhine-Westphalia",
    "country": "Germany",
-   "status": null,
+   "facility": "German Diabetes Center",
    "lat": 51.22319,
-   "lon": 6.77927
+   "lon": 6.77927,
+   "state": "North Rhine-Westphalia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01397279",
@@ -117,6 +117,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "newly diagnosed type 2 diabetes (during the last 12 months)or non-diabetic subjects"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "severe chronic diseases"
+   },
+   {
+    "text": "hepatitis B, C oder HIV infection"
+   },
+   {
+    "text": "malignancies"
+   },
+   {
+    "text": "immune suppressive therapy"
+   },
+   {
+    "text": "psychiatric illnesses"
+   },
+   {
+    "text": "drug or alcohol abuse"
+   },
+   {
+    "text": "anemia"
+   },
+   {
+    "text": "renal dysfunction"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

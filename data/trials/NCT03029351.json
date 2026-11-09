@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2024-04-16",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University at Buffalo",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University at Buffalo"
  },
  "collaborators": [
   "AstraZeneca"
@@ -56,32 +56,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Exenatide Extended Release for Inj Susp 2 MG",
    "other_names": [
     "Bydureon"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide extended release",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Exenatide Extended Release for Inj Susp 2 MG"
-   ]
+   ],
+   "label": "Exenatide extended release",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "This is a prospective study to evaluate effect of Exenatide extended release treatment for 1 year on albuminuria levels in T2DM patients with micro- and macroalbuminuria compared to placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes for at least 1 year.\n* Microalbuminuria for at least 6 months (UACR: 30-300 mg/g)\n* Macroalbuminuria for at least 6 months (UACR: \\>300 mg/g)\n* HbA1c of ≤10%\n* Ages 18-65 years (inclusive of ages 18 and 65)\n* On ARBs/ACEi for at \\>3months\n\nExclusion Criteria:\n\n* Use of GLP-1 Receptor agonists or SGLT-2 inhibitors therapy in the last 3 months\n* History or risk for pancreatitis (e.g., history of gallstones, alcohol abuse, and hypertriglyceridemia)\n* Coronary event or procedure (myocardial infarction, unstable angina, coronary artery bypass, surgery or coronary angioplasty) in the previous 3 months\n* Hepatic disease: Severe hepatic insufficiency and/or significant abnormal liver function defined as:\n\n  1. Aspartate aminotransferase (AST) \\>3x upper limit of normal (ULN) and/or alanine aminotransferase (ALT) \\>3x ULN\n  2. Total bilirubin \\>2.0 mg/dL (34.2 µmol/L)\n  3. Positive serologic evidence of current infectious liver disease including Hepatitis B viral antibody IGM, Hepatitis B surface antigen and Hepatitis C virus antibody\n  4. Liver function tests more than 3 times the upper limit of normal\n* Renal impairment (serum eGFR \\<30 ml/min)\n* HIV\n* Inability to give informed consent\n* History of gastroparesis\n* History of medullary thyroid carcinoma or MEN 2 syndrome\n* Alcoholism\n* Hypertriglyceridemia (\\>500 mg/dl).\n* Any other life-threatening, non-cardiac disease\n* Uncontrolled hypertension (BP \\> 160/100 mm of Hg)\n* Congestive Heart Failure class III or IV\n* Use of an investigational agent or therapeutic regimen within 30 days of study\n* Participation in any other concurrent clinical trial\n* Pregnant or breastfeeding patients or females of childbearing age not on 2 forms of acceptable contraceptives.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "85 Years",
   "healthy_volunteers": false,
+  "maximum_age": "85 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Diabetes Endocrinology Research Center of WNY",
    "city": "Williamsville",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Diabetes Endocrinology Research Center of WNY",
    "lat": 42.96395,
-   "lon": -78.73781
+   "lon": -78.73781,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03029351",
@@ -124,6 +124,89 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes for at least 1 year."
+   },
+   {
+    "text": "Microalbuminuria for at least 6 months (UACR: 30-300 mg/g)"
+   },
+   {
+    "text": "Macroalbuminuria for at least 6 months (UACR: >300 mg/g)"
+   },
+   {
+    "text": "HbA1c of ≤10%"
+   },
+   {
+    "text": "Ages 18-65 years (inclusive of ages 18 and 65)"
+   },
+   {
+    "text": "On ARBs/ACEi for at >3months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of GLP-1 Receptor agonists or SGLT-2 inhibitors therapy in the last 3 months"
+   },
+   {
+    "text": "History or risk for pancreatitis (e.g., history of gallstones, alcohol abuse, and hypertriglyceridemia)"
+   },
+   {
+    "text": "Coronary event or procedure (myocardial infarction, unstable angina, coronary artery bypass, surgery or coronary angioplasty) in the previous 3 months"
+   },
+   {
+    "text": "Hepatic disease: Severe hepatic insufficiency and/or significant abnormal liver function defined as:",
+    "sub_items": [
+     "Aspartate aminotransferase (AST) >3x upper limit of normal (ULN) and/or alanine aminotransferase (ALT) >3x ULN",
+     "Total bilirubin >2.0 mg/dL (34.2 µmol/L)",
+     "Positive serologic evidence of current infectious liver disease including Hepatitis B viral antibody IGM, Hepatitis B surface antigen and Hepatitis C virus antibody",
+     "Liver function tests more than 3 times the upper limit of normal"
+    ]
+   },
+   {
+    "text": "Renal impairment (serum eGFR <30 ml/min)"
+   },
+   {
+    "text": "HIV"
+   },
+   {
+    "text": "Inability to give informed consent"
+   },
+   {
+    "text": "History of gastroparesis"
+   },
+   {
+    "text": "History of medullary thyroid carcinoma or MEN 2 syndrome"
+   },
+   {
+    "text": "Alcoholism"
+   },
+   {
+    "text": "Hypertriglyceridemia (>500 mg/dl)."
+   },
+   {
+    "text": "Any other life-threatening, non-cardiac disease"
+   },
+   {
+    "text": "Uncontrolled hypertension (BP > 160/100 mm of Hg)"
+   },
+   {
+    "text": "Congestive Heart Failure class III or IV"
+   },
+   {
+    "text": "Use of an investigational agent or therapeutic regimen within 30 days of study"
+   },
+   {
+    "text": "Participation in any other concurrent clinical trial"
+   },
+   {
+    "text": "Pregnant or breastfeeding patients or females of childbearing age not on 2 forms of acceptable contraceptives."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

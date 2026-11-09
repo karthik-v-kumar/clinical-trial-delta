@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hvidovre University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hvidovre University Hospital"
  },
  "collaborators": [
   "University of Copenhagen"
@@ -50,49 +50,49 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Colesevelam",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Chenodeoxycholic Acid",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Water",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Water"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Chenodeoxycholic Acid",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Chenodeoxycholic Acid"
-   ]
+   ],
+   "label": "Chenodeoxycholic Acid",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Colesevelam"
+   ],
    "label": "Colesevelam",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Colesevelam"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Colesevelam x 2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Colesevelam"
-   ]
+   ],
+   "label": "Colesevelam x 2",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "The purpose of this study is to examine the effects of bile acid and bile acids sequestrants on GLP-1 Secretion, during a meal, in patients after Roux-en-Y gastric bypass.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Uncomplicated RYGB performed minimum 3 months prior to the study.\n* Fasting plasma glucose \\< 7,0 mM, HbA1c \\< 48 mmol/mol 3 months after RYGB\n\nExclusion Criteria:\n\n* Fasting plasma glucose \\> 7,0 mM, HbA1c \\> 48 mmol/mol 3 months after RYGB.\n* Dysregulated thyroid diseases, use of antithyroid treatment.\n* Late diabetic complications as retinopathy, renal insufficiency, neuropathy or previous pancreatitis.\n* Complications to RYGB. Documented reactive hypoglycaemia, severe dumping (vomiting, diarrhea, severe abdominal pain after food intake).\n* Cholecystectomy",
-  "sex": "ALL",
-  "minimum_age": null,
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": null,
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "Hvidovre University Hospital",
    "city": "Hvidovre",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Hvidovre University Hospital",
    "lat": 55.64297,
-   "lon": 12.47708
+   "lon": 12.47708,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02876484",
@@ -134,6 +134,35 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Uncomplicated RYGB performed minimum 3 months prior to the study."
+   },
+   {
+    "text": "Fasting plasma glucose < 7,0 mM, HbA1c < 48 mmol/mol 3 months after RYGB"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Fasting plasma glucose > 7,0 mM, HbA1c > 48 mmol/mol 3 months after RYGB."
+   },
+   {
+    "text": "Dysregulated thyroid diseases, use of antithyroid treatment."
+   },
+   {
+    "text": "Late diabetic complications as retinopathy, renal insufficiency, neuropathy or previous pancreatitis."
+   },
+   {
+    "text": "Complications to RYGB. Documented reactive hypoglycaemia, severe dumping (vomiting, diarrhea, severe abdominal pain after food intake)."
+   },
+   {
+    "text": "Cholecystectomy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

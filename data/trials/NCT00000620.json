@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2014-09-15",
  "has_results": true,
  "lead_sponsor": {
-  "name": "National Heart, Lung, and Blood Institute (NHLBI)",
-  "class": "NIH"
+  "class": "NIH",
+  "name": "National Heart, Lung, and Blood Institute (NHLBI)"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -59,7 +59,6 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Anti-hyperglycemic Agents",
    "other_names": [
     "glimepiride (Amaryl)",
@@ -77,10 +76,10 @@
     "human regular insulin (Novolin R)",
     "insulin glargine (Lantus)",
     "Acarbose"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Anti-hypertensive Agents",
    "other_names": [
     "benazepril (Lotensin, Zestril, Altace)",
@@ -102,58 +101,59 @@
     "candesartan / hydrochlorothiazide (Atacand HCT)",
     "valsartan / hydrochlorothiazide (Diovan HCT)",
     "amlodipine / benazepril (Lotrel)"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Blinded fenofibrate or placebo plus simvastatin",
    "other_names": [
     "fenofibrate (Tricor)"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Anti-hyperglycemic Agents"
+   ],
    "label": "Glycemia Trial: intensive control",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Anti-hyperglycemic Agents"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Anti-hyperglycemic Agents"
+   ],
    "label": "Glycemia Trial: standard control",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Anti-hyperglycemic Agents"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Anti-hypertensive Agents"
+   ],
    "label": "BP Trial: intensive control",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Anti-hypertensive Agents"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Anti-hypertensive Agents"
+   ],
    "label": "BP Trial: standard control",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Anti-hypertensive Agents"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Blinded fenofibrate or placebo plus simvastatin"
+   ],
    "label": "Lipid Trial: fenofibrate",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Blinded fenofibrate or placebo plus simvastatin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Lipid Trial: placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Blinded fenofibrate or placebo plus simvastatin"
-   ]
+   ],
+   "label": "Lipid Trial: placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -173,10 +173,10 @@
  "brief_summary": "The purpose of this study is to prevent major cardiovascular events (heart attack, stroke, or cardiovascular death) in adults with type 2 diabetes mellitus using intensive glycemic control, intensive blood pressure control, and multiple lipid management.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed with type 2 diabetes mellitus, as determined by the new American Diabetes Association guidelines, which include a fasting plasma glucose level greater than 126 mg/dl (7.0 mmol/l), or a 2-hour postload value in the oral glucose tolerance test of greater than 200 mg/dl, with confirmation by a retest\n* For participants aged 40 years or older, history of CVD (heart attack, stroke, history of coronary revascularization, history of peripheral or carotid revascularization, or demonstrated angina)\n* For participants aged 55 years or older, a history of CVD is not required, but participant must be considered to be at high risk for experiencing a CVD event due to existing CVD, subclinical disease, or 2+ CVD risk factors\n* HbA1c 7.5%-9% (if on more drugs) or 7.5%-11% (if on fewer drugs)",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "79 Years",
   "healthy_volunteers": false,
+  "maximum_age": "79 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -184,80 +184,99 @@
  },
  "sites": [
   {
-   "facility": "McMaster University",
    "city": "Hamilton",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "McMaster University",
    "lat": 43.25011,
-   "lon": -79.84963
+   "lon": -79.84963,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "Minneapolis Medical Research Foundation",
    "city": "Minneapolis",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Minneapolis Medical Research Foundation",
    "lat": 44.97997,
-   "lon": -93.26384
+   "lon": -93.26384,
+   "state": "Minnesota",
+   "status": null
   },
   {
-   "facility": "Columbia University",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Columbia University",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   },
   {
-   "facility": "Wake Forest University",
    "city": "Winston-Salem",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Wake Forest University",
    "lat": 36.09986,
-   "lon": -80.24422
+   "lon": -80.24422,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": "Case Western Reserve University",
    "city": "Cleveland",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Case Western Reserve University",
    "lat": 41.4995,
-   "lon": -81.69541
+   "lon": -81.69541,
+   "state": "Ohio",
+   "status": null
   },
   {
-   "facility": "Veterans Affairs",
    "city": "Memphis",
-   "state": "Tennessee",
    "country": "United States",
-   "status": null,
+   "facility": "Veterans Affairs",
    "lat": 35.14953,
-   "lon": -90.04898
+   "lon": -90.04898,
+   "state": "Tennessee",
+   "status": null
   },
   {
-   "facility": "University of Washington",
    "city": "Seattle",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "University of Washington",
    "lat": 47.60621,
-   "lon": -122.33207
+   "lon": -122.33207,
+   "state": "Washington",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00000620",
  "content_hash": "ee72734319080b5c",
  "collections": [
-  "type-2-diabetes",
-  "cholesterol-lipids"
+  "cholesterol-lipids",
+  "type-2-diabetes"
  ],
  "matched_queries": [
-  "t2d-drugs",
-  "lipids-drugs"
+  "lipids-drugs",
+  "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosed with type 2 diabetes mellitus, as determined by the new American Diabetes Association guidelines, which include a fasting plasma glucose level greater than 126 mg/dl (7.0 mmol/l), or a 2-hour postload value in the oral glucose tolerance test of greater than 200 mg/dl, with confirmation by a retest"
+   },
+   {
+    "text": "For participants aged 40 years or older, history of CVD (heart attack, stroke, history of coronary revascularization, history of peripheral or carotid revascularization, or demonstrated angina)"
+   },
+   {
+    "text": "For participants aged 55 years or older, a history of CVD is not required, but participant must be considered to be at high risk for experiencing a CVD event due to existing CVD, subclinical disease, or 2+ CVD risk factors"
+   },
+   {
+    "text": "HbA1c 7.5%-9% (if on more drugs) or 7.5%-11% (if on fewer drugs)"
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

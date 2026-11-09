@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "PREVENTION",
   "masking": "TRIPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2026-04-03",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Brigham and Women's Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Brigham and Women's Hospital"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -54,14 +54,13 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Vitamin D3",
    "other_names": [
     "cholecalciferol"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DRUG",
    "name": "Omega-3 fatty acid (fish oil)",
    "other_names": [
     "fish oil",
@@ -70,51 +69,52 @@
     "EPA",
     "DHA",
     "Omacor®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Vitamin D3 placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DRUG",
    "name": "Fish oil placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Vitamin D and Omega-3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Vitamin D3",
     "Drug: Omega-3 fatty acid (fish oil)"
-   ]
+   ],
+   "label": "Vitamin D and Omega-3",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Vitamin D and Omega-3 placebo",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Vitamin D3",
     "Drug: Fish oil placebo"
-   ]
+   ],
+   "label": "Vitamin D and Omega-3 placebo",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Vitamin D placebo and Omega-3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Omega-3 fatty acid (fish oil)",
     "Dietary Supplement: Vitamin D3 placebo"
-   ]
+   ],
+   "label": "Vitamin D placebo and Omega-3",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Vitamin D placebo and Omega-3 placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Vitamin D3 placebo",
     "Drug: Fish oil placebo"
-   ]
+   ],
+   "label": "Vitamin D placebo and Omega-3 placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -126,10 +126,10 @@
  "brief_summary": "The VITamin D and OmegA-3 TriaL (VITAL; NCT 01169259) is an ongoing randomized clinical trial in 25,875 U.S. men and women investigating whether taking daily dietary supplements of vitamin D3 (2000 IU) or omega-3 fatty acids (Omacor® fish oil, 1 gram) reduces the risk of developing cancer, heart disease, and stroke in people who do not have a prior history of these illnesses. This ancillary study is being conducted among nondiabetic participants in VITAL and will examine whether vitamin D or fish oil prevent type 2 diabetes. Findings from this ancillary study (n=22220 without diabetes at baseline) conducted within the VITAL trial will clarify whether vitamin D and omega-3 fatty acid supplementation reduces risk of type 2 diabetes and thus will inform public health and clinical guidelines for diabetes prevention.",
  "eligibility": {
   "criteria": "Participants in VITAL (NCT01169259) who have no history of diabetes mellitus at baseline are eligible to participate in this ancillary study.",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -137,13 +137,13 @@
  },
  "sites": [
   {
-   "facility": "Division of Preventive Medicine, Brigham and Women's Hospital",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Division of Preventive Medicine, Brigham and Women's Hospital",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01633177",
@@ -155,6 +155,12 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": false,
+  "inclusion": [],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

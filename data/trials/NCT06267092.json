@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -54,36 +54,36 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "No treatment given",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Cagrilintide and Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Part A",
-   "type": "OTHER",
    "intervention_names": [
     "Other: No treatment given"
-   ]
+   ],
+   "label": "Part A",
+   "type": "OTHER"
   },
   {
-   "label": "Part B",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Cagrilintide and Semaglutide",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Part B",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Part A: The study will look at participants appetite and energy intake and also look at the mechanisms of brain associated with appetite and food intake. Participants will not get any medicine and will be in a group that will be compared to another group receiving a weight-loss medicine. The study will last for about 6 months.\n\nPart B: The study will look at how CagriSema works on participants appetite and energy intake and will be compared with a ''dummy'' medicine. The study will also look at how participants brain works when participants take the medicine. Participants will either get CagriSema or ''dummy'' medicine.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female\n* Aged 18-65 years (both inclusive) at the time of signing informed consent\n* Right-handed as evaluated by the Edinburgh Handedness Inventory\n* Body weight less than or equal to 180 kilogram at screening\n\nFor Part A:\n\n* A score of 7 or less on the 16-item Disinhibition subscale of the Three Factor Eating Questionnaire\n* Body mass index between 18.5 and 24.9 kilogram per meter square (both inclusive) at screening\n\nFor Part B:\n\n* A score of 8 or more on the 16-item Disinhibition subscale of the Three Factor Eating Questionnaire\n* Body mass index equal to or above 27.0 kilogram per meter square. Overweight should be due to excess adipose tissue, as judged by the investigator\n\nExclusion Criteria:\n\n* Contraindication for magnetic resonance scanning\n\nFor Part B:\n\n* Glycated haemoglobin greater than or equal to 6.5 % (48 millimoles per mole) at screening\n* History of type 1 or type 2 diabetes mellitus",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Charité - Campus Charité Mitte - Charité Research Organisation GmbH",
    "city": "Berlin",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Charité - Campus Charité Mitte - Charité Research Organisation GmbH",
    "lat": 52.52437,
-   "lon": 13.41053
+   "lon": 13.41053,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06267092",
@@ -127,6 +127,53 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female"
+   },
+   {
+    "text": "Aged 18-65 years (both inclusive) at the time of signing informed consent"
+   },
+   {
+    "text": "Right-handed as evaluated by the Edinburgh Handedness Inventory"
+   },
+   {
+    "text": "Body weight less than or equal to 180 kilogram at screening"
+   },
+   {
+    "text": "A score of 7 or less on the 16-item Disinhibition subscale of the Three Factor Eating Questionnaire",
+    "group": "For Part A"
+   },
+   {
+    "text": "Body mass index between 18.5 and 24.9 kilogram per meter square (both inclusive) at screening",
+    "group": "For Part A"
+   },
+   {
+    "text": "A score of 8 or more on the 16-item Disinhibition subscale of the Three Factor Eating Questionnaire",
+    "group": "For Part B"
+   },
+   {
+    "text": "Body mass index equal to or above 27.0 kilogram per meter square. Overweight should be due to excess adipose tissue, as judged by the investigator",
+    "group": "For Part B"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Contraindication for magnetic resonance scanning"
+   },
+   {
+    "text": "Glycated haemoglobin greater than or equal to 6.5 % (48 millimoles per mole) at screening",
+    "group": "For Part B"
+   },
+   {
+    "text": "History of type 1 or type 2 diabetes mellitus",
+    "group": "For Part B"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

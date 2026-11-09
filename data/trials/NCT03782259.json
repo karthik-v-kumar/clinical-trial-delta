@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SCREENING",
   "masking": "QUADRUPLE",
+  "primary_purpose": "SCREENING",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2023-12-29",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Washington",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Washington"
  },
  "collaborators": [
   "AstraZeneca"
@@ -57,32 +57,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "dapagliflozin",
    "other_names": [
     "Forxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Active",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: dapagliflozin"
-   ]
+   ],
+   "label": "Active",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "There is an unmet need for Cardiovascular Disease (CVD) risk reduction in patients with Type 2 Diabetes. In recent trials there has been promising findings of more effective glucose management and reductions in overall CVD events and hospitalization for heart failure with SGLT-2 inhibition. Using the capability of cardiac MRI with T1- and T2-mapping in assessments of myocardial fibrosis and inflammation, the investigators propose to conduct a clinical trial to investigate the effects of SGLT-2 inhibition with dapagliflozin on myocardial strain, fibrosis and inflammation as assessed by cardiac MRI with T1- and T2-mapping in patients with type-2 diabetes.\n\nOver approximately 12 months subjects will have 6 clinical visits at the investigators research clinic. During this time subjects will be randomized to receive either active 10mg dapagliflozin or a matching placebo. 2 MRI scans at one of the two University of Washington research imaging centers will take place. One at randomization and the second scan will occur approximately 12 months after the first scan.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Men and women at least 18 years of age\n2. Subjects with type-2 diabetes history \\>=5 years\n3. HbA1C 7-10% with glucose control medications including insulin, metformin or sulfonylurea\n4. Medically stable\n5. Willing to participate and sign informed consent.\n\nExclusion Criteria:\n\n1. Contraindication to MRI\n2. Currently or within last three months treatment with a SGLT2 inhibitor\n3. Currently taking glucagon-like peptide (GLP)-1 receptor antagonist\n4. Glomerular filtration rate (GFR) \\<60 mL/min/1.73 m2\n5. Unstable or rapidly progressive renal disease\n6. Hypotension with systolic blood pressure (SBP) \\<100 mmHg\n7. Hypersensitivity to dapagliflozin or any excipients\n8. Patients with severe hepatic impairment (Child-Pugh class C)\n9. Patients with active hepatitis B or C infection\n10. Any of the following CV/Vascular Diseases within 3 months prior to signing the consent at enrollment, as assessed by the investigator:\n\n    1. Myocardial infarction\n    2. Cardiac surgery or revascularization (CABG/PTCA)\n    3. Unstable angina\n    4. Heart Failure - New York Heart Association (NYHA) Class IV\n    5. Transient ischemic attack (TIA) or significant cerebrovascular disease\n    6. Unstable or previously undiagnosed arrhythmia\n    7. Established peripheral artery disease (PAD)\n\n(18) Active bladder cancer (19) Recent episode of Diabetic ketoacidosis (DKA), frequent episodes of DKA (20) High risk of fractures, amputations and fibrosis (21) Women of child-bearing potential (ie, those who are not chemically or surgically sterilized or who are not post-menopausal) who have a positive pregnancy test at enrollment or randomization, OR women who are not willing to use a medically accepted method of contraception that is considered reliable in the judgment of the investigator, from the time of signing the informed consent until two weeks after the last dose of study drug, OR women who are breast-feeding.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "University of Washington",
    "city": "Seattle",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "University of Washington",
    "lat": 47.60621,
-   "lon": -122.33207
+   "lon": -122.33207,
+   "state": "Washington",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03782259",
@@ -130,6 +130,71 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women at least 18 years of age"
+   },
+   {
+    "text": "Subjects with type-2 diabetes history >=5 years"
+   },
+   {
+    "text": "HbA1C 7-10% with glucose control medications including insulin, metformin or sulfonylurea"
+   },
+   {
+    "text": "Medically stable"
+   },
+   {
+    "text": "Willing to participate and sign informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Contraindication to MRI"
+   },
+   {
+    "text": "Currently or within last three months treatment with a SGLT2 inhibitor"
+   },
+   {
+    "text": "Currently taking glucagon-like peptide (GLP)-1 receptor antagonist"
+   },
+   {
+    "text": "Glomerular filtration rate (GFR) <60 mL/min/1.73 m2"
+   },
+   {
+    "text": "Unstable or rapidly progressive renal disease"
+   },
+   {
+    "text": "Hypotension with systolic blood pressure (SBP) <100 mmHg"
+   },
+   {
+    "text": "Hypersensitivity to dapagliflozin or any excipients"
+   },
+   {
+    "text": "Patients with severe hepatic impairment (Child-Pugh class C)"
+   },
+   {
+    "text": "Patients with active hepatitis B or C infection"
+   },
+   {
+    "text": "Any of the following CV/Vascular Diseases within 3 months prior to signing the consent at enrollment, as assessed by the investigator:",
+    "sub_items": [
+     "Myocardial infarction",
+     "Cardiac surgery or revascularization (CABG/PTCA)",
+     "Unstable angina",
+     "Heart Failure - New York Heart Association (NYHA) Class IV",
+     "Transient ischemic attack (TIA) or significant cerebrovascular disease",
+     "Unstable or previously undiagnosed arrhythmia",
+     "Established peripheral artery disease (PAD)"
+    ]
+   },
+   {
+    "text": "Active bladder cancer (19) Recent episode of Diabetic ketoacidosis (DKA), frequent episodes of DKA (20) High risk of fractures, amputations and fibrosis (21) Women of child-bearing potential (ie, those who are not chemically or surgically sterilized or who are not post-menopausal) who have a positive pregnancy test at enrollment or randomization, OR women who are not willing to use a medically accepted method of contraception that is considered reliable in the judgment of the investigator, from the time of signing the informed consent until two weeks after the last dose of study drug, OR women who are breast-feeding."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

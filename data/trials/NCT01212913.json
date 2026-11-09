@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sanofi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sanofi"
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "INSULIN GLARGINE",
    "other_names": [
     "Lantus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "INSULIN GLULISINE",
    "other_names": [
     "Apidra"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin aspart",
    "other_names": [
     "NovoMix 30"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "group 1: Basal plus",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: INSULIN GLARGINE",
     "Drug: INSULIN GLULISINE"
-   ]
+   ],
+   "label": "group 1: Basal plus",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "group 2: Biphasic insulin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin aspart"
-   ]
+   ],
+   "label": "group 2: Biphasic insulin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Primary Objective:\n\nTo demonstrate the non-inferiority of hemoglobin A1c (HbA1c) control at six months between the basal plus one and the biphasic insulin regimen.\n\nSecondary Objective:\n\nTo demonstrate favorable outcome for basal plus over biphasic insulin when it comes to comparing when both hemoglobin A1c (HbA1c) target goal achievement and non-hypoglycemic event is taken into account.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n1. Sub-optimally controlled Type 2 Diabetes Mellitus (T2DM) patients treated with insulin glargine for a minimum of 3 months:\n\n   * Sub-optimal: HbA1c level \\>7% and fasting blood glucose \\<130mg/dL\n2. Male or Female ≥18 years old\n3. Body Mass Index (BMI) \\<40\n4. 10% ≥HbA1c ≥7%\n5. If taking Oral anti-diabetics (OADs), must be on stable dose for at least 1 months\n6. Patients willing to sign data release consent form\n\nExclusion criteria:\n\n1. Diabetes other than T2DM\n2. Enrolled in other clinical trials\n3. Previous treatment with an insulin other than insulin glargine\n4. Treatment with Glucagon-like peptide-1 (GLP-1) receptor agonists or with Di Peptidyl Peptidase 4 (DPP-IV) inhibitors\n5. Pregnant or lactating women\n6. Contraindicated to Lantus (insulin glargine) / Apidra (insulin glulisine) / Novomix 30 (insulin aspart)\n7. Treatment with systemic corticoid steroids within the last 3 months prior to study enter\n8. Treatment with any investigational product within the last 3 months prior to study entry\n\nThe above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Administrative Office",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Administrative Office",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01212913",
@@ -124,6 +124,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Sub-optimally controlled Type 2 Diabetes Mellitus (T2DM) patients treated with insulin glargine for a minimum of 3 months:",
+    "sub_items": [
+     "Sub-optimal: HbA1c level >7% and fasting blood glucose <130mg/dL"
+    ]
+   },
+   {
+    "text": "Male or Female ≥18 years old"
+   },
+   {
+    "text": "Body Mass Index (BMI) <40"
+   },
+   {
+    "text": "10% ≥HbA1c ≥7%"
+   },
+   {
+    "text": "If taking Oral anti-diabetics (OADs), must be on stable dose for at least 1 months"
+   },
+   {
+    "text": "Patients willing to sign data release consent form"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diabetes other than T2DM"
+   },
+   {
+    "text": "Enrolled in other clinical trials"
+   },
+   {
+    "text": "Previous treatment with an insulin other than insulin glargine"
+   },
+   {
+    "text": "Treatment with Glucagon-like peptide-1 (GLP-1) receptor agonists or with Di Peptidyl Peptidase 4 (DPP-IV) inhibitors"
+   },
+   {
+    "text": "Pregnant or lactating women"
+   },
+   {
+    "text": "Contraindicated to Lantus (insulin glargine) / Apidra (insulin glulisine) / Novomix 30 (insulin aspart)"
+   },
+   {
+    "text": "Treatment with systemic corticoid steroids within the last 3 months prior to study enter"
+   },
+   {
+    "text": "Treatment with any investigational product within the last 3 months prior to study entry"
+   },
+   {
+    "text": "The above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

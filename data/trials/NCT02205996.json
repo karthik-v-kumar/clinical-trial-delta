@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Hull",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Hull"
  },
  "collaborators": [
   "Hull University Teaching Hospitals NHS Trust"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin (Humulin S)",
    "other_names": [
     "Glucose (20% Dextrose)."
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DEVICE",
    "name": "Euglycaemic Hypoglycaemic Insulin clamp",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Controls",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin (Humulin S)",
     "Device: Euglycaemic Hypoglycaemic Insulin clamp"
-   ]
+   ],
+   "label": "Controls",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Type 2 diabetes",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin (Humulin S)",
     "Device: Euglycaemic Hypoglycaemic Insulin clamp"
-   ]
+   ],
+   "label": "Type 2 diabetes",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,23 +89,23 @@
  "brief_summary": "Strict glycaemic control has been associated with increased hypoglycaemia and mortality rate, the cause of which was unclear, in subjects with type 2 diabetes. In this study, we hypothesised that acute hypoglycaemia will result in platelet activation in people with type 2 diabetes to a higher degree than controls.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Healthy volunteers:\n\n   * Males or females\n   * On no medications except for the contraceptive pill and without medical illnesses in the last three months.\n   * Non-smokers\n   * 40 - 60 years of age.\n2. T2DM subjects:\n\n   * Males or females\n   * Diagnosis of T2DM\n   * 40 - 60 years of age\n   * HbA1C: 6.5 - 9.5%\n   * Duration of diabetes 1 - 10 years\n   * Diabetes treated with diet, or tablets only.\n\nExclusion Criteria:\n\n1. Healthy volunteers:\n\n   * Pregnancy\n   * Lack of contraception in women of child bearing age\n   * Chronic medical conditions\n   * Current smokers\n   * Evidence of ischaemia on ECG\n   * Drop attacks\n   * Alcohol or drug abuse\n   * Psychiatric illness\n   * Previous history of seizure\n   * Alcohol or drug abuse\n2. Type 2 diabetes subjects:\n\n   * Pregnancy\n   * Current smokers\n   * Recurrent episodes of hypoglycaemia\n   * Treatment with anti-platelet or anti-coagulation therapy\n   * History of ischaemic heart disease, stroke or peripheral vascular disease\n   * Epilepsy\n   * Drop attacks\n   * Evidence of ischaemia on ECG\n   * Insulin treated T2DM\n   * History of microvascular disease (retinopathy, nephropathy or neuropathy).\n   * Alcohol or drug abuse\n   * Psychiatric illness",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": true,
+  "maximum_age": "60 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Hull Royal Infirmary",
    "city": "Hull",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Hull Royal Infirmary",
    "lat": 53.7446,
-   "lon": -0.33525
+   "lon": -0.33525,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02205996",
@@ -117,6 +117,66 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy volunteers:",
+    "sub_items": [
+     "Males or females",
+     "On no medications except for the contraceptive pill and without medical illnesses in the last three months.",
+     "Non-smokers",
+     "40 - 60 years of age."
+    ]
+   },
+   {
+    "text": "T2DM subjects:",
+    "sub_items": [
+     "Males or females",
+     "Diagnosis of T2DM",
+     "40 - 60 years of age",
+     "HbA1C: 6.5 - 9.5%",
+     "Duration of diabetes 1 - 10 years",
+     "Diabetes treated with diet, or tablets only."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Healthy volunteers:",
+    "sub_items": [
+     "Pregnancy",
+     "Lack of contraception in women of child bearing age",
+     "Chronic medical conditions",
+     "Current smokers",
+     "Evidence of ischaemia on ECG",
+     "Drop attacks",
+     "Alcohol or drug abuse",
+     "Psychiatric illness",
+     "Previous history of seizure",
+     "Alcohol or drug abuse"
+    ]
+   },
+   {
+    "text": "Type 2 diabetes subjects:",
+    "sub_items": [
+     "Pregnancy",
+     "Current smokers",
+     "Recurrent episodes of hypoglycaemia",
+     "Treatment with anti-platelet or anti-coagulation therapy",
+     "History of ischaemic heart disease, stroke or peripheral vascular disease",
+     "Epilepsy",
+     "Drop attacks",
+     "Evidence of ischaemia on ECG",
+     "Insulin treated T2DM",
+     "History of microvascular disease (retinopathy, nephropathy or neuropathy).",
+     "Alcohol or drug abuse",
+     "Psychiatric illness"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

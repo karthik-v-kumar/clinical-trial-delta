@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "SINGLE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mayo Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mayo Clinic"
  },
  "collaborators": [
   "National Heart, Lung, and Blood Institute (NHLBI)"
@@ -54,17 +54,16 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Biospecimen Collection",
    "other_names": [
     "Biological Sample Collection",
     "Biospecimen Collected",
     "Sample Collection",
     "Specimen Collection"
-   ]
+   ],
+   "type": "PROCEDURE"
   },
   {
-   "type": "PROCEDURE",
    "name": "Dual X-ray Absorptiometry",
    "other_names": [
     "BMD scan",
@@ -77,49 +76,50 @@
     "Dual X-Ray Absorptometry",
     "DXA",
     "DXA SCAN"
-   ]
+   ],
+   "type": "PROCEDURE"
   },
   {
-   "type": "OTHER",
    "name": "Functional Assessment",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Lifestyle Counseling",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "Ozempic",
     "Rybelsus",
     "Wegovy"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Arm I (LM)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Biospecimen Collection",
     "Procedure: Dual X-ray Absorptiometry",
     "Other: Functional Assessment",
     "Behavioral: Lifestyle Counseling"
-   ]
+   ],
+   "label": "Arm I (LM)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Arm II (LM+Sema)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Biospecimen Collection",
     "Procedure: Dual X-ray Absorptiometry",
     "Other: Functional Assessment",
     "Behavioral: Lifestyle Counseling",
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Arm II (LM+Sema)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -139,23 +139,23 @@
  "brief_summary": "This phase IV trial studies whether adding semaglutide to structured lifestyle support improves heart and blood vessel health in postmenopausal obese breast cancer survivors (BCS) who are taking an aromatase inhibitor. In postmenopausal BCS who are taking an aromatase inhibitor, obesity raises the risk of heart and blood vessel problems. Semaglutide is a medicine approved by the United States Food and Drug Administration for weight loss and for lowering the risk of heart events in people with heart disease. The structured lifestyle support in this trial includes counseling on nutrition and physical activity which provides specific recommendations for individuals to follow.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Breast cancer diagnosed after menopause (menopause defined as the natural/spontaneous cessation of menses for at least 12 months)\n* Breast cancer (BC) diagnosed within the past five years\n* BC stage 1, 2, or 3\n* Aged 46-55 years\n* Body mass index (BMI) ≥ 30 kg/m\\^²\n* Current use of an aromatase inhibitor\n* Ability to participate in all portions of the study, including willingness to self-inject\n\nExclusion Criteria:\n\n* \\> 5% change in weight during the 3 months prior to screening and/or weight fluctuation of ≥ 20 pounds within the past 6 months (self-report)\n* Early menopause (menopause occurring before age 46)\n* History of established cardiovascular disease, including coronary atherosclerosis, ischemic heart disease, peripheral vascular disease, or stroke\n* Statin use\n* 10-year Atherosclerotic Cardiovascular Disease (ASCVD) risk \\> 7.5%\n* History of smoking\n* History of type 1 or type 2 diabetes\n* Family history of premature cardiovascular disease in a first-degree relative (before 45 years old in male relatives and before 55 years old in female relatives)\n* Use of chemotherapy, radiation therapy, or immunotherapy for breast cancer treatment\n* Impaired renal function \\[glomerular filtration rate (GFR) ≤ 30 ml/min/1.73 m\\^²\\]\n* Thyroid-stimulating hormone (TSH) ≥ 7 with low free thyroxine (T4)\n* Hemoglobin \\< 11 mg/dL\n* Active inflammatory, autoimmune, infectious, hepatic, gastrointestinal, malignancy, or uncontrolled psychiatric disease\n* Other anti-obesity medication used within the past 3 months\n* Prior or planned surgical treatment for obesity (excluding liposuction or abdominoplasty performed \\> 1 year before screening)\n* Past or intended endoscopic and/or device-based therapy or removal within the last six months\n* Current or recent (within 3 months) use of medications that may cause weight gain, including tricyclic antidepressants, atypical antipsychotics, and mood stabilizers\n* Current or recent use (within 3 months) of systemic glucocorticoid therapy for over 2 weeks\n* Contraindications to glucagon-like peptide 1 (GLP-1) receptor agonist therapy\n* Currently enrolled in another clinical study involving an investigational product or participated in one and received treatment (active or placebo) in the last 30 days",
-  "sex": "FEMALE",
-  "minimum_age": "46 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": false,
+  "maximum_age": "55 Years",
+  "minimum_age": "46 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Mayo Clinic in Florida",
    "city": "Jacksonville",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic in Florida",
    "lat": 30.33218,
-   "lon": -81.65565
+   "lon": -81.65565,
+   "state": "Florida",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07769047",
@@ -167,6 +167,95 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Breast cancer diagnosed after menopause (menopause defined as the natural/spontaneous cessation of menses for at least 12 months)"
+   },
+   {
+    "text": "Breast cancer (BC) diagnosed within the past five years"
+   },
+   {
+    "text": "BC stage 1, 2, or 3"
+   },
+   {
+    "text": "Aged 46-55 years"
+   },
+   {
+    "text": "Body mass index (BMI) ≥ 30 kg/m^²"
+   },
+   {
+    "text": "Current use of an aromatase inhibitor"
+   },
+   {
+    "text": "Ability to participate in all portions of the study, including willingness to self-inject"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "> 5% change in weight during the 3 months prior to screening and/or weight fluctuation of ≥ 20 pounds within the past 6 months (self-report)"
+   },
+   {
+    "text": "Early menopause (menopause occurring before age 46)"
+   },
+   {
+    "text": "History of established cardiovascular disease, including coronary atherosclerosis, ischemic heart disease, peripheral vascular disease, or stroke"
+   },
+   {
+    "text": "Statin use"
+   },
+   {
+    "text": "10-year Atherosclerotic Cardiovascular Disease (ASCVD) risk > 7.5%"
+   },
+   {
+    "text": "History of smoking"
+   },
+   {
+    "text": "History of type 1 or type 2 diabetes"
+   },
+   {
+    "text": "Family history of premature cardiovascular disease in a first-degree relative (before 45 years old in male relatives and before 55 years old in female relatives)"
+   },
+   {
+    "text": "Use of chemotherapy, radiation therapy, or immunotherapy for breast cancer treatment"
+   },
+   {
+    "text": "Impaired renal function [glomerular filtration rate (GFR) ≤ 30 ml/min/1.73 m^²]"
+   },
+   {
+    "text": "Thyroid-stimulating hormone (TSH) ≥ 7 with low free thyroxine (T4)"
+   },
+   {
+    "text": "Hemoglobin < 11 mg/dL"
+   },
+   {
+    "text": "Active inflammatory, autoimmune, infectious, hepatic, gastrointestinal, malignancy, or uncontrolled psychiatric disease"
+   },
+   {
+    "text": "Other anti-obesity medication used within the past 3 months"
+   },
+   {
+    "text": "Prior or planned surgical treatment for obesity (excluding liposuction or abdominoplasty performed > 1 year before screening)"
+   },
+   {
+    "text": "Past or intended endoscopic and/or device-based therapy or removal within the last six months"
+   },
+   {
+    "text": "Current or recent (within 3 months) use of medications that may cause weight gain, including tricyclic antidepressants, atypical antipsychotics, and mood stabilizers"
+   },
+   {
+    "text": "Current or recent use (within 3 months) of systemic glucocorticoid therapy for over 2 weeks"
+   },
+   {
+    "text": "Contraindications to glucagon-like peptide 1 (GLP-1) receptor agonist therapy"
+   },
+   {
+    "text": "Currently enrolled in another clinical study involving an investigational product or participated in one and received treatment (active or placebo) in the last 30 days"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

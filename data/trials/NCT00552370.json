@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sanofi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sanofi"
  },
  "collaborators": [],
  "conditions": [
@@ -48,9 +48,9 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Lantus®",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -63,10 +63,10 @@
  "brief_summary": "To compare the frequency of severe hypoglycemia events for 5 dosing algorithms of Lantus®, each of varying intensity and defined by their end-of -study target for self monitored plasma glucose(SMPG), in patients with Type 2 diabetes mellitus, with inadequate glycemic control (A1C greater than or equal to 7.0%) on oral antidiabetic drug therapy(OAD).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Subjects must give their signed informed consent.\n2. Diagnosis of Type 2 DM for at least 6 months.\n3. Males and females greater than or equal to 18 years of age.\n4. A1c greater than or equal to 7.0%.\n5. Current (last 2 months) diabetes therapy with oral anti-hyperglycemia agents only.\n6. Demonstrated willingness and ability to inject insulin glargine.\n7. Able to understand and willing to comply with procedures required by the protocol and have access to a phone.\n8. Demonstrated ability and willingness to perform self-monitoring of blood glucose (SMBG) and use of the algorithm calculator (AL-CAL).\n9. BMI greater than 25.0 kg/m2.\n10. Subjects who, in the opinion of the investigator, should be initiated on insulin therapy.\n\nExclusion Criteria:\n\n1. Cardiac status New York Heart Association (NYHA) III-IV (Appendix A).\n2. For subjects treated with metformin (Glucophager, Glucophage XRr, Glucovancer, Metaglipr , or Avandametr) plus a serum creatinine greater than 1.5 mg/dL (133 μmol/L) for males or greater than 1.4 mg/dL (124 μmoL) for females, the inability or unwillingness to discontinue these medications, and to remain off them through the entire study.\n3. For subjects on thiazolidinediones, the inability or unwillingness to discontinue these medications and to remain off them through the entire study.\n4. Planned pregnancy, pregnancy, or lactation.\n5. Serum creatinine greater than 3.0 mg/dL (266 μmol/L).\n6. Serum glutamic pyruvic transaminase (SGPT) greater than 2.5 x the upper limit of normal range.\n7. Any current malignancy or cancer within the past 5 years (except adequately treated basal cell carcinoma or cervical carcinoma in situ).\n8. Diagnosis of dementia or mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study.\n9. Hypersensitivity to Lantus® insulin or any of its components.\n10. Any disease or condition, including the abuse of illicit drugs, prescription medicines, or alcohol that, in opinion of the sponsor/investigator, may interfere with the completion of the study.\n11. Current (last 2 months) insulin therapy.\n12. With the exception of thiazolidinediones (for all potential subjects) and for subjects who are taking metformin and have an exclusionary creatinine level, the ability or unwillingness to continue pre-study anti-hyperglycemia agents at pre-study dosages through the entire study.\n\nThe above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -82,6 +82,83 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects must give their signed informed consent."
+   },
+   {
+    "text": "Diagnosis of Type 2 DM for at least 6 months."
+   },
+   {
+    "text": "Males and females greater than or equal to 18 years of age."
+   },
+   {
+    "text": "A1c greater than or equal to 7.0%."
+   },
+   {
+    "text": "Current (last 2 months) diabetes therapy with oral anti-hyperglycemia agents only."
+   },
+   {
+    "text": "Demonstrated willingness and ability to inject insulin glargine."
+   },
+   {
+    "text": "Able to understand and willing to comply with procedures required by the protocol and have access to a phone."
+   },
+   {
+    "text": "Demonstrated ability and willingness to perform self-monitoring of blood glucose (SMBG) and use of the algorithm calculator (AL-CAL)."
+   },
+   {
+    "text": "BMI greater than 25.0 kg/m2."
+   },
+   {
+    "text": "Subjects who, in the opinion of the investigator, should be initiated on insulin therapy."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Cardiac status New York Heart Association (NYHA) III-IV (Appendix A)."
+   },
+   {
+    "text": "For subjects treated with metformin (Glucophager, Glucophage XRr, Glucovancer, Metaglipr , or Avandametr) plus a serum creatinine greater than 1.5 mg/dL (133 μmol/L) for males or greater than 1.4 mg/dL (124 μmoL) for females, the inability or unwillingness to discontinue these medications, and to remain off them through the entire study."
+   },
+   {
+    "text": "For subjects on thiazolidinediones, the inability or unwillingness to discontinue these medications and to remain off them through the entire study."
+   },
+   {
+    "text": "Planned pregnancy, pregnancy, or lactation."
+   },
+   {
+    "text": "Serum creatinine greater than 3.0 mg/dL (266 μmol/L)."
+   },
+   {
+    "text": "Serum glutamic pyruvic transaminase (SGPT) greater than 2.5 x the upper limit of normal range."
+   },
+   {
+    "text": "Any current malignancy or cancer within the past 5 years (except adequately treated basal cell carcinoma or cervical carcinoma in situ)."
+   },
+   {
+    "text": "Diagnosis of dementia or mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study."
+   },
+   {
+    "text": "Hypersensitivity to Lantus® insulin or any of its components."
+   },
+   {
+    "text": "Any disease or condition, including the abuse of illicit drugs, prescription medicines, or alcohol that, in opinion of the sponsor/investigator, may interfere with the completion of the study."
+   },
+   {
+    "text": "Current (last 2 months) insulin therapy."
+   },
+   {
+    "text": "With the exception of thiazolidinediones (for all potential subjects) and for subjects who are taking metformin and have an exclusionary creatinine level, the ability or unwillingness to continue pre-study anti-hyperglycemia agents at pre-study dosages through the entire study."
+   },
+   {
+    "text": "The above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

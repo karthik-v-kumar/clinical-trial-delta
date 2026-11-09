@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Dundee",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Dundee"
  },
  "collaborators": [
   "NHS Tayside"
@@ -50,26 +50,26 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Gliclazide",
    "other_names": [
     "Diamicron",
     "Zicron"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "No Intervention",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Low Dose Gliclazide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Gliclazide"
-   ]
+   ],
+   "label": "Low Dose Gliclazide",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "The Study of Sulphonylurea Synergy with Incretins (LOGIC) is a Proof-of-Concept Physiological study in the form of two matched isoglycaemic clamps. A matched clamp consists of an of oral glucose tolerance test followed by an isoglycaemic intravenous glucose infusion (IGII). The study will investigate whether there is synergy between a physiological sulphonylurea (SU) stimulus and the incretin effect, causing augmentation of insulin secretion in patients with type 2 diabetes mellitus (T2DM). The study will take place at The Clinical Research Centre at Ninewells Hospital in Dundee over five visits. It will evaluate 20 patients with T2DM on no diabetes therapy, or metformin monotherapy.\n\nAll participants will undergo two matched clamps. The first matched clamp will be with no intervention. The second intervention matched clamp, low-dose liquid gliclazide will be administered 1-hour prior to each test. The sulphonylurea, Gliclazide, in this this instance will be used as a physiological stimulus and will only be given on two occasions as part of the second matched clamp. The first eight participants will participate in the dose-ranging phase. They will receive either 10mg or 20mg gliclazide as a stimulus to augment the incretin effect. A further twelve participants will then be recruited to complete the study utilising the dose which caused the greatest increment in insulin secretion. LOGIC will also evaluate the cohort for effect of KCNJ11 genotype on physiological response.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 40 - 80,\n* Age of Diabetes Diagnoses ≥ 35\n* T2DM on no treatment or metformin monotherapy\n* White British\n* HbA1c ≤ 8% (64mmol/mol)\n* eGFR ≥ 50ml/min-1\n* ALT ≤ 2.5 x ULN\n* Able to consent\n\nExclusion Criteria:\n\n* Type 1 Diabetes Mellitus\n* HbA1c \\> 8.0% (\\> 64mmol/mol)\n* eGFR \\<50ml/min-1\n* ALT \\>2.5 x ULN\n* Anaemia (Haemoglobin \\<12.0 g/dL for women, \\<13.0 g/dL for men)\n* Pregnancy, lactation or a female planning to conceive within the study period\n* Established pancreatic disease\n* Participating in clinical phase of another interventional trial/study or have done so within the last 30 days\n* Any other significant medical reason for exclusion as determined by the investigator",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "facility": "Ninewells Hospital and Medical School",
    "city": "Dundee",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Ninewells Hospital and Medical School",
    "lat": 56.46913,
-   "lon": -2.97489
+   "lon": -2.97489,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03705195",
@@ -110,6 +110,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 40 - 80,"
+   },
+   {
+    "text": "Age of Diabetes Diagnoses ≥ 35"
+   },
+   {
+    "text": "T2DM on no treatment or metformin monotherapy"
+   },
+   {
+    "text": "White British"
+   },
+   {
+    "text": "HbA1c ≤ 8% (64mmol/mol)"
+   },
+   {
+    "text": "eGFR ≥ 50ml/min-1"
+   },
+   {
+    "text": "ALT ≤ 2.5 x ULN"
+   },
+   {
+    "text": "Able to consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 Diabetes Mellitus"
+   },
+   {
+    "text": "HbA1c > 8.0% (> 64mmol/mol)"
+   },
+   {
+    "text": "eGFR <50ml/min-1"
+   },
+   {
+    "text": "ALT >2.5 x ULN"
+   },
+   {
+    "text": "Anaemia (Haemoglobin <12.0 g/dL for women, <13.0 g/dL for men)"
+   },
+   {
+    "text": "Pregnancy, lactation or a female planning to conceive within the study period"
+   },
+   {
+    "text": "Established pancreatic disease"
+   },
+   {
+    "text": "Participating in clinical phase of another interventional trial/study or have done so within the last 30 days"
+   },
+   {
+    "text": "Any other significant medical reason for exclusion as determined by the investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

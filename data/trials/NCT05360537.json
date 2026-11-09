@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Palermo",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Palermo"
  },
  "collaborators": [],
  "conditions": [
@@ -51,34 +51,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin Degludec / Liraglutide Injectable Product",
    "other_names": [
     "Insulin Degludec/Liraglutide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine",
    "other_names": [
     "glargine"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "patients treated with Insulin Degludec/Liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin Degludec / Liraglutide Injectable Product"
-   ]
+   ],
+   "label": "patients treated with Insulin Degludec/Liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "patients treated with Insulin regime Basal Bolus",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "patients treated with Insulin regime Basal Bolus",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The study aims to evaluate the effects of Insulin Degludec/Liraglutide on glycemic variability assessed by continuous glycemic monitoring with the function time in range, serum markers of inflammation, markers of endothelial dysfunction and a possible correlation with intra and extra-hospital mortality rates in a group of hospitalized diabetic patients compared to a control group of in-patient diabetic in treatment on insulin Basal-bolus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diabetes mellitus type 2\n* Mild-moderate Hyperglycemia (180-400 mg/dl)\n* Acute events (Pneumonia, Acute cardiac Ischemia, Ictus, IVU)\n\nExclusion Criteria:\n\n* Diabetes mellitus type 1\n* Diabetic ketoacidosis\n* Hyperosmolar coma\n* Severe hypoglycaemia\n* Acute Pancreatitis\n* Cancer\n* use of corticosteroids\n* pregnancy\n* Chronic kidney disease (\\< 30 ml/min) or hemodialysis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "90 Years",
   "healthy_volunteers": false,
+  "maximum_age": "90 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "Internal Medicine Ward, University of Palermo",
    "city": "Palermo",
-   "state": null,
    "country": "Italy",
-   "status": null,
+   "facility": "Internal Medicine Ward, University of Palermo",
    "lat": 38.1166,
-   "lon": 13.3636
+   "lon": 13.3636,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05360537",
@@ -127,6 +127,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diabetes mellitus type 2"
+   },
+   {
+    "text": "Mild-moderate Hyperglycemia (180-400 mg/dl)"
+   },
+   {
+    "text": "Acute events (Pneumonia, Acute cardiac Ischemia, Ictus, IVU)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diabetes mellitus type 1"
+   },
+   {
+    "text": "Diabetic ketoacidosis"
+   },
+   {
+    "text": "Hyperosmolar coma"
+   },
+   {
+    "text": "Severe hypoglycaemia"
+   },
+   {
+    "text": "Acute Pancreatitis"
+   },
+   {
+    "text": "Cancer"
+   },
+   {
+    "text": "use of corticosteroids"
+   },
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "Chronic kidney disease (< 30 ml/min) or hemodialysis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

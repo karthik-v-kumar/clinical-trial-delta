@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2018-02-23",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Blandine Laferrere",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Blandine Laferrere"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin phosphate",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin phosphate",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin phosphate"
-   ]
+   ],
+   "label": "Sitagliptin phosphate",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "The purpose of this study is to assess whether Januvia (sitagliptin phosphate 100mg) is safe and effective for the treatment of Type 2 Diabetes in patients who have had Gastric Bypass.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Must be a resident of the NYC metropolitan area or be able to come for emergency unscheduled and regular weekly meetings in Manhattan.\n* HbA1c ≥ 6.5% and ≤ 8.5 % or a fasting glucose ≥ 126 mg/dL or a random glucose ≥ 200 mg/dL at least 12 months after GBP surgery confirmed by central laboratory.\n* Subject is capable and willing to give informed consent.\n* Subject is otherwise in good general health, based on medical history and physical examination.\n* Subject is a non smoker for at least 6 months prior to study start\n* Female subjects of child bearing potential must use oral, injected or implanted hormonal methods of contraception from at least the commencement of their last normal period prior to the first administration of the challenge agent. Subjects using hormonal contraception should use a barrier method in addition from the first administration of challenge agent until their next normal period following the end of the study.\n\nExclusion Criteria:\n\n* History of type 1 diabetes\n* Female subject is pregnant or breastfeeding.\n* Recent (\\< 30 days) or simultaneous participation in another clinical trial.\n* Any situation that can compromise the study, including serious illness or a predictable lack of cooperation from the subject.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,13 +107,13 @@
  },
  "sites": [
   {
-   "facility": "New York Obesity Nutrition Research Center, Columbia University",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "New York Obesity Nutrition Research Center, Columbia University",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01512797",
@@ -125,6 +125,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Must be a resident of the NYC metropolitan area or be able to come for emergency unscheduled and regular weekly meetings in Manhattan."
+   },
+   {
+    "text": "HbA1c ≥ 6.5% and ≤ 8.5 % or a fasting glucose ≥ 126 mg/dL or a random glucose ≥ 200 mg/dL at least 12 months after GBP surgery confirmed by central laboratory."
+   },
+   {
+    "text": "Subject is capable and willing to give informed consent."
+   },
+   {
+    "text": "Subject is otherwise in good general health, based on medical history and physical examination."
+   },
+   {
+    "text": "Subject is a non smoker for at least 6 months prior to study start"
+   },
+   {
+    "text": "Female subjects of child bearing potential must use oral, injected or implanted hormonal methods of contraception from at least the commencement of their last normal period prior to the first administration of the challenge agent. Subjects using hormonal contraception should use a barrier method in addition from the first administration of challenge agent until their next normal period following the end of the study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of type 1 diabetes"
+   },
+   {
+    "text": "Female subject is pregnant or breastfeeding."
+   },
+   {
+    "text": "Recent (< 30 days) or simultaneous participation in another clinical trial."
+   },
+   {
+    "text": "Any situation that can compromise the study, including serious illness or a predictable lack of cooperation from the subject."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

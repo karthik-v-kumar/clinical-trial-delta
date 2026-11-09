@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2017-03-20",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -52,38 +52,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Omarigliptin",
    "other_names": [
     "MK-3102"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching placebo to omarigliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "Amaryl®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching placebo to glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin glargine",
    "other_names": [
     "Lantus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Fortamet®",
@@ -93,29 +92,30 @@
     "Riomet®",
     "Metgluco®",
     "Glycoran®"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Omarigliptin (Phase A) → Omarigliptin (Phase B)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Omarigliptin",
     "Drug: Matching placebo to glimepiride",
     "Drug: Insulin glargine",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Omarigliptin (Phase A) → Omarigliptin (Phase B)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo to omarigliptin (Phase A) → Glimepiride (Phase B)",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Matching placebo to omarigliptin",
     "Drug: Glimepiride",
     "Drug: Insulin glargine",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Placebo to omarigliptin (Phase A) → Glimepiride (Phase B)",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -139,10 +139,10 @@
  "brief_summary": "The purpose of this study is to assess the safety and efficacy of omarigliptin compared to placebo in participants with inadequate glycemic control on metformin monotherapy. The primary hypothesis is that after 24 weeks, the addition of treatment with omarigliptin provides greater reduction in hemoglobin A1c (A1C) than placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Has type 2 diabetes mellitus\n* Currently on a stable dose of metformin monotherapy (\\>=1500 mg per day) for at least 12 weeks prior to study participation\n* Male, or female who is not of reproductive potential or if of reproductive potential agrees to abstain from heterosexual activity or use (or have their partner use) acceptable contraception to prevent pregnancy during the study and for 21 days after the last dose of study drug\n\nExclusion Criteria:\n\n* History of type 1 diabetes mellitus or a history of ketoacidosis\n* Has been treated with any antihyperglycemic agent (AHA) other than the protocol-required metformin within 12 weeks prior to study participation or with omarigliptin at any time prior to signing informed consent\n* History of hypersensitivity to a dipeptidyl peptidase IV (DPP-4) inhibitor\n* History of intolerance, hypersensitivity, or any other contraindication to metformin, glimepiride, or insulin glargine\n* Is on a weight loss program and is not in the maintenance phase or has been on a weight loss medication in the past 6 months or has undergone bariatric surgery within 12 months prior to study participation\n* Has undergone a surgical procedure within 4 weeks of study participation or has planned major surgery during the study\n* Is on or likely to require treatment for \\>=2 consecutive weeks or repeated courses of corticosteroids (inhaled, nasal and topical corticosteroids are permitted)\n* Currently being treated for hyperthyroidism or is on thyroid hormone replacement therapy and has not been on a stable dose for at least 6 weeks\n* Is expecting to undergo hormonal therapy in preparation to donate eggs during the period of the trial, including 21 days after the last dose of blinded study medication\n* History of active liver disease (other than non-alcoholic steatosis) including chronic active hepatitis B or C, primary biliary cirrhosis, or symptomatic gallbladder disease\n* Human immunodeficiency virus (HIV)\n* New or worsening signs or symptoms of coronary heart disease or congestive heart failure within the past 3 months, or myocardial infarction, unstable angina, coronary artery bypass grafting, percutaneous transluminal coronary angioplasty, stroke, or transient ischemic attacks in the past 3 months\n* Poorly controlled hypertension\n* History of malignancy \\<=5 years prior to study participation, except for adequately treated basal cell or squamous cell skin cancer or in situ cervical cancer\n* Hematological disorder (such as aplastic anemia, myeloproliferative or myelodysplastic syndromes, thrombocytopenia)\n* Positive urine pregnancy test\n* Pregnant or breastfeeding, or is expecting to conceive during the study including 21 days following the last dose of blinded study drug\n* User of recreational or illicit drugs or has had a recent history of drug abuse\n* Routinely consumes \\>2 alcoholic drinks per day or \\>14 alcoholic drinks per week, or engages in binge drinking\n* Has donated blood products or has had phlebotomy of \\>300 mL within 8 weeks of study participation, or intends to donate blood products within the projected duration of the trial or has received, or is anticipated to receive, blood products within 12 weeks of study participation or within the projected duration of the trial",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -158,6 +158,83 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Has type 2 diabetes mellitus"
+   },
+   {
+    "text": "Currently on a stable dose of metformin monotherapy (>=1500 mg per day) for at least 12 weeks prior to study participation"
+   },
+   {
+    "text": "Male, or female who is not of reproductive potential or if of reproductive potential agrees to abstain from heterosexual activity or use (or have their partner use) acceptable contraception to prevent pregnancy during the study and for 21 days after the last dose of study drug"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of type 1 diabetes mellitus or a history of ketoacidosis"
+   },
+   {
+    "text": "Has been treated with any antihyperglycemic agent (AHA) other than the protocol-required metformin within 12 weeks prior to study participation or with omarigliptin at any time prior to signing informed consent"
+   },
+   {
+    "text": "History of hypersensitivity to a dipeptidyl peptidase IV (DPP-4) inhibitor"
+   },
+   {
+    "text": "History of intolerance, hypersensitivity, or any other contraindication to metformin, glimepiride, or insulin glargine"
+   },
+   {
+    "text": "Is on a weight loss program and is not in the maintenance phase or has been on a weight loss medication in the past 6 months or has undergone bariatric surgery within 12 months prior to study participation"
+   },
+   {
+    "text": "Has undergone a surgical procedure within 4 weeks of study participation or has planned major surgery during the study"
+   },
+   {
+    "text": "Is on or likely to require treatment for >=2 consecutive weeks or repeated courses of corticosteroids (inhaled, nasal and topical corticosteroids are permitted)"
+   },
+   {
+    "text": "Currently being treated for hyperthyroidism or is on thyroid hormone replacement therapy and has not been on a stable dose for at least 6 weeks"
+   },
+   {
+    "text": "Is expecting to undergo hormonal therapy in preparation to donate eggs during the period of the trial, including 21 days after the last dose of blinded study medication"
+   },
+   {
+    "text": "History of active liver disease (other than non-alcoholic steatosis) including chronic active hepatitis B or C, primary biliary cirrhosis, or symptomatic gallbladder disease"
+   },
+   {
+    "text": "Human immunodeficiency virus (HIV)"
+   },
+   {
+    "text": "New or worsening signs or symptoms of coronary heart disease or congestive heart failure within the past 3 months, or myocardial infarction, unstable angina, coronary artery bypass grafting, percutaneous transluminal coronary angioplasty, stroke, or transient ischemic attacks in the past 3 months"
+   },
+   {
+    "text": "Poorly controlled hypertension"
+   },
+   {
+    "text": "History of malignancy <=5 years prior to study participation, except for adequately treated basal cell or squamous cell skin cancer or in situ cervical cancer"
+   },
+   {
+    "text": "Hematological disorder (such as aplastic anemia, myeloproliferative or myelodysplastic syndromes, thrombocytopenia)"
+   },
+   {
+    "text": "Positive urine pregnancy test"
+   },
+   {
+    "text": "Pregnant or breastfeeding, or is expecting to conceive during the study including 21 days following the last dose of blinded study drug"
+   },
+   {
+    "text": "User of recreational or illicit drugs or has had a recent history of drug abuse"
+   },
+   {
+    "text": "Routinely consumes >2 alcoholic drinks per day or >14 alcoholic drinks per week, or engages in binge drinking"
+   },
+   {
+    "text": "Has donated blood products or has had phlebotomy of >300 mL within 8 weeks of study participation, or intends to donate blood products within the projected duration of the trial or has received, or is anticipated to receive, blood products within 12 weeks of study participation or within the projected duration of the trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

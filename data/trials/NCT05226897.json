@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yooyoung Pharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Yooyoung Pharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -53,44 +53,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "YYC405-T",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin≥1000mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "YYC405-T placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Test",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: YYC405-T",
     "Drug: Metformin≥1000mg",
     "Drug: Dapagliflozin 10mg"
-   ]
+   ],
+   "label": "Test",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo control",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin≥1000mg",
     "Drug: Dapagliflozin 10mg",
     "Drug: YYC405-T placebo"
-   ]
+   ],
+   "label": "Placebo control",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "Phase 3 study to assess the Efficacy and Safety of YYC405 in Type 2 Diabetes Patients",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient who contsent to participate in this tiral by written informed consent form\n* A man or woman over 20 years old\n* Type 2 Diabetes patients\n\nExclusion Criteria:\n\n* Patients with severe renal impairment, end-stage renal disease or on dialysis\n* Type 1 diabetes patients\n* Patients with a history of acute or chronic target acidosis, including lactic acidosis and diabetic ketoacidosis",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "facility": "The Catholic University of Korea(Bucheon St. Mary's Hospital)",
    "city": "Bucheon-si",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "The Catholic University of Korea(Bucheon St. Mary's Hospital)",
    "lat": 37.49889,
-   "lon": 126.78306
+   "lon": 126.78306,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05226897",
@@ -131,6 +131,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient who contsent to participate in this tiral by written informed consent form"
+   },
+   {
+    "text": "A man or woman over 20 years old"
+   },
+   {
+    "text": "Type 2 Diabetes patients"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with severe renal impairment, end-stage renal disease or on dialysis"
+   },
+   {
+    "text": "Type 1 diabetes patients"
+   },
+   {
+    "text": "Patients with a history of acute or chronic target acidosis, including lactic acidosis and diabetic ketoacidosis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

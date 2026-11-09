@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2017-10-04",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [
   "Pfizer"
@@ -53,103 +53,103 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo to Ertugliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ertugliflozin 1 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ertugliflozin 5 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ertugliflozin 25 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin 100 mg",
    "other_names": [
     "Januvia®, Tesavel®, Xelevia®, Ristaben®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo to Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Fortamet®, Glucophage®, Glucophage® XR, Glumetza®, Riomet®, Metgluco®, Glycoran®"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to Ertugliflozin",
     "Drug: Placebo to Sitagliptin",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Ertugliflozin 1 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Placebo to Ertugliflozin",
     "Drug: Ertugliflozin 1 mg",
     "Drug: Placebo to Sitagliptin",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Ertugliflozin 1 mg",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo to Ertugliflozin",
+    "Drug: Ertugliflozin 5 mg",
+    "Drug: Placebo to Sitagliptin",
+    "Drug: Metformin"
+   ],
    "label": "Ertugliflozin 5 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Placebo to Ertugliflozin",
     "Drug: Ertugliflozin 5 mg",
     "Drug: Placebo to Sitagliptin",
     "Drug: Metformin"
-   ]
-  },
-  {
+   ],
    "label": "Ertugliflozin 10 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Placebo to Ertugliflozin",
-    "Drug: Ertugliflozin 5 mg",
-    "Drug: Placebo to Sitagliptin",
-    "Drug: Metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Ertugliflozin 25 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Placebo to Ertugliflozin",
     "Drug: Ertugliflozin 25 mg",
     "Drug: Placebo to Sitagliptin",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Ertugliflozin 25 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sitagliptin 100 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to Ertugliflozin",
     "Drug: Sitagliptin 100 mg",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Sitagliptin 100 mg",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -165,10 +165,10 @@
  "brief_summary": "MK-8835-016 (B1521006) is designed to evaluate the safety and efficacy of an investigational drug, ertugliflozin (MK-8835, PF-04971729) in participants with Type 2 diabetes mellitus. Participants in the study will receive 1 of 6 treatments for 12 weeks including 1 treatment with an approved drug (sitagliptin) for the treatment of Type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants with type 2 diabetes on stable doses of background medicines for management of the diabetes; aged 18-70 years; body mass index between 23-45 kg/m\\^2\n\nExclusion Criteria:\n\n* Participants with type 1 diabetes, heart attack or stroke in last 6-months, uncontrolled blood pressure, significant kidney disease",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -184,6 +184,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants with type 2 diabetes on stable doses of background medicines for management of the diabetes; aged 18-70 years; body mass index between 23-45 kg/m^2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participants with type 1 diabetes, heart attack or stroke in last 6-months, uncontrolled blood pressure, significant kidney disease"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

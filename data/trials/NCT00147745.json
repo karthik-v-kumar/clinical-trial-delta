@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-12-04",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Daiichi Sankyo",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Daiichi Sankyo"
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Colesevelam",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Colesevelam matching placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin glargine (Lantus)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Colesevelam"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Colesevelam matching placebo"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin glargine (Lantus)"
-   ]
+   ],
+   "label": "3",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "This study is designed to assess the potential mechanism of action by which WelChol® (colesevelam) may improve blood glucose control in patients with type 2 diabetes",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients between the ages of 18 - 75, inclusive\n* Diagnosed with type 2 diabetes\n* Hemoglobin A1c value greater than or equal to 8.0%\n* Antidiabetic treatments may include sulfonylurea agents (non-sulfonylurea agents must be withdrawn)\n* Overweight, obese (body mass index 25-45 kg/m2)\n\nExclusion Criteria:\n\n* Change of dose of lipid or blood pressure lowering therapy within past three months\n* Previous treatment with colesevelam for hyperlipidemia\n* Serum triglyceride greater than 500 mg/dL\n* Serum low density lipoprotein-cholesterol less than 60 mg/dL",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,13 +117,13 @@
  },
  "sites": [
   {
-   "facility": "San Diego VMC",
    "city": "San Diego",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "San Diego VMC",
    "lat": 32.71571,
-   "lon": -117.16472
+   "lon": -117.16472,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00147745",
@@ -135,6 +135,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients between the ages of 18 - 75, inclusive"
+   },
+   {
+    "text": "Diagnosed with type 2 diabetes"
+   },
+   {
+    "text": "Hemoglobin A1c value greater than or equal to 8.0%"
+   },
+   {
+    "text": "Antidiabetic treatments may include sulfonylurea agents (non-sulfonylurea agents must be withdrawn)"
+   },
+   {
+    "text": "Overweight, obese (body mass index 25-45 kg/m2)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Change of dose of lipid or blood pressure lowering therapy within past three months"
+   },
+   {
+    "text": "Previous treatment with colesevelam for hyperlipidemia"
+   },
+   {
+    "text": "Serum triglyceride greater than 500 mg/dL"
+   },
+   {
+    "text": "Serum low density lipoprotein-cholesterol less than 60 mg/dL"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

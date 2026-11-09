@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Valeritas, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Valeritas, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -48,25 +48,25 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "V-Go",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Titration Algorithm A",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: V-Go"
-   ]
+   ],
+   "label": "Titration Algorithm A",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Titration Algorithm B",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: V-Go"
-   ]
+   ],
+   "label": "Titration Algorithm B",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "The aim of the study is to observe patients with Type 2 Diabetes on basal insulin alone or basal insulin with oral agents can be efficiently and safely started with meal time insulin using U100 rapid acting insulin analog and V-Go® Disposable Insulin Delivery Device (V-Go) using one of two dose titration algorithms to achieve improved A1C at 4 months.",
  "eligibility": {
   "criteria": "Inclusion Criteria: Patients must meet all of the following inclusion criteria to be eligible for enrollment into the study:\n\n* Age ≥ 21 and ≤80 at time of study enrollment\n* Ability to read and understand English\n* BMI ≥ 25 kg/m2\n* Weight less than or equal to 300 pounds.\n* A1C ≥8 but ≤12% (most recent value within 4 weeks of baseline visit)\n* Currently using any basal insulin therapy (NPH, Levemir, Lantus) with total daily dose of 30 to 120 units, and where basal dose is greater than the patient's BMI #\n* Willing to attend their physician's office for follow-up visits\n* Willing and able to understand and sign a written informed consent form (ICF) indicating that they agree to participate and have been informed of all pertinent aspects of the study\n* Must be willing to take and record at least 3 glucose measurements per time period (pre-breakfast, lunch, dinner and bed) per week.\n* Willing to opt-in into Valeritas Customer Care so that they can receive device support and reminders throughout the study\n* Most recent primary care office visit at one of the participating sites.\n\nExclusion Criteria:Patients presenting with any the following exclusion criteria will not be eligible for enrollment into the study:\n\n* Patient with confirmed Type 1 diabetes and/or patients with a weight greater than 300 lbs.\n* Diagnosis of an Autoimmune disease affecting metabolism\n* Currently using GLP-1 medications\n* Current (within the last 6 months) or planned use of insulin pump for diabetes management or the use of U500 insulin.\n* Ongoing participation in any clinical study\n* Pregnant, lactating or intending to become pregnant\n* Current chronic systemic steroid use\n* Prior V-Go use",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "Geisinger",
    "city": "Wilkes-Barre",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Geisinger",
    "lat": 41.24591,
-   "lon": -75.88131
+   "lon": -75.88131,
+   "state": "Pennsylvania",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02361489",
@@ -107,6 +107,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients must meet all of the following inclusion criteria to be eligible for enrollment into the study:"
+   },
+   {
+    "text": "Age ≥ 21 and ≤80 at time of study enrollment"
+   },
+   {
+    "text": "Ability to read and understand English"
+   },
+   {
+    "text": "BMI ≥ 25 kg/m2"
+   },
+   {
+    "text": "Weight less than or equal to 300 pounds."
+   },
+   {
+    "text": "A1C ≥8 but ≤12% (most recent value within 4 weeks of baseline visit)"
+   },
+   {
+    "text": "Currently using any basal insulin therapy (NPH, Levemir, Lantus) with total daily dose of 30 to 120 units, and where basal dose is greater than the patient's BMI #"
+   },
+   {
+    "text": "Willing to attend their physician's office for follow-up visits"
+   },
+   {
+    "text": "Willing and able to understand and sign a written informed consent form (ICF) indicating that they agree to participate and have been informed of all pertinent aspects of the study"
+   },
+   {
+    "text": "Must be willing to take and record at least 3 glucose measurements per time period (pre-breakfast, lunch, dinner and bed) per week."
+   },
+   {
+    "text": "Willing to opt-in into Valeritas Customer Care so that they can receive device support and reminders throughout the study"
+   },
+   {
+    "text": "Most recent primary care office visit at one of the participating sites."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients presenting with any the following exclusion criteria will not be eligible for enrollment into the study:"
+   },
+   {
+    "text": "Patient with confirmed Type 1 diabetes and/or patients with a weight greater than 300 lbs."
+   },
+   {
+    "text": "Diagnosis of an Autoimmune disease affecting metabolism"
+   },
+   {
+    "text": "Currently using GLP-1 medications"
+   },
+   {
+    "text": "Current (within the last 6 months) or planned use of insulin pump for diabetes management or the use of U500 insulin."
+   },
+   {
+    "text": "Ongoing participation in any clinical study"
+   },
+   {
+    "text": "Pregnant, lactating or intending to become pregnant"
+   },
+   {
+    "text": "Current chronic systemic steroid use"
+   },
+   {
+    "text": "Prior V-Go use"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

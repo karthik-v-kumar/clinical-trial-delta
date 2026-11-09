@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "BrightGene Bio-Medical Technology Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "BrightGene Bio-Medical Technology Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "BGM0504",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "BGM0504",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: BGM0504"
+   ],
    "label": "5 mg BGM0504",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: BGM0504"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: BGM0504"
+   ],
    "label": "10 mg BGM0504",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: BGM0504"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "1 mg Semaglutide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "1 mg Semaglutide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "This trial is conducted in Indonesia. The aim of the trial is to evaluate the efficacy and safety of BGM0504 versus semaglutide as add-on to metformin in patients with type 2 diabetes",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* ○ Have been diagnosed with type 2 diabetes mellitus (T2DM);\n\n  * Be on stable treatment with unchanged dose of metformin ≥1500 mg/day or \\<1500 mg/day but ≥1000 mg/day (the maximum tolerated dose) for at least 8 weeks prior to screening\n  * Have a BMI ≥23 kilograms per meter squared (kg/m²) at screening;\n  * Be of stable weight (± 5%) for at least 3 months before screening;\n  * Have HbA1c between ≥7.5% and ≤11.0% at screening\n\nExclusion Criteria:\n\n* ○ Previous diagnosis of type 1 diabetes, special type diabetes;\n\n  * Have suffered the malignancy within the past 5 years (except cured basal cell carcinoma of the skin, cervical carcinoma in situ), or being evaluated for an underlying malignancy;\n  * Have the acute or chronic pancreatitis;\n  * Known to be allergic to 3 or more kinds of foods or medications, or allergic to GLP-1 agonist or metformin, or have a severe allergic disease (asthma, urticaria, eczematous dermatitis, etc.) at screening;\n  * Have a serious mental illness or speech impediment and be unable to fully understand the study;\n  * Suspected or confirmed history of alcohol or drug abuse;\n  * Have had a history of ≥2 severe hypoglycemic episodes in the past 1 year;\n  * Other conditions that may impact the assessment of investigational products, as determined by the Investigator.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,40 +106,40 @@
  },
  "sites": [
   {
+   "city": "Jakarta",
+   "country": "Indonesia",
    "facility": "RSUP Fatmawati",
-   "city": "Jakarta",
-   "state": null,
-   "country": "Indonesia",
-   "status": null,
    "lat": -6.21462,
-   "lon": 106.84513
+   "lon": 106.84513,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Jakarta",
+   "country": "Indonesia",
    "facility": "RSUP Persahabatan",
-   "city": "Jakarta",
-   "state": null,
-   "country": "Indonesia",
-   "status": null,
    "lat": -6.21462,
-   "lon": 106.84513
+   "lon": 106.84513,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Jakarta",
+   "country": "Indonesia",
    "facility": "RSUPN Dr. Cipto Mangunkusumo",
-   "city": "Jakarta",
-   "state": null,
-   "country": "Indonesia",
-   "status": null,
    "lat": -6.21462,
-   "lon": 106.84513
+   "lon": 106.84513,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "RS Universitas Indonesia",
    "city": "Depok",
-   "state": "West Java",
    "country": "Indonesia",
-   "status": null,
+   "facility": "RS Universitas Indonesia",
    "lat": -6.4,
-   "lon": 106.81861
+   "lon": 106.81861,
+   "state": "West Java",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07064486",
@@ -151,6 +151,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "○ Have been diagnosed with type 2 diabetes mellitus (T2DM);",
+    "sub_items": [
+     "Be on stable treatment with unchanged dose of metformin ≥1500 mg/day or <1500 mg/day but ≥1000 mg/day (the maximum tolerated dose) for at least 8 weeks prior to screening",
+     "Have a BMI ≥23 kilograms per meter squared (kg/m²) at screening;",
+     "Be of stable weight (± 5%) for at least 3 months before screening;",
+     "Have HbA1c between ≥7.5% and ≤11.0% at screening"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "○ Previous diagnosis of type 1 diabetes, special type diabetes;",
+    "sub_items": [
+     "Have suffered the malignancy within the past 5 years (except cured basal cell carcinoma of the skin, cervical carcinoma in situ), or being evaluated for an underlying malignancy;",
+     "Have the acute or chronic pancreatitis;",
+     "Known to be allergic to 3 or more kinds of foods or medications, or allergic to GLP-1 agonist or metformin, or have a severe allergic disease (asthma, urticaria, eczematous dermatitis, etc.) at screening;",
+     "Have a serious mental illness or speech impediment and be unable to fully understand the study;",
+     "Suspected or confirmed history of alcohol or drug abuse;",
+     "Have had a history of ≥2 severe hypoglycemic episodes in the past 1 year;",
+     "Other conditions that may impact the assessment of investigational products, as determined by the Investigator."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

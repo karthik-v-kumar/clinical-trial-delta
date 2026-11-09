@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sanofi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sanofi"
  },
  "collaborators": [],
  "conditions": [
@@ -51,37 +51,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride (HOE490)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Glimepiride (HOE490)"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo",
     "Drug: Glimepiride (HOE490)"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Primary objective of this study is to confirm the efficacy of HOE490 O (glimepiride/metformin) compared with placebo on top of glimepiride in HbA1c change.\n\nSecondary objectives of this study is to evaluate the safety of HOE490 O (glimepiride/metformin) compared with placebo on top of glimepiride as well as other efficacy parameters",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes Mellitus patients treated with constant dose of glimepiride on top of diet and exercise\n* Patients who gave informed consent to participate in the study\n\nExclusion Criteria:\n\n* Patients with HbA1c of \\< 7.0 % and \\> 11.0 %\n* Patients with any following laboratory test abnormality :\n\n  * ALT and/or AST: \\> 3 X ULN\n  * Neutrophils: \\< 1,000/mm3 and/or platelets \\< 100,000/mm3\n  * Hemoglobin: \\<11 g/dL\n  * Creatinine: \\>= 1.3 mg/dL in case of male or \\>= 1.0 mg/dL in case of female\n\nThe above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "74 Years",
   "healthy_volunteers": false,
+  "maximum_age": "74 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Sanofi-Aventis Administrative Office",
    "city": "Tokyo",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Sanofi-Aventis Administrative Office",
    "lat": 35.6895,
-   "lon": 139.69171
+   "lon": 139.69171,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00924573",
@@ -122,6 +122,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes Mellitus patients treated with constant dose of glimepiride on top of diet and exercise"
+   },
+   {
+    "text": "Patients who gave informed consent to participate in the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with HbA1c of < 7.0 % and > 11.0 %"
+   },
+   {
+    "text": "Patients with any following laboratory test abnormality :",
+    "sub_items": [
+     "ALT and/or AST: > 3 X ULN",
+     "Neutrophils: < 1,000/mm3 and/or platelets < 100,000/mm3",
+     "Hemoglobin: <11 g/dL",
+     "Creatinine: >= 1.3 mg/dL in case of male or >= 1.0 mg/dL in case of female"
+    ]
+   },
+   {
+    "text": "The above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

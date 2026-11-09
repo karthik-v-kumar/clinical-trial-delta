@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Kyoto University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Kyoto University"
  },
  "collaborators": [
   "Yamaguchi University Hospital",
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pitavastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pitavastatin"
-   ]
+   ],
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The purpose of this study is to compare the effects of pitavastatin and atorvastatin on coronary plaque volume in patients with acute coronary syndrome and to clarify the relationship between coronary plaque volume, serum lipids, and inflammation markers in order to determine the significance of intensive lipid lowering therapy in patients with acute coronary syndrome in Japan.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with written consent by their own volition after being provided sufficient explanation for their participation in this clinical trial\n* Patients 20 years or older at the time of their consent\n* Patients with hypercholesterolemia as defined by any of the following criteria:\n\n  * TC \\>= 220 mg/dL;\n  * LDL-C \\>= 140 mg/dL;\n  * Cholesterol-lowering treatment is necessary in accordance with the investigator's judgement when LDL-C \\>= 100 mg/dL or TC \\>= 180 mg/dL.\n* Patients who have been diagnosed with acute coronary syndrome\n* Patients with successful percutaneous coronary intervention (PCI) by intravascular ultrasound (IVUS) guidance\n* Patients having coronary plaques (\\>= 500 µm in thickness or 20% or more in % plaque) at \\>= 5 mm from the previously treated area in the same branch of coronary artery\n\nExclusion Criteria:\n\n* Patients with bypass graft or in-stent restenosis at the site of PCI\n* Patients who had received PCI on the lesion in the past where the evaluation of coronary plaque volume is planned\n* Patients who had plaques in a non-culprit site and might receive PCI during the treatment period\n* Patients receiving lipid-lowering drugs (statins, fibrates, probucol, nicotinic acid or cholesterol absorption inhibitors)\n* Patients with familial hypercholesterolemia\n* Patients with cardiogenic shock\n* Patients receiving cyclosporine\n* Patients with any allergy to pitavastatin or atorvastatin\n* Patients with hepatobiliary disorders\n* Pregnant women, women suspected of being pregnant, or lactating women\n* Patients with renal disorders or undergoing dialysis\n* Patients who are ineligible in the opinion of the investigator",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,31 +100,31 @@
  },
  "sites": [
   {
-   "facility": "Kyoto University Graduate School of Medicine",
    "city": "Kyoto",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Kyoto University Graduate School of Medicine",
    "lat": 35.02107,
-   "lon": 135.75385
+   "lon": 135.75385,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Juntendo University School of Medicine",
    "city": "Bunkyo-ku",
-   "state": "Tokyo",
    "country": "Japan",
-   "status": null,
+   "facility": "Juntendo University School of Medicine",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Tokyo",
+   "status": null
   },
   {
-   "facility": "Yamaguchi University Graduate School of Medicine",
    "city": "Ube",
-   "state": "Yamaguchi",
    "country": "Japan",
-   "status": null,
+   "facility": "Yamaguchi University Graduate School of Medicine",
    "lat": 33.94306,
-   "lon": 131.25111
+   "lon": 131.25111,
+   "state": "Yamaguchi",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00242944",
@@ -136,6 +136,73 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with written consent by their own volition after being provided sufficient explanation for their participation in this clinical trial"
+   },
+   {
+    "text": "Patients 20 years or older at the time of their consent"
+   },
+   {
+    "text": "Patients with hypercholesterolemia as defined by any of the following criteria:",
+    "sub_items": [
+     "TC >= 220 mg/dL;",
+     "LDL-C >= 140 mg/dL;",
+     "Cholesterol-lowering treatment is necessary in accordance with the investigator's judgement when LDL-C >= 100 mg/dL or TC >= 180 mg/dL."
+    ]
+   },
+   {
+    "text": "Patients who have been diagnosed with acute coronary syndrome"
+   },
+   {
+    "text": "Patients with successful percutaneous coronary intervention (PCI) by intravascular ultrasound (IVUS) guidance"
+   },
+   {
+    "text": "Patients having coronary plaques (>= 500 µm in thickness or 20% or more in % plaque) at >= 5 mm from the previously treated area in the same branch of coronary artery"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with bypass graft or in-stent restenosis at the site of PCI"
+   },
+   {
+    "text": "Patients who had received PCI on the lesion in the past where the evaluation of coronary plaque volume is planned"
+   },
+   {
+    "text": "Patients who had plaques in a non-culprit site and might receive PCI during the treatment period"
+   },
+   {
+    "text": "Patients receiving lipid-lowering drugs (statins, fibrates, probucol, nicotinic acid or cholesterol absorption inhibitors)"
+   },
+   {
+    "text": "Patients with familial hypercholesterolemia"
+   },
+   {
+    "text": "Patients with cardiogenic shock"
+   },
+   {
+    "text": "Patients receiving cyclosporine"
+   },
+   {
+    "text": "Patients with any allergy to pitavastatin or atorvastatin"
+   },
+   {
+    "text": "Patients with hepatobiliary disorders"
+   },
+   {
+    "text": "Pregnant women, women suspected of being pregnant, or lactating women"
+   },
+   {
+    "text": "Patients with renal disorders or undergoing dialysis"
+   },
+   {
+    "text": "Patients who are ineligible in the opinion of the investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

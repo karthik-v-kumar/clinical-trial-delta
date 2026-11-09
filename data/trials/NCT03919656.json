@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10 mg",
    "other_names": [
     "Farxiga 10 mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo Oral Tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin 10 mg"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo Oral Tablet"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This study evaluates the metabolomics changes associated with dapagliflozin treatment in patients with type 2 diabetes mellitus (T2DM). The participants in the study will be randomized to receive 10 mg dapagliflozin or placebo once daily for 12 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 18-75.\n* BMI 27-39.9 kg/m2.\n* T2DM on treatment with metformin and inadequate metabolic control (defined as HbA1c≥6.5 -7%).\n\nExclusion Criteria:\n\n* Pregnancy (all women of child-bearing age, unless on treatment with contraceptive methods, will undergo a pregnancy test)\n* Breastfeeding\n* Intolerance/allergy to dapagliflozin.\n* Treatment with antidiabetic drug other than metformin.\n* Impaired kidney function: Estimated glomerular filtration rate (eGFR) \\<60 ml/min/1.73m2 (calculated using the CKD-EPI formula).\n* Patients with established cardiovascular disease.\n* Previous or current history of cancer of any kind.\n* Uncontrolled hypertension (systolic blood pressure≥160 mmHg or diastolic blood pressure≥110 mmHg, despite adequate antihypertensive treatment).\n* History of liver tumour or acute or chronic liver disease with impaired liver function: total bilirubin levels\\> 2.0 mg / dl or GOT/GPT levels three times higher than normal upper limit.\n* Known HIV infection or active HBV or HCV infection.\n* Other serious underlying diseases, which could affect the patient's ability to participate in the study.\n* Reduced life expectancy (\\<12 months) due to advanced or terminal concomitant diseases.\n\nIn addition, female patients of child-bearing age will be advised to use contraceptive methods during the study period, given the contraindication of dapagliflozin and metformin during pregnancy as per normal clinical practice.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Virgen de la Victoria University Hospital. Endocrinology Department",
    "city": "Málaga",
-   "state": "Spain",
    "country": "Spain",
-   "status": null,
+   "facility": "Virgen de la Victoria University Hospital. Endocrinology Department",
    "lat": 36.72016,
-   "lon": -4.42034
+   "lon": -4.42034,
+   "state": "Spain",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03919656",
@@ -121,6 +121,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 18-75."
+   },
+   {
+    "text": "BMI 27-39.9 kg/m2."
+   },
+   {
+    "text": "T2DM on treatment with metformin and inadequate metabolic control (defined as HbA1c≥6.5 -7%)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy (all women of child-bearing age, unless on treatment with contraceptive methods, will undergo a pregnancy test)"
+   },
+   {
+    "text": "Breastfeeding"
+   },
+   {
+    "text": "Intolerance/allergy to dapagliflozin."
+   },
+   {
+    "text": "Treatment with antidiabetic drug other than metformin."
+   },
+   {
+    "text": "Impaired kidney function: Estimated glomerular filtration rate (eGFR) <60 ml/min/1.73m2 (calculated using the CKD-EPI formula)."
+   },
+   {
+    "text": "Patients with established cardiovascular disease."
+   },
+   {
+    "text": "Previous or current history of cancer of any kind."
+   },
+   {
+    "text": "Uncontrolled hypertension (systolic blood pressure≥160 mmHg or diastolic blood pressure≥110 mmHg, despite adequate antihypertensive treatment)."
+   },
+   {
+    "text": "History of liver tumour or acute or chronic liver disease with impaired liver function: total bilirubin levels> 2.0 mg / dl or GOT/GPT levels three times higher than normal upper limit."
+   },
+   {
+    "text": "Known HIV infection or active HBV or HCV infection."
+   },
+   {
+    "text": "Other serious underlying diseases, which could affect the patient's ability to participate in the study."
+   },
+   {
+    "text": "Reduced life expectancy (<12 months) due to advanced or terminal concomitant diseases."
+   },
+   {
+    "text": "In addition, female patients of child-bearing age will be advised to use contraceptive methods during the study period, given the contraindication of dapagliflozin and metformin during pregnancy as per normal clinical practice."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

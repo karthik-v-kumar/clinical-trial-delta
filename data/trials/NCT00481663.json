@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,67 +51,67 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo to sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rescue",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Sitagliptin",
+    "Drug: Rescue"
+   ],
    "label": "Sitagliptin 25 mg once daily",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: Rescue"
-   ]
-  },
-  {
+   ],
    "label": "Sitagliptin 50 mg once daily",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: Rescue"
-   ]
-  },
-  {
+   ],
    "label": "Sitaglipin 100 mg once daily",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: Rescue"
-   ]
-  },
-  {
+   ],
    "label": "Sitagliptin 50 mg twice daily",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Sitagliptin",
-    "Drug: Rescue"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo to Sitagliptin → Metformin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to sitagliptin",
     "Drug: Metformin",
     "Drug: Rescue"
-   ]
+   ],
+   "label": "Placebo to Sitagliptin → Metformin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -155,10 +155,10 @@
  "brief_summary": "A study of different doses of MK-0431 in participants with type 2 diabetes mellitus. There have been 3 extensions to the base study (Extension 1: up to Week 52, Extension 2: up to Week 106, and Extension 3: up to Week 158). The primary hypothesis for the study is that In participants with type 2 diabetes who have inadequate glycemic control, after 12 weeks of treatment, a dose-response will be seen across once-daily doses of MK-0431 in lowering hemoglobin A1C (HbA1c).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and non-pregnant women\n* Fasting plasma glucose \\>= 130 mg/dL\n* HbA1c \\>=6.5% and \\>10.0%\n\nExclusion Criteria:\n\n* You have a history of type I diabetes\n* You are on a weight loss program with ongoing weight loss or taking weight loss medication\n* You have had surgery within 30 days\n* You hvae hepatitis B or C.",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -174,6 +174,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and non-pregnant women"
+   },
+   {
+    "text": "Fasting plasma glucose >= 130 mg/dL"
+   },
+   {
+    "text": "HbA1c >=6.5% and >10.0%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "You have a history of type I diabetes"
+   },
+   {
+    "text": "You are on a weight loss program with ongoing weight loss or taking weight loss medication"
+   },
+   {
+    "text": "You have had surgery within 30 days"
+   },
+   {
+    "text": "You hvae hepatitis B or C."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

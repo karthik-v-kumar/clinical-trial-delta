@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Alabama at Birmingham",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Alabama at Birmingham"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -50,42 +50,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dorzagliatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Insulin Glargine",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Glargine"
-   ]
+   ],
+   "label": "Insulin Glargine",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dorzagliatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dorzagliatin"
-   ]
+   ],
+   "label": "Dorzagliatin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "It has been shown that individuals with type 2 diabetes have higher blood sugar throughout the night than individuals without type 2 diabetes. However, it is still unknown if this rise in blood sugar can be controlled using medications.\n\nThis study will examine the effects of three different diabetes treatments to determine if they improve night time blood sugars. Participants will be randomly assigned for 8 weeks to one of the following three groups:\n\nGROUP 1: Insulin. Participants will be instructed on self-injecting insulin glargine once-daily in the morning. The dose will be increased by the study team to avoid episodes of low blood sugar and to maintain fasting blood sugar concentrations between 70 to 180 mg/dl.\n\nGROUP 2: Metformin. Participants will start the drug (500 mg twice daily) with meals. After 72 hours and in the absence of side effects, they will increase the dose to 500 mg with breakfast and 1,000 mg with supper. After a further 72 hours and in the absence of side effects, they will increase the dose to 1,000 mg twice daily with meals and continue until the end of the trial. The dose will be adjusted by the study team to maintain fasting blood sugar concentrations between 70 to 180 mg/dl.\n\nGROUP 3: Dorzagliatin. This medication dose will be 75 mg twice daily. The investigators anticipate fasting glucose concentrations will be between 70 to 180 mg/dl since the dose of this medication cannot be titrated.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI:25-40 kg/m2.\n* HbA1C ≤ 9% on lifestyle therapy with or without monotherapy with metformin or sulphonylureas (SU); or combination therapies (metformin and SU, DPPIV inhibitors, only short acting GLP-1 analogues exenatide (Byeta) and liraglutide (Victoza).\n\nExclusion Criteria:\n\n* Insulin therapy\n* SGLT2 inhibitors\n* Long acting GLP-1 analogues\n* TZDs\n* Medications affecting GI motility (e.g., erythromycin, pramlintide).\n* Medications that may affect glucose metabolism such as corticosteroids, tricyclic-antidepressants, benzodiazepines, opiates, barbiturates, and anticoagulants.\n* Unstable diabetic retinopathy, microalbuminuria, macrovascular disease.\n* Upper GI disorder/surgery, debilitating chronic disease, anemia, and symptoms of undiagnosed illnesses.\n* History of alcoholism or substance abuse.\n* Pregnancy or breast feeding, or other comorbidities precluding participation.",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,22 +108,22 @@
  },
  "sites": [
   {
-   "facility": "Rita Basu",
    "city": "Birmingham",
-   "state": "Alabama",
    "country": "United States",
-   "status": null,
+   "facility": "Rita Basu",
    "lat": 33.52066,
-   "lon": -86.80249
+   "lon": -86.80249,
+   "state": "Alabama",
+   "status": null
   },
   {
-   "facility": "University of Virginia",
    "city": "Charlottesville",
-   "state": "Virginia",
    "country": "United States",
-   "status": null,
+   "facility": "University of Virginia",
    "lat": 38.02931,
-   "lon": -78.47668
+   "lon": -78.47668,
+   "state": "Virginia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05098470",
@@ -135,6 +135,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI:25-40 kg/m2."
+   },
+   {
+    "text": "HbA1C ≤ 9% on lifestyle therapy with or without monotherapy with metformin or sulphonylureas (SU); or combination therapies (metformin and SU, DPPIV inhibitors, only short acting GLP-1 analogues exenatide (Byeta) and liraglutide (Victoza)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Insulin therapy"
+   },
+   {
+    "text": "SGLT2 inhibitors"
+   },
+   {
+    "text": "Long acting GLP-1 analogues"
+   },
+   {
+    "text": "TZDs"
+   },
+   {
+    "text": "Medications affecting GI motility (e.g., erythromycin, pramlintide)."
+   },
+   {
+    "text": "Medications that may affect glucose metabolism such as corticosteroids, tricyclic-antidepressants, benzodiazepines, opiates, barbiturates, and anticoagulants."
+   },
+   {
+    "text": "Unstable diabetic retinopathy, microalbuminuria, macrovascular disease."
+   },
+   {
+    "text": "Upper GI disorder/surgery, debilitating chronic disease, anemia, and symptoms of undiagnosed illnesses."
+   },
+   {
+    "text": "History of alcoholism or substance abuse."
+   },
+   {
+    "text": "Pregnancy or breast feeding, or other comorbidities precluding participation."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

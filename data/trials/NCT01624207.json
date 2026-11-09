@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Seoul National University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Seoul National University Hospital"
  },
  "collaborators": [
   "Yuhan corp., Seoul, Korea"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "generic formulation of atorvastatin (Atorva®)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "branded formulation of atorvastatin (Lipitor®)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Atorva",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: generic formulation of atorvastatin (Atorva®)"
-   ]
+   ],
+   "label": "Atorva",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Lipitor",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: branded formulation of atorvastatin (Lipitor®)"
-   ]
+   ],
+   "label": "Lipitor",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The generic formulation of atorvastatin (Atorva®) 20mg was not inferior to the branded formulation of atorvastatin (Lipitor®) 20mg in this 8-week treatment of hyperlipidemic Korean patients. In PP analysis, the LDL cholesterol goal achievement rate was significantly higher in Atorva group. Both treatments were well tolerated.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Eligible patients were men or women aged between 20 and 79 years who have not achieved LDL cholesterol goals using the National Cholesterol Education Program Adult Treatment Panel Ⅲ (NCEP-ATP Ⅲ) guideline, with the treatment goal of LDL cholesterol being \\<100 mg/dL for patients with coronary artery disease (CAD) or CAD-equivalent disease, \\<130 mg/dL for patients with multiple risk factors (10-year coronary heart disease \\[CHD\\] risk ≤20%), and \\<160 mg/dL for patients with 0 to 1 risk factors.\n\nExclusion Criteria:\n\n* Exclusion criteria were as follows: currently taking any kind of anti-hyperlipidemic drug (within 4 weeks before enrollment); hypersensitivity or intolerance to atorvastatin or other HMG-CoA reductase inhibitor; newly diagnosed (within 3 months before enrollment) or uncontrolled diabetes (hemoglobin A1C \\>9%); uncontrolled hypertension (systolic blood pressure \\>160 mmHg or diastolic blood pressure \\>100 mmHg); hepatic dysfunction (alanine aminotransferase \\[ALT\\] or aspartate aminotransferase \\[AST\\] levels ≥2 times the upper limit of normal \\[ULN\\]); an unexplained serum creatinine kinase (CK) elevation \\>2 times the ULN, chronic renal failure (a serum creatinine concentration \\>2.5 mg/dL); in patients who experienced operation at the time of screening, the patients must have a result of lipid profiles within 24 hours or after 6 weeks; a history of malignancy or cervical dysplasia; pregnant or breastfeeding women; women of childbearing potential had to be using adequate methods of contraception; a history of drug abuse or alcoholism; participation in other studies 4 weeks before enrollment. Patients could also be excluded if their participation was considered inappropriate by the study physician.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "79 Years",
   "healthy_volunteers": false,
+  "maximum_age": "79 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul National University Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Seoul National University Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01624207",
@@ -114,6 +114,20 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Eligible patients were men or women aged between 20 and 79 years who have not achieved LDL cholesterol goals using the National Cholesterol Education Program Adult Treatment Panel Ⅲ (NCEP-ATP Ⅲ) guideline, with the treatment goal of LDL cholesterol being <100 mg/dL for patients with coronary artery disease (CAD) or CAD-equivalent disease, <130 mg/dL for patients with multiple risk factors (10-year coronary heart disease [CHD] risk ≤20%), and <160 mg/dL for patients with 0 to 1 risk factors."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Exclusion criteria were as follows: currently taking any kind of anti-hyperlipidemic drug (within 4 weeks before enrollment); hypersensitivity or intolerance to atorvastatin or other HMG-CoA reductase inhibitor; newly diagnosed (within 3 months before enrollment) or uncontrolled diabetes (hemoglobin A1C >9%); uncontrolled hypertension (systolic blood pressure >160 mmHg or diastolic blood pressure >100 mmHg); hepatic dysfunction (alanine aminotransferase [ALT] or aspartate aminotransferase [AST] levels ≥2 times the upper limit of normal [ULN]); an unexplained serum creatinine kinase (CK) elevation >2 times the ULN, chronic renal failure (a serum creatinine concentration >2.5 mg/dL); in patients who experienced operation at the time of screening, the patients must have a result of lipid profiles within 24 hours or after 6 weeks; a history of malignancy or cervical dysplasia; pregnant or breastfeeding women; women of childbearing potential had to be using adequate methods of contraception; a history of drug abuse or alcoholism; participation in other studies 4 weeks before enrollment. Patients could also be excluded if their participation was considered inappropriate by the study physician."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

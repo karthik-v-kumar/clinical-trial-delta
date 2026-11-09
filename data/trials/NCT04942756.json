@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Antea Foundation",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Antea Foundation"
  },
  "collaborators": [
   "Abbott Diabetes Care"
@@ -58,30 +58,30 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Continuous Glucose Monitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "Standard Care",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Continuous Glucose Monitoring",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Continuous Glucose Monitoring"
-   ]
+   ],
+   "label": "Continuous Glucose Monitoring",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Standard Care",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Standard Care"
-   ]
+   ],
+   "label": "Standard Care",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Cancer patients with known or newly diagnosed (i.e. iatrogenic) Diabetes Mellitus (DM) in Palliative/Supportive Care will be enrolled. Patients will be randomly assigned to one of two groups. Patients included in the first group will monitor glucose levels through Continuous Glucose Monitoring (CGM), using the FreeStyle Libre 2 (FSL2). The second group is represented by the usual standard way for blood glucose (BG) monitoring (lancing device for finger samples). An interim analysis is foreseen when the half of the expected events (hyperglycemic peaks) will be observed. In case the results of interim analysis show superiority of the CGM (FSL2) group patients of the second group will be switched.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Aged \\> or = 18 years\n* Diagnosed with advanced oncological disease\n* Known/newly diagnosed DM according to ADA criteria\n* Need of a Insulin therapy and need of Glycemia Monitoring with at least three finger pricks/die\n* Karnofsky Index \\>= 30\n* Provision of signed and dated informed consent form\n\nExclusion criteria:\n\n* Diagnosis of all types of Dementia\n* Presence of severe psychiatric diseases/symptoms\n* Kidney failure requiring dialysis\n* Patients with implanted pacemaker",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,58 +104,58 @@
  },
  "sites": [
   {
-   "facility": "Palliative care Service - Sheba Medical Centre",
    "city": "Ramat Gan",
-   "state": null,
    "country": "Israel",
-   "status": null,
+   "facility": "Palliative care Service - Sheba Medical Centre",
    "lat": 32.08227,
-   "lon": 34.81065
+   "lon": 34.81065,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Roma",
+   "country": "Italy",
    "facility": "Antea Foundation",
-   "city": "Roma",
-   "state": null,
-   "country": "Italy",
-   "status": null,
    "lat": 44.99364,
-   "lon": 11.10642
+   "lon": 11.10642,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Roma",
+   "country": "Italy",
    "facility": "Centro di Cure Palliative \"Insieme nella Cura\" - Policlinico Universitario - Campus Bio-Medico (Roma)",
-   "city": "Roma",
-   "state": null,
-   "country": "Italy",
-   "status": null,
    "lat": 44.99364,
-   "lon": 11.10642
+   "lon": 11.10642,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Unità Operativa Complessa di Oncologia Medica - Policlinico Univeristario Campus Bio-medico di Roma",
    "city": "Rome",
-   "state": null,
    "country": "Italy",
-   "status": null,
+   "facility": "Unità Operativa Complessa di Oncologia Medica - Policlinico Univeristario Campus Bio-medico di Roma",
    "lat": 41.89193,
-   "lon": 12.51133
+   "lon": 12.51133,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Fondazione FARO",
    "city": "Torino",
-   "state": null,
    "country": "Italy",
-   "status": null,
+   "facility": "Fondazione FARO",
    "lat": 44.88856,
-   "lon": 11.99138
+   "lon": 11.99138,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Hospiz im Park",
    "city": "Arlesheim",
-   "state": null,
    "country": "Switzerland",
-   "status": null,
+   "facility": "Hospiz im Park",
    "lat": 47.49412,
-   "lon": 7.61979
+   "lon": 7.61979,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04942756",
@@ -167,6 +167,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Aged > or = 18 years"
+   },
+   {
+    "text": "Diagnosed with advanced oncological disease"
+   },
+   {
+    "text": "Known/newly diagnosed DM according to ADA criteria"
+   },
+   {
+    "text": "Need of a Insulin therapy and need of Glycemia Monitoring with at least three finger pricks/die"
+   },
+   {
+    "text": "Karnofsky Index >= 30"
+   },
+   {
+    "text": "Provision of signed and dated informed consent form"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of all types of Dementia"
+   },
+   {
+    "text": "Presence of severe psychiatric diseases/symptoms"
+   },
+   {
+    "text": "Kidney failure requiring dialysis"
+   },
+   {
+    "text": "Patients with implanted pacemaker"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

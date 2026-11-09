@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2013-10-28",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Tanabe Pharma Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Tanabe Pharma Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo / Teneli (Teneligliptin) + pio (pioglitazone)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Teneli / Teneli + pio",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo / Teneli + Pio",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo / Teneli (Teneligliptin) + pio (pioglitazone)"
-   ]
+   ],
+   "label": "Placebo / Teneli + Pio",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Teneli / Teneli + pio",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Teneli / Teneli + pio"
-   ]
+   ],
+   "label": "Teneli / Teneli + pio",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of MP-513 (Teneligliptin) in combination with thiazolidinedione (pioglitazone) in patients with type 2 Diabetes for 12 weeks administration and to evaluate the safety and efficacy of MP-513 in combination with thiazolidinedione with an extension treatment for up to 52 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who are 20 - 75 years old\n* Patients who are under dietary management and taking therapeutic exercise for diabetes over 12 weeks before administration of investigational drug\n* Patients whose HbA1c is between 6.5% and 10.0%\n* Patients who took Thiazolidinedione for diabetes over 16 weeks before administration of investigational drug\n* Patients who were not administered diabetes therapeutic drugs prohibited for concomitant use within 12 weeks before administration of investigational drug.\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes, diabetes mellitus caused by pancreas impairment, or secondary diabetes (Cushing disease, acromegaly, etc)\n* Patients who are accepting treatments of arrhythmias\n* Patients with serious diabetic complications\n* Patients who are the excessive alcohol addicts\n* Patients with severe hepatic disorder or severe renal disorder.\n* Patients who are pregnant, lactating, and probably pregnant patients, and patients who can not agree to contraception",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Shinjukuku",
-   "state": "Tokyo",
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Tokyo",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01026194",
@@ -117,6 +117,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who are 20 - 75 years old"
+   },
+   {
+    "text": "Patients who are under dietary management and taking therapeutic exercise for diabetes over 12 weeks before administration of investigational drug"
+   },
+   {
+    "text": "Patients whose HbA1c is between 6.5% and 10.0%"
+   },
+   {
+    "text": "Patients who took Thiazolidinedione for diabetes over 16 weeks before administration of investigational drug"
+   },
+   {
+    "text": "Patients who were not administered diabetes therapeutic drugs prohibited for concomitant use within 12 weeks before administration of investigational drug."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes, diabetes mellitus caused by pancreas impairment, or secondary diabetes (Cushing disease, acromegaly, etc)"
+   },
+   {
+    "text": "Patients who are accepting treatments of arrhythmias"
+   },
+   {
+    "text": "Patients with serious diabetic complications"
+   },
+   {
+    "text": "Patients who are the excessive alcohol addicts"
+   },
+   {
+    "text": "Patients with severe hepatic disorder or severe renal disorder."
+   },
+   {
+    "text": "Patients who are pregnant, lactating, and probably pregnant patients, and patients who can not agree to contraception"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

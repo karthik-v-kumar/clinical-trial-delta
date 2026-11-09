@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2015-06-18",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Dawn Smiley MD",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Dawn Smiley MD"
  },
  "collaborators": [],
  "conditions": [
@@ -54,46 +54,46 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "metformin",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The study intends on enrolling 48 subjects with diabetes. Diabetic subjects that no longer need insulin will be randomly placed (like the flip of a coin) on a diabetes pill called metformin, a diabetes pill called sitagliptin or a placebo pill (a pill without active medication). Subjects on pills will be followed for 3½ years and undergo blood tests at specified intervals to assess their ability to make insulin. These studies will allow a better understanding of the factors that lead to high blood sugar in patients with ketosis-prone diabetes mellitus (KPDM) and direct the best diabetes treatment for this patient population.\n\nHypothesis: Metformin therapy or sitagliptin therapy compared to placebo, will improve β-cell function, insulin sensitivity, and allow for a longer period of time prior to encountering an insulin-deficient relapse after discontinuation of insulin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. All newly diagnosed overweight/obese (BMI \\>/=28 kg/m2) African-American patients with new-onset DKA and/or severe hyperglycemia and without apparent precipitating cause will be considered for inclusion into the study. The diagnosis of DKA will be established by standard criteria (blood glucose \\> 250 mg/dL, pH \\< 7.3, HCO3 \\< 18 mmol/L, increased anion gap).\n2. The hyperglycemic group will include patients with an admission plasma glucose \\> 400 mg/dL but without the presence of metabolic acidosis or ketosis.\n\nExclusion Criteria:\n\n1. significant medical or surgical illness, including but not limited to myocardial ischemia, congestive heart failure, chronic renal insufficiency, liver failure, and infectious processes;\n2. recognized or suspected endocrine disorders associated with increased insulin resistance, such as hypercortisolism, acromegaly, or hyperthyroidism;\n3. bleeding disorders, thrombocytopenia, or abnormalities in coagulation studies;\n4. pregnancy,\n5. have an allergy to any component of metformin or sitagliptin.",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "Grady Memorial Hospital",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Grady Memorial Hospital",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01099618",
@@ -134,6 +134,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "All newly diagnosed overweight/obese (BMI >/=28 kg/m2) African-American patients with new-onset DKA and/or severe hyperglycemia and without apparent precipitating cause will be considered for inclusion into the study. The diagnosis of DKA will be established by standard criteria (blood glucose > 250 mg/dL, pH < 7.3, HCO3 < 18 mmol/L, increased anion gap)."
+   },
+   {
+    "text": "The hyperglycemic group will include patients with an admission plasma glucose > 400 mg/dL but without the presence of metabolic acidosis or ketosis."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "significant medical or surgical illness, including but not limited to myocardial ischemia, congestive heart failure, chronic renal insufficiency, liver failure, and infectious processes;"
+   },
+   {
+    "text": "recognized or suspected endocrine disorders associated with increased insulin resistance, such as hypercortisolism, acromegaly, or hyperthyroidism;"
+   },
+   {
+    "text": "bleeding disorders, thrombocytopenia, or abnormalities in coagulation studies;"
+   },
+   {
+    "text": "pregnancy,"
+   },
+   {
+    "text": "have an allergy to any component of metformin or sitagliptin."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

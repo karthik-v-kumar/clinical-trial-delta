@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "José A. Luchsinger",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "José A. Luchsinger"
  },
  "collaborators": [
   "Albert Einstein College of Medicine",
@@ -52,34 +52,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "18F-MK-6240",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "11C-PIB",
    "other_names": [
     "11C-Pittsburgh Compound B"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "DPPOS Exposed to Metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: 18F-MK-6240",
     "Drug: 11C-PIB"
-   ]
+   ],
+   "label": "DPPOS Exposed to Metformin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DPPOS Exposed to Placebo",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: 18F-MK-6240",
     "Drug: 11C-PIB"
-   ]
+   ],
+   "label": "DPPOS Exposed to Placebo",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "This is a cross-sectional pilot study of Alzheimer's disease (AD) brain imaging biomarkers in Diabetes Prevention Program (DPP) outcomes study (DPPOS) participants from the New York City sites (Columbia and Einstein), comparing 10 persons originally randomized to metformin and 10 persons randomized to placebo in DPP. All study procedures will be conducted at Columbia University Irving Medical Center. Eligible participants will receive a PET scans and a brain MRI, which may be conducted in one, two, or three separate visits.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Active participants in the Diabetes Prevention Program Outcomes Study (DPPOS) in New York City originally randomized to metformin or placebo\n* 60 years and older\n\nExclusion Criteria:\n\n* Known dementia\n* Contraindications to magnetic resonance imaging (MRI)\n* Contraindications to radio-contrast agents.",
-  "sex": "ALL",
-  "minimum_age": "60 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "60 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Columbia University Irving Medical Center",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Columbia University Irving Medical Center",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03757910",
@@ -124,6 +124,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Active participants in the Diabetes Prevention Program Outcomes Study (DPPOS) in New York City originally randomized to metformin or placebo"
+   },
+   {
+    "text": "60 years and older"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known dementia"
+   },
+   {
+    "text": "Contraindications to magnetic resonance imaging (MRI)"
+   },
+   {
+    "text": "Contraindications to radio-contrast agents."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

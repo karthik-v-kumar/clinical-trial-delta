@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -49,43 +49,43 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "repaglinide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Rep",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: repaglinide"
-   ]
+   ],
+   "label": "Rep",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Met",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: metformin"
-   ]
+   ],
+   "label": "Met",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Rep + met",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: repaglinide",
     "Drug: metformin"
-   ]
+   ],
+   "label": "Rep + met",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "This trial is conducted in Asia. The aim of this trial is to compare repaglinide and metformin administered alone or in combination in subjects with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Previously treated with oral hypoglycaemic agents (OHA) as monotherapy (if metformin, less than 1500 mg daily)\n* Body Mass Index (BMI) of 21-35 kg/m\\^2\n* HbA1c (glycosylated haemoglobin A1c) between 7.0-10%\n\nExclusion Criteria:\n\n* Treatment with insulin within the last 3 months preceding the trial\n* Uncontrolled treated or untreated hypertension (systolic blood pressure above or equal to 180 mm Hg, and/or diastolic blood pressure above 105 mm Hg)\n* Participation in any other clinical trial within 30 days of screening",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,31 +108,31 @@
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01720290",
@@ -147,6 +147,32 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Previously treated with oral hypoglycaemic agents (OHA) as monotherapy (if metformin, less than 1500 mg daily)"
+   },
+   {
+    "text": "Body Mass Index (BMI) of 21-35 kg/m^2"
+   },
+   {
+    "text": "HbA1c (glycosylated haemoglobin A1c) between 7.0-10%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Treatment with insulin within the last 3 months preceding the trial"
+   },
+   {
+    "text": "Uncontrolled treated or untreated hypertension (systolic blood pressure above or equal to 180 mm Hg, and/or diastolic blood pressure above 105 mm Hg)"
+   },
+   {
+    "text": "Participation in any other clinical trial within 30 days of screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

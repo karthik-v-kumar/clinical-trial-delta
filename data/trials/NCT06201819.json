@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hospital Civil Juan I. Menchaca",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hospital Civil Juan I. Menchaca"
  },
  "collaborators": [],
  "conditions": [
@@ -50,18 +50,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide injection",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Patients with morbid obesity in bariatric surgery preparation protocol",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide injection"
-   ]
+   ],
+   "label": "Patients with morbid obesity in bariatric surgery preparation protocol",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -73,10 +73,10 @@
  "brief_summary": "Severe obesity is associated with considerable reduction of wellbeing and life expectancy. People living with severe obesity tend to die 8 to 10 years earlier. Preoperative management of patients living with severe obesity can be challenging and proper weight-loss may help obtain better outcomes and less morbidity. The effectiveness of GLP-1 analogue Liraglutide in preoperative weight-loss was evaluated in the study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with BMI greater than 48 kg/m2 in pre-surgical protocol for bariatric surgery of the Bariatric and Metabolic Surgery Unit of the Civil Hospital of Guadalajara \"Dr. Juan I. Menchaca\n\nExclusion Criteria:\n\n* Patients under 18 years of age or over 65 years of age.\n\n  * Pregnant patients.\n  * Patients who do not agree to give their consent and take part in the study.\n  * Patients with allergy to liraglutide, multiple endocrine neoplasia type 2 and medullary thyroid cancer, gallstones.\n\nRemoval:\n\n* Patients who decide to abandon the study.\n* Patients who do not follow the instructions or do not adhere to the treatment.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -84,13 +84,13 @@
  },
  "sites": [
   {
-   "facility": "Departamento de Cirugia Bariatrica y Metabolica del Hsopital Civil Dr. Juan I. Menchaca",
    "city": "Guadalajara",
-   "state": "Jalisco",
    "country": "Mexico",
-   "status": null,
+   "facility": "Departamento de Cirugia Bariatrica y Metabolica del Hsopital Civil Dr. Juan I. Menchaca",
    "lat": 20.67738,
-   "lon": -103.34749
+   "lon": -103.34749,
+   "state": "Jalisco",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06201819",
@@ -102,6 +102,33 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with BMI greater than 48 kg/m2 in pre-surgical protocol for bariatric surgery of the Bariatric and Metabolic Surgery Unit of the Civil Hospital of Guadalajara \"Dr. Juan I. Menchaca"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients under 18 years of age or over 65 years of age.",
+    "sub_items": [
+     "Pregnant patients.",
+     "Patients who do not agree to give their consent and take part in the study.",
+     "Patients with allergy to liraglutide, multiple endocrine neoplasia type 2 and medullary thyroid cancer, gallstones."
+    ]
+   },
+   {
+    "text": "Patients who decide to abandon the study.",
+    "group": "Removal"
+   },
+   {
+    "text": "Patients who do not follow the instructions or do not adhere to the treatment.",
+    "group": "Removal"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

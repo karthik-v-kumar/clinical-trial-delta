@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2019-10-01",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Vanderbilt University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Vanderbilt University"
  },
  "collaborators": [],
  "conditions": [
@@ -49,23 +49,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Polypill (atorvastatin, amlodipine, losartan, and hydrochlorothiazide)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Usual Care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Polypill",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Polypill (atorvastatin, amlodipine, losartan, and hydrochlorothiazide)"
-   ]
+   ],
+   "label": "Polypill",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "In this study the investigators will examine the effect of the polypill on medication adherence, systolic blood pressure, and LDL cholesterol over a 12 month span.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Enrolled at the SCCS site in Mobile, Alabama, obtain care at Franklin Primary Health Center, or live in the surrounding area.\n* Aged 45-75 years\n* Baseline systolic blood pressure ≥120 mm Hg. In this open-label trial, the study physicians are permitted to prescribe any additional medication deemed appropriate to achieve blood pressure control.\n\nExclusion Criteria:\n\n* History of coronary heart disease or stroke\n* History of cancer, except for basal cell skin cancer\n* History of liver disease, not including chronic, clinically-stable hepatitis\n* Laboratory evidence of hepatic dysfunction (an alanine aminotransferase level more than two times the upper limit of the normal range)\n* Known renal disease, estimated creatinine clearance \\< 60\n* Current use of more than 2 anti-hypertensive medications\n* LDL cholesterol ≥190 mg/dl\n* Insulin-dependent diabetes\n* Known intolerance to any of the components of the polypill\n* Potassium \\<3.4 or \\>5.5 mEq/L\n* Use of medications that interact with statins, including those affecting the cytochrome P450 system\n* Current use of diuretics for indications other than hypertension\n* Comorbidities that might be expected to limit lifespan during the 12-month follow-up period\n* Inability to provide consent.",
-  "sex": "ALL",
-  "minimum_age": "45 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "45 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Franklin Primary Health Center",
    "city": "Mobile",
-   "state": "Alabama",
    "country": "United States",
-   "status": null,
+   "facility": "Franklin Primary Health Center",
    "lat": 30.69436,
-   "lon": -88.04305
+   "lon": -88.04305,
+   "state": "Alabama",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02278471",
@@ -114,6 +114,65 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Enrolled at the SCCS site in Mobile, Alabama, obtain care at Franklin Primary Health Center, or live in the surrounding area."
+   },
+   {
+    "text": "Aged 45-75 years"
+   },
+   {
+    "text": "Baseline systolic blood pressure ≥120 mm Hg. In this open-label trial, the study physicians are permitted to prescribe any additional medication deemed appropriate to achieve blood pressure control."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of coronary heart disease or stroke"
+   },
+   {
+    "text": "History of cancer, except for basal cell skin cancer"
+   },
+   {
+    "text": "History of liver disease, not including chronic, clinically-stable hepatitis"
+   },
+   {
+    "text": "Laboratory evidence of hepatic dysfunction (an alanine aminotransferase level more than two times the upper limit of the normal range)"
+   },
+   {
+    "text": "Known renal disease, estimated creatinine clearance < 60"
+   },
+   {
+    "text": "Current use of more than 2 anti-hypertensive medications"
+   },
+   {
+    "text": "LDL cholesterol ≥190 mg/dl"
+   },
+   {
+    "text": "Insulin-dependent diabetes"
+   },
+   {
+    "text": "Known intolerance to any of the components of the polypill"
+   },
+   {
+    "text": "Potassium <3.4 or >5.5 mEq/L"
+   },
+   {
+    "text": "Use of medications that interact with statins, including those affecting the cytochrome P450 system"
+   },
+   {
+    "text": "Current use of diuretics for indications other than hypertension"
+   },
+   {
+    "text": "Comorbidities that might be expected to limit lifespan during the 12-month follow-up period"
+   },
+   {
+    "text": "Inability to provide consent."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

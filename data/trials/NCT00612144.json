@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Handok Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Handok Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Glimepiride/metformin fixed combination",
    "other_names": [
     "Amaryl M"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin HCl",
    "other_names": [
     "Diabex"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Glimepiride/metformin fixed combination"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin HCl"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The aim of this study is to compare the efficacy and safety of early combination therapy with Amaryl M with that of uptitration of metformin monotherapy in patients with type 2 DM inadequately controlled by prior monotherapy with metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Ages 30 to 75 at the time of screening visit\n* Subjects with type 2 DM diagnosed for at least 3 months before screening\n* Subjects with type 2 DM treated with monotherapy of 500mg ≤ metformin ≤ 1000mg for at lest 4 weeks prior to screening\n* HbA1c ≥ 7.0% but ≤ 10.0% at the time of screening visit\n* 21 kg/m2 ≤ BMI ≤ 40 kg/m2\n* A negative pregnancy test for all females of childbearing potential\n* Provision of signed and dated informed consent prior to any study procedures\n* Ability and willingness to perform SMBG and record the data on the subject's diary\n\nExclusion Criteria:\n\n* A history of acute metabolic complications such as diabetic ketoacidosis or hyperosmolar nonketotic coma within 3 months before screening\n* Current therapy with anti-hyperglycemic agents (except metformin) use in the 4 weeks (8 weeks in case of thiazolidinedione) before screening\n* Concomitant treatment prohibited during the study period\n\n  * Any oral hypoglycemic agent other than glimepiride, metformin HCl, and fixed-dose combination of glimepiride and metformin HCl\n  * Any insulin therapy over 7 days consecutively or intermittently in order to treat acute metabolic decompensation or systemic infection during the study\n  * Intermittent use of systemic corticosteroids or large dose of inhaled steroids\n* Subjects with clinically significant renal (serum creatinine level \\> 1.5 mg/dL in male and \\> 1.4 mg/dL in female) or hepatic disease (ALT and AST \\> 2x ULN)\n* Clinically significant laboratory abnormality on screening labs or any medical condition that would affect the completion or outcome of the study in the opinion of the investigator and/or sponsor;\n* Pregnant or lactating females\n* History of drug or alcohol abuse\n* Subjects who have a history of noncompliance with regards to follow-up medical care\n* Subjects with known hypersensitivity to glimepiride, metformin HCL\n* Night-shift workers\n* Treatment with any investigational product in the last 3 months before study entry\n* Others; subjects who have participated in this study",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Handok Pharmaceuticals, Co., LTD",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Handok Pharmaceuticals, Co., LTD",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00612144",
@@ -116,6 +116,79 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Ages 30 to 75 at the time of screening visit"
+   },
+   {
+    "text": "Subjects with type 2 DM diagnosed for at least 3 months before screening"
+   },
+   {
+    "text": "Subjects with type 2 DM treated with monotherapy of 500mg ≤ metformin ≤ 1000mg for at lest 4 weeks prior to screening"
+   },
+   {
+    "text": "HbA1c ≥ 7.0% but ≤ 10.0% at the time of screening visit"
+   },
+   {
+    "text": "21 kg/m2 ≤ BMI ≤ 40 kg/m2"
+   },
+   {
+    "text": "A negative pregnancy test for all females of childbearing potential"
+   },
+   {
+    "text": "Provision of signed and dated informed consent prior to any study procedures"
+   },
+   {
+    "text": "Ability and willingness to perform SMBG and record the data on the subject's diary"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A history of acute metabolic complications such as diabetic ketoacidosis or hyperosmolar nonketotic coma within 3 months before screening"
+   },
+   {
+    "text": "Current therapy with anti-hyperglycemic agents (except metformin) use in the 4 weeks (8 weeks in case of thiazolidinedione) before screening"
+   },
+   {
+    "text": "Concomitant treatment prohibited during the study period",
+    "sub_items": [
+     "Any oral hypoglycemic agent other than glimepiride, metformin HCl, and fixed-dose combination of glimepiride and metformin HCl",
+     "Any insulin therapy over 7 days consecutively or intermittently in order to treat acute metabolic decompensation or systemic infection during the study",
+     "Intermittent use of systemic corticosteroids or large dose of inhaled steroids"
+    ]
+   },
+   {
+    "text": "Subjects with clinically significant renal (serum creatinine level > 1.5 mg/dL in male and > 1.4 mg/dL in female) or hepatic disease (ALT and AST > 2x ULN)"
+   },
+   {
+    "text": "Clinically significant laboratory abnormality on screening labs or any medical condition that would affect the completion or outcome of the study in the opinion of the investigator and/or sponsor;"
+   },
+   {
+    "text": "Pregnant or lactating females"
+   },
+   {
+    "text": "History of drug or alcohol abuse"
+   },
+   {
+    "text": "Subjects who have a history of noncompliance with regards to follow-up medical care"
+   },
+   {
+    "text": "Subjects with known hypersensitivity to glimepiride, metformin HCL"
+   },
+   {
+    "text": "Night-shift workers"
+   },
+   {
+    "text": "Treatment with any investigational product in the last 3 months before study entry"
+   },
+   {
+    "text": "Others; subjects who have participated in this study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

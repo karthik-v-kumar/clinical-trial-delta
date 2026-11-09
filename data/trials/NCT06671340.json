@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Elaine Chow",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Elaine Chow"
  },
  "collaborators": [],
  "conditions": [
@@ -49,18 +49,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dorzagliatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "IH/T2D",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dorzagliatin"
-   ]
+   ],
+   "label": "IH/T2D",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -72,10 +72,10 @@
  "brief_summary": "A total of 30 subjects will be recruited 15 with intermediate hyperglycemia and 15 in the tyep 2 diabetes group respectively. Eligible participants will undergo hyperglycemic-clamp/oral glucose tolerance at baseline and after 4 weeks of dorzagliatin treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Individuals aged ≥ 18 years but \\< 70 years\n2. Male or female\n3. Body mass index of over 18 kg/m2 and \\< 35 kg/m2\n\nAdditional inclusion criteria for IH group\n\n* Fasting plasma glucose \\<7.0 mmol/L and HbA1c \\< 6.5%\n* 1 hour plasma glucose ≥8.6 and \\<11.6 mmol/L on 75g oral glucose tolerance test (OGTT)\n* No use of glucose lowering drugs in past 6 months\n\nAdditional inclusion criteria for T2D group\n\n* HbA1c 6.5 to 10% at screening\n* On diet control, or stable dose of oral glucose lowering drugs metformin for at least 8 weeks\n\nExclusion Criteria:\n\n* 1\\. Subjects who do not agree to participate in this study. 2. Country of birth is unknown. 3. Body weight less than 45kg. 4. Acute phase of cerebrovascular and cardiovascular diseases (within 6 months of recruitment).\n\n  5\\. Subjects with severe renal dysfunction as defined by eGFR \\<30 ml/min/1.73m2 or patients receiving renal dialysis (such as haemodialysis or continuous ambulatory peritoneal dialysis).\n\n  6\\. Severe hepatic dysfunction as defined by aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) \\> 3 times upper limit of normal.\n\n  7\\. Severe cardiovascular disease, history of stroke, heart failure (NYHA III or IV) or history of myocardial infarction within last 12 months.\n\n  8\\. History of drug abuse or excessive alcohol intake based on investigator judgment.\n\n  9\\. Dehydration, diarrhoea or vomiting at the time of recruitment. 10. Subjects with severe infection, in perioperative period or with serious injury at the time of recruitment.\n\n  11\\. Subjects with anaemia (Haemoglobin \\<9.0mg/dL). 12. Pregnant or lactating or intending to become pregnant within 30 days after last dose of study drug.\n\n  13\\. Participation in a clinical trial with investigational product within 30 days before enrolment.\n\n  14\\. Donation or loss of blood (excluding the volume of blood that will be drawn during screening procedures) as follows: ≥300 mL of blood within 30 days prior to study drug administration.\n\n  15\\. Subjects judged unsuitable for the study based on investigator judgment. 16. Use of strong or moderate CYP3A4 inhibitors or inducers and cannot be discontinued.\n\n  17\\. Unwilling or unable to follow protocol requirements.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -83,13 +83,13 @@
  },
  "sites": [
   {
-   "facility": "Phase 1 Clinical Trial Centre",
    "city": "Hong Kong",
-   "state": null,
    "country": "Hong Kong",
-   "status": null,
+   "facility": "Phase 1 Clinical Trial Centre",
    "lat": 22.27832,
-   "lon": 114.17469
+   "lon": 114.17469,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06671340",
@@ -101,6 +101,58 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Individuals aged ≥ 18 years but < 70 years"
+   },
+   {
+    "text": "Male or female"
+   },
+   {
+    "text": "Body mass index of over 18 kg/m2 and < 35 kg/m2"
+   },
+   {
+    "text": "Fasting plasma glucose <7.0 mmol/L and HbA1c < 6.5%",
+    "group": "for IH group"
+   },
+   {
+    "text": "1 hour plasma glucose ≥8.6 and <11.6 mmol/L on 75g oral glucose tolerance test (OGTT)",
+    "group": "for IH group"
+   },
+   {
+    "text": "No use of glucose lowering drugs in past 6 months",
+    "group": "for IH group"
+   },
+   {
+    "text": "HbA1c 6.5 to 10% at screening",
+    "group": "for T2D group"
+   },
+   {
+    "text": "On diet control, or stable dose of oral glucose lowering drugs metformin for at least 8 weeks",
+    "group": "for T2D group"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "1. Subjects who do not agree to participate in this study. 2. Country of birth is unknown. 3. Body weight less than 45kg. 4. Acute phase of cerebrovascular and cardiovascular diseases (within 6 months of recruitment).",
+    "sub_items": [
+     "Subjects with severe renal dysfunction as defined by eGFR <30 ml/min/1.73m2 or patients receiving renal dialysis (such as haemodialysis or continuous ambulatory peritoneal dialysis).",
+     "Severe hepatic dysfunction as defined by aspartate aminotransferase (AST) and/or alanine aminotransferase (ALT) > 3 times upper limit of normal.",
+     "Severe cardiovascular disease, history of stroke, heart failure (NYHA III or IV) or history of myocardial infarction within last 12 months.",
+     "History of drug abuse or excessive alcohol intake based on investigator judgment.",
+     "Dehydration, diarrhoea or vomiting at the time of recruitment. 10. Subjects with severe infection, in perioperative period or with serious injury at the time of recruitment.",
+     "Subjects with anaemia (Haemoglobin <9.0mg/dL). 12. Pregnant or lactating or intending to become pregnant within 30 days after last dose of study drug.",
+     "Participation in a clinical trial with investigational product within 30 days before enrolment.",
+     "Donation or loss of blood (excluding the volume of blood that will be drawn during screening procedures) as follows: ≥300 mL of blood within 30 days prior to study drug administration.",
+     "Subjects judged unsuitable for the study based on investigator judgment. 16. Use of strong or moderate CYP3A4 inhibitors or inducers and cannot be discontinued.",
+     "Unwilling or unable to follow protocol requirements."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

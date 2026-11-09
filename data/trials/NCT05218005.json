@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of British Columbia",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of British Columbia"
  },
  "collaborators": [
   "Genome British Columbia",
@@ -58,23 +58,23 @@
  ],
  "interventions": [
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "Research-based genetic test for Familial Hypercholesterolemia",
-   "other_names": []
+   "other_names": [],
+   "type": "DIAGNOSTIC_TEST"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Observation",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Active-testing",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Diagnostic Test: Research-based genetic test for Familial Hypercholesterolemia"
-   ]
+   ],
+   "label": "Active-testing",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -86,32 +86,32 @@
  "brief_summary": "ACCURATE will test the hypothesis that opportunistic genetic testing for Familial Hypercholesterolemia (FH) in patients admitted to hospital with an acute coronary syndrome will increase the diagnosis of FH and will impact patient care and outcomes. The study will recruit patients admitted to hospital with an acute coronary syndrome, and research-based genetic testing will be conducted for known FH-causing genetic variants. The results will be returned to the patients' treating physicians. The primary endpoint will be the number of patients with a new diagnosis of definite FH. The secondary endpoints will be the proportion of patients who undergo intensification of lipid-lowering therapy, the lowest LDL cholesterol level achieved, and the proportion of patients reaching guideline recommended lipid targets in the 15 months after the index acute coronary syndrome.",
  "eligibility": {
   "criteria": "1. Age \\<60 years\n\n   AND\n2. Admitted to an acute cardiac unit with either:\n\n   * A ST elevation myocardial infarction (STEMI), or\n   * A non-ST elevation myocardial infarction (NSTEMI)\n\n   AND\n3. Maximum lipid level at the time of admission or during the prior 1 year of\n\n   * LDL level ≥4 mmol/L (154 mg/dL) if not on a statin, or\n   * LDL-C level ≥2.5 mmol/L (96 mg/dL) if on a statin prior to presentation, or\n   * Non-HDL-C ≥4.6 mmol/L (177 mg/dL)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "St.Pauls Hospital",
    "city": "Vancouver",
-   "state": "British Columbia",
    "country": "Canada",
-   "status": null,
+   "facility": "St.Pauls Hospital",
    "lat": 49.24966,
-   "lon": -123.11934
+   "lon": -123.11934,
+   "state": "British Columbia",
+   "status": null
   },
   {
-   "facility": "Vancouver General Hospital",
    "city": "Vancouver",
-   "state": "British Columbia",
    "country": "Canada",
-   "status": null,
+   "facility": "Vancouver General Hospital",
    "lat": 49.24966,
-   "lon": -123.11934
+   "lon": -123.11934,
+   "state": "British Columbia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05218005",
@@ -123,6 +123,12 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": false,
+  "inclusion": [],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

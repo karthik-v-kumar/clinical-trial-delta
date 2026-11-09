@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Medical Center Groningen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Medical Center Groningen"
  },
  "collaborators": [
   "AstraZeneca"
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10Mg Tab",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Dapagliflozin 10mg/day",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin 10Mg Tab"
-   ]
+   ],
+   "label": "Dapagliflozin 10mg/day",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Rationale:\n\nIncreased albuminuria has a relatively high prevalence in the general population (5-9%) People with increased albuminuria are more likely to develop progressive kidney and cardiovascular disease compared to persons with no albuminuria. ACE-inhibitors or Angiotensin Receptor Blockers are recommended by clinical practice guidelines to lower albuminuria in patients with hypertension and diabetes. However, despite these drugs decrease albuminuria by approximately 30%, elevated albuminuria remains present in the substantial proportion of persons in the general population.\n\nSGLT2 inhibitors are a relatively new class of drugs. Originally they were developed as oral antihyperglycemic drugs. SGLT2 inhibitors have been demonstrated to lower albuminuria and protect the kidney in patients with established chronic kidney disease (CKD) with or without diabetes. Whether the efficacy of SGTL2 inhibitors to lower albuminuria (and possibly confer kidney protection) to persons in the general population (with or without diabetes or hypertension) with persistent albuminuria who generally are at early stages of CKD is unknown.\n\nObjective:\n\nTo assess the albuminuria lowering effects of dapagliflozin in subjects with and without diabetes or hypertension and persistent elevated albuminuria.\n\nStudy design:\n\nRandomized placebo-controlled double blind clinical trial of 24 weeks in duration followed by a 4 weeks wash-out period",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 45 to 80 years\n* Persistent urinary albumin:creatinine ratio (UACR) ≥ 2.5 mg/mmol (\\~25 mg/g)\n* Willing to sign informed consent\n\nExclusion Criteria:\n\nDiagnosis of type 1 diabetes mellitus\n\n* eGFR \\< 25 ml/min/1.73m2\n* UACR \\> 3500 mg/g\n* Concurrent treatment with SGLT2 inhibitor\n* Receiving immunosuppressive therapy within 6 months prior to enrolment\n* History of diabetic ketoacidosis\n* Active malignancy aside from treated squamous cell or basal cell carcinoma of the skin.\n* Initiation or changes in the dose of interventions in the renin-angiotensinaldosterone- system, diuretics, GLP-1 receptor agonists within 6 weeks of screening will not be allowed.\n* Any medication, surgical or medical condition which might significantly alter the absorption, distribution, metabolism, or excretion of medications including, but not limited to any of the following:\n\n  * History of active inflammatory bowel disease within the last six months;\n  * Major gastrointestinal tract surgery such as gastrectomy, gastroenterostomy, or bowel resection;\n  * Gastro-intestinal ulcers and/or gastrointestinal or rectal bleeding within last six months;\n  * Pancreatic injury or pancreatitis within the last six months;\n  * Evidence of hepatic disease as determined by any one of the following: ALT or AST values exceeding 3x ULN at the screening visit, a history of hepatic encephalopathy, a history of esophageal varices, or a history of portocaval shunt;\n  * Evidence of urinary obstruction or difficulty in voiding at screening\n* History of severe hypersensitivity or contraindications to dapagliflozin\n* Subjects who, in the assessment of the investigator, may be at risk for dehydration or volume depletion that may affect the interpretation of efficacy or safety data\n* Participation in any clinical intervention study within 3 months prior to initial dosing.\n* History of drug or alcohol abuse within the 12 months prior to dosing, or evidence of such abuse as indicated by the laboratory assays conducted during the screening.\n* History of noncompliance to medical regimens or unwillingness to comply with the study protocol.\n* Any surgical or medical condition, which in the opinion of the investigator, may place the patient at higher risk from his/her participation in the study, or is likely to prevent the patient from complying with the requirements of the study or completing the study.\n* Pregnancy or breastfeeding",
-  "sex": "ALL",
-  "minimum_age": "45 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "45 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "UMCG",
    "city": "Groningen",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "UMCG",
    "lat": 53.21917,
-   "lon": 6.56667
+   "lon": 6.56667,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05268926",
@@ -122,6 +122,79 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 45 to 80 years"
+   },
+   {
+    "text": "Persistent urinary albumin:creatinine ratio (UACR) ≥ 2.5 mg/mmol (~25 mg/g)"
+   },
+   {
+    "text": "Willing to sign informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of type 1 diabetes mellitus"
+   },
+   {
+    "text": "eGFR < 25 ml/min/1.73m2"
+   },
+   {
+    "text": "UACR > 3500 mg/g"
+   },
+   {
+    "text": "Concurrent treatment with SGLT2 inhibitor"
+   },
+   {
+    "text": "Receiving immunosuppressive therapy within 6 months prior to enrolment"
+   },
+   {
+    "text": "History of diabetic ketoacidosis"
+   },
+   {
+    "text": "Active malignancy aside from treated squamous cell or basal cell carcinoma of the skin."
+   },
+   {
+    "text": "Initiation or changes in the dose of interventions in the renin-angiotensinaldosterone- system, diuretics, GLP-1 receptor agonists within 6 weeks of screening will not be allowed."
+   },
+   {
+    "text": "Any medication, surgical or medical condition which might significantly alter the absorption, distribution, metabolism, or excretion of medications including, but not limited to any of the following:",
+    "sub_items": [
+     "History of active inflammatory bowel disease within the last six months;",
+     "Major gastrointestinal tract surgery such as gastrectomy, gastroenterostomy, or bowel resection;",
+     "Gastro-intestinal ulcers and/or gastrointestinal or rectal bleeding within last six months;",
+     "Pancreatic injury or pancreatitis within the last six months;",
+     "Evidence of hepatic disease as determined by any one of the following: ALT or AST values exceeding 3x ULN at the screening visit, a history of hepatic encephalopathy, a history of esophageal varices, or a history of portocaval shunt;",
+     "Evidence of urinary obstruction or difficulty in voiding at screening"
+    ]
+   },
+   {
+    "text": "History of severe hypersensitivity or contraindications to dapagliflozin"
+   },
+   {
+    "text": "Subjects who, in the assessment of the investigator, may be at risk for dehydration or volume depletion that may affect the interpretation of efficacy or safety data"
+   },
+   {
+    "text": "Participation in any clinical intervention study within 3 months prior to initial dosing."
+   },
+   {
+    "text": "History of drug or alcohol abuse within the 12 months prior to dosing, or evidence of such abuse as indicated by the laboratory assays conducted during the screening."
+   },
+   {
+    "text": "History of noncompliance to medical regimens or unwillingness to comply with the study protocol."
+   },
+   {
+    "text": "Any surgical or medical condition, which in the opinion of the investigator, may place the patient at higher risk from his/her participation in the study, or is likely to prevent the patient from complying with the requirements of the study or completing the study."
+   },
+   {
+    "text": "Pregnancy or breastfeeding"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

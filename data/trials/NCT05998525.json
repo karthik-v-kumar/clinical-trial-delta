@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hilda Elizabeth Macías Cervantes",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Hilda Elizabeth Macías Cervantes"
  },
  "collaborators": [],
  "conditions": [
@@ -56,34 +56,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10Mg Tab",
    "other_names": [
     "Forxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Placebo pill"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin 10Mg Tab"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "Calcification of the coronary arteries is a direct sign of atherosclerotic disease of the coronary arteries and has been shown to be a strong predictor of the risk of cardiovascular diseases, including myocardial infarction and/or cardiac death, especially in patients with Diabetes Mellitus type 2. Therefore, there is great interest in pharmacotherapies that improve the rates of cardiovascular complications, and modify the outcomes of this group of patients.\n\nLarge randomized controlled trials with SGLT2 inhibitors in patients with DM2 have shown a clear reduction in cardiovascular events among individuals with atherosclerotic disease. Atherosclerosis imaging allows measurable assessments of disease progression and activity, revealing early signs of potential drug effects. Noninvasive methods are preferred for serial imaging in drug trials due to the potential risks associated with invasive procedures. The coronary artery calcium quantification using the Agatston score is the most widely used method",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male and female patients over 18 years of age\n* Who meet the criteria of the fourth definition of infarction with and without ST segment elevation\n* Known with diabetes mellitus 2 or newly diagnosed diabetes according to ADA criteria\n\nExclusion Criteria:\n\n* Patients diagnosed with Type 1 Diabetes Mellitus\n* Patients on chronic replacement therapy for renal function using peritoneal dialysis or hemodialysis or with GFR less than 30 ml / min / 1.73m2\n* Patients who have recently undergone immunosuppressive therapy\n* Patients with a history of recurrent urinary tract infection\n* Patients known to be allergic to SGLT-2 inhibitors\n* Patients presenting as sudden aborted death.\n* Patients who after percutaneous coronary intervention require orotracheal intubation or present a state of shock",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "Unidad Medica de Alta Especialidad No. 1, Bajío",
    "city": "León",
-   "state": "Guanajuato",
    "country": "Mexico",
-   "status": null,
+   "facility": "Unidad Medica de Alta Especialidad No. 1, Bajío",
    "lat": 21.12183,
-   "lon": -101.68253
+   "lon": -101.68253,
+   "state": "Guanajuato",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05998525",
@@ -128,6 +128,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male and female patients over 18 years of age"
+   },
+   {
+    "text": "Who meet the criteria of the fourth definition of infarction with and without ST segment elevation"
+   },
+   {
+    "text": "Known with diabetes mellitus 2 or newly diagnosed diabetes according to ADA criteria"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients diagnosed with Type 1 Diabetes Mellitus"
+   },
+   {
+    "text": "Patients on chronic replacement therapy for renal function using peritoneal dialysis or hemodialysis or with GFR less than 30 ml / min / 1.73m2"
+   },
+   {
+    "text": "Patients who have recently undergone immunosuppressive therapy"
+   },
+   {
+    "text": "Patients with a history of recurrent urinary tract infection"
+   },
+   {
+    "text": "Patients known to be allergic to SGLT-2 inhibitors"
+   },
+   {
+    "text": "Patients presenting as sudden aborted death."
+   },
+   {
+    "text": "Patients who after percutaneous coronary intervention require orotracheal intubation or present a state of shock"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -45,8 +45,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Zhejiang University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Zhejiang University"
  },
  "collaborators": [],
  "conditions": [
@@ -54,34 +54,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Coenzyme A",
    "other_names": [
     "Coenzyme A group"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Controls."
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Coenzyme A 400mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Coenzyme A"
-   ]
+   ],
+   "label": "Coenzyme A 400mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "The purpose of this study is to evaluate the lipid lowering effects and clinical safety of a natural hypolipidemic compound, coenzyme A （CoA） capsule, combined use with statin, in Chinese patients with moderate dyslipidemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* TG 2.3～7.0mmol/l\n* 18-80 years of age\n* combined use with statins\n\nExclusion Criteria:\n\n* pregnancy\n* acute liver disease or hepatic dysfunction, as determined by levels of alanine aminotransferase (ALT) or aspartate aminotransferase levels (AST) more than 2-fold the upper normal limit\n* nephrotic syndrome or serum creatinine (Cr) ≥2-fold the upper normal limit and creatine phosphokinase (CK) more than 3-fold the upper normal limit\n* primary hypothyroidism\n* psychiatric patients\n* poorly controlled hypertension, as indicated by a Systolic Blood Pressure \\>180 mmHg or Diastolic Blood Pressure \\>110 mmHg\n* using contraceptive agent\n* using immunosuppressive drugs, prohibited medication or other non-statin lipid-lowing drugs",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "1st Affiliated Hospital, College of Medicine, Zhejiang University",
    "city": "Hangzhou",
-   "state": "Zhejiang",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "1st Affiliated Hospital, College of Medicine, Zhejiang University",
    "lat": 30.29365,
-   "lon": 120.16142
+   "lon": 120.16142,
+   "state": "Zhejiang",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01928342",
@@ -122,6 +122,47 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "TG 2.3～7.0mmol/l"
+   },
+   {
+    "text": "18-80 years of age"
+   },
+   {
+    "text": "combined use with statins"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "acute liver disease or hepatic dysfunction, as determined by levels of alanine aminotransferase (ALT) or aspartate aminotransferase levels (AST) more than 2-fold the upper normal limit"
+   },
+   {
+    "text": "nephrotic syndrome or serum creatinine (Cr) ≥2-fold the upper normal limit and creatine phosphokinase (CK) more than 3-fold the upper normal limit"
+   },
+   {
+    "text": "primary hypothyroidism"
+   },
+   {
+    "text": "psychiatric patients"
+   },
+   {
+    "text": "poorly controlled hypertension, as indicated by a Systolic Blood Pressure >180 mmHg or Diastolic Blood Pressure >110 mmHg"
+   },
+   {
+    "text": "using contraceptive agent"
+   },
+   {
+    "text": "using immunosuppressive drugs, prohibited medication or other non-statin lipid-lowing drugs"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

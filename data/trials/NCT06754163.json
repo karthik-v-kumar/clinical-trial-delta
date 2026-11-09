@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "St Andrew's Healthcare",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "St Andrew's Healthcare"
  },
  "collaborators": [
   "Loughborough University"
@@ -51,18 +51,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide in combination with a healthy lifestyle intervention (diet and exercise)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Evaluating the Effect of the STEP Protocol on Physical Health Measures",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide in combination with a healthy lifestyle intervention (diet and exercise)"
-   ]
+   ],
+   "label": "Evaluating the Effect of the STEP Protocol on Physical Health Measures",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "A significant number of patients who are prescribed anti-psychotic medication such as clozapine are considered as clinically obese (BMI \\>35.0). While this may be associated with the appetite promoting properties of the drug, other factors including apathy and lack of physical activity and exercise can exacerbate the weight gain. For those patients who are in a secure care setting and who have restrictions on movement, this provides a particular challenge.\n\nTherefore, a pharmacological option to assist in promoting weight loss would be an attractive option for patients who have reached levels of obesity and for whom diet and exercise alone may not be sufficient. The GLP-1 agonist class of drugs, including semaglutide (Wegovy®), have been approved for the treatment of patients as an adjunct to diet and exercise and for weight loss in adults who have a BMI of 30 kg/m² or greater (obese) or weight-related health problems. The aim of this study is to determine whether long-term treatment with Semaglutide (Wegovy®), in combination with dietary advice, exercise and psychological support, will decrease the weight gain associated with anti-psychotic treatment. Patients will be chosen for the trial according to NICE guidelines for referral to a weight management plan. In addition to the weekly Semaglutide (Wegovy®) injection, they will have regular access to dietary and exercise support as part of an overall healthy lifestyle plan which will form part of their overall care plan. They will also be provided with psychological support as a previous trial demonstrated that behavioural support was important, especially at the early stages of such therapy. The patients' progress will be monitored (weight, activity, diet) throughout the duration of the trial. The results will identify those patients who are most likely to benefit from this therapy and can be used to generate treatment guidelines.\"",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI of 35.0 kg/m2 or above or BMI of 32.5 kg/m2 for people from South Asian, Chinese, other Asian, Middle Eastern, Black African or African-Caribbean family\n* Aged 18 or above\n* Able to give informed consent, as assessed by their RC. In the context of participation in this trial 'informed' consent includes having an understanding of the dietary and exercises changes needed for the treatment to be effective\n* Currently prescribed olanzapine or clozapine\n* Currently in an inpatient service at St Andrew's Healthcare\n* Sufficient level of English to read and understand the information sheet (may require verbal explanation from support from staff)\n\nExclusion Criteria:\n\n* Aged 17 or under\n* Meet any of the contraindications, including hypersensitivity to the active substance or to any of the excipients\n* Pregnant or likely to become pregnant\n* Diagnoses of dementia or Huntington's disease\n* On a PICU/acute ward\n* Discharge anticipated to be in 6 months' time or less",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "St Andrew's Healthcare",
    "city": "Northampton",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "St Andrew's Healthcare",
    "lat": 52.25,
-   "lon": -0.88333
+   "lon": -0.88333,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06754163",
@@ -119,6 +119,50 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI of 35.0 kg/m2 or above or BMI of 32.5 kg/m2 for people from South Asian, Chinese, other Asian, Middle Eastern, Black African or African-Caribbean family"
+   },
+   {
+    "text": "Aged 18 or above"
+   },
+   {
+    "text": "Able to give informed consent, as assessed by their RC. In the context of participation in this trial 'informed' consent includes having an understanding of the dietary and exercises changes needed for the treatment to be effective"
+   },
+   {
+    "text": "Currently prescribed olanzapine or clozapine"
+   },
+   {
+    "text": "Currently in an inpatient service at St Andrew's Healthcare"
+   },
+   {
+    "text": "Sufficient level of English to read and understand the information sheet (may require verbal explanation from support from staff)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Aged 17 or under"
+   },
+   {
+    "text": "Meet any of the contraindications, including hypersensitivity to the active substance or to any of the excipients"
+   },
+   {
+    "text": "Pregnant or likely to become pregnant"
+   },
+   {
+    "text": "Diagnoses of dementia or Huntington's disease"
+   },
+   {
+    "text": "On a PICU/acute ward"
+   },
+   {
+    "text": "Discharge anticipated to be in 6 months' time or less"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

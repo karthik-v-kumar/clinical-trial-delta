@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2010-10-11",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -48,21 +48,21 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin",
    "other_names": [
     "Januvia",
     "MK0431"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -74,10 +74,10 @@
  "brief_summary": "to assess the effect of treatment with Sitagliptin (MK0431) on HbA1c (Hemoglobin A1c) and the safety and tolerability of Sitagliptin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients Who Are 18 Years Of Age With Type 2 Diabetes Mellitus Who Are Either:\n\n  * Not On Antihyperglycemic (AHa) Medication (Off For At Least 2 Months)\n  * Or On A Single AHa",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,6 +93,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients Who Are 18 Years Of Age With Type 2 Diabetes Mellitus Who Are Either:",
+    "sub_items": [
+     "Not On Antihyperglycemic (AHa) Medication (Off For At Least 2 Months)",
+     "Or On A Single AHa"
+    ]
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

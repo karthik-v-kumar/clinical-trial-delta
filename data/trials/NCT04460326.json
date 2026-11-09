@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-03-19",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Boston Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Boston Medical Center"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -50,50 +50,50 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin glargine",
    "other_names": [
     "Lantus®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "NovoLog",
    "other_names": [
     "NovoLog®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Fiasp",
    "other_names": [
     "Fiasp®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Standard carbohydrate diet",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group 1 insulin glargine and Novolog",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin glargine",
     "Drug: NovoLog",
     "Other: Standard carbohydrate diet"
-   ]
+   ],
+   "label": "Group 1 insulin glargine and Novolog",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Group 2 insulin glargine and Fiasp",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin glargine",
     "Drug: Insulin Fiasp",
     "Other: Standard carbohydrate diet"
-   ]
+   ],
+   "label": "Group 2 insulin glargine and Fiasp",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "Hyperglycemia affects 30-40% of hospitalized patients. Despite the fact that basal/bolus insulin therapy has been demonstrated to improve glycemic control and clinical outcomes in patients, achieving good glucose control remains a challenge.\n\nThis study examines the effects of Fiasp (a faster acting insulin) on blood sugars after meals compared to another type of insulin known as Novolog. The study will be performed in patients with type 2 diabetes admitted to the hospital, who are not in the intensive care unit, and who are being seen by the inpatient diabetes consult team. Eligible participants will be treated with Fiasp or Novolog injected multiple times a day before meals and at bedtime, in addition to a once daily injection of insulin glargine as basal insulin. Which type of meal time insulin (Fiasp vs Novolog) the subject gets is decided by chance, like the flip of a coin. Insulin doses will be started and titrated based on a protocol. All the subjects will wear a blinded continuous glucose monitoring (CGM)) sensor placed in their arm which they will wear for 72 hours during the study. The glucose values from the CGM, collected during the time it is worn, will be downloaded and compared to assess the response to the two different types of insulins - Fiasp and Novolog. The goal is to determine if Fiasp works as well as or better than Novolog in controlling blood sugars, particularly after meals, in the subjects of the study.",
  "eligibility": {
   "criteria": "Inclusion criteria\n\n1. English-speaking\n2. Males and female adult subjects admitted to Boston Medical Center to a medical or surgical floor.\n3. Consultation by the Inpatient Diabetes Service at Boston Medical Center is required prior to consent.\n4. Age ≥ 21 and \\<= 80 years.\n5. Diagnosed with type 2 diabetes at least 180 days prior to screening.\n6. Hyperglycemia during admission, as defined by a point of care and/or venous blood glucose ≥ 140 mg/dL.\n7. Prior to admission subjects must be using one of the following for outpatient diabetes management:\n\n   1. Insulin\n   2. ≥ 2 oral/injectable agents\n   3. One oral/injectable agent with a hemoglobin A1c of ≥ 8% within 3 months of enrollment.\n8. Patients who are expected to remain hospitalized for a minimum of 48 hours following CGM sensor placement.\n9. BMI \\<45 kg/m\\^2.\n10. Subjects must have insulin glargine dosing planned at bedtime for the duration of the study period. Morning and afternoon dosing of insulin glargine are exclusionary.\n\nExclusion criteria:\n\n1. Patients with a history of type 1 diabetes or late-onset autoimmune diabetes (LADA).\n2. Treatment or plan for treatment with glucocorticoids during the index hospitalization.\n3. Female patients who are pregnant (tested during hospitalization or screening) or breast-feeding during the hospitalization.\n4. Patients admitted with the following conditions: diabetic ketoacidosis, hyperosmolar hyperglycemic state, solid organ transplantation, or coronary artery bypass surgery.\n5. Prior diagnosis of gastroparesis or cirrhosis.\n6. Acute or chronic kidney disease with a serum creatinine of ≥ 2 mg/dL at the time of screening.\n7. Clinically significant nausea and/or vomiting or unable to consume more than 30 grams of carbohydrate at each meal.\n8. Patients expected to receive nothing by mouth (NPO) for \\>24 hours.\n9. Use of continuous or intermittent enteral feeding or parenteral nutrition.\n10. Patient receiving aspirin and/or vitamin C during the hospitalization.\n11. Any mental condition rendering the subject unable to provide informed consent.\n12. Patients currently incarcerated.\n13. Patients using \\>1 unit/kg/day of insulin prior to admission.\n14. Insulin pump usage within the 2 weeks prior to or during admission.\n15. Patients currently using real-time continuous glucose monitoring (CGM) or personal flash glucose monitoring system (FGM).\n16. Patients with a history of an allergy to any of the types of insulin or one of the excipients in the insulin used in the study.",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "Boston Medical Center",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Boston Medical Center",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04460326",
@@ -137,6 +137,97 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "English-speaking"
+   },
+   {
+    "text": "Males and female adult subjects admitted to Boston Medical Center to a medical or surgical floor."
+   },
+   {
+    "text": "Consultation by the Inpatient Diabetes Service at Boston Medical Center is required prior to consent."
+   },
+   {
+    "text": "Age ≥ 21 and <= 80 years."
+   },
+   {
+    "text": "Diagnosed with type 2 diabetes at least 180 days prior to screening."
+   },
+   {
+    "text": "Hyperglycemia during admission, as defined by a point of care and/or venous blood glucose ≥ 140 mg/dL."
+   },
+   {
+    "text": "Prior to admission subjects must be using one of the following for outpatient diabetes management:",
+    "sub_items": [
+     "Insulin",
+     "≥ 2 oral/injectable agents",
+     "One oral/injectable agent with a hemoglobin A1c of ≥ 8% within 3 months of enrollment."
+    ]
+   },
+   {
+    "text": "Patients who are expected to remain hospitalized for a minimum of 48 hours following CGM sensor placement."
+   },
+   {
+    "text": "BMI <45 kg/m^2."
+   },
+   {
+    "text": "Subjects must have insulin glargine dosing planned at bedtime for the duration of the study period. Morning and afternoon dosing of insulin glargine are exclusionary."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with a history of type 1 diabetes or late-onset autoimmune diabetes (LADA)."
+   },
+   {
+    "text": "Treatment or plan for treatment with glucocorticoids during the index hospitalization."
+   },
+   {
+    "text": "Female patients who are pregnant (tested during hospitalization or screening) or breast-feeding during the hospitalization."
+   },
+   {
+    "text": "Patients admitted with the following conditions: diabetic ketoacidosis, hyperosmolar hyperglycemic state, solid organ transplantation, or coronary artery bypass surgery."
+   },
+   {
+    "text": "Prior diagnosis of gastroparesis or cirrhosis."
+   },
+   {
+    "text": "Acute or chronic kidney disease with a serum creatinine of ≥ 2 mg/dL at the time of screening."
+   },
+   {
+    "text": "Clinically significant nausea and/or vomiting or unable to consume more than 30 grams of carbohydrate at each meal."
+   },
+   {
+    "text": "Patients expected to receive nothing by mouth (NPO) for >24 hours."
+   },
+   {
+    "text": "Use of continuous or intermittent enteral feeding or parenteral nutrition."
+   },
+   {
+    "text": "Patient receiving aspirin and/or vitamin C during the hospitalization."
+   },
+   {
+    "text": "Any mental condition rendering the subject unable to provide informed consent."
+   },
+   {
+    "text": "Patients currently incarcerated."
+   },
+   {
+    "text": "Patients using >1 unit/kg/day of insulin prior to admission."
+   },
+   {
+    "text": "Insulin pump usage within the 2 weeks prior to or during admission."
+   },
+   {
+    "text": "Patients currently using real-time continuous glucose monitoring (CGM) or personal flash glucose monitoring system (FGM)."
+   },
+   {
+    "text": "Patients with a history of an allergy to any of the types of insulin or one of the excipients in the insulin used in the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

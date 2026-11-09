@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-04-07",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Northwell Health",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Northwell Health"
  },
  "collaborators": [],
  "conditions": [
@@ -49,18 +49,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Continuous Glucose Monitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Continuous glucose monitoring",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Continuous Glucose Monitoring"
-   ]
+   ],
+   "label": "Continuous glucose monitoring",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Diabetes control is often assessed by tests of glucose levels over time, such as the glycosylated hemoglobin A1c (HbA1c) and fructosamine. In the later stages of chronic kidney disease (CKD) there is limited data available on the utility of these tests. There are reasons to believe that the tests may be less accurate in this population. Continuous glucose monitoring (CGM) offers an effective method for understanding the totality of glucose exposure and incidence of both hyperglycemic and hypoglycemic excursions.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 18 years and older with ability to speak and understand English\n* Established diagnosis of type 2 Diabetes Mellitus\n* Chronic Kidney Disease (stages 3b, 4 or 5, eGFR (Glomerular Filtration Rate) \\< 45 ml/min, and not on dialysis) documented within 3 months of enrollment\n\nExclusion Criteria:\n\n* Type 2 Diabetes Mellitus.\n* Patient with End stage kidney disease on Dialysis.\n* Presence of Hemoglobinopathies.\n* Red blood cell transfusion in the last 12 weeks.\n* Hb \\< 9 g/dL documented within 3 months of enrollment - Dosing with an erythropoiesis stimulating agent is acceptable but dose must be stable for two months.\n* Use of acetaminophen on a daily basis.\n* Systemic steroid treatment in the past 12 weeks.\n* Greater than 50% dose change in diabetes medications or new diabetes medications started in the previous 8 weeks.\n* Currently pregnant.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Northwell Health (Division Endocrinology and Nephrology)",
    "city": "Great Neck",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Northwell Health (Division Endocrinology and Nephrology)",
    "lat": 40.80066,
-   "lon": -73.72846
+   "lon": -73.72846,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03383627",
@@ -117,6 +117,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "18 years and older with ability to speak and understand English"
+   },
+   {
+    "text": "Established diagnosis of type 2 Diabetes Mellitus"
+   },
+   {
+    "text": "Chronic Kidney Disease (stages 3b, 4 or 5, eGFR (Glomerular Filtration Rate) < 45 ml/min, and not on dialysis) documented within 3 months of enrollment"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 Diabetes Mellitus."
+   },
+   {
+    "text": "Patient with End stage kidney disease on Dialysis."
+   },
+   {
+    "text": "Presence of Hemoglobinopathies."
+   },
+   {
+    "text": "Red blood cell transfusion in the last 12 weeks."
+   },
+   {
+    "text": "Hb < 9 g/dL documented within 3 months of enrollment - Dosing with an erythropoiesis stimulating agent is acceptable but dose must be stable for two months."
+   },
+   {
+    "text": "Use of acetaminophen on a daily basis."
+   },
+   {
+    "text": "Systemic steroid treatment in the past 12 weeks."
+   },
+   {
+    "text": "Greater than 50% dose change in diabetes medications or new diabetes medications started in the previous 8 weeks."
+   },
+   {
+    "text": "Currently pregnant."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

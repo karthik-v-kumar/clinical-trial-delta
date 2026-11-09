@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Third Affiliated Hospital, Sun Yat-Sen University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Third Affiliated Hospital, Sun Yat-Sen University"
  },
  "collaborators": [],
  "conditions": [
@@ -50,23 +50,23 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Intelligent Insulin-Dosing Decision Support System",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Control Group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Intervention Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Intelligent Insulin-Dosing Decision Support System"
-   ]
+   ],
+   "label": "Intervention Group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "The goal of this clinical trial is to learn if an intelligent insulin-dosing decision support system can improve glycemic control in adults with type 2 diabetes who are starting basal insulin therapy. The trial also aims to evaluate the safety of using this system for insulin dose adjustment.\n\nThe main questions it aims to answer are:\n\n* Does the intelligent decision support system improve fasting glucose, postprandial glucose, and HbA1c?\n* Does the system provide safe insulin titration without raising hypoglycemia risk and improve empowerment, self-management, and insulin-related attitudes?\n\nResearchers will compare the intelligent insulin-dosing decision support system with usual care to see if the system leads to more effective and safer insulin titration.\n\nParticipants will:\n\n* Upload blood glucose data using a smart glucometer connected to a mobile health platform\n* Receive basal insulin therapy with ongoing dose adjustments\n\nIntervention group: use the intelligent decision support system that provides algorithm-based insulin dose recommendations with remote monitoring and guidance Control group: receive standard diabetes education and routine outpatient insulin titration",
  "eligibility": {
   "criteria": "Inclusion Criteria: Patients who\n\n1. were diagnosed with T2DM according to the Guideline for the Prevention and Treatment of Diabetes Mellitus in China (2024 edition);\n2. were prescribed basal insulin therapy for the first time;\n3. were aged 18 years or older;\n4. voluntarily participated in this study; and\n5. had access to mobile devices and the internet.\n\nExclusion Criteria: Individuals who:\n\n1. had severe diabetes-related complications (e.g., cardiac, hepatic, cerebral, or renal insufficiency);\n2. were unable to participate in regular follow-ups;\n3. had communication or cognitive barriers;\n4. had diagnosed psychiatric disorders; or\n5. discontinued basal insulin therapy for non-glycaemic reasons.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "Third Affiliated Hospital of Sun Yat-sen University",
    "city": "Guangzhou",
-   "state": "Guangdong",
    "country": "China",
-   "status": null,
+   "facility": "Third Affiliated Hospital of Sun Yat-sen University",
    "lat": 23.11667,
-   "lon": 113.25
+   "lon": 113.25,
+   "state": "Guangdong",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07291804",
@@ -107,6 +107,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who"
+   },
+   {
+    "text": "were diagnosed with T2DM according to the Guideline for the Prevention and Treatment of Diabetes Mellitus in China (2024 edition);"
+   },
+   {
+    "text": "were prescribed basal insulin therapy for the first time;"
+   },
+   {
+    "text": "were aged 18 years or older;"
+   },
+   {
+    "text": "voluntarily participated in this study; and"
+   },
+   {
+    "text": "had access to mobile devices and the internet."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Individuals who:"
+   },
+   {
+    "text": "had severe diabetes-related complications (e.g., cardiac, hepatic, cerebral, or renal insufficiency);"
+   },
+   {
+    "text": "were unable to participate in regular follow-ups;"
+   },
+   {
+    "text": "had communication or cognitive barriers;"
+   },
+   {
+    "text": "had diagnosed psychiatric disorders; or"
+   },
+   {
+    "text": "discontinued basal insulin therapy for non-glycaemic reasons."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2023-07-06",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Tirzepatide - Cohort 1 (2.5 to 10 Milligram (mg)) and Cohort 2 (2.5 to 15 mg)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Tirzepatide - Cohort 1 (2.5 to 10 Milligram (mg)) and Cohort 2 (2.5 to 15 mg)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The main purpose of this study is to learn more about the safety and side effects of tirzepatide in Chinese participants with type 2 diabetes mellitus. The study will also measure how much tirzepatide gets into the bloodstream and how long it takes the body to remove it. The study will last about six or eight months for each participant.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have type 2 diabetes mellitus (T2DM) controlled with diet and exercise alone or are stable on a single oral antihyperglycemic medication (OAM), metformin, acarbose, or sulphonylureas only (other types of OAM \\[dipeptidyl peptidase IV inhibitors, sodium-glucose cotransporter-2 inhibitors, and thiazolidinediones\\] are not allowed in this study), for at least 3 months\n* Have a body mass greater than or equal to (≥)23 kilograms per square meter (kg/m²), inclusive\n\nExclusion Criteria:\n\n* Have type 1 diabetes mellitus\n* Have a history of severe hypoglycemia and/or hypoglycemia unawareness within the 6 months prior to Visit 1\n* Have a history of heart block or PR interval greater than (\\>)220 milliseconds (msec) or any abnormality in the 12-lead electrocardiogram (ECG) at screening that, in the opinion of the investigator, increases the risks associated with participating in the study\n* Have a history or presence of pancreatitis or gastrointestinal (GI) disorder or a GI disease that impacts gastric emptying or could be aggravated by glucagon-like peptide-1 (GLP-1) analogs or dipeptidyl peptidase IV (DPP-IV) inhibitors\n* Have known allergies to tirzepatide, GLP-1 analogs, or related compounds or any components of the formulation",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,22 +99,22 @@
  },
  "sites": [
   {
-   "facility": "Peking University First Hospital",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Peking University First Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "West China Hospital Sichuan University",
    "city": "Chengdu",
-   "state": "Sichuan",
    "country": "China",
-   "status": null,
+   "facility": "West China Hospital Sichuan University",
    "lat": 30.66667,
-   "lon": 104.06667
+   "lon": 104.06667,
+   "state": "Sichuan",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04235959",
@@ -128,6 +128,35 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have type 2 diabetes mellitus (T2DM) controlled with diet and exercise alone or are stable on a single oral antihyperglycemic medication (OAM), metformin, acarbose, or sulphonylureas only (other types of OAM [dipeptidyl peptidase IV inhibitors, sodium-glucose cotransporter-2 inhibitors, and thiazolidinediones] are not allowed in this study), for at least 3 months"
+   },
+   {
+    "text": "Have a body mass greater than or equal to (≥)23 kilograms per square meter (kg/m²), inclusive"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have type 1 diabetes mellitus"
+   },
+   {
+    "text": "Have a history of severe hypoglycemia and/or hypoglycemia unawareness within the 6 months prior to Visit 1"
+   },
+   {
+    "text": "Have a history of heart block or PR interval greater than (>)220 milliseconds (msec) or any abnormality in the 12-lead electrocardiogram (ECG) at screening that, in the opinion of the investigator, increases the risks associated with participating in the study"
+   },
+   {
+    "text": "Have a history or presence of pancreatitis or gastrointestinal (GI) disorder or a GI disease that impacts gastric emptying or could be aggravated by glucagon-like peptide-1 (GLP-1) analogs or dipeptidyl peptidase IV (DPP-IV) inhibitors"
+   },
+   {
+    "text": "Have known allergies to tirzepatide, GLP-1 analogs, or related compounds or any components of the formulation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Kristin Clemens",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Kristin Clemens"
  },
  "collaborators": [],
  "conditions": [
@@ -51,7 +51,6 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "Wegovy",
@@ -59,30 +58,31 @@
     "Generic Semaglutide",
     "Apo-Semaglutide",
     "Semaglutide Injection"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Virtual Weight Management Coaching",
    "other_names": [
     "Coaching",
     "Weight Management"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Virtual Weight Management Program",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide",
     "Behavioral: Virtual Weight Management Coaching"
-   ]
+   ],
+   "label": "Virtual Weight Management Program",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Usual Care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "Obesity has a serious impact on people's health and quality of life. For those with advanced kidney disease (i.e. approaching the need for dialysis), obesity is especially problematic - obesity can not only lead to worsening kidney function and kidney failure, but it can also prevent patients from receiving a lifesaving kidney transplantation due to concerns about operation risks. Unfortunately, there is an urgent need but no rigorously proven treatments to help people with advanced kidney disease lose weight effectively and safely.\n\nThe investigative team is a large team of doctors, nurses, dieticians, exercise specialists, social scientists, and patients with a lived experience, have spent three years advancing research to help people with advanced kidney disease achieve a healthier body weight. They have created a special weight loss program that combines individualized coaching on diet and save activity with a medication proven to help people with healthier kidneys lose weight (i.e. Ozempic). This research program is called PIVOT: Patient-centred Intervention with Virtual support for Obesity and kidney Transplant access.\n\nThe investigators have started to test PIVOT in a small pilot study and early results show that there is potential to study the program on a much larger scale (i.e. across Canada). With funding from CIHR, the investigators aim to reach more Canadians with advanced kidney disease (including people of lower income, women, and people of different races) with an aim of helping them lose weight safely, feel better, obtain a kidney transplant, and staying healthier over the longer term.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 18 years or older\n* BMI \\>35 kg/m2\n* eGFR \\<15ml/min/1.73m2 at baseline OR 2-year KFRE2 of 10% or greater\n\nExclusion Criteria:\n\n* Known contraindication to a GLP-1RA (pancreatitis, personal or family history of medullary thyroid cancer, hypersensitivity, pregnancy, breastfeeding)\n* Type 1 diabetes",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,22 +105,22 @@
  },
  "sites": [
   {
-   "facility": "London Health Sciences Centre",
    "city": "London",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "London Health Sciences Centre",
    "lat": 42.98339,
-   "lon": -81.23304
+   "lon": -81.23304,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "St. Joseph's Health Care",
    "city": "London",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "St. Joseph's Health Care",
    "lat": 42.98339,
-   "lon": -81.23304
+   "lon": -81.23304,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07858331",
@@ -132,6 +132,29 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "18 years or older"
+   },
+   {
+    "text": "BMI >35 kg/m2"
+   },
+   {
+    "text": "eGFR <15ml/min/1.73m2 at baseline OR 2-year KFRE2 of 10% or greater"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known contraindication to a GLP-1RA (pancreatitis, personal or family history of medullary thyroid cancer, hypersensitivity, pregnancy, breastfeeding)"
+   },
+   {
+    "text": "Type 1 diabetes"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

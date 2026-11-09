@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "EMS",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "EMS"
  },
  "collaborators": [],
  "conditions": [
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "LID104",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Linagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "LID104",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LID104"
-   ]
+   ],
+   "label": "LID104",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Linagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Linagliptin"
-   ]
+   ],
+   "label": "Linagliptin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of LID104 in the treatment of type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Ability to confirm voluntary participation and agree to all trial purposes by signing and dating the consent form;\n* Diagnosis of type II diabetes mellitus, and who did not reach the therapeutic goal of HbA1c with previous dietary, physical exercise and monotherapy with the maximum tolerated dose of metformin at a stable dose in the last 3 months and which, in the Investigator's discretion, may benefit from the addition of the trial drugs.\n* Participants with HbA1c ≥ 7.5% and ≤ 10.5% at the screening visit.\n* Participants with body mass index ≤ 45 kg/m2\n\nExclusion Criteria:\n\n* Any clinical observation or laboratory condition finding that is interpreted by the investigating physician as a risk to the participation of the research participant in the clinical trial or presence of uncontrolled chronic disease(s);\n* History of alcohol and/or illicit drug use disorder in the last two years;\n* Participants who are pregnant, nursing or planning to become pregnant, or female participants of childbearing potential who are not using reliable contraception;\n* Participants with known allergy or hypersensitivity to the components of the drugs used during the clinical trial;\n* Participants with a current medical history of cancer and/or treatment for cancer in the last five years;\n* Participation in a clinical trial protocols in the last 12 months (CNS Resolution 251, of August 7, 1997, item III, subitem J), unless the investigator judges that there may be a direct benefit at the same;\n* Type 1 Diabetes Mellitus;\n* Fasting glucose above 300 mg/dL;\n* Participants who have risk factors for severe volume depletion;\n* Participants on dialysis;\n* History of metabolic acidosis and/or using medications that may cause lactic acidosis;\n* Participants who have had a cardiovascular event (acute myocardial infarction, acute coronary syndrome, recent onset of stable angina, stroke, unstable congestive heart failure requiring change in treatment), who underwent a revascularization procedure or vascular surgery in the six months prior to screening;\n* Known heart failure, class III to IV (New York Heart Association);\n* Moderate or severe renal insufficiency;\n* Participant with altered liver function, defined by serum levels of aspartate aminotransferase, alanine aminotransferase or alkaline phosphatase above three times the upper limit of normal or bilirubin \\> 1.5 times the upper limit of normal;\n* Participants who underwent bariatric surgery in the last two years and/or other gastrointestinal surgeries that may cause chronic malabsorption;\n* Medical history of haemoglobinopathies, blood dyscrasia or any other hemolytic disorders;\n* Known medical history of pancreatic diseases that may suggest insulin deficiency;\n* Known uncontrolled hypothyroidism or hyperthyroidism or thyroid-stimulating hormone (TSH) dosage greater than 1.5 times the reference value;\n* Known history of sepsis, hypotension, major surgery, trauma, severe metabolic, endocrine and electrolyte changes or uncontrolled seizures in the six months prior to trial screening, or any other condition that, in the judgment of the investigator, may favor clinically significant alterations in the levels of the enzyme creatine phosphokinase (CPK) or participants with CPK dosages greater than ten times the value considered for normality;\n* Participants who started treatment with anti-obesity drugs less than three months ago or with a dose change in the last three months;\n* Participants with current and prolonged treatment for more than fifteen days with systemic steroids at the time of informed consent or in the last three months prior to the screening visit;\n* Participants on insulin therapy or using oral antidiabetics other than metformin;\n* Participants using prohibited medications according to the study protocol.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "facility": "Investigational site",
    "city": "Hortolândia",
-   "state": "São Paulo",
    "country": "Brazil",
-   "status": null,
+   "facility": "Investigational site",
    "lat": -22.85833,
-   "lon": -47.22
+   "lon": -47.22,
+   "state": "São Paulo",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05886088",
@@ -129,6 +129,98 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Ability to confirm voluntary participation and agree to all trial purposes by signing and dating the consent form;"
+   },
+   {
+    "text": "Diagnosis of type II diabetes mellitus, and who did not reach the therapeutic goal of HbA1c with previous dietary, physical exercise and monotherapy with the maximum tolerated dose of metformin at a stable dose in the last 3 months and which, in the Investigator's discretion, may benefit from the addition of the trial drugs."
+   },
+   {
+    "text": "Participants with HbA1c ≥ 7.5% and ≤ 10.5% at the screening visit."
+   },
+   {
+    "text": "Participants with body mass index ≤ 45 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any clinical observation or laboratory condition finding that is interpreted by the investigating physician as a risk to the participation of the research participant in the clinical trial or presence of uncontrolled chronic disease(s);"
+   },
+   {
+    "text": "History of alcohol and/or illicit drug use disorder in the last two years;"
+   },
+   {
+    "text": "Participants who are pregnant, nursing or planning to become pregnant, or female participants of childbearing potential who are not using reliable contraception;"
+   },
+   {
+    "text": "Participants with known allergy or hypersensitivity to the components of the drugs used during the clinical trial;"
+   },
+   {
+    "text": "Participants with a current medical history of cancer and/or treatment for cancer in the last five years;"
+   },
+   {
+    "text": "Participation in a clinical trial protocols in the last 12 months (CNS Resolution 251, of August 7, 1997, item III, subitem J), unless the investigator judges that there may be a direct benefit at the same;"
+   },
+   {
+    "text": "Type 1 Diabetes Mellitus;"
+   },
+   {
+    "text": "Fasting glucose above 300 mg/dL;"
+   },
+   {
+    "text": "Participants who have risk factors for severe volume depletion;"
+   },
+   {
+    "text": "Participants on dialysis;"
+   },
+   {
+    "text": "History of metabolic acidosis and/or using medications that may cause lactic acidosis;"
+   },
+   {
+    "text": "Participants who have had a cardiovascular event (acute myocardial infarction, acute coronary syndrome, recent onset of stable angina, stroke, unstable congestive heart failure requiring change in treatment), who underwent a revascularization procedure or vascular surgery in the six months prior to screening;"
+   },
+   {
+    "text": "Known heart failure, class III to IV (New York Heart Association);"
+   },
+   {
+    "text": "Moderate or severe renal insufficiency;"
+   },
+   {
+    "text": "Participant with altered liver function, defined by serum levels of aspartate aminotransferase, alanine aminotransferase or alkaline phosphatase above three times the upper limit of normal or bilirubin > 1.5 times the upper limit of normal;"
+   },
+   {
+    "text": "Participants who underwent bariatric surgery in the last two years and/or other gastrointestinal surgeries that may cause chronic malabsorption;"
+   },
+   {
+    "text": "Medical history of haemoglobinopathies, blood dyscrasia or any other hemolytic disorders;"
+   },
+   {
+    "text": "Known medical history of pancreatic diseases that may suggest insulin deficiency;"
+   },
+   {
+    "text": "Known uncontrolled hypothyroidism or hyperthyroidism or thyroid-stimulating hormone (TSH) dosage greater than 1.5 times the reference value;"
+   },
+   {
+    "text": "Known history of sepsis, hypotension, major surgery, trauma, severe metabolic, endocrine and electrolyte changes or uncontrolled seizures in the six months prior to trial screening, or any other condition that, in the judgment of the investigator, may favor clinically significant alterations in the levels of the enzyme creatine phosphokinase (CPK) or participants with CPK dosages greater than ten times the value considered for normality;"
+   },
+   {
+    "text": "Participants who started treatment with anti-obesity drugs less than three months ago or with a dose change in the last three months;"
+   },
+   {
+    "text": "Participants with current and prolonged treatment for more than fifteen days with systemic steroids at the time of informed consent or in the last three months prior to the screening visit;"
+   },
+   {
+    "text": "Participants on insulin therapy or using oral antidiabetics other than metformin;"
+   },
+   {
+    "text": "Participants using prohibited medications according to the study protocol."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

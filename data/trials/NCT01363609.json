@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Amsterdam UMC, location VUmc",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Amsterdam UMC, location VUmc"
  },
  "collaborators": [],
  "conditions": [
@@ -49,42 +49,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide treatment 12 weeks",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin glargine treatment",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "GLP-1 receptor antagonist",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide treatment 12 weeks"
-   ]
+   ],
+   "label": "Liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin glargine",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin glargine treatment"
-   ]
+   ],
+   "label": "Insulin glargine",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "before start of treatment period",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: GLP-1 receptor antagonist"
-   ]
+   ],
+   "label": "before start of treatment period",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "The aim of this study is to investigate if endogenous Glucagon Like Peptide -1 (GLP-1) has an effect on brain satiety and reward systems and if there are alterations in obese patients with type 2 diabetes (T2DM). Secondly, the aim is to investigate whether treatment with a GLP-1 analog, liraglutide, restores these signals in obese patients with type 2 diabetes. Finally, also the endogenous GLP-1 effects will be investigated in obese individuals before and after gastric bypass surgery on brain satiety and reward systems.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* For the healthy, lean individuals:\n* Age 18-65 years\n* Women: post menopausal (excluding possible menstruation cycle effects)\n* Body-mass index (BMI) of \\<25 kg/m2,\n* Stable bodyweight (\\<5% reported change during the previous 3 months).\n* Normal fasting and 2h post load glucose as ascertained during a 75-g oral glucose tolerance test (OGTT) (34)\n* Right handed\n\nFor the obese T2DM individuals:\n\n* Age 18-65 years\n* Women: post menopausal (excluding possible menstruation cycle effects)\n* BMI 25-40 kg/m2\n* Stable bodyweight (\\<5% reported change during the previous 3 months).\n* Diagnosed with T2DM \\> 3 months prior to screening\n* HbA1C 6.5-8.5%\n* Treatment with metformin at a stable dose for at least 3 months.\n* Right handed\n\nFor the obese individuals scheduled for gastric bypass surgery:\n\n* Age 18-65 years\n* Women: preferably post menopausal (excluding possible menstruation cycle effects)\n* Body-mass index (BMI) of \\>30 kg/m2,\n* Stable bodyweight (\\<5% reported change during the previous 1 months).\n* Normal or impaired fasting and 2h post load glucose as ascertained during a 75-g oral glucose tolerance test (OGTT) (defined as glucose fasting \\< 7.1 mmol/l and after OGTT t=120min \\< 11.0 mmol/l) (39)\n* Right handed\n\nExclusion Criteria:\n\n* GLP-1 based therapies, thiazolidinediones, sulphonylurea or insulin within 3 months before screening\n* Weight-lowering agents within 3 months before screening.\n* Congestive heart failure (NYHA II-IV)\n* Chronic renal failure (glomerular filtration rate \\< 60 mL/min/1.73m2 per Modification of Diet in Renal Disease (MDRD))\n* Liver disease\n* History of gastrointestinal disorders (including gastropareses, pancreatitis and cholelithiasis)\n* Neurological illness\n* Malignancy\n* Other type of bariatric surgery (Redo-GBP, sleeve, distal GBP, adj banding, Scopinaro)\n* History of major heart disease\n* History of major renal disease\n* Pregnancy or breast feeding\n* Implantable devices\n* Substance abuse\n* Addiction\n* Contra-indication for MRI, such as claustrophobia or pacemaker\n* Any psychiatric illness; including eating disorders and depression\n* Chronic use of centrally acting agents or glucocorticoids within 2 weeks immediately prior to screening.\n* Use of cytostatic or immune modulatory agents\n* History or known allergy for acetaminophen.\n* History of allergy for insulin analog\n* History of allergy for liraglutide\n* Participation in other studies\n* Individuals who have received treatment within the last 30 days with a drug that has not received regulatory approval for any indication at the time of study entry\n* Individuals who are investigator site personnel, directly affiliated with the study, or are immediate family",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,13 +107,13 @@
  },
  "sites": [
   {
-   "facility": "VU University Medical Center",
    "city": "Amsterdam",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "VU University Medical Center",
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01363609",
@@ -127,6 +127,166 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "For the healthy, lean individuals:"
+   },
+   {
+    "text": "Age 18-65 years"
+   },
+   {
+    "text": "Women: post menopausal (excluding possible menstruation cycle effects)"
+   },
+   {
+    "text": "Body-mass index (BMI) of <25 kg/m2,"
+   },
+   {
+    "text": "Stable bodyweight (<5% reported change during the previous 3 months)."
+   },
+   {
+    "text": "Normal fasting and 2h post load glucose as ascertained during a 75-g oral glucose tolerance test (OGTT) (34)"
+   },
+   {
+    "text": "Right handed"
+   },
+   {
+    "text": "Age 18-65 years",
+    "group": "For the obese T2DM individuals"
+   },
+   {
+    "text": "Women: post menopausal (excluding possible menstruation cycle effects)",
+    "group": "For the obese T2DM individuals"
+   },
+   {
+    "text": "BMI 25-40 kg/m2",
+    "group": "For the obese T2DM individuals"
+   },
+   {
+    "text": "Stable bodyweight (<5% reported change during the previous 3 months).",
+    "group": "For the obese T2DM individuals"
+   },
+   {
+    "text": "Diagnosed with T2DM > 3 months prior to screening",
+    "group": "For the obese T2DM individuals"
+   },
+   {
+    "text": "HbA1C 6.5-8.5%",
+    "group": "For the obese T2DM individuals"
+   },
+   {
+    "text": "Treatment with metformin at a stable dose for at least 3 months.",
+    "group": "For the obese T2DM individuals"
+   },
+   {
+    "text": "Right handed",
+    "group": "For the obese T2DM individuals"
+   },
+   {
+    "text": "Age 18-65 years",
+    "group": "For the obese individuals scheduled for gastric bypass surgery"
+   },
+   {
+    "text": "Women: preferably post menopausal (excluding possible menstruation cycle effects)",
+    "group": "For the obese individuals scheduled for gastric bypass surgery"
+   },
+   {
+    "text": "Body-mass index (BMI) of >30 kg/m2,",
+    "group": "For the obese individuals scheduled for gastric bypass surgery"
+   },
+   {
+    "text": "Stable bodyweight (<5% reported change during the previous 1 months).",
+    "group": "For the obese individuals scheduled for gastric bypass surgery"
+   },
+   {
+    "text": "Normal or impaired fasting and 2h post load glucose as ascertained during a 75-g oral glucose tolerance test (OGTT) (defined as glucose fasting < 7.1 mmol/l and after OGTT t=120min < 11.0 mmol/l) (39)",
+    "group": "For the obese individuals scheduled for gastric bypass surgery"
+   },
+   {
+    "text": "Right handed",
+    "group": "For the obese individuals scheduled for gastric bypass surgery"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "GLP-1 based therapies, thiazolidinediones, sulphonylurea or insulin within 3 months before screening"
+   },
+   {
+    "text": "Weight-lowering agents within 3 months before screening."
+   },
+   {
+    "text": "Congestive heart failure (NYHA II-IV)"
+   },
+   {
+    "text": "Chronic renal failure (glomerular filtration rate < 60 mL/min/1.73m2 per Modification of Diet in Renal Disease (MDRD))"
+   },
+   {
+    "text": "Liver disease"
+   },
+   {
+    "text": "History of gastrointestinal disorders (including gastropareses, pancreatitis and cholelithiasis)"
+   },
+   {
+    "text": "Neurological illness"
+   },
+   {
+    "text": "Malignancy"
+   },
+   {
+    "text": "Other type of bariatric surgery (Redo-GBP, sleeve, distal GBP, adj banding, Scopinaro)"
+   },
+   {
+    "text": "History of major heart disease"
+   },
+   {
+    "text": "History of major renal disease"
+   },
+   {
+    "text": "Pregnancy or breast feeding"
+   },
+   {
+    "text": "Implantable devices"
+   },
+   {
+    "text": "Substance abuse"
+   },
+   {
+    "text": "Addiction"
+   },
+   {
+    "text": "Contra-indication for MRI, such as claustrophobia or pacemaker"
+   },
+   {
+    "text": "Any psychiatric illness; including eating disorders and depression"
+   },
+   {
+    "text": "Chronic use of centrally acting agents or glucocorticoids within 2 weeks immediately prior to screening."
+   },
+   {
+    "text": "Use of cytostatic or immune modulatory agents"
+   },
+   {
+    "text": "History or known allergy for acetaminophen."
+   },
+   {
+    "text": "History of allergy for insulin analog"
+   },
+   {
+    "text": "History of allergy for liraglutide"
+   },
+   {
+    "text": "Participation in other studies"
+   },
+   {
+    "text": "Individuals who have received treatment within the last 30 days with a drug that has not received regulatory approval for any indication at the time of study entry"
+   },
+   {
+    "text": "Individuals who are investigator site personnel, directly affiliated with the study, or are immediate family"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

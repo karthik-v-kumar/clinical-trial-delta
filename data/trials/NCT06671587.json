@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sanofi",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sanofi"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "iGlarLixi (insulin glargine/lixisenatide)",
    "other_names": [
     "SOLIQUA®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Gla-100 (insulin glargine)",
    "other_names": [
     "LANTUS®"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "iGlarLixi (insulin glargine/lixisenatide)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: iGlarLixi (insulin glargine/lixisenatide)"
-   ]
+   ],
+   "label": "iGlarLixi (insulin glargine/lixisenatide)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Gla-100 (insulin glargine)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Gla-100 (insulin glargine)"
-   ]
+   ],
+   "label": "Gla-100 (insulin glargine)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "This study is an open-label, 1:1 randomized, active-controlled, 2-arm, 20-week treatment duration, parallel-group, multicenter, phase IV study to evaluate the effect of iGlarLixi versus Gla-100 on glycemic control measured as TIR from CGM device in Chinese insulin naïve patients with T2D inadequately controlled with OADs. At the end of the screening period, eligible participants will be randomized to one of two treatment groups (iGlarLixi or Gla-100 group). The randomization (1:1) will be stratified by values of HbA1c at screening (\\<8.0%, ≥8.0%), and background treatment (metformin only, metformin+SGLT-2i).\n\nStudy details include:\n\n* The study duration per participant will be approximately up to 24 weeks.\n* The treatment duration will be up to 20 weeks.\n* The number of visits will be 14 visits including 9 times of on-site visits and 5 times of phone call visits in total during screening and treatment periods. On-site every 1 week will be from screening till randomization (Week 0), then on site or phone call visit every 2 weeks till Week 12, then every 3 weeks till Week 18, and the End of Treatment visit will be conducted at Week 20. There will be a safety follow-up by a phone call visit (End of Study) in 3 days (-1/+3 days) after the last dose of the treatment.\n* Health measurement/Observation: change in TIR as the primary endpoint\n* Intervention name: iGlarLixi and Gla-100\n* Participant gender: male and female\n* Participant age range: adults at least 18 years of age\n* Condition/disease: type 2 diabetes\n* Study hypothesis: compared to Gla-100, iGlarLixi will demonstrate a superiority therapeutic effect on glycemic control assessed by change in TIR measured with CGM from baseline to Week 20 in the study participants.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants who are diagnosed as T2D of at least 1 year before screening visit\n* Participants who are treated at least 3 months prior to screening visit with a stable dose of metformin alone or in combination with a second OAD\n* Inadequate control\n* Body mass index (BMI) within the range 20-40 kg/m2 (inclusive)\n* Is willing and able to wear the CGM device continuously\n* Is willing to discontinue daily (oral) SU, glinide, alpha-GI, and DPP-4i\n* Not using another CGM device during the study\n\nExclusion Criteria:\n\n* Participants with severe renal dysfunction\n* Participants with short life expectancy\n* Participants with conditions/concomitant diseases making them non evaluable for the efficacy endpoints\n* Participants with conditions/concomitant diseases precluding their safe participation in this study\n* An episode of severe hypoglycemia requiring the assistance of a third party within 3 months before screening visit\n* History of clinically significant pancreatitis or severe gastrointestinal disorders\n* Participants who have any history of severe multiple allergies or an allergy resulting in anaphylaxis, or contraindication/hypersensitivity to any of the study interventions, or components thereof, or drug or other allergy that, in the opinion of the Investigator, contraindicates participation in the study\n* Previous treatment with insulin\n* Use of any glucose-lowering agents other than metformin alone or in combination with a second OAD (can be a SU, a glinide, an alpha-GI, a DPP-4i, or a SGLT-2i)\n* Use of systemic glucocorticoids\n* Use of weight loss drugs\n* History of discontinuation of a previous treatment with GLP-1 RA for safety/tolerability reasons or lack of efficacy\n* Laboratory findings at the screening visit\n* Participants have any current or previous skin conditions\n* Participants unwilling or unable to do blood glucose monitoring using the Sponsor-provided blood glucometer at home\n\nThe above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Investigational Site Number: 1560001",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Investigational Site Number: 1560001",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06671587",
@@ -116,6 +116,83 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants who are diagnosed as T2D of at least 1 year before screening visit"
+   },
+   {
+    "text": "Participants who are treated at least 3 months prior to screening visit with a stable dose of metformin alone or in combination with a second OAD"
+   },
+   {
+    "text": "Inadequate control"
+   },
+   {
+    "text": "Body mass index (BMI) within the range 20-40 kg/m2 (inclusive)"
+   },
+   {
+    "text": "Is willing and able to wear the CGM device continuously"
+   },
+   {
+    "text": "Is willing to discontinue daily (oral) SU, glinide, alpha-GI, and DPP-4i"
+   },
+   {
+    "text": "Not using another CGM device during the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participants with severe renal dysfunction"
+   },
+   {
+    "text": "Participants with short life expectancy"
+   },
+   {
+    "text": "Participants with conditions/concomitant diseases making them non evaluable for the efficacy endpoints"
+   },
+   {
+    "text": "Participants with conditions/concomitant diseases precluding their safe participation in this study"
+   },
+   {
+    "text": "An episode of severe hypoglycemia requiring the assistance of a third party within 3 months before screening visit"
+   },
+   {
+    "text": "History of clinically significant pancreatitis or severe gastrointestinal disorders"
+   },
+   {
+    "text": "Participants who have any history of severe multiple allergies or an allergy resulting in anaphylaxis, or contraindication/hypersensitivity to any of the study interventions, or components thereof, or drug or other allergy that, in the opinion of the Investigator, contraindicates participation in the study"
+   },
+   {
+    "text": "Previous treatment with insulin"
+   },
+   {
+    "text": "Use of any glucose-lowering agents other than metformin alone or in combination with a second OAD (can be a SU, a glinide, an alpha-GI, a DPP-4i, or a SGLT-2i)"
+   },
+   {
+    "text": "Use of systemic glucocorticoids"
+   },
+   {
+    "text": "Use of weight loss drugs"
+   },
+   {
+    "text": "History of discontinuation of a previous treatment with GLP-1 RA for safety/tolerability reasons or lack of efficacy"
+   },
+   {
+    "text": "Laboratory findings at the screening visit"
+   },
+   {
+    "text": "Participants have any current or previous skin conditions"
+   },
+   {
+    "text": "Participants unwilling or unable to do blood glucose monitoring using the Sponsor-provided blood glucometer at home"
+   },
+   {
+    "text": "The above information is not intended to contain all considerations relevant to a patient's potential participation in a clinical trial."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

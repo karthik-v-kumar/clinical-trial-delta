@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "NONE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Washington University School of Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Washington University School of Medicine"
  },
  "collaborators": [
   "National Heart, Lung, and Blood Institute (NHLBI)"
@@ -51,23 +51,23 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Academic detailing",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Academic detailing of physicians",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Academic detailing"
-   ]
+   ],
+   "label": "Academic detailing of physicians",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Usual care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "We hypothesize that when compared to usual care a greater proportion of hospitalized diabetic patients who are candidates for cholesterol lowering will be discharged with a prescription for a statin if their physicians are contacted by a pharmacist to discuss treatment guidelines.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Hospitalized patients with diabetes\n* LDL \\>= 100\n\nExclusion Criteria:\n\n* Terminal illness\n* Pregnancy\n* Intolerance or contraindication to statin",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "facility": "Barnes Jewish Hospital",
    "city": "St Louis",
-   "state": "Missouri",
    "country": "United States",
-   "status": null,
+   "facility": "Barnes Jewish Hospital",
    "lat": 38.62727,
-   "lon": -90.19789
+   "lon": -90.19789,
+   "state": "Missouri",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01113099",
@@ -108,6 +108,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Hospitalized patients with diabetes"
+   },
+   {
+    "text": "LDL >= 100"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Terminal illness"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Intolerance or contraindication to statin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

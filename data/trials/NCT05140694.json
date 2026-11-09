@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Seoul National University Bundang Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Seoul National University Bundang Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -52,48 +52,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
    "other_names": [
     "Jardiance"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dulaglutide",
    "other_names": [
     "Trulicity"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Empagliflozin and Dulaglutide",
    "other_names": [
     "Jardiance and Trulicity"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Empagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Dulaglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dulaglutide"
-   ]
+   ],
+   "label": "Dulaglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Empagliflozin and Dulagludie",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin and Dulaglutide"
-   ]
+   ],
+   "label": "Empagliflozin and Dulagludie",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "The co-administration of SGLT2 inhibitor and GLP-1 receptor agonist would be safe and effective on glycemic control in subjects with type 2 diabetes mellitus and MAFLD better than empagliflozin or dulaglutide alone.\n\nThe SGLT2 inhibitor and GLP-1 receptor agonist would be safe and effective on fatty liver disease in subjects with type 2 diabetes mellitus and MAFLD.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. age 20 or over\n2. uncontrolled HbA1c (7\\~10%) with metformin and/or sulfonylurea\n3. Hepatic steatosis estimated by Fibroscan (CAP ≥258 dB/m)\n4. MAFLD: presence of any conditions\n\n   1. Overweight or obese: BMI ≥23 kg/m2 (Asian)\n   2. Metabolic dysregulation: at least of two of following criteria\n\n      * Waist circumference: ≥90/80 cm in men and women (Asian)\n      * Blood pressure ≥130/85 mmHg or drug treatment\n      * Plasma triglycerides ≥150 mg/dL or drug treatment\n      * Plasma HDL-cholesterol \\<40/50 mg/dL for men and women or drug treatment\n      * Prediabetes (i.e. fasting glucose levels 100 to 125 mg/dL or 2-hour post-load glucose levels 140 to 199 mg/dL or HbA1c 5.7% to 6.4%\n      * HOMA-insulin resistance score ≥2.5\n      * Plasma high-sensitivity CRP \\>2 mg/L\n\nExclusion Criteria:\n\n1. Significant alcohol consumption\n2. Other competing causes for hepatic steatosis: viral hepatitis, drug-induced hepatitis, autoimmune hepatitis, hemochromatosis, Wilson's disease, alpha1 anti-trypsin deficiency, Celiac disease, Overt hypothyroidism, other secondary causes\n3. Type 1 diabetes mellitus\n4. medication usage within 3 months: vitamin E, PUFA, UDCA, fish oil, SGLT2 inhibitors, GLP1-RAs, TZDs\n5. Severe organ dysfunction\n\n   1. liver damage: AST/ALT \\>x5 UNL, albumin \\<3.2, platelet \\<60k, Child-Pugh-Turcotte stage B or C\n   2. kidney damage: serum creatinine ≥2.0 mg/dL or eGFR \\<50 mL/min/1.72m2\n6. Hepatocellular carcinoma, active tumor, or metastasis\n7. End-stage liver disease",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "90 Years",
   "healthy_volunteers": false,
+  "maximum_age": "90 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -128,6 +128,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "age 20 or over"
+   },
+   {
+    "text": "uncontrolled HbA1c (7~10%) with metformin and/or sulfonylurea"
+   },
+   {
+    "text": "Hepatic steatosis estimated by Fibroscan (CAP ≥258 dB/m)"
+   },
+   {
+    "text": "MAFLD: presence of any conditions",
+    "sub_items": [
+     "Overweight or obese: BMI ≥23 kg/m2 (Asian)",
+     "Metabolic dysregulation: at least of two of following criteria",
+     "Waist circumference: ≥90/80 cm in men and women (Asian)",
+     "Blood pressure ≥130/85 mmHg or drug treatment",
+     "Plasma triglycerides ≥150 mg/dL or drug treatment",
+     "Plasma HDL-cholesterol <40/50 mg/dL for men and women or drug treatment",
+     "Prediabetes (i.e. fasting glucose levels 100 to 125 mg/dL or 2-hour post-load glucose levels 140 to 199 mg/dL or HbA1c 5.7% to 6.4%",
+     "HOMA-insulin resistance score ≥2.5",
+     "Plasma high-sensitivity CRP >2 mg/L"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Significant alcohol consumption"
+   },
+   {
+    "text": "Other competing causes for hepatic steatosis: viral hepatitis, drug-induced hepatitis, autoimmune hepatitis, hemochromatosis, Wilson's disease, alpha1 anti-trypsin deficiency, Celiac disease, Overt hypothyroidism, other secondary causes"
+   },
+   {
+    "text": "Type 1 diabetes mellitus"
+   },
+   {
+    "text": "medication usage within 3 months: vitamin E, PUFA, UDCA, fish oil, SGLT2 inhibitors, GLP1-RAs, TZDs"
+   },
+   {
+    "text": "Severe organ dysfunction",
+    "sub_items": [
+     "liver damage: AST/ALT >x5 UNL, albumin <3.2, platelet <60k, Child-Pugh-Turcotte stage B or C",
+     "kidney damage: serum creatinine ≥2.0 mg/dL or eGFR <50 mL/min/1.72m2"
+    ]
+   },
+   {
+    "text": "Hepatocellular carcinoma, active tumor, or metastasis"
+   },
+   {
+    "text": "End-stage liver disease"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

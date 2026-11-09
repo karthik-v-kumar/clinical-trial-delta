@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Zuyderland Medisch Centrum",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Zuyderland Medisch Centrum"
  },
  "collaborators": [
   "Nederlandse Obesitas Kliniek"
@@ -55,33 +55,33 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide 2.4 MG/0.75 ML Subcutaneous Solution [WEGOVY]",
    "other_names": [
     "Wegovy",
     "Semaglutide"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide 2.4mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide 2.4 MG/0.75 ML Subcutaneous Solution [WEGOVY]"
-   ]
+   ],
+   "label": "Semaglutide 2.4mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "In 20 - 30% of the patients, the low responders, sufficient weight loss is not achieved after bariatric surgery. Secondary and/or tertiary bariatric procedures can lead to successful weight loss and resolution of comorbid conditions though, morbidity and mortality rates of these procedures are high. Therefore, additional pharmacotherapy has been suggested. Semaglutide is one of the medications that might improve outcome in the post-bariatric population. Semaglutide is a Glucagon-like peptide-1 (GLP-1) receptor analogue developed to treat type 2 diabetes. It causes glucose-dependent insulin secretion, promotes satiety and inhibits glucagon secretion. In obese (non-bariatric) patients, semaglutide has shown to improve glycemic control, decrease blood pressure, lower cardiovascular risk, and decrease body weight.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI before surgery was ≥ 35.0 kg/m2\n* Patient is treated with group consultation at the NOK\n* Patient has undergone a primary (banded) RYGB or (banded) sleeve gastrectomy (SG)\n* Patient is in the lowest %TWL quartile, 3 months after surgery and will be enrolled in the plus module.\n\nExclusion Criteria:\n\n* Gastropareses or gastro-intestinal complaints after bariatric surgery\n* Type 1 or type 2 diabetes and/or diabetic retinopathy\n* Decreased renal function (creatinine clearance \\< 30 ml/min)\n* Liver failure (all)\n* Congestive heart failure or angina pectoris NYHA class III and IV\n* Malignancy in history\n* Pancreatitis (in history)\n* (expected) Pregnancy / breast-feeding\n* Inflammatory Bowel Disease\n* Thyroid malignancy in history\n* Use of warfarin or other coumarin derivates",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,6 +116,59 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI before surgery was ≥ 35.0 kg/m2"
+   },
+   {
+    "text": "Patient is treated with group consultation at the NOK"
+   },
+   {
+    "text": "Patient has undergone a primary (banded) RYGB or (banded) sleeve gastrectomy (SG)"
+   },
+   {
+    "text": "Patient is in the lowest %TWL quartile, 3 months after surgery and will be enrolled in the plus module."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Gastropareses or gastro-intestinal complaints after bariatric surgery"
+   },
+   {
+    "text": "Type 1 or type 2 diabetes and/or diabetic retinopathy"
+   },
+   {
+    "text": "Decreased renal function (creatinine clearance < 30 ml/min)"
+   },
+   {
+    "text": "Liver failure (all)"
+   },
+   {
+    "text": "Congestive heart failure or angina pectoris NYHA class III and IV"
+   },
+   {
+    "text": "Malignancy in history"
+   },
+   {
+    "text": "Pancreatitis (in history)"
+   },
+   {
+    "text": "(expected) Pregnancy / breast-feeding"
+   },
+   {
+    "text": "Inflammatory Bowel Disease"
+   },
+   {
+    "text": "Thyroid malignancy in history"
+   },
+   {
+    "text": "Use of warfarin or other coumarin derivates"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

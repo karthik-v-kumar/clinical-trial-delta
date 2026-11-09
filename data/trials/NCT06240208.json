@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "SINGLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Copenhagen University Hospital, Rigshospitalet",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Copenhagen University Hospital, Rigshospitalet"
  },
  "collaborators": [
   "Novo Nordisk A/S",
@@ -53,23 +53,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Inactivity",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Inactivity",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Inactivity"
-   ]
+   ],
+   "label": "Inactivity",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -81,23 +81,23 @@
  "brief_summary": "The goal of this parallel-group, two-arm, assessor-blinded, randomised clinical trial is to investigate the effects of reducing physical activity on food intake and satiety in physically active and healthy males, 40-55 years of age.\n\nThe main questions it aims to answer are:\n\n* Does physical inactivity affect GLP-1 stimulated food intake?\n* Does physical inactivity affect food preferences, satiety and other mechanisms supporting appetite regulation?\n\nParticipants will be randomised (1:1) to two weeks of either no intervention (control group) or inactivity. Inactivity will be implemented as cessation of active commuting and all other structured exercise. Furthermore, steps will be reduced to a maximum of 1500 steps/day.\n\nResearchers will compare the inactivity group to the control group to see if physical inactivity impairs appetite regulation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male\n2. Age ≥ 40 years and ≤ 55 years\n3. Body mass index (BMI) \\> 20 and \\< 25 kg/m2\n4. Physical activity level should as a minimum include: Active commuting by biking a minimum of 10 km, four days per week or an equivalent amount of other physical activity four days per week.\n5. Healthy (based on self-reporting, pre-study medical examination and biochemical screening)\n6. Can adhere to two weeks of inactivity (refrain from running, cycling and all other exercise while reducing steps to max. 1500 pr. day)\n7. Caucasian\n8. No change in body weight \\> 5 kg within the last 6 months\n9. Eats breakfast and lunch daily\n10. Does not follow specific dietary restrictions\n11. No disliking of spaghetti bolognese\n12. No diagnosis of psychiatric disorder or treatment with anti-depressant or anti-psychotic medication\n13. No history of suicidal behavior or ideations.\n14. No previous surgical treatment for obesity\n15. No cardiovascular disease\n16. No rheumatologic disease\n17. No metabolic/endocrine disease\n18. No liver disease (ASAT or ALAT \\>2x upper normal range)\n19. No other chronic disease\n20. No elite sports\n21. No frequent or chronic use of medications affecting bodyweight, physical performance, or inflammation (NSAIDS, DMARDS, corticosteroids)\n22. No current infection\n23. No history of cancer\n24. No anemia (hematocrit \\<33%)\n25. No smoking\n26. No participation in other research intervention studies\n\nExclusion Criteria:\n\n1. Clinical or biochemical signs of disease\n2. HbA1c \\> 39 mmol/mol\n3. Unable to allocate the needed time to fulfill the intervention\n4. Language barrier, mental incapacity, unwillingness, or inability to understand and be able to complete the interventions",
-  "sex": "MALE",
-  "minimum_age": "40 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "40 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Copenhagen University Hospital",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": "RECRUITING",
+   "facility": "Copenhagen University Hospital",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06240208",
@@ -112,6 +112,104 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male"
+   },
+   {
+    "text": "Age ≥ 40 years and ≤ 55 years"
+   },
+   {
+    "text": "Body mass index (BMI) > 20 and < 25 kg/m2"
+   },
+   {
+    "text": "Physical activity level should as a minimum include: Active commuting by biking a minimum of 10 km, four days per week or an equivalent amount of other physical activity four days per week."
+   },
+   {
+    "text": "Healthy (based on self-reporting, pre-study medical examination and biochemical screening)"
+   },
+   {
+    "text": "Can adhere to two weeks of inactivity (refrain from running, cycling and all other exercise while reducing steps to max. 1500 pr. day)"
+   },
+   {
+    "text": "Caucasian"
+   },
+   {
+    "text": "No change in body weight > 5 kg within the last 6 months"
+   },
+   {
+    "text": "Eats breakfast and lunch daily"
+   },
+   {
+    "text": "Does not follow specific dietary restrictions"
+   },
+   {
+    "text": "No disliking of spaghetti bolognese"
+   },
+   {
+    "text": "No diagnosis of psychiatric disorder or treatment with anti-depressant or anti-psychotic medication"
+   },
+   {
+    "text": "No history of suicidal behavior or ideations."
+   },
+   {
+    "text": "No previous surgical treatment for obesity"
+   },
+   {
+    "text": "No cardiovascular disease"
+   },
+   {
+    "text": "No rheumatologic disease"
+   },
+   {
+    "text": "No metabolic/endocrine disease"
+   },
+   {
+    "text": "No liver disease (ASAT or ALAT >2x upper normal range)"
+   },
+   {
+    "text": "No other chronic disease"
+   },
+   {
+    "text": "No elite sports"
+   },
+   {
+    "text": "No frequent or chronic use of medications affecting bodyweight, physical performance, or inflammation (NSAIDS, DMARDS, corticosteroids)"
+   },
+   {
+    "text": "No current infection"
+   },
+   {
+    "text": "No history of cancer"
+   },
+   {
+    "text": "No anemia (hematocrit <33%)"
+   },
+   {
+    "text": "No smoking"
+   },
+   {
+    "text": "No participation in other research intervention studies"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Clinical or biochemical signs of disease"
+   },
+   {
+    "text": "HbA1c > 39 mmol/mol"
+   },
+   {
+    "text": "Unable to allocate the needed time to fulfill the intervention"
+   },
+   {
+    "text": "Language barrier, mental incapacity, unwillingness, or inability to understand and be able to complete the interventions"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

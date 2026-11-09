@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -53,48 +53,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Vildagliptin",
    "other_names": [
     "LAF237",
     "Galvus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "pioglitazone",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Vildagliptin",
+    "Drug: pioglitazone"
+   ],
    "label": "Vildagliptin 50 mg qd + pioglitazone 45 mg qd",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Vildagliptin",
     "Drug: pioglitazone"
-   ]
-  },
-  {
+   ],
    "label": "Vildagliptin 50 mg bid + pioglitazone 45 mg qd",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Vildagliptin",
-    "Drug: pioglitazone"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Vildagliptin placebo + pioglitazone 45 mg qd",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: pioglitazone",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Vildagliptin placebo + pioglitazone 45 mg qd",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "Many people with type 2 diabetes cannot maintain target blood glucose levels when taking a single oral drug. The purpose of this study is to assess the safety and effectiveness of vildagliptin, an unapproved drug, in lowering overall blood glucose levels when added to pioglitazone in people with type 2 diabetes not at target blood glucose levels on either pioglitazone or rosiglitazone alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Blood glucose criteria must be met\n* Previously responded, as defined by the protocol, to treatment with pioglitazone or rosiglitazone\n* Body mass index (BMI) in the range 22-45\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* Pregnancy or lactation\n* Evidence of serious cardiovascular complications\n* Evidence of serious diabetic complications\n* Laboratory value abnormalities as defined by the protocol\n* Known sensitivity to pioglitazone\n* Other protocol-defined exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,13 +117,13 @@
  },
  "sites": [
   {
-   "facility": "Novartis Pharmaceuticals",
    "city": "East Hanover",
-   "state": "New Jersey",
    "country": "United States",
-   "status": null,
+   "facility": "Novartis Pharmaceuticals",
    "lat": 40.8201,
-   "lon": -74.36487
+   "lon": -74.36487,
+   "state": "New Jersey",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00099853",
@@ -137,6 +137,44 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Blood glucose criteria must be met"
+   },
+   {
+    "text": "Previously responded, as defined by the protocol, to treatment with pioglitazone or rosiglitazone"
+   },
+   {
+    "text": "Body mass index (BMI) in the range 22-45"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Pregnancy or lactation"
+   },
+   {
+    "text": "Evidence of serious cardiovascular complications"
+   },
+   {
+    "text": "Evidence of serious diabetic complications"
+   },
+   {
+    "text": "Laboratory value abnormalities as defined by the protocol"
+   },
+   {
+    "text": "Known sensitivity to pioglitazone"
+   },
+   {
+    "text": "Other protocol-defined exclusion criteria may apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

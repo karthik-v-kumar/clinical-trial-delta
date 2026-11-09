@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Bio Conscious Technologies Ltd",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Bio Conscious Technologies Ltd"
  },
  "collaborators": [],
  "conditions": [
@@ -49,23 +49,23 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Diabits Predictions",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Diabits Predictions"
-   ]
+   ],
+   "label": "Intervention",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -77,10 +77,10 @@
  "brief_summary": "This is a study of individuals with type I or type II diabetes. It is meant to test the effect of using the Diabits app on a participant's blood glucose control. The Diabits app is a diabetes management app which integrates with your continuous glucose monitor (CGM) and presents not only your current blood glucose trend, but also an estimate of your blood glucose values up to 60 minutes into the future. The Diabits app has been available in the USA and Canada for the past two years and was validated for predictive accuracy at BC Children's Hospital in Canada in 2017 with a predicted accuracy of 94.9%. Diabits app users in North America have shown some improvements in their individual time in range (TIR) and HbA1c values. This study aims to validate those results in a clinical setting. The study will randomise a total of 90 participants into using the Diabits app with or without the glucose forecasting enabled to help determine if the glucose forecasting (or predictions) can help participants make better treatment decisions and improve not only measurements of glucose such as time in range and HbA1c, but also reduce anxiety and improve quality of life with diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* An individual with type I or type II diabetes treated with \\> 1 insulin injections\n* Currently using a smartphone compatible with the Diabits app\n* Are willing to, or already wear a CGM which is compatible with the Diabits app\n* Willing and able to provide informed consent, to have their data collected, and to complete questionnaires that are included as part of the protocol.\n* HbA1c between 7.5 - 10 % ( 86 - 58 mmol/mol)\n\nExclusion Criteria:\n\n* Patients who are pregnant or are planning to become pregnant during the duration of the study.\n* Patients with major psychiatric illness or severe end-stage diabetes complications.\n* Patients who use sensor-augmented pumps with automated features such as hybrid closed loop or predictive insulin suspension. This includes those who use non-commercial software such as DIY closed loop.\n* Patients with prior use of the Diabits app",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,6 +96,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "An individual with type I or type II diabetes treated with > 1 insulin injections"
+   },
+   {
+    "text": "Currently using a smartphone compatible with the Diabits app"
+   },
+   {
+    "text": "Are willing to, or already wear a CGM which is compatible with the Diabits app"
+   },
+   {
+    "text": "Willing and able to provide informed consent, to have their data collected, and to complete questionnaires that are included as part of the protocol."
+   },
+   {
+    "text": "HbA1c between 7.5 - 10 % ( 86 - 58 mmol/mol)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients who are pregnant or are planning to become pregnant during the duration of the study."
+   },
+   {
+    "text": "Patients with major psychiatric illness or severe end-stage diabetes complications."
+   },
+   {
+    "text": "Patients who use sensor-augmented pumps with automated features such as hybrid closed loop or predictive insulin suspension. This includes those who use non-commercial software such as DIY closed loop."
+   },
+   {
+    "text": "Patients with prior use of the Diabits app"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

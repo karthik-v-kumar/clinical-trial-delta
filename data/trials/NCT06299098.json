@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Regeneron Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Regeneron Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -53,167 +53,167 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Trevogrumab-Part A",
    "other_names": [
     "REGN1033",
     "GDF8"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Trevogrumab-Part B and Part C",
    "other_names": [
     "REGN1033",
     "GDF8"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Garetosmab",
    "other_names": [
     "REGN2477",
     "Activin A"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "Wegovy®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching Placebo-Part A",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching Placebo-Trevogrumab",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching Placebo-Garetosmab",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Matching Placebo-Part A"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Trevogrumab",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Trevogrumab-Part A"
-   ]
+   ],
+   "label": "Trevogrumab",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Semaglutide",
+    "Drug: Matching Placebo-Trevogrumab",
+    "Drug: Matching Placebo-Garetosmab"
+   ],
    "label": "Arm A0",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
+    "Drug: Trevogrumab-Part B and Part C",
     "Drug: Semaglutide",
     "Drug: Matching Placebo-Trevogrumab",
     "Drug: Matching Placebo-Garetosmab"
-   ]
-  },
-  {
+   ],
    "label": "Arm A1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Trevogrumab-Part B and Part C",
     "Drug: Semaglutide",
     "Drug: Matching Placebo-Trevogrumab",
     "Drug: Matching Placebo-Garetosmab"
-   ]
-  },
-  {
+   ],
    "label": "Arm B0",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Trevogrumab-Part B and Part C",
     "Drug: Semaglutide",
-    "Drug: Matching Placebo-Trevogrumab",
     "Drug: Matching Placebo-Garetosmab"
-   ]
-  },
-  {
+   ],
    "label": "Arm B1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Trevogrumab-Part B and Part C",
-    "Drug: Semaglutide",
-    "Drug: Matching Placebo-Garetosmab"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Arm C0",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Trevogrumab-Part B and Part C",
     "Drug: Semaglutide",
     "Drug: Matching Placebo-Trevogrumab",
     "Drug: Matching Placebo-Garetosmab"
-   ]
+   ],
+   "label": "Arm C0",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Arm C1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Trevogrumab-Part B and Part C",
     "Drug: Semaglutide",
     "Drug: Matching Placebo-Garetosmab"
-   ]
+   ],
+   "label": "Arm C1",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Trevogrumab-Part B and Part C",
+    "Drug: Garetosmab",
+    "Drug: Semaglutide",
+    "Drug: Matching Placebo-Trevogrumab"
+   ],
    "label": "Arm D0",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Trevogrumab-Part B and Part C",
     "Drug: Garetosmab",
-    "Drug: Semaglutide",
-    "Drug: Matching Placebo-Trevogrumab"
-   ]
-  },
-  {
+    "Drug: Semaglutide"
+   ],
    "label": "Arm D1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Trevogrumab-Part B and Part C",
-    "Drug: Garetosmab",
-    "Drug: Semaglutide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Semaglutide",
+    "Drug: Matching Placebo-Trevogrumab"
+   ],
    "label": "Arm 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Semaglutide",
-    "Drug: Matching Placebo-Trevogrumab"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Arm 2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Trevogrumab-Part B and Part C",
     "Drug: Semaglutide",
     "Drug: Matching Placebo-Trevogrumab"
-   ]
+   ],
+   "label": "Arm 2",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Arm 3",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Trevogrumab-Part B and Part C",
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Arm 3",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -253,10 +253,10 @@
  "brief_summary": "This study is researching experimental drugs called trevogrumab and garetosmab (called \"study drugs\") in combination with another drug, semaglutide (Wegovy®). This study will be done in 3 parts, Part A, Part B, and Part C where different study drugs will be tested.\n\nPart A of the study is focused on healthy participants. Part B and C of the study is focused on participants with obesity.\n\nThe aim of Part A of the study is to see how safe and tolerable the study drug is in healthy participants. The aim of Part B and Part C of the study is to see how safe and effective the study drug is when combined with Wegovy.\n\nParts A, B, and C of the study are looking at several other research questions, including:\n\n* What side effects may happen from taking the study drug\n* How much study drug is in the blood at different times\n* Whether the body makes antibodies against the study drug (which could make the drug less effective or could lead to side effects)",
  "eligibility": {
   "criteria": "Key Inclusion Criteria\n\nPart A\n\n1. Male or female participants age ≥18 to ≤55 years of age at the time of screening\n2. BMI ≥18 and ≤32 kg/m2, at the screening visit\n\n   Part B and Part C\n3. Male or female participants ≥18 to ≤80 years of age at the time of screening\n4. BMI ≥30 kg/m2, at the screening visit\n5. History of 1 or more self-reported unsuccessful dietary attempts to lose weight\n\nKey Exclusion Criteria\n\n1. History of diabetes (Type 2 or Type 1). History of gestational diabetes is permitted\n2. Previous bariatric surgery or planned bariatric surgery\n3. History of hypertrophic cardiomyopathy\n4. Abnormal electrocardiogram (ECG) findings at screening that meet Cornell voltage criteria for left ventricular hypertrophy\n5. Any malignancy in the past 5 years prior to screening (except for nonmelanoma skin cancer that has been resected with no evidence of metastatic disease for 3 years prior to screening)\n6. History of poorly controlled hypertension, as defined in the protocol\n7. Have a history of any other condition (such as known drug abuse, alcohol abuse, diagnosed eating disorder, or a severe mental illness) that, in the opinion of the investigator, may preclude the participant from following and completing the protocol\n8. Have history of use of marijuana/tetrahydrocannabinol (THC) within 90 days prior to Visit 1 of enrollment and are unwilling to abstain from marijuana/THC use during the trial\n9. Has a history of any neuromuscular disorder (eg, multiple sclerosis, myasthenia gravis, myopathy, peripheral neuropathy, etc)\n\nNote: Other protocol-defined Inclusion/ Exclusion Criteria apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -264,544 +264,544 @@
  },
  "sites": [
   {
+   "city": "San Juan",
+   "country": "Puerto Rico",
    "facility": "Fundacion de Investigacion (FDI) Clinical Research",
-   "city": "San Juan",
-   "state": null,
-   "country": "Puerto Rico",
-   "status": null,
    "lat": 18.46633,
-   "lon": -66.10572
+   "lon": -66.10572,
+   "state": null,
+   "status": null
   },
   {
+   "city": "San Juan",
+   "country": "Puerto Rico",
    "facility": "PRCCI Clinical Research Center",
-   "city": "San Juan",
-   "state": null,
-   "country": "Puerto Rico",
-   "status": null,
    "lat": 18.46633,
-   "lon": -66.10572
+   "lon": -66.10572,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Pinnacle Research Group",
    "city": "Anniston",
-   "state": "Alabama",
    "country": "United States",
-   "status": null,
+   "facility": "Pinnacle Research Group",
    "lat": 33.65983,
-   "lon": -85.83163
-  },
-  {
-   "facility": "Cullman Clinical Trials",
-   "city": "Cullman",
+   "lon": -85.83163,
    "state": "Alabama",
+   "status": null
+  },
+  {
+   "city": "Cullman",
    "country": "United States",
-   "status": null,
+   "facility": "Cullman Clinical Trials",
    "lat": 34.17482,
-   "lon": -86.84361
+   "lon": -86.84361,
+   "state": "Alabama",
+   "status": null
   },
   {
-   "facility": "Foothills Research Center Cct Research",
    "city": "Phoenix",
-   "state": "Arizona",
    "country": "United States",
-   "status": null,
+   "facility": "Foothills Research Center Cct Research",
    "lat": 33.44838,
-   "lon": -112.07404
+   "lon": -112.07404,
+   "state": "Arizona",
+   "status": null
   },
   {
-   "facility": "Anaheim Clinical Trials",
    "city": "Anaheim",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Anaheim Clinical Trials",
    "lat": 33.83529,
-   "lon": -117.9145
+   "lon": -117.9145,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "ProSciento",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "ProSciento",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Valiance Clinical Research- Huntington Park",
    "city": "Huntington Park",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Valiance Clinical Research- Huntington Park",
    "lat": 33.98168,
-   "lon": -118.22507
+   "lon": -118.22507,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Velocity, San Diego",
    "city": "La Mesa",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Velocity, San Diego",
    "lat": 32.76783,
-   "lon": -117.02308
+   "lon": -117.02308,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Northern California Research",
    "city": "Sacramento",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Northern California Research",
    "lat": 38.58157,
-   "lon": -121.4944
+   "lon": -121.4944,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Acclaim Clinical Research",
    "city": "San Diego",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Acclaim Clinical Research",
    "lat": 32.71571,
-   "lon": -117.16472
+   "lon": -117.16472,
+   "state": "California",
+   "status": null
   },
   {
+   "city": "Tarzana",
+   "country": "United States",
    "facility": "Metabolic Institute of America",
-   "city": "Tarzana",
-   "state": "California",
-   "country": "United States",
-   "status": null,
    "lat": 34.17334,
-   "lon": -118.55397
+   "lon": -118.55397,
+   "state": "California",
+   "status": null
   },
   {
+   "city": "Tarzana",
+   "country": "United States",
    "facility": "Valiance Clinical Research",
-   "city": "Tarzana",
-   "state": "California",
-   "country": "United States",
-   "status": null,
    "lat": 34.17334,
-   "lon": -118.55397
+   "lon": -118.55397,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Southwest General Healthcare Center",
    "city": "Fort Myers",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Southwest General Healthcare Center",
    "lat": 26.62168,
-   "lon": -81.84059
+   "lon": -81.84059,
+   "state": "Florida",
+   "status": null
   },
   {
+   "city": "Jacksonville",
+   "country": "United States",
    "facility": "Jacksonville Center for Clinical Research",
-   "city": "Jacksonville",
-   "state": "Florida",
-   "country": "United States",
-   "status": null,
    "lat": 30.33218,
-   "lon": -81.65565
+   "lon": -81.65565,
+   "state": "Florida",
+   "status": null
   },
   {
+   "city": "Jacksonville",
+   "country": "United States",
    "facility": "Westside Center for Clinical Research",
-   "city": "Jacksonville",
-   "state": "Florida",
-   "country": "United States",
-   "status": null,
    "lat": 30.33218,
-   "lon": -81.65565
+   "lon": -81.65565,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "IMA Clinical Research St. Petersburg",
    "city": "St. Petersburg",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "IMA Clinical Research St. Petersburg",
    "lat": 27.77086,
-   "lon": -82.67927
+   "lon": -82.67927,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Precision Clinical Research, LLC",
    "city": "Sunrise",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Precision Clinical Research, LLC",
    "lat": 26.13397,
-   "lon": -80.1131
+   "lon": -80.1131,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Clinical Research of West Florida, Inc.",
    "city": "Tampa",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Clinical Research of West Florida, Inc.",
    "lat": 27.94752,
-   "lon": -82.45843
-  },
-  {
-   "facility": "Clinical Research of Central Florida - Bond Clinic",
-   "city": "Winter Haven",
+   "lon": -82.45843,
    "state": "Florida",
+   "status": null
+  },
+  {
+   "city": "Winter Haven",
    "country": "United States",
-   "status": null,
+   "facility": "Clinical Research of Central Florida - Bond Clinic",
    "lat": 28.02224,
-   "lon": -81.73286
+   "lon": -81.73286,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Center for Advanced Research and Education",
    "city": "Gainesville",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Center for Advanced Research and Education",
    "lat": 34.29788,
-   "lon": -83.82407
+   "lon": -83.82407,
+   "state": "Georgia",
+   "status": null
   },
   {
-   "facility": "Balanced Life Health Care Solutions",
    "city": "Lawrenceville",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Balanced Life Health Care Solutions",
    "lat": 33.95621,
-   "lon": -83.98796
-  },
-  {
-   "facility": "North Georgia Clinical Research",
-   "city": "Woodstock",
+   "lon": -83.98796,
    "state": "Georgia",
+   "status": null
+  },
+  {
+   "city": "Woodstock",
    "country": "United States",
-   "status": null,
+   "facility": "North Georgia Clinical Research",
    "lat": 34.10149,
-   "lon": -84.51938
+   "lon": -84.51938,
+   "state": "Georgia",
+   "status": null
   },
   {
-   "facility": "East-West Medical Research Institute",
    "city": "Honolulu",
-   "state": "Hawaii",
    "country": "United States",
-   "status": null,
+   "facility": "East-West Medical Research Institute",
    "lat": 21.30694,
-   "lon": -157.85833
+   "lon": -157.85833,
+   "state": "Hawaii",
+   "status": null
   },
   {
-   "facility": "Elite Clinical Trials LLLP",
    "city": "Blackfoot",
-   "state": "Idaho",
    "country": "United States",
-   "status": null,
+   "facility": "Elite Clinical Trials LLLP",
    "lat": 43.19047,
-   "lon": -112.34498
+   "lon": -112.34498,
+   "state": "Idaho",
+   "status": null
   },
   {
+   "city": "Springfield",
+   "country": "United States",
    "facility": "Prairie Education and Research Cooperative (PERC)",
-   "city": "Springfield",
-   "state": "Illinois",
-   "country": "United States",
-   "status": null,
    "lat": 39.80172,
-   "lon": -89.64371
+   "lon": -89.64371,
+   "state": "Illinois",
+   "status": null
   },
   {
-   "facility": "The South Bend Clinic Center for Research",
    "city": "South Bend",
-   "state": "Indiana",
    "country": "United States",
-   "status": null,
+   "facility": "The South Bend Clinic Center for Research",
    "lat": 41.68338,
-   "lon": -86.25001
+   "lon": -86.25001,
+   "state": "Indiana",
+   "status": null
   },
   {
-   "facility": "Cotton O'Neil Clinical Research Center",
    "city": "Topeka",
-   "state": "Kansas",
    "country": "United States",
-   "status": null,
+   "facility": "Cotton O'Neil Clinical Research Center",
    "lat": 39.04833,
-   "lon": -95.67804
+   "lon": -95.67804,
+   "state": "Kansas",
+   "status": null
   },
   {
-   "facility": "L-MARC Research Center",
    "city": "Louisville",
-   "state": "Kentucky",
    "country": "United States",
-   "status": null,
+   "facility": "L-MARC Research Center",
    "lat": 38.25424,
-   "lon": -85.75941
+   "lon": -85.75941,
+   "state": "Kentucky",
+   "status": null
   },
   {
-   "facility": "Tandem Clinical Research GI, LLC",
    "city": "Marrero",
-   "state": "Louisiana",
    "country": "United States",
-   "status": null,
+   "facility": "Tandem Clinical Research GI, LLC",
    "lat": 29.89937,
-   "lon": -90.10035
-  },
-  {
-   "facility": "IMA Clinical Research Monroe - Armand",
-   "city": "Monroe",
+   "lon": -90.10035,
    "state": "Louisiana",
+   "status": null
+  },
+  {
+   "city": "Monroe",
    "country": "United States",
-   "status": null,
+   "facility": "IMA Clinical Research Monroe - Armand",
    "lat": 32.50931,
-   "lon": -92.1193
+   "lon": -92.1193,
+   "state": "Louisiana",
+   "status": null
   },
   {
-   "facility": "Mayo Clinic",
    "city": "Rochester",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic",
    "lat": 44.02163,
-   "lon": -92.4699
+   "lon": -92.4699,
+   "state": "Minnesota",
+   "status": null
   },
   {
-   "facility": "Prime Health and Wellness Clinic",
    "city": "Fayette",
-   "state": "Mississippi",
    "country": "United States",
-   "status": null,
+   "facility": "Prime Health and Wellness Clinic",
    "lat": 31.71155,
-   "lon": -91.06066
+   "lon": -91.06066,
+   "state": "Mississippi",
+   "status": null
   },
   {
-   "facility": "Olive Branch Family Medical Center",
    "city": "Olive Branch",
-   "state": "Mississippi",
    "country": "United States",
-   "status": null,
+   "facility": "Olive Branch Family Medical Center",
    "lat": 34.96176,
-   "lon": -89.82953
-  },
-  {
-   "facility": "Sky Integrative Medical Center Skycrng",
-   "city": "Ridgeland",
+   "lon": -89.82953,
    "state": "Mississippi",
+   "status": null
+  },
+  {
+   "city": "Ridgeland",
    "country": "United States",
-   "status": null,
+   "facility": "Sky Integrative Medical Center Skycrng",
    "lat": 32.42848,
-   "lon": -90.13231
+   "lon": -90.13231,
+   "state": "Mississippi",
+   "status": null
   },
   {
-   "facility": "Jefferson City Medical Group",
    "city": "Jefferson City",
-   "state": "Missouri",
    "country": "United States",
-   "status": null,
+   "facility": "Jefferson City Medical Group",
    "lat": 38.5767,
-   "lon": -92.17352
-  },
-  {
-   "facility": "Clinvest Research",
-   "city": "Springfield",
+   "lon": -92.17352,
    "state": "Missouri",
+   "status": null
+  },
+  {
+   "city": "Springfield",
    "country": "United States",
-   "status": null,
+   "facility": "Clinvest Research",
    "lat": 37.21533,
-   "lon": -93.29824
+   "lon": -93.29824,
+   "state": "Missouri",
+   "status": null
   },
   {
-   "facility": "Mercury Street Medical Group, PLLC",
    "city": "Butte",
-   "state": "Montana",
    "country": "United States",
-   "status": null,
+   "facility": "Mercury Street Medical Group, PLLC",
    "lat": 46.00382,
-   "lon": -112.53474
+   "lon": -112.53474,
+   "state": "Montana",
+   "status": null
   },
   {
-   "facility": "Hassman Research Institute",
    "city": "Berlin",
-   "state": "New Jersey",
    "country": "United States",
-   "status": null,
+   "facility": "Hassman Research Institute",
    "lat": 39.79123,
-   "lon": -74.92905
+   "lon": -74.92905,
+   "state": "New Jersey",
+   "status": null
   },
   {
-   "facility": "Accellacare Clinical Research, Raleigh Medical Group",
    "city": "Raleigh",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Accellacare Clinical Research, Raleigh Medical Group",
    "lat": 35.7721,
-   "lon": -78.63861
+   "lon": -78.63861,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": "Accellacare of Salisbury",
    "city": "Salisbury",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Accellacare of Salisbury",
    "lat": 35.67097,
-   "lon": -80.47423
+   "lon": -80.47423,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": "Accellacare of Piedmont, Piedmont Healthcare",
    "city": "Statesville",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Accellacare of Piedmont, Piedmont Healthcare",
    "lat": 35.78264,
-   "lon": -80.8873
+   "lon": -80.8873,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": "Pmg Research of Wilmington Llc",
    "city": "Wilmington",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Pmg Research of Wilmington Llc",
    "lat": 34.23556,
-   "lon": -77.94604
+   "lon": -77.94604,
+   "state": "North Carolina",
+   "status": null
   },
   {
+   "city": "Winston-Salem",
+   "country": "United States",
    "facility": "Javara Incorporated at Wake Forest University Health Sciences",
-   "city": "Winston-Salem",
-   "state": "North Carolina",
-   "country": "United States",
-   "status": null,
    "lat": 36.09986,
-   "lon": -80.24422
+   "lon": -80.24422,
+   "state": "North Carolina",
+   "status": null
   },
   {
+   "city": "Winston-Salem",
+   "country": "United States",
    "facility": "PMG Research of Winston-Salem, LLC",
-   "city": "Winston-Salem",
-   "state": "North Carolina",
-   "country": "United States",
-   "status": null,
    "lat": 36.09986,
-   "lon": -80.24422
+   "lon": -80.24422,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": "Velocity Clinical Research Inc.",
    "city": "Cincinnati",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Velocity Clinical Research Inc.",
    "lat": 39.12711,
-   "lon": -84.51439
+   "lon": -84.51439,
+   "state": "Ohio",
+   "status": null
   },
   {
-   "facility": "AMR Norman",
    "city": "Norman",
-   "state": "Oklahoma",
    "country": "United States",
-   "status": null,
+   "facility": "AMR Norman",
    "lat": 35.22257,
-   "lon": -97.43948
+   "lon": -97.43948,
+   "state": "Oklahoma",
+   "status": null
   },
   {
-   "facility": "Altoona Center for Clinical Research",
    "city": "Duncansville",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "Altoona Center for Clinical Research",
    "lat": 40.42341,
-   "lon": -78.4339
+   "lon": -78.4339,
+   "state": "Pennsylvania",
+   "status": null
   },
   {
-   "facility": "Tribe Clinical Research Llc",
    "city": "Greenville",
-   "state": "South Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Tribe Clinical Research Llc",
    "lat": 34.85262,
-   "lon": -82.39401
-  },
-  {
-   "facility": "PMG Research of Charleston",
-   "city": "Mt. Pleasant",
+   "lon": -82.39401,
    "state": "South Carolina",
+   "status": null
+  },
+  {
+   "city": "Mt. Pleasant",
    "country": "United States",
-   "status": null,
+   "facility": "PMG Research of Charleston",
    "lat": 32.79407,
-   "lon": -79.86259
+   "lon": -79.86259,
+   "state": "South Carolina",
+   "status": null
   },
   {
-   "facility": "Pmg Research of Bristol",
    "city": "Bristol",
-   "state": "Tennessee",
    "country": "United States",
-   "status": null,
+   "facility": "Pmg Research of Bristol",
    "lat": 36.59511,
-   "lon": -82.18874
+   "lon": -82.18874,
+   "state": "Tennessee",
+   "status": null
   },
   {
-   "facility": "Chattanooga Medical Research",
    "city": "Chattanooga",
-   "state": "Tennessee",
    "country": "United States",
-   "status": null,
+   "facility": "Chattanooga Medical Research",
    "lat": 35.04563,
-   "lon": -85.30968
+   "lon": -85.30968,
+   "state": "Tennessee",
+   "status": null
   },
   {
+   "city": "Knoxville",
+   "country": "United States",
    "facility": "PMG Research of Knoxville - Emory Road",
-   "city": "Knoxville",
-   "state": "Tennessee",
-   "country": "United States",
-   "status": null,
    "lat": 35.96064,
-   "lon": -83.92074
+   "lon": -83.92074,
+   "state": "Tennessee",
+   "status": null
   },
   {
+   "city": "Knoxville",
+   "country": "United States",
    "facility": "PMG Research of Knoxville - Merchant Drive",
-   "city": "Knoxville",
-   "state": "Tennessee",
-   "country": "United States",
-   "status": null,
    "lat": 35.96064,
-   "lon": -83.92074
+   "lon": -83.92074,
+   "state": "Tennessee",
+   "status": null
   },
   {
-   "facility": "Velocity Clinical Research Dallas",
    "city": "Dallas",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Velocity Clinical Research Dallas",
    "lat": 32.78306,
-   "lon": -96.80667
+   "lon": -96.80667,
+   "state": "Texas",
+   "status": null
   },
   {
-   "facility": "Medresearch Inc",
    "city": "El Paso",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Medresearch Inc",
    "lat": 31.75872,
-   "lon": -106.48693
+   "lon": -106.48693,
+   "state": "Texas",
+   "status": null
   },
   {
-   "facility": "Valley Institute of Research",
    "city": "Fort Worth",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Valley Institute of Research",
    "lat": 32.72541,
-   "lon": -97.32085
-  },
-  {
-   "facility": "Consano Clinical Research",
-   "city": "Shavano Park",
+   "lon": -97.32085,
    "state": "Texas",
+   "status": null
+  },
+  {
+   "city": "Shavano Park",
    "country": "United States",
-   "status": null,
+   "facility": "Consano Clinical Research",
    "lat": 29.58495,
-   "lon": -98.55252
+   "lon": -98.55252,
+   "state": "Texas",
+   "status": null
   },
   {
-   "facility": "Charlottesville Medical Research",
    "city": "Charlottesville",
-   "state": "Virginia",
    "country": "United States",
-   "status": null,
+   "facility": "Charlottesville Medical Research",
    "lat": 38.02931,
-   "lon": -78.47668
+   "lon": -78.47668,
+   "state": "Virginia",
+   "status": null
   },
   {
-   "facility": "Health Research of Hampton Roads, Inc.",
    "city": "Newport News",
-   "state": "Virginia",
    "country": "United States",
-   "status": null,
+   "facility": "Health Research of Hampton Roads, Inc.",
    "lat": 36.98038,
-   "lon": -76.42975
+   "lon": -76.42975,
+   "state": "Virginia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06299098",
@@ -815,6 +815,65 @@
  "sponsors_of_note": [
   "Regeneron"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Part A"
+   },
+   {
+    "text": "Male or female participants age ≥18 to ≤55 years of age at the time of screening"
+   },
+   {
+    "text": "BMI ≥18 and ≤32 kg/m2, at the screening visit"
+   },
+   {
+    "text": "Part B and Part C"
+   },
+   {
+    "text": "Male or female participants ≥18 to ≤80 years of age at the time of screening"
+   },
+   {
+    "text": "BMI ≥30 kg/m2, at the screening visit"
+   },
+   {
+    "text": "History of 1 or more self-reported unsuccessful dietary attempts to lose weight"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of diabetes (Type 2 or Type 1). History of gestational diabetes is permitted"
+   },
+   {
+    "text": "Previous bariatric surgery or planned bariatric surgery"
+   },
+   {
+    "text": "History of hypertrophic cardiomyopathy"
+   },
+   {
+    "text": "Abnormal electrocardiogram (ECG) findings at screening that meet Cornell voltage criteria for left ventricular hypertrophy"
+   },
+   {
+    "text": "Any malignancy in the past 5 years prior to screening (except for nonmelanoma skin cancer that has been resected with no evidence of metastatic disease for 3 years prior to screening)"
+   },
+   {
+    "text": "History of poorly controlled hypertension, as defined in the protocol"
+   },
+   {
+    "text": "Have a history of any other condition (such as known drug abuse, alcohol abuse, diagnosed eating disorder, or a severe mental illness) that, in the opinion of the investigator, may preclude the participant from following and completing the protocol"
+   },
+   {
+    "text": "Have history of use of marijuana/tetrahydrocannabinol (THC) within 90 days prior to Visit 1 of enrollment and are unwilling to abstain from marijuana/THC use during the trial"
+   },
+   {
+    "text": "Has a history of any neuromuscular disorder (eg, multiple sclerosis, myasthenia gravis, myopathy, peripheral neuropathy, etc)"
+   },
+   {
+    "text": "Note: Other protocol-defined Inclusion/ Exclusion Criteria apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

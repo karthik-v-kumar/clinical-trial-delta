@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Seoul National University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Seoul National University Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,27 +50,27 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "Wegovy"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Off Drug then On Drug",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Off Drug then On Drug",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "On Drug then Off Drug",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "On Drug then Off Drug",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -82,23 +82,23 @@
  "brief_summary": "The goal of this clinical trial is to investigate how semaglutide affects the way the brain responds to food in adults with obesity and food addiction tendencies.\n\nThe main goals of this study are:\n\n* To see if semaglutide changes dopamine-related activity in the brain during the look, smell, and drink period.\n* To see if semaglutide changes dopamine-related brain signals during the post-ingestive period.\n* To see if semaglutide changes psychological survey results and cognitive task results.\n\nAdults with obesity and food addiction tendencies will join this study. Each participant will receive semaglutide treatment for 8 weeks. Each participant will have two brain scans using \\[11C\\]raclopride PET.\n\nDuring each PET scan, participants will:\n\n* View food images.\n* Receive chocolate milk through a tube while lying in the scanner.\n* Use a tablet during the scan to rate their hunger, desire for the chocolate milk drink, and liking of the drink.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants aged between 19 and 50 years.\n* Eligible for treatment with semaglutide, defined as either:\n* Initial body mass index (BMI) of 30 kg/m2 or higher; or\n* Initial BMI of 27 kg/m2 to less than 30 kg/m2 with at least one weight-related comorbidity, such as dysglycemia, hypertension, dyslipidemia, obstructive sleep apnea, or cardiovascular disease.\n* Mild or greater food addiction tendency, defined as a Yale Food Addiction Scale (YFAS) score of 3 or higher.\n* Able to understand the study tasks and provide appropriate responses.\n\nExclusion Criteria:\n\n* Use of medications that may affect body weight or dopaminergic medications within the past 2 months.\n* Known hypersensitivity to semaglutide.\n* Pregnant, breastfeeding, or planning to become pregnant.\n* Severe renal impairment, hepatic impairment, heart failure, acute pancreatitis, or thyroid disease.\n* Any medical condition, disease, or medical history that, in the investigator's judgment, would make it difficult for the participant to complete the study or would interfere with interpretation of the study results.\n* Allergy to ingredients in chocolate milk, including milk or soy, or to ingredients that may be present through cross-contamination, including egg, buckwheat, peanut, wheat, peach, tomato, walnut, pork, or beef.\n* Participants with both no self-reported preference for chocolate milk and a chocolate milk preference score of less than 5 on a 10-point visual analog scale (VAS).",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "50 Years",
   "healthy_volunteers": false,
+  "maximum_age": "50 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Seoul National University Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Seoul National University Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07732426",
@@ -110,6 +110,53 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants aged between 19 and 50 years."
+   },
+   {
+    "text": "Eligible for treatment with semaglutide, defined as either:"
+   },
+   {
+    "text": "Initial body mass index (BMI) of 30 kg/m2 or higher; or"
+   },
+   {
+    "text": "Initial BMI of 27 kg/m2 to less than 30 kg/m2 with at least one weight-related comorbidity, such as dysglycemia, hypertension, dyslipidemia, obstructive sleep apnea, or cardiovascular disease."
+   },
+   {
+    "text": "Mild or greater food addiction tendency, defined as a Yale Food Addiction Scale (YFAS) score of 3 or higher."
+   },
+   {
+    "text": "Able to understand the study tasks and provide appropriate responses."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of medications that may affect body weight or dopaminergic medications within the past 2 months."
+   },
+   {
+    "text": "Known hypersensitivity to semaglutide."
+   },
+   {
+    "text": "Pregnant, breastfeeding, or planning to become pregnant."
+   },
+   {
+    "text": "Severe renal impairment, hepatic impairment, heart failure, acute pancreatitis, or thyroid disease."
+   },
+   {
+    "text": "Any medical condition, disease, or medical history that, in the investigator's judgment, would make it difficult for the participant to complete the study or would interfere with interpretation of the study results."
+   },
+   {
+    "text": "Allergy to ingredients in chocolate milk, including milk or soy, or to ingredients that may be present through cross-contamination, including egg, buckwheat, peanut, wheat, peach, tomato, walnut, pork, or beef."
+   },
+   {
+    "text": "Participants with both no self-reported preference for chocolate milk and a chocolate milk preference score of less than 5 on a 10-point visual analog scale (VAS)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

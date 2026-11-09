@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "German Diabetes Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "German Diabetes Center"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "control group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "12 weeks of pioglitazone treatment",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pioglitazone"
-   ]
+   ],
+   "label": "12 weeks of pioglitazone treatment",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -76,10 +76,10 @@
  "brief_summary": "Thiazoledinediones decrease blood glucose by their insulin-sensitizing properties. Here the investigators examined whether pioglitazone improves insulin sensitivity independently of glycemic control and whether adipokines or non-esterfied fatty acids serve as mediators.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* well controlled patients with type 2 diabetes (Hb1Ac \\< 8%)\n* no insulin therapy\n* no co-morbidities\n* stable medication use for the last 6 months\n* stable body weight the last 6 months\n* no diet in the last 6 months\n\nExclusion Criteria:\n\n* Hb1Ac \\> 8%\n* insulin therapy\n* diabetes-related co-morbidities, like cardiovascular disease, neuropathology\n* unstable medication use\n* unstable body weight in the last 6 months (\\> 5 kg)\n* following a diet in the last 6 months",
-  "sex": "ALL",
-  "minimum_age": "45 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "45 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -87,13 +87,13 @@
  },
  "sites": [
   {
-   "facility": "Medical University of Vienna",
    "city": "Vienna",
-   "state": null,
    "country": "Austria",
-   "status": null,
+   "facility": "Medical University of Vienna",
    "lat": 48.20849,
-   "lon": 16.37208
+   "lon": 16.37208,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01570660",
@@ -105,6 +105,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "well controlled patients with type 2 diabetes (Hb1Ac < 8%)"
+   },
+   {
+    "text": "no insulin therapy"
+   },
+   {
+    "text": "no co-morbidities"
+   },
+   {
+    "text": "stable medication use for the last 6 months"
+   },
+   {
+    "text": "stable body weight the last 6 months"
+   },
+   {
+    "text": "no diet in the last 6 months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Hb1Ac > 8%"
+   },
+   {
+    "text": "insulin therapy"
+   },
+   {
+    "text": "diabetes-related co-morbidities, like cardiovascular disease, neuropathology"
+   },
+   {
+    "text": "unstable medication use"
+   },
+   {
+    "text": "unstable body weight in the last 6 months (> 5 kg)"
+   },
+   {
+    "text": "following a diet in the last 6 months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

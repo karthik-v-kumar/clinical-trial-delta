@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Bristol-Myers Squibb"
@@ -50,47 +50,47 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin XR",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glucophage",
    "other_names": [
     "Glucophage™"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Dapagliflozin",
+    "Drug: Metformin XR"
+   ],
    "label": "FDC of dapagliflozin/metformin XR",
-   "type": "OTHER",
+   "type": "OTHER"
+  },
+  {
    "intervention_names": [
     "Drug: Dapagliflozin",
     "Drug: Metformin XR"
-   ]
-  },
-  {
+   ],
    "label": "FDC of dapagliflozin/reduced mass metformin XR",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: Dapagliflozin",
-    "Drug: Metformin XR"
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "dapagliflozin and Glucophage® XR",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Dapagliflozin",
     "Drug: Glucophage"
-   ]
+   ],
+   "label": "dapagliflozin and Glucophage® XR",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -102,23 +102,23 @@
  "brief_summary": "To assess the relative bioavailability of dapagliflozin and metformin from the two FDC formulations, comprised of 10 mg dapagliflozin and 1000 mg metformin XR, relative to coadministration of a dapagliflozin 10 mg tablet and 2 x 500 mg Glucophage® XR tablets, in healthy subjects in a fasted state.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women ages 18 to 45 inclusive\n* Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination, ECGs, and clinical laboratory determinations\n* Body Mass Index (BMI) of 18 to 32 kg/m2, inclusive. BMI = weight (kg)/ \\[height (m)\\]2\n\nExclusion Criteria:\n\n* WOCBP who are unwilling or unable to use an acceptable method to avoid pregnancy for the entire study period and for up to 8 weeks after the last dose of investigational product\n* Any significant acute or chronic medical illness\n* Current or recent (within 3 months) gastrointestinal disease\n* Any major surgery within 4 weeks of study drug administration\n* Glucosuria at screening\n* Abnormal liver functions tests (ALT, AST or total bilirubin \\> 10% above ULN)\n* Presence of edema on physical exam\n* History of diabetes mellitus\n* History of heart failure\n* History of renal insufficiency\n* History of chronic or recurrent UTI (defined as 3 occurrences per year) or UTI in the past 3 months\n* History of recurrent (defined as 3 occurrences per year) or recent vulvovaginal mycotic infections\n* Estimated creatinine clearance (ClCR) of \\< 80 mL/min using the Cockcroft Gault formula\n* History of allergy or intolerance to metformin or other similar agents",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": true,
+  "maximum_age": "45 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Ppd Development, Lp",
    "city": "Austin",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Ppd Development, Lp",
    "lat": 30.26715,
-   "lon": -97.74306
+   "lon": -97.74306,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01002807",
@@ -133,6 +133,65 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women ages 18 to 45 inclusive"
+   },
+   {
+    "text": "Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination, ECGs, and clinical laboratory determinations"
+   },
+   {
+    "text": "Body Mass Index (BMI) of 18 to 32 kg/m2, inclusive. BMI = weight (kg)/ [height (m)]2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "WOCBP who are unwilling or unable to use an acceptable method to avoid pregnancy for the entire study period and for up to 8 weeks after the last dose of investigational product"
+   },
+   {
+    "text": "Any significant acute or chronic medical illness"
+   },
+   {
+    "text": "Current or recent (within 3 months) gastrointestinal disease"
+   },
+   {
+    "text": "Any major surgery within 4 weeks of study drug administration"
+   },
+   {
+    "text": "Glucosuria at screening"
+   },
+   {
+    "text": "Abnormal liver functions tests (ALT, AST or total bilirubin > 10% above ULN)"
+   },
+   {
+    "text": "Presence of edema on physical exam"
+   },
+   {
+    "text": "History of diabetes mellitus"
+   },
+   {
+    "text": "History of heart failure"
+   },
+   {
+    "text": "History of renal insufficiency"
+   },
+   {
+    "text": "History of chronic or recurrent UTI (defined as 3 occurrences per year) or UTI in the past 3 months"
+   },
+   {
+    "text": "History of recurrent (defined as 3 occurrences per year) or recent vulvovaginal mycotic infections"
+   },
+   {
+    "text": "Estimated creatinine clearance (ClCR) of < 80 mL/min using the Cockcroft Gault formula"
+   },
+   {
+    "text": "History of allergy or intolerance to metformin or other similar agents"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

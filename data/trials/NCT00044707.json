@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pramlintide acetate",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pramlintide acetate (AC137)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pramlintide acetate"
-   ]
+   ],
+   "label": "Pramlintide acetate (AC137)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": []
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -76,23 +76,23 @@
  "brief_summary": "This is a randomized, single-blind, placebo-controlled, crossover study to examine the effect of pramlintide on the pharmacokinetics of an orally administered medication",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus treated with diet and/or oral agents\n* HbA1c 6.5-11.0",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "ICSL-Clinical Studies",
    "city": "Fort Lauderdale",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "ICSL-Clinical Studies",
    "lat": 26.12231,
-   "lon": -80.14338
+   "lon": -80.14338,
+   "state": "Florida",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00044707",
@@ -106,6 +106,19 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes mellitus treated with diet and/or oral agents"
+   },
+   {
+    "text": "HbA1c 6.5-11.0"
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

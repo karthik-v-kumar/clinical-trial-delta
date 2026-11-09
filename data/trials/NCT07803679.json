@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Amgen",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Amgen"
  },
  "collaborators": [],
  "conditions": [
@@ -53,40 +53,40 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Evolocumab",
    "other_names": [
     "AMG 145",
     "Repatha"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Routine Lipid Management",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DEVICE",
    "name": "Autoinjector",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Evolocumab and Routine Lipid Management",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Evolocumab",
     "Drug: Routine Lipid Management",
     "Device: Autoinjector"
-   ]
+   ],
+   "label": "Evolocumab and Routine Lipid Management",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Routine Lipid Management",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Routine Lipid Management"
-   ]
+   ],
+   "label": "Routine Lipid Management",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The main aim of this trial is to demonstrate that Evolocumab plus routine lipid management is superior to routine lipid management alone in modifying plaque (non-calcified) volume as measured by Artificial Intelligence-enabled Quantitative Coronary Plaque Analysis (AI-QCPA) from Coronary Computed Tomography Angiography (CCTA).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* At screening, one of the two following conditions must be met: Evidence of established CAD as demonstrated by: Prior non-invasive imaging modality that demonstrates at least one major epicardial vessel with mild-to-moderate obstruction (Coronary Artery Disease Reporting and Data System (CAD-RADS) 1-3) OR Presence of an abnormal coronary artery calcium (CAC) score \\> 50 OR Positive stress test indicative of suspected CAD OR Presumed CAD as determined by presence of at least one of the following conditions: Known history of diabetes mellitus (DM; type 1 or 2) with at least one of the following: DM requiring insulin therapy OR DM disease onset ≥ 5 years ago OR DM with evidence of end-organ damage such as diabetic retinopathy, neuropathy, or nephropathy OR Known history of peripheral artery disease due to atherosclerosis or carotid artery atheroma.\n* Low-density Lipoprotein cholesterol (LDL-C) of at least 70 milligrams per deciliter (mg/dL).\n* Patients with Intermediate pre-test probability of obstructive coronary artery lesions.\n* Minimal total plaque volume (TPV) of 100 cubic millimeters (mm\\^3) measured during baseline AI-QCPA.\n* Must be on stable lipid-lowering therapy for at least 6 weeks, with no planned changes and no plans to initiate Proprotein Convertase Subtilisin/Kexin type 9 ( PCSK9) inhibition.\n\nExclusion Criteria:\n\n* Lifetime history of myocardial infarction (MI), ischemic stroke, or coronary revascularization.\n* Symptomatic coronary artery disease or stable chronic coronary artery disease that, in the opinion of the investigator, meets criteria for urgent or elective revascularization procedures (coronary artery bypass grafting or percutaneous coronary intervention).\n* Planned cardiac surgery, arterial revascularization, or planned major non-cardiac surgery during the study period.\n* Contraindication to performing serial CCTA imaging such as: Severe renal insufficiency (estimated Glomerular Filtration Rate (eGFR) \\< 30 milliliters per minute per 1.73 square meters (30 mL/min/1.73 m\\^2) History of hypersensitivity to iodinated contrast Body weight and/or body circumference that prevent safe and successful Computed Tomography (CT) imaging, in the opinion of the investigator; Other patient-related factors that may interfere with diagnostic quality of CCTA images including: Atrial fibrillation Heart rate \\>60-70 beats per minute; Tachycardia or significant arrhythmia that cannot be adequately controlled with medications to allow CCTA Irregular rhythm (including Premature Ventricular Contraction (PVCs)); Inability to sustain a breath hold for at least five seconds.\n* Prior history of PCSK9 inhibitor treatment within the past 12 months or known lifetime discontinuation of prior PCSK9 inhibitor due to adverse reaction, lack of tolerability, or lack of treatment response.\n* History or evidence of any other clinically significant disorder, condition (including incidental CCTA findings), or disease that, in the opinion of the investigator, would pose a risk to participant safety.\n* CCTA showing any of the following: Total occlusion OR Lesion-specific FFRct value ≤ 0.80 OR Diameter stenosis of the left main coronary artery \\>50 % OR Diameter stenosis of all three major coronary arteries \\>50%.\n* CCTA not meeting established imaging criteria after two attempts during the baseline CCTA visit as assessed by the central imaging laboratory.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,6 +120,53 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "At screening, one of the two following conditions must be met: Evidence of established CAD as demonstrated by: Prior non-invasive imaging modality that demonstrates at least one major epicardial vessel with mild-to-moderate obstruction (Coronary Artery Disease Reporting and Data System (CAD-RADS) 1-3) OR Presence of an abnormal coronary artery calcium (CAC) score > 50 OR Positive stress test indicative of suspected CAD OR Presumed CAD as determined by presence of at least one of the following conditions: Known history of diabetes mellitus (DM; type 1 or 2) with at least one of the following: DM requiring insulin therapy OR DM disease onset ≥ 5 years ago OR DM with evidence of end-organ damage such as diabetic retinopathy, neuropathy, or nephropathy OR Known history of peripheral artery disease due to atherosclerosis or carotid artery atheroma."
+   },
+   {
+    "text": "Low-density Lipoprotein cholesterol (LDL-C) of at least 70 milligrams per deciliter (mg/dL)."
+   },
+   {
+    "text": "Patients with Intermediate pre-test probability of obstructive coronary artery lesions."
+   },
+   {
+    "text": "Minimal total plaque volume (TPV) of 100 cubic millimeters (mm^3) measured during baseline AI-QCPA."
+   },
+   {
+    "text": "Must be on stable lipid-lowering therapy for at least 6 weeks, with no planned changes and no plans to initiate Proprotein Convertase Subtilisin/Kexin type 9 ( PCSK9) inhibition."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Lifetime history of myocardial infarction (MI), ischemic stroke, or coronary revascularization."
+   },
+   {
+    "text": "Symptomatic coronary artery disease or stable chronic coronary artery disease that, in the opinion of the investigator, meets criteria for urgent or elective revascularization procedures (coronary artery bypass grafting or percutaneous coronary intervention)."
+   },
+   {
+    "text": "Planned cardiac surgery, arterial revascularization, or planned major non-cardiac surgery during the study period."
+   },
+   {
+    "text": "Contraindication to performing serial CCTA imaging such as: Severe renal insufficiency (estimated Glomerular Filtration Rate (eGFR) < 30 milliliters per minute per 1.73 square meters (30 mL/min/1.73 m^2) History of hypersensitivity to iodinated contrast Body weight and/or body circumference that prevent safe and successful Computed Tomography (CT) imaging, in the opinion of the investigator; Other patient-related factors that may interfere with diagnostic quality of CCTA images including: Atrial fibrillation Heart rate >60-70 beats per minute; Tachycardia or significant arrhythmia that cannot be adequately controlled with medications to allow CCTA Irregular rhythm (including Premature Ventricular Contraction (PVCs)); Inability to sustain a breath hold for at least five seconds."
+   },
+   {
+    "text": "Prior history of PCSK9 inhibitor treatment within the past 12 months or known lifetime discontinuation of prior PCSK9 inhibitor due to adverse reaction, lack of tolerability, or lack of treatment response."
+   },
+   {
+    "text": "History or evidence of any other clinically significant disorder, condition (including incidental CCTA findings), or disease that, in the opinion of the investigator, would pose a risk to participant safety."
+   },
+   {
+    "text": "CCTA showing any of the following: Total occlusion OR Lesion-specific FFRct value ≤ 0.80 OR Diameter stenosis of the left main coronary artery >50 % OR Diameter stenosis of all three major coronary arteries >50%."
+   },
+   {
+    "text": "CCTA not meeting established imaging criteria after two attempts during the baseline CCTA visit as assessed by the central imaging laboratory."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

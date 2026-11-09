@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-05-18",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The Medicines Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "The Medicines Company"
  },
  "collaborators": [],
  "conditions": [
@@ -48,26 +48,26 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ALN-PCSSC",
    "other_names": [
     "PCSK9 synthesis inhibitor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Standard of Care",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ALN-PCSSC",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ALN-PCSSC",
     "Drug: Standard of Care"
-   ]
+   ],
+   "label": "ALN-PCSSC",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The purpose of this study is to assess the safety, tolerability, and efficacy of ALN-PCSSC in participants with homozygous familial hypercholesterolemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males and females, ≥12 years of age with a diagnosis of homozygous familial hypercholesterolemia by genetic confirmation or a clinical diagnosis based on a history of an untreated low-density lipoprotein cholesterol (LDL-C) concentration \\>500 mg/deciliter (dL) \\[13 millimoles/liter (mmol/L)\\] together with either xanthoma before 10 years of age or evidence of heterozygous familial hypercholesterolemia in both parents.\n* Stable on a low-fat diet.\n* Stable on pre-existing, lipid-lowering therapies (such as statins, cholesterolabsorption inhibitors, bile-acid sequestrants, or combinations thereof) for at least 4 weeks with no planned medication or dose change for the duration of study participation.\n* Fasting central lab LDL-C concentration \\>130 mg/dL (3.4 mmol/L) and triglyceride concentration \\<400 mg/dL (4.5 mmol/L).\n* Body weight of 40 kilograms (kg) or greater at screening.\n\nExclusion Criteria:\n\n* LDL or plasma apheresis within 8 weeks prior to the screening visit, and no plan to receive it during the study because of the attendant difficulty in maintaining stable concentrations of LDL-C while receiving apheresis.\n* Use of mipomersen or lomitapide therapy within 5 months of screening.\n* Previous treatment with monoclonal antibodies directed towards PCSK9 within 8 weeks of screening.\n\nThe above information is not intended to contain all considerations relevant to a participant's potential participation in a clinical trial.",
-  "sex": "ALL",
-  "minimum_age": "12 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "12 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -95,31 +95,31 @@
  },
  "sites": [
   {
-   "facility": "Research Site 231001",
    "city": "Amsterdam",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site 231001",
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site 227001",
    "city": "Parktown",
-   "state": "Johannesburg",
    "country": "South Africa",
-   "status": null,
+   "facility": "Research Site 227001",
    "lat": -26.18205,
-   "lon": 28.02671
+   "lon": 28.02671,
+   "state": "Johannesburg",
+   "status": null
   },
   {
-   "facility": "Research Site 201001",
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site 201001",
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02963311",
@@ -131,6 +131,41 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females, ≥12 years of age with a diagnosis of homozygous familial hypercholesterolemia by genetic confirmation or a clinical diagnosis based on a history of an untreated low-density lipoprotein cholesterol (LDL-C) concentration >500 mg/deciliter (dL) [13 millimoles/liter (mmol/L)] together with either xanthoma before 10 years of age or evidence of heterozygous familial hypercholesterolemia in both parents."
+   },
+   {
+    "text": "Stable on a low-fat diet."
+   },
+   {
+    "text": "Stable on pre-existing, lipid-lowering therapies (such as statins, cholesterolabsorption inhibitors, bile-acid sequestrants, or combinations thereof) for at least 4 weeks with no planned medication or dose change for the duration of study participation."
+   },
+   {
+    "text": "Fasting central lab LDL-C concentration >130 mg/dL (3.4 mmol/L) and triglyceride concentration <400 mg/dL (4.5 mmol/L)."
+   },
+   {
+    "text": "Body weight of 40 kilograms (kg) or greater at screening."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "LDL or plasma apheresis within 8 weeks prior to the screening visit, and no plan to receive it during the study because of the attendant difficulty in maintaining stable concentrations of LDL-C while receiving apheresis."
+   },
+   {
+    "text": "Use of mipomersen or lomitapide therapy within 5 months of screening."
+   },
+   {
+    "text": "Previous treatment with monoclonal antibodies directed towards PCSK9 within 8 weeks of screening."
+   },
+   {
+    "text": "The above information is not intended to contain all considerations relevant to a participant's potential participation in a clinical trial."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

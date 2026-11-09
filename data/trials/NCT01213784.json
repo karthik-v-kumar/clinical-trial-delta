@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Aarhus",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Aarhus"
  },
  "collaborators": [
   "The Danish Diabetes Association"
@@ -53,23 +53,23 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "all antidiabetic drugs will be appliable",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "optimized diabetic control",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: all antidiabetic drugs will be appliable"
-   ]
+   ],
+   "label": "optimized diabetic control",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "The investigators wish to investigate wether a more strict diabetic control improves cardiac function, muscle strength, exercise capacity and decreases symptoms.\n\nThe investigators hypothesis is that improving the glycemic control in suboptimized diabetics with heart failure will improve cardiac performance, muscle strength, exercise capacity and decrease symptoms.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Ejection fraction =\\<45%\n* Diabetes\n* Hba1c =\\>7,5%\n* In anticongestive treatment\n* NYHA class 2-4\n\nExclusion Criteria:\n\n* Severe angina (CCS 3-4)\n* Hemodynamic significant heart valve disease\n* Congenital heart disease\n* Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "90 Years",
   "healthy_volunteers": false,
+  "maximum_age": "90 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "facility": "Dept. of cardiology, Aarhus university hospital Skejby",
    "city": "Aarhus",
-   "state": "Central Jutland",
    "country": "Denmark",
-   "status": null,
+   "facility": "Dept. of cardiology, Aarhus university hospital Skejby",
    "lat": 56.15674,
-   "lon": 10.21076
+   "lon": 10.21076,
+   "state": "Central Jutland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01213784",
@@ -110,6 +110,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Ejection fraction =<45%"
+   },
+   {
+    "text": "Diabetes"
+   },
+   {
+    "text": "Hba1c =>7,5%"
+   },
+   {
+    "text": "In anticongestive treatment"
+   },
+   {
+    "text": "NYHA class 2-4"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe angina (CCS 3-4)"
+   },
+   {
+    "text": "Hemodynamic significant heart valve disease"
+   },
+   {
+    "text": "Congenital heart disease"
+   },
+   {
+    "text": "Pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2025-03-03",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Albert Einstein College of Medicine",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Albert Einstein College of Medicine"
  },
  "collaborators": [
   "Takeda"
@@ -53,43 +53,43 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Actos, Thiazolidinedione"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Control"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "PROCEDURE",
    "name": "Pancreatic Clamp Study",
    "other_names": [
     "Glucose clamp technique"
-   ]
+   ],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pioglitazone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pioglitazone",
     "Procedure: Pancreatic Clamp Study"
-   ]
+   ],
+   "label": "Pioglitazone",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Procedure: Pancreatic Clamp Study"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The purpose of this study is to investigate the acute effects of the thiazolidinedione agent pioglitazone (which has combined PPAR alpha and gamma stimulation) on insulin's ability to suppress glucose production, stimulated glucose uptake, and impact a number of other metabolically important endpoints, including production of adiponectin (a protein hormone which regulates sugar levels and fatty acid breakdown) in subjects with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n• Individuals with Type 2 Diabetes\n\nExclusion Criteria:\n\n* Individuals with bleeding disorders including gastrointestinal reflux disease (GERD), peptic ulcer disease (PUD), any gastrointestinal (GI) bleeding\n* High blood pressure\n* History of Coronary Artery Disease or chest pain on exertion",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "Albert Einstein College of Medicine",
    "city": "The Bronx",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Albert Einstein College of Medicine",
    "lat": 40.84985,
-   "lon": -73.86641
+   "lon": -73.86641,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00179400",
@@ -134,6 +134,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Individuals with Type 2 Diabetes"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Individuals with bleeding disorders including gastrointestinal reflux disease (GERD), peptic ulcer disease (PUD), any gastrointestinal (GI) bleeding"
+   },
+   {
+    "text": "High blood pressure"
+   },
+   {
+    "text": "History of Coronary Artery Disease or chest pain on exertion"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

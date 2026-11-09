@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Getz Pharma",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Getz Pharma"
  },
  "collaborators": [],
  "conditions": [
@@ -50,48 +50,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Zolid"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
    "other_names": [
     "Diampa"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone + Empagliflozin",
    "other_names": [
     "Zolid + Diampa"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pioglitazone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pioglitazone"
-   ]
+   ],
+   "label": "Pioglitazone",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Empagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Empagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Pioglitazone + Empagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pioglitazone + Empagliflozin"
-   ]
+   ],
+   "label": "Pioglitazone + Empagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -103,23 +103,23 @@
  "brief_summary": "This randomized clinical trial aims to compare the effect of the pioglitazone and SGLT2 inhibitor combination on liver fat mass, as compared to either drug used alone, with or without background medical therapy of metformin and/or DDP4 inhibitors.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient who give informed consent voluntarily\n* Type 2 diabetic patient having age from 18 years to 60 years\n* HbA1C ≥ 7.0 %\n* Diabetes diagnosis of ≤ 5 years (longer duration more likely to be associated with use of multiple drug regimens for glycemic control which may affect liver fat mass)\n* Either treatment naïve or on metformin alone or metformin/DPP4i combination\n* Absolute weight \\< 100kg; BMI \\< 45 (fibro scan machine cannot accommodate heavier individuals)\n* Documented hepatosteatosis (If the fibroscan reveals S1 (mild fatty liver: 11-33% fatty liver) to S3 (severe fatty liver: \\> 67% fatty liver) liver fat\n\nExclusion Criteria:\n\n* Hba1c ≥ 9% and/or blood sugar \\> 250mg/dl\n* History of uncontrolled Endocrine disorder (for example uncontrolled hypothyroidism, or that requiring frequent dose adjustment, or Cushings syndrome)\n* History of anti-obesity medication use within 3 months of consent for study enrollment or weight loss procedure(bariatric surgery) within same duration\n* History of use of SGLT 2 inhibitors, glitazones, Glucagon-like peptide (GLP) 1 agonists 3 months prior to study enrollment as they influence liver fat\n* History of use of insulin/sulphonylurea 3 months prior to study enrollment owing to weight gain and potential increase in liver fat conferred by these agents\n* History of vitamin E use (400mg twice daily) within 3 months of study enrollment\n* Drug induced liver disease or active substance abuse (cannabonnoid-derived substances like heroin, cocaine, amphetamines) based on history and/or laboratory tests\n* Drugs known to be associated with hepatic steatosis like steroids, traditional homeopathic medication (likely to contain steroids), methotrexate, valproate, tamoxifen, amiodarone.\n* Alcohol use (History of alcoholism or a greater than recommended alcohol intake (\\> 21 standard drinks on average per week in men and \\> 14 standard drinks on average per week in women)\n* Severe hepatic impairment (ALT levels \\> 3 times upper limit normal)\n* Hepatitis B/C hepatitis (based on positive Hepatitis B surface antigen, Anti Hepatitis C antibodies positive\n* Autoimmune hepatitis (in case of females), based on positive Anti-nuclear Antibody (ANA) (homogenous, high titre)\n* Positive Human Immunodeficiency Virus ( HIV) test as this could influence liver functions\n* Pregnant or lactating women/ plans for pregnancy over proceeding 13 months\n* Obstructive liver disease on the basis of laboratory and imaging studies\n* Chronic renal failure, or Glomerular Filtration Rate (GFR) \\< 30 mls/minute (as estimated by the MDRD equation)\n* Chronic heart failure, history of acute coronary artery disease or cerebrovascular accident within 3 months of consent for study enrollment, based on history and/or cardiac imaging\n* History of recurrent Urinary Tract Infections (UTI's) or mycotic infections\n* Presence of ketones on Urine Analysis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": true,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Aga Khan University Hospital",
    "city": "Karachi",
-   "state": "Sindh",
    "country": "Pakistan",
-   "status": "RECRUITING",
+   "facility": "Aga Khan University Hospital",
    "lat": 24.8608,
-   "lon": 67.0104
+   "lon": 67.0104,
+   "state": "Sindh",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04976283",
@@ -131,6 +131,92 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient who give informed consent voluntarily"
+   },
+   {
+    "text": "Type 2 diabetic patient having age from 18 years to 60 years"
+   },
+   {
+    "text": "HbA1C ≥ 7.0 %"
+   },
+   {
+    "text": "Diabetes diagnosis of ≤ 5 years (longer duration more likely to be associated with use of multiple drug regimens for glycemic control which may affect liver fat mass)"
+   },
+   {
+    "text": "Either treatment naïve or on metformin alone or metformin/DPP4i combination"
+   },
+   {
+    "text": "Absolute weight < 100kg; BMI < 45 (fibro scan machine cannot accommodate heavier individuals)"
+   },
+   {
+    "text": "Documented hepatosteatosis (If the fibroscan reveals S1 (mild fatty liver: 11-33% fatty liver) to S3 (severe fatty liver: > 67% fatty liver) liver fat"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Hba1c ≥ 9% and/or blood sugar > 250mg/dl"
+   },
+   {
+    "text": "History of uncontrolled Endocrine disorder (for example uncontrolled hypothyroidism, or that requiring frequent dose adjustment, or Cushings syndrome)"
+   },
+   {
+    "text": "History of anti-obesity medication use within 3 months of consent for study enrollment or weight loss procedure(bariatric surgery) within same duration"
+   },
+   {
+    "text": "History of use of SGLT 2 inhibitors, glitazones, Glucagon-like peptide (GLP) 1 agonists 3 months prior to study enrollment as they influence liver fat"
+   },
+   {
+    "text": "History of use of insulin/sulphonylurea 3 months prior to study enrollment owing to weight gain and potential increase in liver fat conferred by these agents"
+   },
+   {
+    "text": "History of vitamin E use (400mg twice daily) within 3 months of study enrollment"
+   },
+   {
+    "text": "Drug induced liver disease or active substance abuse (cannabonnoid-derived substances like heroin, cocaine, amphetamines) based on history and/or laboratory tests"
+   },
+   {
+    "text": "Drugs known to be associated with hepatic steatosis like steroids, traditional homeopathic medication (likely to contain steroids), methotrexate, valproate, tamoxifen, amiodarone."
+   },
+   {
+    "text": "Alcohol use (History of alcoholism or a greater than recommended alcohol intake (> 21 standard drinks on average per week in men and > 14 standard drinks on average per week in women)"
+   },
+   {
+    "text": "Severe hepatic impairment (ALT levels > 3 times upper limit normal)"
+   },
+   {
+    "text": "Hepatitis B/C hepatitis (based on positive Hepatitis B surface antigen, Anti Hepatitis C antibodies positive"
+   },
+   {
+    "text": "Autoimmune hepatitis (in case of females), based on positive Anti-nuclear Antibody (ANA) (homogenous, high titre)"
+   },
+   {
+    "text": "Positive Human Immunodeficiency Virus ( HIV) test as this could influence liver functions"
+   },
+   {
+    "text": "Pregnant or lactating women/ plans for pregnancy over proceeding 13 months"
+   },
+   {
+    "text": "Obstructive liver disease on the basis of laboratory and imaging studies"
+   },
+   {
+    "text": "Chronic renal failure, or Glomerular Filtration Rate (GFR) < 30 mls/minute (as estimated by the MDRD equation)"
+   },
+   {
+    "text": "Chronic heart failure, history of acute coronary artery disease or cerebrovascular accident within 3 months of consent for study enrollment, based on history and/or cardiac imaging"
+   },
+   {
+    "text": "History of recurrent Urinary Tract Infections (UTI's) or mycotic infections"
+   },
+   {
+    "text": "Presence of ketones on Urine Analysis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

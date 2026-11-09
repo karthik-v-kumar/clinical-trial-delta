@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Exeter",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Exeter"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Beetroot juice",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Nitrate depleted beetroot juice",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Active",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Beetroot juice"
-   ]
+   ],
+   "label": "Active",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Nitrate depleted beetroot juice"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "Dietary nitrate supplementation has previously been shown to reduce blood pressure in healthy volunteers. The investigators wished to see whether this would be replicated in subjects with type 2 diabetes and age matched healthy controls.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with type II diabetes (as defined by WHO) of at least 5 years duration between the ages of 35-75 known to have blood pressure above 125mmHg systolic and/or 85mmHg diastolic, or who are taking one or two antihypertensive drugs will be invited.\n\nHealthy Control inclusion/exclusion criteria\n\nInclusion criteria\n\n* Age and sex matched for participants with diabetes\n* Not on any regular medication, excluding the oral contraceptive pill\n* Able to give informed consent\n\nExclusion Criteria:\n\n* Patients with significant renal impairment (eGFR\\<30), uncontrolled hypertension, BMI\\<25 or \\>35, are taking regular organic nitrates, nicorandil, glitazones, phosphodiesterase inhibitors, who have had a myocardial infarction or cerebro-vascular event, who smoke, or any other serious medical condition which would interfere with data interpretation or safety will be excluded\n\nExclusion Criteria\n\n* Antibiotic therapy within the preceding two weeks\n* Myocardial infarction or cerebro-vascular event within the preceding three months\n* Current smoker\n* Any other medical condition which would interfere with data interpretation or safety.",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "NIHR Exeter Clinical Research Facility",
    "city": "Exeter",
-   "state": "Devon",
    "country": "United Kingdom",
-   "status": null,
+   "facility": "NIHR Exeter Clinical Research Facility",
    "lat": 50.7236,
-   "lon": -3.52751
+   "lon": -3.52751,
+   "state": "Devon",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04076007",
@@ -121,6 +121,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with type II diabetes (as defined by WHO) of at least 5 years duration between the ages of 35-75 known to have blood pressure above 125mmHg systolic and/or 85mmHg diastolic, or who are taking one or two antihypertensive drugs will be invited."
+   },
+   {
+    "text": "Healthy Control inclusion/exclusion criteria"
+   },
+   {
+    "text": "Age and sex matched for participants with diabetes"
+   },
+   {
+    "text": "Not on any regular medication, excluding the oral contraceptive pill"
+   },
+   {
+    "text": "Able to give informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with significant renal impairment (eGFR<30), uncontrolled hypertension, BMI<25 or >35, are taking regular organic nitrates, nicorandil, glitazones, phosphodiesterase inhibitors, who have had a myocardial infarction or cerebro-vascular event, who smoke, or any other serious medical condition which would interfere with data interpretation or safety will be excluded"
+   },
+   {
+    "text": "Antibiotic therapy within the preceding two weeks"
+   },
+   {
+    "text": "Myocardial infarction or cerebro-vascular event within the preceding three months"
+   },
+   {
+    "text": "Current smoker"
+   },
+   {
+    "text": "Any other medical condition which would interfere with data interpretation or safety."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

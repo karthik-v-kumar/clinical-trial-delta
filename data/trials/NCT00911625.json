@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-03-10",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Loyola University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Loyola University"
  },
  "collaborators": [
   "Sanofi"
@@ -51,36 +51,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "0.5 units/kg daily insulin",
    "other_names": [
     "Lantus",
     "Apidra"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "0.25 units/kg daily insulin",
    "other_names": [
     "Lantus",
     "Apidra"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "0.5 units/kg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: 0.5 units/kg daily insulin"
-   ]
+   ],
+   "label": "0.5 units/kg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "0.25 units/kg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: 0.25 units/kg daily insulin"
-   ]
+   ],
+   "label": "0.25 units/kg",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "It is imperative to devise easy to follow, yet appropriate, guidelines for insulin use in renal-impaired patients. This will be done by comparing two regimens: 1) glargine once daily plus mealtime glulisine based on weight alone and 2) a predetermined dosing reduction algorithm with glargine/glulisine based on weight with reduction for decreased estimated GFR by MDRD as follows: \\< 30 ml/min/1.73m2 or on dialysis reduce dose by 50% from weight based calculation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes Mellitus of mor than 1year\n* GFR less than 30 ml/min/1.73m2 or dialysis\n* Age greater than 18years\n* Entry blood glucose (fasting or random) greater than 180mg%\n\nExclusion Criteria:\n\n* Type 1 Diabetes Mellitus\n* New onset hyperglycemia\n* Pregnant\n* Solid organ transplant within 1 year\n* Steroids prednisone greater than 7.5mg/day or equivalent\n* Hospital LOS predicted less than 2 days\n* Severe liver disease\n* Known hypopituitarism or adrenal insufficiency\n* Patients in the ICU\n* Patients with hypoglycemic unawareness\n* Outpatient insulin dose less than 0.6 units/kg",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,31 +103,31 @@
  },
  "sites": [
   {
+   "city": "Chicago",
+   "country": "United States",
    "facility": "Northwestern University Medical Center",
-   "city": "Chicago",
-   "state": "Illinois",
-   "country": "United States",
-   "status": null,
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   },
   {
+   "city": "Chicago",
+   "country": "United States",
    "facility": "Rush University Medical Center",
-   "city": "Chicago",
-   "state": "Illinois",
-   "country": "United States",
-   "status": null,
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   },
   {
-   "facility": "Loyola University Hospital",
    "city": "Maywood",
-   "state": "Illinois",
    "country": "United States",
-   "status": null,
+   "facility": "Loyola University Hospital",
    "lat": 41.8792,
-   "lon": -87.84312
+   "lon": -87.84312,
+   "state": "Illinois",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00911625",
@@ -139,6 +139,59 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes Mellitus of mor than 1year"
+   },
+   {
+    "text": "GFR less than 30 ml/min/1.73m2 or dialysis"
+   },
+   {
+    "text": "Age greater than 18years"
+   },
+   {
+    "text": "Entry blood glucose (fasting or random) greater than 180mg%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 Diabetes Mellitus"
+   },
+   {
+    "text": "New onset hyperglycemia"
+   },
+   {
+    "text": "Pregnant"
+   },
+   {
+    "text": "Solid organ transplant within 1 year"
+   },
+   {
+    "text": "Steroids prednisone greater than 7.5mg/day or equivalent"
+   },
+   {
+    "text": "Hospital LOS predicted less than 2 days"
+   },
+   {
+    "text": "Severe liver disease"
+   },
+   {
+    "text": "Known hypopituitarism or adrenal insufficiency"
+   },
+   {
+    "text": "Patients in the ICU"
+   },
+   {
+    "text": "Patients with hypoglycemic unawareness"
+   },
+   {
+    "text": "Outpatient insulin dose less than 0.6 units/kg"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

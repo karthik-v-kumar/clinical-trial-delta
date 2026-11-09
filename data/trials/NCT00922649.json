@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "DEVICE_FEASIBILITY",
   "masking": "NONE",
+  "primary_purpose": "DEVICE_FEASIBILITY",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Animas Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Animas Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -48,32 +48,32 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Insulin Pump therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Device: Insulin Pump therapy"
+   ],
    "label": "A",
-   "type": "OTHER",
-   "intervention_names": [
-    "Device: Insulin Pump therapy"
-   ]
+   "type": "OTHER"
   },
   {
+   "intervention_names": [
+    "Device: Insulin Pump therapy"
+   ],
    "label": "B",
-   "type": "OTHER",
-   "intervention_names": [
-    "Device: Insulin Pump therapy"
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "C",
-   "type": "OTHER",
    "intervention_names": [
     "Device: Insulin Pump therapy"
-   ]
+   ],
+   "label": "C",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "16-week, open-label, multi-center pilot study. Insulin pump naïve subjects with type 2 diabetes who are not achieving glycemic targets (screening A1C ≥ 7.0%) on an established regimen of either: 1) ≥ 2 OAs (Cohort A), 2) basal insulin ± OAs (Cohort B), or 3) basal-bolus insulin ± OAs (Cohort C) will initiate basal-bolus therapy with an insulin pump using a rapid-acting insulin analog.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Is 18 to 75 years of age, inclusive;\n2. Has a clinical diagnosis of type 2 diabetes mellitus;\n3. Is anti-glutamic acid decarboxylase (GAD) antibody negative;\n4. Has an A1C ≥ 7.0% and ≤ 10.5%;\n5. Has a body mass index (BMI) ≥ 25 kg/m2 and ≤ 40 kg/m2;\n6. Is treated with either ≥ 2 oral antidiabetic agents (OA) or basal insulin ± OA(s) or basal-bolus insulin ± OA(s) for at least 3 months (Subjects may also be treated with exenatide \\[Byetta\\] or pramlintide \\[Symlin\\].\n7. If on concomitant metformin, has serum creatinine \\< 1.5 mg/dL (male) or \\<1.4 mg/dL (female);\n8. If female, has a negative urine pregnancy test\n\nExclusion Criteria:\n\n1. Has experienced recurrent severe hypoglycemia (\\> 2 episodes) requiring assistance during the past 6 months;\n2. Has clinical cardiovascular disease (CVD) as evidenced by prior myocardial infarction, stroke, arterial revascularization and/or angina with ischemic changes on ECG at rest, changes on graded exercise test, or positive cardiac imaging test results;\n3. Has abnormalities on the screening (Visit 1) 12-lead ECG that are deemed by the investigator to be clinically significant;\n4. Is currently being treated with or expected to require or undergo treatment with systemic steroids by oral, intravenous, or intramuscular route or potent inhaled,intrapulmonary, intranasal, or topical steroids that are known to have a high rate of systemic absorption;\n5. Currently abuses drugs or alcohol or has a history of abuse that in the investigator's opinion would cause the individual to be non-compliant;\n6. Has any significant medical condition, laboratory findings, or medical history that in the investigator's opinion may affect successful completion of the study and/or personal well-being;",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,58 +104,58 @@
  },
  "sites": [
   {
-   "facility": "The Regents of the University of California on behalf of its San Diego campus",
    "city": "La Jolla",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "The Regents of the University of California on behalf of its San Diego campus",
    "lat": 32.84727,
-   "lon": -117.2742
-  },
-  {
-   "facility": "AMCR Institute, Inc.",
-   "city": "San Diego",
+   "lon": -117.2742,
    "state": "California",
+   "status": null
+  },
+  {
+   "city": "San Diego",
    "country": "United States",
-   "status": null,
+   "facility": "AMCR Institute, Inc.",
    "lat": 32.71571,
-   "lon": -117.16472
+   "lon": -117.16472,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Atlanta Diabetes Associates, Inc.",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Atlanta Diabetes Associates, Inc.",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   },
   {
-   "facility": "Rocky Mountain Diabetes and Osteoporosis Center, PA",
    "city": "Idaho Falls",
-   "state": "Idaho",
    "country": "United States",
-   "status": null,
+   "facility": "Rocky Mountain Diabetes and Osteoporosis Center, PA",
    "lat": 43.46658,
-   "lon": -112.03414
+   "lon": -112.03414,
+   "state": "Idaho",
+   "status": null
   },
   {
-   "facility": "Kentucky Diabetes Endocrinology Center",
    "city": "Lexington",
-   "state": "Kentucky",
    "country": "United States",
-   "status": null,
+   "facility": "Kentucky Diabetes Endocrinology Center",
    "lat": 37.98869,
-   "lon": -84.47772
+   "lon": -84.47772,
+   "state": "Kentucky",
+   "status": null
   },
   {
-   "facility": "dgd Research, Inc.",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "dgd Research, Inc.",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00922649",
@@ -167,6 +167,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Is 18 to 75 years of age, inclusive;"
+   },
+   {
+    "text": "Has a clinical diagnosis of type 2 diabetes mellitus;"
+   },
+   {
+    "text": "Is anti-glutamic acid decarboxylase (GAD) antibody negative;"
+   },
+   {
+    "text": "Has an A1C ≥ 7.0% and ≤ 10.5%;"
+   },
+   {
+    "text": "Has a body mass index (BMI) ≥ 25 kg/m2 and ≤ 40 kg/m2;"
+   },
+   {
+    "text": "Is treated with either ≥ 2 oral antidiabetic agents (OA) or basal insulin ± OA(s) or basal-bolus insulin ± OA(s) for at least 3 months (Subjects may also be treated with exenatide [Byetta] or pramlintide [Symlin]."
+   },
+   {
+    "text": "If on concomitant metformin, has serum creatinine < 1.5 mg/dL (male) or <1.4 mg/dL (female);"
+   },
+   {
+    "text": "If female, has a negative urine pregnancy test"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has experienced recurrent severe hypoglycemia (> 2 episodes) requiring assistance during the past 6 months;"
+   },
+   {
+    "text": "Has clinical cardiovascular disease (CVD) as evidenced by prior myocardial infarction, stroke, arterial revascularization and/or angina with ischemic changes on ECG at rest, changes on graded exercise test, or positive cardiac imaging test results;"
+   },
+   {
+    "text": "Has abnormalities on the screening (Visit 1) 12-lead ECG that are deemed by the investigator to be clinically significant;"
+   },
+   {
+    "text": "Is currently being treated with or expected to require or undergo treatment with systemic steroids by oral, intravenous, or intramuscular route or potent inhaled,intrapulmonary, intranasal, or topical steroids that are known to have a high rate of systemic absorption;"
+   },
+   {
+    "text": "Currently abuses drugs or alcohol or has a history of abuse that in the investigator's opinion would cause the individual to be non-compliant;"
+   },
+   {
+    "text": "Has any significant medical condition, laboratory findings, or medical history that in the investigator's opinion may affect successful completion of the study and/or personal well-being;"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

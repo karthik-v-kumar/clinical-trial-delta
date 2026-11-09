@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yonsei University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Yonsei University"
  },
  "collaborators": [],
  "conditions": [
@@ -50,78 +50,78 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Sirolimus-eluting stent",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "Biolimus-eluting stents",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DRUG",
    "name": "pravastatin 20mg/day after DES implantation",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "pitavastatin 2mg/day after DES implantation",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Non-ARB /day after DES implantation",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Eposartan 600mg/day after DES implantation",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Cypher group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Sirolimus-eluting stent"
-   ]
+   ],
+   "label": "Cypher group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Nobori group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Biolimus-eluting stents"
-   ]
+   ],
+   "label": "Nobori group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Pravastatin group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: pravastatin 20mg/day after DES implantation"
-   ]
+   ],
+   "label": "Pravastatin group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Pitivastatin group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: pitavastatin 2mg/day after DES implantation"
-   ]
+   ],
+   "label": "Pitivastatin group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Non-ARB group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Non-ARB /day after DES implantation"
-   ]
+   ],
+   "label": "Non-ARB group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "ARB group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Eposartan 600mg/day after DES implantation"
-   ]
+   ],
+   "label": "ARB group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -133,10 +133,10 @@
  "brief_summary": "There has been little research on neointimal coverage and malapposition after BES implantation using OCT in human coronary artery. Furthermore, specific drug may possibly influence the vascular healing after stent implantation. Therefore, this study will investigate 1) neointimal coverage and malapposition on OCT after BES versus SES implantation and 2) relationship of specific drug treatment and neointimal coverage or late malapposition by the prospective, randomized study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age ≥ 20 year old\n2. In the case that the blood pressure at rest is greater than systolic 140mmHg or more than diastolic 90mmHg\n3. When someone is taking Anti-Hypertensive medication\n4. If total cholesterol is more than 200mg/dL and LDL-cholesterol is greater than 130mg/dL or if you are taking a statin\n5. Significant coronary de novo lesion (\\> 70% by quantitative angiographic analysis)\n6. Patients with stable angina or acute coronary syndrome considered for percutaneous coronary intervention.\n7. Reference vessel diameter of 2.5 to 3.5 mm by operator assessment\n8. Stent size of 2.5 to 3.5 mm and stent length ≤ 24 mm\n\nExclusion Criteria:\n\n1. Contraindication to anti-platelet agents\n2. Proximal leison within 15 mm from ostium\n3. Creatinine level 2.0 mg/dL or end stage renal disease on dialysis\n4. Pregnant women or women with potential childbearing\n5. Life expectancy less than 1 year\n6. Complex lesion morphologies (aorto-ostial, bifurcation with \\>2.0 mm side branch, unprotected Left main, thrombus, severe calcification, chronic total occlusion)\n7. Vein graft lesion",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -144,13 +144,13 @@
  },
  "sites": [
   {
-   "facility": "Severance Hospital",
    "city": "Seoul",
-   "state": "Seoul",
    "country": "South Korea",
-   "status": null,
+   "facility": "Severance Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": "Seoul",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01502904",
@@ -162,6 +162,59 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥ 20 year old"
+   },
+   {
+    "text": "In the case that the blood pressure at rest is greater than systolic 140mmHg or more than diastolic 90mmHg"
+   },
+   {
+    "text": "When someone is taking Anti-Hypertensive medication"
+   },
+   {
+    "text": "If total cholesterol is more than 200mg/dL and LDL-cholesterol is greater than 130mg/dL or if you are taking a statin"
+   },
+   {
+    "text": "Significant coronary de novo lesion (> 70% by quantitative angiographic analysis)"
+   },
+   {
+    "text": "Patients with stable angina or acute coronary syndrome considered for percutaneous coronary intervention."
+   },
+   {
+    "text": "Reference vessel diameter of 2.5 to 3.5 mm by operator assessment"
+   },
+   {
+    "text": "Stent size of 2.5 to 3.5 mm and stent length ≤ 24 mm"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Contraindication to anti-platelet agents"
+   },
+   {
+    "text": "Proximal leison within 15 mm from ostium"
+   },
+   {
+    "text": "Creatinine level 2.0 mg/dL or end stage renal disease on dialysis"
+   },
+   {
+    "text": "Pregnant women or women with potential childbearing"
+   },
+   {
+    "text": "Life expectancy less than 1 year"
+   },
+   {
+    "text": "Complex lesion morphologies (aorto-ostial, bifurcation with >2.0 mm side branch, unprotected Left main, thrombus, severe calcification, chronic total occlusion)"
+   },
+   {
+    "text": "Vein graft lesion"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

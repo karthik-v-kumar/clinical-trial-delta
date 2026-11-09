@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "QUADRUPLE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Matthew J. Budoff",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Matthew J. Budoff"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -56,32 +56,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "Mounjaro"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Tirzepatide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Tirzepatide",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "A multi-center, randomized, double-blind, placebo-controlled, parallel-group phase IV Study evaluating the effects of tirzepatide on atherosclerotic plaque progression assessed by coronary computed tomography angiography (CCTA) in participants with a diagnosis of type II Diabetes (T2DM) and atherosclerosis.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male or female 40 years to 80 years of age at signing of informed consent\n2. Type 2 DM of minimum 5 years duration with HbA1c ≥7.0% to ≤10.5%\n3. Body mass index (BMI) ≥25 kilograms per meter squared (kg/m²)\n4. Presence of two discrete coronary artery plaques with visual diameter stenosis \\>20% on CCTA\n5. At the baseline visit, participants must be on a stable (\\>4 weeks) regiment of diabetes medications.\n6. Patients using oral hormonal contraceptives must switch to a non-oral contraceptive method, or add a barrier method of contraception for 4 weeks after initiation and for 4 weeks after each dose escalation\n\nExclusion Criteria:\n\n1. Have had a major cardiovascular event within the last 60 days\n2. Have type 1 diabetes mellitus\n3. Current use of GLP1-RA\n4. Have a history of severe hypoglycemia and/or hypoglycemia unawareness within the last 6 months\n5. Are currently planning treatment for diabetic retinopathy and/or macular edema\n6. Have history of, or currently planning a coronary, carotid, or peripheral artery revascularization (ie - stent, bypass)\n7. Have a history of pancreatitis\n8. Have a history of ketoacidosis or hyperosmolar state/coma\n9. Have a known clinically significant gastric emptying abnormality, have undergone or currently planning any gastric outlet obstruction, or have undergone or currently planning any gastric bypass (bariatric) surgery or restrictive bariatric surgery\n10. Have a history of an active or untreated malignancy or are in remission from a clinically significant malignancy for less than 5 years\n11. Have a family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\n12. Have had a blood transfusion or severe blood loss within 90 days prior to screening or have known hematological conditions that may interfere with HbA1c measurement\n13. Planned or Prior Bypass surgery\n14. Contradiction for CCTA (e.g. serious allergic reaction to the contrast dye) or CCTA not meeting entry standards after two attempts during the Baseline CCTA visit as assessed by the imaging core lab.\n15. Uncontrolled severe hypertension: systolic blood pressure \\> 180 mmHg or diastolic BP \\> 100 mm Hg prior to randomization (assessed at the screening visit) despite antihypertensive therapy\n16. Heart Failure NYHA Class III or IV at the screening visit\n17. Renal insufficiency (eGFR \\<40 ml/min/1.73m2) as measured by the Modification of Diet in Renal Disease (MDRD) formula at the screening visit.\n18. Hospitalization for major cardiovascular event including heart failure in the past 2 months",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Lundquist Institute for Biomedical Innovation at Harbor UCLA Medical Center (The Lundquist Institute)",
    "city": "Torrance",
-   "state": "California",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Lundquist Institute for Biomedical Innovation at Harbor UCLA Medical Center (The Lundquist Institute)",
    "lat": 33.83585,
-   "lon": -118.34063
+   "lon": -118.34063,
+   "state": "California",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05708859",
@@ -124,6 +124,86 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female 40 years to 80 years of age at signing of informed consent"
+   },
+   {
+    "text": "Type 2 DM of minimum 5 years duration with HbA1c ≥7.0% to ≤10.5%"
+   },
+   {
+    "text": "Body mass index (BMI) ≥25 kilograms per meter squared (kg/m²)"
+   },
+   {
+    "text": "Presence of two discrete coronary artery plaques with visual diameter stenosis >20% on CCTA"
+   },
+   {
+    "text": "At the baseline visit, participants must be on a stable (>4 weeks) regiment of diabetes medications."
+   },
+   {
+    "text": "Patients using oral hormonal contraceptives must switch to a non-oral contraceptive method, or add a barrier method of contraception for 4 weeks after initiation and for 4 weeks after each dose escalation"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have had a major cardiovascular event within the last 60 days"
+   },
+   {
+    "text": "Have type 1 diabetes mellitus"
+   },
+   {
+    "text": "Current use of GLP1-RA"
+   },
+   {
+    "text": "Have a history of severe hypoglycemia and/or hypoglycemia unawareness within the last 6 months"
+   },
+   {
+    "text": "Are currently planning treatment for diabetic retinopathy and/or macular edema"
+   },
+   {
+    "text": "Have history of, or currently planning a coronary, carotid, or peripheral artery revascularization (ie - stent, bypass)"
+   },
+   {
+    "text": "Have a history of pancreatitis"
+   },
+   {
+    "text": "Have a history of ketoacidosis or hyperosmolar state/coma"
+   },
+   {
+    "text": "Have a known clinically significant gastric emptying abnormality, have undergone or currently planning any gastric outlet obstruction, or have undergone or currently planning any gastric bypass (bariatric) surgery or restrictive bariatric surgery"
+   },
+   {
+    "text": "Have a history of an active or untreated malignancy or are in remission from a clinically significant malignancy for less than 5 years"
+   },
+   {
+    "text": "Have a family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)"
+   },
+   {
+    "text": "Have had a blood transfusion or severe blood loss within 90 days prior to screening or have known hematological conditions that may interfere with HbA1c measurement"
+   },
+   {
+    "text": "Planned or Prior Bypass surgery"
+   },
+   {
+    "text": "Contradiction for CCTA (e.g. serious allergic reaction to the contrast dye) or CCTA not meeting entry standards after two attempts during the Baseline CCTA visit as assessed by the imaging core lab."
+   },
+   {
+    "text": "Uncontrolled severe hypertension: systolic blood pressure > 180 mmHg or diastolic BP > 100 mm Hg prior to randomization (assessed at the screening visit) despite antihypertensive therapy"
+   },
+   {
+    "text": "Heart Failure NYHA Class III or IV at the screening visit"
+   },
+   {
+    "text": "Renal insufficiency (eGFR <40 ml/min/1.73m2) as measured by the Modification of Diet in Renal Disease (MDRD) formula at the screening visit."
+   },
+   {
+    "text": "Hospitalization for major cardiovascular event including heart failure in the past 2 months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-09-14",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Joslin Diabetes Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Joslin Diabetes Center"
  },
  "collaborators": [
   "Massachusetts Institute of Technology"
@@ -50,25 +50,25 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Tablet Computer",
    "other_names": [
     "Toshiba tablet computer"
-   ]
+   ],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Tablet Computer"
-   ]
+   ],
+   "label": "Intervention Group",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control Group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -80,10 +80,10 @@
  "brief_summary": "The purpose of this study is to determine if using a diabetes management technology system, including a tablet computer, to track diabetes care and communicate with a clinician coach (a doctor or nurse from the Joslin Clinic) makes starting and adjusting insulin easier and safer for people with type 2 diabetes. Hypothesis: The use of a diabetes management technology system with a clinician coach helps more individuals starting basal insulin achieve better glycemic control with less hypoglycemia compared with standard clinical practice at Joslin Diabetes Center.",
  "eligibility": {
   "criteria": "Inclusion:\n\n* 18 years or older\n* Has type 2 diabetes, starting on basal insulin therapy\n* Hemoglobin A1c between 9-14%\n* Has Wi-Fi internet connection at home\n* Is willing to monitor blood glucose at least once per day\n* Is willing to inject and self-titrate insulin dose\n* Able to read and communicate in English proficiently\n\nExclusion:\n\n* Has severe visual impairment impacting visual acuity\n* Has severe hearing impairment impacting communication\n* Has Type 1 diabetes\n* Pregnant or lactating women\n* Alcohol dependency\n* Require multiple daily insulin injections",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -91,13 +91,13 @@
  },
  "sites": [
   {
-   "facility": "Joslin Diabetes Center",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Joslin Diabetes Center",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01698528",
@@ -109,6 +109,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "18 years or older"
+   },
+   {
+    "text": "Has type 2 diabetes, starting on basal insulin therapy"
+   },
+   {
+    "text": "Hemoglobin A1c between 9-14%"
+   },
+   {
+    "text": "Has Wi-Fi internet connection at home"
+   },
+   {
+    "text": "Is willing to monitor blood glucose at least once per day"
+   },
+   {
+    "text": "Is willing to inject and self-titrate insulin dose"
+   },
+   {
+    "text": "Able to read and communicate in English proficiently"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has severe visual impairment impacting visual acuity"
+   },
+   {
+    "text": "Has severe hearing impairment impacting communication"
+   },
+   {
+    "text": "Has Type 1 diabetes"
+   },
+   {
+    "text": "Pregnant or lactating women"
+   },
+   {
+    "text": "Alcohol dependency"
+   },
+   {
+    "text": "Require multiple daily insulin injections"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

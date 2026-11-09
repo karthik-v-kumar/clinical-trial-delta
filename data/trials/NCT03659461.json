@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "National University of Malaysia",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "National University of Malaysia"
  },
  "collaborators": [],
  "conditions": [
@@ -52,25 +52,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "low GLP-1 arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "low GLP-1 arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "normal GLP-1 arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "normal GLP-1 arm",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This study is conducted to examine GLP-1, insulin resistance and insulin sensitivity portfolio in Malay, Chinese and Indian populations in Malaysia and to study the effect of DPPIV inhibitor in T2DM patients with different GLP-levels.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects are newly diagnosed of T2DM according to World Health Organisation criteria) and do not receive any glucose-lowering drugs\n* Subjects with normal glucose tolerance test according to World Health Organisation criteria which is carried out immediately before inclusion in the study\n* Subjects who are willing to participate and sign the informed consent form\n\nExclusion Criteria:\n\n* Patients with pre-existing T2DM\n* Patients with family history of diabetes\n* Patients receiving glucose-lowering medications\n* Patients with anemia, abnormal serum creatinine level, macroalbuminuria, proliferative retinopathy, impaired liver function",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital Sultan Ismail",
    "city": "Johor Bahru",
-   "state": "Johor",
    "country": "Malaysia",
-   "status": null,
+   "facility": "Hospital Sultan Ismail",
    "lat": 1.4655,
-   "lon": 103.7578
+   "lon": 103.7578,
+   "state": "Johor",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03659461",
@@ -115,6 +115,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects are newly diagnosed of T2DM according to World Health Organisation criteria) and do not receive any glucose-lowering drugs"
+   },
+   {
+    "text": "Subjects with normal glucose tolerance test according to World Health Organisation criteria which is carried out immediately before inclusion in the study"
+   },
+   {
+    "text": "Subjects who are willing to participate and sign the informed consent form"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with pre-existing T2DM"
+   },
+   {
+    "text": "Patients with family history of diabetes"
+   },
+   {
+    "text": "Patients receiving glucose-lowering medications"
+   },
+   {
+    "text": "Patients with anemia, abnormal serum creatinine level, macroalbuminuria, proliferative retinopathy, impaired liver function"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

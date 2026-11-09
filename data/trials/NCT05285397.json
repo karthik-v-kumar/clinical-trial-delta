@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "General Committee of Teaching Hospitals and Institutes, Egypt",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "General Committee of Teaching Hospitals and Institutes, Egypt"
  },
  "collaborators": [],
  "conditions": [
@@ -51,23 +51,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide Pen Injector [Saxenda]",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide Pen Injector [Saxenda]"
-   ]
+   ],
+   "label": "Liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "Our primary objective is to assess the effect of Liraglutide on weight loss in patients who have undergone secondary bariatric surgeries. We set out to assess if Liraglutide is a viable option to augment weight loss in said category.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Undergone primary bariatric surgery\n* Need secondary bariatric surgery due to either weight regain (regained weight to have BMI \\> 35) or medical associated diseases\n\nExclusion Criteria:\n\n* Prior use of GLP-1 agonist\n* Past history of pancreatitis\n* Personal or family history of medullary thyroid cancer\n* Pregnancy or lactation\n* Acute coronary syndrome\n* Hepatic or renal dysfunction\n* Active malignancy",
-  "sex": "ALL",
-  "minimum_age": null,
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": null,
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Madina Women's Hospital",
    "city": "Alexandria",
-   "state": null,
    "country": "Egypt",
-   "status": null,
+   "facility": "Madina Women's Hospital",
    "lat": 31.20176,
-   "lon": 29.91582
+   "lon": 29.91582,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05285397",
@@ -113,6 +113,41 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Undergone primary bariatric surgery"
+   },
+   {
+    "text": "Need secondary bariatric surgery due to either weight regain (regained weight to have BMI > 35) or medical associated diseases"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Prior use of GLP-1 agonist"
+   },
+   {
+    "text": "Past history of pancreatitis"
+   },
+   {
+    "text": "Personal or family history of medullary thyroid cancer"
+   },
+   {
+    "text": "Pregnancy or lactation"
+   },
+   {
+    "text": "Acute coronary syndrome"
+   },
+   {
+    "text": "Hepatic or renal dysfunction"
+   },
+   {
+    "text": "Active malignancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

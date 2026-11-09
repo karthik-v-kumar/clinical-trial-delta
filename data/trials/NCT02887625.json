@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Dr. Muhammad Abdulghani",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Dr. Muhammad Abdulghani"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pioglitazone plus exenatide",
    "other_names": [
     "actos and bydureon"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin glargine and insulin aspart",
    "other_names": [
     "lantus"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Combination Therapy",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pioglitazone plus exenatide"
-   ]
+   ],
+   "label": "Combination Therapy",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin Therapy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin glargine and insulin aspart"
-   ]
+   ],
+   "label": "Insulin Therapy",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "To compare efficacy, safety and durability of combination therapy with pioglitazone plus GLP-1 RA versus basal bolus insulin in poorly controlled T2DM patients on metformin plus sulfonylurea",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* T2DM poorly controlled (HbA1c \\>7.5%) on metformin (\\>1700 mg/day) plus sulfonylurea\n\nExclusion Criteria:\n\n* type 1 diabetes (T1DM) patients receiving therapy with pioglitazone, GLP-1 RA and insulin abnormal kidney, liver or heart function patients with malignancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Hamad General Hospital",
    "city": "Doha",
-   "state": null,
    "country": "Qatar",
-   "status": "RECRUITING",
+   "facility": "Hamad General Hospital",
    "lat": 25.28545,
-   "lon": 51.53096
+   "lon": 51.53096,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02887625",
@@ -116,6 +116,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "T2DM poorly controlled (HbA1c >7.5%) on metformin (>1700 mg/day) plus sulfonylurea"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "type 1 diabetes (T1DM) patients receiving therapy with pioglitazone, GLP-1 RA and insulin abnormal kidney, liver or heart function patients with malignancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

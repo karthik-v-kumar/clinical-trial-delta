@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2018-08-16",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Tanabe Pharma Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Tanabe Pharma Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -53,41 +53,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Canagliflozin",
    "other_names": [
     "Canaglu, TA-7284"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Teneligliptin",
    "other_names": [
     "Tenelia, MP-513"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Teneligliptin + Canagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Canagliflozin",
     "Drug: Teneligliptin"
-   ]
+   ],
+   "label": "Teneligliptin + Canagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo + Canagliflozin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Canagliflozin",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo + Canagliflozin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of co-administration of Canagliflozin (TA-7284) and Teneligliptin (MP-513) once daily for 24 weeks in Japanese patients with Type 2 diabetes mellitus who are receiving treatment with Canagliflozin and have inadequate glycemic control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men or women who are 20 - 75 years old\n* HbA1c of ≥7.0% and \\<10.5%\n* FPG of ≤ 270 mg/dL\n* Patients who are under dietary management and taking therapeutic exercise for diabetes over 8 weeks before run-in period\n\nExclusion Criteria:\n\n* Patients with type I diabetes, diabetes mellitus resulting from pancreatic disorder, or secondary diabetes\n* Patients with serious diabetic complications\n* Patients with hereditary glucose-galactose malabsorption or primary renal glucosuria\n* Patients with Class III/IV heart failure symptoms according to New York Heart Association (NYHA) functional classification\n* Patients with severe hepatic disorder or severe renal disorder.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,31 +110,31 @@
  },
  "sites": [
   {
-   "facility": "Reserch site",
    "city": "Kanto",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Reserch site",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Reserch site",
    "city": "Kinki",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Reserch site",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Reserch site",
    "city": "Tōhoku",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Reserch site",
    "lat": 35.81882,
-   "lon": 139.57138
+   "lon": 139.57138,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02354222",
@@ -146,6 +146,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men or women who are 20 - 75 years old"
+   },
+   {
+    "text": "HbA1c of ≥7.0% and <10.5%"
+   },
+   {
+    "text": "FPG of ≤ 270 mg/dL"
+   },
+   {
+    "text": "Patients who are under dietary management and taking therapeutic exercise for diabetes over 8 weeks before run-in period"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type I diabetes, diabetes mellitus resulting from pancreatic disorder, or secondary diabetes"
+   },
+   {
+    "text": "Patients with serious diabetic complications"
+   },
+   {
+    "text": "Patients with hereditary glucose-galactose malabsorption or primary renal glucosuria"
+   },
+   {
+    "text": "Patients with Class III/IV heart failure symptoms according to New York Heart Association (NYHA) functional classification"
+   },
+   {
+    "text": "Patients with severe hepatic disorder or severe renal disorder."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

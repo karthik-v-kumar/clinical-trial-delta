@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Durham VA Medical Center",
-  "class": "FED"
+  "class": "FED",
+  "name": "Durham VA Medical Center"
  },
  "collaborators": [
   "Société des Produits Nestlé (SPN)"
@@ -52,25 +52,25 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Very Low Calorie Diet",
    "other_names": [
     "Optifast"
-   ]
+   ],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Standard of Care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Very Low Calorie Diet",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Very Low Calorie Diet"
-   ]
+   ],
+   "label": "Very Low Calorie Diet",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "Roux-en-Y (RYGB) gastric bypass reduces the size and capacity of the stomach and bypasses a portion of the small intestine which leads to decreased food intake and higher levels of a gut hormone called GLP-1 (glucagon-like-peptide-1). These changes lead to weight loss, improved blood sugars and often remission of type 2 diabetes but most patients do not qualify or want surgery. The investigators are searching for ways to make the beneficial effects of RYGB available to most type 2 diabetes patients rather than a select few that undergo RYGB.\n\nThe investigators believe that parts of RYGB can be medically reproduced through a combination of diet and medicine. Once weekly injectable GLP-1 medicine that leads to weight loss and improved blood sugar control in type 2 diabetes are now FDA approved. Optifast is a medically supervised diet that safely reduces calorie intake to 800 calories per day for three months by replacing normal meals with specially prepared bars and shakes which leads to weight loss and improved blood sugar control in type 2 diabetes. Normal meals are then gradually reintroduced over 6 weeks and the bars/shakes are stopped. The investigators hypothesize that Optifast (diet) + once weekly GLP-1 will lead to weight loss and improvement in blood sugar control in type 2 diabetes similar to what is seen after RYGB.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* male or female\n* age 25-75 years\n* BMI \\>27\n* diagnosis of type 2 diabetes\n* weight stable for 1 month\n* hemoglobin A1C \\>7.0%\n* on stable dose of once weekly GLP-1 agonist\n* on oral or injectable DM2 medicines\n* interested in losing weight\n* agreeable to regular visits per study protocol\n* access to telephone and reliable transportation and has a VAMC provider\n* using a Freestyle Libre glucose monitoring device and/or glucometer device\n\nExclusion Criteria:\n\n* age \\>75,\n* A1C \\<7%\n* pregnant\n* breast feeding\n* prior history of pancreatitis\n* prior history of gastroparesis\n* history of thyroid cancer/multiple endocrine neoplasia/thyroid nodules/medullary thyroid cancer (contraindication to Liraglutide)\n* history of gallstones\n* history of hyperoxaluria or calcium oxalate nephrolithiasis\n* history of Roux-en-Y gastric bypass or gastric sleeve or any other bariatric procedure,\n* type 1 diabetes\n* any abnormality on the screening EKG that could subject patient to increased risk during the study\n* any gastrointestinal condition causing malabsorption (including but not limited to inflammatory bowel disease, celiac sprue)\n* unwilling or unable to complete scheduled testing\n* any serious and/or unstable medical, psychiatric, or other condition(s) that prevents the patient from providing informed consent or complying with the study\n* organ transplantation or those on immunosuppressants\n* chronic anticoagulation\n* recent myocardial infarction, unstable angina, stroke, coronary artery bypass or transient ischemia attacks in the past 6 months\n* chronic prednisone use\n* hepatitis\n* cirrhosis\n* GFR \\<50\n* deep vein thrombosis in past 6 months\n* active malignancy\n* unstable psychiatric condition including active or current suicidal ideation\n* enrolled in another research study related to diet and/or physical activity",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,13 +93,13 @@
  },
  "sites": [
   {
-   "facility": "Greenville VA Health Care Center",
    "city": "Greenville",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Greenville VA Health Care Center",
    "lat": 35.61266,
-   "lon": -77.36635
+   "lon": -77.36635,
+   "state": "North Carolina",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06363747",
@@ -111,6 +111,128 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "male or female"
+   },
+   {
+    "text": "age 25-75 years"
+   },
+   {
+    "text": "BMI >27"
+   },
+   {
+    "text": "diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "weight stable for 1 month"
+   },
+   {
+    "text": "hemoglobin A1C >7.0%"
+   },
+   {
+    "text": "on stable dose of once weekly GLP-1 agonist"
+   },
+   {
+    "text": "on oral or injectable DM2 medicines"
+   },
+   {
+    "text": "interested in losing weight"
+   },
+   {
+    "text": "agreeable to regular visits per study protocol"
+   },
+   {
+    "text": "access to telephone and reliable transportation and has a VAMC provider"
+   },
+   {
+    "text": "using a Freestyle Libre glucose monitoring device and/or glucometer device"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "age >75,"
+   },
+   {
+    "text": "A1C <7%"
+   },
+   {
+    "text": "pregnant"
+   },
+   {
+    "text": "breast feeding"
+   },
+   {
+    "text": "prior history of pancreatitis"
+   },
+   {
+    "text": "prior history of gastroparesis"
+   },
+   {
+    "text": "history of thyroid cancer/multiple endocrine neoplasia/thyroid nodules/medullary thyroid cancer (contraindication to Liraglutide)"
+   },
+   {
+    "text": "history of gallstones"
+   },
+   {
+    "text": "history of hyperoxaluria or calcium oxalate nephrolithiasis"
+   },
+   {
+    "text": "history of Roux-en-Y gastric bypass or gastric sleeve or any other bariatric procedure,"
+   },
+   {
+    "text": "type 1 diabetes"
+   },
+   {
+    "text": "any abnormality on the screening EKG that could subject patient to increased risk during the study"
+   },
+   {
+    "text": "any gastrointestinal condition causing malabsorption (including but not limited to inflammatory bowel disease, celiac sprue)"
+   },
+   {
+    "text": "unwilling or unable to complete scheduled testing"
+   },
+   {
+    "text": "any serious and/or unstable medical, psychiatric, or other condition(s) that prevents the patient from providing informed consent or complying with the study"
+   },
+   {
+    "text": "organ transplantation or those on immunosuppressants"
+   },
+   {
+    "text": "chronic anticoagulation"
+   },
+   {
+    "text": "recent myocardial infarction, unstable angina, stroke, coronary artery bypass or transient ischemia attacks in the past 6 months"
+   },
+   {
+    "text": "chronic prednisone use"
+   },
+   {
+    "text": "hepatitis"
+   },
+   {
+    "text": "cirrhosis"
+   },
+   {
+    "text": "GFR <50"
+   },
+   {
+    "text": "deep vein thrombosis in past 6 months"
+   },
+   {
+    "text": "active malignancy"
+   },
+   {
+    "text": "unstable psychiatric condition including active or current suicidal ideation"
+   },
+   {
+    "text": "enrolled in another research study related to diet and/or physical activity"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

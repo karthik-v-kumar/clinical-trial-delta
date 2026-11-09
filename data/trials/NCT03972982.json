@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sun Yat-sen University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Sun Yat-sen University"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Simplified intensive insulin therapy regimen",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Traditional Short-term Intensive insulin therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Simplified regimen group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Simplified intensive insulin therapy regimen"
-   ]
+   ],
+   "label": "Simplified regimen group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Routine group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Traditional Short-term Intensive insulin therapy"
-   ]
+   ],
+   "label": "Routine group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "Short-term intensive insulin therapy is shown to induced glycemic remission, but traditionally patients were hospitalized for 2-4 weeks in order to receive the therapy, the long inpatient period precluded the wide application of the thrapy. This study aims to invesitgate whether simplified regimen is non-inferior to traditional regimen in achieving long-term glycemic remisson.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* newly diagnosed type 2 diabetes with no prior hypoglycemic agents application, or on hyperglycemic monotherapy for less than 1 week;\n* GHbA1c ≥ 9%\n* Body mass index between 20-35kg/m2\n* Capable to use wearable devices and mobile Apps;\n* willling to follow the study protocol and data collection.\n\nExclusion Criteria:\n\n* Type 1 diabetes or specific types of diabetes;\n* Allergic or intolercance to medicine used in the study;\n* Acute diabetic complications (diabetic ketoacidosis, hyperosmotic hyperglycemia coma or lactic acidosis);\n* Severe diabetic microvascular complications (proliferative retinopathy, clinical proteinuria,uncontrolled diabetic neuropathy and obvious diabetic autonomic neuropathy;\n* Glomerular filtration rate less than 50 ml/min\n* ALT \\>2.5 times of the upper limit of normal (ULN), or bilirubin \\> 1.5 times of ULN；\n* Significant Macrovascular disease:acute cerebrovascular accident, acute coronary syndrome or peripheral artery disease that required vascular intervention or amputation 12 months before enrollment;\n* Poor blood pressure control (systolic blood pressure≥180mmHg and/or sitting diastolic blood pressure ≥110mmHg) and unable to control under 160/110mmhg within 1 week;\n* Hemoglubin level \\< 100g/L or required regular blood transfusion;\n* Chronic cardiac dysfunction with NYHA grade III or above;\n* Use of medicines that affect blood glucose for a cumulative time of more than 1 week within the prior 12 weeks, such as oral/venous glucocorticoid, growth hormone, estrogen/ progesterone, high-dose diuretics, antipsychotic drugs. However, low-dose diuretics for antihypertensive purposes (HCTZ \\< 25mg/d, indapamide \\< 1.5mg/d) and physiologic replacement of thyroid hormone are allowed;\n* Serious systemic disease or malignant tumor, chronic diarrhea, etc；\n* Uncontrolled abnormalty in endocrine glands (Cushing's syndrome, hyperthyroidism, etc.);\n* Any factors that may affect the participation of the subject in the study or the evaluation of the results；\n* Pregnancy or planned pregnancy, lactation subjects.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "endocrinology department of the first affiliated hospital of Sun Yat-sen University",
    "city": "Guangzhou",
-   "state": "Guangdong",
    "country": "China",
-   "status": null,
+   "facility": "endocrinology department of the first affiliated hospital of Sun Yat-sen University",
    "lat": 23.11667,
-   "lon": 113.25
+   "lon": 113.25,
+   "state": "Guangdong",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03972982",
@@ -114,6 +114,74 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "newly diagnosed type 2 diabetes with no prior hypoglycemic agents application, or on hyperglycemic monotherapy for less than 1 week;"
+   },
+   {
+    "text": "GHbA1c ≥ 9%"
+   },
+   {
+    "text": "Body mass index between 20-35kg/m2"
+   },
+   {
+    "text": "Capable to use wearable devices and mobile Apps;"
+   },
+   {
+    "text": "willling to follow the study protocol and data collection."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes or specific types of diabetes;"
+   },
+   {
+    "text": "Allergic or intolercance to medicine used in the study;"
+   },
+   {
+    "text": "Acute diabetic complications (diabetic ketoacidosis, hyperosmotic hyperglycemia coma or lactic acidosis);"
+   },
+   {
+    "text": "Severe diabetic microvascular complications (proliferative retinopathy, clinical proteinuria,uncontrolled diabetic neuropathy and obvious diabetic autonomic neuropathy;"
+   },
+   {
+    "text": "Glomerular filtration rate less than 50 ml/min"
+   },
+   {
+    "text": "ALT >2.5 times of the upper limit of normal (ULN), or bilirubin > 1.5 times of ULN；"
+   },
+   {
+    "text": "Significant Macrovascular disease:acute cerebrovascular accident, acute coronary syndrome or peripheral artery disease that required vascular intervention or amputation 12 months before enrollment;"
+   },
+   {
+    "text": "Poor blood pressure control (systolic blood pressure≥180mmHg and/or sitting diastolic blood pressure ≥110mmHg) and unable to control under 160/110mmhg within 1 week;"
+   },
+   {
+    "text": "Hemoglubin level < 100g/L or required regular blood transfusion;"
+   },
+   {
+    "text": "Chronic cardiac dysfunction with NYHA grade III or above;"
+   },
+   {
+    "text": "Use of medicines that affect blood glucose for a cumulative time of more than 1 week within the prior 12 weeks, such as oral/venous glucocorticoid, growth hormone, estrogen/ progesterone, high-dose diuretics, antipsychotic drugs. However, low-dose diuretics for antihypertensive purposes (HCTZ < 25mg/d, indapamide < 1.5mg/d) and physiologic replacement of thyroid hormone are allowed;"
+   },
+   {
+    "text": "Serious systemic disease or malignant tumor, chronic diarrhea, etc；"
+   },
+   {
+    "text": "Uncontrolled abnormalty in endocrine glands (Cushing's syndrome, hyperthyroidism, etc.);"
+   },
+   {
+    "text": "Any factors that may affect the participation of the subject in the study or the evaluation of the results；"
+   },
+   {
+    "text": "Pregnancy or planned pregnancy, lactation subjects."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

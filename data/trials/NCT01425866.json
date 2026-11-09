@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Centre Hospitalier Universitaire de la Réunion",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Centre Hospitalier Universitaire de la Réunion"
  },
  "collaborators": [
   "Ministry of Health, France"
@@ -50,25 +50,25 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Structured self-management group education during 2 years",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "2 years self management education",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Structured self-management group education during 2 years"
-   ]
+   ],
+   "label": "2 years self management education",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Initial self-management education",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Structured self-management group education during 2 years"
-   ]
+   ],
+   "label": "Initial self-management education",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -80,10 +80,10 @@
  "brief_summary": "Type 2 diabetes has a growing impact on populations and public health worldwide. Clinical trials have clearly demonstrated that a better control of blood glucose level and of other risk factors is efficient in preventing or retarding the complications of the disease. On Reunion island, Type 2 diabetes is present in 18% of population aged 30 or older with a high level of socio-economic deprivation. The hypothesis of the ERMIES study is that a structured group self-management education maintained at the community level for 2 years in patients with insufficiently controlled type 2 diabetes has better metabolic results (as attested by improvement in HbA1c level) at 2 yrs, compared to an initial short term (\\< 3 months) self-management program, based on the same theoretical basis and framework (learning nests empowerment). A total of 240 adults living in Reunion Island, with type 2 diabetes mellitus with HbA1c ≥ 7.5% on a stable treatment for at least 3 months will be randomly allocated to 2 intervention arms: either a short term (\\< 3 months) program (1 to 7 thematic 2-hr long sessions depending on individual assessment), or a long term program including the same initial program as 1st arm, but with group self management education sessions, maintained for 2 years (4-monthly assessment, empowerment, and contextual action planning; facultative additional specific thematic sessions being delivered if needed). Medical visits will be held quarterly for the recording of outcome measures (HbA1c, blood pressure, anthropometrics, tobacco consumption, diabetes complications) and yearly for blood glucose, lipids, micro-albuminuria or proteinuria, creatinine clearance, diet and exercise (questionnaires), treatment recording, quality of life, self-efficacy, anxiety and depression scales, and social support.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* HbA1c ≥ 7,5% more than 3 months\n* Adults\n* ≥ 1 year ADO and/or insulin and/or GLP-1 analog\n* antidiabetic treatment unchanged since 3 months (no change of treatment in the last 3 months, except for insulin dosage)\n* Living in Reunion Island\n* Affiliated to French national health insurance\n* Signed informed consent\n\nExclusion Criteria:\n\n* Treatment or associated conditions that would influence glycemic control, such as corticotherapy, cancer, inflammatory chronic diseases\n* Hospitalisation linked to diabetes \\< 3 months\n* Structured patient education in the past 3 months\n* Severe diabetes complications (e.g. ischemic or proliferative retinopathy, severe renal failure (clearance \\< 15 ml/min), acute ischemic heart disease (\\< 6 months, foot lesion)\n* Pregnancy (on-going or planned during the study)\n* Evolutive cancer\n* Physical or cognitive heavy handicap\n* Concomitant participation to a therapeutic trial",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -91,40 +91,40 @@
  },
  "sites": [
   {
-   "facility": "Department of endocrinology, University Hospital Reunion Island - Felix Guyon Site",
    "city": "Saint Denis de La Réunion",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Department of endocrinology, University Hospital Reunion Island - Felix Guyon Site",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Groupe Hopitalier Est Réunion",
    "city": "Saint-Benoît",
-   "state": "La Réunion",
    "country": "France",
-   "status": null,
+   "facility": "Groupe Hopitalier Est Réunion",
    "lat": 46.55025,
-   "lon": 0.34177
+   "lon": 0.34177,
+   "state": "La Réunion",
+   "status": null
   },
   {
-   "facility": "Centre Hospitalier Gabriel Martin",
    "city": "Saint-Paul",
-   "state": "La Réunion",
    "country": "France",
-   "status": null,
+   "facility": "Centre Hospitalier Gabriel Martin",
    "lat": 49.42962,
-   "lon": 2.00755
+   "lon": 2.00755,
+   "state": "La Réunion",
+   "status": null
   },
   {
-   "facility": "Diabetolgy - UNiversity Hospital Sud Réunion",
    "city": "Saint-Pierre",
-   "state": "La Réunion",
    "country": "France",
-   "status": null,
+   "facility": "Diabetolgy - UNiversity Hospital Sud Réunion",
    "lat": 43.29282,
-   "lon": 5.40682
+   "lon": 5.40682,
+   "state": "La Réunion",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01425866",
@@ -136,6 +136,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "HbA1c ≥ 7,5% more than 3 months"
+   },
+   {
+    "text": "Adults"
+   },
+   {
+    "text": "≥ 1 year ADO and/or insulin and/or GLP-1 analog"
+   },
+   {
+    "text": "antidiabetic treatment unchanged since 3 months (no change of treatment in the last 3 months, except for insulin dosage)"
+   },
+   {
+    "text": "Living in Reunion Island"
+   },
+   {
+    "text": "Affiliated to French national health insurance"
+   },
+   {
+    "text": "Signed informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Treatment or associated conditions that would influence glycemic control, such as corticotherapy, cancer, inflammatory chronic diseases"
+   },
+   {
+    "text": "Hospitalisation linked to diabetes < 3 months"
+   },
+   {
+    "text": "Structured patient education in the past 3 months"
+   },
+   {
+    "text": "Severe diabetes complications (e.g. ischemic or proliferative retinopathy, severe renal failure (clearance < 15 ml/min), acute ischemic heart disease (< 6 months, foot lesion)"
+   },
+   {
+    "text": "Pregnancy (on-going or planned during the study)"
+   },
+   {
+    "text": "Evolutive cancer"
+   },
+   {
+    "text": "Physical or cognitive heavy handicap"
+   },
+   {
+    "text": "Concomitant participation to a therapeutic trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Koval' O., MD",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Koval' O., MD"
  },
  "collaborators": [],
  "conditions": [
@@ -50,35 +50,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Fenofibrate",
    "other_names": [
     "Tricor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Simvastatin",
    "other_names": [
     "Zocor-forte"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Simvastatin and Fenofibrate",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Fenofibrate",
     "Drug: Simvastatin"
-   ]
+   ],
+   "label": "Simvastatin and Fenofibrate",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Simvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Simvastatin"
-   ]
+   ],
+   "label": "Simvastatin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "To test the hypothesis that early (within 5-21 days after index event) administration of combined lipid-lowering therapy in extremely high risk population of patients with type 2 diabetes mellitus (T2DM) and hypertriglyceridemia (HTG) who experienced acute coronary syndrome (ACS) will be effective and well tolerated in achievement of contemporary strict requirements for triglyceride (TG) levels as an independent risk factor in the case of HTG with diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes Mellitus\n* Fasting triglycerides ≥ 1,7 mmol/l\n* Acute coronary syndrome at least before 5 and maximum 21 days before the inclusion\n* If previously treated with statin therapy, the dose should be equivalent to 40 mg of simvastatin at inclusion\n* In case of previous statin therapy, last LDL-C measurement before event should be ≤ 2,6 mmol/l\n* Written informed consent obtained\n\nExclusion Criteria:\n\n* Heart failure IV class (NYHA)\n* Acute decompensated heart failure\n* Life expectancy no more than 1 year\n* Chronic kidney disease (CKD) with Estimated glomerular filtration rate (eGFR) \\< 30 ml/min/1.73m2\n* Severe chronic liver diseases with Alanine aminotransferase (ALT) or Aspartate aminotransferase (AST) \\> 3 Upper Limit of Normal (ULN)\n* Known gallbladder disease, including cholecystolithiasis\n* Creatinphosphokinase (CPK) \\> 5 ULN at baseline\n* Chronic or acute pancreatitis with the exception of acute pancreatitis due to severe hypertriglyceridemia\n* Known photoallergy or phototoxic reaction during treatment with fibrates or ketoprofen,\n* Known allergy to peanut or arachis oil or soya lecithin or related products\n* Hypersensitivity to simvastatin or fenofibrate or to any of the excipients of the investigational drugs\n* Concomitant administration of potent cytochrome P450 isoenzyme 3A4 inhibitors (e.g. itraconazole, ketoconazole, fluconazole, posaconazole, Human Immunodeficiency Virus (HIV) protease inhibitors (e.g. nelfinavir), erythromycin, clarithromycin, telithromycin and nefazodone)\n* Pregnancy and lactation",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "State Institution \"Dnipropetrovsk Medical Academy of Health Ministry of Ukraine\"",
    "city": "Dnipropetrovsk",
-   "state": null,
    "country": "Ukraine",
-   "status": null,
+   "facility": "State Institution \"Dnipropetrovsk Medical Academy of Health Ministry of Ukraine\"",
    "lat": 48.46664,
-   "lon": 35.04066
+   "lon": 35.04066,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02015988",
@@ -119,6 +119,71 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes Mellitus"
+   },
+   {
+    "text": "Fasting triglycerides ≥ 1,7 mmol/l"
+   },
+   {
+    "text": "Acute coronary syndrome at least before 5 and maximum 21 days before the inclusion"
+   },
+   {
+    "text": "If previously treated with statin therapy, the dose should be equivalent to 40 mg of simvastatin at inclusion"
+   },
+   {
+    "text": "In case of previous statin therapy, last LDL-C measurement before event should be ≤ 2,6 mmol/l"
+   },
+   {
+    "text": "Written informed consent obtained"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Heart failure IV class (NYHA)"
+   },
+   {
+    "text": "Acute decompensated heart failure"
+   },
+   {
+    "text": "Life expectancy no more than 1 year"
+   },
+   {
+    "text": "Chronic kidney disease (CKD) with Estimated glomerular filtration rate (eGFR) < 30 ml/min/1.73m2"
+   },
+   {
+    "text": "Severe chronic liver diseases with Alanine aminotransferase (ALT) or Aspartate aminotransferase (AST) > 3 Upper Limit of Normal (ULN)"
+   },
+   {
+    "text": "Known gallbladder disease, including cholecystolithiasis"
+   },
+   {
+    "text": "Creatinphosphokinase (CPK) > 5 ULN at baseline"
+   },
+   {
+    "text": "Chronic or acute pancreatitis with the exception of acute pancreatitis due to severe hypertriglyceridemia"
+   },
+   {
+    "text": "Known photoallergy or phototoxic reaction during treatment with fibrates or ketoprofen,"
+   },
+   {
+    "text": "Known allergy to peanut or arachis oil or soya lecithin or related products"
+   },
+   {
+    "text": "Hypersensitivity to simvastatin or fenofibrate or to any of the excipients of the investigational drugs"
+   },
+   {
+    "text": "Concomitant administration of potent cytochrome P450 isoenzyme 3A4 inhibitors (e.g. itraconazole, ketoconazole, fluconazole, posaconazole, Human Immunodeficiency Virus (HIV) protease inhibitors (e.g. nelfinavir), erythromycin, clarithromycin, telithromycin and nefazodone)"
+   },
+   {
+    "text": "Pregnancy and lactation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

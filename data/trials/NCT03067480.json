@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2026-01-09",
  "has_results": true,
  "lead_sponsor": {
-  "name": "East Tennessee State University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "East Tennessee State University"
  },
  "collaborators": [
   "Medtronic"
@@ -51,25 +51,25 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "iPro2 Professional CGM",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "3-Month iPro2 Professional CGM",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: iPro2 Professional CGM"
-   ]
+   ],
+   "label": "3-Month iPro2 Professional CGM",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "6-Month iPro2 Professional CGM",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: iPro2 Professional CGM"
-   ]
+   ],
+   "label": "6-Month iPro2 Professional CGM",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "To determine whether 3-month versus 6-month professional CGM utilization improves time spent in target range of 70-140mg/dl in patients with poorly controlled T2DM not treated with insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. 18 years or older with a diagnosis of T2DM with a scheduled office visit with primary care provider within the next 4 weeks\n2. Last 2 HbA1c values between 7.5 - 10% measured in the last 12 months\n3. Treated with non-insulin therapies or therapeutic lifestyle changes\n4. Never worn professional CGM or have not worn in last 12 months\n5. Willing to perform requirements needed for professional CGM\n\nExclusion Criteria:\n\n1\\. Current or previous treatment with any insulin within 3 months at baseline",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "facility": "East Tennessee State University",
    "city": "Johnson City",
-   "state": "Tennessee",
    "country": "United States",
-   "status": null,
+   "facility": "East Tennessee State University",
    "lat": 36.31344,
-   "lon": -82.35347
+   "lon": -82.35347,
+   "state": "Tennessee",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03067480",
@@ -110,6 +110,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "18 years or older with a diagnosis of T2DM with a scheduled office visit with primary care provider within the next 4 weeks"
+   },
+   {
+    "text": "Last 2 HbA1c values between 7.5 - 10% measured in the last 12 months"
+   },
+   {
+    "text": "Treated with non-insulin therapies or therapeutic lifestyle changes"
+   },
+   {
+    "text": "Never worn professional CGM or have not worn in last 12 months"
+   },
+   {
+    "text": "Willing to perform requirements needed for professional CGM"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Current or previous treatment with any insulin within 3 months at baseline"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

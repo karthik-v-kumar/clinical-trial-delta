@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "LG Life Sciences",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "LG Life Sciences"
  },
  "collaborators": [],
  "conditions": [
@@ -48,32 +48,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Gemigliptin + Metformin / Sitagliptin + Metformin / Glimepiride + Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Gemigliptin + Metformin / Sitagliptin + Metformin / Glimepiride + Metformin"
+   ],
    "label": "Gemigliptin + Metformin",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Gemigliptin + Metformin / Sitagliptin + Metformin / Glimepiride + Metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Gemigliptin + Metformin / Sitagliptin + Metformin / Glimepiride + Metformin"
+   ],
    "label": "Sitagliptin + Metformin",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Gemigliptin + Metformin / Sitagliptin + Metformin / Glimepiride + Metformin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Glimepiride + Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Gemigliptin + Metformin / Sitagliptin + Metformin / Glimepiride + Metformin"
-   ]
+   ],
+   "label": "Glimepiride + Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "To compare efficacy and safety of initial combination therapy of Gemigliptin versus Sitagliptin or Glimepiride with Metformin on Glucose Variability(MAGE, Glucose SD) in Patients With Type 2 Diabetes Mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with Type 2 Diabetes Mellitus\n* adults aged ≥ 20 and aged ≤ 70 years old\n* Patients who had not taken anti diabetes drug for 8 weeks prior to screening visit with HbA1c ≥ 7.5%\n* All patients give written informed consent\n* Patients applicable to any one of following 3 categories\n\n  1. Patients with surgically induced infertility\n  2. Post-menopause woman ≥45 years of age with over 2 years from the last menstruation\n  3. Fertile pre-menopause woman or male patients who has consented for use of two or more contraceptive methods at least up to 14 days after final administration of the investigational product to avoid getting pregnant\n\nExclusion Criteria:\n\n* Patients with Type 1 Diabetes, Patients with Diabetic Ketoacidosis or Diabetic Coma as well as Pre-coma\n* Patients with Gestational Diabetes Mellitus or with Secondary Diabetes\n* Patients with NYHA Class III, IV Congestive Heart Failure or with Treatment-requiring Arrhythmia\n* Patients with Thyroid Dysfunction whose TSH is out of normal range, requiring medication therapy\n* Patients with pituitary insufficiency or hypoadrenalism\n* Patients whose BMI is less than 20 Kg/m2 or exceeds 40 Kg/m2\n* Patients whose Total Bilirubin level is 1.5 times higher than the upper limit of normal range and ALT/AST are \\> 2.5 times higher than the upper limit of normal range\n* Patients currently taking strong CYP3A4 inducers\n* Patients currently taking Warfarin, Dicoumar or Digoxin\n* Patients currently taking any medication from within 4 weeks before Visit 1 (screening) likely to have significant effects on glycemic control or who require to take such medication\n* Patients who had taken anti-obesity drugs within 12 weeks in prior to Visit 1 (screening)\n* Subject who had been treated with Insulin or GLP-1 analogue within 6 months before Visit 1 (screening)\n* Patients who had participated in other clinical study in the past 3 months before Visit 1 (screening)\n* Any other patients whom the investigator considers as inadequate for this study",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Severance hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Severance hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01890629",
@@ -114,6 +114,76 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with Type 2 Diabetes Mellitus"
+   },
+   {
+    "text": "adults aged ≥ 20 and aged ≤ 70 years old"
+   },
+   {
+    "text": "Patients who had not taken anti diabetes drug for 8 weeks prior to screening visit with HbA1c ≥ 7.5%"
+   },
+   {
+    "text": "All patients give written informed consent"
+   },
+   {
+    "text": "Patients applicable to any one of following 3 categories",
+    "sub_items": [
+     "Patients with surgically induced infertility",
+     "Post-menopause woman ≥45 years of age with over 2 years from the last menstruation",
+     "Fertile pre-menopause woman or male patients who has consented for use of two or more contraceptive methods at least up to 14 days after final administration of the investigational product to avoid getting pregnant"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with Type 1 Diabetes, Patients with Diabetic Ketoacidosis or Diabetic Coma as well as Pre-coma"
+   },
+   {
+    "text": "Patients with Gestational Diabetes Mellitus or with Secondary Diabetes"
+   },
+   {
+    "text": "Patients with NYHA Class III, IV Congestive Heart Failure or with Treatment-requiring Arrhythmia"
+   },
+   {
+    "text": "Patients with Thyroid Dysfunction whose TSH is out of normal range, requiring medication therapy"
+   },
+   {
+    "text": "Patients with pituitary insufficiency or hypoadrenalism"
+   },
+   {
+    "text": "Patients whose BMI is less than 20 Kg/m2 or exceeds 40 Kg/m2"
+   },
+   {
+    "text": "Patients whose Total Bilirubin level is 1.5 times higher than the upper limit of normal range and ALT/AST are > 2.5 times higher than the upper limit of normal range"
+   },
+   {
+    "text": "Patients currently taking strong CYP3A4 inducers"
+   },
+   {
+    "text": "Patients currently taking Warfarin, Dicoumar or Digoxin"
+   },
+   {
+    "text": "Patients currently taking any medication from within 4 weeks before Visit 1 (screening) likely to have significant effects on glycemic control or who require to take such medication"
+   },
+   {
+    "text": "Patients who had taken anti-obesity drugs within 12 weeks in prior to Visit 1 (screening)"
+   },
+   {
+    "text": "Subject who had been treated with Insulin or GLP-1 analogue within 6 months before Visit 1 (screening)"
+   },
+   {
+    "text": "Patients who had participated in other clinical study in the past 3 months before Visit 1 (screening)"
+   },
+   {
+    "text": "Any other patients whom the investigator considers as inadequate for this study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

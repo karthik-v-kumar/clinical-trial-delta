@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "NONE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "National University of Singapore",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "National University of Singapore"
  },
  "collaborators": [
   "Duke-NUS Graduate Medical School",
@@ -51,23 +51,23 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Smart phone application",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Intervention",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Smart phone application"
-   ]
+   ],
+   "label": "Intervention",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "The primary aim of this study is to investigate the feasibility of using a patient-centered smart phone application for insulin self-titration on glycemic control. Over a 18-month period, suboptimally controlled type 2 diabetes mellitus (T2DM) on oral antidiabetic agents, thus requiring insulin treatment patients, will be recruited from the Singapore General Hospital (SGH). Patients randomized to the intervention group will be instructed to self-adjust their insulin dose using a smart phone application designed to guide self-titration; patients randomized to the control group will receive the usual clinical care. The primary outcome measure is change in glycated hemoglobin level (HbA1c), 6 months post-enrollment. The investigators hypothesize that using a smart phone application for insulin self-titration is effective in improving glycemic control in T2DM patients compared with usual care.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Insulin naïve patient with T2DM\n* Between 30 and 70 years of age\n* HbA1c ≥7.5%\n* Ability and willingness to inject once-a-day long-acting insulin\n* Ability and willingness to perform self-monitoring of blood glucose (SMBG)\n* Access to a smart phone Exclusion Criteria:\n\nExclusion Criteria:\n\n* Hypoglycemia unawareness\n* Severe renal impairment (i.e., eGFR \\<30 ml/min)\n* Corticosteroid use\n* Serious disease with life expectancy \\<1 year\n* Pregnancy\n* Patients with labile medical conditions that would predispose them to poor insulin control (e.g., frequent or recurrent infections)\n* Patients with psychological and social issues that would prevent continuous injection of insulin and monitoring of blood glucose (e.g., major depressive disorder, homelessness)",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "facility": "Singapore General Hospital Department of Endocrinology",
    "city": "Singapore",
-   "state": null,
    "country": "Singapore",
-   "status": null,
+   "facility": "Singapore General Hospital Department of Endocrinology",
    "lat": 1.28967,
-   "lon": 103.85007
+   "lon": 103.85007,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01950676",
@@ -108,6 +108,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Insulin naïve patient with T2DM"
+   },
+   {
+    "text": "Between 30 and 70 years of age"
+   },
+   {
+    "text": "HbA1c ≥7.5%"
+   },
+   {
+    "text": "Ability and willingness to inject once-a-day long-acting insulin"
+   },
+   {
+    "text": "Ability and willingness to perform self-monitoring of blood glucose (SMBG)"
+   },
+   {
+    "text": "Access to a smart phone Exclusion Criteria:"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Hypoglycemia unawareness"
+   },
+   {
+    "text": "Severe renal impairment (i.e., eGFR <30 ml/min)"
+   },
+   {
+    "text": "Corticosteroid use"
+   },
+   {
+    "text": "Serious disease with life expectancy <1 year"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Patients with labile medical conditions that would predispose them to poor insulin control (e.g., frequent or recurrent infections)"
+   },
+   {
+    "text": "Patients with psychological and social issues that would prevent continuous injection of insulin and monitoring of blood glucose (e.g., major depressive disorder, homelessness)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Astellas Pharma Inc",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Astellas Pharma Inc"
  },
  "collaborators": [],
  "conditions": [
@@ -53,43 +53,43 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ipragliflozin",
    "other_names": [
     "ASP1941"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
    "other_names": [
     "Metgluco",
     "Melbin",
     "Glycoran"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ASP group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ipragliflozin",
     "Drug: metformin"
-   ]
+   ],
+   "label": "ASP group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: metformin"
-   ]
+   ],
+   "label": "Placebo group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "This study is to evaluate the efficacy and safety after concomitant administration of ASP1941 and metformin in patients with diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetic patients receiving with metformin mono-therapy for at least 6 weeks\n* HbA1c value between 7.0 and 9.5%\n* Body Mass Index (BMI) 20.0 - 45.0 kg/m2\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus patients\n* Serum creatinine \\> upper limit of normal\n* Estimated GFR \\< 60ml/min/1.73m2\n* Proteinuria (albumin/creatinine ratio \\> 300mg/g)\n* Dysuria and/or urinary tract infection, genital infection\n* Significant renal, hepatic or cardiovascular diseases\n* Severe gastrointestinal diseases",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,67 +112,67 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Chugoku",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Chūbu",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": 35.43379,
-   "lon": 140.2797
+   "lon": 140.2797,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Hokkaido",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Kansai",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Kantou",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Kyushu",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Tōhoku",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": 44.62026,
-   "lon": 142.29986
+   "lon": 142.29986,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01135433",
@@ -184,6 +184,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetic patients receiving with metformin mono-therapy for at least 6 weeks"
+   },
+   {
+    "text": "HbA1c value between 7.0 and 9.5%"
+   },
+   {
+    "text": "Body Mass Index (BMI) 20.0 - 45.0 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus patients"
+   },
+   {
+    "text": "Serum creatinine > upper limit of normal"
+   },
+   {
+    "text": "Estimated GFR < 60ml/min/1.73m2"
+   },
+   {
+    "text": "Proteinuria (albumin/creatinine ratio > 300mg/g)"
+   },
+   {
+    "text": "Dysuria and/or urinary tract infection, genital infection"
+   },
+   {
+    "text": "Significant renal, hepatic or cardiovascular diseases"
+   },
+   {
+    "text": "Severe gastrointestinal diseases"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

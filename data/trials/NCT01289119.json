@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2013-03-22",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Takeda",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Takeda"
  },
  "collaborators": [],
  "conditions": [
@@ -53,80 +53,80 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Alogliptin",
    "other_names": [
     "SYR-322"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo to alogliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Fortamet",
     "Glucophage",
     "Glumetza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Actos"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to alogliptin"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Alogliptin Monotherapy",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alogliptin"
-   ]
+   ],
+   "label": "Alogliptin Monotherapy",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo to alogliptin",
+    "Drug: Metformin"
+   ],
    "label": "Metformin",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: Placebo to alogliptin",
-    "Drug: Metformin"
-   ]
+   "type": "OTHER"
   },
   {
+   "intervention_names": [
+    "Drug: Alogliptin",
+    "Drug: Metformin"
+   ],
    "label": "Metformin + Alogliptin Add-on Therapy",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Alogliptin",
-    "Drug: Metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Pioglitazone",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Placebo to alogliptin",
     "Drug: Pioglitazone"
-   ]
+   ],
+   "label": "Pioglitazone",
+   "type": "OTHER"
   },
   {
-   "label": "Pioglitazone + Alogliptin Add-on Therapy",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alogliptin",
     "Drug: Pioglitazone"
-   ]
+   ],
+   "label": "Pioglitazone + Alogliptin Add-on Therapy",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -138,10 +138,10 @@
  "brief_summary": "The purpose of the study is to determine the efficacy of alogliptin compared to placebo when given alone or as add-on therapy to metformin or add-on to pioglitazone (with or without metformin).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Has a historical diagnosis of Type 2 Diabetes Mellitus.\n* Has a body mass index between acceptable range.\n* Is experiencing inadequate glycemic control.\n* Body weight keeps constant.\n* Females of childbearing potential and males who are sexually active agree to use routinely adequate contraception from signing of informed consent throughout the duration of the study and for 30 days after last dose.\n\nExclusion Criteria:\n\n* Has participated in another clinical study within the past 90 days or has received any investigational compound within 30 days prior to randomization.\n* Has a systolic blood pressure beyond the acceptable range at Screening visit.\n* Has New York Heart Association Class III or IV heart failure regardless of therapy.\n* Has any major illness or debility that in the investigator's opinion prohibits the subject from completing the study.\n* Has a history of hypersensitivity or allergies to any DPP-4 inhibitor.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -149,193 +149,193 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Fuzhou",
-   "state": "Fujian",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 26.06139,
-   "lon": 119.30611
-  },
-  {
-   "facility": null,
-   "city": "Xiamen",
+   "lon": 119.30611,
    "state": "Fujian",
+   "status": null
+  },
+  {
+   "city": "Xiamen",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 24.47979,
-   "lon": 118.08187
+   "lon": 118.08187,
+   "state": "Fujian",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Guangzhou",
-   "state": "Guangdong",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 23.11667,
-   "lon": 113.25
+   "lon": 113.25,
+   "state": "Guangdong",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Haikou",
-   "state": "Hainan",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 20.03421,
-   "lon": 110.34651
+   "lon": 110.34651,
+   "state": "Hainan",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Harbin",
-   "state": "Heilongjiang",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 45.75,
-   "lon": 126.65
+   "lon": 126.65,
+   "state": "Heilongjiang",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Jingzhou",
-   "state": "Hubei",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 30.35028,
-   "lon": 112.19028
-  },
-  {
-   "facility": null,
-   "city": "Shiyan",
+   "lon": 112.19028,
    "state": "Hubei",
+   "status": null
+  },
+  {
+   "city": "Shiyan",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 32.6475,
-   "lon": 110.77806
+   "lon": 110.77806,
+   "state": "Hubei",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Changsha",
-   "state": "Hunan",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 28.19874,
-   "lon": 112.97087
+   "lon": 112.97087,
+   "state": "Hunan",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Wuxi",
-   "state": "Jiangsu",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 31.56887,
-   "lon": 120.28857
+   "lon": 120.28857,
+   "state": "Jiangsu",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Nanchang",
-   "state": "Jiangxi",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 28.68396,
-   "lon": 115.85306
+   "lon": 115.85306,
+   "state": "Jiangxi",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Changchun",
-   "state": "Jilin",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 43.88,
-   "lon": 125.32278
+   "lon": 125.32278,
+   "state": "Jilin",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Shenyang",
-   "state": "Liaoning",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 41.79222,
-   "lon": 123.43278
+   "lon": 123.43278,
+   "state": "Liaoning",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Jinan",
-   "state": "Shandong",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 36.66833,
-   "lon": 116.99722
+   "lon": 116.99722,
+   "state": "Shandong",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Shanghai",
-   "state": "Shanghai Municipality",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": "Shanghai Municipality",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Xi’an",
-   "state": "Shanxi",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 35.99785,
-   "lon": 113.52486
+   "lon": 113.52486,
+   "state": "Shanxi",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Tianjin",
-   "state": "Tianjin Municipality",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 39.14222,
-   "lon": 117.17667
+   "lon": 117.17667,
+   "state": "Tianjin Municipality",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Kunming",
-   "state": "Yunnan",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 25.03889,
-   "lon": 102.71833
+   "lon": 102.71833,
+   "state": "Yunnan",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Hangzhou",
-   "state": "Zhejiang",
    "country": "China",
-   "status": null,
+   "facility": null,
    "lat": 30.29365,
-   "lon": 120.16142
+   "lon": 120.16142,
+   "state": "Zhejiang",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Hong Kong",
-   "state": "Hong Kong",
    "country": "Hong Kong",
-   "status": null,
+   "facility": null,
    "lat": 22.27832,
-   "lon": 114.17469
+   "lon": 114.17469,
+   "state": "Hong Kong",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Taipei County",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": null,
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01289119",
@@ -347,6 +347,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Has a historical diagnosis of Type 2 Diabetes Mellitus."
+   },
+   {
+    "text": "Has a body mass index between acceptable range."
+   },
+   {
+    "text": "Is experiencing inadequate glycemic control."
+   },
+   {
+    "text": "Body weight keeps constant."
+   },
+   {
+    "text": "Females of childbearing potential and males who are sexually active agree to use routinely adequate contraception from signing of informed consent throughout the duration of the study and for 30 days after last dose."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has participated in another clinical study within the past 90 days or has received any investigational compound within 30 days prior to randomization."
+   },
+   {
+    "text": "Has a systolic blood pressure beyond the acceptable range at Screening visit."
+   },
+   {
+    "text": "Has New York Heart Association Class III or IV heart failure regardless of therapy."
+   },
+   {
+    "text": "Has any major illness or debility that in the investigator's opinion prohibits the subject from completing the study."
+   },
+   {
+    "text": "Has a history of hypersensitivity or allergies to any DPP-4 inhibitor."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

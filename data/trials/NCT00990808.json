@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,44 +51,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "anacetrapib",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: placebo to MK0859",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: placebo to atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Panel A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: anacetrapib",
     "Drug: Comparator: atorvastatin",
     "Drug: Comparator: placebo to MK0859"
-   ]
+   ],
+   "label": "Panel A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Panel B",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: anacetrapib",
     "Drug: Comparator: placebo to MK0859",
     "Drug: Comparator: placebo to atorvastatin"
-   ]
+   ],
+   "label": "Panel B",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "This study will investigate the effect of MK0859 on lipoprotein metabolism in patients with dyslipidemia already on statin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient's weight has been stable for at least 6 weeks\n* Patient is in good health based on medical history, physical exam, and laboratory tests\n* Patient has dyslipidemia\n\nExclusion Criteria :\n\n* Patient has a history of stroke, seizures, or major neurological disorders\n* Patient has a history of cancer\n* Patient is currently taking any lipid-lowering medications or substances except for statins\n* Patient consumes excessive amounts of alcohol or caffeine\n* Patient has multiple and/or severe allergies to food or drugs",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,6 +119,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient's weight has been stable for at least 6 weeks"
+   },
+   {
+    "text": "Patient is in good health based on medical history, physical exam, and laboratory tests"
+   },
+   {
+    "text": "Patient has dyslipidemia"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has a history of stroke, seizures, or major neurological disorders"
+   },
+   {
+    "text": "Patient has a history of cancer"
+   },
+   {
+    "text": "Patient is currently taking any lipid-lowering medications or substances except for statins"
+   },
+   {
+    "text": "Patient consumes excessive amounts of alcohol or caffeine"
+   },
+   {
+    "text": "Patient has multiple and/or severe allergies to food or drugs"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Takeda",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Takeda"
  },
  "collaborators": [],
  "conditions": [
@@ -54,33 +54,33 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Actos",
     "AD-4833"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glyburide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pioglitazone QD",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pioglitazone"
-   ]
+   ],
+   "label": "Pioglitazone QD",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glyburide QD",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glyburide"
-   ]
+   ],
+   "label": "Glyburide QD",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The purpose of this study is to determine the liver safety of pioglitazone, once daily (QD), versus glyburide taken with metformin and insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria\n\n* Females of childbearing potential who are sexually active must agree to use adequate contraception, and can neither be pregnant nor lactating from Screening throughout the duration of the study\n* Diagnosis of type 2 (non-insulin dependent) diabetes mellitus as defined by the diagnostic criteria of the American Diabetes Association and currently taking glyburide, glipizide, glimepiride, or metformin alone, or glyburide, glipizide, or glimepiride in combination with metformin\n* Glycosylated hemoglobin level greater than or equal to 7.0%\n* Fasting C-peptide level greater than or equal to 0.7 ng/mL.\n\nExclusion Criteria:\n\n* Type 1 (insulin-dependent) diabetes mellitus.\n* Prior exposure to a thiazolidinedione, except subjects who discontinued use of troglitazone in March or April of 2000, provided they were not experiencing adverse effects and were not then taking thiazolidinediones.\n* Participating in another investigational study or had participated in an investigational trial within the preceding 2 months.\n* History of ketoacidosis.\n* The subject had significant diabetic nephropathy, defined as a serum creatinine level greater than or equal to 1.5 mg/dL for men and greater than or equal to 1.4 mg/dL for women, or urinary protein excretion greater than or equal to 2 plus as measured by the Combistix (or equivalent) method, except subjects with proteinuria are eligible if repeat testing within 2 weeks indicates the proteinuria had resolved.\n* Anemia with a hemoglobin level less than12 g/dL for men and less than10 g/dL for women.\n* The subject had a history of drug or alcohol abuse within the preceding 2 years.\n* The subject had a diastolic blood pressure greater than100 mm Hg or a systolic blood pressure greater than180 mm Hg.\n* The subject had evidence of ongoing cardiac rhythm disturbance, delayed QT waves, or second-degree atrioventricular heart block. Uncomplicated first-degree atrioventricular block was allowed.\n* Significant cardiovascular disease including, but not limited to, New York Heart Association Functional (Cardiac) Classification III or IV.\n* History of myocardial infarction, acute cardiovascular event, or cerebrovascular accident within the preceding 6 months.\n* Previous history of cancer that was not in remission for at least 5 years before administration of the first dose of study drug. Except, basal cell or Stage I squamous cell carcinoma.\n* The subject had a BMI less than 20 or greater than 48 (calculated as weight \\[kg\\]/height \\[m2\\]).\n* Alanine aminotransferase level greater than or equal 2.5time the upper limit of normal or a history of liver disease, jaundice, hepatitis, or biliary tract disease (except for uncomplicated and treated gall stones by either lithotomy or cholecystectomy).\n* Unwilling or unable to comply with the protocol or attend scheduled appointments.\n* Unable to understand verbal and/or written English or any other language in which a certified translation of the informed consent is available.\n* Evidence of acute or unstable chronic pulmonary disease or, if a chest x-ray was available, has unexplained pulmonary lesions.\n* Is required to take or continues taking any disallowed medication, prescription medication, herbal treatment or over-the counter medication that may interfere with evaluation of the study medication, including:\n\n  * Antidiabetic agents other than study drug and companion medications (metformin and insulin).\n  * Weight loss agents, including pharmaceuticals and over-the-counter brands.\n  * Continuous (greater than 2 weeks) steroid therapy or expected recurrent steroid therapy, including all injectable, inhaled, topical, and oral steroid formulations.\n  * Niacin therapy.\n* Chronic condition for which the recurrent use of glucocorticoids could be expected\n* Any other serious disease or condition at screening or randomization that might have affected life expectancy or made it difficult to successfully manage and follow the subject according to the protocol.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,6 +111,92 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Females of childbearing potential who are sexually active must agree to use adequate contraception, and can neither be pregnant nor lactating from Screening throughout the duration of the study"
+   },
+   {
+    "text": "Diagnosis of type 2 (non-insulin dependent) diabetes mellitus as defined by the diagnostic criteria of the American Diabetes Association and currently taking glyburide, glipizide, glimepiride, or metformin alone, or glyburide, glipizide, or glimepiride in combination with metformin"
+   },
+   {
+    "text": "Glycosylated hemoglobin level greater than or equal to 7.0%"
+   },
+   {
+    "text": "Fasting C-peptide level greater than or equal to 0.7 ng/mL."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 (insulin-dependent) diabetes mellitus."
+   },
+   {
+    "text": "Prior exposure to a thiazolidinedione, except subjects who discontinued use of troglitazone in March or April of 2000, provided they were not experiencing adverse effects and were not then taking thiazolidinediones."
+   },
+   {
+    "text": "Participating in another investigational study or had participated in an investigational trial within the preceding 2 months."
+   },
+   {
+    "text": "History of ketoacidosis."
+   },
+   {
+    "text": "The subject had significant diabetic nephropathy, defined as a serum creatinine level greater than or equal to 1.5 mg/dL for men and greater than or equal to 1.4 mg/dL for women, or urinary protein excretion greater than or equal to 2 plus as measured by the Combistix (or equivalent) method, except subjects with proteinuria are eligible if repeat testing within 2 weeks indicates the proteinuria had resolved."
+   },
+   {
+    "text": "Anemia with a hemoglobin level less than12 g/dL for men and less than10 g/dL for women."
+   },
+   {
+    "text": "The subject had a history of drug or alcohol abuse within the preceding 2 years."
+   },
+   {
+    "text": "The subject had a diastolic blood pressure greater than100 mm Hg or a systolic blood pressure greater than180 mm Hg."
+   },
+   {
+    "text": "The subject had evidence of ongoing cardiac rhythm disturbance, delayed QT waves, or second-degree atrioventricular heart block. Uncomplicated first-degree atrioventricular block was allowed."
+   },
+   {
+    "text": "Significant cardiovascular disease including, but not limited to, New York Heart Association Functional (Cardiac) Classification III or IV."
+   },
+   {
+    "text": "History of myocardial infarction, acute cardiovascular event, or cerebrovascular accident within the preceding 6 months."
+   },
+   {
+    "text": "Previous history of cancer that was not in remission for at least 5 years before administration of the first dose of study drug. Except, basal cell or Stage I squamous cell carcinoma."
+   },
+   {
+    "text": "The subject had a BMI less than 20 or greater than 48 (calculated as weight [kg]/height [m2])."
+   },
+   {
+    "text": "Alanine aminotransferase level greater than or equal 2.5time the upper limit of normal or a history of liver disease, jaundice, hepatitis, or biliary tract disease (except for uncomplicated and treated gall stones by either lithotomy or cholecystectomy)."
+   },
+   {
+    "text": "Unwilling or unable to comply with the protocol or attend scheduled appointments."
+   },
+   {
+    "text": "Unable to understand verbal and/or written English or any other language in which a certified translation of the informed consent is available."
+   },
+   {
+    "text": "Evidence of acute or unstable chronic pulmonary disease or, if a chest x-ray was available, has unexplained pulmonary lesions."
+   },
+   {
+    "text": "Is required to take or continues taking any disallowed medication, prescription medication, herbal treatment or over-the counter medication that may interfere with evaluation of the study medication, including:",
+    "sub_items": [
+     "Antidiabetic agents other than study drug and companion medications (metformin and insulin).",
+     "Weight loss agents, including pharmaceuticals and over-the-counter brands.",
+     "Continuous (greater than 2 weeks) steroid therapy or expected recurrent steroid therapy, including all injectable, inhaled, topical, and oral steroid formulations.",
+     "Niacin therapy."
+    ]
+   },
+   {
+    "text": "Chronic condition for which the recurrent use of glucocorticoids could be expected"
+   },
+   {
+    "text": "Any other serious disease or condition at screening or randomization that might have affected life expectancy or made it difficult to successfully manage and follow the subject according to the protocol."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

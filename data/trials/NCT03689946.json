@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-07-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Cedars-Sinai Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Cedars-Sinai Medical Center"
  },
  "collaborators": [
   "Amgen"
@@ -51,54 +51,52 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Evolocumab",
    "other_names": [
     "Repatha®",
     "PCSK9 inhibitor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "18F-NaF PET",
    "other_names": [
     "18F sodium fluoride",
     "sodium fluoride PET"
-   ]
+   ],
+   "type": "DIAGNOSTIC_TEST"
   },
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "CCTA",
    "other_names": [
     "Coronary computed tomography angiography"
-   ]
+   ],
+   "type": "DIAGNOSTIC_TEST"
   },
   {
-   "type": "DRUG",
    "name": "Omnipaque",
    "other_names": [
     "contrast"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metoprolol",
    "other_names": [
     "beta blocker"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Nitroglycerin",
    "other_names": [
     "vasodilator"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Evolocumab, F18-NaF PET, CCTA",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Evolocumab",
     "Diagnostic Test: 18F-NaF PET",
@@ -106,7 +104,9 @@
     "Drug: Omnipaque",
     "Drug: Metoprolol",
     "Drug: Nitroglycerin"
-   ]
+   ],
+   "label": "Evolocumab, F18-NaF PET, CCTA",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "This study will quantify changes in coronary plaque volumes and plaque composition in patients treated with evolocumab.\n\nPrevious intravascular ultrasound studies have shown that treatment with a lipid-lowering PCSK9 enzyme inhibitor, such as evolocumab, to be associated with a reduction of the fatty deposits that cause plaque in the arteries, however, it is not known how evolocumab affects specific coronary plaque types and plaque inflammation.\n\nInvestigators will use quantitative assessment of non-invasive coronary computed tomography angiography (CCTA) and positron emission tomography (PET)imaging to evaluate functional changes in plaque burden, plaque composition and vascular inflammation before and after treatment with evolocumab.\n\nInvestigators propose to show that patients treated with evolocumab in combination with statins demonstrate a greater reduction of coronary non-calcified plaque volume, thereby reducing the number of future cardiac events.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Evidence by CCTA of noncalcified coronary artery plaque (\\>440 mm3) and thoracic aorta atherosclerosis\n* On-label indications for evolocumab treatment which includes the following criteria:\n\nThose who have established cardiovascular disease defined as acute coronary syndrome, history of myocardial infarction, stable angina or unstable angina, coronary or other arterial revascularization, stroke, transient ischemic attack, or peripheral arterial disease presumed to be of atherosclerotic origin.\n\nExclusion Criteria:\n\n* Creatinine \\> 1.5 mg/dL prior to imaging\n* History of allergy to iodine contrast agents\n* Allergy to evolocumab or any other ingredients contained in study drug\n* Pregnancy\n* Women who are breastfeeding\n* Active atrial fibrillation\n* History of coronary artery bypass graft\n* Inability to lie flat\n* Inability or unwilling to give informed consent\n* Major illness or life expectancy \\<1 year\n* Planned coronary revascularization or major non-cardiac surgery in the next 12 months\n* Previously or currently on evolocumab",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,13 +129,13 @@
  },
  "sites": [
   {
-   "facility": "Cedars-Sinai Medical Center",
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Cedars-Sinai Medical Center",
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03689946",
@@ -150,6 +150,59 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Evidence by CCTA of noncalcified coronary artery plaque (>440 mm3) and thoracic aorta atherosclerosis"
+   },
+   {
+    "text": "On-label indications for evolocumab treatment which includes the following criteria:"
+   },
+   {
+    "text": "Those who have established cardiovascular disease defined as acute coronary syndrome, history of myocardial infarction, stable angina or unstable angina, coronary or other arterial revascularization, stroke, transient ischemic attack, or peripheral arterial disease presumed to be of atherosclerotic origin."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Creatinine > 1.5 mg/dL prior to imaging"
+   },
+   {
+    "text": "History of allergy to iodine contrast agents"
+   },
+   {
+    "text": "Allergy to evolocumab or any other ingredients contained in study drug"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Women who are breastfeeding"
+   },
+   {
+    "text": "Active atrial fibrillation"
+   },
+   {
+    "text": "History of coronary artery bypass graft"
+   },
+   {
+    "text": "Inability to lie flat"
+   },
+   {
+    "text": "Inability or unwilling to give informed consent"
+   },
+   {
+    "text": "Major illness or life expectancy <1 year"
+   },
+   {
+    "text": "Planned coronary revascularization or major non-cardiac surgery in the next 12 months"
+   },
+   {
+    "text": "Previously or currently on evolocumab"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

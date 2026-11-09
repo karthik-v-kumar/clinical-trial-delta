@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Vildagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Vildagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Vildagliptin"
-   ]
+   ],
+   "label": "Vildagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride"
-   ]
+   ],
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "This study will use Continuous Glucose Monitoring to assess differences in glycemic profiles between vildagliptin and glimepiride.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes patients on stable metformin\n* 18-70 years old\n* Willing to perform at least 4 capillary blood glucose tests per day\n\nExclusion Criteria:\n\n* Type 2 diabetes patients on any other antidiabetic treatment\n* Patients listed in other trials\n* Patients with significant diabetic organ disease or complications.\n\nOther protocol-defined inclusion/exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Novartis Investigative Site",
    "city": "Mainz",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 49.98185,
-   "lon": 8.28008
+   "lon": 8.28008,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01262586",
@@ -114,6 +114,35 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes patients on stable metformin"
+   },
+   {
+    "text": "18-70 years old"
+   },
+   {
+    "text": "Willing to perform at least 4 capillary blood glucose tests per day"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 diabetes patients on any other antidiabetic treatment"
+   },
+   {
+    "text": "Patients listed in other trials"
+   },
+   {
+    "text": "Patients with significant diabetic organ disease or complications."
+   },
+   {
+    "text": "Other protocol-defined inclusion/exclusion criteria may apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

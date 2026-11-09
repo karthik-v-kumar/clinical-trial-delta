@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -51,37 +51,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "vildagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Gliclazide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Vildagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: vildagliptin",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Vildagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Gliclazide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Gliclazide",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Gliclazide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "This study is not being conducted in the United States. Many people with type 2 diabetes cannot maintain target blood glucose levels when taking a single oral drug. The purpose of this study is to assess the safety and effectiveness of vildagliptin, an unapproved drug, compared to that of gliclazide in lowering overall blood glucose levels when added to metformin in people with type 2 diabetes not at target blood glucose levels on metformin alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* On a stable dose of metformin as defined by the protocol\n* Blood glucose criteria must be met\n* Body mass index (BMI) in the range 22-45\n\nExclusion Criteria:\n\n* Pregnancy or lactation\n* Type 1 diabetes\n* Evidence of significant diabetic complications\n* Evidence of serious cardiovascular complications\n* Laboratory value abnormalities as defined by the protocol\n* Other protocol-defined exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,22 +104,22 @@
  },
  "sites": [
   {
-   "facility": "Investigative Centers",
    "city": "Nuremberg",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Investigative Centers",
    "lat": 49.45421,
-   "lon": 11.07752
+   "lon": 11.07752,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novartis Pharmaceuticals",
    "city": "Basel",
-   "state": null,
    "country": "Switzerland",
-   "status": null,
+   "facility": "Novartis Pharmaceuticals",
    "lat": 47.55839,
-   "lon": 7.57327
+   "lon": 7.57327,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00102466",
@@ -133,6 +133,41 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "On a stable dose of metformin as defined by the protocol"
+   },
+   {
+    "text": "Blood glucose criteria must be met"
+   },
+   {
+    "text": "Body mass index (BMI) in the range 22-45"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy or lactation"
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Evidence of significant diabetic complications"
+   },
+   {
+    "text": "Evidence of serious cardiovascular complications"
+   },
+   {
+    "text": "Laboratory value abnormalities as defined by the protocol"
+   },
+   {
+    "text": "Other protocol-defined exclusion criteria may apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

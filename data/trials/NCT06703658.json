@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -54,54 +54,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD5004(Part A)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo(Part A)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "AZD5004(Part B)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo(Part B)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Part A-AZD5004",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD5004(Part A)"
-   ]
+   ],
+   "label": "Part A-AZD5004",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part A-Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo(Part A)"
-   ]
+   ],
+   "label": "Part A-Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Part B-AZD5004",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD5004(Part B)"
-   ]
+   ],
+   "label": "Part B-AZD5004",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part B-Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo(Part B)"
-   ]
+   ],
+   "label": "Part B-Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -117,10 +117,10 @@
  "brief_summary": "This Phase I study will gather important information on the safety, tolerability, pharmacokinetics and pharmacodynamics of AZD5004 in both healthy Japanese participants and Japanese participants with T2DM.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Japanese men or women, and 18-65 years of age inclusive, at the time of signing the informed consent.\n\nInclusion Criteria for Part A:\n\n* HbA1c ≤ 6.0%.\n* Body weight ≥ 50.0 kg and BMI within the range 18.0-32.0 kg/m2.\n\nInclusion Criteria for Part B:\n\n* HbA1c ≥ 6.5% and ≤ 10.5%.\n* Not on any other diabetic medications.\n* Body weight ≥ 60.0 kg and BMI within the range 24.0-35.0 kg/m2\n\nExclusion Criteria:\n\n* Has a clinically relevant acute or chronic medical condition or disease.\n* History of acute pancreatitis and chronic pancreatitis, gallstones.\n* Abnormal renal function.\n* Known clinically significant gastric emptying abnormality\n* Significant hepatic disease.\n* Uncontrolled thyroid disease",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -128,13 +128,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Osaka",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Research Site",
    "lat": 34.69379,
-   "lon": 135.50107
+   "lon": 135.50107,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06703658",
@@ -148,6 +148,55 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Japanese men or women, and 18-65 years of age inclusive, at the time of signing the informed consent."
+   },
+   {
+    "text": "HbA1c ≤ 6.0%.",
+    "group": "for Part A"
+   },
+   {
+    "text": "Body weight ≥ 50.0 kg and BMI within the range 18.0-32.0 kg/m2.",
+    "group": "for Part A"
+   },
+   {
+    "text": "HbA1c ≥ 6.5% and ≤ 10.5%.",
+    "group": "for Part B"
+   },
+   {
+    "text": "Not on any other diabetic medications.",
+    "group": "for Part B"
+   },
+   {
+    "text": "Body weight ≥ 60.0 kg and BMI within the range 24.0-35.0 kg/m2",
+    "group": "for Part B"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has a clinically relevant acute or chronic medical condition or disease."
+   },
+   {
+    "text": "History of acute pancreatitis and chronic pancreatitis, gallstones."
+   },
+   {
+    "text": "Abnormal renal function."
+   },
+   {
+    "text": "Known clinically significant gastric emptying abnormality"
+   },
+   {
+    "text": "Significant hepatic disease."
+   },
+   {
+    "text": "Uncontrolled thyroid disease"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

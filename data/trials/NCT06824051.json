@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Orforglipron",
    "other_names": [
     "LY3502970"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Orforglipron",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Orforglipron"
-   ]
+   ],
+   "label": "Orforglipron",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The main purpose of this study is to see how orforglipron affects the amount of body fat compared with placebo in participants with obesity or overweight. Participation in the study will last approximately 8 months.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have a Body Mass Index (BMI)\n\n  * ≥30.0 kilograms per square meter (kg/m2), or\n  * ≥27.0 kg/m2 with comorbidities\n\nExclusion Criteria:\n\n* Have type 1 diabetes, type 2 diabetes, or any other types of diabetes, history of ketoacidosis, or hyperosmolar state/coma\n* Have an unstable body weight within 90 days prior to screening\n* Have acute or chronic hepatitis\n* Are taking other medications or alternative remedies to manage weight loss",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,40 +100,40 @@
  },
  "sites": [
   {
-   "facility": "Clinical Pharmacology of Miami",
    "city": "Miami",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Clinical Pharmacology of Miami",
    "lat": 25.77427,
-   "lon": -80.19366
+   "lon": -80.19366,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Axis",
    "city": "Dilworth",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Axis",
    "lat": 46.87663,
-   "lon": -96.70341
+   "lon": -96.70341,
+   "state": "Minnesota",
+   "status": null
   },
   {
-   "facility": "Ohio Clinical Trials",
    "city": "Columbus",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Ohio Clinical Trials",
    "lat": 39.96118,
-   "lon": -82.99879
+   "lon": -82.99879,
+   "state": "Ohio",
+   "status": null
   },
   {
-   "facility": "Endeavor Clinical Trials",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Endeavor Clinical Trials",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06824051",
@@ -148,6 +148,33 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have a Body Mass Index (BMI)",
+    "sub_items": [
+     "≥30.0 kilograms per square meter (kg/m2), or",
+     "≥27.0 kg/m2 with comorbidities"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have type 1 diabetes, type 2 diabetes, or any other types of diabetes, history of ketoacidosis, or hyperosmolar state/coma"
+   },
+   {
+    "text": "Have an unstable body weight within 90 days prior to screening"
+   },
+   {
+    "text": "Have acute or chronic hepatitis"
+   },
+   {
+    "text": "Are taking other medications or alternative remedies to manage weight loss"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

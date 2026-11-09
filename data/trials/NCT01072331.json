@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2012-12-19",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Tanabe Pharma Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Tanabe Pharma Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MP-513",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "MP-513",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo of MP-513",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: MP-513"
+   ],
    "label": "MP-513 10 mg, once a day, for 4 weeks",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: MP-513"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: MP-513"
+   ],
    "label": "MP-513 20 mg, once a day, for 4 weeks",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: MP-513"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo of MP-513",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo of MP-513"
-   ]
+   ],
+   "label": "Placebo of MP-513",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effect of MP-513 on 24-h glycemic control in patients with type 2 Diabetes for 4 weeks administration.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who are 20 - 75 years old\n* Patients who are under dietary management and taking therapeutic exercise for diabetes over 8 weeks before administration of investigational drug\n* Patients whose HbA1c is ≥6.5% and \\<10.0%\n* Patients who were not administered diabetes therapeutic drugs prohibited for concomitant use within 8 weeks before administration of investigational drug.\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes, diabetes mellitus caused by pancreas impairment, or secondary diabetes (Cushing disease, acromegaly, etc)\n* Patients who are accepting treatments of arrhythmias\n* Patients with serious diabetic complications\n* Patients who are the excessive alcohol addicts\n* Patients with severe hepatic disorder or severe renal disorder.\n* Patients who are pregnant, lactating, and probably pregnant patients, and patients who can not agree to contraception",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -115,13 +115,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Suita",
-   "state": "Osaka",
    "country": "Japan",
-   "status": null,
+   "facility": null,
    "lat": 34.76143,
-   "lon": 135.51567
+   "lon": 135.51567,
+   "state": "Osaka",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01072331",
@@ -133,6 +133,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who are 20 - 75 years old"
+   },
+   {
+    "text": "Patients who are under dietary management and taking therapeutic exercise for diabetes over 8 weeks before administration of investigational drug"
+   },
+   {
+    "text": "Patients whose HbA1c is ≥6.5% and <10.0%"
+   },
+   {
+    "text": "Patients who were not administered diabetes therapeutic drugs prohibited for concomitant use within 8 weeks before administration of investigational drug."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes, diabetes mellitus caused by pancreas impairment, or secondary diabetes (Cushing disease, acromegaly, etc)"
+   },
+   {
+    "text": "Patients who are accepting treatments of arrhythmias"
+   },
+   {
+    "text": "Patients with serious diabetic complications"
+   },
+   {
+    "text": "Patients who are the excessive alcohol addicts"
+   },
+   {
+    "text": "Patients with severe hepatic disorder or severe renal disorder."
+   },
+   {
+    "text": "Patients who are pregnant, lactating, and probably pregnant patients, and patients who can not agree to contraception"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Basrah",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Basrah"
  },
  "collaborators": [],
  "conditions": [
@@ -48,44 +48,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin Glargine 100 UNT/ML Pen Injector [Lantus]",
    "other_names": [
     "Lantus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Saxagliptin 2.5 mg/ Metformin Hydrochloride extended release 1000 mg",
    "other_names": [
     "Kombiglyze"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone 30mg",
    "other_names": [
     "Actos"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "basal insulin plus glucose lowering drugs",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Glargine 100 UNT/ML Pen Injector [Lantus]",
     "Drug: Saxagliptin 2.5 mg/ Metformin Hydrochloride extended release 1000 mg",
     "Drug: Pioglitazone 30mg"
-   ]
+   ],
+   "label": "basal insulin plus glucose lowering drugs",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "glucose lowering drugs only",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Saxagliptin 2.5 mg/ Metformin Hydrochloride extended release 1000 mg",
     "Drug: Pioglitazone 30mg"
-   ]
+   ],
+   "label": "glucose lowering drugs only",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -117,10 +117,10 @@
  "brief_summary": "In this study, we aim to explore the beneficial effect of early short-term (two weeks), self-titrated, basal-only insulin therapy on the degree of glycemic control over 1-year follow through a prospective cohort.",
  "eligibility": {
   "criteria": "Inclusion Criteria: (must have)\n\n* Newly diagnosed type 2 diabetes mellitus on no glucose-lowering drugs and\n* Either hemoglobin A1c equal to or more than 9% and/or random blood glucose equal to or more than 300 mg/dl.\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes mellitus,\n* Urine ketone dipstick + and above at baseline or anytime throughout the study.\n* Pregnancy.\n* Current or recent steroid use.\n* History of coronary heart disease and heart failure.\n* GFR less than 60 mL/min/1.73 m2.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -128,13 +128,13 @@
  },
  "sites": [
   {
-   "facility": "Faiha Specialized Diabetes, Endocrine, and Metabolism Center",
    "city": "Basra",
-   "state": null,
    "country": "Iraq",
-   "status": null,
+   "facility": "Faiha Specialized Diabetes, Endocrine, and Metabolism Center",
    "lat": 30.50852,
-   "lon": 47.7804
+   "lon": 47.7804,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06107153",
@@ -146,6 +146,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "(must have)"
+   },
+   {
+    "text": "Newly diagnosed type 2 diabetes mellitus on no glucose-lowering drugs and"
+   },
+   {
+    "text": "Either hemoglobin A1c equal to or more than 9% and/or random blood glucose equal to or more than 300 mg/dl."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes mellitus,"
+   },
+   {
+    "text": "Urine ketone dipstick + and above at baseline or anytime throughout the study."
+   },
+   {
+    "text": "Pregnancy."
+   },
+   {
+    "text": "Current or recent steroid use."
+   },
+   {
+    "text": "History of coronary heart disease and heart failure."
+   },
+   {
+    "text": "GFR less than 60 mL/min/1.73 m2."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

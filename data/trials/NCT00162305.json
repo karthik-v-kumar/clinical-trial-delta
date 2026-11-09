@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Bristol-Myers Squibb"
@@ -53,62 +53,62 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "BMS-512148",
    "other_names": [
     "Dapagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "BMS-512148",
    "other_names": [
     "Dapagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "BMS-512148",
    "other_names": [
     "Dapagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Dapagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: BMS-512148"
+   ],
    "label": "1",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: BMS-512148"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: BMS-512148"
+   ],
    "label": "2",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: BMS-512148"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: BMS-512148"
+   ],
    "label": "3",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: BMS-512148"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "4",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "4",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "The purpose of this clinical research study is to assess the safety of, exposure to, and biological effects of BMS-512148 in stable Type 2 diabetic subjects",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Established diagnosis of Type 2 diabetes mellitus, who are treated with metformin or diet alone (drug naive).\n* Fasting glucose (FG) \\< - 240 mg/dL, while on metformin or antidiabetic diet alone.\n* HbA1c (Hemoglobin A1c) in the range of 6.0-10.0%\n\nExclusion Criteria:\n\n* Women of childbearing potential",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,49 +131,49 @@
  },
  "sites": [
   {
-   "facility": "Local Institution",
    "city": "Fort Lauderdale",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Local Institution",
    "lat": 26.12231,
-   "lon": -80.14338
+   "lon": -80.14338,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Local Institution",
    "city": "Miami",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Local Institution",
    "lat": 25.77427,
-   "lon": -80.19366
-  },
-  {
-   "facility": "Local Institution",
-   "city": "Orlando",
+   "lon": -80.19366,
    "state": "Florida",
+   "status": null
+  },
+  {
+   "city": "Orlando",
    "country": "United States",
-   "status": null,
+   "facility": "Local Institution",
    "lat": 28.53834,
-   "lon": -81.37924
+   "lon": -81.37924,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Local Institution",
    "city": "New Orleans",
-   "state": "Louisiana",
    "country": "United States",
-   "status": null,
+   "facility": "Local Institution",
    "lat": 29.95465,
-   "lon": -90.07507
+   "lon": -90.07507,
+   "state": "Louisiana",
+   "status": null
   },
   {
-   "facility": "Local Institution",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Local Institution",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00162305",
@@ -188,6 +188,26 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Established diagnosis of Type 2 diabetes mellitus, who are treated with metformin or diet alone (drug naive)."
+   },
+   {
+    "text": "Fasting glucose (FG) < - 240 mg/dL, while on metformin or antidiabetic diet alone."
+   },
+   {
+    "text": "HbA1c (Hemoglobin A1c) in the range of 6.0-10.0%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Women of childbearing potential"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

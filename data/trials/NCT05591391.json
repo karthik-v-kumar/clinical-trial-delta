@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Taipei Veterans General Hospital, Taiwan",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Taipei Veterans General Hospital, Taiwan"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Mallya cap",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Standard care",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Mallya",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Mallya cap"
-   ]
+   ],
+   "label": "Mallya",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Standard care",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Standard care"
-   ]
+   ],
+   "label": "Standard care",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "This is a randomized, 12-week, open-label, active-controlled, parallel group study that will collect data of real-time continuous glucose monitoring for seven days at baseline and the end of study from adults with Type 2 diabetes mellitus inadequately controlled on oral antidiabetic drugs transiting to their first injectable therapy, iGlarLixi. A total of 40 patients will be recruited in Taipei Veterans General Hospital and randomized to use Mallya or receive standard care. The study is designed to demonstrate the efficacy of Mallya compared to standard care in terms of time in range (glucose level of 70-180 mg/dL), time above range (glucose level ≥180 mg/dL), time below range (glucose level \\<70 mg/dL), glycemic variability indices, changes in HbA1c and percentage of patients with HbA1c ≤7.0% at endpoint, time to stable dose, and diabetes treatment satisfaction. The result of the current study will provide insights into the utility of Mallya as a treatment monitoring solution to improve glycemic control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥20 years-old\n* T2DM ≥ 180 days\n* HbA1c ≥ 7.0% at screening\n* Under stable doses of OADs for ≥12 weeks prior to screening\n* Insulin naïve (except short term insulin treatment for a maximum of 14 days before screening and/or prior insulin treatment for gestational diabetes)\n* Not currently using real time continuous or flash glucose monitoring\n* Not currently using Mallya\n\nExclusion Criteria:\n\n* Known or suspected hypersensitivity to randomized treatment or related products\n* Previous participation in this study (Participation is defined as signed informed consent);\n* Participation (i.e., signed informed consent) in any interventional, clinical study within 90 days before screening (except for COVID-19 study);\n* Female who is pregnant, breast-feeding or intends to become pregnant\n* Presence of severe gastrointestinal disorders, such as severe gastroparesis;\n* Presence of severe renal dysfunction (eGFR \\<30 ml/min/1.73 m2) or end-stage renal disease on dialysis;\n* Presence of severe hepatic dysfunction (AST or ALT level ≥ 200 U/L);\n* Patients with a history of pancreatitis;\n* Patients receiving systemic corticosteroids\n* Patients with active cancer within the past six months.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Division of Endocrinology and Metabolism, Department of Medicine, Taipei Veterans General Hospital",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": "RECRUITING",
+   "facility": "Division of Endocrinology and Metabolism, Department of Medicine, Taipei Veterans General Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05591391",
@@ -112,6 +112,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥20 years-old"
+   },
+   {
+    "text": "T2DM ≥ 180 days"
+   },
+   {
+    "text": "HbA1c ≥ 7.0% at screening"
+   },
+   {
+    "text": "Under stable doses of OADs for ≥12 weeks prior to screening"
+   },
+   {
+    "text": "Insulin naïve (except short term insulin treatment for a maximum of 14 days before screening and/or prior insulin treatment for gestational diabetes)"
+   },
+   {
+    "text": "Not currently using real time continuous or flash glucose monitoring"
+   },
+   {
+    "text": "Not currently using Mallya"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known or suspected hypersensitivity to randomized treatment or related products"
+   },
+   {
+    "text": "Previous participation in this study (Participation is defined as signed informed consent);"
+   },
+   {
+    "text": "Participation (i.e., signed informed consent) in any interventional, clinical study within 90 days before screening (except for COVID-19 study);"
+   },
+   {
+    "text": "Female who is pregnant, breast-feeding or intends to become pregnant"
+   },
+   {
+    "text": "Presence of severe gastrointestinal disorders, such as severe gastroparesis;"
+   },
+   {
+    "text": "Presence of severe renal dysfunction (eGFR <30 ml/min/1.73 m2) or end-stage renal disease on dialysis;"
+   },
+   {
+    "text": "Presence of severe hepatic dysfunction (AST or ALT level ≥ 200 U/L);"
+   },
+   {
+    "text": "Patients with a history of pancreatitis;"
+   },
+   {
+    "text": "Patients receiving systemic corticosteroids"
+   },
+   {
+    "text": "Patients with active cancer within the past six months."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Alain Dagher",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Alain Dagher"
  },
  "collaborators": [],
  "conditions": [
@@ -48,26 +48,26 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "semaglutide",
    "other_names": [
     "Ozempic",
     "Wegovy"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Overweight Group (BMI 27 - 40 kg/m2)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: semaglutide"
-   ]
+   ],
+   "label": "Overweight Group (BMI 27 - 40 kg/m2)",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Lean group (BMI 20 - 25 kg/m2)",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -211,23 +211,23 @@
  "brief_summary": "The goal of this clinical trial is to learn about the nature of brain abnormalities associated with excess body fat in healthy adults aged 35-55. The main questions it aims to answer are:\n\n* Will excessive fat be associated with brain abnormalities on MRI measures?\n* Will weight loss change brain health on MRI measures?\n\nParticipants will:\n\n* Self-administer study drug, semaglutide, once a week for 80 weeks\n* Complete metabolic and basic body measurements\n* Complete cognitive, mood, and dietary assessments\n* Complete questionnaires\n* Undergo MRIs",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nKey inclusion criteria for obese group:\n\n* Individuals of age 35-55 years with BMI 27 - 40 kg/m2\n* Able to provide informed consent\n* Willing to self-inject semaglutide and follow study procedures for its entire duration.\n\nKey inclusion criteria for lean control group:\n\n* Individuals of age 35-55 years with BMI 20 - 25 kg/m2\n* Able to provide informed consent\n\nExclusion Criteria for both groups:\n\n* Current type 2 diabetes mellitus;\n* Neurological disorders affecting the CNS;\n* History or family history of medullary thyroid carcinoma or MEN2 syndrome\n* CNS-active medications (outside of medications used to control psychiatric disorders);\n* Poorly controlled psychiatric disorders including major depression or previous suicidality;\n* Class III obesity (BMI\\>40 or BMI\\>35 with complications) as these individuals are eligible for bariatric surgery in Canada and will be referred for appropriate medical care;\n* Clinical safety blood measures indicative of a medical issue.\n* History of weight change \\> 5 kg in past 90 days;\n* History of pancreatitis\n* Previous or planned bariatric surgery;\n* Use of another weight loss medication during trial participation and within 90 days before enrolment;\n* History of serious medical illness, monogenic obesity, uncontrolled hypertension (sBP\\>160 mmHg, dBP\\>100 mmHg), active malignancy, illicit substance use, cigarette smoking, diagnosed eating disorder, as listed in the study protocol associated with; Other obesity comorbidities, e.g. hypertension, pre-diabetes (HbA1C = 6% to 6.4%), hyperlipidemia, controlled depressive disorder or anxiety, ADHD, and polycystic ovary syndrome, will not be exclusion criteria as this would reduce the representativeness of our sample.\n* Female subjects of childbearing potential (i.e., a premenopausal female capable of becoming pregnant) are eligible to enroll if they are either sexually inactive/abstinent or using an effective contraceptive from screening until 4 weeks after the last dose. Medically accepted contraception are hormonal implants, hormonal patches, IDU, diaphragm and spermicide, cervical cape with spermicide, and condom with spermicide.",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "The Montreal Neurological Institute-Hospital",
    "city": "Montreal",
-   "state": "Quebec",
    "country": "Canada",
-   "status": "RECRUITING",
+   "facility": "The Montreal Neurological Institute-Hospital",
    "lat": 45.50884,
-   "lon": -73.58781
+   "lon": -73.58781,
+   "state": "Quebec",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07592546",
@@ -239,6 +239,86 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Individuals of age 35-55 years with BMI 27 - 40 kg/m2",
+    "group": "for obese group"
+   },
+   {
+    "text": "Able to provide informed consent",
+    "group": "for obese group"
+   },
+   {
+    "text": "Willing to self-inject semaglutide and follow study procedures for its entire duration.",
+    "group": "for obese group"
+   },
+   {
+    "text": "Individuals of age 35-55 years with BMI 20 - 25 kg/m2",
+    "group": "for lean control group"
+   },
+   {
+    "text": "Able to provide informed consent",
+    "group": "for lean control group"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Current type 2 diabetes mellitus;",
+    "group": "for both groups"
+   },
+   {
+    "text": "Neurological disorders affecting the CNS;",
+    "group": "for both groups"
+   },
+   {
+    "text": "History or family history of medullary thyroid carcinoma or MEN2 syndrome",
+    "group": "for both groups"
+   },
+   {
+    "text": "CNS-active medications (outside of medications used to control psychiatric disorders);",
+    "group": "for both groups"
+   },
+   {
+    "text": "Poorly controlled psychiatric disorders including major depression or previous suicidality;",
+    "group": "for both groups"
+   },
+   {
+    "text": "Class III obesity (BMI>40 or BMI>35 with complications) as these individuals are eligible for bariatric surgery in Canada and will be referred for appropriate medical care;",
+    "group": "for both groups"
+   },
+   {
+    "text": "Clinical safety blood measures indicative of a medical issue.",
+    "group": "for both groups"
+   },
+   {
+    "text": "History of weight change > 5 kg in past 90 days;",
+    "group": "for both groups"
+   },
+   {
+    "text": "History of pancreatitis",
+    "group": "for both groups"
+   },
+   {
+    "text": "Previous or planned bariatric surgery;",
+    "group": "for both groups"
+   },
+   {
+    "text": "Use of another weight loss medication during trial participation and within 90 days before enrolment;",
+    "group": "for both groups"
+   },
+   {
+    "text": "History of serious medical illness, monogenic obesity, uncontrolled hypertension (sBP>160 mmHg, dBP>100 mmHg), active malignancy, illicit substance use, cigarette smoking, diagnosed eating disorder, as listed in the study protocol associated with; Other obesity comorbidities, e.g. hypertension, pre-diabetes (HbA1C = 6% to 6.4%), hyperlipidemia, controlled depressive disorder or anxiety, ADHD, and polycystic ovary syndrome, will not be exclusion criteria as this would reduce the representativeness of our sample.",
+    "group": "for both groups"
+   },
+   {
+    "text": "Female subjects of childbearing potential (i.e., a premenopausal female capable of becoming pregnant) are eligible to enroll if they are either sexually inactive/abstinent or using an effective contraceptive from screening until 4 weeks after the last dose. Medically accepted contraception are hormonal implants, hormonal patches, IDU, diaphragm and spermicide, cervical cape with spermicide, and condom with spermicide.",
+    "group": "for both groups"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

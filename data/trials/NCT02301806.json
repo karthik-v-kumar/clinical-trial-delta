@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Dokkyo Medical University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Dokkyo Medical University"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -50,37 +50,37 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "dieting",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: dieting",
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: dieting",
     "Drug: Glimepiride"
-   ]
+   ],
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "To investigate whether single administration of sitaglitpin can restore acute endothelial dysfunction and ameliorate impaired increase of the number of endothelial progenitor cells (EPCs) after oral glucose loading in patients with T2DM.\n\nTo compare the effect of sitagliptin and glimepiride on endothelial function evaluated by flow-mediated vasodilatation (FMD) and the number of circulating EPCs in patients with T2DM.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Provision of informed consent before any study specific procedures\n* Type II diabetes who have inadequate glycaemic control (6.5%≦HbA1c\\<9.0%)\n* Age from 20 to 80 years old\n* No history of using any antihyperglycemic drugs\n* No history of cardiovascular complications\n* No treatment or treatment with stable doses of lipid-lowering, antihypertensive, and antiplatelet agents for at least 3 months prior to randomization\n* 4.5 % ≤ fasting FMD at baseline \\< 8.0 %\n\nExclusion Criteria:\n\n* ・Type I diabetes\n\n  * Pregnancy\n  * Liver disease (hepatic enzymes more than three times the upper limit of normal ranges)\n  * Impairared kidney function (serum crearinine greater than 1.3 mg/dl in men, 1.2 mg/dl in women)\n  * Cigarette smokers\n  * Contraindications to glimepiride and sitagliptin\n  * Active proliferative diabetic retinopathy",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,22 +103,22 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Mibu",
-   "state": null,
    "country": "Japan",
-   "status": "RECRUITING",
+   "facility": null,
    "lat": 36.41667,
-   "lon": 139.8
+   "lon": 139.8,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
-   "facility": "Dokkyo Medical University",
    "city": "Mibu",
-   "state": "Tochigo",
    "country": "Japan",
-   "status": "RECRUITING",
+   "facility": "Dokkyo Medical University",
    "lat": 36.41667,
-   "lon": 139.8
+   "lon": 139.8,
+   "state": "Tochigo",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02301806",
@@ -130,6 +130,46 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Provision of informed consent before any study specific procedures"
+   },
+   {
+    "text": "Type II diabetes who have inadequate glycaemic control (6.5%≦HbA1c<9.0%)"
+   },
+   {
+    "text": "Age from 20 to 80 years old"
+   },
+   {
+    "text": "No history of using any antihyperglycemic drugs"
+   },
+   {
+    "text": "No history of cardiovascular complications"
+   },
+   {
+    "text": "No treatment or treatment with stable doses of lipid-lowering, antihypertensive, and antiplatelet agents for at least 3 months prior to randomization"
+   },
+   {
+    "text": "4.5 % ≤ fasting FMD at baseline < 8.0 %"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "・Type I diabetes",
+    "sub_items": [
+     "Pregnancy",
+     "Liver disease (hepatic enzymes more than three times the upper limit of normal ranges)",
+     "Impairared kidney function (serum crearinine greater than 1.3 mg/dl in men, 1.2 mg/dl in women)",
+     "Cigarette smokers",
+     "Contraindications to glimepiride and sitagliptin",
+     "Active proliferative diabetic retinopathy"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "The Deutsche Diabetes Forschungsgesellschaft e.V.",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The Deutsche Diabetes Forschungsgesellschaft e.V."
  },
  "collaborators": [
   "Algiax Pharmaceuticals GmbH"
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AP-325",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo matching AP-325",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AP-325 Treatment",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AP-325"
-   ]
+   ],
+   "label": "AP-325 Treatment",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo Treatment",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo matching AP-325"
-   ]
+   ],
+   "label": "Placebo Treatment",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The aim of this single-center, prospective, randomized, double-blind, placebo-controlled, 2-arm parallel-group interventional study is to investigate the effect of 4-week treatment with AP-325 on C-peptide release as measure of insulin secretion compared to placebo in type 2 diabetes (T2D) patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of T2D\n* Age between 25 and 75 years\n* HbA1c ≥6.5 and ≤9.5 %\n* BMI ≤ 45 kg/m2\n* Treatment-naive or stable antihyperglycemic therapy with metformin, α-glucosidase-inhibitor and/or SGLT2 inhibitor\n* Ability to give consent\n\nExclusion Criteria:\n\n* Acute infections (hsCRP \\> 5mg/dl, body temperature \\>37.5°C)\n* Insulin therapy or treatment with sulfonylureas, glinides, GLP-1 receptor agonists, thiazolidinediones; current treatment with DPP-4 inhibitors or during the 4 weeks prior to baseline examination\n* Uncontrolled hyperglycemia, e.g. fasting blood glucose \\>240 mg/dl\n* Heart rate \\<50 or \\>100 beats per minute; systolic blood pressure \\<100 or \\>160 mmHg; diastolic blood pressure \\<50 or \\>100 mmHg; uncontrolled hypertension\n* Creatinine clearance \\<60 ml/min (eGFR by MDRD formula)\n* Severe chronic illnesses, such as congestive heart failure (NYHA III/IV), liver insufficiency (Child-Pugh Class B/C), history of acute coronary syndrome, stroke\n* Anemia (Hb \\<12 g/l for men, Hb \\<11 g/l for women)\n* Participation in another intervention study within 2 months before the examination\n* Hypersensitivity against AP-325, placebo or other ingredients of IMP\n* Immunocompromising diseases\n* Immunomodulatory drugs (e.g. oral cortisone preparations, biologicals)\n* Thyroid diseases with an unstable metabolic state (change in L-thyroxine dose within the past 6 weeks, TSH and fT4 outside the normal range)\n* Planned pregnancy, pregnant or lactating women, positive pregnancy test, and woman of childbearing potential not using two adequate methods of contraception, including a barrier method and a highly efficacious non-barrier method\n* Past (≤ 5 years) or current history of psychiatric disorders, including psychiatric depression\n* HIV, hepatitis B or C disease\n* Previous / current alcohol and / or drug abuse\n* Malignant cancer\n* BIA and MR-incompatible metal or magnetic implants, devices or objects inside of or on the body, claustrophobia\n* Treatment with the following drug groups or agents:\n\nAnticoagulant drugs (exception: acetylsalicylic acid 100 mg/day), dihydropyridines (e.g. nifedipine, amlodipine), azilsartan, losartan and irbesartan, celecoxib; if applicable, other drugs that are predominantly metabolized by CYP2C9\n\n* Inhibitors or inducers of CYP2C9, CYP3A4, such as amiodarone, verapamil, rifampicin\n* Poor CYP2C9 metabolizer",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "German Diabetes Center",
    "city": "Düsseldorf",
-   "state": "North Rhine-Westphalia",
    "country": "Germany",
-   "status": null,
+   "facility": "German Diabetes Center",
    "lat": 51.22319,
-   "lon": 6.77927
+   "lon": 6.77927,
+   "state": "North Rhine-Westphalia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05160272",
@@ -117,6 +117,98 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of T2D"
+   },
+   {
+    "text": "Age between 25 and 75 years"
+   },
+   {
+    "text": "HbA1c ≥6.5 and ≤9.5 %"
+   },
+   {
+    "text": "BMI ≤ 45 kg/m2"
+   },
+   {
+    "text": "Treatment-naive or stable antihyperglycemic therapy with metformin, α-glucosidase-inhibitor and/or SGLT2 inhibitor"
+   },
+   {
+    "text": "Ability to give consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Acute infections (hsCRP > 5mg/dl, body temperature >37.5°C)"
+   },
+   {
+    "text": "Insulin therapy or treatment with sulfonylureas, glinides, GLP-1 receptor agonists, thiazolidinediones; current treatment with DPP-4 inhibitors or during the 4 weeks prior to baseline examination"
+   },
+   {
+    "text": "Uncontrolled hyperglycemia, e.g. fasting blood glucose >240 mg/dl"
+   },
+   {
+    "text": "Heart rate <50 or >100 beats per minute; systolic blood pressure <100 or >160 mmHg; diastolic blood pressure <50 or >100 mmHg; uncontrolled hypertension"
+   },
+   {
+    "text": "Creatinine clearance <60 ml/min (eGFR by MDRD formula)"
+   },
+   {
+    "text": "Severe chronic illnesses, such as congestive heart failure (NYHA III/IV), liver insufficiency (Child-Pugh Class B/C), history of acute coronary syndrome, stroke"
+   },
+   {
+    "text": "Anemia (Hb <12 g/l for men, Hb <11 g/l for women)"
+   },
+   {
+    "text": "Participation in another intervention study within 2 months before the examination"
+   },
+   {
+    "text": "Hypersensitivity against AP-325, placebo or other ingredients of IMP"
+   },
+   {
+    "text": "Immunocompromising diseases"
+   },
+   {
+    "text": "Immunomodulatory drugs (e.g. oral cortisone preparations, biologicals)"
+   },
+   {
+    "text": "Thyroid diseases with an unstable metabolic state (change in L-thyroxine dose within the past 6 weeks, TSH and fT4 outside the normal range)"
+   },
+   {
+    "text": "Planned pregnancy, pregnant or lactating women, positive pregnancy test, and woman of childbearing potential not using two adequate methods of contraception, including a barrier method and a highly efficacious non-barrier method"
+   },
+   {
+    "text": "Past (≤ 5 years) or current history of psychiatric disorders, including psychiatric depression"
+   },
+   {
+    "text": "HIV, hepatitis B or C disease"
+   },
+   {
+    "text": "Previous / current alcohol and / or drug abuse"
+   },
+   {
+    "text": "Malignant cancer"
+   },
+   {
+    "text": "BIA and MR-incompatible metal or magnetic implants, devices or objects inside of or on the body, claustrophobia"
+   },
+   {
+    "text": "Treatment with the following drug groups or agents:"
+   },
+   {
+    "text": "Anticoagulant drugs (exception: acetylsalicylic acid 100 mg/day), dihydropyridines (e.g. nifedipine, amlodipine), azilsartan, losartan and irbesartan, celecoxib; if applicable, other drugs that are predominantly metabolized by CYP2C9"
+   },
+   {
+    "text": "Inhibitors or inducers of CYP2C9, CYP3A4, such as amiodarone, verapamil, rifampicin"
+   },
+   {
+    "text": "Poor CYP2C9 metabolizer"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

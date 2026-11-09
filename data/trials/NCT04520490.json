@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Seattle Children's Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Seattle Children's Hospital"
  },
  "collaborators": [
   "University of Washington"
@@ -55,39 +55,39 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Family Based Behavioral Treatment",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DRUG",
    "name": "Exenatide 2 mg [Bydureon]",
    "other_names": [
     "Bydureon®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide once weekly extended-release",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Family Based Behavioral Treatment",
     "Drug: Exenatide 2 mg [Bydureon]"
-   ]
+   ],
+   "label": "Exenatide once weekly extended-release",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Matching placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Behavioral: Family Based Behavioral Treatment",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Matching placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,23 +99,23 @@
  "brief_summary": "Childhood obesity and related long-term effects are serious public health problems, but not all children with obesity do well in treatment. This study will test a new combination of family-based behavioral treatment (FBT) with a drug intervention using a glucagon-like peptide-1 receptor agonist (GLP-1RA) exenatide once weekly extended-release (ExQW, Bydureon®) in order to improve obesity intervention outcomes in 10-12-year-old children.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 10-12 years of age\n* Male or female\n* Ability and willingness to participate in study visits including fMRI scans, blood draws, and weekly injections;\n* Parent willing to provide informed written consent and child willing to provide written assent;\n* Child has BMI z-score \\>95th percentile. for age and sex;\n* One parent that is obese or overweight (BMI \\>27 kg/m2); willingness of 1 parent (does not have to be the parent with obesity) to engage in weekly family-based weight control treatment delivered in English.\n\nExclusion Criteria:\n\n* History of acute or chronic serious medical conditions;\n* known diabetes mellitus or recent (6 mo.) history of anemia;\n* Presence of any implanted metal or metal devices, including ferro-metallic surgical clips or orthodontic braces;\n* Claustrophobia;\n* Documented cognitive disorder, disruptive behavior, inability to participate in group sessions;\n* Current use of medications known to alter appetite, body weight, or brain response\n* Food intolerance to test meal (macaroni and cheese) or vegetarianism/veganism or severe food allergies.\n* Known renal impairment (GFR\\<60 ml/min/1.73m2)\n* History of gastroparesis, pancreatitis or gallstones (unless status post cholecystectomy);\n* Family history of multiple endocrine neoplasia type 2 or familial medullary thyroid carcinoma;\n* Known elevated calcitonin level at phone screening or increased measured calcitonin level at study visits;\n* Untreated thyroid disorder or adrenal insufficiency;\n* Use of weight loss medications (child participant) within 3 months of screening visit.\n* Participating parent is pregnant",
-  "sex": "ALL",
-  "minimum_age": "10 Years",
-  "maximum_age": "12 Years",
   "healthy_volunteers": false,
+  "maximum_age": "12 Years",
+  "minimum_age": "10 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "facility": "Seattle Children's Hospital",
    "city": "Seattle",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "Seattle Children's Hospital",
    "lat": 47.60621,
-   "lon": -122.33207
+   "lon": -122.33207,
+   "state": "Washington",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04520490",
@@ -127,6 +127,74 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "10-12 years of age"
+   },
+   {
+    "text": "Male or female"
+   },
+   {
+    "text": "Ability and willingness to participate in study visits including fMRI scans, blood draws, and weekly injections;"
+   },
+   {
+    "text": "Parent willing to provide informed written consent and child willing to provide written assent;"
+   },
+   {
+    "text": "Child has BMI z-score >95th percentile. for age and sex;"
+   },
+   {
+    "text": "One parent that is obese or overweight (BMI >27 kg/m2); willingness of 1 parent (does not have to be the parent with obesity) to engage in weekly family-based weight control treatment delivered in English."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of acute or chronic serious medical conditions;"
+   },
+   {
+    "text": "known diabetes mellitus or recent (6 mo.) history of anemia;"
+   },
+   {
+    "text": "Presence of any implanted metal or metal devices, including ferro-metallic surgical clips or orthodontic braces;"
+   },
+   {
+    "text": "Claustrophobia;"
+   },
+   {
+    "text": "Documented cognitive disorder, disruptive behavior, inability to participate in group sessions;"
+   },
+   {
+    "text": "Current use of medications known to alter appetite, body weight, or brain response"
+   },
+   {
+    "text": "Food intolerance to test meal (macaroni and cheese) or vegetarianism/veganism or severe food allergies."
+   },
+   {
+    "text": "Known renal impairment (GFR<60 ml/min/1.73m2)"
+   },
+   {
+    "text": "History of gastroparesis, pancreatitis or gallstones (unless status post cholecystectomy);"
+   },
+   {
+    "text": "Family history of multiple endocrine neoplasia type 2 or familial medullary thyroid carcinoma;"
+   },
+   {
+    "text": "Known elevated calcitonin level at phone screening or increased measured calcitonin level at study visits;"
+   },
+   {
+    "text": "Untreated thyroid disorder or adrenal insufficiency;"
+   },
+   {
+    "text": "Use of weight loss medications (child participant) within 3 months of screening visit."
+   },
+   {
+    "text": "Participating parent is pregnant"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

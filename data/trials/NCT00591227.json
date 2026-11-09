@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2011-05-05",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Rush University Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Rush University Medical Center"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -50,29 +50,29 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "insulin aspart",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin detemir",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "aspart detemir",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin aspart",
     "Drug: insulin detemir"
-   ]
+   ],
+   "label": "aspart detemir",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "usual care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "This study will examine two questions: 1. Whether insulin treatment of high blood sugar in patients with diabetes while they are in the emergency room will improve how quickly they recover from illness if they need to be hospitalized. 2. Whether immediately beginning long lasting insulin detemir in patients with diabetes when they are admitted to hospital from the emergency room will improve how quickly they recover from the illness which necessitated hospitalization.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age 18-80 years\n2. History of type 2 diabetes mellitus for at least 3 months\n3. Prior therapy with dietary management, oral agents, or insulin\n4. Non child-bearing potential or a negative urine pregnancy test\n5. Initial blood glucose in ER \\> 200 mg/dl\n\nExclusion Criteria:\n\n1. Subsequent finding of diabetic ketoacidosis or hyperosmolar non-ketotic syndrome after initial evaluation.\n2. Patients with critical illness suspected to require intensive care unit admission or direct surgical intervention.\n3. History of current drug or alcohol abuse.\n4. History of current mental illness\n5. Inability to give informed consent\n6. Female patients who are pregnant or are breast feeding\n7. Patients who have clinically significant liver disease with AST/ALT (aspartate transaminase/alanine transaminase) \\> 3 times the upper range of normal\n8. Patients currently treated with dialysis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Rush University Medical Center",
    "city": "Chicago",
-   "state": "Illinois",
    "country": "United States",
-   "status": null,
+   "facility": "Rush University Medical Center",
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00591227",
@@ -116,6 +116,53 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 18-80 years"
+   },
+   {
+    "text": "History of type 2 diabetes mellitus for at least 3 months"
+   },
+   {
+    "text": "Prior therapy with dietary management, oral agents, or insulin"
+   },
+   {
+    "text": "Non child-bearing potential or a negative urine pregnancy test"
+   },
+   {
+    "text": "Initial blood glucose in ER > 200 mg/dl"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subsequent finding of diabetic ketoacidosis or hyperosmolar non-ketotic syndrome after initial evaluation."
+   },
+   {
+    "text": "Patients with critical illness suspected to require intensive care unit admission or direct surgical intervention."
+   },
+   {
+    "text": "History of current drug or alcohol abuse."
+   },
+   {
+    "text": "History of current mental illness"
+   },
+   {
+    "text": "Inability to give informed consent"
+   },
+   {
+    "text": "Female patients who are pregnant or are breast feeding"
+   },
+   {
+    "text": "Patients who have clinically significant liver disease with AST/ALT (aspartate transaminase/alanine transaminase) > 3 times the upper range of normal"
+   },
+   {
+    "text": "Patients currently treated with dialysis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

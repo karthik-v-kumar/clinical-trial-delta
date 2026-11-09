@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Munich Municipal Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Munich Municipal Hospital"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -52,34 +52,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "insulin aspart and detemir (NovoRapid, Levemir)",
    "other_names": [
     "Insulin NovoRapid, Insulin Levemir"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "human regular insulin and NPH insulin (Actrapid, Protaphne)",
    "other_names": [
     "Insulin Actrapid, Insulin Protaphne"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Hum",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: human regular insulin and NPH insulin (Actrapid, Protaphne)"
-   ]
+   ],
+   "label": "Hum",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Ana",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin aspart and detemir (NovoRapid, Levemir)"
-   ]
+   ],
+   "label": "Ana",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Compared to human insulins analogue insulins offer the option of optimizing metabolism also in type 2 diabetes. Especially, fast acting insulin analogues lower postprandial glucose levels more effectively than human regular insulin. However, it is not known whether therapy with analogue insulins can also improve the subclinically impaired myocardial function in type 2 diabetes. This prospective, randomized, open long term study compared the effects of a basal-bolus insulin therapy with analogue insulins versus human insulins on metabolic control and systolic and diastolic myocardial function, testing the hypothesis that optimized postprandial glucose control improves cardiac function and cardiovascular risk.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetes, insulin therapy\n\nExclusion Criteria:\n\n* type 1 diabetes, BMI \\>40, pregnancy,",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Staedt. Klinikum Muenchen Bogenhausen",
    "city": "Munich",
-   "state": "Bavaria",
    "country": "Germany",
-   "status": null,
+   "facility": "Staedt. Klinikum Muenchen Bogenhausen",
    "lat": 48.13743,
-   "lon": 11.57549
+   "lon": 11.57549,
+   "state": "Bavaria",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00747409",
@@ -123,6 +123,20 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "type 2 diabetes, insulin therapy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "type 1 diabetes, BMI >40, pregnancy,"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

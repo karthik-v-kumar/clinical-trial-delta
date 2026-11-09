@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -48,25 +48,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dulaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dulaglutide (LY2189265)-Solid-Meal",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dulaglutide"
-   ]
+   ],
+   "label": "Dulaglutide (LY2189265)-Solid-Meal",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Dulaglutide (LY2189265)-Liquid-Meal",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dulaglutide"
-   ]
+   ],
+   "label": "Dulaglutide (LY2189265)-Liquid-Meal",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "The purpose of this study is to evaluate how fasting and stopping the use of Dulaglutide (LY2189265) affect the amount of food and drink that stays in your stomach after a meal.\n\nUltrasound devices will be used to check the stomach content after a test meal.\n\nThe study can last approximately 28 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants with Type 2 Diabetes Mellitus (T2DM) as determined by medical history and have:\n\n  * a diagnosis of T2DM for at least 6 months\n  * T2DM controlled with diet and exercise alone or are on a stable dose of metformin, with or without 1 additional oral antihyperglycemic medication, a dipeptidyl peptidase-4 (DPP-4) inhibitor or sodium glucose transporter-2 inhibitor (SGLT-2i), for at least 1 month, and\n  * a hemoglobin A1c value at screening of greater than or equal to 6.5% and less than or equal to 10.0%\n\nExclusion Criteria:\n\n* Have a known clinically significant gastric emptying abnormality (for example, gastroparesis or gastric outlet obstruction), have undergone weight loss surgery such as gastric bypass (bariatric) surgery or restrictive bariatric surgery (for example, Lap-Band®), or have had endoscopic and/or device-based therapy for obesity or have had device removal within the last 6 months (for example, mucosal ablation, gastric artery embolization, intragastric balloon, and duodenal-jejunal bypass sleeve)\n* Have a significant history of or current cardiovascular, respiratory, hepatic, renal, gastrointestinal (GI), endocrine, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs, or of constituting a risk when taking the study drug, or of interfering with the interpretation of data\n* Participants who have clinical laboratory test results, blood pressure, and pulse rate that are outside the normal reference range for the population\n* Have obesity induced by other endocrinologic disorders (for example, Cushing Syndrome) or diagnosed monogenetic or syndromic forms of obesity (for example, melanocortin 4 receptor deficiency or Prader-Willi Syndrome)",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "facility": "Lilly Centre for Clinical Pharmacology",
    "city": "Singapore",
-   "state": null,
    "country": "Singapore",
-   "status": null,
+   "facility": "Lilly Centre for Clinical Pharmacology",
    "lat": 1.28967,
-   "lon": 103.85007
+   "lon": 103.85007,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07313813",
@@ -109,6 +109,34 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants with Type 2 Diabetes Mellitus (T2DM) as determined by medical history and have:",
+    "sub_items": [
+     "a diagnosis of T2DM for at least 6 months",
+     "T2DM controlled with diet and exercise alone or are on a stable dose of metformin, with or without 1 additional oral antihyperglycemic medication, a dipeptidyl peptidase-4 (DPP-4) inhibitor or sodium glucose transporter-2 inhibitor (SGLT-2i), for at least 1 month, and",
+     "a hemoglobin A1c value at screening of greater than or equal to 6.5% and less than or equal to 10.0%"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have a known clinically significant gastric emptying abnormality (for example, gastroparesis or gastric outlet obstruction), have undergone weight loss surgery such as gastric bypass (bariatric) surgery or restrictive bariatric surgery (for example, Lap-Band®), or have had endoscopic and/or device-based therapy for obesity or have had device removal within the last 6 months (for example, mucosal ablation, gastric artery embolization, intragastric balloon, and duodenal-jejunal bypass sleeve)"
+   },
+   {
+    "text": "Have a significant history of or current cardiovascular, respiratory, hepatic, renal, gastrointestinal (GI), endocrine, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs, or of constituting a risk when taking the study drug, or of interfering with the interpretation of data"
+   },
+   {
+    "text": "Participants who have clinical laboratory test results, blood pressure, and pulse rate that are outside the normal reference range for the population"
+   },
+   {
+    "text": "Have obesity induced by other endocrinologic disorders (for example, Cushing Syndrome) or diagnosed monogenetic or syndromic forms of obesity (for example, melanocortin 4 receptor deficiency or Prader-Willi Syndrome)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "LM Diagnósticos S.L.",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "LM Diagnósticos S.L."
  },
  "collaborators": [
   "AstraZeneca"
@@ -52,34 +52,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10 MG Oral Tablet [Farxiga]",
    "other_names": [
     "Dapagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo Oral Tablet",
    "other_names": [
     "Placebo"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin 10 MG Oral Tablet [Farxiga]"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo matching dapagliflozin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo Oral Tablet"
-   ]
+   ],
+   "label": "Placebo matching dapagliflozin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Centres: Three university hospitals and the primary care centres in their area in Madrid (Clínico San Carlos, La Paz, 12 de Octubre) Type of study: Randomized, multicentric, placebo-controlled, single-blind pilot study Main outcome: Nighttime blood pressure in type 2 diabetic patients Objective: To investigate the effect of the addition of 10 mg daily of dapagliflozin to the treatment of diabetic patients compared to the addition of placebo on the change in nighttime blood pressure (measured by ABPM) over 12 weeks among patients withalbuminuria levels ≥ 30 and \\< 3000 mg/g creatinine and estimated glomerular filtration rate ≥ 60 mL/min/1.73 m2..\n\nPatients: 225 patients with a previous diagnosis of type 2 diabetes and eGFR\\> 30mL/min x1,73m2, office BP above 140/70 mmHg, HbA1C 7.5-10%, albuminuria levels between 30 mg/g creatinine and 3000 mg/g creatinine and estimated glomerular filtration rate ≥ 60 mL/min/1.73 m2.\n\nIntervention: 10 mg once daily of dapagliflozin or placebo resembling dapagliflozin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nPatients with a previous diagnosis of type 2 diabetes and\n\n* Estimated glomerular filtration rate (eGFR) ≥ 60 mL/min x1.73m2and\n* Diagnosis of essential hypertension established at least one year before inclusion visit and suboptimal BP control (office BP above 140/70 mmHg)\n* HbA1C 7.5-10%\n* Albuminuria levels ≥ 30 mg/g of creatinine\n\nExclusion Criteria:\n\n* Age \\< 18 years old or ≥ 75 years old.\n* Women of childbearing potential. A woman is considered of childbearing potential (WOCBP), i.e. fertile, following menarche and until becoming post-menopausal unless permanently sterile. Permanent sterilisation methods include hysterectomy, bilateral salpingectomy and bilateral oophorectomy. A postmenopausal state is defined as no menses for 12 months without an alternative medical cause.\n* Type 1 diabetes\n* Albuminuria above 3000 mg/g of creatinine\n* Established cardiovascular disease (stable heart failure, peripheral arterial disease or myocardial infarction or stroke within the previous 6 months)\n* Intolerance to dapagliflozin\n* On treatment with loop diuretic\n* On treatment with SGLT2 inhibitors.\n* On treatment with pioglitazone.\n* Patients diagnosed of hereditary problems of galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption.\n* Patients who routinely work during nightime (period between 11.00 p.m. and 7.00 a.m.)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,31 +102,31 @@
  },
  "sites": [
   {
+   "city": "Madrid",
+   "country": "Spain",
    "facility": "Hospital Clínico San Carlos",
-   "city": "Madrid",
-   "state": null,
-   "country": "Spain",
-   "status": "RECRUITING",
    "lat": 40.4165,
-   "lon": -3.70256
+   "lon": -3.70256,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
+   "city": "Madrid",
+   "country": "Spain",
    "facility": "Hospital Universitario 12 de Octubre",
-   "city": "Madrid",
-   "state": null,
-   "country": "Spain",
-   "status": "RECRUITING",
    "lat": 40.4165,
-   "lon": -3.70256
+   "lon": -3.70256,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
-   "facility": "Hospital Universitario La Paz",
    "city": "Madrid",
-   "state": null,
    "country": "Spain",
-   "status": "RECRUITING",
+   "facility": "Hospital Universitario La Paz",
    "lat": 40.4165,
-   "lon": -3.70256
+   "lon": -3.70256,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03887416",
@@ -141,6 +141,62 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with a previous diagnosis of type 2 diabetes and"
+   },
+   {
+    "text": "Estimated glomerular filtration rate (eGFR) ≥ 60 mL/min x1.73m2and"
+   },
+   {
+    "text": "Diagnosis of essential hypertension established at least one year before inclusion visit and suboptimal BP control (office BP above 140/70 mmHg)"
+   },
+   {
+    "text": "HbA1C 7.5-10%"
+   },
+   {
+    "text": "Albuminuria levels ≥ 30 mg/g of creatinine"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Age < 18 years old or ≥ 75 years old."
+   },
+   {
+    "text": "Women of childbearing potential. A woman is considered of childbearing potential (WOCBP), i.e. fertile, following menarche and until becoming post-menopausal unless permanently sterile. Permanent sterilisation methods include hysterectomy, bilateral salpingectomy and bilateral oophorectomy. A postmenopausal state is defined as no menses for 12 months without an alternative medical cause."
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Albuminuria above 3000 mg/g of creatinine"
+   },
+   {
+    "text": "Established cardiovascular disease (stable heart failure, peripheral arterial disease or myocardial infarction or stroke within the previous 6 months)"
+   },
+   {
+    "text": "Intolerance to dapagliflozin"
+   },
+   {
+    "text": "On treatment with loop diuretic"
+   },
+   {
+    "text": "On treatment with SGLT2 inhibitors."
+   },
+   {
+    "text": "On treatment with pioglitazone."
+   },
+   {
+    "text": "Patients diagnosed of hereditary problems of galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption."
+   },
+   {
+    "text": "Patients who routinely work during nightime (period between 11.00 p.m. and 7.00 a.m.)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

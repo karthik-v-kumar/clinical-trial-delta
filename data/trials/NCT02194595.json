@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mount Sinai Hospital, Canada",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mount Sinai Hospital, Canada"
  },
  "collaborators": [
   "Canadian Institutes of Health Research (CIHR)",
@@ -51,50 +51,50 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Basal insulin and exenatide",
    "other_names": [
     "Basal insulin glargine",
     "Exenatide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Basal insulin only",
    "other_names": [
     "Basal insulin glargine"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Basal insulin and bolus insulin",
    "other_names": [
     "Basal insulin glargine",
     "Pre-meal insulin lispro"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Basal insulin and exenatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Basal insulin and exenatide"
-   ]
+   ],
+   "label": "Basal insulin and exenatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Basal insulin only",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Basal insulin only"
-   ]
+   ],
+   "label": "Basal insulin only",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Basal Insulin and bolus insulin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Basal insulin and bolus insulin"
-   ]
+   ],
+   "label": "Basal Insulin and bolus insulin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "Type 2 diabetes mellitus is a chronic metabolic disorder characterized by progressive deterioration in the function of the pancreatic beta-cells, which are the cells that produce and secrete insulin (the hormone primarily responsible for the handling of glucose in the body). The investigators propose a randomized controlled trial to determine whether combining basal insulin with a new medication called exenatide is a therapeutic strategy that can preserve beta-cell function early in the course of type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Men and women between the ages of 30 and 80 years inclusive\n2. T2DM diagnosed by a physician ≤7 years prior to enrolment\n3. On 0-2 anti-diabetic medications, with no change in dose/regimen in the preceding 4 weeks\n4. A1c at screening between 5.5% and 9.0% inclusive if on anti-diabetic medications, or between 6.0% and 9.5% inclusive if on no oral anti-diabetic medication\n5. BMI ≥ 23 kg/m2\n6. Negative pregnancy test at recruitment for all women with childbearing potential\n\nExclusion Criteria:\n\n1. Current anti-diabetic treatment with insulin or a glucagon-like peptide-1 (GLP-1) agonist\n2. Type 1 diabetes or secondary forms of diabetes\n3. History of hypoglycemia unawareness or severe hypoglycemia requiring assistance\n4. Hypersensitivity to insulin, exenatide, or the formulations of these products\n5. Renal dysfunction as evidenced by estimated glomerular filtration rate (eGFR)\\<30 ml/min by Modification of Diet in Renal Disease (MDRD) formula\n6. History of pancreatitis\n7. Family or personal history of Multiple Endocrine Neoplasia type 2 (MEN-2) or familial medullary thyroid carcinoma (MTC)\n8. Personal history of non-familial medullary thyroid carcinoma (MTC)\n9. Malignant neoplasm requiring chemotherapy, surgery, radiation or palliative therapy within the previous 5 years (with the exception of basal cell skin cancer)\n10. Unwillingness to perform capillary glucose monitoring at least 4 times a day during treatment\n11. Pregnancy or unwillingness to use reliable contraception. Women should not be planning pregnancy for the duration of the study or the first 3 months after the study. Reliable contraception includes birth control pill, intra-uterine device, abstinence, tubal ligation, partner vasectomy, or condoms with spermicide.\n12. Any factor likely to limit adherence to the protocol, in the opinion of investigator",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,13 +117,13 @@
  },
  "sites": [
   {
-   "facility": "Mount Sinai Hospital",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Mount Sinai Hospital",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02194595",
@@ -135,6 +135,68 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women between the ages of 30 and 80 years inclusive"
+   },
+   {
+    "text": "T2DM diagnosed by a physician ≤7 years prior to enrolment"
+   },
+   {
+    "text": "On 0-2 anti-diabetic medications, with no change in dose/regimen in the preceding 4 weeks"
+   },
+   {
+    "text": "A1c at screening between 5.5% and 9.0% inclusive if on anti-diabetic medications, or between 6.0% and 9.5% inclusive if on no oral anti-diabetic medication"
+   },
+   {
+    "text": "BMI ≥ 23 kg/m2"
+   },
+   {
+    "text": "Negative pregnancy test at recruitment for all women with childbearing potential"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Current anti-diabetic treatment with insulin or a glucagon-like peptide-1 (GLP-1) agonist"
+   },
+   {
+    "text": "Type 1 diabetes or secondary forms of diabetes"
+   },
+   {
+    "text": "History of hypoglycemia unawareness or severe hypoglycemia requiring assistance"
+   },
+   {
+    "text": "Hypersensitivity to insulin, exenatide, or the formulations of these products"
+   },
+   {
+    "text": "Renal dysfunction as evidenced by estimated glomerular filtration rate (eGFR)<30 ml/min by Modification of Diet in Renal Disease (MDRD) formula"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Family or personal history of Multiple Endocrine Neoplasia type 2 (MEN-2) or familial medullary thyroid carcinoma (MTC)"
+   },
+   {
+    "text": "Personal history of non-familial medullary thyroid carcinoma (MTC)"
+   },
+   {
+    "text": "Malignant neoplasm requiring chemotherapy, surgery, radiation or palliative therapy within the previous 5 years (with the exception of basal cell skin cancer)"
+   },
+   {
+    "text": "Unwillingness to perform capillary glucose monitoring at least 4 times a day during treatment"
+   },
+   {
+    "text": "Pregnancy or unwillingness to use reliable contraception. Women should not be planning pregnancy for the duration of the study or the first 3 months after the study. Reliable contraception includes birth control pill, intra-uterine device, abstinence, tubal ligation, partner vasectomy, or condoms with spermicide."
+   },
+   {
+    "text": "Any factor likely to limit adherence to the protocol, in the opinion of investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

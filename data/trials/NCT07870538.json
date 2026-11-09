@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Universitaire Ziekenhuizen KU Leuven",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Universitaire Ziekenhuizen KU Leuven"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide 3,2 mg/ml",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "To identify for whom semaglutide works best across the binge eating spectrum",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide 3,2 mg/ml"
-   ]
+   ],
+   "label": "To identify for whom semaglutide works best across the binge eating spectrum",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -75,10 +75,10 @@
  "brief_summary": "The goal of this clinical trial is to investigate how GLP-1 receptor analogs, such as semaglutide (Wegovy®), influence processes that determine eating behavior, binge eating, and weight regulation via the gut-brain axis. The main question it aims to answer is: to identify for whom semaglutide works best.\n\nParticipants will:\n\n* undergo a semaglutide treatment for 6 months\n* visit the clinic for 2-4 study checkup and tests\n* wear a smartwatch and complete questionnaires on their smartphone",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Voluntary written informed consent of the participant or their legally authorized representative has been obtained prior to any screening procedures\n2. At least 18 years of age and under 65 years of age at the time of signing the informed consent form (ICF)\n3. Use of highly effective methods of birth control; defined as those that, alone or in combination, result in low failure rate (i.e., less than 1% per year) when used consistently and correctly; such as implants, injectables, combined oral contraceptives, some IUDs, true sexual abstinence (i.e. refraining from heterosexual intercourse during the entire period of risk associated with the Trial treatment(s)) or commitment to a vasectomised partner.\n4. BMI ≥ 30 kg/m² or BMI ≥ 27 kg/m² with at least one weight-related comorbidity\n\nExclusion Criteria:\n\n1. Any form of diabetes mellitus (T1- or T2DM), defined as current hemoglobin A1c (HbA1c) \\> 6.5% or the use of antihyperglycemic drugs (metformin is permitted if prescribed for an indication other than T2DM and at a stable dose for at least 3 months days prior to screening)\n2. Use of incretin-based drugs, including GLP-1RAs (including dual agonists) and dipeptidyl peptidase-4 (DPP-4) inhibitors or amylin analogues within 3 months prior to screening\n3. Contraindications for semaglutide: history of pancreatitis, medullary thyroid carcinoma or multiple endocrine neoplasia type 2 (MEN2)\n4. Chronic kidney disease 3b or worse, defined as estimated Glomerular Filtration Rate (eGFR) \\< 45 ml/min/1.73m²\n5. Previous bariatric surgery\n6. Disorders known to affect DA signaling significantly, including movement disorders such as Parkinson's disease, prolactinoma, paraganglioma, pheochromocytoma\n7. Active use of medication affecting DA signaling, including antiparkinson medications, attention deficit hyperactivity disorder (ADHD) medications, antipsychotics, naltrexone-bupropion for weight management or antidepressants; use of serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), or trazodone is permitted if participants are on a stable dose for at least three months. Incidental use of antiemetics or sedative hypnotics is allowed but not within 48 hours prior to a study visit\n8. Current or recent (within the past 6 months) clinically significant alcohol or drug misuse (excluding nicotine) that, in the investigator's judgment, may compromise participant safety or the integrity of study data.\n9. Active severe neuropsychiatric disorders, including dementia, psychotic disorder, bipolar disorder and severe depression\n10. Acute suicidality or history of suicide attempt within 5 years prior to screening\n11. Any condition or major illness which, in the investigator's opinion, may jeopardise participant safety or compliance with the protocol\n12. Unable to understand the risks, realistic benefits and compliance requirements of each program\n13. Unwillingness to be informed about incidental findings that may be important for the participant's health\n14. Recent participation (\\< 30 days) or simultaneous participation in an interventional Trial with an investigational medicinal product (IMP) or device\n15. If applicable: Female who is pregnant, breast-feeding or intends to become pregnant in the following 6 months or is of childbearing potential and not using an adequate, highly effective contraceptive\n16. For PET scanning (subset n=64): exposure to a significant amount (\\> 1mSv) of ionizing radiation in other research studies within the last 12 months\n17. For MRI scanning: any condition that would interfere with MRI scanning (e.g., cochlear implant, metal fragments in the eyes, cardiac pacemaker, neural stimulator and metallic body inclusion or other metallic implants in the body which may interfere with MRI scanning)\n18. Claustrophobia or too much uneasiness in limited spaces (to tolerate confinement during scanning procedures)\n19. Severe back problems, interfering with lying in supine position in the scanner without movement for long durations",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -86,13 +86,13 @@
  },
  "sites": [
   {
-   "facility": "UZ/KU Leuven",
    "city": "Leuven",
-   "state": null,
    "country": "Belgium",
-   "status": "RECRUITING",
+   "facility": "UZ/KU Leuven",
    "lat": 50.87959,
-   "lon": 4.70093
+   "lon": 4.70093,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07870538",
@@ -104,6 +104,83 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Voluntary written informed consent of the participant or their legally authorized representative has been obtained prior to any screening procedures"
+   },
+   {
+    "text": "At least 18 years of age and under 65 years of age at the time of signing the informed consent form (ICF)"
+   },
+   {
+    "text": "Use of highly effective methods of birth control; defined as those that, alone or in combination, result in low failure rate (i.e., less than 1% per year) when used consistently and correctly; such as implants, injectables, combined oral contraceptives, some IUDs, true sexual abstinence (i.e. refraining from heterosexual intercourse during the entire period of risk associated with the Trial treatment(s)) or commitment to a vasectomised partner."
+   },
+   {
+    "text": "BMI ≥ 30 kg/m² or BMI ≥ 27 kg/m² with at least one weight-related comorbidity"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any form of diabetes mellitus (T1- or T2DM), defined as current hemoglobin A1c (HbA1c) > 6.5% or the use of antihyperglycemic drugs (metformin is permitted if prescribed for an indication other than T2DM and at a stable dose for at least 3 months days prior to screening)"
+   },
+   {
+    "text": "Use of incretin-based drugs, including GLP-1RAs (including dual agonists) and dipeptidyl peptidase-4 (DPP-4) inhibitors or amylin analogues within 3 months prior to screening"
+   },
+   {
+    "text": "Contraindications for semaglutide: history of pancreatitis, medullary thyroid carcinoma or multiple endocrine neoplasia type 2 (MEN2)"
+   },
+   {
+    "text": "Chronic kidney disease 3b or worse, defined as estimated Glomerular Filtration Rate (eGFR) < 45 ml/min/1.73m²"
+   },
+   {
+    "text": "Previous bariatric surgery"
+   },
+   {
+    "text": "Disorders known to affect DA signaling significantly, including movement disorders such as Parkinson's disease, prolactinoma, paraganglioma, pheochromocytoma"
+   },
+   {
+    "text": "Active use of medication affecting DA signaling, including antiparkinson medications, attention deficit hyperactivity disorder (ADHD) medications, antipsychotics, naltrexone-bupropion for weight management or antidepressants; use of serotonin reuptake inhibitors (SSRIs), serotonin norepinephrine reuptake inhibitors (SNRIs), or trazodone is permitted if participants are on a stable dose for at least three months. Incidental use of antiemetics or sedative hypnotics is allowed but not within 48 hours prior to a study visit"
+   },
+   {
+    "text": "Current or recent (within the past 6 months) clinically significant alcohol or drug misuse (excluding nicotine) that, in the investigator's judgment, may compromise participant safety or the integrity of study data."
+   },
+   {
+    "text": "Active severe neuropsychiatric disorders, including dementia, psychotic disorder, bipolar disorder and severe depression"
+   },
+   {
+    "text": "Acute suicidality or history of suicide attempt within 5 years prior to screening"
+   },
+   {
+    "text": "Any condition or major illness which, in the investigator's opinion, may jeopardise participant safety or compliance with the protocol"
+   },
+   {
+    "text": "Unable to understand the risks, realistic benefits and compliance requirements of each program"
+   },
+   {
+    "text": "Unwillingness to be informed about incidental findings that may be important for the participant's health"
+   },
+   {
+    "text": "Recent participation (< 30 days) or simultaneous participation in an interventional Trial with an investigational medicinal product (IMP) or device"
+   },
+   {
+    "text": "If applicable: Female who is pregnant, breast-feeding or intends to become pregnant in the following 6 months or is of childbearing potential and not using an adequate, highly effective contraceptive"
+   },
+   {
+    "text": "For PET scanning (subset n=64): exposure to a significant amount (> 1mSv) of ionizing radiation in other research studies within the last 12 months"
+   },
+   {
+    "text": "For MRI scanning: any condition that would interfere with MRI scanning (e.g., cochlear implant, metal fragments in the eyes, cardiac pacemaker, neural stimulator and metallic body inclusion or other metallic implants in the body which may interfere with MRI scanning)"
+   },
+   {
+    "text": "Claustrophobia or too much uneasiness in limited spaces (to tolerate confinement during scanning procedures)"
+   },
+   {
+    "text": "Severe back problems, interfering with lying in supine position in the scanner without movement for long durations"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shionogi Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Shionogi Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "JTT-705 600 mg and atorvastatin 20 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo and atorvastatin 20 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: JTT-705 600 mg and atorvastatin 20 mg"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo and atorvastatin 20 mg"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The purpose of this study is to evaluate safety of JTT-705 and to demonstrate efficacy of JTT-705 compared with placebo when co-administered with atorvastatin 20 mg in patients with low HDL",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients having lipid values as indicated below:\n* HDL-C ≤ 1.0 mmol/L (40 mg/dL)\n* TG ≤4.5 mmol/L (400 mg/dL)\n* Patients with CHD or CHD risk equivalent\n* Male and females between 18 and 70 years of age (female patients must be post-menopausal, surgically sterile or using an acceptable form of contraception)\n\nExclusion Criteria:\n\n* Body Mass Index of ≥ 35 kg/m2\n* Females that are pregnant or breast-feeding, and females of child bearing potential who are not using an effective method of contraception\n* Concomitant use of medications identified in the protocol",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Amsterdam",
-   "state": "Amsterdam",
    "country": "Netherlands",
-   "status": null,
+   "facility": null,
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": "Amsterdam",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00689442",
@@ -117,6 +117,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients having lipid values as indicated below:"
+   },
+   {
+    "text": "HDL-C ≤ 1.0 mmol/L (40 mg/dL)"
+   },
+   {
+    "text": "TG ≤4.5 mmol/L (400 mg/dL)"
+   },
+   {
+    "text": "Patients with CHD or CHD risk equivalent"
+   },
+   {
+    "text": "Male and females between 18 and 70 years of age (female patients must be post-menopausal, surgically sterile or using an acceptable form of contraception)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Body Mass Index of ≥ 35 kg/m2"
+   },
+   {
+    "text": "Females that are pregnant or breast-feeding, and females of child bearing potential who are not using an effective method of contraception"
+   },
+   {
+    "text": "Concomitant use of medications identified in the protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

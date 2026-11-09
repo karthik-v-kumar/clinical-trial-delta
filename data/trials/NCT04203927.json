@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Virginia",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Virginia"
  },
  "collaborators": [
   "National Heart, Lung, and Blood Institute (NHLBI)"
@@ -51,25 +51,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin 25 MG",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin + insulin infusion",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Empagliflozin 25 MG"
-   ]
+   ],
+   "label": "Empagliflozin + insulin infusion",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Empagliflozin + mixed meal",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Empagliflozin 25 MG"
-   ]
+   ],
+   "label": "Empagliflozin + mixed meal",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -81,23 +81,23 @@
  "brief_summary": "The aim is to test in T2DM patients, whether, compared to placebo, 12 weeks of SGLT-2 inhibitor improves post-absorptive, post-insulin infusion or postprandial insulin action to enhance Cardiac Muscle vascular function and whether changes correlate with improved GV or postprandial hyperglycemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* A1C \\> 6.5 and \\<9%\n* Never on SGLT-2i (eg: Jardiance, Invokana, Farxiga, Steglatro)\n* On stable dose of oral hypoglycemic agents \\>3 months\n* On stable dose of other medications for \\>3 months\n* BMI-\\<35\n\nExclusion Criteria:\n\n* • Smoking presently or in the past 6 months\n\n  * Taking insulin\n  * BP \\>160/90\n  * BMI \\>35\n  * History of congestive heart failure, ischemic heart disease, severe pulmonary disease, liver or kidney disease.\n  * Any vascular disease such as myocardial infarction, stroke, peripheral vascular disease\n  * History of cancer or psychiatric disease\n  * Presence of an intracardiac or intrapulmonary shunt (we will screen for this by auscultation during the physical exam by PI).\n  * Pregnant or breastfeeding.\n  * Known hypersensitivity to perflutren (contained in Definity)\n  * Screening O2 saturation \\<90%\n  * History of recurrent UTI/bladder/kidney infections-eGFR is below 45 mL/min/1.73.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "University of Virginia",
    "city": "Charlottesville",
-   "state": "Virginia",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "University of Virginia",
    "lat": 38.02931,
-   "lon": -78.47668
+   "lon": -78.47668,
+   "state": "Virginia",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04203927",
@@ -109,6 +109,45 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "A1C > 6.5 and <9%"
+   },
+   {
+    "text": "Never on SGLT-2i (eg: Jardiance, Invokana, Farxiga, Steglatro)"
+   },
+   {
+    "text": "On stable dose of oral hypoglycemic agents >3 months"
+   },
+   {
+    "text": "On stable dose of other medications for >3 months"
+   },
+   {
+    "text": "BMI-<35"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "• Smoking presently or in the past 6 months",
+    "sub_items": [
+     "Taking insulin",
+     "BP >160/90",
+     "BMI >35",
+     "History of congestive heart failure, ischemic heart disease, severe pulmonary disease, liver or kidney disease.",
+     "Any vascular disease such as myocardial infarction, stroke, peripheral vascular disease",
+     "History of cancer or psychiatric disease",
+     "Presence of an intracardiac or intrapulmonary shunt (we will screen for this by auscultation during the physical exam by PI).",
+     "Pregnant or breastfeeding.",
+     "Known hypersensitivity to perflutren (contained in Definity)",
+     "Screening O2 saturation <90%",
+     "History of recurrent UTI/bladder/kidney infections-eGFR is below 45 mL/min/1.73."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

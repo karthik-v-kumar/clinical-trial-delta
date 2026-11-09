@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shanghai Zhongshan Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Shanghai Zhongshan Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ertugliflozin 10 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Standard AMI Care",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Ertugliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ertugliflozin 10 mg"
-   ]
+   ],
+   "label": "Ertugliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Standard AMI Care"
-   ]
+   ],
+   "label": "Control",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "This prospective, randomized, open-label, blinded endpoint (PROBE) trial evaluates the efficacy of early ertugliflozin initiation (10 mg daily) compared to standard care alone on cardiac function in 476 adult patients with type 2 diabetes mellitus (T2DM) following a first acute myocardial infarction (AMI). The study is supported by scientific rationale suggesting potential effects of ertugliflozin on cardiac resident macrophages in the heart after myocardial infarction.The primary objective is to assess the change in NT-proBNP levels from baseline to 26 weeks, while secondary endpoints explore echocardiographic parameters (such as LVEF and LAVi) and metabolic indices including blood ketone levels, HbA1c, and body weight. Eligible participants are randomized in a 1:1 ratio within 72 hours of AMI onset and followed for a total of 30 weeks to monitor both efficacy outcomes and safety events, with a specific focus on serious adverse events like severe hypoglycemia, genital infections, and ketoacidosis.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Adults aged 19 years or older\n2. Clinically confirmed type 2 diabetes mellitus (T2DM)\n3. First acute myocardial infarction (AMI) with planned randomization within 72 hours of AMI onset\n4. Ability to understand and voluntarily sign written informed consent\n\nExclusion Criteria:\n\n1. Type 1 diabetes mellitus or history of diabetic ketoacidosis\n2. Gestational diabetes, pregnancy, or breastfeeding\n3. End-stage renal disease (ESRD), dialysis, or prior kidney transplantation\n4. Use of any SGLT2 inhibitor within 4 weeks prior to enrollment\n5. Hemodynamic instability or investigator judgment that participation is not in the patient's best interest\n6. Systolic blood pressure \\< 90 mmHg at enrollment or requiring vasopressors to maintain blood pressure",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Zhongshan Hospital, Fudan University",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Zhongshan Hospital, Fudan University",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07621380",
@@ -114,6 +114,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults aged 19 years or older"
+   },
+   {
+    "text": "Clinically confirmed type 2 diabetes mellitus (T2DM)"
+   },
+   {
+    "text": "First acute myocardial infarction (AMI) with planned randomization within 72 hours of AMI onset"
+   },
+   {
+    "text": "Ability to understand and voluntarily sign written informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus or history of diabetic ketoacidosis"
+   },
+   {
+    "text": "Gestational diabetes, pregnancy, or breastfeeding"
+   },
+   {
+    "text": "End-stage renal disease (ESRD), dialysis, or prior kidney transplantation"
+   },
+   {
+    "text": "Use of any SGLT2 inhibitor within 4 weeks prior to enrollment"
+   },
+   {
+    "text": "Hemodynamic instability or investigator judgment that participation is not in the patient's best interest"
+   },
+   {
+    "text": "Systolic blood pressure < 90 mmHg at enrollment or requiring vasopressors to maintain blood pressure"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

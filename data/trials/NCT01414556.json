@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "TRIPLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mikkel Christensen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mikkel Christensen"
  },
  "collaborators": [],
  "conditions": [
@@ -52,40 +52,40 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Glucose-dependent Insulinotropic polypeptide",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "saline",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Other: Glucose-dependent Insulinotropic polypeptide",
+    "Other: saline"
+   ],
    "label": "hyperglycemia",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Other: Glucose-dependent Insulinotropic polypeptide",
     "Other: saline"
-   ]
-  },
-  {
+   ],
    "label": "fasting glycemia",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Other: Glucose-dependent Insulinotropic polypeptide",
-    "Other: saline"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "hypoglycemia",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Glucose-dependent Insulinotropic polypeptide",
     "Other: saline"
-   ]
+   ],
+   "label": "hypoglycemia",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "Investigation of GIP effects at fasting and hypoglycemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Caucasians 18 years or older with Type 2 diabetes (WHO criteria)\n\nExclusion Criteria:\n\n* HbA1c \\>9 %\n* Liver disease (ALAT/ASAT \\>2 x upper normal limit)\n* Diabetic nephropathy (s-creatinine \\>130 µM or albuminuria)\n* Proliferative diabetic retinopathy (anamnestic)\n* Severe arteriosclerosis or heart failure (NYHA group III og IV)\n* Anemia\n* treatment with medication not applicable to pause for 12 hours\n* Fasting plasma glucose \\>15 mM on screening day.",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "Gentofte Hospital",
    "city": "Hellerup",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Gentofte Hospital",
    "lat": 55.73204,
-   "lon": 12.57093
+   "lon": 12.57093,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01414556",
@@ -126,6 +126,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Caucasians 18 years or older with Type 2 diabetes (WHO criteria)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "HbA1c >9 %"
+   },
+   {
+    "text": "Liver disease (ALAT/ASAT >2 x upper normal limit)"
+   },
+   {
+    "text": "Diabetic nephropathy (s-creatinine >130 µM or albuminuria)"
+   },
+   {
+    "text": "Proliferative diabetic retinopathy (anamnestic)"
+   },
+   {
+    "text": "Severe arteriosclerosis or heart failure (NYHA group III og IV)"
+   },
+   {
+    "text": "Anemia"
+   },
+   {
+    "text": "treatment with medication not applicable to pause for 12 hours"
+   },
+   {
+    "text": "Fasting plasma glucose >15 mM on screening day."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

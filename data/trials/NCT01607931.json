@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Copenhagen University Hospital, Rigshospitalet",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Copenhagen University Hospital, Rigshospitalet"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Exercise",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Resting Trial",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Exercise Trial",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Exercise"
-   ]
+   ],
+   "label": "Exercise Trial",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -80,23 +80,23 @@
  "brief_summary": "Human volunteers will be stratified by oral glucose tolerance status: normal glucose tolerant, impaired glucose tolerant, and type 2 diabetic. All subjects will undergo 4 experimental trials: \\[1\\] an oral glucose tolerance test (OGTT) combined with infused and ingested stable isotopes of glucose to assess glucose kinetics. \\[2\\] a 1 hour bout of cycling exercise at 50% of maximum power output, immediately followed by the same OGTT combined with stable isotope glucose tracers used in trial 1. \\[3\\] an isoglycemic clamp to match the plasma glucose profile measured in trial 1. \\[4\\] a 1 hour bout of cycling exercise at 50% of maximum power output, immediately followed by an isoglycemic clamp to match the plasma glucose profile measured in trial 2.\n\nExercise-induced changes in oral glucose tolerance, glucose kinetics, insulin and glucagon secretion, and the incretin effect will be examined. The exercise responses will be compared between the subjects groups of different glucose tolerance status.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* age 18-60 years\n* BMI 18-35 kg/m2\n\nExclusion Criteria:\n\n* insulin dependency\n* pregnancy\n* presence or history of chronic cardiovascular, pulmonary, hepatic, renal, or hematological disease, or cancer\n* contraindication to physical activity as assessed by ECG",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": true,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Rigshospitalet",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Rigshospitalet",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01607931",
@@ -110,6 +110,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "age 18-60 years"
+   },
+   {
+    "text": "BMI 18-35 kg/m2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "insulin dependency"
+   },
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "presence or history of chronic cardiovascular, pulmonary, hepatic, renal, or hematological disease, or cancer"
+   },
+   {
+    "text": "contraindication to physical activity as assessed by ECG"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

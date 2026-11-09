@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Centre Hospitalier Universitaire, Amiens",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Centre Hospitalier Universitaire, Amiens"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Metformin"
+   ],
    "label": "normal to mild renal impairment",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Metformin"
+   ],
    "label": "mild to moderate renal impairment",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "moderate to severe renal impairment",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "moderate to severe renal impairment",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "There is limited data availability on effect of Metformin XR on 24-h plasma glucose, and there is no available data in chronic kidney disease (CKD). The planned study aims to provide data on glucose plasma level in relation to metformin plasma level in Diabetes Type II patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes patients aged between 18 and 80 years requiring metformin (and any other antidiabetic treatment)\n\nExclusion Criteria:\n\n* Pregnancy and lactation\n* Hyperlactatemia (\\> 2.5 mmol/L)\n* No creatinine levels available since 3 months\n* Severe hepatic insufficiency\n* No liver function parameters available\n* Need of investigation with iodized contrast media\n* Hypersensitivity to metformin",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "CHU Amiens Picardie",
    "city": "Amiens",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CHU Amiens Picardie",
    "lat": 49.9,
-   "lon": 2.3
+   "lon": 2.3,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02895750",
@@ -116,6 +116,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes patients aged between 18 and 80 years requiring metformin (and any other antidiabetic treatment)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy and lactation"
+   },
+   {
+    "text": "Hyperlactatemia (> 2.5 mmol/L)"
+   },
+   {
+    "text": "No creatinine levels available since 3 months"
+   },
+   {
+    "text": "Severe hepatic insufficiency"
+   },
+   {
+    "text": "No liver function parameters available"
+   },
+   {
+    "text": "Need of investigation with iodized contrast media"
+   },
+   {
+    "text": "Hypersensitivity to metformin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

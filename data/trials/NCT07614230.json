@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Junjie Yang",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Junjie Yang"
  },
  "collaborators": [],
  "conditions": [
@@ -50,31 +50,31 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin (DAPA)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Standard Care (Treatment as Usual)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "SGLT2 Inhibitor Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin (DAPA)",
     "Other: Standard Care (Treatment as Usual)"
-   ]
+   ],
+   "label": "SGLT2 Inhibitor Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Standard Care (Treatment as Usual)"
-   ]
+   ],
+   "label": "Control Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This study is a multicenter, randomized controlled trial to test whether an SGLT2 inhibitor (dapagliflozin), a type of diabetes medication, can slow down or even reverse the progression of coronary atherosclerosis (plaque buildup in the coronary arteries) in patients with type 2 diabetes. The effect may be mediated by improving the function of perivascular adipose tissue. A total of 144 adults with type 2 diabetes and stable coronary artery disease will be randomly assigned to receive either dapagliflozin plus standard diabetes and cardiovascular care (intervention group) or standard care alone (control group) for 18 months. Serial coronary CT angiography and other assessments will be performed to evaluate changes in coronary plaque volume, CT-derived fractional flow reserve, perivascular fat radiomics score, and various metabolic and inflammatory markers, to determine whether SGLT2 inhibition reduces cardiovascular risk.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age between 18 and 75 years.\n* Confirmed diagnosis of type 2 diabetes mellitus with SCORE2-Diabetes risk score \\>10%.\n* Stable angina pectoris.\n* Coronary CT angiography (CCTA) demonstrating 50%-90% stenosis in at least one coronary vessel with diameter ≥2.5 mm.\n* CT-derived fractional flow reserve (CT-FFR) \\>0.8 in the target vessel.\n* Stable standard therapy for diabetes and cardiovascular disease, with no changes in SGLT2 inhibitors, GLP-1 receptor agonists, or DPP-4 inhibitors within the past 4 weeks.\n* Able and willing to provide written informed consent.\n\nExclusion Criteria:\n\n* History of coronary artery bypass grafting (CABG), percutaneous coronary intervention (PCI) with stenting, prosthetic valve replacement, or permanent pacemaker implantation.\n* New York Heart Association (NYHA) functional class III or IV heart failure. Acute myocardial infarction within the previous 30 days.\n* Known allergy to iodinated contrast media or other contraindications to CCTA. Severe arrhythmia or coronary artery calcium (CAC) score \\>400.\n* Estimated glomerular filtration rate (eGFR) \\<45 mL/min/1.73 m². History of serious adverse reactions to SGLT2 inhibitors.\n* Pregnancy, lactation, or planned pregnancy during the study period. Severe liver dysfunction (Child-Pugh class C).\n* Any other condition that, in the investigator's opinion, makes the participant unsuitable for the trial.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,22 +97,22 @@
  },
  "sites": [
   {
-   "facility": "The First Medical Center of Chinese PLA General Hospital",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "The First Medical Center of Chinese PLA General Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": "RECRUITING"
   },
   {
-   "facility": "The Sixth Medical Center of Chinese PLA General Hospital",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "The Sixth Medical Center of Chinese PLA General Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07614230",
@@ -124,6 +124,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age between 18 and 75 years."
+   },
+   {
+    "text": "Confirmed diagnosis of type 2 diabetes mellitus with SCORE2-Diabetes risk score >10%."
+   },
+   {
+    "text": "Stable angina pectoris."
+   },
+   {
+    "text": "Coronary CT angiography (CCTA) demonstrating 50%-90% stenosis in at least one coronary vessel with diameter ≥2.5 mm."
+   },
+   {
+    "text": "CT-derived fractional flow reserve (CT-FFR) >0.8 in the target vessel."
+   },
+   {
+    "text": "Stable standard therapy for diabetes and cardiovascular disease, with no changes in SGLT2 inhibitors, GLP-1 receptor agonists, or DPP-4 inhibitors within the past 4 weeks."
+   },
+   {
+    "text": "Able and willing to provide written informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of coronary artery bypass grafting (CABG), percutaneous coronary intervention (PCI) with stenting, prosthetic valve replacement, or permanent pacemaker implantation."
+   },
+   {
+    "text": "New York Heart Association (NYHA) functional class III or IV heart failure. Acute myocardial infarction within the previous 30 days."
+   },
+   {
+    "text": "Known allergy to iodinated contrast media or other contraindications to CCTA. Severe arrhythmia or coronary artery calcium (CAC) score >400."
+   },
+   {
+    "text": "Estimated glomerular filtration rate (eGFR) <45 mL/min/1.73 m². History of serious adverse reactions to SGLT2 inhibitors."
+   },
+   {
+    "text": "Pregnancy, lactation, or planned pregnancy during the study period. Severe liver dysfunction (Child-Pugh class C)."
+   },
+   {
+    "text": "Any other condition that, in the investigator's opinion, makes the participant unsuitable for the trial."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

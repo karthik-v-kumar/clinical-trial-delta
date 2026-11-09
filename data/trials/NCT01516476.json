@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hoffmann-La Roche",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hoffmann-La Roche"
  },
  "collaborators": [],
  "conditions": [
@@ -51,54 +51,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "RO6807952",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "RO6807952",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "liraglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide Arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: liraglutide"
-   ]
+   ],
+   "label": "Liraglutide Arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo Arm",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo Arm",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: RO6807952"
+   ],
    "label": "RO6807952 Arm 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: RO6807952"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "RO6807952 Arm 2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: RO6807952"
-   ]
+   ],
+   "label": "RO6807952 Arm 2",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "This randomized, double-blind, placebo-controlled, multi-center study will evaluate the efficacy and safety of RO6807952 in patients with diabetes mellitus type 2 inadequately controlled with metformin alone. Patients will be randomized to receive doses of RO6807952, placebo, or liraglutide. The anticipated time on study treatment is 12 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adult patients \\>/= 18 and \\</=70 years of age\n* Diagnosis of diabetes mellitus, type 2 for at least 3 months\n* Treated with a stable dose of metformin\n* Hemoglobin A1c \\>/=7.0% and \\</=10.5% at screening\n* Fasting plasma glucose \\</=240 mg/dL at screening\n* Body mass index \\>/=27 kg/m2 and \\</=42 kg/m2 at screening\n* Willing and able to maintain existing diet and exercise habits throughout the study\n* C-peptide \\>1.5 ng/mL at screening\n\nExclusion Criteria:\n\n* History of significant liver or kidney disease\n* History of uncontrolled hypertension\n* History of significant cardiovascular disease\n* History of significant diabetic complications\n* History of significant gastrointestinal conditions\n* History of weight loss surgery or procedures involving the gastrointestinal tract\n* History of chronic or acute pancreatitis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -121,13 +121,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Cincinnati",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 39.12711,
-   "lon": -84.51439
+   "lon": -84.51439,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01516476",
@@ -141,6 +141,59 @@
  "sponsors_of_note": [
   "Roche"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adult patients >/= 18 and </=70 years of age"
+   },
+   {
+    "text": "Diagnosis of diabetes mellitus, type 2 for at least 3 months"
+   },
+   {
+    "text": "Treated with a stable dose of metformin"
+   },
+   {
+    "text": "Hemoglobin A1c >/=7.0% and </=10.5% at screening"
+   },
+   {
+    "text": "Fasting plasma glucose </=240 mg/dL at screening"
+   },
+   {
+    "text": "Body mass index >/=27 kg/m2 and </=42 kg/m2 at screening"
+   },
+   {
+    "text": "Willing and able to maintain existing diet and exercise habits throughout the study"
+   },
+   {
+    "text": "C-peptide >1.5 ng/mL at screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of significant liver or kidney disease"
+   },
+   {
+    "text": "History of uncontrolled hypertension"
+   },
+   {
+    "text": "History of significant cardiovascular disease"
+   },
+   {
+    "text": "History of significant diabetic complications"
+   },
+   {
+    "text": "History of significant gastrointestinal conditions"
+   },
+   {
+    "text": "History of weight loss surgery or procedures involving the gastrointestinal tract"
+   },
+   {
+    "text": "History of chronic or acute pancreatitis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

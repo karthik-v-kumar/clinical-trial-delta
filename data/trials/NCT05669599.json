@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Amgen",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Amgen"
  },
  "collaborators": [],
  "conditions": [
@@ -55,50 +55,50 @@
  ],
  "interventions": [
   {
-   "type": "BIOLOGICAL",
    "name": "Maridebart Cafraglutide",
    "other_names": [
     "AMG 133"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Biological: Maridebart Cafraglutide",
+    "Drug: Placebo"
+   ],
    "label": "Cohort A: Maridebart Cafraglutide",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Biological: Maridebart Cafraglutide",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "Cohort A: Placebo",
-   "type": "PLACEBO_COMPARATOR",
+   "type": "PLACEBO_COMPARATOR"
+  },
+  {
    "intervention_names": [
     "Biological: Maridebart Cafraglutide",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "Cohort B: Maridebart Cafraglutide",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Biological: Maridebart Cafraglutide",
-    "Drug: Placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Cohort B: Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Biological: Maridebart Cafraglutide",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Cohort B: Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "The study aims to compare and assess the dose response of 3 selected doses of maridebart cafraglutide compared with placebo, on inducing and maintaining weight loss from baseline at Week 52 in participants with overweight or obesity without diabetes mellitus (Cohort A) and in participants with overweight or obesity with Type 2 diabetes mellitus (Cohort B).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥18 years at the time of signing informed consent.\n* BMI ≥30 kg/m\\^2, or ≥27 kg/m\\^2 and previous diagnosis with at least one of the following comorbidities: hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease.\n* For participants in cohort B only, HbA1c ≥ 7% and ≤ 10% (53 to 86 mmol/mol) at screening with an established diagnosis of type 2 diabetes mellitus for ≥ 180 days prior to screening and either treated with diet and exercise alone or on stable (at least 90 days prior to screening) treatment with metformin, a sulfonylurea, or a sodium-glucose cotransporter 2 (SGLT2) inhibitor as monotherapy or combination therapy, per approved local label.\n* History of at least one unsuccessful dietary effort to lose body weight.\n\nExclusion Criteria:\n\n* Change in body weight greater than 5 kg within 3 months prior to screening.\n* Obesity induced by other endocrinologic disorders.\n* History of pancreatitis.\n* Family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2 (MEN-2).\n* History of major depressive disorder within the last 2 years.\n* Any lifetime history of other major psychiatric disorder or suicide attempt.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "99 Years",
   "healthy_volunteers": false,
+  "maximum_age": "99 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -121,706 +121,706 @@
  },
  "sites": [
   {
-   "facility": "Royal Prince Alfred Hospital (RPAH) Clinic",
    "city": "Camperdown",
-   "state": "New South Wales",
    "country": "Australia",
-   "status": null,
+   "facility": "Royal Prince Alfred Hospital (RPAH) Clinic",
    "lat": -33.88965,
-   "lon": 151.17642
+   "lon": 151.17642,
+   "state": "New South Wales",
+   "status": null
   },
   {
-   "facility": "Clinical Medical and Analytical eXellence CMAX",
    "city": "Adelaide",
-   "state": "South Australia",
    "country": "Australia",
-   "status": null,
+   "facility": "Clinical Medical and Analytical eXellence CMAX",
    "lat": -34.92866,
-   "lon": 138.59863
+   "lon": 138.59863,
+   "state": "South Australia",
+   "status": null
   },
   {
-   "facility": "Monash Medical Centre",
    "city": "Clayton",
-   "state": "Victoria",
    "country": "Australia",
-   "status": null,
+   "facility": "Monash Medical Centre",
    "lat": -37.91667,
-   "lon": 145.11667
+   "lon": 145.11667,
+   "state": "Victoria",
+   "status": null
   },
   {
-   "facility": "St Vincents Hospital Melbourne",
    "city": "Fitzroy",
-   "state": "Victoria",
    "country": "Australia",
-   "status": null,
+   "facility": "St Vincents Hospital Melbourne",
    "lat": -37.79839,
-   "lon": 144.97833
+   "lon": 144.97833,
+   "state": "Victoria",
+   "status": null
   },
   {
-   "facility": "Austin Health, Heidelberg Repatriation Hospital",
    "city": "Heidelberg Heights",
-   "state": "Victoria",
    "country": "Australia",
-   "status": null,
+   "facility": "Austin Health, Heidelberg Repatriation Hospital",
    "lat": -37.74313,
-   "lon": 145.05695
-  },
-  {
-   "facility": "Baker Heart and Diabetes Institute",
-   "city": "Melbourne",
+   "lon": 145.05695,
    "state": "Victoria",
+   "status": null
+  },
+  {
+   "city": "Melbourne",
    "country": "Australia",
-   "status": null,
+   "facility": "Baker Heart and Diabetes Institute",
    "lat": -37.814,
-   "lon": 144.96332
+   "lon": 144.96332,
+   "state": "Victoria",
+   "status": null
   },
   {
-   "facility": "University of Calgary",
    "city": "Calgary",
-   "state": "Alberta",
    "country": "Canada",
-   "status": null,
+   "facility": "University of Calgary",
    "lat": 51.05011,
-   "lon": -114.08529
+   "lon": -114.08529,
+   "state": "Alberta",
+   "status": null
   },
   {
-   "facility": "Centricity Research Brampton Endocrinology",
    "city": "Brampton",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Centricity Research Brampton Endocrinology",
    "lat": 43.68341,
-   "lon": -79.76633
-  },
-  {
-   "facility": "Centricity Research Vaughan Endocrinology",
-   "city": "Concord",
+   "lon": -79.76633,
    "state": "Ontario",
+   "status": null
+  },
+  {
+   "city": "Concord",
    "country": "Canada",
-   "status": null,
+   "facility": "Centricity Research Vaughan Endocrinology",
    "lat": 43.80011,
-   "lon": -79.48291
+   "lon": -79.48291,
+   "state": "Ontario",
+   "status": null
   },
   {
+   "city": "Québec",
+   "country": "Canada",
    "facility": "Clinique des Maladies Lipidiques de Quebec Incorporated",
-   "city": "Québec",
-   "state": "Quebec",
-   "country": "Canada",
-   "status": null,
    "lat": 46.81228,
-   "lon": -71.21454
+   "lon": -71.21454,
+   "state": "Quebec",
+   "status": null
   },
   {
+   "city": "Québec",
+   "country": "Canada",
    "facility": "Institut Universitaire de cardiologie et de pneumologie de Quebec",
-   "city": "Québec",
-   "state": "Quebec",
-   "country": "Canada",
-   "status": null,
    "lat": 46.81228,
-   "lon": -71.21454
+   "lon": -71.21454,
+   "state": "Quebec",
+   "status": null
   },
   {
+   "city": "Prague",
+   "country": "Czechia",
    "facility": "Endokrinologicky ustav",
-   "city": "Prague",
-   "state": null,
-   "country": "Czechia",
-   "status": null,
    "lat": 50.08804,
-   "lon": 14.42076
+   "lon": 14.42076,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Prague",
+   "country": "Czechia",
    "facility": "Institut klinicke a experimentalni mediciny",
-   "city": "Prague",
-   "state": null,
-   "country": "Czechia",
-   "status": null,
    "lat": 50.08804,
-   "lon": 14.42076
+   "lon": 14.42076,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Prague",
+   "country": "Czechia",
    "facility": "Vseobecna fakultni nemocnice v Praze",
-   "city": "Prague",
-   "state": null,
-   "country": "Czechia",
-   "status": null,
    "lat": 50.08804,
-   "lon": 14.42076
+   "lon": 14.42076,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Charite - Universitaetsmedizin Berlin, Campus Mitte",
    "city": "Berlin",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Charite - Universitaetsmedizin Berlin, Campus Mitte",
    "lat": 52.52437,
-   "lon": 13.41053
+   "lon": 13.41053,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Diabeteszentrum Hamburg West",
    "city": "Hamburg",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Diabeteszentrum Hamburg West",
    "lat": 53.55073,
-   "lon": 9.99302
+   "lon": 9.99302,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Universitaetsmedizin Leipzig",
    "city": "Leipzig",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Universitaetsmedizin Leipzig",
    "lat": 51.33962,
-   "lon": 12.37129
+   "lon": 12.37129,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Prince of Wales Hospital",
    "city": "Shatin, New Territories",
-   "state": null,
    "country": "Hong Kong",
-   "status": null,
+   "facility": "Prince of Wales Hospital",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Budapest",
+   "country": "Hungary",
    "facility": "Budapesti Szent Ferenc Korhaz",
-   "city": "Budapest",
-   "state": null,
-   "country": "Hungary",
-   "status": null,
    "lat": 47.49835,
-   "lon": 19.04045
+   "lon": 19.04045,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Budapest",
+   "country": "Hungary",
    "facility": "Clinexpert Kft",
-   "city": "Budapest",
-   "state": null,
-   "country": "Hungary",
-   "status": null,
    "lat": 47.49835,
-   "lon": 19.04045
+   "lon": 19.04045,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "CRU Hungary Kft",
    "city": "Encs",
-   "state": null,
    "country": "Hungary",
-   "status": null,
+   "facility": "CRU Hungary Kft",
    "lat": 48.33067,
-   "lon": 21.11169
+   "lon": 21.11169,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Pecsi Tudomanyegyetem Klinikai Kozpont",
    "city": "Pécs",
-   "state": null,
    "country": "Hungary",
-   "status": null,
+   "facility": "Pecsi Tudomanyegyetem Klinikai Kozpont",
    "lat": 46.07617,
-   "lon": 18.22814
+   "lon": 18.22814,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Mikannohana Clinic, Diabetes, Endocrinology and Metabolism",
    "city": "Matsuyama",
-   "state": "Ehime",
    "country": "Japan",
-   "status": null,
+   "facility": "Mikannohana Clinic, Diabetes, Endocrinology and Metabolism",
    "lat": 33.83916,
-   "lon": 132.76574
+   "lon": 132.76574,
+   "state": "Ehime",
+   "status": null
   },
   {
-   "facility": "Wellness Tenjin Clinic",
    "city": "Fukuoka",
-   "state": "Fukuoka",
    "country": "Japan",
-   "status": null,
+   "facility": "Wellness Tenjin Clinic",
    "lat": 33.6,
-   "lon": 130.41667
+   "lon": 130.41667,
+   "state": "Fukuoka",
+   "status": null
   },
   {
-   "facility": "Matsunami Health Promotion Clinic",
    "city": "Hashima-gun",
+   "country": "Japan",
+   "facility": "Matsunami Health Promotion Clinic",
+   "lat": null,
+   "lon": null,
    "state": "Gifu",
-   "country": "Japan",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
-   "facility": "Mazda Hospital of Mazda Motor Corporation",
    "city": "Aki-gun",
+   "country": "Japan",
+   "facility": "Mazda Hospital of Mazda Motor Corporation",
+   "lat": null,
+   "lon": null,
    "state": "Hiroshima",
-   "country": "Japan",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
+   "city": "Naka",
+   "country": "Japan",
    "facility": "Nakakinen Clinic",
-   "city": "Naka",
-   "state": "Ibaraki",
-   "country": "Japan",
-   "status": null,
    "lat": 36.05,
-   "lon": 140.16667
+   "lon": 140.16667,
+   "state": "Ibaraki",
+   "status": null
   },
   {
+   "city": "Naka",
+   "country": "Japan",
    "facility": "Nishiyamado Keiwa Hospital",
-   "city": "Naka",
-   "state": "Ibaraki",
-   "country": "Japan",
-   "status": null,
    "lat": 36.05,
-   "lon": 140.16667
+   "lon": 140.16667,
+   "state": "Ibaraki",
+   "status": null
   },
   {
-   "facility": "Shiraiwa Medical Clinic",
    "city": "Kashiwara-shi",
+   "country": "Japan",
+   "facility": "Shiraiwa Medical Clinic",
+   "lat": null,
+   "lon": null,
    "state": "Osaka",
-   "country": "Japan",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
-   "facility": "Nihonbashi Sakura Clinic",
    "city": "Chuo-ku",
-   "state": "Tokyo",
    "country": "Japan",
-   "status": null,
+   "facility": "Nihonbashi Sakura Clinic",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Tokyo",
+   "status": null
   },
   {
-   "facility": "MIH Clinic Yoyogi",
    "city": "Shibuya-ku",
-   "state": "Tokyo",
    "country": "Japan",
-   "status": null,
+   "facility": "MIH Clinic Yoyogi",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Tokyo",
+   "status": null
   },
   {
-   "facility": "AthleticoMed",
    "city": "Bydgoszcz",
-   "state": null,
    "country": "Poland",
-   "status": null,
+   "facility": "AthleticoMed",
    "lat": 53.1235,
-   "lon": 18.00762
+   "lon": 18.00762,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Centrum Badan Klinicznych PI-House Spzoo",
    "city": "Gdansk",
-   "state": null,
    "country": "Poland",
-   "status": null,
+   "facility": "Centrum Badan Klinicznych PI-House Spzoo",
    "lat": 54.35227,
-   "lon": 18.64912
+   "lon": 18.64912,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Lodz",
+   "country": "Poland",
    "facility": "AppleTreeClinics Network Spzoo",
-   "city": "Lodz",
-   "state": null,
-   "country": "Poland",
-   "status": null,
    "lat": 51.77058,
-   "lon": 19.47395
+   "lon": 19.47395,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Lodz",
+   "country": "Poland",
    "facility": "Centrum Terapii Wspolczesnej",
-   "city": "Lodz",
-   "state": null,
-   "country": "Poland",
-   "status": null,
    "lat": 51.77058,
-   "lon": 19.47395
+   "lon": 19.47395,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Clinical Best Solutions Sp zoo Spolka Komandytowa",
    "city": "Lublin",
-   "state": null,
    "country": "Poland",
-   "status": null,
+   "facility": "Clinical Best Solutions Sp zoo Spolka Komandytowa",
    "lat": 51.25058,
-   "lon": 22.57009
+   "lon": 22.57009,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Migre Polskie Centrum Leczenia Migreny Anna Gryglas-Dworak",
    "city": "Wroclaw",
-   "state": null,
    "country": "Poland",
-   "status": null,
+   "facility": "Migre Polskie Centrum Leczenia Migreny Anna Gryglas-Dworak",
    "lat": 51.10286,
-   "lon": 17.03006
+   "lon": 17.03006,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Dongguk University Ilsan Hospital",
    "city": "Goyang-si, Gyeonggi-do",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Dongguk University Ilsan Hospital",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Gachon University Gil Medical Center",
    "city": "Incheon",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Gachon University Gil Medical Center",
    "lat": 37.45646,
-   "lon": 126.70515
+   "lon": 126.70515,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Seoul National University Bundang Hospital",
    "city": "Seongnam-si, Gyeonggi-do",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Seoul National University Bundang Hospital",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Kangbuk Samsung Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Kangbuk Samsung Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Hospital Vithas Sevilla",
    "city": "Castilleja de la Cuesta",
-   "state": "Andalusia",
    "country": "Spain",
-   "status": null,
+   "facility": "Hospital Vithas Sevilla",
    "lat": 37.38594,
-   "lon": -6.05258
-  },
-  {
-   "facility": "Hospital Clinico Universitario Virgen de la Victoria",
-   "city": "Málaga",
+   "lon": -6.05258,
    "state": "Andalusia",
+   "status": null
+  },
+  {
+   "city": "Málaga",
    "country": "Spain",
-   "status": null,
+   "facility": "Hospital Clinico Universitario Virgen de la Victoria",
    "lat": 36.72016,
-   "lon": -4.42034
+   "lon": -4.42034,
+   "state": "Andalusia",
+   "status": null
   },
   {
-   "facility": "Hospital Universitario Arnau de Vilanova Lleida",
    "city": "Lleida",
-   "state": "Catalonia",
    "country": "Spain",
-   "status": null,
+   "facility": "Hospital Universitario Arnau de Vilanova Lleida",
    "lat": 41.61674,
-   "lon": 0.62218
+   "lon": 0.62218,
+   "state": "Catalonia",
+   "status": null
   },
   {
-   "facility": "Complexo Hospitalario Universitario A Coruña",
    "city": "A Coruña",
-   "state": "Galicia",
    "country": "Spain",
-   "status": null,
+   "facility": "Complexo Hospitalario Universitario A Coruña",
    "lat": 43.37135,
-   "lon": -8.396
+   "lon": -8.396,
+   "state": "Galicia",
+   "status": null
   },
   {
-   "facility": "Kaohsiung Medical University Chung-Ho Memorial Hospital",
    "city": "Kaohsiung City",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Kaohsiung Medical University Chung-Ho Memorial Hospital",
    "lat": 22.61626,
-   "lon": 120.31333
+   "lon": 120.31333,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "China Medical University Hospital",
    "city": "Taichung",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "China Medical University Hospital",
    "lat": 24.1469,
-   "lon": 120.6839
+   "lon": 120.6839,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "National Cheng Kung University Hospital",
    "city": "Tainan",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "National Cheng Kung University Hospital",
    "lat": 22.99259,
-   "lon": 120.20507
-  },
-  {
-   "facility": "National Taiwan University Hospital",
-   "city": "Taipei",
+   "lon": 120.20507,
    "state": null,
+   "status": null
+  },
+  {
+   "city": "Taipei",
    "country": "Taiwan",
-   "status": null,
+   "facility": "National Taiwan University Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Alliance for Multispecialty Research Mobile",
    "city": "Mobile",
-   "state": "Alabama",
    "country": "United States",
-   "status": null,
+   "facility": "Alliance for Multispecialty Research Mobile",
    "lat": 30.69436,
-   "lon": -88.04305
+   "lon": -88.04305,
+   "state": "Alabama",
+   "status": null
   },
   {
-   "facility": "Foothills Research Center",
    "city": "Phoenix",
-   "state": "Arizona",
    "country": "United States",
-   "status": null,
+   "facility": "Foothills Research Center",
    "lat": 33.44838,
-   "lon": -112.07404
-  },
-  {
-   "facility": "HonorHealth",
-   "city": "Scottsdale",
+   "lon": -112.07404,
    "state": "Arizona",
+   "status": null
+  },
+  {
+   "city": "Scottsdale",
    "country": "United States",
-   "status": null,
+   "facility": "HonorHealth",
    "lat": 33.50921,
-   "lon": -111.89903
+   "lon": -111.89903,
+   "state": "Arizona",
+   "status": null
   },
   {
-   "facility": "Ark Clinical Research- Long Beach",
    "city": "Long Beach",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Ark Clinical Research- Long Beach",
    "lat": 33.76696,
-   "lon": -118.18923
+   "lon": -118.18923,
+   "state": "California",
+   "status": null
   },
   {
+   "city": "Tustin",
+   "country": "United States",
    "facility": "Ark Clinical Research- Tustin",
-   "city": "Tustin",
-   "state": "California",
-   "country": "United States",
-   "status": null,
    "lat": 33.74585,
-   "lon": -117.82617
+   "lon": -117.82617,
+   "state": "California",
+   "status": null
   },
   {
+   "city": "Tustin",
+   "country": "United States",
    "facility": "Orange County Research Center",
-   "city": "Tustin",
-   "state": "California",
-   "country": "United States",
-   "status": null,
    "lat": 33.74585,
-   "lon": -117.82617
-  },
-  {
-   "facility": "Diablo Clinical Research",
-   "city": "Walnut Creek",
+   "lon": -117.82617,
    "state": "California",
+   "status": null
+  },
+  {
+   "city": "Walnut Creek",
    "country": "United States",
-   "status": null,
+   "facility": "Diablo Clinical Research",
    "lat": 37.90631,
-   "lon": -122.06496
+   "lon": -122.06496,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Alliance for Multispecialty Research Miami",
    "city": "Coral Gables",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Alliance for Multispecialty Research Miami",
    "lat": 25.72149,
-   "lon": -80.26838
-  },
-  {
-   "facility": "Progressive Medical Research",
-   "city": "Port Orange",
+   "lon": -80.26838,
    "state": "Florida",
+   "status": null
+  },
+  {
+   "city": "Port Orange",
    "country": "United States",
-   "status": null,
+   "facility": "Progressive Medical Research",
    "lat": 29.13832,
-   "lon": -80.99561
+   "lon": -80.99561,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "East-West Medical Research",
    "city": "Honolulu",
-   "state": "Hawaii",
    "country": "United States",
-   "status": null,
+   "facility": "East-West Medical Research",
    "lat": 21.30694,
-   "lon": -157.85833
+   "lon": -157.85833,
+   "state": "Hawaii",
+   "status": null
   },
   {
+   "city": "Chicago",
+   "country": "United States",
    "facility": "Great Lakes Clinical Trials",
-   "city": "Chicago",
-   "state": "Illinois",
-   "country": "United States",
-   "status": null,
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   },
   {
+   "city": "Chicago",
+   "country": "United States",
    "facility": "University of Chicago",
-   "city": "Chicago",
-   "state": "Illinois",
-   "country": "United States",
-   "status": null,
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   },
   {
-   "facility": "Alliance for Multispecialty Research Newton",
    "city": "Newton",
-   "state": "Kansas",
    "country": "United States",
-   "status": null,
+   "facility": "Alliance for Multispecialty Research Newton",
    "lat": 38.04668,
-   "lon": -97.34504
+   "lon": -97.34504,
+   "state": "Kansas",
+   "status": null
   },
   {
-   "facility": "Louisville Metabolic and Atherosclerosis Research Center",
    "city": "Louisville",
-   "state": "Kentucky",
    "country": "United States",
-   "status": null,
+   "facility": "Louisville Metabolic and Atherosclerosis Research Center",
    "lat": 38.25424,
-   "lon": -85.75941
+   "lon": -85.75941,
+   "state": "Kentucky",
+   "status": null
   },
   {
-   "facility": "Tandem Clinical Research - Marrero",
    "city": "Marrero",
-   "state": "Louisiana",
    "country": "United States",
-   "status": null,
+   "facility": "Tandem Clinical Research - Marrero",
    "lat": 29.89937,
-   "lon": -90.10035
+   "lon": -90.10035,
+   "state": "Louisiana",
+   "status": null
   },
   {
-   "facility": "StudyMetrix Research",
    "city": "City of Saint Peters",
-   "state": "Missouri",
    "country": "United States",
-   "status": null,
+   "facility": "StudyMetrix Research",
    "lat": 38.80033,
-   "lon": -90.62651
-  },
-  {
-   "facility": "Alliance for Multispecialty Research Kansas City",
-   "city": "Kansas City",
+   "lon": -90.62651,
    "state": "Missouri",
+   "status": null
+  },
+  {
+   "city": "Kansas City",
    "country": "United States",
-   "status": null,
+   "facility": "Alliance for Multispecialty Research Kansas City",
    "lat": 39.09973,
-   "lon": -94.57857
+   "lon": -94.57857,
+   "state": "Missouri",
+   "status": null
   },
   {
-   "facility": "State University of New York Upstate Medical University",
    "city": "Syracuse",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "State University of New York Upstate Medical University",
    "lat": 43.04812,
-   "lon": -76.14742
+   "lon": -76.14742,
+   "state": "New York",
+   "status": null
   },
   {
-   "facility": "Lucas Research",
    "city": "Morehead City",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Lucas Research",
    "lat": 34.72294,
-   "lon": -76.72604
+   "lon": -76.72604,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": "Research Innovations LLC dba Internal Medicine Care Inc",
    "city": "Beavercreek",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Research Innovations LLC dba Internal Medicine Care Inc",
    "lat": 39.70923,
-   "lon": -84.06327
-  },
-  {
-   "facility": "The Christ Hospital",
-   "city": "Cincinnati",
+   "lon": -84.06327,
    "state": "Ohio",
+   "status": null
+  },
+  {
+   "city": "Cincinnati",
    "country": "United States",
-   "status": null,
+   "facility": "The Christ Hospital",
    "lat": 39.12711,
-   "lon": -84.51439
+   "lon": -84.51439,
+   "state": "Ohio",
+   "status": null
   },
   {
-   "facility": "Alliance for Multispecialty Research Norman",
    "city": "Norman",
-   "state": "Oklahoma",
    "country": "United States",
-   "status": null,
+   "facility": "Alliance for Multispecialty Research Norman",
    "lat": 35.22257,
-   "lon": -97.43948
+   "lon": -97.43948,
+   "state": "Oklahoma",
+   "status": null
   },
   {
-   "facility": "Medical Care LLC",
    "city": "Elizabethton",
-   "state": "Tennessee",
    "country": "United States",
-   "status": null,
+   "facility": "Medical Care LLC",
    "lat": 36.34872,
-   "lon": -82.21069
+   "lon": -82.21069,
+   "state": "Tennessee",
+   "status": null
   },
   {
+   "city": "Brownsville",
+   "country": "United States",
    "facility": "Headlands Research Brownsville",
-   "city": "Brownsville",
-   "state": "Texas",
-   "country": "United States",
-   "status": null,
    "lat": 25.90175,
-   "lon": -97.49748
+   "lon": -97.49748,
+   "state": "Texas",
+   "status": null
   },
   {
+   "city": "Brownsville",
+   "country": "United States",
    "facility": "PanAmerican Clinical Research LLC",
-   "city": "Brownsville",
-   "state": "Texas",
-   "country": "United States",
-   "status": null,
    "lat": 25.90175,
-   "lon": -97.49748
+   "lon": -97.49748,
+   "state": "Texas",
+   "status": null
   },
   {
+   "city": "San Antonio",
+   "country": "United States",
    "facility": "Clinical Trials of Texas",
-   "city": "San Antonio",
-   "state": "Texas",
-   "country": "United States",
-   "status": null,
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   },
   {
+   "city": "San Antonio",
+   "country": "United States",
    "facility": "Diabetes and Glandular Disease Clinic",
-   "city": "San Antonio",
-   "state": "Texas",
-   "country": "United States",
-   "status": null,
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   },
   {
+   "city": "San Antonio",
+   "country": "United States",
    "facility": "Pinnacle Clinical Research",
-   "city": "San Antonio",
-   "state": "Texas",
-   "country": "United States",
-   "status": null,
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   },
   {
-   "facility": "Texas Diabetes Institute",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Texas Diabetes Institute",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05669599",
@@ -834,6 +834,44 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥18 years at the time of signing informed consent."
+   },
+   {
+    "text": "BMI ≥30 kg/m^2, or ≥27 kg/m^2 and previous diagnosis with at least one of the following comorbidities: hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease."
+   },
+   {
+    "text": "For participants in cohort B only, HbA1c ≥ 7% and ≤ 10% (53 to 86 mmol/mol) at screening with an established diagnosis of type 2 diabetes mellitus for ≥ 180 days prior to screening and either treated with diet and exercise alone or on stable (at least 90 days prior to screening) treatment with metformin, a sulfonylurea, or a sodium-glucose cotransporter 2 (SGLT2) inhibitor as monotherapy or combination therapy, per approved local label."
+   },
+   {
+    "text": "History of at least one unsuccessful dietary effort to lose body weight."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Change in body weight greater than 5 kg within 3 months prior to screening."
+   },
+   {
+    "text": "Obesity induced by other endocrinologic disorders."
+   },
+   {
+    "text": "History of pancreatitis."
+   },
+   {
+    "text": "Family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2 (MEN-2)."
+   },
+   {
+    "text": "History of major depressive disorder within the last 2 years."
+   },
+   {
+    "text": "Any lifetime history of other major psychiatric disorder or suicide attempt."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

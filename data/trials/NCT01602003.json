@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "LG Life Sciences",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "LG Life Sciences"
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "LC15-0444 25mg bid",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "LC15-0444 50mg qd",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin 100mg qd",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "LC15-0444 25 mg bid",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LC15-0444 25mg bid"
-   ]
+   ],
+   "label": "LC15-0444 25 mg bid",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "LC15-0444 50 mg qd",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LC15-0444 50mg qd"
-   ]
+   ],
+   "label": "LC15-0444 50 mg qd",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sitagliptin 100mg qd",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin 100mg qd"
-   ]
+   ],
+   "label": "Sitagliptin 100mg qd",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "Double-blind, randomized, multicenter, multinational (South Korea and India), parallel group study The study was divided into three parts: part 1 was a screening period started with an initial 2 weeks of exercise/diet program; part 2 was a double-blind treatment period during which eligible patients were randomized to Sitagliptin 100 mg qd (once daily), LC15-0444 25 mg bid (twice daily), or LC15-0444 50 mg qd groups and received the assigned treatment for 24 weeks; part 3 was for those patients who completed part 1 \\& 2 and consented to receive another 28 weeks of treatment with LC15-0444 50 mg qd.\n\nScreening tests were performed on the patients who had given the written informed consent. After 2-week exercise/diet program according to the generally recognized guideline, eligible patients were assigned one of three treatment groups with 1:1:1 ratio. During the total of 24-week treatment period of part 2, each patient visited the study site at Week 6, 12, 18, and 24. Completing double-blind treatment for 24 weeks, each patient was asked to provide consent to participate in the part 3 of the study where all the patients were to receive LC15-0444 50 mg once daily. During 28-week treatment period of the part 3, each patient visited the study",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patients with Type 2 Diabetes Mellitus\n2. Adults between 18 and 75 years of age\n3. Patients with HbA1c between 7% and 11%\n4. Patients treated with metformin monotherapy for at least 12 weeks and treated with 1000 mg/day or higher dose of metformin for at least 4 weeks right before screening\n5. Patients who signed on the consent form after informed on the object, method, and risks of the clinical study\n\nExclusion Criteria:\n\n1. Patients with type 1 diabetes mellitus, gestational diabetes, or secondary diabetes\n2. Patients who were taking or needed to take any drugs which may affect the control of blood glucose significantly (ex. glucocorticoids)\n3. Patients who had experienced myocardial infarction, unstable angina or prior history of coronary artery bypass surgery within 6 months prior to screening, or patients with arrhythmia requiring treatment\n4. Patients with NYHA class II-IV congestive heart failure\n5. Patients with history of hepatic cirrhosis\n6. Patients with renal failure or whose creatinine clearance was less than 60 ml/min\n7. Patients with dysfunctional thyroid gland (with abnormal level of TSH)\n8. Patients with ALT, AST or CPK exceeding 2.5 times of the upper limit of the normal range\n9. Patients with BMI below 20 kg/m2 or exceeding 40 kg/m2\n10. Patients with history of asthma or major skin allergy\n11. Patients taking thyroid hormone, warfarin, dicoumarin or digoxin.\n12. Patients with history of hypersensitivity to metformin or biguanides.\n13. Patients with history of hypersensitivity to thiazolidinediones\n14. Patients who took sodium channel blockers in the last 6 weeks prior to Visit 1.\n15. Patients who were treated with insulin or glucagon-like peptide-1 (GLP-1) analogue or who took thiazolidinediones (Glitazone) in the last 6 months prior to Visit 1.\n16. Patients with other reasons who the investigator decided not to be eligible for the study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "LG Life Sciences",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "LG Life Sciences",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01602003",
@@ -127,6 +127,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with Type 2 Diabetes Mellitus"
+   },
+   {
+    "text": "Adults between 18 and 75 years of age"
+   },
+   {
+    "text": "Patients with HbA1c between 7% and 11%"
+   },
+   {
+    "text": "Patients treated with metformin monotherapy for at least 12 weeks and treated with 1000 mg/day or higher dose of metformin for at least 4 weeks right before screening"
+   },
+   {
+    "text": "Patients who signed on the consent form after informed on the object, method, and risks of the clinical study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes mellitus, gestational diabetes, or secondary diabetes"
+   },
+   {
+    "text": "Patients who were taking or needed to take any drugs which may affect the control of blood glucose significantly (ex. glucocorticoids)"
+   },
+   {
+    "text": "Patients who had experienced myocardial infarction, unstable angina or prior history of coronary artery bypass surgery within 6 months prior to screening, or patients with arrhythmia requiring treatment"
+   },
+   {
+    "text": "Patients with NYHA class II-IV congestive heart failure"
+   },
+   {
+    "text": "Patients with history of hepatic cirrhosis"
+   },
+   {
+    "text": "Patients with renal failure or whose creatinine clearance was less than 60 ml/min"
+   },
+   {
+    "text": "Patients with dysfunctional thyroid gland (with abnormal level of TSH)"
+   },
+   {
+    "text": "Patients with ALT, AST or CPK exceeding 2.5 times of the upper limit of the normal range"
+   },
+   {
+    "text": "Patients with BMI below 20 kg/m2 or exceeding 40 kg/m2"
+   },
+   {
+    "text": "Patients with history of asthma or major skin allergy"
+   },
+   {
+    "text": "Patients taking thyroid hormone, warfarin, dicoumarin or digoxin."
+   },
+   {
+    "text": "Patients with history of hypersensitivity to metformin or biguanides."
+   },
+   {
+    "text": "Patients with history of hypersensitivity to thiazolidinediones"
+   },
+   {
+    "text": "Patients who took sodium channel blockers in the last 6 weeks prior to Visit 1."
+   },
+   {
+    "text": "Patients who were treated with insulin or glucagon-like peptide-1 (GLP-1) analogue or who took thiazolidinediones (Glitazone) in the last 6 months prior to Visit 1."
+   },
+   {
+    "text": "Patients with other reasons who the investigator decided not to be eligible for the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

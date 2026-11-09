@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Kuhnil Pharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Kuhnil Pharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -51,41 +51,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin 20mg",
    "other_names": [
     "Lipitor 20mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Omega-3-acids ethylesters 90 4g",
    "other_names": [
     "Omacor Soft Capsule 4g"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo(Omega-3-acids ethylesters 90)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Atorvastatin 20mg, Omega-3-acids ethylesters 90 4g",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin 20mg",
     "Drug: Omega-3-acids ethylesters 90 4g"
-   ]
+   ],
+   "label": "Atorvastatin 20mg, Omega-3-acids ethylesters 90 4g",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Atorvastatin 20mg, Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin 20mg",
     "Other: Placebo(Omega-3-acids ethylesters 90)"
-   ]
+   ],
+   "label": "Atorvastatin 20mg, Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of combination therapy of omega-3-acids ethylesters 90/Atorvastatin calcium in type Ⅱb hyperlipidemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL≥160mg/dl, 200mg/dl≤TG\\<500mg/dl\n* In the case of smokers, he agrees should be smoke-free\n* In the case of women of childbearing age, urine pregnancy test must be negative\n\nExclusion Criteria:\n\n* Patients with acute artery disease within 3 months\n* History of revascularization procedure or aneurism operation within 6months\n* Patients with myopathy, rhabdomyolysis\n* Patients with pancreatitis\n* Patients with HIV positive\n* History of malignant tumor within 2 years\n* Patients must be treated with medications prohibited for concomitant use during study period\n* Patients with uncontrolled hypertension(SBP\\>180mmHg or DBP\\>110mmHg)\n* Serum Creatinine\\>1.2mg/dl(female), \\>1.4mg/dl(male)\n* AST or ALT \\> 2X ULN\n* CPK \\> 2X ULN\n* Patients with galactose intolerance or Lapp lactase deficiency, glucose-galactose malabsorption\n* Allergy or Hypersensitive to investigational drug\n* History of drug or alcohol abuse within 2 years\n* In the case of smokers, who do not intend to non smoking\n* Women with pregnant, breast-feeding\n* Patients treated with any investigational drugs within 1 month at the time consents are obtained\n* Not eligible to participate for the study at the discretion of investigator",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,40 +108,40 @@
  },
  "sites": [
   {
-   "facility": "Hallym University Sacred Heart Hospital",
    "city": "Anyang, Gyeonggi",
-   "state": null,
    "country": "South Korea",
-   "status": "ACTIVE_NOT_RECRUITING",
+   "facility": "Hallym University Sacred Heart Hospital",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": "ACTIVE_NOT_RECRUITING"
   },
   {
-   "facility": "Gachon University Gil Hospital",
    "city": "Incheon",
-   "state": null,
    "country": "South Korea",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Gachon University Gil Hospital",
    "lat": 37.45646,
-   "lon": 126.70515
+   "lon": 126.70515,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   },
   {
-   "facility": "Korea University Guro Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Korea University Guro Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   },
   {
-   "facility": "Uijongbu St. Mary's Hospital",
    "city": "Uijongbu, Gyeonggi",
-   "state": null,
    "country": "South Korea",
-   "status": "ACTIVE_NOT_RECRUITING",
+   "facility": "Uijongbu St. Mary's Hospital",
    "lat": 37.58944,
-   "lon": 126.76917
+   "lon": 126.76917,
+   "state": null,
+   "status": "ACTIVE_NOT_RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02035215",
@@ -153,6 +153,77 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "LDL≥160mg/dl, 200mg/dl≤TG<500mg/dl"
+   },
+   {
+    "text": "In the case of smokers, he agrees should be smoke-free"
+   },
+   {
+    "text": "In the case of women of childbearing age, urine pregnancy test must be negative"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with acute artery disease within 3 months"
+   },
+   {
+    "text": "History of revascularization procedure or aneurism operation within 6months"
+   },
+   {
+    "text": "Patients with myopathy, rhabdomyolysis"
+   },
+   {
+    "text": "Patients with pancreatitis"
+   },
+   {
+    "text": "Patients with HIV positive"
+   },
+   {
+    "text": "History of malignant tumor within 2 years"
+   },
+   {
+    "text": "Patients must be treated with medications prohibited for concomitant use during study period"
+   },
+   {
+    "text": "Patients with uncontrolled hypertension(SBP>180mmHg or DBP>110mmHg)"
+   },
+   {
+    "text": "Serum Creatinine>1.2mg/dl(female), >1.4mg/dl(male)"
+   },
+   {
+    "text": "AST or ALT > 2X ULN"
+   },
+   {
+    "text": "CPK > 2X ULN"
+   },
+   {
+    "text": "Patients with galactose intolerance or Lapp lactase deficiency, glucose-galactose malabsorption"
+   },
+   {
+    "text": "Allergy or Hypersensitive to investigational drug"
+   },
+   {
+    "text": "History of drug or alcohol abuse within 2 years"
+   },
+   {
+    "text": "In the case of smokers, who do not intend to non smoking"
+   },
+   {
+    "text": "Women with pregnant, breast-feeding"
+   },
+   {
+    "text": "Patients treated with any investigational drugs within 1 month at the time consents are obtained"
+   },
+   {
+    "text": "Not eligible to participate for the study at the discretion of investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

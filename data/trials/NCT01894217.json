@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Duke University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Duke University"
  },
  "collaborators": [],
  "conditions": [
@@ -49,18 +49,18 @@
  ],
  "interventions": [
   {
-   "type": "GENETIC",
    "name": "Genetic testing and reporting for SLCO1B1*5 allele",
-   "other_names": []
+   "other_names": [],
+   "type": "GENETIC"
   }
  ],
  "arm_groups": [
   {
-   "label": "Genetic testing",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Genetic: Genetic testing and reporting for SLCO1B1*5 allele"
-   ]
+   ],
+   "label": "Genetic testing",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -76,10 +76,10 @@
  "brief_summary": "The purpose of this pilot study is to examine if using genetics can improve statin adherence in patients who should be taking statins but are not because of prior side effects with statins. This study will assist physicians in making a personalized health care plan for prevention of cardiovascular disease.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Current patient (defined as seen in the last year) of the Duke Primary Care at Pickett Road or Center for Living\n* Age greater than or equal to 18 years\n* Provider interested in prescribing statins for cardiovascular disease prevention\n* Ability to provide informed consent\n\nExclusion Criteria:\n\n* Prior rhabdomyolysis, defined as CK elevation \\> 10 times the upper limit of normal with any statin therapy\n* Prior unexplained elevation in hepatic enzymes (AST or ALT \\> 3 times upper limit of normal) with any statin therapy\n* Use of medications known to interfere with statin metabolism or disposition\n* Participation in a drug research study in the past 30 days",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -87,22 +87,22 @@
  },
  "sites": [
   {
-   "facility": "Duke Center for Living",
    "city": "Durham",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Duke Center for Living",
    "lat": 35.99403,
-   "lon": -78.89862
+   "lon": -78.89862,
+   "state": "North Carolina",
+   "status": null
   },
   {
-   "facility": "Duke Primary Care Clinic at Pickett Road",
    "city": "Durham",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Duke Primary Care Clinic at Pickett Road",
    "lat": 35.99403,
-   "lon": -78.89862
+   "lon": -78.89862,
+   "state": "North Carolina",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01894217",
@@ -114,6 +114,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Current patient (defined as seen in the last year) of the Duke Primary Care at Pickett Road or Center for Living"
+   },
+   {
+    "text": "Age greater than or equal to 18 years"
+   },
+   {
+    "text": "Provider interested in prescribing statins for cardiovascular disease prevention"
+   },
+   {
+    "text": "Ability to provide informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Prior rhabdomyolysis, defined as CK elevation > 10 times the upper limit of normal with any statin therapy"
+   },
+   {
+    "text": "Prior unexplained elevation in hepatic enzymes (AST or ALT > 3 times upper limit of normal) with any statin therapy"
+   },
+   {
+    "text": "Use of medications known to interfere with statin metabolism or disposition"
+   },
+   {
+    "text": "Participation in a drug research study in the past 30 days"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

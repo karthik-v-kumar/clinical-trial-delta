@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -50,27 +50,27 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Participants with Type 2 Diabetes",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Participants with Type 2 Diabetes",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Participants with Overweight or Obesity Without Type 2 Diabetes",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Participants with Overweight or Obesity Without Type 2 Diabetes",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "The purpose of this study is to evaluate how fasting and stopping the use of tirzepatide affects the amount of food and drink that stays in the stomach after a meal. Ultrasound will be used to check the stomach content after a test meal.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Meet one of the following criteria:\n\n  * Have type 2 diabetes\n  * Have obesity\n  * Have overweight with at least one health issue related to weight but without type 2 diabetes\n\nExclusion Criteria:\n\n* Have a condition that affects how their stomach empties\n* Have had weight loss surgery\n* Have type 1 diabetes\n* Have any major medical conditions or histories that could interfere with the study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,13 +93,13 @@
  },
  "sites": [
   {
-   "facility": "Lilly Centre for Clinical Pharmacology",
    "city": "Singapore",
-   "state": null,
    "country": "Singapore",
-   "status": null,
+   "facility": "Lilly Centre for Clinical Pharmacology",
    "lat": 1.28967,
-   "lon": 103.85007
+   "lon": 103.85007,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07299084",
@@ -116,6 +116,34 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Meet one of the following criteria:",
+    "sub_items": [
+     "Have type 2 diabetes",
+     "Have obesity",
+     "Have overweight with at least one health issue related to weight but without type 2 diabetes"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have a condition that affects how their stomach empties"
+   },
+   {
+    "text": "Have had weight loss surgery"
+   },
+   {
+    "text": "Have type 1 diabetes"
+   },
+   {
+    "text": "Have any major medical conditions or histories that could interfere with the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

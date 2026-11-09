@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,74 +48,74 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Saxagliptin",
    "other_names": [
     "Onglyza®",
     "BMS-477118"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Farxiga®",
     "Forxiga®",
     "BMS-512148"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Saxagliptin/Dapagliflozin FDC",
    "other_names": [
     "BMS-986098"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Saxagliptin",
+    "Drug: Dapagliflozin"
+   ],
    "label": "Treatment A: Saxagliptin 2.5mg+Dapagliflozin 5mg; Fasting",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: Saxagliptin",
-    "Drug: Dapagliflozin"
-   ]
+   "type": "OTHER"
   },
   {
+   "intervention_names": [
+    "Drug: Saxagliptin/Dapagliflozin FDC"
+   ],
    "label": "Treatment B: Saxagliptin 2.5mg/Dapagliflozin 5mg FDC; Fasting",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: Saxagliptin/Dapagliflozin FDC"
-   ]
+   "type": "OTHER"
   },
   {
+   "intervention_names": [
+    "Drug: Saxagliptin/Dapagliflozin FDC"
+   ],
    "label": "Treatment C: Saxagliptin 2.5mg/Dapagliflozin 5mg FDC; Fed",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: Saxagliptin/Dapagliflozin FDC"
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "Treatment D: Saxagliptin 5mg+Dapagliflozin 10mg; Fasting",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Saxagliptin",
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Treatment D: Saxagliptin 5mg+Dapagliflozin 10mg; Fasting",
+   "type": "OTHER"
   },
   {
+   "intervention_names": [
+    "Drug: Saxagliptin/Dapagliflozin FDC"
+   ],
    "label": "Treatment E: Saxagliptin 5mg/Dapagliflozin 10mg FDC; Fasting",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: Saxagliptin/Dapagliflozin FDC"
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "Treatment F: Saxagliptin 5mg/Dapagliflozin 10mg FDC; Fed",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Saxagliptin/Dapagliflozin FDC"
-   ]
+   ],
+   "label": "Treatment F: Saxagliptin 5mg/Dapagliflozin 10mg FDC; Fed",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -135,10 +135,10 @@
  "brief_summary": "The purpose of this study is to demonstrate the bioequivalence (BE) of Saxagliptin and Dapagliflozin from a 2.5-mg Saxagliptin/5-mg Dapagliflozin FDC tablet after oral administration relative to 2.5-mg Saxagliptin and 5-mg Dapagliflozin tablets administered orally together in the fasted state and to demonstrate the BE of Saxagliptin and Dapagliflozin from a 5-mg Saxagliptin/10-mg Dapagliflozin FDC tablet after oral administration relative to 5-mg Saxagliptin and 10-mg Dapagliflozin tablets administered orally together in the fasted state. Demonstrating bioequivalence refers to showing that the FDC tablet and co-administration of the individual components yield similar blood levels/concentrations of the drug and are handled by the body similarly.",
  "eligibility": {
   "criteria": "For more information regarding BMS clinical trial participation, please visit www.BMSStudyConnect.com\n\nInclusion Criteria:\n\n* Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination (PE), vital signs, 12-lead ECG, and clinical laboratory determinations\n* Body mass index (BMI) of 18.5 to 30 kg/m(2)\n* Men and women, ages 18 to 50 years\n* Women of childbearing potential must use acceptable methods of highly effective birth control\n\nExclusion Criteria:\n\n* Any significant acute or chronic medical illness\n* Current or recent gastrointestinal disease\n* Any major surgery within 4 weeks of study drug administration\n* History of chronic or recurrent urinary tract infection for females\n* History of glucose intolerance or diabetes mellitus\n* History of allergies or adverse reactions to Dipeptidyl peptidase-IV (DPP4) or Sodium-glucose cotransporter (SGLT) inhibitors\n* Prior exposure to Saxagliptin or Dapagliflozin or related drugs",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "50 Years",
   "healthy_volunteers": true,
+  "maximum_age": "50 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
@@ -156,6 +156,49 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination (PE), vital signs, 12-lead ECG, and clinical laboratory determinations"
+   },
+   {
+    "text": "Body mass index (BMI) of 18.5 to 30 kg/m(2)"
+   },
+   {
+    "text": "Men and women, ages 18 to 50 years"
+   },
+   {
+    "text": "Women of childbearing potential must use acceptable methods of highly effective birth control"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any significant acute or chronic medical illness"
+   },
+   {
+    "text": "Current or recent gastrointestinal disease"
+   },
+   {
+    "text": "Any major surgery within 4 weeks of study drug administration"
+   },
+   {
+    "text": "History of chronic or recurrent urinary tract infection for females"
+   },
+   {
+    "text": "History of glucose intolerance or diabetes mellitus"
+   },
+   {
+    "text": "History of allergies or adverse reactions to Dipeptidyl peptidase-IV (DPP4) or Sodium-glucose cotransporter (SGLT) inhibitors"
+   },
+   {
+    "text": "Prior exposure to Saxagliptin or Dapagliflozin or related drugs"
+   }
+  ],
+  "notes": [
+   "For more information regarding BMS clinical trial participation, please visit www.BMSStudyConnect.com"
+  ]
+ },
  "in_watchlist": true,
  "history": []
 }

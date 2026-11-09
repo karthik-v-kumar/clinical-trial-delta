@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2020-06-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Regeneron Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Regeneron Pharmaceuticals"
  },
  "collaborators": [
   "Sanofi"
@@ -54,52 +54,52 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Alirocumab",
    "other_names": [
     "Praluent®",
     "REGN727",
     "SAR236553"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Alirocumab",
+    "Drug: Placebo"
+   ],
    "label": "GOFm PCSK9 (Cohort 1): Alirocumab From Day 1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Alirocumab",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "GOFm PCSK9 (Cohort 1): Alirocumab From Day 15",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Alirocumab",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "GOFm PCSK9 or LOFm ApoB (Cohort 2): Alirocumab from Day 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Alirocumab",
-    "Drug: Placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "GOFm PCSK9 or LOFm ApoB (Cohort 2): Alirocumab from Day 15",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alirocumab",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "GOFm PCSK9 or LOFm ApoB (Cohort 2): Alirocumab from Day 15",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -111,10 +111,10 @@
  "brief_summary": "The primary objective of the study is to assess the pharmacodynamic (PD) effect of alirocumab on serum low density lipoprotein cholesterol (LDL-C) during 14 weeks of subcutaneous (SC) administered alirocumab in patients with autosomal dominant hypercholesterolemia (ADH) and gain-of-function mutation (GOFm) in 1 or both alleles of the proprotein convertase subtilisin/kexin type 9 (PCSK9) gene or with loss-of-function mutation (LOFm) in 1 or more alleles of the apolipoprotein (ApoB) gene.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nInclusion criteria include, but are not limited to the following:\n\n1. Between the ages of 18 and 70 years, inclusive\n2. A history of molecularly confirmed PCSK9 GOFm for cohort 1 and a history of molecularly confirmed PCSK9 GOFm or ApoB LOFm\n3. Plasma LDL-Cholesterol levels ≥70 mg/dL at the screening visit on a lipid-lowering therapy (LLT) regimen stable for at least 28 days\n\nExclusion Criteria:\n\nExclusion criteria include, but are not limited to the following:\n\n1. Serum triglycerides \\>350 mg/dL at the screening visit\n2. Known to be positive for human immunodeficiency virus (HIV), hepatitis B virus, or hepatitis C virus\n3. Pregnant or breast-feeding women.\n4. Sexually active man or woman of childbearing potential who is unwilling to practice adequate contraception during the study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -122,40 +122,40 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Paris",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": null,
    "lat": 48.85341,
-   "lon": 2.3488
+   "lon": 2.3488,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Lille",
-   "state": "Cedex",
    "country": "France",
-   "status": null,
+   "facility": null,
    "lat": 50.63391,
-   "lon": 3.05512
-  },
-  {
-   "facility": null,
-   "city": "Nantes",
+   "lon": 3.05512,
    "state": "Cedex",
-   "country": "France",
-   "status": null,
-   "lat": 47.21725,
-   "lon": -1.55336
+   "status": null
   },
   {
+   "city": "Nantes",
+   "country": "France",
    "facility": null,
+   "lat": 47.21725,
+   "lon": -1.55336,
+   "state": "Cedex",
+   "status": null
+  },
+  {
    "city": "Salt Lake City",
-   "state": "Utah",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 40.76078,
-   "lon": -111.89105
+   "lon": -111.89105,
+   "state": "Utah",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01604824",
@@ -170,6 +170,42 @@
  "sponsors_of_note": [
   "Regeneron"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Between the ages of 18 and 70 years, inclusive",
+    "group": "include, but are not limited to the following"
+   },
+   {
+    "text": "A history of molecularly confirmed PCSK9 GOFm for cohort 1 and a history of molecularly confirmed PCSK9 GOFm or ApoB LOFm",
+    "group": "include, but are not limited to the following"
+   },
+   {
+    "text": "Plasma LDL-Cholesterol levels ≥70 mg/dL at the screening visit on a lipid-lowering therapy (LLT) regimen stable for at least 28 days",
+    "group": "include, but are not limited to the following"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Serum triglycerides >350 mg/dL at the screening visit",
+    "group": "include, but are not limited to the following"
+   },
+   {
+    "text": "Known to be positive for human immunodeficiency virus (HIV), hepatitis B virus, or hepatitis C virus",
+    "group": "include, but are not limited to the following"
+   },
+   {
+    "text": "Pregnant or breast-feeding women.",
+    "group": "include, but are not limited to the following"
+   },
+   {
+    "text": "Sexually active man or woman of childbearing potential who is unwilling to practice adequate contraception during the study",
+    "group": "include, but are not limited to the following"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

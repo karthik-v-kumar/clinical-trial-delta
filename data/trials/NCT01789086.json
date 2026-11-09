@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "liraglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: liraglutide"
-   ]
+   ],
+   "label": "Liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,23 +87,23 @@
  "brief_summary": "This trial is conducted in Europe. The purpose of the trial is to assess safety, tolerability and pharmacokinetics (the exposure of the trial drug in the body) of liraglutide in obese adolescent subjects aged 12 to 17 years.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects with Tanner stage 2-5 pubertal development at time of randomisation\n* Body Mass Index (BMI) corresponding to 30 kg/m\\^2 or above for adults by international cut-off points and 45 kg/m\\^2 or below and equal to or above 95th percentile for age and gender\n* Fasting plasma glucose below 7.0 mmol/L (126 mg/dL) (central laboratory analysis)\n\nExclusion Criteria:\n\n* Subjects with clinically diagnosed secondary causes of childhood obesity such as chromosomal abnormalities (e.g. Turner syndrome), syndromic obesity (e.g. Prader Willi syndrome) or endocrinologic disorders (e.g. Cushing Syndrome)\n* Subjects with confirmed diagnosis of bulimia\n* Subjects with Tanner stage 1 development (prepubertal)\n* Diagnosis of type 1 or type 2 diabetes mellitus as judged by the investigator\n* Previous treatment with a GLP-1 (glucagon-like peptide 1) receptor agonists (e.g. exenatide or liraglutide or other), DPP-4 (dipeptidyl peptidase-4) inhibitors, orlistat or other weight lowering medication, any antipsychotic medication or systemic corticosteroids within the last 3 months\n* Currently using or have used within 3 months before screening for this trial: any systemic treatment that in the opinion of the investigator interferes with PK (pharmacokinetic), PD (pharmacodynamic) and safety endpoints\n* Surgical treatment for obesity\n* Past or current chronic or idiopathic pancreatitis, or any of the following: -amylase or lipase above 2 times UNR (upper normal range), -triglycerides above 500 mg/dL, -calcium above UNR, -history of gallstones (not treated by cholecystectomy)\n* Uncontrolled treated or untreated hypertension 99th percentile for age and gender in children\n* History of major depressive disorder or history of other severe psychiatric disorders (e.g. schizophrenia or bipolar disorder) that could in the opinion of the investigator interfere with trial compliance or subject safety\n* Subjects with a history of suicide attempts or history of any suicidal behaviour within the past month before entry into the trial",
-  "sex": "ALL",
-  "minimum_age": "12 Years",
-  "maximum_age": "17 Years",
   "healthy_volunteers": false,
+  "maximum_age": "17 Years",
+  "minimum_age": "12 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Hanover",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 52.37052,
-   "lon": 9.73322
+   "lon": 9.73322,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01789086",
@@ -118,6 +118,56 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects with Tanner stage 2-5 pubertal development at time of randomisation"
+   },
+   {
+    "text": "Body Mass Index (BMI) corresponding to 30 kg/m^2 or above for adults by international cut-off points and 45 kg/m^2 or below and equal to or above 95th percentile for age and gender"
+   },
+   {
+    "text": "Fasting plasma glucose below 7.0 mmol/L (126 mg/dL) (central laboratory analysis)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with clinically diagnosed secondary causes of childhood obesity such as chromosomal abnormalities (e.g. Turner syndrome), syndromic obesity (e.g. Prader Willi syndrome) or endocrinologic disorders (e.g. Cushing Syndrome)"
+   },
+   {
+    "text": "Subjects with confirmed diagnosis of bulimia"
+   },
+   {
+    "text": "Subjects with Tanner stage 1 development (prepubertal)"
+   },
+   {
+    "text": "Diagnosis of type 1 or type 2 diabetes mellitus as judged by the investigator"
+   },
+   {
+    "text": "Previous treatment with a GLP-1 (glucagon-like peptide 1) receptor agonists (e.g. exenatide or liraglutide or other), DPP-4 (dipeptidyl peptidase-4) inhibitors, orlistat or other weight lowering medication, any antipsychotic medication or systemic corticosteroids within the last 3 months"
+   },
+   {
+    "text": "Currently using or have used within 3 months before screening for this trial: any systemic treatment that in the opinion of the investigator interferes with PK (pharmacokinetic), PD (pharmacodynamic) and safety endpoints"
+   },
+   {
+    "text": "Surgical treatment for obesity"
+   },
+   {
+    "text": "Past or current chronic or idiopathic pancreatitis, or any of the following: -amylase or lipase above 2 times UNR (upper normal range), -triglycerides above 500 mg/dL, -calcium above UNR, -history of gallstones (not treated by cholecystectomy)"
+   },
+   {
+    "text": "Uncontrolled treated or untreated hypertension 99th percentile for age and gender in children"
+   },
+   {
+    "text": "History of major depressive disorder or history of other severe psychiatric disorders (e.g. schizophrenia or bipolar disorder) that could in the opinion of the investigator interfere with trial compliance or subject safety"
+   },
+   {
+    "text": "Subjects with a history of suicide attempts or history of any suicidal behaviour within the past month before entry into the trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

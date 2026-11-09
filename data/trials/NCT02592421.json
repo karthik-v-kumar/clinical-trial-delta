@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2019-12-18",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The University of Texas Health Science Center at San Antonio",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The University of Texas Health Science Center at San Antonio"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Farxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "In Protocol 2, the investigators will determine the role of pancreatic hormones (increase in plasma glucagon and decrease in plasma insulin concentration) in the stimulation of EGP following SGLT2 inhibition.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* T2DM subjects\n* 18 - 70 yrs old\n* BMI = 25-45 kg/m2\n* Must be on a stable dose (more than 3 months) of monotherapy or combination therapy with metformin and/or a sulfonylurea\n* HbA1c \\<10.0%\n* Stable body weight (± 3 lbs) over preceding 3 months\n* Do not participate in excessively heavy exercise\n\nExclusion Criteria:\n\n* Subjects taking drugs known to affect glucose metabolism (other than metformin and sulfonylurea)\n* Individuals with evidence of proliferative diabetic retinopathy, plasma creatinine \\>1.4 females or \\>1.5 males, or 24-hour urine albumin excretion \\> 300 mg",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "University of Texas Health Science Center at San Antonio",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "University of Texas Health Science Center at San Antonio",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02592421",
@@ -122,6 +122,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "T2DM subjects"
+   },
+   {
+    "text": "18 - 70 yrs old"
+   },
+   {
+    "text": "BMI = 25-45 kg/m2"
+   },
+   {
+    "text": "Must be on a stable dose (more than 3 months) of monotherapy or combination therapy with metformin and/or a sulfonylurea"
+   },
+   {
+    "text": "HbA1c <10.0%"
+   },
+   {
+    "text": "Stable body weight (± 3 lbs) over preceding 3 months"
+   },
+   {
+    "text": "Do not participate in excessively heavy exercise"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects taking drugs known to affect glucose metabolism (other than metformin and sulfonylurea)"
+   },
+   {
+    "text": "Individuals with evidence of proliferative diabetic retinopathy, plasma creatinine >1.4 females or >1.5 males, or 24-hour urine albumin excretion > 300 mg"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2023-02-08",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Geisinger Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Geisinger Clinic"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide (1 Mg Dose)",
    "other_names": [
     "semaglutide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Control Arm",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Control Arm",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Test Arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide (1 Mg Dose)"
-   ]
+   ],
+   "label": "Test Arm",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This study is for patients that are diabetic, and require insulin for glycemic control, and going through the bariatric surgery process. This is a prospective study that is trying to determine if the introduction of a semaglutide increases the remission rates of diabetes post-operatively.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Candidates for Roux-en-Y Gastric Bypass Surgery with an established diagnosis of Type 2 diabetes requiring insulin treatment for glycemic control\n2. Ability to provide informed consent before any trial-related activities\n\nExclusion Criteria:\n\n1. Prior metabolic surgery procedure\n2. Use of GLP-1 analogues for diabetes treatment at the time of recruitment\n3. Known or suspected allergy to semaglutide or the excipients in semaglutide, or related products.\n4. Contraindications to semaglutide which include a personal or family history of medullary carcinoma of the thyroid or multiple endocrine neoplasia syndrome-2 (MEN-2)\n5. Previously randomized for participation in this trial.\n6. Pregnant, breast-feeding or the intention of becoming pregnant or not using adequate contraceptive measures.\n7. Type 1 diabetes",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Geisinger Medical Center",
    "city": "Danville",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "Geisinger Medical Center",
    "lat": 40.96342,
-   "lon": -76.61273
+   "lon": -76.61273,
+   "state": "Pennsylvania",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04624672",
@@ -120,6 +120,41 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Candidates for Roux-en-Y Gastric Bypass Surgery with an established diagnosis of Type 2 diabetes requiring insulin treatment for glycemic control"
+   },
+   {
+    "text": "Ability to provide informed consent before any trial-related activities"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Prior metabolic surgery procedure"
+   },
+   {
+    "text": "Use of GLP-1 analogues for diabetes treatment at the time of recruitment"
+   },
+   {
+    "text": "Known or suspected allergy to semaglutide or the excipients in semaglutide, or related products."
+   },
+   {
+    "text": "Contraindications to semaglutide which include a personal or family history of medullary carcinoma of the thyroid or multiple endocrine neoplasia syndrome-2 (MEN-2)"
+   },
+   {
+    "text": "Previously randomized for participation in this trial."
+   },
+   {
+    "text": "Pregnant, breast-feeding or the intention of becoming pregnant or not using adequate contraceptive measures."
+   },
+   {
+    "text": "Type 1 diabetes"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

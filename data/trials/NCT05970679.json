@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Daewon Pharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Daewon Pharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -53,90 +53,90 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ezetimibe/Atorvastatin 10/5 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin 5mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ezetimibe 10mg",
    "other_names": [
     "Ezetrol Tab. 10mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin 10mg",
    "other_names": [
     "Lipiwon Tab. 10mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DW1125 placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DW1125A placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DW1125E placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DW1125A-1 placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "DW1125",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe/Atorvastatin 10/5 mg",
     "Drug: DW1125A placebo",
     "Drug: DW1125E placebo",
     "Drug: DW1125A-1 placebo"
-   ]
+   ],
+   "label": "DW1125",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DW1125A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin 5mg",
     "Drug: DW1125 placebo",
     "Drug: DW1125E placebo",
     "Drug: DW1125A-1 placebo"
-   ]
+   ],
+   "label": "DW1125A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "DW1125E",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe 10mg",
     "Drug: DW1125 placebo",
     "Drug: DW1125A placebo",
     "Drug: DW1125A-1 placebo"
-   ]
+   ],
+   "label": "DW1125E",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "DW1125A-1",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin 10mg",
     "Drug: DW1125 placebo",
     "Drug: DW1125A placebo",
     "Drug: DW1125E placebo"
-   ]
+   ],
+   "label": "DW1125A-1",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -148,10 +148,10 @@
  "brief_summary": "A Randomized, Double blind, Parallel, Multi-center, Phase 3 Clinical Trial to Evaluate the Efficacy and Safety of DW1125 and DW1125A in Patient with primary Hypercholesterolemia or Mixed Dyslipidemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Both gender, the person aged 19 or older\n* Patients who are diagnosed with primary Hypercholesterolemia or Mixed Dyslipidemia\n* LDL- C ≤ 250 mg/dL and TG \\< 500 mg/dL on fasting status\n\nExclusion Criteria:\n\n* Patients with Myopathy, Rhabdomyolysis, Fibromyalgia, hereditary neuromuscular disorders or family history, or Creatine kinase(CK) ≥ 2 x Upper Limit of Normal(ULN) on Visit 1\n* Patients with severe renal disorders, Estimated Flomerular Filtration Rate (eGFR) \\< 30 mL/min/1.73m\\^2 on Visit 1\n* Patients with hepatic failure or active or chronic hepatobiliary diseases or aspartate transaminase (AST) or alanine aminotransferase (ALT) ≥ 2.0 x ULN on visit 1",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -159,13 +159,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul National University Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Seoul National University Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05970679",
@@ -177,6 +177,32 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Both gender, the person aged 19 or older"
+   },
+   {
+    "text": "Patients who are diagnosed with primary Hypercholesterolemia or Mixed Dyslipidemia"
+   },
+   {
+    "text": "LDL- C ≤ 250 mg/dL and TG < 500 mg/dL on fasting status"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with Myopathy, Rhabdomyolysis, Fibromyalgia, hereditary neuromuscular disorders or family history, or Creatine kinase(CK) ≥ 2 x Upper Limit of Normal(ULN) on Visit 1"
+   },
+   {
+    "text": "Patients with severe renal disorders, Estimated Flomerular Filtration Rate (eGFR) < 30 mL/min/1.73m^2 on Visit 1"
+   },
+   {
+    "text": "Patients with hepatic failure or active or chronic hepatobiliary diseases or aspartate transaminase (AST) or alanine aminotransferase (ALT) ≥ 2.0 x ULN on visit 1"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

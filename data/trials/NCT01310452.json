@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -33,8 +33,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Fudan University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Fudan University"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -44,30 +44,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "insulin detemir",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "neutral protamine insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "neutral protamine insulin, metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin detemir"
-   ]
+   ],
+   "label": "neutral protamine insulin, metformin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "insulin detemir, metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: neutral protamine insulin"
-   ]
+   ],
+   "label": "insulin detemir, metformin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "Primary objective:\n\nTo compare the change in liver fat content and visceral fat mass (cm2) assessed by MRS (Magnetic Resonance Spectroscopy) and MRI (Magnetic Resonance Image), after 26 weeks of treatment with insulin detemir once daily or insulin NPH once daily both with metformin in overweight and obese type 2 diabetic subjects.\n\nSecondary objectives:\n\nTo compare the two treatments with respect to:\n\n1. Efficacy:\n\n   * MRI: abdominal subcutaneous fat mass(cm2), Calculated Visceral/Subcutaneous Adipose Tissue Ratio.\n   * Change in HbA1c from baseline at 12 and 26 weeks of treatment.\n   * Change in Fasting plasma glucose from baseline at 12 and 26 weeks of treatment.\n   * Weight\n   * Waist and hip circumference\n2. Safety:\n\n   * Incidence of hypoglycaemia in the 26 weeks of treatment with insulin detemir versus NPH\n   * Lipid profile at the start and after 26 weeks of treatment\n   * Incidence of Adverse events during the trial\n   * Safety profile as measured by laboratory safety parameters (haematology, biochemistry) and physical examination/vital signs before and at the end of treatment",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Informed consent obtained before any trial-related activities. (Trial-related activities are any procedure that would not have been performed during normal management of the subject.)\n* Female or male, 18 years≤age≤70years\n* Subjects with insulin naïve type 2 diabetes who have been treated with metformin（\\>1g/d）alone for at least 3 months prior to screening\n* 11%≥HbA1c≥7.5% based on analysis from a central laboratory\n* 24kg/m2≤BMI≤40kg/m2\n* Weight fluctuation\\<2kg in one month prior to screening\n* Able and willing to perform self-monitoring of blood glucose.\n* Willing to accept basal insulin therapy\n* Able to self-inject all required doses of insulin\n\nExclusion Criteria:\n\n* Treatment with any OADs (Oral Antidiabetic Drugs) in the last 6 months, except metformin (subjects currently treated with metformin within the interval of 1000-2000 mg daily may be included in the trial. The dose should have remained unchanged for a period of one month prior to randomisation and should be expected to remain unchanged throughout the trial period).\n* Use of approved weight lowering pharmacotherapy (e.g. orlistat, sibutramine, rimonabant) or obesity induced by drug treatment (e.g. corticosteroids, NSAIDs, tricyclic anti-depressants, atypical anti-psychotics).\n* Participation in a clinical study of weight control within the last 3 months prior to screening.\n* Previous or planned surgical treatment of obesity.\n* Any disease or condition (such as renal, hepatic or cardiac) according to the judgment of the Investigator makes the subject unsuitable for participation in the trial.\n* Anticipated change in concomitant medication known to interfere with glucose metabolism, such as systemic steroids, non-selective beta-blockers or mono amine oxidase (MAO) inhibitors.\n* Anticipated change in concomitant medication known to interfere with lipid metabolism, such as lipid-lowering drugs.\n* Proliferative retinopathy or maculopathy that has required acute treatment within the last six months.\n* Uncontrolled hypertension (treated or untreated) as judged by the Investigator\n* Known or suspected allergy to trial product(s) or related products.\n* Previous participation in this trial. Participation is defined as screened.\n* Pregnant, breast-feeding or the intention of becoming pregnant or not using adequate contraceptive measures. Adequate contraceptive measures are sterilisation, intrauterine device (IUD), oral contraceptives or consistent use of barrier methods.\n* Mental incapacity, unwillingness or language barriers precluding adequate understanding or cooperation.\n* Any condition that the Investigator feels would interfere with trial participation or evaluation of results.\n* Receipt of any investigational drug (NPH or insulin detemir) within 1 month prior to this trial.\n* Cardiac disease defined according to NYHA class III or IV, unstable angina pectoris and/or myocardial infarction within the last 6 months previous to the selection.\n* History of hypoglycaemic unawareness.\n* With mental implant (such as cardiac pacemaker, insulin pump) in vivo.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "facility": "Zhong Shan Hospital, Fudan University",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Zhong Shan Hospital, Fudan University",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01310452",
@@ -113,6 +113,95 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Informed consent obtained before any trial-related activities. (Trial-related activities are any procedure that would not have been performed during normal management of the subject.)"
+   },
+   {
+    "text": "Female or male, 18 years≤age≤70years"
+   },
+   {
+    "text": "Subjects with insulin naïve type 2 diabetes who have been treated with metformin（>1g/d）alone for at least 3 months prior to screening"
+   },
+   {
+    "text": "11%≥HbA1c≥7.5% based on analysis from a central laboratory"
+   },
+   {
+    "text": "24kg/m2≤BMI≤40kg/m2"
+   },
+   {
+    "text": "Weight fluctuation<2kg in one month prior to screening"
+   },
+   {
+    "text": "Able and willing to perform self-monitoring of blood glucose."
+   },
+   {
+    "text": "Willing to accept basal insulin therapy"
+   },
+   {
+    "text": "Able to self-inject all required doses of insulin"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Treatment with any OADs (Oral Antidiabetic Drugs) in the last 6 months, except metformin (subjects currently treated with metformin within the interval of 1000-2000 mg daily may be included in the trial. The dose should have remained unchanged for a period of one month prior to randomisation and should be expected to remain unchanged throughout the trial period)."
+   },
+   {
+    "text": "Use of approved weight lowering pharmacotherapy (e.g. orlistat, sibutramine, rimonabant) or obesity induced by drug treatment (e.g. corticosteroids, NSAIDs, tricyclic anti-depressants, atypical anti-psychotics)."
+   },
+   {
+    "text": "Participation in a clinical study of weight control within the last 3 months prior to screening."
+   },
+   {
+    "text": "Previous or planned surgical treatment of obesity."
+   },
+   {
+    "text": "Any disease or condition (such as renal, hepatic or cardiac) according to the judgment of the Investigator makes the subject unsuitable for participation in the trial."
+   },
+   {
+    "text": "Anticipated change in concomitant medication known to interfere with glucose metabolism, such as systemic steroids, non-selective beta-blockers or mono amine oxidase (MAO) inhibitors."
+   },
+   {
+    "text": "Anticipated change in concomitant medication known to interfere with lipid metabolism, such as lipid-lowering drugs."
+   },
+   {
+    "text": "Proliferative retinopathy or maculopathy that has required acute treatment within the last six months."
+   },
+   {
+    "text": "Uncontrolled hypertension (treated or untreated) as judged by the Investigator"
+   },
+   {
+    "text": "Known or suspected allergy to trial product(s) or related products."
+   },
+   {
+    "text": "Previous participation in this trial. Participation is defined as screened."
+   },
+   {
+    "text": "Pregnant, breast-feeding or the intention of becoming pregnant or not using adequate contraceptive measures. Adequate contraceptive measures are sterilisation, intrauterine device (IUD), oral contraceptives or consistent use of barrier methods."
+   },
+   {
+    "text": "Mental incapacity, unwillingness or language barriers precluding adequate understanding or cooperation."
+   },
+   {
+    "text": "Any condition that the Investigator feels would interfere with trial participation or evaluation of results."
+   },
+   {
+    "text": "Receipt of any investigational drug (NPH or insulin detemir) within 1 month prior to this trial."
+   },
+   {
+    "text": "Cardiac disease defined according to NYHA class III or IV, unstable angina pectoris and/or myocardial infarction within the last 6 months previous to the selection."
+   },
+   {
+    "text": "History of hypoglycaemic unawareness."
+   },
+   {
+    "text": "With mental implant (such as cardiac pacemaker, insulin pump) in vivo."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

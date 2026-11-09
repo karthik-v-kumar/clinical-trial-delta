@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Lund University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Lund University Hospital"
  },
  "collaborators": [
   "Landstinget Kronoberg, Sweden"
@@ -51,25 +51,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Insulin treatment",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin"
-   ]
+   ],
+   "label": "Insulin treatment",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Conventional treatment",
-   "type": "NO_INTERVENTION",
    "intervention_names": [
     "Drug: Insulin"
-   ]
+   ],
+   "label": "Conventional treatment",
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "Among adult patients diagnosed with type 2 diabetes, about 6% have autoantibodies directed against the insulin producing beta cells in the pancreas. These patients have a progressive beta cell destruction and most of them will be insulin dependent within 3-5 yrs. Patients with this latent autoimmune diabetes in adults (LADA) have a considerable remaining beta cell mass at diagnosis, and are suitable for evaluating new therapies for autoimmune diabetes Animal studies in diabetes prone mice have demonstrated potential positive effects of early insulin treatment, with a lower incidence of diabetes or a delay before diagnosis. The aim of this study was to investigate the effect of early insulin treatment of LADA patients, in respect to residual beta-cell function and metabolic control, compared to a group who were conventionally treated with diet and/or oral hypoglycaemic agents (OHA) and insulin not before it was clinically needed.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* \\>18 yrs\n* Positive for pancreatic autoantibodies\n\nExclusion Criteria:\n\n* \\<18 yrs\n* Significant concomitant diseases\n* Not able to follow protocol",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "90 Years",
   "healthy_volunteers": false,
+  "maximum_age": "90 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,6 +100,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": ">18 yrs"
+   },
+   {
+    "text": "Positive for pancreatic autoantibodies"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "<18 yrs"
+   },
+   {
+    "text": "Significant concomitant diseases"
+   },
+   {
+    "text": "Not able to follow protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

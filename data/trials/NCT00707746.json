@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2013-04-05",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Kastle Therapeutics, LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Kastle Therapeutics, LLC"
  },
  "collaborators": [
   "Ionis Pharmaceuticals, Inc."
@@ -60,36 +60,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "mipomersen",
    "other_names": [
     "ISIS 301012",
     "mipomersen sodium",
     "Kynamro™"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
    "other_names": [
     "placebo saline"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Mipomersen",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: mipomersen"
-   ]
+   ],
+   "label": "Mipomersen",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "The purpose of this study is to determine safety and efficacy of mipomersen (ISIS 301012) in the reduction of total cholesterol, low density lipoprotein cholesterol (LDL-C), and apolipoprotein B (apoB) in high risk subjects intolerant to statins.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of statin intolerance\n* Diagnosis of Coronary Artery Disease (CAD)\n* Diagnosis of hypercholesterolemia\n* Stable weight for \\> 6 weeks\n\nExclusion Criteria:\n\n* Significant health problems in the recent past (≤24 weeks) including heart attack, heart surgery, heart failure, uncontrolled hypothyroidism, blood disorders, digestive problems, disease of central nervous system, cancer, liver or renal disease",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,13 +120,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Amsterdam",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": null,
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00707746",
@@ -138,6 +138,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of statin intolerance"
+   },
+   {
+    "text": "Diagnosis of Coronary Artery Disease (CAD)"
+   },
+   {
+    "text": "Diagnosis of hypercholesterolemia"
+   },
+   {
+    "text": "Stable weight for > 6 weeks"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Significant health problems in the recent past (≤24 weeks) including heart attack, heart surgery, heart failure, uncontrolled hypothyroidism, blood disorders, digestive problems, disease of central nervous system, cancer, liver or renal disease"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

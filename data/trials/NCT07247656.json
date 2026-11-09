@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Bahria University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Bahria University"
  },
  "collaborators": [],
  "conditions": [
@@ -48,36 +48,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "(Empagliflozin 10 mg+ Tab Linagliptin 5mg)",
    "other_names": [
     "Diampa LT (10/5 ) MG",
     "Xenglu- Lin (10 / 5 ) MG",
     "Empaa L ( 10 / 5 ) MG"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Tab Empagliflozin 10 mg + Tab Metformin 500 mg",
    "other_names": [
     "Xenglu - Met XR ( 10 / 500 ) MG"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group B received Empagliflozin with Linagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: (Empagliflozin 10 mg+ Tab Linagliptin 5mg)"
-   ]
+   ],
+   "label": "Group B received Empagliflozin with Linagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Group A received Empagliflozin with Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Tab Empagliflozin 10 mg + Tab Metformin 500 mg"
-   ]
+   ],
+   "label": "Group A received Empagliflozin with Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "The goal of this clinical trial is - Comparison of Empagliflozin - Linagliptin with Empagliflozin - Metformin combination therapy in reduction of body weight in T2DM Patients and it included 200 diabetic subjects with total study period of 12 weeks and individual study period of 4 weeks .",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* • Diabetic men and women of age 40-70 yrs.\n\n  * HBA1C -(6.5-9 )percent\n  * All diabetic patients were BMI ≥25kg/m2\n  * Patient took metformin ≥1000mg/day for ≥ 3 months with uncontrolled DM\n\nExclusion Criteria:\n\n* Male and female type 1 diabetic patients with BMI \\<25\n\n  * Diabetic patient taking oral medicine other than metformin for last 12 weeks\n  * Subjects with creatinine \\>1.5mg/dl\n  * Pregnant or Lactating Women\n  * Co-morbidities -\n  * CLD\n  * Cancer patient",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,13 +120,13 @@
  },
  "sites": [
   {
-   "facility": "Bahria University",
    "city": "Karachi",
-   "state": "Sindh",
    "country": "Pakistan",
-   "status": null,
+   "facility": "Bahria University",
    "lat": 24.8608,
-   "lon": 67.0104
+   "lon": 67.0104,
+   "state": "Sindh",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07247656",
@@ -138,6 +138,33 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "• Diabetic men and women of age 40-70 yrs.",
+    "sub_items": [
+     "HBA1C -(6.5-9 )percent",
+     "All diabetic patients were BMI ≥25kg/m2",
+     "Patient took metformin ≥1000mg/day for ≥ 3 months with uncontrolled DM"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Male and female type 1 diabetic patients with BMI <25",
+    "sub_items": [
+     "Diabetic patient taking oral medicine other than metformin for last 12 weeks",
+     "Subjects with creatinine >1.5mg/dl",
+     "Pregnant or Lactating Women",
+     "Co-morbidities -",
+     "CLD",
+     "Cancer patient"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

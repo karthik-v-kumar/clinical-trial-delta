@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Attikon Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Attikon Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dulaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DPP-4 Inhibitors",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Patients receiving dulaglutide and dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dulaglutide"
-   ]
+   ],
+   "label": "Patients receiving dulaglutide and dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Patients receiving DPP-4i",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: DPP-4 Inhibitors"
-   ]
+   ],
+   "label": "Patients receiving DPP-4i",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "Patients with Type 2 Diabetes Mellitus and albuminuria will be randomised eitheer to dulaglutide and dapagliflozin combination or DPP-4 inhibitor, as an add-on treatment to metformin. Arterial stiffness, UACR, endothelial glycocalyx and global longitudinal strain will be assesed at baseline, 4 and 12 months.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus Albuminuria HbA1c: 7-10% eGFR\\&gt; 60 ml/min\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus Inflammation, chronic or acute Established cardiovascular disease Malignancy within the last 5 years",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "Attikon University General Hospital",
    "city": "Chaïdári",
-   "state": "Attica",
    "country": "Greece",
-   "status": null,
+   "facility": "Attikon University General Hospital",
    "lat": 38.01135,
-   "lon": 23.66597
+   "lon": 23.66597,
+   "state": "Attica",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06611904",
@@ -126,6 +126,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes mellitus Albuminuria HbA1c: 7-10% eGFR&gt; 60 ml/min"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus Inflammation, chronic or acute Established cardiovascular disease Malignancy within the last 5 years"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

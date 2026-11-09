@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Parexel"
@@ -50,37 +50,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD5004",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Mitiglinide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pioglitazone",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Part A: Mitiglinide + AZD5004",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD5004",
     "Drug: Mitiglinide"
-   ]
+   ],
+   "label": "Part A: Mitiglinide + AZD5004",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part B: Pioglitazone + AZD5004",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD5004",
     "Drug: Pioglitazone"
-   ]
+   ],
+   "label": "Part B: Pioglitazone + AZD5004",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -100,23 +100,23 @@
  "brief_summary": "The purpose of the study is to assess the effect of AZD5004 on the pharmacokinetics (PK) of mitiglinide and pioglitazone in healthy participants.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants with suitable veins for cannulation or repeated venipuncture.\n* All females must have a negative serum pregnancy test at the Screening Visit and on admission to the study site.\n* Females of childbearing potential must agree to use a highly effective contraception method from enrollment.\n* Male Participants, if heterosexually active, must practice true abstinence or use condoms during the trial and their female partners of childbearing potential must use additional effective contraception during the trial.\n* Body Mass Index (BMI) between 18 and 35 kg/m² and weigh at least 50 kg.\n\nExclusion Criteria:\n\n* History of any clinically important disease or disorder which may put the participant at risk or influence the results, including:\n\n  1. Clinically significant inflammatory bowel disease, gastroparesis, severe disease, or surgery affecting the upper gastrointestinal (GI) tract\n  2. Cardiovascular disease\n  3. Neuromuscular or neurogenic disease\n  4. Type 1 or type 2 diabetes mellitus\n* History of acute pancreatitis, chronic pancreatitis, gallstones, or elevation in serum lipase/pancreatic amylase.\n* History of clinically significant cardiovascular, dermatological, respiratory, neurological, psychiatric or GI disease disorder.\n* History of malignant neoplastic disease.\n* History or presence of GI disease or any other condition known to interfere with absorption, distribution, metabolism, or excretion of drugs.\n* Any clinically important illness, medical/surgical procedure, or trauma.\n* Any clinically important abnormalities in clinical chemistry, hematology, coagulation, or urinalysis results.\n* Basal calcitonin level ≥ 35 ng/L or history/family history of medullary thyroid cancer or multiple endocrine neoplasia type 2 (MEN2).\n* Uncontrolled thyroid disease.\n* Any positive result on screening for serum human immunodeficiency virus (HIV).\n* Known or suspected history of alcohol or drug abuse or excessive intake of alcohol.\n* History of severe allergy/hypersensitivity or ongoing clinically important allergy/hypersensitivity to drugs with a similar chemical structure or class to AZD5004, or to mitiglinide and/or pioglitazone.\n* Participants who have previously received AZD5004.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Fukuoka",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Research Site",
    "lat": 33.6,
-   "lon": 130.41667
+   "lon": 130.41667,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07444424",
@@ -130,6 +130,74 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Participants with suitable veins for cannulation or repeated venipuncture."
+   },
+   {
+    "text": "All females must have a negative serum pregnancy test at the Screening Visit and on admission to the study site."
+   },
+   {
+    "text": "Females of childbearing potential must agree to use a highly effective contraception method from enrollment."
+   },
+   {
+    "text": "Male Participants, if heterosexually active, must practice true abstinence or use condoms during the trial and their female partners of childbearing potential must use additional effective contraception during the trial."
+   },
+   {
+    "text": "Body Mass Index (BMI) between 18 and 35 kg/m² and weigh at least 50 kg."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of any clinically important disease or disorder which may put the participant at risk or influence the results, including:",
+    "sub_items": [
+     "Clinically significant inflammatory bowel disease, gastroparesis, severe disease, or surgery affecting the upper gastrointestinal (GI) tract",
+     "Cardiovascular disease",
+     "Neuromuscular or neurogenic disease",
+     "Type 1 or type 2 diabetes mellitus"
+    ]
+   },
+   {
+    "text": "History of acute pancreatitis, chronic pancreatitis, gallstones, or elevation in serum lipase/pancreatic amylase."
+   },
+   {
+    "text": "History of clinically significant cardiovascular, dermatological, respiratory, neurological, psychiatric or GI disease disorder."
+   },
+   {
+    "text": "History of malignant neoplastic disease."
+   },
+   {
+    "text": "History or presence of GI disease or any other condition known to interfere with absorption, distribution, metabolism, or excretion of drugs."
+   },
+   {
+    "text": "Any clinically important illness, medical/surgical procedure, or trauma."
+   },
+   {
+    "text": "Any clinically important abnormalities in clinical chemistry, hematology, coagulation, or urinalysis results."
+   },
+   {
+    "text": "Basal calcitonin level ≥ 35 ng/L or history/family history of medullary thyroid cancer or multiple endocrine neoplasia type 2 (MEN2)."
+   },
+   {
+    "text": "Uncontrolled thyroid disease."
+   },
+   {
+    "text": "Any positive result on screening for serum human immunodeficiency virus (HIV)."
+   },
+   {
+    "text": "Known or suspected history of alcohol or drug abuse or excessive intake of alcohol."
+   },
+   {
+    "text": "History of severe allergy/hypersensitivity or ongoing clinically important allergy/hypersensitivity to drugs with a similar chemical structure or class to AZD5004, or to mitiglinide and/or pioglitazone."
+   },
+   {
+    "text": "Participants who have previously received AZD5004."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

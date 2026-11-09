@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Taipei Medical University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Taipei Medical University Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -51,38 +51,38 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "bempedoic acid",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ezetimibe",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "High-Intensity Statin Therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Triple Lipid-Lowering Therapy",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: bempedoic acid",
     "Drug: Ezetimibe",
     "Drug: High-Intensity Statin Therapy"
-   ]
+   ],
+   "label": "Triple Lipid-Lowering Therapy",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Dual Lipid-Lowering Therapy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe",
     "Drug: High-Intensity Statin Therapy"
-   ]
+   ],
+   "label": "Dual Lipid-Lowering Therapy",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "This randomized clinical trial will evaluate whether starting bempedoic acid in addition to high-intensity statin therapy and ezetimibe within 72 hours after percutaneous coronary intervention improves low-density lipoprotein cholesterol (LDL-C) control in adults with acute coronary syndrome. Participants will receive either triple therapy with a high-intensity statin, ezetimibe, and bempedoic acid or standard dual therapy with a high-intensity statin and ezetimibe for 12 weeks. The primary outcome is the proportion of participants with LDL-C below 55 mg/dL at Week 12. Changes in lipid and inflammatory markers, medication adherence, and treatment-emergent adverse events will also be assessed.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 18 years or older.\n* Confirmed acute coronary syndrome, including ST-elevation myocardial infarction, non-ST-elevation myocardial infarction, or unstable angina.\n* Percutaneous coronary intervention within the preceding 72 hours.\n* Baseline LDL-C of at least 70 mg/dL.\n* Able and willing to provide written informed consent.\n\nExclusion Criteria:\n\n* Current use of a PCSK9 inhibitor or fibrate at baseline.\n* History of symptomatic hyperuricemia or gout.\n* Severe hepatic impairment, defined as ALT or AST greater than 3 times the upper limit of normal at screening.\n* Known gallbladder disease, including cholelithiasis or previous cholecystitis.\n* Known intolerance or contraindication to statins, ezetimibe, or bempedoic acid.\n* Triglycerides of at least 400 mg/dL at screening.\n* Estimated glomerular filtration rate below 30 mL/min/1.73 m2 or dialysis.\n* Active systemic infection or acute inflammatory disease that could interfere with hs-CRP interpretation.\n* Current participation in another interventional clinical trial.\n* Pregnancy, breastfeeding, or planned pregnancy during the study period.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "facility": "Taipei Medical University Hospital",
    "city": "Taipei",
-   "state": "Taipei City",
    "country": "Taiwan",
-   "status": "RECRUITING",
+   "facility": "Taipei Medical University Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": "Taipei City",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07824323",
@@ -123,6 +123,59 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 18 years or older."
+   },
+   {
+    "text": "Confirmed acute coronary syndrome, including ST-elevation myocardial infarction, non-ST-elevation myocardial infarction, or unstable angina."
+   },
+   {
+    "text": "Percutaneous coronary intervention within the preceding 72 hours."
+   },
+   {
+    "text": "Baseline LDL-C of at least 70 mg/dL."
+   },
+   {
+    "text": "Able and willing to provide written informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Current use of a PCSK9 inhibitor or fibrate at baseline."
+   },
+   {
+    "text": "History of symptomatic hyperuricemia or gout."
+   },
+   {
+    "text": "Severe hepatic impairment, defined as ALT or AST greater than 3 times the upper limit of normal at screening."
+   },
+   {
+    "text": "Known gallbladder disease, including cholelithiasis or previous cholecystitis."
+   },
+   {
+    "text": "Known intolerance or contraindication to statins, ezetimibe, or bempedoic acid."
+   },
+   {
+    "text": "Triglycerides of at least 400 mg/dL at screening."
+   },
+   {
+    "text": "Estimated glomerular filtration rate below 30 mL/min/1.73 m2 or dialysis."
+   },
+   {
+    "text": "Active systemic infection or acute inflammatory disease that could interfere with hs-CRP interpretation."
+   },
+   {
+    "text": "Current participation in another interventional clinical trial."
+   },
+   {
+    "text": "Pregnancy, breastfeeding, or planned pregnancy during the study period."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

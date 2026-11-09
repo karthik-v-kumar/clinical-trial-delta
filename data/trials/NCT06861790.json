@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "OTHER",
   "masking": "DOUBLE",
+  "primary_purpose": "OTHER",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Florida",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Florida"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -54,51 +54,51 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "tVNS",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "PROCEDURE",
    "name": "Complete Vagotomy",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "PROCEDURE",
    "name": "Anterior Vagotomy",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Behavioral: tVNS",
+    "Procedure: Anterior Vagotomy"
+   ],
    "label": "tVNS + anterior vagotomy",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Behavioral: tVNS",
-    "Procedure: Anterior Vagotomy"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Behavioral: tVNS",
+    "Procedure: Complete Vagotomy"
+   ],
    "label": "tVNS + complete vagotomy",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Behavioral: tVNS",
-    "Procedure: Complete Vagotomy"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sham + anterior vagotomy",
-   "type": "SHAM_COMPARATOR",
    "intervention_names": [
     "Procedure: Anterior Vagotomy"
-   ]
+   ],
+   "label": "Sham + anterior vagotomy",
+   "type": "SHAM_COMPARATOR"
   },
   {
-   "label": "Sham + complete vagotomy",
-   "type": "SHAM_COMPARATOR",
    "intervention_names": [
     "Procedure: Complete Vagotomy"
-   ]
+   ],
+   "label": "Sham + complete vagotomy",
+   "type": "SHAM_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -114,10 +114,10 @@
  "brief_summary": "The goal of the study to understand the effects of weight loss and improvements in diabetes following bariatric surgery on brain function and thinking. This study will also examine whether non-invasive transcutaneous vagal nerve stimulation (tVNS) intervention initiated 30 days post-surgery improves brain function and thinking. The study does NOT cover any costs associated with bariatric surgery.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Between age: 20-75 yrs, English speaking, Physically mobile\n* Body Mass Index (BMI) \\>35 kg before surgery\n* Compatible of MRI Scanning\n* Willing to give a small blood sample\n* Capable of providing informed consent\n\nExclusion Criteria:\n\n* Prior or current neurological disorder\n* Major psychiatric disturbance\n* Unstable medical conditions (cancer)\n* MRI contraindications (claustrophobia, metal implants, waist/torso circumference)",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -125,13 +125,13 @@
  },
  "sites": [
   {
-   "facility": "University of Florida - College of Public Health and Health Professions",
    "city": "Gainesville",
-   "state": "Florida",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "University of Florida - College of Public Health and Health Professions",
    "lat": 29.65163,
-   "lon": -82.32483
+   "lon": -82.32483,
+   "state": "Florida",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06861790",
@@ -143,6 +143,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Between age: 20-75 yrs, English speaking, Physically mobile"
+   },
+   {
+    "text": "Body Mass Index (BMI) >35 kg before surgery"
+   },
+   {
+    "text": "Compatible of MRI Scanning"
+   },
+   {
+    "text": "Willing to give a small blood sample"
+   },
+   {
+    "text": "Capable of providing informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Prior or current neurological disorder"
+   },
+   {
+    "text": "Major psychiatric disturbance"
+   },
+   {
+    "text": "Unstable medical conditions (cancer)"
+   },
+   {
+    "text": "MRI contraindications (claustrophobia, metal implants, waist/torso circumference)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

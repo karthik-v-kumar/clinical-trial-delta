@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -49,36 +49,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "repaglinide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "isophane human insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Rep + NPH",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: repaglinide",
     "Drug: isophane human insulin"
-   ]
+   ],
+   "label": "Rep + NPH",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Premixed insulin/NPH",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin"
-   ]
+   ],
+   "label": "Premixed insulin/NPH",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "This trial is conducted in Asia. The aim of this trial is to compare oral anti-diabetic drug (OAD) combined with insulin vs. insulin alone in subjects with type 2 diabetes not adequately controlled on the current OAD therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* HbA1c between 7.5 % and 13.0% (both inclusive)\n* Fasting C-peptide above or equal to 0.33 nmol/l\n* BMI (Body Mass Index) between 25 and 32 kg/m2 (both inclusive)\n\nExclusion Criteria:\n\n* Medical history of treatment with insulin within the last 6 months\n* Impaired renal function, defined as serum creatinine above to 1.7 mg/dl (150 µmol/l)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,31 +101,31 @@
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   },
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Shanghai",
-   "state": "Shanghai Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": "Shanghai Municipality",
+   "status": null
   },
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Shanghai",
-   "state": "Shanghai Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": "Shanghai Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01720303",
@@ -140,6 +140,29 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "HbA1c between 7.5 % and 13.0% (both inclusive)"
+   },
+   {
+    "text": "Fasting C-peptide above or equal to 0.33 nmol/l"
+   },
+   {
+    "text": "BMI (Body Mass Index) between 25 and 32 kg/m2 (both inclusive)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Medical history of treatment with insulin within the last 6 months"
+   },
+   {
+    "text": "Impaired renal function, defined as serum creatinine above to 1.7 mg/dl (150 µmol/l)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "TRIPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Aberdeen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Aberdeen"
  },
  "collaborators": [],
  "conditions": [
@@ -54,34 +54,34 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "EPAX 6000 (marine omega 3 EPA/DHA fatty acid concentrates",
    "other_names": [
     "EPAX 6000TG code F0-5222/XT"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Maize (corn) oil",
    "other_names": [
     "Banner chemicals product GL-518/XT"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Fish oil",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: EPAX 6000 (marine omega 3 EPA/DHA fatty acid concentrates"
-   ]
+   ],
+   "label": "Fish oil",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Maize (corn) oil",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Maize (corn) oil"
-   ]
+   ],
+   "label": "Maize (corn) oil",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "The purpose of this study is to determine whether a prolonged (9 month) high (6g/d) of marine oil improves insulin sensitivity and glucose control in subjects with impaired glucose regulation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and post-menopausal women aged 40-65 years\n* Recruited from the surrounding community of Aberdeen\n* Insulin resistance with either\n\n  1. venous plasma fasting glucose \\> 5.0, \\< 7.0 mmo/l,\n  2. venous plasma 2-h 75-g OGTT \\> 5.0, \\< 11.1 mmol/l\n  3. newly diagnosed with type 2 diabetes; must be asymptomatic and detected during our screenings and not require oral hypoglycemic or insulin therapy, HbA1c \\< 7.0%\n\nExclusion Criteria:\n\n* Diabetes requiring oral hypoglycemic therapy or insulin\n* Treatment with anticoagulants, regular steroids or non-steroidal anti-inflammatory drug treatment, tricyclic antidepressants, anti-arrhythmics\n* Hepatic failure\n* Renal failure\n* Significant respiratory disease\n* Anaemia\n* Cardiovascular disease\n* Malignancy\n* Thromboembolic or coagulation disorders\n* Alcoholism or other substance misuse\n* Eating disorders or significant psychiatric disorders",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "69 Years",
   "healthy_volunteers": false,
+  "maximum_age": "69 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Rowett Institute of Nutrition and Health, University of Aberdeen",
    "city": "Aberdeen",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Rowett Institute of Nutrition and Health, University of Aberdeen",
    "lat": 57.14369,
-   "lon": -2.09814
+   "lon": -2.09814,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01241474",
@@ -122,6 +122,61 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and post-menopausal women aged 40-65 years"
+   },
+   {
+    "text": "Recruited from the surrounding community of Aberdeen"
+   },
+   {
+    "text": "Insulin resistance with either",
+    "sub_items": [
+     "venous plasma fasting glucose > 5.0, < 7.0 mmo/l,",
+     "venous plasma 2-h 75-g OGTT > 5.0, < 11.1 mmol/l",
+     "newly diagnosed with type 2 diabetes; must be asymptomatic and detected during our screenings and not require oral hypoglycemic or insulin therapy, HbA1c < 7.0%"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diabetes requiring oral hypoglycemic therapy or insulin"
+   },
+   {
+    "text": "Treatment with anticoagulants, regular steroids or non-steroidal anti-inflammatory drug treatment, tricyclic antidepressants, anti-arrhythmics"
+   },
+   {
+    "text": "Hepatic failure"
+   },
+   {
+    "text": "Renal failure"
+   },
+   {
+    "text": "Significant respiratory disease"
+   },
+   {
+    "text": "Anaemia"
+   },
+   {
+    "text": "Cardiovascular disease"
+   },
+   {
+    "text": "Malignancy"
+   },
+   {
+    "text": "Thromboembolic or coagulation disorders"
+   },
+   {
+    "text": "Alcoholism or other substance misuse"
+   },
+   {
+    "text": "Eating disorders or significant psychiatric disorders"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

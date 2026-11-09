@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shanghai JMT-Bio Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Shanghai JMT-Bio Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -51,81 +51,81 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "JMT206 injection",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "COMBINATION_PRODUCT",
    "name": "Semaglutide injection",
-   "other_names": []
+   "other_names": [],
+   "type": "COMBINATION_PRODUCT"
   },
   {
-   "type": "DRUG",
    "name": "Placebo injection",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: JMT206 injection"
+   ],
    "label": "JMT206 injection group 2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: JMT206 injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: JMT206 injection"
+   ],
    "label": "JMT206 injection group 3",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: JMT206 injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: JMT206 injection",
+    "Combination Product: Semaglutide injection"
+   ],
    "label": "JMT206 injection + Semaglutide group 1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: JMT206 injection",
     "Combination Product: Semaglutide injection"
-   ]
-  },
-  {
+   ],
    "label": "JMT206 injection + Semaglutide group 2",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: JMT206 injection",
     "Combination Product: Semaglutide injection"
-   ]
-  },
-  {
+   ],
    "label": "JMT206 injection + Semaglutide group 3",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: JMT206 injection",
-    "Combination Product: Semaglutide injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo injection"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Placebo+ Semaglutide",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Combination Product: Semaglutide injection",
     "Drug: Placebo injection"
-   ]
+   ],
+   "label": "Placebo+ Semaglutide",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "JMT206 injection group 1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: JMT206 injection"
-   ]
+   ],
+   "label": "JMT206 injection group 1",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -137,10 +137,10 @@
  "brief_summary": "Use these resources to provide understandable information about this study to patients, families, and health care providers:",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age 18\\~65 (including threshold values), male or female participants;\n2. BMI ≥ 30 kg/m²;\n3. Weight change \\<5% within the 3 months prior to screening\n4. Voluntarily sign the informed consent form before the trial..\n\nExclusion Criteria:\n\n1\\) Those known to have a history of allergy to any component or related preparations in the investigational drug and its excipients, or have severe allergic diseases or allergic constitution; 2) Participants with a history of diabetes mellitus or hypoglycemic episodes; 3) Obesity is related to medication or diseases; Or weight gain caused by non-fat content; or monogene mutationsobesity; 4) History of weight loss surgery and/or treatment within the past year; 5) History of severe gastrointestinal disease or gastrointestinal surgery, clinically significant gastric emptying abnormalities, or long-term use of medications directly affecting gastrointestinal motility; 6) Having comorbidities known to affect skeletal muscle proteins; 7) A history of acute or chronic pancreatitis; 8) Acute gallbladder disease within one year prior to screening; 9) Previous or family history of medullary thyroid carcinoma or type 2 endocrine adenomatosis; 10) Severe cardiovascular or cerebrovascular events within 6 months prior to screening; 11) Any type of treated or untreated malignant tumor within 5 years prior to screening; 12) History of severe mental illness; 13) Use of drugs or products that may cause weight changes within 3 months prior to screening; 14) Use of drugs or products affecting skeletal muscle synthesis within 3 months prior to screening; 15) Participants deemed otherwise unsuitable for this trial by the investigator.\n\n\\-",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -148,13 +148,13 @@
  },
  "sites": [
   {
-   "facility": "Peking University People's Hospital",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": "RECRUITING",
+   "facility": "Peking University People's Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07840729",
@@ -166,6 +166,32 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 18~65 (including threshold values), male or female participants;"
+   },
+   {
+    "text": "BMI ≥ 30 kg/m²;"
+   },
+   {
+    "text": "Weight change <5% within the 3 months prior to screening"
+   },
+   {
+    "text": "Voluntarily sign the informed consent form before the trial.."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Those known to have a history of allergy to any component or related preparations in the investigational drug and its excipients, or have severe allergic diseases or allergic constitution; 2) Participants with a history of diabetes mellitus or hypoglycemic episodes; 3) Obesity is related to medication or diseases; Or weight gain caused by non-fat content; or monogene mutationsobesity; 4) History of weight loss surgery and/or treatment within the past year; 5) History of severe gastrointestinal disease or gastrointestinal surgery, clinically significant gastric emptying abnormalities, or long-term use of medications directly affecting gastrointestinal motility; 6) Having comorbidities known to affect skeletal muscle proteins; 7) A history of acute or chronic pancreatitis; 8) Acute gallbladder disease within one year prior to screening; 9) Previous or family history of medullary thyroid carcinoma or type 2 endocrine adenomatosis; 10) Severe cardiovascular or cerebrovascular events within 6 months prior to screening; 11) Any type of treated or untreated malignant tumor within 5 years prior to screening; 12) History of severe mental illness; 13) Use of drugs or products that may cause weight changes within 3 months prior to screening; 14) Use of drugs or products affecting skeletal muscle synthesis within 3 months prior to screening; 15) Participants deemed otherwise unsuitable for this trial by the investigator."
+   },
+   {
+    "text": "-"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

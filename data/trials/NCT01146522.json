@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "LCQ908",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "LCQ908",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LCQ908"
-   ]
+   ],
+   "label": "LCQ908",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "This study will assess safety, tolerability, and effect of LCQ908 on blood lipids in patients with severe hypertriglyceridemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with hyperlipoproteinemia Type I or Type V willing and medically able to discontinue their lipid lowering medication (if prescribed).\n* Non breast feeding women.\n* Women of child bearing potential practicing appropriate contraception with a negative pregnancy test before dosing.\n\nExclusion Criteria:\n\nPatients with:\n\n* uncontrolled type 1 or type 2 diabetes mellitus,\n* active pancreatitis (the month prior to study start),\n* history of drug or alcohol abuse within the 12 months prior to dosing,\n* or any surgical or medical condition, acute or unstable chronic disease which may, based on the investigator's opinion, jeopardize the patient in case of participation in the study.\n\nOther protocol-defined inclusion/exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Novartis Investigative Site",
    "city": "Québec",
-   "state": null,
    "country": "Canada",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 46.81228,
-   "lon": -71.21454
+   "lon": -71.21454,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01146522",
@@ -118,6 +118,43 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with hyperlipoproteinemia Type I or Type V willing and medically able to discontinue their lipid lowering medication (if prescribed)."
+   },
+   {
+    "text": "Non breast feeding women."
+   },
+   {
+    "text": "Women of child bearing potential practicing appropriate contraception with a negative pregnancy test before dosing."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "uncontrolled type 1 or type 2 diabetes mellitus,",
+    "group": "Patients with"
+   },
+   {
+    "text": "active pancreatitis (the month prior to study start),",
+    "group": "Patients with"
+   },
+   {
+    "text": "history of drug or alcohol abuse within the 12 months prior to dosing,",
+    "group": "Patients with"
+   },
+   {
+    "text": "or any surgical or medical condition, acute or unstable chronic disease which may, based on the investigator's opinion, jeopardize the patient in case of participation in the study.",
+    "group": "Patients with"
+   },
+   {
+    "text": "Other protocol-defined inclusion/exclusion criteria may apply",
+    "group": "Patients with"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

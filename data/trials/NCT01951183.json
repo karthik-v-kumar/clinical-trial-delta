@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hoffmann-La Roche",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hoffmann-La Roche"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "RO6811135",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "RO6811135",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: RO6811135"
-   ]
+   ],
+   "label": "RO6811135",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This multi-center, randomized, double-blind, placebo-controlled, parallel-group study will evaluate the efficacy, safety and tolerability of RO6811135 in Type 2 diabetic patients treated with a stable dose of metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults between the age of 18 and 65\n* Have been diagnosed with diabetes for at least 3 months and treated with a stable dose of metformin for at least 8 weeks\n* Hemoglobin A1c between 7.2 and 10.5%\n* Fasting plasma glucose less than 250 mg/dL\n* C-peptide greater than 1.5 ng/mL\n* Body mass index (BMI) between 27 and 44\n\nExclusion Criteria:\n\n* Pregnant or lactating women\n* Type 1 diabetes\n* Had undergone weight loss surgery or weight loss procedure involving the gastrointestinal tract, such as gastric bypass, gastric stapling, or gastric banding\n* Uncontrolled hypertension or other significant cardiovascular disease as determined by investigator\n* Significant kidney or liver disease as determined by the investigator",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,6 +107,47 @@
  "sponsors_of_note": [
   "Roche"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults between the age of 18 and 65"
+   },
+   {
+    "text": "Have been diagnosed with diabetes for at least 3 months and treated with a stable dose of metformin for at least 8 weeks"
+   },
+   {
+    "text": "Hemoglobin A1c between 7.2 and 10.5%"
+   },
+   {
+    "text": "Fasting plasma glucose less than 250 mg/dL"
+   },
+   {
+    "text": "C-peptide greater than 1.5 ng/mL"
+   },
+   {
+    "text": "Body mass index (BMI) between 27 and 44"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant or lactating women"
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Had undergone weight loss surgery or weight loss procedure involving the gastrointestinal tract, such as gastric bypass, gastric stapling, or gastric banding"
+   },
+   {
+    "text": "Uncontrolled hypertension or other significant cardiovascular disease as determined by investigator"
+   },
+   {
+    "text": "Significant kidney or liver disease as determined by the investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

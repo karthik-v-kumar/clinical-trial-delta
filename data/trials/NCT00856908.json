@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2012-11-26",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD1656",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD1656"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "The purpose of this study is to assess the 1 month safety and tolerability after multiple oral doses of AZD1656 in patients with Type 2 Diabetes Mellitus Treated with Insulin",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type II diabetes patients, female with non child-bearing potential\n* Subjects with T2DM diagnosis for at least one year, treated with insulin alone or insulin in combination with other anti-diabetic drugs. Subjects must have been treated with insulin the last 3 months prior to enrolment (screening)\n* HbA1c \\<11% at enrolment (screening) (HbA1c value according to international Diabetes Control and Complications Trial \\[DCCT\\] standard).\n* FPG in the range of 7.0 to 13.0 mmol/L (126 to 234 mg/dL)\n\nExclusion Criteria:\n\n* History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease\n* Use of glitazones, warfarin, amiodarone within 3 months prior to enrolment (screening) and use of potent CYP450 inhibitors, eg, ketoconazole and macrolide antibiotics within 14 days before randomisation.\n* Any clinically significant abnormality identified on physical examination, laboratory tests or ECG, which in the judgment of the investigator would compromise the patients' safety or successful participation in the clinical study.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00856908",
@@ -133,6 +133,35 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "type II diabetes patients, female with non child-bearing potential"
+   },
+   {
+    "text": "Subjects with T2DM diagnosis for at least one year, treated with insulin alone or insulin in combination with other anti-diabetic drugs. Subjects must have been treated with insulin the last 3 months prior to enrolment (screening)"
+   },
+   {
+    "text": "HbA1c <11% at enrolment (screening) (HbA1c value according to international Diabetes Control and Complications Trial [DCCT] standard)."
+   },
+   {
+    "text": "FPG in the range of 7.0 to 13.0 mmol/L (126 to 234 mg/dL)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease"
+   },
+   {
+    "text": "Use of glitazones, warfarin, amiodarone within 3 months prior to enrolment (screening) and use of potent CYP450 inhibitors, eg, ketoconazole and macrolide antibiotics within 14 days before randomisation."
+   },
+   {
+    "text": "Any clinically significant abnormality identified on physical examination, laboratory tests or ECG, which in the judgment of the investigator would compromise the patients' safety or successful participation in the clinical study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

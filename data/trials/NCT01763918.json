@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2015-12-22",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Amgen",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Amgen"
  },
  "collaborators": [],
  "conditions": [
@@ -53,47 +53,47 @@
  ],
  "interventions": [
   {
-   "type": "BIOLOGICAL",
    "name": "Evolocumab",
    "other_names": [
     "AMG 145",
     "Repatha"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "Placebo Q2W",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "Placebo QM",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Biological: Evolocumab"
+   ],
    "label": "Evolocumab Q2W",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Biological: Evolocumab"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Evolocumab QM",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: Evolocumab"
-   ]
+   ],
+   "label": "Evolocumab QM",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "The primary objective was to evaluate the effect of 12 weeks of evolocumab subcutaneously once every 2 weeks (Q2W) and once monthly (QM), compared with placebo, on percent change from baseline in low-density lipoprotein cholesterol (LDL-C) in adults with heterozygous familial hypercholesterolemia (HeFH).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female ≥ 18 to ≤ 80 years of age\n* Diagnosis of heterozygous familial hypercholesterolemia\n* On a stable dose of an approved statin and lipid regulating medication\n* Fasting LDL-C ≥ 100 mg/dL (2.6 mmol/L)\n* Fasting triglycerides ≤ 400 mg/dL (4.5 mmol/L)\n\nExclusion Criteria:\n\n* Homozygous familial hypercholesterolemia\n* LDL or plasma apheresis\n* New York Heart Association (NYHA) III or IV heart failure\n* Uncontrolled cardiac arrhythmia\n* Uncontrolled hypertension\n* Type 1 diabetes, poorly controlled type 2 diabetes\n* Uncontrolled hypothyroidism or hyperthyroidism",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,355 +120,355 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Camperdown",
-   "state": "New South Wales",
    "country": "Australia",
-   "status": null,
+   "facility": "Research Site",
    "lat": -33.88965,
-   "lon": 151.17642
+   "lon": 151.17642,
+   "state": "New South Wales",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Perth",
-   "state": "Western Australia",
    "country": "Australia",
-   "status": null,
+   "facility": "Research Site",
    "lat": -31.95224,
-   "lon": 115.8614
+   "lon": 115.8614,
+   "state": "Western Australia",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Vancouver",
-   "state": "British Columbia",
    "country": "Canada",
-   "status": null,
+   "facility": "Research Site",
    "lat": 49.24966,
-   "lon": -123.11934
+   "lon": -123.11934,
+   "state": "British Columbia",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "London",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Research Site",
    "lat": 42.98339,
-   "lon": -81.23304
+   "lon": -81.23304,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Chicoutimi",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": "Research Site",
    "lat": 48.41963,
-   "lon": -71.06369
-  },
-  {
-   "facility": "Research Site",
-   "city": "Montreal",
+   "lon": -71.06369,
    "state": "Quebec",
-   "country": "Canada",
-   "status": null,
-   "lat": 45.50884,
-   "lon": -73.58781
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Montreal",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": "Research Site",
    "lat": 45.50884,
-   "lon": -73.58781
+   "lon": -73.58781,
+   "state": "Quebec",
+   "status": null
   },
   {
+   "city": "Montreal",
+   "country": "Canada",
    "facility": "Research Site",
+   "lat": 45.50884,
+   "lon": -73.58781,
+   "state": "Quebec",
+   "status": null
+  },
+  {
    "city": "Bron",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Research Site",
    "lat": 45.73865,
-   "lon": 4.91303
+   "lon": 4.91303,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Nantes",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Research Site",
    "lat": 47.21725,
-   "lon": -1.55336
+   "lon": -1.55336,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Paris",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Research Site",
    "lat": 48.85341,
-   "lon": 2.3488
+   "lon": 2.3488,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Cologne",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Research Site",
    "lat": 50.93333,
-   "lon": 6.95
+   "lon": 6.95,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "New Territories",
-   "state": null,
    "country": "Hong Kong",
-   "status": null,
+   "facility": "Research Site",
    "lat": 22.42441,
-   "lon": 114.11095
+   "lon": 114.11095,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Amersfoort",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 52.155,
-   "lon": 5.3875
-  },
-  {
-   "facility": "Research Site",
-   "city": "Amsterdam",
+   "lon": 5.3875,
    "state": null,
-   "country": "Netherlands",
-   "status": null,
-   "lat": 52.37403,
-   "lon": 4.88969
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Amsterdam",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": null,
+   "status": null
   },
   {
+   "city": "Amsterdam",
+   "country": "Netherlands",
    "facility": "Research Site",
+   "lat": 52.37403,
+   "lon": 4.88969,
+   "state": null,
+   "status": null
+  },
+  {
    "city": "Gouda",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 52.01667,
-   "lon": 4.70833
+   "lon": 4.70833,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Groningen",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 53.21917,
-   "lon": 6.56667
+   "lon": 6.56667,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Hoorn",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 52.6425,
-   "lon": 5.05972
+   "lon": 5.05972,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Tilburg",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 51.55551,
-   "lon": 5.0913
+   "lon": 5.0913,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Utrecht",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Research Site",
    "lat": 52.09083,
-   "lon": 5.12222
+   "lon": 5.12222,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Christchurch",
-   "state": null,
    "country": "New Zealand",
-   "status": null,
+   "facility": "Research Site",
    "lat": -43.53333,
-   "lon": 172.63333
+   "lon": 172.63333,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Oslo",
-   "state": null,
    "country": "Norway",
-   "status": null,
+   "facility": "Research Site",
    "lat": 59.91273,
-   "lon": 10.74609
+   "lon": 10.74609,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Johannesburg",
-   "state": "Gauteng",
    "country": "South Africa",
-   "status": null,
+   "facility": "Research Site",
    "lat": -26.20227,
-   "lon": 28.04363
-  },
-  {
-   "facility": "Research Site",
-   "city": "Midrand",
+   "lon": 28.04363,
    "state": "Gauteng",
+   "status": null
+  },
+  {
+   "city": "Midrand",
    "country": "South Africa",
-   "status": null,
+   "facility": "Research Site",
    "lat": -25.976,
-   "lon": 28.118
+   "lon": 28.118,
+   "state": "Gauteng",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Observatory",
-   "state": "Western Cape",
    "country": "South Africa",
-   "status": null,
+   "facility": "Research Site",
    "lat": -33.93613,
-   "lon": 18.46787
-  },
-  {
-   "facility": "Research Site",
-   "city": "Parow",
+   "lon": 18.46787,
    "state": "Western Cape",
+   "status": null
+  },
+  {
+   "city": "Parow",
    "country": "South Africa",
-   "status": null,
+   "facility": "Research Site",
    "lat": -33.89723,
-   "lon": 18.59992
+   "lon": 18.59992,
+   "state": "Western Cape",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Madrid",
-   "state": null,
    "country": "Spain",
-   "status": null,
+   "facility": "Research Site",
    "lat": 40.4165,
-   "lon": -3.70256
+   "lon": -3.70256,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Córdoba",
-   "state": "Andalusia",
    "country": "Spain",
-   "status": null,
+   "facility": "Research Site",
    "lat": 37.89155,
-   "lon": -4.77275
+   "lon": -4.77275,
+   "state": "Andalusia",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Zaragoza",
-   "state": "Aragon",
    "country": "Spain",
-   "status": null,
+   "facility": "Research Site",
    "lat": 41.65606,
-   "lon": -0.87734
+   "lon": -0.87734,
+   "state": "Aragon",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Reus",
-   "state": "Catalonia",
    "country": "Spain",
-   "status": null,
+   "facility": "Research Site",
    "lat": 41.15612,
-   "lon": 1.10687
+   "lon": 1.10687,
+   "state": "Catalonia",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Stockholm",
-   "state": null,
    "country": "Sweden",
-   "status": null,
+   "facility": "Research Site",
    "lat": 59.32938,
-   "lon": 18.06871
+   "lon": 18.06871,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Stockholm",
-   "state": null,
    "country": "Sweden",
-   "status": null,
+   "facility": "Research Site",
    "lat": 59.32938,
-   "lon": 18.06871
+   "lon": 18.06871,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Reinach",
-   "state": null,
    "country": "Switzerland",
-   "status": null,
+   "facility": "Research Site",
    "lat": 47.49702,
-   "lon": 7.59172
+   "lon": 7.59172,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Coventry",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Research Site",
    "lat": 52.40656,
-   "lon": -1.51217
-  },
-  {
-   "facility": "Research Site",
-   "city": "London",
+   "lon": -1.51217,
    "state": null,
-   "country": "United Kingdom",
-   "status": null,
-   "lat": 51.50853,
-   "lon": -0.12574
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "London",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Research Site",
    "lat": 51.50853,
-   "lon": -0.12574
+   "lon": -0.12574,
+   "state": null,
+   "status": null
   },
   {
+   "city": "London",
+   "country": "United Kingdom",
    "facility": "Research Site",
+   "lat": 51.50853,
+   "lon": -0.12574,
+   "state": null,
+   "status": null
+  },
+  {
    "city": "Manchester",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Research Site",
    "lat": 53.48095,
-   "lon": -2.23743
+   "lon": -2.23743,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Scottsdale",
-   "state": "Arizona",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 33.50921,
-   "lon": -111.89903
+   "lon": -111.89903,
+   "state": "Arizona",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Cincinnati",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 39.12711,
-   "lon": -84.51439
+   "lon": -84.51439,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01763918",
@@ -483,6 +483,50 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female ≥ 18 to ≤ 80 years of age"
+   },
+   {
+    "text": "Diagnosis of heterozygous familial hypercholesterolemia"
+   },
+   {
+    "text": "On a stable dose of an approved statin and lipid regulating medication"
+   },
+   {
+    "text": "Fasting LDL-C ≥ 100 mg/dL (2.6 mmol/L)"
+   },
+   {
+    "text": "Fasting triglycerides ≤ 400 mg/dL (4.5 mmol/L)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Homozygous familial hypercholesterolemia"
+   },
+   {
+    "text": "LDL or plasma apheresis"
+   },
+   {
+    "text": "New York Heart Association (NYHA) III or IV heart failure"
+   },
+   {
+    "text": "Uncontrolled cardiac arrhythmia"
+   },
+   {
+    "text": "Uncontrolled hypertension"
+   },
+   {
+    "text": "Type 1 diabetes, poorly controlled type 2 diabetes"
+   },
+   {
+    "text": "Uncontrolled hypothyroidism or hyperthyroidism"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

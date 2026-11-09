@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "King Saud University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "King Saud University"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Lifestyle",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Lifestyle",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Behavioral: Lifestyle"
-   ]
+   ],
+   "label": "Lifestyle",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "Both diabetes mellitus and osteoporosis are prevalent diseases with crucial associated mortality and morbidity. There is no clear relevance between bone diseases and diabetes mellitus. Previous research indicates that diabetes and complications related to this disease can contribute to bone disease and DM can also determine bone health. Both kinds of diabetes mellitus bring fracture risk, the most substantial clinical osteoporosis endpoint, which has crucial impact on mortality and morbidity including quality of life of an individual. Although research shows that there is association between Type 1 diabetes (T1DM) and decreased bone mineral density (BMD) values, patients with Type 2 diabetes (T2DM) have either normal or higher than expected BMD values usually. General Objective: To determine the influence of first-line anti-DM therapies in bone turnover markers and metabolism among T2DM naïve Saudi adults.\n\nSpecific objectives:\n\n* To investigate the differences in the 3- and 6-month effects of metformin alone, lifestyle intervention alone and combination (metformin + lifestyle modification) on bone markers in T2DM naïve Saudi adults.\n* To investigate the differences in the 3- and 6-month effects of metformin alone, lifestyle intervention alone and combination (metformin + lifestyle modification) on metabolism in T2DM naïve Saudi adults.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Consenting Saudi adults, males, and females, aged 25-65 years with newly diagnosed T2DM will be included.\n* T2DM diagnosis will be done by collaborating primary care physicians following the American Diabetes Association (ADA) and World Health Organization (WHO) criteria (ADA, 2022):\n* Fasting plasma glucose ≥7.0mmol/l or ≥126mg/dl. Fasting is defined as no caloric intake for at least 8 hours OR\n* 2-h PG ≥200 mg/dl (11.1 mmol/L) during OGTT. The test should be performed as described by WHO, using a glucose load containing the equivalent of 75g anhydrous glucose dissolved in water.\n\nOR •Hba1c ≥6.5% (48 mmol/mol). The test should be performed in a laboratory using a method that is National Glycohemoglobin Standardization Program (NGSP) certified and standardized to the Diabetes Control and Complications (Trial) DCCT assay.\n\nOR\n\n•In a patient with classic symptoms of hyperglycemia or hyperglycemic crisis, a random plasma glucose ≥200 mg/dl (11.1 mmol/L).\n\nExclusion Criteria:\n\n* Non-Saudis and those outside the age range (less than 25 years and above 65 years old).\n* Those with comorbidities and existing complications (osteoporosis, uncontrolled hypertension, atherosclerosis, renal and liver abnormalities, morbidly obese, psychologically incapacitated).\n* Known cases of T2DM who are already on medications.\n* Participants who will be unable to commit to the treatment allocated for 6 months, either for personal reasons or physician's advice.",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,6 +118,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Consenting Saudi adults, males, and females, aged 25-65 years with newly diagnosed T2DM will be included."
+   },
+   {
+    "text": "T2DM diagnosis will be done by collaborating primary care physicians following the American Diabetes Association (ADA) and World Health Organization (WHO) criteria (ADA, 2022):"
+   },
+   {
+    "text": "Fasting plasma glucose ≥7.0mmol/l or ≥126mg/dl. Fasting is defined as no caloric intake for at least 8 hours OR"
+   },
+   {
+    "text": "2-h PG ≥200 mg/dl (11.1 mmol/L) during OGTT. The test should be performed as described by WHO, using a glucose load containing the equivalent of 75g anhydrous glucose dissolved in water."
+   },
+   {
+    "text": "OR •Hba1c ≥6.5% (48 mmol/mol). The test should be performed in a laboratory using a method that is National Glycohemoglobin Standardization Program (NGSP) certified and standardized to the Diabetes Control and Complications (Trial) DCCT assay."
+   },
+   {
+    "text": "OR"
+   },
+   {
+    "text": "•In a patient with classic symptoms of hyperglycemia or hyperglycemic crisis, a random plasma glucose ≥200 mg/dl (11.1 mmol/L)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Non-Saudis and those outside the age range (less than 25 years and above 65 years old)."
+   },
+   {
+    "text": "Those with comorbidities and existing complications (osteoporosis, uncontrolled hypertension, atherosclerosis, renal and liver abnormalities, morbidly obese, psychologically incapacitated)."
+   },
+   {
+    "text": "Known cases of T2DM who are already on medications."
+   },
+   {
+    "text": "Participants who will be unable to commit to the treatment allocated for 6 months, either for personal reasons or physician's advice."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

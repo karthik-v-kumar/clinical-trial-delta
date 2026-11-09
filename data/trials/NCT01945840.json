@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Imperial College London",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Imperial College London"
  },
  "collaborators": [],
  "conditions": [
@@ -51,54 +51,54 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Roux en Y Gastric Bypass Surgery",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "OTHER",
    "name": "Gut hormone infusion",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Placebo infusion",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Very low calorie diet",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Roux en Y Gastric Bypass",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Roux en Y Gastric Bypass Surgery"
-   ]
+   ],
+   "label": "Roux en Y Gastric Bypass",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Gut hormone infusion",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Gut hormone infusion"
-   ]
+   ],
+   "label": "Gut hormone infusion",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo infusion",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo infusion"
-   ]
+   ],
+   "label": "Placebo infusion",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Very low calorie diet",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Very low calorie diet"
-   ]
+   ],
+   "label": "Very low calorie diet",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "The purpose of this study is to assess whether the changes in gut hormones seen following Roux en Y Gastric Bypass surgery are responsible for some of the beneficial effects seen post-operatively.",
  "eligibility": {
   "criteria": "Inclusion criteria\n\n* Aged 18 - 70 years.\n* Male or female.\n* Eligible for bariatric surgery under the NHS.\n* Diagnosed with impaired glucose regulation or type 2 diabetes, according to WHO 2011 criteria.\n* Those with diabetes should be stable and well controlled with either diet or one oral hypoglycaemic agent.\n* HbA1c ≤9.0% or 74.9 mmol/mol.\n\nExclusion criteria\n\n* History of any medical, psychological or other condition, or use of any medications, including over-the-counter products, which, in the opinion of the investigators, would either interfere with the study or potentially cause harm to the volunteer.\n* Without access at home to a telephone or other factor likely to interfere with ability to participate reliably in the study.\n* Pregnancy or breastfeeding.\n* Smokers.\n* Unable to maintain adequate contraception for the duration of the study and for one month afterwards.\n* History of hypersensitivity to any of the components of the subcutaneous infusions.\n* Donated blood during the preceding 3 months or intention to do so before the end of the study.\n* Insulin treatment.\n* Uncontrolled hypertension.\n* Any other co-morbidity that would compromise the validity of the study or the safety of the participant such as heart failure, clinically apparent cardiovascular disease.\n* Volunteers on anti-coagulants such as warfarin and factor Xa inhibitors will not undergo adipose tissue biopsy.\n* Unable to give informed consent.\n* Previous bariatric surgery.\n* Unable to undergo fMRI due to:\n\n  * Claustrophobia.\n  * Pacemaker, metal implant, clips, implanted device, shrapnel or bullet, metal in eyes that precludes magnetic resonance imaging.\n  * Significant structural abnormality on magnetic resonance brain scan",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -121,13 +121,13 @@
  },
  "sites": [
   {
-   "facility": "NIHR/Wellcome Trust Imperial CRF, Hammersmith Hospital",
    "city": "London",
-   "state": "Greater London",
    "country": "United Kingdom",
-   "status": "RECRUITING",
+   "facility": "NIHR/Wellcome Trust Imperial CRF, Hammersmith Hospital",
    "lat": 51.50853,
-   "lon": -0.12574
+   "lon": -0.12574,
+   "state": "Greater London",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01945840",
@@ -139,6 +139,79 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Aged 18 - 70 years."
+   },
+   {
+    "text": "Male or female."
+   },
+   {
+    "text": "Eligible for bariatric surgery under the NHS."
+   },
+   {
+    "text": "Diagnosed with impaired glucose regulation or type 2 diabetes, according to WHO 2011 criteria."
+   },
+   {
+    "text": "Those with diabetes should be stable and well controlled with either diet or one oral hypoglycaemic agent."
+   },
+   {
+    "text": "HbA1c ≤9.0% or 74.9 mmol/mol."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of any medical, psychological or other condition, or use of any medications, including over-the-counter products, which, in the opinion of the investigators, would either interfere with the study or potentially cause harm to the volunteer."
+   },
+   {
+    "text": "Without access at home to a telephone or other factor likely to interfere with ability to participate reliably in the study."
+   },
+   {
+    "text": "Pregnancy or breastfeeding."
+   },
+   {
+    "text": "Smokers."
+   },
+   {
+    "text": "Unable to maintain adequate contraception for the duration of the study and for one month afterwards."
+   },
+   {
+    "text": "History of hypersensitivity to any of the components of the subcutaneous infusions."
+   },
+   {
+    "text": "Donated blood during the preceding 3 months or intention to do so before the end of the study."
+   },
+   {
+    "text": "Insulin treatment."
+   },
+   {
+    "text": "Uncontrolled hypertension."
+   },
+   {
+    "text": "Any other co-morbidity that would compromise the validity of the study or the safety of the participant such as heart failure, clinically apparent cardiovascular disease."
+   },
+   {
+    "text": "Volunteers on anti-coagulants such as warfarin and factor Xa inhibitors will not undergo adipose tissue biopsy."
+   },
+   {
+    "text": "Unable to give informed consent."
+   },
+   {
+    "text": "Previous bariatric surgery."
+   },
+   {
+    "text": "Unable to undergo fMRI due to:",
+    "sub_items": [
+     "Claustrophobia.",
+     "Pacemaker, metal implant, clips, implanted device, shrapnel or bullet, metal in eyes that precludes magnetic resonance imaging.",
+     "Significant structural abnormality on magnetic resonance brain scan"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

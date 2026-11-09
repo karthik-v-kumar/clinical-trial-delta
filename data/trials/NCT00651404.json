@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -55,33 +55,33 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ezetimibe",
    "other_names": [
     "SCH 058235",
     "Zetia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Ezetimibe",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe"
-   ]
+   ],
+   "label": "Ezetimibe",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "To compare the efficacy of ezetimibe 10 mg added daily to ongoing treatment with atorvastatin 10 mg daily versus ezetimibe placebo added daily to ongoing treatment with atorvastatin 10 mg daily in reducing the concentration of LDL-cholesterol (LDL-C) at endpoint after 6 weeks of treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* \\>=18 years and \\<= 75 years of age with LDL-C concentration \\>= 2.6 mmol/L (100 mg/dL) to \\<= 4.1 mmol/L (160 mg/dL) using the Friedewald calculation available at the time of randomization Visit 3 (Baseline Visit) and triglyceride concentrations of \\< 3.99 mmol/L (350 mg/dL) at Baseline Visit\n* documented coronary heart disease\n* currently taking atorvastatin 10 mg daily and history has taken 80 % of daily doses for the preceding 6 weeks prior to Visit 3\n* liver transaminases (ALT, AST) \\< 50 % above the upper limit of normal, with no active liver disease, and CK \\< 50 % above the upper limit of normal at Baseline Visit.\n* cholesterol lowering diet and exercise program for at least 4 weeks prior to and during the study, and stable weight history.\n* women receiving hormonal therapy, including hormone replacement, any estrogen antagonist/agonist, or oral contraceptives, must have been maintained on a stable dose and regimen for at least 8 weeks and continue same regimen during the study.\n* women of non-childbearing potential or using acceptable method of birth control.\n* subjects must be free of any clinically significant diseases other than hyperlipidemia or coronary heart disease that would interfere with study evaluations.\n\nExclusion Criteria:\n\n* Subjects whose body mass index is \\>=30 kg/sqm at baseline.\n* Subjects who consume \\>14 alcoholic drinks per week.\n* Any condition or situation that, in the opinion of the investigator, might pose a risk to the subject or interfere with participation in the study.\n* Women who are pregnant or nursing.\n* Subjects who have not observed designated washout periods for prohibited medications (eg, potent inhibitors of CYP3A4, prescription or over-the-counter agents know to lower lipid levels, corticosteroids), or have been on a stable regimen of any cardiovascular agent for \\<6 weeks.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,6 +112,53 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": ">=18 years and <= 75 years of age with LDL-C concentration >= 2.6 mmol/L (100 mg/dL) to <= 4.1 mmol/L (160 mg/dL) using the Friedewald calculation available at the time of randomization Visit 3 (Baseline Visit) and triglyceride concentrations of < 3.99 mmol/L (350 mg/dL) at Baseline Visit"
+   },
+   {
+    "text": "documented coronary heart disease"
+   },
+   {
+    "text": "currently taking atorvastatin 10 mg daily and history has taken 80 % of daily doses for the preceding 6 weeks prior to Visit 3"
+   },
+   {
+    "text": "liver transaminases (ALT, AST) < 50 % above the upper limit of normal, with no active liver disease, and CK < 50 % above the upper limit of normal at Baseline Visit."
+   },
+   {
+    "text": "cholesterol lowering diet and exercise program for at least 4 weeks prior to and during the study, and stable weight history."
+   },
+   {
+    "text": "women receiving hormonal therapy, including hormone replacement, any estrogen antagonist/agonist, or oral contraceptives, must have been maintained on a stable dose and regimen for at least 8 weeks and continue same regimen during the study."
+   },
+   {
+    "text": "women of non-childbearing potential or using acceptable method of birth control."
+   },
+   {
+    "text": "subjects must be free of any clinically significant diseases other than hyperlipidemia or coronary heart disease that would interfere with study evaluations."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects whose body mass index is >=30 kg/sqm at baseline."
+   },
+   {
+    "text": "Subjects who consume >14 alcoholic drinks per week."
+   },
+   {
+    "text": "Any condition or situation that, in the opinion of the investigator, might pose a risk to the subject or interfere with participation in the study."
+   },
+   {
+    "text": "Women who are pregnant or nursing."
+   },
+   {
+    "text": "Subjects who have not observed designated washout periods for prohibited medications (eg, potent inhibitors of CYP3A4, prescription or over-the-counter agents know to lower lipid levels, corticosteroids), or have been on a stable regimen of any cardiovascular agent for <6 weeks."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

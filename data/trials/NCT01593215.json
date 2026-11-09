@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2015-01-09",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Anders Rosengren, MD PhD",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Anders Rosengren, MD PhD"
  },
  "collaborators": [
   "Region Skane",
@@ -56,25 +56,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Yohimbine",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo first then yohimbine",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Yohimbine"
-   ]
+   ],
+   "label": "Placebo first then yohimbine",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Yohimbine first then placebo",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Yohimbine"
-   ]
+   ],
+   "label": "Yohimbine first then placebo",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The investigators have recently discovered a genetic variant in an adrenergic receptor that leads to increased risk for type 2 diabetes. The investigators have also seen that blockers of that receptor improves impaired insulin secretion in animals. The investigators will now test the blocker in patients with type 2 diabetes with or without the risk variant in an effort to make diabetes treatment more individualized.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetes\n* informed consent\n* age 18-70, for females only postmenopausal\n\nExclusion Criteria:\n\n* heart disease\n* anxiety disorder\n* antidiabetic treatment other than metformin\n* adrenergic blockers\n* ulcus\n* allergy to any component in the capsules",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Skanes Universitetssjukhus",
    "city": "Malmö",
-   "state": "Skåne County",
    "country": "Sweden",
-   "status": null,
+   "facility": "Skanes Universitetssjukhus",
    "lat": 55.60587,
-   "lon": 13.00073
+   "lon": 13.00073,
+   "state": "Skåne County",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01593215",
@@ -115,6 +115,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "type 2 diabetes"
+   },
+   {
+    "text": "informed consent"
+   },
+   {
+    "text": "age 18-70, for females only postmenopausal"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "heart disease"
+   },
+   {
+    "text": "anxiety disorder"
+   },
+   {
+    "text": "antidiabetic treatment other than metformin"
+   },
+   {
+    "text": "adrenergic blockers"
+   },
+   {
+    "text": "ulcus"
+   },
+   {
+    "text": "allergy to any component in the capsules"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

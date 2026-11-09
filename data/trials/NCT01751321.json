@@ -14,8 +14,8 @@
  "design": {
   "allocation": null,
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Research Clinical Centre of the Russian Railways, JSC",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Research Clinical Centre of the Russian Railways, JSC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,20 +51,20 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin, placebo",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "sitagliptin, metformin, placebo",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Sitagliptin, placebo"
-   ]
+   ],
+   "label": "sitagliptin, metformin, placebo",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -76,10 +76,10 @@
  "brief_summary": "Glucose Variability With DPP-4 Inhibition",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* receiving a stable dose of metformin ≥ 1500 mg\n* HbA1c 7,5% -10/0 %\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* HbA1c \\< 7,5% and \\> 10,0%",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,6 +95,29 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "receiving a stable dose of metformin ≥ 1500 mg"
+   },
+   {
+    "text": "HbA1c 7,5% -10/0 %"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "HbA1c < 7,5% and > 10,0%"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

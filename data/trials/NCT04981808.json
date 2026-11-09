@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Aalborg University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Aalborg University Hospital"
  },
  "collaborators": [
   "Steno Diabetes Center Sjaelland",
@@ -53,23 +53,23 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Telemonitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Telemonitoring",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Telemonitoring"
-   ]
+   ],
+   "label": "Telemonitoring",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Usual Care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "The trial is an open-label randomized controlled trial. Patients with T2D on insulin therapy will be randomized to a telemonitoring group (intervention) and a usual care group (control). The telemonitoring group will use various devices at home. Hospital staff will monitor their data for a period of three months.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* ≥ 18 years\n* T2D diagnosis for ≥ 12 months\n* Residence in Region North Denmark or Region Zealand\n* In treatment with insulin\n* Being able to use a smartphone along with the other devices to be used in the trial\n* Able to understand and read Danish.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding,\n* Major surgery planned during the trial period\n* Participation in other trials\n* Terms that, in the opinion of the investigator or subinvestigators, render the participant unfit to conduct the trial, including lack of understanding of the trial or lack of physical or cognitive ability to participate",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "facility": "Department of Endocrinology",
    "city": "Aalborg",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Department of Endocrinology",
    "lat": 57.048,
-   "lon": 9.9187
+   "lon": 9.9187,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04981808",
@@ -113,6 +113,44 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "≥ 18 years"
+   },
+   {
+    "text": "T2D diagnosis for ≥ 12 months"
+   },
+   {
+    "text": "Residence in Region North Denmark or Region Zealand"
+   },
+   {
+    "text": "In treatment with insulin"
+   },
+   {
+    "text": "Being able to use a smartphone along with the other devices to be used in the trial"
+   },
+   {
+    "text": "Able to understand and read Danish."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy or breastfeeding,"
+   },
+   {
+    "text": "Major surgery planned during the trial period"
+   },
+   {
+    "text": "Participation in other trials"
+   },
+   {
+    "text": "Terms that, in the opinion of the investigator or subinvestigators, render the participant unfit to conduct the trial, including lack of understanding of the trial or lack of physical or cognitive ability to participate"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

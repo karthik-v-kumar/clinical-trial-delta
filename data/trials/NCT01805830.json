@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Handok Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Handok Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MP513",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "MP513 group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: MP513"
-   ]
+   ],
+   "label": "MP513 group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The study design of this trial is double blind, parallel-group, randomized, Placebo controlled study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. The subject is aged ≥18 years at signature of the ICF\n2. The subject has had a documented diagnosis of Type 2 diabetes for at least 6 months at the screening visit\n3. The subject's Type 2 diabetes is managed by metformin monotherapy ≥1000 mg/day, plus diet and exercise, as appropriate, and the dose has been unchanged for at least 56 consecutive days\n4. The subject's HbA1c is 7.0%≤HbA1c\\<10.0%\n5. The subject's BMI is 20.0≤BMI≤40.0kg/m2\n6. The subject's FPG is \\<15 mmol/L (270 mg/dL)\n7. The subject is capable of giving informed consent, complying with the restrictions and requirements of the protocol\n\nExclusion Criteria:\n\n1. The subject is suffering from any disease, including Type 2 diabetes or its complications that, in the opinion of the Investigator, is sufficiently severe to render the subject unfit, or affect the subject's ability, to participate in the study, for example:\n\n   * Macroangiopathy with symptoms of coronary heart disease or peripheral arterial obstructive disease.\n   * Microangiopathy with symptoms of (autonomous) neuropathy with any one or more of the following: gastroparesis\n   * Symptoms of poor blood glucose control (polyuria, polydipsia or weight loss)\n2. The subject has a history of Type 1 diabetes or a secondary form of diabetes\n3. The subject has a history of allergy to MP-513, or to any of the excipients in the MP-513 tablet (eg. Mannitol)\n4. The subject has a history of drug abuse\n5. The subject drinks on average more than 28 units of alcohol per week(One unit of alcohol equals approximately 250 mL of beer, 125 mL of wine or 40 mL of spirits)\n6. The subject has a medical history of unstable angina, or heart failure(New York Heart Association class Ⅲ-IV) or any clinically significant ECG abnormalities such as ventricular tachycardia or a medical history of ventricular tachycardia\n7. The subject has participated in any other clinical study involving blood draws or administration of an unlicensed medicinal product within 12 weeks prior to the screening visit (This does not preclude a subject from being re-screened for this study at a later date within the 12 week period, provided they were not randomised )\n8. The subject has received insulin within 12 months prior to the screening visit, with the exception of insulin therapy during hospitalization, insulin therapy for medical conditions not requiring hospitalization (\\<2 weeks duration) or use in gestational diabetes\n9. The subject is suffering from serious concurrent renal disease or creatinine clearance \\<60 mL/min\n10. Non-surgically sterilised, pre-menopausal female subject, who does not agree to use a double barrier method of contraception from the screening visit until at least 14 days after the last dosing day (Examples of permitted types of contraception are: condoms, cervical cap in conjunction with spermicide, sterilisation and intra-uterine device. Oral contraception is permitted but must not be used as the sole method of contraception)\n11. Female subjects whose pregnancy test is negative or who are pregnant, lactating, or are planning to become pregnant during the study\n12. The subject is expected to require additional diabetic treatment for his/her Type 2 diabetes or its complications during the study after the screening visit\n13. The subject has a clinically significant liver disease with aspartate-amino-transferase (AST) and alanine-amino-transferase (ALT) \\>2.5 times the upper limit of normal (ULN) at the screening visit\n14. The subject has diastolic blood pressure \\>100 mmHg and/or systolic blood pressure \\>180 mmHg at the screening visit\n15. The presence of any other condition that leads the investigator to conclude that the patient is inappropriate for inclusion in the clinical study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Handok Pharmaceuticals CO. LTD",
    "city": "Seoul",
-   "state": "Seoul",
    "country": "South Korea",
-   "status": null,
+   "facility": "Handok Pharmaceuticals CO. LTD",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": "Seoul",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01805830",
@@ -115,6 +115,85 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "The subject is aged ≥18 years at signature of the ICF"
+   },
+   {
+    "text": "The subject has had a documented diagnosis of Type 2 diabetes for at least 6 months at the screening visit"
+   },
+   {
+    "text": "The subject's Type 2 diabetes is managed by metformin monotherapy ≥1000 mg/day, plus diet and exercise, as appropriate, and the dose has been unchanged for at least 56 consecutive days"
+   },
+   {
+    "text": "The subject's HbA1c is 7.0%≤HbA1c<10.0%"
+   },
+   {
+    "text": "The subject's BMI is 20.0≤BMI≤40.0kg/m2"
+   },
+   {
+    "text": "The subject's FPG is <15 mmol/L (270 mg/dL)"
+   },
+   {
+    "text": "The subject is capable of giving informed consent, complying with the restrictions and requirements of the protocol"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "The subject is suffering from any disease, including Type 2 diabetes or its complications that, in the opinion of the Investigator, is sufficiently severe to render the subject unfit, or affect the subject's ability, to participate in the study, for example:",
+    "sub_items": [
+     "Macroangiopathy with symptoms of coronary heart disease or peripheral arterial obstructive disease.",
+     "Microangiopathy with symptoms of (autonomous) neuropathy with any one or more of the following: gastroparesis",
+     "Symptoms of poor blood glucose control (polyuria, polydipsia or weight loss)"
+    ]
+   },
+   {
+    "text": "The subject has a history of Type 1 diabetes or a secondary form of diabetes"
+   },
+   {
+    "text": "The subject has a history of allergy to MP-513, or to any of the excipients in the MP-513 tablet (eg. Mannitol)"
+   },
+   {
+    "text": "The subject has a history of drug abuse"
+   },
+   {
+    "text": "The subject drinks on average more than 28 units of alcohol per week(One unit of alcohol equals approximately 250 mL of beer, 125 mL of wine or 40 mL of spirits)"
+   },
+   {
+    "text": "The subject has a medical history of unstable angina, or heart failure(New York Heart Association class Ⅲ-IV) or any clinically significant ECG abnormalities such as ventricular tachycardia or a medical history of ventricular tachycardia"
+   },
+   {
+    "text": "The subject has participated in any other clinical study involving blood draws or administration of an unlicensed medicinal product within 12 weeks prior to the screening visit (This does not preclude a subject from being re-screened for this study at a later date within the 12 week period, provided they were not randomised )"
+   },
+   {
+    "text": "The subject has received insulin within 12 months prior to the screening visit, with the exception of insulin therapy during hospitalization, insulin therapy for medical conditions not requiring hospitalization (<2 weeks duration) or use in gestational diabetes"
+   },
+   {
+    "text": "The subject is suffering from serious concurrent renal disease or creatinine clearance <60 mL/min"
+   },
+   {
+    "text": "Non-surgically sterilised, pre-menopausal female subject, who does not agree to use a double barrier method of contraception from the screening visit until at least 14 days after the last dosing day (Examples of permitted types of contraception are: condoms, cervical cap in conjunction with spermicide, sterilisation and intra-uterine device. Oral contraception is permitted but must not be used as the sole method of contraception)"
+   },
+   {
+    "text": "Female subjects whose pregnancy test is negative or who are pregnant, lactating, or are planning to become pregnant during the study"
+   },
+   {
+    "text": "The subject is expected to require additional diabetic treatment for his/her Type 2 diabetes or its complications during the study after the screening visit"
+   },
+   {
+    "text": "The subject has a clinically significant liver disease with aspartate-amino-transferase (AST) and alanine-amino-transferase (ALT) >2.5 times the upper limit of normal (ULN) at the screening visit"
+   },
+   {
+    "text": "The subject has diastolic blood pressure >100 mmHg and/or systolic blood pressure >180 mmHg at the screening visit"
+   },
+   {
+    "text": "The presence of any other condition that leads the investigator to conclude that the patient is inappropriate for inclusion in the clinical study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

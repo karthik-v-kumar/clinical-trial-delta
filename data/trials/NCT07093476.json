@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Celltrion",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Celltrion"
  },
  "collaborators": [],
  "conditions": [
@@ -55,47 +55,47 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Alogliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "empagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Metformin",
+    "Drug: Alogliptin",
+    "Drug: empagliflozin"
+   ],
    "label": "Study group 1",
-   "type": "ACTIVE_COMPARATOR",
+   "type": "ACTIVE_COMPARATOR"
+  },
+  {
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Alogliptin",
     "Drug: empagliflozin"
-   ]
-  },
-  {
+   ],
    "label": "Study group 2",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Metformin",
-    "Drug: Alogliptin",
-    "Drug: empagliflozin"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Control Group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Alogliptin"
-   ]
+   ],
+   "label": "Control Group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -107,10 +107,10 @@
  "brief_summary": "Phase 3 study to assess the Efficacy and Safety of CT-L02-301 in Type 2 Diabetes Patients with Insufficient Glycemic Control with Metformin and Alogliptin Combination Therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults at the time of signing the Informed Consent Form (ICF)\n* Signed the written ICF voluntarily after being fully informed of the objectives, methods, and effects of the study\n* Diagnosed with T2DM\n\nExclusion Criteria:\n\n* Diagnosed with other types of diabetes than T2DM\n* History of hypersensitivity reaction to the components or drugs of the same class as the IP or the background therapy\n* Uncontrolled severe complications of diabetes",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,13 +118,13 @@
  },
  "sites": [
   {
-   "facility": "Celltrion",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Celltrion",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07093476",
@@ -136,6 +136,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults at the time of signing the Informed Consent Form (ICF)"
+   },
+   {
+    "text": "Signed the written ICF voluntarily after being fully informed of the objectives, methods, and effects of the study"
+   },
+   {
+    "text": "Diagnosed with T2DM"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosed with other types of diabetes than T2DM"
+   },
+   {
+    "text": "History of hypersensitivity reaction to the components or drugs of the same class as the IP or the background therapy"
+   },
+   {
+    "text": "Uncontrolled severe complications of diabetes"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

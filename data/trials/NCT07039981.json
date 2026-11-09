@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Insulet Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Insulet Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Omnipod M system",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental- Participants with Type 2 diabetes",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Omnipod M system"
-   ]
+   ],
+   "label": "Experimental- Participants with Type 2 diabetes",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The purpose of the study is to assess the safety and efficacy of a next generation automated insulin delivery algorithm in adults with type 2 diabetes aged 16-70 years old",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age at time of consent aged 16-70 years (inclusive)\n2. Type 2 Diabetes diagnosis based on Investigator's clinical judgement and meets the following:\n\n   * Currently using U-100 rapid-acting insulin analogs with insulin pump OR\n   * Basal-bolus, pre-mix, or basal only users and suitable for conversion to pump therapy for at least 3 months prior to screening. For basal-bolus and premix users, must have A1c \\< 12%. For basal only users must have A1c ≥ 7% and \\< 12.0%.\n3. Willing to use only the following types of U-100 insulin during the study: Humalog U-100, Novorapid, or their generic equivalents\n4. Stable doses over the preceding 30 days of other glucose-lowering medications as determined by Investigator\n5. Willing to use a Dexcom CGM for the duration of the study\n6. Willing to use the investigational system(s) during the study\n7. Willing to perform all fingerstick BG testing with their personal blood glucose meter at the frequency specified in the study protocol or per investigator discretion\n8. Willing to receive real-time glucose alerts\n9. Willing and able to sign the Informed Consent Form (ICF).\n\nExclusion Criteria:\n\n1. Any medical condition, such as untreated malignancy, unstable cardiac disease, unstable coronary artery disease (that is not stable with medical management, including unstable angina, or angina that prevents moderate exercise despite medical management, or a history of myocardial infarction, percutaneous coronary intervention, or coronary artery bypass grafting within the previous 12 months), unstable or end-stage renal failure, eating disorders, or other conditions which in the opinion of the investigator, would put the participant at an unacceptable safety risk.\n2. Blood disorder or dyscrasia within 3 months prior to screening, including the use of hydroxyurea, which in the investigator's opinion could interfere with determination of A1c.\n3. History of severe hypoglycaemia within the past 6 months\n4. History of diabetic ketoacidosis or hyperglycaemic hyperosmolar syndrome in the past 6 months, unrelated to an intercurrent illness or infusion set failure.\n5. History of severe preproliferative or proliferative retinopathy based on screening within the last 12 months.\n6. Planning to start a non-insulin anti-diabetic medication during the study. If on non-insulin medication, dose must be stable in the previous 30 days.\n7. Planning to start a weight-loss agent during the study. If on a weight-loss medication, dose must be stable in the previous 30 days.\n8. Pregnant, or is of childbearing potential and not on acceptable form of birth control (acceptable forms of contraception include abstinence, barrier methods such as condoms, hormonal contraceptives, intrauterine device, surgical sterilisation such as tubal ligation or hysterectomy, or vasectomised partner)\n9. Dermatological conditions at the proposed sensor/pump wear sites that in the investigator's opinion could preclude ability to wear the Pod and/or the Dexcom sensor.\n10. Currently on systemic steroids or intends to receive systemic steroid treatment in the next 6 months, including stable treatment for adrenal insufficiency. Inhaled, ophthalmic, topical, joint injection, and other locally applied steroids are allowed.\n11. Currently participating in another clinical study using an investigational drug or device except for the SmartAdjust 2.0 Feasibility Study (Protocol #2024 FULL 20405)\n12. Recent (within the preceding 30 days) participation in a clinical study using an investigational drug, excluding Omnipod device studies.\n13. Unable to follow the clinical protocol for the duration of the study or is otherwise deemed unacceptable to participate in the study per the investigator's clinical judgment.",
-  "sex": "ALL",
-  "minimum_age": "16 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "16 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -95,22 +95,22 @@
  },
  "sites": [
   {
-   "facility": "University of Otago, Christchurch",
    "city": "Christchurch",
-   "state": null,
    "country": "New Zealand",
-   "status": null,
+   "facility": "University of Otago, Christchurch",
    "lat": -43.53333,
-   "lon": 172.63333
+   "lon": 172.63333,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Wellington Regional Hospital",
    "city": "Wellington",
-   "state": null,
    "country": "New Zealand",
-   "status": null,
+   "facility": "Wellington Regional Hospital",
    "lat": -41.28664,
-   "lon": 174.77557
+   "lon": 174.77557,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07039981",
@@ -122,6 +122,84 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age at time of consent aged 16-70 years (inclusive)"
+   },
+   {
+    "text": "Type 2 Diabetes diagnosis based on Investigator's clinical judgement and meets the following:",
+    "sub_items": [
+     "Currently using U-100 rapid-acting insulin analogs with insulin pump OR",
+     "Basal-bolus, pre-mix, or basal only users and suitable for conversion to pump therapy for at least 3 months prior to screening. For basal-bolus and premix users, must have A1c < 12%. For basal only users must have A1c ≥ 7% and < 12.0%."
+    ]
+   },
+   {
+    "text": "Willing to use only the following types of U-100 insulin during the study: Humalog U-100, Novorapid, or their generic equivalents"
+   },
+   {
+    "text": "Stable doses over the preceding 30 days of other glucose-lowering medications as determined by Investigator"
+   },
+   {
+    "text": "Willing to use a Dexcom CGM for the duration of the study"
+   },
+   {
+    "text": "Willing to use the investigational system(s) during the study"
+   },
+   {
+    "text": "Willing to perform all fingerstick BG testing with their personal blood glucose meter at the frequency specified in the study protocol or per investigator discretion"
+   },
+   {
+    "text": "Willing to receive real-time glucose alerts"
+   },
+   {
+    "text": "Willing and able to sign the Informed Consent Form (ICF)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any medical condition, such as untreated malignancy, unstable cardiac disease, unstable coronary artery disease (that is not stable with medical management, including unstable angina, or angina that prevents moderate exercise despite medical management, or a history of myocardial infarction, percutaneous coronary intervention, or coronary artery bypass grafting within the previous 12 months), unstable or end-stage renal failure, eating disorders, or other conditions which in the opinion of the investigator, would put the participant at an unacceptable safety risk."
+   },
+   {
+    "text": "Blood disorder or dyscrasia within 3 months prior to screening, including the use of hydroxyurea, which in the investigator's opinion could interfere with determination of A1c."
+   },
+   {
+    "text": "History of severe hypoglycaemia within the past 6 months"
+   },
+   {
+    "text": "History of diabetic ketoacidosis or hyperglycaemic hyperosmolar syndrome in the past 6 months, unrelated to an intercurrent illness or infusion set failure."
+   },
+   {
+    "text": "History of severe preproliferative or proliferative retinopathy based on screening within the last 12 months."
+   },
+   {
+    "text": "Planning to start a non-insulin anti-diabetic medication during the study. If on non-insulin medication, dose must be stable in the previous 30 days."
+   },
+   {
+    "text": "Planning to start a weight-loss agent during the study. If on a weight-loss medication, dose must be stable in the previous 30 days."
+   },
+   {
+    "text": "Pregnant, or is of childbearing potential and not on acceptable form of birth control (acceptable forms of contraception include abstinence, barrier methods such as condoms, hormonal contraceptives, intrauterine device, surgical sterilisation such as tubal ligation or hysterectomy, or vasectomised partner)"
+   },
+   {
+    "text": "Dermatological conditions at the proposed sensor/pump wear sites that in the investigator's opinion could preclude ability to wear the Pod and/or the Dexcom sensor."
+   },
+   {
+    "text": "Currently on systemic steroids or intends to receive systemic steroid treatment in the next 6 months, including stable treatment for adrenal insufficiency. Inhaled, ophthalmic, topical, joint injection, and other locally applied steroids are allowed."
+   },
+   {
+    "text": "Currently participating in another clinical study using an investigational drug or device except for the SmartAdjust 2.0 Feasibility Study (Protocol #2024 FULL 20405)"
+   },
+   {
+    "text": "Recent (within the preceding 30 days) participation in a clinical study using an investigational drug, excluding Omnipod device studies."
+   },
+   {
+    "text": "Unable to follow the clinical protocol for the duration of the study or is otherwise deemed unacceptable to participate in the study per the investigator's clinical judgment."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Kangbuk Samsung Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Kangbuk Samsung Hospital"
  },
  "collaborators": [
   "i-SENS, Inc."
@@ -51,18 +51,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Continuous glucose monitoring",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental: Sequential CGM Application (Blinded followed by Unblinded)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Continuous glucose monitoring"
-   ]
+   ],
+   "label": "Experimental: Sequential CGM Application (Blinded followed by Unblinded)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -74,10 +74,10 @@
  "brief_summary": "This study evaluates the effect of using a real-time continuous glucose monitoring (CGM) system on blood sugar control in people with type 2 diabetes who do not use insulin.\n\nParticipants will wear a CGM device (CareSens Air) for a total of two weeks. During the first week, the device will be set to \"blinded mode,\" meaning participants cannot see their glucose readings. During the second week, the device will be switched to \"unblinded mode,\" allowing participants to view their glucose levels and trends in real-time.\n\nThe study aims to determine if simply seeing real-time glucose data can help patients improve their blood sugar control (such as increasing the time their blood sugar is in the target range) without receiving additional structured education on diet or exercise. Researchers will compare the glucose data collected during the blinded week with the data from the unblinded week.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patients with Type 2 Diabetes Mellitus (HbA1c ≥ 6.5%, fasting plasma glucose ≥ 126 mg/dL, 2-hour plasma glucose ≥ 200 mg/dL during 75g OGTT, or random plasma glucose ≥ 200 mg/dL with classic symptoms)\n2. No medication changes in the past 3 months, and receiving treatment with lifestyle modification or oral antidiabetic drugs or GLP-1 receptor agonists\n3. Ages 19 - 80 years old\n4. Patients who have voluntarily signed the informed consent form\n\nExclusion Criteria:\n\n1. Type 1 diabetes patients\n2. Insulin users\n3. Patients who have changed oral hypoglycemic agents within the past 3 months\n4. Patients scheduled for hospitalization within 2 weeks\n5. Pregnant women or those planning pregnancy within 1 month\n6. Those who do not agree to the program\n7. Those deemed unsuitable for participation in this clinical trial by the investigator",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -85,13 +85,13 @@
  },
  "sites": [
   {
-   "facility": "Kangbuk Samsung Hospital",
    "city": "Seoul",
-   "state": "Jongro-Ku",
    "country": "South Korea",
-   "status": null,
+   "facility": "Kangbuk Samsung Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": "Jongro-Ku",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07298850",
@@ -103,6 +103,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with Type 2 Diabetes Mellitus (HbA1c ≥ 6.5%, fasting plasma glucose ≥ 126 mg/dL, 2-hour plasma glucose ≥ 200 mg/dL during 75g OGTT, or random plasma glucose ≥ 200 mg/dL with classic symptoms)"
+   },
+   {
+    "text": "No medication changes in the past 3 months, and receiving treatment with lifestyle modification or oral antidiabetic drugs or GLP-1 receptor agonists"
+   },
+   {
+    "text": "Ages 19 - 80 years old"
+   },
+   {
+    "text": "Patients who have voluntarily signed the informed consent form"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes patients"
+   },
+   {
+    "text": "Insulin users"
+   },
+   {
+    "text": "Patients who have changed oral hypoglycemic agents within the past 3 months"
+   },
+   {
+    "text": "Patients scheduled for hospitalization within 2 weeks"
+   },
+   {
+    "text": "Pregnant women or those planning pregnancy within 1 month"
+   },
+   {
+    "text": "Those who do not agree to the program"
+   },
+   {
+    "text": "Those deemed unsuitable for participation in this clinical trial by the investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

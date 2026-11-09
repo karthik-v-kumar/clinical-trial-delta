@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mackay Memorial Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mackay Memorial Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,7 +48,6 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Diabetes Medicines",
    "other_names": [
     "Metformin",
@@ -58,31 +57,32 @@
     "α-glucosidase inhibitor",
     "Inhibitors of dipeptidyl peptidase 4",
     "Insulin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Farxiga"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin add-on group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Diabetes Medicines",
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin add-on group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Standard of care (SOC) group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Diabetes Medicines"
-   ]
+   ],
+   "label": "Standard of care (SOC) group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The primary purpose of this study is to evaluate the efficacy of the SGLT2 inhibitor dapagliflozin, as compared with standard care of diabetes, on left ventricular (LV) structural and functional change in asymptomatic type 2 diabetes mellitus (DM) patient.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female affected by type 2 diabetes mellitus (T2D) for at least 6 months.\n* Age ≥ 20 and ≤ 80 years.\n* HbA1c levels 7.1%\\~9.0% .\n* On stable (at least 3 months) antidiabetic therapy with SGLT2 inhibitors naive.\n* On stable (at least 3 months) cardio-active therapies (e.g. anti-hypertensive drugs, diuretics or drugs for hyperlipidemia).\n* Preserved kidney function as defined by estimated glomerular filtration rate(eGFR)\\> 60 mL/min/1.73m2.\n* Preserved left ventricular function defined as EF ≥ 50% by echocardiographic screening.\n\nExclusion Criteria:\n\nSubjects should not enter the study if any of the following exclusion criteria are fulfilled:\n\n* Involvement in the planning and/or conduct of the study (applies to both Investigator staff and/or staff at the study site).\n* Previous enrolment or randomisation in the present study.\n* Participation in another clinical study with an investigational product during the last 3 months.\n\nThe exclusion criteria that follow are for example only; include, exclude, modify or add other criteria as appropriate.\n\n* Refuse or inability to give informed consent.\n* Patients unlikely to comply with the protocol or unable to understand the nature and possible consequences of the study.\n* Employees of the investigator or study centre (i.e. principal investigator, sub-investigator, study coordinators, other study staff, employees, or contractors of each), with direct involvement in the proposed study or other studies under the direction of that investigator and/or study centre, as well as family members of the employees or the investigator.\n* Pregnancy or active breast feeding.\n* History of hospitalization for heart failure.\n* History of stage C or D heart failure.\n* History of myocardial infarction.\n* History of cardiac dysrhythmia.\n* Patients with a known hypersensitivity to Dapagliflozin or any of the excipients of the product.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "Mackay Memorial Hospital",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Mackay Memorial Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03871621",
@@ -127,6 +127,87 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female affected by type 2 diabetes mellitus (T2D) for at least 6 months."
+   },
+   {
+    "text": "Age ≥ 20 and ≤ 80 years."
+   },
+   {
+    "text": "HbA1c levels 7.1%~9.0% ."
+   },
+   {
+    "text": "On stable (at least 3 months) antidiabetic therapy with SGLT2 inhibitors naive."
+   },
+   {
+    "text": "On stable (at least 3 months) cardio-active therapies (e.g. anti-hypertensive drugs, diuretics or drugs for hyperlipidemia)."
+   },
+   {
+    "text": "Preserved kidney function as defined by estimated glomerular filtration rate(eGFR)> 60 mL/min/1.73m2."
+   },
+   {
+    "text": "Preserved left ventricular function defined as EF ≥ 50% by echocardiographic screening."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Involvement in the planning and/or conduct of the study (applies to both Investigator staff and/or staff at the study site).",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "Previous enrolment or randomisation in the present study.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "Participation in another clinical study with an investigational product during the last 3 months.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "The exclusion criteria that follow are for example only; include, exclude, modify or add other criteria as appropriate.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "Refuse or inability to give informed consent.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "Patients unlikely to comply with the protocol or unable to understand the nature and possible consequences of the study.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "Employees of the investigator or study centre (i.e. principal investigator, sub-investigator, study coordinators, other study staff, employees, or contractors of each), with direct involvement in the proposed study or other studies under the direction of that investigator and/or study centre, as well as family members of the employees or the investigator.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "Pregnancy or active breast feeding.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "History of hospitalization for heart failure.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "History of stage C or D heart failure.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "History of myocardial infarction.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "History of cardiac dysrhythmia.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   },
+   {
+    "text": "Patients with a known hypersensitivity to Dapagliflozin or any of the excipients of the product.",
+    "group": "Subjects should not enter the study if any of the following exclusion criteria are fulfilled"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

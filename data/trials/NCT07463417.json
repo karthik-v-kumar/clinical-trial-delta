@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sarah Wragge Wellness",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Sarah Wragge Wellness"
  },
  "collaborators": [],
  "conditions": [
@@ -51,23 +51,23 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "SWW Method® Dietary and Lifestyle Intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention group (cases)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: SWW Method® Dietary and Lifestyle Intervention"
-   ]
+   ],
+   "label": "Intervention group (cases)",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "This study evaluated the SWW Method®, a 12-week dietary and lifestyle intervention based on the carbohydrate-insulin model, in a healthy cohort of women aged 35-75. The study assessed whether the intervention resulted in significant improvements in blood glucose markers (HbA1c, fasting blood glucose), weight, BMI, and other metabolic markers compared to a no-intervention control group. The SWW Method® protocol includes intermittent fasting, a protein-forward diet, meal sequencing, hydration, magnesium supplementation, and sleep support. This was a non-randomized case-control trial with 45 intervention participants and 40 controls, conducted over 12 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Female\n* 35-75 years of age\n* No prior enrollment in the SWW Method® or Sarah Wragge Wellness® program.\n\nExclusion Criteria:\n\n* History of non-skin-related cancer diagnosis or treatment within the past five years.\n* Currently taking weight loss medication, including semaglutide\n* Currently taking any medication for blood sugar or diabetes management.\n* Previous enrollment in the SWW Method® or any Sarah Wragge Wellness® program.",
-  "sex": "FEMALE",
-  "minimum_age": "35 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": true,
+  "maximum_age": "75 Years",
+  "minimum_age": "35 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "Sarah Wragge Wellness",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Sarah Wragge Wellness",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07463417",
@@ -120,6 +120,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Female"
+   },
+   {
+    "text": "35-75 years of age"
+   },
+   {
+    "text": "No prior enrollment in the SWW Method® or Sarah Wragge Wellness® program."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of non-skin-related cancer diagnosis or treatment within the past five years."
+   },
+   {
+    "text": "Currently taking weight loss medication, including semaglutide"
+   },
+   {
+    "text": "Currently taking any medication for blood sugar or diabetes management."
+   },
+   {
+    "text": "Previous enrollment in the SWW Method® or any Sarah Wragge Wellness® program."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

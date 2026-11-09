@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hangzhou Sciwind Biosciences Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hangzhou Sciwind Biosciences Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -52,44 +52,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "XW003 injection",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo with matching volume",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: XW003 injection"
+   ],
    "label": "XW003 Dose 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: XW003 injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: XW003 injection"
+   ],
    "label": "XW003 Dose 2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: XW003 injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: XW003 injection"
+   ],
    "label": "XW003 Dose 3",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: XW003 injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo with matching volume"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "The aim of the study is to evaluate the safety, tolerability, pharmacokinetics and pharmacodynamics of XW003 injection in Chinese adolescents with obesity",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. At the time of screening, BMI meets the obesity criteria specified in WS/T586-2018 'screening for overweight and obesity among school-aged children and adolescents', and weight ≥55 kg;\n2. At the time of screening, the decrease of body mass index less than 5% after diet and exercise control alone for at least 12 weeks (as reported by participants or parents or legal guardians);\n\nExclusion Criteria:\n\n1. Pre-adolescent participants (Tanner phase I);\n2. Obesity caused by secondary diseases or medications, including: elevated cortisol hormone (e.g. Cushing's syndrome), damage to the pituitary gland and hypothalamus, reduced dosage/discontinuation of weight-loss drugs or monogenic obesity, etc.;\n3. Have used any weight-loss drugs, hypoglycemic drugs, or drugs that may cause significant weight gain within 3 months prior to screening;\n4. Diagnosis with any type of diabetes;\n5. History of acute or chronic pancreatitis, history of gallbladder disease or pancreatic injury",
-  "sex": "ALL",
-  "minimum_age": "12 Years",
-  "maximum_age": "18 Years",
   "healthy_volunteers": true,
+  "maximum_age": "18 Years",
+  "minimum_age": "12 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "facility": "Qilu Hospital of Shandong University",
    "city": "Jinan",
-   "state": "Shandong",
    "country": "China",
-   "status": null,
+   "facility": "Qilu Hospital of Shandong University",
    "lat": 36.66833,
-   "lon": 116.99722
+   "lon": 116.99722,
+   "state": "Shandong",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07143227",
@@ -130,6 +130,35 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "At the time of screening, BMI meets the obesity criteria specified in WS/T586-2018 'screening for overweight and obesity among school-aged children and adolescents', and weight ≥55 kg;"
+   },
+   {
+    "text": "At the time of screening, the decrease of body mass index less than 5% after diet and exercise control alone for at least 12 weeks (as reported by participants or parents or legal guardians);"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pre-adolescent participants (Tanner phase I);"
+   },
+   {
+    "text": "Obesity caused by secondary diseases or medications, including: elevated cortisol hormone (e.g. Cushing's syndrome), damage to the pituitary gland and hypothalamus, reduced dosage/discontinuation of weight-loss drugs or monogenic obesity, etc.;"
+   },
+   {
+    "text": "Have used any weight-loss drugs, hypoglycemic drugs, or drugs that may cause significant weight gain within 3 months prior to screening;"
+   },
+   {
+    "text": "Diagnosis with any type of diabetes;"
+   },
+   {
+    "text": "History of acute or chronic pancreatitis, history of gallbladder disease or pancreatic injury"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

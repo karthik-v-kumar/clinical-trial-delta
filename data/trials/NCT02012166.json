@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,104 +51,114 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MK-0893 10 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "MK-0893 40 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "MK-0893 200 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "MK-0893 1000 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "Sandostatine®",
    "other_names": [
     "Octreotide acetate"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "Insulin",
    "other_names": [
     "Humuline Regular, Insulin for human injection"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "BIOLOGICAL",
    "name": "Glucagon",
    "other_names": [
     "Glucagen"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: MK-0893 40 mg",
+    "Drug: MK-0893 200 mg",
+    "Drug: Placebo",
+    "Biological: Sandostatine®",
+    "Biological: Insulin",
+    "Biological: Glucagon"
+   ],
    "label": "MK-0893 40 mg→MK-0893 200 mg→placebo",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
-    "Drug: MK-0893 40 mg",
+    "Drug: MK-0893 10 mg",
     "Drug: MK-0893 200 mg",
     "Drug: Placebo",
     "Biological: Sandostatine®",
     "Biological: Insulin",
     "Biological: Glucagon"
-   ]
-  },
-  {
+   ],
    "label": "MK-0893 200 mg→placebo→MK-0893 10 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK-0893 10 mg",
-    "Drug: MK-0893 200 mg",
+    "Drug: MK-0893 40 mg",
     "Drug: Placebo",
     "Biological: Sandostatine®",
     "Biological: Insulin",
     "Biological: Glucagon"
-   ]
-  },
-  {
+   ],
    "label": "Placebo→MK-0893 10 mg→MK-0893 40 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK-0893 10 mg",
     "Drug: MK-0893 40 mg",
-    "Drug: Placebo",
+    "Drug: MK-0893 200 mg",
     "Biological: Sandostatine®",
     "Biological: Insulin",
     "Biological: Glucagon"
-   ]
-  },
-  {
+   ],
    "label": "MK-0893 10 mg→MK-0893 40 mg→MK-0893 200 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
-    "Drug: MK-0893 10 mg",
-    "Drug: MK-0893 40 mg",
     "Drug: MK-0893 200 mg",
+    "Drug: MK-0893 1000 mg",
+    "Drug: Placebo",
     "Biological: Sandostatine®",
     "Biological: Insulin",
     "Biological: Glucagon"
-   ]
-  },
-  {
+   ],
    "label": "Placebo→MK-0893 1000 mg→MK-0893 200 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: MK-0893 200 mg",
     "Drug: MK-0893 1000 mg",
@@ -156,23 +166,11 @@
     "Biological: Sandostatine®",
     "Biological: Insulin",
     "Biological: Glucagon"
-   ]
-  },
-  {
+   ],
    "label": "MK-0893 200 mg→placebo→MK-0893 1000 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: MK-0893 200 mg",
-    "Drug: MK-0893 1000 mg",
-    "Drug: Placebo",
-    "Biological: Sandostatine®",
-    "Biological: Insulin",
-    "Biological: Glucagon"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "MK-0893 1000 mg→MK-0893 200 mg→placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: MK-0893 200 mg",
     "Drug: MK-0893 1000 mg",
@@ -180,7 +178,9 @@
     "Biological: Sandostatine®",
     "Biological: Insulin",
     "Biological: Glucagon"
-   ]
+   ],
+   "label": "MK-0893 1000 mg→MK-0893 200 mg→placebo",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -196,10 +196,10 @@
  "brief_summary": "This is a study to assess the pharmacokinetics, safety, and tolerability of sequential single oral doses of MK-8093 10 mg, 40 mg, 200 mg, or placebo to MK-8093 (Part 1) depending on treatment assignment in young healthy male participants. In Part 2 of this study, sequential single oral doses of MK-8093 200 mg, 1000 mg or placebo to MK-8093 depending on treatment assignment will be evaluated. The primary hypothesis of the study is that at least one dose of MK-0893 will produce greater reduction of glucagon-induced glycemia as compared to placebo following the infusion of glucagon, Sandostatine®, and basal insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Good health\n* Body Mass Index of between 18 and 28 kg/m\\^2, or up to 30 kg/m\\^2 with approval of sponsor\n* Non-smoker for at least 6 months\n* Willing to avoid strenuous physical activity\n* Willing to avoid alcohol, caffeine, and grapefruit juice consumption\n\nExclusion Criteria:\n\n* History of renal, neurologic, gastrointestinal or respiratory disease or any gastrointestinal surgery\n* History of multiple and/or severe allergies to a prescription, nonprescription or investigational drug or food\n* History of any cardiovascular/cardiac disease\n* History of any hepatic disease and primary biliary cirrhosis\n* History of hypoglycemia or glucose intolerance, type 1 diabetes, or type 2 diabetes\n* Requires or anticipates use of prescription or nonprescription medications, including herbal remedies\n* A user of any illicit drugs or a history of drug or alcohol abuse\n* Surgery, donated a unit of blood, or participated in another clinical study within 4 weeks prior to study participation\n* History of hypersensitivity to insulin, glucagon, or Sandostatine®.",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "50 Years",
   "healthy_volunteers": true,
+  "maximum_age": "50 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
@@ -214,6 +214,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Good health"
+   },
+   {
+    "text": "Body Mass Index of between 18 and 28 kg/m^2, or up to 30 kg/m^2 with approval of sponsor"
+   },
+   {
+    "text": "Non-smoker for at least 6 months"
+   },
+   {
+    "text": "Willing to avoid strenuous physical activity"
+   },
+   {
+    "text": "Willing to avoid alcohol, caffeine, and grapefruit juice consumption"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of renal, neurologic, gastrointestinal or respiratory disease or any gastrointestinal surgery"
+   },
+   {
+    "text": "History of multiple and/or severe allergies to a prescription, nonprescription or investigational drug or food"
+   },
+   {
+    "text": "History of any cardiovascular/cardiac disease"
+   },
+   {
+    "text": "History of any hepatic disease and primary biliary cirrhosis"
+   },
+   {
+    "text": "History of hypoglycemia or glucose intolerance, type 1 diabetes, or type 2 diabetes"
+   },
+   {
+    "text": "Requires or anticipates use of prescription or nonprescription medications, including herbal remedies"
+   },
+   {
+    "text": "A user of any illicit drugs or a history of drug or alcohol abuse"
+   },
+   {
+    "text": "Surgery, donated a unit of blood, or participated in another clinical study within 4 weeks prior to study participation"
+   },
+   {
+    "text": "History of hypersensitivity to insulin, glucagon, or Sandostatine®."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

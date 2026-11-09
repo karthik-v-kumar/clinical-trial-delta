@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "CARE_PROVIDER",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "China National Center for Cardiovascular Diseases",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "China National Center for Cardiovascular Diseases"
  },
  "collaborators": [],
  "conditions": [
@@ -54,25 +54,25 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "carbohydrates",
    "other_names": [
     "Outfast"
-   ]
+   ],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group CHO",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: carbohydrates"
-   ]
+   ],
+   "label": "Group CHO",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Group CTRL",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "Preoperative carbohydrates (CHO) supplement has been shown to alleviate postoperative insulin resistance (IR) in nondiabetic patients undergoing a variety of surgeries. However, it remains controversial whether preoperative CHO could yield similar effects in diabetic patients. Thus, the investigators design a randomized controlled trial investigating the impact of preoperative CHO on postoperative IR and clinical outcomes in diabetic patients undergoing cardiac surgery. The results of the study may give some clinical implications and further improve perioperative care for diabetic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Previously diagnosed T2DM\n2. Diagnosed with CAD with coronary angiography and indicated for OPCAB\n3. Age between 18 and 75 years old\n4. First operation in the morning and anesthesia induced around 8:00\n5. Written informed consent by the patients\n\nExclusion Criteria:\n\n1. Combined with other heart diseases or vascular malformations that require surgery in addition to OPCAB\n2. Presence of symptoms or signs of heart failure such as orthopnea, distended jugular vein, lower extremity edema, etc.\n3. Reduced LVEF (lower than 50%)\n4. Combined with gastroesophageal reflux\n5. Combined with thyroid insufficiency requiring replacement therapy with levothyroxine\n6. Combined with adrenal insufficiency requiring replacement therapy with corticosteroids\n7. Refuse to participate.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -123,6 +123,50 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Previously diagnosed T2DM"
+   },
+   {
+    "text": "Diagnosed with CAD with coronary angiography and indicated for OPCAB"
+   },
+   {
+    "text": "Age between 18 and 75 years old"
+   },
+   {
+    "text": "First operation in the morning and anesthesia induced around 8:00"
+   },
+   {
+    "text": "Written informed consent by the patients"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Combined with other heart diseases or vascular malformations that require surgery in addition to OPCAB"
+   },
+   {
+    "text": "Presence of symptoms or signs of heart failure such as orthopnea, distended jugular vein, lower extremity edema, etc."
+   },
+   {
+    "text": "Reduced LVEF (lower than 50%)"
+   },
+   {
+    "text": "Combined with gastroesophageal reflux"
+   },
+   {
+    "text": "Combined with thyroid insufficiency requiring replacement therapy with levothyroxine"
+   },
+   {
+    "text": "Combined with adrenal insufficiency requiring replacement therapy with corticosteroids"
+   },
+   {
+    "text": "Refuse to participate."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

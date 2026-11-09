@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "DOUBLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of California, Los Angeles",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of California, Los Angeles"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin Extended Release (ER) Oral Tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin Extended Release (ER) Oral Tablets",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin Extended Release (ER) Oral Tablet"
-   ]
+   ],
+   "label": "Metformin Extended Release (ER) Oral Tablets",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Metformin is a drug used to treat patients with diabetes. The aim of this study is to examine the effect of Metformin along with a low-calorie diet on obese and/or overweight adults with an increased waist measurement. In addition, the study also aims to look at the effect of the drug vs. placebo on quality of life and physical activity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female, age ≥ 18 years at the time of signing informed consent.\n* Body Mass Index (BMI) ≥ 27 kg/m2\n* Waist circumference \\>40\" for men, and \\>35\" for women\n\nExclusion Criteria:\n\n* A self-reported change in body weight \\> 5 kg (11 lbs) within 90 days before screening irrespective of medical records\n* Diagnosed with T2D (HbA1c \\>7.5 (53 mmol/mol)\n* Current use of insulin or oral medication of metformin, SU, SGLT2i, glitazone, DPP4 or GLP-1 agonist injections as single agent therapy or combination oral agents.\n* Renal impairment measured as estimated Glomerular Filtration Rate (eGFR) value of \\< 45 mL/min/1.73 m2 (\\< 60 ml/min/1.73 m2 in subjects treated with SGLT2i) according to CKDEPI creatinine equation as defined by KDIGO 201242 by the central laboratory at screening\n* History of thyroid disease, but not taking medication or medication dosage changed one or more times over last 6 months (History of thyroid disease and on a stable dose of prescription medication for 6 months or longer is acceptable).\n* History or lactic acidosis\n* Liver problems\n* Congestive heart failure\n* History of alcoholism\n* Recent surgery\n* Heart attack, severe infection or stroke\n* Any unstable medical conditions or terminal diagnosis\n* Pregnancy or lactation\n* Allergy and intolerance to metformin",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "UCLA Center for Human Nutrition",
    "city": "Los Angeles",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "UCLA Center for Human Nutrition",
    "lat": 34.05223,
-   "lon": -118.24368
+   "lon": -118.24368,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05949008",
@@ -120,6 +120,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female, age ≥ 18 years at the time of signing informed consent."
+   },
+   {
+    "text": "Body Mass Index (BMI) ≥ 27 kg/m2"
+   },
+   {
+    "text": "Waist circumference >40\" for men, and >35\" for women"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A self-reported change in body weight > 5 kg (11 lbs) within 90 days before screening irrespective of medical records"
+   },
+   {
+    "text": "Diagnosed with T2D (HbA1c >7.5 (53 mmol/mol)"
+   },
+   {
+    "text": "Current use of insulin or oral medication of metformin, SU, SGLT2i, glitazone, DPP4 or GLP-1 agonist injections as single agent therapy or combination oral agents."
+   },
+   {
+    "text": "Renal impairment measured as estimated Glomerular Filtration Rate (eGFR) value of < 45 mL/min/1.73 m2 (< 60 ml/min/1.73 m2 in subjects treated with SGLT2i) according to CKDEPI creatinine equation as defined by KDIGO 201242 by the central laboratory at screening"
+   },
+   {
+    "text": "History of thyroid disease, but not taking medication or medication dosage changed one or more times over last 6 months (History of thyroid disease and on a stable dose of prescription medication for 6 months or longer is acceptable)."
+   },
+   {
+    "text": "History or lactic acidosis"
+   },
+   {
+    "text": "Liver problems"
+   },
+   {
+    "text": "Congestive heart failure"
+   },
+   {
+    "text": "History of alcoholism"
+   },
+   {
+    "text": "Recent surgery"
+   },
+   {
+    "text": "Heart attack, severe infection or stroke"
+   },
+   {
+    "text": "Any unstable medical conditions or terminal diagnosis"
+   },
+   {
+    "text": "Pregnancy or lactation"
+   },
+   {
+    "text": "Allergy and intolerance to metformin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "German Diabetes Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "German Diabetes Center"
  },
  "collaborators": [],
  "conditions": [
@@ -48,25 +48,25 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "diet intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "hypocaloric diet containing increased fibers and coffee",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: diet intervention"
-   ]
+   ],
+   "label": "hypocaloric diet containing increased fibers and coffee",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "hypocaloric diet containing red meat",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: diet intervention"
-   ]
+   ],
+   "label": "hypocaloric diet containing red meat",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "Diet intervention according to the German Diabetes Risk Score in newly diagnosed type 2 diabetes.\n\nThis study aims to explore the effect of diet lacking red meat, but containing increased fibers and coffee (verum) versus standard recommendation (control) in a multicenter setting.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetic patients\n* disease duration for five years or less,\n* age of 69 years or less,\n* body mass index of 30 kg/m2 or more,\n* hemoglobin A1c of 5,5 % to 9%\n* patient should be on standard diet or metformin +/- acarbose monotherapy\n* patient should be without exclusion criteria for coffee consumption\n\nExclusion Criteria:\n\n* disease duration more than five years,\n* age of \\> 69 years,\n* body mass index of \\< 30 kg/m2,\n* hemoglobin A1c \\< 5,5 % or \\> 9%\n* if patient becomes insulin therapy\n* if patient has exclusion criteria for coffee consumption\n* if patient is non-compliant with study protocol\n* if patient is pregnant\n* if patient has acute infection\n* if patient has anaemia\n* if patient has malignancies\n* if patient has autoimmune or immune compromising diseases including HIV/AIDS\n* if patient has psychiatric diseases or addiction",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "69 Years",
   "healthy_volunteers": false,
+  "maximum_age": "69 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,58 +89,58 @@
  },
  "sites": [
   {
-   "facility": "Charite, Department of Internal Medicine",
    "city": "Berlin",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Charite, Department of Internal Medicine",
    "lat": 52.52437,
-   "lon": 13.41053
+   "lon": 13.41053,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "University Hospital, Department of Internal Medicine III",
    "city": "Dresden",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "University Hospital, Department of Internal Medicine III",
    "lat": 51.05089,
-   "lon": 13.73832
+   "lon": 13.73832,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "University Hospital, Department of Internal Medicine I",
    "city": "Heidelberg",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "University Hospital, Department of Internal Medicine I",
    "lat": 49.40768,
-   "lon": 8.69079
+   "lon": 8.69079,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Klinikum der Universität München (KUM)",
    "city": "Munich",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Klinikum der Universität München (KUM)",
    "lat": 48.13743,
-   "lon": 11.57549
-  },
-  {
-   "facility": "University Hospital, Department of Internal Medicine IV",
-   "city": "Tübingen",
+   "lon": 11.57549,
    "state": null,
-   "country": "Germany",
-   "status": null,
-   "lat": 48.52266,
-   "lon": 9.05222
+   "status": null
   },
   {
-   "facility": "German Diabetes Center",
-   "city": "Düsseldorf",
-   "state": "North Rhine-Westphalia",
+   "city": "Tübingen",
    "country": "Germany",
-   "status": null,
+   "facility": "University Hospital, Department of Internal Medicine IV",
+   "lat": 48.52266,
+   "lon": 9.05222,
+   "state": null,
+   "status": null
+  },
+  {
+   "city": "Düsseldorf",
+   "country": "Germany",
+   "facility": "German Diabetes Center",
    "lat": 51.22319,
-   "lon": 6.77927
+   "lon": 6.77927,
+   "state": "North Rhine-Westphalia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01409330",
@@ -152,6 +152,74 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetic patients"
+   },
+   {
+    "text": "disease duration for five years or less,"
+   },
+   {
+    "text": "age of 69 years or less,"
+   },
+   {
+    "text": "body mass index of 30 kg/m2 or more,"
+   },
+   {
+    "text": "hemoglobin A1c of 5,5 % to 9%"
+   },
+   {
+    "text": "patient should be on standard diet or metformin +/- acarbose monotherapy"
+   },
+   {
+    "text": "patient should be without exclusion criteria for coffee consumption"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "disease duration more than five years,"
+   },
+   {
+    "text": "age of > 69 years,"
+   },
+   {
+    "text": "body mass index of < 30 kg/m2,"
+   },
+   {
+    "text": "hemoglobin A1c < 5,5 % or > 9%"
+   },
+   {
+    "text": "if patient becomes insulin therapy"
+   },
+   {
+    "text": "if patient has exclusion criteria for coffee consumption"
+   },
+   {
+    "text": "if patient is non-compliant with study protocol"
+   },
+   {
+    "text": "if patient is pregnant"
+   },
+   {
+    "text": "if patient has acute infection"
+   },
+   {
+    "text": "if patient has anaemia"
+   },
+   {
+    "text": "if patient has malignancies"
+   },
+   {
+    "text": "if patient has autoimmune or immune compromising diseases including HIV/AIDS"
+   },
+   {
+    "text": "if patient has psychiatric diseases or addiction"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

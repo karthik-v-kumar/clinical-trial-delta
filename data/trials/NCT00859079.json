@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Medical University of Graz",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Medical University of Graz"
  },
  "collaborators": [],
  "conditions": [
@@ -49,34 +49,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "GLP-1",
    "other_names": [
     "GLP-1 infusion (CLINALFA, Laeufelingen, Switzerland)"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Human regular insulin intravenously",
    "other_names": [
     "Insulin Actrapid, NovoNordisk, Denmark"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "GLP-1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: GLP-1"
-   ]
+   ],
+   "label": "GLP-1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Insulin intravenously",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Human regular insulin intravenously"
-   ]
+   ],
+   "label": "Insulin intravenously",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The aim of the investigators study was to compare for the first time efficacy and safety of intravenously administered GLP-1 with an established intravenous insulin regimen in hyperglycaemic type 2 diabetic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* Fasting glycemia above 150 mg/dl\n* Signed informed consent\n\nExclusion Criteria:\n\n* Patients with heart failure \\> NYHA II\n* Uncontrolled hypertension\n* Impaired kidney function (creatinine \\> 3 mg/dl)\n* Acute infection",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Medical University of Graz, Department for Internal Medicine",
    "city": "Graz",
-   "state": null,
    "country": "Austria",
-   "status": null,
+   "facility": "Medical University of Graz, Department for Internal Medicine",
    "lat": 47.06733,
-   "lon": 15.44197
+   "lon": 15.44197,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00859079",
@@ -117,6 +117,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes mellitus"
+   },
+   {
+    "text": "Fasting glycemia above 150 mg/dl"
+   },
+   {
+    "text": "Signed informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with heart failure > NYHA II"
+   },
+   {
+    "text": "Uncontrolled hypertension"
+   },
+   {
+    "text": "Impaired kidney function (creatinine > 3 mg/dl)"
+   },
+   {
+    "text": "Acute infection"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

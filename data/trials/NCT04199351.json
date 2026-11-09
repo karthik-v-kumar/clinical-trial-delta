@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2024-09-19",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Amgen",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Amgen"
  },
  "collaborators": [],
  "conditions": [
@@ -51,40 +51,40 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AMG 171",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: AMG 171",
+    "Drug: Placebo"
+   ],
    "label": "Part A",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: AMG 171",
     "Drug: Placebo"
-   ]
-  },
-  {
+   ],
    "label": "Part B",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: AMG 171",
-    "Drug: Placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part C",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AMG 171",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Part C",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "To assess the safety and tolerability of AMG 171 as single or multiple doses in subjects with obesity",
  "eligibility": {
   "criteria": "Inclusion Criteria\n\n* Males and females with ages between 18 and 65 years old, inclusive\n* Except for obesity, otherwise healthy\n* Body mass index (BMI) greater than or equal to 30.0 kg/m2 and less than or equal to 40.0 kg/m2 at screening\n* Other Inclusion criteria may apply\n\nExclusion Criteria:\n\n* Currently receiving treatment in another investigational device or drug study\n* Women of childbearing potential\n* History or evidence of a clinically significant disorder, condition or disease that would pose a risk to subject safety or interfere with the study evaluation, procedures or completion\n* Other Exclusion criteria may apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,31 +107,31 @@
  },
  "sites": [
   {
-   "facility": "Anaheim Clinical Trials",
    "city": "Anaheim",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Anaheim Clinical Trials",
    "lat": 33.83529,
-   "lon": -117.9145
-  },
-  {
-   "facility": "Orange County Research Center",
-   "city": "Tustin",
+   "lon": -117.9145,
    "state": "California",
-   "country": "United States",
-   "status": null,
-   "lat": 33.74585,
-   "lon": -117.82617
+   "status": null
   },
   {
-   "facility": "Clinical Pharmacology of Miami, LLC",
-   "city": "Miami",
-   "state": "Florida",
+   "city": "Tustin",
    "country": "United States",
-   "status": null,
+   "facility": "Orange County Research Center",
+   "lat": 33.74585,
+   "lon": -117.82617,
+   "state": "California",
+   "status": null
+  },
+  {
+   "city": "Miami",
+   "country": "United States",
+   "facility": "Clinical Pharmacology of Miami, LLC",
    "lat": 25.77427,
-   "lon": -80.19366
+   "lon": -80.19366,
+   "state": "Florida",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04199351",
@@ -145,6 +145,38 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females with ages between 18 and 65 years old, inclusive"
+   },
+   {
+    "text": "Except for obesity, otherwise healthy"
+   },
+   {
+    "text": "Body mass index (BMI) greater than or equal to 30.0 kg/m2 and less than or equal to 40.0 kg/m2 at screening"
+   },
+   {
+    "text": "Other Inclusion criteria may apply"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Currently receiving treatment in another investigational device or drug study"
+   },
+   {
+    "text": "Women of childbearing potential"
+   },
+   {
+    "text": "History or evidence of a clinically significant disorder, condition or disease that would pose a risk to subject safety or interfere with the study evaluation, procedures or completion"
+   },
+   {
+    "text": "Other Exclusion criteria may apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

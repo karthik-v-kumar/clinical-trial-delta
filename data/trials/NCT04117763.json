@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Sao Paulo",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Sao Paulo"
  },
  "collaborators": [],
  "conditions": [
@@ -50,18 +50,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin 25 MG",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin 25 MG"
-   ]
+   ],
+   "label": "Empagliflozin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -73,10 +73,10 @@
  "brief_summary": "The present project aims to investigate if the empagliflozin has an antiarrhythmic action. Analyzing the T-wave heterogeneity index, a new electrocardiographic risk marker associated with the prediction of cardiovascular risk, in diabetic patients and coronary artery disease, the investigators will verify if empagliflozin is associated with a reduction in electrical instability.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* • Age ≥ 18 years;\n\n  * Fasting glycemia\\> 100 mg/dl or previous diagnosis of type 2 diabetes mellitus;\n  * Coronary artery disease, defined by one of the following criteria: the antecedent of myocardial infarction; the evidence of significant coronary stenosis in previous coronary angiography; the noninvasive positive test for ischemia (stress electrocardiogram, stress echocardiogram, stress scintigraphy)\n  * TWH ≥ 80 microvolts\n\nExclusion Criteria:\n\n* Chronic renal insufficiency with glomerular filtration rate ≤ 45 ml / min / 1.73m2;\n* Hepatic insufficiency (determined by Child-Pugh, B or C classification);\n* Age ≥ 85 years;\n* 12-lead resting electrocardiogram with the following changes: intraventricular conduction disorders (bundle branch block), pacemaker rhythm, atrial fibrillation or flutter, artifact stroke distortion or baseline fluctuation",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "85 Years",
   "healthy_volunteers": false,
+  "maximum_age": "85 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -84,13 +84,13 @@
  },
  "sites": [
   {
-   "facility": "InCor",
    "city": "São Paulo",
-   "state": "São Paulo",
    "country": "Brazil",
-   "status": null,
+   "facility": "InCor",
    "lat": -23.5475,
-   "lon": -46.63611
+   "lon": -46.63611,
+   "state": "São Paulo",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04117763",
@@ -102,6 +102,34 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "• Age ≥ 18 years;",
+    "sub_items": [
+     "Fasting glycemia> 100 mg/dl or previous diagnosis of type 2 diabetes mellitus;",
+     "Coronary artery disease, defined by one of the following criteria: the antecedent of myocardial infarction; the evidence of significant coronary stenosis in previous coronary angiography; the noninvasive positive test for ischemia (stress electrocardiogram, stress echocardiogram, stress scintigraphy)",
+     "TWH ≥ 80 microvolts"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Chronic renal insufficiency with glomerular filtration rate ≤ 45 ml / min / 1.73m2;"
+   },
+   {
+    "text": "Hepatic insufficiency (determined by Child-Pugh, B or C classification);"
+   },
+   {
+    "text": "Age ≥ 85 years;"
+   },
+   {
+    "text": "12-lead resting electrocardiogram with the following changes: intraventricular conduction disorders (bundle branch block), pacemaker rhythm, atrial fibrillation or flutter, artifact stroke distortion or baseline fluctuation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

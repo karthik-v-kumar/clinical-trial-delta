@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2019-08-08",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -50,44 +50,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "LY2922083",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "Placebo (Part A)",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: LY2922083"
+   ],
    "label": "LY2922083 (Part A)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: LY2922083"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo (Part B)",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo (Part B)",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "LY2922083 (Part B)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY2922083"
-   ]
+   ],
+   "label": "LY2922083 (Part B)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The aim of this trial is to evaluate the safety of the study drug in healthy participants and participants with diabetes. It will investigate how much of the study drug gets into the blood stream and how long it takes the body to get rid of it. Information about any side effects that may occur will also be collected.\n\nThe study consists of two parts. Part A will study healthy participants in up to 3 dosing periods over approximately 6 weeks. Part B will study participants with diabetes in up to 3 dosing periods over approximately 6 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nFor all participants :\n\n* Must be a male, or a female who cannot become pregnant, and who is either a healthy participant, or who has type 2 diabetes\n* Have a screening body mass index (BMI) of at least 18.0 kilograms per square meter (kg/m\\^2)\n* Have blood pressure, pulse rate, blood and urine laboratory test results acceptable for the study\n\nFor participants with T2DM:\n\n* Do not have any change to their diabetes treatment (exercise with or without metformin) for at least 4 weeks prior to screening\n* Have a glycated hemoglobin (HbA1c) value of greater than or equal to 6% and less than or equal to 11% at screening\n\nExclusion Criteria:\n\nFor all participants :\n\n* Are currently participating in another clinical study or completed one in the last 30 days\n* Are allergic to LY2922083 or other related drugs\n* Have a history of significant heart, lung, liver, kidney, stomach or brain disease, or have any medical problems which may cause an increased risk during the study\n* Have electrocardiogram (ECG) readings that are not suitable for the study\n* Have a history of hepatitis or jaundice\n* Are infected with hepatitis B\n* Are infected with hepatitis C\n* Are infected with human immunodeficiency virus (HIV)\n* Have donated more than 450 milliliters (mL) of blood in the last 3 months or have donated any blood in the last month\n* Have a regular alcohol intake greater than 21 units/week (male), or 14 units/week (female), or are unwilling to stop alcohol as required by the study restrictions (1 unit = 360 mL of beer, or 150 mL of wine, or 45 mL of spirits)\n* Smoke more than 10 cigarettes per day or are not willing to abstain from smoking while at the clinic\n\nFor participants with T2DM :\n\n* Have had heart disease or stroke within 6 months before entering the study\n* Have health complications due to poorly controlled diabetes as shown by blood and urine laboratory test results or based on physical examination and medical assessment as determined by the study doctor\n* Have been hospitalized for poor control of diabetes (keto-acidotic episode) in the last 6 months\n* Have used insulin to control diabetes in the last 1 year\n* Show symptoms of high blood sugar (for example, frequent urination, always feeling thirsty, or unexpected weight loss)",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Singapore",
-   "state": null,
    "country": "Singapore",
-   "status": null,
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "lat": 1.28967,
-   "lon": 103.85007
+   "lon": 103.85007,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01748552",
@@ -130,6 +130,98 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Must be a male, or a female who cannot become pregnant, and who is either a healthy participant, or who has type 2 diabetes",
+    "group": "For all participants"
+   },
+   {
+    "text": "Have a screening body mass index (BMI) of at least 18.0 kilograms per square meter (kg/m^2)",
+    "group": "For all participants"
+   },
+   {
+    "text": "Have blood pressure, pulse rate, blood and urine laboratory test results acceptable for the study",
+    "group": "For all participants"
+   },
+   {
+    "text": "Do not have any change to their diabetes treatment (exercise with or without metformin) for at least 4 weeks prior to screening",
+    "group": "For participants with T2DM"
+   },
+   {
+    "text": "Have a glycated hemoglobin (HbA1c) value of greater than or equal to 6% and less than or equal to 11% at screening",
+    "group": "For participants with T2DM"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Are currently participating in another clinical study or completed one in the last 30 days",
+    "group": "For all participants"
+   },
+   {
+    "text": "Are allergic to LY2922083 or other related drugs",
+    "group": "For all participants"
+   },
+   {
+    "text": "Have a history of significant heart, lung, liver, kidney, stomach or brain disease, or have any medical problems which may cause an increased risk during the study",
+    "group": "For all participants"
+   },
+   {
+    "text": "Have electrocardiogram (ECG) readings that are not suitable for the study",
+    "group": "For all participants"
+   },
+   {
+    "text": "Have a history of hepatitis or jaundice",
+    "group": "For all participants"
+   },
+   {
+    "text": "Are infected with hepatitis B",
+    "group": "For all participants"
+   },
+   {
+    "text": "Are infected with hepatitis C",
+    "group": "For all participants"
+   },
+   {
+    "text": "Are infected with human immunodeficiency virus (HIV)",
+    "group": "For all participants"
+   },
+   {
+    "text": "Have donated more than 450 milliliters (mL) of blood in the last 3 months or have donated any blood in the last month",
+    "group": "For all participants"
+   },
+   {
+    "text": "Have a regular alcohol intake greater than 21 units/week (male), or 14 units/week (female), or are unwilling to stop alcohol as required by the study restrictions (1 unit = 360 mL of beer, or 150 mL of wine, or 45 mL of spirits)",
+    "group": "For all participants"
+   },
+   {
+    "text": "Smoke more than 10 cigarettes per day or are not willing to abstain from smoking while at the clinic",
+    "group": "For all participants"
+   },
+   {
+    "text": "Have had heart disease or stroke within 6 months before entering the study",
+    "group": "For participants with T2DM"
+   },
+   {
+    "text": "Have health complications due to poorly controlled diabetes as shown by blood and urine laboratory test results or based on physical examination and medical assessment as determined by the study doctor",
+    "group": "For participants with T2DM"
+   },
+   {
+    "text": "Have been hospitalized for poor control of diabetes (keto-acidotic episode) in the last 6 months",
+    "group": "For participants with T2DM"
+   },
+   {
+    "text": "Have used insulin to control diabetes in the last 1 year",
+    "group": "For participants with T2DM"
+   },
+   {
+    "text": "Show symptoms of high blood sugar (for example, frequent urination, always feeling thirsty, or unexpected weight loss)",
+    "group": "For participants with T2DM"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

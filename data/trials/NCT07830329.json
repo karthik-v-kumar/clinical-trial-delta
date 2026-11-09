@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Regeneron Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Regeneron Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Olatorepatide",
    "other_names": [
     "HS-20094"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Olatorepatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Olatorepatide"
-   ]
+   ],
+   "label": "Olatorepatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "This study will test an experimental Regeneron drug called olatorepatide (\"study drug\") to see if it can help treat Hidradenitis Suppurativa (HS).\n\nIn this study, olatorepatide is being tested in people with HS and living with overweight or obesity to see if it helps improve their HS symptoms and quality of life and helps support weight loss.\n\nThe study is looking at:\n\n* What side effects olatorepatide might cause\n* How well olatorepatide works\n* How much olatorepatide is in the blood at different times\n* If the body makes antibodies to olatorepatide, which may cause olatorepatide to not work as well",
  "eligibility": {
   "criteria": "Key Inclusion Criteria:\n\n1. Diagnosis of HS based on:\n\n   1. Documented or reported history of HS for ≥6 months prior to baseline visit\n   2. Confirmation of HS by the investigator during physical examination at screening\n2. HS lesions present in at least 2 distinct anatomic areas as described in the protocol\n3. Moderate to severe HS, defined as a total of ≥5 inflammatory lesions (ie, number of abscesses plus number of inflammatory nodules) at both screening (visit 1) and baseline (visit 2)\n4. Agree to daily use of over-the-counter topical antiseptics (eg, chlorhexidine gluconate, benzoyl peroxide, or diluted bleach \\[bath\\], or alternative antiseptic agents in accordance with local/country guidelines) applied to HS-affected areas as described in the protocol\n5. Body Mass Index (BMI) ≥27.0 kg/m2 at screening\n\nKey Exclusion Criteria:\n\n1. Has a sensitivity (or history of hypersensitivity reactions) to any of the trial interventions, or components thereof, or other allergy that, in the opinion of the investigator or medical monitor, contraindicates participation in the trial\n2. Cardiovascular or cerebrovascular events or procedures within 90 days prior to screening, including myocardial infarction, hospitalization for unstable angina, coronary artery bypass graft, percutaneous coronary intervention as described in the protocol\n3. Current heart failure classified as being in NYHA Class IV at screening\n4. History of chronic pancreatitis or acute pancreatitis\n5. Presence of serious Gastrointestinal (GI) disorders (eg, active peptic ulcer, inflammatory bowel disease) at screening\n6. Have a previous or current diagnosis of Type 1 Diabetes (T1D) or any other type of diabetes except Type 2 Diabetes (T2D) as described in the protocol\n\nNote: Other Protocol Defined Inclusion/ Exclusion Criteria Apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,6 +111,54 @@
  "sponsors_of_note": [
   "Regeneron"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of HS based on:",
+    "sub_items": [
+     "Documented or reported history of HS for ≥6 months prior to baseline visit",
+     "Confirmation of HS by the investigator during physical examination at screening"
+    ]
+   },
+   {
+    "text": "HS lesions present in at least 2 distinct anatomic areas as described in the protocol"
+   },
+   {
+    "text": "Moderate to severe HS, defined as a total of ≥5 inflammatory lesions (ie, number of abscesses plus number of inflammatory nodules) at both screening (visit 1) and baseline (visit 2)"
+   },
+   {
+    "text": "Agree to daily use of over-the-counter topical antiseptics (eg, chlorhexidine gluconate, benzoyl peroxide, or diluted bleach [bath], or alternative antiseptic agents in accordance with local/country guidelines) applied to HS-affected areas as described in the protocol"
+   },
+   {
+    "text": "Body Mass Index (BMI) ≥27.0 kg/m2 at screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has a sensitivity (or history of hypersensitivity reactions) to any of the trial interventions, or components thereof, or other allergy that, in the opinion of the investigator or medical monitor, contraindicates participation in the trial"
+   },
+   {
+    "text": "Cardiovascular or cerebrovascular events or procedures within 90 days prior to screening, including myocardial infarction, hospitalization for unstable angina, coronary artery bypass graft, percutaneous coronary intervention as described in the protocol"
+   },
+   {
+    "text": "Current heart failure classified as being in NYHA Class IV at screening"
+   },
+   {
+    "text": "History of chronic pancreatitis or acute pancreatitis"
+   },
+   {
+    "text": "Presence of serious Gastrointestinal (GI) disorders (eg, active peptic ulcer, inflammatory bowel disease) at screening"
+   },
+   {
+    "text": "Have a previous or current diagnosis of Type 1 Diabetes (T1D) or any other type of diabetes except Type 2 Diabetes (T2D) as described in the protocol"
+   },
+   {
+    "text": "Note: Other Protocol Defined Inclusion/ Exclusion Criteria Apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

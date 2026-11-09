@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Tri-Service General Hospital (TSGH)",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Tri-Service General Hospital (TSGH)"
  },
  "collaborators": [
   "National Science and Technology Council, Taiwan"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide with lifestyle modification",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide with lifestyle modification",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Tirzepatide arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Tirzepatide with lifestyle modification"
-   ]
+   ],
+   "label": "Tirzepatide arm",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Semaglutide arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide with lifestyle modification"
-   ]
+   ],
+   "label": "Semaglutide arm",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "This randomized, open label, head to head clinical trial directly compares tirzepatide and semaglutide in adults with obesity and metabolic syndrome (N=120, age 20-65, 1:1 randomization). Participants undergo deep phenotyping at baseline, 6 months, and 12 months, including DXA (regional fat, lean mass, and BMD), MRI PDFF (liver fat), 7 site skinfold thickness, grip strength, fasting biochemistry, and AI processed 12 lead ECGs. Centralized biobanking of serum, plasma, and PBMCs enables targeted and discovery multi omic analyses.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 20-65 years.\n* BMI ≥27 kg/m² with metabolic syndrome (ATP III or IDF criteria).\n* Stable background medications (antihypertensives, statins, etc.) for ≥3 months.\n* Able and willing to provide informed consent and comply with study procedures.\n\nExclusion Criteria:\n\n* History of diabetes; history of pancreatitis; personal/family history of medullary thyroid carcinoma or MEN2.\n* eGFR \\<30 mL/min/1.73 m², decompensated liver disease, NYHA class III-IV heart failure.\n* Recent (\\<3 months) acute coronary syndrome, stroke, or coronary revascularization.\n* Current use of GLP 1RA, tirzepatide, or other incretin based therapies within 3 months.\n* Contraindications to MRI or DXA (e.g., metal implants incompatible with MRI, pregnancy).",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Tri-Service General Hospital",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": "RECRUITING",
+   "facility": "Tri-Service General Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07589322",
@@ -122,6 +122,41 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 20-65 years."
+   },
+   {
+    "text": "BMI ≥27 kg/m² with metabolic syndrome (ATP III or IDF criteria)."
+   },
+   {
+    "text": "Stable background medications (antihypertensives, statins, etc.) for ≥3 months."
+   },
+   {
+    "text": "Able and willing to provide informed consent and comply with study procedures."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of diabetes; history of pancreatitis; personal/family history of medullary thyroid carcinoma or MEN2."
+   },
+   {
+    "text": "eGFR <30 mL/min/1.73 m², decompensated liver disease, NYHA class III-IV heart failure."
+   },
+   {
+    "text": "Recent (<3 months) acute coronary syndrome, stroke, or coronary revascularization."
+   },
+   {
+    "text": "Current use of GLP 1RA, tirzepatide, or other incretin based therapies within 3 months."
+   },
+   {
+    "text": "Contraindications to MRI or DXA (e.g., metal implants incompatible with MRI, pregnancy)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

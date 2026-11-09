@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "SINGLE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Vanderbilt University Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Vanderbilt University Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Interruptive Reminder",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Non-interruptive Reminder",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "No Reminder",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Interruptive Reminder Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Interruptive Reminder"
-   ]
+   ],
+   "label": "Interruptive Reminder Group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Non-Interruptive Reminder Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Non-interruptive Reminder"
-   ]
+   ],
+   "label": "Non-Interruptive Reminder Group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "No Reminder Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: No Reminder"
-   ]
+   ],
+   "label": "No Reminder Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "Statins reduce cardiovascular events and mortality, but only 30% of eligible primary care patients nationally are on statins. Clinical decision support (CDS) interventions in the electronic health record (EHR) can deliver education to providers and increase adherence to guideline recommendations via many potential forms of delivery. Interruptive alerts are an effective form of CDS but disrupt clinician workflow and increase alert fatigue in an age of clinician burnout and frustration with the EHR. Non-interruptive reminders are proposed as an alternative method of delivering CDS; however, they require active pursuit by the provider, and their effectiveness compared to interruptive alerts has not been rigorously studied. The investigators propose a randomized trial comparing the effect of interruptive vs. non-interruptive reminders displayed to clinicians to increase statin prescribing in primary care clinics.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients between the ages of 18 and 75\n* Seen in primary care visit within Vanderbilt University Medical Center\n* Eligible for statin therapy due to 1) Atherosclerotic cardiovascular disease (ASCVD) 10- year risk greater than or equal to 10%, 2) Type 1 or 2 diabetes and aged 40 years or older, or 3) ASCVD diagnosis\n\nExclusion Criteria:\n\n* Already on statin, ezetimibe, bempedoic acid, or PCSK9 inhibitor\n* Last low-density lipoprotein cholesterol (LDL-C) less than 100 mg/dL\n* Pregnant or lactating\n* Palliative care\n* Statin allergy or adverse effect of statin\n* Rhabdomyolysis\n* Statin contraindicated due to liver disease, defined as 1) Decompensated liver disease, 2) AST or ALT greater than 5 times the upper limit of normal, or 3) Total bilirubin greater than 1.5 mg/dL\n* Statin contraindicated due to kidney disease, defined as 1) Dialysis or 2) Estimated glomerular filtration rate less than 15 ml/min/1.73m\\^2\n* Has had coronary calcium computerized tomography\n* Less than 3 months since lipid panel resulted\n* Acute visit",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "Vanderbilt University Medical Center",
    "city": "Nashville",
-   "state": "Tennessee",
    "country": "United States",
-   "status": null,
+   "facility": "Vanderbilt University Medical Center",
    "lat": 36.16589,
-   "lon": -86.78444
+   "lon": -86.78444,
+   "state": "Tennessee",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06456658",
@@ -128,6 +128,56 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients between the ages of 18 and 75"
+   },
+   {
+    "text": "Seen in primary care visit within Vanderbilt University Medical Center"
+   },
+   {
+    "text": "Eligible for statin therapy due to 1) Atherosclerotic cardiovascular disease (ASCVD) 10- year risk greater than or equal to 10%, 2) Type 1 or 2 diabetes and aged 40 years or older, or 3) ASCVD diagnosis"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Already on statin, ezetimibe, bempedoic acid, or PCSK9 inhibitor"
+   },
+   {
+    "text": "Last low-density lipoprotein cholesterol (LDL-C) less than 100 mg/dL"
+   },
+   {
+    "text": "Pregnant or lactating"
+   },
+   {
+    "text": "Palliative care"
+   },
+   {
+    "text": "Statin allergy or adverse effect of statin"
+   },
+   {
+    "text": "Rhabdomyolysis"
+   },
+   {
+    "text": "Statin contraindicated due to liver disease, defined as 1) Decompensated liver disease, 2) AST or ALT greater than 5 times the upper limit of normal, or 3) Total bilirubin greater than 1.5 mg/dL"
+   },
+   {
+    "text": "Statin contraindicated due to kidney disease, defined as 1) Dialysis or 2) Estimated glomerular filtration rate less than 15 ml/min/1.73m^2"
+   },
+   {
+    "text": "Has had coronary calcium computerized tomography"
+   },
+   {
+    "text": "Less than 3 months since lipid panel resulted"
+   },
+   {
+    "text": "Acute visit"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

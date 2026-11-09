@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "QUADRUPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Zurich",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Zurich"
  },
  "collaborators": [
   "European Foundation for the Study of Diabetes"
@@ -56,44 +56,44 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Sport",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DRUG",
    "name": "Tocilizumab",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Tocilizumab",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Sport",
     "Drug: Tocilizumab"
-   ]
+   ],
+   "label": "Tocilizumab",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Sport",
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Behavioral: Sport"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The purpose of the study is to understand the role of interleukin-6 during physical activity in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Obesity group: BMI 30-40 kg/m2, fasting plasma glucose \\<6.4 mmol/l.\n* Diabetes group: Type 2 diabetes according to American Diabetes Association criteria\n\nExclusion criteria:\n\n* Anti-diabetic drug other than metformin\n* Diabetes duration of more than 5 years\n* Inflammatory diseases\n* Current infection\n* Liver disease (transaminases \\>2x upper normal range)\n* kidney disease (creatinine \\>1.5 mg/dl for men and 1.4 mg/dl for women)\n* pregnancy or breast-feeding, women of child bearing potential not using an acceptable form of contraception\n* immunosuppressive disease\n* corticosteroid use\n* regular non-steroidal antinflammatory drug usage\n* history of carcinoma\n* history of tuberculosis\n* anemia, bleeding disorders\n* obstructive pulmonary disease.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "University Hospital Zurich",
    "city": "Zurich",
-   "state": null,
    "country": "Switzerland",
-   "status": null,
+   "facility": "University Hospital Zurich",
    "lat": 47.36667,
-   "lon": 8.55
+   "lon": 8.55,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01073826",
@@ -134,6 +134,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Obesity group: BMI 30-40 kg/m2, fasting plasma glucose <6.4 mmol/l."
+   },
+   {
+    "text": "Diabetes group: Type 2 diabetes according to American Diabetes Association criteria"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Anti-diabetic drug other than metformin"
+   },
+   {
+    "text": "Diabetes duration of more than 5 years"
+   },
+   {
+    "text": "Inflammatory diseases"
+   },
+   {
+    "text": "Current infection"
+   },
+   {
+    "text": "Liver disease (transaminases >2x upper normal range)"
+   },
+   {
+    "text": "kidney disease (creatinine >1.5 mg/dl for men and 1.4 mg/dl for women)"
+   },
+   {
+    "text": "pregnancy or breast-feeding, women of child bearing potential not using an acceptable form of contraception"
+   },
+   {
+    "text": "immunosuppressive disease"
+   },
+   {
+    "text": "corticosteroid use"
+   },
+   {
+    "text": "regular non-steroidal antinflammatory drug usage"
+   },
+   {
+    "text": "history of carcinoma"
+   },
+   {
+    "text": "history of tuberculosis"
+   },
+   {
+    "text": "anemia, bleeding disorders"
+   },
+   {
+    "text": "obstructive pulmonary disease."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

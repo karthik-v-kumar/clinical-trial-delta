@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Shanghai Zhongshan Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Shanghai Zhongshan Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AI assisted insulin system",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Physician based insulin regime",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AI Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AI assisted insulin system"
-   ]
+   ],
+   "label": "AI Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Physician based insulin regime"
-   ]
+   ],
+   "label": "Control Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This is a single-center, open-labeled, parallel group, randomized controlled trial to access the effect and safety of the Artificial Intelligence Assisted Insulin Titration System in patients with Type 2 Diabetes Mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men or women aged 18-75 years old;\n* Subjects who had been diagnosed with type 2 diabetes;\n* Subjects who are on treatment with insulin for at least 3 months;\n* HbA1c: 7.0%-11.0%.\n\nExclusion Criteria:\n\n* Subjects with acute complications of diabetes such as ketoacidosis or hyperglycemic hyperosmolar state;\n* Subjects who change the insulin regimens during hospitalization;\n* BMI ≥ 45kg/m2;\n* Women who are pregnant or nursing;\n* Subjects with severe cardiac, hepatic, renal or general diseases;\n* Subjects with psychiatric disorders or impaired cognitive function;\n* Subjects with severe edema, infections or peripheral circulation disorders;\n* Patients treated with surgery during hospitalization;\n* Subjects that are, in the judgement of the investigator, unlikely to comply with the protocol.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "180 Fenglin Road",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "180 Fenglin Road",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04053959",
@@ -115,6 +115,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men or women aged 18-75 years old;"
+   },
+   {
+    "text": "Subjects who had been diagnosed with type 2 diabetes;"
+   },
+   {
+    "text": "Subjects who are on treatment with insulin for at least 3 months;"
+   },
+   {
+    "text": "HbA1c: 7.0%-11.0%."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with acute complications of diabetes such as ketoacidosis or hyperglycemic hyperosmolar state;"
+   },
+   {
+    "text": "Subjects who change the insulin regimens during hospitalization;"
+   },
+   {
+    "text": "BMI ≥ 45kg/m2;"
+   },
+   {
+    "text": "Women who are pregnant or nursing;"
+   },
+   {
+    "text": "Subjects with severe cardiac, hepatic, renal or general diseases;"
+   },
+   {
+    "text": "Subjects with psychiatric disorders or impaired cognitive function;"
+   },
+   {
+    "text": "Subjects with severe edema, infections or peripheral circulation disorders;"
+   },
+   {
+    "text": "Patients treated with surgery during hospitalization;"
+   },
+   {
+    "text": "Subjects that are, in the judgement of the investigator, unlikely to comply with the protocol."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

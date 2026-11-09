@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Fundacion Dexeus",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Fundacion Dexeus"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "No pre-treatment",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Semaglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "No pre-treatment",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: No pre-treatment"
-   ]
+   ],
+   "label": "No pre-treatment",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -84,59 +84,59 @@
  "brief_summary": "This is a randomized, controlled clinical trial with a two-sided superiority hypothesis. The study evaluates whether a 12-week pre-treatment with semaglutide prior to ovarian stimulation improves the number of good-quality blastocysts in overweight and obese women undergoing in vitro fertilization (IVF), compared to no pre-treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* ≤ 38 years\n* AMH \\>= 1 ng/mL or AFC \\>= 6\n* Body mass index (BMI) between 27 kg/m2 and 40 kg/m2\n* Scheduled for IVF with freeze-all strategy\n\nExclusion Criteria:\n\n* Severe male factor (sperm concentration \\<5M/mL)\n* Type 2 diabetes mellitus\n* Prior use of GLP-1 Ras within the past year\n* Uncontrolled thyroid disorders\n* Contraindications to IVF or semaglutide treatment\n* Patients with chronic inflammatory diseases\n* Family history of hereditary or chromosomal diseases\n* Use of glucocorticoids or immunosuppressants\n* PGT-A\n* Use of medications affecting metabolism or inflammation",
-  "sex": "FEMALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "38 Years",
   "healthy_volunteers": false,
+  "maximum_age": "38 Years",
+  "minimum_age": "18 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Departamento de Ginecología Obstetricia y Reproducción. Hospital Universitari Dexeus",
    "city": "Barcelona",
-   "state": null,
    "country": "Spain",
-   "status": "RECRUITING",
+   "facility": "Departamento de Ginecología Obstetricia y Reproducción. Hospital Universitari Dexeus",
    "lat": 41.38879,
-   "lon": 2.15899
-  },
-  {
-   "facility": "Dexeus Mujer Tarragona",
-   "city": "Tarragona",
+   "lon": 2.15899,
    "state": null,
+   "status": "RECRUITING"
+  },
+  {
+   "city": "Tarragona",
    "country": "Spain",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Dexeus Mujer Tarragona",
    "lat": 41.11905,
-   "lon": 1.24544
+   "lon": 1.24544,
+   "state": null,
+   "status": "NOT_YET_RECRUITING"
   },
   {
-   "facility": "Dexeus Mujer Sabadell",
    "city": "Sabadell",
-   "state": "Barcelona",
    "country": "Spain",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Dexeus Mujer Sabadell",
    "lat": 41.54329,
-   "lon": 2.10942
-  },
-  {
-   "facility": "Dexeus Mujer Sant Cugat",
-   "city": "Sant Cugat del Vallès",
+   "lon": 2.10942,
    "state": "Barcelona",
-   "country": "Spain",
-   "status": "NOT_YET_RECRUITING",
-   "lat": 41.47063,
-   "lon": 2.08611
+   "status": "NOT_YET_RECRUITING"
   },
   {
-   "facility": "Dexeus Mujer Reus",
-   "city": "Reus",
-   "state": "Tarragona",
+   "city": "Sant Cugat del Vallès",
    "country": "Spain",
-   "status": "NOT_YET_RECRUITING",
+   "facility": "Dexeus Mujer Sant Cugat",
+   "lat": 41.47063,
+   "lon": 2.08611,
+   "state": "Barcelona",
+   "status": "NOT_YET_RECRUITING"
+  },
+  {
+   "city": "Reus",
+   "country": "Spain",
+   "facility": "Dexeus Mujer Reus",
    "lat": 41.15612,
-   "lon": 1.10687
+   "lon": 1.10687,
+   "state": "Tarragona",
+   "status": "NOT_YET_RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07242534",
@@ -148,6 +148,56 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "≤ 38 years"
+   },
+   {
+    "text": "AMH >= 1 ng/mL or AFC >= 6"
+   },
+   {
+    "text": "Body mass index (BMI) between 27 kg/m2 and 40 kg/m2"
+   },
+   {
+    "text": "Scheduled for IVF with freeze-all strategy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe male factor (sperm concentration <5M/mL)"
+   },
+   {
+    "text": "Type 2 diabetes mellitus"
+   },
+   {
+    "text": "Prior use of GLP-1 Ras within the past year"
+   },
+   {
+    "text": "Uncontrolled thyroid disorders"
+   },
+   {
+    "text": "Contraindications to IVF or semaglutide treatment"
+   },
+   {
+    "text": "Patients with chronic inflammatory diseases"
+   },
+   {
+    "text": "Family history of hereditary or chromosomal diseases"
+   },
+   {
+    "text": "Use of glucocorticoids or immunosuppressants"
+   },
+   {
+    "text": "PGT-A"
+   },
+   {
+    "text": "Use of medications affecting metabolism or inflammation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

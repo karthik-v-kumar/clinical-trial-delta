@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-10-24",
  "has_results": true,
  "lead_sponsor": {
-  "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
-  "class": "NIH"
+  "class": "NIH",
+  "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
  },
  "collaborators": [
   "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
@@ -64,56 +64,56 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "DPPOS Group Lifestyle",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "DPPOS Boost Lifestyle",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Intensive Lifestyle Group Session",
    "other_names": [
     "Intensive lifestyle session (ILS)"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "1 Original Lifestyle",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: DPPOS Group Lifestyle",
     "Behavioral: DPPOS Boost Lifestyle",
     "Behavioral: Intensive Lifestyle Group Session"
-   ]
+   ],
+   "label": "1 Original Lifestyle",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "2 Original Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: DPPOS Group Lifestyle",
     "Drug: Metformin",
     "Behavioral: Intensive Lifestyle Group Session"
-   ]
+   ],
+   "label": "2 Original Metformin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "3 Original Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Behavioral: DPPOS Group Lifestyle",
     "Behavioral: Intensive Lifestyle Group Session"
-   ]
+   ],
+   "label": "3 Original Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -137,10 +137,10 @@
  "brief_summary": "The Diabetes Prevention Program (DPP) was a multi-center trial examining the ability of an intensive lifestyle or metformin to prevent or delay the development of diabetes in a high risk population due to the presence of impaired glucose tolerance (IGT, 2 hour glucose of 140-199 mg/dl). The DPP has ended early demonstrating that lifestyle reduced diabetes onset by 58% and metformin reduced diabetes onset by 31%.\n\nDPPOS (2002-2013) is designed to take advantage of the scientifically and clinically valuable DPP participants. This group of participants is nearly 50% minority and represents the largest at risk population ever studied. Clinically important research questions remain that focus on 1) durability of the prior DPP intervention, 2) determination of the clinical course of precisely known new onset diabetes, in particular regarding microvascular disease, CVD risk factors and atherosclerosis, 3) close examination of these topics in men vs women and in minority populations.\n\nThe major aims of DPPOS-3 (2014-2025) take advantage of the long-term randomized exposure of the study cohort to metformin and the aging of the DPPOS cohort. The metformin exposure and high degree of study retention and adherence (\\~85% of the DPPOS cohort continues to attend annual and mid-year visits) allows DPPOS-3 to examine the long-term effects of metformin on cardiovascular disease (CVD) and cancer outcomes, outcomes of great clinical interest and import.",
  "eligibility": {
   "criteria": "Participation as a volunteer in the Diabetes Prevention Program (DPP).",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -148,13 +148,13 @@
  },
  "sites": [
   {
-   "facility": "George Washington University",
    "city": "Rockville",
-   "state": "Maryland",
    "country": "United States",
-   "status": null,
+   "facility": "George Washington University",
    "lat": 39.084,
-   "lon": -77.15276
+   "lon": -77.15276,
+   "state": "Maryland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00038727",
@@ -166,6 +166,12 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": false,
+  "inclusion": [],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

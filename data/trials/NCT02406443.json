@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "TRIPLE",
+  "primary_purpose": "OTHER",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2018-04-05",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University Health Network, Toronto",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Health Network, Toronto"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitaglitpin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Experimental arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitaglitpin"
-   ]
+   ],
+   "label": "Experimental arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo arm",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo arm",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Background: Dedicated renal hemodynamic and renal function studies are lacking for DPP-4 inhibitors in patients with Type 2 diabetes; accordingly little is known regarding the mechanisms mediating the renal effects of DPP-4 inhibitors in humans.\n\nObjectives: To evaluate the effect of DPP-4 inhibition acutely (single dose) and following short-term therapy (28 days) on renal sodium handling and renal hemodynamics and function in patients with type 2 diabetes and systolic hypertension.\n\nDesign: double-blind, randomized, placebo-controlled trial, Phase IV.\n\nPatient population: 32 patients with Type 2 diabetes, HbA1c (6.5%-9%), with systolic blood pressure ranging from 120-160 mmHg.\n\nIntervention: subjects will be randomized (1:1) to either sitagliptin (100 mg daily) or to placebo (1 tablet daily) for 28 days.\n\nEndpoints: Fractional excretion of sodium, renal function, and renal hemodynamics.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Individuals of 18-70 years of age,\n* with Type 2 Diabetes,\n* with an HbA1c (6.5%-9%),\n* and with a systolic blood pressure (120-160 mmHg).\n\nExclusion Criteria:\n\n* Individuals with:\n\n  1. Type 1 Diabetes,\n  2. eGFR \\<50mL/min/1.73m,\n  3. pregnancy or breast feeding,\n  4. significant cardiac, pulmonary or liver disease,\n  5. prior history of pancreatitis, medullary thyroid cancer, multiple endocrine neoplasia syndromes,\n  6. SBP \\>161 mmHg, 7) DBP \\>100 mmHg,\n  7. alcohol or substance abuse,\n  8. states of secondary hypertension.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "University Health Network - Division of Nephrology",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "University Health Network - Division of Nephrology",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02406443",
@@ -120,6 +120,39 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Individuals of 18-70 years of age,"
+   },
+   {
+    "text": "with Type 2 Diabetes,"
+   },
+   {
+    "text": "with an HbA1c (6.5%-9%),"
+   },
+   {
+    "text": "and with a systolic blood pressure (120-160 mmHg)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Individuals with:",
+    "sub_items": [
+     "Type 1 Diabetes,",
+     "eGFR <50mL/min/1.73m,",
+     "pregnancy or breast feeding,",
+     "significant cardiac, pulmonary or liver disease,",
+     "prior history of pancreatitis, medullary thyroid cancer, multiple endocrine neoplasia syndromes,",
+     "SBP >161 mmHg, 7) DBP >100 mmHg,",
+     "alcohol or substance abuse,",
+     "states of secondary hypertension."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

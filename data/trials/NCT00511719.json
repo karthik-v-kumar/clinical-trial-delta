@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mannkind Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Mannkind Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Technosphere Insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Actrapid",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Technosphere Insulin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Technosphere Insulin"
-   ]
+   ],
+   "label": "Technosphere Insulin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Actrapid",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Actrapid"
-   ]
+   ],
+   "label": "Actrapid",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "The purpose of this study is to compare the kinetics and biodynamics of inhaled Technosphere Insulin with those of subcutaneous (SC) regular human insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Clinical Diagnosis of type 2 diabetes mellitus\n* Current regimen of intensified insulin therapy (defined as separate injections of basal and prandial insulin with at least three injections per day) for at least six months prior to the study, including the use of long-lasting insulin analogue glargine (Lantus)\n* Patients must have been willing to withhold insulin glargine for 24 hours prior to study drug dosing\n* 18 to 65 years old\n* Body Mass Index \\<35kg/m2\n* HbA1c\\<9%\n* Non-smoker for at least 2 years\n* If medications (other than oral anti-diabetic agents) in addition to insulin were taken at screening, the patient had to be on a stable regimen as defined by continued use of the same dose of each medication for a period of at least 3 months immediately prior to study enrollment\n* FVC, FEV1, and VC all \\>80% of expected normal\n* Written informed consent\n\nExclusion Criteria:\n\n* Diabetes mellitus type 1\n* Current treatment (within the last 30 days) with oral anti-diabetic agents\n* Regular pre-prandial doses of regular subcutaneous insulin for more than 30 IU per meal\n* Intake of any drug or herbal preparation that, in the evaluation of the investigator, may interfere with the interpretation of clinical trials results or that is known to cause clinically relevant interference with insulin action, glucose utilization or recovery from hypoglycemia (eg, systematic steroid)\n* HIstory of hypersensitivity to the drug or to drugs with similar chemical structures\n* Treatment with any investigation drug within 3 months prior to enrollment or during this study\n* Progressive fatal disease\n* History of malignancy within 5 years of study entry (other than basal cell carcinoma)\n* History of drug or alcohol abuse\n* Evidence of severe secondary complications of diabetes (neuropathy, nephropathy as evidenced by creatinine \\>1.5 mg/dL for females or \\>1.8 mg/dL for males, grade III or IV retinopathy, or severe peripheral vascular disease)\n* Evidence of gastroparesis, orthostatic hypotension or hypoglycemia unawareness (autonomic neuropathy)\n* Myocardial infraction or stroke within the preceding six months\n* Positive hepatitis B (hepatitis B surface antigen) and /or hepatitis C (hepatitis C antibody) serology and /or positive HIV serology\n* History of presence of clinically significant cardiovascular, hepatic (as evidenced by ALT or AST \\>3 times the normal reference range), gastrointestinal, neurological, or infectious disorders capable of altering the absorption, metabolism or elimination of drugs, or constituting a significant risk factor when taking the study medications\n* Anemia (hemoglobin concentrations \\<11 g/dL for females of \\<g/dL for males)\n* Ongoing respiratory tract infection\n* Pregnancy, lactation, or intention to become pregnant\n* Women of child-bearing potential practicing inadequate birth control (adequate birth control was defined as using oral contraceptives, condoms, or diaphragms with spermicide, intrauterine devices, or surgical sterilization)\n* Regular alcohol intake greater than 14 units\\*/week, or patients unwilling to stop alcohol during the duration of the study (\\*1 unit=8 g ethanol, 1/4 liter of beer or 1 glass of wine or 1 measure of spirits)\n* Investigator or site personnel directly affiliated with this study and their immediate families. Immediate family was defined as a spouse, parent, child or sibling, whether biological or legally adopted",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,6 +110,104 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Clinical Diagnosis of type 2 diabetes mellitus"
+   },
+   {
+    "text": "Current regimen of intensified insulin therapy (defined as separate injections of basal and prandial insulin with at least three injections per day) for at least six months prior to the study, including the use of long-lasting insulin analogue glargine (Lantus)"
+   },
+   {
+    "text": "Patients must have been willing to withhold insulin glargine for 24 hours prior to study drug dosing"
+   },
+   {
+    "text": "18 to 65 years old"
+   },
+   {
+    "text": "Body Mass Index <35kg/m2"
+   },
+   {
+    "text": "HbA1c<9%"
+   },
+   {
+    "text": "Non-smoker for at least 2 years"
+   },
+   {
+    "text": "If medications (other than oral anti-diabetic agents) in addition to insulin were taken at screening, the patient had to be on a stable regimen as defined by continued use of the same dose of each medication for a period of at least 3 months immediately prior to study enrollment"
+   },
+   {
+    "text": "FVC, FEV1, and VC all >80% of expected normal"
+   },
+   {
+    "text": "Written informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diabetes mellitus type 1"
+   },
+   {
+    "text": "Current treatment (within the last 30 days) with oral anti-diabetic agents"
+   },
+   {
+    "text": "Regular pre-prandial doses of regular subcutaneous insulin for more than 30 IU per meal"
+   },
+   {
+    "text": "Intake of any drug or herbal preparation that, in the evaluation of the investigator, may interfere with the interpretation of clinical trials results or that is known to cause clinically relevant interference with insulin action, glucose utilization or recovery from hypoglycemia (eg, systematic steroid)"
+   },
+   {
+    "text": "HIstory of hypersensitivity to the drug or to drugs with similar chemical structures"
+   },
+   {
+    "text": "Treatment with any investigation drug within 3 months prior to enrollment or during this study"
+   },
+   {
+    "text": "Progressive fatal disease"
+   },
+   {
+    "text": "History of malignancy within 5 years of study entry (other than basal cell carcinoma)"
+   },
+   {
+    "text": "History of drug or alcohol abuse"
+   },
+   {
+    "text": "Evidence of severe secondary complications of diabetes (neuropathy, nephropathy as evidenced by creatinine >1.5 mg/dL for females or >1.8 mg/dL for males, grade III or IV retinopathy, or severe peripheral vascular disease)"
+   },
+   {
+    "text": "Evidence of gastroparesis, orthostatic hypotension or hypoglycemia unawareness (autonomic neuropathy)"
+   },
+   {
+    "text": "Myocardial infraction or stroke within the preceding six months"
+   },
+   {
+    "text": "Positive hepatitis B (hepatitis B surface antigen) and /or hepatitis C (hepatitis C antibody) serology and /or positive HIV serology"
+   },
+   {
+    "text": "History of presence of clinically significant cardiovascular, hepatic (as evidenced by ALT or AST >3 times the normal reference range), gastrointestinal, neurological, or infectious disorders capable of altering the absorption, metabolism or elimination of drugs, or constituting a significant risk factor when taking the study medications"
+   },
+   {
+    "text": "Anemia (hemoglobin concentrations <11 g/dL for females of <g/dL for males)"
+   },
+   {
+    "text": "Ongoing respiratory tract infection"
+   },
+   {
+    "text": "Pregnancy, lactation, or intention to become pregnant"
+   },
+   {
+    "text": "Women of child-bearing potential practicing inadequate birth control (adequate birth control was defined as using oral contraceptives, condoms, or diaphragms with spermicide, intrauterine devices, or surgical sterilization)"
+   },
+   {
+    "text": "Regular alcohol intake greater than 14 units*/week, or patients unwilling to stop alcohol during the duration of the study (*1 unit=8 g ethanol, 1/4 liter of beer or 1 glass of wine or 1 measure of spirits)"
+   },
+   {
+    "text": "Investigator or site personnel directly affiliated with this study and their immediate families. Immediate family was defined as a spouse, parent, child or sibling, whether biological or legally adopted"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": null,
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hoffmann-La Roche",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hoffmann-La Roche"
  },
  "collaborators": [],
  "conditions": [
@@ -51,58 +51,58 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "RO5095932",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "RO5095932",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: RO5095932",
+    "Drug: metformin"
+   ],
    "label": "1active",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: RO5095932",
-    "Drug: metformin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: metformin",
+    "Drug: placebo"
+   ],
    "label": "1placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: metformin",
-    "Drug: placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "2active",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: RO5095932",
     "Drug: metformin"
-   ]
+   ],
+   "label": "2active",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: metformin",
     "Drug: placebo"
-   ]
+   ],
+   "label": "2placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "This randomized, double-blind, placebo-controlled study will assess the efficacy, safety, tolerability, pharmacokinetics and pharmacodynamics of RO5095932 in patients with type 2 diabetes mellitus. Patients will be randomized to receive either RO5095932 subcutaneously once weekly or placebo for 4 weeks (part 1) or 6 weeks (part 2), in addition to their current stable doses of metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* adult patients, 18-65 years of age\n* females who are either surgically sterile or post-menopausal\n* type 2 diabetes treated with a stable dose of metformin\n* BMI between 25-39kg/m2\n* HbA1c between 7 and 10%\n* fasting plasma glucose between 7 and 13.3mmol/L\n\nExclusion Criteria:\n\n* history of clinically significant cardiovascular disease\n* history of clinically significant hepatic or renal disease or impairment\n* recent therapy with insulin, thiazolidinedione, glucagon-like peptide-1 analogues, amylin analogues and/or DPP-IV inhibitors",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,58 +129,58 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Anaheim",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 33.83529,
-   "lon": -117.9145
-  },
-  {
-   "facility": null,
-   "city": "Chula Vista",
+   "lon": -117.9145,
    "state": "California",
+   "status": null
+  },
+  {
+   "city": "Chula Vista",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": null,
    "city": "Fort Myers",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 26.62168,
-   "lon": -81.84059
-  },
-  {
-   "facility": null,
-   "city": "Miramar",
+   "lon": -81.84059,
    "state": "Florida",
+   "status": null
+  },
+  {
+   "city": "Miramar",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 25.98731,
-   "lon": -80.23227
+   "lon": -80.23227,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": null,
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   },
   {
-   "facility": null,
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00961909",
@@ -194,6 +194,41 @@
  "sponsors_of_note": [
   "Roche"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "adult patients, 18-65 years of age"
+   },
+   {
+    "text": "females who are either surgically sterile or post-menopausal"
+   },
+   {
+    "text": "type 2 diabetes treated with a stable dose of metformin"
+   },
+   {
+    "text": "BMI between 25-39kg/m2"
+   },
+   {
+    "text": "HbA1c between 7 and 10%"
+   },
+   {
+    "text": "fasting plasma glucose between 7 and 13.3mmol/L"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "history of clinically significant cardiovascular disease"
+   },
+   {
+    "text": "history of clinically significant hepatic or renal disease or impairment"
+   },
+   {
+    "text": "recent therapy with insulin, thiazolidinedione, glucagon-like peptide-1 analogues, amylin analogues and/or DPP-IV inhibitors"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

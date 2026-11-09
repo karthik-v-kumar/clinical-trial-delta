@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mackay Memorial Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mackay Memorial Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Active titration algorithm",
    "other_names": [
     "Insulin detemir active titration algorithm"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Usual titration algorithm",
    "other_names": [
     "Insulin detemir usual titration algorithm"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Active titration algorithm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Active titration algorithm"
-   ]
+   ],
+   "label": "Active titration algorithm",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Usual titration algorithm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Usual titration algorithm"
-   ]
+   ],
+   "label": "Usual titration algorithm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "This study compared the effectiveness and safety of two treatment algorithms for insulin detemir initiation and titration: active titration algorithm (performed by investigator weekly) versus usual titration algorithm (performed by study subjects weekly) in patients with type 2 diabetes poorly controlled by OADs.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nPatients must meet all of the following criteria:\n\n1. Men and women with type 2 diabetes.\n2. 20 years of age.\n3. Patients who have received stable doses of any OADs for at least 10 weeks prior to the screening visit.\n4. Patients with inadequate glycemic control (HbA1C \\>=7% and \\< 11%).\n5. Patients who are willing and able to cooperate with study and give signed informed consent.\n\nExclusion Criteria:\n\n1. Patients with type 1 diabetes.\n2. Renal dialysis patients.\n3. History of hypoglycemia unawareness.\n4. Patients who had received any insulin for more than 2 weeks or who have received insulin treatment within 4 weeks prior to screening visit.\n5. Patients who have received any investigational products (drug and device) within 4 weeks prior to screening visit.\n6. Patients hypersensitive with insulin detemir or its excipients.\n7. Patients who are currently pregnant/lactating,or who are preparing for pregnancy or lactation.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,31 +98,31 @@
  },
  "sites": [
   {
-   "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Mackay Memorial Hospital Hsinchu branch",
    "city": "Hsinchu",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Mackay Memorial Hospital Hsinchu branch",
    "lat": 24.80361,
-   "lon": 120.96861
+   "lon": 120.96861,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Mackay Memorial Hospital",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Mackay Memorial Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Mackay Memorial Hospital Taitung branch",
    "city": "Taitung",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Mackay Memorial Hospital Taitung branch",
    "lat": 22.75991,
-   "lon": 121.14457
+   "lon": 121.14457,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01281605",
@@ -134,6 +134,55 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women with type 2 diabetes.",
+    "group": "Patients must meet all of the following criteria"
+   },
+   {
+    "text": "20 years of age.",
+    "group": "Patients must meet all of the following criteria"
+   },
+   {
+    "text": "Patients who have received stable doses of any OADs for at least 10 weeks prior to the screening visit.",
+    "group": "Patients must meet all of the following criteria"
+   },
+   {
+    "text": "Patients with inadequate glycemic control (HbA1C >=7% and < 11%).",
+    "group": "Patients must meet all of the following criteria"
+   },
+   {
+    "text": "Patients who are willing and able to cooperate with study and give signed informed consent.",
+    "group": "Patients must meet all of the following criteria"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes."
+   },
+   {
+    "text": "Renal dialysis patients."
+   },
+   {
+    "text": "History of hypoglycemia unawareness."
+   },
+   {
+    "text": "Patients who had received any insulin for more than 2 weeks or who have received insulin treatment within 4 weeks prior to screening visit."
+   },
+   {
+    "text": "Patients who have received any investigational products (drug and device) within 4 weeks prior to screening visit."
+   },
+   {
+    "text": "Patients hypersensitive with insulin detemir or its excipients."
+   },
+   {
+    "text": "Patients who are currently pregnant/lactating,or who are preparing for pregnancy or lactation."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

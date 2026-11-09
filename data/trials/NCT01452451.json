@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hanmi Pharmaceutical Company Limited",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Hanmi Pharmaceutical Company Limited"
  },
  "collaborators": [],
  "conditions": [
@@ -49,32 +49,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "HM11260C",
    "other_names": [
     "LAPS-Exendin4"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "HM11260C",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: HM11260C"
-   ]
+   ],
+   "label": "HM11260C",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The purpose of this study is to investigate the safety and tolerability of repeated doses of HM11260C when given different regimens in subjects with type 2 diabetes mellitus (T2DM) on stable metformin monotherapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Is male or female and 18 to 65 years of age, inclusive, at screening\n* Has a history of T2DM and a stable dose of metformin\n* Has HbA1c levels at screening between 7% and 10%\n\nExclusion Criteria:\n\n* Is pregnant or lactating\n* Has type 1 diabetes\n* Has a significant change in body weight in the 3 months before screening\n* Has a fasting plasma glucose level greater than 240 mg/dL (13.3 mmol/L) at screening\n* Has an estimated glomerular filtration rate rate \\<75 mL/min/1.73 m2 or has ≥75 mL/min/1.73 m2 \\<estimated glomerular filtration rate \\<90 mL/min/1.73 m2 with a urine albumin to urine creatinine ratio \\>30 mg/g.\n* Has alanine aminotransferase or aspartate aminotransferase values \\>2.0 × upper limit of normal or total bilirubin \\>1.5 × upper limit of normal unless the subject has a known history of Gilbert's syndrome\n* Has fasting serum triglycerides \\>400 mg/dL (\\>4.52 mmol/L) or \\>250 mg/dL (\\>2.85 mmol/L) if not on stable lipid-lowering therapy for at least 4 weeks prior to screening, or has calcitonin ≥50 ng/L. Subjects with a history of Fredrickson's Type I, IV or V hyperlipidemia will be excluded.\n* Has any history of GI intolerance, chronic diarrhea, inflammatory bowel disease, partial bypass or gastric banding\n* Has any acute illness within 5 days before first study drug administration\n* Has elevated amylase, ongoing cholelithiasis, cholecystitis at screening, or history of pancreatitis\n* Is a heavy tobacco user(more than 10 cigarettes a day)\n* Is a heavy alcohol user\n* Has a positive screen for drugs of abuse",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Ohio City",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": null,
    "lat": 41.48422,
-   "lon": -81.71124
+   "lon": -81.71124,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01452451",
@@ -115,6 +115,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Is male or female and 18 to 65 years of age, inclusive, at screening"
+   },
+   {
+    "text": "Has a history of T2DM and a stable dose of metformin"
+   },
+   {
+    "text": "Has HbA1c levels at screening between 7% and 10%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Is pregnant or lactating"
+   },
+   {
+    "text": "Has type 1 diabetes"
+   },
+   {
+    "text": "Has a significant change in body weight in the 3 months before screening"
+   },
+   {
+    "text": "Has a fasting plasma glucose level greater than 240 mg/dL (13.3 mmol/L) at screening"
+   },
+   {
+    "text": "Has an estimated glomerular filtration rate rate <75 mL/min/1.73 m2 or has ≥75 mL/min/1.73 m2 <estimated glomerular filtration rate <90 mL/min/1.73 m2 with a urine albumin to urine creatinine ratio >30 mg/g."
+   },
+   {
+    "text": "Has alanine aminotransferase or aspartate aminotransferase values >2.0 × upper limit of normal or total bilirubin >1.5 × upper limit of normal unless the subject has a known history of Gilbert's syndrome"
+   },
+   {
+    "text": "Has fasting serum triglycerides >400 mg/dL (>4.52 mmol/L) or >250 mg/dL (>2.85 mmol/L) if not on stable lipid-lowering therapy for at least 4 weeks prior to screening, or has calcitonin ≥50 ng/L. Subjects with a history of Fredrickson's Type I, IV or V hyperlipidemia will be excluded."
+   },
+   {
+    "text": "Has any history of GI intolerance, chronic diarrhea, inflammatory bowel disease, partial bypass or gastric banding"
+   },
+   {
+    "text": "Has any acute illness within 5 days before first study drug administration"
+   },
+   {
+    "text": "Has elevated amylase, ongoing cholelithiasis, cholecystitis at screening, or history of pancreatitis"
+   },
+   {
+    "text": "Is a heavy tobacco user(more than 10 cigarettes a day)"
+   },
+   {
+    "text": "Is a heavy alcohol user"
+   },
+   {
+    "text": "Has a positive screen for drugs of abuse"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

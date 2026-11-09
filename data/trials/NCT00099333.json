@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "exenatide",
    "other_names": [
     "synthetic exendin-4",
     "AC2993",
     "Byetta"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide"
-   ]
+   ],
+   "label": "Exenatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin"
-   ]
+   ],
+   "label": "Insulin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This study will look at the safety of substituting exenatide for insulin in patients with type 2 diabetes who are currently taking insulin and oral antidiabetic agent(s).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients have been treated with insulin for \\>=3 months up to 12 years.\n* HbA1c \\<=10.5%.\n* Body mass index (BMI) between 27 kg/m2 and 40 kg/m2.\n\nExclusion Criteria:\n\n* Patients previously received exenatide or GLP-1 analogs.\n* Patients have been treated for greater than 2 weeks with thiazolidinediones or alpha-glucosidase inhibitors within 3 months prior to screening.",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,49 +100,49 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Butte",
-   "state": "Montana",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 46.00382,
-   "lon": -112.53474
+   "lon": -112.53474,
+   "state": "Montana",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Portland",
-   "state": "Oregon",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 45.52345,
-   "lon": -122.67621
+   "lon": -122.67621,
+   "state": "Oregon",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Nashville",
-   "state": "Tennessee",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 36.16589,
-   "lon": -86.78444
+   "lon": -86.78444,
+   "state": "Tennessee",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00099333",
@@ -158,6 +158,29 @@
   "Eli Lilly",
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients have been treated with insulin for >=3 months up to 12 years."
+   },
+   {
+    "text": "HbA1c <=10.5%."
+   },
+   {
+    "text": "Body mass index (BMI) between 27 kg/m2 and 40 kg/m2."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients previously received exenatide or GLP-1 analogs."
+   },
+   {
+    "text": "Patients have been treated for greater than 2 weeks with thiazolidinediones or alpha-glucosidase inhibitors within 3 months prior to screening."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

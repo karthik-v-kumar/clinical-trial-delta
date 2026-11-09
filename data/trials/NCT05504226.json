@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Handok Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Handok Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Teneligliptin (as Teneligliptin Hydrobromide) 20 Mg Oral Tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Teneligliptin Placebo Oral Tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Teneligliptin 20 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Teneligliptin (as Teneligliptin Hydrobromide) 20 Mg Oral Tablet"
-   ]
+   ],
+   "label": "Teneligliptin 20 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Teneligliptin placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Teneligliptin Placebo Oral Tablet"
-   ]
+   ],
+   "label": "Teneligliptin placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The objective of this study is to evaluate the efficacy and safety of teneligliptin 20 mg orally administered once daily for 24 weeks compared with placebo in patients with type 2 diabetes mellitus who have inadequate glycemic control with empaglyflozin 25 mg and metformin",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with Type II diabetes mellitus aged 19 years or older\n* Subjects with 7.0%≤HbA1c≤10.5% at screening visit\n* Subjects with fasting plasma glucose ≤ 270mg/dL at screening visit\n\nExclusion Criteria:\n\n* Subjects with type 1 diabetes mellitus or secondary diabetes\n* Subjects with history of diabetic ketoacidosis, diabetic coma or pre-coma, lactic acidosis, and acute or chronic acidosis within 6 months prior to the screening visit\n* Subjects who have been administered with weight-loss drug (e.g., orlistat, phentermine/topiramate, lorcaserin)\n* Body mass index greater than 40 kg/m2 at the screening visit\n* Subjects with heart failure (Class III-IV of NYHA classification) or arrhythmia that requires treatment",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul National University Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Seoul National University Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05504226",
@@ -117,6 +117,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with Type II diabetes mellitus aged 19 years or older"
+   },
+   {
+    "text": "Subjects with 7.0%≤HbA1c≤10.5% at screening visit"
+   },
+   {
+    "text": "Subjects with fasting plasma glucose ≤ 270mg/dL at screening visit"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with type 1 diabetes mellitus or secondary diabetes"
+   },
+   {
+    "text": "Subjects with history of diabetic ketoacidosis, diabetic coma or pre-coma, lactic acidosis, and acute or chronic acidosis within 6 months prior to the screening visit"
+   },
+   {
+    "text": "Subjects who have been administered with weight-loss drug (e.g., orlistat, phentermine/topiramate, lorcaserin)"
+   },
+   {
+    "text": "Body mass index greater than 40 kg/m2 at the screening visit"
+   },
+   {
+    "text": "Subjects with heart failure (Class III-IV of NYHA classification) or arrhythmia that requires treatment"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

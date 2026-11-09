@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Peking University People's Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Peking University People's Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "IDegLira",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Premixed insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Premixed insulin dose optimization group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Premixed insulin"
-   ]
+   ],
+   "label": "Premixed insulin dose optimization group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "IDegLira once daily injection group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: IDegLira"
-   ]
+   ],
+   "label": "IDegLira once daily injection group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The study aims to evaluate the efficacy and safety of IDegLira in type 2 diabetes who have failed premixed insulin therapy. The study plans to enroll 256 participants with inadequate glycemic control despite twice-daily subcutaneous injections of premixed insulin and metformin. Participants will be randomly assigned to either the premixed insulin dose optimization group (control group) or IDegLira once daily group, and the difference in change in glycated hemoglobin levels from baseline to 16 weeks of treatment will be assessed between the two groups.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed with type 2 diabetes for ≥3 months. Meets the diabetes diagnostic criteria established by the World Health Organization (WHO) in 1999.\n* Age ≥18 years, regardless of gender.\n* Body mass index ≥23.0 kg/m\\^2.\n* HbA1c ≥7.5% and ≤11.0% at screening.\n* Concurrently taking metformin, with a metformin dose ≥1500 mg/day or the maximum tolerated dose (not less than 1000 mg/day), and may be combined with oral sodium-glucose cotransporter-2 inhibitors, thiazolidinediones, or alpha-glucosidase inhibitors. Combination oral medications must be at a stable dose for ≥8 weeks and continued during the study period.\n* For 8 weeks prior to screening, has been on a stable, regular regimen of premixed human insulin (including premixed insulin analogs) administered subcutaneously twice daily, with a total daily insulin dose of 15-50 units, in addition to diet and exercise control.\n* Has signed the informed consent form.\n* Willing and able to self-monitor blood glucose (SMBG) and record the diary card on time.\n* Fully understands the study purpose and can communicate well with the investigator, and can understand and comply with all requirements of this study.\n\nExclusion Criteria:\n\n* Subjects who have previously tested positive for diabetes autoantibodies (including anti-glutamic acid decarboxylase antibodies, anti-islet cell antibodies, anti-insulin antibodies, anti-zinc transporter 8 antibodies, and anti-protein tyrosine phosphatase antibodies).\n* Fasting C-peptide level ≤0.6 ng/mL.\n* Used a glucagon-like peptide-1 (GLP-1) receptor agonist within the 3 months prior to screening.\n* Concomitant use of sulfonylureas, glinides, and dipeptidyl peptidase-4 inhibitors within the 3 months prior to screening.\n* History of medullary thyroid carcinoma, multiple endocrine neoplasia type 2, or a family history of these conditions.\n* History of acute/chronic pancreatitis.\n* Experienced a serious gastrointestinal disease (such as active ulcer) or underwent gastrointestinal surgery (except appendectomy or cholecystectomy) or had clinically significant gastric emptying abnormalities (such as pyloric obstruction, gastroparesis) or long-term use of medications that directly affect gastrointestinal motility, or deemed unsuitable for the study by the investigator within the 3 months prior to screening.\n* Concurrent severe diseases, including but not limited to severe cardiovascular, cerebrovascular, hepatic, or renal diseases, or severe diabetes-related complications, and deemed unsuitable for the study by the investigator.\n* Pregnant or breastfeeding female subjects, or subjects (including male subjects' female partners) with plans for pregnancy or sperm/egg donation within 3 months after the last dose, or unwilling to use at least one effective contraceptive method or device.\n* Unwilling to wear an invasive monitoring device.\n* Clear reasons that prevent the use of continuous glucose monitoring (CGM), such as severe allergy or skin conditions, and deemed unsuitable for the study by the investigator.\n* Subjects with skin lesions, scarring, redness, infection, or edema at the sensor application site that may affect the accuracy of sensor placement or interstitial glucose measurement.\n* Received long-term (continuous or cumulative ≥7 days) treatment with systemic corticosteroids or growth hormone that may affect blood glucose within 1 month prior to screening.\n* History of malignancy within the past 3 years, excluding basal cell carcinoma, squamous cell carcinoma, and any in situ cancers.\n* Participated in another drug or medical device clinical trial (except for registry studies) within the 3 months prior to screening.\n* Presence of severe psychiatric disorders or language barriers, unwilling or unable to fully understand and cooperate.\n* Experienced diabetic ketoacidosis (DKA), hyperosmolar hyperglycemic state (HHS), or lactic acidosis (LAD) within the 3 months prior to screening.\n* Fasting triglycerides \\>5.65 mmol/L (can be retested within one week) at screening.\n* History of alcohol or drug abuse (more than 14 units of alcohol per week \\[1 unit = 360 mL of 5% beer, or 45 mL of 40% spirits, or 150 mL of 12% wine\\]).\n* Known or suspected allergy to GLP-1 class drugs or excipients.\n* Any other reason deemed by the investigator to make the subject unsuitable for participation in the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,6 +104,104 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosed with type 2 diabetes for ≥3 months. Meets the diabetes diagnostic criteria established by the World Health Organization (WHO) in 1999."
+   },
+   {
+    "text": "Age ≥18 years, regardless of gender."
+   },
+   {
+    "text": "Body mass index ≥23.0 kg/m^2."
+   },
+   {
+    "text": "HbA1c ≥7.5% and ≤11.0% at screening."
+   },
+   {
+    "text": "Concurrently taking metformin, with a metformin dose ≥1500 mg/day or the maximum tolerated dose (not less than 1000 mg/day), and may be combined with oral sodium-glucose cotransporter-2 inhibitors, thiazolidinediones, or alpha-glucosidase inhibitors. Combination oral medications must be at a stable dose for ≥8 weeks and continued during the study period."
+   },
+   {
+    "text": "For 8 weeks prior to screening, has been on a stable, regular regimen of premixed human insulin (including premixed insulin analogs) administered subcutaneously twice daily, with a total daily insulin dose of 15-50 units, in addition to diet and exercise control."
+   },
+   {
+    "text": "Has signed the informed consent form."
+   },
+   {
+    "text": "Willing and able to self-monitor blood glucose (SMBG) and record the diary card on time."
+   },
+   {
+    "text": "Fully understands the study purpose and can communicate well with the investigator, and can understand and comply with all requirements of this study."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects who have previously tested positive for diabetes autoantibodies (including anti-glutamic acid decarboxylase antibodies, anti-islet cell antibodies, anti-insulin antibodies, anti-zinc transporter 8 antibodies, and anti-protein tyrosine phosphatase antibodies)."
+   },
+   {
+    "text": "Fasting C-peptide level ≤0.6 ng/mL."
+   },
+   {
+    "text": "Used a glucagon-like peptide-1 (GLP-1) receptor agonist within the 3 months prior to screening."
+   },
+   {
+    "text": "Concomitant use of sulfonylureas, glinides, and dipeptidyl peptidase-4 inhibitors within the 3 months prior to screening."
+   },
+   {
+    "text": "History of medullary thyroid carcinoma, multiple endocrine neoplasia type 2, or a family history of these conditions."
+   },
+   {
+    "text": "History of acute/chronic pancreatitis."
+   },
+   {
+    "text": "Experienced a serious gastrointestinal disease (such as active ulcer) or underwent gastrointestinal surgery (except appendectomy or cholecystectomy) or had clinically significant gastric emptying abnormalities (such as pyloric obstruction, gastroparesis) or long-term use of medications that directly affect gastrointestinal motility, or deemed unsuitable for the study by the investigator within the 3 months prior to screening."
+   },
+   {
+    "text": "Concurrent severe diseases, including but not limited to severe cardiovascular, cerebrovascular, hepatic, or renal diseases, or severe diabetes-related complications, and deemed unsuitable for the study by the investigator."
+   },
+   {
+    "text": "Pregnant or breastfeeding female subjects, or subjects (including male subjects' female partners) with plans for pregnancy or sperm/egg donation within 3 months after the last dose, or unwilling to use at least one effective contraceptive method or device."
+   },
+   {
+    "text": "Unwilling to wear an invasive monitoring device."
+   },
+   {
+    "text": "Clear reasons that prevent the use of continuous glucose monitoring (CGM), such as severe allergy or skin conditions, and deemed unsuitable for the study by the investigator."
+   },
+   {
+    "text": "Subjects with skin lesions, scarring, redness, infection, or edema at the sensor application site that may affect the accuracy of sensor placement or interstitial glucose measurement."
+   },
+   {
+    "text": "Received long-term (continuous or cumulative ≥7 days) treatment with systemic corticosteroids or growth hormone that may affect blood glucose within 1 month prior to screening."
+   },
+   {
+    "text": "History of malignancy within the past 3 years, excluding basal cell carcinoma, squamous cell carcinoma, and any in situ cancers."
+   },
+   {
+    "text": "Participated in another drug or medical device clinical trial (except for registry studies) within the 3 months prior to screening."
+   },
+   {
+    "text": "Presence of severe psychiatric disorders or language barriers, unwilling or unable to fully understand and cooperate."
+   },
+   {
+    "text": "Experienced diabetic ketoacidosis (DKA), hyperosmolar hyperglycemic state (HHS), or lactic acidosis (LAD) within the 3 months prior to screening."
+   },
+   {
+    "text": "Fasting triglycerides >5.65 mmol/L (can be retested within one week) at screening."
+   },
+   {
+    "text": "History of alcohol or drug abuse (more than 14 units of alcohol per week [1 unit = 360 mL of 5% beer, or 45 mL of 40% spirits, or 150 mL of 12% wine])."
+   },
+   {
+    "text": "Known or suspected allergy to GLP-1 class drugs or excipients."
+   },
+   {
+    "text": "Any other reason deemed by the investigator to make the subject unsuitable for participation in the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital, Bordeaux",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital, Bordeaux"
  },
  "collaborators": [
   "Ministry of Health, France"
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pravastatin (drug)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pravastatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pravastatin (drug)"
-   ]
+   ],
+   "label": "Pravastatin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "To assess the use of pravastatin in hypercholesterolemic HIV-infected patients treated with protease inhibitors in a randomised double blind study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* confirmed HIV-1 infection (ELISA confirmed by Western-Blot test) ;\n* Age above 18 years\n* Stable antiretroviral therapy including at least one PI for \\>= 3 months,\n* Plasma HIV-RNA level of \\< 50 copies/mL for \\>= 3 months before randomization,\n* Total cholesterol \\> = 5.5 mmol/L with LDL-cholesterol \\> = 3.4 mmol/L on fasting status after three months of standardized dietary advice,\n* signed informed consent\n\nExclusion Criteria:\n\n* Current AIDS event or infectious disease\n* Tumoral, inflammatory, muscle diseases; kidney or hepatic failure\n* Psychiatric conditions\n* Biological elevated muscular enzymes\n* Chronic alcohol consumption\n* Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Hôpital Saint André, Service de médecine interne et maladies infectieuses",
    "city": "Bordeaux",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Hôpital Saint André, Service de médecine interne et maladies infectieuses",
    "lat": 44.84124,
-   "lon": -0.58046
+   "lon": -0.58046,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00221754",
@@ -112,6 +112,50 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "confirmed HIV-1 infection (ELISA confirmed by Western-Blot test) ;"
+   },
+   {
+    "text": "Age above 18 years"
+   },
+   {
+    "text": "Stable antiretroviral therapy including at least one PI for >= 3 months,"
+   },
+   {
+    "text": "Plasma HIV-RNA level of < 50 copies/mL for >= 3 months before randomization,"
+   },
+   {
+    "text": "Total cholesterol > = 5.5 mmol/L with LDL-cholesterol > = 3.4 mmol/L on fasting status after three months of standardized dietary advice,"
+   },
+   {
+    "text": "signed informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Current AIDS event or infectious disease"
+   },
+   {
+    "text": "Tumoral, inflammatory, muscle diseases; kidney or hepatic failure"
+   },
+   {
+    "text": "Psychiatric conditions"
+   },
+   {
+    "text": "Biological elevated muscular enzymes"
+   },
+   {
+    "text": "Chronic alcohol consumption"
+   },
+   {
+    "text": "Pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

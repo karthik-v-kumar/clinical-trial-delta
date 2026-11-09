@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2012-03-28",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -53,47 +53,47 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "MK-0431",
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glipizide",
    "other_names": [
     "Glucotrol"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo for Glipizide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: Placebo for Glipizide"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glipizide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glipizide",
     "Drug: Placebo for Sitagliptin"
-   ]
+   ],
+   "label": "Glipizide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "The purpose of the study is to compare how sitagliptin and glipizide lower blood glucose levels in participants with moderate or severe renal insufficiency.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Has type 2 diabetes mellitus\n* Has moderate or severe renal insufficiency\n\nExclusion Criteria:\n\n* Has type 1 diabetes mellitus or a history of ketoacidosis\n* Is on a new weight loss program\n* Has active liver disease\n* Is on dialysis or is likely to need dialysis during the study",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -128,6 +128,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Has type 2 diabetes mellitus"
+   },
+   {
+    "text": "Has moderate or severe renal insufficiency"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has type 1 diabetes mellitus or a history of ketoacidosis"
+   },
+   {
+    "text": "Is on a new weight loss program"
+   },
+   {
+    "text": "Has active liver disease"
+   },
+   {
+    "text": "Is on dialysis or is likely to need dialysis during the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

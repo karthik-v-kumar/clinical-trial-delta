@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD1656",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "AZD1656",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD1656"
-   ]
+   ],
+   "label": "AZD1656",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The primary aim of this study is to evaluate the safety and tolerability of AZD1656 in T2DM patients treated with metformin and sulfonylurea.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or females of non-childbearing potential\n* Patients treated with a combination of Metformin and SU (glyburide, glimepiride, glibenclamide, glipizide or gliclazide) in stable doses for at least 2 months prior to enrolment visit\n* Patients should have FPG in the range of 6,0 to 14 mmol/L (108 to 250 mg/dL) at enrolment and on the morning of randomisation\n\nExclusion Criteria:\n\n* History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease\n* Impaired renal function in terms of GFR\\<60 ml/min\n* Use of insulin, glitazones, gemfibrozil, warfarin, amiodarone within 3 months prior to enrolment (screening) and use of potent CYP450 inhibitors, e.g., ketoconazole within 14 days before randomisation",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "San Diego",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 32.71571,
-   "lon": -117.16472
+   "lon": -117.16472,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00995787",
@@ -117,6 +117,32 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or females of non-childbearing potential"
+   },
+   {
+    "text": "Patients treated with a combination of Metformin and SU (glyburide, glimepiride, glibenclamide, glipizide or gliclazide) in stable doses for at least 2 months prior to enrolment visit"
+   },
+   {
+    "text": "Patients should have FPG in the range of 6,0 to 14 mmol/L (108 to 250 mg/dL) at enrolment and on the morning of randomisation"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease"
+   },
+   {
+    "text": "Impaired renal function in terms of GFR<60 ml/min"
+   },
+   {
+    "text": "Use of insulin, glitazones, gemfibrozil, warfarin, amiodarone within 3 months prior to enrolment (screening) and use of potent CYP450 inhibitors, e.g., ketoconazole within 14 days before randomisation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2022-06-23",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Michael Camilleri, MD",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Michael Camilleri, MD"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -54,33 +54,33 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Saxenda",
     "Victoza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide"
-   ]
+   ],
+   "label": "Liraglutide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "This study is being done to assess the stomach emptying effect of a maximum dose of 3 mg Liraglutide compared to placebo in subjects who are overweight or obese. Liraglutide is a medication approved by the Food and Drug Administration (FDA) for routine clinical use.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Overweight and obese adults (≥30 kg/m\\^2 or ≥27 kg/m\\^2 with an obesity-related co-morbidity).\n* Subjects residing within 125 miles of Mayo Clinic in Rochester, Minnesota.\n* Healthy individuals with no unstable psychiatric disease and not currently on treatment for cardiac, pulmonary, gastrointestinal, hepatic, renal, hematological, neurological, or endocrine (other than hyperglycemia type 2 diabetes mellitus on metformin) disorders.\n* The investigators plan to recruit equal proportions of men and women.\n* Women of childbearing potential will be using an effective form of contraception, and have negative pregnancy tests within 48 hours of enrollment and before each radiation exposure. In addition, since liraglutide 3.0 mg is classified as Pregnancy Category X, monthly urine pregnancy testing will be performed in any female participant with childbearing potential.\n* Subjects must have the ability to provide informed consent before any trial-related activities.\n\nExclusion Criteria:\n\n* Weight exceeding 137 kilograms (safety limit of camera for measuring gastric volumes).\n* Abdominal surgery other than appendectomy, cholecystectomy, Caesarian section or tubal ligation.\n* Positive history of chronic gastrointestinal diseases, systemic disease that could affect gastrointestinal motility, or use of medications that may alter gastrointestinal motility, appetite or absorption, e.g., orlistat.\n* Patients with a personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia-type 2.\n* Patients with a past or current history of pancreatitis, gallstones, history of alcoholism, blood triglyceride levels \\>500 mg/dL.\n* Significant untreated psychiatric dysfunction based upon screening with the Hospital Anxiety and Depression Inventory (HAD), a self-administered alcoholism screening test (AUDIT-C), and the Questionnaire on Eating and Weight Patterns (binge eating disorders and bulimia). If such a dysfunction is identified by a HAD score \\>11 on either the Anxiety or Depression subscales, or difficulties with substance or eating disorders, the participant will be excluded and given a referral letter to his/her primary care doctor for further appraisal and follow-up.\n* Intake of any medication (except multivitamins), within 7 days of the study. Exceptions are birth control pill, estrogen replacement therapy, thyroxin replacement therapy and any medication administered for co-morbidities as long as they do not alter gastrointestinal motility including gastric emptying (GE) and gastric accommodation. For example, statins for hyperlipidemia, diuretics, β-adrenergic blockers, Angiotensin Converting Enzyme (ACE) inhibitors and angiotensin antagonists for hypertension, and metformin for type 2 diabetes mellitus or prediabetes are permissible. In contrast, resin sequestrants for hyperlipidemia (which may reduce GE and reduce appetite, α2-adrenergic agonists for hypertension, or other glucagon-like peptide-1 receptor agonists (GLP-1) receptor agonists (exenatide) or amylin analogs (pramlintide) are not permissible because they significantly affect GE and/or gastric accommodation.\n* Delayed gastric emptying at 2 and 4 hours\n* Hypersensitivity to the study medication, liraglutide\n* Participate in highly intense physical activity program that could potentially interfere with study interpretation.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,13 +107,13 @@
  },
  "sites": [
   {
-   "facility": "Mayo Clinic in Rochester",
    "city": "Rochester",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic in Rochester",
    "lat": 44.02163,
-   "lon": -92.4699
+   "lon": -92.4699,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03523273",
@@ -128,6 +128,62 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Overweight and obese adults (≥30 kg/m^2 or ≥27 kg/m^2 with an obesity-related co-morbidity)."
+   },
+   {
+    "text": "Subjects residing within 125 miles of Mayo Clinic in Rochester, Minnesota."
+   },
+   {
+    "text": "Healthy individuals with no unstable psychiatric disease and not currently on treatment for cardiac, pulmonary, gastrointestinal, hepatic, renal, hematological, neurological, or endocrine (other than hyperglycemia type 2 diabetes mellitus on metformin) disorders."
+   },
+   {
+    "text": "The investigators plan to recruit equal proportions of men and women."
+   },
+   {
+    "text": "Women of childbearing potential will be using an effective form of contraception, and have negative pregnancy tests within 48 hours of enrollment and before each radiation exposure. In addition, since liraglutide 3.0 mg is classified as Pregnancy Category X, monthly urine pregnancy testing will be performed in any female participant with childbearing potential."
+   },
+   {
+    "text": "Subjects must have the ability to provide informed consent before any trial-related activities."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Weight exceeding 137 kilograms (safety limit of camera for measuring gastric volumes)."
+   },
+   {
+    "text": "Abdominal surgery other than appendectomy, cholecystectomy, Caesarian section or tubal ligation."
+   },
+   {
+    "text": "Positive history of chronic gastrointestinal diseases, systemic disease that could affect gastrointestinal motility, or use of medications that may alter gastrointestinal motility, appetite or absorption, e.g., orlistat."
+   },
+   {
+    "text": "Patients with a personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia-type 2."
+   },
+   {
+    "text": "Patients with a past or current history of pancreatitis, gallstones, history of alcoholism, blood triglyceride levels >500 mg/dL."
+   },
+   {
+    "text": "Significant untreated psychiatric dysfunction based upon screening with the Hospital Anxiety and Depression Inventory (HAD), a self-administered alcoholism screening test (AUDIT-C), and the Questionnaire on Eating and Weight Patterns (binge eating disorders and bulimia). If such a dysfunction is identified by a HAD score >11 on either the Anxiety or Depression subscales, or difficulties with substance or eating disorders, the participant will be excluded and given a referral letter to his/her primary care doctor for further appraisal and follow-up."
+   },
+   {
+    "text": "Intake of any medication (except multivitamins), within 7 days of the study. Exceptions are birth control pill, estrogen replacement therapy, thyroxin replacement therapy and any medication administered for co-morbidities as long as they do not alter gastrointestinal motility including gastric emptying (GE) and gastric accommodation. For example, statins for hyperlipidemia, diuretics, β-adrenergic blockers, Angiotensin Converting Enzyme (ACE) inhibitors and angiotensin antagonists for hypertension, and metformin for type 2 diabetes mellitus or prediabetes are permissible. In contrast, resin sequestrants for hyperlipidemia (which may reduce GE and reduce appetite, α2-adrenergic agonists for hypertension, or other glucagon-like peptide-1 receptor agonists (GLP-1) receptor agonists (exenatide) or amylin analogs (pramlintide) are not permissible because they significantly affect GE and/or gastric accommodation."
+   },
+   {
+    "text": "Delayed gastric emptying at 2 and 4 hours"
+   },
+   {
+    "text": "Hypersensitivity to the study medication, liraglutide"
+   },
+   {
+    "text": "Participate in highly intense physical activity program that could potentially interfere with study interpretation."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

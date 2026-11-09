@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2011-09-26",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Bristol-Myers Squibb"
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Saxagliptin",
    "other_names": [
     "Onglyza"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Saxagliptin"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "Saxagliptin is a new investigational medication being developed for treatment of type 2 diabetes. This study is designed to evaluate the efficacy and safety in adult Indian patients with inadequate glycaemic control with diet and exercise.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed with Type 2 diabetes\n* Patients should be drug naïve ie, not received medical treatment for diabetes\n* HbA1c ≥ 7.2% and ≤10.0% (at enrolment), HbA1c ≥ 7.0% and ≤10.0% (at randomization)\n\nExclusion Criteria:\n\n* Insulin therapy within one year of enrolment (with the exception of insulin therapy during a hospitalization or use in gestational diabetes)\n* Type 1 diabetes,history of ketoacidosis or hyperosmolar non-ketonic koma",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,85 +103,85 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Gujarat",
+   "country": "India",
+   "facility": "Research Site",
+   "lat": null,
+   "lon": null,
    "state": "Ahmedabad",
-   "country": "India",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Karnataka",
+   "country": "India",
+   "facility": "Research Site",
+   "lat": null,
+   "lon": null,
    "state": "Bangalore",
-   "country": "India",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Tamil Nadu",
+   "country": "India",
+   "facility": "Research Site",
+   "lat": null,
+   "lon": null,
    "state": "Chennai",
-   "country": "India",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Tamil Nadu",
+   "country": "India",
+   "facility": "Research Site",
+   "lat": null,
+   "lon": null,
    "state": "Coimbatore",
-   "country": "India",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Andhra Pradesh",
+   "country": "India",
+   "facility": "Research Site",
+   "lat": null,
+   "lon": null,
    "state": "Hyderabad",
-   "country": "India",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Madhya Pradesh",
+   "country": "India",
+   "facility": "Research Site",
+   "lat": null,
+   "lon": null,
    "state": "Indore",
-   "country": "India",
-   "status": null,
-   "lat": null,
-   "lon": null
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Haryāna",
-   "state": "Karnal",
    "country": "India",
-   "status": null,
+   "facility": "Research Site",
    "lat": 29.61611,
-   "lon": 76.98056
+   "lon": 76.98056,
+   "state": "Karnal",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Kerala",
-   "state": "Kochi",
    "country": "India",
-   "status": null,
+   "facility": "Research Site",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Kochi",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Maharashtra",
-   "state": "Pune",
    "country": "India",
-   "status": null,
+   "facility": "Research Site",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": "Pune",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00918879",
@@ -196,6 +196,29 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosed with Type 2 diabetes"
+   },
+   {
+    "text": "Patients should be drug naïve ie, not received medical treatment for diabetes"
+   },
+   {
+    "text": "HbA1c ≥ 7.2% and ≤10.0% (at enrolment), HbA1c ≥ 7.0% and ≤10.0% (at randomization)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Insulin therapy within one year of enrolment (with the exception of insulin therapy during a hospitalization or use in gestational diabetes)"
+   },
+   {
+    "text": "Type 1 diabetes,history of ketoacidosis or hyperosmolar non-ketonic koma"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

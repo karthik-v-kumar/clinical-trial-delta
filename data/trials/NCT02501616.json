@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Seoul National University Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Seoul National University Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -46,34 +46,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Sodium Glucose Co-transporter 2 (SGLT2) Inhibitor"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin first",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Metformin first",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dapagliflozin first",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin first",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "This is a phase 4, single center, randomized, open-labeled, cross-over design study. The primary objective of the study is to compare effect of dapagliflozine and metformin on endothelial function.\n\nSubjects are randomized to initial metformin or initial dapagliflozin group and maintained initial treatment for 8 weeks. During that period, dose of dapagliflozin is maintained 10mg/day and metformin can be titrated upto 2000 mg/day. After 1 weeks of washout period, 8 weeks' cross-over is followed.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Present with type 2 diabetes based on the disease diagnostic criteria as described by the World Health Organization (WHO)\n2. Treated with diet and exercise alone for recent 3 months\n3. Aged 20-80 years\n4. HbA1c 7\\~9%\n5. This inclusion criterion applies to females of childbearing potential (not surgically sterilized and between menarche and 1-year postmenopause) only.\n\n   * Are not breastfeeding.\n   * Test negative for pregnancy at the time of screening based on a blood serum pregnancy test.\n   * Intend not to become pregnant during the study.\n\nExclusion Criteria:\n\n1. Previous history of IHD or brain infarct\n2. Having typical anginal pain or atypical chest pain with dyspnea\n3. Modification of Diet in Renal Disease (MDRD) estimated GFR≥60 mL/min",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Boramae medical center",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Boramae medical center",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02501616",
@@ -114,6 +114,43 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Present with type 2 diabetes based on the disease diagnostic criteria as described by the World Health Organization (WHO)"
+   },
+   {
+    "text": "Treated with diet and exercise alone for recent 3 months"
+   },
+   {
+    "text": "Aged 20-80 years"
+   },
+   {
+    "text": "HbA1c 7~9%"
+   },
+   {
+    "text": "This inclusion criterion applies to females of childbearing potential (not surgically sterilized and between menarche and 1-year postmenopause) only.",
+    "sub_items": [
+     "Are not breastfeeding.",
+     "Test negative for pregnancy at the time of screening based on a blood serum pregnancy test.",
+     "Intend not to become pregnant during the study."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Previous history of IHD or brain infarct"
+   },
+   {
+    "text": "Having typical anginal pain or atypical chest pain with dyspnea"
+   },
+   {
+    "text": "Modification of Diet in Renal Disease (MDRD) estimated GFR≥60 mL/min"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

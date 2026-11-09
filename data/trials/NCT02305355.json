@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Kuhnil Pharmaceutical Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Kuhnil Pharmaceutical Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -49,33 +49,33 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Omega-3-acids ethylesters 90 4g",
    "other_names": [
     "Omacor Soft Capsule 4g"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pravastatin, Simvastatin, Atorvastatin, Rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Omega-3-acids ethylesters 90 4g, any statin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Omega-3-acids ethylesters 90 4g",
     "Drug: Pravastatin, Simvastatin, Atorvastatin, Rosuvastatin"
-   ]
+   ],
+   "label": "Omega-3-acids ethylesters 90 4g, any statin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "any statin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pravastatin, Simvastatin, Atorvastatin, Rosuvastatin"
-   ]
+   ],
+   "label": "any statin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "Assess efficacy and safety of Omacor® 4g with statin treatment for lowering TG levels in subjects with type 2 Diabetes combined with hyperlipidemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL-C \\< 100mg/dL, TG \\> 150mg/dL, patients on statin treatment for at least 6 weeks prior to randomization.\n* Type 2 Diabetes\n* HbA1c ≤ 10.0\n\nExclusion Criteria:\n\n* Type 1 Diabetes\n* Patients with PPAR gamma agonist therapy\n* Patients with acute MI, Unstable angina within 6 months\n* History of malignant tumor within 2 years\n* Women with pregnant, breast-feeding",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Bucheon St. Mary's Hospital",
    "city": "Bucheon-si",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Bucheon St. Mary's Hospital",
    "lat": 37.49889,
-   "lon": 126.78306
+   "lon": 126.78306,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02305355",
@@ -116,6 +116,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "LDL-C < 100mg/dL, TG > 150mg/dL, patients on statin treatment for at least 6 weeks prior to randomization."
+   },
+   {
+    "text": "Type 2 Diabetes"
+   },
+   {
+    "text": "HbA1c ≤ 10.0"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 Diabetes"
+   },
+   {
+    "text": "Patients with PPAR gamma agonist therapy"
+   },
+   {
+    "text": "Patients with acute MI, Unstable angina within 6 months"
+   },
+   {
+    "text": "History of malignant tumor within 2 years"
+   },
+   {
+    "text": "Women with pregnant, breast-feeding"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

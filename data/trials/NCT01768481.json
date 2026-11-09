@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Université de Montréal",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Université de Montréal"
  },
  "collaborators": [
   "Pfizer"
@@ -56,35 +56,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "Statin",
     "Lipitor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "sugar pill",
    "other_names": [
     "placebo"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Statin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "Statin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sugar pill",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: sugar pill"
-   ]
+   ],
+   "label": "Sugar pill",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "Randomized controlled trial of statin intervention in dyslipidemic obese teenagers. Primary outcome is intima media thickness before and after intervention.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Obesity\n* Abnormal Triglyceride levels (\\>1.7mmol/L).\n* Abnormal HDL-C levels (1.0mmol/L)\n\nExclusion Criteria:\n\n* Abnormal thyroid unfction (not treated)\n* Diabetes",
-  "sex": "ALL",
-  "minimum_age": "14 Years",
-  "maximum_age": "18 Years",
   "healthy_volunteers": true,
+  "maximum_age": "18 Years",
+  "minimum_age": "14 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -107,13 +107,13 @@
  },
  "sites": [
   {
-   "facility": "Hôpital Maisonneuve-Rosemont",
    "city": "Montreal",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": "Hôpital Maisonneuve-Rosemont",
    "lat": 45.50884,
-   "lon": -73.58781
+   "lon": -73.58781,
+   "state": "Quebec",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01768481",
@@ -125,6 +125,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Obesity"
+   },
+   {
+    "text": "Abnormal Triglyceride levels (>1.7mmol/L)."
+   },
+   {
+    "text": "Abnormal HDL-C levels (1.0mmol/L)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Abnormal thyroid unfction (not treated)"
+   },
+   {
+    "text": "Diabetes"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

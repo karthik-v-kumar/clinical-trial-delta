@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Centre d'Etudes et de Recherche pour l'Intensification du Traitement du Diabète",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Centre d'Etudes et de Recherche pour l'Intensification du Traitement du Diabète"
  },
  "collaborators": [],
  "conditions": [
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Vildagliptin",
    "other_names": [
     "Metformin and basal insulin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Metformin and insulin basal"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Vildagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Vildagliptin"
-   ]
+   ],
+   "label": "Vildagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The main objective is to show that the addition of Galvus versus placebo in patients with type 2 diabetes treated with metformin (at the maximum tolerated dose) and basal insulin properly titrated, allows a greater proportion of patients achieving an HbA1c below 7%.\n\nThe primary efficacy endpoint was the percentage of patients responding to treatment (HbA1c less than 7%) after 3 months of treatment with Galvus or placebo",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients treated for at least 3 months with metformin (at the maximum tolerated dose (for at least 1 month) + / - sulfamide and basal insulin\n* Patient with an HbA1c between 7 and 9% at the inclusion visit\n* Patients able to use a continuous glucose monitoring system,\n\nExclusion Criteria:\n\n* Patients already receiving a specific treatment of postprandial (GLP1, ..)\n* Patients with type 1 diabetes, or secondary diabetes\n* Patients with eating disorders\n* Patients with major complications of diabetes\n* Patients participating in another clinical trial\n* Pregnant",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "CH Sud Francilien",
    "city": "Évry",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CH Sud Francilien",
    "lat": 48.6328,
-   "lon": 2.44049
+   "lon": 2.44049,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01757587",
@@ -121,6 +121,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients treated for at least 3 months with metformin (at the maximum tolerated dose (for at least 1 month) + / - sulfamide and basal insulin"
+   },
+   {
+    "text": "Patient with an HbA1c between 7 and 9% at the inclusion visit"
+   },
+   {
+    "text": "Patients able to use a continuous glucose monitoring system,"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients already receiving a specific treatment of postprandial (GLP1, ..)"
+   },
+   {
+    "text": "Patients with type 1 diabetes, or secondary diabetes"
+   },
+   {
+    "text": "Patients with eating disorders"
+   },
+   {
+    "text": "Patients with major complications of diabetes"
+   },
+   {
+    "text": "Patients participating in another clinical trial"
+   },
+   {
+    "text": "Pregnant"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

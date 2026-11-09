@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Western Ontario, Canada",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Western Ontario, Canada"
  },
  "collaborators": [
   "Pfizer"
@@ -51,23 +51,23 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Treatment algorithm:caduet, Amlodipine, ACEI-ARB combo dose, a-blocker, b-blocker or spironolactone, dyslipidemic therapy with ezetamide",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Treatment algorithm:caduet, Amlodipine, ACEI-ARB combo dose, a-blocker, b-blocker or spironolactone, dyslipidemic therapy with ezetamide"
-   ]
+   ],
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "2",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "The objective of this study is to assess if the implementation of a treatment algorithm including initial treatment with a low dose diuretic/ACE-inhibitor or ARB combination and subsequently a low dose DHP-CCB/statin combination will improve the management of hypertension/hypercholesterolemia compared to guidelines-base management at family practices.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* male or female subjects 18 years or older\n* documented diagnoses of hypertension and of hypercholesterolemia or current therapy for these conditions\n* uncontrolled hypertension (SBP \\>140 mmHg or DBP \\>90 mmHg) or cholesterol levels above their threshold based on their global atherosclerotic risk profile (based on ATP III assessment)\n* ability to give written informed consent\n\nExclusion Criteria:\n\n* ischemic heart disease, atrial fibrillation, chronic kidney disease and significant liver disease\n* currently prescribed 3 or more drugs to control blood pressure\n* currently prescribed 2 or more drugs to control hypercholesterolemia\n* participating in other hypertension/hypercholesterolemia studies",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "facility": "Robarts Research Insititute",
    "city": "London",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Robarts Research Insititute",
    "lat": 42.98339,
-   "lon": -81.23304
+   "lon": -81.23304,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00637078",
@@ -108,6 +108,38 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "male or female subjects 18 years or older"
+   },
+   {
+    "text": "documented diagnoses of hypertension and of hypercholesterolemia or current therapy for these conditions"
+   },
+   {
+    "text": "uncontrolled hypertension (SBP >140 mmHg or DBP >90 mmHg) or cholesterol levels above their threshold based on their global atherosclerotic risk profile (based on ATP III assessment)"
+   },
+   {
+    "text": "ability to give written informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "ischemic heart disease, atrial fibrillation, chronic kidney disease and significant liver disease"
+   },
+   {
+    "text": "currently prescribed 3 or more drugs to control blood pressure"
+   },
+   {
+    "text": "currently prescribed 2 or more drugs to control hypercholesterolemia"
+   },
+   {
+    "text": "participating in other hypertension/hypercholesterolemia studies"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

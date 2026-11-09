@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital Tuebingen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital Tuebingen"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin (Jardiance®)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine (Lantus®)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin (Jardiance®)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin (Jardiance®)"
-   ]
+   ],
+   "label": "Empagliflozin (Jardiance®)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin Glargine (Lantus®)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Glargine (Lantus®)"
-   ]
+   ],
+   "label": "Insulin Glargine (Lantus®)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "Empagliflozin effect on glucose toxicity in type 2 diabetes patients - a randomized, open-label, controlled, parallel group, exploratory study",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nSubjects must fulfill all of the following criteria before inclusion in the study:\n\n* The informed consent form must be signed before any study specific tests or procedures are done\n* Male or female patients aged between 40 and 70 years (including) at the first screening visit\n* Patients diagnosed with T2DM\n* HbA1c between 7-9% (including)\n* Stable treatment with antidiabetic drugs over the last 4 weeks\n* Accepted background medication:\n\n  * Metformin up to 2000 mg per day and/or\n  * DPP-IV inhibitors:\n\nLinagliptin up to 5 mg per day Sitagliptin up to 100 mg per day Vildagliptin up to 100 mg per day Saxagliptin up to 5 mg per day\n\n* Body mass index (BMI) between 25 and 40 kg/m2 (including)\n* Ability to understand and follow study-related instructions\n* No clinical relevant abnormalities during ECG and cardiac examinations\n\nExclusion Criteria:\n\nSubjects are to be excluded from the study if they display any of the following criteria:\n\n* Unstable Angina pectoris, myocardial infarction or stroke within 1 year before inclusion in the study\n* History of atrial fibrillation\n* Uncontrolled arterial hypertension (\\> 160/100 mmHg in three subsequent measurements - mean value)\n* eGFR \\< 60 ml/min/1.73 m2\n* Macroalbuminuria defined as ≥ 300 mg albumin / 24h urine\n* Triglyceride \\> 250 mg/dl\n* Genetic muscle disease\n* Known coagulation disorder\n* Treatment with anti-platelet therapy and anticoagulation which cannot be paused for medical reasons\n* Treatment with anticoagulants within 7 days prior to the muscle biopsy\n* Contraindications according to the local SmPC of Lantus® or Jardiance® (see Appendix 1)\n* History of hypersensitivity to any of the study drugs or their ingredients or to drugs with similar structure or to the local anesthetic scandicaine or lidocaine\n* Addiction or other diseases that preclude the patient from appropriately assessing the nature and scope as well as possible consequences of the clinical study\n* Pregnant or breast-feeding women\n* Women of childbearing potential unless women who meet the following criteria:\n\n  * Post-menopausal (12 months natural amenorrhea or 6 months amenorrhea with serum follicle-stimulating hormone \\[FSH\\] \\> 40 U/mL)\n  * Postoperatively (six weeks after bilateral ovariectomy with or without hysterectomy)\n  * Regular and correct use of a contraceptive method with error rate \\<1% per year such as implants, depot injections, oral contraceptives or intrauterine devices\n  * Sexual abstinence\n  * Vasectomy of the partner\n* Males must agree not to father a child and to refrain from donating semen or sperm while participating in the study and for 90 days following discontinuation from this study",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,22 +94,22 @@
  },
  "sites": [
   {
-   "facility": "University Hospital",
    "city": "Tübingen",
-   "state": "Baden-Wurttemberg",
    "country": "Germany",
-   "status": null,
+   "facility": "University Hospital",
    "lat": 48.52266,
-   "lon": 9.05222
+   "lon": 9.05222,
+   "state": "Baden-Wurttemberg",
+   "status": null
   },
   {
-   "facility": "German Diabetes Center, Leibniz-Center for Diabetes Research at the Heinrich-Heine-University Duesseldorf",
    "city": "Düsseldorf",
-   "state": "North Rhine-Westphalia",
    "country": "Germany",
-   "status": null,
+   "facility": "German Diabetes Center, Leibniz-Center for Diabetes Research at the Heinrich-Heine-University Duesseldorf",
    "lat": 51.22319,
-   "lon": 6.77927
+   "lon": 6.77927,
+   "state": "North Rhine-Westphalia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03437330",
@@ -121,6 +121,129 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "The informed consent form must be signed before any study specific tests or procedures are done",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   },
+   {
+    "text": "Male or female patients aged between 40 and 70 years (including) at the first screening visit",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   },
+   {
+    "text": "Patients diagnosed with T2DM",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   },
+   {
+    "text": "HbA1c between 7-9% (including)",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   },
+   {
+    "text": "Stable treatment with antidiabetic drugs over the last 4 weeks",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   },
+   {
+    "text": "Accepted background medication:",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study",
+    "sub_items": [
+     "Metformin up to 2000 mg per day and/or",
+     "DPP-IV inhibitors:"
+    ]
+   },
+   {
+    "text": "Linagliptin up to 5 mg per day Sitagliptin up to 100 mg per day Vildagliptin up to 100 mg per day Saxagliptin up to 5 mg per day",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   },
+   {
+    "text": "Body mass index (BMI) between 25 and 40 kg/m2 (including)",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   },
+   {
+    "text": "Ability to understand and follow study-related instructions",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   },
+   {
+    "text": "No clinical relevant abnormalities during ECG and cardiac examinations",
+    "group": "Subjects must fulfill all of the following criteria before inclusion in the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Unstable Angina pectoris, myocardial infarction or stroke within 1 year before inclusion in the study",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "History of atrial fibrillation",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Uncontrolled arterial hypertension (> 160/100 mmHg in three subsequent measurements - mean value)",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "eGFR < 60 ml/min/1.73 m2",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Macroalbuminuria defined as ≥ 300 mg albumin / 24h urine",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Triglyceride > 250 mg/dl",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Genetic muscle disease",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Known coagulation disorder",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Treatment with anti-platelet therapy and anticoagulation which cannot be paused for medical reasons",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Treatment with anticoagulants within 7 days prior to the muscle biopsy",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Contraindications according to the local SmPC of Lantus® or Jardiance® (see Appendix 1)",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "History of hypersensitivity to any of the study drugs or their ingredients or to drugs with similar structure or to the local anesthetic scandicaine or lidocaine",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Addiction or other diseases that preclude the patient from appropriately assessing the nature and scope as well as possible consequences of the clinical study",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Pregnant or breast-feeding women",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   },
+   {
+    "text": "Women of childbearing potential unless women who meet the following criteria:",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria",
+    "sub_items": [
+     "Post-menopausal (12 months natural amenorrhea or 6 months amenorrhea with serum follicle-stimulating hormone [FSH] > 40 U/mL)",
+     "Postoperatively (six weeks after bilateral ovariectomy with or without hysterectomy)",
+     "Regular and correct use of a contraceptive method with error rate <1% per year such as implants, depot injections, oral contraceptives or intrauterine devices",
+     "Sexual abstinence",
+     "Vasectomy of the partner"
+    ]
+   },
+   {
+    "text": "Males must agree not to father a child and to refrain from donating semen or sperm while participating in the study and for 90 days following discontinuation from this study",
+    "group": "Subjects are to be excluded from the study if they display any of the following criteria"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

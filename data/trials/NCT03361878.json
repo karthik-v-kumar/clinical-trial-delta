@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "NHS Tayside",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "NHS Tayside"
  },
  "collaborators": [
   "University of Southern Denmark",
@@ -53,25 +53,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin Hydrochloride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin Tolerant",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin Hydrochloride"
-   ]
+   ],
+   "label": "Metformin Tolerant",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin Intolerant",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin Hydrochloride"
-   ]
+   ],
+   "label": "Metformin Intolerant",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "Pharmacokinetic study of metformin intolerance",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* White European\n* Type 2 diabetes\n* Meet criteria for tolerance or intolerance as described\n\nExclusion Criteria:\n\n* Estimated glomerular filtration rate (eGFR) \\<60\n* Cognitive impairment\n* Pregnancy\n* Concurrent treatment with: acarbose, cephalexin, cimetidine, pyrimethamine, or tyrosine kinase inhibitors\n* History of gastric bypass\n* Evidence of slowed gastric or intestinal motility",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,6 +102,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "White European"
+   },
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Meet criteria for tolerance or intolerance as described"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Estimated glomerular filtration rate (eGFR) <60"
+   },
+   {
+    "text": "Cognitive impairment"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Concurrent treatment with: acarbose, cephalexin, cimetidine, pyrimethamine, or tyrosine kinase inhibitors"
+   },
+   {
+    "text": "History of gastric bypass"
+   },
+   {
+    "text": "Evidence of slowed gastric or intestinal motility"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

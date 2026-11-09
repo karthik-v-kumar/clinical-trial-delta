@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-12-22",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,34 +51,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin (MK0431)",
    "other_names": [
     "MK0431"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: glipizide",
    "other_names": [
     "Glipizide"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin 100 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin (MK0431)"
-   ]
+   ],
+   "label": "Sitagliptin 100 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glipizide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: glipizide"
-   ]
+   ],
+   "label": "Glipizide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The purpose of this investigational study is to determine the safety and effectiveness of an investigational drug in patients with type 2 diabetes mellitus (a specific type of diabetes).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who are at least 18 years of age and not older than 78 with type 2 diabetes mellitus",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,6 +109,16 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who are at least 18 years of age and not older than 78 with type 2 diabetes mellitus"
+   }
+  ],
+  "exclusion": [],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

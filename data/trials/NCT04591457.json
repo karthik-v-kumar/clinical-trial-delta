@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Universitas Indonesia",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Universitas Indonesia"
  },
  "collaborators": [],
  "conditions": [
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin Glargine Sansulin",
    "other_names": [
     "Sansulin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine Pen Injector [Lantus]",
    "other_names": [
     "Lantus"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Insulin Glargine Sansulin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin Glargine Sansulin"
-   ]
+   ],
+   "label": "Insulin Glargine Sansulin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin Glargine Lantus",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Glargine Pen Injector [Lantus]"
-   ]
+   ],
+   "label": "Insulin Glargine Lantus",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "This is an open-label randomised multicenter clinical study to investigate efficacy, safety, and immunogenicity of the drug products: Insulin Glargine biosimilar ® Log-G and its reference Lantus® in type 2 diabetes mellitus patients",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patients with DM type 2, age at least 18 years, both genders.\n2. T2DM patients who have been diagnosed for \\> 1 year, and have been treated with one oral antidiabetic at stable doses for \\> 3 months prior to screening, have BMI of 18.0 to 35.0 kg/m2 inclusive, and HbA1C of \\> 7.0% and insulin-naive.\n3. Patients who are cooperative, reliable, and agree to have regular injections of insulin, and are willing to comply with protocol procedure (willing to sign the informed consent).\n4. Female patients with adequate protection from conception. Females of childbearing potential must use a reliable method of birth control during the study (barrier-method or IUD). Women with history of bilateral tubal ligation, or with total hysterectomy, or who are 2 years postmenopausal are also eligible.\n\nExclusion Criteria:\n\n1. Pregnancy (confirmed by a positive urine pregnancy test) or lactation.\n2. History of severe hypoglycemia during the last year (blood glucose level \\<50 mg/dl with transient dysfunction of central nervous system without other apparent cause)\n3. History of diabetic ketoacidosis \\> 2x within the last year.\n4. Having hyperglycemia hyperosmolar status (HHS)\n5. Renal impairment (eGFR \\< 30 mL/min).\n6. An employee of the Investigator or the Sponsor.\n7. Participating in another clinical study within the past 3 months.\n8. Receiving any immunosuppressants, including corticosteroids or cytostatics within the last year or during the study.\n9. Receiving any drug or supplement with hypoglycemic activity (except oral antidiabetics) within 4 weeks prior to screening and during the study.\n10. Receiving any drug with hyperglycemic activity within 4 weeks prior to screening and during the study (eg. second generation antipsychotics, corticosteroids, tacrolimus, protease inhibitors).\n11. Have undergone pancreatectomy or pancreas / islet cell transplant.\n12. Mental disorder\n13. Any malignancies",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "Department of Internal Medicine Cipto Mangunkusumo General Hospital, Faculty of Medicine Universitas Indonesia",
    "city": "Jakarta Pusat",
-   "state": "Jakarta Special Capital Region",
    "country": "Indonesia",
-   "status": null,
+   "facility": "Department of Internal Medicine Cipto Mangunkusumo General Hospital, Faculty of Medicine Universitas Indonesia",
    "lat": -6.1818,
-   "lon": 106.8223
+   "lon": 106.8223,
+   "state": "Jakarta Special Capital Region",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04591457",
@@ -126,6 +126,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with DM type 2, age at least 18 years, both genders."
+   },
+   {
+    "text": "T2DM patients who have been diagnosed for > 1 year, and have been treated with one oral antidiabetic at stable doses for > 3 months prior to screening, have BMI of 18.0 to 35.0 kg/m2 inclusive, and HbA1C of > 7.0% and insulin-naive."
+   },
+   {
+    "text": "Patients who are cooperative, reliable, and agree to have regular injections of insulin, and are willing to comply with protocol procedure (willing to sign the informed consent)."
+   },
+   {
+    "text": "Female patients with adequate protection from conception. Females of childbearing potential must use a reliable method of birth control during the study (barrier-method or IUD). Women with history of bilateral tubal ligation, or with total hysterectomy, or who are 2 years postmenopausal are also eligible."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy (confirmed by a positive urine pregnancy test) or lactation."
+   },
+   {
+    "text": "History of severe hypoglycemia during the last year (blood glucose level <50 mg/dl with transient dysfunction of central nervous system without other apparent cause)"
+   },
+   {
+    "text": "History of diabetic ketoacidosis > 2x within the last year."
+   },
+   {
+    "text": "Having hyperglycemia hyperosmolar status (HHS)"
+   },
+   {
+    "text": "Renal impairment (eGFR < 30 mL/min)."
+   },
+   {
+    "text": "An employee of the Investigator or the Sponsor."
+   },
+   {
+    "text": "Participating in another clinical study within the past 3 months."
+   },
+   {
+    "text": "Receiving any immunosuppressants, including corticosteroids or cytostatics within the last year or during the study."
+   },
+   {
+    "text": "Receiving any drug or supplement with hypoglycemic activity (except oral antidiabetics) within 4 weeks prior to screening and during the study."
+   },
+   {
+    "text": "Receiving any drug with hyperglycemic activity within 4 weeks prior to screening and during the study (eg. second generation antipsychotics, corticosteroids, tacrolimus, protease inhibitors)."
+   },
+   {
+    "text": "Have undergone pancreatectomy or pancreas / islet cell transplant."
+   },
+   {
+    "text": "Mental disorder"
+   },
+   {
+    "text": "Any malignancies"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

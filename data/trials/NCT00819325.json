@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Queen Elizabeth II Health Sciences Centre",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Queen Elizabeth II Health Sciences Centre"
  },
  "collaborators": [
   "Nova Scotia Health Research Foundation"
@@ -53,31 +53,31 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "pioglitazone",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "oral hypoglycemic agents",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intensive glycemic control",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: pioglitazone",
     "Drug: oral hypoglycemic agents"
-   ]
+   ],
+   "label": "Intensive glycemic control",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "conservative glycemic control",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: oral hypoglycemic agents"
-   ]
+   ],
+   "label": "conservative glycemic control",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Patients with diabetes have worse outcomes after percutaneous coronary intervention (PCI) procedures, compared to those patients without diabetes. They are at increased risk of death, heart attack, or needing further procedures due to renarrowing of their coronary narrowings after implantation of a coronary stent. Studies have suggested that poor control of diabetes may be partly responsible for these poor outcomes. Thiazolidinedione drugs, such as pioglitazone, can improve the diabetes control and make the patient more sensitive to the effects of insulin. Preliminary studies suggest that pioglitazone may also help prevent renarrowing after PCI.\n\nThis study was a pilot study designed to determine whether more aggressive treatment of the diabetes with the routine use of the drug pioglitazone (30mg/day for 6 months), in addition to the patient's usual diabetic medications adjusted to optimize their diabetic control (get glycated hemoglobin \\< 7%), could reduce the amount of tissue buildup within the stent after 6 months, compared to a group less aggressively treated without pioglitazone and their usual medications for diabetes.\n\nAn intravascular ultrasound probe was used to assess the extent of tissue buildup within the stent and this was performed immediately after the PCI as a baseline and repeated after 6 months of therapy.\n\nThe investigators hypothesize that the more aggressive diabetic treatment with pioglitazone would reduce the extent of tissue growth within the stent after 6 months of therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* between the ages 30 to 80 years\n* had type 2 diabetes mellitus treated with diet or oral hypoglycemic agents (OHA: sulfonylurea or metformin alone or the combination of sulfonylurea or metformin as long as metformin dose was \\< 2000 mg/d)\n* All patients were undergoing either elective or urgent PCI of a de novo native coronary lesion (\\> 70 % diameter stenosis) in a vessel ≥ 2.5 mm diameter that was felt to be suitable for stenting and an IVUS examination.\n\nExclusion Criteria:\n\n* left main \\> 50 % stenosis\n* ongoing congestive heart failure or left ventricular ejection fraction \\< 30%\n* primary PCI for ST elevation MI\n* use of insulin or thiazolidinedione therapy (rosiglitazone or pioglitazone) immediately before PCI\n* known intolerance to thiazolidinediones\n* creatinine \\> 130 µmol/L\n* significant liver disease: ALT or AST \\> 3 times upper limit of normal, history of cirrhosis, or hepatitis\n* women who were pregnant, breastfeeding, or childbearing potential",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Queen Elizabeth II Health Sciences Centre",
    "city": "Halifax",
-   "state": "Nova Scotia",
    "country": "Canada",
-   "status": null,
+   "facility": "Queen Elizabeth II Health Sciences Centre",
    "lat": 44.64269,
-   "lon": -63.57688
+   "lon": -63.57688,
+   "state": "Nova Scotia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00819325",
@@ -118,6 +118,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "between the ages 30 to 80 years"
+   },
+   {
+    "text": "had type 2 diabetes mellitus treated with diet or oral hypoglycemic agents (OHA: sulfonylurea or metformin alone or the combination of sulfonylurea or metformin as long as metformin dose was < 2000 mg/d)"
+   },
+   {
+    "text": "All patients were undergoing either elective or urgent PCI of a de novo native coronary lesion (> 70 % diameter stenosis) in a vessel ≥ 2.5 mm diameter that was felt to be suitable for stenting and an IVUS examination."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "left main > 50 % stenosis"
+   },
+   {
+    "text": "ongoing congestive heart failure or left ventricular ejection fraction < 30%"
+   },
+   {
+    "text": "primary PCI for ST elevation MI"
+   },
+   {
+    "text": "use of insulin or thiazolidinedione therapy (rosiglitazone or pioglitazone) immediately before PCI"
+   },
+   {
+    "text": "known intolerance to thiazolidinediones"
+   },
+   {
+    "text": "creatinine > 130 µmol/L"
+   },
+   {
+    "text": "significant liver disease: ALT or AST > 3 times upper limit of normal, history of cirrhosis, or hepatitis"
+   },
+   {
+    "text": "women who were pregnant, breastfeeding, or childbearing potential"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

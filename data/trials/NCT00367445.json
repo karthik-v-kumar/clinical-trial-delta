@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Pfizer",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Pfizer"
  },
  "collaborators": [],
  "conditions": [
@@ -45,14 +45,14 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Inhaled Human Insulin (Exubera)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Glargine (Lantus)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -65,10 +65,10 @@
  "brief_summary": "To compare short-term efficacy and safety of Exubera vs Lantus in patients with type 2 diabetes mellitus",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diabetes mellitus Type 2\n\nExclusion Criteria:\n\n* Severe Asthma, severe COPD\n* Smoking",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -76,13 +76,13 @@
  },
  "sites": [
   {
-   "facility": "Pfizer Investigational Site",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Pfizer Investigational Site",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00367445",
@@ -94,6 +94,23 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diabetes mellitus Type 2"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe Asthma, severe COPD"
+   },
+   {
+    "text": "Smoking"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

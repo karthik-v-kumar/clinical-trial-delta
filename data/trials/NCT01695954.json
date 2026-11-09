@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-08-11",
  "has_results": true,
  "lead_sponsor": {
-  "name": "NYU Langone Health",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "NYU Langone Health"
  },
  "collaborators": [
   "New York City Health and Hospitals Corporation",
@@ -53,51 +53,51 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pitavastatin",
    "other_names": [
     "Livalo"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Darunavir",
    "other_names": [
     "Prezista"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ritonavir",
    "other_names": [
     "Norvir"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Efavirenz",
    "other_names": [
     "Sustiva"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Arm A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pitavastatin",
     "Drug: Efavirenz"
-   ]
+   ],
+   "label": "Arm A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Arm B",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pitavastatin",
     "Drug: Darunavir",
     "Drug: Ritonavir"
-   ]
+   ],
+   "label": "Arm B",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -113,23 +113,23 @@
  "brief_summary": "The main goal of this study is to determine how taking efavirenz affects the levels of pitavastatin in the bloodstream when both drugs are taken together and to see how darunavir with ritonavir affects the levels of pitavastatin in the bloodstream. Secondary goals are to see how taking pitavastatin affects the levels in the blood of efavirenz when both drugs are taken together and to see how taking pitavastatin affects the levels in the blood of darunavir.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Absence of HIV-1 infection as documented by any licensed ELISA test kit within 21 days prior to study entry.\n* Male or female aged 18-60 years.\n* Able and willing to provide informed consent.\n* All men and women of reproductive potential must practice adequate birth control to prevent pregnancy from start of the study until completion of the study.\n* Women of childbearing potential must have a negative serum or urine pregnancy test within 14 days prior to study entry and day of entry.\n* Hemoglobin \\> 12.5 g/dL for men; \\> 11.5 g/dL for women;\n* Absolute neutrophil count \\>1,500 cells/mm3;\n* Platelet count \\> 100,000 platelets/mm3;\n* AST (SGOT)/ALT (SGPT) \\<1.5X ULN;\n* Creatinine \\<1.5 X ULN\n* Subject is within 20% (+/-) of ideal body weight and must weigh at least 50 kg\n\nExclusion Criteria:\n\n* Use of illicit drugs or alcohol which would interfere with the completion of this study.\n* Pregnancy or breast-feeding.\n* History of chronic illnesses such as hypertension, coronary artery disease, arthritis, diabetes, or any chronic gastrointestinal conditions which might interfere with drug absorption.\n* Any medical condition which, in the opinion of the investigator, would interfere with the subjects ability to participate in this protocol.\n* Use of prohibited protocol-specified drugs, prescription or over-the-counter within 14 days prior to study entry.\n* Participation in any investigational drug studies within 30 days prior to study entry.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": true,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Bellevue/NYU AIDS Clinical Trials Unit",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Bellevue/NYU AIDS Clinical Trials Unit",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01695954",
@@ -141,6 +141,65 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Absence of HIV-1 infection as documented by any licensed ELISA test kit within 21 days prior to study entry."
+   },
+   {
+    "text": "Male or female aged 18-60 years."
+   },
+   {
+    "text": "Able and willing to provide informed consent."
+   },
+   {
+    "text": "All men and women of reproductive potential must practice adequate birth control to prevent pregnancy from start of the study until completion of the study."
+   },
+   {
+    "text": "Women of childbearing potential must have a negative serum or urine pregnancy test within 14 days prior to study entry and day of entry."
+   },
+   {
+    "text": "Hemoglobin > 12.5 g/dL for men; > 11.5 g/dL for women;"
+   },
+   {
+    "text": "Absolute neutrophil count >1,500 cells/mm3;"
+   },
+   {
+    "text": "Platelet count > 100,000 platelets/mm3;"
+   },
+   {
+    "text": "AST (SGOT)/ALT (SGPT) <1.5X ULN;"
+   },
+   {
+    "text": "Creatinine <1.5 X ULN"
+   },
+   {
+    "text": "Subject is within 20% (+/-) of ideal body weight and must weigh at least 50 kg"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of illicit drugs or alcohol which would interfere with the completion of this study."
+   },
+   {
+    "text": "Pregnancy or breast-feeding."
+   },
+   {
+    "text": "History of chronic illnesses such as hypertension, coronary artery disease, arthritis, diabetes, or any chronic gastrointestinal conditions which might interfere with drug absorption."
+   },
+   {
+    "text": "Any medical condition which, in the opinion of the investigator, would interfere with the subjects ability to participate in this protocol."
+   },
+   {
+    "text": "Use of prohibited protocol-specified drugs, prescription or over-the-counter within 14 days prior to study entry."
+   },
+   {
+    "text": "Participation in any investigational drug studies within 30 days prior to study entry."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

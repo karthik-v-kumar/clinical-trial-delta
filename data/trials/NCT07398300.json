@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Copenhagen University Hospital, Rigshospitalet",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Copenhagen University Hospital, Rigshospitalet"
  },
  "collaborators": [],
  "conditions": [
@@ -49,42 +49,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "GIP",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "GLP-1",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Saline (0.9% Sodium Chloride)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "GIP infusion",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: GIP"
-   ]
+   ],
+   "label": "GIP infusion",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "GLP-1 infusion",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: GLP-1"
-   ]
+   ],
+   "label": "GLP-1 infusion",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Saline Placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Saline (0.9% Sodium Chloride)"
-   ]
+   ],
+   "label": "Saline Placebo",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -96,23 +96,23 @@
  "brief_summary": "This study investigates how the naturally occurring gut hormones GIP and GLP-1 influence whole-body glucose uptake and organ perfusion in humans. Using a state-of-the-art total-body PET-CT scanner, the study measures dynamic uptake of the glucose analogue 18F-FDG and blood flow using H₂¹⁵O across multiple organs during controlled elevations of plasma glucose and endogenous insulin secretion.\n\nThe project consists of two sub-studies. Sub-study 1 includes healthy individuals who undergo three experimental visits with infusions of GIP, GLP-1, or saline (placebo) during a hyperglycemic clamp followed by FDG PET-CT scanning.\n\nSub-study 2 includes healthy individuals and participants with type 2 diabetes who undergo two experimental visits with saline followed by either GIP or GLP-1 during a hyperglycemic clamp, combined with repeated H₂¹⁵O PET-CT measurements of perfusion.\n\nThe primary aims are to quantify insulin-mediated skeletal muscle glucose uptake (sub-study 1) and skeletal muscle perfusion (sub-study 2). Secondary aims include assessment of glucose uptake and perfusion across adipose tissue, liver, and additional organs. The results will provide novel physiological insight into postprandial glucose metabolism and serve as reference data for future whole-body PET research.",
  "eligibility": {
   "criteria": "Sub-study 1 (Healthy individuals):\n\n* Age 23-50 years\n* BMI 20.0-26.9 kg/m²\n* HbA1c \\< 42 mmol/mol\n* Able to provide informed consent\n\nSub-study 2 - Participants with Type 2 Diabetes:\n\n* Age 23-60 years\n* Diagnosed with type 2 diabetes for ≥3 months\n* HbA1c \\> 53 mmol/mol\n* Treatment with metformin only\n* Able to provide informed consent\n\nSub-study 2 - Healthy control participants:\n\n* Age 23-64 years\n* HbA1c \\< 42 mmol/mol\n* Able to provide informed consent\n\nExclusion Criteria (applies to all participants unless otherwise specified):\n\n* Anaemia (haemoglobin below normal range)\n* ALT \\> 2× upper normal limit or any known hepatobiliary or gastrointestinal disorder\n* Kidney disease (creatinine above normal range)\n* Previous gastric or intestinal resection (except appendectomy or cholecystectomy) or major abdominal surgery (including bariatric surgery)\n* For Sub-study 1: Type 1 or type 2 diabetes or HbA1c ≥ 42 mmol/mol\n* Use of glucose-lowering medications other than metformin (Sub-study 2 only)\n* Chronic obstructive pulmonary disease (Sub-study 2 only)\n* Regular tobacco smoking or use of nicotine-containing products\n* Claustrophobia\n* Pregnancy, breastfeeding, or intention to become pregnant during the study period\n* Initiation of special diets, major lifestyle changes, or weight loss \\> 5% within 3 months prior to or during the study\n* Any medication or physical/psychological condition that may interfere with participation (per investigator judgement)\n* Inability to speak or read Danish",
-  "sex": "ALL",
-  "minimum_age": "23 Years",
-  "maximum_age": "64 Years",
   "healthy_volunteers": true,
+  "maximum_age": "64 Years",
+  "minimum_age": "23 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Copenhagen University Hospital - Rigshospitalet",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": "RECRUITING",
+   "facility": "Copenhagen University Hospital - Rigshospitalet",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07398300",
@@ -124,6 +124,81 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [],
+  "exclusion": [
+   {
+    "text": "Anaemia (haemoglobin below normal range)",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "ALT > 2× upper normal limit or any known hepatobiliary or gastrointestinal disorder",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Kidney disease (creatinine above normal range)",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Previous gastric or intestinal resection (except appendectomy or cholecystectomy) or major abdominal surgery (including bariatric surgery)",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "For Sub-study 1: Type 1 or type 2 diabetes or HbA1c ≥ 42 mmol/mol",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Use of glucose-lowering medications other than metformin (Sub-study 2 only)",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Chronic obstructive pulmonary disease (Sub-study 2 only)",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Regular tobacco smoking or use of nicotine-containing products",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Claustrophobia",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Pregnancy, breastfeeding, or intention to become pregnant during the study period",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Initiation of special diets, major lifestyle changes, or weight loss > 5% within 3 months prior to or during the study",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Any medication or physical/psychological condition that may interfere with participation (per investigator judgement)",
+    "group": "(applies to all participants unless otherwise specified)"
+   },
+   {
+    "text": "Inability to speak or read Danish",
+    "group": "(applies to all participants unless otherwise specified)"
+   }
+  ],
+  "notes": [
+   "Sub-study 1 (Healthy individuals):",
+   "Age 23-50 years",
+   "BMI 20.0-26.9 kg/m²",
+   "HbA1c < 42 mmol/mol",
+   "Able to provide informed consent",
+   "Sub-study 2 - Participants with Type 2 Diabetes:",
+   "Age 23-60 years",
+   "Diagnosed with type 2 diabetes for ≥3 months",
+   "HbA1c > 53 mmol/mol",
+   "Treatment with metformin only",
+   "Able to provide informed consent",
+   "Sub-study 2 - Healthy control participants:",
+   "Age 23-64 years",
+   "HbA1c < 42 mmol/mol",
+   "Able to provide informed consent"
+  ]
+ },
  "in_watchlist": true,
  "history": []
 }

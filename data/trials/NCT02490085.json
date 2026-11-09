@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Institut de Recherches Cliniques de Montreal",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Institut de Recherches Cliniques de Montreal"
  },
  "collaborators": [
   "Réseau de recherche en santé cardiométabolique, diabète et obésité"
@@ -50,50 +50,50 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "24-hour intervention with multiple daily injections",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "24-hour intervention with closed-loop strategy",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DEVICE",
    "name": "Insulin pump Accu-Chek Combo",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "Dexcom G4 Platinum",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Multiple daily injections",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: 24-hour intervention with multiple daily injections",
     "Drug: Insulin",
     "Device: Dexcom G4 Platinum"
-   ]
+   ],
+   "label": "Multiple daily injections",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Closed-loop strategy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: 24-hour intervention with closed-loop strategy",
     "Drug: Insulin",
     "Device: Insulin pump Accu-Chek Combo",
     "Device: Dexcom G4 Platinum"
-   ]
+   ],
+   "label": "Closed-loop strategy",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The introduction of insulin pump therapy in patients with type 2 diabetes using multiple daily injections and poorly controlled can be considered in order to improve glycemic control. Recent developments of continuous glucose sensors and insulin infusion pumps have motivated the research toward \"closed-loop'' strategies to regulate glucose levels for patients with diabetes. In a closed-loop strategy, the pump(s) infusion rate is altered based on a computer generated recommendation that rely on continuous glucose sensor readings. This study confirmed the feasibility and potential of the closed-loop strategy to improve glycemic control while reducing the risk of hypoglycemia in patients with type 2 diabetes but did not target the population most likely to benefit from this strategy.The objective ot this study is to compare the efficacy of closed-loop strategy to multiple daily injections in regulating glucose levels for 24 hours in elderly adults with type 2 diabetes under intensive insulin therapy. The investigators hypothesize that closed-loop strategy will increase the time spent in the target range in adults with type 2 diabetes compared to multiple daily injections.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes.\n2. Males and females ≥ 55 years of old.\n3. Body mass index above 25 kg/m2\n4. Non fragile defined based on Moorhouse et al. scale \\[23\\].\n5. Using at least 3 insulin injections per day. However, basal insulin injection must be injected at bedtime without injection of basal insulin in the morning. Combination with any other anti-diabetic therapy is acceptable as long at this therapy was introduced at least 6 weeks prior the 1s intervention and is kept stable all along the protocol.\n6. HbA1c above 6%.\n\nExclusion Criteria:\n\n1. Advanced\n\n   1. Nephropathy defined by creatinine clearance \\<30 ml/min.\n   2. Retinopathy as proliferative retinopathy or recent (\\<3 month) eye bleeding or laser therapy. If the patient have undergone panphoto-coagulation inclusion is acceptable.\n   3. Autonomic neuropathy with clinically significant gastroparesis according to investigator evaluation.\n2. Recent (\\< 6 months) acute macrovascular event e.g. acute coronary syndrome or cardiac surgery.\n3. A recent (\\< 2 months) injury to body or limb, muscular disorder, use of any medication or other significant medical disorder if that injury, medication or disease in the judgment of the investigator will affect the ability to walk.\n4. A recent (\\< 2 months) infection needing IV antibiotic or hospitalization\n5. Severe hypoglycemic episode within two weeks of screening.\n6. Current use of glucocorticoid medication (by any route of administration except low dose stable inhaled).\n7. Recent initiation or dose modification (\\<2 months) of therapy known to interfere with glucose metabolism (e.g. neuroleptics, anti-psychotics, etc.)\n8. Known or suspected allergy to the trial products or meal contents.\n9. Other serious medical illness likely to interfere with study participation or with the ability to complete the trial by the judgment of the investigator.",
-  "sex": "ALL",
-  "minimum_age": "55 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "55 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,22 +116,22 @@
  },
  "sites": [
   {
-   "facility": "Institut de recherches cliniques de Montréal",
    "city": "Montreal",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": "Institut de recherches cliniques de Montréal",
    "lat": 45.50884,
-   "lon": -73.58781
+   "lon": -73.58781,
+   "state": "Quebec",
+   "status": null
   },
   {
-   "facility": "Centre hospitalier universitaire de Sherbrooke",
    "city": "Sherbrooke",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": "Centre hospitalier universitaire de Sherbrooke",
    "lat": 45.40008,
-   "lon": -71.89908
+   "lon": -71.89908,
+   "state": "Quebec",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02490085",
@@ -143,6 +143,64 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes."
+   },
+   {
+    "text": "Males and females ≥ 55 years of old."
+   },
+   {
+    "text": "Body mass index above 25 kg/m2"
+   },
+   {
+    "text": "Non fragile defined based on Moorhouse et al. scale [23]."
+   },
+   {
+    "text": "Using at least 3 insulin injections per day. However, basal insulin injection must be injected at bedtime without injection of basal insulin in the morning. Combination with any other anti-diabetic therapy is acceptable as long at this therapy was introduced at least 6 weeks prior the 1s intervention and is kept stable all along the protocol."
+   },
+   {
+    "text": "HbA1c above 6%."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Advanced",
+    "sub_items": [
+     "Nephropathy defined by creatinine clearance <30 ml/min.",
+     "Retinopathy as proliferative retinopathy or recent (<3 month) eye bleeding or laser therapy. If the patient have undergone panphoto-coagulation inclusion is acceptable.",
+     "Autonomic neuropathy with clinically significant gastroparesis according to investigator evaluation."
+    ]
+   },
+   {
+    "text": "Recent (< 6 months) acute macrovascular event e.g. acute coronary syndrome or cardiac surgery."
+   },
+   {
+    "text": "A recent (< 2 months) injury to body or limb, muscular disorder, use of any medication or other significant medical disorder if that injury, medication or disease in the judgment of the investigator will affect the ability to walk."
+   },
+   {
+    "text": "A recent (< 2 months) infection needing IV antibiotic or hospitalization"
+   },
+   {
+    "text": "Severe hypoglycemic episode within two weeks of screening."
+   },
+   {
+    "text": "Current use of glucocorticoid medication (by any route of administration except low dose stable inhaled)."
+   },
+   {
+    "text": "Recent initiation or dose modification (<2 months) of therapy known to interfere with glucose metabolism (e.g. neuroleptics, anti-psychotics, etc.)"
+   },
+   {
+    "text": "Known or suspected allergy to the trial products or meal contents."
+   },
+   {
+    "text": "Other serious medical illness likely to interfere with study participation or with the ability to complete the trial by the judgment of the investigator."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

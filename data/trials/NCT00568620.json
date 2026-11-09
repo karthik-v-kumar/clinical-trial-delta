@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Vanderbilt University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Vanderbilt University"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Placement of nasogastric feeding tube",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "PROCEDURE",
    "name": "Nasojejunal feeding tube",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "1: Nasogastric feeding tube",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Placement of nasogastric feeding tube"
-   ]
+   ],
+   "label": "1: Nasogastric feeding tube",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2: Placement of nasojejunal feeding tube",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Nasojejunal feeding tube"
-   ]
+   ],
+   "label": "2: Placement of nasojejunal feeding tube",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "In parallel with the increasing prevalence of obesity worldwide, type 2 diabetes mellitus (T2DM) has reached epidemic proportions. Despite a multitude of available therapies, only bariatric surgery (e.g., roux-en-Y gastric bypass (GBP)) has proven to be an effective long term treatment modality for morbid obesity. Moreover, the majority of T2DM patients who undergo GBP experience normalization of their blood glucose and are able to discontinue their anti-diabetes medications soon after the procedure. The insulin resistant state commonly seen in non-diabetic obese subjects also improves after GBP. Evidence from recent animal studies suggests that the rapid return to euglycemia seen in T2DM patients after GBP might in part result from excluding the duodenum from the flow of nutrients. With the use of enteral feeding tubes, we hope to better understand the factors in the human gut that may predispose obese individuals to the development of insulin resistance and T2DM.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nInclusion criteria for lean, healthy control subjects:\n\n1. Fasting plasma glucose (FPG) \\< 100\n2. Age 18 to 55\n3. BMI 18.5 to 24.9 kg/m2\n4. Stable weight for prior 3 months\n\nInclusion criteria for prediabetic individuals:\n\n1. Based on American Diabetes Association criteria of FPG \\> 100 and \\<126\n2. Age 18 to 55\n3. BMI 35 to 60 kg/m2\n4. Stable weight for prior 3 months\n\nInclusion criteria for diabetic individuals:\n\n1. Diagnosis of type 2 diabetes mellitus (T2DM) for \\< 5 years\n2. Hemoglobin A1c \\< 8%\n3. Age 18 to 55\n4. BMI 35 to 60 kg/m2\n5. Stable weight for prior 3 months\n\nExclusion Criteria:\n\nExclusion criteria for all study subjects:\n\n1. Use of any of the following medications: Thiazolidinediones, dipeptidyl-peptidase IV (DPP-IV) inhibitors (e.g., sitagliptin), GLP-1 analogs (e.g., exenatide).\n2. Subjects with T2DM who are unable to maintain adequate glycemic control (i.e., having a fasting blood glucose that exceeds 250mg/dL on two consecutive tests) while temporarily discontinuing their oral diabetes medications for the study and in whom the study physician determines insulin therapy would not be appropriate.\n3. Females with a positive pregnancy test\n\n5\\. Prior gastric, duodenal, proximal jejunal surgery or pancreas resection 6. Known malabsorptive disorder 7. History of cancer in past 5 years 8. Renal insufficiency defined by serum creatinine \\> 1.5 mg/dl 9. Hepatic enzyme elevations of greater than twice the upper limits of normal 10. Current use of warfarin or clopidogrel 11. Intercurrent infections 12. Contraindication to nasogastric or nasojejunal feeding tube (e.g., deviated nasal septum, prior upper gastrointestinal bleed, or history of easy bleeding) 13. Residence outside the greater Nashville, TN area",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
@@ -105,6 +105,82 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Fasting plasma glucose (FPG) < 100",
+    "group": "for lean, healthy control subjects"
+   },
+   {
+    "text": "Age 18 to 55",
+    "group": "for lean, healthy control subjects"
+   },
+   {
+    "text": "BMI 18.5 to 24.9 kg/m2",
+    "group": "for lean, healthy control subjects"
+   },
+   {
+    "text": "Stable weight for prior 3 months",
+    "group": "for lean, healthy control subjects"
+   },
+   {
+    "text": "Based on American Diabetes Association criteria of FPG > 100 and <126",
+    "group": "for prediabetic individuals"
+   },
+   {
+    "text": "Age 18 to 55",
+    "group": "for prediabetic individuals"
+   },
+   {
+    "text": "BMI 35 to 60 kg/m2",
+    "group": "for prediabetic individuals"
+   },
+   {
+    "text": "Stable weight for prior 3 months",
+    "group": "for prediabetic individuals"
+   },
+   {
+    "text": "Diagnosis of type 2 diabetes mellitus (T2DM) for < 5 years",
+    "group": "for diabetic individuals"
+   },
+   {
+    "text": "Hemoglobin A1c < 8%",
+    "group": "for diabetic individuals"
+   },
+   {
+    "text": "Age 18 to 55",
+    "group": "for diabetic individuals"
+   },
+   {
+    "text": "BMI 35 to 60 kg/m2",
+    "group": "for diabetic individuals"
+   },
+   {
+    "text": "Stable weight for prior 3 months",
+    "group": "for diabetic individuals"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Use of any of the following medications: Thiazolidinediones, dipeptidyl-peptidase IV (DPP-IV) inhibitors (e.g., sitagliptin), GLP-1 analogs (e.g., exenatide).",
+    "group": "for all study subjects"
+   },
+   {
+    "text": "Subjects with T2DM who are unable to maintain adequate glycemic control (i.e., having a fasting blood glucose that exceeds 250mg/dL on two consecutive tests) while temporarily discontinuing their oral diabetes medications for the study and in whom the study physician determines insulin therapy would not be appropriate.",
+    "group": "for all study subjects"
+   },
+   {
+    "text": "Females with a positive pregnancy test",
+    "group": "for all study subjects"
+   },
+   {
+    "text": "Prior gastric, duodenal, proximal jejunal surgery or pancreas resection 6. Known malabsorptive disorder 7. History of cancer in past 5 years 8. Renal insufficiency defined by serum creatinine > 1.5 mg/dl 9. Hepatic enzyme elevations of greater than twice the upper limits of normal 10. Current use of warfarin or clopidogrel 11. Intercurrent infections 12. Contraindication to nasogastric or nasojejunal feeding tube (e.g., deviated nasal septum, prior upper gastrointestinal bleed, or history of easy bleeding) 13. Residence outside the greater Nashville, TN area",
+    "group": "for all study subjects"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Services Hospital, Lahore",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Services Hospital, Lahore"
  },
  "collaborators": [],
  "conditions": [
@@ -48,74 +48,74 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Acarbose",
    "other_names": [
     "*Tab.Glucobay 50mg (Bayer)."
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Diet and lifestyle",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Tablets Glucophage (Merck)"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin/ Glimepride",
    "other_names": [
     "Tablet Getformin 1/500 (Getz Pharma)"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin/Sitagliptin",
    "other_names": [
     "Tab.TreviaMet 50/500 (Getz Pharma)"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Diet and lifestyle measures alone.",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose",
     "Other: Diet and lifestyle"
-   ]
+   ],
+   "label": "Diet and lifestyle measures alone.",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin monotherapy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose",
     "Other: Diet and lifestyle",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin monotherapy",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin + Sulphonylurea.",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose",
     "Other: Diet and lifestyle",
     "Drug: Metformin/ Glimepride"
-   ]
+   ],
+   "label": "Metformin + Sulphonylurea.",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin + Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose",
     "Other: Diet and lifestyle",
     "Drug: Metformin/Sitagliptin"
-   ]
+   ],
+   "label": "Metformin + Sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -127,10 +127,10 @@
  "brief_summary": "Type 2 diabetic patients who fast during Ramadan experience swings in glycaemic control between hypoglycaemic troughs and hyperglycaemic spikes. Hence, the dual challenge in fasting diabetics is to identify which treatment modality leads to the most stable blood glucose levels during a fast and how to smooth out these excursions and reduce risks of fast to a minimum.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* HbA1c 6.5-9.5%.\n* Type 2 diabetics on two or less oral hypoglycaemic agents.\n\nExclusion Criteria:\n\n* Any contraindications either to fasting or to any of the trial medication.\n* Pregnancy.\n* Serum creatinine \\> 1.4 mg/dl.\n* Serum ALT \\> twice upper limit normal.\n* History of pancreatitis, serum amylase \\> twice upper limit normal.\n* History of intolerance to acarbose.",
-  "sex": "ALL",
-  "minimum_age": null,
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": null,
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -139,13 +139,13 @@
  },
  "sites": [
   {
-   "facility": "Endocrinology Unit & Diabetes Management Centre, Services Hospital.",
    "city": "Lahore",
-   "state": null,
    "country": "Pakistan",
-   "status": null,
+   "facility": "Endocrinology Unit & Diabetes Management Centre, Services Hospital.",
    "lat": 31.558,
-   "lon": 74.35071
+   "lon": 74.35071,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01624116",
@@ -157,6 +157,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "HbA1c 6.5-9.5%."
+   },
+   {
+    "text": "Type 2 diabetics on two or less oral hypoglycaemic agents."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any contraindications either to fasting or to any of the trial medication."
+   },
+   {
+    "text": "Pregnancy."
+   },
+   {
+    "text": "Serum creatinine > 1.4 mg/dl."
+   },
+   {
+    "text": "Serum ALT > twice upper limit normal."
+   },
+   {
+    "text": "History of pancreatitis, serum amylase > twice upper limit normal."
+   },
+   {
+    "text": "History of intolerance to acarbose."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

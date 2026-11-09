@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Metacrine, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Metacrine, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -60,51 +60,51 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MET409 Active",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "MET409 Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "MET409 A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: MET409 Active"
-   ]
+   ],
+   "label": "MET409 A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "MET409 P",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: MET409 Placebo"
-   ]
+   ],
+   "label": "MET409 P",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "MET409A +Open-Label Empagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: MET409 Active",
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "MET409A +Open-Label Empagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "MET409P +Open-Label Empagliflozin",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: MET409 Placebo",
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "MET409P +Open-Label Empagliflozin",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -116,10 +116,10 @@
  "brief_summary": "A randomized, multi-center study evaluating MET409 (50 mg) alone or in combination with empagliflozin (10 mg) for 12 weeks. Assignment to MET409 will be double-blind and placebo-controlled. Empagliflozin will be incorporated into two of the treatment arms in an open-label manner.",
  "eligibility": {
   "criteria": "Key Inclusion Criteria:\n\n* Males and females 18 through 75 years of age.\n* Diagnosis of NASH based on NAFLD Activity Score (NAS) ≥ 4 with at least 1 point in each of steatosis, inflammation, and ballooning; Magnetic Resonance Elastography (MRE) showing kPa ≥ 2.61 or a multiparametric MRI (ie, LiverMultiScan) showing iron-corrected T1(cT1) \\> 830 ms within 6 months of enrollment; or Transient elastography (TE, FibroScan) with liver stiffness ≥ 8.5 kPa and controlled attenuation parameter (CAP) \\> 300 dB/m obtained within 3 months of enrollment.\n* Liver fat content ≥ 8% measured by magnetic resonance imaging-proton density fat fraction (MRI-PDFF) during screening.\n* Diagnosis of T2DM for ≤ 10 years, with hemoglobin A1c ≤ 10.0% during screening, stable and controlled with diet or treatment for at least 3 months.\n\nKey Exclusion Criteria:\n\n* History of significant liver disease (eg, alcoholic liver disease, viral hepatitis, etc.) or liver transplant.\n* Presence of cirrhosis on any prior liver biopsy (stage 4 fibrosis).\n* Excessive consumption of alcohol.\n* Use of any insulin (injectable or inhaled), SGLT-2 inhibitor or glucagon-like peptide 1 (GLP-1, injectable or oral) products for \\> 7 days within 3 months of screening.\n* Weight loss \\> 10% in the 6 months prior to screening or \\> 5% during screening.\n* Use of drugs historically associated with causing NAFLD for more than 4 consecutive weeks within 12 months prior to screening.\n* Concomitant use of drugs that are strong or moderate CYP3A4 inhibitors.\n* Concomitant consumption of grapefruit juice with the study drug.\n* History of diabetic ketoacidosis (DKA) within 1 month prior to the Screening Visit, or more than 2 episodes within 6 months prior to the Screening Visit.\n* History of \\> 2 episodes of urosepsis or pyelonephritis within 5 years of screening.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -127,22 +127,22 @@
  },
  "sites": [
   {
-   "facility": "Metacrine Investigative Site",
    "city": "Fort Myers",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Metacrine Investigative Site",
    "lat": 26.62168,
-   "lon": -81.84059
+   "lon": -81.84059,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Metacrine Investigative Site",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Metacrine Investigative Site",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04702490",
@@ -154,6 +154,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females 18 through 75 years of age."
+   },
+   {
+    "text": "Diagnosis of NASH based on NAFLD Activity Score (NAS) ≥ 4 with at least 1 point in each of steatosis, inflammation, and ballooning; Magnetic Resonance Elastography (MRE) showing kPa ≥ 2.61 or a multiparametric MRI (ie, LiverMultiScan) showing iron-corrected T1(cT1) > 830 ms within 6 months of enrollment; or Transient elastography (TE, FibroScan) with liver stiffness ≥ 8.5 kPa and controlled attenuation parameter (CAP) > 300 dB/m obtained within 3 months of enrollment."
+   },
+   {
+    "text": "Liver fat content ≥ 8% measured by magnetic resonance imaging-proton density fat fraction (MRI-PDFF) during screening."
+   },
+   {
+    "text": "Diagnosis of T2DM for ≤ 10 years, with hemoglobin A1c ≤ 10.0% during screening, stable and controlled with diet or treatment for at least 3 months."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of significant liver disease (eg, alcoholic liver disease, viral hepatitis, etc.) or liver transplant."
+   },
+   {
+    "text": "Presence of cirrhosis on any prior liver biopsy (stage 4 fibrosis)."
+   },
+   {
+    "text": "Excessive consumption of alcohol."
+   },
+   {
+    "text": "Use of any insulin (injectable or inhaled), SGLT-2 inhibitor or glucagon-like peptide 1 (GLP-1, injectable or oral) products for > 7 days within 3 months of screening."
+   },
+   {
+    "text": "Weight loss > 10% in the 6 months prior to screening or > 5% during screening."
+   },
+   {
+    "text": "Use of drugs historically associated with causing NAFLD for more than 4 consecutive weeks within 12 months prior to screening."
+   },
+   {
+    "text": "Concomitant use of drugs that are strong or moderate CYP3A4 inhibitors."
+   },
+   {
+    "text": "Concomitant consumption of grapefruit juice with the study drug."
+   },
+   {
+    "text": "History of diabetic ketoacidosis (DKA) within 1 month prior to the Screening Visit, or more than 2 episodes within 6 months prior to the Screening Visit."
+   },
+   {
+    "text": "History of > 2 episodes of urosepsis or pyelonephritis within 5 years of screening."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

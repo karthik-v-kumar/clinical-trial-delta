@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2015-06-08",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Kaiser Permanente",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Kaiser Permanente"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Fenofibrate 54mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention 'Fenofibrate 54mg'",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Fenofibrate 54mg"
-   ]
+   ],
+   "label": "Intervention 'Fenofibrate 54mg'",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control 'Fenofibrate 160mg'",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -76,10 +76,10 @@
  "brief_summary": "The primary objective of this randomized trial is to measure the impact of converting patients on statin therapy from fenofibrate 160mg to 54mg per day compared to patients who continue fenofibrate 160mg per day for triglycerides.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults 18 years of age or older\n* Patients actively taking fenofibrate 160mg and statin therapy\n* A fasting lipid panel within the past 9 months with most recent triglycerides levels less than 200mg/dL\n* Primary care physician approves participation and fenofibrate conversion\n\nExclusion Criteria:\n\n* Impaired renal function defined as creatine clearance ≤ 50ml/min\n* Current enrollment in other studies or clinical trials\n* Previous fenofibrate 54mg use\n* A history of pancreatitis or known previous triglyceride levels \\>1000mg/dL\n* Pregnancy\n* Members with plan benefits that include a deductible for lab services at Kaiser Permanente",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -87,13 +87,13 @@
  },
  "sites": [
   {
-   "facility": "Kaiser Permanente of Georgia",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Kaiser Permanente of Georgia",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01280604",
@@ -105,6 +105,44 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults 18 years of age or older"
+   },
+   {
+    "text": "Patients actively taking fenofibrate 160mg and statin therapy"
+   },
+   {
+    "text": "A fasting lipid panel within the past 9 months with most recent triglycerides levels less than 200mg/dL"
+   },
+   {
+    "text": "Primary care physician approves participation and fenofibrate conversion"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Impaired renal function defined as creatine clearance ≤ 50ml/min"
+   },
+   {
+    "text": "Current enrollment in other studies or clinical trials"
+   },
+   {
+    "text": "Previous fenofibrate 54mg use"
+   },
+   {
+    "text": "A history of pancreatitis or known previous triglyceride levels >1000mg/dL"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Members with plan benefits that include a deductible for lab services at Kaiser Permanente"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

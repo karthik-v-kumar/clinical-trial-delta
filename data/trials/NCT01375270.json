@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Copenhagen University Hospital, Rigshospitalet",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Copenhagen University Hospital, Rigshospitalet"
  },
  "collaborators": [],
  "conditions": [
@@ -50,35 +50,35 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Glucotoxicity",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "PROCEDURE",
    "name": "Lipotoxicity",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Glucotoxicity Trial",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Glucotoxicity"
-   ]
+   ],
+   "label": "Glucotoxicity Trial",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Control Trial",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Lipotoxicity Trial",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Lipotoxicity"
-   ]
+   ],
+   "label": "Lipotoxicity Trial",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Elevations of blood glucose and lipid are thought to be deleterious to the insulin secretory function of the pancreas. This is known as glucolipotoxicity. However, few studies have examined this in detail. This investigation will examine pancreatic insulin secretory function in physiological models of glucolipotoxicity such as obese and type 2 diabetic individuals. Furthermore, healthy subjects will undergo 24 hour infusion of glucose or Intralipid to induce experimental models of glucolipotoxicity. Insulin secretion in response to intravenous infusions of glucose, GLP-1, GIP, and arginine and in response to meal ingestion, will be examined. the investigators hypothesize that experimental glucolipotoxicity will impairs pancreatic insulin secretory function to levels akin to that seen in type 2 diabetics.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* normal glucose tolerance based on screening OGTT or\n* diagnosed type 2 diabetic (confirmed with OGTT)\n\nExclusion Criteria:\n\n* insulin dependent diabetes\n* age \\<18 or \\>65 years\n* BMI \\<20 or \\> 35 kg/m2\n* evidence of hematological, pulmonary, hepatic, renal, or cardiovascular disease\n* actively undergoing weight-loss (\\>2kg change in last 6 months)\n* bariatric surgery (gastric by-pass or banding)\n* pregnancy\n* smoking",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Centre of Inflammation and Metabolism, Rigshospitalet",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Centre of Inflammation and Metabolism, Rigshospitalet",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01375270",
@@ -119,6 +119,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "normal glucose tolerance based on screening OGTT or"
+   },
+   {
+    "text": "diagnosed type 2 diabetic (confirmed with OGTT)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "insulin dependent diabetes"
+   },
+   {
+    "text": "age <18 or >65 years"
+   },
+   {
+    "text": "BMI <20 or > 35 kg/m2"
+   },
+   {
+    "text": "evidence of hematological, pulmonary, hepatic, renal, or cardiovascular disease"
+   },
+   {
+    "text": "actively undergoing weight-loss (>2kg change in last 6 months)"
+   },
+   {
+    "text": "bariatric surgery (gastric by-pass or banding)"
+   },
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "smoking"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -54,37 +54,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "NNC0113-6856",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "NNC0113-6856 (Oral Cohort)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: NNC0113-6856"
-   ]
+   ],
+   "label": "NNC0113-6856 (Oral Cohort)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "NNC0113-6856 (i.v. Cohort)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: NNC0113-6856"
-   ]
+   ],
+   "label": "NNC0113-6856 (i.v. Cohort)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -96,41 +96,41 @@
  "brief_summary": "In this study NN0113-6856 will be given to humans for the first time. We will be looking into how safe different single doses of the new investigational product NNC0113-6856 is and we will measure its amount as well as the amount of specific parts of the new investigational product in blood. The study will look at the effects of different single doses of NNC0113-6856. This could either be as an oral dose (cohort 1 to 5) or one injection into the vein (intravenous \\[IV\\]-cohort). Participant will get the investigational product either as one or two tablets (oral dose in cohort 1 to 5) or as injection into the vein (IV cohort). The study will last for about 6-10 weeks (up to 14 weeks in case of rescheduling for stand-by participants).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male.\n* Aged 18-55 years (both inclusive) at the time of signing informed consent.\n* Body mass index between 20.0 and 27.0 kilogram per meter square (kg/m\\^2)(both inclusive).\n\nExclusion Criteria:\n\n* Glycated haemoglobin (HbA1c) greater than or equal to (\\>=) 6.5 percent (%) (48 millimoles per moles \\[mmol/mol\\]) at screening.\n* Use of tobacco and nicotine products, defined as any of the below:\n\n  * Smoking more than 5 cigarettes or the equivalent per day.\n  * Not willing to refrain from smoking and use of nicotine substitute products during the inpatient periods.\n* Presence of clinically significant gastrointestinal disorders potentially affecting absorption of drugs or nutrients, as judged by the investigator.\n* History of major surgical procedures involving the stomach potentially affecting absorption of trial products (example: subtotal and total gastrectomy, sleeve gastrectomy, gastric bypass surgery) or current presence of gastrointestinal implant\n* Presence or history of pancreatitis (acute or chronic).\n* Personal or first degree relative(s) history of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma.\n* Any of the below laboratory safety parameters at screening outside the below laboratory range, see \"Log of laboratory ranges used for laboratory parameter exclusion criterion\" for specific values:\n\n  * Alanine Aminotransferase (ALT) greater than (\\>) upper normal limit (UNL)\n  * Aspartate aminotransferase (AST) \\> UNL\n  * Bilirubin \\> UNL\n  * Creatinine \\> UNL\n  * International normalized ratio (INR) \\> UNL\n* Precence or history of hepatitis",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Profil GmbH & Co. KG",
    "city": "Mainz",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Profil GmbH & Co. KG",
    "lat": 49.98185,
-   "lon": 8.28008
-  },
-  {
-   "facility": "Profil Institut für Stoffwechselforschung GmbH",
-   "city": "Neuss",
+   "lon": 8.28008,
    "state": null,
-   "country": "Germany",
-   "status": null,
-   "lat": 51.19807,
-   "lon": 6.68504
+   "status": null
   },
   {
-   "facility": "Profil Institut für Stoffwechselforschung GmbH",
    "city": "Neuss",
-   "state": "North Rhine-Westphalia",
    "country": "Germany",
-   "status": null,
+   "facility": "Profil Institut für Stoffwechselforschung GmbH",
    "lat": 51.19807,
-   "lon": 6.68504
+   "lon": 6.68504,
+   "state": null,
+   "status": null
+  },
+  {
+   "city": "Neuss",
+   "country": "Germany",
+   "facility": "Profil Institut für Stoffwechselforschung GmbH",
+   "lat": 51.19807,
+   "lon": 6.68504,
+   "state": "North Rhine-Westphalia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05521256",
@@ -144,6 +144,58 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male."
+   },
+   {
+    "text": "Aged 18-55 years (both inclusive) at the time of signing informed consent."
+   },
+   {
+    "text": "Body mass index between 20.0 and 27.0 kilogram per meter square (kg/m^2)(both inclusive)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Glycated haemoglobin (HbA1c) greater than or equal to (>=) 6.5 percent (%) (48 millimoles per moles [mmol/mol]) at screening."
+   },
+   {
+    "text": "Use of tobacco and nicotine products, defined as any of the below:",
+    "sub_items": [
+     "Smoking more than 5 cigarettes or the equivalent per day.",
+     "Not willing to refrain from smoking and use of nicotine substitute products during the inpatient periods."
+    ]
+   },
+   {
+    "text": "Presence of clinically significant gastrointestinal disorders potentially affecting absorption of drugs or nutrients, as judged by the investigator."
+   },
+   {
+    "text": "History of major surgical procedures involving the stomach potentially affecting absorption of trial products (example: subtotal and total gastrectomy, sleeve gastrectomy, gastric bypass surgery) or current presence of gastrointestinal implant"
+   },
+   {
+    "text": "Presence or history of pancreatitis (acute or chronic)."
+   },
+   {
+    "text": "Personal or first degree relative(s) history of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma."
+   },
+   {
+    "text": "Any of the below laboratory safety parameters at screening outside the below laboratory range, see \"Log of laboratory ranges used for laboratory parameter exclusion criterion\" for specific values:",
+    "sub_items": [
+     "Alanine Aminotransferase (ALT) greater than (>) upper normal limit (UNL)",
+     "Aspartate aminotransferase (AST) > UNL",
+     "Bilirubin > UNL",
+     "Creatinine > UNL",
+     "International normalized ratio (INR) > UNL"
+    ]
+   },
+   {
+    "text": "Precence or history of hepatitis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

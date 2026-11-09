@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-04-13",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Organon and Co",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Organon and Co"
  },
  "collaborators": [],
  "conditions": [
@@ -51,36 +51,36 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "ezetimibe",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: atorvastatin"
-   ]
+   ],
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: atorvastatin",
     "Drug: ezetimibe"
-   ]
+   ],
+   "label": "2",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "To Evaluate and Compare the Efficacy and Safety of Ezetimibe Plus Atorvastatin Versus Atorvastatin in Hypercholesterolemic Patients at High Risk for Coronary Heart Disease Not Adequately Controlled on Atorvastatin 40 mg.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient with LDL-C \\>70 mg/dL \\& on a stable dose of atorvastatin 40 mg\n\nExclusion Criteria:\n\n* Pregnant or lactating women or intending to become pregnant\n* Patient with sensitivity or intolerance to ezetimibe or atorvastatin",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "79 Years",
   "healthy_volunteers": false,
+  "maximum_age": "79 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,6 +111,23 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient with LDL-C >70 mg/dL & on a stable dose of atorvastatin 40 mg"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant or lactating women or intending to become pregnant"
+   },
+   {
+    "text": "Patient with sensitivity or intolerance to ezetimibe or atorvastatin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

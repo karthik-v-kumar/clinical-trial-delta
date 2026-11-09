@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Rush University Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Rush University Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -48,48 +48,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "metformin and sitagliptin",
    "other_names": [
     "glucophage"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin glargine and insulin lispro",
    "other_names": [
     "lantus insulin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin and sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "insulin glargine and insulin lispro",
    "other_names": [
     "humalog insulin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "insulin glargine and insulin lispro",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin glargine and insulin lispro"
-   ]
+   ],
+   "label": "insulin glargine and insulin lispro",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "metformin and sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: metformin and sitagliptin"
-   ]
+   ],
+   "label": "metformin and sitagliptin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "The purpose of this study is to test whether a combination of two pills commonly used to treat outpatient diabetes called metformin and sitagliptin (januvia) could provide successful control of blood sugar levels in patients with type 2 diabetes during hospitalization for the treatment of a general medical condition. Both metformin and sitagliptin are currently approved by the Food and Drug Administration for the treatment of type 2 diabetes, but little experience exists for their use in hospitalized patients. The current standard practice is to use insulin injections to control blood sugar in hospitalized patients with type 2 diabetes. This study will compare the use of metformin tablets twice per day along with sitagliptin tablets once per day with daily insulin injections in patients with type 2 diabetes during hospitalization, and will study how well the blood sugar levels are controlled.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Males or females between the ages of 18 and 80 years admitted to a general medicine services not requiring intensive care and not expected to require surgery.\n2. Type 2 diabetes for ≥ 3 months treated with metformin (≥ 1000 mg/day) alone or metformin (≥ 1000 mg/day) with glimepiride, glyburide, glipizide, saxagliptin, sitagliptin, linagliptin, alogliptin, repaglinide, nateglinide, pioglitazone, exenatide, liraglutide, or a total daily dose of insulin ≤ 0.4 units/kg/day prior to admission.\n3. Blood glucose\\>140 mg and \\< 400 mg/dL\n\nExclusion Criteria:\n\n1. Acute critical illness expected to require admission to a critical care unit\n2. Patients expected to require major surgery (requiring general anesthesia)\n3. Patients expected to require gastrointestinal suction\n4. Patients treated with less than 1000 mg/day of metformin prior to admission\n5. Patients expected to be kept nothing by mouth (NPO) for \\>24-48 hours after admission\n6. Patients with impaired renal function estimated GFR less than 60 ml/min based on the Modification of Diet in Renal Disease (MDRD) Study equation.\n7. Clinically significant liver dysfunction or current alcohol abuse\n8. Uncompensated heart failure\n9. Myocardial or peripheral muscle ischemia\n10. Sepsis or severe infection\n11. Treatment with glucocorticoid greater than prednisone 5 mg daily or the equivalent\n12. Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study\n13. Pregnancy or breast-feeding at time of enrollment into the study\n\n    \\-",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,6 +120,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males or females between the ages of 18 and 80 years admitted to a general medicine services not requiring intensive care and not expected to require surgery."
+   },
+   {
+    "text": "Type 2 diabetes for ≥ 3 months treated with metformin (≥ 1000 mg/day) alone or metformin (≥ 1000 mg/day) with glimepiride, glyburide, glipizide, saxagliptin, sitagliptin, linagliptin, alogliptin, repaglinide, nateglinide, pioglitazone, exenatide, liraglutide, or a total daily dose of insulin ≤ 0.4 units/kg/day prior to admission."
+   },
+   {
+    "text": "Blood glucose>140 mg and < 400 mg/dL"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Acute critical illness expected to require admission to a critical care unit"
+   },
+   {
+    "text": "Patients expected to require major surgery (requiring general anesthesia)"
+   },
+   {
+    "text": "Patients expected to require gastrointestinal suction"
+   },
+   {
+    "text": "Patients treated with less than 1000 mg/day of metformin prior to admission"
+   },
+   {
+    "text": "Patients expected to be kept nothing by mouth (NPO) for >24-48 hours after admission"
+   },
+   {
+    "text": "Patients with impaired renal function estimated GFR less than 60 ml/min based on the Modification of Diet in Renal Disease (MDRD) Study equation."
+   },
+   {
+    "text": "Clinically significant liver dysfunction or current alcohol abuse"
+   },
+   {
+    "text": "Uncompensated heart failure"
+   },
+   {
+    "text": "Myocardial or peripheral muscle ischemia"
+   },
+   {
+    "text": "Sepsis or severe infection"
+   },
+   {
+    "text": "Treatment with glucocorticoid greater than prednisone 5 mg daily or the equivalent"
+   },
+   {
+    "text": "Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study"
+   },
+   {
+    "text": "Pregnancy or breast-feeding at time of enrollment into the study"
+   },
+   {
+    "text": "-"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "The 95th Hospital of Putian，Putian, Fujian, China",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The 95th Hospital of Putian，Putian, Fujian, China"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin + Dapagliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin groups",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin groups",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin+ Dapagliflozin group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin + Dapagliflozin"
-   ]
+   ],
+   "label": "Metformin+ Dapagliflozin group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,23 +88,23 @@
  "brief_summary": "This is a 3-month, single-center, prospective, randomized, parallel-controlled, open-label trial investigating the effects of metformin combined with dapagliflozin on serum IGF-1 levels in male patients with type 2 diabetes mellitus (T2DM) and metabolic dysfunction-associated steatotic liver disease (MASLD). A total of 84 eligible male patients (aged 30-60 years, HbA1c 7.0%-10.0%, CAP ≥248 dB/m, on stable metformin monotherapy for ≥8 weeks) will be randomized 1:1 to either continue metformin alone or receive metformin plus dapagliflozin 10 mg/day for 12 weeks. The primary endpoint is the change in serum IGF-1 from baseline to 3 months between groups. Secondary endpoints include changes in hepatic steatosis (CAP), liver stiffness (LSM), FIB-4 index, metabolic parameters, and safety outcomes. The study aims to determine whether adding dapagliflozin to metformin can restore the suppressed GH-IGF-1 axis and provide mechanistic insights into its hepatoprotective effects.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Males aged 30-60 years;\n2. Meeting the WHO diagnostic criteria for type 2 diabetes mellitus, with HbA1c levels between 7.0% and 10.0%;\n3. Having received a stable dose of metformin (≥1500 mg/day or the maximum tolerated dose) as monotherapy for at least 8 weeks;\n4. Meeting the diagnostic criteria for MASLD: Controlled Attenuation Parameter (CAP) value ≥248 dB/m detected, with the presence of at least one cardiometabolic risk factor;\n5. No prior use of SGLT2 inhibitors, insulin secretagogues, insulin, or GLP-1 receptor agonists;\n6. Willing to participate voluntarily and sign the informed consent form.\n\nExclusion Criteria:\n\n1. Type 1 diabetes mellitus or other specific types of diabetes;\n2. Weekly alcohol intake exceeding 210g for males;\n3. Concomitant chronic liver diseases (viral hepatitis, autoimmune liver disease, Wilson's disease, hemochromatosis, etc.);\n4. Known pituitary or hypothalamic diseases affecting the GH-IGF-1 axis;\n5. Previous or current use of GH preparations or IGF-1 preparations;\n6. Baseline estimated glomerular filtration rate (eGFR) \\<45 mL/min/1.73m²;\n7. Previous diagnosis of cardiovascular diseases (coronary heart disease, stroke, heart failure) or severe liver diseases (decompensated cirrhosis);\n8. Active malignant tumors;\n9. Allergy to dapagliflozin or similar drugs;\n10. Use of medications affecting IGF-1 levels (such as oral estrogens, high-dose glucocorticoids) within the past 3 months;\n11. Diabetic ketoacidosis, severe infection, or surgical stress within 1 month prior to enrollment.",
-  "sex": "MALE",
-  "minimum_age": "30 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "30 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "The Ethics Committee of Putian 95 Hospital",
    "city": "Putian",
-   "state": "Fujian",
    "country": "China",
-   "status": null,
+   "facility": "The Ethics Committee of Putian 95 Hospital",
    "lat": 25.43944,
-   "lon": 119.01028
+   "lon": 119.01028,
+   "state": "Fujian",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07778719",
@@ -116,6 +116,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males aged 30-60 years;"
+   },
+   {
+    "text": "Meeting the WHO diagnostic criteria for type 2 diabetes mellitus, with HbA1c levels between 7.0% and 10.0%;"
+   },
+   {
+    "text": "Having received a stable dose of metformin (≥1500 mg/day or the maximum tolerated dose) as monotherapy for at least 8 weeks;"
+   },
+   {
+    "text": "Meeting the diagnostic criteria for MASLD: Controlled Attenuation Parameter (CAP) value ≥248 dB/m detected, with the presence of at least one cardiometabolic risk factor;"
+   },
+   {
+    "text": "No prior use of SGLT2 inhibitors, insulin secretagogues, insulin, or GLP-1 receptor agonists;"
+   },
+   {
+    "text": "Willing to participate voluntarily and sign the informed consent form."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes mellitus or other specific types of diabetes;"
+   },
+   {
+    "text": "Weekly alcohol intake exceeding 210g for males;"
+   },
+   {
+    "text": "Concomitant chronic liver diseases (viral hepatitis, autoimmune liver disease, Wilson's disease, hemochromatosis, etc.);"
+   },
+   {
+    "text": "Known pituitary or hypothalamic diseases affecting the GH-IGF-1 axis;"
+   },
+   {
+    "text": "Previous or current use of GH preparations or IGF-1 preparations;"
+   },
+   {
+    "text": "Baseline estimated glomerular filtration rate (eGFR) <45 mL/min/1.73m²;"
+   },
+   {
+    "text": "Previous diagnosis of cardiovascular diseases (coronary heart disease, stroke, heart failure) or severe liver diseases (decompensated cirrhosis);"
+   },
+   {
+    "text": "Active malignant tumors;"
+   },
+   {
+    "text": "Allergy to dapagliflozin or similar drugs;"
+   },
+   {
+    "text": "Use of medications affecting IGF-1 levels (such as oral estrogens, high-dose glucocorticoids) within the past 3 months;"
+   },
+   {
+    "text": "Diabetic ketoacidosis, severe infection, or surgical stress within 1 month prior to enrollment."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

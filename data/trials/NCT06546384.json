@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Insel Gruppe AG, University Hospital Bern",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Insel Gruppe AG, University Hospital Bern"
  },
  "collaborators": [],
  "conditions": [
@@ -50,31 +50,31 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Weight reduction recommendations (nutritional and exercise)",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide Arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide",
     "Behavioral: Weight reduction recommendations (nutritional and exercise)"
-   ]
+   ],
+   "label": "Semaglutide Arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control Arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Weight reduction recommendations (nutritional and exercise)"
-   ]
+   ],
+   "label": "Control Arm",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "There is evidence that alcoholic beverage consumption significantly interacts with food energy intake. Furthermore, there is accumulating evidence showing independent, combined, and modifying effects of alcohol and metabolic factors on the onset and progression of chronic liver disease. Preclinical and clinical data have showed that GLP-1 RA can decrease alcohol consumption, particularly in obese patients. Moreover there is evidence that semaglutide can improve the liver sinusoidal milieu in pre-clinical models of cirrhosis.\n\nIn this study, the investigators aim to assess if patients treated with semaglutide and receiving counselling will achieve a significantly higher alcohol abstinence compared to patients only receiving counselling.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI ≥ 35 kg/m² OR BMI ≥ 28 kg/m² in the case of weight-related co-morbidities (pre-diabetes or type 2 diabetes mellitus, hypertension, dyslipidemia).\n* Fatty liver disease (steatosis on ultrasound and/or CAP value on FS \\> 238 dB/m)\n* Age 18 - 80 years\n* Alcohol Use Disorder Identification Test-C Score \\>4 (AUDIT-C) Score ≥4 for women and ≥5 for men (as measured from AUDIT-questionnaire distributed in visit 1)\n* Sufficient skills for German or French language (written and spoken)\n* Signed informed consent\n\nExclusion Criteria:\n\n* Active illicit substance use\n* AUDIT-score \\< 5 (males)/ 4 (females) (as measured from AUDIT-questionnaire distributed in visit 1)\n* Current treatment with drugs against alcohol dependence (disulfiram, acamprosate, naltrexone, baclofen and nalmefene)\n* Any known contraindication to semaglutide\n* Presence or history of a hepatic or extrahepatic malignancy from the previous 6 months",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "University Hospital Bern",
    "city": "Bern",
-   "state": null,
    "country": "Switzerland",
-   "status": null,
+   "facility": "University Hospital Bern",
    "lat": 46.94809,
-   "lon": 7.44744
+   "lon": 7.44744,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06546384",
@@ -115,6 +115,47 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI ≥ 35 kg/m² OR BMI ≥ 28 kg/m² in the case of weight-related co-morbidities (pre-diabetes or type 2 diabetes mellitus, hypertension, dyslipidemia)."
+   },
+   {
+    "text": "Fatty liver disease (steatosis on ultrasound and/or CAP value on FS > 238 dB/m)"
+   },
+   {
+    "text": "Age 18 - 80 years"
+   },
+   {
+    "text": "Alcohol Use Disorder Identification Test-C Score >4 (AUDIT-C) Score ≥4 for women and ≥5 for men (as measured from AUDIT-questionnaire distributed in visit 1)"
+   },
+   {
+    "text": "Sufficient skills for German or French language (written and spoken)"
+   },
+   {
+    "text": "Signed informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Active illicit substance use"
+   },
+   {
+    "text": "AUDIT-score < 5 (males)/ 4 (females) (as measured from AUDIT-questionnaire distributed in visit 1)"
+   },
+   {
+    "text": "Current treatment with drugs against alcohol dependence (disulfiram, acamprosate, naltrexone, baclofen and nalmefene)"
+   },
+   {
+    "text": "Any known contraindication to semaglutide"
+   },
+   {
+    "text": "Presence or history of a hepatic or extrahepatic malignancy from the previous 6 months"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

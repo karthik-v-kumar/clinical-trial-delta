@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Centre hospitalier de l'Université de Montréal (CHUM)",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Centre hospitalier de l'Université de Montréal (CHUM)"
  },
  "collaborators": [
   "Centre de Recherche du Centre Hospitalier de l'Université de Montréal",
@@ -57,30 +57,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Liraglutide-metformin vs insulin-metformin",
    "other_names": [
     "Liraglutide",
     "Victoza",
     "Insulin glargine",
     "Lantus"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Liraglutide-Metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide-metformin vs insulin-metformin"
-   ]
+   ],
+   "label": "Liraglutide-Metformin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Insulin-Metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Liraglutide-metformin vs insulin-metformin"
-   ]
+   ],
+   "label": "Insulin-Metformin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This study is conducted to test the hypothesis that in type 2 diabetic adults with fatty liver who are resistant to metformin, treatment with liraglutide in combination with metformin will cause an absolute reduction in liver fat superior to insulin-metformin treatment within a 3-month period, as measured by magnetic resonance imaging (MRI).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Are 18 y.o. or older at screening (first visit),\n* Are ambulatory,\n* Are known for type 2 diabetes with criteria of failure of metformin monotherapy, metformin-sulfonylurea, metformin-repaglinide combined therapy defined as HbA1C ≥6.5,\n* Abdominal girth \\> 94 cm for men and \\> 80 cm for women,\n* Understand French or English instruction,\n* Able to comprehend and willingness to provide voluntary consent.\n\nExclusion Criteria:\n\n* Have any contra-indications for MRI (such as metallic implants, pacemaker or claustrophobia),\n* Have type 1 diabetes or have had episodes of ketoacidosis,\n* Have any major debilitating disease including malignant disorders,\n* Have had, within the last 6 months, evidence of significant heart disease or stroke, including myocardial infarction, unstable angina, coronary bypass and/or percutaneous transluminal coronary angioplasty (PTCA), congestive heart failure (New York Heart Association Class III-IV), or severe ischemic disease,\n* Patients having received insulin within 3 months prior to screening,\n* Have a serum creatine above \\>150 mmol/L or estimated GFR \\< 30 mL/min,\n* Women seeking pregnancy,\n* Have a history of chronic liver disease other than NAFLD, including HBV and HCV infection, hemochromatosis, Wilson's disease, alpha-1-antitrypsin deficiency, autoimmune hepatitis,\n* Current or previous use of oral or injectable corticosteroids,\n* Have excessive alcohol intake, defined as a daily limit of 30 g (3 drinks) for men and 20 g (2 drinks) for women.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Centre hospitalier de l'Université de Montréal",
    "city": "Montreal",
-   "state": "Quebec",
    "country": "Canada",
-   "status": null,
+   "facility": "Centre hospitalier de l'Université de Montréal",
    "lat": 45.50884,
-   "lon": -73.58781
+   "lon": -73.58781,
+   "state": "Quebec",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01399645",
@@ -121,6 +121,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Are 18 y.o. or older at screening (first visit),"
+   },
+   {
+    "text": "Are ambulatory,"
+   },
+   {
+    "text": "Are known for type 2 diabetes with criteria of failure of metformin monotherapy, metformin-sulfonylurea, metformin-repaglinide combined therapy defined as HbA1C ≥6.5,"
+   },
+   {
+    "text": "Abdominal girth > 94 cm for men and > 80 cm for women,"
+   },
+   {
+    "text": "Understand French or English instruction,"
+   },
+   {
+    "text": "Able to comprehend and willingness to provide voluntary consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have any contra-indications for MRI (such as metallic implants, pacemaker or claustrophobia),"
+   },
+   {
+    "text": "Have type 1 diabetes or have had episodes of ketoacidosis,"
+   },
+   {
+    "text": "Have any major debilitating disease including malignant disorders,"
+   },
+   {
+    "text": "Have had, within the last 6 months, evidence of significant heart disease or stroke, including myocardial infarction, unstable angina, coronary bypass and/or percutaneous transluminal coronary angioplasty (PTCA), congestive heart failure (New York Heart Association Class III-IV), or severe ischemic disease,"
+   },
+   {
+    "text": "Patients having received insulin within 3 months prior to screening,"
+   },
+   {
+    "text": "Have a serum creatine above >150 mmol/L or estimated GFR < 30 mL/min,"
+   },
+   {
+    "text": "Women seeking pregnancy,"
+   },
+   {
+    "text": "Have a history of chronic liver disease other than NAFLD, including HBV and HCV infection, hemochromatosis, Wilson's disease, alpha-1-antitrypsin deficiency, autoimmune hepatitis,"
+   },
+   {
+    "text": "Current or previous use of oral or injectable corticosteroids,"
+   },
+   {
+    "text": "Have excessive alcohol intake, defined as a daily limit of 30 g (3 drinks) for men and 20 g (2 drinks) for women."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

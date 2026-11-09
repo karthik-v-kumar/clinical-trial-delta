@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Daewoong Pharmaceutical Co. LTD.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Daewoong Pharmaceutical Co. LTD."
  },
  "collaborators": [],
  "conditions": [
@@ -51,27 +51,27 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "DWP16001"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Study group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Study group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Control group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "Therapeutic Confirmatory Study to Evaluate the Efficacy and Safety of DWP16001 in Combination with Metformin in Patients With Type 2 Diabetes Mellitus who Have Inadequate Glycemic Control on Metformin Alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Subjects with T2DM aged 19 to 80 years\n2. Subjects who have received metformin alone at a fixed dose for the last 8 weeks and has 7% ≤ HbA1c ≤ 10.5%\n3. Subjects with BMI of 20-45 kg/m2\n4. Subjects who voluntarily decided to participate and provided written consent after being told of the objectives, method, and effects of this study\n\nExclusion Criteria:\n\n1. Subjects with current or history of hypersensitivity to the IP of this study, metformin or drugs of the same class and their components (e.g., history of hypersensitivity to biguanide or SGLT2 inhibitors)\n2. Diabetic ketoacidosis, diabetic coma or precoma within the past year\n3. Urinary tract infections or genital infections within\n4. Uncontrolled hypertension (SBP \\> 180 mmHg or DBP \\> 110 mmHg)\n5. eGFR \\< 60 mL/min/1.73 m2\n6. Severe heart failure (NYHA class III/IV)",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Daewoong pharmatceutical",
    "city": "Soeul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Daewoong pharmatceutical",
    "lat": 36.9168,
-   "lon": 126.7319
+   "lon": 126.7319,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04634500",
@@ -112,6 +112,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects with T2DM aged 19 to 80 years"
+   },
+   {
+    "text": "Subjects who have received metformin alone at a fixed dose for the last 8 weeks and has 7% ≤ HbA1c ≤ 10.5%"
+   },
+   {
+    "text": "Subjects with BMI of 20-45 kg/m2"
+   },
+   {
+    "text": "Subjects who voluntarily decided to participate and provided written consent after being told of the objectives, method, and effects of this study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with current or history of hypersensitivity to the IP of this study, metformin or drugs of the same class and their components (e.g., history of hypersensitivity to biguanide or SGLT2 inhibitors)"
+   },
+   {
+    "text": "Diabetic ketoacidosis, diabetic coma or precoma within the past year"
+   },
+   {
+    "text": "Urinary tract infections or genital infections within"
+   },
+   {
+    "text": "Uncontrolled hypertension (SBP > 180 mmHg or DBP > 110 mmHg)"
+   },
+   {
+    "text": "eGFR < 60 mL/min/1.73 m2"
+   },
+   {
+    "text": "Severe heart failure (NYHA class III/IV)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

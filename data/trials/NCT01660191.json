@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2017-01-18",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Kansas Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Kansas Medical Center"
  },
  "collaborators": [
   "Kowa Pharmaceuticals America, Inc.",
@@ -54,51 +54,51 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pitavastin 4mg",
    "other_names": [
     "Livalo"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin 20mg",
    "other_names": [
     "Lipitor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Rosuvastatin 5mg",
    "other_names": [
     "Crestor"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pitavastatin 4mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin 20mg",
     "Drug: Rosuvastatin 5mg"
-   ]
+   ],
+   "label": "Pitavastatin 4mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Atorvastatin 20mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pitavastin 4mg",
     "Drug: Rosuvastatin 5mg"
-   ]
+   ],
+   "label": "Atorvastatin 20mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "rosuvastatin 5 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pitavastin 4mg",
     "Drug: Atorvastatin 20mg"
-   ]
+   ],
+   "label": "rosuvastatin 5 mg",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "The purpose of this study is to determine if Pitavastatin lowers CoQ10 less than Atorvastatin or Rosuvastatin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL-C levels of 100-200mg/dl; triglycerides \\</=200mg/dl at screening visit\n* Willing to discontinue use of all lipid-altering doses fo medication or supplements for the duration of the study\n\nExclusion Criteria:\n\n* LDL-C \\<100mg/dl or \\>200mg/dl, Triglycerides \\>200mg/dl\n* History of diabetes mellitus or documented fasting blood glucose \\>125mg/dl or HbA1c \\>6.4%\n* History of coronary artery disease\n* history of chronic renal or hepatic disease\n* known sensitivity of intolerance to a statin\n* persistent elevated liver enzymes or CPK (\\>3 x upper normal limit)\n* currently taking CoQ10 supplements and unable discontinue for duration of study",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -121,13 +121,13 @@
  },
  "sites": [
   {
-   "facility": "University of Kansas Medical Center",
    "city": "Kansas City",
-   "state": "Kansas",
    "country": "United States",
-   "status": null,
+   "facility": "University of Kansas Medical Center",
    "lat": 39.11417,
-   "lon": -94.62746
+   "lon": -94.62746,
+   "state": "Kansas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01660191",
@@ -141,6 +141,41 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "LDL-C levels of 100-200mg/dl; triglycerides </=200mg/dl at screening visit"
+   },
+   {
+    "text": "Willing to discontinue use of all lipid-altering doses fo medication or supplements for the duration of the study"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "LDL-C <100mg/dl or >200mg/dl, Triglycerides >200mg/dl"
+   },
+   {
+    "text": "History of diabetes mellitus or documented fasting blood glucose >125mg/dl or HbA1c >6.4%"
+   },
+   {
+    "text": "History of coronary artery disease"
+   },
+   {
+    "text": "history of chronic renal or hepatic disease"
+   },
+   {
+    "text": "known sensitivity of intolerance to a statin"
+   },
+   {
+    "text": "persistent elevated liver enzymes or CPK (>3 x upper normal limit)"
+   },
+   {
+    "text": "currently taking CoQ10 supplements and unable discontinue for duration of study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

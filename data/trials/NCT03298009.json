@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Université de Sherbrooke",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Université de Sherbrooke"
  },
  "collaborators": [
   "Janssen Inc."
@@ -54,39 +54,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Canagliflozin 100mg",
    "other_names": [
     "Invokana"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo oral capsule",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "RADIATION",
    "name": "PET imaging",
-   "other_names": []
+   "other_names": [],
+   "type": "RADIATION"
   }
  ],
  "arm_groups": [
   {
-   "label": "Treatment 1",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo oral capsule",
     "Radiation: PET imaging"
-   ]
+   ],
+   "label": "Treatment 1",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Treatment 2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Canagliflozin 100mg",
     "Radiation: PET imaging"
-   ]
+   ],
+   "label": "Treatment 2",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "It is a mechanistic proof-of-concept study to demonstrate how SGLT-2 inhibitors (Canagliflozin) may have a beneficial role on cardiac energetic efficiency.\n\nPatients with type 2 diabetes and with HF diagnosed for at least 3 months will be selected. The participants will be randomized to a double-blind, crossover 2-week placebo vs. Cana 100 mg once daily, an interventional trial with a one-month washout period in between.\n\nAt the term of the two-week placebo and canagliflozin treatment periods (visits 2 and 4), each participant will undergo an identical postprandial metabolic study with positron emission tomography (PET) and stable isotopic tracer methods.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* HbA1c 7.5 -10.5%;\n* LVEF \\< 40%;\n* NYHA class 2 or 3;\n* NT pro-BNP level \\> 600 pg/mL;\n* Being on a stable-dose metformin therapy max 2500 mg/day or other hypoglycemic therapy and RAAS-blocking agents for at least 8 weeks;\n* Being on optimal and stable-doses of heart failure medication including diuretics for at least 4 weeks;\n\nExclusion Criteria:\n\n* age \\<18 yo;\n* NYHA class 4;\n* Treatment with a fibrate or thiazolidinedione;\n* Unstable or advanced renal failure;\n* Unstable or new medical or surgical condition within the past 3 months;\n* Heart failure caused by active inflammatory condition such as sarcoidosis or any form of myocarditis;\n* History of diabetic ketoacidosis;\n* Not on a stable regimen for at least 8 weeks before the screening visit;\n* Female of child-bearing potential who is pregnant, breast feeding or intends to become pregnant or pre-menopausal female with a positive serum pregnancy test at the time of enrollment;\n* Patients post bariatric surgery, or on weight loss medication;\n* Contraindications to metformin, including allergy or intolerance;\n* Hospitalization for heart failure within the 60 days prior to enrollment;\n* Admission for an acute coronary syndrome, percutaneous coronary intervention, or cardiac surgery within the 60 days prior to enrollment;\n* Planned cardiovascular revascularization (percutaneous intervention or surgical) or major cardiac surgery (coronary artery bypass grafting, valve replacement, ventricular assist device, cardiac transplantation, or any other surgery requiring thoracotomy) within the 90 days after enrollment;\n* Patients who are volume depleted based upon physical examination at the time of enrollment;\n* Chronic disabling illness;\n* History of substance abuse.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -121,6 +121,83 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "HbA1c 7.5 -10.5%;"
+   },
+   {
+    "text": "LVEF < 40%;"
+   },
+   {
+    "text": "NYHA class 2 or 3;"
+   },
+   {
+    "text": "NT pro-BNP level > 600 pg/mL;"
+   },
+   {
+    "text": "Being on a stable-dose metformin therapy max 2500 mg/day or other hypoglycemic therapy and RAAS-blocking agents for at least 8 weeks;"
+   },
+   {
+    "text": "Being on optimal and stable-doses of heart failure medication including diuretics for at least 4 weeks;"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "age <18 yo;"
+   },
+   {
+    "text": "NYHA class 4;"
+   },
+   {
+    "text": "Treatment with a fibrate or thiazolidinedione;"
+   },
+   {
+    "text": "Unstable or advanced renal failure;"
+   },
+   {
+    "text": "Unstable or new medical or surgical condition within the past 3 months;"
+   },
+   {
+    "text": "Heart failure caused by active inflammatory condition such as sarcoidosis or any form of myocarditis;"
+   },
+   {
+    "text": "History of diabetic ketoacidosis;"
+   },
+   {
+    "text": "Not on a stable regimen for at least 8 weeks before the screening visit;"
+   },
+   {
+    "text": "Female of child-bearing potential who is pregnant, breast feeding or intends to become pregnant or pre-menopausal female with a positive serum pregnancy test at the time of enrollment;"
+   },
+   {
+    "text": "Patients post bariatric surgery, or on weight loss medication;"
+   },
+   {
+    "text": "Contraindications to metformin, including allergy or intolerance;"
+   },
+   {
+    "text": "Hospitalization for heart failure within the 60 days prior to enrollment;"
+   },
+   {
+    "text": "Admission for an acute coronary syndrome, percutaneous coronary intervention, or cardiac surgery within the 60 days prior to enrollment;"
+   },
+   {
+    "text": "Planned cardiovascular revascularization (percutaneous intervention or surgical) or major cardiac surgery (coronary artery bypass grafting, valve replacement, ventricular assist device, cardiac transplantation, or any other surgery requiring thoracotomy) within the 90 days after enrollment;"
+   },
+   {
+    "text": "Patients who are volume depleted based upon physical examination at the time of enrollment;"
+   },
+   {
+    "text": "Chronic disabling illness;"
+   },
+   {
+    "text": "History of substance abuse."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

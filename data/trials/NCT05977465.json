@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Tanta University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Tanta University"
  },
  "collaborators": [],
  "conditions": [
@@ -49,25 +49,25 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin 25 MG",
    "other_names": [
     "empagliflozin tablets"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Control group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Empagliflozin group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin 25 MG"
-   ]
+   ],
+   "label": "Empagliflozin group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The aim of the study is to investigate the possible protective effect of empagliflozin in patients with type 2 diabetes mellitus with diabetic peripheral neuropathy and not on SGLT2 inhibitors treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nPatients with type 2 diabetes mellitus (Hba1c 7 %- 9%). Patients receiving dipeptidyl peptidase-4 inhibitors, metformin ± basal insulin.\n\nPatients with peripheral neuropathy and not on SGLT2 inhibitor treatment. Patients aged between 18 years old to 65 years old.\n\nExclusion Criteria:\n\n* Breastfeeding female.\n* Pregnant female.\n* Estimated Glomerular Filtration Rate less than 45 mL/minute/1.73 m2.\n* Patients with type 1 diabetes mellitus.\n* Patients with diabetic ketoacidosis.\n* Patients with urinary tract infections.\n* Dehydrated patients till normalized.\n* Lower limb amputation patients.\n* SGLT2 inhibitors hypersensitivity.\n* Severe hepatic patients.\n* Patients on neuroprotective drugs.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Faculty of pharmacy",
    "city": "Tanta",
-   "state": null,
    "country": "Egypt",
-   "status": null,
+   "facility": "Faculty of pharmacy",
    "lat": 30.78847,
-   "lon": 31.00192
+   "lon": 31.00192,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05977465",
@@ -112,6 +112,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with type 2 diabetes mellitus (Hba1c 7 %- 9%). Patients receiving dipeptidyl peptidase-4 inhibitors, metformin ± basal insulin."
+   },
+   {
+    "text": "Patients with peripheral neuropathy and not on SGLT2 inhibitor treatment. Patients aged between 18 years old to 65 years old."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Breastfeeding female."
+   },
+   {
+    "text": "Pregnant female."
+   },
+   {
+    "text": "Estimated Glomerular Filtration Rate less than 45 mL/minute/1.73 m2."
+   },
+   {
+    "text": "Patients with type 1 diabetes mellitus."
+   },
+   {
+    "text": "Patients with diabetic ketoacidosis."
+   },
+   {
+    "text": "Patients with urinary tract infections."
+   },
+   {
+    "text": "Dehydrated patients till normalized."
+   },
+   {
+    "text": "Lower limb amputation patients."
+   },
+   {
+    "text": "SGLT2 inhibitors hypersensitivity."
+   },
+   {
+    "text": "Severe hepatic patients."
+   },
+   {
+    "text": "Patients on neuroprotective drugs."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

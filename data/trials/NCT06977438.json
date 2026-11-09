@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Minnesota",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Minnesota"
  },
  "collaborators": [
   "Patient-Centered Outcomes Research Institute",
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Semaglutide"
+   ],
    "label": "High Dose HBLT",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Semaglutide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Semaglutide"
+   ],
    "label": "Medium Dose HBLT",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Semaglutide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Low Dose HBLT",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Low Dose HBLT",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The rapid emergence of new and highly effective obesity medications has turned the field of pediatric weight management on its head. Adolescents living with obesity, their caregivers, healthcare providers, healthcare systems, policymakers, and payors are now wondering what role health behavior and lifestyle treatment (HBLT) has in terms of body mass index (BMI) reduction, improvements in quality of life and cardiometabolic health, and mitigating nutritional concerns when medications are used. Is intensive HBLT needed or could low intensity HBLT be an equally effective alternative; and if so, for whom? Our proposed project will answer these important questions that arise daily in the clinical setting and will generate critical new insights to guide decision-making for teens with obesity and the stakeholders who care deeply about them.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Aged 12 to \\< 18 years at screening\n* BMI \\>/= 95th percentile based on age and sex at screening\n* Provide release of information for established primary health provider\n* Own a device capable of connecting to the virtual platform sessions with video\n\nExclusion Criteria:\n\n* Diabetes (type 1 or 2) due to safety concerns about proper surveillance of glycemic control virtually\n* HbA1c \\>/= 6.5%\n* Current or recent (\\< 6 months prior to screening) use of FDA-approved obesity medications\n* Previous metabolic/bariatric surgery or metabolic/bariatric surgery planned during the study period\n* Hypertriglyceridemia (TG \\>/= 500 mg/dL)\n* Any past or current diagnosis of an eating disorder (i.e. anorexia nervosa, atypical anorexia nervosa, bulimia nervosa)\n* Major psychiatric disorder (e.g. schizophrenia, bipolar disorder)\n* Unstable clinically-diagnosed depression, defined as requiring psychiatric hospitalization in the last six months)\n* History of suicide attempt\n* History of suicidal ideation or self-harm within 30 days of screening\n* Patient Health Questionnaire (PHQ-9) score \\>/= 15 at screening\n* Current pregnancy, breast feeding, or plans to become pregnant\n* Females refusing to use effective contraception\n* Diagnosis of monogenic obesity due to mutations in POMC, PCSK1, or LEPR\n* Diagnosis of syndromic obesity including, but not limited to, Bardet Biedl or Prader-Willi Syndrome\n* History of cholelithiasis without cholecystectomy\n* History of pancreatitis\n* Personal history of first-degree relative history of medullary thyroid carcinoma and/or multiple endocrine neoplasia type 2\n* Known hypersensitivity to GLP1 agonists\n* Other participants from the same household who are participating in this trial\n* Any disorder, unwillingness, or inability, which in the investigator's opinion might jeopardize the participant's safety or compliance with the protocol",
-  "sex": "ALL",
-  "minimum_age": "12 Years",
-  "maximum_age": "18 Years",
   "healthy_volunteers": false,
+  "maximum_age": "18 Years",
+  "minimum_age": "12 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "University of Minnesota, Center for Pediatric Obesity Medicine",
    "city": "Minneapolis",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "University of Minnesota, Center for Pediatric Obesity Medicine",
    "lat": 44.97997,
-   "lon": -93.26384
+   "lon": -93.26384,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06977438",
@@ -124,6 +124,89 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Aged 12 to < 18 years at screening"
+   },
+   {
+    "text": "BMI >/= 95th percentile based on age and sex at screening"
+   },
+   {
+    "text": "Provide release of information for established primary health provider"
+   },
+   {
+    "text": "Own a device capable of connecting to the virtual platform sessions with video"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diabetes (type 1 or 2) due to safety concerns about proper surveillance of glycemic control virtually"
+   },
+   {
+    "text": "HbA1c >/= 6.5%"
+   },
+   {
+    "text": "Current or recent (< 6 months prior to screening) use of FDA-approved obesity medications"
+   },
+   {
+    "text": "Previous metabolic/bariatric surgery or metabolic/bariatric surgery planned during the study period"
+   },
+   {
+    "text": "Hypertriglyceridemia (TG >/= 500 mg/dL)"
+   },
+   {
+    "text": "Any past or current diagnosis of an eating disorder (i.e. anorexia nervosa, atypical anorexia nervosa, bulimia nervosa)"
+   },
+   {
+    "text": "Major psychiatric disorder (e.g. schizophrenia, bipolar disorder)"
+   },
+   {
+    "text": "Unstable clinically-diagnosed depression, defined as requiring psychiatric hospitalization in the last six months)"
+   },
+   {
+    "text": "History of suicide attempt"
+   },
+   {
+    "text": "History of suicidal ideation or self-harm within 30 days of screening"
+   },
+   {
+    "text": "Patient Health Questionnaire (PHQ-9) score >/= 15 at screening"
+   },
+   {
+    "text": "Current pregnancy, breast feeding, or plans to become pregnant"
+   },
+   {
+    "text": "Females refusing to use effective contraception"
+   },
+   {
+    "text": "Diagnosis of monogenic obesity due to mutations in POMC, PCSK1, or LEPR"
+   },
+   {
+    "text": "Diagnosis of syndromic obesity including, but not limited to, Bardet Biedl or Prader-Willi Syndrome"
+   },
+   {
+    "text": "History of cholelithiasis without cholecystectomy"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Personal history of first-degree relative history of medullary thyroid carcinoma and/or multiple endocrine neoplasia type 2"
+   },
+   {
+    "text": "Known hypersensitivity to GLP1 agonists"
+   },
+   {
+    "text": "Other participants from the same household who are participating in this trial"
+   },
+   {
+    "text": "Any disorder, unwillingness, or inability, which in the investigator's opinion might jeopardize the participant's safety or compliance with the protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

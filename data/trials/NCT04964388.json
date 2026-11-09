@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-07-24",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Mississippi Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Mississippi Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -49,23 +49,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "GLP-1 receptor agonist",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "GLP-1 cohort",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: GLP-1 receptor agonist"
-   ]
+   ],
+   "label": "GLP-1 cohort",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Non GLP-1 cohort",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -77,10 +77,10 @@
  "brief_summary": "This study will help determine the effect of Glucagon Like Peptide-1 (GLP-1)receptor agonists on bone strength in postmenopausal women with type 2 diabetes mellitus (T2DM)",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of Type 2 Diabetes Mellitus\n* Postmenopausal female\n* Age \\>55 years\n* Hemoglobin A1c between 7-10% within 6 months of the first visit.\n\nExclusion Criteria:\n\n* Patients with type 1 Diabetes mellitus\n* Patients with a history of GLP-1 receptor agonist/DPP4 inhibitor use\n* eGFR \\<30 ml/min in the last 3 months\n* Patients with a history of pancreatitis\n* Personal or family history of medullary thyroid cancer\n* Patients with a history of treatment with anti-osteoporosis agents\n* Documented secondary osteoporosis\n* Documented presence of prosthesis or devices in the spine\n* Unwilling or unable to consent",
-  "sex": "FEMALE",
-  "minimum_age": "55 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "55 Years",
+  "sex": "FEMALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -88,13 +88,13 @@
  },
  "sites": [
   {
-   "facility": "University of Mississippi Medical Center",
    "city": "Jackson",
-   "state": "Mississippi",
    "country": "United States",
-   "status": null,
+   "facility": "University of Mississippi Medical Center",
    "lat": 32.29876,
-   "lon": -90.18481
+   "lon": -90.18481,
+   "state": "Mississippi",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04964388",
@@ -106,6 +106,53 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of Type 2 Diabetes Mellitus"
+   },
+   {
+    "text": "Postmenopausal female"
+   },
+   {
+    "text": "Age >55 years"
+   },
+   {
+    "text": "Hemoglobin A1c between 7-10% within 6 months of the first visit."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 Diabetes mellitus"
+   },
+   {
+    "text": "Patients with a history of GLP-1 receptor agonist/DPP4 inhibitor use"
+   },
+   {
+    "text": "eGFR <30 ml/min in the last 3 months"
+   },
+   {
+    "text": "Patients with a history of pancreatitis"
+   },
+   {
+    "text": "Personal or family history of medullary thyroid cancer"
+   },
+   {
+    "text": "Patients with a history of treatment with anti-osteoporosis agents"
+   },
+   {
+    "text": "Documented secondary osteoporosis"
+   },
+   {
+    "text": "Documented presence of prosthesis or devices in the spine"
+   },
+   {
+    "text": "Unwilling or unable to consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novartis Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novartis Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -48,20 +48,20 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pelacarsen",
    "other_names": [
     "TQJ230"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pelacarsen (TQJ230)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pelacarsen"
-   ]
+   ],
+   "label": "Pelacarsen (TQJ230)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -77,10 +77,10 @@
  "brief_summary": "This non-randomized, open-label extension study provides post-trial access to pelacarsen (TQJ230) to participants in Germany with hyperlipoproteinemia(a) and established cardiovascular disease who have successfully completed the double-blind parent study (CTQJ230A12302). Study has been terminated by sponsor following the outcome of the Lp(a)HORIZON study (NCT04023552), which did not meet its primary endpoint",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent\n* Participant has successfully completed the parent study and is considered safe to participate by Investigator's clinical judgement.\n\nExclusion Criteria:\n\n* Any medical condition(s) that may put the participant at risk in the investigator's opinion\n* Pregnant or nursing (lactating) women\n* Women of child-bearing potential, unless they are using effective methods of contraception during dosing and for 16 weeks (= 5 times the terminal half-life) after stopping of study medication",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "100 Years",
   "healthy_volunteers": false,
+  "maximum_age": "100 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -88,85 +88,85 @@
  },
  "sites": [
   {
-   "facility": "Novartis Investigative Site",
    "city": "Berlin",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 52.52437,
-   "lon": 13.41053
+   "lon": 13.41053,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novartis Investigative Site",
    "city": "Cloppenburg",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 52.84755,
-   "lon": 8.04745
+   "lon": 8.04745,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novartis Investigative Site",
    "city": "Dresden",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 51.05089,
-   "lon": 13.73832
+   "lon": 13.73832,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novartis Investigative Site",
    "city": "Erlangen",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 49.59099,
-   "lon": 11.00783
+   "lon": 11.00783,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novartis Investigative Site",
    "city": "Mainz",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 49.98185,
-   "lon": 8.28008
+   "lon": 8.28008,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novartis Investigative Site",
    "city": "München",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 51.60698,
-   "lon": 13.31243
+   "lon": 13.31243,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Novartis Investigative Site",
    "city": "Ulm",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
    "lat": 48.39841,
-   "lon": 9.99155
-  },
-  {
-   "facility": "Novartis Investigative Site",
-   "city": "Würzburg",
+   "lon": 9.99155,
    "state": null,
-   "country": "Germany",
-   "status": null,
-   "lat": 49.79391,
-   "lon": 9.95121
+   "status": null
   },
   {
-   "facility": "Novartis Investigative Site",
-   "city": "Frankfurt am Main",
-   "state": "Hesse",
+   "city": "Würzburg",
    "country": "Germany",
-   "status": null,
+   "facility": "Novartis Investigative Site",
+   "lat": 49.79391,
+   "lon": 9.95121,
+   "state": null,
+   "status": null
+  },
+  {
+   "city": "Frankfurt am Main",
+   "country": "Germany",
+   "facility": "Novartis Investigative Site",
    "lat": 50.11552,
-   "lon": 8.68417
+   "lon": 8.68417,
+   "state": "Hesse",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05900141",
@@ -180,6 +180,29 @@
  "sponsors_of_note": [
   "Novartis"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Signed informed consent"
+   },
+   {
+    "text": "Participant has successfully completed the parent study and is considered safe to participate by Investigator's clinical judgement."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any medical condition(s) that may put the participant at risk in the investigator's opinion"
+   },
+   {
+    "text": "Pregnant or nursing (lactating) women"
+   },
+   {
+    "text": "Women of child-bearing potential, unless they are using effective methods of contraception during dosing and for 16 weeks (= 5 times the terminal half-life) after stopping of study medication"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

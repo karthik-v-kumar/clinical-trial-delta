@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Solvay Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Solvay Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -52,50 +52,50 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Fenofibrate",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Fenofibrate",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Fenofibrate"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "3",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "4",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "4",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -107,10 +107,10 @@
  "brief_summary": "Double-blind, randomized placebo-controlled study in type 2 diabetes and dyslipidemic patients.Patients will be randomized to one of four treatment arms for 16 weeks: placebo, fenofibrate, metformin, or metformin and fenofibrate combination.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with type 2 diabetes mellitus and dyslipidemia.\n\nExclusion Criteria:\n\n* Type 1 diabetes.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,31 +118,31 @@
  },
  "sites": [
   {
-   "facility": "Site 2",
    "city": "Turku",
-   "state": null,
    "country": "Finland",
-   "status": null,
+   "facility": "Site 2",
    "lat": 60.45148,
-   "lon": 22.26869
+   "lon": 22.26869,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Site 3",
    "city": "Dublin",
-   "state": null,
    "country": "Ireland",
-   "status": null,
+   "facility": "Site 3",
    "lat": 53.33306,
-   "lon": -6.24889
+   "lon": -6.24889,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Site 1",
    "city": "Pisa",
-   "state": null,
    "country": "Italy",
-   "status": null,
+   "facility": "Site 1",
    "lat": 43.70853,
-   "lon": 10.4036
+   "lon": 10.4036,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00362765",
@@ -154,6 +154,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with type 2 diabetes mellitus and dyslipidemia."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

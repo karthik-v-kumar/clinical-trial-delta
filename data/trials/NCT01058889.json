@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Medical University of Vienna",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Medical University of Vienna"
  },
  "collaborators": [
   "National Bank of Austria"
@@ -51,27 +51,27 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Telemedical device",
    "other_names": [
     "mobile phone"
-   ]
+   ],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Telemedical device",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Telemedical device"
-   ]
+   ],
+   "label": "Telemedical device",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Treatment as usual",
-   "type": "NO_INTERVENTION",
    "intervention_names": [
     "Device: Telemedical device"
-   ]
+   ],
+   "label": "Treatment as usual",
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The purpose of the study is to show if telemonitoring and automated feedback regarding glucose management, physical activity, blood pressure, and body weight improves treatment of patients with insulin dependent Type 2 Diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diabetes mellitus Type 2, age 18-70 years, able to use a mobile phone\n\nExclusion Criteria:\n\n* Pacemaker, intracardial defibrillator, no cure planned within the active study period.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Medical University Vienna, Allgemeines Krankenhaus",
    "city": "Vienna",
-   "state": null,
    "country": "Austria",
-   "status": "RECRUITING",
+   "facility": "Medical University Vienna, Allgemeines Krankenhaus",
    "lat": 48.20849,
-   "lon": 16.37208
+   "lon": 16.37208,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01058889",
@@ -112,6 +112,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diabetes mellitus Type 2, age 18-70 years, able to use a mobile phone"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pacemaker, intracardial defibrillator, no cure planned within the active study period."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

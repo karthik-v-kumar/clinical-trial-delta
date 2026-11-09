@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Johns Hopkins University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Johns Hopkins University"
  },
  "collaborators": [
   "American Heart Association"
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin 10mg",
    "other_names": [
     "Lipitor"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Modification of dietary fat composition",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Statin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin 10mg"
-   ]
+   ],
+   "label": "Statin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Modified Atkins diet (MAD) Modification",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Modification of dietary fat composition"
-   ]
+   ],
+   "label": "Modified Atkins diet (MAD) Modification",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -107,10 +107,10 @@
  "brief_summary": "Ketogenic diet therapies (KDTs) emphasize high fat and very low carbohydrate intake and help to control seizures in adults who fail to respond to medications. However, KDT use can lead to increased cholesterol levels in some adults with epilepsy (AWE). Treatments that can reverse elevations in cholesterol observed with long-term KDT use without compromising diet adherence and seizure control are needed. The proposed study will explore the feasibility and safety of diet modification and statin use to lower cholesterol in this population. Study findings will help guide doctors utilizing KDTs in adults with epilepsy on how to approach managing elevations in cholesterol.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Modified Atkins Diet use ≥ 12 months\n2. Dyslipidemia based on American College of Cardiology/American Heart Association guidelines (i.e., LDL ≥190 mg/dL, 10-year ASCVD risk ≥5% with risk enhancers, etc.)\n3. 18 years of age or older\n4. Body mass index (BMI) \\> 18.5\n5. Stable anti-seizure medication regimen for \\> 1 month.\n\nExclusion Criteria:\n\n1. \\< 18 years of age\n2. Body mass index (BMI) \\< 18.5\n3. Changes in anti-seizure medication regimen \\< 1 month prior to participation\n4. Known ASCVD (history of acute coronary syndrome, myocardial infarction, angina, stroke, transient ischemic attack, or peripheral artery disease)\n5. Current statin medication use\n6. Prior serious adverse response to atorvastatin or other statin medications\n7. Uncorrected carnitine deficiency\n8. Pregnancy",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,13 +118,13 @@
  },
  "sites": [
   {
-   "facility": "Johns Hopkins Hospital",
    "city": "Baltimore",
-   "state": "Maryland",
    "country": "United States",
-   "status": null,
+   "facility": "Johns Hopkins Hospital",
    "lat": 39.29038,
-   "lon": -76.61219
+   "lon": -76.61219,
+   "state": "Maryland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06369571",
@@ -136,6 +136,53 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Modified Atkins Diet use ≥ 12 months"
+   },
+   {
+    "text": "Dyslipidemia based on American College of Cardiology/American Heart Association guidelines (i.e., LDL ≥190 mg/dL, 10-year ASCVD risk ≥5% with risk enhancers, etc.)"
+   },
+   {
+    "text": "18 years of age or older"
+   },
+   {
+    "text": "Body mass index (BMI) > 18.5"
+   },
+   {
+    "text": "Stable anti-seizure medication regimen for > 1 month."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "< 18 years of age"
+   },
+   {
+    "text": "Body mass index (BMI) < 18.5"
+   },
+   {
+    "text": "Changes in anti-seizure medication regimen < 1 month prior to participation"
+   },
+   {
+    "text": "Known ASCVD (history of acute coronary syndrome, myocardial infarction, angina, stroke, transient ischemic attack, or peripheral artery disease)"
+   },
+   {
+    "text": "Current statin medication use"
+   },
+   {
+    "text": "Prior serious adverse response to atorvastatin or other statin medications"
+   },
+   {
+    "text": "Uncorrected carnitine deficiency"
+   },
+   {
+    "text": "Pregnancy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

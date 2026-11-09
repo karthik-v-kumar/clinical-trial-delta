@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2025-05-31",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Meredith Hawkins",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Meredith Hawkins"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -55,46 +55,46 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Diazoxide",
    "other_names": [
     "Proglycem"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Diazoxide"
+   ],
    "label": "Healthy (Diazoxide)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Diazoxide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "Healthy (Placebo)",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "T2D (Diazoxide)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Diazoxide"
-   ]
+   ],
+   "label": "T2D (Diazoxide)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "T2D (Placebo)",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "T2D (Placebo)",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "The goal of this study is to determine whether metabolic control centers in the brain can be activated in patients with type 2 diabetes (T2D) as compared to non-diabetic individuals. This is important since people with diabetes have inappropriately high production of glucose, which could be at least in part due to impaired activation of important brain centers.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes (T2D)\n\n  * Age: Between 21 and 70 y.o.\n  * BMI: \\<35\n  * A1c 8.0-12.0%\n  * Negative drug screen\n  * Not suffering from proliferative retinopathy, significant diabetic renal disease or severe neuropathy (including cardiovascular and gastrointestinal autonomic dysfunction)\n* Healthy (ND)\n\n  * Age: Between 21 and 70 y.o.\n  * BMI: \\<30\n  * Negative drug screen\n  * No family history of diabetes among first-degree relatives (mother, father)\n\nExclusion Criteria:\n\n* Age: Under 21 or over 70 y.o.\n* BMI: \\>35 for T2D and \\>30 for ND\n* Hypertension\n* Severe polydipsia and polyuria\n* Uncontrolled hyperlipidemia\n* Clinically significant liver dysfunction\n* Clinically significant kidney dysfunction\n* Anemia\n* Clinically significant leukocytosis or leukopenia\n* Clinically significant thrombocytopenia or thrombocytosis\n* Coagulopathy\n* Positive urine drug screen\n* Urinalysis: Clinically significant abnormalities\n* Clinically significant electrolyte abnormalities\n* Smoking \\>10 cig/day\n* Alcohol: Men \\>14 drinks/wk or \\> 4 drinks/day, Women \\>7 drinks/wk or \\>3 drinks/day\n* History of chronic liver disease, active hepatitis infection, HIV/AIDS, chronic kidney disease (stage 3 or greater), active cancer, cardiovascular disease or other heart disease, systemic rheumatologic conditions, seizures, bleeding disorders, muscle disease\n* Surgeries that involve removal of endocrine glands except for thyroidectomy\n* Pregnant women\n* Subject enrolled in another study less than one month prior to the anticipated start date of the proposed study\n* Family history: family history of premature cardiac death\n* Allergies to medication administered during study\n* Uncontrolled psychiatric disorders\n* Perimenopausal women who are experiencing/have experienced hot flashes\n* Any contraindications for MRI: presence of any non-MRI compatible implants including pacemaker, aneurysm clip, cochlear implant, neurostimulator; history of eye injury with metal; history of ever being a metal worker; history of gunshot wounds or any other imbedded metal objects; history of claustrophobia or prior episodes of significant anxiety or discomfort while obtaining an MRI.\n* Any condition which in the opinion of the PI makes the subject ill-suited for participation in the study",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,13 +117,13 @@
  },
  "sites": [
   {
-   "facility": "Albert Einstein College of Medicine",
    "city": "The Bronx",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Albert Einstein College of Medicine",
    "lat": 40.84985,
-   "lon": -73.86641
+   "lon": -73.86641,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03566511",
@@ -135,6 +135,111 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes (T2D)",
+    "sub_items": [
+     "Age: Between 21 and 70 y.o.",
+     "BMI: <35",
+     "A1c 8.0-12.0%",
+     "Negative drug screen",
+     "Not suffering from proliferative retinopathy, significant diabetic renal disease or severe neuropathy (including cardiovascular and gastrointestinal autonomic dysfunction)"
+    ]
+   },
+   {
+    "text": "Healthy (ND)",
+    "sub_items": [
+     "Age: Between 21 and 70 y.o.",
+     "BMI: <30",
+     "Negative drug screen",
+     "No family history of diabetes among first-degree relatives (mother, father)"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Age: Under 21 or over 70 y.o."
+   },
+   {
+    "text": "BMI: >35 for T2D and >30 for ND"
+   },
+   {
+    "text": "Hypertension"
+   },
+   {
+    "text": "Severe polydipsia and polyuria"
+   },
+   {
+    "text": "Uncontrolled hyperlipidemia"
+   },
+   {
+    "text": "Clinically significant liver dysfunction"
+   },
+   {
+    "text": "Clinically significant kidney dysfunction"
+   },
+   {
+    "text": "Anemia"
+   },
+   {
+    "text": "Clinically significant leukocytosis or leukopenia"
+   },
+   {
+    "text": "Clinically significant thrombocytopenia or thrombocytosis"
+   },
+   {
+    "text": "Coagulopathy"
+   },
+   {
+    "text": "Positive urine drug screen"
+   },
+   {
+    "text": "Urinalysis: Clinically significant abnormalities"
+   },
+   {
+    "text": "Clinically significant electrolyte abnormalities"
+   },
+   {
+    "text": "Smoking >10 cig/day"
+   },
+   {
+    "text": "Alcohol: Men >14 drinks/wk or > 4 drinks/day, Women >7 drinks/wk or >3 drinks/day"
+   },
+   {
+    "text": "History of chronic liver disease, active hepatitis infection, HIV/AIDS, chronic kidney disease (stage 3 or greater), active cancer, cardiovascular disease or other heart disease, systemic rheumatologic conditions, seizures, bleeding disorders, muscle disease"
+   },
+   {
+    "text": "Surgeries that involve removal of endocrine glands except for thyroidectomy"
+   },
+   {
+    "text": "Pregnant women"
+   },
+   {
+    "text": "Subject enrolled in another study less than one month prior to the anticipated start date of the proposed study"
+   },
+   {
+    "text": "Family history: family history of premature cardiac death"
+   },
+   {
+    "text": "Allergies to medication administered during study"
+   },
+   {
+    "text": "Uncontrolled psychiatric disorders"
+   },
+   {
+    "text": "Perimenopausal women who are experiencing/have experienced hot flashes"
+   },
+   {
+    "text": "Any contraindications for MRI: presence of any non-MRI compatible implants including pacemaker, aneurysm clip, cochlear implant, neurostimulator; history of eye injury with metal; history of ever being a metal worker; history of gunshot wounds or any other imbedded metal objects; history of claustrophobia or prior episodes of significant anxiety or discomfort while obtaining an MRI."
+   },
+   {
+    "text": "Any condition which in the opinion of the PI makes the subject ill-suited for participation in the study"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

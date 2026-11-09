@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital, Caen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital, Caen"
  },
  "collaborators": [],
  "conditions": [
@@ -48,42 +48,42 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "acute muscle exercise by NMES",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "daily workout sequence with NMES in one week",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "OTHER",
    "name": "rest situation",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "in rest situation",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: rest situation"
-   ]
+   ],
+   "label": "in rest situation",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "after acute muscle exercise by NMES",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: acute muscle exercise by NMES"
-   ]
+   ],
+   "label": "after acute muscle exercise by NMES",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "after a daily workout sequence with NMES in one week",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: daily workout sequence with NMES in one week"
-   ]
+   ],
+   "label": "after a daily workout sequence with NMES in one week",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Type 2 diabetes is a major public health problem because of its increasing prevalence and morbidity and mortality that accompanies it. Therapeutic management of this pathology, lifestyle measures, dietary and physical activity are fundamental. Their observance is unfortunately too often insufficient, leading to a therapeutic climbing with first oral antidiabetic (OAD) then the use of insulin therapy.\n\nYet there is now ample evidence that physical activity improves glucose control in these patients in particular improving insulin sensitivity after a training period but also after a single session of physical activity.\n\nNeuro-myo-electrical stimulation (NMES) is used in common clinical practice in physical therapy, patients with neurological or after orthopedic surgery in particular. In fact, this method enables improvement of volume and strength, even for denervated muscles. Recent studies have also shown the benefits of NMES in situations of cardiac or respiratory readjustments. In addition, NMES is used by top athletes supplements classical training in order to develop muscle strength or speed recovery.\n\nInvestigators propose to test the impact of bilateral quadriceps NMES on insulin sensitivity in type 2 diabetic patients treated with OAD (excluding glitazone). To do this, investigators plan to assess their insulin sensitivity by the reference method of hyperinsulinemic euglycemic clamp before surgery, after a single session of bilateral quadriceps NMES and after a sequence of daily training 6 days a quadriceps NMES bilateral.\n\nInvestigators hope to show an improvement in insulin sensitivity by this method, which would constitute an alternative to physical activity in the treatment of diabetes type 2. This procedure would be particularly interesting in diabetic subjects with type 2 counter- indications or an inability to perform a conventional physical activity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women 18-75 years of age:\n* Type 2 diabetes,\n* in a context of overweight BMI upper than 25 kg / m²,\n* a glycated hemoglobin included between 6 and 9%,\n* treated with oral antidiabetic (non glitazone) and / or GLP1 analogs (stable treatment for 3 months).\n* Patient who signed informed consent.\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* Children or adolescents under 18 years.\n* Patients over 75 years.\n* Pregnancy.\n* Patient intense practicing regular physical activity and do not wish to interrupt the time of the study\n* Patients with painful joint disease of the knee mobilization (osteoarthritis, inflammatory arthritis), any severe neuromuscular disease (diabetic neuropathy with pain, cramps, paresthesia, hypoesthesia, degenerative muscle disease).\n* Patients with unstable ischemic heart disease or arterial disease severe lower limbs.\n* Presence of a pacemaker (pacemaker).\n* Epilepsy\n* Patients insulin applicants\n* Treatment with glitazone.\n* Sepsis or other intercurrent acute disease (heart attack, angina ..).\n* Patients with skin lesions of any kind (wounds, inflammations, burns, irritations, eczema, etc.) nearby with areas for electrodes NMES\n* Patients unable to comply with the safety instructions of the NMES device at home\n* Patient unable to submit to medical monitoring study for geographical, social or psychological.\n* Patients under guardianship or trusteeship.\n* Patient included in another biomedical research protocol",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Endocrinology Unit and Clinical Research Center Basse Normandie, University Hospital of Caen",
    "city": "Caen",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "Endocrinology Unit and Clinical Research Center Basse Normandie, University Hospital of Caen",
    "lat": 49.18585,
-   "lon": -0.35912
+   "lon": -0.35912,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02510521",
@@ -124,6 +124,83 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women 18-75 years of age:"
+   },
+   {
+    "text": "Type 2 diabetes,"
+   },
+   {
+    "text": "in a context of overweight BMI upper than 25 kg / m²,"
+   },
+   {
+    "text": "a glycated hemoglobin included between 6 and 9%,"
+   },
+   {
+    "text": "treated with oral antidiabetic (non glitazone) and / or GLP1 analogs (stable treatment for 3 months)."
+   },
+   {
+    "text": "Patient who signed informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Children or adolescents under 18 years."
+   },
+   {
+    "text": "Patients over 75 years."
+   },
+   {
+    "text": "Pregnancy."
+   },
+   {
+    "text": "Patient intense practicing regular physical activity and do not wish to interrupt the time of the study"
+   },
+   {
+    "text": "Patients with painful joint disease of the knee mobilization (osteoarthritis, inflammatory arthritis), any severe neuromuscular disease (diabetic neuropathy with pain, cramps, paresthesia, hypoesthesia, degenerative muscle disease)."
+   },
+   {
+    "text": "Patients with unstable ischemic heart disease or arterial disease severe lower limbs."
+   },
+   {
+    "text": "Presence of a pacemaker (pacemaker)."
+   },
+   {
+    "text": "Epilepsy"
+   },
+   {
+    "text": "Patients insulin applicants"
+   },
+   {
+    "text": "Treatment with glitazone."
+   },
+   {
+    "text": "Sepsis or other intercurrent acute disease (heart attack, angina ..)."
+   },
+   {
+    "text": "Patients with skin lesions of any kind (wounds, inflammations, burns, irritations, eczema, etc.) nearby with areas for electrodes NMES"
+   },
+   {
+    "text": "Patients unable to comply with the safety instructions of the NMES device at home"
+   },
+   {
+    "text": "Patient unable to submit to medical monitoring study for geographical, social or psychological."
+   },
+   {
+    "text": "Patients under guardianship or trusteeship."
+   },
+   {
+    "text": "Patient included in another biomedical research protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

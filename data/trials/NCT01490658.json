@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -51,48 +51,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "repaglinide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "repaglinide and metformin combination tablet",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: repaglinide",
+    "Drug: metformin",
+    "Drug: repaglinide and metformin combination tablet"
+   ],
    "label": "Treatment period 1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: repaglinide",
     "Drug: metformin",
     "Drug: repaglinide and metformin combination tablet"
-   ]
-  },
-  {
+   ],
    "label": "Treatment period 2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: repaglinide",
-    "Drug: metformin",
-    "Drug: repaglinide and metformin combination tablet"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Treatment period 3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: repaglinide",
     "Drug: metformin",
     "Drug: repaglinide and metformin combination tablet"
-   ]
+   ],
+   "label": "Treatment period 3",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -116,23 +116,23 @@
  "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to compare repaglinide and metformin as co-administered tablets and as a combination tablet.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy male and female volunteers (female not pregnant, lactating or breastfeeding)\n* BMI (Body Mass Index) between 19-29 kg/m\\^2, both inclusive\n* Fasting plasma glucose from 70-115 mg/dl\n* Subject is judged to be in good health on the basis of their medical history, physical examination, ECG (electrocardiogram), and routine laboratory data\n\nExclusion Criteria:\n\n* Any clinically significant disease history, in the opinion of the Investigator, of systemic or organ disease\n* Clinically significant abnormalities on pre-study clinical examination or any laboratory measurements during screening\n* Positive results on screening for Hepatitis B surface antigen, Hepatitis C antibody and HIV (human immunodeficiency virus) antibody\n* Positive results on the drug abuse/alcohol screen\n* Any regular use of prescription or nonprescription drugs, including mega-vitamin or herbal supplement regimens, other than contraceptives, that cannot be stopped at least 1 week prior to Visit 2 (trial product dose administration) and for the duration of the study\n* Subject is currently a smoker (more than one cigarette per day or equivalent)\n* Use of grapefruit or grapefruit juice within 7 days of trial product dose administration\n* Blood donation, surgery or trauma with significant blood loss (500 mL) within the last 2 months prior to dosing",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": false,
+  "maximum_age": "45 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Austin",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 30.26715,
-   "lon": -97.74306
+   "lon": -97.74306,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01490658",
@@ -147,6 +147,50 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy male and female volunteers (female not pregnant, lactating or breastfeeding)"
+   },
+   {
+    "text": "BMI (Body Mass Index) between 19-29 kg/m^2, both inclusive"
+   },
+   {
+    "text": "Fasting plasma glucose from 70-115 mg/dl"
+   },
+   {
+    "text": "Subject is judged to be in good health on the basis of their medical history, physical examination, ECG (electrocardiogram), and routine laboratory data"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any clinically significant disease history, in the opinion of the Investigator, of systemic or organ disease"
+   },
+   {
+    "text": "Clinically significant abnormalities on pre-study clinical examination or any laboratory measurements during screening"
+   },
+   {
+    "text": "Positive results on screening for Hepatitis B surface antigen, Hepatitis C antibody and HIV (human immunodeficiency virus) antibody"
+   },
+   {
+    "text": "Positive results on the drug abuse/alcohol screen"
+   },
+   {
+    "text": "Any regular use of prescription or nonprescription drugs, including mega-vitamin or herbal supplement regimens, other than contraceptives, that cannot be stopped at least 1 week prior to Visit 2 (trial product dose administration) and for the duration of the study"
+   },
+   {
+    "text": "Subject is currently a smoker (more than one cigarette per day or equivalent)"
+   },
+   {
+    "text": "Use of grapefruit or grapefruit juice within 7 days of trial product dose administration"
+   },
+   {
+    "text": "Blood donation, surgery or trauma with significant blood loss (500 mL) within the last 2 months prior to dosing"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

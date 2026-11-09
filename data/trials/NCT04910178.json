@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Asmaa Abdelfattah Elsayed",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Asmaa Abdelfattah Elsayed"
  },
  "collaborators": [],
  "conditions": [
@@ -51,60 +51,60 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin 25 MG",
    "other_names": [
     "Jardiance 25mg tablets"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ursodeoxycholic acid",
    "other_names": [
     "Ursofalk tablets"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Pentoxifylline 400 MG",
    "other_names": [
     "Trental tablets"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empa group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin 25 MG"
-   ]
+   ],
+   "label": "Empa group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "PTX group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pentoxifylline 400 MG"
-   ]
+   ],
+   "label": "PTX group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "UDCA group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ursodeoxycholic acid"
-   ]
+   ],
+   "label": "UDCA group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "The liver is a key organ in metabolism and contributes to T2DM development and insulin resistance via unclear mechanisms that may involve liver fat accumulation, inflammatory signals, and immune cells are proposed to play an important role in the pathogenesis of both NAFLD and T2DM.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who are willing to participate in this study\n* Adults aged ≥ 18 years old presented at the clinic with a confirmed diagnosis of T2DM who are on sulfonylurea for the last 6 months at least and diagnosed with NAFLD.\n\nExclusion Criteria:\n\n* • Patients who refused to participate in this trial\n\n  * Patients diagnosed with Type 1 diabetes\n  * Previous history of alcohol intake\n  * history of recurrent attacks of ketoacidosis in a diabetic patient\n  * Type 2 diabetic patient with kidney dysfunction (estimated eGFR below 60ml/min/1.73m2 or CrCl below 60ml/min) or on dialysis\n  * Previous history of taking medication that may alter either drug efficacy (eg, corticosteroids, oral contraceptives, and thiazide diuretics)\n  * Evidence of another liver disease (viral hepatitis, drug-induced liver disease, autoimmune hepatitis)\n  * Lactating/pregnant female or children ≤ 18\n  * Any contraindication for Empagliflozin including:\n\n    1. History of recurrent attacks of UTI or Genital infection in females\n    2. History of recurrent foot injuries or infections\n    3. Type 2 diabetic patient with CV disease especially NYHA classes III/ IV\n    4. Immunocompromised patients or with a history of inflammatory, immunological, or malignant diseases.\n  * Any contraindication for PTX including:\n\n    1. Hypersensitivity to PTX\n    2. Patients with peptic ulcer disease or tendency for bleeding\n  * Any contraindication for UDCA including:\n\n    1. Hypersensitivity to UDCA\n    2. Patients with biliary disease or hepatobiliary disease (ascites, jaundice)\n    3. Patients with hepatic encephalopathy or gallstone pancreatitis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,13 +131,13 @@
  },
  "sites": [
   {
-   "facility": "Minya University Hospital",
    "city": "Minya",
-   "state": null,
    "country": "Egypt",
-   "status": null,
+   "facility": "Minya University Hospital",
    "lat": 28.09193,
-   "lon": 30.75813
+   "lon": 30.75813,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04910178",
@@ -149,6 +149,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who are willing to participate in this study"
+   },
+   {
+    "text": "Adults aged ≥ 18 years old presented at the clinic with a confirmed diagnosis of T2DM who are on sulfonylurea for the last 6 months at least and diagnosed with NAFLD."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "• Patients who refused to participate in this trial",
+    "sub_items": [
+     "Patients diagnosed with Type 1 diabetes",
+     "Previous history of alcohol intake",
+     "history of recurrent attacks of ketoacidosis in a diabetic patient",
+     "Type 2 diabetic patient with kidney dysfunction (estimated eGFR below 60ml/min/1.73m2 or CrCl below 60ml/min) or on dialysis",
+     "Previous history of taking medication that may alter either drug efficacy (eg, corticosteroids, oral contraceptives, and thiazide diuretics)",
+     "Evidence of another liver disease (viral hepatitis, drug-induced liver disease, autoimmune hepatitis)",
+     "Lactating/pregnant female or children ≤ 18",
+     "Any contraindication for Empagliflozin including:",
+     "History of recurrent attacks of UTI or Genital infection in females",
+     "History of recurrent foot injuries or infections",
+     "Type 2 diabetic patient with CV disease especially NYHA classes III/ IV",
+     "Immunocompromised patients or with a history of inflammatory, immunological, or malignant diseases.",
+     "Any contraindication for PTX including:",
+     "Hypersensitivity to PTX",
+     "Patients with peptic ulcer disease or tendency for bleeding",
+     "Any contraindication for UDCA including:",
+     "Hypersensitivity to UDCA",
+     "Patients with biliary disease or hepatobiliary disease (ascites, jaundice)",
+     "Patients with hepatic encephalopathy or gallstone pancreatitis"
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

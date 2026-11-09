@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Federal University of São Paulo",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Federal University of São Paulo"
  },
  "collaborators": [],
  "conditions": [
@@ -51,51 +51,51 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Simvastatin",
    "other_names": [
     "Statin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ezetimibe",
    "other_names": [
     "Lipid-lowering drug"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Combination Simvastatin plus Ezetimibe",
    "other_names": [
     "Simvastatin",
     "Statin",
     "Ezetimibe",
     "Lipid-lowering drugs"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Simvastatin arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Simvastatin"
-   ]
+   ],
+   "label": "Simvastatin arm",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Ezetimibe arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe"
-   ]
+   ],
+   "label": "Ezetimibe arm",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Simvastatin-Ezetimibe arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Combination Simvastatin plus Ezetimibe"
-   ]
+   ],
+   "label": "Simvastatin-Ezetimibe arm",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -115,10 +115,10 @@
  "brief_summary": "Ezetimibe specifically blocks the absorption of dietary and biliary cholesterol and plant sterols. Synergism of ezetimibe-statin therapy on LDL-cholesterol has been demonstrated, but data concerning the pleiotropic effects of this combination are controversial. We tested the hypothesis that the combination of simvastatin and ezetimibe would induce improvement in inflammatory status, as reflected by leukocyte count and CRP, IL-6 and TNF-a levels. This open-label trial evaluated whether this combination results in a synergistic effect the pro-inflammatory status of pre-diabetic subjects. Fifty pre-diabetic subjects were randomly assigned to one of 2 groups, one receiving ezetimibe (10 mg/d), the other, simvastatin (20 mg/d) for 12 weeks, followed by an additional 12-week period of combined therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Both sexes, aged from 18 to 75 years, with a body mass index ranging from 25 to 40 kg/m2 and pre-diabetes (impaired glucose tolerance or impaired fasting glucose).\n\nExclusion Criteria:\n\n* Blood triglyceride concentration \\>350 mg/dl and LDL cholesterol \\>200 mg/dl, unstable blood pressure, clinical evidences of cardiovascular, hepatic or renal diseases, use of anti-inflammatory agents or others interfering with lipid or glucose metabolism.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -126,13 +126,13 @@
  },
  "sites": [
   {
-   "facility": "Hospital do Rim e Hipertensao da UNIFESP",
    "city": "São Paulo",
-   "state": "São Paulo",
    "country": "Brazil",
-   "status": null,
+   "facility": "Hospital do Rim e Hipertensao da UNIFESP",
    "lat": -23.5475,
-   "lon": -46.63611
+   "lon": -46.63611,
+   "state": "São Paulo",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01103648",
@@ -144,6 +144,20 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Both sexes, aged from 18 to 75 years, with a body mass index ranging from 25 to 40 kg/m2 and pre-diabetes (impaired glucose tolerance or impaired fasting glucose)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Blood triglyceride concentration >350 mg/dl and LDL cholesterol >200 mg/dl, unstable blood pressure, clinical evidences of cardiovascular, hepatic or renal diseases, use of anti-inflammatory agents or others interfering with lipid or glucose metabolism."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

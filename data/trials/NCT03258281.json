@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "TRIPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2023-01-19",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Inova Health Care Services",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Inova Health Care Services"
  },
  "collaborators": [],
  "conditions": [
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Evolocumab",
    "other_names": [
     "Repatha"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "evolocumab 420mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Evolocumab"
-   ]
+   ],
+   "label": "evolocumab 420mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Prospective, single center, double-blind, randomized pharmacodynamic experimental study. The study will enroll 150 subjects with ASCVD on optimal statin therapy as per physician and Diabetes Mellitus (DM) undergoing elective Percutaneous Coronary Intervention (PCI). Eligible patients will be randomized for 30 day treatment to either 1) evolocumab 420 mg ; or 2) placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diabetes Mellitus\n* Dyslipidemia\n* Undergoing elective PCI\n\nExclusion Criteria:\n\n* Patients with recent Acute Coronary Syndrome (≤1 month)\n* Patients on dual antiplatelet treatment (DAPT) with ticagrelor or prasugrel\n* Patients undergoing urgent/emergent PCI for stent thrombosis\n* Severe acute or chronic medical or psychiatric condition\n* Pregnancy\n* Participation in another experimental clinical trial, without formal approval\n* Unwillingness or inability to comply with the requirements of this protocol",
-  "sex": "ALL",
-  "minimum_age": null,
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": null,
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Inova Fairfax Hospital",
    "city": "Falls Church",
-   "state": "Virginia",
    "country": "United States",
-   "status": null,
+   "facility": "Inova Fairfax Hospital",
    "lat": 38.88233,
-   "lon": -77.17109
+   "lon": -77.17109,
+   "state": "Virginia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03258281",
@@ -121,6 +121,44 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diabetes Mellitus"
+   },
+   {
+    "text": "Dyslipidemia"
+   },
+   {
+    "text": "Undergoing elective PCI"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with recent Acute Coronary Syndrome (≤1 month)"
+   },
+   {
+    "text": "Patients on dual antiplatelet treatment (DAPT) with ticagrelor or prasugrel"
+   },
+   {
+    "text": "Patients undergoing urgent/emergent PCI for stent thrombosis"
+   },
+   {
+    "text": "Severe acute or chronic medical or psychiatric condition"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Participation in another experimental clinical trial, without formal approval"
+   },
+   {
+    "text": "Unwillingness or inability to comply with the requirements of this protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

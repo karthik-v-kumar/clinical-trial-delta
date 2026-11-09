@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Copenhagen"
  },
  "collaborators": [],
  "conditions": [
@@ -48,38 +48,38 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Endurance exercise training",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Semaglutide treatment",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Semaglutide treatment",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Semaglutide and Endurance exercise",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Endurance exercise training",
     "Drug: Semaglutide"
-   ]
+   ],
+   "label": "Semaglutide and Endurance exercise",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Endurance exercise",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Endurance exercise training"
-   ]
+   ],
+   "label": "Endurance exercise",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The purpose of this study is to determine the effect of endurance exercise on insulin secretory capacity, alone or in addition to treatment with the glucagon-like-peptide receptor agonist semaglutide, in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed with type 2 diabetes\n* BMI 28-35\n* Moderately preserved insulin secretory capacity (determined by glucagon test)\n\nExclusion Criteria:\n\n* Insulin treatment\n* Hypertension grade 3\n* Heart disease\n* Medical history with pancreatitis\n* Diagnosed with neuropathy\n* Excessive alcohol consumption\n* Any condition that would interfere with the protocol.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "Xlab, Center for Healthy Aging, Department of Biomedical Sciences, University of Copenhagen",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": "RECRUITING",
+   "facility": "Xlab, Center for Healthy Aging, Department of Biomedical Sciences, University of Copenhagen",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04383197",
@@ -128,6 +128,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosed with type 2 diabetes"
+   },
+   {
+    "text": "BMI 28-35"
+   },
+   {
+    "text": "Moderately preserved insulin secretory capacity (determined by glucagon test)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Insulin treatment"
+   },
+   {
+    "text": "Hypertension grade 3"
+   },
+   {
+    "text": "Heart disease"
+   },
+   {
+    "text": "Medical history with pancreatitis"
+   },
+   {
+    "text": "Diagnosed with neuropathy"
+   },
+   {
+    "text": "Excessive alcohol consumption"
+   },
+   {
+    "text": "Any condition that would interfere with the protocol."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

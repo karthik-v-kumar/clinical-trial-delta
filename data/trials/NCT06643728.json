@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -52,128 +52,128 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Bimagrumab",
    "other_names": [
     "LY3985863",
     "BYM338",
     "VER201"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Bimagrumab Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Tirzepatide Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Bimagrumab",
+    "Drug: Tirzepatide Placebo"
+   ],
    "label": "Part A: Bimagrumab Dose 2 + Tirzepatide Placebo",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Bimagrumab",
-    "Drug: Tirzepatide Placebo"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Tirzepatide",
+    "Drug: Bimagrumab Placebo"
+   ],
    "label": "Part A: Bimagrumab Placebo + Tirzepatide Dose 1",
-   "type": "ACTIVE_COMPARATOR",
+   "type": "ACTIVE_COMPARATOR"
+  },
+  {
    "intervention_names": [
     "Drug: Tirzepatide",
     "Drug: Bimagrumab Placebo"
-   ]
-  },
-  {
+   ],
    "label": "Part A: Bimagrumab Placebo + Tirzepatide Dose 2",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Tirzepatide",
-    "Drug: Bimagrumab Placebo"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Bimagrumab",
+    "Drug: Tirzepatide"
+   ],
    "label": "Part A: Bimagrumab Dose 1 + Tirzepatide Dose 1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Bimagrumab",
     "Drug: Tirzepatide"
-   ]
-  },
-  {
+   ],
    "label": "Part A: Bimagrumab Dose 1 + Tirzepatide Dose 2",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Bimagrumab",
     "Drug: Tirzepatide"
-   ]
-  },
-  {
+   ],
    "label": "Part A: Bimagrumab Dose 2 + Tirzepatide Dose 2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Bimagrumab",
-    "Drug: Tirzepatide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Bimagrumab Placebo",
+    "Drug: Tirzepatide Placebo"
+   ],
    "label": "Part A: Bimagrumab Placebo + Tirzepatide Placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Bimagrumab Placebo",
-    "Drug: Tirzepatide Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Bimagrumab",
+    "Drug: Tirzepatide"
+   ],
    "label": "Part B: Bimagrumab Dose 2 (no titration) + Tirzepatide Dose 1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Bimagrumab",
     "Drug: Tirzepatide"
-   ]
-  },
-  {
+   ],
    "label": "Part B: Bimagrumab Dose 2 (fast titration) + Tirzepatide Dose 1",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: Bimagrumab",
     "Drug: Tirzepatide"
-   ]
-  },
-  {
+   ],
    "label": "Part B: Bimagrumab Dose 2 (slow titration) + Tirzepatide Dose 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Bimagrumab",
-    "Drug: Tirzepatide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part B: Bimagrumab Dose 1 + Tirzepatide Placebo",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Bimagrumab",
     "Drug: Tirzepatide Placebo"
-   ]
+   ],
+   "label": "Part B: Bimagrumab Dose 1 + Tirzepatide Placebo",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Part B: Bimagrumab Placebo + Tirzepatide Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Bimagrumab Placebo",
     "Drug: Tirzepatide Placebo"
-   ]
+   ],
+   "label": "Part B: Bimagrumab Placebo + Tirzepatide Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -185,10 +185,10 @@
  "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of Bimagrumab and Tirzepatide, alone or in combination, in adults with obesity or overweight, with at least one obesity related comorbidity, without Type 2 Diabetes. The study will last about 70 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have a BMI of\n\n  * ≥30 kilograms per square meter (kg/m2) or\n  * ≥27 kg/m2 and \\<30 kg/m2, with at least one of the following weight-related comorbidities:\n\n    * Hypertension\n    * Dyslipidemia\n    * Cardiovascular disease\n    * Obstructive sleep apnea\n* Have had a stable body weight for the 3 months prior to randomization (\\<5% body weight gain and/or loss)\n\nExclusion Criteria:\n\n* Have a prior or planned surgical treatment for obesity\n* Have at least one laboratory value suggestive of diabetes during screening\n* Use of metformin, or any other glucose-lowering medications\n* Have Type 1 Diabetes, latent autoimmune diabetes, been diagnosed with any form of diabetes mellitus except for a prior diagnosis of gestational diabetes mellitus, or history of ketoacidosis or hyperosmolar coma\n* Have poorly controlled hypertension\n* Have any of the following cardiovascular conditions within 3 months prior to screening:\n\n  * acute myocardial infarction\n  * cerebrovascular accident (stroke)\n  * unstable angina, or\n  * hospitalization due to congestive heart failure\n* Have ongoing or a history of frequent intermittent or chronic tachyarrhythmia syndromes\n* Have ongoing or a history of bradyarrhythmias other than sinus bradycardia\n* Have a history of New York Heart Association (NYHA) Functional Classification III or IV congestive heart failure\n* Have a history of symptomatic gallbladder disease within the past 2 years\n* Have signs and symptoms of any liver disease\n* Have a disease or condition known to cause gastrointestinal malabsorption or a known clinically significant gastric emptying abnormality\n* Have a history of acute or chronic pancreatitis\n* Have renal impairment, measured as estimated glomerular filtration rate \\<30 mL/minute/1.73 m2\n* Currently taking or have taken medications that may cause significant weight gain or promote weight loss within 3 months prior to screening",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -196,112 +196,112 @@
  },
  "sites": [
   {
-   "facility": "Pinnacle Research Group, LLC",
    "city": "Anniston",
-   "state": "Alabama",
    "country": "United States",
-   "status": null,
+   "facility": "Pinnacle Research Group, LLC",
    "lat": 33.65983,
-   "lon": -85.83163
-  },
-  {
-   "facility": "Central Research Associates",
-   "city": "Birmingham",
+   "lon": -85.83163,
    "state": "Alabama",
+   "status": null
+  },
+  {
+   "city": "Birmingham",
    "country": "United States",
-   "status": null,
+   "facility": "Central Research Associates",
    "lat": 33.52066,
-   "lon": -86.80249
+   "lon": -86.80249,
+   "state": "Alabama",
+   "status": null
   },
   {
-   "facility": "Diablo Clinical Research, Inc.",
    "city": "Walnut Creek",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Diablo Clinical Research, Inc.",
    "lat": 37.90631,
-   "lon": -122.06496
+   "lon": -122.06496,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Clinical Neuroscience Solutions, Inc. dba CNS Healthcare",
    "city": "Jacksonville",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Clinical Neuroscience Solutions, Inc. dba CNS Healthcare",
    "lat": 30.33218,
-   "lon": -81.65565
+   "lon": -81.65565,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "Altus Research",
    "city": "Lake Worth",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Altus Research",
    "lat": 26.61708,
-   "lon": -80.07231
-  },
-  {
-   "facility": "Suncoast Research Group",
-   "city": "Miami",
+   "lon": -80.07231,
    "state": "Florida",
+   "status": null
+  },
+  {
+   "city": "Miami",
    "country": "United States",
-   "status": null,
+   "facility": "Suncoast Research Group",
    "lat": 25.77427,
-   "lon": -80.19366
+   "lon": -80.19366,
+   "state": "Florida",
+   "status": null
   },
   {
-   "facility": "East-West Medical Research Institute",
    "city": "Honolulu",
-   "state": "Hawaii",
    "country": "United States",
-   "status": null,
+   "facility": "East-West Medical Research Institute",
    "lat": 21.30694,
-   "lon": -157.85833
+   "lon": -157.85833,
+   "state": "Hawaii",
+   "status": null
   },
   {
-   "facility": "Great Lakes Clinical Trials - Ravenswood",
    "city": "Chicago",
-   "state": "Illinois",
    "country": "United States",
-   "status": null,
+   "facility": "Great Lakes Clinical Trials - Ravenswood",
    "lat": 41.85003,
-   "lon": -87.65005
+   "lon": -87.65005,
+   "state": "Illinois",
+   "status": null
   },
   {
-   "facility": "SKY Integrative Medical Center/SKYCRNG",
    "city": "Ridgeland",
-   "state": "Mississippi",
    "country": "United States",
-   "status": null,
+   "facility": "SKY Integrative Medical Center/SKYCRNG",
    "lat": 32.42848,
-   "lon": -90.13231
+   "lon": -90.13231,
+   "state": "Mississippi",
+   "status": null
   },
   {
-   "facility": "Keystone Clinical Studies",
    "city": "Plymouth Meeting",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "Keystone Clinical Studies",
    "lat": 40.10233,
-   "lon": -75.27435
+   "lon": -75.27435,
+   "state": "Pennsylvania",
+   "status": null
   },
   {
-   "facility": "Eastside Research Associates",
    "city": "Redmond",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "Eastside Research Associates",
    "lat": 47.67399,
-   "lon": -122.12151
+   "lon": -122.12151,
+   "state": "Washington",
+   "status": null
   },
   {
-   "facility": "Rainier Clinical Research Center",
    "city": "Renton",
-   "state": "Washington",
    "country": "United States",
-   "status": null,
+   "facility": "Rainier Clinical Research Center",
    "lat": 47.48288,
-   "lon": -122.21707
+   "lon": -122.21707,
+   "state": "Washington",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06643728",
@@ -318,6 +318,79 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have a BMI of",
+    "sub_items": [
+     "≥30 kilograms per square meter (kg/m2) or",
+     "≥27 kg/m2 and <30 kg/m2, with at least one of the following weight-related comorbidities:",
+     "Hypertension",
+     "Dyslipidemia",
+     "Cardiovascular disease",
+     "Obstructive sleep apnea"
+    ]
+   },
+   {
+    "text": "Have had a stable body weight for the 3 months prior to randomization (<5% body weight gain and/or loss)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have a prior or planned surgical treatment for obesity"
+   },
+   {
+    "text": "Have at least one laboratory value suggestive of diabetes during screening"
+   },
+   {
+    "text": "Use of metformin, or any other glucose-lowering medications"
+   },
+   {
+    "text": "Have Type 1 Diabetes, latent autoimmune diabetes, been diagnosed with any form of diabetes mellitus except for a prior diagnosis of gestational diabetes mellitus, or history of ketoacidosis or hyperosmolar coma"
+   },
+   {
+    "text": "Have poorly controlled hypertension"
+   },
+   {
+    "text": "Have any of the following cardiovascular conditions within 3 months prior to screening:",
+    "sub_items": [
+     "acute myocardial infarction",
+     "cerebrovascular accident (stroke)",
+     "unstable angina, or",
+     "hospitalization due to congestive heart failure"
+    ]
+   },
+   {
+    "text": "Have ongoing or a history of frequent intermittent or chronic tachyarrhythmia syndromes"
+   },
+   {
+    "text": "Have ongoing or a history of bradyarrhythmias other than sinus bradycardia"
+   },
+   {
+    "text": "Have a history of New York Heart Association (NYHA) Functional Classification III or IV congestive heart failure"
+   },
+   {
+    "text": "Have a history of symptomatic gallbladder disease within the past 2 years"
+   },
+   {
+    "text": "Have signs and symptoms of any liver disease"
+   },
+   {
+    "text": "Have a disease or condition known to cause gastrointestinal malabsorption or a known clinically significant gastric emptying abnormality"
+   },
+   {
+    "text": "Have a history of acute or chronic pancreatitis"
+   },
+   {
+    "text": "Have renal impairment, measured as estimated glomerular filtration rate <30 mL/minute/1.73 m2"
+   },
+   {
+    "text": "Currently taking or have taken medications that may cause significant weight gain or promote weight loss within 3 months prior to screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

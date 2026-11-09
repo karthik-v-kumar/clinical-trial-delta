@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Dong-A ST Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Dong-A ST Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -53,50 +53,50 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Evogliptin 5mg",
    "other_names": [
     "Suganon"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Evogliptin Placebo",
    "other_names": [
     "Placebo"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10mg",
    "other_names": [
     "Forxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin ≥ 1000mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Evogliptin 5mg group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Evogliptin 5mg",
     "Drug: Dapagliflozin 10mg",
     "Drug: Metformin ≥ 1000mg"
-   ]
+   ],
+   "label": "Evogliptin 5mg group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Evogliptin Placebo group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Evogliptin Placebo",
     "Drug: Dapagliflozin 10mg",
     "Drug: Metformin ≥ 1000mg"
-   ]
+   ],
+   "label": "Evogliptin Placebo group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -108,10 +108,10 @@
  "brief_summary": "A Multicenter, Double-blind, Placebo-controlled, Randomized, Parallel, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Evogliptin When Added to Ongoing Metformin and Dapagliflozin Combination Therapy in Patients With Type 2 Diabetes Who Have Inadequate Glycemic Control",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with Type II diabetes mellitus aged 19 years or older\n* Subjects who performed Dual therapies (complex allowed) for one of the following, along with meals and exercise therapy\n\n  1. Subjects who are receiving metformin ≥ 1000 mg/d and dapagliflozin 10 mg/d at the same dose for at least 8 weeks prior to the screening visit\n  2. Subjects who are receiving metformin ≥ 1000 mg/d and SGLT-2 inhibitor except for dapagliflozin at the same dose for at least 8 weeks prior to the screening visit\n* Subjects with 7.0%≤HbA1c≤10.5% at screening visit\n* Subjects with fasting plasma glucose ≤ 270mg/dL at screening visit\n* Subjects with 18.5kg/m2≤BMI≤40kg/m2 at screening visit\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes, secondary diabetes, gestational diabetes, diabetic ketoacidosis, diabetic coma, pre-coma, lactic acidosis, and acute or chronic metabolic acidosis\n* patients with Hypopituitarism or adrenal insufficiency, pulmonary infarction, severe pulmonary dysfunction and other hypoxemia\n* Patients with severe infectious disease or severe traumatic systemic disorders\n* End stage renal disease or dialysis patients\n* Patients with Galactose intolerance, Lapp lactase deficiency, glucose-galactose malabsorption\n* Subjects with Liver cirrhosis, chronic active hepatitis B or C, cholecystitis, acromegaly, asthma or major skin allergies",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,13 +119,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul St, Mary's Hospital,The Catholic University of Korea",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "Seoul St, Mary's Hospital,The Catholic University of Korea",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04170998",
@@ -137,6 +137,51 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with Type II diabetes mellitus aged 19 years or older"
+   },
+   {
+    "text": "Subjects who performed Dual therapies (complex allowed) for one of the following, along with meals and exercise therapy",
+    "sub_items": [
+     "Subjects who are receiving metformin ≥ 1000 mg/d and dapagliflozin 10 mg/d at the same dose for at least 8 weeks prior to the screening visit",
+     "Subjects who are receiving metformin ≥ 1000 mg/d and SGLT-2 inhibitor except for dapagliflozin at the same dose for at least 8 weeks prior to the screening visit"
+    ]
+   },
+   {
+    "text": "Subjects with 7.0%≤HbA1c≤10.5% at screening visit"
+   },
+   {
+    "text": "Subjects with fasting plasma glucose ≤ 270mg/dL at screening visit"
+   },
+   {
+    "text": "Subjects with 18.5kg/m2≤BMI≤40kg/m2 at screening visit"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes, secondary diabetes, gestational diabetes, diabetic ketoacidosis, diabetic coma, pre-coma, lactic acidosis, and acute or chronic metabolic acidosis"
+   },
+   {
+    "text": "patients with Hypopituitarism or adrenal insufficiency, pulmonary infarction, severe pulmonary dysfunction and other hypoxemia"
+   },
+   {
+    "text": "Patients with severe infectious disease or severe traumatic systemic disorders"
+   },
+   {
+    "text": "End stage renal disease or dialysis patients"
+   },
+   {
+    "text": "Patients with Galactose intolerance, Lapp lactase deficiency, glucose-galactose malabsorption"
+   },
+   {
+    "text": "Subjects with Liver cirrhosis, chronic active hepatitis B or C, cholecystitis, acromegaly, asthma or major skin allergies"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

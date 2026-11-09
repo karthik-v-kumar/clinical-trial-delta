@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Azienda Ospedaliero, Universitaria Pisana",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Azienda Ospedaliero, Universitaria Pisana"
  },
  "collaborators": [
   "European Foundation for the Study of Diabetes"
@@ -54,25 +54,25 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Hypersodic/Hyposodic diet",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "SGLT2i-treated patients",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Hypersodic/Hyposodic diet"
-   ]
+   ],
+   "label": "SGLT2i-treated patients",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Non SGLT2i-treated patients",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Hypersodic/Hyposodic diet"
-   ]
+   ],
+   "label": "Non SGLT2i-treated patients",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "The goal of this interventional study is to test whether sodium-glucose cotransporter 2 inhibitors (SGLT2i) reduce the effects of high dietary sodium intake in patients with type 2 diabetes.\n\nParticipants will undergo a dietary intervention consisting of a week of high-sodium diet, followed by a week of low-sodium diet. At the end of each week the patients will undergo:\n\n* 24-h ambulatory blood pressure measurement;\n* 24-h urine collection;\n* bioimpedance analysis for body composition determination;\n* blood and urine tests.\n\nThe study will compare patients treated with SGLT2i and patients not treated with SGLT2i to test whether the treatment reduces the effects of high sodium intake on blood pressure, body composition and biochemical variables.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* age 18-65 years;\n* both males and females;\n* type 2 diabetes.\n\nExclusion Criteria:\n\n* type 1 diabetes;\n* insulin treatment;\n* uncontrolled hypertension (SBP \\> 160 mmHg and/or DBP \\>95 mmHg);\n* pregnancy;\n* other acute or chronic conditions influencing blood pressure and glucose metabolism.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "facility": "Azienda Ospedaliero-Universitaria Pisana",
    "city": "Pisa",
-   "state": "PI",
    "country": "Italy",
-   "status": "RECRUITING",
+   "facility": "Azienda Ospedaliero-Universitaria Pisana",
    "lat": 43.70853,
-   "lon": 10.4036
+   "lon": 10.4036,
+   "state": "PI",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06007157",
@@ -113,6 +113,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "age 18-65 years;"
+   },
+   {
+    "text": "both males and females;"
+   },
+   {
+    "text": "type 2 diabetes."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "type 1 diabetes;"
+   },
+   {
+    "text": "insulin treatment;"
+   },
+   {
+    "text": "uncontrolled hypertension (SBP > 160 mmHg and/or DBP >95 mmHg);"
+   },
+   {
+    "text": "pregnancy;"
+   },
+   {
+    "text": "other acute or chronic conditions influencing blood pressure and glucose metabolism."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

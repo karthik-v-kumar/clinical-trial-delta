@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Harvard School of Public Health (HSPH)",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Harvard School of Public Health (HSPH)"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Whole Fruit",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Whole Fruit",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Whole Fruit"
-   ]
+   ],
+   "label": "Whole Fruit",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "This study will determine the effects of consuming whole fruit on blood sugar control, liver fat, and cardiovascular health in adults with type 2 diabetes who are not treated with insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Aged ≥18 years\n* Diagnosed with type 2 diabetes\n* HbA1c between 6.5-12.0%\n* Fasting C-peptide level ≥0.5 ng/ml, indicating the patient does not have beta-cell failure, as measured at screening\n\nExclusion Criteria:\n\n* On insulin\n* Evidence of latent autoimmune diabetes (LADA) or maturity-onset diabetes of the young (MODY)\n* Estimated glomerular filtration rate (eGFR) \\<45 ml/min per 1.73 m²\n* Heart attack in the past 6 months or severe/unstable heart failure\n* On weight loss medication, including GLP-1 receptor agonists (e.g., semaglutide, dulaglutide)\n* Change in the dosage of a chronic medication that may affect study endpoints within the past 3 months\n* Clinically significant laboratory abnormality (e.g., abnormal hemoglobin levels)\n* Significant gastrointestinal disease, major gastrointestinal surgery, or gallstones\n* Significant cardiovascular, renal, cardiac, liver, lung, adrenal, or nervous system disease that might compromise participant safety or data validity\n* Evidence of cancer (other than non-melanoma skin cancer) within the last 5 years\n* Lost or gained more than 5 lbs (or more than 2% of body weight if the patient weighs \\>250 lbs) of weight in the past 2 months\n* Pregnant, planning to become pregnant in the next 6 months, or breastfeeding\n* Major psychiatric condition that would affect the ability to participate in the study\n* Not able to eat the provided study meals (e.g., food allergies)\n* Behavioral factors or circumstances that may impede adherence to the dietary intervention\n* Not able to undergo the MRI scan (e.g., due to claustrophobia, implanted metal objects, or body girth ≥60 cm)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "facility": "Harvard T. H. Chan School of Public Health",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Harvard T. H. Chan School of Public Health",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07376226",
@@ -132,6 +132,74 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Aged ≥18 years"
+   },
+   {
+    "text": "Diagnosed with type 2 diabetes"
+   },
+   {
+    "text": "HbA1c between 6.5-12.0%"
+   },
+   {
+    "text": "Fasting C-peptide level ≥0.5 ng/ml, indicating the patient does not have beta-cell failure, as measured at screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "On insulin"
+   },
+   {
+    "text": "Evidence of latent autoimmune diabetes (LADA) or maturity-onset diabetes of the young (MODY)"
+   },
+   {
+    "text": "Estimated glomerular filtration rate (eGFR) <45 ml/min per 1.73 m²"
+   },
+   {
+    "text": "Heart attack in the past 6 months or severe/unstable heart failure"
+   },
+   {
+    "text": "On weight loss medication, including GLP-1 receptor agonists (e.g., semaglutide, dulaglutide)"
+   },
+   {
+    "text": "Change in the dosage of a chronic medication that may affect study endpoints within the past 3 months"
+   },
+   {
+    "text": "Clinically significant laboratory abnormality (e.g., abnormal hemoglobin levels)"
+   },
+   {
+    "text": "Significant gastrointestinal disease, major gastrointestinal surgery, or gallstones"
+   },
+   {
+    "text": "Significant cardiovascular, renal, cardiac, liver, lung, adrenal, or nervous system disease that might compromise participant safety or data validity"
+   },
+   {
+    "text": "Evidence of cancer (other than non-melanoma skin cancer) within the last 5 years"
+   },
+   {
+    "text": "Lost or gained more than 5 lbs (or more than 2% of body weight if the patient weighs >250 lbs) of weight in the past 2 months"
+   },
+   {
+    "text": "Pregnant, planning to become pregnant in the next 6 months, or breastfeeding"
+   },
+   {
+    "text": "Major psychiatric condition that would affect the ability to participate in the study"
+   },
+   {
+    "text": "Not able to eat the provided study meals (e.g., food allergies)"
+   },
+   {
+    "text": "Behavioral factors or circumstances that may impede adherence to the dietary intervention"
+   },
+   {
+    "text": "Not able to undergo the MRI scan (e.g., due to claustrophobia, implanted metal objects, or body girth ≥60 cm)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "TRIPLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Profil Institut für Stoffwechselforschung GmbH",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Profil Institut für Stoffwechselforschung GmbH"
  },
  "collaborators": [],
  "conditions": [
@@ -52,48 +52,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Linagliptin",
    "other_names": [
     "Trajenta"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
    "other_names": [
     "Jardiance"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin plus Linagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Linagliptin",
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Empagliflozin plus Linagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Empagliflozin plus Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo",
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Empagliflozin plus Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Empagliflozin",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Empagliflozin",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The primary aim of this exploratory mechanistic study is to investigate the effects of Empagliflozin and Linagliptin on alpha- and beta cell physiology in T2DM patients.\n\nThis study aims to evaluate the effect of the DPP-IV inhibitor linagliptin (as compared to placebo) in addition to the SGLT-2 inhibitor empagliflozin on pancreatic alpha and beta cell function, as well as several markers of metabolic control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male or female subject with diabetes mellitus type 2\n2. Diabetes mellitus type 2 on stable treatment with metformin (daily dose at least 1000 mg) for at least 6 months\n3. HbA1c 7.0%-9.9%, both inclusive\n4. Diabetes duration of at least 24 months)\n\nExclusion Criteria:\n\n1. History of diabetes mellitus type 1\n2. GFR (as calculated by the Cockcroft-Gault equation) \\< 60 ml/min at Screening\n3. Systolic blood pressure outside the range of 100-160 mmHg or diastolic blood pressure above 95 mmHg at Screening",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,22 +116,22 @@
  },
  "sites": [
   {
-   "facility": "Profil Mainz GmbH & Co. KG",
    "city": "Mainz",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Profil Mainz GmbH & Co. KG",
    "lat": 49.98185,
-   "lon": 8.28008
+   "lon": 8.28008,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Profil Institut für Stoffwechselforschung GmbH",
    "city": "Neuss",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Profil Institut für Stoffwechselforschung GmbH",
    "lat": 51.19807,
-   "lon": 6.68504
+   "lon": 6.68504,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02401880",
@@ -143,6 +143,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female subject with diabetes mellitus type 2"
+   },
+   {
+    "text": "Diabetes mellitus type 2 on stable treatment with metformin (daily dose at least 1000 mg) for at least 6 months"
+   },
+   {
+    "text": "HbA1c 7.0%-9.9%, both inclusive"
+   },
+   {
+    "text": "Diabetes duration of at least 24 months)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of diabetes mellitus type 1"
+   },
+   {
+    "text": "GFR (as calculated by the Cockcroft-Gault equation) < 60 ml/min at Screening"
+   },
+   {
+    "text": "Systolic blood pressure outside the range of 100-160 mmHg or diastolic blood pressure above 95 mmHg at Screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

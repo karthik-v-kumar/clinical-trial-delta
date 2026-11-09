@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "DOUBLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Per Løgstrup Poulsen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Per Løgstrup Poulsen"
  },
  "collaborators": [
   "Odense University Hospital"
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "CAC-based treatment strategy",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Standard treatment",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "CAC-based treatment",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: CAC-based treatment strategy"
-   ]
+   ],
+   "label": "CAC-based treatment",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Standard treatment",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Standard treatment"
-   ]
+   ],
+   "label": "Standard treatment",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The investigators intend to perform a landmark study to answer whether a combined CVD screening and treatment strategy is beneficial for patients with type 2 diabetes (T2DM) without known cardiovascular disease (CVD)\n\nThe investigators aim to answer the following main research questions:\n\nDo screening detected high-risk patients benefit of intensified medical treatment?\n\nIs it safe to de-intensify medical treatment among patients with a screening detected low risk of CVD?\n\nDoes a CVD screening and treatment program improve patient reported health status?\n\nCardiovascular risk remains high in patients with T2DM but unevenly distributed. Our current risk stratification strategies are far from optimal leading to both under- and over-treatment of patients. In recent years, noninvasive imaging of subclinical coronary artery disease by cardiac CT has improved considerably. This allows for easily accessible evaluations of coronary atherosclerosis burden and composition - exceptionally strong imaging biomarkers of future cardiovascular disease. An increasing amount of data suggests that cardiac CT may permit better risk stratification in patients with T2DM. At the same time, the pharmaceutical treatment of T2DM has changed with several new and expensive drug classes, each individually documented to reduce the risk for new or recurrent cardiovascular events. Thus, these new drugs may improve outcome in high-risk patients, whereas they may be wasteful and only lead to side effects in low-risk patients.\n\nIn the Inten-CT study, the investigators combine these two pivotal developments. The investigators intend to improve risk stratification of patients with T2DM by use of cardiac CT and, based on this knowledge, the investigators wish to investigate if upgraded medical treatment in the high-risk population is beneficial and if de-intensified treatment in the low-risk population is safe. As a secondary aim, the investigators wish to investigate if such a strategy improves patient reported health status. These aims are in agreement with one of the important health indicators from The Danish College of General Practitioners: \"We find and treat the patients and let the healthy stay healthy\". The investigators intend with this strategy to improve not only cardiovascular outcome among patients with T2DM, but also their quality of life.\n\nThe Inten-CT study is an investigator-initiated open-label event-driven randomized controlled trial including patients with T2DM stratified according to screen detected coronary artery calcification. The investigators expect inclusion of 7300 patients in 2 years and a mean follow-up period of 5 years.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* New or former diagnosis of Type 2 diabetes according to WHO.\n* Age between 55-69 years (men) and 60-74 years (women).\n* Signed declaration of consent\n\nExclusion Criteria:\n\n* Previous history of CVD (previous myocardial infarction or coronary intervention (percutaneous coronary intervention or by-pass), heart failure, stroke or peripheral artery disease as documented by the patient or the patient medical record).\n* Contraindications or allergies to both SGLT2 inhibitors and GLP-1 analogues.\n* Signs of critical cardiac disease: \\>50% stenosis of left main coronary artery (CT angiography) or left ventricular ejection fraction below 30% (echocardiography). If a CT angiography is not available, a CAC\\>1000 on the non-contrast cardiac CT will be considered equal to critical cardiac disease.\n* Expected life duration \\< 1 year for any reason.",
-  "sex": "ALL",
-  "minimum_age": "55 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "55 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Odense University Hospital",
    "city": "Odense",
-   "state": null,
    "country": "Denmark",
-   "status": "RECRUITING",
+   "facility": "Odense University Hospital",
    "lat": 55.39594,
-   "lon": 10.38831
+   "lon": 10.38831,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05700877",
@@ -118,6 +118,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "New or former diagnosis of Type 2 diabetes according to WHO."
+   },
+   {
+    "text": "Age between 55-69 years (men) and 60-74 years (women)."
+   },
+   {
+    "text": "Signed declaration of consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Previous history of CVD (previous myocardial infarction or coronary intervention (percutaneous coronary intervention or by-pass), heart failure, stroke or peripheral artery disease as documented by the patient or the patient medical record)."
+   },
+   {
+    "text": "Contraindications or allergies to both SGLT2 inhibitors and GLP-1 analogues."
+   },
+   {
+    "text": "Signs of critical cardiac disease: >50% stenosis of left main coronary artery (CT angiography) or left ventricular ejection fraction below 30% (echocardiography). If a CT angiography is not available, a CAC>1000 on the non-contrast cardiac CT will be considered equal to critical cardiac disease."
+   },
+   {
+    "text": "Expected life duration < 1 year for any reason."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

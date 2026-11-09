@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Zagazig University",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Zagazig University"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Rifaximin 200 MG",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "study",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rifaximin 200 MG"
-   ]
+   ],
+   "label": "study",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "CONTROL GROUP",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -76,23 +76,23 @@
  "brief_summary": "Gut Dysbiosis had been involved in some way in the pathogenesis of some extra-intestinal disorders including metabolic syndrome, cardiovascular disease, and obesity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* diabetes with gut dysbiosis\n\nExclusion Criteria:\n\n* recent antibiotic use\n* pregnancy\n* diabetogenic drugs",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Zagazig University",
    "city": "Zagazig",
-   "state": "Sharqia Province",
    "country": "Egypt",
-   "status": "RECRUITING",
+   "facility": "Zagazig University",
    "lat": 30.58768,
-   "lon": 31.502
+   "lon": 31.502,
+   "state": "Sharqia Province",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03758144",
@@ -104,6 +104,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "diabetes with gut dysbiosis"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "recent antibiotic use"
+   },
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "diabetogenic drugs"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

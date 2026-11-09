@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Erlangen-Nürnberg Medical School",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Erlangen-Nürnberg Medical School"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
    "other_names": [
     "Jardiance"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Empagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Empagliflozin may lead to improved vascular and endothelial function in the macro- (pulse wave reflection) and microcirculation (retinal circulation) and improve cardiovascular risk factors, imparticular by effectively controlling hyperglycemia, arterial hypertension and obesity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus defined by fasting glucose ≥ 126 mg/dl or HbA1c ≥ 6.5% or on blood glucose lowering medication\n* Age of 18 - 75 years\n* Male and Female patients (females of child bearing potential must be using adequate contraceptive precautions)\n* Females of childbearing potential or within two years of the menopause must have a negative urine pregnancy test at screening visit\n* Informed consent (§ 40 Abs. 1 Satz 3 Punkt 3 AMG) has to be given in written form.\n\nExclusion Criteria:\n\n* Any other form of diabetes mellitus than type 2 diabetes mellitus\n* Use of insulin, glitazone, gliptine or SGLT-2 inhibitor within the past 3 months\n* Patients with more than one oral blood glucose lowering medication\n* Any other oral antidiabetic drug that cannot be discontinued for the study period\n* HbA1c ≥ 10%\n* Fasting plasma glucose \\> 240 mg/dl\n* Any history of stroke, transient ischemic attack, instable angina pectoris, or myocardial infarction within the last 6 months prior to study inclusion\n* UACR ≥ 300 mg/g (early morning spot urine)\n* eGFR \\< 60 ml/min/1.73m²\n* Uncontrolled arterial hypertension (RR ≥ 180/110 mmHg)\n* Congestive heart failure (CHF) NYHA stage III and IV\n* Severe disorders of the gastrointestinal tract or other diseases which interfere the pharmacodynamics and pharmakinetics of study drugs\n* Significant laboratory abnormalities such as SGOT or SGPT levels more than 3 x above the upper limit of normal range\n* Drug or alcohol abusus\n* Pregnant or breast-feeding patients\n* Use of loop diuretics\n* History of repetitive urogenital infection per year\n* Body mass index \\> 40 kg/m²\n* Triglyceride levels \\> 1000 mg/dl\n* HDL-cholesterol levels \\< 25 mg/dl\n* Any patient currently receiving chronic (\\>30 consecutive days) treatment with an oral corticosteroid\n* History of epilepsia or history of seizures\n* Patients being treated for severe auto immune disease e.g. lupus\n* Participation in another clinical study within 30 days prior to visit 1\n* Individuals at risk for poor protocol or medication compliance\n* Subject who do not give written consent, that pseudonymous data will be transferred in line with the duty of documentation and the duty of notification according to § 12 and § 13 GCP-V",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "University of Erlangen-Nuremberg",
    "city": "Erlangen",
-   "state": "Bavaria",
    "country": "Germany",
-   "status": null,
+   "facility": "University of Erlangen-Nuremberg",
    "lat": 49.59099,
-   "lon": 11.00783
+   "lon": 11.00783,
+   "state": "Bavaria",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02471963",
@@ -117,6 +117,107 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes mellitus defined by fasting glucose ≥ 126 mg/dl or HbA1c ≥ 6.5% or on blood glucose lowering medication"
+   },
+   {
+    "text": "Age of 18 - 75 years"
+   },
+   {
+    "text": "Male and Female patients (females of child bearing potential must be using adequate contraceptive precautions)"
+   },
+   {
+    "text": "Females of childbearing potential or within two years of the menopause must have a negative urine pregnancy test at screening visit"
+   },
+   {
+    "text": "Informed consent (§ 40 Abs. 1 Satz 3 Punkt 3 AMG) has to be given in written form."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any other form of diabetes mellitus than type 2 diabetes mellitus"
+   },
+   {
+    "text": "Use of insulin, glitazone, gliptine or SGLT-2 inhibitor within the past 3 months"
+   },
+   {
+    "text": "Patients with more than one oral blood glucose lowering medication"
+   },
+   {
+    "text": "Any other oral antidiabetic drug that cannot be discontinued for the study period"
+   },
+   {
+    "text": "HbA1c ≥ 10%"
+   },
+   {
+    "text": "Fasting plasma glucose > 240 mg/dl"
+   },
+   {
+    "text": "Any history of stroke, transient ischemic attack, instable angina pectoris, or myocardial infarction within the last 6 months prior to study inclusion"
+   },
+   {
+    "text": "UACR ≥ 300 mg/g (early morning spot urine)"
+   },
+   {
+    "text": "eGFR < 60 ml/min/1.73m²"
+   },
+   {
+    "text": "Uncontrolled arterial hypertension (RR ≥ 180/110 mmHg)"
+   },
+   {
+    "text": "Congestive heart failure (CHF) NYHA stage III and IV"
+   },
+   {
+    "text": "Severe disorders of the gastrointestinal tract or other diseases which interfere the pharmacodynamics and pharmakinetics of study drugs"
+   },
+   {
+    "text": "Significant laboratory abnormalities such as SGOT or SGPT levels more than 3 x above the upper limit of normal range"
+   },
+   {
+    "text": "Drug or alcohol abusus"
+   },
+   {
+    "text": "Pregnant or breast-feeding patients"
+   },
+   {
+    "text": "Use of loop diuretics"
+   },
+   {
+    "text": "History of repetitive urogenital infection per year"
+   },
+   {
+    "text": "Body mass index > 40 kg/m²"
+   },
+   {
+    "text": "Triglyceride levels > 1000 mg/dl"
+   },
+   {
+    "text": "HDL-cholesterol levels < 25 mg/dl"
+   },
+   {
+    "text": "Any patient currently receiving chronic (>30 consecutive days) treatment with an oral corticosteroid"
+   },
+   {
+    "text": "History of epilepsia or history of seizures"
+   },
+   {
+    "text": "Patients being treated for severe auto immune disease e.g. lupus"
+   },
+   {
+    "text": "Participation in another clinical study within 30 days prior to visit 1"
+   },
+   {
+    "text": "Individuals at risk for poor protocol or medication compliance"
+   },
+   {
+    "text": "Subject who do not give written consent, that pseudonymous data will be transferred in line with the duty of documentation and the duty of notification according to § 12 and § 13 GCP-V"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AdventHealth Translational Research Institute",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "AdventHealth Translational Research Institute"
  },
  "collaborators": [],
  "conditions": [
@@ -48,40 +48,38 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Maximal ATP Production (ATPmax)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Exercise Testing (VO2max)",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "PROCEDURE",
    "name": "Muscle Biopsy",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "PROCEDURE",
    "name": "Adipose Tissue Biopsy",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "OTHER",
    "name": "Hyperinsulinemic euglycemic clamp",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "PET imaging",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "All Participants",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Maximal ATP Production (ATPmax)",
     "Other: Exercise Testing (VO2max)",
@@ -89,7 +87,9 @@
     "Procedure: Adipose Tissue Biopsy",
     "Other: Hyperinsulinemic euglycemic clamp",
     "Other: PET imaging"
-   ]
+   ],
+   "label": "All Participants",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The overall aim of this pilot study is to investigate the effects of exercise training on skeletal muscle and adipose tissue insulin resistance in subjects with Type 2 Diabetes (T2D).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age 30-65 years\n2. Men and women\n3. Body mass index (BMI) between 25 and 45 kg/m2\n4. Sedentary (1 day or less per week of structured exercise)\n5. Type 2 diabetes mellitus determined by self-report or by a fasting glucose \\>126mg/dl\n6. Weight stable (± 2 kg) for prior 3 months\n7. Willing to commit to the schedule of assessment visits, including the exercise intervention\n\nExclusion Criteria:\n\n1. Currently taking insulin, injectable incretin mimetics and thiazolidinediones\n2. Taking more than two glucose-lowering medications\n3. Resting blood pressure ≥ 160/100 mm Hg\n4. Triglycerides ≥ 500 mg/dL\n5. Any renal, cardiac, liver, lung, or neurological disease that in the opinion of the principal investigator would compromise participant safety or the participants' ability to complete the exercise training protocol\n6. Any significant disease or unstable medical condition (i.e., coronary heart disease, chronic renal failure, chronic hepatic disease, severe pulmonary disease)\n7. Presence of clinically significant abnormalities on electrocardiogram (ECG) that is a contra-indication to exercise training\n8. Pulse check (\"Allen test\") indicates participant has poor blood flow in the hands\n9. Cancer (active malignancy with or without concurrent chemotherapy; except for basal cell carcinoma)\n10. Pregnancy during the previous 6 months, lactating, or planned pregnancy in the next year\n11. Use of drugs known to affect energy metabolism or body weight: including, but not limited to orlistat, sibutramine, ephedrine, phenylpropanolamine, corticosterone, etc\n12. Current treatment with blood thinners or anti-platelet medications that cannot be safely stopped for testing procedures\n13. Participant is currently taking anti-inflammatory medication or has had inflammatory medication within 1 week prior to screening (including over the counter formulations: e.g. Aleve, Motrin, Ibuprofen, Naproxen, low dose ASA.\n14. New onset (\\<3 months on a stable regime) hormone replacement therapy\n15. Current use of beta-adrenergic blocking agents\n16. Major surgery on the abdomen, pelvis, or lower extremities within previous 3 months\n17. Increased liver function tests (AST/ALT/GGT/or alkaline phosphatase greater than 2.5 times the upper limit of normal)\n18. Abnormal blood count/anemia, blood transfusion or blood donation within the last 2 months\n19. Current smokers (smoking within the past 3 months prior to screening visit, including any/all tobacco products)\n20. Current drug or alcohol abuse/dependence\n21. Metal implants (pace-maker, aneurysm clips) based on investigator's judgment at screening\n22. Not physically capable of performing the exercise required of the study protocols\n23. Plans to be away \\>2 weeks in the next 3 months\n24. Unable to participate in Magnetic Resonance Imaging (MRI) assessments due to physical limitations of equipment tolerances (e.g. MRI bore size) based on investigator's judgment at screening.\n25. Unable to tolerate MRI or claustrophobia.\n26. Nickel allergy\n27. Lidocaine allergy\n28. Unable or unwilling to communicate with staff or to provide written informed consent",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "facility": "AdventHealth Translational Research Institute",
    "city": "Orlando",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "AdventHealth Translational Research Institute",
    "lat": 28.53834,
-   "lon": -81.37924
+   "lon": -81.37924,
+   "state": "Florida",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04754581",
@@ -134,6 +134,119 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age 30-65 years"
+   },
+   {
+    "text": "Men and women"
+   },
+   {
+    "text": "Body mass index (BMI) between 25 and 45 kg/m2"
+   },
+   {
+    "text": "Sedentary (1 day or less per week of structured exercise)"
+   },
+   {
+    "text": "Type 2 diabetes mellitus determined by self-report or by a fasting glucose >126mg/dl"
+   },
+   {
+    "text": "Weight stable (± 2 kg) for prior 3 months"
+   },
+   {
+    "text": "Willing to commit to the schedule of assessment visits, including the exercise intervention"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Currently taking insulin, injectable incretin mimetics and thiazolidinediones"
+   },
+   {
+    "text": "Taking more than two glucose-lowering medications"
+   },
+   {
+    "text": "Resting blood pressure ≥ 160/100 mm Hg"
+   },
+   {
+    "text": "Triglycerides ≥ 500 mg/dL"
+   },
+   {
+    "text": "Any renal, cardiac, liver, lung, or neurological disease that in the opinion of the principal investigator would compromise participant safety or the participants' ability to complete the exercise training protocol"
+   },
+   {
+    "text": "Any significant disease or unstable medical condition (i.e., coronary heart disease, chronic renal failure, chronic hepatic disease, severe pulmonary disease)"
+   },
+   {
+    "text": "Presence of clinically significant abnormalities on electrocardiogram (ECG) that is a contra-indication to exercise training"
+   },
+   {
+    "text": "Pulse check (\"Allen test\") indicates participant has poor blood flow in the hands"
+   },
+   {
+    "text": "Cancer (active malignancy with or without concurrent chemotherapy; except for basal cell carcinoma)"
+   },
+   {
+    "text": "Pregnancy during the previous 6 months, lactating, or planned pregnancy in the next year"
+   },
+   {
+    "text": "Use of drugs known to affect energy metabolism or body weight: including, but not limited to orlistat, sibutramine, ephedrine, phenylpropanolamine, corticosterone, etc"
+   },
+   {
+    "text": "Current treatment with blood thinners or anti-platelet medications that cannot be safely stopped for testing procedures"
+   },
+   {
+    "text": "Participant is currently taking anti-inflammatory medication or has had inflammatory medication within 1 week prior to screening (including over the counter formulations: e.g. Aleve, Motrin, Ibuprofen, Naproxen, low dose ASA."
+   },
+   {
+    "text": "New onset (<3 months on a stable regime) hormone replacement therapy"
+   },
+   {
+    "text": "Current use of beta-adrenergic blocking agents"
+   },
+   {
+    "text": "Major surgery on the abdomen, pelvis, or lower extremities within previous 3 months"
+   },
+   {
+    "text": "Increased liver function tests (AST/ALT/GGT/or alkaline phosphatase greater than 2.5 times the upper limit of normal)"
+   },
+   {
+    "text": "Abnormal blood count/anemia, blood transfusion or blood donation within the last 2 months"
+   },
+   {
+    "text": "Current smokers (smoking within the past 3 months prior to screening visit, including any/all tobacco products)"
+   },
+   {
+    "text": "Current drug or alcohol abuse/dependence"
+   },
+   {
+    "text": "Metal implants (pace-maker, aneurysm clips) based on investigator's judgment at screening"
+   },
+   {
+    "text": "Not physically capable of performing the exercise required of the study protocols"
+   },
+   {
+    "text": "Plans to be away >2 weeks in the next 3 months"
+   },
+   {
+    "text": "Unable to participate in Magnetic Resonance Imaging (MRI) assessments due to physical limitations of equipment tolerances (e.g. MRI bore size) based on investigator's judgment at screening."
+   },
+   {
+    "text": "Unable to tolerate MRI or claustrophobia."
+   },
+   {
+    "text": "Nickel allergy"
+   },
+   {
+    "text": "Lidocaine allergy"
+   },
+   {
+    "text": "Unable or unwilling to communicate with staff or to provide written informed consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

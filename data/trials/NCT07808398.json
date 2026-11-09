@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mayo Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mayo Clinic"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "Carbohydrate-counting-based prandial rapid-acting insulin dosing",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "Flexible fixed mealtime rapid-acting insulin dosing based on percentage of meal consumed",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Carbohydrate-Counting-Based Prandial Insulin Dosing",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Carbohydrate-counting-based prandial rapid-acting insulin dosing"
-   ]
+   ],
+   "label": "Carbohydrate-Counting-Based Prandial Insulin Dosing",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Flexible Fixed Mealtime Insulin Dosing",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Flexible fixed mealtime rapid-acting insulin dosing based on percentage of meal consumed"
-   ]
+   ],
+   "label": "Flexible Fixed Mealtime Insulin Dosing",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The study compares two current practices for calculating insulin dose for admitted patients: flexible fixed mealtime dosing based on percent of meal eaten and carbohydrate counting based on amount of carbohydrates eaten.",
  "eligibility": {
   "criteria": "Inclusion criteria\n\n* Adults ≥18 years\n* Admitted to non-ICU units\n* Require scheduled prandial insulin as part of basal-bolus insulin therapy with CC.\n\nExclusion criteria\n\n* History of type 1 DM\n* History of total pancreatectomy\n* Use of pre-admission CC for prandial insulin administration\n* Critical illness requiring ICU admission at time of recruitment.\n* Admission to psychiatry services\n* Pregnancy\n* All forms of enteral/tube feeding or parenteral nutrition at recruitment\n* Observation status at time of recruitment",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,6 +108,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults ≥18 years"
+   },
+   {
+    "text": "Admitted to non-ICU units"
+   },
+   {
+    "text": "Require scheduled prandial insulin as part of basal-bolus insulin therapy with CC."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of type 1 DM"
+   },
+   {
+    "text": "History of total pancreatectomy"
+   },
+   {
+    "text": "Use of pre-admission CC for prandial insulin administration"
+   },
+   {
+    "text": "Critical illness requiring ICU admission at time of recruitment."
+   },
+   {
+    "text": "Admission to psychiatry services"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "All forms of enteral/tube feeding or parenteral nutrition at recruitment"
+   },
+   {
+    "text": "Observation status at time of recruitment"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

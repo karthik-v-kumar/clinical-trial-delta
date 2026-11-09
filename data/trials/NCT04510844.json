@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "NYU Langone Health",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "NYU Langone Health"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Evolocumab",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Study Drug Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Evolocumab"
-   ]
+   ],
+   "label": "Study Drug Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "110 individuals with stage 4-5 Chronic Kidney Disease (CKD) will be randomized to 1-year of blinded Evolocumab or placebo. Subjects will undergo evaluation of circulating lipids at baseline and end of study. A substudy including 50 subjects will assess myocardial rest and stress positron emission tomography (PET) at baseline and at 1-year.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* CKD Stage 4-5 defined as\n\n  * eGFR ≤30 mL/min/1.73m2 on screening lab OR\n  * Treatment with maintenance hemodialysis for at least 30 days prior to screening\n* LDL ≥70 mg/dL and\n\n  * Treatment with maximal tolerated doses of a statin OR\n  * Statin intolerance defined as any history of intolerance or allergy to ≥1 statin\n* Age 40-80 years\n\n  * Individuals ≤60 years old are required to have ≥1 of the following cardiovascular risk factors:\n\n    * History of CV disease\n    * History of peripheral vascular disease\n    * Diabetes\n    * Smoking\n    * Baseline LDL ≥160 mg/dL\n    * Macroalbuminuria (albumin to creatinine ratio ≥300 mg/g on spot sample)\n\nExclusion Criteria:\n\n* Age \\>80 years\n* Expected survival \\< 1 year\n* Transplant expected within \\< 1 year\n* Active liver disease (history of cirrhosis, ALT or AST \\> 2x ULN)\n* CPK \\> 5x ULN at screening\n* Malignancy within 5 years except for non-melanoma skin cancers, cervical in-situ carcinoma, breast ductal carcinoma in situ, or stage 1 prostate carcinoma\n* Subject has received drugs that are strong inhibitors of cytochrome P-450 3A4 within 1 month prior to randomization or is likely to require such treatment during the study period\n* Currently enrolled in another interventional study\n* Female subject who has not used at least (1) effective method of birth control for at least 1 month prior to screening or (2) is not willing to use such a method during treatment and for an additional 15 weeks after the end of treatment, unless the subject is sterilized or postmenopausal.\n\n  * Effective measures of birth control include surgical sterilization, barrier methods, hormonal contraceptives and intrauterine devices.\n* Pregnant or breast-feeding subjects\n* Known sensitivity or intolerance to study medications\n\nThe following additional criteria will be utilized to exclude individuals from participating in the PET substudy:\n\n* Severe asthma or obstructive lung disease defined by\n\n  * Hospitalization for asthma or obstructive lung disease within 8 weeks\n  * Use of oral steroids for lung disease within 8 weeks\n  * Chronic oxygen therapy\n  * Use of rescue inhalers ≥three times weekly in the previous 4 weeks\n* History of seizures\n* Second or third-degree AV block, unless a functioning pacemaker is present\n* Sinus node dysfunction unless a functioning pacemaker is present",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,22 +98,22 @@
  },
  "sites": [
   {
-   "facility": "NYU Langone Nephrology Associates - Long Island",
    "city": "Mineola",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "NYU Langone Nephrology Associates - Long Island",
    "lat": 40.74927,
-   "lon": -73.64068
+   "lon": -73.64068,
+   "state": "New York",
+   "status": null
   },
   {
-   "facility": "NYU Langone Health",
    "city": "New York",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "NYU Langone Health",
    "lat": 40.71427,
-   "lon": -74.00597
+   "lon": -74.00597,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04510844",
@@ -125,6 +125,97 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "CKD Stage 4-5 defined as",
+    "sub_items": [
+     "eGFR ≤30 mL/min/1.73m2 on screening lab OR",
+     "Treatment with maintenance hemodialysis for at least 30 days prior to screening"
+    ]
+   },
+   {
+    "text": "LDL ≥70 mg/dL and",
+    "sub_items": [
+     "Treatment with maximal tolerated doses of a statin OR",
+     "Statin intolerance defined as any history of intolerance or allergy to ≥1 statin"
+    ]
+   },
+   {
+    "text": "Age 40-80 years",
+    "sub_items": [
+     "Individuals ≤60 years old are required to have ≥1 of the following cardiovascular risk factors:",
+     "History of CV disease",
+     "History of peripheral vascular disease",
+     "Diabetes",
+     "Smoking",
+     "Baseline LDL ≥160 mg/dL",
+     "Macroalbuminuria (albumin to creatinine ratio ≥300 mg/g on spot sample)"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Age >80 years"
+   },
+   {
+    "text": "Expected survival < 1 year"
+   },
+   {
+    "text": "Transplant expected within < 1 year"
+   },
+   {
+    "text": "Active liver disease (history of cirrhosis, ALT or AST > 2x ULN)"
+   },
+   {
+    "text": "CPK > 5x ULN at screening"
+   },
+   {
+    "text": "Malignancy within 5 years except for non-melanoma skin cancers, cervical in-situ carcinoma, breast ductal carcinoma in situ, or stage 1 prostate carcinoma"
+   },
+   {
+    "text": "Subject has received drugs that are strong inhibitors of cytochrome P-450 3A4 within 1 month prior to randomization or is likely to require such treatment during the study period"
+   },
+   {
+    "text": "Currently enrolled in another interventional study"
+   },
+   {
+    "text": "Female subject who has not used at least (1) effective method of birth control for at least 1 month prior to screening or (2) is not willing to use such a method during treatment and for an additional 15 weeks after the end of treatment, unless the subject is sterilized or postmenopausal.",
+    "sub_items": [
+     "Effective measures of birth control include surgical sterilization, barrier methods, hormonal contraceptives and intrauterine devices."
+    ]
+   },
+   {
+    "text": "Pregnant or breast-feeding subjects"
+   },
+   {
+    "text": "Known sensitivity or intolerance to study medications"
+   },
+   {
+    "text": "The following additional criteria will be utilized to exclude individuals from participating in the PET substudy:"
+   },
+   {
+    "text": "Severe asthma or obstructive lung disease defined by",
+    "sub_items": [
+     "Hospitalization for asthma or obstructive lung disease within 8 weeks",
+     "Use of oral steroids for lung disease within 8 weeks",
+     "Chronic oxygen therapy",
+     "Use of rescue inhalers ≥three times weekly in the previous 4 weeks"
+    ]
+   },
+   {
+    "text": "History of seizures"
+   },
+   {
+    "text": "Second or third-degree AV block, unless a functioning pacemaker is present"
+   },
+   {
+    "text": "Sinus node dysfunction unless a functioning pacemaker is present"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

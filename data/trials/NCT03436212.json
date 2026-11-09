@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Air Liquide Santé International",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Air Liquide Santé International"
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Continuous Glucose Monitoring (CGM)",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Continuous Glucose Monitoring (CGM)",
-   "type": "OTHER",
    "intervention_names": [
     "Device: Continuous Glucose Monitoring (CGM)"
-   ]
+   ],
+   "label": "Continuous Glucose Monitoring (CGM)",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -71,10 +71,10 @@
  "brief_summary": "This study aims at describing the glucose level by automated glucose sensors and correlating it with insulin delivery and meals over 14 days in insulin-requiring T2D patients living in real-life conditions.",
  "eligibility": {
   "criteria": "Selection criteria:\n\n* Type 2 Diabetes diagnosed for at least 5 years\n* Treated with insulin pump for at least 6 months\n* 7.5% ≤ HBA1c ≤ 10% (last available value dated less than 3 months)\n* Having given his/her free, express and informed consent to participate to the study\n\nInclusion Criteria:\n\n* 7.5% ≤ HBA1c ≤ 10% (result of the dosage performed at selection visit)\n* Daily insulin requirement ≤ 1.5U/kg/day\n* Having been compliant to take pictures of his/her meals and snacks over the 3 days prior to the inclusion visit\n\nNon-selection/Non-inclusion criteria:\n\n* Pregnant or breastfeeding woman\n* Comorbidity which, in the investigator's opinion, could jeopardize the study completion\n* Patient with difficulties to understand the study procedures or deemed unfit, by the Investigator, to comply with operating instructions of CGM equipment.",
-  "sex": "ALL",
-  "minimum_age": "50 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "50 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -82,13 +82,13 @@
  },
  "sites": [
   {
-   "facility": "CHU de Caen, Service Endocrinologie, Diabétologie",
    "city": "Caen",
-   "state": null,
    "country": "France",
-   "status": null,
+   "facility": "CHU de Caen, Service Endocrinologie, Diabétologie",
    "lat": 49.18585,
-   "lon": -0.35912
+   "lon": -0.35912,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03436212",
@@ -100,6 +100,40 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "7.5% ≤ HBA1c ≤ 10% (result of the dosage performed at selection visit)"
+   },
+   {
+    "text": "Daily insulin requirement ≤ 1.5U/kg/day"
+   },
+   {
+    "text": "Having been compliant to take pictures of his/her meals and snacks over the 3 days prior to the inclusion visit"
+   },
+   {
+    "text": "Pregnant or breastfeeding woman",
+    "group": "Non-selection/Non-inclusion criteria"
+   },
+   {
+    "text": "Comorbidity which, in the investigator's opinion, could jeopardize the study completion",
+    "group": "Non-selection/Non-inclusion criteria"
+   },
+   {
+    "text": "Patient with difficulties to understand the study procedures or deemed unfit, by the Investigator, to comply with operating instructions of CGM equipment.",
+    "group": "Non-selection/Non-inclusion criteria"
+   }
+  ],
+  "exclusion": [],
+  "notes": [
+   "Selection criteria:",
+   "Type 2 Diabetes diagnosed for at least 5 years",
+   "Treated with insulin pump for at least 6 months",
+   "7.5% ≤ HBA1c ≤ 10% (last available value dated less than 3 months)",
+   "Having given his/her free, express and informed consent to participate to the study"
+  ]
+ },
  "in_watchlist": true,
  "history": []
 }

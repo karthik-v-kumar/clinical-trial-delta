@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [
   "Bristol-Myers Squibb"
@@ -53,14 +53,14 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "MK0478 (muraglitazar)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -73,10 +73,10 @@
  "brief_summary": "This is a study to evaluate the effectiveness and tolerability of an investigational drug in patients with type 2 diabetes (a specific type of diabetes) who are not currently treated with insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* People between the ages of 18 and 70 who have a specific type of diabetes called type 2 diabetes which is currently being treated only with oral medication(s). (Patients currently taking insulin would not be allowed to participate.)\n\nExclusion Criteria:\n\n* People who have specific diseases (such as liver disease, gallbladder disease, pancreatitis, severe blood disorders or history of neoplastic diseases) which will be discussed by the study doctor and for which study participation would not be allowed.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,6 +92,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "People between the ages of 18 and 70 who have a specific type of diabetes called type 2 diabetes which is currently being treated only with oral medication(s). (Patients currently taking insulin would not be allowed to participate.)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "People who have specific diseases (such as liver disease, gallbladder disease, pancreatitis, severe blood disorders or history of neoplastic diseases) which will be discussed by the study doctor and for which study participation would not be allowed."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

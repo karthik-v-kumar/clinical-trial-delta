@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Seoul National University Bundang Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Seoul National University Bundang Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,48 +50,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin 10mg Tab",
    "other_names": [
     "Forxiga 10mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Lobeglitazone 0.5 mg",
    "other_names": [
     "Duvie 0.5 mg"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin + Lobeglitazone",
    "other_names": [
     "Forxiga 10mg + Duvie 0.5mg"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg Tab"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Lobeglitazone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Lobeglitazone 0.5 mg"
-   ]
+   ],
+   "label": "Lobeglitazone",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dapagliflozin and Lobeglitazone combined",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin + Lobeglitazone"
-   ]
+   ],
+   "label": "Dapagliflozin and Lobeglitazone combined",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "Diabetes is the most frequently occurring chronic disease along with obesity, hypertension, and hyperlipidemia. The number of patients with diabetes is increasing worldwide. Despite rapid progress in management of diabetes, the problem is that glycemic target goal is still low showing 30-40%. Thus, diabetes has become a serious social, economic, and public health problem beyond individual health problems due to its increasing prevalence.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetic patients between the ages of 20 and 80 who are taking oral diabetes medications (metformin and/or DPP-4 inhibitors) for more than 8 weeks without dose adjustment\n* body mass index (BMI) ≥ 20 kg/m2\n* eGFR ≥ 50 mL/min/1.73 m2\n* HbA1c: 7-10%.\n\nExclusion Criteria:\n\n* patients with type 1 diabetes; HbA1c \\<7% or HbA1c \\>10%\n* fasting blood glucose (FPG) \\>15 mmol/L (270 mg/dL) at the first visit (screening) and pre-randomization screening\n* women of childbearing potential (if not using proper contraception)\n* history of gastric surgery (including gastric banding within 3 years)\n* history of diabetic ketoacidosis or non-ketogenic hyperosmotic coma\n* average of 3 blood pressure measurements is systolic blood pressure (SBP) \\>180 mmHg or diastolic blood pressure (DBP) \\>100 mmHg\n* heart failure NYHA class III or IV\n* AST or ALT greater than 3 times the upper limit of normal\n* systemic corticosteroids have been used for 10 consecutive days within 90 days (topical, eye drop, topical or inhalation agents)",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "facility": "Seoul National University Bundang Hospital",
    "city": "Seongnam-si",
-   "state": "Gyeonggi-do",
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Seoul National University Bundang Hospital",
    "lat": 37.43861,
-   "lon": 127.13778
+   "lon": 127.13778,
+   "state": "Gyeonggi-do",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05915949",
@@ -132,6 +132,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "type 2 diabetic patients between the ages of 20 and 80 who are taking oral diabetes medications (metformin and/or DPP-4 inhibitors) for more than 8 weeks without dose adjustment"
+   },
+   {
+    "text": "body mass index (BMI) ≥ 20 kg/m2"
+   },
+   {
+    "text": "eGFR ≥ 50 mL/min/1.73 m2"
+   },
+   {
+    "text": "HbA1c: 7-10%."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "patients with type 1 diabetes; HbA1c <7% or HbA1c >10%"
+   },
+   {
+    "text": "fasting blood glucose (FPG) >15 mmol/L (270 mg/dL) at the first visit (screening) and pre-randomization screening"
+   },
+   {
+    "text": "women of childbearing potential (if not using proper contraception)"
+   },
+   {
+    "text": "history of gastric surgery (including gastric banding within 3 years)"
+   },
+   {
+    "text": "history of diabetic ketoacidosis or non-ketogenic hyperosmotic coma"
+   },
+   {
+    "text": "average of 3 blood pressure measurements is systolic blood pressure (SBP) >180 mmHg or diastolic blood pressure (DBP) >100 mmHg"
+   },
+   {
+    "text": "heart failure NYHA class III or IV"
+   },
+   {
+    "text": "AST or ALT greater than 3 times the upper limit of normal"
+   },
+   {
+    "text": "systemic corticosteroids have been used for 10 consecutive days within 90 days (topical, eye drop, topical or inhalation agents)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2012-01-20",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -48,41 +48,41 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin phosphate",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Sulfonylurea",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin phosphate",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sulfonylurea",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Sulfonylurea",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Sulfonylurea",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "This study will examine whether the incidence of hypoglycemia in patients fasting for Ramadan is lower when treated with sitagliptin as compared to sulfonylurea treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Muslim men and women with type 2 diabetes\n* Participants who intend to fast during the month of Ramadan\n* Participants who have been on a stable dose of sulfonylurea for at least three months\n\nExclusion Criteria:\n\n* Participants with type 1 diabetes mellitus\n* Pregnant or breast feeding women\n* Participants with hypersensitivity or contraindication to dipeptidyl peptidase (DPP-4) treatment\n* Participants on insulin\n* Participants on any class of oral diabetic therapy other than sulfonylurea or metformin",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,6 +113,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Muslim men and women with type 2 diabetes"
+   },
+   {
+    "text": "Participants who intend to fast during the month of Ramadan"
+   },
+   {
+    "text": "Participants who have been on a stable dose of sulfonylurea for at least three months"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Participants with type 1 diabetes mellitus"
+   },
+   {
+    "text": "Pregnant or breast feeding women"
+   },
+   {
+    "text": "Participants with hypersensitivity or contraindication to dipeptidyl peptidase (DPP-4) treatment"
+   },
+   {
+    "text": "Participants on insulin"
+   },
+   {
+    "text": "Participants on any class of oral diabetic therapy other than sulfonylurea or metformin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

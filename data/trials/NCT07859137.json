@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "General Committee of Teaching Hospitals and Institutes, Egypt",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "General Committee of Teaching Hospitals and Institutes, Egypt"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide weekly injection",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "GLP 1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide weekly injection"
-   ]
+   ],
+   "label": "GLP 1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,23 +86,23 @@
  "brief_summary": "Patients with BMI 60 kg/m² or higher are the hardest operations in bariatric surgery. Thick abdominal wall, massive hepatomegaly, reduced working space, fragile fatty tissue, higher conversion and complication rates. Every bariatric surgeon knows this group. Almost no trial recruits it.\n\nThe standard answer is a short liver-reduction diet before surgery. It helps, but the effect is modest, hard to tolerate, and short-lived. GLP-1-based drugs now produce far larger and better-tolerated weight loss and are already being given before surgery in routine practice, without trial evidence. Retrospective series show more preoperative weight loss and no obvious harm, and no more than that (Obesity Research \\& Clinical Practice 2026). A 2023 review of drugs on the surgical waiting list found that GLP-1 receptor agonists had never been evaluated for the preoperative indication at all.\n\nTwo registered trials are now adjacent to this question, and we cite both. The PreMO pilot randomizes 50 patients to open-label preoperative tirzepatide versus standard care, with tissue inflammation as the scientific focus (PMID 41643256; NCT06721507). A three-arm trial before one-anastomosis gastric bypass compares tirzepatide, ketogenic diet, and standard care, with weight loss at one year as primary (NCT07622992). Neither is blinded. Neither recruits BMI 60 and above. Neither measures whether the drug actually makes the operation easier and safer. The 2024 IFSO international consensus reached 100% agreement that evidence is insufficient to recommend routine preoperative medication, that use must be individualized, and that more research on benefits, risks, and outcomes is required; it also agreed, at 97%, that adequate protein and resistance exercise must accompany any preoperative drug treatment (PMID 39612579). This trial is the research that consensus calls for, and its preoperative program is built to the 97% requirement.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI 60 kg/m² or higher at first surgical assessment\n* Accepted by the multidisciplinary team for primary laparoscopic SG or RYGB\n* Able to self-inject and consent\n\nExclusion Criteria:\n\n* Any previous bariatric or major upper abdominal surgery\n* GLP-1-based therapy within the previous 6 months\n* Type 1 diabetes\n* Pregnancy or conception planned within the study (obesity pharmacotherapy is stopped at least 2 months before any planned conception, per current labeling and the 2026 Standards)\n* Personal or family history of medullary thyroid carcinoma or MEN2\n* History of pancreatitis\n* Active severe gastrointestinal disease\n* Any condition making 16 weeks of delay unsafe in the judgment of the surgical team",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "The surgical department of Medical Research Institute Hospital, Alexandria University",
    "city": "Alexandria",
-   "state": null,
    "country": "Egypt",
-   "status": null,
+   "facility": "The surgical department of Medical Research Institute Hospital, Alexandria University",
    "lat": 31.20176,
-   "lon": 29.91582
+   "lon": 29.91582,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07859137",
@@ -114,6 +114,47 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI 60 kg/m² or higher at first surgical assessment"
+   },
+   {
+    "text": "Accepted by the multidisciplinary team for primary laparoscopic SG or RYGB"
+   },
+   {
+    "text": "Able to self-inject and consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any previous bariatric or major upper abdominal surgery"
+   },
+   {
+    "text": "GLP-1-based therapy within the previous 6 months"
+   },
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Pregnancy or conception planned within the study (obesity pharmacotherapy is stopped at least 2 months before any planned conception, per current labeling and the 2026 Standards)"
+   },
+   {
+    "text": "Personal or family history of medullary thyroid carcinoma or MEN2"
+   },
+   {
+    "text": "History of pancreatitis"
+   },
+   {
+    "text": "Active severe gastrointestinal disease"
+   },
+   {
+    "text": "Any condition making 16 weeks of delay unsafe in the judgment of the surgical team"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

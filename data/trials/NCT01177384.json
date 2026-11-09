@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2014-04-28",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,51 +51,51 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin phosphate",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Acarbose",
    "other_names": [
     "Precose"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "Amaryl®",
     "Glimy"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin phosphate",
     "Drug: Acarbose",
     "Drug: Glimepiride"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Placebo",
     "Drug: Acarbose",
     "Drug: Glimepiride"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -115,10 +115,10 @@
  "brief_summary": "This study will evaluate whether the addition of sitagliptin reduces hemoglobin A1C (A1C) more than the addition of placebo for participants with type 2 diabetes mellitus (T2DM) on a steady dose of acarbose. The primary hypothesis is that the addition of sitagliptin 100 mg once daily (q.d.) reduces A1C more than the addition of placebo in participants with T2DM with inadequate glycemic control on acarbose monotherapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* has T2DM and is on acarbose alone at a stable dose of at least 50 mg t.i.d.(three times a day) for at least 10 weeks or on acarbose at a stable dose of at least 50 mg t.i.d. (three times a day) for at least 10 weeks in combination with another antihyperglycemic agent (AHA)\n* is at least 18 years of age (for participants in India: between 18 and 65 years of age)\n* male or female who is unlikely to conceive (not of reproductive potential, or agrees to remain abstinent or use \\[or have partner use\\] acceptable birth control if of reproductive potential)\n\nExclusion Criteria:\n\n* has a history of type 1 diabetes mellitus\n* use of thiazolidinedione (TZD), dipeptidyl peptidase-4 (DPP-4) inhibitors, glucagon-like peptide-1 (GLP-1) receptor agonists, or insulin\n* has the following cardiovascular disorders: acute coronary syndrome; new or worsening symptoms of coronary heart disease; coronary artery intervention; stroke or transient ischemic neurological disorder\n* has liver or kidney disease\n* has cancer or any clinically significant disease or disorder as judged by the Investigator",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -134,6 +134,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "has T2DM and is on acarbose alone at a stable dose of at least 50 mg t.i.d.(three times a day) for at least 10 weeks or on acarbose at a stable dose of at least 50 mg t.i.d. (three times a day) for at least 10 weeks in combination with another antihyperglycemic agent (AHA)"
+   },
+   {
+    "text": "is at least 18 years of age (for participants in India: between 18 and 65 years of age)"
+   },
+   {
+    "text": "male or female who is unlikely to conceive (not of reproductive potential, or agrees to remain abstinent or use [or have partner use] acceptable birth control if of reproductive potential)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "has a history of type 1 diabetes mellitus"
+   },
+   {
+    "text": "use of thiazolidinedione (TZD), dipeptidyl peptidase-4 (DPP-4) inhibitors, glucagon-like peptide-1 (GLP-1) receptor agonists, or insulin"
+   },
+   {
+    "text": "has the following cardiovascular disorders: acute coronary syndrome; new or worsening symptoms of coronary heart disease; coronary artery intervention; stroke or transient ischemic neurological disorder"
+   },
+   {
+    "text": "has liver or kidney disease"
+   },
+   {
+    "text": "has cancer or any clinically significant disease or disorder as judged by the Investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

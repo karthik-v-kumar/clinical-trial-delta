@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Namyi Gu",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Namyi Gu"
  },
  "collaborators": [],
  "conditions": [
@@ -49,32 +49,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Combination of Metformin + S. Baicalensis",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Combination of Metformin + Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Active drug-> Placebo",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Combination of Metformin + S. Baicalensis",
     "Drug: Combination of Metformin + Placebo"
-   ]
+   ],
+   "label": "Active drug-> Placebo",
+   "type": "OTHER"
   },
   {
-   "label": "Placebo -> Active drug",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Combination of Metformin + S. Baicalensis",
     "Drug: Combination of Metformin + Placebo"
-   ]
+   ],
+   "label": "Placebo -> Active drug",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The study is a pilot trial to investigate the effect of Metformin and S. Baicalensis Combination Therapy in Type 2 Diabetes Mellitus Patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed as a diabetes mellitus patient at least 3 months ago on screening\n* Treated with metformin of ≥ 500 mg/day over 3 months on screening\n* Fasting glucose level of 110\\~180 mg/dl or HbA1c of 7.0\\~9.0% on screening\n\nExclusion Criteria:\n\n* With acute or chronic inflammation\n* Treated with systemic corticosteroids within 4 weeks prior to the first administration of study medication\n* With heart failure, myocardial infarction, stroke, or other acute severe cardiovascular diseases\n* With acute or chronic renal failure or nephrotic syndrome\n* With impaired hepatic function.\n* Drug or Alcoholic abuser\n* Pregnant or nursing woman",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "facility": "Dongguk University Ilsan Hospital",
    "city": "Goyang-si",
-   "state": "Gyeonggi-do",
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Dongguk University Ilsan Hospital",
    "lat": 37.65639,
-   "lon": 126.835
+   "lon": 126.835,
+   "state": "Gyeonggi-do",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02844803",
@@ -115,6 +115,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosed as a diabetes mellitus patient at least 3 months ago on screening"
+   },
+   {
+    "text": "Treated with metformin of ≥ 500 mg/day over 3 months on screening"
+   },
+   {
+    "text": "Fasting glucose level of 110~180 mg/dl or HbA1c of 7.0~9.0% on screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "With acute or chronic inflammation"
+   },
+   {
+    "text": "Treated with systemic corticosteroids within 4 weeks prior to the first administration of study medication"
+   },
+   {
+    "text": "With heart failure, myocardial infarction, stroke, or other acute severe cardiovascular diseases"
+   },
+   {
+    "text": "With acute or chronic renal failure or nephrotic syndrome"
+   },
+   {
+    "text": "With impaired hepatic function."
+   },
+   {
+    "text": "Drug or Alcoholic abuser"
+   },
+   {
+    "text": "Pregnant or nursing woman"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

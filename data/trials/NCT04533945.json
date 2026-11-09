@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Northwell Health",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Northwell Health"
  },
  "collaborators": [],
  "conditions": [
@@ -49,18 +49,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "FreeStyle Libre",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "FreeStyle Libre Device",
-   "type": "OTHER",
    "intervention_names": [
     "Device: FreeStyle Libre"
-   ]
+   ],
+   "label": "FreeStyle Libre Device",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -72,10 +72,10 @@
  "brief_summary": "Using the Libre during the TOC with persons with T2D will improve patient glucose monitoring and satisfaction, which can potentially lead to an improvement in glycemic control and hospital utilization. This study aims to assess this with inpatients using insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Persons with T2DM\n* Persons on atleast 3 injections of insulin/day\n* Persons whose insurance will cover the device\n\nExclusion Criteria:\n\n* Persons with adhesive allergy\n* Pregnant women\n* Persons with CKD 4/5 or on dialysis",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -83,13 +83,13 @@
  },
  "sites": [
   {
-   "facility": "Northwell Health North Shore University Hospital",
    "city": "Manhasset",
-   "state": "New York",
    "country": "United States",
-   "status": null,
+   "facility": "Northwell Health North Shore University Hospital",
    "lat": 40.79788,
-   "lon": -73.69957
+   "lon": -73.69957,
+   "state": "New York",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04533945",
@@ -101,6 +101,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Persons with T2DM"
+   },
+   {
+    "text": "Persons on atleast 3 injections of insulin/day"
+   },
+   {
+    "text": "Persons whose insurance will cover the device"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Persons with adhesive allergy"
+   },
+   {
+    "text": "Pregnant women"
+   },
+   {
+    "text": "Persons with CKD 4/5 or on dialysis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

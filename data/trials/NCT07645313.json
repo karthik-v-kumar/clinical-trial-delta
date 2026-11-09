@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Yuwell Group",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Yuwell Group"
  },
  "collaborators": [
   "Jiangsu Yuwell POCTech Biotechnology Co., Ltd.."
@@ -50,18 +50,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Reference venous blood sampling (YSI 2500)",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Dual CGM wear (Anytime 5Pro + Anytime 4Pro)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Reference venous blood sampling (YSI 2500)"
-   ]
+   ],
+   "label": "Dual CGM wear (Anytime 5Pro + Anytime 4Pro)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "This post-market clinical follow-up (PMCF) investigation evaluates the accuracy and safety of two CE-marked continuous glucose monitoring (CGM) systems, the Anytime 5Pro and the Anytime 4Pro, in adults with type 1 or type 2 diabetes. Each participant simultaneously wears one Anytime 5Pro sensor and one Anytime 4Pro sensor, one on each upper arm, for the full labelled wear period of each device (up to 16 and 15 days, respectively). CGM readings are compared against venous blood glucose measured by a laboratory reference analyzer (YSI 2500) during four in-clinic sampling sessions that include controlled glucose manipulation. Participants are masked to real-time CGM readings throughout the study. The investigation is conducted to confirm device performance and safety under real-world conditions of use in a European population, in line with the manufacturer's post-market clinical follow-up obligations under the EU Medical Device Regulation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Diagnosis of type 1 or type 2 diabetes mellitus, documented in medical records, with diabetes established at least 6 months prior to Day 1.\n2. Age \\>= 18 years at the time of informed consent.\n3. Stable vital signs at screening (systolic blood pressure 90-180 mmHg, diastolic blood pressure 50-110 mmHg, heart rate 50-100 bpm, body temperature 35.5-37.5 C).\n4. Feasibility of establishing forearm venous access for repeated blood sampling.\n5. Haematocrit \\<= 70%.\n6. For T1D participants: prior experience with a CGM system (any brand).\n7. Willingness and ability to comply with the investigation procedures, including wearing both sensors (one Anytime 5Pro and one Anytime 4Pro) simultaneously throughout the 17-day participation period, attending six scheduled clinic visits, and participating in glucose manipulation procedures.\n8. Written informed consent obtained prior to any investigation-related procedures.\n\nExclusion Criteria:\n\n1. Skin disorders at the prospective sensor insertion site (posterior-lateral upper arm), including scarring, redness, swelling, infection, or tattoos.\n2. Known allergies to alcohol-based disinfectants or medical adhesives.\n3. Coagulation abnormalities or bleeding disorders, or current use of anticoagulant therapy (except low-dose aspirin).\n4. Current pregnancy, suspected pregnancy, or lactation.\n5. History of epilepsy or psychiatric disorders that may compromise investigation compliance or subject safety during glucose manipulation procedures.\n6. Severe hepatic or renal insufficiency.\n7. Current use of medications known to interfere with CGM readings, including ascorbic acid (vitamin C) supplementation \\>1000 mg/day.\n8. Concurrent participation in another interventional device or drug trial, or participation within the past 30 days.\n9. Known drug or alcohol abuse.\n10. Any condition that, in the judgement of the investigator, would make the subject unsuitable for participation in this investigation or would compromise the subject's safety.\n11. Planned magnetic resonance imaging (MRI), computed tomography (CT), X-ray examination, or diathermic therapy during the sensor wear period.\n\n    \\-",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,6 +100,74 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 1 or type 2 diabetes mellitus, documented in medical records, with diabetes established at least 6 months prior to Day 1."
+   },
+   {
+    "text": "Age >= 18 years at the time of informed consent."
+   },
+   {
+    "text": "Stable vital signs at screening (systolic blood pressure 90-180 mmHg, diastolic blood pressure 50-110 mmHg, heart rate 50-100 bpm, body temperature 35.5-37.5 C)."
+   },
+   {
+    "text": "Feasibility of establishing forearm venous access for repeated blood sampling."
+   },
+   {
+    "text": "Haematocrit <= 70%."
+   },
+   {
+    "text": "For T1D participants: prior experience with a CGM system (any brand)."
+   },
+   {
+    "text": "Willingness and ability to comply with the investigation procedures, including wearing both sensors (one Anytime 5Pro and one Anytime 4Pro) simultaneously throughout the 17-day participation period, attending six scheduled clinic visits, and participating in glucose manipulation procedures."
+   },
+   {
+    "text": "Written informed consent obtained prior to any investigation-related procedures."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Skin disorders at the prospective sensor insertion site (posterior-lateral upper arm), including scarring, redness, swelling, infection, or tattoos."
+   },
+   {
+    "text": "Known allergies to alcohol-based disinfectants or medical adhesives."
+   },
+   {
+    "text": "Coagulation abnormalities or bleeding disorders, or current use of anticoagulant therapy (except low-dose aspirin)."
+   },
+   {
+    "text": "Current pregnancy, suspected pregnancy, or lactation."
+   },
+   {
+    "text": "History of epilepsy or psychiatric disorders that may compromise investigation compliance or subject safety during glucose manipulation procedures."
+   },
+   {
+    "text": "Severe hepatic or renal insufficiency."
+   },
+   {
+    "text": "Current use of medications known to interfere with CGM readings, including ascorbic acid (vitamin C) supplementation >1000 mg/day."
+   },
+   {
+    "text": "Concurrent participation in another interventional device or drug trial, or participation within the past 30 days."
+   },
+   {
+    "text": "Known drug or alcohol abuse."
+   },
+   {
+    "text": "Any condition that, in the judgement of the investigator, would make the subject unsuitable for participation in this investigation or would compromise the subject's safety."
+   },
+   {
+    "text": "Planned magnetic resonance imaging (MRI), computed tomography (CT), X-ray examination, or diathermic therapy during the sensor wear period."
+   },
+   {
+    "text": "-"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

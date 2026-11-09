@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Toronto",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Toronto"
  },
  "collaborators": [
   "Canola Council of Canada"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "low glycemic index diet with canola oil bread",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "High fiber diet",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Low glycemic index diet with canola oil bread",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: low glycemic index diet with canola oil bread"
-   ]
+   ],
+   "label": "Low glycemic index diet with canola oil bread",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "high fiber diet",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: High fiber diet"
-   ]
+   ],
+   "label": "high fiber diet",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Healthy individuals with type 2 diabetes will receive intensive counseling on food selection to improve glucose control using either high cereal fiber dietary strategies or low glycemic index foods especially canola oil containing bread. The treatments will last 3 months with bloods taken for HbA1c, glucose and blood lipids. If the study shows a benefit for either or both diets, then use of high fiber, and/or low glycemic index foods with canola oil, may provide another potential way to improve glucose control and lower cholesterol levels in non-insulin dependent diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women with type 2 diabetes who\n\n  * are treated with oral hypoglycemic agents at a stable dose for at least 8 weeks\n  * have a HbA1c in the range of 6.5 to 8.5% at the initial screening visit and at the prestudy visit (visit just prior to randomization)\n  * have diabetes diagnosed \\>6 months\n  * have maintained stable weight for 2 months (within 3%)\n  * have a valid OHIP card and a family physician\n  * if prescribed lipid medication, have taken a stable dose for at least 2 weeks\n  * if prescribed blood pressure medication, have taken a stable dose for at least 1 week\n  * can keep written food records, with the use of a digital scale\n\nExclusion Criteria: Individuals who\n\n* take insulin\n* take steroids\n* have GI disease (gastroparesis, celiac disease, ulcerative colitis, Crohn's Disease, IBS)\n* have had a major cardiovascular event (stroke or myocardial infarction) in the past 6 months\n* take warfarin (Coumadin)\n* have had major surgery in the past 6 months\n* have a major debilitating disorder\n* have clinically significant liver disease (AST or ALT \\> 130 U/L), excluding NAFL or NASH\n* have hepatitis B or C\n* have renal failure (high creatinine \\> 150 mmol/L)\n* have serum triglycerides ≥ 6.0 mmol/L\n* have a history of cancer, except non-melanoma skin cancer (basal cell, squamous cell)\n* have food allergies to canola oil, study food components\n* have elevated blood pressure (\\> 145/90) unless approved by General Practitioner (GP)\n* have acute or chronic infections (bacterial or viral)\n* have chronic inflammatory diseases (e.g. rheumatoid arthritis, lupus; ulcerative colitis)\n* have other conditions which in the opinion of any of the investigators would make them unsuitable for the study\n* If HbA1c rises above 8.5% over two consecutive routine measurements, subjects will be referred back to their family doctors for an increase in anti hyperglycemic medications according to a predetermined protocol.",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "St. Michael's Hospital",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "St. Michael's Hospital",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01348568",
@@ -118,6 +118,84 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women with type 2 diabetes who",
+    "sub_items": [
+     "are treated with oral hypoglycemic agents at a stable dose for at least 8 weeks",
+     "have a HbA1c in the range of 6.5 to 8.5% at the initial screening visit and at the prestudy visit (visit just prior to randomization)",
+     "have diabetes diagnosed >6 months",
+     "have maintained stable weight for 2 months (within 3%)",
+     "have a valid OHIP card and a family physician",
+     "if prescribed lipid medication, have taken a stable dose for at least 2 weeks",
+     "if prescribed blood pressure medication, have taken a stable dose for at least 1 week",
+     "can keep written food records, with the use of a digital scale"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Individuals who"
+   },
+   {
+    "text": "take insulin"
+   },
+   {
+    "text": "take steroids"
+   },
+   {
+    "text": "have GI disease (gastroparesis, celiac disease, ulcerative colitis, Crohn's Disease, IBS)"
+   },
+   {
+    "text": "have had a major cardiovascular event (stroke or myocardial infarction) in the past 6 months"
+   },
+   {
+    "text": "take warfarin (Coumadin)"
+   },
+   {
+    "text": "have had major surgery in the past 6 months"
+   },
+   {
+    "text": "have a major debilitating disorder"
+   },
+   {
+    "text": "have clinically significant liver disease (AST or ALT > 130 U/L), excluding NAFL or NASH"
+   },
+   {
+    "text": "have hepatitis B or C"
+   },
+   {
+    "text": "have renal failure (high creatinine > 150 mmol/L)"
+   },
+   {
+    "text": "have serum triglycerides ≥ 6.0 mmol/L"
+   },
+   {
+    "text": "have a history of cancer, except non-melanoma skin cancer (basal cell, squamous cell)"
+   },
+   {
+    "text": "have food allergies to canola oil, study food components"
+   },
+   {
+    "text": "have elevated blood pressure (> 145/90) unless approved by General Practitioner (GP)"
+   },
+   {
+    "text": "have acute or chronic infections (bacterial or viral)"
+   },
+   {
+    "text": "have chronic inflammatory diseases (e.g. rheumatoid arthritis, lupus; ulcerative colitis)"
+   },
+   {
+    "text": "have other conditions which in the opinion of any of the investigators would make them unsuitable for the study"
+   },
+   {
+    "text": "If HbA1c rises above 8.5% over two consecutive routine measurements, subjects will be referred back to their family doctors for an increase in anti hyperglycemic medications according to a predetermined protocol."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

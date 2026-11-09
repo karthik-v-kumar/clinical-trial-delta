@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "SINGLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Copenhagen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Copenhagen"
  },
  "collaborators": [
   "The Danish Medical Research Council"
@@ -52,31 +52,31 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "GLP-1",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "low calorie diet",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "GLP-1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: GLP-1",
     "Dietary Supplement: low calorie diet"
-   ]
+   ],
+   "label": "GLP-1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: low calorie diet"
-   ]
+   ],
+   "label": "Control",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,32 +88,32 @@
  "brief_summary": "Glucagon Like Peptide (GLP) -1 affects metabolic response corrected for weight change",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI \\> 30 and \\< 40 (kg/m2)\n* Healthy\n\nExclusion Criteria:\n\n* Other known illness\n* Medicine that affects glucose- and lipid metabolism, appetite or food intake\n* Pregnancy\n* Breast feeding",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "64 Years",
   "healthy_volunteers": true,
+  "maximum_age": "64 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "University of Copenhagen",
    "city": "Copenhagen",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "University of Copenhagen",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Hvidovre University Hospital",
    "city": "Hvidovre",
-   "state": null,
    "country": "Denmark",
-   "status": null,
+   "facility": "Hvidovre University Hospital",
    "lat": 55.64297,
-   "lon": 12.47708
+   "lon": 12.47708,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02094183",
@@ -125,6 +125,32 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI > 30 and < 40 (kg/m2)"
+   },
+   {
+    "text": "Healthy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Other known illness"
+   },
+   {
+    "text": "Medicine that affects glucose- and lipid metabolism, appetite or food intake"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Breast feeding"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

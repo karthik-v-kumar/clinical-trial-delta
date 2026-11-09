@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "SUPPORTIVE_CARE",
   "masking": "NONE",
+  "primary_purpose": "SUPPORTIVE_CARE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-08-06",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Ian J. Neeland, MD",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Ian J. Neeland, MD"
  },
  "collaborators": [
   "DexCom, Inc."
@@ -50,18 +50,18 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Dexcom continuous glucose monitor",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Blinded followed by Unblinded",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Dexcom continuous glucose monitor"
-   ]
+   ],
+   "label": "Blinded followed by Unblinded",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "The objective of this study is to evaluate the feasibility and clinical utility of a continuous glucose monitoring device (CGM, Dexcom G6) for the care of patients with type 2 diabetes who are on non-insulin therapies.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes of any duration\n* Hb A1c ≥ 7% (no upper limit)\n* BMI ≥ 30 kg/m2\n* Ability to wear CGM (e.g. no dermatological issue precluding device insertion)\n* Access to a smartphone device\n\nExclusion Criteria:\n\n* Any insulin use in the past 3 months\n* Planned use of insulin in the next 6 months\n* Presence of a blood disorder (such as sickle cell anemia) making glycosylated hemoglobin measurement inaccurate\n* Current use of a weight loss medication\n* Unable or uncomfortable with wearing a CGM device",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "99 Years",
   "healthy_volunteers": false,
+  "maximum_age": "99 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "facility": "University Hospitals Cleveland Medical Center",
    "city": "Cleveland",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "University Hospitals Cleveland Medical Center",
    "lat": 41.4995,
-   "lon": -81.69541
+   "lon": -81.69541,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05523362",
@@ -110,6 +110,44 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes of any duration"
+   },
+   {
+    "text": "Hb A1c ≥ 7% (no upper limit)"
+   },
+   {
+    "text": "BMI ≥ 30 kg/m2"
+   },
+   {
+    "text": "Ability to wear CGM (e.g. no dermatological issue precluding device insertion)"
+   },
+   {
+    "text": "Access to a smartphone device"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any insulin use in the past 3 months"
+   },
+   {
+    "text": "Planned use of insulin in the next 6 months"
+   },
+   {
+    "text": "Presence of a blood disorder (such as sickle cell anemia) making glycosylated hemoglobin measurement inaccurate"
+   },
+   {
+    "text": "Current use of a weight loss medication"
+   },
+   {
+    "text": "Unable or uncomfortable with wearing a CGM device"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

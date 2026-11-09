@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Medical Center Groningen",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Medical Center Groningen"
  },
  "collaborators": [
   "Boehringer Ingelheim"
@@ -62,78 +62,76 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin 10 MG",
    "other_names": [
     "Jardiance",
     "A10BK03",
     "(2S,3R,4R,5S,6R)-2-[4-chloro-3-[[4-[(3S)-oxolan-3-yl]oxyphenyl]methyl]phenyl]-6-(hydroxymethyl)oxane-3,4,5-triol"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Finerenone",
    "other_names": [
     "Kerendia",
     "C03DA05",
     "(4S)-4-(4-cyano-2-methoxyphenyl)-5-ethoxy-2,8-dimethyl-1,4-dihydro-1,6-naphthyridine-3-carboxamide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DEVICE",
    "name": "Withings BPM Connect",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DEVICE",
    "name": "Withings Body",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "PeeSpot Urine Collection Device",
-   "other_names": []
+   "other_names": [],
+   "type": "DIAGNOSTIC_TEST"
   },
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "Hem-Col Capillary Blood Collection Device",
-   "other_names": []
+   "other_names": [],
+   "type": "DIAGNOSTIC_TEST"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Questionnaire: participants' perspectives toward the feasibility of participation in a trial at home with digital technologies",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Empagliflozin 10 MG",
+    "Device: Withings BPM Connect",
+    "Device: Withings Body",
+    "Diagnostic Test: PeeSpot Urine Collection Device",
+    "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
+    "Behavioral: Questionnaire: participants' perspectives toward the feasibility of participation in a trial at home with digital technologies"
+   ],
    "label": "A. Good albuminuria response after 2 weeks empagliflozin 10 mg/day",
-   "type": "OTHER",
+   "type": "OTHER"
+  },
+  {
    "intervention_names": [
     "Drug: Empagliflozin 10 MG",
+    "Drug: Finerenone",
     "Device: Withings BPM Connect",
     "Device: Withings Body",
     "Diagnostic Test: PeeSpot Urine Collection Device",
     "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
     "Behavioral: Questionnaire: participants' perspectives toward the feasibility of participation in a trial at home with digital technologies"
-   ]
-  },
-  {
+   ],
    "label": "B. Moderate albuminuria response after 2 weeks empagliflozin 10 mg/day",
-   "type": "OTHER",
-   "intervention_names": [
-    "Drug: Empagliflozin 10 MG",
-    "Drug: Finerenone",
-    "Device: Withings BPM Connect",
-    "Device: Withings Body",
-    "Diagnostic Test: PeeSpot Urine Collection Device",
-    "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
-    "Behavioral: Questionnaire: participants' perspectives toward the feasibility of participation in a trial at home with digital technologies"
-   ]
+   "type": "OTHER"
   },
   {
-   "label": "C. No albuminuria reduction after 2 weeks empagliflozin 10 mg/day",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Finerenone",
     "Device: Withings BPM Connect",
@@ -141,7 +139,9 @@
     "Diagnostic Test: PeeSpot Urine Collection Device",
     "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
     "Behavioral: Questionnaire: participants' perspectives toward the feasibility of participation in a trial at home with digital technologies"
-   ]
+   ],
+   "label": "C. No albuminuria reduction after 2 weeks empagliflozin 10 mg/day",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -169,10 +169,10 @@
  "brief_summary": "The goal of this clinical trial is to determine the feasibility of remote clinical trial conduct in patients with type 2 diabetes and elevated albuminuria. The main questions it aims to answer are:\n\n* What is the feasibility (and advantages) of remote clinical trial conduct with multiple medications in patients with type 2 diabetes and elevated albuminuria?\n* What is the individual response to the SGLT2 inhibitor empagliflozin in urine albumin-creatinine ratio?\n* What is the individual response to the SGLT2 inhibitor empagliflozin in systolic blood pressure, body weight, eGFR, and fasting plasma glucose?\n* Can suboptimal treatment responses to empagliflozin be overcome by the addition or substitution with finerenone?\n\nParticipants will collect all study data in the comfort of their own environments\n\n* First-morning void urine samples\n* Capillary blood samples\n* Blood pressure\n* Body weight\n\nParticipants will be assigned to a 3-week treatment period with empagliflozin 10 mg/day. Based on the albuminuria response after 2 weeks, participants will be allocated to one of three treatment regimens after the 3-week treatment period with empagliflozin:\n\n* Continue empagliflozin for 4 more weeks (good response).\n* Continue empagliflozin for 4 more weeks and add finerenone 10 or 20 mg will be added for 4 weeks (moderate response).\n* Stop empagliflozin and start finerenone 10 or 20 mg for 4 weeks (no response)",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Diagnosis of type 2 diabetes\n* UACR \\>4.5 mg/mmol (\\>40 mg/g) and ≤300 mg/mmol (≤2655 mg/g)\n* eGFR ≥25 mL/min/1.73m2\n* On a stable dose of an ACE inhibitor/ARB if tolerated\n* Willing to sign informed consent.\n* Proficiency in the Dutch language\n\nExclusion Criteria:\n\n* Diagnosis of type 1 diabetes\n* Already treated with any SGLT2 inhibitor or MRA\n* Unable to monitor blood pressure or body weight or handle digital technologies.\n* Heart failure New York Heart Association (NYHA) Class II to IV requiring MRA treatment\n* Acute coronary syndrome event within 6 months\n* Serum potassium \\>5 mmol/L repeat value after repeated measurement\n* Evidence of severe hepatic impairment determined by any of one: ALT or AST values exceeding 3 times ULN, a history of hepatic encephalopathy, a history of oesophageal varices, or a history of portocaval shunt.\n* Active pregnancy or breastfeeding\n* History of kidney or liver transplant\n* Unstable or rapidly progressing renal disease.\n* Active malignancy\n* Suggestive evidence of adrenal insufficiency\n* History of severe hypersensitivity or contraindications to any SGLT2 inhibitor or MRA\n* Uncontrolled arterial hypertension (mean sitting systolic blood pressure ≥180 mmHg or diastolic blood pressure ≥110 mmHg)\n* Any medication, surgical or medical condition which might significantly alter the absorption, distribution, metabolism, or excretion of medications including, but not limited to any of the following:\n* History of active inflammatory bowel disease within the last 6 months\n* Major gastrointestinal tract surgery as decided by the physician.\n* Pancreatitis within the last 6 months\n* Gastrointestinal ulcers and/or bleeding within the last 6 months\n* Evidence of urinary obstruction or difficulty in voiding at screening\n* Participation in any clinical trial within 3 months prior to initial dosing\n* Donation or loss of ≥400 mL of blood within 8 weeks prior to initial dosing\n* Confirmed lactose intolerance demonstrated with a lactose intolerance test.\n* History of drug or alcohol abuse within the 12 months prior to dosing, or evidence of such abuse as indicated by the laboratory assays conducted during screening or according to investigator's assessment.\n* History of noncompliance to medical regimens or unwillingness to comply with the study protocol.\n* Any surgical or medical condition, which in the opinion of the investigator, may place the patient at higher risk from his/her participation in the study, or is likely to prevent the patient from complying with the requirements of the study or completing the study.\n* Women of childbearing potential (WOCBP):\n* WOCBP who are unwilling or unable to use an acceptable method of contraception to avoid pregnancy throughout the study and for up to 4 weeks after the last dose of the study drug in such a manner the risk of pregnancy is minimised.\n* WOCBP must have a negative serum or urine pregnancy test result (minimum sensitivity 25 IU/L or equivalent of HCG) at screening.\n\nWOCBP comprises women who have experienced menarche and who have not undergone successful surgical sterilization (hysterectomy, bilateral tubal ligation, or bilateral oophorectomy) or who are not post-menopausal (see definition below). The following women are NOT considered as WOCBP:\n\n* Women using the following methods to prevent pregnancy: oral contraceptives, other hormonal contraceptives (vaginal products, skin patches, or implanted or injectable products), or mechanical products such as intrauterine devices or barrier methods (diaphragm, condoms, spermicides).\n* Women who are practicing abstinence.\n* Women who have a partner who is sterile (e.g. due to vasectomy).\n\nPost-menopause is defined as:\n\n* Women who have had amenorrhea for \\>12 consecutive months (without another cause) and who have a documented serum follicle-stimulating hormone (FSH) level \\>35 mIU/mL.\n* Women who have irregular menstrual periods and a documented serum FSH level \\>35 mIU/mL.\n* Women who are taking hormone replacement therapy (HRT).",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -180,13 +180,13 @@
  },
  "sites": [
   {
-   "facility": "ZorgGroep Twente",
    "city": "Almelo",
-   "state": "Overijssel",
    "country": "Netherlands",
-   "status": null,
+   "facility": "ZorgGroep Twente",
    "lat": 52.35667,
-   "lon": 6.6625
+   "lon": 6.6625,
+   "state": "Overijssel",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06094920",
@@ -201,6 +201,146 @@
  "sponsors_of_note": [
   "Boehringer Ingelheim"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥18 years"
+   },
+   {
+    "text": "Diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "UACR >4.5 mg/mmol (>40 mg/g) and ≤300 mg/mmol (≤2655 mg/g)"
+   },
+   {
+    "text": "eGFR ≥25 mL/min/1.73m2"
+   },
+   {
+    "text": "On a stable dose of an ACE inhibitor/ARB if tolerated"
+   },
+   {
+    "text": "Willing to sign informed consent."
+   },
+   {
+    "text": "Proficiency in the Dutch language"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of type 1 diabetes"
+   },
+   {
+    "text": "Already treated with any SGLT2 inhibitor or MRA"
+   },
+   {
+    "text": "Unable to monitor blood pressure or body weight or handle digital technologies."
+   },
+   {
+    "text": "Heart failure New York Heart Association (NYHA) Class II to IV requiring MRA treatment"
+   },
+   {
+    "text": "Acute coronary syndrome event within 6 months"
+   },
+   {
+    "text": "Serum potassium >5 mmol/L repeat value after repeated measurement"
+   },
+   {
+    "text": "Evidence of severe hepatic impairment determined by any of one: ALT or AST values exceeding 3 times ULN, a history of hepatic encephalopathy, a history of oesophageal varices, or a history of portocaval shunt."
+   },
+   {
+    "text": "Active pregnancy or breastfeeding"
+   },
+   {
+    "text": "History of kidney or liver transplant"
+   },
+   {
+    "text": "Unstable or rapidly progressing renal disease."
+   },
+   {
+    "text": "Active malignancy"
+   },
+   {
+    "text": "Suggestive evidence of adrenal insufficiency"
+   },
+   {
+    "text": "History of severe hypersensitivity or contraindications to any SGLT2 inhibitor or MRA"
+   },
+   {
+    "text": "Uncontrolled arterial hypertension (mean sitting systolic blood pressure ≥180 mmHg or diastolic blood pressure ≥110 mmHg)"
+   },
+   {
+    "text": "Any medication, surgical or medical condition which might significantly alter the absorption, distribution, metabolism, or excretion of medications including, but not limited to any of the following:"
+   },
+   {
+    "text": "History of active inflammatory bowel disease within the last 6 months"
+   },
+   {
+    "text": "Major gastrointestinal tract surgery as decided by the physician."
+   },
+   {
+    "text": "Pancreatitis within the last 6 months"
+   },
+   {
+    "text": "Gastrointestinal ulcers and/or bleeding within the last 6 months"
+   },
+   {
+    "text": "Evidence of urinary obstruction or difficulty in voiding at screening"
+   },
+   {
+    "text": "Participation in any clinical trial within 3 months prior to initial dosing"
+   },
+   {
+    "text": "Donation or loss of ≥400 mL of blood within 8 weeks prior to initial dosing"
+   },
+   {
+    "text": "Confirmed lactose intolerance demonstrated with a lactose intolerance test."
+   },
+   {
+    "text": "History of drug or alcohol abuse within the 12 months prior to dosing, or evidence of such abuse as indicated by the laboratory assays conducted during screening or according to investigator's assessment."
+   },
+   {
+    "text": "History of noncompliance to medical regimens or unwillingness to comply with the study protocol."
+   },
+   {
+    "text": "Any surgical or medical condition, which in the opinion of the investigator, may place the patient at higher risk from his/her participation in the study, or is likely to prevent the patient from complying with the requirements of the study or completing the study."
+   },
+   {
+    "text": "Women of childbearing potential (WOCBP):"
+   },
+   {
+    "text": "WOCBP who are unwilling or unable to use an acceptable method of contraception to avoid pregnancy throughout the study and for up to 4 weeks after the last dose of the study drug in such a manner the risk of pregnancy is minimised."
+   },
+   {
+    "text": "WOCBP must have a negative serum or urine pregnancy test result (minimum sensitivity 25 IU/L or equivalent of HCG) at screening."
+   },
+   {
+    "text": "WOCBP comprises women who have experienced menarche and who have not undergone successful surgical sterilization (hysterectomy, bilateral tubal ligation, or bilateral oophorectomy) or who are not post-menopausal (see definition below). The following women are NOT considered as WOCBP:"
+   },
+   {
+    "text": "Women using the following methods to prevent pregnancy: oral contraceptives, other hormonal contraceptives (vaginal products, skin patches, or implanted or injectable products), or mechanical products such as intrauterine devices or barrier methods (diaphragm, condoms, spermicides)."
+   },
+   {
+    "text": "Women who are practicing abstinence."
+   },
+   {
+    "text": "Women who have a partner who is sterile (e.g. due to vasectomy)."
+   },
+   {
+    "text": "Women who have had amenorrhea for >12 consecutive months (without another cause) and who have a documented serum follicle-stimulating hormone (FSH) level >35 mIU/mL.",
+    "group": "Post-menopause is defined as"
+   },
+   {
+    "text": "Women who have irregular menstrual periods and a documented serum FSH level >35 mIU/mL.",
+    "group": "Post-menopause is defined as"
+   },
+   {
+    "text": "Women who are taking hormone replacement therapy (HRT).",
+    "group": "Post-menopause is defined as"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

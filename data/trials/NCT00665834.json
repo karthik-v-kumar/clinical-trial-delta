@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Queen's University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Queen's University"
  },
  "collaborators": [
   "AstraZeneca"
@@ -56,42 +56,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "rosuvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: rosuvastatin",
     "Drug: placebo"
-   ]
+   ],
+   "label": "1",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: rosuvastatin",
     "Drug: atorvastatin"
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "This is a 3-month, randomized, parallel-group study with 2 periods, comparing the efficacy and the safety of rosuvastatin 20 mg versus atorvastatin 80 mg in patients with an acute coronary syndrome (ACS).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men or women who are between 18 and 75 years old\n* Patients diagnosed with non ST elevation - acute coronary syndrome (NSTE-ACS)\n* Patients with onset of clinical symptoms less than 24 hours prior to their admission for which a PCI is planned or anticipated.\n\nExclusion Criteria:\n\n* Patients with STEMI (ST elevation myocardial infarction-heart attack) and primary PCI planned within 24 hours of admission will not be included.\n* Patients will not be allowed to have taken any cholesterol-lowering medications during 1 month prior to enrolment.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,22 +114,22 @@
  },
  "sites": [
   {
-   "facility": "Kingston General Hospital",
    "city": "Kingston",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Kingston General Hospital",
    "lat": 44.22976,
-   "lon": -76.48098
+   "lon": -76.48098,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "Vascular Disease Prevention and Research Centre, Hotel Dieu Hospital",
    "city": "Kingston",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "Vascular Disease Prevention and Research Centre, Hotel Dieu Hospital",
    "lat": 44.22976,
-   "lon": -76.48098
+   "lon": -76.48098,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00665834",
@@ -143,6 +143,29 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men or women who are between 18 and 75 years old"
+   },
+   {
+    "text": "Patients diagnosed with non ST elevation - acute coronary syndrome (NSTE-ACS)"
+   },
+   {
+    "text": "Patients with onset of clinical symptoms less than 24 hours prior to their admission for which a PCI is planned or anticipated."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with STEMI (ST elevation myocardial infarction-heart attack) and primary PCI planned within 24 hours of admission will not be included."
+   },
+   {
+    "text": "Patients will not be allowed to have taken any cholesterol-lowering medications during 1 month prior to enrolment."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

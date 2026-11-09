@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2019-09-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "JW Pharmaceutical",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "JW Pharmaceutical"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pitavastatin",
    "other_names": [
     "Livalo"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "Lipitor"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pitavastatin Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pitavastatin"
-   ]
+   ],
+   "label": "Pitavastatin Group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Atorvastatin Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "Atorvastatin Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "A randomized, open label, dose titration study to evaluate the efficacy and safety of Pitavastatin compared to atorvastatin in Type 2 Diabetes Mellitus with hypercholesterolemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age: 25yrs\\~75yrs\n* Fasting TG \\<400mg/dL, LDL-C ≥130mg/dL\n* 3months \\> Diagnosed Type2 DM, With OAD, HbA1c ≤ 10.0% or First Diagnosed Type2 DM, 6.5%≤HbA1c≤10.0%\n\nExclusion Criteria:\n\n* Type1 DM, Gestational diabetes\n* Patient need to treat with Insulin\n* Patient with operational treatment for severe diabetic complication\n* Uncontrolled Hypothyroidism\n* Unstable angina, MI, transient ischemic attack(TIA), Stroke, PCI, Heart Failure within 3 months (NYHA class4)\n* Severe Hypertension (SBP ≥ 180 or DBP ≥ 110mmHg)\n* Renal disorder (Serum creatinine ≥ 2.0mg/dL)\n* Hepatic disorder (AST or ALT ≥ 2.5 X UNL)\n* Creatinine Kinase \\> 2.5 X UNL\n* Gravida or lactation phase\n* Administration of Atorvastatin, Rosuvastatin, Pitavastatin",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,14 +100,64 @@
  "registry_url": "https://clinicaltrials.gov/study/NCT00889226",
  "content_hash": "def1cd6957971daa",
  "collections": [
-  "type-2-diabetes",
-  "cholesterol-lipids"
+  "cholesterol-lipids",
+  "type-2-diabetes"
  ],
  "matched_queries": [
-  "t2d-drugs",
-  "lipids-drugs"
+  "lipids-drugs",
+  "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age: 25yrs~75yrs"
+   },
+   {
+    "text": "Fasting TG <400mg/dL, LDL-C ≥130mg/dL"
+   },
+   {
+    "text": "3months > Diagnosed Type2 DM, With OAD, HbA1c ≤ 10.0% or First Diagnosed Type2 DM, 6.5%≤HbA1c≤10.0%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type1 DM, Gestational diabetes"
+   },
+   {
+    "text": "Patient need to treat with Insulin"
+   },
+   {
+    "text": "Patient with operational treatment for severe diabetic complication"
+   },
+   {
+    "text": "Uncontrolled Hypothyroidism"
+   },
+   {
+    "text": "Unstable angina, MI, transient ischemic attack(TIA), Stroke, PCI, Heart Failure within 3 months (NYHA class4)"
+   },
+   {
+    "text": "Severe Hypertension (SBP ≥ 180 or DBP ≥ 110mmHg)"
+   },
+   {
+    "text": "Renal disorder (Serum creatinine ≥ 2.0mg/dL)"
+   },
+   {
+    "text": "Hepatic disorder (AST or ALT ≥ 2.5 X UNL)"
+   },
+   {
+    "text": "Creatinine Kinase > 2.5 X UNL"
+   },
+   {
+    "text": "Gravida or lactation phase"
+   },
+   {
+    "text": "Administration of Atorvastatin, Rosuvastatin, Pitavastatin"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

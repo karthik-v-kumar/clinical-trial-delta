@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Novo Nordisk A/S",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Novo Nordisk A/S"
  },
  "collaborators": [],
  "conditions": [
@@ -49,9 +49,9 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "insulin detemir",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -64,10 +64,10 @@
  "brief_summary": "This trial is conducted in the United States of America (USA). This trial aims for a comparison of the safety and efficacy in subjects with type 2 diabetes using either self titration or physician guided titration according to the local standard of care.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes HbA1C \\<= 12.0% within the past 12 months;\n* BMI \\<= 45.0 kg/m2\n* Initiation, addition of, change to, or continuation of basal insulin therapy with insulin detemir as deemed necessary by Investigator\n\nExclusion Criteria:\n\n* Anticipated change in concomitant medication known to interfere with glucose metabolism such as systemic steroids, non-selective beta-blockers or mono amine oxidase (MAO) inhibitors.\n* Proliferative retinopathy or maculopathy that has required acute treatment within the last 6 months.\n* Any glucose lowering medication that is not indicated in combination with insulin, such as GLP-1 Analogues\n* Known hypoglycemia unawareness or recurrent major hypoglycemia, as judged by the Investigator",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -75,13 +75,13 @@
  },
  "sites": [
   {
-   "facility": "Novo Nordisk Investigational Site",
    "city": "Plainsboro",
-   "state": "New Jersey",
    "country": "United States",
-   "status": null,
+   "facility": "Novo Nordisk Investigational Site",
    "lat": 40.33344,
-   "lon": -74.60043
+   "lon": -74.60043,
+   "state": "New Jersey",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00264901",
@@ -96,6 +96,35 @@
  "sponsors_of_note": [
   "Novo Nordisk"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 2 diabetes HbA1C <= 12.0% within the past 12 months;"
+   },
+   {
+    "text": "BMI <= 45.0 kg/m2"
+   },
+   {
+    "text": "Initiation, addition of, change to, or continuation of basal insulin therapy with insulin detemir as deemed necessary by Investigator"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Anticipated change in concomitant medication known to interfere with glucose metabolism such as systemic steroids, non-selective beta-blockers or mono amine oxidase (MAO) inhibitors."
+   },
+   {
+    "text": "Proliferative retinopathy or maculopathy that has required acute treatment within the last 6 months."
+   },
+   {
+    "text": "Any glucose lowering medication that is not indicated in combination with insulin, such as GLP-1 Analogues"
+   },
+   {
+    "text": "Known hypoglycemia unawareness or recurrent major hypoglycemia, as judged by the Investigator"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2023-11-13",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Emory University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Emory University"
  },
  "collaborators": [
   "DexCom, Inc."
@@ -51,34 +51,34 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Dexcom G6 CGM with GTS",
    "other_names": [
     "Dexcom Glucose Telemetry System"
-   ]
+   ],
+   "type": "DEVICE"
   },
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "POC Blood Glucose Test + Blinded CGM",
    "other_names": [
     "Standard of care capillary glucose test and blinded CGM"
-   ]
+   ],
+   "type": "DIAGNOSTIC_TEST"
   }
  ],
  "arm_groups": [
   {
-   "label": "POC testing with Blinded CGM (Standard of Care)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Diagnostic Test: POC Blood Glucose Test + Blinded CGM"
-   ]
+   ],
+   "label": "POC testing with Blinded CGM (Standard of Care)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dexcom CGM with Glucose Telemetry System (CGM-GTS)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Dexcom G6 CGM with GTS"
-   ]
+   ],
+   "label": "Dexcom CGM with Glucose Telemetry System (CGM-GTS)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The goal of this study is to determine whether the use of Dexcom Continuous Glucose Monitoring with Glucose Telemetry System (CGM-GTS) with hypoglycemia alarm will facilitate diabetes treatment and reduce the risk of hypoglycemia in insulin and non-insulin treated patients with type 2 diabetes (T2D) in long-term care facilities, when compared to standard of care using capillary point of care testing.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males and females admitted to subacute and long-term skilled nursing care facilities.\n* Known history of T2D treated with insulin or insulin secretagogues with or without additional oral antidiabetic agents, short- and long-acting glucagon-like peptide-1 receptor agonists (GLP-1 RA).\n* Patients with an expected long-term care facility length-of-stay \\> 1 week.\n\nExclusion Criteria:\n\n* Patients expected to require MRI procedures during admission.\n* Patients with clinically relevant hepatic disease (diagnosed liver cirrhosis and portal hypertension), corticosteroid therapy, end-stage renal disease (dialysis), or anasarca (massive peripheral edema).\n* Female subjects who are pregnant or breast-feeding at time of enrollment into the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,22 +109,22 @@
  },
  "sites": [
   {
-   "facility": "A.G. Rhodes",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "A.G. Rhodes",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   },
   {
-   "facility": "Emory Wesley Woods Hospital",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Emory Wesley Woods Hospital",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04818242",
@@ -136,6 +136,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Males and females admitted to subacute and long-term skilled nursing care facilities."
+   },
+   {
+    "text": "Known history of T2D treated with insulin or insulin secretagogues with or without additional oral antidiabetic agents, short- and long-acting glucagon-like peptide-1 receptor agonists (GLP-1 RA)."
+   },
+   {
+    "text": "Patients with an expected long-term care facility length-of-stay > 1 week."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients expected to require MRI procedures during admission."
+   },
+   {
+    "text": "Patients with clinically relevant hepatic disease (diagnosed liver cirrhosis and portal hypertension), corticosteroid therapy, end-stage renal disease (dialysis), or anasarca (massive peripheral edema)."
+   },
+   {
+    "text": "Female subjects who are pregnant or breast-feeding at time of enrollment into the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

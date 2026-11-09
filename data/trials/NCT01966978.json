@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2019-10-22",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Texas Southwestern Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Texas Southwestern Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -49,52 +49,52 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Metformin tablets"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Detemir",
    "other_names": [
     "Insulin Detemir subcutaneous once or twice daily"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Liraglutide 6 mg/mL Subcutaneously"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Insulin Aspart",
    "other_names": [
     "Insulin Aspart Subcutaneous injection one to three times daily"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Control: Metformin, Insulin Detemir, Insulin Aspart",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Detemir",
     "Drug: Insulin Aspart"
-   ]
+   ],
+   "label": "Control: Metformin, Insulin Detemir, Insulin Aspart",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin, insulin determir, Liraglutide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Detemir",
     "Drug: Liraglutide"
-   ]
+   ],
+   "label": "Metformin, insulin determir, Liraglutide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "The aim of this clinical trial is to assess and compare the effect of insulin detemir in combination with liraglutide and metformin versus insulin detemir in combination with insulin aspart and metformin in subjects with very uncontrolled Type 2 Diabetes (A1c \\> 10%).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1\\. Clinical diagnosis of type 2 diabetes with confirmed HbA1c level \\>10% at time of enrollment, regardless of prior or current treatment regimens, or time since diagnosis.\n\nExclusion Criteria:\n\n1. Age \\<18 as the feasibility and safety of this treatment regimen should be first established in the adult population; if successful, a subsequent pediatric study will be proposed;\n2. Type 1 diabetes as purposefully withholding meal-time insulin is contraindicated;\n3. Clinical state requiring inpatient admission/treatment;\n4. Contraindication or strong cautions to any of the study medications:\n\n   1. Creatinine above 1.4 mg/dl for women and 1.5 mg/dl for men (per metformin label)\n   2. History of lactic acidosis (per metformin label)\n   3. Advanced hepatic or cardiac disease (per metformin label)\n   4. Age \\>80 years (per metformin label)\n   5. Chronic alcohol use (\\>14 drinks/week)\n   6. History of pancreatitis (per liraglutide label)\n   7. Personal or family history of medullary thyroid cancer or MEN syndrome (per liraglutide label)\n   8. Pregnancy and lactation (per liraglutide label)\n5. Any serious or unstable medical condition as it would interfere with treatment assignment as well as outcome measurement;\n6. Any scheduled elective procedures/surgeries;\n7. Active infections, including osteomyelitis;\n8. Not willing to participate, unable to keep projected appointments, unwillingness to receive injectable treatment; unwillingness to perform 7-point glucose profiles over 2 consecutive days the weeks prior to Randomization (visit 1)and the week prior to visit 6\n9. Non English speaking.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,13 +117,13 @@
  },
  "sites": [
   {
-   "facility": "UT Southwestern Medical Center",
    "city": "Dallas",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "UT Southwestern Medical Center",
    "lat": 32.78306,
-   "lon": -96.80667
+   "lon": -96.80667,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01966978",
@@ -135,6 +135,54 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Clinical diagnosis of type 2 diabetes with confirmed HbA1c level >10% at time of enrollment, regardless of prior or current treatment regimens, or time since diagnosis."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Age <18 as the feasibility and safety of this treatment regimen should be first established in the adult population; if successful, a subsequent pediatric study will be proposed;"
+   },
+   {
+    "text": "Type 1 diabetes as purposefully withholding meal-time insulin is contraindicated;"
+   },
+   {
+    "text": "Clinical state requiring inpatient admission/treatment;"
+   },
+   {
+    "text": "Contraindication or strong cautions to any of the study medications:",
+    "sub_items": [
+     "Creatinine above 1.4 mg/dl for women and 1.5 mg/dl for men (per metformin label)",
+     "History of lactic acidosis (per metformin label)",
+     "Advanced hepatic or cardiac disease (per metformin label)",
+     "Age >80 years (per metformin label)",
+     "Chronic alcohol use (>14 drinks/week)",
+     "History of pancreatitis (per liraglutide label)",
+     "Personal or family history of medullary thyroid cancer or MEN syndrome (per liraglutide label)",
+     "Pregnancy and lactation (per liraglutide label)"
+    ]
+   },
+   {
+    "text": "Any serious or unstable medical condition as it would interfere with treatment assignment as well as outcome measurement;"
+   },
+   {
+    "text": "Any scheduled elective procedures/surgeries;"
+   },
+   {
+    "text": "Active infections, including osteomyelitis;"
+   },
+   {
+    "text": "Not willing to participate, unable to keep projected appointments, unwillingness to receive injectable treatment; unwillingness to perform 7-point glucose profiles over 2 consecutive days the weeks prior to Randomization (visit 1)and the week prior to visit 6"
+   },
+   {
+    "text": "Non English speaking."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

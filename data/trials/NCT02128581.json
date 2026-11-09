@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mayo Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mayo Clinic"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -53,37 +53,37 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Exendin-9,39",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Saline",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Saline",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Saline"
-   ]
+   ],
+   "label": "Saline",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Exendin-9,39"
+   ],
    "label": "Exendin-9,39 @ 300",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Drug: Exendin-9,39"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Exendin-9,39 @ 750",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Exendin-9,39"
-   ]
+   ],
+   "label": "Exendin-9,39 @ 750",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Exendin-(9,39) has been shown to have effects on beta-cell function, and after gastric bypass, to accelerate gastrointestinal transit. - infused at rates of 300pmol/kg/min. Given that gastrointestinal transit is typically delayed by Glucagon-Like Peptide-1 (GLP-1) and also that this hormone causes decreased food intake through increased satiation, it is reasonable to expect an effect of Exendin-9,39 on appetite. This may help explain the effects of gastric bypass on food intake. To examine the effect of Exendin on food intake we propose a dose-response study to determine whether the compound has effects in a dose-dependent fashion. We will examine the presence of gastrointestinal symptoms as well as food intake in the immediate aftermath of a test meal and the subsequent hours.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects who have undergone Roux en-Y Gastric Bypass at least 6 months prior to enrollment in the study.\n* Subjects without active systemic illness.\n\nExclusion Criteria:\n\n* Subjects \\<20 years of age will not be studied to minimize the possibility of type 1 diabetes.\n* Subjects \\>70 years of age will not be studied to minimize the potential confounding effects of age on glucose tolerance.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Mayo Clinic in Rochester",
    "city": "Rochester",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic in Rochester",
    "lat": 44.02163,
-   "lon": -92.4699
+   "lon": -92.4699,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02128581",
@@ -124,6 +124,26 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects who have undergone Roux en-Y Gastric Bypass at least 6 months prior to enrollment in the study."
+   },
+   {
+    "text": "Subjects without active systemic illness."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects <20 years of age will not be studied to minimize the possibility of type 1 diabetes."
+   },
+   {
+    "text": "Subjects >70 years of age will not be studied to minimize the potential confounding effects of age on glucose tolerance."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

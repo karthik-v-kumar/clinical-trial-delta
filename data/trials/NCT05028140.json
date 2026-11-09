@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "EMS",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "EMS"
  },
  "collaborators": [],
  "conditions": [
@@ -51,63 +51,63 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "PIEMONTE",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "PIEMONTE PLACEBO",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "EMPAGLIFLOZIN",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "PLACEBO EMPAGLIFLOZIN",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "DRUG",
    "name": "PIOGLITAZONE",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "PLACEBO PIOGLITAZONE",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Piemonte association",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: PIEMONTE",
     "Other: PLACEBO EMPAGLIFLOZIN",
     "Other: PLACEBO PIOGLITAZONE"
-   ]
+   ],
+   "label": "Piemonte association",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Empagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: PIEMONTE PLACEBO",
     "Drug: EMPAGLIFLOZIN",
     "Other: PLACEBO PIOGLITAZONE"
-   ]
+   ],
+   "label": "Empagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Pioglitazone",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: PIEMONTE PLACEBO",
     "Other: PLACEBO EMPAGLIFLOZIN",
     "Drug: PIOGLITAZONE"
-   ]
+   ],
+   "label": "Pioglitazone",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -119,10 +119,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of Piemonte association in the treatment of type 2 diabetes mellitus",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Ability to confirm voluntary participation and agree to all trial purposes by signing and dating the consent form;\n* Diagnosis of type II diabetes mellitus, and who did not reach the therapeutic goal of HbA1c with previous dietary, physical exercise, and previous therapies at stable doses within 3 months.\n\nExclusion Criteria:\n\n* Any clinical and laboratory findings that, in the judgment of the investigator, may interfere with the safety of participants;\n* History of alcohol abuse or illicit drug use;\n* Participation in a clinical trial in the year prior to this study;\n* Pregnancy or risk of pregnacy and lactating participants;\n* Known hypersensitivity to any of the formula compounds;\n* Type 1 diabetes.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "85 Years",
   "healthy_volunteers": false,
+  "maximum_age": "85 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -130,13 +130,13 @@
  },
  "sites": [
   {
-   "facility": "EMS",
    "city": "Hortolândia",
-   "state": "São Paulo",
    "country": "Brazil",
-   "status": "RECRUITING",
+   "facility": "EMS",
    "lat": -22.85833,
-   "lon": -47.22
+   "lon": -47.22,
+   "state": "São Paulo",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05028140",
@@ -148,6 +148,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Ability to confirm voluntary participation and agree to all trial purposes by signing and dating the consent form;"
+   },
+   {
+    "text": "Diagnosis of type II diabetes mellitus, and who did not reach the therapeutic goal of HbA1c with previous dietary, physical exercise, and previous therapies at stable doses within 3 months."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any clinical and laboratory findings that, in the judgment of the investigator, may interfere with the safety of participants;"
+   },
+   {
+    "text": "History of alcohol abuse or illicit drug use;"
+   },
+   {
+    "text": "Participation in a clinical trial in the year prior to this study;"
+   },
+   {
+    "text": "Pregnancy or risk of pregnacy and lactating participants;"
+   },
+   {
+    "text": "Known hypersensitivity to any of the formula compounds;"
+   },
+   {
+    "text": "Type 1 diabetes."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

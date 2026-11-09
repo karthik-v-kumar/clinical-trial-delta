@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Samsung Medical Center",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Samsung Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Guideline directed statin therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "High intensity statin plus ezetimibe therapy",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Aggressive treatment arm",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: High intensity statin plus ezetimibe therapy"
-   ]
+   ],
+   "label": "Aggressive treatment arm",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Standard treatment arm",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Guideline directed statin therapy"
-   ]
+   ],
+   "label": "Standard treatment arm",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The aim of this study is to compare safety and efficacy between the aggressive treatment with combination of high-intensity statin and ezetimibe and the current standard lipid lowering treatment in asymptomatic patients with presence of coronary calcification.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subject must be at least 40 years of age.\n* Asymptomatic patients with presence of coronary calcification (Agatston Score ≥ 100)\n* low-density lipoproteins cholesterol (LDL-C) \\<190 mg/dL\n\nExclusion Criteria:\n\n* Objective evidence of at least moderate inducible ischemia requiring revascularization treatment\n* History of cerebrovascular disease\n* History of coronary or peripheral arterial revascularization\n* Active liver disease or persistent unexplained serum transaminase elevations more than 2 times the upper limit of normal range\n* History of any adverse drug reaction requiring discontinuation of statin (e, g. rhabdomyolysis)\n* Allergy or sensitivity to any statin or ezetimibe\n* Concurrent treatment with cyclosporine or a condition likely to result in organ transplantation and the need for cyclosporine\n* Pregnancy or breast feeding\n* Non-cardiac co-morbid conditions are present with life expectancy \\<1 year or that may result in protocol non-compliance (per site investigator's medical judgment)\n* Unwillingness or inability to comply with the procedures described in this protocol.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "SamsungMedicalCenter",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "SamsungMedicalCenter",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05845424",
@@ -114,6 +114,53 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subject must be at least 40 years of age."
+   },
+   {
+    "text": "Asymptomatic patients with presence of coronary calcification (Agatston Score ≥ 100)"
+   },
+   {
+    "text": "low-density lipoproteins cholesterol (LDL-C) <190 mg/dL"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Objective evidence of at least moderate inducible ischemia requiring revascularization treatment"
+   },
+   {
+    "text": "History of cerebrovascular disease"
+   },
+   {
+    "text": "History of coronary or peripheral arterial revascularization"
+   },
+   {
+    "text": "Active liver disease or persistent unexplained serum transaminase elevations more than 2 times the upper limit of normal range"
+   },
+   {
+    "text": "History of any adverse drug reaction requiring discontinuation of statin (e, g. rhabdomyolysis)"
+   },
+   {
+    "text": "Allergy or sensitivity to any statin or ezetimibe"
+   },
+   {
+    "text": "Concurrent treatment with cyclosporine or a condition likely to result in organ transplantation and the need for cyclosporine"
+   },
+   {
+    "text": "Pregnancy or breast feeding"
+   },
+   {
+    "text": "Non-cardiac co-morbid conditions are present with life expectancy <1 year or that may result in protocol non-compliance (per site investigator's medical judgment)"
+   },
+   {
+    "text": "Unwillingness or inability to comply with the procedures described in this protocol."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

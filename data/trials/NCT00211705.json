@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "NONE",
+  "primary_purpose": "PREVENTION",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mitsukoshi Health and Welfare Foundation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Mitsukoshi Health and Welfare Foundation"
  },
  "collaborators": [
   "Daiichi Sankyo Co., Ltd.",
@@ -48,14 +48,14 @@
  ],
  "interventions": [
   {
-   "type": "BEHAVIORAL",
    "name": "Diet",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DRUG",
    "name": "Diet+pravastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -68,10 +68,10 @@
  "brief_summary": "To evaluate the primary preventive effect of low-dose pravastatin against coronary heart disease (CHD) in Japanese hypercholesterolemic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* TC:220～270mg/dl\n* Male: 40-70 years old/ female: postmenopausal-70 years old\n* \\<40kg in weight\n\nExclusion Criteria:\n\n* FH\n* History of CHD(angina, MI, post-PTCA/CABG, etc.)\n* History of CVA(stroke, TIA, etc.)\n* Underlying malignant tumor",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -87,6 +87,35 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "TC:220～270mg/dl"
+   },
+   {
+    "text": "Male: 40-70 years old/ female: postmenopausal-70 years old"
+   },
+   {
+    "text": "<40kg in weight"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "FH"
+   },
+   {
+    "text": "History of CHD(angina, MI, post-PTCA/CABG, etc.)"
+   },
+   {
+    "text": "History of CVA(stroke, TIA, etc.)"
+   },
+   {
+    "text": "Underlying malignant tumor"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

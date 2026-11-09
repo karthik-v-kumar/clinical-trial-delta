@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "DIAGNOSTIC",
   "masking": "NONE",
+  "primary_purpose": "DIAGNOSTIC",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Franciscus Gasthuis",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Franciscus Gasthuis"
  },
  "collaborators": [
   "Erasmus Medical Center",
@@ -59,23 +59,23 @@
  ],
  "interventions": [
   {
-   "type": "DIAGNOSTIC_TEST",
    "name": "Screening for heart failure",
-   "other_names": []
+   "other_names": [],
+   "type": "DIAGNOSTIC_TEST"
   }
  ],
  "arm_groups": [
   {
-   "label": "Participants randomized to HF screening",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Diagnostic Test: Screening for heart failure"
-   ]
+   ],
+   "label": "Participants randomized to HF screening",
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [],
    "label": "Participants randomized to standard care",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "Rationale:\n\nObesity prevalence in Dutch adults increased to 14.2% in 2020. Obesity is strongly associated with cardiovascular disease, especially heart failure (HF). HF is a serious condition with significant morbidity and mortality. HF in people with obesity often remains undetected for a relatively long time, because symptoms are attributed to the obesity and not to possible HF. As a result, individuals seek help late for already advanced HF. Screening may reveal HF risk factors or a HF diagnosis. Early treatment initiation will improve prognosis, both in terms of quality of life and morbidity and mortality.\n\nObjective:\n\nTo investigate whether active screening for early signs of HF and its risk factors in adults with obesity without known heart disease improves clinical outcome.\n\nStudy design:\n\nInvestigator driven, not blinded, randomized controlled superiority trial.\n\nStudy population:\n\nConsecutive individuals with obesity (body mass index ≥30 kg/m2) ≥ 45 years, without known cardiac disease, who sign up to participate in a Combined Lifestyle Intervention program, will be recruited.\n\nIntervention: Participant randomized to the intervention will undergo an active screening on HF and its risk factors, using anamnesis, physical examination, an electrocardiogram, blood tests and an echocardiogram.\n\nMain study parameters/endpoints:\n\nThe main study endpoint is a combined endpoint of left ventricular dysfunction and/or HF.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥45 year\n* BMI ≥30 kg/m2\n* Written informed consent.\n\nExclusion Criteria:\n\n* Known cardiac disease (determined by asking the patient and by assessment of the available patient files).\n* Treatment with weight-reducing medication.",
-  "sex": "ALL",
-  "minimum_age": "45 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "45 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Franciscus Gasthuis & Vlietland",
    "city": "Rotterdam",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": "Franciscus Gasthuis & Vlietland",
    "lat": 51.9225,
-   "lon": 4.47917
+   "lon": 4.47917,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06137261",
@@ -119,6 +119,29 @@
   "Novo Nordisk",
   "Boehringer Ingelheim"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥45 year"
+   },
+   {
+    "text": "BMI ≥30 kg/m2"
+   },
+   {
+    "text": "Written informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Known cardiac disease (determined by asking the patient and by assessment of the available patient files)."
+   },
+   {
+    "text": "Treatment with weight-reducing medication."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

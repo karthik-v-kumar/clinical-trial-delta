@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mannkind Corporation",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Mannkind Corporation"
  },
  "collaborators": [],
  "conditions": [
@@ -45,9 +45,9 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Technosphere/Insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -60,10 +60,10 @@
  "brief_summary": "This trial was designed to compare meal related inhalation of Technosphere/Insulin to subcutaneous regular insulin in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Clinical diagnosis of type 2 diabetes mellitus.\n* Current regimen of intensified insulin therapy for at least 6 months.\n* Body Mass Index less than 35 kg/m2.\n* HbA1c less than or equal to 9%.\n* Non-smoker for at least 2 years.\n* If medications in addition to insulin are taken at screening, the patient must be on a stable regimen as defined by continued use of the same dose of each medication for a period of at least three months.\n* Forced vital capacity (FVC), forced expiratory volume in one second (FEV1), forced mid-expiratory flow rate 25 %-75 % (FEF25-75), slow vital capacity (SVC) as measured by spirometry, and single-breath carbon monoxide diffusing capacity corrected for hemoglobin and carboxyhemoglobin (DLco), all greater than or equal to 80 % of expected normal.\n* Ability to perform PFT, without coughing within the first 5 seconds of test.\n* Written informed consent.\n\nExclusion Criteria:\n\n* Diabetes mellitus type 1.\n* Current treatment (within the last 30 days) with oral antidiabetic agents.\n* Regular pre-prandial doses of regular insulin of more than 30 IU.\n* Intake of any drug or herbal preparation which, in the evaluation of the investigator, may interfere with the interpretation of trial results or that is known to cause clinically relevant interference with insulin action, glucose utilization or recovery from hypoglycemia (e.g. systemic steroids).\n* History of hypersensitivity to the study drug or to drugs with similar chemical structures.\n* Treatment with any other investigational drug within three months prior to enrollment in study.\n* Progressive fatal disease.\n* History of malignancy within five years of study entry (other than basal cell epithelioma).\n* History of drug or alcohol abuse.\n* Evidence of severe secondary complications of diabetes (neuropathy, nephropathy as evidence by creatinine \\> 1.5 for females or \\> 1.8 for males, retinopathy, or severe peripheral vascular disease).\n* Evidence of gastroparesis, orthostatic hypotension or hypoglycemia unawareness (autonomic neuropathy).\n* Myocardial infarction or stroke within the preceding six months.\n* Positive hepatitis B (hepatitis B surface antigen) and/or hepatitis C (hepatitis C antibody) serology and/or positive HIV serology.\n* History or presence of clinically significant cardiovascular, hepatic (as evidenced by ALT or AST \\> 3 times the normal reference range), gastrointestinal, neurological or infectious disorders capable of altering the absorption, metabolism or elimination of drugs, or constituting a risk factor when taking the study medication.\n* Anemia (hemoglobin levels less than 11 g/dL for females or 12 g/dL for males).\n* Ongoing respiratory tract infection.\n* Pregnancy, lactation, or intention to become pregnant.\n* Sexually active women of childbearing potential practicing inadequate birth control (adequate birth control is defined as using oral contraceptives, condoms or diaphragms with spermacide, intrauterine devices, or surgical sterilization).\n* Regular alcohol intake greater than 14 units\\*/week, or subjects unwilling to stop alcohol for the duration of the study (\\* 1 unit = 8 g ethanol, 1/4 liter of beer or 1 glass wine or 1 measure of spirits).\n* Investigator or site personnel directly affiliated with this study, and their immediate families. Immediate family is defined as a spouse, parent, child or sibling, whether biological or legally adopted.\n* A lack of compliance (including the inability to maintain a minimum of 75 % compliance with study drug administration) or other reasons, which in the opinion of the Investigator preclude the participation of the subject in the study.\n* Prior diagnosis of idiopathic pulmonary fibrosis, asbestosis, silicosis, sarcoidosis, histiocytosis X (Langerhans cells histiocytosis), farmer's lung, Wegener's granulomatosis, pneumoconiosis (coal miner's lung), desquamative interstitial pneumonia, alveolar proteinosis, Goodpasture's syndrome, bronchiolitis obliterans organizing pneumonia (BOOP), hypersensitivity pneumonitis, lymphangioleiomyomatosis, amyloidosis, lymphocytic interstitial pneumonitis, Churg-Strauss syndrome (allergic granulomatosis and angiitis).\n* Current or chronic infection with tuberculosis, cytomegalovirus, aspergillus, blastomyces, cryptococcus, histoplasma, coccidioides, pneumocystis carinii, mycobacterium avium intracellulare, pseudomonas, actinomyces, nodcardia, mucor, candida.\n* Prior diagnosis of systemic autoimmune or collagen vascular disease requiring previous or current treatment with systemic corticosteroids, cytotoxic drugs, or penicillamine.\n* History of chronic obstructive pulmonary disease, reactive airway disease, bronchiectasis, bronchiolitis obliterans, chronic bronchitis, emphysema or asthma requiring hospitalization and/or chronic treatment with supplemental oxygen or inhaled or systemic beta adrenoreceptor agonists, steroids or corticosteroids.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -71,13 +71,13 @@
  },
  "sites": [
   {
-   "facility": "Profil Institute for Metabolic Research",
    "city": "Hellersbergstr",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Profil Institute for Metabolic Research",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00419302",
@@ -89,6 +89,116 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Clinical diagnosis of type 2 diabetes mellitus."
+   },
+   {
+    "text": "Current regimen of intensified insulin therapy for at least 6 months."
+   },
+   {
+    "text": "Body Mass Index less than 35 kg/m2."
+   },
+   {
+    "text": "HbA1c less than or equal to 9%."
+   },
+   {
+    "text": "Non-smoker for at least 2 years."
+   },
+   {
+    "text": "If medications in addition to insulin are taken at screening, the patient must be on a stable regimen as defined by continued use of the same dose of each medication for a period of at least three months."
+   },
+   {
+    "text": "Forced vital capacity (FVC), forced expiratory volume in one second (FEV1), forced mid-expiratory flow rate 25 %-75 % (FEF25-75), slow vital capacity (SVC) as measured by spirometry, and single-breath carbon monoxide diffusing capacity corrected for hemoglobin and carboxyhemoglobin (DLco), all greater than or equal to 80 % of expected normal."
+   },
+   {
+    "text": "Ability to perform PFT, without coughing within the first 5 seconds of test."
+   },
+   {
+    "text": "Written informed consent."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diabetes mellitus type 1."
+   },
+   {
+    "text": "Current treatment (within the last 30 days) with oral antidiabetic agents."
+   },
+   {
+    "text": "Regular pre-prandial doses of regular insulin of more than 30 IU."
+   },
+   {
+    "text": "Intake of any drug or herbal preparation which, in the evaluation of the investigator, may interfere with the interpretation of trial results or that is known to cause clinically relevant interference with insulin action, glucose utilization or recovery from hypoglycemia (e.g. systemic steroids)."
+   },
+   {
+    "text": "History of hypersensitivity to the study drug or to drugs with similar chemical structures."
+   },
+   {
+    "text": "Treatment with any other investigational drug within three months prior to enrollment in study."
+   },
+   {
+    "text": "Progressive fatal disease."
+   },
+   {
+    "text": "History of malignancy within five years of study entry (other than basal cell epithelioma)."
+   },
+   {
+    "text": "History of drug or alcohol abuse."
+   },
+   {
+    "text": "Evidence of severe secondary complications of diabetes (neuropathy, nephropathy as evidence by creatinine > 1.5 for females or > 1.8 for males, retinopathy, or severe peripheral vascular disease)."
+   },
+   {
+    "text": "Evidence of gastroparesis, orthostatic hypotension or hypoglycemia unawareness (autonomic neuropathy)."
+   },
+   {
+    "text": "Myocardial infarction or stroke within the preceding six months."
+   },
+   {
+    "text": "Positive hepatitis B (hepatitis B surface antigen) and/or hepatitis C (hepatitis C antibody) serology and/or positive HIV serology."
+   },
+   {
+    "text": "History or presence of clinically significant cardiovascular, hepatic (as evidenced by ALT or AST > 3 times the normal reference range), gastrointestinal, neurological or infectious disorders capable of altering the absorption, metabolism or elimination of drugs, or constituting a risk factor when taking the study medication."
+   },
+   {
+    "text": "Anemia (hemoglobin levels less than 11 g/dL for females or 12 g/dL for males)."
+   },
+   {
+    "text": "Ongoing respiratory tract infection."
+   },
+   {
+    "text": "Pregnancy, lactation, or intention to become pregnant."
+   },
+   {
+    "text": "Sexually active women of childbearing potential practicing inadequate birth control (adequate birth control is defined as using oral contraceptives, condoms or diaphragms with spermacide, intrauterine devices, or surgical sterilization)."
+   },
+   {
+    "text": "Regular alcohol intake greater than 14 units*/week, or subjects unwilling to stop alcohol for the duration of the study (* 1 unit = 8 g ethanol, 1/4 liter of beer or 1 glass wine or 1 measure of spirits)."
+   },
+   {
+    "text": "Investigator or site personnel directly affiliated with this study, and their immediate families. Immediate family is defined as a spouse, parent, child or sibling, whether biological or legally adopted."
+   },
+   {
+    "text": "A lack of compliance (including the inability to maintain a minimum of 75 % compliance with study drug administration) or other reasons, which in the opinion of the Investigator preclude the participation of the subject in the study."
+   },
+   {
+    "text": "Prior diagnosis of idiopathic pulmonary fibrosis, asbestosis, silicosis, sarcoidosis, histiocytosis X (Langerhans cells histiocytosis), farmer's lung, Wegener's granulomatosis, pneumoconiosis (coal miner's lung), desquamative interstitial pneumonia, alveolar proteinosis, Goodpasture's syndrome, bronchiolitis obliterans organizing pneumonia (BOOP), hypersensitivity pneumonitis, lymphangioleiomyomatosis, amyloidosis, lymphocytic interstitial pneumonitis, Churg-Strauss syndrome (allergic granulomatosis and angiitis)."
+   },
+   {
+    "text": "Current or chronic infection with tuberculosis, cytomegalovirus, aspergillus, blastomyces, cryptococcus, histoplasma, coccidioides, pneumocystis carinii, mycobacterium avium intracellulare, pseudomonas, actinomyces, nodcardia, mucor, candida."
+   },
+   {
+    "text": "Prior diagnosis of systemic autoimmune or collagen vascular disease requiring previous or current treatment with systemic corticosteroids, cytotoxic drugs, or penicillamine."
+   },
+   {
+    "text": "History of chronic obstructive pulmonary disease, reactive airway disease, bronchiectasis, bronchiolitis obliterans, chronic bronchitis, emphysema or asthma requiring hospitalization and/or chronic treatment with supplemental oxygen or inhaled or systemic beta adrenoreceptor agonists, steroids or corticosteroids."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Taipei Veterans General Hospital, Taiwan",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Taipei Veterans General Hospital, Taiwan"
  },
  "collaborators": [],
  "conditions": [
@@ -50,35 +50,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Semaglutide 1.0 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Semaglutide 0.5 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "semaglutide 1.0mg weekly",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide 1.0 mg"
-   ]
+   ],
+   "label": "semaglutide 1.0mg weekly",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "semaglutide 0.5mg weekly",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide 0.5 mg"
-   ]
+   ],
+   "label": "semaglutide 0.5mg weekly",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
+   "intervention_names": [],
    "label": "control",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The investigators plan to enroll 60 patients from the outpatient clinics or inpatient wards of the Metabolism and Cardiology departments who, within the past three months, have undergone coronary angiography for the treatment of coronary artery disease, are currently using sodium-glucose cotransporter-2 (SGLT-2) inhibitors for glycemic control, and have not received glucagon-like peptide-1 receptor agonist (GLP-1 RA) therapy for more than three months. A randomized controlled clinical trial will be conducted, with 20 participants randomly assigned to receive semaglutide (a GLP-1 RA) at 1 mg once weekly for 6 months, another 20 participants to receive semaglutide at 0.5 mg once weekly for 6 months, and the control group (20 participants) to continue with standard treatment for 6 months. The effects after 6 months will be evaluated in terms of endothelial function, glycemic control indicators including glycemic variability assessed via continuous glucose monitoring (CGM), oxidative stress markers, and the incidence of symptomatic hypoglycemia.\n\nAccording to the treatment guidelines for type 2 diabetes, either GLP-1 receptor agonists or SGLT-2 inhibitors should be prioritized in patients with type 2 diabetes and coronary artery disease. Therefore, the medication choices in both the intervention and control groups in this study align with current treatment guidelines.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. adults (\\>=20 years old),\n2. Type 2 Diabetes with coronary arterial disease underwent angioplasty within 3 months with SGLT2 inhibitors -\n\nExclusion Criteria:\n\n1. age\\<20 years old,\n2. pregnant women,\n3. eGFR\\<30 ml/min/1.73m2,\n4. received GLP-1 agonist in the recent 3 months -",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "facility": "Taipei Veterans General Hospital",
    "city": "Taipei",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Taipei Veterans General Hospital",
    "lat": 25.05306,
-   "lon": 121.52639
+   "lon": 121.52639,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07073053",
@@ -127,6 +127,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "adults (>=20 years old),"
+   },
+   {
+    "text": "Type 2 Diabetes with coronary arterial disease underwent angioplasty within 3 months with SGLT2 inhibitors -"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "age<20 years old,"
+   },
+   {
+    "text": "pregnant women,"
+   },
+   {
+    "text": "eGFR<30 ml/min/1.73m2,"
+   },
+   {
+    "text": "received GLP-1 agonist in the recent 3 months -"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

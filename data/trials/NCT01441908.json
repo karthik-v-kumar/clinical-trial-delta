@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "SCREENING",
   "masking": "NONE",
+  "primary_purpose": "SCREENING",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "MaiHealth Inc",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "MaiHealth Inc"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pravastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "Control Group",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Statin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pravastatin"
-   ]
+   ],
+   "label": "Statin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -76,10 +76,10 @@
  "brief_summary": "The primary objective of this study is to determine any changes in cardiovascular risk among individuals receiving a statin by assessing their multi-analyte profile.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Sign and Date IRB approved consent form\n* Be between 30-65 years of age as of date of consent\n* Have a total cholesterol value of 200-300 (units)\n* Have an LDL cholesterol value of \\> 100 (units)\n* Able to speak and understand English\n* Willing and able to participate for the 6 months required by the study\n* Willing and able to provide fasting blood specimens\n* Women of child-bearing potential must have a negative pregnancy test at screening\n* Medically (appropriate) eligible to take the statin as determined by PI\n\nExclusion Criteria:\n\n* Have a body Mass Index (BMI) \\> or = 35\n* Pregnant (or planning to become pregnant during the course of the study)\n* Currently taking a statin or discontinued taking a statin within 9 months of the date of screening",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -87,13 +87,13 @@
  },
  "sites": [
   {
-   "facility": "Wake Research Associates",
    "city": "Raleigh",
-   "state": "North Carolina",
    "country": "United States",
-   "status": null,
+   "facility": "Wake Research Associates",
    "lat": 35.7721,
-   "lon": -78.63861
+   "lon": -78.63861,
+   "state": "North Carolina",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01441908",
@@ -105,6 +105,50 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Sign and Date IRB approved consent form"
+   },
+   {
+    "text": "Be between 30-65 years of age as of date of consent"
+   },
+   {
+    "text": "Have a total cholesterol value of 200-300 (units)"
+   },
+   {
+    "text": "Have an LDL cholesterol value of > 100 (units)"
+   },
+   {
+    "text": "Able to speak and understand English"
+   },
+   {
+    "text": "Willing and able to participate for the 6 months required by the study"
+   },
+   {
+    "text": "Willing and able to provide fasting blood specimens"
+   },
+   {
+    "text": "Women of child-bearing potential must have a negative pregnancy test at screening"
+   },
+   {
+    "text": "Medically (appropriate) eligible to take the statin as determined by PI"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have a body Mass Index (BMI) > or = 35"
+   },
+   {
+    "text": "Pregnant (or planning to become pregnant during the course of the study)"
+   },
+   {
+    "text": "Currently taking a statin or discontinued taking a statin within 9 months of the date of screening"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

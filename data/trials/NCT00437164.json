@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "GlaxoSmithKline",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "GlaxoSmithKline"
  },
  "collaborators": [],
  "conditions": [
@@ -52,16 +52,16 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Oral GW677954 Capsules (15 mg)",
    "other_names": [
     "Insulin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [],
@@ -74,10 +74,10 @@
  "brief_summary": "Many drugs used for the treatment of Type 2 Diabetes Mellitus cause the body to retain water. This study will assess whether or not GW677954 causes the body to retain fluid.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Have been diagnosed by a doctor with Type 2 Diabetes Mellitus at least 3 months before Screening\n* Have a body mass index within range 25 to 40.0kg/m2 inclusive\n* Females who meet above criteria must be physiologically incapable of becoming pregnant (ie., surgically sterilized, or post-menopausal per protocol definition)\n\nExclusion criteria:\n\n* Significant weight loss or gain in the 3 months before screening\n* Have used insulin to treat hyperglycemia within 3 months before screening\n* Have a history of fluid retention\n* Have uncontrolled high blood pressure\n* Have liver disease\n* Take loop diuretics (water pills), certain blood thinners, and/or St. Johns Wort. - Have or have had certain kinds of cancer",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -85,13 +85,13 @@
  },
  "sites": [
   {
-   "facility": "GSK Investigational Site",
    "city": "Beverly Hills",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "GSK Investigational Site",
    "lat": 34.07362,
-   "lon": -118.40036
+   "lon": -118.40036,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00437164",
@@ -103,6 +103,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have been diagnosed by a doctor with Type 2 Diabetes Mellitus at least 3 months before Screening"
+   },
+   {
+    "text": "Have a body mass index within range 25 to 40.0kg/m2 inclusive"
+   },
+   {
+    "text": "Females who meet above criteria must be physiologically incapable of becoming pregnant (ie., surgically sterilized, or post-menopausal per protocol definition)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Significant weight loss or gain in the 3 months before screening"
+   },
+   {
+    "text": "Have used insulin to treat hyperglycemia within 3 months before screening"
+   },
+   {
+    "text": "Have a history of fluid retention"
+   },
+   {
+    "text": "Have uncontrolled high blood pressure"
+   },
+   {
+    "text": "Have liver disease"
+   },
+   {
+    "text": "Take loop diuretics (water pills), certain blood thinners, and/or St. Johns Wort. - Have or have had certain kinds of cancer"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

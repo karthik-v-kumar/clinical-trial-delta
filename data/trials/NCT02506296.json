@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Royal Devon and Exeter NHS Foundation Trust",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Royal Devon and Exeter NHS Foundation Trust"
  },
  "collaborators": [
   "NIHR Exeter Clinical Research Facility"
@@ -50,28 +50,28 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "DPPIV inhibitor -",
    "other_names": [
     "Vidagliptin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DEVICE",
    "name": "Continuous glucose monitoring system.",
    "other_names": [
     "CGM system"
-   ]
+   ],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Insulin treated T2D diagnosed >=35yrs",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: DPPIV inhibitor -",
     "Device: Continuous glucose monitoring system."
-   ]
+   ],
+   "label": "Insulin treated T2D diagnosed >=35yrs",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "Patients with type 2 diabetes have very variable endogenous insulin secretion. While some patients have relatively preserved endogenous insulin with marked insulin resistance others may develop the very severe insulin deficiency seen in type 1 diabetes. The impact of this variation on hypoglycaemia risk and treatment response in type 2 diabetes is unclear. This project aims to determine the impact of residual endogenous insulin secretion on glucose variability, hypoglycaemia risk and treatment response in insulin-treated participants with a clinical diagnosis of type 2 diabetes. The investigators will recruit participants from existing cohorts known to have severe insulin deficiency despite classical clinical characteristics of type 2 diabetes. The investigators will recruit other participants with insulin-treated type 2 diabetes and retained endogenous insulin secretion matched for glycemia and gender. The investigators will assess glucose variability (using continuous glucose monitoring system (CGMS)) and treatment response to a single dose of the glucose lowering therapy vildagliptin and compare responses between groups. This study will allow us to assess the potential utility of measuring endogenous insulin secretion in insulin-treated type 2 diabetes as a marker of hypoglycaemia risk and in determining likely response to oral therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nClinical diagnosis of type 2 diabetes Diagnosis of diabetes ≥ age 35 Treated with insulin Time from diagnosis to requiring insulin therapy of ≥36 months HbA1c ≥53mmol/mol (7%) and ≤100mmol/mol (11.3%)\n\nPresence or absence of severe endogenous insulin deficiency:\n\n* Severe deficiency = fasting blood C-peptide ≤0.08nmol/L or stimulated C-peptide ≤0.2nmol/L or post meal urine C-peptide creatinine ratio ≤0.2nmol/mmol\n* Retained endogenous insulin secretion = fasting blood C-peptide ≥0.25nmol/L or stimulated C-peptide ≥0.6nmol/L or post meal urine C-peptide creatinine ratio ≥0.6nmol/mmol\n\nExclusion Criteria:\n\nPregnancy or breastfeeding Moderate renal impairment (EGFR\\<30 mls/min/1.73m2) Hepatic impairment (ALT \\>3 times upper limit of the normal range) Concurrent treatment with GLP-1 receptor analogue or DPPIV inhibitor glucose-lowering therapy.\n\nPlanned changes to glucose lowering therapy during the study duration Unable to self-monitor blood glucose Unable to give informed consent",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "NIHR Exeter Clinical Research Facility",
    "city": "Exeter",
-   "state": "Devon",
    "country": "United Kingdom",
-   "status": null,
+   "facility": "NIHR Exeter Clinical Research Facility",
    "lat": 50.7236,
-   "lon": -3.52751
+   "lon": -3.52751,
+   "state": "Devon",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02506296",
@@ -116,6 +116,31 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Clinical diagnosis of type 2 diabetes Diagnosis of diabetes ≥ age 35 Treated with insulin Time from diagnosis to requiring insulin therapy of ≥36 months HbA1c ≥53mmol/mol (7%) and ≤100mmol/mol (11.3%)"
+   },
+   {
+    "text": "Severe deficiency = fasting blood C-peptide ≤0.08nmol/L or stimulated C-peptide ≤0.2nmol/L or post meal urine C-peptide creatinine ratio ≤0.2nmol/mmol",
+    "group": "Presence or absence of severe endogenous insulin deficiency"
+   },
+   {
+    "text": "Retained endogenous insulin secretion = fasting blood C-peptide ≥0.25nmol/L or stimulated C-peptide ≥0.6nmol/L or post meal urine C-peptide creatinine ratio ≥0.6nmol/mmol",
+    "group": "Presence or absence of severe endogenous insulin deficiency"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnancy or breastfeeding Moderate renal impairment (EGFR<30 mls/min/1.73m2) Hepatic impairment (ALT >3 times upper limit of the normal range) Concurrent treatment with GLP-1 receptor analogue or DPPIV inhibitor glucose-lowering therapy."
+   },
+   {
+    "text": "Planned changes to glucose lowering therapy during the study duration Unable to self-monitor blood glucose Unable to give informed consent"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

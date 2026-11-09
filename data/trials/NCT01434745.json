@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2019-10-01",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Oregon Health and Science University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Oregon Health and Science University"
  },
  "collaborators": [
   "National Heart, Lung, and Blood Institute (NHLBI)"
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Simvastatin",
    "other_names": [
     "Zocor, Flolipid"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Lactose",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Lactose"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Simvastatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Simvastatin"
-   ]
+   ],
+   "label": "Simvastatin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The purpose of this study is to determine if simvastatin improves development and behavior in patients with Smith Lemli-Opitz syndrome (SLOS) receiving dietary cholesterol supplementation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female over 1 years old\n* Subject has confirmed diagnosis of Smith-Lemli-Opitz Syndrome\n* Subject is currently receiving cholesterol supplementation\n\nExclusion Criteria:\n\n* Subjects too ill to travel to the study site\n* Subjects who are unable to safely undergo study procedures\n* Pregnant women",
-  "sex": "ALL",
-  "minimum_age": "1 Year",
-  "maximum_age": "89 Years",
   "healthy_volunteers": false,
+  "maximum_age": "89 Years",
+  "minimum_age": "1 Year",
+  "sex": "ALL",
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Oregon Health and Science University",
    "city": "Portland",
-   "state": "Oregon",
    "country": "United States",
-   "status": null,
+   "facility": "Oregon Health and Science University",
    "lat": 45.52345,
-   "lon": -122.67621
+   "lon": -122.67621,
+   "state": "Oregon",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01434745",
@@ -119,6 +119,32 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female over 1 years old"
+   },
+   {
+    "text": "Subject has confirmed diagnosis of Smith-Lemli-Opitz Syndrome"
+   },
+   {
+    "text": "Subject is currently receiving cholesterol supplementation"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects too ill to travel to the study site"
+   },
+   {
+    "text": "Subjects who are unable to safely undergo study procedures"
+   },
+   {
+    "text": "Pregnant women"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

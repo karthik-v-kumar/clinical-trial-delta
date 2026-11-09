@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [
   "Pfizer"
@@ -53,49 +53,49 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Ertugliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ertugliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Single Dose Japanese Cohort",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ertugliflozin",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Single Dose Japanese Cohort",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Single dose Western cohort",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ertugliflozin"
-   ]
+   ],
+   "label": "Single dose Western cohort",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Multiple Dose Japanese Cohort",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ertugliflozin",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Multiple Dose Japanese Cohort",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -191,10 +191,10 @@
  "brief_summary": "This study is to characterize the pharmacokinetics, safety, tolerability, and pharmacodynamics of single and multiple oral doses (SD, MD) of ertugliflozin (PF-04971729, MK-8835) in Japanese healthy participants. The secondary objective is to investigate the safety, tolerability, pharmacokinetics, and pharmacodynamics of single doses of ertugliflozin in Western healthy participants as compared to Japanese healthy participants.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy male and/or female subjects of non-childbearing potential, between the ages of 18 and 55 years, inclusive\n* Body Mass Index (BMI) of 17.5 to 30.5 kg/m2; and a total body weight \\>50 kg (110 lbs).\n* Japanese subjects must have four Japanese grandparents who were born in Japan.\n* Mean body weight and the body weight range of Western subjects are similar to those of Japanese subjects with a 10% plus and minus error.\n* An informed consent document signed and dated by the subject.\n* Subjects who are willing and able to comply with scheduled visits, treatment plan,laboratory tests, and other study procedures.\n\nExclusion Criteria:\n\n* Evidence or history of clinically significant hematological, renal, endocrine, pulmonary, gastrointestinal, cardiovascular, hepatic, psychiatric, neurologic, or allergic disease\n* Asian or Polynesian subjects in Western subject groups.\n* Any condition possibly affecting drug absorption (eg, gastrectomy).\n* A positive urine drug screen.\n* History of regular alcohol consumption exceeding 7 drinks/week for females or 14 drinks/week for males within 6 months of screening.\n* History or evidence of habitual use of tobacco or nicotine containing products within 3 months of Screening, with the exception of light smoking (up to 5 cigarettes per day or the equivalent).\n* Treatment with an investigational drug within 30 days or 5 half-lives preceding the first dose of study medication.\n* 12-lead ECG demonstrating QTc \\>450 msec at screening.\n* Subjects with ANY of the following abnormalities on safety laboratory tests):\n* Evidence of glycosuria, as defined by a positive urine dipstick test;\n* Fasting serum triglyceride \\>300 mg/dL;\n* Fasting LDL-cholesterol \\> than or equal to 190 mg/dL.\n* Fasting serum glucose \\>125 mg/dL.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "55 Years",
   "healthy_volunteers": true,
+  "maximum_age": "55 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
@@ -209,6 +209,71 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Healthy male and/or female subjects of non-childbearing potential, between the ages of 18 and 55 years, inclusive"
+   },
+   {
+    "text": "Body Mass Index (BMI) of 17.5 to 30.5 kg/m2; and a total body weight >50 kg (110 lbs)."
+   },
+   {
+    "text": "Japanese subjects must have four Japanese grandparents who were born in Japan."
+   },
+   {
+    "text": "Mean body weight and the body weight range of Western subjects are similar to those of Japanese subjects with a 10% plus and minus error."
+   },
+   {
+    "text": "An informed consent document signed and dated by the subject."
+   },
+   {
+    "text": "Subjects who are willing and able to comply with scheduled visits, treatment plan,laboratory tests, and other study procedures."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Evidence or history of clinically significant hematological, renal, endocrine, pulmonary, gastrointestinal, cardiovascular, hepatic, psychiatric, neurologic, or allergic disease"
+   },
+   {
+    "text": "Asian or Polynesian subjects in Western subject groups."
+   },
+   {
+    "text": "Any condition possibly affecting drug absorption (eg, gastrectomy)."
+   },
+   {
+    "text": "A positive urine drug screen."
+   },
+   {
+    "text": "History of regular alcohol consumption exceeding 7 drinks/week for females or 14 drinks/week for males within 6 months of screening."
+   },
+   {
+    "text": "History or evidence of habitual use of tobacco or nicotine containing products within 3 months of Screening, with the exception of light smoking (up to 5 cigarettes per day or the equivalent)."
+   },
+   {
+    "text": "Treatment with an investigational drug within 30 days or 5 half-lives preceding the first dose of study medication."
+   },
+   {
+    "text": "12-lead ECG demonstrating QTc >450 msec at screening."
+   },
+   {
+    "text": "Subjects with ANY of the following abnormalities on safety laboratory tests):"
+   },
+   {
+    "text": "Evidence of glycosuria, as defined by a positive urine dipstick test;"
+   },
+   {
+    "text": "Fasting serum triglyceride >300 mg/dL;"
+   },
+   {
+    "text": "Fasting LDL-cholesterol > than or equal to 190 mg/dL."
+   },
+   {
+    "text": "Fasting serum glucose >125 mg/dL."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

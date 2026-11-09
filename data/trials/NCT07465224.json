@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Alnylam Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Alnylam Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ALN-4324",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ALN-4324",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ALN-4324"
-   ]
+   ],
+   "label": "ALN-4324",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effect of a single dose of ALN-4324 on whole-body insulin sensitivity in participants with T2DM",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Is an adult patient with a confirmed diagnosis of T2DM\n* Has a body mass index (BMI) of ≥23 kg/m\\^2 to ≤39.9 kg/m\\^2\n* Has a hemoglobin A1c (HbA1c) ≥6.5% to \\<10.5%\n* Is on a stable dose of metformin, sodium-glucose cotransporter 2 inhibitor (SGLT2i), or dipeptidyl peptidase-4 inhibitor (DPP4i)\n\nExclusion Criteria:\n\n* Has any clinically significant concomitant disease, medical condition, or abnormal laboratory finding that could compromise participant safety or confound interpretation of study results\n* Receiving therapies known to interfere with glucose or insulin metabolism other than current treatment for T2DM or birth control methods\n\nNote: other protocol defined inclusion/exclusion criteria apply",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical Trial Site",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": "RECRUITING",
+   "facility": "Clinical Trial Site",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07465224",
@@ -116,6 +116,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Is an adult patient with a confirmed diagnosis of T2DM"
+   },
+   {
+    "text": "Has a body mass index (BMI) of ≥23 kg/m^2 to ≤39.9 kg/m^2"
+   },
+   {
+    "text": "Has a hemoglobin A1c (HbA1c) ≥6.5% to <10.5%"
+   },
+   {
+    "text": "Is on a stable dose of metformin, sodium-glucose cotransporter 2 inhibitor (SGLT2i), or dipeptidyl peptidase-4 inhibitor (DPP4i)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has any clinically significant concomitant disease, medical condition, or abnormal laboratory finding that could compromise participant safety or confound interpretation of study results"
+   },
+   {
+    "text": "Receiving therapies known to interfere with glucose or insulin metabolism other than current treatment for T2DM or birth control methods"
+   },
+   {
+    "text": "Note: other protocol defined inclusion/exclusion criteria apply"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

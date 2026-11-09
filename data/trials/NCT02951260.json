@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Copenhagen University Hospital, Rigshospitalet",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Copenhagen University Hospital, Rigshospitalet"
  },
  "collaborators": [
   "University of Copenhagen"
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -88,23 +88,23 @@
  "brief_summary": "The purpose of this study is to evaluate the potential interaction between metformin and exercise in order to optimize clinical guidelines for treatment of T2D.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* male\n* HbA1c \\< 39 mmol/l\n* BMI \\< 25\n* structured physical activity \\< = 150 min/week\n* apparently healthy\n\nExclusion Criteria:\n\n* smoking\n* daily pharmaceutical treatment\n* contraindication to increased levels of physical activity\n* ALAT/ASAT elevated 3 times above upper normal values\n* renal insufficiency (eGFR \\< 60 ml/min)\n* prior history of lactic acidosis",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "35 Years",
   "healthy_volunteers": true,
+  "maximum_age": "35 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Center for aktiv sundhed",
    "city": "Copenhagen",
-   "state": "Copenhagen N",
    "country": "Denmark",
-   "status": null,
+   "facility": "Center for aktiv sundhed",
    "lat": 55.67594,
-   "lon": 12.56553
+   "lon": 12.56553,
+   "state": "Copenhagen N",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02951260",
@@ -116,6 +116,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "male"
+   },
+   {
+    "text": "HbA1c < 39 mmol/l"
+   },
+   {
+    "text": "BMI < 25"
+   },
+   {
+    "text": "structured physical activity < = 150 min/week"
+   },
+   {
+    "text": "apparently healthy"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "smoking"
+   },
+   {
+    "text": "daily pharmaceutical treatment"
+   },
+   {
+    "text": "contraindication to increased levels of physical activity"
+   },
+   {
+    "text": "ALAT/ASAT elevated 3 times above upper normal values"
+   },
+   {
+    "text": "renal insufficiency (eGFR < 60 ml/min)"
+   },
+   {
+    "text": "prior history of lactic acidosis"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

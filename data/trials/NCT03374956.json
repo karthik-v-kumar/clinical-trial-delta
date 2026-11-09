@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2023-07-18",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Mayo Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mayo Clinic"
  },
  "collaborators": [],
  "conditions": [
@@ -52,54 +52,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Phentermine-Topiramate",
    "other_names": [
     "Qsymia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Saxenda"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Naltrexone/bupropion",
    "other_names": [
     "Contrave"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Phentermine",
    "other_names": [
     "Adipex-P",
     "Lomaira"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Phentermine-Topiramate",
     "Drug: Liraglutide",
     "Drug: Naltrexone/bupropion"
-   ]
+   ],
+   "label": "Intervention group",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Phentermine-Topiramate",
     "Drug: Liraglutide",
     "Drug: Naltrexone/bupropion",
     "Drug: Phentermine"
-   ]
+   ],
+   "label": "Control Group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -111,10 +111,10 @@
  "brief_summary": "The researchers are trying to identify the specific characteristics (phenotypes) that may be useful to help select the right medication for weight loss.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Adults with obesity (BMI \\>30 Kg/m2); these will be otherwise healthy individuals with no unstable psychiatric disease and controlled comorbidities or other diseases.\n* Gender: Men or women. Women of childbearing potential will have negative pregnancy tests within 48 hours of enrollment and before each radiation exposure.\n\nExclusion criteria\n\n* Abdominal bariatric surgery\n* Positive history of chronic gastrointestinal diseases, or systemic disease that could affect gastrointestinal motility, or use of medications that may alter gastrointestinal motility, appetite or absorption, e.g., orlistat, within the last 6 months.\n* Significant untreated psychiatric dysfunction based upon screening with the Hospital Anxiety and Depression Inventory (HAD), and the Questionnaire on Eating and Weight Patterns (binge eating disorders and bulimia). If such a dysfunction is identified by an anxiety or depression score \\>11 or difficulties with substance or eating disorders, the participant will be excluded and given a referral letter to his/her primary care doctor for further appraisal and follow-up.\n* Hypersensitivity to any of the study medications.\n* No contraindications to all FDA-approved medications",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -122,13 +122,13 @@
  },
  "sites": [
   {
-   "facility": "Mayo Clinic in Rochester",
    "city": "Rochester",
-   "state": "Minnesota",
    "country": "United States",
-   "status": null,
+   "facility": "Mayo Clinic in Rochester",
    "lat": 44.02163,
-   "lon": -92.4699
+   "lon": -92.4699,
+   "state": "Minnesota",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03374956",
@@ -140,6 +140,35 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults with obesity (BMI >30 Kg/m2); these will be otherwise healthy individuals with no unstable psychiatric disease and controlled comorbidities or other diseases."
+   },
+   {
+    "text": "Gender: Men or women. Women of childbearing potential will have negative pregnancy tests within 48 hours of enrollment and before each radiation exposure."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Abdominal bariatric surgery"
+   },
+   {
+    "text": "Positive history of chronic gastrointestinal diseases, or systemic disease that could affect gastrointestinal motility, or use of medications that may alter gastrointestinal motility, appetite or absorption, e.g., orlistat, within the last 6 months."
+   },
+   {
+    "text": "Significant untreated psychiatric dysfunction based upon screening with the Hospital Anxiety and Depression Inventory (HAD), and the Questionnaire on Eating and Weight Patterns (binge eating disorders and bulimia). If such a dysfunction is identified by an anxiety or depression score >11 or difficulties with substance or eating disorders, the participant will be excluded and given a referral letter to his/her primary care doctor for further appraisal and follow-up."
+   },
+   {
+    "text": "Hypersensitivity to any of the study medications."
+   },
+   {
+    "text": "No contraindications to all FDA-approved medications"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

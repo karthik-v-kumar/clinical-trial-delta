@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Akeso",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Akeso"
  },
  "collaborators": [
   "AD Pharmaceuticals Co., Ltd."
@@ -54,61 +54,61 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AK102",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Statins and/or Ezetimibe",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: AK102",
+    "Drug: Statins and/or Ezetimibe"
+   ],
    "label": "AK102 450 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: AK102",
     "Drug: Statins and/or Ezetimibe"
-   ]
-  },
-  {
+   ],
    "label": "AK102 300 mg",
-   "type": "EXPERIMENTAL",
+   "type": "EXPERIMENTAL"
+  },
+  {
    "intervention_names": [
     "Drug: AK102",
     "Drug: Statins and/or Ezetimibe"
-   ]
-  },
-  {
+   ],
    "label": "AK102 150 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: AK102",
-    "Drug: Statins and/or Ezetimibe"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo",
+    "Drug: Statins and/or Ezetimibe"
+   ],
    "label": "Placebo Q4W",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo",
-    "Drug: Statins and/or Ezetimibe"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Placebo Q2W",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Statins and/or Ezetimibe"
-   ]
+   ],
+   "label": "Placebo Q2W",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "This is a double-blind, randomized, placebo-controlled, multicenter study to evaluate the safety and efficacy of AK102 in patients with heterozygous familial hypercholesterolemia (HeFH).The primary objective of this study is to evaluate the efficacy of AK102 in patients with HeFH.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects with heterozygous familial hypercholesterolemia diagnosed by genetic confirmation or clinical diagnosis criteria.\n* Stable on pre-existing, lipid-lowering therapies (statins with or without ezetimibe) for at least 4 weeks with no planned medication or dose change for the duration of study participation.\n* Fasting Low-Density Lipoprotein Cholesterol (LDL-C) ≥ 70 mg/dL in patients with history of Atherosclerotic Cardiovascular Disease (ASCVD) or Fasting Low-Density Lipoprotein Cholesterol (LDL-C) ≥ 100 mg/dL in patients without history of Atherosclerotic Cardiovascular Disease (ASCVD).\n* Fasting triglycerides ≤ 400 mg/dL.\n* Body weight ≥ 40kg.\n\nKey Exclusion Criteria:\n\n* Subjects with homozygous FH (clinically or by genotyping).\n* Receipt of LDL apheresis within 12 months prior to the first dose of Investigational product.\n* Receipt of Lomitapide or Mipomersen within 5 months prior to the first dose of Investigational product.\n* Prior use of PCSK9 inhibitors.\n* Creatine kinase (CK) \\>3 times of the upper limit of normal (ULN).\n* Aspartate Aminotransferase (AST) ≥ 2 x ULN.\n* Estimated Glomerular Filtration Rate (eGFR)≤ 30 mL/min/1.73m\\^2.\n* Thyroid-Stimulating Hormone (TSH)\\> 1.5 x ULN or \\<1 x LLN.\n* Type 1 diabetes, or type 2 diabetes that is or poorly controlled（HbA1c\\> 8.5%).\n* Subjects with untreated or active chronic hepatitis B or active hepatitis C virus infections.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,22 +131,22 @@
  },
  "sites": [
   {
-   "facility": "Peking Union Medical College Hospital",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Peking Union Medical College Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Beijing Anzhen Hospital",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Beijing Anzhen Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04173793",
@@ -158,6 +158,59 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects with heterozygous familial hypercholesterolemia diagnosed by genetic confirmation or clinical diagnosis criteria."
+   },
+   {
+    "text": "Stable on pre-existing, lipid-lowering therapies (statins with or without ezetimibe) for at least 4 weeks with no planned medication or dose change for the duration of study participation."
+   },
+   {
+    "text": "Fasting Low-Density Lipoprotein Cholesterol (LDL-C) ≥ 70 mg/dL in patients with history of Atherosclerotic Cardiovascular Disease (ASCVD) or Fasting Low-Density Lipoprotein Cholesterol (LDL-C) ≥ 100 mg/dL in patients without history of Atherosclerotic Cardiovascular Disease (ASCVD)."
+   },
+   {
+    "text": "Fasting triglycerides ≤ 400 mg/dL."
+   },
+   {
+    "text": "Body weight ≥ 40kg."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects with homozygous FH (clinically or by genotyping)."
+   },
+   {
+    "text": "Receipt of LDL apheresis within 12 months prior to the first dose of Investigational product."
+   },
+   {
+    "text": "Receipt of Lomitapide or Mipomersen within 5 months prior to the first dose of Investigational product."
+   },
+   {
+    "text": "Prior use of PCSK9 inhibitors."
+   },
+   {
+    "text": "Creatine kinase (CK) >3 times of the upper limit of normal (ULN)."
+   },
+   {
+    "text": "Aspartate Aminotransferase (AST) ≥ 2 x ULN."
+   },
+   {
+    "text": "Estimated Glomerular Filtration Rate (eGFR)≤ 30 mL/min/1.73m^2."
+   },
+   {
+    "text": "Thyroid-Stimulating Hormone (TSH)> 1.5 x ULN or <1 x LLN."
+   },
+   {
+    "text": "Type 1 diabetes, or type 2 diabetes that is or poorly controlled（HbA1c> 8.5%)."
+   },
+   {
+    "text": "Subjects with untreated or active chronic hepatitis B or active hepatitis C virus infections."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

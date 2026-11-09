@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "OTHER",
   "masking": "NONE",
+  "primary_purpose": "OTHER",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Kyowa Kirin Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Kyowa Kirin Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -48,18 +48,18 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "saxaglipitin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "saxagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: saxaglipitin"
-   ]
+   ],
+   "label": "saxagliptin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -75,10 +75,10 @@
  "brief_summary": "The purpose of this study is to evaluate the pharmacokinetics and pharmacodynamics of saxagliptin administered before breakfast for 14 consecutive days in patients with type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who meet all of the following criteria will be included:\n\n  1. HbA1c level ≥7.0% and \\< 9.0%\n  2. Fasting glucose level ≥130mg/dL and \\<210mg/dL\n  3. Patients who are capable of giving informed consent\n  4. Patients who are able to take contraceptive measures to avoid pregnancy of the patient or the patient's partner for the entire study period and for 4 weeks after completion of the study\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes mellitus; patients with diabetes mellitus due to other specified drugs, mechanisms, or diseases; and patients with gestational diabetes mellitus\n* Patients with a medical history of diabetic coma\n* Patients with heart failure\n* Patients with a complication of active chronic hepatitis or hepatic cirrhosis\n* Patients undergoing treatment of glomerular diseases other than diabetic nephropathy\n* Patients with a history or complication of malignant tumor",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -86,13 +86,13 @@
  },
  "sites": [
   {
-   "facility": "Kyushu Clinical Pharmacology Reserch Clinic",
    "city": "Fukuoka",
-   "state": null,
    "country": "Japan",
-   "status": null,
+   "facility": "Kyushu Clinical Pharmacology Reserch Clinic",
    "lat": 33.6,
-   "lon": 130.41667
+   "lon": 130.41667,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01162876",
@@ -104,6 +104,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients who meet all of the following criteria will be included:",
+    "sub_items": [
+     "HbA1c level ≥7.0% and < 9.0%",
+     "Fasting glucose level ≥130mg/dL and <210mg/dL",
+     "Patients who are capable of giving informed consent",
+     "Patients who are able to take contraceptive measures to avoid pregnancy of the patient or the patient's partner for the entire study period and for 4 weeks after completion of the study"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients with type 1 diabetes mellitus; patients with diabetes mellitus due to other specified drugs, mechanisms, or diseases; and patients with gestational diabetes mellitus"
+   },
+   {
+    "text": "Patients with a medical history of diabetic coma"
+   },
+   {
+    "text": "Patients with heart failure"
+   },
+   {
+    "text": "Patients with a complication of active chronic hepatitis or hepatic cirrhosis"
+   },
+   {
+    "text": "Patients undergoing treatment of glomerular diseases other than diabetic nephropathy"
+   },
+   {
+    "text": "Patients with a history or complication of malignant tumor"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

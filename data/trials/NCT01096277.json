@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hannover Medical School",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Hannover Medical School"
  },
  "collaborators": [],
  "conditions": [
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Control",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Healthy Control",
-   "type": "NO_INTERVENTION",
    "intervention_names": [
     "Other: Control"
-   ]
+   ],
+   "label": "Healthy Control",
+   "type": "NO_INTERVENTION"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "Glucagon-like peptide 1 (GLP-1) is a 30-amino acid gut hormone secreted in a nutrient-dependent manner that stimulates insulin secretion and inhibits glucagon secretion and gastric emptying, thereby reducing postprandial glycemia.1,2 GLP-1 is derived from posttranslational proteolysis of preproglucagon, and its peptide sequence is identical in mouse, rat, and human.2,3 After secretion from enteroendocrine L cells, GLP-1(7-36) amide is rapidly degraded by dipeptidyl peptidase-4 (DPP-4) to its N-terminally truncated metabolite GLP-1(9-36), which does not interact with the known GLP-1 receptor.4,5 The diverse actions of GLP-1 include the proliferation, differentiation, and protection from apoptosis of pancreatic β cells and the induction of satiety. GLP-1 also improves memory and learning, stimulates afferent sensory nerves, and has neuroprotective functions.1,6 Furthermore, GLP-1 receptor agonists have been reported to have cardiac and vascular actions in rodents and humans that include effects on contractility, blood pressure, cardiac output,7-10 and cardioprotection.11-14",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes mellitus\n\nExclusion Criteria:\n\n* Allergy to sitagliptin\n* Treatment with PPAR-gamma agonist",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "facility": "Hannover Medical School",
    "city": "Hanover",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "Hannover Medical School",
    "lat": 52.37052,
-   "lon": 9.73322
+   "lon": 9.73322,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01096277",
@@ -129,6 +129,23 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes mellitus"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Allergy to sitagliptin"
+   },
+   {
+    "text": "Treatment with PPAR-gamma agonist"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

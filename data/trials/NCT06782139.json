@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Korea University Anam Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Korea University Anam Hospital"
  },
  "collaborators": [
   "Daewoong Pharmaceutical Co. LTD."
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Enavogliflozin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Enavogliflozin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Enavogliflozin"
-   ]
+   ],
+   "label": "Enavogliflozin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The goal of this study is to analyze the effects of enavogliflozin on heart function and coronary microvascular function in obese patients compared to a placebo, and to evaluate the improvement in cardiopulmonary exercise capacity in these patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria: The following criteria must be met for inclusion in the study:\n\n1. Obesity or Abdominal Obesity:\n\n   Body Mass Index (BMI) ≥ 25 kg/m², or Waist circumference: Male ≥ 90 cm, Female ≥ 85 cm.\n2. Diabetes:\n\nHemoglobin A1c ≥ 6.5%, or Fasting blood glucose ≥ 126 mg/dL after 8 hours of fasting, or Currently on antidiabetic medication. Blood test results must be within 3 months prior to enrollment.\n\nOther inclusion criteria:\n\nAge between 20 and 79 years. Patients who have undergone coronary flow velocity reserve testing. For baseline echocardiography, left ventricular diastolic dysfunction will be evaluated structurally (LV dimension, LV mass index, LA size) and hemodynamically (Doppler data, left ventricular ejection fraction, strain data).\n\nExclusion Criteria:\n\n1. Left ventricular ejection fraction (LVEF) \\< 50%\n2. History of coronary artery disease, or patients who have undergone coronary artery intervention or coronary artery bypass grafting.\n3. Patients with suspected obstructive coronary artery disease, including those with chest pain and positive stress test results (e.g., exercise treadmill test, dobutamine stress echocardiography, myocardial perfusion imaging).\n4. Second-degree or higher atrioventricular block, symptomatic bradycardia, sick sinus syndrome, or Wolff-Parkinson-White syndrome.\n5. Chronic kidney disease (GFR \\< 30 mL/min/1.73 m²) or end-stage renal disease on hemodialysis or peritoneal dialysis.\n6. Asthma, chronic obstructive pulmonary disease, or primary pulmonary hypertension.\n7. Moderate or severe valvular heart disease or congenital heart disease, or patients with a history of open-heart surgery.\n8. Active cancer within the last 5 years, or patients currently receiving chemotherapy.\n9. Vasculitis associated with autoimmune diseases, such as systemic lupus erythematosus (SLE) or rheumatoid arthritis (RA).\n10. Patients who cannot undergo exercise testing, such as treadmill or bicycle ergometer testing.\n11. Use of any other SGLT2 inhibitors (e.g., dapagliflozin, empagliflozin) within the past 6 months, or a known allergy to these drugs.\n12. Pregnant or breastfeeding women.\n13. Women planning pregnancy during the study period (or within 24 weeks from the start of the study, including the 12-week observation period).\n14. Acute urinary tract infection at the time of enrollment.",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "79 Years",
   "healthy_volunteers": false,
+  "maximum_age": "79 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "facility": "Korea University Anam Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": "RECRUITING",
+   "facility": "Korea University Anam Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06782139",
@@ -118,6 +118,74 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "The following criteria must be met for inclusion in the study:"
+   },
+   {
+    "text": "Obesity or Abdominal Obesity:"
+   },
+   {
+    "text": "Body Mass Index (BMI) ≥ 25 kg/m², or Waist circumference: Male ≥ 90 cm, Female ≥ 85 cm."
+   },
+   {
+    "text": "Diabetes:"
+   },
+   {
+    "text": "Hemoglobin A1c ≥ 6.5%, or Fasting blood glucose ≥ 126 mg/dL after 8 hours of fasting, or Currently on antidiabetic medication. Blood test results must be within 3 months prior to enrollment."
+   },
+   {
+    "text": "Age between 20 and 79 years. Patients who have undergone coronary flow velocity reserve testing. For baseline echocardiography, left ventricular diastolic dysfunction will be evaluated structurally (LV dimension, LV mass index, LA size) and hemodynamically (Doppler data, left ventricular ejection fraction, strain data)."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Left ventricular ejection fraction (LVEF) < 50%"
+   },
+   {
+    "text": "History of coronary artery disease, or patients who have undergone coronary artery intervention or coronary artery bypass grafting."
+   },
+   {
+    "text": "Patients with suspected obstructive coronary artery disease, including those with chest pain and positive stress test results (e.g., exercise treadmill test, dobutamine stress echocardiography, myocardial perfusion imaging)."
+   },
+   {
+    "text": "Second-degree or higher atrioventricular block, symptomatic bradycardia, sick sinus syndrome, or Wolff-Parkinson-White syndrome."
+   },
+   {
+    "text": "Chronic kidney disease (GFR < 30 mL/min/1.73 m²) or end-stage renal disease on hemodialysis or peritoneal dialysis."
+   },
+   {
+    "text": "Asthma, chronic obstructive pulmonary disease, or primary pulmonary hypertension."
+   },
+   {
+    "text": "Moderate or severe valvular heart disease or congenital heart disease, or patients with a history of open-heart surgery."
+   },
+   {
+    "text": "Active cancer within the last 5 years, or patients currently receiving chemotherapy."
+   },
+   {
+    "text": "Vasculitis associated with autoimmune diseases, such as systemic lupus erythematosus (SLE) or rheumatoid arthritis (RA)."
+   },
+   {
+    "text": "Patients who cannot undergo exercise testing, such as treadmill or bicycle ergometer testing."
+   },
+   {
+    "text": "Use of any other SGLT2 inhibitors (e.g., dapagliflozin, empagliflozin) within the past 6 months, or a known allergy to these drugs."
+   },
+   {
+    "text": "Pregnant or breastfeeding women."
+   },
+   {
+    "text": "Women planning pregnancy during the study period (or within 24 weeks from the start of the study, including the 12-week observation period)."
+   },
+   {
+    "text": "Acute urinary tract infection at the time of enrollment."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-12-06",
  "has_results": true,
  "lead_sponsor": {
-  "name": "University of Pennsylvania",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Pennsylvania"
  },
  "collaborators": [
   "Pennsylvania Department of Health"
@@ -51,48 +51,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Exenatide",
    "other_names": [
     "Byetta®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "Amaryl®"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Exenatide"
-   ]
+   ],
+   "label": "Exenatide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride"
-   ]
+   ],
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -108,10 +108,10 @@
  "brief_summary": "This study evaluates exenatide, sitagliptin, and glimepiride for the treatment of high blood sugar in patients with impaired fasting glucose or early type 2 diabetes. The purpose of this study is to determine if exenatide and sitagliptin increase the amount of insulin made by the pancreas compared to glimepiride. It is hypothesized that exenatide or sitagliptin will sustain or increase the amount of insulin made by the pancreas in comparison to glimepiride.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male and female patients age 18 to 70 years.\n2. Ability to provide written informed consent\n3. Mentally stable and able to comply with the procedures of the study protocol\n4. Clinical history compatible with impaired fasting glucose or early T2D as defined by a plasma glucose concentration between 110-159 mg/dl following a 12 hour overnight fast performed off any anti-diabetogenic agent for at least 2 weeks (6 weeks for thiazolidinediones)\n5. Stable body weight (+ 5%) for at least 2 weeks\n6. Female Patients: Agree to use adequate contraception if reproductively capable. Adequate contraception includes either a hormonal or barrier method, or surgical sterilization.\n\nExclusion Criteria:\n\n1. Diagnosis of type 1 diabetes\n2. Receiving insulin, exenatide (Byetta®), or sitagliptin (Januvia®) treatment or taking \\> 2 oral anti-diabetogenic agents for the treatment of diabetes\n3. BMI \\> 44 kg/m2\n4. Allergy to any sulfa-containing compounds\n5. Uncontrolled hypertension (Systolic Blood Pressure \\>160 or Diastolic Blood Pressure \\> 100 mmHg)\n6. Uncontrolled hyperlipidemia (triglycerides \\> 500 or LDL \\> 160 mg/dl)\n7. Elevation of liver function tests \\> 2 times the upper limit of normal\n8. Estimated Glomerular Filtration Rate (GFR) \\< 55 ml/min/1.73m2 (46)\n9. Hyperkalemia (serum potassium \\> 5.5 mmol/L)\n10. Moderate anemia (hemoglobin concentration \\< 12 g/dl in men and \\< 11 g/dl in women)\n11. Female patients: pregnant or lactating\n12. Hepatic cirrhosis\n13. Known active alcohol or substance abuse\n14. Active cardiovascular disease\n15. Use of any investigational agent within 6 weeks of the baseline visit\n16. Any medical condition that, in the opinion of the investigator, will interfere with the safe completion of the trial",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,31 +119,31 @@
  },
  "sites": [
   {
+   "city": "Philadelphia",
+   "country": "United States",
    "facility": "Clinical and Translational Research Center, Hospital of University of Pennsylvania",
-   "city": "Philadelphia",
-   "state": "Pennsylvania",
-   "country": "United States",
-   "status": null,
    "lat": 39.95238,
-   "lon": -75.16362
+   "lon": -75.16362,
+   "state": "Pennsylvania",
+   "status": null
   },
   {
+   "city": "Philadelphia",
+   "country": "United States",
    "facility": "Pennsylvania Hospital",
-   "city": "Philadelphia",
-   "state": "Pennsylvania",
-   "country": "United States",
-   "status": null,
    "lat": 39.95238,
-   "lon": -75.16362
+   "lon": -75.16362,
+   "state": "Pennsylvania",
+   "status": null
   },
   {
-   "facility": "Rodebaugh Diabetes Center, Hospital of the University of Pennsylvania",
    "city": "Philadelphia",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "Rodebaugh Diabetes Center, Hospital of the University of Pennsylvania",
    "lat": 39.95238,
-   "lon": -75.16362
+   "lon": -75.16362,
+   "state": "Pennsylvania",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00775684",
@@ -155,6 +155,80 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male and female patients age 18 to 70 years."
+   },
+   {
+    "text": "Ability to provide written informed consent"
+   },
+   {
+    "text": "Mentally stable and able to comply with the procedures of the study protocol"
+   },
+   {
+    "text": "Clinical history compatible with impaired fasting glucose or early T2D as defined by a plasma glucose concentration between 110-159 mg/dl following a 12 hour overnight fast performed off any anti-diabetogenic agent for at least 2 weeks (6 weeks for thiazolidinediones)"
+   },
+   {
+    "text": "Stable body weight (+ 5%) for at least 2 weeks"
+   },
+   {
+    "text": "Female Patients: Agree to use adequate contraception if reproductively capable. Adequate contraception includes either a hormonal or barrier method, or surgical sterilization."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diagnosis of type 1 diabetes"
+   },
+   {
+    "text": "Receiving insulin, exenatide (Byetta®), or sitagliptin (Januvia®) treatment or taking > 2 oral anti-diabetogenic agents for the treatment of diabetes"
+   },
+   {
+    "text": "BMI > 44 kg/m2"
+   },
+   {
+    "text": "Allergy to any sulfa-containing compounds"
+   },
+   {
+    "text": "Uncontrolled hypertension (Systolic Blood Pressure >160 or Diastolic Blood Pressure > 100 mmHg)"
+   },
+   {
+    "text": "Uncontrolled hyperlipidemia (triglycerides > 500 or LDL > 160 mg/dl)"
+   },
+   {
+    "text": "Elevation of liver function tests > 2 times the upper limit of normal"
+   },
+   {
+    "text": "Estimated Glomerular Filtration Rate (GFR) < 55 ml/min/1.73m2 (46)"
+   },
+   {
+    "text": "Hyperkalemia (serum potassium > 5.5 mmol/L)"
+   },
+   {
+    "text": "Moderate anemia (hemoglobin concentration < 12 g/dl in men and < 11 g/dl in women)"
+   },
+   {
+    "text": "Female patients: pregnant or lactating"
+   },
+   {
+    "text": "Hepatic cirrhosis"
+   },
+   {
+    "text": "Known active alcohol or substance abuse"
+   },
+   {
+    "text": "Active cardiovascular disease"
+   },
+   {
+    "text": "Use of any investigational agent within 6 weeks of the baseline visit"
+   },
+   {
+    "text": "Any medical condition that, in the opinion of the investigator, will interfere with the safe completion of the trial"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

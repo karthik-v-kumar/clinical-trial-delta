@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Khoo Teck Puat Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Khoo Teck Puat Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,58 +48,58 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Roux-en-Y Gastric Bypass (RYGB)",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "DRUG",
    "name": "Incretin analogues",
    "other_names": [
     "Liraglutide"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Xenical",
    "other_names": [
     "Orlistat"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "SGLT2 inhibitors",
    "other_names": [
     "Empagliflozin",
     "Canagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "DPP-4 Inhibitors",
    "other_names": [
     "Sitagliptin",
     "Linagliptin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Roux-en-Y Gastric Bypass (RYGB)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Roux-en-Y Gastric Bypass (RYGB)"
-   ]
+   ],
+   "label": "Roux-en-Y Gastric Bypass (RYGB)",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Best Medical Treatment",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Incretin analogues",
     "Drug: Xenical",
     "Drug: SGLT2 inhibitors",
     "Drug: DPP-4 Inhibitors"
-   ]
+   ],
+   "label": "Best Medical Treatment",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -119,10 +119,10 @@
  "brief_summary": "Investigators aim to show that Roux-en-Y Gastric Bypass (RYGB) is superior to best medical treatment in reaching well-defined treatment end points in Asian subjects of BMI 27-32 with type 2 Diabetes (DM2). Investigators also hope to show that successful RYGB will reduce resource utilization in the near term with similar projected reduction over the medium to long term.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Established diagnosis of DM2 = or \\< 10 years\n2. Age 21-65\n3. BMI 27-32.\n4. HBA1c ≥ 8%, on maximum treatment from primary care physician\n5. At least one of the following co-morbidities on treatment: hypertension, hyperlipidaemia, micro/macro-proteinuria or ≤class I nephropathy, retinopathy.\n\nExclusion Criteria:\n\n1. Subjects who had previous Bariatric surgery or extensive upper abdominal surgery\n2. Pregnant subjects.\n3. Nephropathy requiring dialysis\n4. Subjects who are not fit for general anaesthesia.\n5. Subjects who are unsuitable for RYGB for whatever reason, medical/surgical/psychological.\n6. Subjects who are unwilling or possibly unable to participate in the follow up process.\n7. Subjects who are reluctant to be randomised into the two study groups.\n8. Subjects who suffers from unstable psychiatric illness\n9. Subjects who are active substance abusers\n10. Glutamic acid decarboxylase antibody positive.\n11. fasting C-peptide \\< 300 pmol/L",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -130,13 +130,13 @@
  },
  "sites": [
   {
-   "facility": "Khoo Teck Puat Hospital",
    "city": "Singapore",
-   "state": null,
    "country": "Singapore",
-   "status": null,
+   "facility": "Khoo Teck Puat Hospital",
    "lat": 1.28967,
-   "lon": 103.85007
+   "lon": 103.85007,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02041234",
@@ -148,6 +148,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Established diagnosis of DM2 = or < 10 years"
+   },
+   {
+    "text": "Age 21-65"
+   },
+   {
+    "text": "BMI 27-32."
+   },
+   {
+    "text": "HBA1c ≥ 8%, on maximum treatment from primary care physician"
+   },
+   {
+    "text": "At least one of the following co-morbidities on treatment: hypertension, hyperlipidaemia, micro/macro-proteinuria or ≤class I nephropathy, retinopathy."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects who had previous Bariatric surgery or extensive upper abdominal surgery"
+   },
+   {
+    "text": "Pregnant subjects."
+   },
+   {
+    "text": "Nephropathy requiring dialysis"
+   },
+   {
+    "text": "Subjects who are not fit for general anaesthesia."
+   },
+   {
+    "text": "Subjects who are unsuitable for RYGB for whatever reason, medical/surgical/psychological."
+   },
+   {
+    "text": "Subjects who are unwilling or possibly unable to participate in the follow up process."
+   },
+   {
+    "text": "Subjects who are reluctant to be randomised into the two study groups."
+   },
+   {
+    "text": "Subjects who suffers from unstable psychiatric illness"
+   },
+   {
+    "text": "Subjects who are active substance abusers"
+   },
+   {
+    "text": "Glutamic acid decarboxylase antibody positive."
+   },
+   {
+    "text": "fasting C-peptide < 300 pmol/L"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

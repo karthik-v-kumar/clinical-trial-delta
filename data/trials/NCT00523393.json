@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "PREVENTION",
   "masking": "QUADRUPLE",
+  "primary_purpose": "PREVENTION",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Heidelberg University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Heidelberg University"
  },
  "collaborators": [],
  "conditions": [
@@ -53,39 +53,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Insulin Glargin",
    "other_names": [
     "Lantus®, HOE901 (internal code number Sanofi-Aventis)"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Human Insulin",
    "other_names": [
     "Insuman Basal®, HR1799(internal code number Sanofi-Aventis)"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "1",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "2",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin Glargin"
-   ]
+   ],
+   "label": "2",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "3",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Human Insulin"
-   ]
+   ],
+   "label": "3",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "In this trial, it will be studied whether early addition of the long acting insulin analogue Glargine is capable of increasing the number and differentiation of endothelial progenitor cells (EPC) in patients with type 2 diabetes, which can be seen as a marker of vascular regenerative potential and cardiovascular risk. In addition, the effect of Glargine on microvascular function will be studied. This will be done using laser Doppler measurements of the skin; in addition, MRI of the heart will be performed which is capable of quantifying the perfusion reserve of the myocardium and additional functional aspects of ventricular function. A beneficial effect of early addition of bedtime Glargine on EPC and vascular as well as myocardial function in this study might argue for a change in the therapeutic approach in type 2 diabetes and possibly improve the cardiovascular outcome in patients affected.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes\n* Oral antidiabetic therapy\n* Age 35 - 70\n* 6,5%\\< HbA1c ≤ 9%\n* Ability of subject to understand character and individual consequences of clinical trial\n* Written informed consent must be available before enrollment in the trial\n* For women with childbearing potential, adequate contraception (Pearl Index \\< 1%, e.g. birth control pill) and negative blood pregnancy test\n* 6,5%\\< HbA1c ≤ 9%\n* Ability of subject to understand character and individual consequences of clinical trial\n* Written informed consent must be available before enrollment in the trial\n* For women with childbearing potential, adequate contraception (Pearl Index \\< 1%, e.g. birth control pill) and negative blood pregnancy test\n\nExclusion Criteria:\n\n* MODY\n* Malignant disease\n* Hematopoietic disorders\n* Impairment of renal function (Serum creatinine \\> 1,5mg/dl)\n* autoimmune disease\n* treatment with immunosuppressive drugs\n* Psychiatric disease\n* Myocardial ischemia during previous 6 month\n* Acute coronary syndrome\n* pAVK IIb, III, IV (Fontaine-Ratschow)\n* Erythropoietin treatment\n* Glitazone treatment during two weeks before inclusion\n* Insulin treatment during two weeks before inclusion\n* Pregnancy and lactation\n* History of hypersensitivity to the investigational product or to any drug with similar chemical structure or to any excipient present in the pharmaceutical form of the investigational product\n* Participation in other clinical trials and observation period of competing trials, respectively\n* No subject will be allowed to enroll in this trial more than once.",
-  "sex": "ALL",
-  "minimum_age": "35 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "35 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "University Clinics Heidelberg, Dept. Medicine1",
    "city": "Heidelberg",
-   "state": null,
    "country": "Germany",
-   "status": "RECRUITING",
+   "facility": "University Clinics Heidelberg, Dept. Medicine1",
    "lat": 49.40768,
-   "lon": 8.69079
+   "lon": 8.69079,
+   "state": null,
+   "status": "RECRUITING"
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00523393",
@@ -126,6 +126,98 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 Diabetes"
+   },
+   {
+    "text": "Oral antidiabetic therapy"
+   },
+   {
+    "text": "Age 35 - 70"
+   },
+   {
+    "text": "6,5%< HbA1c ≤ 9%"
+   },
+   {
+    "text": "Ability of subject to understand character and individual consequences of clinical trial"
+   },
+   {
+    "text": "Written informed consent must be available before enrollment in the trial"
+   },
+   {
+    "text": "For women with childbearing potential, adequate contraception (Pearl Index < 1%, e.g. birth control pill) and negative blood pregnancy test"
+   },
+   {
+    "text": "6,5%< HbA1c ≤ 9%"
+   },
+   {
+    "text": "Ability of subject to understand character and individual consequences of clinical trial"
+   },
+   {
+    "text": "Written informed consent must be available before enrollment in the trial"
+   },
+   {
+    "text": "For women with childbearing potential, adequate contraception (Pearl Index < 1%, e.g. birth control pill) and negative blood pregnancy test"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "MODY"
+   },
+   {
+    "text": "Malignant disease"
+   },
+   {
+    "text": "Hematopoietic disorders"
+   },
+   {
+    "text": "Impairment of renal function (Serum creatinine > 1,5mg/dl)"
+   },
+   {
+    "text": "autoimmune disease"
+   },
+   {
+    "text": "treatment with immunosuppressive drugs"
+   },
+   {
+    "text": "Psychiatric disease"
+   },
+   {
+    "text": "Myocardial ischemia during previous 6 month"
+   },
+   {
+    "text": "Acute coronary syndrome"
+   },
+   {
+    "text": "pAVK IIb, III, IV (Fontaine-Ratschow)"
+   },
+   {
+    "text": "Erythropoietin treatment"
+   },
+   {
+    "text": "Glitazone treatment during two weeks before inclusion"
+   },
+   {
+    "text": "Insulin treatment during two weeks before inclusion"
+   },
+   {
+    "text": "Pregnancy and lactation"
+   },
+   {
+    "text": "History of hypersensitivity to the investigational product or to any drug with similar chemical structure or to any excipient present in the pharmaceutical form of the investigational product"
+   },
+   {
+    "text": "Participation in other clinical trials and observation period of competing trials, respectively"
+   },
+   {
+    "text": "No subject will be allowed to enroll in this trial more than once."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

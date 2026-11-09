@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "LMC Diabetes & Endocrinology Ltd.",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "LMC Diabetes & Endocrinology Ltd."
  },
  "collaborators": [
   "Abbott Diabetes Care"
@@ -51,31 +51,31 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "FreeStyle Libre Flash Glucose Monitor",
-   "other_names": []
+   "other_names": [],
+   "type": "DEVICE"
   },
   {
-   "type": "OTHER",
    "name": "Diabetes self-management education",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Intervention (FGM + DSME)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: FreeStyle Libre Flash Glucose Monitor",
     "Other: Diabetes self-management education"
-   ]
+   ],
+   "label": "Intervention (FGM + DSME)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Control (DSME alone)",
-   "type": "OTHER",
    "intervention_names": [
     "Other: Diabetes self-management education"
-   ]
+   ],
+   "label": "Control (DSME alone)",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The objective of this study is to evaluate the effectiveness of a flash glucose monitor device in achieving optimal glycemic control among adults with type 2 diabetes inadequately controlled with non-insulin antihyperglycemic therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nEligible participants must be an adult aged 18 years or older and:\n\n* A clinical diagnosis of T2D, with diagnosis known for six months or more;\n* An HbA1c of \\> 7.5%;\n* Using one or more non-insulin antihyperglycemic therapy for a minimum of six months, with dose stability of 3 months; and\n* No previous history of using CGM or FGM devices.\n\nExclusion Criteria:\n\nParticipants will be excluded from the study if they:\n\n* Have a history of insulin use \\> 3 months\n* Are pregnant or breastfeeding\n* Have diabetic retinopathy\n* Have an estimated glomerular filtration rate (eGFR) \\< 30 ml/min/1.73 m2\n* Have unstable cardiovascular disease\n* Use other implanted medical devices, such as pacemakers\n* Have had more than one episode of severe hypoglycemia during the past 6 months or evidence of hypoglycemia unawareness\n* Anticipate or require regular magnetic resonance imaging, computed tomography scan, or high-frequency electrical heat (diathermy) treatment",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,58 +98,58 @@
  },
  "sites": [
   {
-   "facility": "LMC Brampton",
    "city": "Brampton",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "LMC Brampton",
    "lat": 43.68341,
-   "lon": -79.76633
+   "lon": -79.76633,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "LMC Etobicoke",
    "city": "Etobicoke",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "LMC Etobicoke",
    "lat": 43.64415,
-   "lon": -79.56985
+   "lon": -79.56985,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "LMC Oakville",
    "city": "Oakville",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "LMC Oakville",
    "lat": 43.45011,
-   "lon": -79.68292
+   "lon": -79.68292,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "LMC Ottawa",
    "city": "Ottawa",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "LMC Ottawa",
    "lat": 45.41117,
-   "lon": -75.69812
+   "lon": -75.69812,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "LMC Midtown",
    "city": "Toronto",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "LMC Midtown",
    "lat": 43.65333,
-   "lon": -79.38389
+   "lon": -79.38389,
+   "state": "Ontario",
+   "status": null
   },
   {
-   "facility": "LMC Vaughan/Thornhill",
    "city": "Vaughan",
-   "state": "Ontario",
    "country": "Canada",
-   "status": null,
+   "facility": "LMC Vaughan/Thornhill",
    "lat": 43.8361,
-   "lon": -79.49827
+   "lon": -79.49827,
+   "state": "Ontario",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04562714",
@@ -161,6 +161,62 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "A clinical diagnosis of T2D, with diagnosis known for six months or more;",
+    "group": "Eligible participants must be an adult aged 18 years or older and"
+   },
+   {
+    "text": "An HbA1c of > 7.5%;",
+    "group": "Eligible participants must be an adult aged 18 years or older and"
+   },
+   {
+    "text": "Using one or more non-insulin antihyperglycemic therapy for a minimum of six months, with dose stability of 3 months; and",
+    "group": "Eligible participants must be an adult aged 18 years or older and"
+   },
+   {
+    "text": "No previous history of using CGM or FGM devices.",
+    "group": "Eligible participants must be an adult aged 18 years or older and"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Have a history of insulin use > 3 months",
+    "group": "Participants will be excluded from the study if they"
+   },
+   {
+    "text": "Are pregnant or breastfeeding",
+    "group": "Participants will be excluded from the study if they"
+   },
+   {
+    "text": "Have diabetic retinopathy",
+    "group": "Participants will be excluded from the study if they"
+   },
+   {
+    "text": "Have an estimated glomerular filtration rate (eGFR) < 30 ml/min/1.73 m2",
+    "group": "Participants will be excluded from the study if they"
+   },
+   {
+    "text": "Have unstable cardiovascular disease",
+    "group": "Participants will be excluded from the study if they"
+   },
+   {
+    "text": "Use other implanted medical devices, such as pacemakers",
+    "group": "Participants will be excluded from the study if they"
+   },
+   {
+    "text": "Have had more than one episode of severe hypoglycemia during the past 6 months or evidence of hypoglycemia unawareness",
+    "group": "Participants will be excluded from the study if they"
+   },
+   {
+    "text": "Anticipate or require regular magnetic resonance imaging, computed tomography scan, or high-frequency electrical heat (diathermy) treatment",
+    "group": "Participants will be excluded from the study if they"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Assiut University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Assiut University"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Dapagliflozin (DAPA)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Group A",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin (DAPA)"
-   ]
+   ],
+   "label": "Group A",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Group B",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Group B",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "the effect of Dapagliflozin on erythropoiesis, iron metabolism and inflammatory markers in CKD with Type 2 DM-Compare between effect of placebo and dapagliflozin on erythropoiesis, iron metabolism and inflammation markers in CKD with Type 2 DM.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nEligible participants were aged \\>18 years and diagnosed with Type 2 diabetes participants we required to have urinary albumin-creatinine ratio (UACR ) of 30\\_3500 mg /g ,eGFR of 20\\_ 80 ml/min/ 1.73 m , and HbA1c of 7.0 \\_ 11.0 % at screening\n\nExclusion Criteria:\n\ntype 1 diabetes, non-diabetes kidney disease and patient with HB \\< 9",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,6 +108,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Eligible participants were aged >18 years and diagnosed with Type 2 diabetes participants we required to have urinary albumin-creatinine ratio (UACR ) of 30_3500 mg /g ,eGFR of 20_ 80 ml/min/ 1.73 m , and HbA1c of 7.0 _ 11.0 % at screening"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "type 1 diabetes, non-diabetes kidney disease and patient with HB < 9"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

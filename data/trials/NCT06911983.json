@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "S.LAB (SOLOWAYS)",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "S.LAB (SOLOWAYS)"
  },
  "collaborators": [
   "Center for New Medical Technologies, Novosibirsk, Russia"
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Berberine",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Metformin Group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin Group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Berberine Group",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Berberine"
-   ]
+   ],
+   "label": "Berberine Group",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "This pilot 12-week randomized open-label study compares metformin and berberine in newly diagnosed type 2 diabetes patients stratified by the TCF7L2 (rs7903146) genotype (TT vs. CC). The primary goal is to assess changes in HbA1c between metformin and berberine treated groups within each genotype. Secondary outcomes include fasting and postprandial glucose, insulin levels, HOMA-IR, body weight/BMI, lipid profile and adverse events.\n\nThe central hypothesis is that berberine, through its additional effect on TCF7L2-linked pathways, will provide superior glycemic control in high-risk TT carriers compared to metformin, whereas both treatments will yield comparable results in CC carriers. By enrolling only TT and CC genotypes, this study aims to estimate effect sizes and feasibility, guiding a future, larger-scale trial on genotype-tailored diabetes therapies.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults aged 30-65 years;\n* Newly diagnosed T2DM ≤1 year;\n* Baseline HbA1c: 7.0-9.0% (53-75 mmol/mol);\n* No prior use of antihyperglycemic agents or ≤4 weeks of usage;\n* Willing to sign informed consent and undergo TCF7L2 genotyping;\n* TT or CC genotype (rs7903146)\n\nExclusion Criteria:\n\n* Severe comorbidities (hepatic, renal, cardiac dysfunction);\n* Pregnancy or lactation;\n* Known allergy or intolerance to metformin or berberine;\n* Participation in another clinical trial within the last 3 months;\n* TC genotype (excluded).",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Center for New Medical Technologies",
    "city": "Novosibirsk",
-   "state": null,
    "country": "Russia",
-   "status": null,
+   "facility": "Center for New Medical Technologies",
    "lat": 55.02259,
-   "lon": 82.93175
+   "lon": 82.93175,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06911983",
@@ -122,6 +122,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Adults aged 30-65 years;"
+   },
+   {
+    "text": "Newly diagnosed T2DM ≤1 year;"
+   },
+   {
+    "text": "Baseline HbA1c: 7.0-9.0% (53-75 mmol/mol);"
+   },
+   {
+    "text": "No prior use of antihyperglycemic agents or ≤4 weeks of usage;"
+   },
+   {
+    "text": "Willing to sign informed consent and undergo TCF7L2 genotyping;"
+   },
+   {
+    "text": "TT or CC genotype (rs7903146)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe comorbidities (hepatic, renal, cardiac dysfunction);"
+   },
+   {
+    "text": "Pregnancy or lactation;"
+   },
+   {
+    "text": "Known allergy or intolerance to metformin or berberine;"
+   },
+   {
+    "text": "Participation in another clinical trial within the last 3 months;"
+   },
+   {
+    "text": "TC genotype (excluded)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

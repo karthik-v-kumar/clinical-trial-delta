@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2020-11-02",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Pfizer",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Pfizer"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "OAP-189",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo comparator",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "OAP-189",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: OAP-189"
-   ]
+   ],
+   "label": "OAP-189",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo comparator"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -123,10 +123,10 @@
  "brief_summary": "This is a study to evaluate the safety, tolerability, and activity of OAP-189 in subjects with type 2 diabetes who are taking metformin for their diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects must have been diagnosed with type 2 diabetes, with HbA1c level \\>=7.0% and \\<=11.0% and a fasting glucose level \\<=280 mg/dL.\n* Men or women of nonchildbearing potential (WONCBP), aged 18 to 65 years inclusive on study day 1.\n* Body mass index in the range of 27 to 40kg/m² (inclusive) and body weight \\>=50 kg.\n* Subjects must be otherwise generally healthy, but may be enrolled with a stable chronic illness, if it is well controlled and does not interfere with the primary objective of the study.\n* Subjects must currently be treated for diabetes with metformin alone at a total daily dose of \\>=1gm (administered QD or BID) and that dose must have been stable for at least 4 weeks before study day 1.\n* Nonsmoker.\n\nExclusion Criteria:\n\n* Any significant disease with the exception of diabetes mellitus.\n* Any surgical or medical condition that may interfere with the absorption, distribution, metabolism, or excretion of the investigational product.\n* Acute disease state (eg, nausea, vomiting, fever, or diarrhea) within 7 days before study day 1.\n* Any clinically important problems in physical examination results, vitals sign measurements, ECGs, or clinical laboratory test results.\n* Positive serologic findings for human immunodeficiency virus (HIV) antibodies, hepatitis B surface antigen (HBsAg), and/or hepatitis C virus (HCV) antibodies.\n* Positive findings of urine drug screen\n* Use of any investigational or non-permitted prescription drug within 30 days before investigational product administration.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -134,22 +134,22 @@
  },
  "sites": [
   {
-   "facility": "Profil Institute for Clincal Research",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Profil Institute for Clincal Research",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   },
   {
-   "facility": "Cetero Research - Miami",
    "city": "Miami Gardens",
-   "state": "Florida",
    "country": "United States",
-   "status": null,
+   "facility": "Cetero Research - Miami",
    "lat": 25.94204,
-   "lon": -80.2456
+   "lon": -80.2456,
+   "state": "Florida",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00970593",
@@ -161,6 +161,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Subjects must have been diagnosed with type 2 diabetes, with HbA1c level >=7.0% and <=11.0% and a fasting glucose level <=280 mg/dL."
+   },
+   {
+    "text": "Men or women of nonchildbearing potential (WONCBP), aged 18 to 65 years inclusive on study day 1."
+   },
+   {
+    "text": "Body mass index in the range of 27 to 40kg/m² (inclusive) and body weight >=50 kg."
+   },
+   {
+    "text": "Subjects must be otherwise generally healthy, but may be enrolled with a stable chronic illness, if it is well controlled and does not interfere with the primary objective of the study."
+   },
+   {
+    "text": "Subjects must currently be treated for diabetes with metformin alone at a total daily dose of >=1gm (administered QD or BID) and that dose must have been stable for at least 4 weeks before study day 1."
+   },
+   {
+    "text": "Nonsmoker."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Any significant disease with the exception of diabetes mellitus."
+   },
+   {
+    "text": "Any surgical or medical condition that may interfere with the absorption, distribution, metabolism, or excretion of the investigational product."
+   },
+   {
+    "text": "Acute disease state (eg, nausea, vomiting, fever, or diarrhea) within 7 days before study day 1."
+   },
+   {
+    "text": "Any clinically important problems in physical examination results, vitals sign measurements, ECGs, or clinical laboratory test results."
+   },
+   {
+    "text": "Positive serologic findings for human immunodeficiency virus (HIV) antibodies, hepatitis B surface antigen (HBsAg), and/or hepatitis C virus (HCV) antibodies."
+   },
+   {
+    "text": "Positive findings of urine drug screen"
+   },
+   {
+    "text": "Use of any investigational or non-permitted prescription drug within 30 days before investigational product administration."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

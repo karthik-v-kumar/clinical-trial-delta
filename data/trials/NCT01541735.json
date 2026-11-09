@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -43,8 +43,8 @@
  "results_first_posted": "2014-02-21",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Coordinación de Investigación en Salud, Mexico",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Coordinación de Investigación en Salud, Mexico"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pantoprazole",
    "other_names": [
     "Pantozol"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Pantoprazole",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pantoprazole"
-   ]
+   ],
+   "label": "Pantoprazole",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -97,23 +97,23 @@
  "brief_summary": "The purpose of the study is to evaluate the effect of pantoprazole on insulin secretion in drug-naïve patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* Drug-Naive\n* No complications\n* HbA1c 7 to \\< 9%\n* Fasting plasma glucose \\< 210mg/dl\n* Body mass index 30.0 to 39.9 and body weight stable for at least 3 months before the study\n* Non smokers\n* Blood pressure \\< 130/80\n\nExclusion Criteria:\n\n* Diabetes complications\n* Women pregnant or stage of lactation\n* Hepatic, renal, autoimmune disease\n* Take drugs with effects on insulin secretion\n* Zollinger-Ellison disease\n* Gastric or pancreatic tumor.",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Instituto Mexicano del Seguro Social. Hospital de Especialidades.",
    "city": "Guadalajara",
-   "state": "Jalisco",
    "country": "Mexico",
-   "status": null,
+   "facility": "Instituto Mexicano del Seguro Social. Hospital de Especialidades.",
    "lat": 20.67738,
-   "lon": -103.34749
+   "lon": -103.34749,
+   "state": "Jalisco",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01541735",
@@ -125,6 +125,56 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes mellitus"
+   },
+   {
+    "text": "Drug-Naive"
+   },
+   {
+    "text": "No complications"
+   },
+   {
+    "text": "HbA1c 7 to < 9%"
+   },
+   {
+    "text": "Fasting plasma glucose < 210mg/dl"
+   },
+   {
+    "text": "Body mass index 30.0 to 39.9 and body weight stable for at least 3 months before the study"
+   },
+   {
+    "text": "Non smokers"
+   },
+   {
+    "text": "Blood pressure < 130/80"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Diabetes complications"
+   },
+   {
+    "text": "Women pregnant or stage of lactation"
+   },
+   {
+    "text": "Hepatic, renal, autoimmune disease"
+   },
+   {
+    "text": "Take drugs with effects on insulin secretion"
+   },
+   {
+    "text": "Zollinger-Ellison disease"
+   },
+   {
+    "text": "Gastric or pancreatic tumor."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

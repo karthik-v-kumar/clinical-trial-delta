@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2023-07-24",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The University of Texas Health Science Center at San Antonio",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The University of Texas Health Science Center at San Antonio"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -50,62 +50,62 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Placebo drug"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Exenatide",
    "other_names": [
     "Byetta, Bydureon"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Farxiga"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Exenatide and Dapagliflozin",
    "other_names": [
     "Byetta plus Dapagliflozin"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Exenatide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Exenatide"
-   ]
+   ],
+   "label": "Exenatide",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ]
+   ],
+   "label": "Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Exenatide and Dapagliflozin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Exenatide and Dapagliflozin"
-   ]
+   ],
+   "label": "Exenatide and Dapagliflozin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -117,10 +117,10 @@
  "brief_summary": "Research Design/Plan: After screening, each subject will receive 1 measurements of Endogenous Glucose Production \\[EGP\\] with prime-continuous Infusion of 3-3H-glucose. After completing the EGP measurement each subject will receive a Double Tracer Oral Glucose Tolerance Test \\[OGTT\\].\n\nMethods: Visit 1: Screening. Medical history will be obtained, physical exam performed, and pregnancy test performed.\n\nVisit 2: Endogenous Glucose Production Measurement: The rate of EGP will be measured with 3-3H-glucose.\n\nVisit 3: Double Tracer OGTT",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Health Status: Type 2 Diabetes Mellitus according to ADA criteria (subjects must be in good general health as determined by physical exam, medical history, blood chemistry-CBC, TSH, T4, EKG and urinalysis)\n* BMI: 21-45kg/m\n* HbA1C\\>7.0% and \\<10.5%\n* Medication: Drug naïve and/or on a stable dose of metformin and/or sulfonylurea (more than 3 months)\n\nExclusion Criteria:\n\n* Health Status: Type 1 Diabetics\n* Proliferative diabetic retinopathy\n* Plasma Creatinine greater than 1.4mg/dL in females or greater than 1.5mg/dL in males, or 24 hour urine albumin excretion greater than 300mg/dL\n* Medication: Subjects taking drugs known to affect glucose metabolism (other than metformin and sulfonylurea)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -128,13 +128,13 @@
  },
  "sites": [
   {
-   "facility": "University Health System Texas Diabetic Institute",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "University Health System Texas Diabetic Institute",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03331289",
@@ -146,6 +146,38 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Health Status: Type 2 Diabetes Mellitus according to ADA criteria (subjects must be in good general health as determined by physical exam, medical history, blood chemistry-CBC, TSH, T4, EKG and urinalysis)"
+   },
+   {
+    "text": "BMI: 21-45kg/m"
+   },
+   {
+    "text": "HbA1C>7.0% and <10.5%"
+   },
+   {
+    "text": "Medication: Drug naïve and/or on a stable dose of metformin and/or sulfonylurea (more than 3 months)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Health Status: Type 1 Diabetics"
+   },
+   {
+    "text": "Proliferative diabetic retinopathy"
+   },
+   {
+    "text": "Plasma Creatinine greater than 1.4mg/dL in females or greater than 1.5mg/dL in males, or 24 hour urine albumin excretion greater than 300mg/dL"
+   },
+   {
+    "text": "Medication: Subjects taking drugs known to affect glucose metabolism (other than metformin and sulfonylurea)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Cambridge",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Cambridge"
  },
  "collaborators": [
   "Cambridge University Hospitals NHS Foundation Trust"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "closed-loop insulin delivery",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "DRUG",
    "name": "Usual diabetes treatment regimen",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "closed-loop insulin delivery",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: closed-loop insulin delivery"
-   ]
+   ],
+   "label": "closed-loop insulin delivery",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Usual diabetes treatment regimen",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Usual diabetes treatment regimen"
-   ]
+   ],
+   "label": "Usual diabetes treatment regimen",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The main objective of this study is to evaluate the efficacy and safety of 24 hours of closed-loop glucose control compared with standard diabetes treatment, in patients with type 2 diabetes treated by non-insulin glucose-lowering medications. This group is being studied as it is representative of patients with glucose dysregulation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Aged 18 years or older\n* Type 2 diabetes for at least 1 year as defined by WHO\n* Treatment with glucose-lowering medication(s) (including Exenatide) for at least 6 mths\n* HbA1c between 7.0% and 10.0% inclusive (measured within past 3 mths)\n\nExclusion Criteria:\n\n* Autoimmune type 1 diabetes\n* Type 2 diabetes treated with insulin\n* Type 2 diabetes treated with diet control alone\n* Known or suspected allergy against insulin\n* Proliferative retinopathy\n* Current or planned pregnancy or breast feeding\n* Any physical or psychological disease or medication(s) likely to interfere with the conduct of the study and interpretation of the study results, as judged by the study clinician",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Wellcome Trust Clinical Research Facility, Addenbrooke's Hospital",
    "city": "Cambridge",
-   "state": null,
    "country": "United Kingdom",
-   "status": null,
+   "facility": "Wellcome Trust Clinical Research Facility, Addenbrooke's Hospital",
    "lat": 52.2,
-   "lon": 0.11667
+   "lon": 0.11667,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01359241",
@@ -114,6 +114,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Aged 18 years or older"
+   },
+   {
+    "text": "Type 2 diabetes for at least 1 year as defined by WHO"
+   },
+   {
+    "text": "Treatment with glucose-lowering medication(s) (including Exenatide) for at least 6 mths"
+   },
+   {
+    "text": "HbA1c between 7.0% and 10.0% inclusive (measured within past 3 mths)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Autoimmune type 1 diabetes"
+   },
+   {
+    "text": "Type 2 diabetes treated with insulin"
+   },
+   {
+    "text": "Type 2 diabetes treated with diet control alone"
+   },
+   {
+    "text": "Known or suspected allergy against insulin"
+   },
+   {
+    "text": "Proliferative retinopathy"
+   },
+   {
+    "text": "Current or planned pregnancy or breast feeding"
+   },
+   {
+    "text": "Any physical or psychological disease or medication(s) likely to interfere with the conduct of the study and interpretation of the study results, as judged by the study clinician"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

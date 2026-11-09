@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Turku University Hospital",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Turku University Hospital"
  },
  "collaborators": [
   "Lund University"
@@ -51,58 +51,58 @@
  ],
  "interventions": [
   {
-   "type": "PROCEDURE",
    "name": "Roux-en-Y",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   },
   {
-   "type": "DRUG",
    "name": "GIP-infusion",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "GLP-1",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "MMS",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "PROCEDURE",
    "name": "Sleeve gastrectomy",
-   "other_names": []
+   "other_names": [],
+   "type": "PROCEDURE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Royx-en-Y surgery",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Roux-en-Y",
     "Drug: GIP-infusion",
     "Drug: MMS"
-   ]
+   ],
+   "label": "Royx-en-Y surgery",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Control",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: GIP-infusion",
     "Drug: GLP-1",
     "Drug: MMS"
-   ]
+   ],
+   "label": "Control",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Sleeve gastrectomy",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: GIP-infusion",
     "Drug: MMS",
     "Procedure: Sleeve gastrectomy"
-   ]
+   ],
+   "label": "Sleeve gastrectomy",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -114,23 +114,23 @@
  "brief_summary": "Obesity is a worldwide problem and leads to multiple metabolic and endocrinological problems.\n\nBariatric surgeries are a growing field as a treatment choice for morbid obesity (BMI \\> 35 kg/m2). Clinical and research evidence shows that shortly after RYGB, T2DM resolves with improving glucose tolerance. Foregut hypothesis behind bariatric surgeries postulate, that bypassed portions of intestine contain a substance, that acts as an anti-incretin, ie. to counteract metabolically favourable incretins. In view of the recent studies, it may be that GIP is really the anti-incretin behind this hypothesis.\n\nThe current study is conducted to investigate the vasoactive roles of the GIP. The investigators aim to show that GIP is the major contributor to the blood flow and tissue blood volume observed in postprandial state.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. BMI \\> 35 kg/m2\n2. Type 2 diabetes mellitus (fasting glucose more than 7 mmol/l)\n3. Age: 18-60 years\n4. Previous, carefully planned, conservative treatments for obesity have failed\n\nExclusion Criteria:\n\n1. BMI over 60 kg/m2\n2. Weight more than 170 kg\n3. Waist circumference \\> 150 cm\n4. Insulin treatment requiring type 2 diabetes mellitus\n5. Mental disorder or poor compliance\n6. Eating disorder or excessive use of alcohol\n7. Active ulcus-disease\n8. Pregnancy\n9. Past dose of radiation\n10. Presence of any ferromagnetic objects that would make MR imaging contraindicated\n11. Any other condition that in the opinion of the investigator could create a hazard to the subject safety, endanger the study procedures or interfere with the interpretation of study results\n\nInclusion criteria for the control group\n\n1. BMI 18-27 kg/m2\n2. Age 18-60 years\n3. Fasting plasma glucose less than 6.1 mmol/l\n4. Normal glucose tolerance test (OGTT)\n\nExclusion criteria for the control group\n\n1. Blood pressure \\> 140/90 mmHg\n2. Any chronic disease\n3. Mental disorder or poor compliance\n4. Any chronic medical defect or injury which hinder/interfere everyday life\n5. Eating disorder or excessive use of alcohol\n6. Pregnancy\n7. Past dose of radiation\n8. Any other condition that in the opinion of the investigator could create a hazard to the subject safety, endanger the study procedures or interfere with the interpretation of study results\n9. Presence of any ferromagnetic objects that would make MR imaging contraindicated\n10. Smoking",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": true,
+  "maximum_age": "60 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Turku univercity hospital, PET center",
    "city": "Turku",
-   "state": null,
    "country": "Finland",
-   "status": null,
+   "facility": "Turku univercity hospital, PET center",
    "lat": 60.45148,
-   "lon": 22.26869
+   "lon": 22.26869,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01880827",
@@ -142,6 +142,115 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "BMI > 35 kg/m2"
+   },
+   {
+    "text": "Type 2 diabetes mellitus (fasting glucose more than 7 mmol/l)"
+   },
+   {
+    "text": "Age: 18-60 years"
+   },
+   {
+    "text": "Previous, carefully planned, conservative treatments for obesity have failed"
+   },
+   {
+    "text": "BMI 18-27 kg/m2",
+    "group": "for the control group"
+   },
+   {
+    "text": "Age 18-60 years",
+    "group": "for the control group"
+   },
+   {
+    "text": "Fasting plasma glucose less than 6.1 mmol/l",
+    "group": "for the control group"
+   },
+   {
+    "text": "Normal glucose tolerance test (OGTT)",
+    "group": "for the control group"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "BMI over 60 kg/m2"
+   },
+   {
+    "text": "Weight more than 170 kg"
+   },
+   {
+    "text": "Waist circumference > 150 cm"
+   },
+   {
+    "text": "Insulin treatment requiring type 2 diabetes mellitus"
+   },
+   {
+    "text": "Mental disorder or poor compliance"
+   },
+   {
+    "text": "Eating disorder or excessive use of alcohol"
+   },
+   {
+    "text": "Active ulcus-disease"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Past dose of radiation"
+   },
+   {
+    "text": "Presence of any ferromagnetic objects that would make MR imaging contraindicated"
+   },
+   {
+    "text": "Any other condition that in the opinion of the investigator could create a hazard to the subject safety, endanger the study procedures or interfere with the interpretation of study results"
+   },
+   {
+    "text": "Blood pressure > 140/90 mmHg",
+    "group": "for the control group"
+   },
+   {
+    "text": "Any chronic disease",
+    "group": "for the control group"
+   },
+   {
+    "text": "Mental disorder or poor compliance",
+    "group": "for the control group"
+   },
+   {
+    "text": "Any chronic medical defect or injury which hinder/interfere everyday life",
+    "group": "for the control group"
+   },
+   {
+    "text": "Eating disorder or excessive use of alcohol",
+    "group": "for the control group"
+   },
+   {
+    "text": "Pregnancy",
+    "group": "for the control group"
+   },
+   {
+    "text": "Past dose of radiation",
+    "group": "for the control group"
+   },
+   {
+    "text": "Any other condition that in the opinion of the investigator could create a hazard to the subject safety, endanger the study procedures or interfere with the interpretation of study results",
+    "group": "for the control group"
+   },
+   {
+    "text": "Presence of any ferromagnetic objects that would make MR imaging contraindicated",
+    "group": "for the control group"
+   },
+   {
+    "text": "Smoking",
+    "group": "for the control group"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

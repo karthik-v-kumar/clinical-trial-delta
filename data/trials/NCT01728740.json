@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": null,
   "masking": "NONE",
+  "primary_purpose": null,
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Bayer",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Bayer"
  },
  "collaborators": [],
  "conditions": [
@@ -48,50 +48,50 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Acarbose/Metformin FDC (BAY81-9783)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Acarbose (Glucobay, BAYG5421)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Acarbose/Metformin FDC",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Acarbose/Metformin FDC (BAY81-9783)"
-   ]
+   ],
+   "label": "Acarbose/Metformin FDC",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Acarbose+Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose (Glucobay, BAYG5421)",
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Acarbose+Metformin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Acarbose",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose (Glucobay, BAYG5421)"
-   ]
+   ],
+   "label": "Acarbose",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -115,23 +115,23 @@
  "brief_summary": "To establish the bioequivalence between Acarbose / Metformin FDC (50mg / 500mg) and loose combination of Acarbose (Glucobay) (50mg) and Metformin (Glucophage) (500mg).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Body Mass Index (BMI): 18 to 28 kg/m2 (inclusive)\n* Results of Glycosylated Hemoglobin A1c (HbA1c) value are within the normal range (4.3-5.6%, inclusive)\n* Results of the 75 g oral glucose tolerance test (OGTT) during screening show:\n\n  * Blood glucose before OGTT \\<110 mg/dL.\n  * Blood glucose 1 hour after glucose loading \\<180 mg/dL\n  * Blood glucose 2 hours after glucose loading \\<140 mg/dL\n\nExclusion Criteria:\n\n* A history of relevant diseases of internal organs (diabetes mellitus, Ileus, Ileus-like symptoms, diseases that may significantly jeopardize body systems\n* Febrile illness within 1 week before drug administration\n* Family history of diabetes (within the second degree of relationship)\n* Known drug hypersensitivity or idiosyncrasy\n* Known severe allergies, non-allergic drug reactions, or multiple drug allergies\n* Habitual medication including Chinese herbal drugs\n* Intake of any drugs within 2 weeks of drug administration of period 1\n* Regular daily consumption of more than 1 L of usual beer or the equivalent quantity of approximately 40 g of alcohol in another form\n* Donation of more than 150 mL of blood within 4 weeks before the screening examination\n* Participation in another clinical trial within 4 weeks before the screening examination",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "45 Years",
   "healthy_volunteers": true,
+  "maximum_age": "45 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": null,
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": null,
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01728740",
@@ -143,6 +143,58 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Body Mass Index (BMI): 18 to 28 kg/m2 (inclusive)"
+   },
+   {
+    "text": "Results of Glycosylated Hemoglobin A1c (HbA1c) value are within the normal range (4.3-5.6%, inclusive)"
+   },
+   {
+    "text": "Results of the 75 g oral glucose tolerance test (OGTT) during screening show:",
+    "sub_items": [
+     "Blood glucose before OGTT <110 mg/dL.",
+     "Blood glucose 1 hour after glucose loading <180 mg/dL",
+     "Blood glucose 2 hours after glucose loading <140 mg/dL"
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "A history of relevant diseases of internal organs (diabetes mellitus, Ileus, Ileus-like symptoms, diseases that may significantly jeopardize body systems"
+   },
+   {
+    "text": "Febrile illness within 1 week before drug administration"
+   },
+   {
+    "text": "Family history of diabetes (within the second degree of relationship)"
+   },
+   {
+    "text": "Known drug hypersensitivity or idiosyncrasy"
+   },
+   {
+    "text": "Known severe allergies, non-allergic drug reactions, or multiple drug allergies"
+   },
+   {
+    "text": "Habitual medication including Chinese herbal drugs"
+   },
+   {
+    "text": "Intake of any drugs within 2 weeks of drug administration of period 1"
+   },
+   {
+    "text": "Regular daily consumption of more than 1 L of usual beer or the equivalent quantity of approximately 40 g of alcohol in another form"
+   },
+   {
+    "text": "Donation of more than 150 mL of blood within 4 weeks before the screening examination"
+   },
+   {
+    "text": "Participation in another clinical trial within 4 weeks before the screening examination"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

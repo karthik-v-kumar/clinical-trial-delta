@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -44,8 +44,8 @@
  "results_first_posted": "2021-01-28",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The University of Texas Health Science Center, Houston",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The University of Texas Health Science Center, Houston"
  },
  "collaborators": [],
  "conditions": [
@@ -53,50 +53,50 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Exenatide",
    "other_names": [
     "Bydureon"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "NRT",
    "other_names": [
     "Nicotine patch"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Counseling",
    "other_names": [
     "Smoking cessation counseling"
-   ]
+   ],
+   "type": "BEHAVIORAL"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Exenatide plus NRT plus counseling",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Exenatide",
     "Drug: NRT",
     "Behavioral: Counseling"
-   ]
+   ],
+   "label": "Exenatide plus NRT plus counseling",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo plus NRT plus counseling",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: NRT",
     "Behavioral: Counseling",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo plus NRT plus counseling",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -124,10 +124,10 @@
  "brief_summary": "The purpose of this study is to identify a potential new treatment for smoking cessation.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Be English-speaking volunteers who desire to quit smoking and are willing to make a quit attempt during the course of the study;\n* Have smoked ≥10 cigarettes a day for at least one year and provide a breath carbon monoxide (CO) ≥10 ppm;\n* Have a negative pregnancy test, if female of childbearing potential;\n* Have HbA1C levels between 5.7 and 6.4% or BMI of or greater than 25 kg/square meters\n* Not currently using any therapy for glycemic control (either injectable \\[i.e. insulin\\] or oral agents);\n* Have vital signs as follows: resting pulse between 50 and 95 bpm, BP between 90-150 mmHg systolic and 45-95 mmHg diastolic;\n* Have hematology and chemistry laboratory tests that are within reference limits (within 10% above or below), with the following exception: pancreatic tests (lipase and amylase) must be within normal limits;\n* Have a medical history and brief physical examination demonstrating no clinically significant contraindications for study participation, in the judgment of the principal investigator.\n\nExclusion Criteria:\n\n* Meet criteria for the following psychiatric and/or substance use disorders as assessed by the Mini International Neuropsychiatric Interview (MINI): items C (current manic or hypomanic episode only), I (alcohol abuse - Alcohol Addendum-past 3 months only; current alcohol dependence), J (substance abuse -Substance Abuse Addendum - past 3 months only; current substance dependence), K (current psychotic disorder or current mood disorder with psychotic features).\n* Individuals who meet criteria for non-exclusionary psychiatric disorders that are considered clinically unstable and/or unsuitable to participate as determined by the Principal Investigator and/or Study Physician.\n* Individuals rated as moderate (9-16) to high (17 or greater) on suicidality as assessed by Module B of the MINI.\n* Have personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2;\n* Have type 1 diabetes mellitus;\n* Have severe cardiovascular disease (history of myocardial infarction, life-threatening arrhythmia, or worsening angina pectoris);\n* Have active temporomandibular joint disease;\n* Have severe gastrointestinal disease (i.e. severe gastroparesis);\n* Have previous history of pancreatitis or are at risk for pancreatitis;\n* Have creatinine clearance (CrCl) \\< 30;\n* Have any previous medically adverse reaction to study medications, nicotine, or menthol;\n* Be pregnant or lactating or unwilling to provide a negative pregnancy test before study entry;\n* Not using a reliable form of contraception (e.g., abstinence, birth control pills, intrauterine device, condoms, or spermicide);\n* Have any illness which in the opinion of the primary investigator would preclude safe and/or successful completion of the study.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -135,13 +135,13 @@
  },
  "sites": [
   {
-   "facility": "The University of Texas Health Science Center at Houston",
    "city": "Houston",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "The University of Texas Health Science Center at Houston",
    "lat": 29.76328,
-   "lon": -95.36327
+   "lon": -95.36327,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02975297",
@@ -153,6 +153,80 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Be English-speaking volunteers who desire to quit smoking and are willing to make a quit attempt during the course of the study;"
+   },
+   {
+    "text": "Have smoked ≥10 cigarettes a day for at least one year and provide a breath carbon monoxide (CO) ≥10 ppm;"
+   },
+   {
+    "text": "Have a negative pregnancy test, if female of childbearing potential;"
+   },
+   {
+    "text": "Have HbA1C levels between 5.7 and 6.4% or BMI of or greater than 25 kg/square meters"
+   },
+   {
+    "text": "Not currently using any therapy for glycemic control (either injectable [i.e. insulin] or oral agents);"
+   },
+   {
+    "text": "Have vital signs as follows: resting pulse between 50 and 95 bpm, BP between 90-150 mmHg systolic and 45-95 mmHg diastolic;"
+   },
+   {
+    "text": "Have hematology and chemistry laboratory tests that are within reference limits (within 10% above or below), with the following exception: pancreatic tests (lipase and amylase) must be within normal limits;"
+   },
+   {
+    "text": "Have a medical history and brief physical examination demonstrating no clinically significant contraindications for study participation, in the judgment of the principal investigator."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Meet criteria for the following psychiatric and/or substance use disorders as assessed by the Mini International Neuropsychiatric Interview (MINI): items C (current manic or hypomanic episode only), I (alcohol abuse - Alcohol Addendum-past 3 months only; current alcohol dependence), J (substance abuse -Substance Abuse Addendum - past 3 months only; current substance dependence), K (current psychotic disorder or current mood disorder with psychotic features)."
+   },
+   {
+    "text": "Individuals who meet criteria for non-exclusionary psychiatric disorders that are considered clinically unstable and/or unsuitable to participate as determined by the Principal Investigator and/or Study Physician."
+   },
+   {
+    "text": "Individuals rated as moderate (9-16) to high (17 or greater) on suicidality as assessed by Module B of the MINI."
+   },
+   {
+    "text": "Have personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2;"
+   },
+   {
+    "text": "Have type 1 diabetes mellitus;"
+   },
+   {
+    "text": "Have severe cardiovascular disease (history of myocardial infarction, life-threatening arrhythmia, or worsening angina pectoris);"
+   },
+   {
+    "text": "Have active temporomandibular joint disease;"
+   },
+   {
+    "text": "Have severe gastrointestinal disease (i.e. severe gastroparesis);"
+   },
+   {
+    "text": "Have previous history of pancreatitis or are at risk for pancreatitis;"
+   },
+   {
+    "text": "Have creatinine clearance (CrCl) < 30;"
+   },
+   {
+    "text": "Have any previous medically adverse reaction to study medications, nicotine, or menthol;"
+   },
+   {
+    "text": "Be pregnant or lactating or unwilling to provide a negative pregnancy test before study entry;"
+   },
+   {
+    "text": "Not using a reliable form of contraception (e.g., abstinence, birth control pills, intrauterine device, condoms, or spermicide);"
+   },
+   {
+    "text": "Have any illness which in the opinion of the primary investigator would preclude safe and/or successful completion of the study."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

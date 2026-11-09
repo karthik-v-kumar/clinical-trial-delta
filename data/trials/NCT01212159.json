@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": null,
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2015-09-25",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Temple University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Temple University"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -50,25 +50,25 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "Self Monitoring Lipid Analyzer",
    "other_names": [
     "Cardiochek"
-   ]
+   ],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "No self monitoring device",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Self Monitoring Lipid Analyzer",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Self Monitoring Lipid Analyzer"
-   ]
+   ],
+   "label": "Self Monitoring Lipid Analyzer",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -80,10 +80,10 @@
  "brief_summary": "The purpose of the study is to demonstrate that systematic self measurement of blood lipids reduces LDL cholesterol more effectively than standard care. The hypothesis is that cholesterol lowering medication adherence will be improved with self monitoring and reporting of frequent blood lipids and the percentage of patients achieving LDL goal will be greater than without home monitoring.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL \\> 130mg/dl\n\nExclusion Criteria:\n\n* Pregnant patients\n* liver disease\n* allergic reaction to statins",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -91,13 +91,13 @@
  },
  "sites": [
   {
-   "facility": "Temple University Hospital",
    "city": "Philadelphia",
-   "state": "Pennsylvania",
    "country": "United States",
-   "status": null,
+   "facility": "Temple University Hospital",
    "lat": 39.95238,
-   "lon": -75.16362
+   "lon": -75.16362,
+   "state": "Pennsylvania",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01212159",
@@ -109,6 +109,26 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "LDL > 130mg/dl"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant patients"
+   },
+   {
+    "text": "liver disease"
+   },
+   {
+    "text": "allergic reaction to statins"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

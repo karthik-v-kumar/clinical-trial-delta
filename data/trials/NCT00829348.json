@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "SINGLE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": [
    "CARE_PROVIDER"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Hillel Yaffe Medical Center",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Hillel Yaffe Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "OTHER",
    "name": "No intervention",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "BEHAVIORAL",
    "name": "Short Message Service (SMS)",
-   "other_names": []
+   "other_names": [],
+   "type": "BEHAVIORAL"
   }
  ],
  "arm_groups": [
   {
-   "label": "Statins, counseling",
-   "type": "NO_INTERVENTION",
    "intervention_names": [
     "Other: No intervention"
-   ]
+   ],
+   "label": "Statins, counseling",
+   "type": "NO_INTERVENTION"
   },
   {
-   "label": "Statins, Counselling, SMS",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Short Message Service (SMS)"
-   ]
+   ],
+   "label": "Statins, Counselling, SMS",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The objective of the study is to determine whether short text massages could be used successfully as a compliance aid and improve clinical outcomes in long term lipid lowering therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients discharged from the Intensive Cardiac Care Unit or the Internal Medicine Department following ACS who will be prescribed a statin for the first time for preventing further coronary episodes.\n* Patients in the ages of 18-80.\n* Patients who own mobile phone and are familiar with SMS technology and are able to read Hebrew text.\n\nExclusion Criteria:\n\n* Contra indication to study medication: active liver disease or elevated liver enzymes; hypersensitivity to Simvastatin; pregnancy and lactation.\n\nDeveloped Myopathy/Rhabodmyalisis during study period.\n\n* Developed increase in transaminases greater than 3 times the upper limit of normal.\n* Current lipid lowering treatment (statins or other).",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Hillel Yaffe medical center",
    "city": "Hadera",
-   "state": null,
    "country": "Israel",
-   "status": null,
+   "facility": "Hillel Yaffe medical center",
    "lat": 32.44192,
-   "lon": 34.9039
+   "lon": 34.9039,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00829348",
@@ -114,6 +114,35 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients discharged from the Intensive Cardiac Care Unit or the Internal Medicine Department following ACS who will be prescribed a statin for the first time for preventing further coronary episodes."
+   },
+   {
+    "text": "Patients in the ages of 18-80."
+   },
+   {
+    "text": "Patients who own mobile phone and are familiar with SMS technology and are able to read Hebrew text."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Contra indication to study medication: active liver disease or elevated liver enzymes; hypersensitivity to Simvastatin; pregnancy and lactation."
+   },
+   {
+    "text": "Developed Myopathy/Rhabodmyalisis during study period."
+   },
+   {
+    "text": "Developed increase in transaminases greater than 3 times the upper limit of normal."
+   },
+   {
+    "text": "Current lipid lowering treatment (statins or other)."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

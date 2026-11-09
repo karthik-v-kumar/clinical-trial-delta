@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "DOUBLE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2025-08-26",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Eli Lilly and Company",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Eli Lilly and Company"
  },
  "collaborators": [],
  "conditions": [
@@ -51,60 +51,60 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "Cohort 1: Placebo (BW >=50 kg)",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Tirzepatide"
+   ],
    "label": "Cohort 1: 2.5-5 mg Tirzepatide (BW >=50 kg)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Tirzepatide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Placebo"
+   ],
    "label": "Cohort 2: Placebo (BW <50 kg)",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Drug: Placebo"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: Tirzepatide"
+   ],
    "label": "Cohort 2: 1.25-2.5 mg Tirzepatide (BW <50 kg)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Tirzepatide"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Cohort 3: Placebo (BW 40 to 60 kg)",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Cohort 3: Placebo (BW 40 to 60 kg)",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Cohort 3: 2.5-5 mg Tirzepatide (BW 40 to 60 kg)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Cohort 3: 2.5-5 mg Tirzepatide (BW 40 to 60 kg)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -116,41 +116,41 @@
  "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of tirzepatide (LY3298176) in pediatric participants with obesity. The blood tests will be performed to investigate how the body processes the study drug in these participants. For each participant, the study will last about approximately 13 weeks excluding the screening period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male and female participants with body mass index (BMI) ≥ the 95th percentile for age and sex\n* Have failed to achieve adequate weight loss through lifestyle modification in the investigator's opinion\n* Female participants only: Determined as prepubertal Tanner Stage 1.\n\nExclusion Criteria:\n\n* Change in body weight above 5 kg (11 lbs) within 90 days before screening irrespective of medical records\n* Have obesity induced by other endocrinologic disorders (for example, Cushing syndrome) or diagnosed monogenetic or syndromic forms of obesity\n* Have acute or chronic pancreatitis or a history of acute idiopathic pancreatitis; or have other GI disorders\n* Have a known clinically significant gastric emptying, have undergone weight loss surgery such as gastric bypass (bariatric) surgery or restrictive bariatric surger, or have endoscopic or device-based therapy for obesity or have had device removal within the last 6 months.\n* Have confirmed type 1 or type 2 diabetes mellitus\n* Have a history or current cerebrovascular, respiratory, hepatic, renal, GI, endocrine, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; constituting a risk when taking the IP; or may interfere with the interpretation of data",
-  "sex": "ALL",
-  "minimum_age": "6 Years",
-  "maximum_age": "11 Years",
   "healthy_volunteers": false,
+  "maximum_age": "11 Years",
+  "minimum_age": "6 Years",
+  "sex": "ALL",
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "facility": "Atlanta Center of Medical Research",
    "city": "Atlanta",
-   "state": "Georgia",
    "country": "United States",
-   "status": null,
+   "facility": "Atlanta Center of Medical Research",
    "lat": 33.749,
-   "lon": -84.38798
+   "lon": -84.38798,
+   "state": "Georgia",
+   "status": null
   },
   {
-   "facility": "Lynn Health Science Institute",
    "city": "Oklahoma City",
-   "state": "Oklahoma",
    "country": "United States",
-   "status": null,
+   "facility": "Lynn Health Science Institute",
    "lat": 35.46756,
-   "lon": -97.51643
+   "lon": -97.51643,
+   "state": "Oklahoma",
+   "status": null
   },
   {
-   "facility": "Baylor College of Medicine",
    "city": "Houston",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Baylor College of Medicine",
    "lat": 29.76328,
-   "lon": -95.36327
+   "lon": -95.36327,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05696847",
@@ -165,6 +165,41 @@
  "sponsors_of_note": [
   "Eli Lilly"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male and female participants with body mass index (BMI) ≥ the 95th percentile for age and sex"
+   },
+   {
+    "text": "Have failed to achieve adequate weight loss through lifestyle modification in the investigator's opinion"
+   },
+   {
+    "text": "Female participants only: Determined as prepubertal Tanner Stage 1."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Change in body weight above 5 kg (11 lbs) within 90 days before screening irrespective of medical records"
+   },
+   {
+    "text": "Have obesity induced by other endocrinologic disorders (for example, Cushing syndrome) or diagnosed monogenetic or syndromic forms of obesity"
+   },
+   {
+    "text": "Have acute or chronic pancreatitis or a history of acute idiopathic pancreatitis; or have other GI disorders"
+   },
+   {
+    "text": "Have a known clinically significant gastric emptying, have undergone weight loss surgery such as gastric bypass (bariatric) surgery or restrictive bariatric surger, or have endoscopic or device-based therapy for obesity or have had device removal within the last 6 months."
+   },
+   {
+    "text": "Have confirmed type 1 or type 2 diabetes mellitus"
+   },
+   {
+    "text": "Have a history or current cerebrovascular, respiratory, hepatic, renal, GI, endocrine, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; constituting a risk when taking the IP; or may interfere with the interpretation of data"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "RWTH Aachen University",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "RWTH Aachen University"
  },
  "collaborators": [
   "Boehringer Ingelheim"
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Empagliflozin",
    "other_names": [
     "Jardiance"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Empagliofizin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin"
-   ]
+   ],
+   "label": "Empagliofizin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "SGLT2 inhibitors are a novel class of glucose lowering drugs that act in the kidney by inhibiting SGLT2-mediated glucose reabsorption in the proximal tubule. The resulting increase in urinary glucose excretion leads to a reduction in plasma glucose levels. This is accompanied by reduction of total body weight due to urinary energy loss. In addition, glucose dependent osmotic diuresis contributes to blood pressure lowering effects of SGLT2 inhibition.\n\nAim of the trial is to assess hemodynamic changes by empagliflozin, identify new empagliflozin dependent metabolic regulators and evaluate empagliflozin dependent effects on cardiac function.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes\n2. Serum levels of HbA1c ≥ 6.5 %, despite treatment with diet and glucose lowering agents, which should include metformin (unless intolerance or contraindication to metformin exists)\n3. Age ≥ 18 years\n4. Participants of child-bearing age should use adequate contraception\n5. Written informed consent prior to study participation\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. Systolic blood pressure ≥ 160 mmHg, diastolic blood pressure ≥ 90 mmHg\n3. Age ≥ 75 years\n4. Pregnancy or lactating females\n5. Urinary tract infections or significant formation of residual urine in medical history\n6. Renal impairment (GFR \\< 30 ml/min/1.73 m2)\n7. Liver disease (serum levels of AST, ALT or AP more than three times the upper limit of normal)\n8. Uncontrolled thyroid disease\n9. Endocrinopathies like Graves' disease, acromegaly, Cushing's disease\n10. Hypertensive retinopathy or encephalopathy\n11. Acute coronary syndrome, stroke or transient ischemic attack in last 6 weeks prior to randomization\n12. The subject is mentally or legally incapacitated\n13. The subject received an investigational drug within 30 days prior to inclusion into this study\n14. Patients with newly diagnosed diabetes, who have not been subjected to diet and glucose lowering drug treatment.\n15. Patients with particular risk for ketoacidosis (alcohol abuse, pancreatitis, pancreatic insulin deficiency from any cause, caloric restriction etc.) or ketoacidosis in the past\n16. Frequent hypoglycaemic events (in the opinion of the investigator)\n17. Patients in whom study participation is not deemed appropriate under consideration of clinical wellbeing by the principal investigator\n18. Intolerance to Empagliflozin and excipients in Empagliflozin or rather placebo\n19. Hypotension in the past (systolic blood pressure \\< 90 mmHg) in patients receiving treatment with blood lowering drugs\n20. Signs of exsiccosis\n21. Previous treatment with Empagliflozin in the past\n22. Critically ill patients (in the opinion of the investigator)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "75 Years",
   "healthy_volunteers": false,
+  "maximum_age": "75 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "facility": "Department of Internal Medicine I RWTH Aachen University Hospital",
    "city": "Aachen",
-   "state": "North Rhine-Westphalia",
    "country": "Germany",
-   "status": null,
+   "facility": "Department of Internal Medicine I RWTH Aachen University Hospital",
    "lat": 50.77664,
-   "lon": 6.08342
+   "lon": 6.08342,
+   "state": "North Rhine-Westphalia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03132181",
@@ -127,6 +127,95 @@
  "sponsors_of_note": [
   "Boehringer Ingelheim"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Serum levels of HbA1c ≥ 6.5 %, despite treatment with diet and glucose lowering agents, which should include metformin (unless intolerance or contraindication to metformin exists)"
+   },
+   {
+    "text": "Age ≥ 18 years"
+   },
+   {
+    "text": "Participants of child-bearing age should use adequate contraception"
+   },
+   {
+    "text": "Written informed consent prior to study participation"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 1 diabetes"
+   },
+   {
+    "text": "Systolic blood pressure ≥ 160 mmHg, diastolic blood pressure ≥ 90 mmHg"
+   },
+   {
+    "text": "Age ≥ 75 years"
+   },
+   {
+    "text": "Pregnancy or lactating females"
+   },
+   {
+    "text": "Urinary tract infections or significant formation of residual urine in medical history"
+   },
+   {
+    "text": "Renal impairment (GFR < 30 ml/min/1.73 m2)"
+   },
+   {
+    "text": "Liver disease (serum levels of AST, ALT or AP more than three times the upper limit of normal)"
+   },
+   {
+    "text": "Uncontrolled thyroid disease"
+   },
+   {
+    "text": "Endocrinopathies like Graves' disease, acromegaly, Cushing's disease"
+   },
+   {
+    "text": "Hypertensive retinopathy or encephalopathy"
+   },
+   {
+    "text": "Acute coronary syndrome, stroke or transient ischemic attack in last 6 weeks prior to randomization"
+   },
+   {
+    "text": "The subject is mentally or legally incapacitated"
+   },
+   {
+    "text": "The subject received an investigational drug within 30 days prior to inclusion into this study"
+   },
+   {
+    "text": "Patients with newly diagnosed diabetes, who have not been subjected to diet and glucose lowering drug treatment."
+   },
+   {
+    "text": "Patients with particular risk for ketoacidosis (alcohol abuse, pancreatitis, pancreatic insulin deficiency from any cause, caloric restriction etc.) or ketoacidosis in the past"
+   },
+   {
+    "text": "Frequent hypoglycaemic events (in the opinion of the investigator)"
+   },
+   {
+    "text": "Patients in whom study participation is not deemed appropriate under consideration of clinical wellbeing by the principal investigator"
+   },
+   {
+    "text": "Intolerance to Empagliflozin and excipients in Empagliflozin or rather placebo"
+   },
+   {
+    "text": "Hypotension in the past (systolic blood pressure < 90 mmHg) in patients receiving treatment with blood lowering drugs"
+   },
+   {
+    "text": "Signs of exsiccosis"
+   },
+   {
+    "text": "Previous treatment with Empagliflozin in the past"
+   },
+   {
+    "text": "Critically ill patients (in the opinion of the investigator)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

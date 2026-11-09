@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2022-08-25",
  "has_results": true,
  "lead_sponsor": {
-  "name": "The Cleveland Clinic",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "The Cleveland Clinic"
  },
  "collaborators": [],
  "conditions": [
@@ -50,48 +50,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Early Glargine",
    "other_names": [
     "lantus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Late Glargine",
    "other_names": [
     "lantus"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "IV insulin infusion",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   },
   {
-   "type": "OTHER",
    "name": "IV fluid and electrolytes replacement",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Early Glargine",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Early Glargine",
     "Other: IV insulin infusion",
     "Other: IV fluid and electrolytes replacement"
-   ]
+   ],
+   "label": "Early Glargine",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Standard practice (Late Glargine)",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Late Glargine",
     "Other: IV insulin infusion",
     "Other: IV fluid and electrolytes replacement"
-   ]
+   ],
+   "label": "Standard practice (Late Glargine)",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "Early Basal Insulin Administration in Adult Diabetic Ketoacidosis Management",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years old\n* Meet DKA definition (BG ≥ 250 mg/dl, Anion Gap \\> 12 mEq/L, and positive Ketones in serum or urine)\n* Having the capacity to sign Informed consent\n\nExclusion Criteria:\n\n* IV insulin infusion was initiated for more than 4 hours.\n* Persistent hypotension (SBP\\<80 mmHg despite receiving 1000cc normal saline).\n* Require Vasopressor\n* Acute Coronary Syndrome\n* Pregnant\n* End-stage renal disease\n* Unwilling to consent to participate in the trial\n* Currently under police custody\n* Transferred from another hospital\n* Require emergent surgery",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "facility": "Cleveland Clinic Fairview Hospital",
    "city": "Cleveland",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "Cleveland Clinic Fairview Hospital",
    "lat": 41.4995,
-   "lon": -81.69541
+   "lon": -81.69541,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04567225",
@@ -132,6 +132,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥ 18 years old"
+   },
+   {
+    "text": "Meet DKA definition (BG ≥ 250 mg/dl, Anion Gap > 12 mEq/L, and positive Ketones in serum or urine)"
+   },
+   {
+    "text": "Having the capacity to sign Informed consent"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "IV insulin infusion was initiated for more than 4 hours."
+   },
+   {
+    "text": "Persistent hypotension (SBP<80 mmHg despite receiving 1000cc normal saline)."
+   },
+   {
+    "text": "Require Vasopressor"
+   },
+   {
+    "text": "Acute Coronary Syndrome"
+   },
+   {
+    "text": "Pregnant"
+   },
+   {
+    "text": "End-stage renal disease"
+   },
+   {
+    "text": "Unwilling to consent to participate in the trial"
+   },
+   {
+    "text": "Currently under police custody"
+   },
+   {
+    "text": "Transferred from another hospital"
+   },
+   {
+    "text": "Require emergent surgery"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

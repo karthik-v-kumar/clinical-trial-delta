@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "JW Pharmaceutical",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "JW Pharmaceutical"
  },
  "collaborators": [],
  "conditions": [
@@ -52,43 +52,43 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Pitavastatin 4mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Ezetimibe 10 mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo (for Pitavastatin/Ezetimibe)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo (for Pitavastatin)",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Pitavastatin/Ezetimibe Combination",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pitavastatin 4mg",
     "Drug: Ezetimibe 10 mg",
     "Drug: Placebo (for Pitavastatin)"
-   ]
+   ],
+   "label": "Pitavastatin/Ezetimibe Combination",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Pitavastatin Monotherapy",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pitavastatin 4mg",
     "Drug: Placebo (for Pitavastatin/Ezetimibe)"
-   ]
+   ],
+   "label": "Pitavastatin Monotherapy",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "A multicenter, randomized, double-blind, phase Ⅳ study to evaluate the long-term efficacy and safety of Pitavastatin/Ezetimibe and Pitavastatin in patients with hypercholesterolemia with elevated triglycerides",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with hypercholesterolemia\n* Patients diagnosed with metabolic syndrome or type 2 diabetes mellitus, and presenting with elevated LDL-C\n\nExclusion Criteria:\n\n* New-onset acute cardio-cerebrovascular disease\n* Severe hepatic impairment\n* Active liver disease",
-  "sex": "ALL",
-  "minimum_age": "19 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "19 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "facility": "The Catholic University of Korea, Yeouido St. Mary's Hospital",
    "city": "Seoul",
-   "state": null,
    "country": "South Korea",
-   "status": null,
+   "facility": "The Catholic University of Korea, Yeouido St. Mary's Hospital",
    "lat": 37.566,
-   "lon": 126.9784
+   "lon": 126.9784,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07442630",
@@ -129,6 +129,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with hypercholesterolemia"
+   },
+   {
+    "text": "Patients diagnosed with metabolic syndrome or type 2 diabetes mellitus, and presenting with elevated LDL-C"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "New-onset acute cardio-cerebrovascular disease"
+   },
+   {
+    "text": "Severe hepatic impairment"
+   },
+   {
+    "text": "Active liver disease"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

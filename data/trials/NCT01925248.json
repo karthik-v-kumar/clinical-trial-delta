@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of California, Davis",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of California, Davis"
  },
  "collaborators": [
   "National Institutes of Health (NIH)",
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Whey protein",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Placebo group",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Whey protein group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Whey protein"
-   ]
+   ],
+   "label": "Whey protein group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Placebo group",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Placebo group"
-   ]
+   ],
+   "label": "Placebo group",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The purpose of this study is to investigate whether intake of protein supplement just before meals lowers the blood sugar levels after the meals. It is believe that pre-meal administration of a high-protein supplement can effectively improve glycemic control in type 2 diabetes (DM).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women with type 2 DM; age: 25 to 70y; BMI: 25 - 40 kg/m2; on no drug treatment or on metformin alone; HgBA1 6.5 - 8.5%; urinary microalbumin \\< 30 mg/g cr.\n\nExclusion Criteria:\n\n* Systemic disease (liver, renal, untreated hypothyroidism, etc); in the last 2 mo: \\> 5% weight change, smoking, alcohol intake \\> 4 /wk; restricted diets; medications or herbals affecting insulin secretion/sensitivity . Pregnant women, prisoners, individuals who cannot provide informed consent.",
-  "sex": "ALL",
-  "minimum_age": "25 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "25 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "facility": "Clinical and Translational Science Center Clinical Resources Center (CCRC)",
    "city": "Sacramento",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Clinical and Translational Science Center Clinical Resources Center (CCRC)",
    "lat": 38.58157,
-   "lon": -121.4944
+   "lon": -121.4944,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01925248",
@@ -119,6 +119,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Men and women with type 2 DM; age: 25 to 70y; BMI: 25 - 40 kg/m2; on no drug treatment or on metformin alone; HgBA1 6.5 - 8.5%; urinary microalbumin < 30 mg/g cr."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Systemic disease (liver, renal, untreated hypothyroidism, etc); in the last 2 mo: > 5% weight change, smoking, alcohol intake > 4 /wk; restricted diets; medications or herbals affecting insulin secretion/sensitivity . Pregnant women, prisoners, individuals who cannot provide informed consent."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Diabetes Care Center",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Diabetes Care Center"
  },
  "collaborators": [
   "Animas Corporation"
@@ -50,20 +50,20 @@
  ],
  "interventions": [
   {
-   "type": "DEVICE",
    "name": "CGMS with an insulin pump using rapid acting insulin",
    "other_names": [
     "Continuous Glucose Monitoring System (CGMS)"
-   ]
+   ],
+   "type": "DEVICE"
   }
  ],
  "arm_groups": [
   {
-   "label": "Insulin Treatment",
-   "type": "OTHER",
    "intervention_names": [
     "Device: CGMS with an insulin pump using rapid acting insulin"
-   ]
+   ],
+   "label": "Insulin Treatment",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -75,10 +75,10 @@
  "brief_summary": "The main purpose of this study is to determine the number of daily basal insulin rate changes that are needed to achieve short-term near normal glucose control in insulin pump patients with type 2 diabetes",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes \\> 3month duration\n* Age 18\n* Hb A1C \\<12%\n* On any hypoglycemic therapy including insulin for 5 patients and 5 patients naive to insulin and failing oral treatment\n* Normal creatine\n* Negative for GAD antibodies\n* SMBG \\>4/d and willing/able to comply with study requirements\n* Demonstrated adherence to visits and instructions.\n\nExclusion Criteria\n\n* Severe hypoglycemic during the last month\n* Severe cardiac, pulmonary or cerebral disease\n* Demonstrated non compliance with clinical recommendations\n* Pregnancy, nursing or women who could potentially become pregnant\n* Presence of physical, psychological or cognitive impairments that would interfere with adherence to an intensive insulin therapy program or compliance with dietary, diary keeping or maintenance of CGM sensor or pump",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -86,13 +86,13 @@
  },
  "sites": [
   {
-   "facility": "Diabetes Care Center",
    "city": "Salinas",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Diabetes Care Center",
    "lat": 36.67774,
-   "lon": -121.6555
+   "lon": -121.6555,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00874809",
@@ -104,6 +104,53 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes > 3month duration"
+   },
+   {
+    "text": "Age 18"
+   },
+   {
+    "text": "Hb A1C <12%"
+   },
+   {
+    "text": "On any hypoglycemic therapy including insulin for 5 patients and 5 patients naive to insulin and failing oral treatment"
+   },
+   {
+    "text": "Normal creatine"
+   },
+   {
+    "text": "Negative for GAD antibodies"
+   },
+   {
+    "text": "SMBG >4/d and willing/able to comply with study requirements"
+   },
+   {
+    "text": "Demonstrated adherence to visits and instructions."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe hypoglycemic during the last month"
+   },
+   {
+    "text": "Severe cardiac, pulmonary or cerebral disease"
+   },
+   {
+    "text": "Demonstrated non compliance with clinical recommendations"
+   },
+   {
+    "text": "Pregnancy, nursing or women who could potentially become pregnant"
+   },
+   {
+    "text": "Presence of physical, psychological or cognitive impairments that would interfere with adherence to an intensive insulin therapy program or compliance with dietary, diary keeping or maintenance of CGM sensor or pump"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

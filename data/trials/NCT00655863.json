@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2013-05-27",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Takeda",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Takeda"
  },
  "collaborators": [],
  "conditions": [
@@ -53,7 +53,6 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Alogliptin and Pioglitazone",
    "other_names": [
     "alogliptin",
@@ -61,47 +60,48 @@
     "Actos",
     "AD-4833",
     "SYR-322"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Alogliptin",
    "other_names": [
     "SYR110322",
     "SYR-322"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Actos",
     "AD-4833",
     "SYR-322"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo QD",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo QD",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Alogliptin 25 mg QD",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alogliptin"
-   ]
+   ],
+   "label": "Alogliptin 25 mg QD",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Alogliptin 25 mg QD + Pioglitazone 30 mg QD",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alogliptin and Pioglitazone"
-   ]
+   ],
+   "label": "Alogliptin 25 mg QD + Pioglitazone 30 mg QD",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -113,10 +113,10 @@
  "brief_summary": "The purpose of this study is to compare the efficacy of Alogliptin, once daily (QD), taken by itself and with pioglitazone on postprandial lipid measures in type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria\n\n* Diagnosis of type 2 diabetes\n* Females of childbearing potential who are sexually active must agree to use adequate contraception, and can neither be pregnant nor lactating from Screening throughout the duration of the study.\n* Either failed treatment with diet and exercise for 3 months prior to Screening or has been receiving a stable dose of metformin, sulfonylurea, nateglinide, or repaglinide for more than 3 months prior to Screening.\n* Inadequate glycemic control as defined by glycosylated hemoglobin concentration between 6.5 and 9.0%, inclusive.\n* Fasting plasma glucose less than 13.3 mmol per L.\n* Fasting serum triglyceride level of 1.7 to 5.0 mmol per L, inclusive.\n* Has not been receiving any lipid-lowering therapy within 3 months prior to Screening or on a stable statin and/or ezetimibe therapy (same drug and dose) for at least 3 months.\n* Body mass index greater than 23 kg/m2 and less than 45 kg/m2.\n* If has regular use of other, non-excluded medications, must be on a stable dose for at least 4 weeks prior to Screening. Use of as needed prescription medications and over-the-counter medications is allowed at the discretion of the investigator.\n* Is to be Apolipoprotein E 3/3 or Apolipoprotein E 3/4 phenotype positive prior to baseline.\n\nExclusion Criteria\n\n* History of type 1 diabetes.\n* History of drug abuse (defined as illicit drug use) or a history of alcohol abuse (defined as regular or daily consumption of more than 4 alcoholic drinks per day) within the past 2 years.\n* Diastolic blood pressure greater than 100 mm Hg or a systolic blood pressure of greater than 160 mm Hg.\n* History of cancer, other than basal cell carcinoma, that has not been in remission for at least 5 years prior to the first dose of study medication.\n* Hemoglobin less than 120 g per L for males and less than100 g per L for females.\n* Alanine transaminase level greater than 2.5 times the upper limit of normal, active liver disease, or jaundice.\n* Serum creatinine level greater than 133 μmol per L.\n* Fasting total cholesterol greater than 6.5 mmol per L.\n* New York Heart Association heart failure of any Class (I-IV) regardless of therapy.\n* History of coronary angioplasty, coronary stent placement, coronary bypass surgery, or myocardial infarction within 6 months prior to Screening.\n* History of acute metabolic diabetic complications.\n* History of any hemoglobinopathy that may affect determination of glycosylated hemoglobin.\n* History of infection with human immunodeficiency virus.\n* History of diabetic gastro paresis.\n* History of gastric bypass surgery.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -124,22 +124,22 @@
  },
  "sites": [
   {
-   "facility": null,
    "city": "Amsterdam",
-   "state": null,
    "country": "Netherlands",
-   "status": null,
+   "facility": null,
    "lat": 52.37403,
-   "lon": 4.88969
+   "lon": 4.88969,
+   "state": null,
+   "status": null
   },
   {
-   "facility": null,
    "city": "Gothenburg",
-   "state": null,
    "country": "Sweden",
-   "status": null,
+   "facility": null,
    "lat": 57.70716,
-   "lon": 11.96679
+   "lon": 11.96679,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00655863",
@@ -151,6 +151,89 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "Females of childbearing potential who are sexually active must agree to use adequate contraception, and can neither be pregnant nor lactating from Screening throughout the duration of the study."
+   },
+   {
+    "text": "Either failed treatment with diet and exercise for 3 months prior to Screening or has been receiving a stable dose of metformin, sulfonylurea, nateglinide, or repaglinide for more than 3 months prior to Screening."
+   },
+   {
+    "text": "Inadequate glycemic control as defined by glycosylated hemoglobin concentration between 6.5 and 9.0%, inclusive."
+   },
+   {
+    "text": "Fasting plasma glucose less than 13.3 mmol per L."
+   },
+   {
+    "text": "Fasting serum triglyceride level of 1.7 to 5.0 mmol per L, inclusive."
+   },
+   {
+    "text": "Has not been receiving any lipid-lowering therapy within 3 months prior to Screening or on a stable statin and/or ezetimibe therapy (same drug and dose) for at least 3 months."
+   },
+   {
+    "text": "Body mass index greater than 23 kg/m2 and less than 45 kg/m2."
+   },
+   {
+    "text": "If has regular use of other, non-excluded medications, must be on a stable dose for at least 4 weeks prior to Screening. Use of as needed prescription medications and over-the-counter medications is allowed at the discretion of the investigator."
+   },
+   {
+    "text": "Is to be Apolipoprotein E 3/3 or Apolipoprotein E 3/4 phenotype positive prior to baseline."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of type 1 diabetes."
+   },
+   {
+    "text": "History of drug abuse (defined as illicit drug use) or a history of alcohol abuse (defined as regular or daily consumption of more than 4 alcoholic drinks per day) within the past 2 years."
+   },
+   {
+    "text": "Diastolic blood pressure greater than 100 mm Hg or a systolic blood pressure of greater than 160 mm Hg."
+   },
+   {
+    "text": "History of cancer, other than basal cell carcinoma, that has not been in remission for at least 5 years prior to the first dose of study medication."
+   },
+   {
+    "text": "Hemoglobin less than 120 g per L for males and less than100 g per L for females."
+   },
+   {
+    "text": "Alanine transaminase level greater than 2.5 times the upper limit of normal, active liver disease, or jaundice."
+   },
+   {
+    "text": "Serum creatinine level greater than 133 μmol per L."
+   },
+   {
+    "text": "Fasting total cholesterol greater than 6.5 mmol per L."
+   },
+   {
+    "text": "New York Heart Association heart failure of any Class (I-IV) regardless of therapy."
+   },
+   {
+    "text": "History of coronary angioplasty, coronary stent placement, coronary bypass surgery, or myocardial infarction within 6 months prior to Screening."
+   },
+   {
+    "text": "History of acute metabolic diabetic complications."
+   },
+   {
+    "text": "History of any hemoglobinopathy that may affect determination of glycosylated hemoglobin."
+   },
+   {
+    "text": "History of infection with human immunodeficiency virus."
+   },
+   {
+    "text": "History of diabetic gastro paresis."
+   },
+   {
+    "text": "History of gastric bypass surgery."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

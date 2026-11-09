@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "BrightGene Bio-Medical Technology Co., Ltd.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "BrightGene Bio-Medical Technology Co., Ltd."
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "BGM0504",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Tirzepatide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "BGM0504",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: BGM0504"
-   ]
+   ],
+   "label": "BGM0504",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Tirzepatide",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ]
+   ],
+   "label": "Tirzepatide",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "To evaluate the efficacy and safety of BGM0504 compared with Tirzepatide in adult participants who have obesity without diabetes after 26 weeks of treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* ● Able and willing to provide a written informed consent.\n\n  * Male or female subjects, 18-65 years of age at the time of signing informed consent.\n  * At screening visit, 35.0 ﹤BMI﹤ 45.0 kg/m2;\n  * Diet and exercise control for at least 3 months before screening visit, and be of stable weight (± 5%) self-reported change within the last 3 months.\n\nExclusion Criteria:\n\n* ●History of chronic or acute pancreatitis.\n\n  * History of severe drug allergy or specific allergic disease or severe allergies.\n  * Family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2(MEN-2).\n  * History of malignant tumors \\[except carcinoma in situ with no recurrence within 5 years (except for malignant melanoma in situ), skin basal cell carcinoma and squamous cell carcinoma\\].\n  * Suspected or confirmed history of alcohol or drug abuse;\n  * Any chronic infections likely to interfere with study conduct or interpretation such as hepatitis B (HBV), hepatitis C (HCV), human immunodeficiency virus (HIV) or treponema pallidum (TP).\n  * Donation or loss of 400 mL or more of blood within 3 months prior to screening, or blood donation during screening or within 3 months after the end of the trial.\n  * Pregnant or lactating woman.\n  * Any disorder, unwillingness, or inability not covered by any of the other exclusion criteria, which in the Investigator's opinion, might jeopardize the participant's safety or compliance with the protocol.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "facility": "Peking University People's Hospital",
    "city": "Beijing",
-   "state": "Beijing Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Peking University People's Hospital",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": "Beijing Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06911203",
@@ -112,6 +112,35 @@
   "glp1-obesity-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "● Able and willing to provide a written informed consent.",
+    "sub_items": [
+     "Male or female subjects, 18-65 years of age at the time of signing informed consent.",
+     "At screening visit, 35.0 ﹤BMI﹤ 45.0 kg/m2;",
+     "Diet and exercise control for at least 3 months before screening visit, and be of stable weight (± 5%) self-reported change within the last 3 months."
+    ]
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "●History of chronic or acute pancreatitis.",
+    "sub_items": [
+     "History of severe drug allergy or specific allergic disease or severe allergies.",
+     "Family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2(MEN-2).",
+     "History of malignant tumors [except carcinoma in situ with no recurrence within 5 years (except for malignant melanoma in situ), skin basal cell carcinoma and squamous cell carcinoma].",
+     "Suspected or confirmed history of alcohol or drug abuse;",
+     "Any chronic infections likely to interfere with study conduct or interpretation such as hepatitis B (HBV), hepatitis C (HCV), human immunodeficiency virus (HIV) or treponema pallidum (TP).",
+     "Donation or loss of 400 mL or more of blood within 3 months prior to screening, or blood donation during screening or within 3 months after the end of the trial.",
+     "Pregnant or lactating woman.",
+     "Any disorder, unwillingness, or inability not covered by any of the other exclusion criteria, which in the Investigator's opinion, might jeopardize the participant's safety or compliance with the protocol."
+    ]
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2018-05-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Kathleen Dungan",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Kathleen Dungan"
  },
  "collaborators": [],
  "conditions": [
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "This is a randomized controlled trial to determine the safety and efficacy of Sitagliptin in patients with stress hyperglycemia or mild diabetes following cardiac surgery. Patients will receive Sitagliptin or placebo. Sitagliptin may be of particular use in this patient population due to the effects on hepatic glucose production (a major feature of SH), safety (lack of contra-indications for heart failure or renal failure and no hypoglycemia), and tolerability. The secondary objective of this study is to determine whether the management of patients with persistent insulin requirements following cardiac surgery differs among patients with stress hyperglycemia or mild diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Either of the following: Mild Diabetes Mellitus or Stress Hyperglycemia\n* AND:\n* Cardiac Surgery\n* Insulin Requirement between 8-30 units subcutaneous on post-op day 3 or later off pressors, off enteral feeding, extubated OR glucose \\>150 mg/dL at least twice in a 24 hour period (\\>4 hours apart) and otherwise not requiring basal insulin\n\nExclusion Criteria:\n\n* use of pressors, mechanical ventilation, or enteral or parenteral feeding within previous 12 hours\n* glucocorticoids in doses exceeding the equivalent of Prednisone 10 mg/day within the previous 48 hours\n* left ventricular assist device\n* percutaneous or laparoscopic surgery\n* end stage renal disease\n* end stage liver disease\n* history of pancreatitis\n* type 1 diabetes\n* pregnancy\n* unable to give consent in english\n* no phone\n* prisoners\n* less than 18 years of age",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "facility": "The Ohio State University Wexner Medical Center",
    "city": "Columbus",
-   "state": "Ohio",
    "country": "United States",
-   "status": null,
+   "facility": "The Ohio State University Wexner Medical Center",
    "lat": 39.96118,
-   "lon": -82.99879
+   "lon": -82.99879,
+   "state": "Ohio",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01970462",
@@ -120,6 +120,65 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Either of the following: Mild Diabetes Mellitus or Stress Hyperglycemia"
+   },
+   {
+    "text": "AND:"
+   },
+   {
+    "text": "Cardiac Surgery"
+   },
+   {
+    "text": "Insulin Requirement between 8-30 units subcutaneous on post-op day 3 or later off pressors, off enteral feeding, extubated OR glucose >150 mg/dL at least twice in a 24 hour period (>4 hours apart) and otherwise not requiring basal insulin"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "use of pressors, mechanical ventilation, or enteral or parenteral feeding within previous 12 hours"
+   },
+   {
+    "text": "glucocorticoids in doses exceeding the equivalent of Prednisone 10 mg/day within the previous 48 hours"
+   },
+   {
+    "text": "left ventricular assist device"
+   },
+   {
+    "text": "percutaneous or laparoscopic surgery"
+   },
+   {
+    "text": "end stage renal disease"
+   },
+   {
+    "text": "end stage liver disease"
+   },
+   {
+    "text": "history of pancreatitis"
+   },
+   {
+    "text": "type 1 diabetes"
+   },
+   {
+    "text": "pregnancy"
+   },
+   {
+    "text": "unable to give consent in english"
+   },
+   {
+    "text": "no phone"
+   },
+   {
+    "text": "prisoners"
+   },
+   {
+    "text": "less than 18 years of age"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

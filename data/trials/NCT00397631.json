@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-07-10",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "sitagliptin 100 mg q.d./pioglitazone 30 mg q.d",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: placebo to match sitagliptin 100 mg q.d./pioglitazone 30 mg q.d.",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin 100 mg q.d./pioglitazone 30 mg q.d"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: placebo to match sitagliptin 100 mg q.d./pioglitazone 30 mg q.d."
-   ]
+   ],
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "A clinical study to evaluate the safety and efficacy of the initial combination therapy with sitagliptin and pioglitazone in patients with type 2 diabetes mellitus not on treatment with insulin or oral antihyperglycemic therapy.",
  "eligibility": {
   "criteria": "General Inclusion Criteria:\n\n* Patients ≥18 years old with Type 2 Diabetes Mellitus (a specific type of diabetes)\n\nGeneral Exclusion Criteria:\n\n* Patient has a history of type 1 diabetes mellitus or history of ketoacidosis\n* Patient was on antihyperglycemic agent therapy (oral or insulin) within the prior 4 months\n* Patient was on \\>4 weeks (cumulatively) of antihyperglycemic therapy (oral or insulin) over the prior 2 years",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,6 +105,26 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients ≥18 years old with Type 2 Diabetes Mellitus (a specific type of diabetes)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has a history of type 1 diabetes mellitus or history of ketoacidosis"
+   },
+   {
+    "text": "Patient was on antihyperglycemic agent therapy (oral or insulin) within the prior 4 months"
+   },
+   {
+    "text": "Patient was on >4 weeks (cumulatively) of antihyperglycemic therapy (oral or insulin) over the prior 2 years"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

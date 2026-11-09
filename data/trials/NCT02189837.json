@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "TRIPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2016-08-31",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Amgen",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Amgen"
  },
  "collaborators": [],
  "conditions": [
@@ -52,63 +52,63 @@
  ],
  "interventions": [
   {
-   "type": "BIOLOGICAL",
    "name": "Evolocumab",
    "other_names": [
     "AMG 145",
     "Repatha"
-   ]
+   ],
+   "type": "BIOLOGICAL"
   },
   {
-   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "LIPITOR®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo to Evolocumab",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo to Atorvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to Evolocumab",
     "Drug: Placebo to Atorvastatin"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Atorvastatin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin",
     "Drug: Placebo to Evolocumab"
-   ]
+   ],
+   "label": "Atorvastatin",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Evolocumab",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: Evolocumab",
     "Drug: Placebo to Atorvastatin"
-   ]
+   ],
+   "label": "Evolocumab",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Evolocumab and Atorvastatin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: Evolocumab",
     "Drug: Atorvastatin"
-   ]
+   ],
+   "label": "Evolocumab and Atorvastatin",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "This is a randomized, double-blind, placebo-controlled trial to evaluate the effect of evolocumab, atorvastatin, and combination therapy on lipoprotein kinetics.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Fasting LDL-C at screening ≥ 100 mg/dL and ≤ 190 mg/dL\n* Fasting triglycerides ≤ 150 mg/dL\n* Body mass index (BMI) between 18.0 and 32.0 kg/m\\^2\n* Framingham cardiac risk score 10% or less\n\nExclusion Criteria:\n\n* Treatment with a lipid-regulating drug or over the counter supplement in the last 3 months prior to screening\n* History of coronary heart disease (CHD) or CHD equivalent\n* Uncontrolled hypertension\n* Diabetes mellitus",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": true,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,22 +131,22 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Adelaide",
-   "state": "South Australia",
    "country": "Australia",
-   "status": null,
+   "facility": "Research Site",
    "lat": -34.92866,
-   "lon": 138.59863
+   "lon": 138.59863,
+   "state": "South Australia",
+   "status": null
   },
   {
-   "facility": "Research Site",
    "city": "Nedlands",
-   "state": "Western Australia",
    "country": "Australia",
-   "status": null,
+   "facility": "Research Site",
    "lat": -31.98184,
-   "lon": 115.8073
+   "lon": 115.8073,
+   "state": "Western Australia",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02189837",
@@ -161,6 +161,38 @@
  "sponsors_of_note": [
   "Amgen"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Fasting LDL-C at screening ≥ 100 mg/dL and ≤ 190 mg/dL"
+   },
+   {
+    "text": "Fasting triglycerides ≤ 150 mg/dL"
+   },
+   {
+    "text": "Body mass index (BMI) between 18.0 and 32.0 kg/m^2"
+   },
+   {
+    "text": "Framingham cardiac risk score 10% or less"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Treatment with a lipid-regulating drug or over the counter supplement in the last 3 months prior to screening"
+   },
+   {
+    "text": "History of coronary heart disease (CHD) or CHD equivalent"
+   },
+   {
+    "text": "Uncontrolled hypertension"
+   },
+   {
+    "text": "Diabetes mellitus"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

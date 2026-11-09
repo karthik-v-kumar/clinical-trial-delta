@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Viking Therapeutics, Inc.",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Viking Therapeutics, Inc."
  },
  "collaborators": [],
  "conditions": [
@@ -51,44 +51,44 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "VK2735 Oral",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo Comparator",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo Assignment",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo Comparator"
-   ]
+   ],
+   "label": "Placebo Assignment",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Drug: VK2735 Oral"
+   ],
    "label": "Active Assignment (Dose 1)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: VK2735 Oral"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: VK2735 Oral"
+   ],
    "label": "Active Assignment (Dose 2)",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: VK2735 Oral"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Active Assignment (Dose 3)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: VK2735 Oral"
-   ]
+   ],
+   "label": "Active Assignment (Dose 3)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "This study is one of two planned Phase 3 studies to support the weight management indication for VK2735 Oral in obese (BMI ≥ 30 kg/m2) or overweight (BMI ≥ 27 kg/m2) adults with Type 2 Diabetes Mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age ≥18 years of age at the time of signing the informed consent.\n2. Body mass index (BMI) ≥ 27 kg/m2\n3. Have Type 2 Diabetes Mellitus according to the American Diabetes Association (See Section 12.5), with HbA1c ≥ 7% to ≤ 11% at screening, on stable therapy for the last 3 months prior to Screening. Participants with HbA1c between 6.5%-6.9% or 11.0%-11.5% are allowed to have a single HbA1c retesting to confirm eligibility. Type 2 Diabetes Mellitus may be treated with diet/exercise alone or any oral glycemic-lowering agent (as per local labeling), EXCEPT for amylin analogues or dipeptidyl peptidase 4 (DPP-4) inhibitors or GLP-1R agonists or dual GLP-1/ glucose-dependent insulinotropic polypeptide (GIP) receptor agonists.\n\nExclusion Criteria:\n\n1. History of or current clinically significant medical disorder that, in the opinion of the Investigator, does not support study participation\n2. Self-reported body weight change of 5% or more within 3 months of screening\n3. Have a prior or planned surgical treatment for obesity such as a gastric sleeve, lap band or any form of bariatric surgery (except for liposuction or abdominoplasty if performed \\>1 year prior to screening)\n4. Have or plan to have endoscopic and/or device-based therapy for obesity or have had device removal within the last 6 months prior to screening (such as mucosal ablation, gastric artery embolization, intragastric balloon, duodenal-jejunal endoluminal line)\n5. Have Type 1 Diabetes Mellitus, history of ketoacidosis or hyperosmolar state/coma or any other types of diabetes except Type 2 Diabetes Mellitus (T2DM)\n6. Have had 1 or more episodes of severe hypoglycemia and/or 1 or more episode of hypoglycemia unawareness within 6 months of screening\n\n   • Note: Severe hypoglycemia episodes should be considered when severe cognitive impairment requiring the assistance of another person occurs and the administration of carbohydrate, glucagon, or other resuscitative actions are required. Blood glucose (BG) measurements may not be available during such an event, but neurological recovery attributable to the restoration of BG to normal is considered sufficient evidence that the event was induced by a low BG concentration. If BG measurements are available, the levels associated with severe hypoglycemia are BG \\< 54 mg/dL.\n7. Have at least 2 confirmed fasting self-monitoring blood glucose (SMBG) values \\> 270 mg/dL (on 2 non-consecutive days) within 4 weeks prior to randomization\n8. Have non-proliferative diabetic retinopathy that requires acute treatment OR diabetic macular edema OR proliferative diabetic retinopathy identified during a dilated fundoscopy examination performed within 3 months of screening. Please see Section 7.6.\n9. Personal or family history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia type 2 (MEN2)\n10. History of acute or chronic pancreatitis\n11. Thyroid disease that is not controlled (Thyroid stimulating hormone (TSH) outside normal range by central lab at screening; one repetition during screening is allowed). Participants with previous history of partial/total thyroidectomy or hypothyroidism may be included, provided their hormone replacement dose has been stable for 3 months prior to screening.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -122,6 +122,59 @@
  "sponsors_of_note": [
   "Viking"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age ≥18 years of age at the time of signing the informed consent."
+   },
+   {
+    "text": "Body mass index (BMI) ≥ 27 kg/m2"
+   },
+   {
+    "text": "Have Type 2 Diabetes Mellitus according to the American Diabetes Association (See Section 12.5), with HbA1c ≥ 7% to ≤ 11% at screening, on stable therapy for the last 3 months prior to Screening. Participants with HbA1c between 6.5%-6.9% or 11.0%-11.5% are allowed to have a single HbA1c retesting to confirm eligibility. Type 2 Diabetes Mellitus may be treated with diet/exercise alone or any oral glycemic-lowering agent (as per local labeling), EXCEPT for amylin analogues or dipeptidyl peptidase 4 (DPP-4) inhibitors or GLP-1R agonists or dual GLP-1/ glucose-dependent insulinotropic polypeptide (GIP) receptor agonists."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of or current clinically significant medical disorder that, in the opinion of the Investigator, does not support study participation"
+   },
+   {
+    "text": "Self-reported body weight change of 5% or more within 3 months of screening"
+   },
+   {
+    "text": "Have a prior or planned surgical treatment for obesity such as a gastric sleeve, lap band or any form of bariatric surgery (except for liposuction or abdominoplasty if performed >1 year prior to screening)"
+   },
+   {
+    "text": "Have or plan to have endoscopic and/or device-based therapy for obesity or have had device removal within the last 6 months prior to screening (such as mucosal ablation, gastric artery embolization, intragastric balloon, duodenal-jejunal endoluminal line)"
+   },
+   {
+    "text": "Have Type 1 Diabetes Mellitus, history of ketoacidosis or hyperosmolar state/coma or any other types of diabetes except Type 2 Diabetes Mellitus (T2DM)"
+   },
+   {
+    "text": "Have had 1 or more episodes of severe hypoglycemia and/or 1 or more episode of hypoglycemia unawareness within 6 months of screening",
+    "sub_items": [
+     "Note: Severe hypoglycemia episodes should be considered when severe cognitive impairment requiring the assistance of another person occurs and the administration of carbohydrate, glucagon, or other resuscitative actions are required. Blood glucose (BG) measurements may not be available during such an event, but neurological recovery attributable to the restoration of BG to normal is considered sufficient evidence that the event was induced by a low BG concentration. If BG measurements are available, the levels associated with severe hypoglycemia are BG < 54 mg/dL."
+    ]
+   },
+   {
+    "text": "Have at least 2 confirmed fasting self-monitoring blood glucose (SMBG) values > 270 mg/dL (on 2 non-consecutive days) within 4 weeks prior to randomization"
+   },
+   {
+    "text": "Have non-proliferative diabetic retinopathy that requires acute treatment OR diabetic macular edema OR proliferative diabetic retinopathy identified during a dilated fundoscopy examination performed within 3 months of screening. Please see Section 7.6."
+   },
+   {
+    "text": "Personal or family history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia type 2 (MEN2)"
+   },
+   {
+    "text": "History of acute or chronic pancreatitis"
+   },
+   {
+    "text": "Thyroid disease that is not controlled (Thyroid stimulating hormone (TSH) outside normal range by central lab at screening; one repetition during screening is allowed). Participants with previous history of partial/total thyroidectomy or hypothyroidism may be included, provided their hormone replacement dose has been stable for 3 months prior to screening."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

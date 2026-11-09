@@ -14,8 +14,8 @@
  "design": {
   "allocation": null,
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University Hospital, Bonn",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University Hospital, Bonn"
  },
  "collaborators": [],
  "conditions": [
@@ -48,35 +48,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "simvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "simvastatin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [],
    "label": "No treatment",
-   "type": "NO_INTERVENTION",
-   "intervention_names": []
+   "type": "NO_INTERVENTION"
   },
   {
+   "intervention_names": [
+    "Drug: simvastatin"
+   ],
    "label": "simvastatin chronic",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: simvastatin"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "simvastatin acute-on-chronic",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: simvastatin"
-   ]
+   ],
+   "label": "simvastatin acute-on-chronic",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "3-Hydroxy-3-methylglutaryl coenzyme A-reductase inhibitors (statins) decrease apolipoprotein B-100-containing lipoproteins by increasing their fractional catabolic rates through low-density lipoproteins (LDL) receptor-mediated uptake. Their influence on hepatic secretion of these lipoproteins is controversial. The current study investigates whether simvastatin influences lipoprotein secretion.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Hypercholesterolemia\n\nExclusion Criteria:\n\n* Obesity\n* Treatment with lipid-lowering drugs",
-  "sex": "MALE",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": true,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "MALE",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "facility": "University of Bonn",
    "city": "Bonn",
-   "state": null,
    "country": "Germany",
-   "status": null,
+   "facility": "University of Bonn",
    "lat": 50.73438,
-   "lon": 7.09549
+   "lon": 7.09549,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00905541",
@@ -117,6 +117,23 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Hypercholesterolemia"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Obesity"
+   },
+   {
+    "text": "Treatment with lipid-lowering drugs"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

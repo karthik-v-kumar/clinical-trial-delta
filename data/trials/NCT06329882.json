@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Mostafa Bahaa",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Mostafa Bahaa"
  },
  "collaborators": [],
  "conditions": [
@@ -49,31 +49,31 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin 100mg",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Doxycyclin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "control group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin 100mg"
-   ]
+   ],
+   "label": "control group",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Comparative group",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin 100mg",
     "Drug: Doxycyclin"
-   ]
+   ],
+   "label": "Comparative group",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -89,23 +89,23 @@
  "brief_summary": "Type 2 diabetes mellitus (T2DM) is a chronic metabolic disease characterized by hyperglycemia, weight loss, and cardio-metabolic complications. T2DM develops due to the progression of insulin resistance (IR), impairment of insulin insensitivity, and failure of the pancreatic β-cells to release sufficient amount of insulin in response to glucose burden",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female sex more than 40 years old Newly diagnosed type II diabetes. HbA1c more than 6.5\n\nExclusion Criteria:\n\n* Patient with chronic kidney disease, hepatic disorders, mental and psychiatric disorders, pregnancy, and lactation",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Tanta Unuversity",
    "city": "Tanta",
-   "state": null,
    "country": "Egypt",
-   "status": null,
+   "facility": "Tanta Unuversity",
    "lat": 30.78847,
-   "lon": 31.00192
+   "lon": 31.00192,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06329882",
@@ -117,6 +117,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female sex more than 40 years old Newly diagnosed type II diabetes. HbA1c more than 6.5"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient with chronic kidney disease, hepatic disorders, mental and psychiatric disorders, pregnancy, and lactation"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

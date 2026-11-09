@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [],
  "conditions": [
@@ -48,39 +48,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "AZD1656",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Digoxin",
    "other_names": [
     "Digacin"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "1",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD1656",
     "Drug: Digoxin"
-   ]
+   ],
+   "label": "1",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Digoxin",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The purpose of this study is to determine whether AZD1656 will affect the pharmacokinetics (PK) of digoxin in type 2 diabetes mellitus (T2DM) patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with confirmed type 2 diabetes for at least 1 year and treated with metformin as a single treatment or in combination with one other oral anti diabetic for at least 2 months prior to screening.\n* Body mass index between ≥19 and ≤42 kg/m2.\n* Haemoglobin (Hb) A1c ≥6.5% and ≤9.5% at enrolment.\n\nExclusion Criteria:\n\n* History of cardiovascular disease, eg, left ventricular hypertrophy, uncontrolled hypertension, paroxysmal or persistent cardiac arrhythmia or ischemic heart disease.\n* Systolic blood pressure \\>160 mmHg or diastolic blood pressure \\>95 mmHg at screening\n* Use of amiodarone within 3 months prior to screening and the use of potent CYP450 inhibitors",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "Chula Vista",
-   "state": "California",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 32.64005,
-   "lon": -117.0842
+   "lon": -117.0842,
+   "state": "California",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01103622",
@@ -124,6 +124,32 @@
  "sponsors_of_note": [
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients with confirmed type 2 diabetes for at least 1 year and treated with metformin as a single treatment or in combination with one other oral anti diabetic for at least 2 months prior to screening."
+   },
+   {
+    "text": "Body mass index between ≥19 and ≤42 kg/m2."
+   },
+   {
+    "text": "Haemoglobin (Hb) A1c ≥6.5% and ≤9.5% at enrolment."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of cardiovascular disease, eg, left ventricular hypertrophy, uncontrolled hypertension, paroxysmal or persistent cardiac arrhythmia or ischemic heart disease."
+   },
+   {
+    "text": "Systolic blood pressure >160 mmHg or diastolic blood pressure >95 mmHg at screening"
+   },
+   {
+    "text": "Use of amiodarone within 3 months prior to screening and the use of potent CYP450 inhibitors"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

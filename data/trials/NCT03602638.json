@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "SINGLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Chinese PLA General Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Chinese PLA General Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Acarbose",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ]
+   ],
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "CONTROL",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Acarbose"
-   ]
+   ],
+   "label": "CONTROL",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "This study was to investigate the Effect of Sitagliptin, a dipeptidyl peptidase-4 inhibitor, on progression of coronary atherosclerosis in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients \\> 18, \\< 80 years old, with type 2 diabetes mellitus and coronary heart disease.\n\nExclusion Criteria:\n\n* Allergy or hypersensitivity to any of the drug's components. Severe liver failure, moderate or severe kidney failure Malignant disease. Active infectious disease. Pregnancy or breastfeeding.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": true,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,6 +104,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patients > 18, < 80 years old, with type 2 diabetes mellitus and coronary heart disease."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Allergy or hypersensitivity to any of the drug's components. Severe liver failure, moderate or severe kidney failure Malignant disease. Active infectious disease. Pregnancy or breastfeeding."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

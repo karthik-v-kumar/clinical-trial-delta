@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2011-01-20",
  "has_results": true,
  "lead_sponsor": {
-  "name": "AstraZeneca",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "AstraZeneca"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -53,48 +53,48 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "exenatide",
    "other_names": [
     "Byetta"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "sitagliptin",
    "other_names": [
     "Januvia"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sequence A",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide",
     "Drug: sitagliptin",
     "Drug: placebo"
-   ]
+   ],
+   "label": "Sequence A",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Sequence B",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide",
     "Drug: sitagliptin",
     "Drug: placebo"
-   ]
+   ],
+   "label": "Sequence B",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "This study is designed to compare the short-term effects and mechanisms of action of exenatide with those of sitagliptin when either is added to an oral agent(metformin or a thiazolidinedione \\[TZD\\]) in adult patients with type 2 diabetes mellitus(T2DM) with inadequate glycemic control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have type 2 diabetes\n* Has HbA1c 7.0% to 11.0%, at or within 4 weeks prior to Visit 1.\n* Have a fasting glucose concentration \\<280 mg/dL at Visit 1\n* Have been treated with a stable dose of immediate or extended release metformin for at least 60 days prior to screening OR TZD (rosiglitazone or pioglitazone) for at least 120 days prior to screening.\n* Are between 18 and 70 years of age, inclusive.\n* Have body mass index ≥25 kg/m2 and ≤45 kg/m2.\n* Have a history of stable body weight (not varying by \\>10% for at least 3 months prior to screening).\n* Can swallow oral study drug capsule, without splitting or crushing.\n\nExclusion Criteria:\n\n* Female patients of childbearing potential (not surgically sterilized and between menarche and 1 year postmenopause) who meet any of the following criteria:\n\n  * Are breastfeeding.\n  * Test positive for pregnancy at the time of screening.\n  * Intend to become pregnant during the study.\n  * Have not practiced a reliable method of birth control (for example, use of oral contraceptives or Norplant®; diaphragms with contraceptive jelly; cervical caps with contraceptive jelly; condoms with contraceptive foam; intrauterine devices; partner with vasectomy; or abstinence) for 3 months prior to screening.\n* Treated with any of the following medications:\n\n  * Insulin, exenatide, pramlintide, sulfonylureas or meglitinides within 3 months of screening\n  * Alpha-glucosidase inhibitor within 2 months of screening.\n  * Drugs that directly affect gastrointestinal motility, including, but not limited to metoclopramide, cisapride, and chronic macrolide antibiotics.\n  * Use of a drug for weight loss (for example, prescription drugs such as orlistat, sibutramine, phentermine, or similar over-the-counter medications) within 3 months prior to Visit 1.\n  * Systemic corticosteroids by oral, intravenous, or intramuscular route within 2 months of screening.\n* Have a history of renal transplantation or are currently receiving renal dialysis.\n* Have obvious clinical signs or symptoms of liver disease or acute or chronic hepatitis.\n* Have known active proliferative retinopathy or macular edema expected to need treatment with focal photocoagulation within 3 months.\n* Have an active or untreated malignancy, or have been in remission from clinically significant malignancy (other than basal cell or squamous cell skin cancer, in situ carcinomas of the cervix, or in situ prostate cancer) for less than 5 years.\n* Have had organ transplantation.\n* Have received GLP-1 analogs other than exenatide or DPP-4 inhibitors within the previous 3 months.\n* Have received treatment within the last 30 days with a drug that has not received regulatory approval for any indication at the time of study entry.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,13 +117,13 @@
  },
  "sites": [
   {
-   "facility": "Research Site",
    "city": "San Antonio",
-   "state": "Texas",
    "country": "United States",
-   "status": null,
+   "facility": "Research Site",
    "lat": 29.42412,
-   "lon": -98.49363
+   "lon": -98.49363,
+   "state": "Texas",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00729326",
@@ -139,6 +139,78 @@
   "Eli Lilly",
   "AstraZeneca"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Have type 2 diabetes"
+   },
+   {
+    "text": "Has HbA1c 7.0% to 11.0%, at or within 4 weeks prior to Visit 1."
+   },
+   {
+    "text": "Have a fasting glucose concentration <280 mg/dL at Visit 1"
+   },
+   {
+    "text": "Have been treated with a stable dose of immediate or extended release metformin for at least 60 days prior to screening OR TZD (rosiglitazone or pioglitazone) for at least 120 days prior to screening."
+   },
+   {
+    "text": "Are between 18 and 70 years of age, inclusive."
+   },
+   {
+    "text": "Have body mass index ≥25 kg/m2 and ≤45 kg/m2."
+   },
+   {
+    "text": "Have a history of stable body weight (not varying by >10% for at least 3 months prior to screening)."
+   },
+   {
+    "text": "Can swallow oral study drug capsule, without splitting or crushing."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Female patients of childbearing potential (not surgically sterilized and between menarche and 1 year postmenopause) who meet any of the following criteria:",
+    "sub_items": [
+     "Are breastfeeding.",
+     "Test positive for pregnancy at the time of screening.",
+     "Intend to become pregnant during the study.",
+     "Have not practiced a reliable method of birth control (for example, use of oral contraceptives or Norplant®; diaphragms with contraceptive jelly; cervical caps with contraceptive jelly; condoms with contraceptive foam; intrauterine devices; partner with vasectomy; or abstinence) for 3 months prior to screening."
+    ]
+   },
+   {
+    "text": "Treated with any of the following medications:",
+    "sub_items": [
+     "Insulin, exenatide, pramlintide, sulfonylureas or meglitinides within 3 months of screening",
+     "Alpha-glucosidase inhibitor within 2 months of screening.",
+     "Drugs that directly affect gastrointestinal motility, including, but not limited to metoclopramide, cisapride, and chronic macrolide antibiotics.",
+     "Use of a drug for weight loss (for example, prescription drugs such as orlistat, sibutramine, phentermine, or similar over-the-counter medications) within 3 months prior to Visit 1.",
+     "Systemic corticosteroids by oral, intravenous, or intramuscular route within 2 months of screening."
+    ]
+   },
+   {
+    "text": "Have a history of renal transplantation or are currently receiving renal dialysis."
+   },
+   {
+    "text": "Have obvious clinical signs or symptoms of liver disease or acute or chronic hepatitis."
+   },
+   {
+    "text": "Have known active proliferative retinopathy or macular edema expected to need treatment with focal photocoagulation within 3 months."
+   },
+   {
+    "text": "Have an active or untreated malignancy, or have been in remission from clinically significant malignancy (other than basal cell or squamous cell skin cancer, in situ carcinomas of the cervix, or in situ prostate cancer) for less than 5 years."
+   },
+   {
+    "text": "Have had organ transplantation."
+   },
+   {
+    "text": "Have received GLP-1 analogs other than exenatide or DPP-4 inhibitors within the previous 3 months."
+   },
+   {
+    "text": "Have received treatment within the last 30 days with a drug that has not received regulatory approval for any indication at the time of study entry."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

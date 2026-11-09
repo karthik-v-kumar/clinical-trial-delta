@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "masking": "QUADRUPLE",
+  "primary_purpose": "HEALTH_SERVICES_RESEARCH",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -45,8 +45,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Han Xu, M.D., Ph.D., FAPCR, Medical Director,, IRB Chair",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Han Xu, M.D., Ph.D., FAPCR, Medical Director,, IRB Chair"
  },
  "collaborators": [
   "UnitedHealthcare"
@@ -56,34 +56,34 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Farxiga® (dapagliflozin) + Onglyza® (saxagliptin) + Metformin Oral Mix Treat type 2 diabetes",
    "other_names": [
     "The usual approach group Oral Mix Treat type 2 diabetes"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "China Import (dapagliflozin) + China Import (saxagliptin) + Metformin Oral Mix Treat type 2 diabetes",
    "other_names": [
     "The study approach group Oral Mix Treat type 2 diabetes"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Farxiga® (dapagliflozin) 10 mg, Onglyza® (saxagliptin) 5 mg, Metformin 500 mg, Oral Mix",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Farxiga® (dapagliflozin) + Onglyza® (saxagliptin) + Metformin Oral Mix Treat type 2 diabetes"
-   ]
+   ],
+   "label": "Farxiga® (dapagliflozin) 10 mg, Onglyza® (saxagliptin) 5 mg, Metformin 500 mg, Oral Mix",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "China Import (dapagliflozin) 10 mg, China Import (saxagliptin) 5 mg, Metformin 500 mg, Oral Mix",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: China Import (dapagliflozin) + China Import (saxagliptin) + Metformin Oral Mix Treat type 2 diabetes"
-   ]
+   ],
+   "label": "China Import (dapagliflozin) 10 mg, China Import (saxagliptin) 5 mg, Metformin 500 mg, Oral Mix",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -111,23 +111,23 @@
  "brief_summary": "Use Dapagliflozin 10 mg, Saxagliptin 5 mg, Metformin 500 mg treat type 2 diabetes patients with controlled cancers",
  "eligibility": {
   "criteria": "* Select 600 type 2 diabetes patients with controlled cancers.\n* Dosage Duration at least 90 days\n\nInclusion Criteria:\n\n* 1\\. Clinical diagnosis of type 2 diabetes\n* 2\\. Controlled cancers\n* 3\\. Suitable for enough blood-drawing\n* 4\\. Random and double blind\n* 5\\. Measurable disease\n* 6\\. Adequate organ functions\n* 7\\. Adequate performance status\n* 8\\. Age 24 years old and over\n* 9\\. Sign an informed consent form\n* 10\\. Receive blood-drawing\n\nExclusion Criteria:\n\n* 1\\. Uncontrolled cancers\n* 2\\. Pregnancy\n* 3\\. Breast-feeding\n* 4\\. The patients with other serious intercurrent illness or infectious diseases\n* 5\\. The participating patients have serious side effects.\n* 6\\. Serious Allergy to Drugs\n* 7\\. Thrombus or Bleed Tendency\n* 8\\. Serious Risks or Serious Adverse Events of the drug product\n* 9\\. The prohibition of drug products\n* 10\\. Have no therapeutic effects",
-  "sex": "ALL",
-  "minimum_age": "24 Years",
-  "maximum_age": "64 Years",
   "healthy_volunteers": false,
+  "maximum_age": "64 Years",
+  "minimum_age": "24 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Medicine Invention Design, Inc. - IORG0007849 - NPI-1023387701",
    "city": "Rockville",
-   "state": "Maryland",
    "country": "United States",
-   "status": null,
+   "facility": "Medicine Invention Design, Inc. - IORG0007849 - NPI-1023387701",
    "lat": 39.084,
-   "lon": -77.15276
+   "lon": -77.15276,
+   "state": "Maryland",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07033585",
@@ -139,6 +139,77 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "1. Clinical diagnosis of type 2 diabetes"
+   },
+   {
+    "text": "2. Controlled cancers"
+   },
+   {
+    "text": "3. Suitable for enough blood-drawing"
+   },
+   {
+    "text": "4. Random and double blind"
+   },
+   {
+    "text": "5. Measurable disease"
+   },
+   {
+    "text": "6. Adequate organ functions"
+   },
+   {
+    "text": "7. Adequate performance status"
+   },
+   {
+    "text": "8. Age 24 years old and over"
+   },
+   {
+    "text": "9. Sign an informed consent form"
+   },
+   {
+    "text": "10. Receive blood-drawing"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "1. Uncontrolled cancers"
+   },
+   {
+    "text": "2. Pregnancy"
+   },
+   {
+    "text": "3. Breast-feeding"
+   },
+   {
+    "text": "4. The patients with other serious intercurrent illness or infectious diseases"
+   },
+   {
+    "text": "5. The participating patients have serious side effects."
+   },
+   {
+    "text": "6. Serious Allergy to Drugs"
+   },
+   {
+    "text": "7. Thrombus or Bleed Tendency"
+   },
+   {
+    "text": "8. Serious Risks or Serious Adverse Events of the drug product"
+   },
+   {
+    "text": "9. The prohibition of drug products"
+   },
+   {
+    "text": "10. Have no therapeutic effects"
+   }
+  ],
+  "notes": [
+   "Select 600 type 2 diabetes patients with controlled cancers.",
+   "Dosage Duration at least 90 days"
+  ]
+ },
  "in_watchlist": true,
  "history": []
 }

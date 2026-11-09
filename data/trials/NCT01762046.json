@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "primary_purpose": "BASIC_SCIENCE",
   "masking": "NONE",
+  "primary_purpose": "BASIC_SCIENCE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-05-01",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Massachusetts General Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Massachusetts General Hospital"
  },
  "collaborators": [
   "Brigham and Women's Hospital",
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Glipizide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "OTHER",
    "name": "Oral Glucose Tolerance Test",
-   "other_names": []
+   "other_names": [],
+   "type": "OTHER"
   }
  ],
  "arm_groups": [
   {
-   "label": "Glipizide and Metformin",
-   "type": "OTHER",
    "intervention_names": [
     "Drug: Glipizide",
     "Drug: Metformin",
     "Other: Oral Glucose Tolerance Test"
-   ]
+   ],
+   "label": "Glipizide and Metformin",
+   "type": "OTHER"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The SUGAR-MGH investigators are studying the influence of inherited gene variants on the response to two commonly prescribed type 2 diabetes medications, metformin and glipizide. They hypothesize that variants in genes that are associated with type 2 diabetes or related traits may impact the effect of anti-diabetic medications. In addition, physiological responses to an insulin secretagogue or an insulin sensitizer may shed light on the mechanism of action of reported genetic associations.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or non-pregnant female \\> 18 years of age\n* Investigators will target preferentially people at risk of diabetes or requiring diabetes meds\n* The first tier of risk will be illustrated by one of the following variables (e.g. established type 2 diabetes on diet therapy alone, elevated random glucose in electronic medical record, PCOS, metabolic syndrome, obesity, history of gestational diabetes, etc.)\n* The second tier of risk will be illustrated by other features that correlate with diabetes risk, such as a history of hypertension or dyslipidemia\n* Otherwise healthy subjects may also be candidates for the study.\n* Able and willing to give consent relevant to genetic investigation\n\nExclusion Criteria:\n\n* Pregnant, nursing or at risk of becoming pregnant\n* Currently taking any medications for the treatment of diabetes\n* Currently on metformin for any other indication (e.g. PCOS)\n* Onset of diabetes in a family member before age 25, with autosomal transmission of diabetes across three generations\n* History of liver or kidney disease\n* Known severe allergic reactions to sulfonamides\n* History of porphyria\n* Documented estimated glomerular filtration rate (GFR) \\< 60 ml/min/1.73 m2, based on the most recent serum creatinine measurement available in the electronic medical record, and calculated by the Modification of Diet in Renal Disease equation (49) available at http://www.nephron.com/cgi-bin/MDRD\\_GFR.cgi\n* Currently taking medications known to affect glycemic parameters, such as glucocorticoids, growth hormone or fluoroquinolones\n* Planned radiologic or angiographic study requiring contrast within one week of completion of this study\n* Established coronary artery disease (CAD), defined as:\n* History of myocardial infarction.\n* History of revascularization (coronary artery bypass grafting, percutaneous coronary intervention (e.g. stenting or balloon angioplasty).\n* Evidence of ischemia on cardiac stress test.\n* Enrolled in any other interventional study at time of screening through completion of study protocol\n* History of bariatric surgery\n* History of seizures\n* History of stroke/CVA",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "85 Years",
   "healthy_volunteers": true,
+  "maximum_age": "85 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,31 +110,31 @@
  },
  "sites": [
   {
+   "city": "Boston",
+   "country": "United States",
    "facility": "Brigham and Women's Hospital",
-   "city": "Boston",
-   "state": "Massachusetts",
-   "country": "United States",
-   "status": null,
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   },
   {
+   "city": "Boston",
+   "country": "United States",
    "facility": "Joslin Diabetes Center",
-   "city": "Boston",
-   "state": "Massachusetts",
-   "country": "United States",
-   "status": null,
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   },
   {
-   "facility": "Massachusetts General Hospital",
    "city": "Boston",
-   "state": "Massachusetts",
    "country": "United States",
-   "status": null,
+   "facility": "Massachusetts General Hospital",
    "lat": 42.35843,
-   "lon": -71.05977
+   "lon": -71.05977,
+   "state": "Massachusetts",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01762046",
@@ -146,6 +146,86 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or non-pregnant female > 18 years of age"
+   },
+   {
+    "text": "Investigators will target preferentially people at risk of diabetes or requiring diabetes meds"
+   },
+   {
+    "text": "The first tier of risk will be illustrated by one of the following variables (e.g. established type 2 diabetes on diet therapy alone, elevated random glucose in electronic medical record, PCOS, metabolic syndrome, obesity, history of gestational diabetes, etc.)"
+   },
+   {
+    "text": "The second tier of risk will be illustrated by other features that correlate with diabetes risk, such as a history of hypertension or dyslipidemia"
+   },
+   {
+    "text": "Otherwise healthy subjects may also be candidates for the study."
+   },
+   {
+    "text": "Able and willing to give consent relevant to genetic investigation"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Pregnant, nursing or at risk of becoming pregnant"
+   },
+   {
+    "text": "Currently taking any medications for the treatment of diabetes"
+   },
+   {
+    "text": "Currently on metformin for any other indication (e.g. PCOS)"
+   },
+   {
+    "text": "Onset of diabetes in a family member before age 25, with autosomal transmission of diabetes across three generations"
+   },
+   {
+    "text": "History of liver or kidney disease"
+   },
+   {
+    "text": "Known severe allergic reactions to sulfonamides"
+   },
+   {
+    "text": "History of porphyria"
+   },
+   {
+    "text": "Documented estimated glomerular filtration rate (GFR) < 60 ml/min/1.73 m2, based on the most recent serum creatinine measurement available in the electronic medical record, and calculated by the Modification of Diet in Renal Disease equation (49) available at http://www.nephron.com/cgi-bin/MDRD_GFR.cgi"
+   },
+   {
+    "text": "Currently taking medications known to affect glycemic parameters, such as glucocorticoids, growth hormone or fluoroquinolones"
+   },
+   {
+    "text": "Planned radiologic or angiographic study requiring contrast within one week of completion of this study"
+   },
+   {
+    "text": "Established coronary artery disease (CAD), defined as:"
+   },
+   {
+    "text": "History of myocardial infarction."
+   },
+   {
+    "text": "History of revascularization (coronary artery bypass grafting, percutaneous coronary intervention (e.g. stenting or balloon angioplasty)."
+   },
+   {
+    "text": "Evidence of ischemia on cardiac stress test."
+   },
+   {
+    "text": "Enrolled in any other interventional study at time of screening through completion of study protocol"
+   },
+   {
+    "text": "History of bariatric surgery"
+   },
+   {
+    "text": "History of seizures"
+   },
+   {
+    "text": "History of stroke/CVA"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

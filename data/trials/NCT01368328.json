@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "QUADRUPLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Universidade Federal de Goias",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Universidade Federal de Goias"
  },
  "collaborators": [],
  "conditions": [
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Chromium nicotinate",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Dietary Supplement: Chromium nicotinate"
+   ],
    "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
-   "intervention_names": [
-    "Dietary Supplement: Chromium nicotinate"
-   ]
+   "type": "PLACEBO_COMPARATOR"
   },
   {
+   "intervention_names": [
+    "Dietary Supplement: Chromium nicotinate"
+   ],
    "label": "Chromium nicotinate 50 mcg",
-   "type": "ACTIVE_COMPARATOR",
-   "intervention_names": [
-    "Dietary Supplement: Chromium nicotinate"
-   ]
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Chromium nicotinate 200 mcg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Chromium nicotinate"
-   ]
+   ],
+   "label": "Chromium nicotinate 200 mcg",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -90,23 +90,23 @@
  "brief_summary": "The role of micronutrients in diabetes is not well understood. Studies have demonstrated the relationship between low chromium serum levels and insulin resistance. This study aims to evaluate the effect of chromium nicotinate on increasing insulin sensitivity in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Body mass index \\> 25 kg/m2\n* Increased waist circumference\n\nExclusion Criteria:\n\n* Subjects on insulin\n* Pregnancy\n* Patients with chronic complications as heart disease, nephropathy, retinopathy",
-  "sex": "ALL",
-  "minimum_age": "30 Years",
-  "maximum_age": "60 Years",
   "healthy_volunteers": false,
+  "maximum_age": "60 Years",
+  "minimum_age": "30 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "facility": "Goiania Municipal Health Departament",
    "city": "Goiânia",
-   "state": "Goiás",
    "country": "Brazil",
-   "status": null,
+   "facility": "Goiania Municipal Health Departament",
    "lat": -16.67861,
-   "lon": -49.25389
+   "lon": -49.25389,
+   "state": "Goiás",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01368328",
@@ -118,6 +118,32 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Body mass index > 25 kg/m2"
+   },
+   {
+    "text": "Increased waist circumference"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Subjects on insulin"
+   },
+   {
+    "text": "Pregnancy"
+   },
+   {
+    "text": "Patients with chronic complications as heart disease, nephropathy, retinopathy"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

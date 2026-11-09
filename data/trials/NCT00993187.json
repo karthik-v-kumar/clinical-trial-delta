@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2014-09-15",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,46 +51,46 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin/Metformin FDC",
    "other_names": [
     "Janumet®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Comparator: Glimepiride",
    "other_names": [
     "Amaryl®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching placebo to Sitagliptin/Metformin FDC",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Matching placebo to glimepiride",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Sitagliptin/Metformin FDC",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin/Metformin FDC",
     "Drug: Matching placebo to glimepiride"
-   ]
+   ],
+   "label": "Sitagliptin/Metformin FDC",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Glimepiride",
     "Drug: Matching placebo to Sitagliptin/Metformin FDC"
-   ]
+   ],
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "This study will assess the effect of sitagliptin/metformin FDC 50/1000 mg (Janumet®), MK-0431A) compared with the effect of glimepiride on hemoglobin A1c (HbA1c). The primary hypothesis is that after 30 weeks, sitagliptin/metformin FDC 50/1000 mg provides superior reduction in HbA1c (mean change from baseline) compared to glimepiride.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Has type 2 diabetes mellitus\n* Is currently not on an anti-hypoglycemic agent (AHA) (off for at least 12 weeks) and has a Visit 1/Screening Visit HbA1c greater than or equal to 7.0% and less than or equal to 9.5%; or is currently on AHA monotherapy or low-dose oral combination therapy (i.e., less than or equal to 50% maximum labeled dose of each agent) and has a Visit 1/Screening Visit HbA1c greater than or equal to 6.5% and less than or equal to 9.0%\n\nExclusion Criteria:\n\n* Has a history of type 1 diabetes mellitus or a history of ketoacidosis\n* Has been on any investigational or approved glucagon-like peptide-1 (GLP-1) analogue (such as exenatide, liraglutide, etc.), any investigational or approved dipeptidyl peptidase IV (DPP-4) inhibitor (such as sitagliptin, vildagliptin, alogliptin, etc.) or a peroxisome proliferator-activated receptor (PPAR) gamma agonist agent (such as rosiglitazone, pioglitazone, etc.) within 12 weeks of Visit 1\n* Required insulin within the prior 12 weeks\n* Has a hypersensitivity or contraindication to any sulfonylurea medication (such as glimepiride, glipizide, etc.), DPP-4 inhibitor (such as sitagliptin, vildagliptin, alogliptin, etc.), or biguanide medication (such as metformin, etc.)\n* Has inadequately controlled hypertension\n* Has cirrhosis or active liver disease\n* Has severe cardiac conditions\n* Is obese\n* Has human immunodeficiency virus (HIV)",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": null,
   "healthy_volunteers": false,
+  "maximum_age": null,
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,6 +129,47 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Has type 2 diabetes mellitus"
+   },
+   {
+    "text": "Is currently not on an anti-hypoglycemic agent (AHA) (off for at least 12 weeks) and has a Visit 1/Screening Visit HbA1c greater than or equal to 7.0% and less than or equal to 9.5%; or is currently on AHA monotherapy or low-dose oral combination therapy (i.e., less than or equal to 50% maximum labeled dose of each agent) and has a Visit 1/Screening Visit HbA1c greater than or equal to 6.5% and less than or equal to 9.0%"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Has a history of type 1 diabetes mellitus or a history of ketoacidosis"
+   },
+   {
+    "text": "Has been on any investigational or approved glucagon-like peptide-1 (GLP-1) analogue (such as exenatide, liraglutide, etc.), any investigational or approved dipeptidyl peptidase IV (DPP-4) inhibitor (such as sitagliptin, vildagliptin, alogliptin, etc.) or a peroxisome proliferator-activated receptor (PPAR) gamma agonist agent (such as rosiglitazone, pioglitazone, etc.) within 12 weeks of Visit 1"
+   },
+   {
+    "text": "Required insulin within the prior 12 weeks"
+   },
+   {
+    "text": "Has a hypersensitivity or contraindication to any sulfonylurea medication (such as glimepiride, glipizide, etc.), DPP-4 inhibitor (such as sitagliptin, vildagliptin, alogliptin, etc.), or biguanide medication (such as metformin, etc.)"
+   },
+   {
+    "text": "Has inadequately controlled hypertension"
+   },
+   {
+    "text": "Has cirrhosis or active liver disease"
+   },
+   {
+    "text": "Has severe cardiac conditions"
+   },
+   {
+    "text": "Is obese"
+   },
+   {
+    "text": "Has human immunodeficiency virus (HIV)"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

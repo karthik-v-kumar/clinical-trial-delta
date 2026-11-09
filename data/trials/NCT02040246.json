@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "RenJi Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "RenJi Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Repaglinide",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Repaglinide",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Repaglinide"
-   ]
+   ],
+   "label": "Repaglinide",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ]
+   ],
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The prevalence of diabetes is up to 11.6% according to the data released in 2013 by the China Noncommunicable Disease Surveillance Group.Less than 40% of all diagnosed-diabetes were well controlled.Among all kinds of antidiabetic medications, metformin is recommended as the first-line antihyperglycemic management for type 2 diabetes. Insulin secretagogue,repaglinide is still one of the most widely used antidiabetic medications in China. However, there were few studies comparing the effects of these two medications on glycaemic control in Chinese patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* All participants with type 2 diabetes, diagnosed by World Health Organization criteria, were recruited from outpatient of the Endocrinology Department in Shanghai Renji Hospital\n\nExclusion Criteria:\n\n* Patients who had a history of coronary heart disease, abnormal renal function, active liver disease, chronic metabolic acidosis (including diabetic ketoacidosis), or severe chronic gastrointestinal disease.",
-  "sex": "ALL",
-  "minimum_age": "40 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "40 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,22 +94,22 @@
  },
  "sites": [
   {
-   "facility": "Renji Hospital",
    "city": "Shanghai",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "Renji Hospital",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": null,
+   "status": null
   },
   {
-   "facility": "Renji Hospital",
    "city": "Shanghai",
-   "state": "Shanghai Municipality",
    "country": "China",
-   "status": null,
+   "facility": "Renji Hospital",
    "lat": 31.22222,
-   "lon": 121.45806
+   "lon": 121.45806,
+   "state": "Shanghai Municipality",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02040246",
@@ -121,6 +121,20 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "All participants with type 2 diabetes, diagnosed by World Health Organization criteria, were recruited from outpatient of the Endocrinology Department in Shanghai Renji Hospital"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patients who had a history of coronary heart disease, abnormal renal function, active liver disease, chronic metabolic acidosis (including diabetic ketoacidosis), or severe chronic gastrointestinal disease."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

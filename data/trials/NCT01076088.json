@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2014-02-06",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Merck Sharp & Dohme LLC",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Merck Sharp & Dohme LLC"
  },
  "collaborators": [],
  "conditions": [
@@ -51,83 +51,83 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Sitagliptin 50 mg",
    "other_names": [
     "Januvia®, Tesavel®, Xelevia®, Ristaben®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin 500 mg",
    "other_names": [
     "Fortamet®, Glucophage®, Glucophage® XR, Glumetza®, Riomet®, Metgluco®, Glycoran®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Sitagliptin 100 mg",
    "other_names": [
     "Januvia®, Tesavel®, Xelevia®, Ristaben®"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Metformin 850 mg",
    "other_names": [
     "Fortamet®, Glucophage®, Glucophage® XR, Glumetza®, Riomet®, Metgluco®, Glycoran®"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Sitagliptin 50 mg",
+    "Drug: Metformin 500 mg"
+   ],
    "label": "Sitagliptin 50 mg + metformin 500 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Sitagliptin 50 mg",
-    "Drug: Metformin 500 mg"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Sitagliptin 50 mg",
+    "Drug: Metformin 850 mg"
+   ],
    "label": "Sitagliptin 50 mg + metformin 850 mg",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Sitagliptin 50 mg",
-    "Drug: Metformin 850 mg"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Metformin 500 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin 500 mg"
-   ]
+   ],
+   "label": "Metformin 500 mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Metformin 850 mg",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin 850 mg"
-   ]
+   ],
+   "label": "Metformin 850 mg",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Sitagliptin 100 mg",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin 100 mg"
-   ]
+   ],
+   "label": "Sitagliptin 100 mg",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -139,10 +139,10 @@
  "brief_summary": "This study will assess the efficacy and safety of initial treatment with sitagliptin and metformin in patients with type 2 diabetes mellitus in China. The primary hypothesis is that after 24 weeks, initial co-administration treatment with sitagliptin and metformin provided greater reduction in hemoglobin A1C (A1C) compared to initial treatment with sitagliptin alone and with metformin alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* has type 2 diabetes mellitus\n* is male, a female who cannot have children, or a female who agrees to use birth control during the study\n* is not on an antihyperglycemic agent (AHA) (hemoglobin A1c \\[A1C\\] 7.5-11.0%) or on oral single AHA (A1C 7.0-10.5%) or low-dose AHA combination therapy (A1C 7.0-10.0%)\n\nExclusion Criteria:\n\n* Patient has type 1 diabetes mellitus or ketoacidosis\n* Patient is taking a dipeptidyl peptidase-4 (DPP-4) inhibitor (such as sitagliptin)\n* Patient is on a weight loss program not in the maintenance phase or on a weight loss medication\n* Patient has a history of liver disease, heart failure, heart disease, stroke, high blood pressure, blood disorders, or cancer\n* Patient is HIV positive\n* Patient is pregnant",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "78 Years",
   "healthy_volunteers": false,
+  "maximum_age": "78 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -158,6 +158,41 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "has type 2 diabetes mellitus"
+   },
+   {
+    "text": "is male, a female who cannot have children, or a female who agrees to use birth control during the study"
+   },
+   {
+    "text": "is not on an antihyperglycemic agent (AHA) (hemoglobin A1c [A1C] 7.5-11.0%) or on oral single AHA (A1C 7.0-10.5%) or low-dose AHA combination therapy (A1C 7.0-10.0%)"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient has type 1 diabetes mellitus or ketoacidosis"
+   },
+   {
+    "text": "Patient is taking a dipeptidyl peptidase-4 (DPP-4) inhibitor (such as sitagliptin)"
+   },
+   {
+    "text": "Patient is on a weight loss program not in the maintenance phase or on a weight loss medication"
+   },
+   {
+    "text": "Patient has a history of liver disease, heart failure, heart disease, stroke, high blood pressure, blood disorders, or cancer"
+   },
+   {
+    "text": "Patient is HIV positive"
+   },
+   {
+    "text": "Patient is pregnant"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

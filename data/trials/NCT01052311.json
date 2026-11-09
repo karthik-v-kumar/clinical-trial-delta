@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Sheba Medical Center",
-  "class": "OTHER_GOV"
+  "class": "OTHER_GOV",
+  "name": "Sheba Medical Center"
  },
  "collaborators": [],
  "conditions": [
@@ -52,40 +52,40 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Tredaptive (1 g extended release niacin+ 20 mg laropiprant)",
    "other_names": [
     "Active treatment"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Tredaptive",
    "other_names": [
     "Tedaptive"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "Active treatment",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Tredaptive (1 g extended release niacin+ 20 mg laropiprant)",
     "Drug: Tredaptive"
-   ]
+   ],
+   "label": "Active treatment",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "Laropiprant (LRP; Merck \\& Co., Inc, Whitehouse Station, NJ, USA) is a potent, once-daily, highly selective PGD2-receptor (DP1) antagonist. A combination tablet containing 1 g of extended-release niacin and 20 mg of laropiprant (ERN/LRPT) offers improved tolerability, supporting a simplified 1-2 g dosing paradigm and improved adherence. Statins and niacin improve endothelial function in cardiac patients, however, there is no data yet regarding the additive effects of raising HDL-C by ERN/LRPT and statins on endothelial function in cardiac patients. Thus the aim of the present study is to evaluate the impact of 3 months' administration of ERN/LRPT compared to placebo added to statins on endothelial function, assessed by brachial artery vasoreactivity in stable cardiac patients.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n1. Male or female ≥ 18 years; signed informed consent\n2. Outpatient CAD patients on statin therapy.\n3. HDL-C \\< 40 mg/dL in males and \\< 50 mg/dL in females.\n4. Left ventricular (LV) systolic dysfunction ≥ 40% measured within the past 6 months.\n5. No changes in cardiac medications during 2 weeks prior to enrollment.\n\nExclusion criteria:\n\n1. Presence of transplanted tissue or organ or LVAD\n2. AICD or CRT or CRTD patients.\n3. Acute MI, CABG, PCI within past 3 months.\n4. Congestive heart failure (CHF) ≥ NYHA 2.\n5. Ejection fraction \\< 40% measured within the past 6 months.\n6. Malignancy.\n7. Active myocarditis, or cardiomyopathy.\n8. HIV infection or immunodeficiency state.\n9. Chronic viral infection.\n10. Acute systemic infection requiring antibiotics.\n11. Chronic diarrhea or malabsorption.\n12. Statin therapy initiation ≤ 3 months.\n13. Diabetes mellitus type 1.\n14. Diabetes mellitus type 2 with HbA1C \\> 7%\n15. Low-density lipoprotein cholesterol (LDL-C) \\> 100 mg/dL.\n16. Not on statin therapy.\n17. Liver function tests (LFT) ≥ x 3 upper limit of normal (ULN) or creatinine kinase (CPK) ≥ x 10 ULN.\n18. Hypo/hyper thyroidism.\n19. Liver dysfunction.\n20. Renal failure with serum creatinine ≥ 2 mg/dL.\n21. Alcohol or drug abuse.\n22. Refuse to sign informed consent.",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "facility": "Leviev Heart Center, Sheba Medical Center",
    "city": "Tel HaShomer",
-   "state": null,
    "country": "Israel",
-   "status": null,
+   "facility": "Leviev Heart Center, Sheba Medical Center",
    "lat": 32.04829,
-   "lon": 34.84489
+   "lon": 34.84489,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01052311",
@@ -126,6 +126,95 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Male or female ≥ 18 years; signed informed consent"
+   },
+   {
+    "text": "Outpatient CAD patients on statin therapy."
+   },
+   {
+    "text": "HDL-C < 40 mg/dL in males and < 50 mg/dL in females."
+   },
+   {
+    "text": "Left ventricular (LV) systolic dysfunction ≥ 40% measured within the past 6 months."
+   },
+   {
+    "text": "No changes in cardiac medications during 2 weeks prior to enrollment."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Presence of transplanted tissue or organ or LVAD"
+   },
+   {
+    "text": "AICD or CRT or CRTD patients."
+   },
+   {
+    "text": "Acute MI, CABG, PCI within past 3 months."
+   },
+   {
+    "text": "Congestive heart failure (CHF) ≥ NYHA 2."
+   },
+   {
+    "text": "Ejection fraction < 40% measured within the past 6 months."
+   },
+   {
+    "text": "Malignancy."
+   },
+   {
+    "text": "Active myocarditis, or cardiomyopathy."
+   },
+   {
+    "text": "HIV infection or immunodeficiency state."
+   },
+   {
+    "text": "Chronic viral infection."
+   },
+   {
+    "text": "Acute systemic infection requiring antibiotics."
+   },
+   {
+    "text": "Chronic diarrhea or malabsorption."
+   },
+   {
+    "text": "Statin therapy initiation ≤ 3 months."
+   },
+   {
+    "text": "Diabetes mellitus type 1."
+   },
+   {
+    "text": "Diabetes mellitus type 2 with HbA1C > 7%"
+   },
+   {
+    "text": "Low-density lipoprotein cholesterol (LDL-C) > 100 mg/dL."
+   },
+   {
+    "text": "Not on statin therapy."
+   },
+   {
+    "text": "Liver function tests (LFT) ≥ x 3 upper limit of normal (ULN) or creatinine kinase (CPK) ≥ x 10 ULN."
+   },
+   {
+    "text": "Hypo/hyper thyroidism."
+   },
+   {
+    "text": "Liver dysfunction."
+   },
+   {
+    "text": "Renal failure with serum creatinine ≥ 2 mg/dL."
+   },
+   {
+    "text": "Alcohol or drug abuse."
+   },
+   {
+    "text": "Refuse to sign informed consent."
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

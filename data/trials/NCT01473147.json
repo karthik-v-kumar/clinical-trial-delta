@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Chang Gung Memorial Hospital",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Chang Gung Memorial Hospital"
  },
  "collaborators": [],
  "conditions": [
@@ -48,32 +48,32 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Exenatide",
    "other_names": [
     "Byetta"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Normal saline",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "GLP-1",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Exenatide"
-   ]
+   ],
+   "label": "GLP-1",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Normal saline",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Normal saline"
-   ]
+   ],
+   "label": "Normal saline",
+   "type": "PLACEBO_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "Background: Continuous subcutaneous insulin infusion (CSII) has been demonstrated to be an effective clinical tool for intensive insulin therapy in Type 1 diabetic patients. Type 2 diabetes patients have been proved to have decreased of glucagon-like peptide-1 (GLP-1) levels. Injection of GLP-1 receptor agonists are associated with improved glycemic control. Nevertheless, the clinical effects and mechanisms are still unclear when additional supplement of GLP-1 analogue in cooperation with intensive CSII treatment for poorly controlled Type 2 diabetes patients. This study is designed to understand the complementary pharmacological effects of GLP-1 analogue on intensive CSII treatment.\n\nMethods: Sixty poorly controlled Type 2 diabetes patients will be admitted to the ward for 6 days CSII intensive treatment. Following the normalization of blood glucose at first 3 days, the patients are randomly assigned with combined therapy with exenatide injection or saline for another 3 days. The clinical assessments of insulin requirement, insulin secretion, insulin resistance glycemic excursions and cytokines will perform immediately during or after the study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age \\> 20 years old\n* DM diagnosed \\> 2 years\n* HbA1c level of 8% to 12%\n* Receiving insulin premixed insulin twice daily and total insulin daily dose \\> 0.6 u/kg/day\n\nExclusion Criteria:\n\n* Severe comorbidity, including CHF, CVA, liver cirrhosis, COPD, Cushing's syndrome etc.\n* Psychologic problems, including anxiety\n* Incorporation, including personal and familial factors",
-  "sex": "ALL",
-  "minimum_age": "20 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "20 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "facility": "Chang Gung Memorial Hospital",
    "city": "Taoyuan",
-   "state": null,
    "country": "Taiwan",
-   "status": null,
+   "facility": "Chang Gung Memorial Hospital",
    "lat": 24.99368,
-   "lon": 121.29696
+   "lon": 121.29696,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01473147",
@@ -114,6 +114,35 @@
   "t2d-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Age > 20 years old"
+   },
+   {
+    "text": "DM diagnosed > 2 years"
+   },
+   {
+    "text": "HbA1c level of 8% to 12%"
+   },
+   {
+    "text": "Receiving insulin premixed insulin twice daily and total insulin daily dose > 0.6 u/kg/day"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Severe comorbidity, including CHF, CVA, liver cirrhosis, COPD, Cushing's syndrome etc."
+   },
+   {
+    "text": "Psychologic problems, including anxiety"
+   },
+   {
+    "text": "Incorporation, including personal and familial factors"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

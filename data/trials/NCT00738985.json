@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -54,35 +54,35 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "ezetimibe/simvastatin 10/20 mg + placebo",
    "other_names": [
     "No other drug is used per protocol in this study arm"
-   ]
+   ],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "ezetimibe/simvastatin 10/20 mg + MK0524A",
    "other_names": [
     "Vytorin",
     "MK0653A"
-   ]
+   ],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "ezetimibe/simvastatin 10/20 mg + placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: ezetimibe/simvastatin 10/20 mg + placebo"
-   ]
+   ],
+   "label": "ezetimibe/simvastatin 10/20 mg + placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "ezetimibe/simvastatin 10/20 mg + MK0524A",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: ezetimibe/simvastatin 10/20 mg + MK0524A"
-   ]
+   ],
+   "label": "ezetimibe/simvastatin 10/20 mg + MK0524A",
+   "type": "ACTIVE_COMPARATOR"
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "To measure the percentage of patients who achieve all the treatment lipid goals being treated with ezetimibe/simvastatin 10/20 with or without MK0524A (1-2 g/day).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient Without Ischemic Cardiovascular Disease Who During The Treatment With Statin Have LDL-C \\<130 Mg/Dl at Visit 1 Or Within The 6 Month Period Before Visit 1\n\nExclusion criteria:\n\n* The use of any other lipid lowering agent\n* Life expectancy lower than a year.\n* Any condition that may interfere with the adherence to the study protocol",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "80 Years",
   "healthy_volunteers": false,
+  "maximum_age": "80 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,6 +113,26 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Patient Without Ischemic Cardiovascular Disease Who During The Treatment With Statin Have LDL-C <130 Mg/Dl at Visit 1 Or Within The 6 Month Period Before Visit 1"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "The use of any other lipid lowering agent"
+   },
+   {
+    "text": "Life expectancy lower than a year."
+   },
+   {
+    "text": "Any condition that may interfere with the adherence to the study protocol"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

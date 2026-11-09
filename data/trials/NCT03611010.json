@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "primary_purpose": "TREATMENT",
   "masking": "NONE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2022-07-15",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Cumberland Pharmaceuticals",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Cumberland Pharmaceuticals"
  },
  "collaborators": [],
  "conditions": [
@@ -49,39 +49,39 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "Atorvastatin injection",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
+   "intervention_names": [
+    "Drug: Atorvastatin injection"
+   ],
    "label": "Cohort 1",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Atorvastatin injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Atorvastatin injection"
+   ],
    "label": "Cohort 2",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Atorvastatin injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
+   "intervention_names": [
+    "Drug: Atorvastatin injection"
+   ],
    "label": "Cohort 3",
-   "type": "EXPERIMENTAL",
-   "intervention_names": [
-    "Drug: Atorvastatin injection"
-   ]
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Cohort 4",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin injection"
-   ]
+   ],
+   "label": "Cohort 4",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Open-label study will titrate doses of intravenous atorvastatin and monitor respective LDL-C levels in hypercholesterolemic patients previously controlled on oral atorvastatin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* On stable dose of daily oral atorvastatin for \\>= 5 weeks (oral atorvastatin may be provided during a lead-in period for subjects not previously taking atorvastatin)\n* Stable LDL-C confirmed in the previous 7 to 10 days prior to enrollment into the treatment phase.\n\nExclusion Criteria:\n\n* History of myopathy or rhabdomyolysis\n* Liver disease including current biliary disorders\n* Positive for HIV, Hepatitis B or Hepatitis C Virus\n* Abuse of alcohol or non-prescribed drugs\n* Unstable angina or arrhythmias or a cardiac event in the previous three months\n* hypothyroidism, diabetes, or hypertension that is not under control\n* pregnant or plans to be pregnant",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "65 Years",
   "healthy_volunteers": false,
+  "maximum_age": "65 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "facility": "Frontage Clinical Services",
    "city": "Secaucus",
-   "state": "New Jersey",
    "country": "United States",
-   "status": null,
+   "facility": "Frontage Clinical Services",
    "lat": 40.78955,
-   "lon": -74.05653
+   "lon": -74.05653,
+   "state": "New Jersey",
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03611010",
@@ -122,6 +122,41 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "On stable dose of daily oral atorvastatin for >= 5 weeks (oral atorvastatin may be provided during a lead-in period for subjects not previously taking atorvastatin)"
+   },
+   {
+    "text": "Stable LDL-C confirmed in the previous 7 to 10 days prior to enrollment into the treatment phase."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "History of myopathy or rhabdomyolysis"
+   },
+   {
+    "text": "Liver disease including current biliary disorders"
+   },
+   {
+    "text": "Positive for HIV, Hepatitis B or Hepatitis C Virus"
+   },
+   {
+    "text": "Abuse of alcohol or non-prescribed drugs"
+   },
+   {
+    "text": "Unstable angina or arrhythmias or a cardiac event in the previous three months"
+   },
+   {
+    "text": "hypothyroidism, diabetes, or hypertension that is not under control"
+   },
+   {
+    "text": "pregnant or plans to be pregnant"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

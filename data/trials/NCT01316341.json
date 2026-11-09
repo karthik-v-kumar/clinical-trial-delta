@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": "2014-06-17",
  "has_results": true,
  "lead_sponsor": {
-  "name": "Boehringer Ingelheim",
-  "class": "INDUSTRY"
+  "class": "INDUSTRY",
+  "name": "Boehringer Ingelheim"
  },
  "collaborators": [],
  "conditions": [
@@ -45,54 +45,54 @@
  ],
  "interventions": [
   {
-   "type": "DRUG",
    "name": "BI10773",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "Placebo",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   },
   {
-   "type": "DRUG",
    "name": "BI10773",
-   "other_names": []
+   "other_names": [],
+   "type": "DRUG"
   }
  ],
  "arm_groups": [
   {
-   "label": "BI10773 low dose Per Os(p.o.)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: BI10773"
-   ]
+   ],
+   "label": "BI10773 low dose Per Os(p.o.)",
+   "type": "EXPERIMENTAL"
   },
   {
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ]
+   ],
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR"
   },
   {
-   "label": "BI10773 high dose Per Os(p.o.)",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: BI10773",
     "Drug: Placebo"
-   ]
+   ],
+   "label": "BI10773 high dose Per Os(p.o.)",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -212,10 +212,10 @@
  "brief_summary": "the pharmacokinetics, pharmacodynamics and safety and tolerability of single and multiple oral doses of BI 10773 at low dose once daily (q.d.) and high dose q.d. administered to Chinese female and male patients with type 2 diabetes will be investigated.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n1. Chinese male and female patients with proven diagnosis of type 2 diabetes mellitus treated with diet and exercise only or on a maximum of two oral antidiabetic agents except thiazolidinediones with at least one agent taken at 50% of its maximum dose or less, unchanged for at least 12 weeks before randomization\n2. Glycosylated haemoglobin A1(HbA1c)\\<=8.5% and \\>=7.0% at screening,age\\>=21 and age\\<=70 years (male and female patients),BMI\\>=19 and \\<=40 kg/m2\n3. Signed and dated written informed consent by date of Visit 1 in accordance with GCP and local legislation.\n\nExclusion criteria:\n\n1. Patient who did not discontinue the antidiabetic treatment with insulin or glitazones, DPP-IV at least before 12 weeks before randomization\n2. Uncontrolled hyperglycaemia with a glucose level \\>240 mg/dl (\\>13.3 mmol/L) after an overnight fast at screening visit\n3. Clinically relevant concomitant diseases other than type 2 diabetes, hyperlipidaemia and medically treated hypertension, such as:\n\n4 Any late stage complication of diabetes (e.g. retinopathy, polyneuropathy, vegetative disorders, diabetic foot) 5 Renal insufficiency (calculated creatinine clearance \\< 80 ml/min/1.73m²) 6 Cardiac insufficiency NYHA II-IV, myocardial infarction, other known cardiovascular diseases including hypertension \\> 160/95mmHg (measured at training visit and each of the timepoints of Day -1), stroke and TIA 7 Neurological disorders (such as epilepsy) or psychiatric disorders 8 Acute or relevant chronic infections (e.g. HIV, repeated urogenital infections) 9 Any gastrointestinal, hepatic, respiratory, endocrine or immunological disorder 10. History of relevant allergy/hypersensitivity (including allergy to drug or its excipients) 11. A marked baseline prolongation of QT/QTc interval (e.g., ECG demonstration of a QTc interval \\>450 ms ) at screening visit",
-  "sex": "ALL",
-  "minimum_age": "21 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": false,
+  "maximum_age": "70 Years",
+  "minimum_age": "21 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -223,13 +223,13 @@
  },
  "sites": [
   {
-   "facility": "1245.44.86001 Boehringer Ingelheim Investigational Site",
    "city": "Beijing",
-   "state": null,
    "country": "China",
-   "status": null,
+   "facility": "1245.44.86001 Boehringer Ingelheim Investigational Site",
    "lat": 39.9075,
-   "lon": 116.39723
+   "lon": 116.39723,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01316341",
@@ -244,6 +244,35 @@
  "sponsors_of_note": [
   "Boehringer Ingelheim"
  ],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "Chinese male and female patients with proven diagnosis of type 2 diabetes mellitus treated with diet and exercise only or on a maximum of two oral antidiabetic agents except thiazolidinediones with at least one agent taken at 50% of its maximum dose or less, unchanged for at least 12 weeks before randomization"
+   },
+   {
+    "text": "Glycosylated haemoglobin A1(HbA1c)<=8.5% and >=7.0% at screening,age>=21 and age<=70 years (male and female patients),BMI>=19 and <=40 kg/m2"
+   },
+   {
+    "text": "Signed and dated written informed consent by date of Visit 1 in accordance with GCP and local legislation."
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Patient who did not discontinue the antidiabetic treatment with insulin or glitazones, DPP-IV at least before 12 weeks before randomization"
+   },
+   {
+    "text": "Uncontrolled hyperglycaemia with a glucose level >240 mg/dl (>13.3 mmol/L) after an overnight fast at screening visit"
+   },
+   {
+    "text": "Clinically relevant concomitant diseases other than type 2 diabetes, hyperlipidaemia and medically treated hypertension, such as:"
+   },
+   {
+    "text": "4 Any late stage complication of diabetes (e.g. retinopathy, polyneuropathy, vegetative disorders, diabetic foot) 5 Renal insufficiency (calculated creatinine clearance < 80 ml/min/1.73m²) 6 Cardiac insufficiency NYHA II-IV, myocardial infarction, other known cardiovascular diseases including hypertension > 160/95mmHg (measured at training visit and each of the timepoints of Day -1), stroke and TIA 7 Neurological disorders (such as epilepsy) or psychiatric disorders 8 Acute or relevant chronic infections (e.g. HIV, repeated urogenital infections) 9 Any gastrointestinal, hepatic, respiratory, endocrine or immunological disorder 10. History of relevant allergy/hypersensitivity (including allergy to drug or its excipients) 11. A marked baseline prolongation of QT/QTc interval (e.g., ECG demonstration of a QTc interval >450 ms ) at screening visit"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }

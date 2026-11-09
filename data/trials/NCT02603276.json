@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "primary_purpose": "TREATMENT",
   "masking": "DOUBLE",
+  "primary_purpose": "TREATMENT",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "name": "University of Bologna",
-  "class": "OTHER"
+  "class": "OTHER",
+  "name": "University of Bologna"
  },
  "collaborators": [],
  "conditions": [
@@ -51,43 +51,43 @@
  ],
  "interventions": [
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Plant sterols",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Red Yeast Rice",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   },
   {
-   "type": "DIETARY_SUPPLEMENT",
    "name": "Red Yeast Rice plus Plant sterols",
-   "other_names": []
+   "other_names": [],
+   "type": "DIETARY_SUPPLEMENT"
   }
  ],
  "arm_groups": [
   {
-   "label": "Plant sterols",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Plant sterols"
-   ]
+   ],
+   "label": "Plant sterols",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Red Yeast Rice",
-   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Red Yeast Rice"
-   ]
+   ],
+   "label": "Red Yeast Rice",
+   "type": "ACTIVE_COMPARATOR"
   },
   {
-   "label": "Red Yeast Rice plus Plant sterols",
-   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Plant sterols",
     "Dietary Supplement: Red Yeast Rice plus Plant sterols"
-   ]
+   ],
+   "label": "Red Yeast Rice plus Plant sterols",
+   "type": "EXPERIMENTAL"
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "A large body of evidence confirm the cholesterol lowering effect of phytosterols and red yeast rice. Because their mechanisms of action mime the ones of chemical statins and cholesterol absorption inhibitors, it is plausible that their association will provide a more relevant (and safe) LDL cholesterolemia reduction.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL-cholesterolemia between 130 and 190 mg/dL\n\nExclusion Criteria:\n\n* Type 2 diabetes\n* Previous cardiovascular disease\n* Assumption of lipid-lowering drugs or dietary supplements\n* Previous intolerance to red yeast rice",
-  "sex": "ALL",
-  "minimum_age": "18 Years",
-  "maximum_age": "70 Years",
   "healthy_volunteers": true,
+  "maximum_age": "70 Years",
+  "minimum_age": "18 Years",
+  "sex": "ALL",
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "facility": "S. Orsola-Malpighi University Hospital",
    "city": "Bologna",
-   "state": null,
    "country": "Italy",
-   "status": null,
+   "facility": "S. Orsola-Malpighi University Hospital",
    "lat": 44.49381,
-   "lon": 11.33875
+   "lon": 11.33875,
+   "state": null,
+   "status": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02603276",
@@ -128,6 +128,29 @@
   "lipids-drugs"
  ],
  "sponsors_of_note": [],
+ "eligibility_checklist": {
+  "parsed": true,
+  "inclusion": [
+   {
+    "text": "LDL-cholesterolemia between 130 and 190 mg/dL"
+   }
+  ],
+  "exclusion": [
+   {
+    "text": "Type 2 diabetes"
+   },
+   {
+    "text": "Previous cardiovascular disease"
+   },
+   {
+    "text": "Assumption of lipid-lowering drugs or dietary supplements"
+   },
+   {
+    "text": "Previous intolerance to red yeast rice"
+   }
+  ],
+  "notes": []
+ },
  "in_watchlist": true,
  "history": []
 }
