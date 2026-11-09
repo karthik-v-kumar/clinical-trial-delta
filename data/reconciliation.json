@@ -1,0 +1,109 @@
+{
+  "checked_at": "2026-11-09T12:38:24-08:00",
+  "snapshot_date": "2026-11-09",
+  "snapshot_data_timestamp": "2026-11-09T10:00:05",
+  "registry_data_timestamp_now": "2026-11-09T10:00:05",
+  "registry_refreshed_since_snapshot": false,
+  "verdict": "all counts match",
+  "unexplained_mismatch": false,
+  "queries": [
+    {
+      "query": "glp1-obesity-drugs",
+      "collection": "glp1-obesity",
+      "label": "Obesity or overweight, testing a GLP-1 medicine",
+      "pipeline": 890,
+      "api_at_fetch": 890,
+      "api_now": 890,
+      "web_now": 890,
+      "web_error": null,
+      "delta_vs_web": 0,
+      "match": true,
+      "web_url": "https://clinicaltrials.gov/search?cond=Obesity%20OR%20Overweight&intr=semaglutide%20OR%20tirzepatide%20OR%20retatrutide%20OR%20orforglipron%20OR%20%22GLP-1%22%20OR%20%22glucagon-like%20peptide-1%22%20OR%20%22GLP-1%20receptor%20agonist%22%20OR%20liraglutide%20OR%20dulaglutide%20OR%20exenatide%20OR%20lixisenatide%20OR%20albiglutide&aggFilters=studyType%3Aint"
+    },
+    {
+      "query": "glp1-obesity-sponsors",
+      "collection": "glp1-obesity",
+      "label": "Obesity or overweight, run by a sponsor of note",
+      "pipeline": 442,
+      "api_at_fetch": 442,
+      "api_now": 442,
+      "web_now": 442,
+      "web_error": null,
+      "delta_vs_web": 0,
+      "match": true,
+      "web_url": "https://clinicaltrials.gov/search?cond=Obesity%20OR%20Overweight&spons=%22Novo%20Nordisk%22%20OR%20%22Eli%20Lilly%22%20OR%20Amgen%20OR%20Viking%20OR%20Roche&aggFilters=studyType%3Aint"
+    },
+    {
+      "query": "t2d-drugs",
+      "collection": "type-2-diabetes",
+      "label": "Type 2 diabetes, testing metformin, insulin, an SGLT2 or a DPP-4 medicine",
+      "pipeline": 3729,
+      "api_at_fetch": 3729,
+      "api_now": 3729,
+      "web_now": 3729,
+      "web_error": null,
+      "delta_vs_web": 0,
+      "match": true,
+      "web_url": "https://clinicaltrials.gov/search?cond=%22Diabetes%20Mellitus%2C%20Type%202%22&intr=metformin%20OR%20insulin%20OR%20empagliflozin%20OR%20dapagliflozin%20OR%20canagliflozin%20OR%20ertugliflozin%20OR%20SGLT2%20OR%20%22SGLT-2%22%20OR%20%22SGLT2%20inhibitor%22%20OR%20%22sodium-glucose%20cotransporter%202%22%20OR%20sitagliptin%20OR%20saxagliptin%20OR%20linagliptin%20OR%20alogliptin%20OR%20vildagliptin%20OR%20%22DPP-4%22%20OR%20DPP4%20OR%20%22DPP-4%20inhibitor%22%20OR%20%22dipeptidyl%20peptidase-4%22&aggFilters=studyType%3Aint"
+    },
+    {
+      "query": "t2d-sponsors",
+      "collection": "type-2-diabetes",
+      "label": "Type 2 diabetes, run by a sponsor of note",
+      "pipeline": 1242,
+      "api_at_fetch": 1242,
+      "api_now": 1242,
+      "web_now": 1242,
+      "web_error": null,
+      "delta_vs_web": 0,
+      "match": true,
+      "web_url": "https://clinicaltrials.gov/search?cond=%22Diabetes%20Mellitus%2C%20Type%202%22&spons=%22Novo%20Nordisk%22%20OR%20%22Eli%20Lilly%22%20OR%20%22Boehringer%20Ingelheim%22%20OR%20AstraZeneca&aggFilters=studyType%3Aint"
+    },
+    {
+      "query": "lipids-drugs",
+      "collection": "cholesterol-lipids",
+      "label": "High cholesterol, dyslipidemia or high triglycerides, testing a statin, PCSK9 or other lipid medicine",
+      "pipeline": 1053,
+      "api_at_fetch": 1053,
+      "api_now": 1053,
+      "web_now": 1053,
+      "web_error": null,
+      "delta_vs_web": 0,
+      "match": true,
+      "web_url": "https://clinicaltrials.gov/search?cond=Hypercholesterolemia%20OR%20Dyslipidemias%20OR%20Hypertriglyceridemia&intr=statin%20OR%20%22HMG-CoA%20reductase%20inhibitor%22%20OR%20atorvastatin%20OR%20rosuvastatin%20OR%20simvastatin%20OR%20pravastatin%20OR%20lovastatin%20OR%20fluvastatin%20OR%20pitavastatin%20OR%20evolocumab%20OR%20alirocumab%20OR%20PCSK9%20OR%20%22PCSK9%20inhibitor%22%20OR%20inclisiran%20OR%20%22bempedoic%20acid%22%20OR%20evinacumab&aggFilters=studyType%3Aint"
+    },
+    {
+      "query": "lipids-sponsors",
+      "collection": "cholesterol-lipids",
+      "label": "High cholesterol, dyslipidemia or high triglycerides, run by a sponsor of note",
+      "pipeline": 188,
+      "api_at_fetch": 188,
+      "api_now": 188,
+      "web_now": 188,
+      "web_error": null,
+      "delta_vs_web": 0,
+      "match": true,
+      "web_url": "https://clinicaltrials.gov/search?cond=Hypercholesterolemia%20OR%20Dyslipidemias%20OR%20Hypertriglyceridemia&spons=Amgen%20OR%20Novartis%20OR%20Regeneron%20OR%20Esperion&aggFilters=studyType%3Aint"
+    }
+  ],
+  "collections": [
+    {
+      "collection": "glp1-obesity",
+      "trials": 1091,
+      "sum_of_query_counts": 1332,
+      "overlap": 241
+    },
+    {
+      "collection": "type-2-diabetes",
+      "trials": 4182,
+      "sum_of_query_counts": 4971,
+      "overlap": 789
+    },
+    {
+      "collection": "cholesterol-lipids",
+      "trials": 1081,
+      "sum_of_query_counts": 1241,
+      "overlap": 160
+    }
+  ]
+}
