@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "Edit this file to change what the pipeline tracks; no code changes needed.",
+    "A collection's trials are the union (deduplicated by NCT number) of its queries' results.",
+    "Within one query, the cond / intr / spons fields are ANDed together, exactly as ClinicalTrials.gov combines its Condition, Intervention and Sponsor search boxes. Terms inside one field are ORed.",
+    "Terms are sent as written; a term containing anything other than letters and digits is quoted as a phrase.",
+    "study_type applies to every query unless a query sets its own. INTERVENTIONAL = clinical trials (people are assigned a treatment); observational studies are excluded.",
+    "Changing a collection's queries re-baselines that collection on the next run: trials that newly match because of the edit are not reported as new_trial events.",
+    "sponsors_of_note are display metadata (trial badges, later company pages). They also feed each collection's sponsor query, which is limited to the collection's conditions."
+  ],
+  "defaults": {
+    "study_type": "INTERVENTIONAL"
+  },
+  "collections": [
+    {
+      "id": "glp1-obesity",
+      "name": "GLP-1 & obesity",
+      "why_it_matters": "GLP-1 medicines such as semaglutide and tirzepatide changed how obesity is treated, and the next wave of these drugs is in trials now.",
+      "accent": "#0E7490",
+      "sponsors_of_note": ["Novo Nordisk", "Eli Lilly", "Amgen", "Viking", "Roche"],
+      "queries": [
+        {
+          "id": "glp1-obesity-drugs",
+          "label": "Obesity or overweight, testing a GLP-1 medicine",
+          "cond": ["Obesity", "Overweight"],
+          "intr": [
+            "semaglutide",
+            "tirzepatide",
+            "retatrutide",
+            "orforglipron",
+            "GLP-1",
+            "glucagon-like peptide-1",
+            "GLP-1 receptor agonist",
+            "liraglutide",
+            "dulaglutide",
+            "exenatide",
+            "lixisenatide",
+            "albiglutide"
+          ]
+        },
+        {
+          "id": "glp1-obesity-sponsors",
+          "label": "Obesity or overweight, run by a sponsor of note",
+          "cond": ["Obesity", "Overweight"],
+          "spons": ["Novo Nordisk", "Eli Lilly", "Amgen", "Viking", "Roche"]
+        }
+      ]
+    },
+    {
+      "id": "type-2-diabetes",
+      "name": "Type 2 diabetes",
+      "why_it_matters": "South Asians develop type 2 diabetes earlier and at lower body weights than other groups — this collection exists for the family as much as the portfolio.",
+      "accent": "#C2410C",
+      "sponsors_of_note": ["Novo Nordisk", "Eli Lilly", "Boehringer Ingelheim", "AstraZeneca"],
+      "queries": [
+        {
+          "id": "t2d-drugs",
+          "label": "Type 2 diabetes, testing metformin, insulin, an SGLT2 or a DPP-4 medicine",
+          "cond": ["Diabetes Mellitus, Type 2"],
+          "intr": [
+            "metformin",
+            "insulin",
+            "empagliflozin",
+            "dapagliflozin",
+            "canagliflozin",
+            "ertugliflozin",
+            "SGLT2",
+            "SGLT-2",
+            "SGLT2 inhibitor",
+            "sodium-glucose cotransporter 2",
+            "sitagliptin",
+            "saxagliptin",
+            "linagliptin",
+            "alogliptin",
+            "vildagliptin",
+            "DPP-4",
+            "DPP4",
+            "DPP-4 inhibitor",
+            "dipeptidyl peptidase-4"
+          ]
+        },
+        {
+          "id": "t2d-sponsors",
+          "label": "Type 2 diabetes, run by a sponsor of note",
+          "cond": ["Diabetes Mellitus, Type 2"],
+          "spons": ["Novo Nordisk", "Eli Lilly", "Boehringer Ingelheim", "AstraZeneca"]
+        }
+      ]
+    },
+    {
+      "id": "cholesterol-lipids",
+      "name": "Cholesterol & lipid disorders",
+      "why_it_matters": "High LDL (\"bad\") cholesterol is a major driver of heart attacks and strokes, and newer drug classes beyond statins are being tested to lower it.",
+      "accent": "#6D28D9",
+      "sponsors_of_note": ["Amgen", "Novartis", "Regeneron", "Esperion"],
+      "queries": [
+        {
+          "id": "lipids-drugs",
+          "label": "High cholesterol, dyslipidemia or high triglycerides, testing a statin, PCSK9 or other lipid medicine",
+          "cond": ["Hypercholesterolemia", "Dyslipidemias", "Hypertriglyceridemia"],
+          "intr": [
+            "statin",
+            "HMG-CoA reductase inhibitor",
+            "atorvastatin",
+            "rosuvastatin",
+            "simvastatin",
+            "pravastatin",
+            "lovastatin",
+            "fluvastatin",
+            "pitavastatin",
+            "evolocumab",
+            "alirocumab",
+            "PCSK9",
+            "PCSK9 inhibitor",
+            "inclisiran",
+            "bempedoic acid",
+            "evinacumab"
+          ]
+        },
+        {
+          "id": "lipids-sponsors",
+          "label": "High cholesterol, dyslipidemia or high triglycerides, run by a sponsor of note",
+          "cond": ["Hypercholesterolemia", "Dyslipidemias", "Hypertriglyceridemia"],
+          "spons": ["Amgen", "Novartis", "Regeneron", "Esperion"]
+        }
+      ]
+    }
+  ]
+}

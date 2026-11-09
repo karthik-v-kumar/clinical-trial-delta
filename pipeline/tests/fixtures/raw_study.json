@@ -1,0 +1,85 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT90000099",
+      "orgStudyIdInfo": {"id": "EX-001"},
+      "organization": {"fullName": "Example Pharma", "class": "INDUSTRY"},
+      "briefTitle": "  A Study of Exampleglutide in Adults With Obesity  ",
+      "officialTitle": "A Randomised, Double-blind, Placebo-controlled Trial of Exampleglutide in Adults With Obesity",
+      "acronym": "EXAMPLE-1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-01",
+      "overallStatus": "RECRUITING",
+      "startDateStruct": {"date": "2025-09-01", "type": "ACTUAL"},
+      "primaryCompletionDateStruct": {"date": "2027-06", "type": "ESTIMATED"},
+      "completionDateStruct": {"date": "2027-12"},
+      "studyFirstPostDateStruct": {"date": "2025-08-15", "type": "ACTUAL"},
+      "lastUpdatePostDateStruct": {"date": "2026-01-02", "type": "ACTUAL"}
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {"type": "PRINCIPAL_INVESTIGATOR", "investigatorFullName": "Dr. Jane Example", "investigatorAffiliation": "Example University"},
+      "leadSponsor": {"name": "Hoffmann-La Roche", "class": "INDUSTRY"},
+      "collaborators": [{"name": "Example University", "class": "OTHER"}, {"name": "  "}]
+    },
+    "descriptionModule": {"briefSummary": "This study tests whether exampleglutide helps adults with obesity lose weight.", "detailedDescription": "Long text that the normalizer does not keep."},
+    "conditionsModule": {"conditions": ["Obesity", " Overweight "], "keywords": ["weight loss"]},
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": ["PHASE2", "PHASE3"],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {"masking": "QUADRUPLE", "whoMasked": ["PARTICIPANT", "INVESTIGATOR"]}
+      },
+      "enrollmentInfo": {"count": 600, "type": "ESTIMATED"}
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {"label": "Exampleglutide", "type": "EXPERIMENTAL", "description": "Weekly injection", "interventionNames": ["Drug: Exampleglutide"]},
+        {"label": "Placebo", "type": "PLACEBO_COMPARATOR", "interventionNames": ["Drug: Placebo"]}
+      ],
+      "interventions": [
+        {"type": "DRUG", "name": "Exampleglutide", "description": "Injection", "otherNames": ["EX-123"], "armGroupLabels": ["Exampleglutide"]},
+        {"type": "DRUG", "name": "Placebo", "armGroupLabels": ["Placebo"]}
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [{"measure": "Percent change in body weight", "description": "From baseline", "timeFrame": "Baseline to week 52"}],
+      "secondaryOutcomes": [{"measure": "Change in waist circumference", "timeFrame": "Week 52"}]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI of 30 or more\n\nExclusion Criteria:\n\n* Type 1 diabetes",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": ["ADULT", "OLDER_ADULT"]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [{"name": "Study Desk", "role": "CONTACT", "phone": "555-0100", "email": "desk@example.com"}],
+      "overallOfficials": [{"name": "Dr. Jane Example", "affiliation": "Example University", "role": "PRINCIPAL_INVESTIGATOR"}],
+      "locations": [
+        {
+          "facility": "Example Hospital",
+          "status": "RECRUITING",
+          "city": "Seattle",
+          "state": "Washington",
+          "zip": "98101",
+          "country": "United States",
+          "contacts": [{"name": "Sam Coordinator", "role": "CONTACT", "phone": "555-0101", "email": "sam@example.com"}],
+          "geoPoint": {"lat": 47.60621, "lon": -122.33207}
+        },
+        {
+          "facility": "Clinique Exemple",
+          "status": "NOT_YET_RECRUITING",
+          "city": "Lyon",
+          "country": "France",
+          "geoPoint": {"lat": 45.74846, "lon": 4.84671}
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

@@ -1,0 +1,68 @@
+# Daily refresh: the only recurring compute in this project. Runs on GitHub's
+# runners with the repo's own GITHUB_TOKEN; it needs no secrets, no API keys and
+# no personal agent allowance.
+name: Daily refresh
+
+on:
+  schedule:
+    # 17:41 UTC daily (12:41 ET in winter): after ClinicalTrials.gov's daily
+    # data refresh, and off the top of the hour when Actions queues are busiest.
+    - cron: "41 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install test dependencies
+        run: pip install -r requirements-dev.txt
+
+      # Never commit data produced by a pipeline whose differ tests are failing.
+      - name: Unit tests
+        run: python -m pytest -q
+
+      # Fetch -> normalize -> snapshot -> diff -> write data/. Aborts before
+      # writing anything if a fetch fails or a page count does not reconcile
+      # with the API's own totalCount. A no-op if today's snapshot exists.
+      - name: Refresh data
+        run: python -m pipeline.run
+
+      # Acceptance check, logged on every run: pipeline counts vs the
+      # ClinicalTrials.gov website and API. Never blocks the data commit.
+      - name: Reconcile counts with ClinicalTrials.gov
+        continue-on-error: true
+        run: python -m pipeline.reconcile
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -q -m "data: daily refresh $(date -u +%F)"
+          for attempt in 1 2 3 4; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then exit 0; fi
+            echo "Push failed (attempt ${attempt}); rebasing and retrying."
+            sleep $((2 ** attempt))
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+          done
+          exit 1

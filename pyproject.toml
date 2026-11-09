@@ -1,0 +1,19 @@
+[project]
+name = "clinical-trial-delta"
+version = "0.1.0"
+description = "Daily snapshots and change feed for ClinicalTrials.gov trials in GLP-1/obesity, type 2 diabetes and cholesterol."
+requires-python = ">=3.11"
+# The pipeline uses the standard library only; pytest is the sole dev dependency (requirements-dev.txt).
+
+[tool.pytest.ini_options]
+testpaths = ["pipeline/tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "UP", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"pipeline/tests/*" = ["E731"]
