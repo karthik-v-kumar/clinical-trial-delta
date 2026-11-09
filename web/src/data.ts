@@ -3,7 +3,7 @@
 // app) calls an LLM, an API or a third-party host at view time;
 // scripts/check-fetch-targets.mjs enforces that in CI.
 
-import type { ChangesFile, Collection, Meta, SitesIndex, Trial } from "./types";
+import type { AISummary, ChangesFile, Collection, EvalHistory, EvalReport, Meta, SitesIndex, SummaryIndex, Trial } from "./types";
 
 const DATA_ROOT = "/data/";
 
@@ -49,6 +49,29 @@ export const loadSites = (id: string): Promise<SitesIndex> =>
   cached<SitesIndex>(`sites/${encodeURIComponent(id)}.json`);
 export const loadTrial = (nctId: string): Promise<Trial> =>
   cached<Trial>(`trials/${encodeURIComponent(nctId)}.json`);
+
+/** A trial's AI summary, or null if none has been written yet. */
+export async function loadSummary(nctId: string): Promise<AISummary | null> {
+  try {
+    return await cached<AISummary>(`summaries/${encodeURIComponent(nctId)}.json`);
+  } catch (error) {
+    if (error instanceof NotFoundError) return null;
+    throw error;
+  }
+}
+
+async function optional<T>(path: string): Promise<T | null> {
+  try {
+    return await cached<T>(path);
+  } catch (error) {
+    if (error instanceof NotFoundError) return null;
+    throw error;
+  }
+}
+
+export const loadEvalReport = (): Promise<EvalReport | null> => optional<EvalReport>("evals/latest.json");
+export const loadEvalHistory = (): Promise<EvalHistory | null> => optional<EvalHistory>("evals/history.json");
+export const loadSummaryIndex = (): Promise<SummaryIndex | null> => optional<SummaryIndex>("summaries/index.json");
 
 /** Drop everything cached, after the data on the server has been refreshed. */
 export function clearCache(): void {

@@ -7,7 +7,7 @@ import { h, link } from "./dom";
 export interface GlossaryEntry {
   title: string;
   text: string;
-  group: "Basics" | "Phases" | "Statuses" | "Design" | "Dates and results";
+  group: "Basics" | "Phases" | "Statuses" | "Design" | "Dates and results" | "About this site";
 }
 
 export const GLOSSARY: Record<string, GlossaryEntry> = {
@@ -230,6 +230,33 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     group: "Dates and results",
     text: "A difference between a trial’s registry record today and the copy this site saved on an earlier day.",
   },
+
+  // --- About this site
+  "ai-summary": {
+    title: "AI-written summary",
+    group: "About this site",
+    text: "A short plain-language description written by an AI model from the trial’s registry record only. It is checked automatically against the record before it is shown, but it can still be wrong, so verify on ClinicalTrials.gov.",
+  },
+  "golden-set": {
+    title: "Golden set",
+    group: "About this site",
+    text: "A fixed list of test cases written by hand, each with the correct answer, used to check the AI and the eligibility checklist every day.",
+  },
+  assertion: {
+    title: "Automatic check",
+    group: "About this site",
+    text: "A rule a computer can verify exactly, such as “the phase in the summary matches the registry”. It passes or fails; no judgment is involved.",
+  },
+  "ai-judge": {
+    title: "AI judge",
+    group: "About this site",
+    text: "A second, stronger AI model that reads each answer next to the registry record and scores it from 1 to 5 for faithfulness (nothing made up) and clarity (easy to understand).",
+  },
+  refusal: {
+    title: "Refusal and grounding",
+    group: "About this site",
+    text: "Questions the registry record cannot answer, such as costs or side effects. The right behavior is to say the record doesn’t say, not to guess.",
+  },
 };
 
 export const GLOSSARY_GROUPS: GlossaryEntry["group"][] = [
@@ -238,6 +265,7 @@ export const GLOSSARY_GROUPS: GlossaryEntry["group"][] = [
   "Statuses",
   "Design",
   "Dates and results",
+  "About this site",
 ];
 
 /** A tappable piece of jargon. Falls back to plain text for unknown keys. */

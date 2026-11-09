@@ -197,3 +197,19 @@ def test_no_criterion_text_is_dropped():
 
 def test_parser_is_deterministic():
     assert parse_criteria(STANDARD) == parse_criteria(STANDARD)
+
+
+def test_note_lines_are_notes_not_criteria():
+    r = parse_criteria(
+        "Inclusion Criteria:\n\n* Adults\n\nExclusion Criteria:\n\n* Pregnancy\n\nNOTE: Other criteria apply\n"
+    )
+    assert texts(r["exclusion"]) == ["Pregnancy"]
+    assert r["notes"] == ["NOTE: Other criteria apply"]
+
+
+def test_stray_dashes_are_dropped():
+    r = parse_criteria(
+        "Inclusion Criteria:\n\nAdults on diet therapy -\n\nExclusion Criteria:\n\nKidney disease\n\n\\-\n"
+    )
+    assert texts(r["inclusion"]) == ["Adults on diet therapy"]
+    assert texts(r["exclusion"]) == ["Kidney disease"]

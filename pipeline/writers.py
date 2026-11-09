@@ -602,3 +602,182 @@ def read_meta(data_dir: Path) -> dict | None:
 
 def read_events(data_dir: Path) -> list[dict]:
     return _read_json(data_dir / "changes.json", {"events": []})["events"]
+
+
+# --- AI summaries (pipeline/summarize.py) ------------------------------------------
+
+# data/summaries/<NCT>.json: one published summary. The trial page shows it only
+# while content_hash matches the trial file's content_hash.
+SUMMARY_FIELDS = (
+    "schema_version",
+    "nct_id",
+    "content_hash",
+    "summary",
+    "facts",
+    "provider",
+    "model",
+    "prompt_version",
+    "generated_at",
+    "checks",
+)
+SUMMARY_FACT_FIELDS = ("phase", "sponsor", "enrollment", "status")
+# data/summaries/rejected.json: outputs that failed the assertions (Evals page).
+REJECTED_FIELDS = ("nct_id", "content_hash", "model", "prompt_version", "attempted_at", "problems", "output")
+# data/summaries/index.json: progress of the summary backlog.
+SUMMARY_INDEX_FIELDS = (
+    "schema_version",
+    "updated_at",
+    "status",
+    "provider",
+    "model",
+    "prompt_version",
+    "snapshot_date",
+    "trials",
+    "up_to_date",
+    "to_do",
+    "written",
+    "rejected",
+    "errors",
+    "requests",
+    "stopped_because",
+)
+
+
+def read_summaries(data_dir: Path) -> tuple[dict[str, dict], dict[str, dict]]:
+    folder = data_dir / "summaries"
+    summaries = {}
+    if folder.exists():
+        for path in folder.glob("NCT*.json"):
+            body = _read_json(path, None)
+            if body:
+                summaries[path.stem] = body
+    rejected = {r["nct_id"]: r for r in _read_json(folder / "rejected.json", {"rejected": []})["rejected"]}
+    return summaries, rejected
+
+
+def write_summary(data_dir: Path, summary: dict) -> bool:
+    body = {"schema_version": SCHEMA_VERSION, **summary}
+    body["facts"] = publish(body.get("facts") or {}, SUMMARY_FACT_FIELDS)
+    return write_json(data_dir / "summaries" / f"{summary['nct_id']}.json", publish(body, SUMMARY_FIELDS))
+
+
+def write_rejected_summaries(data_dir: Path, rejected: dict[str, dict]) -> bool:
+    rows = [publish(r, REJECTED_FIELDS) for _, r in sorted(rejected.items())]
+    return write_json(
+        data_dir / "summaries" / "rejected.json",
+        {"schema_version": SCHEMA_VERSION, "count": len(rows), "rejected": rows},
+    )
+
+
+def write_summary_index(data_dir: Path, report: dict, updated_at: str) -> bool:
+    body = {"schema_version": SCHEMA_VERSION, "updated_at": updated_at, **report}
+    return write_json(data_dir / "summaries" / "index.json", publish(body, SUMMARY_INDEX_FIELDS), indent=2)
+
+
+# --- evals (pipeline/evals.py) -------------------------------------------------------
+
+# data/evals/latest.json: the latest eval run, every case with input, output and expected.
+EVAL_REPORT_FIELDS = ("schema_version", "run", "by_type", "production", "cases")
+EVAL_RUN_FIELDS = (
+    "run_at",
+    "date",
+    "provider",
+    "model",
+    "judge_model",
+    "prompt_versions",
+    "judge_prompt_version",
+    "judge_status",
+    "judge_note",
+    "golden_cases",
+    "passed",
+    "failed",
+    "no_output",
+    "requests",
+)
+EVAL_TYPE_FIELDS = ("type", "label", "cases", "passed", "failed", "no_output", "pass_rate", "judge")
+EVAL_JUDGE_SUMMARY_FIELDS = ("status", "scored", "faithfulness_mean", "clarity_mean")
+EVAL_CASE_FIELDS = (
+    "id",
+    "type",
+    "title",
+    "nct_id",
+    "input",
+    "expected",
+    "output",
+    "output_meta",
+    "status",
+    "problems",
+    "judge",
+)
+EVAL_CASE_JUDGE_FIELDS = ("faithfulness", "clarity", "rationale", "model", "prompt_version", "status", "error")
+EVAL_PRODUCTION_FIELDS = ("published", "checked", "passed", "failed", "stale", "rejected", "failures")
+# data/evals/history.json: one row per run.
+EVAL_HISTORY_FIELDS = (
+    "run_at",
+    "date",
+    "model",
+    "judge_model",
+    "prompt_versions",
+    "judge_status",
+    "by_type",
+    "production",
+)
+EVAL_HISTORY_TYPE_FIELDS = ("type", "cases", "passed", "pass_rate", "faithfulness_mean", "clarity_mean")
+# data/evals/cache/*.json: model outputs and judge scores, reused while inputs are unchanged.
+EVAL_OUTPUT_CACHE_FIELDS = ("key", "output", "model", "prompt_version", "generated_at")
+EVAL_JUDGE_CACHE_FIELDS = ("key", "faithfulness", "clarity", "rationale", "model", "prompt_version", "judged_at")
+EVAL_HISTORY_LIMIT = 365
+
+
+def read_eval_cache(data_dir: Path, name: str) -> dict[str, dict]:
+    return {row["key"]: row for row in _read_json(data_dir / "evals" / "cache" / f"{name}.json", {"rows": []})["rows"]}
+
+
+def write_eval_cache(data_dir: Path, name: str, rows: dict[str, dict]) -> bool:
+    allowed = EVAL_OUTPUT_CACHE_FIELDS if name == "outputs" else EVAL_JUDGE_CACHE_FIELDS
+    body = {"schema_version": SCHEMA_VERSION, "rows": [publish(r, allowed) for _, r in sorted(rows.items())]}
+    return write_json(data_dir / "evals" / "cache" / f"{name}.json", body)
+
+
+def write_eval_report(data_dir: Path, report: dict) -> dict:
+    run = publish(report["run"], EVAL_RUN_FIELDS)
+    by_type = []
+    for row in report["by_type"]:
+        clean = publish(row, EVAL_TYPE_FIELDS)
+        clean["judge"] = publish(row.get("judge") or {}, EVAL_JUDGE_SUMMARY_FIELDS)
+        by_type.append(clean)
+    cases = []
+    for case in report["cases"]:
+        clean = publish(case, EVAL_CASE_FIELDS)
+        if case.get("judge") is not None:
+            clean["judge"] = publish(case["judge"], EVAL_CASE_JUDGE_FIELDS)
+        cases.append(clean)
+    body = {
+        "schema_version": SCHEMA_VERSION,
+        "run": run,
+        "by_type": by_type,
+        "production": publish(report["production"], EVAL_PRODUCTION_FIELDS),
+        "cases": cases,
+    }
+    write_json(data_dir / "evals" / "latest.json", publish(body, EVAL_REPORT_FIELDS), indent=1)
+
+    history_path = data_dir / "evals" / "history.json"
+    rows = _read_json(history_path, {"runs": []})["runs"]
+    entry = {
+        **run,
+        "by_type": [
+            publish(
+                {
+                    **row,
+                    "faithfulness_mean": (row.get("judge") or {}).get("faithfulness_mean"),
+                    "clarity_mean": (row.get("judge") or {}).get("clarity_mean"),
+                },
+                EVAL_HISTORY_TYPE_FIELDS,
+            )
+            for row in report["by_type"]
+        ],
+        "production": publish(report["production"], ("published", "checked", "passed", "failed", "rejected")),
+    }
+    rows = (rows + [publish(entry, EVAL_HISTORY_FIELDS)])[-EVAL_HISTORY_LIMIT:]
+    write_json(history_path, {"schema_version": SCHEMA_VERSION, "runs": rows}, indent=1)
+    return body

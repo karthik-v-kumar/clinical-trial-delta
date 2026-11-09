@@ -63,8 +63,14 @@ def unescape(text: str) -> str:
     return _ESCAPE.sub(r"\1", text)
 
 
+_TRAILING_DASH = re.compile(r"\s+[-\u2013\u2014]$")
+_PUNCTUATION_ONLY = re.compile(r"^[\s\-\u2013\u2014*\u2022.\u00b7_]+$")
+_NOTE = re.compile(r"^\s*notes?\s*:", re.IGNORECASE)
+
+
 def _clean(text: str) -> str:
-    return _WS.sub(" ", text).strip()
+    """Collapse whitespace and drop a dangling separator ("... oral agent -")."""
+    return _TRAILING_DASH.sub("", _WS.sub(" ", text).strip())
 
 
 def _heading(line: str, next_is_bullet: bool = False) -> tuple[str, str | None, str | None] | None:
@@ -132,7 +138,8 @@ def parse_criteria(text: str | None) -> dict:
     lines = unescape(text).replace("\r\n", "\n").split("\n")
     for index, raw in enumerate(lines):
         line = raw.rstrip()
-        if not line.strip():
+        if not line.strip() or _PUNCTUATION_ONLY.match(line):
+            # Blank, or a stray separator line such as "-": not a criterion.
             blank_before = True
             continue
 
@@ -148,6 +155,12 @@ def parse_criteria(text: str | None) -> dict:
             continue
 
         bullet = _BULLET.match(line)
+        if not bullet and _NOTE.match(line):
+            # "NOTE: Other protocol-defined criteria apply" qualifies both lists; it is not a criterion.
+            notes.append(_clean(line))
+            current = None
+            blank_before = False
+            continue
         if section is None:
             # Text before the first heading belongs to neither list.
             notes.append(_clean(bullet.group("text") if bullet else line))

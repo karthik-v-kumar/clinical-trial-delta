@@ -218,3 +218,108 @@ export interface Meta {
   collections: CollectionSummary[];
   queries: (CollectionQuery & { collection: string })[];
 }
+
+// --- AI summaries and evals (pipeline/summarize.py, pipeline/evals.py) ---------
+
+export interface AISummary {
+  schema_version: number;
+  nct_id: string;
+  content_hash: string;
+  summary: string;
+  facts: { phase: string; sponsor: string | null; enrollment: number | null; status: string };
+  provider: string;
+  model: string;
+  prompt_version: string;
+  generated_at: string;
+  checks: string;
+}
+
+export interface SummaryIndex {
+  updated_at: string;
+  status: string;
+  provider: string;
+  model: string;
+  trials: number;
+  up_to_date: number;
+  to_do: number;
+  written: number;
+  rejected: number;
+  stopped_because: string | null;
+}
+
+export interface JudgeSummary {
+  status: "scored" | "not_run" | "not_applicable";
+  scored: number;
+  faithfulness_mean: number | null;
+  clarity_mean: number | null;
+}
+
+export interface EvalTypeRow {
+  type: "summary" | "eligibility" | "refusal";
+  label: string;
+  cases: number;
+  passed: number;
+  failed: number;
+  no_output: number;
+  pass_rate: number | null;
+  judge: JudgeSummary;
+}
+
+export interface EvalCase {
+  id: string;
+  type: EvalTypeRow["type"];
+  title: string;
+  nct_id: string | null;
+  input: Record<string, unknown>;
+  expected: Record<string, unknown>;
+  output: Record<string, unknown> | null;
+  output_meta: { model?: string | null; prompt_version?: string; generated_at?: string; cached?: boolean; note?: string };
+  status: "pass" | "fail" | "no_output";
+  problems: string[];
+  judge: {
+    status: string;
+    faithfulness?: number;
+    clarity?: number;
+    rationale?: string;
+    model?: string;
+    error?: string;
+  } | null;
+}
+
+export interface EvalRun {
+  run_at: string;
+  date: string;
+  provider: string;
+  model: string;
+  judge_model: string;
+  prompt_versions: Record<string, string>;
+  judge_prompt_version: string;
+  judge_status: "scored" | "not_run";
+  judge_note: string | null;
+  golden_cases: number;
+  passed: number;
+  failed: number;
+  no_output: number;
+}
+
+export interface EvalReport {
+  schema_version: number;
+  run: EvalRun;
+  by_type: EvalTypeRow[];
+  production: {
+    published: number;
+    checked: number;
+    passed: number;
+    failed: number;
+    stale: number;
+    rejected: number;
+    failures: { nct_id: string; problems: string[]; summary: string | null; rejected?: boolean }[];
+  };
+  cases: EvalCase[];
+}
+
+export interface EvalHistory {
+  runs: (EvalRun & {
+    by_type: { type: string; cases: number; passed: number; pass_rate: number | null; faithfulness_mean: number | null; clarity_mean: number | null }[];
+  })[];
+}

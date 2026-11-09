@@ -2,7 +2,7 @@
 // the sites, and every change our snapshots have recorded for this trial.
 
 import type { Page } from "../config";
-import { loadTrial } from "../data";
+import { loadSummary, loadTrial } from "../data";
 import { external, h, link, type Child } from "../dom";
 import {
   allocationLabel,
@@ -25,7 +25,7 @@ import {
   whoMaskedLabel,
 } from "../format";
 import { term } from "../glossary";
-import type { Checklist, ChecklistItem, Enrollment, Meta, Site, Trial } from "../types";
+import type { AISummary, Checklist, ChecklistItem, Enrollment, Meta, Site, Trial } from "../types";
 import { changeItem, collectionTag, emptyState, phaseChip, section, statusChip } from "../ui";
 
 const SITES_OPEN_LIMIT = 12;
@@ -110,21 +110,57 @@ function keyFacts(trial: Trial): HTMLElement {
   );
 }
 
-function summarySection(trial: Trial): HTMLElement {
+function aiSummaryBlock(trial: Trial, summary: AISummary | null): HTMLElement {
+  if (!summary) {
+    return h(
+      "p",
+      { class: "note" },
+      "A plain-language AI summary has not been written for this trial yet. Summaries are added a few at a time each day.",
+    );
+  }
+  if (summary.content_hash !== trial.content_hash) {
+    // Never show a summary of an older version of the record.
+    return h(
+      "p",
+      { class: "note" },
+      "The registry record changed after the AI summary was written, so it is hidden until a new one is ready.",
+    );
+  }
+  return h(
+    "div",
+    { class: "ai-summary" },
+    h("p", { class: "source-label" }, term("ai-summary", "AI-written summary")),
+    h("p", { class: "ai-summary-text" }, summary.summary),
+    h(
+      "p",
+      { class: "ai-disclaimer" },
+      "Summaries are generated from the official registry record; verify on ",
+      external(trial.registry_url, null, "ClinicalTrials.gov"),
+      ".",
+    ),
+    h(
+      "p",
+      { class: "muted ai-meta" },
+      `Written by ${summary.model} (${summary.provider}) on ${formatDate(summary.generated_at.slice(0, 10))}. `,
+      "Its phase, sponsor, enrollment and status were checked against the record automatically. ",
+      link("/evals", null, "How the AI is checked"),
+    ),
+  );
+}
+
+function summarySection(trial: Trial, summary: AISummary | null): HTMLElement {
   return section(
     "summary",
     "What this trial is about",
+    aiSummaryBlock(trial, summary),
     trial.brief_summary
-      ? [
-          h("p", { class: "source-label" }, "The sponsor's own summary, from the registry record"),
+      ? h(
+          "details",
+          { class: "sponsor-summary", open: !summary || summary.content_hash !== trial.content_hash },
+          h("summary", null, "The sponsor's own summary, from the registry record"),
           trial.brief_summary.split(/\n\s*\n/).map((paragraph) => h("p", { class: "registry-text" }, paragraph.trim())),
-        ]
-      : h("p", { class: "muted" }, "The registry record has no summary."),
-    h(
-      "p",
-      { class: "note" },
-      "A plain-language AI summary is not available yet. When one is, it will be generated only from this registry record and marked as AI-written.",
-    ),
+        )
+      : h("p", { class: "muted" }, "The registry record has no summary from the sponsor."),
   );
 }
 
@@ -322,7 +358,7 @@ function sitesSection(trial: Trial): HTMLElement {
 }
 
 export async function trialPage(meta: Meta, nctId: string): Promise<Page> {
-  const trial = await loadTrial(nctId);
+  const [trial, summary] = await Promise.all([loadTrial(nctId), loadSummary(nctId)]);
   const collections = trial.collections.flatMap((id) => meta.collections.find((c) => c.id === id) ?? []);
   const home = collections[0];
   const since = meta.tracking_since ?? meta.snapshot_date;
@@ -362,7 +398,7 @@ export async function trialPage(meta: Meta, nctId: string): Promise<Page> {
           `This trial stopped matching our collections on ${formatDate(trial.left_watchlist_date)}. The details below are the last version we saved and are no longer updated.`,
         ),
     section("facts", "Key facts", keyFacts(trial)),
-    summarySection(trial),
+    summarySection(trial, summary),
     testedSection(trial),
     eligibilitySection(trial),
     sitesSection(trial),

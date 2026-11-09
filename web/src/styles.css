@@ -18,6 +18,7 @@
   --tip-bg: #0b0b0b;
   --tip-ink: #fcfcfb;
   --accent: #52514e;
+  --eval-accent: #2a78d6;
   --radius: 12px;
   --gutter: 16px;
 }
@@ -41,6 +42,7 @@
     --tip-bg: #f0efec;
     --tip-ink: #0b0b0b;
     --accent: #c3c2b7;
+    --eval-accent: #3987e5;
   }
 }
 
@@ -1349,5 +1351,141 @@ details[open] > summary::before {
   .chart-table,
   .skip {
     display: none;
+  }
+}
+
+/* --- AI summary and evals -------------------------------------------------- */
+
+.nav {
+  display: flex;
+  gap: 12px;
+}
+
+.ai-summary {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+
+.ai-summary-text {
+  font-size: 1.0625rem;
+  max-width: 65ch;
+}
+
+.ai-disclaimer {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.ai-meta {
+  margin-top: 6px;
+  font-size: 0.8125rem;
+}
+
+.sponsor-summary {
+  margin-top: 12px;
+}
+
+.facts-run {
+  margin-top: 20px;
+}
+
+.kinds li {
+  padding: 6px 0;
+  color: var(--ink-2);
+  max-width: 70ch;
+}
+
+.kinds li strong {
+  color: var(--ink);
+}
+
+.kinds {
+  margin-bottom: 12px;
+}
+
+.failures {
+  display: grid;
+  gap: 12px;
+}
+
+.failure {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--bad);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  min-width: 0;
+}
+
+.problems {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 6px 0 10px;
+  color: var(--ink);
+  font-size: 0.875rem;
+}
+
+.panels {
+  display: grid;
+  gap: 10px;
+}
+
+.panel {
+  min-width: 0;
+}
+
+.panel h4 {
+  margin-top: 0;
+}
+
+.panel .registry-pre {
+  max-height: 320px;
+  overflow: auto;
+  font-size: 0.8125rem;
+}
+
+.scroll-x {
+  overflow-x: auto;
+}
+
+.history {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.history th,
+.history td {
+  padding: 8px 12px;
+  text-align: left;
+  border-top: 1px solid var(--grid);
+  white-space: nowrap;
+}
+
+.history thead th {
+  border-top: 0;
+  color: var(--ink-2);
+  font-size: 0.8125rem;
+}
+
+@media (min-width: 720px) {
+  .panels {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .facts-run {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .facts-run .fact:nth-child(n) {
+    border-top: 0;
+  }
+
+  .facts-run .fact + .fact {
+    border-left: 1px solid var(--grid);
   }
 }

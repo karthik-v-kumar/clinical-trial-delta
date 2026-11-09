@@ -1,8 +1,11 @@
 # Daily refresh (mirrors financial-research-hub's refresh.yml): the only
 # recurring compute in this project. Runs on GitHub's runners with the repo's
-# own GITHUB_TOKEN; no personal agent allowance is involved. M1 needs no
-# secrets. Later, the optional eval judge reads LLM_API_KEY from Actions
-# secrets only, and its absence means "not run".
+# own GITHUB_TOKEN; no personal agent allowance is involved.
+#
+# AI summaries and the eval judge use GitHub Models, authorized by this
+# workflow's own token (permission `models: read`) passed as LLM_API_KEY. No
+# key is stored anywhere. If LLM_API_KEY is absent, both report "not run".
+# Optional repository variables: LLM_MODEL, JUDGE_MODEL.
 name: Daily refresh
 
 on:
@@ -22,6 +25,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 # Queue runs, never overlap, so two runs can't interleave pushes to main.
 concurrency:
@@ -31,7 +35,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     env:
       MODE: ${{ inputs.mode || 'daily' }}
     steps:
@@ -58,6 +62,26 @@ jobs:
       # exists. rebuild: re-write the site files from the latest snapshot only.
       - name: Run pipeline (${{ env.MODE }})
         run: python -m pipeline.run "$MODE"
+
+      # Plain-language summaries for new or changed records only, within a
+      # request budget that keeps the free tier's daily limit in reach. Every
+      # summary must pass the assertions before it is published.
+      - name: AI summaries (changed records only)
+        continue-on-error: true
+        env:
+          LLM_API_KEY: ${{ github.token }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'openai/gpt-4.1-mini' }}
+        run: python -m pipeline.summarize
+
+      # Eval assertions on every refresh; failures show on the site's Evals page
+      # and as warnings here. The judge reuses cached scores for unchanged outputs.
+      - name: Evals
+        continue-on-error: true
+        env:
+          LLM_API_KEY: ${{ github.token }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'openai/gpt-4.1-mini' }}
+          JUDGE_MODEL: ${{ vars.JUDGE_MODEL || 'openai/gpt-4.1' }}
+        run: python -m pipeline.evals
 
       # Acceptance check, logged every run: pipeline counts vs the
       # ClinicalTrials.gov website and API. Never blocks the data commit.

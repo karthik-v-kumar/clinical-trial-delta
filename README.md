@@ -7,8 +7,8 @@ flips, enrollment, endpoint, and site changes.
 
 Public registry data only. Information and links, not medical advice.
 
-**Status:** milestones M1 (data pipeline) and M2 (site) are built. The eval
-suite (M3) comes next. See [BUILD_BRIEF.md](BUILD_BRIEF.md) for the full spec and
+**Status:** milestones M1 (data pipeline), M2 (site) and M3 (AI summaries and
+evals) are built. See [BUILD_BRIEF.md](BUILD_BRIEF.md) for the full spec and
 [REFERENCE_FRH.md](REFERENCE_FRH.md) for the financial-research-hub conventions
 this repo mirrors.
 
@@ -49,6 +49,30 @@ The refresh runs once a day on GitHub Actions
 `data/` back to `main`. It uses only the repository's own token: no API keys or
 secrets, and nothing runs at page-view time. Timestamps are America/Los_Angeles.
 
+## AI summaries and evals
+
+Trial pages show a short plain-language summary written by an AI model from the
+registry record only, next to the note "Summaries are generated from the official
+registry record; verify on ClinicalTrials.gov".
+
+- **Where it runs:** only in the daily GitHub Actions refresh, never when a page
+  is viewed. The model is reached through GitHub Models using the workflow's own
+  token (`models: read`), passed as `LLM_API_KEY`. No key is stored.
+- **When it runs:** only for trials whose record is new or changed since its
+  summary was written, or whose prompt changed. The free tier allows about 150
+  requests a day, so each run does at most 100, open and running trials first.
+- **Checks before publishing:** the summary's phase, sponsor, enrollment and
+  status must match the record exactly, any phase or head count in the prose must
+  agree, and any NCT number cited must exist. Failures are not published; they
+  show on the Evals page.
+- **Evals** (`python -m pipeline.evals`, every refresh): 30 hand-written cases in
+  `evals/golden.json` (summary faithfulness, eligibility parsing, refusal and
+  grounding), free automatic checks, and an AI judge (a second, larger model) that
+  scores faithfulness and clarity from 1 to 5. Without `LLM_API_KEY` the judge
+  shows "not run". Results: `data/evals/`, shown at `/evals`.
+- **Models:** `openai/gpt-4.1-mini` writes, `openai/gpt-4.1` judges. Change them
+  with the repository variables `LLM_MODEL` and `JUDGE_MODEL`.
+
 ## The watchlist
 
 [`pipeline/watchlist.json`](pipeline/watchlist.json) defines three collections.
@@ -77,6 +101,8 @@ that match only because of the edit are not reported as "new trials".
 | `data/collections/<id>.json` | Collection metadata, trials-by-phase and trials-by-status counts, trial table rows |
 | `data/sites/<id>.json` | Cities where a collection's trials are recruiting, for the near-a-city search |
 | `data/trials/<NCT>.json` | One trial: the normalized record, its eligibility checklist, its collections, and its full change history |
+| `data/summaries/<NCT>.json` | A trial's AI summary, with the record hash it was written from |
+| `data/evals/latest.json`, `history.json` | Latest eval run (every case, output and expected answer) and one row per run |
 | `data/reconciliation.json` | Latest count check against ClinicalTrials.gov |
 | `data/snapshots/` | Daily manifests and content-addressed records (pipeline state; not read by the site) |
 

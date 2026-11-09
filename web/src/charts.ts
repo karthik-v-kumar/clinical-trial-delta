@@ -25,6 +25,14 @@ export interface ChartOptions {
   valueTitle: string; // e.g. "Trials"
   unit: [string, string]; // singular, plural: ["trial", "trials"]
   orientation: "columns" | "bars";
+  /** Fixed top of the value axis (e.g. 100 for percentages, 5 for a 1-5 score). */
+  max?: number;
+  /** Tick step when `max` is set. */
+  step?: number;
+  /** Formats values and ticks; defaults to whole numbers. */
+  format?: (value: number) => string;
+  /** Hide the "share of total" column and read-out (for rates and scores). */
+  noShare?: boolean;
 }
 
 const FONT = '12px system-ui, -apple-system, "Segoe UI", sans-serif';
@@ -59,8 +67,19 @@ function share(value: number, total: number): string {
 
 export function barChart(options: ChartOptions): HTMLElement {
   const { data, unit } = options;
-  const total = data.reduce((sum, d) => sum + d.value, 0);
-  const describe = (d: ChartDatum) => `${formatInt(d.value)} ${d.value === 1 ? unit[0] : unit[1]}`;
+  const fmt = options.format ?? formatInt;
+  const total = options.noShare ? 0 : data.reduce((sum, d) => sum + d.value, 0);
+  const describe = (d: ChartDatum) =>
+    options.format ? `${fmt(d.value)} ${unit[1]}`.trim() : `${formatInt(d.value)} ${d.value === 1 ? unit[0] : unit[1]}`;
+  const ticksFor = (target: number): number[] => {
+    if (options.max !== undefined) {
+      const step = options.step ?? options.max / 4;
+      const out: number[] = [];
+      for (let v = 0; v <= options.max + 1e-9; v += step) out.push(Math.round(v * 100) / 100);
+      return out;
+    }
+    return niceTicks(Math.max(...data.map((d) => d.value), 1), target);
+  };
 
   const plot = h("div", { class: "chart-plot" });
   const tip = h("div", { class: "chart-tip", hidden: true });
@@ -84,7 +103,7 @@ export function barChart(options: ChartOptions): HTMLElement {
             null,
             h("th", { scope: "col" }, options.categoryTitle),
             h("th", { scope: "col", class: "num" }, options.valueTitle),
-            h("th", { scope: "col", class: "num" }, "Share"),
+            options.noShare ? null : h("th", { scope: "col", class: "num" }, "Share"),
           ),
         ),
         h(
@@ -95,8 +114,8 @@ export function barChart(options: ChartOptions): HTMLElement {
               "tr",
               null,
               h("th", { scope: "row" }, d.label),
-              h("td", { class: "num" }, formatInt(d.value)),
-              h("td", { class: "num" }, share(d.value, total)),
+              h("td", { class: "num" }, fmt(d.value)),
+              options.noShare ? null : h("td", { class: "num" }, share(d.value, total)),
             ),
           ),
         ),
@@ -143,9 +162,9 @@ export function barChart(options: ChartOptions): HTMLElement {
   };
 
   const drawColumns = (width: number): SVGElement => {
-    const ticks = niceTicks(Math.max(...data.map((d) => d.value), 1));
+    const ticks = ticksFor(4);
     const top = ticks[ticks.length - 1] ?? 1;
-    const tickLabels = ticks.map((t) => formatInt(t));
+    const tickLabels = ticks.map((t) => fmt(t));
     const left = Math.ceil(Math.max(...tickLabels.map(textWidth))) + 10;
     const right = 8;
     const bandWidth = (width - left - right) / data.length;
@@ -199,7 +218,7 @@ export function barChart(options: ChartOptions): HTMLElement {
         );
       }
       group.appendChild(
-        svg("text", { class: "bar-value", x: center, y: barTop - 5, "text-anchor": "middle" }, formatInt(d.value)),
+        svg("text", { class: "bar-value", x: center, y: barTop - 5, "text-anchor": "middle" }, fmt(d.value)),
       );
       (lines[i] ?? []).forEach((line, row) => {
         group.appendChild(
@@ -223,10 +242,10 @@ export function barChart(options: ChartOptions): HTMLElement {
   };
 
   const drawBars = (width: number): SVGElement => {
-    const ticks = niceTicks(Math.max(...data.map((d) => d.value), 1), width < 420 ? 3 : 5);
+    const ticks = ticksFor(width < 420 ? 3 : 5);
     const top = ticks[ticks.length - 1] ?? 1;
     const labelWidth = Math.min(Math.ceil(Math.max(...data.map((d) => textWidth(d.axisLabel)))) + 10, width * 0.48);
-    const valueRoom = Math.ceil(Math.max(...data.map((d) => textWidth(formatInt(d.value))))) + 10;
+    const valueRoom = Math.ceil(Math.max(...data.map((d) => textWidth(fmt(d.value))))) + 10;
     const left = labelWidth;
     const right = valueRoom;
     const rowHeight = 30;
@@ -257,7 +276,7 @@ export function barChart(options: ChartOptions): HTMLElement {
         }),
       );
       root.appendChild(
-        svg("text", { class: "tick", x: x(tick), y: marginTop + plotHeight + 16, "text-anchor": "middle" }, formatInt(tick)),
+        svg("text", { class: "tick", x: x(tick), y: marginTop + plotHeight + 16, "text-anchor": "middle" }, fmt(tick)),
       );
     });
     data.forEach((d, i) => {
@@ -280,7 +299,7 @@ export function barChart(options: ChartOptions): HTMLElement {
           }),
         );
       }
-      group.appendChild(svg("text", { class: "bar-value", x: end + 6, y: middle + 4 }, formatInt(d.value)));
+      group.appendChild(svg("text", { class: "bar-value", x: end + 6, y: middle + 4 }, fmt(d.value)));
       root.appendChild(group);
     });
     root.appendChild(

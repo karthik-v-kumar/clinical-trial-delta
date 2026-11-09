@@ -2,7 +2,8 @@
 // so `vite dev` serves them and `vite build` ships them in dist/data.
 //
 // Only what the pages read is copied: meta.json, changes.json, collections/,
-// sites/ and trials/. Snapshots are pipeline state and never ship. Files are
+// sites/, trials/, summaries/ and evals/ (top-level files only, so the eval
+// caches stay behind). Snapshots are pipeline state and never ship. Files are
 // re-serialized without indentation to keep downloads small.
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
@@ -10,11 +11,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const source = path.resolve(here, "../../data");
+const source = process.env.CTD_DATA_DIR ? path.resolve(process.env.CTD_DATA_DIR) : path.resolve(here, "../../data");
 const target = path.resolve(here, "../public/data");
 
 const FILES = ["meta.json", "changes.json"];
-const DIRECTORIES = ["collections", "sites", "trials"];
+const DIRECTORIES = ["collections", "sites", "trials", "summaries", "evals"];
 
 async function copyJson(from, to) {
   const parsed = JSON.parse(await readFile(from, "utf8"));

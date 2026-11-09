@@ -16,4 +16,7 @@ target-version = "py311"
 select = ["E", "F", "W", "B", "UP", "I"]
 
 [tool.ruff.lint.per-file-ignores]
-"pipeline/test_*.py" = ["E731"]
+# Prompt text, hand-written golden cases and test fixtures read better unwrapped.
+"pipeline/test_*.py" = ["E731", "E501"]
+"pipeline/ai.py" = ["E501"]
+"evals/build_golden.py" = ["E501"]

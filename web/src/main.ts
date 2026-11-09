@@ -8,6 +8,7 @@ import { clear, external, h, link } from "./dom";
 import { daysBetween, formatDate, todayInLosAngeles } from "./format";
 import { closeGlossaryPopup, initGlossaryPopups } from "./glossary";
 import { collectionPage } from "./pages/collection";
+import { evalsPage } from "./pages/evals";
 import { glossaryPage } from "./pages/glossary";
 import { homePage } from "./pages/home";
 import { trialPage } from "./pages/trial";
@@ -21,6 +22,7 @@ const routes: [RegExp, Handler][] = [
   [/^\/c\/([a-z0-9-]+)\/?$/, (meta, [id]) => collectionPage(meta, id ?? "")],
   [/^\/t\/(NCT\d{8})\/?$/i, (meta, [nct]) => trialPage(meta, (nct ?? "").toUpperCase())],
   [/^\/glossary\/?$/, () => glossaryPage()],
+  [/^\/evals\/?$/, () => evalsPage()],
 ];
 
 // --- shell -------------------------------------------------------------------
@@ -53,7 +55,12 @@ function shell(): HTMLElement {
         "div",
         { class: "wrap header-row" },
         link("/", { class: "brand", "aria-label": `${APP_NAME} home` }, logo(), h("span", null, APP_NAME)),
-        h("nav", { "aria-label": "Site" }, link("/glossary", { class: "nav-link" }, "Glossary")),
+        h(
+          "nav",
+          { "aria-label": "Site", class: "nav" },
+          link("/evals", { class: "nav-link" }, "Evals"),
+          link("/glossary", { class: "nav-link" }, "Glossary"),
+        ),
       ),
       h("div", { class: "wrap" }, badge),
     ),
