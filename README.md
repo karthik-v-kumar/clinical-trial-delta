@@ -7,8 +7,8 @@ flips, enrollment, endpoint, and site changes.
 
 Public registry data only. Information and links, not medical advice.
 
-**Status:** milestone M1 (data pipeline) is built. The site (M2) and the eval
-suite (M3) come next. See [BUILD_BRIEF.md](BUILD_BRIEF.md) for the full spec and
+**Status:** milestones M1 (data pipeline) and M2 (site) are built. The eval
+suite (M3) comes next. See [BUILD_BRIEF.md](BUILD_BRIEF.md) for the full spec and
 [REFERENCE_FRH.md](REFERENCE_FRH.md) for the financial-research-hub conventions
 this repo mirrors.
 
@@ -95,9 +95,51 @@ pipeline/            Python package (standard library only)
   watchlist.json     what to track
   test_*.py          tests, next to the code (fixtures in pipeline/fixtures/)
 data/                committed JSON; the site reads nothing else
+web/                 the site: Vite + TypeScript, hand-rolled CSS and SVG charts
+  src/data.ts        the only network code: same-origin GETs of /data/*.json
+  src/pages/         home, collection, trial, glossary
+  src/charts.ts      bar charts with numbered, titled axes
+  src/glossary.ts    plain-language explanations for every trial term
+  scripts/           copy-data.mjs (build step), check-fetch-targets.mjs (CI)
+  vercel.json        Vercel settings; the Vercel project root is web/
 docs/                design and ops notes
 .github/workflows/   refresh.yml (daily), tests.yml
 ```
+
+## The site
+
+A static single-page app with three kinds of page: the home page (collections
+and the latest changes), a page per collection (charts, a recruiting-near-a-city
+search, recent changes, a sortable trial table) and a page per trial. Every trial
+term is tappable for a plain-language explanation, and the header shows the date
+of the data and warns when it is stale.
+
+The site reads only the committed JSON. `web/scripts/copy-data.mjs` copies it
+from `data/` into the build (snapshots are left out). No page calls an LLM, an
+API or any third-party host; `npm run check` fails the build if that changes.
+
+```bash
+cd web
+```
+
+```bash
+npm ci
+```
+
+```bash
+npm run dev
+```
+
+```bash
+npm run check
+```
+
+```bash
+npm run build
+```
+
+Deployment is on Vercel with the project root set to `web/`. Each data commit to
+`main` redeploys the site.
 
 ## Running it
 

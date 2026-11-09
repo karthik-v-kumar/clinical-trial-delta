@@ -85,6 +85,7 @@ def test_two_day_run(tmp_path, registry):
     assert trial["history"][0]["collections"] == ["glp1-obesity", "type-2-diabetes"]
     meta = read(tmp_path / "meta.json")
     assert meta["snapshot_date"] == "2026-01-06"
+    assert meta["tracking_since"] == "2026-01-05"  # the first snapshot, not the latest
     assert [c["changes_recent"] for c in meta["collections"]] == [1, 1, 1]
     assert trial["sponsors_of_note"] == ["Roche"]  # fixture's lead sponsor is Hoffmann-La Roche
 
@@ -262,6 +263,7 @@ def test_rebuild_rewrites_site_files_without_fetching(tmp_path, registry):
     assert meta["snapshot_date"] == "2026-01-06"
     assert meta["run"] == meta_before["run"]  # the fetch run's provenance is kept
     assert meta["rebuild"]["mode"] == "rebuild"
+    assert meta["tracking_since"] == "2026-01-05"
     assert meta["collections"] == meta_before["collections"]
     assert (tmp_path / "changes.json").read_bytes() == changes_before
     assert {p: p.read_bytes() for p in (tmp_path / "snapshots").rglob("*.json")} == snapshots_before

@@ -288,6 +288,7 @@ def run(
             "warnings": warnings,
         },
         generated_at=finished_at,
+        tracking_since=(store.dates() or [snapshot_date])[0],
     )
     summary["snapshot"] = store.write(snap)
     summary["trial_files"] = trial_stats
@@ -339,6 +340,7 @@ def rebuild(
         events,
         run=previous.get("run") or {"mode": snap.mode, "finished_at": snap.created_at},
         generated_at=finished_at,
+        tracking_since=dates[0],
         rebuild={"mode": "rebuild", "started_at": started_at, "finished_at": finished_at},
     )
     return summary

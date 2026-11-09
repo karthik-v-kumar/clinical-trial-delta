@@ -4,11 +4,13 @@ on:
   push:
     paths:
       - "pipeline/**"
+      - "web/**"
       - "requirements-dev.txt"
       - ".github/workflows/**"
   pull_request:
     paths:
       - "pipeline/**"
+      - "web/**"
       - "requirements-dev.txt"
       - ".github/workflows/**"
 
@@ -28,3 +30,22 @@ jobs:
           cache-dependency-path: requirements-dev.txt
       - run: pip install -r requirements-dev.txt
       - run: python -m pytest -q
+
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      # Type-check, and fail if any page could request anything other than the
+      # site's own /data/*.json files (no LLM or API calls at view time).
+      - run: npm run check
+      - run: npm run build

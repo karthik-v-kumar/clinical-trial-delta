@@ -172,6 +172,7 @@ META_FIELDS = (
     "schema_version",
     "app",
     "snapshot_date",
+    "tracking_since",
     "generated_at",
     "run",
     "rebuild",
@@ -526,12 +527,14 @@ def write_meta(
     events: list[dict],
     run: dict,
     generated_at: str,
+    tracking_since: str,
     rebuild: dict | None = None,
 ) -> dict:
     """data/meta.json: what ran (mode, timestamps, counts). The staleness badge reads it.
 
     `run` describes the run that fetched this snapshot. `rebuild` is set when the
     files were later re-written from that snapshot without fetching.
+    `tracking_since` is the date of the first snapshot: history starts there.
     """
     window_start = (dt.date.fromisoformat(snap.snapshot_date) - dt.timedelta(days=RECENT_DAYS - 1)).isoformat()
     recent = defaultdict(set)
@@ -543,6 +546,7 @@ def write_meta(
         "schema_version": SCHEMA_VERSION,
         "app": APP_NAME,
         "snapshot_date": snap.snapshot_date,
+        "tracking_since": tracking_since,
         "generated_at": generated_at,
         "run": publish(run, META_RUN_FIELDS),
         "source": {"name": "ClinicalTrials.gov API v2", "url": API_BASE, **snap.source},
