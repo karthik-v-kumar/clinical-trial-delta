@@ -2,18 +2,21 @@
 
 Layout under data/snapshots/:
 
-    YYYY-MM-DD.json.gz            one manifest per day: which trials matched each
+    YYYY-MM-DD.json               one manifest per day: which trials matched each
                                   query, and the content hash of every trial record
-    records/ab/abcdef0123456789.json.gz
+    records/ab/abcdef0123456789.json
                                   normalized trial records, content-addressed
                                   (file name = hash of contents)
+
+Everything is plain JSON (data/ holds committed JSON only), one compact line per
+file with sorted keys, so identical content always produces identical bytes.
 
 A full snapshot for day D is that day's manifest plus the records it points to.
 Records are immutable (same content -> same name, so a record file is written
 once and never changed), and a manifest is written once and never replaced.
 Because unchanged trials share record files across days, the store grows only
-by what actually changed; at ~6k trials a full copy per day would add ~10 MB
-(gzipped) to git every day.
+by what actually changed; at ~6k trials a full copy per day would add ~46 MB
+to git every day.
 
 The ClinicalTrials.gov API has no history endpoint, so this store is the only
 history of the registry that exists for our watchlist.
@@ -21,7 +24,6 @@ history of the registry that exists for our watchlist.
 
 from __future__ import annotations
 
-import gzip
 import hashlib
 import json
 import os
@@ -100,9 +102,14 @@ class Snapshot:
         )
 
 
-def _gzip_json(obj) -> bytes:
-    raw = json.dumps(obj, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
-    return gzip.compress(raw, compresslevel=9, mtime=0)  # mtime=0: identical bytes for identical content
+def _json_bytes(obj) -> bytes:
+    """Canonical plain JSON: sorted keys, compact, UTF-8, trailing newline."""
+    return (json.dumps(obj, sort_keys=True, separators=(",", ":"), ensure_ascii=False) + "\n").encode("utf-8")
+
+
+def _read_json(path: Path):
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh)
 
 
 def _atomic_write(path: Path, data: bytes) -> None:
@@ -126,15 +133,15 @@ class SnapshotStore:
     def manifest_path(self, date: str) -> Path:
         if not _DATE.match(date):
             raise ValueError(f"bad snapshot date {date!r}")
-        return self.root / f"{date}.json.gz"
+        return self.root / f"{date}.json"
 
     def record_path(self, digest: str) -> Path:
-        return self.records_dir / digest[:2] / f"{digest}.json.gz"
+        return self.records_dir / digest[:2] / f"{digest}.json"
 
     def dates(self) -> list[str]:
         if not self.root.exists():
             return []
-        return sorted(p.name[:10] for p in self.root.glob("*.json.gz") if _DATE.match(p.name[:10]))
+        return sorted(p.stem for p in self.root.glob("*.json") if _DATE.match(p.stem))
 
     def exists(self, date: str) -> bool:
         return self.manifest_path(date).exists()
@@ -155,7 +162,7 @@ class SnapshotStore:
             hashes[nct] = digest
             path = self.record_path(digest)
             if not path.exists():
-                _atomic_write(path, _gzip_json(record))
+                _atomic_write(path, _json_bytes(record))
                 new_records += 1
         manifest = {
             "schema_version": SNAPSHOT_SCHEMA_VERSION,
@@ -174,18 +181,20 @@ class SnapshotStore:
             },
             "trials": hashes,
         }
-        _atomic_write(manifest_path, _gzip_json(manifest))
+        _atomic_write(manifest_path, _json_bytes(manifest))
         return {"manifest": str(manifest_path), "records_written": new_records, "records_total": len(hashes)}
 
+    def read_manifest(self, date: str) -> dict:
+        """The day's manifest alone (membership and hashes), without loading records."""
+        return _read_json(self.manifest_path(date))
+
     def read(self, date: str) -> Snapshot:
-        with gzip.open(self.manifest_path(date), "rt", encoding="utf-8") as fh:
-            manifest = json.load(fh)
+        manifest = self.read_manifest(date)
         if manifest.get("schema_version") != SNAPSHOT_SCHEMA_VERSION:
             raise SnapshotCorruptError(f"snapshot {date}: unsupported schema {manifest.get('schema_version')}")
         trials = {}
         for nct, digest in manifest["trials"].items():
-            with gzip.open(self.record_path(digest), "rt", encoding="utf-8") as fh:
-                record = json.load(fh)
+            record = _read_json(self.record_path(digest))
             if content_hash_full(record) != digest:
                 raise SnapshotCorruptError(f"snapshot {date}: record for {nct} does not match hash {digest}")
             trials[nct] = record

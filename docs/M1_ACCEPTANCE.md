@@ -54,7 +54,7 @@ does not show up as changes.
 
 ## Differ tests
 
-`python -m pytest`, on Python 3.11 (the version CI uses): **88 passed**. 26 of
+`python -m pytest`, on Python 3.11 (the version CI uses): **89 passed**. 26 of
 them are differ tests against the two fixture snapshots in `pipeline/fixtures/`. The fixtures produce exactly 15
 known events, covering all 8 event types, and also check cases that must *not*
 produce events: whitespace- or case-only endpoint edits, a date's type flipping
@@ -69,7 +69,7 @@ edited.
 | test_run.py | 13 |
 | test_writers.py | 11 |
 | test_ctgov.py | 11 |
-| test_snapshot.py | 7 |
+| test_snapshot.py | 8 |
 | test_normalize.py | 6 |
 
 test_run.py also covers the partial-run rules: a failed query is carried
@@ -81,8 +81,9 @@ only when every query fails is nothing written.
 
 - Each run makes 13 API requests and takes about 22 seconds.
 - Day-one data: trial files 55.9 MB, collection files 4.2 MB, snapshot store
-  15.9 MB (about 121 KB of that is the daily manifest).
-- Each later day adds a manifest of about 121 KB plus record files only for trials
+  46.7 MB (about 311 KB of that is the daily manifest). Everything is plain
+  JSON: 12,385 files, none compressed.
+- Each later day adds a manifest of about 311 KB plus record files only for trials
   that changed.
 
 ## Writer allowlists (REFERENCE_FRH.md: name them in every milestone report)

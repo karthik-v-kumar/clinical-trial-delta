@@ -65,7 +65,7 @@ def test_two_day_run(tmp_path, registry):
 
     first = run("daily", "2026-01-05", data_dir=tmp_path, client=FakeClient(day1), log=quiet)
     assert first["baseline"] and first["events"] == 0 and first["trials"] == 4
-    assert (tmp_path / "snapshots" / "2026-01-05.json.gz").exists()
+    assert (tmp_path / "snapshots" / "2026-01-05.json").exists()
     assert read(tmp_path / "changes.json")["events"] == []
     meta = read(tmp_path / "meta.json")
     assert meta["app"] == "Clinical Trial Delta" and meta["run"]["baseline"] is True

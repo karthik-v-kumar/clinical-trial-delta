@@ -1,4 +1,3 @@
-import gzip
 import json
 
 import pytest
@@ -55,10 +54,9 @@ def test_output_is_byte_deterministic(tmp_path, day1):
 def test_detects_tampered_record(tmp_path, day1):
     store = SnapshotStore(tmp_path)
     store.write(day1)
-    with gzip.open(store.manifest_path("2026-01-05"), "rt") as fh:
-        digest = json.load(fh)["trials"]["NCT90000001"]
+    digest = store.read_manifest("2026-01-05")["trials"]["NCT90000001"]
     path = store.record_path(digest)
-    path.write_bytes(gzip.compress(json.dumps({"nct_id": "NCT90000001"}).encode()))
+    path.write_text(json.dumps({"nct_id": "NCT90000001"}))
     with pytest.raises(SnapshotCorruptError):
         store.read("2026-01-05")
 
@@ -66,3 +64,15 @@ def test_detects_tampered_record(tmp_path, day1):
 def test_rejects_bad_dates(tmp_path):
     with pytest.raises(ValueError):
         SnapshotStore(tmp_path).manifest_path("2026-1-5")
+
+
+def test_store_is_plain_json(tmp_path, day1):
+    """data/ holds committed JSON only: no compressed or binary files in the store."""
+    store = SnapshotStore(tmp_path)
+    store.write(day1)
+    files = [p for p in tmp_path.rglob("*") if p.is_file()]
+    assert files and all(p.suffix == ".json" for p in files)
+    manifest = json.loads(store.manifest_path("2026-01-05").read_text(encoding="utf-8"))
+    assert manifest["snapshot_date"] == "2026-01-05"
+    record = json.loads(store.record_path(manifest["trials"]["NCT90000001"]).read_text(encoding="utf-8"))
+    assert record == day1.trials["NCT90000001"]

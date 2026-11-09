@@ -25,7 +25,7 @@ watchlist.json ──► fetch ──► normalize ──► snapshot ──► 
 - **Normalize:** turns each study into a deterministic record. Site contacts,
   investigator names, phone numbers and e-mails are never requested from the
   API at all.
-- **Snapshot:** `data/snapshots/YYYY-MM-DD.json.gz` is written once a day and
+- **Snapshot:** `data/snapshots/YYYY-MM-DD.json` is written once a day and
   never overwritten. It points to content-addressed records in
   `data/snapshots/records/`, so an unchanged trial is stored only once. The API
   has no history endpoint, so these snapshots are the only history there is.

@@ -18,8 +18,6 @@ cannot be explained by newer registry data).
 from __future__ import annotations
 
 import argparse
-import gzip
-import json
 import os
 import sys
 from pathlib import Path
@@ -28,17 +26,16 @@ from .clock import now_iso
 from .config import WATCHLIST_PATH, load_watchlist
 from .fetch.ctgov import Client, FetchError, web_url
 from .run import DATA_DIR
+from .snapshot import SnapshotStore
 from .writers import write_json
 
 
 def _read_manifest(data_dir: Path, date: str | None) -> dict:
-    snap_dir = data_dir / "snapshots"
-    dates = sorted(p.name[:10] for p in snap_dir.glob("????-??-??.json.gz"))
+    store = SnapshotStore(data_dir / "snapshots")
+    dates = store.dates()
     if not dates:
         raise SystemExit("no snapshots yet; run `python -m pipeline.run daily` first")
-    date = date or dates[-1]
-    with gzip.open(snap_dir / f"{date}.json.gz", "rt", encoding="utf-8") as fh:
-        return json.load(fh)
+    return store.read_manifest(date or dates[-1])
 
 
 def reconcile(
