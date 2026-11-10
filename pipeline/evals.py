@@ -43,7 +43,7 @@ from .ai import (
 )
 from .clock import now_iso
 from .eligibility import parse_criteria
-from .llm import PROVIDER_NAME, LLMClient, LLMConfig, LLMError, LLMUnavailable
+from .llm import LLMClient, LLMConfig, LLMError, LLMUnavailable
 from .normalize import content_hash
 from .run import DATA_DIR, REPO_ROOT
 from .snapshot import SnapshotStore
@@ -146,7 +146,7 @@ class Runner:
         self.log = log
         self.outputs = read_eval_cache(data_dir, "outputs")
         self.judged = read_eval_cache(data_dir, "judge")
-        self.generator_down: str | None = None if self.client else "no LLM provider configured (LLM_API_KEY is not set)"
+        self.generator_down: str | None = None if self.client else config.not_configured_reason
         self.judge_down: str | None = self.generator_down
         self.consecutive_errors = 0
 
@@ -410,7 +410,7 @@ def run(
         "run": {
             "run_at": stamp,
             "date": stamp[:10],
-            "provider": PROVIDER_NAME,
+            "provider": config.provider_name,
             "model": config.model,
             "judge_model": config.judge_model,
             "prompt_versions": {"summary": SUMMARY_PROMPT_VERSION, "ask": ASK_PROMPT_VERSION},
@@ -441,8 +441,8 @@ def main(argv: list[str] | None = None) -> int:
     report = run(
         args.data_dir,
         args.golden,
-        gen_budget=int(os.environ.get("EVAL_GENERATION_BUDGET", DEFAULT_GENERATION_BUDGET)),
-        judge_budget=int(os.environ.get("EVAL_JUDGE_BUDGET", DEFAULT_JUDGE_BUDGET)),
+        gen_budget=int(os.environ.get("EVAL_GENERATION_BUDGET") or DEFAULT_GENERATION_BUDGET),
+        judge_budget=int(os.environ.get("EVAL_JUDGE_BUDGET") or DEFAULT_JUDGE_BUDGET),
     )
     run_info = report["run"]
     print(f"Evals: {run_info['passed']} passed, {run_info['failed']} failed, {run_info['no_output']} without output")

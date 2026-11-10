@@ -8,9 +8,10 @@ It summarizes only trials whose record is new or has changed since its summary
 was written (content hash), or whose summary prompt has changed, so the LLM is
 never called for an unchanged record.
 
-Work is done in priority order within a request budget, because the free GitHub
-Models tier allows ~150 requests a day: changed records first, then trials that
-are open or running, then the rest. Every output must pass the deterministic
+Work is done in priority order within a request budget, because free LLM tiers
+allow only a few hundred requests a day: changed records first, then trials
+that are open or running, then the rest. A provider that runs out of quota
+mid-run stops the run cleanly; the next day's run carries on. Every output must pass the deterministic
 assertions in pipeline/ai.py before it is published (data/summaries/<NCT>.json).
 Outputs that fail twice are recorded in data/summaries/rejected.json and shown
 on the Evals page; they are retried only when the record or prompt changes.
@@ -25,13 +26,13 @@ from pathlib import Path
 
 from .ai import SUMMARY_PROMPT_VERSION, assert_summary, summarize
 from .clock import now_iso
-from .llm import PROVIDER_NAME, LLMClient, LLMConfig, LLMError, LLMUnavailable
+from .llm import LLMClient, LLMConfig, LLMError, LLMUnavailable
 from .normalize import content_hash
 from .run import DATA_DIR
 from .snapshot import SnapshotStore
 from .writers import read_summaries, write_rejected_summaries, write_summary, write_summary_index
 
-DEFAULT_BUDGET = 100  # requests per run; leaves room under the 150/day free tier for the evals
+DEFAULT_BUDGET = 100  # requests per run (SUMMARY_BUDGET); leaves room for the evals on a free tier
 MAX_CONSECUTIVE_ERRORS = 3  # a provider that keeps failing is not retried 100 times
 OPEN_STATUSES = {"RECRUITING", "NOT_YET_RECRUITING", "ENROLLING_BY_INVITATION", "ACTIVE_NOT_RECRUITING"}
 
@@ -101,7 +102,7 @@ def run(
     work = plan(snap.trials, summaries, rejected, config.model)
     report = {
         "status": "not_run",
-        "provider": PROVIDER_NAME,
+        "provider": config.provider_name,
         "model": config.model,
         "prompt_version": SUMMARY_PROMPT_VERSION,
         "snapshot_date": snap.snapshot_date,
@@ -122,7 +123,7 @@ def run(
         report["status"] = "dry_run"
         return report
     if not config.configured:
-        report["stopped_because"] = "no LLM provider configured (LLM_API_KEY is not set)"
+        report["stopped_because"] = config.not_configured_reason
         log(f"Not run: {report['stopped_because']}.")
         write_summary_index(data_dir, report, now_iso())
         return report
@@ -176,7 +177,7 @@ def run(
                 "content_hash": content_hash(record),
                 "summary": output["summary"].strip(),
                 "facts": output["facts"],
-                "provider": PROVIDER_NAME,
+                "provider": config.provider_name,
                 "model": config.model,
                 "prompt_version": SUMMARY_PROMPT_VERSION,
                 "generated_at": stamp,
@@ -201,7 +202,7 @@ def run(
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
-    parser.add_argument("--budget", type=int, default=int(os.environ.get("SUMMARY_BUDGET", DEFAULT_BUDGET)))
+    parser.add_argument("--budget", type=int, default=int(os.environ.get("SUMMARY_BUDGET") or DEFAULT_BUDGET))
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args(argv)
     run(args.data_dir, budget=args.budget, dry_run=args.dry_run)

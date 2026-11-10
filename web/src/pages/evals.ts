@@ -13,6 +13,17 @@ import type { EvalCase, EvalReport, EvalTypeRow, SummaryIndex } from "../types";
 import { emptyState, section, stat } from "../ui";
 
 const percent = (value: number) => `${Math.round(value)}%`;
+const NO_PROVIDER = "no LLM provider configured";
+
+/** Pipeline notes are written for maintainers; say the common case in plain words. */
+function plainNote(note: string | null | undefined): string | null {
+  if (!note) return null;
+  if (note.startsWith(NO_PROVIDER)) return "No AI provider is set up for the daily refresh yet.";
+  return note;
+}
+
+const modelLabel = (model: string | null, provider: string | null) =>
+  model ? (provider ? `${model} (${provider})` : model) : "None set up";
 const score = (value: number) => (Number.isInteger(value) ? String(value) : value.toFixed(1));
 
 function passRateChart(rows: EvalTypeRow[]): HTMLElement {
@@ -68,7 +79,7 @@ function judgeNotRun(report: EvalReport): HTMLElement {
       null,
       "The judge scores answers only when an AI provider is available to the daily refresh. No score is estimated or filled in while it has not run.",
     ),
-    report.run.judge_note ? h("p", { class: "muted" }, `Reason: ${report.run.judge_note}`) : null,
+    report.run.judge_note ? h("p", { class: "muted" }, `Reason: ${plainNote(report.run.judge_note)}`) : null,
   );
 }
 
@@ -143,7 +154,7 @@ function historyTable(history: NonNullable<Awaited<ReturnType<typeof loadEvalHis
             "tr",
             null,
             h("td", null, formatDate(run.date)),
-            h("td", null, run.model),
+            h("td", null, run.model ?? "none"),
             h("td", null, run.prompt_versions?.["summary"] ?? "—"),
             h("td", { class: "num" }, cell(run, "summary")),
             h("td", { class: "num" }, cell(run, "eligibility")),
@@ -173,9 +184,9 @@ function productionBlock(report: EvalReport, index: SummaryIndex | null): HTMLEl
           "p",
           { class: "section-note" },
           index.status === "not_run"
-            ? `The last summary run did not call a model: ${index.stopped_because ?? "no provider"}.`
-            : `The last run wrote ${plural(index.written, "summary", "summaries")} with ${index.model} (${index.provider}).` +
-                (index.stopped_because ? ` It stopped because the ${index.stopped_because}.` : ""),
+            ? `The last summary run did not call a model. ${plainNote(index.stopped_because) ?? ""}`.trim()
+            : `The last run wrote ${plural(index.written, "summary", "summaries")} with ${modelLabel(index.model, index.provider)}.` +
+                (index.stopped_because ? ` It stopped early: ${plainNote(index.stopped_because)}.` : ""),
         )
       : null,
     p.failures.length
@@ -247,9 +258,9 @@ export async function evalsPage(): Promise<Page> {
       "dl",
       { class: "facts facts-run" },
       h("div", { class: "fact" }, h("dt", null, "Latest run"), h("dd", null, `${formatDate(run.date)} · ${plural(run.golden_cases, "case")}`)),
-      h("div", { class: "fact" }, h("dt", null, "Summary model"), h("dd", null, `${run.model} (${run.provider})`)),
+      h("div", { class: "fact" }, h("dt", null, "Summary model"), h("dd", null, modelLabel(run.model, run.provider))),
       h("div", { class: "fact" }, h("dt", null, "Prompt version"), h("dd", null, run.prompt_versions["summary"] ?? "—")),
-      h("div", { class: "fact" }, h("dt", null, "Judge"), h("dd", null, run.judge_status === "scored" ? run.judge_model : "Not run")),
+      h("div", { class: "fact" }, h("dt", null, "Judge"), h("dd", null, run.judge_status === "scored" && run.judge_model ? run.judge_model : "Not run")),
     ),
     section("checks", ["Automatic checks (", term("assertion", "assertions"), ")"], kinds,
       graded.length ? passRateChart(report.by_type) : null,

@@ -2,10 +2,14 @@
 # recurring compute in this project. Runs on GitHub's runners with the repo's
 # own GITHUB_TOKEN; no personal agent allowance is involved.
 #
-# AI summaries and the eval judge use GitHub Models, authorized by this
-# workflow's own token (permission `models: read`) passed as LLM_API_KEY. No
-# key is stored anywhere. If LLM_API_KEY is absent, both report "not run".
-# Optional repository variables: LLM_MODEL, JUDGE_MODEL.
+# AI summaries and the eval judge call an OpenAI-compatible LLM provider set
+# in the repository settings (Settings > Secrets and variables > Actions):
+#   secret   LLM_API_KEY                     the provider key; never in the repo
+#   variable LLM_BASE_URL, LLM_MODEL         required
+#   variable JUDGE_MODEL, LLM_PROVIDER, LLM_MIN_INTERVAL, LLM_REASONING_EFFORT,
+#            SUMMARY_BUDGET, EVAL_GENERATION_BUDGET, EVAL_JUDGE_BUDGET  optional
+# Until those are set, both steps report "not run" and the site says so.
+# (GitHub Models, used at first, was retired by GitHub on 2026-07-30.)
 name: Daily refresh
 
 on:
@@ -25,7 +29,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 # Queue runs, never overlap, so two runs can't interleave pushes to main.
 concurrency:
@@ -38,6 +41,12 @@ jobs:
     timeout-minutes: 45
     env:
       MODE: ${{ inputs.mode || 'daily' }}
+      LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+      LLM_MODEL: ${{ vars.LLM_MODEL }}
+      JUDGE_MODEL: ${{ vars.JUDGE_MODEL }}
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+      LLM_MIN_INTERVAL: ${{ vars.LLM_MIN_INTERVAL }}
+      LLM_REASONING_EFFORT: ${{ vars.LLM_REASONING_EFFORT }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -69,8 +78,8 @@ jobs:
       - name: AI summaries (changed records only)
         continue-on-error: true
         env:
-          LLM_API_KEY: ${{ github.token }}
-          LLM_MODEL: ${{ vars.LLM_MODEL || 'openai/gpt-4.1-mini' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          SUMMARY_BUDGET: ${{ vars.SUMMARY_BUDGET }}
         run: python -m pipeline.summarize
 
       # Eval assertions on every refresh; failures show on the site's Evals page
@@ -78,9 +87,9 @@ jobs:
       - name: Evals
         continue-on-error: true
         env:
-          LLM_API_KEY: ${{ github.token }}
-          LLM_MODEL: ${{ vars.LLM_MODEL || 'openai/gpt-4.1-mini' }}
-          JUDGE_MODEL: ${{ vars.JUDGE_MODEL || 'openai/gpt-4.1' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          EVAL_GENERATION_BUDGET: ${{ vars.EVAL_GENERATION_BUDGET }}
+          EVAL_JUDGE_BUDGET: ${{ vars.EVAL_JUDGE_BUDGET }}
         run: python -m pipeline.evals
 
       # Acceptance check, logged every run: pipeline counts vs the

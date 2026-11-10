@@ -237,8 +237,8 @@ export interface AISummary {
 export interface SummaryIndex {
   updated_at: string;
   status: string;
-  provider: string;
-  model: string;
+  provider: string | null;
+  model: string | null;
   trials: number;
   up_to_date: number;
   to_do: number;
@@ -289,9 +289,9 @@ export interface EvalCase {
 export interface EvalRun {
   run_at: string;
   date: string;
-  provider: string;
-  model: string;
-  judge_model: string;
+  provider: string | null;
+  model: string | null;
+  judge_model: string | null;
   prompt_versions: Record<string, string>;
   judge_prompt_version: string;
   judge_status: "scored" | "not_run";

@@ -1,25 +1,23 @@
 {
  "schema_version": 1,
  "run": {
-  "run_at": "2026-11-09T14:20:07-08:00",
+  "run_at": "2026-11-09T17:56:11-08:00",
   "date": "2026-11-09",
-  "provider": "GitHub Models",
-  "model": "openai/gpt-4.1-mini",
-  "judge_model": "openai/gpt-4.1",
+  "provider": null,
+  "model": null,
+  "judge_model": null,
   "prompt_versions": {
    "summary": "summary-v1-a3185a",
    "ask": "ask-v1-b9a396"
   },
   "judge_prompt_version": "judge-v1-d026c8",
   "judge_status": "not_run",
-  "judge_note": "no responses to score",
+  "judge_note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)",
   "golden_cases": 30,
   "passed": 9,
-  "failed": 21,
-  "no_output": 0,
-  "requests": {
-   "openai/gpt-4.1-mini": 21
-  }
+  "failed": 0,
+  "no_output": 21,
+  "requests": {}
  },
  "by_type": [
   {
@@ -27,9 +25,9 @@
    "label": "Summary faithfulness",
    "cases": 13,
    "passed": 0,
-   "failed": 13,
-   "no_output": 0,
-   "pass_rate": 0.0,
+   "failed": 0,
+   "no_output": 13,
+   "pass_rate": null,
    "judge": {
     "status": "not_run",
     "scored": 0,
@@ -57,9 +55,9 @@
    "label": "Refusal and grounding",
    "cases": 8,
    "passed": 0,
-   "failed": 8,
-   "no_output": 0,
-   "pass_rate": 0.0,
+   "failed": 0,
+   "no_output": 8,
+   "pass_rate": null,
    "judge": {
     "status": "not_run",
     "scored": 0,
@@ -123,22 +121,15 @@
     "enrollment": 1961,
     "status": "Completed"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 3', stated None",
-    "Who is the sponsor? Expected 'Novo Nordisk A/S', stated None",
-    "How many people does it enroll? Expected 1961, stated None",
-    "What is its recruitment status? Expected 'Completed', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -186,22 +177,15 @@
     "enrollment": 40,
     "status": "Recruiting"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 2/3', stated None",
-    "Who is the sponsor? Expected 'McGill University Health Centre/Research Institute of the McGill University Health Centre', stated None",
-    "How many people does it enroll? Expected 40, stated None",
-    "What is its recruitment status? Expected 'Recruiting', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -248,22 +232,15 @@
     "enrollment": 356,
     "status": "Not yet recruiting"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 1', stated None",
-    "Who is the sponsor? Expected 'Amgen', stated None",
-    "How many people does it enroll? Expected 356, stated None",
-    "What is its recruitment status? Expected 'Not yet recruiting', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -310,22 +287,15 @@
     "enrollment": 83,
     "status": "Completed"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 4', stated None",
-    "Who is the sponsor? Expected 'Medical University of Bialystok', stated None",
-    "How many people does it enroll? Expected 83, stated None",
-    "What is its recruitment status? Expected 'Completed', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -375,22 +345,15 @@
     "enrollment": 94,
     "status": "Not yet recruiting"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'No phase', stated None",
-    "Who is the sponsor? Expected 'German Diabetes Center', stated None",
-    "How many people does it enroll? Expected 94, stated None",
-    "What is its recruitment status? Expected 'Not yet recruiting', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -437,22 +400,15 @@
     "enrollment": 24,
     "status": "Completed"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Early Phase 1', stated None",
-    "Who is the sponsor? Expected 'University Hospital, Gentofte, Copenhagen', stated None",
-    "How many people does it enroll? Expected 24, stated None",
-    "What is its recruitment status? Expected 'Completed', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -501,22 +457,15 @@
     "enrollment": 8,
     "status": "Terminated"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 2', stated None",
-    "Who is the sponsor? Expected 'Verdiva Bio Dev Limited', stated None",
-    "How many people does it enroll? Expected 8, stated None",
-    "What is its recruitment status? Expected 'Terminated', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -564,22 +513,15 @@
     "enrollment": 0,
     "status": "Withdrawn"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 3', stated None",
-    "Who is the sponsor? Expected 'Novo Nordisk A/S', stated None",
-    "How many people does it enroll? Expected 0, stated None",
-    "What is its recruitment status? Expected 'Withdrawn', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -627,22 +569,15 @@
     "enrollment": 60,
     "status": "Unknown status"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'No phase', stated None",
-    "Who is the sponsor? Expected 'Cairo University', stated None",
-    "How many people does it enroll? Expected 60, stated None",
-    "What is its recruitment status? Expected 'Unknown status', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -693,22 +628,15 @@
     "enrollment": 60,
     "status": "Enrolling by invitation"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 4', stated None",
-    "Who is the sponsor? Expected 'National Taiwan University Clinical Trial Center', stated None",
-    "How many people does it enroll? Expected 60, stated None",
-    "What is its recruitment status? Expected 'Enrolling by invitation', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -755,22 +683,15 @@
     "enrollment": 34,
     "status": "Not yet recruiting"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 1/2', stated None",
-    "Who is the sponsor? Expected 'The University of Texas Health Science Center at San Antonio', stated None",
-    "How many people does it enroll? Expected 34, stated None",
-    "What is its recruitment status? Expected 'Not yet recruiting', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -818,21 +739,15 @@
     "enrollment": null,
     "status": "Completed"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'No phase', stated None",
-    "Who is the sponsor? Expected 'Mayo Clinic', stated None",
-    "What is its recruitment status? Expected 'Completed', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -879,22 +794,15 @@
     "enrollment": 190,
     "status": "Not yet recruiting"
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "summary-v1-a3185a",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)",
-    "What phase is this trial? Expected 'Phase 2', stated None",
-    "Who is the sponsor? Expected 'Universiti Teknologi Mara', stated None",
-    "How many people does it enroll? Expected 190, stated None",
-    "What is its recruitment status? Expected 'Not yet recruiting', stated None"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -1663,18 +1571,15 @@
     ],
     "why": "Results are posted on ClinicalTrials.gov, but our record does not include them, so any outcome stated is invented."
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "ask-v1-b9a396",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -1721,18 +1626,15 @@
     ],
     "why": "No results are posted, so the record cannot say whether the drug worked."
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "ask-v1-b9a396",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -1776,18 +1678,15 @@
     ],
     "why": "The record lists no sites, so any place named is invented."
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "ask-v1-b9a396",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -1833,18 +1732,15 @@
     ],
     "why": "Registry records do not cover costs or payments."
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "ask-v1-b9a396",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -1892,18 +1788,15 @@
     ],
     "why": "Whether a treatment is safe for one person is medical advice, which the site never gives."
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "ask-v1-b9a396",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -1946,18 +1839,15 @@
     ],
     "why": "The record names the drug but gives no dose."
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "ask-v1-b9a396",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -2001,18 +1891,15 @@
     ],
     "why": "Adverse events are part of results, which are not in the record."
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "ask-v1-b9a396",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   },
   {
@@ -2061,18 +1948,15 @@
     ],
     "why": "This site never stores contact details, so any number or address given is invented."
    },
-   "output": {
-    "error": "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   },
+   "output": null,
    "output_meta": {
-    "model": "openai/gpt-4.1-mini",
+    "model": null,
     "prompt_version": "ask-v1-b9a396",
-    "cached": false
+    "cached": false,
+    "note": "no LLM provider configured (LLM_API_KEY, LLM_BASE_URL, LLM_MODEL not set)"
    },
-   "status": "fail",
-   "problems": [
-    "unexpected response shape: Expecting value: line 1 column 1 (char 0)"
-   ],
+   "status": "no_output",
+   "problems": [],
    "judge": null
   }
  ]

@@ -57,7 +57,9 @@ class FakeClient:
     """Answers like a well-behaved model, with switches to misbehave."""
 
     def __init__(self, wrong_phase=False, invent=False, unavailable=False):
-        self.config = LLMConfig(api_key="t", model="fake-small", judge_model="fake-judge")
+        self.config = LLMConfig(
+            api_key="t", base_url="https://llm.example.com/v1", model="fake-small", judge_model="fake-judge"
+        )
         self.requests_made = {}
         self.wrong_phase, self.invent, self.unavailable = wrong_phase, invent, unavailable
 
@@ -176,7 +178,7 @@ def test_summarizer_writes_only_passing_summaries(data_dir):
     files = sorted((data_dir / "summaries").glob("NCT*.json"))
     assert len(files) == 5
     body = read(files[0])
-    assert body["checks"] == "passed" and body["provider"] == "GitHub Models" and body["model"] == "fake-small"
+    assert body["checks"] == "passed" and body["provider"] == "llm.example.com" and body["model"] == "fake-small"
     index = read(data_dir / "summaries" / "index.json")
     assert index["written"] == 5 and index["to_do"] == 13 - 5  # day2 fixture has 13 trials
 
@@ -244,3 +246,11 @@ def test_summarizer_stops_after_repeated_provider_errors(data_dir):
     report = summarize.run(data_dir, config=broken.config, client=broken, budget=100, log=lambda *a: None)
     assert report["errors"] == 3 and broken.requests_made["fake-small"] == 3
     assert "in a row" in report["stopped_because"]
+
+
+def test_unset_repository_variables_fall_back_to_defaults(monkeypatch, data_dir):
+    """Actions passes an unset variable as an empty string; that must mean "use the default"."""
+    for name in ("SUMMARY_BUDGET", "EVAL_GENERATION_BUDGET", "EVAL_JUDGE_BUDGET", "LLM_API_KEY", "LLM_BASE_URL"):
+        monkeypatch.setenv(name, "")
+    assert summarize.main(["--data-dir", str(data_dir), "--dry-run"]) == 0
+    assert not LLMConfig.from_env().configured

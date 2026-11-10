@@ -46,8 +46,9 @@ and shown as a warning on the Actions run.
 The refresh runs once a day on GitHub Actions
 ([`.github/workflows/refresh.yml`](.github/workflows/refresh.yml)). It checks out
 `main`, runs the tests, runs the `daily` mode, reconciles counts, and commits
-`data/` back to `main`. It uses only the repository's own token: no API keys or
-secrets, and nothing runs at page-view time. Timestamps are America/Los_Angeles.
+`data/` back to `main`. The data pipeline uses only the repository's own token;
+the one secret is the optional AI provider key below. Nothing runs at page-view
+time. Timestamps are America/Los_Angeles.
 
 ## AI summaries and evals
 
@@ -56,22 +57,45 @@ registry record only, next to the note "Summaries are generated from the officia
 registry record; verify on ClinicalTrials.gov".
 
 - **Where it runs:** only in the daily GitHub Actions refresh, never when a page
-  is viewed. The model is reached through GitHub Models using the workflow's own
-  token (`models: read`), passed as `LLM_API_KEY`. No key is stored.
+  is viewed.
 - **When it runs:** only for trials whose record is new or changed since its
-  summary was written, or whose prompt changed. The free tier allows about 150
-  requests a day, so each run does at most 100, open and running trials first.
+  summary was written, or whose prompt changed, within a daily request budget
+  (default 100), open and running trials first. If the provider's daily quota
+  runs out mid-run, the run stops cleanly and the next day carries on.
 - **Checks before publishing:** the summary's phase, sponsor, enrollment and
   status must match the record exactly, any phase or head count in the prose must
   agree, and any NCT number cited must exist. Failures are not published; they
   show on the Evals page.
 - **Evals** (`python -m pipeline.evals`, every refresh): 30 hand-written cases in
   `evals/golden.json` (summary faithfulness, eligibility parsing, refusal and
-  grounding), free automatic checks, and an AI judge (a second, larger model) that
-  scores faithfulness and clarity from 1 to 5. Without `LLM_API_KEY` the judge
-  shows "not run". Results: `data/evals/`, shown at `/evals`.
-- **Models:** `openai/gpt-4.1-mini` writes, `openai/gpt-4.1` judges. Change them
-  with the repository variables `LLM_MODEL` and `JUDGE_MODEL`.
+  grounding), free automatic checks, and an AI judge that scores faithfulness and
+  clarity from 1 to 5. Without a provider the judge shows "not run", never a
+  number. Results: `data/evals/`, shown at `/evals`.
+
+### Setting up the AI provider
+
+Any provider with an OpenAI-compatible chat-completions API works. Nothing is
+built in: until these settings exist, the AI steps report "not run" and the site
+says so. In the repository, open **Settings → Secrets and variables → Actions**:
+
+| Kind | Name | Value |
+|---|---|---|
+| Secret | `LLM_API_KEY` | The provider's API key (never commit it) |
+| Variable | `LLM_BASE_URL` | The provider's OpenAI-compatible base URL, without `/chat/completions` |
+| Variable | `LLM_MODEL` | Model that writes summaries |
+| Variable (optional) | `JUDGE_MODEL` | Model that grades them; defaults to `LLM_MODEL` |
+| Variable (optional) | `LLM_PROVIDER` | Name shown on the site; defaults to the URL's host |
+| Variable (optional) | `LLM_MIN_INTERVAL` | Seconds between requests (default 6, i.e. 10 a minute) |
+| Variable (optional) | `LLM_REASONING_EFFORT` | Sent as `reasoning_effort`, for "thinking" models |
+| Variable (optional) | `SUMMARY_BUDGET`, `EVAL_GENERATION_BUDGET`, `EVAL_JUDGE_BUDGET` | Requests per run (defaults 100, 40, 30) |
+
+Then run **Actions → LLM probe → Run workflow**. It sends one tiny request to
+each model and prints the reply, so a wrong URL, model name or key shows up
+before the daily run. Free tiers change often; set the budgets below the daily
+limits your provider's dashboard shows.
+
+GitHub Models, the first provider used here, was retired by GitHub on
+2026-07-30. Its endpoint now answers every request with a plain-text "OK".
 
 ## The watchlist
 
