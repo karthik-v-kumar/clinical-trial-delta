@@ -16,6 +16,10 @@ import re
 
 from .llm import MAX_INPUT_CHARS, LLMClient, LLMError
 
+# Replies are short; the cap is generous because "thinking" models spend part of it
+# on reasoning before they answer, and a reply cut off mid-JSON is unusable.
+MAX_OUTPUT_TOKENS = 2048
+
 # --- display values the model must copy exactly --------------------------------
 
 PHASE_LABELS = {
@@ -186,7 +190,7 @@ def summarize(client: LLMClient, record: dict, feedback: list[str] | None = None
     user = "RECORD:\n" + record_block(record, MAX_INPUT_CHARS - len(SUMMARY_SYSTEM) - 600)
     if feedback:
         user += "\n\nYour previous answer had these problems. Fix them:\n- " + "\n- ".join(feedback)
-    return client.chat_json(client.config.model, SUMMARY_SYSTEM, user, max_tokens=700)
+    return client.chat_json(client.config.model, SUMMARY_SYSTEM, user, max_tokens=MAX_OUTPUT_TOKENS)
 
 
 def answer(client: LLMClient, record: dict, question: str) -> dict:
@@ -195,7 +199,7 @@ def answer(client: LLMClient, record: dict, question: str) -> dict:
         + record_block(record, MAX_INPUT_CHARS - len(ASK_SYSTEM) - 800 - len(question))
         + f"\n\nQUESTION: {question}"
     )
-    return client.chat_json(client.config.model, ASK_SYSTEM, user, max_tokens=400)
+    return client.chat_json(client.config.model, ASK_SYSTEM, user, max_tokens=MAX_OUTPUT_TOKENS)
 
 
 def judge(client: LLMClient, record: dict, task: str, response_text: str) -> dict:
@@ -204,7 +208,7 @@ def judge(client: LLMClient, record: dict, task: str, response_text: str) -> dic
         + record_block(record, MAX_INPUT_CHARS - len(JUDGE_SYSTEM) - 1500 - len(response_text))
         + f"\n\nTASK GIVEN TO THE AI: {task}\n\nRESPONSE TO GRADE:\n{response_text}"
     )
-    raw = client.chat_json(client.config.judge_model, JUDGE_SYSTEM, user, max_tokens=300)
+    raw = client.chat_json(client.config.judge_model, JUDGE_SYSTEM, user, max_tokens=MAX_OUTPUT_TOKENS)
     scores = {}
     for key in ("faithfulness", "clarity"):
         value = raw.get(key)

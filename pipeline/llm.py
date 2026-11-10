@@ -38,6 +38,7 @@ from collections.abc import Callable
 from dataclasses import dataclass, field
 
 DEFAULT_MIN_INTERVAL = 6.0  # 10 requests a minute: under the per-minute cap of common free tiers
+PROBE_MAX_TOKENS = 1024  # room for a "thinking" model's reasoning before its reply
 MAX_INPUT_CHARS = 24_000  # ~6,000 tokens: fits small context limits on free tiers
 NOT_CONFIGURED = "no LLM provider configured"
 
@@ -54,7 +55,7 @@ class NotAChatCompletion(LLMError):
     """The endpoint answered, but not with a chat completion (wrong URL, or a retired service)."""
 
 
-Transport = Callable[[str, dict, bytes], "tuple[int, dict[str, str], bytes]"]
+Transport = Callable[[str, dict, "bytes | None"], "tuple[int, dict[str, str], bytes]"]
 
 
 class _NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -76,8 +77,9 @@ def _decode(headers: dict, body: bytes) -> bytes:
     return body
 
 
-def urllib_transport(url: str, headers: dict, body: bytes) -> tuple[int, dict[str, str], bytes]:
-    req = urllib.request.Request(url, data=body, headers=headers, method="POST")
+def urllib_transport(url: str, headers: dict, body: bytes | None) -> tuple[int, dict[str, str], bytes]:
+    """POST `body`, or GET when there is no body."""
+    req = urllib.request.Request(url, data=body, headers=headers, method="GET" if body is None else "POST")
     try:
         with _OPENER.open(req, timeout=120) as resp:
             resp_headers = dict(resp.headers.items())
@@ -305,20 +307,46 @@ def _retry_after(headers: dict, body: str = "") -> float | None:
     return float(match.group(1)) if match else None
 
 
+def list_models(config: LLMConfig, transport: Transport = urllib_transport) -> list[str]:
+    """The model IDs this key can use (OpenAI-compatible GET /models)."""
+    status, _, payload = transport(f"{config.base_url}/models", request_headers(config.api_key), None)
+    if status != 200:
+        raise LLMError(f"HTTP {status}: {payload[:300].decode('utf-8', 'replace')}")
+    try:
+        rows = json.loads(payload)["data"]
+        return sorted({str(row["id"]).removeprefix("models/") for row in rows})
+    except (json.JSONDecodeError, KeyError, TypeError) as exc:
+        raise NotAChatCompletion(f"unexpected model list ({type(exc).__name__}): {payload[:160]!r}") from None
+
+
 def probe(config: LLMConfig | None = None, transport: Transport = urllib_transport) -> int:
-    """One small request to each configured model, printing what came back (never the key).
-    Used by .github/workflows/llm-probe.yml to check a provider before relying on it."""
+    """Check a provider before relying on it (never prints the key).
+
+    Lists the models the key can use, then sends one tiny request to LLM_MODEL
+    and JUDGE_MODEL. Used by .github/workflows/llm-probe.yml; with only the key
+    and LLM_BASE_URL set, it lists models so you can choose LLM_MODEL."""
     config = config or LLMConfig.from_env()
-    if not config.configured:
+    if not (config.api_key and config.base_url):
         print(config.not_configured_reason)
         return 1
+    print(f"Provider: {config.provider_name} ({config.base_url})")
+    try:
+        models = list_models(config, transport)
+        print(f"Models this key can use ({len(models)}):")
+        for model_id in models:
+            print(f"  {model_id}")
+    except LLMError as exc:
+        print(f"Could not list models: {exc}")
+    if not config.model:
+        print("The key and URL work. Next: set the LLM_MODEL variable (and JUDGE_MODEL) and run this again.")
+        return 0
     url = f"{config.base_url}/chat/completions"
     failures = 0
     for model in dict.fromkeys([config.model, config.judge_model]):
         body: dict = {
             "model": model,
             "messages": [{"role": "user", "content": 'Reply with the JSON object {"ok": true}.'}],
-            "max_tokens": 200,
+            "max_tokens": PROBE_MAX_TOKENS,
             "temperature": 0,
             "response_format": {"type": "json_object"},
         }
@@ -331,7 +359,7 @@ def probe(config: LLMConfig | None = None, transport: Transport = urllib_transpo
             if k.lower() in ("content-type", "content-encoding", "location", "retry-after")
             or k.lower().startswith("x-ratelimit")
         }
-        print(f"POST {url} model={model} (provider: {config.provider_name})")
+        print(f"\nPOST {url} model={model}")
         print(f"HTTP {status}")
         print(f"headers: {shown}")
         print(f"body ({len(payload)} bytes): {payload[:400]!r}")
@@ -339,8 +367,11 @@ def probe(config: LLMConfig | None = None, transport: Transport = urllib_transpo
             if status != 200:
                 raise LLMError(f"HTTP {status}")
             print("parsed:", parse_json_object(extract_content(resp_headers, payload)))
-        except LLMError as exc:
-            print("FAILED:", exc)
+            usage = json.loads(payload).get("usage") or {}
+            print(f"tokens: {usage}")
+            print(f"OK: {model} works.")
+        except (LLMError, json.JSONDecodeError, AttributeError) as exc:
+            print(f"FAILED: {model}: {exc}")
             failures += 1
     return 1 if failures else 0
 

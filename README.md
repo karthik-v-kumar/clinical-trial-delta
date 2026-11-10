@@ -89,9 +89,14 @@ says so. In the repository, open **Settings → Secrets and variables → Action
 | Variable (optional) | `LLM_REASONING_EFFORT` | Sent as `reasoning_effort`, for "thinking" models |
 | Variable (optional) | `SUMMARY_BUDGET`, `EVAL_GENERATION_BUDGET`, `EVAL_JUDGE_BUDGET` | Requests per run (defaults 100, 40, 30) |
 
-Then run **Actions → LLM probe → Run workflow**. It sends one tiny request to
-each model and prints the reply, so a wrong URL, model name or key shows up
-before the daily run. Free tiers change often; set the budgets below the daily
+Then run **Actions → LLM probe → Run workflow**. It lists the models your key
+can use (so you can set `LLM_MODEL` after adding just the key and URL), then
+sends one tiny request to each chosen model and prints the reply, so a wrong
+URL, model name or key shows up before the daily run.
+
+For Google's Gemini API: create a key at aistudio.google.com (Get API key →
+Create API key) and use `LLM_BASE_URL` =
+`https://generativelanguage.googleapis.com/v1beta/openai`. Free tiers change often; set the budgets below the daily
 limits your provider's dashboard shows.
 
 GitHub Models, the first provider used here, was retired by GitHub on

@@ -330,3 +330,51 @@ def test_redirect_is_reported_not_followed():
     c = client([(301, b"", {"Location": "https://example.com/elsewhere"})])
     with pytest.raises(LLMUnavailable, match="redirected"):
         c.chat_json("m", "s", "u")
+
+
+class ProbeTransport:
+    """GET /models and POST /chat/completions, as an OpenAI-compatible provider answers them."""
+
+    def __init__(self, models_status=200):
+        self.models_status = models_status
+        self.calls = []
+
+    def __call__(self, url, headers, body):
+        self.calls.append((url, body))
+        if body is None:
+            payload = {"data": [{"id": "models/writer-small"}, {"id": "models/judge-large"}]}
+            return self.models_status, {}, json.dumps(payload).encode()
+        reply = {"choices": [{"message": {"content": '{"ok": true}'}, "finish_reason": "stop"}], "usage": {}}
+        return 200, {"Content-Type": "application/json"}, json.dumps(reply).encode()
+
+
+def test_probe_lists_models_when_no_model_is_chosen_yet(capsys):
+    from pipeline.llm import probe
+
+    transport = ProbeTransport()
+    assert probe(LLMConfig(api_key="k", base_url=BASE), transport) == 0
+    out = capsys.readouterr().out
+    assert "writer-small" in out and "judge-large" in out and "set the LLM_MODEL variable" in out
+    assert transport.calls == [(f"{BASE}/models", None)]  # no chat request without a model
+
+
+def test_probe_checks_both_models(capsys):
+    from pipeline.llm import probe
+
+    transport = ProbeTransport()
+    assert (
+        probe(
+            LLMConfig(api_key="secret-key", base_url=BASE, model="writer-small", judge_model="judge-large"), transport
+        )
+        == 0
+    )
+    out = capsys.readouterr().out
+    assert "OK: writer-small works." in out and "OK: judge-large works." in out and "secret-key" not in out
+    assert len(transport.calls) == 3
+
+
+def test_probe_needs_a_key_and_a_url(capsys):
+    from pipeline.llm import probe
+
+    assert probe(LLMConfig(api_key=None), ProbeTransport()) == 1
+    assert "LLM_API_KEY" in capsys.readouterr().out
