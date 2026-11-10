@@ -277,9 +277,11 @@ class LLMClient:
                 continue
             if status and status < 500:
                 raise LLMError(f"{model}: HTTP {status}: {text}")
-            last_error = last_error if status == 0 else f"HTTP {status}"
+            last_error = last_error if status == 0 else f"HTTP {status}: {text[:120]}"
             if attempt < self.max_attempts:
-                self.sleep(2.0**attempt + random.uniform(0, 0.5))
+                # 503 "model overloaded" spikes last longer than network blips: wait 10, 20, 40 s.
+                base = 5.0 if status == 503 else 1.0
+                self.sleep(base * 2.0**attempt + random.uniform(0, 0.5))
         raise LLMError(f"{model}: giving up after {self.max_attempts} attempts ({last_error})")
 
 
@@ -322,9 +324,11 @@ def list_models(config: LLMConfig, transport: Transport = urllib_transport) -> l
 def probe(config: LLMConfig | None = None, transport: Transport = urllib_transport) -> int:
     """Check a provider before relying on it (never prints the key).
 
-    Lists the models the key can use, then sends one tiny request to LLM_MODEL
-    and JUDGE_MODEL. Used by .github/workflows/llm-probe.yml; with only the key
-    and LLM_BASE_URL set, it lists models so you can choose LLM_MODEL."""
+    Lists the models the key can use, then sends one tiny request to LLM_MODEL,
+    JUDGE_MODEL and any model IDs in LLM_PROBE_MODELS (space-separated), so
+    candidates can be tried before a variable is changed. Used by
+    .github/workflows/llm-probe.yml; with only the key and LLM_BASE_URL set, it
+    lists models so you can choose LLM_MODEL."""
     config = config or LLMConfig.from_env()
     if not (config.api_key and config.base_url):
         print(config.not_configured_reason)
@@ -337,12 +341,14 @@ def probe(config: LLMConfig | None = None, transport: Transport = urllib_transpo
             print(f"  {model_id}")
     except LLMError as exc:
         print(f"Could not list models: {exc}")
-    if not config.model:
+    extra = (os.environ.get("LLM_PROBE_MODELS") or "").split()
+    to_test = [m for m in dict.fromkeys([config.model, config.judge_model, *extra]) if m]
+    if not to_test:
         print("The key and URL work. Next: set the LLM_MODEL variable (and JUDGE_MODEL) and run this again.")
         return 0
     url = f"{config.base_url}/chat/completions"
     failures = 0
-    for model in dict.fromkeys([config.model, config.judge_model]):
+    for model in to_test:
         body: dict = {
             "model": model,
             "messages": [{"role": "user", "content": 'Reply with the JSON object {"ok": true}.'}],

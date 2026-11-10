@@ -378,3 +378,28 @@ def test_probe_needs_a_key_and_a_url(capsys):
 
     assert probe(LLMConfig(api_key=None), ProbeTransport()) == 1
     assert "LLM_API_KEY" in capsys.readouterr().out
+
+
+def test_overloaded_model_is_retried_with_longer_waits():
+    waits = []
+    c = client([(503, {"error": "high demand"}, {}), (503, {"error": "high demand"}, {}), (200, {"a": 1}, {})])
+    c.sleep = waits.append
+    assert c.chat_json(MODEL, "s", "u") == {"a": 1}
+    backoffs = [round(w) for w in waits if round(w) != 6]  # 6 s waits are the normal pacing
+    assert backoffs == [10, 20]
+
+
+def test_persistent_overload_error_says_what_the_provider_said():
+    c = client([(503, {"error": "This model is currently experiencing high demand."}, {})] * 4)
+    with pytest.raises(LLMError, match="503.*high demand"):
+        c.chat_json(MODEL, "s", "u")
+
+
+def test_probe_tries_candidate_models_without_changing_settings(capsys, monkeypatch):
+    from pipeline.llm import probe
+
+    monkeypatch.setenv("LLM_PROBE_MODELS", "candidate-a  candidate-b writer-small")
+    transport = ProbeTransport()
+    assert probe(LLMConfig(api_key="k", base_url=BASE, model="writer-small"), transport) == 0
+    tested = [json.loads(body)["model"] for _, body in transport.calls if body]
+    assert tested == ["writer-small", "candidate-a", "candidate-b"]

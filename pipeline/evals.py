@@ -59,6 +59,7 @@ TYPE_LABELS = {
 QUESTION_FIELDS = ("phase", "sponsor", "enrollment", "status")
 DEFAULT_GENERATION_BUDGET = 40
 DEFAULT_JUDGE_BUDGET = 30
+MAX_CONSECUTIVE_ERRORS = 3  # a provider that keeps failing is not retried for every case
 SUMMARY_TASK = "Write a plain-language summary of this trial for a public website."
 
 
@@ -149,6 +150,7 @@ class Runner:
         self.generator_down: str | None = None if self.client else config.not_configured_reason
         self.judge_down: str | None = self.generator_down
         self.consecutive_errors = 0
+        self.judge_errors = 0
 
     def _requests(self, model: str) -> int:
         return self.client.requests_made.get(model, 0) if self.client else 0
@@ -180,7 +182,7 @@ class Runner:
         except LLMError as exc:
             # The provider failed, the model never answered: that is "no output", not a failed check.
             self.consecutive_errors += 1
-            if self.consecutive_errors >= 3:
+            if self.consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
                 self.generator_down = f"provider errors in a row (last: {exc})"
             return None, {
                 "model": None,
@@ -226,7 +228,11 @@ class Runner:
             self.judge_down = str(exc)
             return {"status": "not_run", "error": str(exc)}
         except LLMError as exc:
+            self.judge_errors += 1
+            if self.judge_errors >= MAX_CONSECUTIVE_ERRORS:
+                self.judge_down = f"judge provider errors in a row (last: {exc})"
             return {"status": "error", "error": str(exc)}
+        self.judge_errors = 0
         self.judged[key] = {
             "key": key,
             **scores,

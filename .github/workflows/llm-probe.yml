@@ -1,12 +1,17 @@
 # Manual check of the AI provider (never prints the key). Lists the models the
-# key can use; then, if LLM_MODEL is set, sends one small request to LLM_MODEL
-# and one to JUDGE_MODEL and prints what came back. Run it after setting the
-# LLM_API_KEY secret and the LLM_BASE_URL variable, again after choosing
-# LLM_MODEL, and whenever the AI steps report errors.
+# key can use; then sends one small request to LLM_MODEL, JUDGE_MODEL and any
+# model IDs typed into the "models" input, and prints what came back. Run it
+# after setting the LLM_API_KEY secret and LLM_BASE_URL, to try models before
+# changing a variable, and whenever the AI steps report errors.
 name: LLM probe
 
 on:
   workflow_dispatch:
+    inputs:
+      models:
+        description: "Other model IDs to try, space-separated (optional)"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -28,4 +33,5 @@ jobs:
           JUDGE_MODEL: ${{ vars.JUDGE_MODEL }}
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           LLM_REASONING_EFFORT: ${{ vars.LLM_REASONING_EFFORT }}
+          LLM_PROBE_MODELS: ${{ inputs.models }}
         run: python -m pipeline.llm --probe

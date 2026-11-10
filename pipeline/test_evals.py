@@ -254,3 +254,25 @@ def test_unset_repository_variables_fall_back_to_defaults(monkeypatch, data_dir)
         monkeypatch.setenv(name, "")
     assert summarize.main(["--data-dir", str(data_dir), "--dry-run"]) == 0
     assert not LLMConfig.from_env().configured
+
+
+class OverloadedJudge(FakeClient):
+    """Writes fine; the judge model keeps failing (e.g. HTTP 503 "high demand")."""
+
+    def chat_json(self, model, system, user, max_tokens=900):
+        from pipeline.llm import LLMError
+
+        if system == JUDGE_SYSTEM:
+            self.requests_made[model] = self.requests_made.get(model, 0) + 1
+            raise LLMError("fake-judge: giving up after 4 attempts (HTTP 503: high demand)")
+        return super().chat_json(model, system, user, max_tokens)
+
+
+def test_a_failing_judge_stops_after_three_errors_and_scores_nothing(tmp_path, data_dir):
+    fake = OverloadedJudge()
+    report = evals.run(data_dir, small_golden(tmp_path), config=fake.config, client=fake, log=lambda *a: None)
+    assert fake.requests_made["fake-judge"] == 3  # not once per case
+    assert report["run"]["passed"] == 6  # the assertions still ran on every output
+    assert report["run"]["judge_status"] == "not_run" and "503" in report["run"]["judge_note"]
+    for row in report["by_type"]:
+        assert row["judge"]["faithfulness_mean"] is None  # never a placeholder number
