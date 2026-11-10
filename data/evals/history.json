@@ -44,6 +44,50 @@
     "failed": 0,
     "rejected": 0
    }
+  },
+  {
+   "run_at": "2026-11-09T21:21:27-08:00",
+   "date": "2026-11-09",
+   "model": "gemini-3.5-flash-lite",
+   "judge_model": "gemini-3.6-flash",
+   "prompt_versions": {
+    "summary": "summary-v1-a3185a",
+    "ask": "ask-v1-b9a396"
+   },
+   "judge_status": "scored",
+   "by_type": [
+    {
+     "type": "summary",
+     "cases": 13,
+     "passed": 12,
+     "pass_rate": 0.9231,
+     "faithfulness_mean": 5.0,
+     "clarity_mean": 5.0
+    },
+    {
+     "type": "eligibility",
+     "cases": 9,
+     "passed": 9,
+     "pass_rate": 1.0,
+     "faithfulness_mean": null,
+     "clarity_mean": null
+    },
+    {
+     "type": "refusal",
+     "cases": 8,
+     "passed": 8,
+     "pass_rate": 1.0,
+     "faithfulness_mean": null,
+     "clarity_mean": null
+    }
+   ],
+   "production": {
+    "published": 92,
+    "checked": 92,
+    "passed": 92,
+    "failed": 0,
+    "rejected": 0
+   }
   }
  ]
 }
