@@ -269,12 +269,14 @@ export const GLOSSARY_GROUPS: GlossaryEntry["group"][] = [
 ];
 
 /** A tappable piece of jargon. Falls back to plain text for unknown keys. */
+/** A glossary word. An inline span acting as a button (not a <button>), so it wraps
+ * like the text around it and punctuation after it never starts a new line. */
 export function term(key: string, label?: string): HTMLElement {
   const entry = GLOSSARY[key];
   if (!entry) return h("span", null, label ?? key);
   return h(
-    "button",
-    { type: "button", class: "term", "data-term": key, "aria-expanded": "false" },
+    "span",
+    { class: "term", role: "button", tabindex: "0", "data-term": key, "aria-expanded": "false" },
     label ?? entry.title,
   );
 }
@@ -306,9 +308,10 @@ function openPopup(button: HTMLElement, key: string): void {
   openButton = button;
   button.setAttribute("aria-expanded", "true");
 
-  // Place it under the word, kept inside the viewport.
+  // Place it under the word (its last line, if it wraps), kept inside the viewport.
   const margin = 12;
-  const rect = button.getBoundingClientRect();
+  const lines = button.getClientRects();
+  const rect = lines[lines.length - 1] ?? button.getBoundingClientRect();
   const width = Math.min(320, window.innerWidth - margin * 2);
   popup.style.width = `${width}px`;
   const left = Math.min(Math.max(rect.left, margin), window.innerWidth - width - margin);
@@ -319,22 +322,32 @@ function openPopup(button: HTMLElement, key: string): void {
   popup.style.top = `${top + window.scrollY}px`;
 }
 
+function toggle(button: HTMLElement): void {
+  if (openButton === button) closePopup();
+  else openPopup(button, button.dataset.term ?? "");
+}
+
 /** Install the global handlers once. */
 export function initGlossaryPopups(): void {
   document.addEventListener("click", (event) => {
     const target = event.target as HTMLElement;
-    const button = target.closest<HTMLElement>("button.term");
+    const button = target.closest<HTMLElement>(".term[data-term]");
     if (button) {
       event.preventDefault();
-      const key = button.dataset.term ?? "";
-      if (openButton === button) closePopup();
-      else openPopup(button, key);
+      toggle(button);
       return;
     }
     if (popup && !popup.contains(target)) closePopup();
     else if (popup && target.closest("a")) closePopup();
   });
   document.addEventListener("keydown", (event) => {
+    // Enter and Space work as on a real button.
+    const target = event.target as HTMLElement;
+    if ((event.key === "Enter" || event.key === " ") && target.matches?.(".term[data-term]")) {
+      event.preventDefault();
+      toggle(target);
+      return;
+    }
     if (event.key === "Escape" && popup) {
       const button = openButton;
       closePopup();

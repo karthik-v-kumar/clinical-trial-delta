@@ -54,6 +54,7 @@ export async function homePage(meta: Meta): Promise<Page> {
     h(
       "div",
       { class: "hero" },
+      h("p", { class: "eyebrow" }, "Clinical trial registry monitor"),
       h("h1", null, "What changed in the trial registry"),
       h(
         "p",

@@ -35,7 +35,8 @@ export interface ChartOptions {
   noShare?: boolean;
 }
 
-const FONT = '12px system-ui, -apple-system, "Segoe UI", sans-serif';
+// Must match .chart-svg text in styles.css, so measured label widths are right.
+const FONT = '12px "Source Sans 3 Variable", "Source Sans Pro", system-ui, -apple-system, "Segoe UI", sans-serif';
 const BAR_MAX = 24;
 const RADIUS = 4;
 
@@ -346,5 +347,10 @@ export function barChart(options: ChartOptions): HTMLElement {
     frame = requestAnimationFrame(draw);
   });
   observer.observe(plot);
+  // Labels are measured with the site font; redraw once it has loaded.
+  void document.fonts?.ready.then(() => {
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(draw);
+  });
   return figure;
 }

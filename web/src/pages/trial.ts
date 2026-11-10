@@ -371,6 +371,7 @@ export async function trialPage(meta: Meta, nctId: string): Promise<Page> {
     h(
       "header",
       { class: "hero hero-accent" },
+      h("p", { class: "eyebrow" }, "Clinical trial record"),
       h("h1", null, title),
       trial.official_title && trial.official_title !== title ? h("p", { class: "official-title" }, trial.official_title) : null,
       h(

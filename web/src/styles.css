@@ -1,47 +1,62 @@
-/* Clinical Trial Delta — hand-rolled CSS, mobile first. No framework. */
+/* Clinical Trial Delta — hand-rolled CSS, mobile first. No framework.
+   Look: a scientific record. Serif headings and figures (Source Serif 4), sans
+   text and data (Source Sans 3), hairline rules instead of boxes, square
+   corners, small-caps labels. Both fonts are bundled with the site. */
 
 :root {
   color-scheme: light;
-  --page: #f7f7f4;
-  --surface: #fcfcfb;
-  --ink: #0b0b0b;
-  --ink-2: #52514e;
-  --ink-3: #6b6a65;
-  --grid: #e1e0d9;
-  --axis: #c3c2b7;
-  --border: rgba(11, 11, 11, 0.12);
-  --link: #1c5cab;
-  --good: #006300;
-  --good-dot: #0ca30c;
+  --serif: "Source Serif 4 Variable", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3 Variable", "Source Sans Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --page: #f7f6f2;
+  --surface: #ffffff;
+  --surface-2: #f1efe9;
+  --ink: #111821;
+  --ink-2: #3b4552;
+  --ink-3: #5f6975;
+  --rule: #d9d6ce;
+  --rule-strong: #111821;
+  --grid: #e6e3dc;
+  --axis: #a9a59b;
+  --border: #d9d6ce;
+  --link: #17508f;
+  --brand: #102a43;
+  --brand-ink: #ffffff;
+  --good: #1d6b34;
+  --good-dot: #2b8a49;
   --warn-dot: #b97800;
   --bad: #a5281f;
-  --tip-bg: #0b0b0b;
-  --tip-ink: #fcfcfb;
-  --accent: #52514e;
+  --tip-bg: #111821;
+  --tip-ink: #ffffff;
+  --accent: #3b4552;
   --eval-accent: #2a78d6;
-  --radius: 12px;
+  --radius: 2px;
   --gutter: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --page: #0d0d0d;
-    --surface: #1a1a19;
-    --ink: #f0efec;
-    --ink-2: #c3c2b7;
-    --ink-3: #a09e95;
-    --grid: #2c2c2a;
-    --axis: #45453f;
-    --border: rgba(255, 255, 255, 0.14);
-    --link: #86b6ef;
-    --good: #5fd35f;
-    --good-dot: #0ca30c;
+    --page: #0e1217;
+    --surface: #151a21;
+    --surface-2: #1b2129;
+    --ink: #e9ecef;
+    --ink-2: #bcc3cc;
+    --ink-3: #939ca7;
+    --rule: #2d343e;
+    --rule-strong: #e9ecef;
+    --grid: #262d36;
+    --axis: #4b535e;
+    --border: #2d343e;
+    --link: #8cb8ef;
+    --brand: #dce4ec;
+    --brand-ink: #0e1217;
+    --good: #6fcf8b;
+    --good-dot: #3fae62;
     --warn-dot: #fab219;
     --bad: #f08a80;
-    --tip-bg: #f0efec;
-    --tip-ink: #0b0b0b;
-    --accent: #c3c2b7;
+    --tip-bg: #e9ecef;
+    --tip-ink: #0e1217;
+    --accent: #bcc3cc;
     --eval-accent: #3987e5;
   }
 }
@@ -61,8 +76,12 @@ body {
   margin: 0;
   background: var(--page);
   color: var(--ink);
-  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+  font-variant-numeric: lining-nums;
   overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -85,39 +104,55 @@ ol {
 }
 
 h1 {
-  font-size: 1.625rem;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
   text-wrap: balance;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1.3125rem;
+  font-weight: 600;
   line-height: 1.25;
+  letter-spacing: -0.005em;
 }
 
 h3 {
   font-size: 1rem;
+  font-weight: 600;
   line-height: 1.3;
-  margin-top: 20px;
+  margin-top: 22px;
   margin-bottom: 8px;
 }
 
 h4 {
-  font-size: 0.875rem;
-  color: var(--ink-2);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
   margin: 14px 0 6px;
 }
 
 a {
   color: var(--link);
-  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
 }
 
 :focus-visible {
   outline: 2px solid var(--link);
   outline-offset: 2px;
-  border-radius: 4px;
+  border-radius: 1px;
 }
 
 main:focus {
@@ -138,7 +173,7 @@ main:focus {
 }
 
 .num {
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .ext {
@@ -147,10 +182,20 @@ main:focus {
   font-size: 0.85em;
 }
 
+/* Small-caps label used above titles and on data labels. */
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 10px;
+}
+
 /* --- shell ---------------------------------------------------------------- */
 
 .wrap {
-  max-width: 1040px;
+  max-width: 1120px;
   margin: 0 auto;
   padding-left: max(var(--gutter), env(safe-area-inset-left));
   padding-right: max(var(--gutter), env(safe-area-inset-right));
@@ -162,7 +207,6 @@ main:focus {
   top: 8px;
   background: var(--surface);
   padding: 8px 12px;
-  border-radius: 8px;
   z-index: 10;
 }
 
@@ -171,140 +215,269 @@ main:focus {
 }
 
 .site-header {
-  border-bottom: 1px solid var(--border);
   background: var(--surface);
-  padding-bottom: 10px;
+  border-top: 4px solid var(--brand);
 }
 
-.header-row {
+.masthead {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  min-height: 56px;
+  gap: 6px 32px;
+  padding-top: 14px;
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  color: var(--ink);
-  font-weight: 700;
-  font-size: 1.0625rem;
-  text-decoration: none;
+  gap: 12px;
   min-height: 44px;
+  color: var(--ink);
+  text-decoration: none;
 }
 
 .logo-mark {
-  width: 26px;
-  height: 26px;
-  fill: var(--ink);
+  width: 36px;
+  height: 36px;
+  flex: none;
+}
+
+.logo-seal {
+  fill: var(--brand);
+}
+
+.logo-delta {
+  fill: none;
+  stroke: var(--brand-ink);
+  stroke-width: 2.25;
+  stroke-linejoin: miter;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.brand-name {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1.375rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.brand-tag {
+  margin-top: 2px;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
+}
+
+.nav {
+  display: flex;
+  gap: 0 22px;
+  width: 100%;
+  margin-top: 6px;
+  border-top: 1px solid var(--rule);
 }
 
 .nav-link {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
-  padding: 0 4px;
+  border-bottom: 2px solid transparent;
+  color: var(--ink-2);
+  font-size: 0.9375rem;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--ink);
+  border-bottom-color: var(--rule);
+}
+
+.nav-link[aria-current="page"] {
+  color: var(--ink);
+  border-bottom-color: var(--brand);
+}
+
+.dateline {
+  background: var(--surface-2);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.dateline-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 0.8125rem;
+  color: var(--ink-2);
 }
 
 .badge {
-  display: inline-block;
-  font-size: 0.8125rem;
   line-height: 1.4;
-  color: var(--ink-2);
 }
 
-.badge strong {
+.badge time {
   color: var(--ink);
   font-weight: 600;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
-.badge-dot {
+.badge-mark {
   display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  margin-right: 8px;
+  vertical-align: 1px;
   background: var(--good-dot);
-  margin-right: 6px;
 }
 
-.badge-warn .badge-dot {
+.badge-warn .badge-mark {
   background: var(--warn-dot);
-  border-radius: 2px;
+}
+
+.dateline-source {
+  color: var(--ink-3);
 }
 
 .site-footer {
-  margin-top: 48px;
-  border-top: 1px solid var(--border);
-  padding: 20px 0 calc(28px + env(safe-area-inset-bottom));
-  font-size: 0.8125rem;
+  margin-top: 72px;
+  background: var(--surface);
+  border-top: 1px solid var(--rule-strong);
+  padding: 28px 0 calc(24px + env(safe-area-inset-bottom));
+  font-size: 0.875rem;
   color: var(--ink-2);
 }
 
-.site-footer p + p {
-  margin-top: 8px;
+.footer-grid {
+  display: grid;
+  gap: 22px;
+}
+
+.footer-name {
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.footer-about p + p {
+  max-width: 44ch;
+}
+
+.footer-head {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 8px;
+}
+
+.footer-list li + li {
+  margin-top: 4px;
+}
+
+.footer-legal {
+  margin-top: 24px;
+}
+
+.footer-legal p {
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+  font-size: 0.8125rem;
+  color: var(--ink-3);
 }
 
 /* --- page blocks ---------------------------------------------------------- */
 
 .page {
-  padding-top: 20px;
+  padding-top: 28px;
+  counter-reset: figure;
 }
 
 .crumb {
-  margin-bottom: 12px;
-  font-size: 0.9375rem;
+  margin-bottom: 6px;
 }
 
 .crumb a {
   display: inline-flex;
   align-items: center;
   min-height: 44px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-decoration: none;
-  font-weight: 600;
 }
 
-.hero-accent {
-  border-left: 4px solid var(--accent);
-  padding-left: 12px;
+.crumb a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding-bottom: 8px;
+}
+
+/* A short bar in the collection's color above the title. */
+.hero-accent::before {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 4px;
+  margin-bottom: 16px;
+  background: var(--accent);
 }
 
 .lede {
-  margin-top: 10px;
+  margin-top: 14px;
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1.1875rem;
+  line-height: 1.5;
   color: var(--ink-2);
-  font-size: 1.0625rem;
   max-width: 62ch;
 }
 
 .section {
-  margin-top: 32px;
+  margin-top: 44px;
 }
 
 .section > h2 {
-  margin-bottom: 12px;
+  padding-top: 10px;
+  margin-bottom: 16px;
+  border-top: 1px solid var(--rule-strong);
 }
 
 .section-note {
   color: var(--ink-2);
   font-size: 0.9375rem;
-  margin-bottom: 12px;
-  max-width: 70ch;
+  margin-bottom: 14px;
+  max-width: 72ch;
 }
 
 .note {
   margin-top: 12px;
   color: var(--ink-2);
   font-size: 0.875rem;
-  max-width: 70ch;
+  max-width: 72ch;
 }
 
 .note-strong {
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--warn-dot);
-  border-radius: 8px;
-  padding: 10px 12px;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--warn-dot);
+  padding: 10px 14px;
   background: var(--surface);
   color: var(--ink);
 }
@@ -315,9 +488,9 @@ main:focus {
 }
 
 .empty {
-  border: 1px dashed var(--axis);
-  border-radius: var(--radius);
-  padding: 16px;
+  border-left: 3px solid var(--axis);
+  background: var(--surface-2);
+  padding: 14px 18px;
   color: var(--ink-2);
   font-size: 0.9375rem;
 }
@@ -335,9 +508,9 @@ main:focus {
 .button {
   appearance: none;
   min-height: 44px;
-  padding: 0 14px;
-  border: 1px solid var(--axis);
-  border-radius: 10px;
+  padding: 0 16px;
+  border: 1px solid var(--ink-2);
+  border-radius: var(--radius);
   background: var(--surface);
   color: var(--ink);
   font: inherit;
@@ -346,11 +519,11 @@ main:focus {
 }
 
 .button:hover {
-  border-color: var(--ink-3);
+  background: var(--surface-2);
 }
 
 .more {
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 /* --- glossary terms ------------------------------------------------------- */
@@ -362,16 +535,18 @@ main:focus {
   padding: 0;
   margin: 0;
   font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
   color: inherit;
   text-align: inherit;
   cursor: help;
-  text-decoration: underline dotted;
-  text-decoration-color: var(--ink-3);
+  text-decoration: underline dotted 1px;
+  text-decoration-color: var(--axis);
   text-underline-offset: 3px;
 }
 
 .term:hover {
-  text-decoration-style: solid;
+  text-decoration-color: currentColor;
 }
 
 .term-help {
@@ -394,11 +569,11 @@ main:focus {
   z-index: 20;
   background: var(--tip-bg);
   color: var(--tip-ink);
-  border-radius: 10px;
-  padding: 10px 12px;
+  border-radius: var(--radius);
+  padding: 12px 14px;
   font-size: 0.875rem;
   line-height: 1.45;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22);
 }
 
 .term-popup p {
@@ -412,20 +587,31 @@ main:focus {
   font-weight: 600;
 }
 
+/* Status and phase labels: square, small caps, never pills. */
 .chip {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
   min-height: 28px;
-  padding: 2px 10px;
+  padding: 2px 9px;
   border: 1px solid var(--axis);
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: var(--surface);
-  font-size: 0.8125rem;
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
   line-height: 1.2;
+  text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.chip.term {
+  text-decoration: none;
+}
+
+.chip.term:hover {
+  border-color: var(--ink-2);
 }
 
 .chip-plain {
@@ -434,9 +620,8 @@ main:focus {
 
 .chip-status .dot,
 .flag .dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  width: 7px;
+  height: 7px;
   border: 1.5px solid var(--ink-3);
   flex: none;
 }
@@ -451,31 +636,37 @@ main:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 /* --- cards and stats ------------------------------------------------------ */
 
 .cards {
   display: grid;
-  gap: 12px;
+  gap: 16px;
 }
 
 .card {
   position: relative;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
-  padding: 16px;
+  padding: 18px 18px 16px;
 }
 
 .collection-card {
-  border-top: 4px solid var(--accent);
+  border-top: 3px solid var(--accent);
+  display: flex;
+  flex-direction: column;
 }
 
 .collection-card h3 {
   margin: 0;
-  font-size: 1.125rem;
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1.3125rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
 }
 
 .card-link {
@@ -483,62 +674,79 @@ main:focus {
   text-decoration: none;
 }
 
-.card-link::after {
-  content: " \2192";
-  color: var(--ink-3);
-}
-
 .card-link:hover {
   text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 .card-why {
-  margin-top: 6px;
+  margin-top: 8px;
   color: var(--ink-2);
   font-size: 0.9375rem;
+  flex: 1;
 }
 
 .stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
-  margin-top: 14px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
 }
 
+/* In the narrow collection cards, labels stay in sentence case so they fit. */
+.collection-card .stat-label {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* A strip of figures separated by hairlines. */
 .stats-wide {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: 20px;
+  gap: 1px;
+  margin-top: 24px;
+  padding-top: 0;
+  background: var(--rule);
+  border: 1px solid var(--rule);
 }
 
 .stats-wide .stat {
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 12px;
+  padding: 14px 16px;
 }
 
 .stat-value {
-  font-size: 1.375rem;
-  font-weight: 700;
-  line-height: 1.2;
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.1;
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -0.01em;
 }
 
 .stat-label {
-  font-size: 0.8125rem;
-  color: var(--ink-2);
+  margin-top: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
   line-height: 1.3;
+  text-transform: uppercase;
+  color: var(--ink-3);
 }
 
 /* --- change feed ---------------------------------------------------------- */
 
 .changes {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
 }
 
 .change {
-  padding: 12px 14px;
+  padding: 14px 0;
 }
 
 .change + .change {
@@ -549,21 +757,21 @@ main:focus {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 4px 10px;
+  gap: 4px 12px;
   font-size: 0.8125rem;
   color: var(--ink-3);
 }
 
 .change-type {
   font-weight: 700;
-  color: var(--ink-2);
+  color: var(--brand);
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   font-size: 0.75rem;
 }
 
 .change-headline {
-  margin-top: 2px;
+  margin-top: 3px;
   font-weight: 600;
 }
 
@@ -582,27 +790,27 @@ main:focus {
   display: block;
   color: var(--ink-3);
   font-size: 0.8125rem;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .change-collections {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px 12px;
+  gap: 4px 14px;
   margin-top: 6px;
 }
 
 .collection-tag {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 7px;
   font-size: 0.8125rem;
   color: var(--ink-2);
 }
 
 .swatch {
-  width: 10px;
-  height: 10px;
-  border-radius: 3px;
+  width: 9px;
+  height: 9px;
   flex: none;
 }
 
@@ -624,7 +832,8 @@ details > summary {
   min-height: 44px;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--link);
   list-style: none;
@@ -635,15 +844,18 @@ details > summary::-webkit-details-marker {
 }
 
 details > summary::before {
-  content: "+";
-  display: inline-block;
-  width: 1em;
-  text-align: center;
-  font-weight: 700;
+  content: "";
+  flex: none;
+  width: 0;
+  height: 0;
+  border-left: 5px solid currentColor;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  transition: transform 0.12s ease;
 }
 
 details[open] > summary::before {
-  content: "\2212";
+  transform: rotate(90deg);
 }
 
 .definition {
@@ -654,7 +866,7 @@ details[open] > summary::before {
 
 .definition p {
   margin-bottom: 8px;
-  max-width: 70ch;
+  max-width: 72ch;
 }
 
 .queries li {
@@ -667,26 +879,45 @@ details[open] > summary::before {
 
 .query-count {
   font-weight: 700;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 /* --- charts --------------------------------------------------------------- */
 
 .charts {
   display: grid;
-  gap: 12px;
+  gap: 16px;
 }
 
+/* Charts are numbered figures, as in a paper. */
 .chart {
+  counter-increment: figure;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
-  padding: 14px 14px 6px;
+  padding: 16px 16px 6px;
   min-width: 0;
 }
 
 .chart-title {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.chart-title::before {
+  content: "Figure " counter(figure);
+  display: block;
+  margin-bottom: 2px;
+  font-family: var(--sans);
+  font-size: 0.6875rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
 }
 
 .chart-frame {
@@ -704,8 +935,8 @@ details[open] > summary::before {
 }
 
 .chart-svg text {
-  font: 12px system-ui, -apple-system, "Segoe UI", sans-serif;
-  font-variant-numeric: tabular-nums;
+  font: 12px var(--sans);
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .chart-svg .tick {
@@ -765,7 +996,7 @@ details[open] > summary::before {
   pointer-events: none;
   background: var(--tip-bg);
   color: var(--tip-ink);
-  border-radius: 8px;
+  border-radius: var(--radius);
   padding: 6px 10px;
   font-size: 0.8125rem;
   line-height: 1.35;
@@ -802,8 +1033,11 @@ details[open] > summary::before {
 }
 
 .chart-table thead th {
-  font-weight: 600;
-  color: var(--ink-2);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-3);
   border-top: 0;
 }
 
@@ -824,9 +1058,11 @@ details[open] > summary::before {
   display: grid;
   gap: 4px;
   grid-column: 1 / -1;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  color: var(--ink-2);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-3);
 }
 
 .field-small {
@@ -838,17 +1074,22 @@ details[open] > summary::before {
   min-height: 44px;
   padding: 0 12px;
   border: 1px solid var(--axis);
-  border-radius: 10px;
+  border-radius: var(--radius);
   background: var(--surface);
   color: var(--ink);
   font: inherit;
   font-size: 1rem; /* 16px keeps iOS from zooming in on focus */
+  letter-spacing: normal;
+  text-transform: none;
 }
 
 .field .button {
   width: 100%;
   font-size: 0.9375rem;
+  letter-spacing: normal;
+  text-transform: none;
   text-align: left;
+  border-color: var(--axis);
 }
 
 /* --- near a city ---------------------------------------------------------- */
@@ -873,15 +1114,15 @@ details[open] > summary::before {
 
 .city-options li:first-child .city-option {
   border-top: 1px solid var(--grid);
-  border-radius: 10px 10px 0 0;
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 
 .city-options li:last-child .city-option {
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 var(--radius) var(--radius);
 }
 
 .city-options li:only-child .city-option {
-  border-radius: 10px;
+  border-radius: var(--radius);
 }
 
 .city-option:hover {
@@ -897,14 +1138,14 @@ details[open] > summary::before {
 .items,
 .sites {
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
 }
 
 .near-item,
 .items > li,
 .site {
-  padding: 10px 14px;
+  padding: 12px 16px;
 }
 
 .near-item + .near-item,
@@ -936,7 +1177,7 @@ details[open] > summary::before {
 
 .table-wrap {
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
 }
 
@@ -959,7 +1200,7 @@ details[open] > summary::before {
   flex-wrap: wrap;
   align-items: center;
   gap: 6px 10px;
-  padding: 12px 14px;
+  padding: 12px 16px;
 }
 
 .trials tr + tr {
@@ -993,17 +1234,23 @@ details[open] > summary::before {
   border: 0;
   padding: 0;
   font: inherit;
-  font-weight: 600;
-  color: var(--ink-2);
+  font-weight: 700;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
   cursor: pointer;
 }
 
 /* --- trial page ----------------------------------------------------------- */
 
 .official-title {
-  margin-top: 8px;
+  margin-top: 10px;
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  line-height: 1.45;
   color: var(--ink-2);
-  font-size: 0.9375rem;
+  max-width: 80ch;
 }
 
 .trial-ids {
@@ -1014,19 +1261,21 @@ details[open] > summary::before {
 
 .trial-ids .nct {
   font-weight: 700;
-  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
+/* Key facts read like the registry record itself: a ruled two-column table. */
 .facts {
   display: grid;
   gap: 0;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
 }
 
 .fact {
-  padding: 10px 14px;
+  padding: 12px 16px;
 }
 
 .fact + .fact {
@@ -1034,13 +1283,18 @@ details[open] > summary::before {
 }
 
 .fact dt {
-  font-size: 0.8125rem;
-  color: var(--ink-2);
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-3);
 }
 
 .fact dd {
-  font-weight: 600;
+  margin-top: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .fact-sub {
@@ -1064,10 +1318,12 @@ details[open] > summary::before {
 }
 
 .source-label {
-  font-size: 0.8125rem;
-  font-weight: 600;
-  color: var(--ink-2);
-  margin-bottom: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 8px;
 }
 
 .registry-text {
@@ -1080,9 +1336,9 @@ details[open] > summary::before {
 
 .registry-pre {
   margin: 0;
-  padding: 12px 14px;
+  padding: 12px 16px;
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
   font: inherit;
   font-size: 0.875rem;
@@ -1110,16 +1366,16 @@ details[open] > summary::before {
 }
 
 .tags li {
-  padding: 4px 10px;
+  padding: 3px 10px;
   border: 1px solid var(--axis);
-  border-radius: 999px;
+  border-radius: var(--radius);
   font-size: 0.875rem;
   background: var(--surface);
 }
 
 .checklist {
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
 }
 
@@ -1127,7 +1383,7 @@ details[open] > summary::before {
   display: grid;
   grid-template-columns: 24px minmax(0, 1fr);
   gap: 8px;
-  padding: 10px 14px;
+  padding: 11px 16px;
   font-size: 0.9375rem;
 }
 
@@ -1185,11 +1441,13 @@ details[open] > summary::before {
   align-items: center;
   gap: 6px;
   margin-left: 8px;
-  padding: 1px 8px;
+  padding: 1px 7px;
   border: 1px solid var(--axis);
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 600;
+  border-radius: var(--radius);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   color: var(--ink-2);
   white-space: nowrap;
 }
@@ -1203,12 +1461,12 @@ details[open] > summary::before {
 
 .glossary {
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
 }
 
 .glossary-entry {
-  padding: 12px 14px;
+  padding: 14px 18px;
   scroll-margin-top: 12px;
 }
 
@@ -1217,11 +1475,15 @@ details[open] > summary::before {
 }
 
 .glossary-entry:target {
-  box-shadow: inset 4px 0 0 var(--link);
+  box-shadow: inset 3px 0 0 var(--brand);
+  background: var(--surface-2);
 }
 
 .glossary dt {
-  font-weight: 700;
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: 1.0625rem;
+  font-weight: 600;
 }
 
 .glossary dd {
@@ -1233,11 +1495,30 @@ details[open] > summary::before {
 
 @media (min-width: 720px) {
   :root {
-    --gutter: 24px;
+    --gutter: 28px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.625rem;
+  }
+
+  .section > h2 {
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    width: auto;
+    margin-top: 0;
+    border-top: 0;
+  }
+
+  .masthead {
+    padding-bottom: 8px;
+  }
+
+  .footer-grid {
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr) minmax(0, 1.4fr);
+    gap: 40px;
   }
 
   .cards {
@@ -1310,9 +1591,12 @@ details[open] > summary::before {
   }
 
   .trials thead th {
-    font-size: 0.8125rem;
-    color: var(--ink-2);
-    border-bottom: 1px solid var(--axis);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    border-bottom: 1px solid var(--ink-2);
     white-space: nowrap;
   }
 
@@ -1345,6 +1629,7 @@ details[open] > summary::before {
 }
 
 @media print {
+  .dateline-source,
   .site-header nav,
   .controls,
   .more,
@@ -1356,32 +1641,33 @@ details[open] > summary::before {
 
 /* --- AI summary and evals -------------------------------------------------- */
 
-.nav {
-  display: flex;
-  gap: 12px;
-}
-
+/* The AI summary reads like an abstract: serif text in a ruled box. */
 .ai-summary {
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--accent);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--brand);
   border-radius: var(--radius);
-  padding: 12px 14px;
+  padding: 16px 20px;
 }
 
 .ai-summary-text {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
   font-size: 1.0625rem;
-  max-width: 65ch;
+  line-height: 1.6;
+  max-width: 68ch;
 }
 
 .ai-disclaimer {
-  margin-top: 10px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--grid);
   font-size: 0.875rem;
   font-weight: 600;
 }
 
 .ai-meta {
-  margin-top: 6px;
+  margin-top: 4px;
   font-size: 0.8125rem;
 }
 
@@ -1394,9 +1680,13 @@ details[open] > summary::before {
 }
 
 .kinds li {
-  padding: 6px 0;
+  padding: 8px 0;
   color: var(--ink-2);
-  max-width: 70ch;
+  max-width: 72ch;
+}
+
+.kinds li + li {
+  border-top: 1px solid var(--grid);
 }
 
 .kinds li strong {
@@ -1414,10 +1704,10 @@ details[open] > summary::before {
 
 .failure {
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--bad);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--bad);
   border-radius: var(--radius);
-  padding: 12px 14px;
+  padding: 14px 18px;
   min-width: 0;
 }
 
@@ -1468,8 +1758,12 @@ details[open] > summary::before {
 
 .history thead th {
   border-top: 0;
-  color: var(--ink-2);
-  font-size: 0.8125rem;
+  border-bottom: 1px solid var(--ink-2);
+  color: var(--ink-3);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 @media (min-width: 720px) {

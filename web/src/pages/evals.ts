@@ -235,6 +235,7 @@ export async function evalsPage(): Promise<Page> {
   const intro = h(
     "div",
     { class: "hero" },
+    h("p", { class: "eyebrow" }, "Methods · AI evaluation"),
     h("h1", null, "How the AI is checked"),
     h(
       "p",

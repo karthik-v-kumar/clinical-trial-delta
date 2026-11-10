@@ -497,7 +497,13 @@ export async function collectionPage(meta: Meta, id: string): Promise<Page> {
     "div",
     { class: "page", style: `--accent:${collection.accent}` },
     h("p", { class: "crumb" }, link("/", null, "← All collections")),
-    h("div", { class: "hero hero-accent" }, h("h1", null, collection.name), h("p", { class: "lede" }, collection.why_it_matters)),
+    h(
+      "div",
+      { class: "hero hero-accent" },
+      h("p", { class: "eyebrow" }, "Collection"),
+      h("h1", null, collection.name),
+      h("p", { class: "lede" }, collection.why_it_matters),
+    ),
     h(
       "div",
       { class: "stats stats-wide" },

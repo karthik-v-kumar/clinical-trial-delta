@@ -8,11 +8,16 @@ export function glossaryPage(): Page {
   const node = h(
     "div",
     { class: "page" },
-    h("h1", null, "Glossary"),
     h(
-      "p",
-      { class: "lede" },
-      "Plain-language explanations of the trial terms used on this site. Anywhere you see a dotted underline, you can tap the word for the same explanation.",
+      "div",
+      { class: "hero" },
+      h("p", { class: "eyebrow" }, "Reference"),
+      h("h1", null, "Glossary"),
+      h(
+        "p",
+        { class: "lede" },
+        "Plain-language explanations of the trial terms used on this site. Anywhere you see a dotted underline, you can tap the word for the same explanation.",
+      ),
     ),
     GLOSSARY_GROUPS.map((group) =>
       h(
