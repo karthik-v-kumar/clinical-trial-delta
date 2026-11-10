@@ -17,13 +17,16 @@ Standard library only.
 
 from __future__ import annotations
 
+import gzip
 import json
 import os
 import random
 import re
+import sys
 import time
 import urllib.error
 import urllib.request
+import zlib
 from collections.abc import Callable
 from dataclasses import dataclass, field
 
@@ -52,13 +55,64 @@ class LLMUnavailable(LLMError):
 Transport = Callable[[str, dict, bytes], "tuple[int, dict[str, str], bytes]"]
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    """Never follow redirects: urllib would silently turn the POST into a GET."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
+
+
+_OPENER = urllib.request.build_opener(_NoRedirect)
+
+
+def _decode(headers: dict, body: bytes) -> bytes:
+    encoding = next((v for k, v in headers.items() if k.lower() == "content-encoding"), "").lower()
+    if encoding == "gzip" or body[:2] == b"\x1f\x8b":
+        return gzip.decompress(body)
+    if encoding == "deflate":
+        return zlib.decompress(body)
+    return body
+
+
 def urllib_transport(url: str, headers: dict, body: bytes) -> tuple[int, dict[str, str], bytes]:
     req = urllib.request.Request(url, data=body, headers=headers, method="POST")
     try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
-            return resp.status, dict(resp.headers.items()), resp.read()
+        with _OPENER.open(req, timeout=120) as resp:
+            resp_headers = dict(resp.headers.items())
+            return resp.status, resp_headers, _decode(resp_headers, resp.read())
     except urllib.error.HTTPError as exc:
-        return exc.code, dict(exc.headers.items()) if exc.headers else {}, exc.read() or b""
+        resp_headers = dict(exc.headers.items()) if exc.headers else {}
+        return exc.code, resp_headers, _decode(resp_headers, exc.read() or b"")
+
+
+def _content_type(headers: dict) -> str:
+    return next((v for k, v in headers.items() if k.lower() == "content-type"), "")
+
+
+def extract_content(headers: dict, payload: bytes) -> str:
+    """The assistant message text from a chat-completions response (JSON or event stream)."""
+    text = payload.decode("utf-8", "replace").strip()
+    if text.startswith("data:"):  # server-sent events: join the streamed deltas
+        parts = []
+        for line in text.splitlines():
+            line = line.strip()
+            if not line.startswith("data:") or line == "data: [DONE]":
+                continue
+            try:
+                chunk = json.loads(line[5:].strip())
+                delta = chunk["choices"][0].get("delta") or chunk["choices"][0].get("message") or {}
+                parts.append(delta.get("content") or "")
+            except (json.JSONDecodeError, KeyError, IndexError, TypeError):
+                continue
+        return "".join(parts)
+    try:
+        data = json.loads(text)
+        return data["choices"][0]["message"]["content"] or ""
+    except (json.JSONDecodeError, KeyError, IndexError, TypeError) as exc:
+        preview = text[:160].replace("\n", " ")
+        raise LLMError(
+            f"unexpected response ({type(exc).__name__}); content-type {_content_type(headers)!r}; body starts {preview!r}"
+        ) from None
 
 
 @dataclass
@@ -148,7 +202,8 @@ class LLMClient:
         headers = {
             "Authorization": f"Bearer {self.config.api_key}",
             "Content-Type": "application/json",
-            "Accept": "application/vnd.github+json",
+            "Accept": "application/json",
+            "Accept-Encoding": "identity",
             "User-Agent": "clinical-trial-delta/1.0",
         }
         url = f"{self.config.base_url}/chat/completions"
@@ -161,12 +216,10 @@ class LLMClient:
             except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as exc:
                 status, resp_headers, payload, last_error = 0, {}, b"", f"{type(exc).__name__}: {exc}"
             if status == 200:
-                try:
-                    data = json.loads(payload)
-                    content = data["choices"][0]["message"]["content"] or ""
-                except (json.JSONDecodeError, KeyError, IndexError, TypeError) as exc:
-                    raise LLMError(f"unexpected response shape: {exc}") from None
-                return parse_json_object(content)
+                return parse_json_object(extract_content(resp_headers, payload))
+            if 300 <= status < 400:
+                location = next((v for k, v in resp_headers.items() if k.lower() == "location"), "?")
+                raise LLMUnavailable(f"{model}: endpoint redirected (HTTP {status} to {location}); check LLM_BASE_URL")
             text = payload[:300].decode("utf-8", "replace")
             if status == 429:
                 retry_after = _retry_after(resp_headers)
@@ -194,3 +247,64 @@ def _retry_after(headers: dict) -> float | None:
             except (TypeError, ValueError):
                 return None
     return None
+
+
+def probe(config: LLMConfig | None = None, transport: Transport = urllib_transport) -> int:
+    """One request to the configured provider, printing what came back (never the key).
+    Used by .github/workflows/llm-probe.yml to diagnose provider problems cheaply."""
+    config = config or LLMConfig.from_env()
+    if not config.configured:
+        print("LLM_API_KEY is not set")
+        return 1
+    body = json.dumps(
+        {
+            "model": config.model,
+            "messages": [{"role": "user", "content": 'Reply with the JSON object {"ok": true}.'}],
+            "max_tokens": 20,
+            "temperature": 0,
+            "response_format": {"type": "json_object"},
+        }
+    ).encode()
+    headers = {
+        "Authorization": f"Bearer {config.api_key}",
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Accept-Encoding": "identity",
+        "User-Agent": "clinical-trial-delta/1.0",
+    }
+    url = f"{config.base_url}/chat/completions"
+    status, resp_headers, payload = transport(url, headers, body)
+    shown = {
+        k: v
+        for k, v in resp_headers.items()
+        if k.lower()
+        in (
+            "content-type",
+            "content-encoding",
+            "location",
+            "retry-after",
+            "x-ratelimit-remaining-requests",
+            "x-ratelimit-limit-requests",
+            "x-ratelimit-remaining-tokens",
+            "x-github-request-id",
+        )
+    }
+    print(f"POST {url} model={config.model}")
+    print(f"HTTP {status}")
+    print(f"headers: {shown}")
+    print(f"body ({len(payload)} bytes): {payload[:400]!r}")
+    if status == 200:
+        try:
+            print("parsed:", parse_json_object(extract_content(resp_headers, payload)))
+        except LLMError as exc:
+            print("could not parse:", exc)
+            return 1
+        return 0
+    return 1
+
+
+if __name__ == "__main__":
+    if sys.argv[1:] == ["--probe"]:
+        sys.exit(probe())
+    print("usage: python -m pipeline.llm --probe")
+    sys.exit(2)

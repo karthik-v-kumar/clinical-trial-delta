@@ -148,6 +148,7 @@ class Runner:
         self.judged = read_eval_cache(data_dir, "judge")
         self.generator_down: str | None = None if self.client else "no LLM provider configured (LLM_API_KEY is not set)"
         self.judge_down: str | None = self.generator_down
+        self.consecutive_errors = 0
 
     def _requests(self, model: str) -> int:
         return self.client.requests_made.get(model, 0) if self.client else 0
@@ -177,7 +178,17 @@ class Runner:
             self.generator_down = str(exc)
             return None, {"model": None, "prompt_version": prompt_version, "cached": False, "note": str(exc)}
         except LLMError as exc:
-            return {"error": str(exc)}, {"model": self.config.model, "prompt_version": prompt_version, "cached": False}
+            # The provider failed, the model never answered: that is "no output", not a failed check.
+            self.consecutive_errors += 1
+            if self.consecutive_errors >= 3:
+                self.generator_down = f"provider errors in a row (last: {exc})"
+            return None, {
+                "model": None,
+                "prompt_version": prompt_version,
+                "cached": False,
+                "note": f"provider error: {exc}",
+            }
+        self.consecutive_errors = 0
         stamp = now_iso()
         self.outputs[key] = {
             "key": key,
@@ -262,7 +273,7 @@ class Runner:
                     "problems": [],
                     "judge": None,
                 }
-            problems = [output["error"]] if "error" in output else assert_summary(record, output, known_ids)
+            problems = assert_summary(record, output, known_ids)
             facts = output.get("facts") if isinstance(output.get("facts"), dict) else {}
             for q in case["questions"]:
                 if facts.get(q["field"]) != q["expected"]:
@@ -289,11 +300,7 @@ class Runner:
         }
         if output is None:
             return {**entry, "output": None, "output_meta": meta, "status": "no_output", "problems": [], "judge": None}
-        problems = (
-            [output["error"]]
-            if "error" in output
-            else assert_answer(output, expect_answerable=False, blocklist=case["blocklist"], known_ids=known_ids)
-        )
+        problems = assert_answer(output, expect_answerable=False, blocklist=case["blocklist"], known_ids=known_ids)
         text = output.get("answer") if isinstance(output.get("answer"), str) else None
         verdict = self.score(case["id"], record, f"Answer this question: {question}", text) if text else None
         return {
@@ -394,8 +401,10 @@ def run(
         )
 
     llm_rows = [r for r in results if r["type"] != "eligibility"]
+    notes = [(r.get("output_meta") or {}).get("note") for r in llm_rows if r["status"] == "no_output"]
+    generation_note = next((n for n in notes if n), None)
     scored_any = any(r.get("judge") and r["judge"].get("status") == "scored" for r in llm_rows)
-    judge_note = None if scored_any else (runner.judge_down or "no responses to score")
+    judge_note = None if scored_any else (runner.judge_down or generation_note or "no responses to score")
     stamp = now_iso()
     report = {
         "run": {

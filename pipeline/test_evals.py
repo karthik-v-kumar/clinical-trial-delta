@@ -221,3 +221,26 @@ def test_production_check_flags_bad_published_summaries(tmp_path, data_dir, day2
     production = report["production"]
     assert production["checked"] == 3 and production["failed"] == 1
     assert any("sponsor" in p for p in production["failures"][0]["problems"])
+
+
+class BrokenClient(FakeClient):
+    def chat_json(self, model, system, user, max_tokens=900):
+        from pipeline.llm import LLMError
+
+        self.requests_made[model] = self.requests_made.get(model, 0) + 1
+        raise LLMError("unexpected response; body starts '<html>'")
+
+
+def test_provider_errors_are_no_output_not_failures(tmp_path, data_dir):
+    broken = BrokenClient()
+    report = evals.run(data_dir, small_golden(tmp_path), config=broken.config, client=broken, log=lambda *a: None)
+    assert report["run"]["failed"] == 0 and report["run"]["no_output"] == 4
+    assert broken.requests_made["fake-small"] == 3  # stops after three errors in a row
+    assert "provider error" in report["run"]["judge_note"]
+
+
+def test_summarizer_stops_after_repeated_provider_errors(data_dir):
+    broken = BrokenClient()
+    report = summarize.run(data_dir, config=broken.config, client=broken, budget=100, log=lambda *a: None)
+    assert report["errors"] == 3 and broken.requests_made["fake-small"] == 3
+    assert "in a row" in report["stopped_because"]

@@ -32,6 +32,7 @@ from .snapshot import SnapshotStore
 from .writers import read_summaries, write_rejected_summaries, write_summary, write_summary_index
 
 DEFAULT_BUDGET = 100  # requests per run; leaves room under the 150/day free tier for the evals
+MAX_CONSECUTIVE_ERRORS = 3  # a provider that keeps failing is not retried 100 times
 OPEN_STATUSES = {"RECRUITING", "NOT_YET_RECRUITING", "ENROLLING_BY_INVITATION", "ACTIVE_NOT_RECRUITING"}
 
 
@@ -128,6 +129,7 @@ def run(
 
     client = client or LLMClient(config)
     report["status"] = "ok"
+    consecutive_errors = 0
     for nct in work["order"]:
         if client.requests_made.get(config.model, 0) >= budget:
             report["stopped_because"] = f"request budget of {budget} for this run reached"
@@ -145,8 +147,14 @@ def run(
             break
         except LLMError as exc:
             report["errors"] += 1
+            consecutive_errors += 1
             log(f"  {nct}: {exc}")
+            if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                report["stopped_because"] = f"{consecutive_errors} provider errors in a row (last: {exc})"
+                log(f"Stopping: {report['stopped_because']}")
+                break
             continue
+        consecutive_errors = 0
         stamp = now_iso()
         if problems:
             rejected[nct] = {

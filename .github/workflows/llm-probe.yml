@@ -1,0 +1,32 @@
+# Manual diagnostic: one request to the AI provider, printing the HTTP status,
+# a few response headers and the start of the body (never the token). Use it
+# when the AI summaries step reports provider errors.
+name: LLM probe
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  models: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Probe the summary model
+        env:
+          LLM_API_KEY: ${{ github.token }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'openai/gpt-4.1-mini' }}
+        run: python -m pipeline.llm --probe
+      - name: Probe the judge model
+        if: always()
+        env:
+          LLM_API_KEY: ${{ github.token }}
+          LLM_MODEL: ${{ vars.JUDGE_MODEL || 'openai/gpt-4.1' }}
+        run: python -m pipeline.llm --probe

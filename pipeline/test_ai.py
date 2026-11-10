@@ -248,3 +248,27 @@ def test_refusal_assertions():
     assert any("$50" in p for p in assert_answer(invented, expect_answerable=False, blocklist=[r"[$€£]\s?\d+"]))
     claims = {"answer": "It costs nothing.", "answerable": True}
     assert any("answerable" in p for p in assert_answer(claims, expect_answerable=False))
+
+
+def test_event_stream_and_gzip_bodies_are_understood():
+    import gzip as gz
+
+    from pipeline.llm import _decode, extract_content
+
+    stream = b'data: {"choices":[{"delta":{"content":"{\\"a\\":"}}]}\n\ndata: {"choices":[{"delta":{"content":" 1}"}}]}\n\ndata: [DONE]\n'
+    assert parse_json_object(extract_content({}, stream)) == {"a": 1}
+    body = json.dumps({"choices": [{"message": {"content": '{"b": 2}'}}]}).encode()
+    assert parse_json_object(extract_content({}, _decode({"Content-Encoding": "gzip"}, gz.compress(body)))) == {"b": 2}
+
+
+def test_unreadable_body_error_says_what_came_back():
+    from pipeline.llm import extract_content
+
+    with pytest.raises(LLMError, match="text/html.*<html>"):
+        extract_content({"Content-Type": "text/html"}, b"<html>Sign in</html>")
+
+
+def test_redirect_is_reported_not_followed():
+    c = client([(301, b"", {"Location": "https://example.com/elsewhere"})])
+    with pytest.raises(LLMUnavailable, match="redirected"):
+        c.chat_json("m", "s", "u")
