@@ -403,3 +403,15 @@ def test_probe_tries_candidate_models_without_changing_settings(capsys, monkeypa
     assert probe(LLMConfig(api_key="k", base_url=BASE, model="writer-small"), transport) == 0
     tested = [json.loads(body)["model"] for _, body in transport.calls if body]
     assert tested == ["writer-small", "candidate-a", "candidate-b"]
+
+
+def test_the_word_nct_on_its_own_is_not_a_citation(record):
+    """From the first live eval run (summary-10): a correct summary was failed for saying
+    "which has the NCT number NCT...", because the bare word "NCT" was read as a malformed ID."""
+    text = (
+        "This study tests exampleglutide in 600 adults with obesity. It is run by Hoffmann-La Roche "
+        f"and has the NCT number {record['nct_id']}."
+    )
+    assert assert_summary(record, good_summary(record, summary=text)) == []
+    still_caught = good_summary(record, summary=text.replace(record["nct_id"], "NCT1234"))
+    assert any("malformed" in p for p in assert_summary(record, still_caught))

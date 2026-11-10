@@ -49,11 +49,15 @@ function passRateChart(rows: EvalTypeRow[]): HTMLElement {
 }
 
 function judgeChart(rows: EvalTypeRow[]): HTMLElement {
-  const scored = rows.filter((r) => r.judge.status === "scored");
-  const data = scored.flatMap((r) => [
-    { key: `${r.type}-f`, label: `${r.label}: faithfulness`, axisLabel: `${r.label}: faithful`, value: r.judge.faithfulness_mean ?? 0 },
-    { key: `${r.type}-c`, label: `${r.label}: clarity`, axisLabel: `${r.label}: clear`, value: r.judge.clarity_mean ?? 0 },
-  ]);
+  // Only real scores are drawn: a kind of case the judge did not reach has no bar, never a 0.
+  const data = rows.flatMap((r) =>
+    r.judge.status === "scored" && r.judge.faithfulness_mean !== null && r.judge.clarity_mean !== null
+      ? [
+          { key: `${r.type}-f`, label: `${r.label}: faithfulness`, axisLabel: `${r.label}: faithful`, value: r.judge.faithfulness_mean },
+          { key: `${r.type}-c`, label: `${r.label}: clarity`, axisLabel: `${r.label}: clear`, value: r.judge.clarity_mean },
+        ]
+      : [],
+  );
   return barChart({
     title: ["Average ", term("ai-judge", "AI judge"), " score"],
     summary: "Bar chart of the AI judge's average faithfulness and clarity scores, from 1 to 5.",
@@ -67,6 +71,25 @@ function judgeChart(rows: EvalTypeRow[]): HTMLElement {
     format: score,
     noShare: true,
   });
+}
+
+/** Which cases the judge actually scored, so a partial run is never read as complete. */
+function judgeCoverage(report: EvalReport): HTMLElement {
+  const rows = report.by_type.filter((r) => r.judge.status !== "not_applicable");
+  return h(
+    "ul",
+    { class: "section-note judge-coverage" },
+    rows.map((r) => {
+      const graded = r.cases - r.no_output;
+      const text =
+        r.judge.scored === 0
+          ? `${r.label}: not run this time, so no score is shown.`
+          : r.judge.scored < graded
+            ? `${r.label}: scored ${r.judge.scored} of ${plural(graded, "case")}; the rest are scored on a later run.`
+            : `${r.label}: all ${plural(r.judge.scored, "case")} scored.`;
+      return h("li", null, text);
+    }),
+  );
 }
 
 function judgeNotRun(report: EvalReport): HTMLElement {
@@ -271,7 +294,11 @@ export async function evalsPage(): Promise<Page> {
           (run.no_output ? `, ${formatInt(run.no_output)} waiting for a model run (shown below, not counted as passes or failures).` : "."),
       ),
     ),
-    section("judge", "Judge scores", run.judge_status === "scored" ? judgeChart(report.by_type) : judgeNotRun(report)),
+    section(
+      "judge",
+      "Judge scores",
+      run.judge_status === "scored" ? [judgeChart(report.by_type), judgeCoverage(report)] : judgeNotRun(report),
+    ),
     section("production", "Summaries on the site", productionBlock(report, index)),
     section(
       "failures",

@@ -59,6 +59,27 @@ export function niceTicks(max: number, target = 4): number[] {
   return ticks;
 }
 
+/** Fit a category label into `room` pixels: one line, else two, shortening the second with "…". */
+function fitLabel(text: string, room: number): string[] {
+  if (textWidth(text) <= room) return [text];
+  const words = text.split(" ");
+  let first = "";
+  while (words.length && textWidth(first ? `${first} ${words[0]}` : words[0]!) <= room) {
+    first = first ? `${first} ${words.shift()}` : words.shift()!;
+  }
+  let second = words.join(" ");
+  if (!first) {
+    first = second;
+    second = "";
+  }
+  const shorten = (line: string) => {
+    if (textWidth(line) <= room) return line;
+    while (line.length > 1 && textWidth(`${line}…`) > room) line = line.slice(0, -1);
+    return `${line.trimEnd()}…`;
+  };
+  return second ? [shorten(first), shorten(second)] : [shorten(first)];
+}
+
 function share(value: number, total: number): string {
   if (!total) return "";
   const percent = (value / total) * 100;
@@ -286,7 +307,13 @@ export function barChart(options: ChartOptions): HTMLElement {
         Math.min(end + 4, width - 40),
         middle - barHeight / 2,
       ]);
-      group.appendChild(svg("text", { class: "tick category", x: left - 8, y: middle + 4, "text-anchor": "end" }, d.axisLabel));
+      // Long labels wrap onto a second line (and shorten only if they still do not fit);
+      // the full label stays in the bar's read-out and the data table.
+      const lines = fitLabel(d.axisLabel, left - 10);
+      lines.forEach((line, row) => {
+        const y = lines.length === 1 ? middle + 4 : middle - 2 + row * 13;
+        group.appendChild(svg("text", { class: "tick category", x: left - 8, y, "text-anchor": "end" }, line));
+      });
       const length = end - left;
       if (length > 0) {
         const r = Math.min(RADIUS, barHeight / 2, length);

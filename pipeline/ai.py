@@ -224,7 +224,8 @@ def judge(client: LLMClient, record: dict, task: str, response_text: str) -> dic
 
 # --- deterministic assertions ------------------------------------------------------
 
-NCT_TOKEN = re.compile(r"\bNCT\w*", re.IGNORECASE)
+# A citation attempt is "NCT" followed by digits; the bare word ("its NCT number") is not one.
+NCT_TOKEN = re.compile(r"\bNCT\d\w*", re.IGNORECASE)
 NCT_VALID = re.compile(r"^NCT\d{8}$")
 _PHASE_MENTION = re.compile(
     r"\bphase\s+((?:[1-4]|I{1,3}|IV)(?:\s*(?:/|and|-|or)\s*(?:[1-4]|I{1,3}|IV))?)\b", re.IGNORECASE
