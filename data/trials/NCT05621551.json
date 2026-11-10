@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER_GOV",
-  "name": "China National Center for Cardiovascular Diseases"
+  "name": "China National Center for Cardiovascular Diseases",
+  "class": "OTHER_GOV"
  },
  "collaborators": [],
  "conditions": [
@@ -51,23 +51,23 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ],
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Standard of care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "This randomized controlled trial is to assess the effects of perioperative dapagliflozin on type 2 diabetic patients undergoing cardiac surgery",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age ≥ 18 years at screening\n2. Scheduled for cardiac surgery (on-pump coronary artery bypass grafting, aortic valve replacement, or a combination of both)\n3. Diagnosis of Type 2 Diabetes\n4. Provision of signed informed consent prior to any study specific procedures\n\nExclusion Criteria:\n\n1. Emergency surgery and non-primary surgery\n2. Moderate and severe dehydration; systolic pressure≤90mmHg; unstable haemodynamics\n3. History of diabetic ketoacidosis; type 1 diabetes mellitus\n4. Receiving therapy with an SGLT2 inhibitor within 4 weeks prior to enrolment\n5. Known allergy or hypersensitivity to dapagliflozin or other SGLT-2 inhibitors\n6. Estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73 m2 or requiring dialysis; unstable or rapidly progressing renal disease at the time of randomisation\n7. Serious hepatic disease\n8. Women who are pregnant, nursing, or who plan to become pregnant while in the trial\n9. Currently enrolled in another investigational drug study, or less than 30 days",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,13 +90,13 @@
  },
  "sites": [
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "National Clinical Research Center for Cardiovascular Diseases, State Key Laboratory of Cardiovascular Disease, Fuwai Hospital, National Center for Cardiovascular Diseases, Chinese Academy of Medical Sciences and Peking Union Medical College",
-   "lat": 39.9075,
-   "lon": 116.39723,
+   "city": "Beijing",
    "state": "Beijing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05621551",

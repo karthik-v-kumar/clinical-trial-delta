@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Banja Luka"
+  "name": "University of Banja Luka",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,43 +51,43 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "UDCA (Ursodeoxycholic acid)",
    "other_names": [
     "Ursofalk",
     "Bilexin"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Siofor",
     "Glucophage"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "UDCA + metformin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: UDCA (Ursodeoxycholic acid)",
     "Drug: Metformin"
-   ],
-   "label": "UDCA + metformin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo + metformin",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Metformin"
-   ],
-   "label": "Placebo + metformin",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -123,10 +123,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effects of ursodeoxycholic acid (UDCA) compared to placebo on biomarkers of oxidative stress, inflammation, and endothelial dysfunction in patients with type 2 diabetes mellitus (T2DM) who are treated with metformin but did not meet the target HbA1C \\< 7%.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent\n* Type 2 Diabetes mellitus verified at least 1 year prior to the study enrollment\n* Treatment with metformin at a maximally tolerated dose (up to 2000 mg/day) in patients with an incomplete biochemical response showing HbA1c ≥ 6,5%.\n* Body mass index (BMI) corresponding to overweight and obesity (≥ 25 kg/m2)\n\nExclusion Criteria:\n\n* Insulin treatment within 12 weeks prior to the study enrollment\n* Treatment with Glucagon-like peptide 1 (GLP-1) analogs within 12 weeks prior to the study enrollment\n* Systemic administration of glucocorticoids continuously for 10 days within 12 weeks prior to the study enrollment\n* Prior and concomitant immunosuppressants treatment (other than glucocorticoids)\n* History and current serious psychiatric disorders that could affect treatment adherence\n* Co-existing uncontrolled cardiovascular disease (i.e arterial hypertension), respiratory insufficiency, acute or chronic renal failure (creatinine clearance \\< 60 ml/min), and liver diseases such as acute or chronic viral hepatitis, alcoholic liver disease, choledocholithiasis, autoimmune hepatitis, non-alcoholic fatty liver disease, hemochromatosis, and liver failure.\n* Known history of cholecystitis\n* Pregnant or lactating women\n* Known hypersensitivity to UDCA, or other bile acids\n* History of malignancy diagnosed or treated within 2 years (recent localized treatment of squamous or non-invasive basal skin cancers is permitted; cervical carcinoma in situ is allowed if appropriately treated prior to Screening)\n* Participation in any other interventional study",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -134,13 +134,13 @@
  },
  "sites": [
   {
-   "city": "Banja Luka",
-   "country": "Bosnia and Herzegovina",
    "facility": "Public Health Institution Dom zdravlja Banja Luka",
-   "lat": 44.77879,
-   "lon": 17.20629,
+   "city": "Banja Luka",
    "state": "Republika Srpska",
-   "status": null
+   "country": "Bosnia and Herzegovina",
+   "status": null,
+   "lat": 44.77879,
+   "lon": 17.20629
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05416580",

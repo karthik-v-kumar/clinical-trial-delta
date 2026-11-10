@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Dance Biopharm Inc."
+  "name": "Dance Biopharm Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Profil Institut für Stoffwechselforschung GmbH"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Inhaled Human Insulin",
    "other_names": [
     "Dance 501"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Insulin Lispro (Humalog U-100)",
    "other_names": [
     "Insulin Lispro (Humalog U-100) will be administered by subcutaneous injection"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Dance 501",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Inhaled Human Insulin"
-   ],
-   "label": "Dance 501",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Insulin Lispro",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Lispro (Humalog U-100)"
-   ],
-   "label": "Insulin Lispro",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "This will be a randomized, open-label, active-controlled, 6-period crossover study. Target population will be subjects with Type 2 Diabetes Mellitus (T2DM)",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects diagnosed with T2DM.\n* BMI between 25.0 and 40.0 kg/m2.\n* Treated with metformin and/or at least 1 daily injection of insulin for at least 6 months.\n* Non-smoker for at least 5 years.\n* Forced vital capacity and forced expiratory volume in one second is at least 75% normal.\n\nExclusion Criteria:\n\n* Any condition affecting pulmonary drug absorption.\n* History or presence of cancer except basal cell skin cancer or squamous cell skin cancer.\n* Serious systemic infectious disease during four weeks prior to dosing.\n* Clinically significant abnormal lab values.\n* Proliferative retinopathy and/or severe neuropathy.\n* Recurrent severe hypoglycemia.\n* Current treatment with oral anti-diabetic drugs except metformin, glucagon-like peptide receptor agonists.\n* Current treatment with MAO inhibitors.\n* Unstable Thyroid hormones for at least 3 months.\n* Insufficient glycemic control with significant fluctuations of blood glucose.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "city": "Mainz",
-   "country": "Germany",
    "facility": "Profil Mainz",
-   "lat": 49.98185,
-   "lon": 8.28008,
+   "city": "Mainz",
    "state": "Malakoff-Passage",
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 49.98185,
+   "lon": 8.28008
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04100473",

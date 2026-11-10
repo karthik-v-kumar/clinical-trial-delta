@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2023-07-27",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,50 +53,50 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide 2.4 mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Cagrilintide 2.4 mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo (semaglutide)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo (cagrilintide)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Cagrilintide 2.4 mg and semaglutide 2.4 mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide 2.4 mg",
     "Drug: Cagrilintide 2.4 mg"
-   ],
-   "label": "Cagrilintide 2.4 mg and semaglutide 2.4 mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Cagrilintide 2.4 mg and placebo (semaglutide)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Cagrilintide 2.4 mg",
     "Drug: Placebo (semaglutide)"
-   ],
-   "label": "Cagrilintide 2.4 mg and placebo (semaglutide)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Semaglutide 2.4 mg and Placebo (cagrilintide)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide 2.4 mg",
     "Drug: Placebo (cagrilintide)"
-   ],
-   "label": "Semaglutide 2.4 mg and Placebo (cagrilintide)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -108,10 +108,10 @@
  "brief_summary": "This study looks at how well a new medicine called cagrilintide works together with semaglutide on blood sugar levels in people with type 2 diabetes compared to cagrilintide alone or semaglutide alone.\n\nBefore a new medicine can be prescribed to people it needs to be tested to see if it is safe and effective.\n\nParticipants will either get cagrilintide and semaglutide together or cagrilintide and a dummy medicine or semaglutide and a dummy medicine. Which treatment participants get is decided by chance.\n\nA dummy medicine (placebo) looks like the study medicine but does not contain any active medicine. The dummy medicine is in the study to see if the study medicine works as expected.\n\nParticipants will get 2 injections per week on the same day. Participants will take the study medicine with a pen. A pen is a medical tool with a needle used for injections under the skin. The study doctor or staff will show how.\n\nThe study will last for about 39 weeks. Participants will have 12 visits at the clinic and 5 phone calls with the study doctor.\n\nAt 6 of the clinic visits participants must not eat and drink for 8 hours before the visit (water is allowed).\n\nWomen who can become pregnant cannot take part in this study. Only women that are surgically sterilised or post-menopausal are allowed to participate in this study Women cannot take part if pregnant, breast-feeding or plan to get pregnant during the study period",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Female of non-childbearing potential or male\n* Age above or equal to 18 years at the time of signing informed consent\n* Body mass index (BMI) greater than or equal to 27.0 kg/m\\^2\n* Diagnosed with type 2 diabetes mellitus greater than or equal to 180 days before screening\n* Glycated haemoglobin (HbA1c) of 7.5-10.0% (58-86 mmol/mol) (both inclusive) as assessed by central laboratory at screening\n* Stable daily dose(s) ≥ 90 days before screening of the following antidiabetic drug(s) or combination regimen(s) at maximum tolerated or effective dose as judged by the investigator: metformin with or without Sodium-glucose co-transporter-2 (SGLT2) inhibitor\n\nExclusion Criteria:\n\n* Treatment with any medication for the indication of diabetes or obesity other than stated in the inclusion criteria within 90 days before screening. However, short term insulin treatment for a maximum of 14 days and prior insulin treatment for gestational diabetes are allowed\n* Renal impairment with estimated Glomerular Filtration Rate (eGFR) below 60 ml/min/1.73m\\^2 by central laboratory at screening\n* Uncontrolled and potentially unstable diabetic retinopathy or maculopathy. Verified by a fundus examination performed within 90 days before screening or in the period between screening and randomisation. Pharmacological pupil-dilation is a requirement unless using a digital fundus photography camera specified for non-dilated examination",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,211 +119,211 @@
  },
  "sites": [
   {
-   "city": "Birmingham",
-   "country": "United States",
    "facility": "Uni of Alabama at Birmingham",
-   "lat": 33.52066,
-   "lon": -86.80249,
+   "city": "Birmingham",
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.52066,
+   "lon": -86.80249
   },
   {
-   "city": "Fresno",
-   "country": "United States",
    "facility": "Valley Research",
+   "city": "Fresno",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 36.74773,
-   "lon": -119.77237,
-   "state": "California",
-   "status": null
+   "lon": -119.77237
   },
   {
-   "city": "Los Alamitos",
-   "country": "United States",
    "facility": "Pacific Clinical Studies",
+   "city": "Los Alamitos",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.80307,
-   "lon": -118.07256,
-   "state": "California",
-   "status": null
+   "lon": -118.07256
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "Velocity Clin Res Los Angeles",
+   "city": "Los Angeles",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": null
+   "lon": -118.24368
   },
   {
-   "city": "Spring Valley",
-   "country": "United States",
    "facility": "Encompass Clinical Research_Spring Valley",
-   "lat": 32.74477,
-   "lon": -116.99892,
+   "city": "Spring Valley",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.74477,
+   "lon": -116.99892
   },
   {
-   "city": "Golden",
-   "country": "United States",
    "facility": "New West Physicians,Inc.",
-   "lat": 39.75554,
-   "lon": -105.2211,
+   "city": "Golden",
    "state": "Colorado",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.75554,
+   "lon": -105.2211
   },
   {
-   "city": "Kissimmee",
-   "country": "United States",
    "facility": "FPA Clinical Research",
+   "city": "Kissimmee",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 28.30468,
-   "lon": -81.41667,
-   "state": "Florida",
-   "status": null
+   "lon": -81.41667
   },
   {
-   "city": "Orlando",
-   "country": "United States",
    "facility": "Florida Inst For Clin Res",
+   "city": "Orlando",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 28.53834,
-   "lon": -81.37924,
-   "state": "Florida",
-   "status": null
+   "lon": -81.37924
   },
   {
-   "city": "Plantation",
-   "country": "United States",
    "facility": "Clinical Trial Res Assoc,Inc",
-   "lat": 26.13421,
-   "lon": -80.23184,
+   "city": "Plantation",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 26.13421,
+   "lon": -80.23184
   },
   {
-   "city": "Alpharetta",
-   "country": "United States",
    "facility": "Ellipsis Group",
-   "lat": 34.07538,
-   "lon": -84.29409,
+   "city": "Alpharetta",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.07538,
+   "lon": -84.29409
   },
   {
-   "city": "Honolulu",
-   "country": "United States",
    "facility": "East West Med Res Inst",
-   "lat": 21.30694,
-   "lon": -157.85833,
+   "city": "Honolulu",
    "state": "Hawaii",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
-   "city": "Gillespie",
-   "country": "United States",
    "facility": "Macoupin Research Group",
-   "lat": 39.12977,
-   "lon": -89.81954,
+   "city": "Gillespie",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12977,
+   "lon": -89.81954
   },
   {
-   "city": "Oxon Hill",
-   "country": "United States",
    "facility": "MD Medical Research",
-   "lat": 38.80345,
-   "lon": -76.9897,
+   "city": "Oxon Hill",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.80345,
+   "lon": -76.9897
   },
   {
-   "city": "Greensboro",
-   "country": "United States",
    "facility": "PharmQuest Life Sciences LLC",
+   "city": "Greensboro",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 36.07264,
-   "lon": -79.79198,
-   "state": "North Carolina",
-   "status": null
+   "lon": -79.79198
   },
   {
-   "city": "Wilmington",
-   "country": "United States",
    "facility": "Accellacare",
-   "lat": 34.23556,
-   "lon": -77.94604,
+   "city": "Wilmington",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.23556,
+   "lon": -77.94604
   },
   {
-   "city": "Fargo",
-   "country": "United States",
    "facility": "Lillestol Research LLC",
-   "lat": 46.87719,
-   "lon": -96.7898,
-   "state": "North Dakota",
-   "status": null
-  },
-  {
    "city": "Fargo",
-   "country": "United States",
-   "facility": "Plains Clinical Research Center, LLC_Fargo",
-   "lat": 46.87719,
-   "lon": -96.7898,
    "state": "North Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.87719,
+   "lon": -96.7898
   },
   {
-   "city": "Kingsport",
+   "facility": "Plains Clinical Research Center, LLC_Fargo",
+   "city": "Fargo",
+   "state": "North Dakota",
    "country": "United States",
+   "status": null,
+   "lat": 46.87719,
+   "lon": -96.7898
+  },
+  {
    "facility": "Holston Medical Group",
-   "lat": 36.54843,
-   "lon": -82.56182,
+   "city": "Kingsport",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.54843,
+   "lon": -82.56182
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Velocity Clinical Res-Dallas",
+   "city": "Dallas",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "PlanIt Research, PLLC",
+   "city": "Houston",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": null
+   "lon": -95.36327
   },
   {
-   "city": "Longview",
-   "country": "United States",
    "facility": "DCOL Ctr for Clin Res",
-   "lat": 32.5007,
-   "lon": -94.74049,
+   "city": "Longview",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.5007,
+   "lon": -94.74049
   },
   {
-   "city": "Winchester",
-   "country": "United States",
    "facility": "Selma Medical Associates",
-   "lat": 39.18566,
-   "lon": -78.16333,
+   "city": "Winchester",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.18566,
+   "lon": -78.16333
   },
   {
-   "city": "Olympia",
-   "country": "United States",
    "facility": "Capital Clin Res Ctr,LLC",
-   "lat": 47.04491,
-   "lon": -122.90169,
+   "city": "Olympia",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.04491,
+   "lon": -122.90169
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04982575",

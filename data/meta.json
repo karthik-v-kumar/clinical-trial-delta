@@ -1,41 +1,36 @@
 {
   "schema_version": 1,
   "app": "Clinical Trial Delta",
-  "snapshot_date": "2026-11-09",
+  "snapshot_date": "2026-11-10",
   "tracking_since": "2026-11-09",
-  "generated_at": "2026-11-09T12:59:24-08:00",
+  "generated_at": "2026-11-10T14:31:43-08:00",
   "run": {
     "mode": "daily",
-    "started_at": "2026-11-09T12:37:47-08:00",
-    "finished_at": "2026-11-09T12:38:10-08:00",
-    "compared_against": null,
-    "baseline": true,
+    "started_at": "2026-11-10T14:31:18-08:00",
+    "finished_at": "2026-11-10T14:31:43-08:00",
+    "compared_against": "2026-11-09",
+    "baseline": false,
     "partial": false,
     "failed_queries": {},
     "records_kept_from_previous": [],
     "records_skipped": [],
-    "events_detected": 0,
-    "records_changed": 6189,
+    "events_detected": 48,
+    "records_changed": 22,
     "rebaselined_collections": [],
     "left_watchlist": {},
     "api_requests": 13,
     "warnings": []
   },
-  "rebuild": {
-    "mode": "rebuild",
-    "started_at": "2026-11-09T12:59:16-08:00",
-    "finished_at": "2026-11-09T12:59:24-08:00"
-  },
   "source": {
     "name": "ClinicalTrials.gov API v2",
     "url": "https://clinicaltrials.gov/api/v2",
     "api_version": "2.0.5",
-    "data_timestamp": "2026-11-09T10:00:05"
+    "data_timestamp": "2026-11-10T10:00:05"
   },
   "totals": {
-    "trials": 6189,
-    "events_all_time": 0,
-    "changes_all_time": 0
+    "trials": 6194,
+    "events_all_time": 48,
+    "changes_all_time": 40
   },
   "recent_window_days": 7,
   "collections": [
@@ -45,9 +40,9 @@
       "why_it_matters": "GLP-1 medicines such as semaglutide and tirzepatide changed how obesity is treated, and the next wave of these drugs is in trials now.",
       "accent": "#0B8FA8",
       "partial": false,
-      "trial_count": 1091,
-      "recruiting_count": 239,
-      "changes_recent": 0
+      "trial_count": 1093,
+      "recruiting_count": 241,
+      "changes_recent": 15
     },
     {
       "id": "type-2-diabetes",
@@ -55,9 +50,9 @@
       "why_it_matters": "South Asians develop type 2 diabetes earlier and at lower body weights than other groups — this collection exists for the family as much as the portfolio.",
       "accent": "#D65F21",
       "partial": false,
-      "trial_count": 4182,
-      "recruiting_count": 191,
-      "changes_recent": 0
+      "trial_count": 4185,
+      "recruiting_count": 195,
+      "changes_recent": 27
     },
     {
       "id": "cholesterol-lipids",
@@ -67,7 +62,7 @@
       "partial": false,
       "trial_count": 1081,
       "recruiting_count": 56,
-      "changes_recent": 0
+      "changes_recent": 6
     }
   ],
   "queries": [
@@ -75,8 +70,8 @@
       "id": "glp1-obesity-drugs",
       "collection": "glp1-obesity",
       "label": "Obesity or overweight, testing a GLP-1 medicine",
-      "matched": 890,
-      "registry_count": 890,
+      "matched": 892,
+      "registry_count": 892,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=Obesity%20OR%20Overweight&intr=semaglutide%20OR%20tirzepatide%20OR%20retatrutide%20OR%20orforglipron%20OR%20%22GLP-1%22%20OR%20%22glucagon-like%20peptide-1%22%20OR%20%22GLP-1%20receptor%20agonist%22%20OR%20liraglutide%20OR%20dulaglutide%20OR%20exenatide%20OR%20lixisenatide%20OR%20albiglutide&aggFilters=studyType%3Aint"
     },
@@ -93,8 +88,8 @@
       "id": "t2d-drugs",
       "collection": "type-2-diabetes",
       "label": "Type 2 diabetes, testing metformin, insulin, an SGLT2 or a DPP-4 medicine",
-      "matched": 3729,
-      "registry_count": 3729,
+      "matched": 3732,
+      "registry_count": 3732,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=%22Diabetes%20Mellitus%2C%20Type%202%22&intr=metformin%20OR%20insulin%20OR%20empagliflozin%20OR%20dapagliflozin%20OR%20canagliflozin%20OR%20ertugliflozin%20OR%20SGLT2%20OR%20%22SGLT-2%22%20OR%20%22SGLT2%20inhibitor%22%20OR%20%22sodium-glucose%20cotransporter%202%22%20OR%20sitagliptin%20OR%20saxagliptin%20OR%20linagliptin%20OR%20alogliptin%20OR%20vildagliptin%20OR%20%22DPP-4%22%20OR%20DPP4%20OR%20%22DPP-4%20inhibitor%22%20OR%20%22dipeptidyl%20peptidase-4%22&aggFilters=studyType%3Aint"
     },

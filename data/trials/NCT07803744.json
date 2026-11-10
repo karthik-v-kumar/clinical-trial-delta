@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,39 +53,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Acetaminophen",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Tirzepatide + Acetaminophen",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide",
     "Drug: Acetaminophen"
-   ],
-   "label": "Tirzepatide + Acetaminophen",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo + Acetaminophen",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Acetaminophen",
     "Drug: Placebo"
-   ],
-   "label": "Placebo + Acetaminophen",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "The main purpose of this study is to learn more how tirzepatide affects stomach emptying in participants with Type 1 Diabetes Mellitus (T1DM) and overweight or obesity.\n\nParticipation in this study will last about 8 weeks, including screening and follow-up.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have a diagnosis of type 1 diabetes mellitus (T1DM) and have been treated with insulin for at least 1 year prior to screening\n* Have a body mass index (BMI) greater than or equal to 25.0 kilograms per square meter (kg/m2) at screening\n* Are of stable weight, that is a self-reported change of 5 kg or less, for at least 90 days prior to screening\n\nExclusion Criteria:\n\n* Participants who have a known clinically significant gastric emptying abnormality\n* Have undergone weight loss surgery such as gastric bypass (bariatric) surgery or restrictive bariatric surgery\n* Have known allergies or intolerance to acetaminophen, tirzepatide, or glucagon-like peptide-1 (GLP-1) receptor agonists",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Clinical Pharmacology of Miami",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 25.77427,
+   "lon": -80.19366
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07803744",

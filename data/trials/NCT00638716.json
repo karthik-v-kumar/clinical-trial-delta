@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2017-06-02",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "ConjuChem"
+  "name": "ConjuChem",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,37 +53,37 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "CJC-1134-PC",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: CJC-1134-PC"
-   ],
    "label": "1",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: CJC-1134-PC"
-   ],
-   "label": "2",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "2",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: CJC-1134-PC"
+   ]
+  },
+  {
+   "label": "3",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "3",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "This is a multicenter, randomized, placebo-controlled, double-blind, Phase II study.\n\nThe objective of this study is to evaluate the efficacy and safety of 12 weeks of treatment with CJC-1134-PC in patients with type 2 diabetes mellitus who are currently on metformin monotherapy.",
  "eligibility": {
   "criteria": "Major Inclusion Criteria:\n\n* BMI: 27 to 45 kg/m2\n* Stable Type 2 diabetes mellitus for at least 3 months, as defined by the Investigator\n* Stable life-style, i.e. diet \\& physical activity, as determined by the Investigator\n* Stable metformin daily dose ≥1000 mg for at least 3 months\n* Glycosylated hemoglobin (HbA1c) at screening ≥ 7.1% and ≤ 11%",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "25 Years",
   "sex": "ALL",
+  "minimum_age": "25 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "city": "Montreal",
-   "country": "Canada",
    "facility": "ConjuChem Biotechnologies Inc.",
-   "lat": 45.50884,
-   "lon": -73.58781,
+   "city": "Montreal",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00638716",

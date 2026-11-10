@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Far Eastern Memorial Hospital"
+  "name": "Far Eastern Memorial Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "FEMH Electronic Glucose Management System (FEMH-eGMS)",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "PROCEDURE",
    "name": "Control group",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "FEMH Electronic Glucose Management System (FEMH-eGMS)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: FEMH Electronic Glucose Management System (FEMH-eGMS)"
-   ],
-   "label": "FEMH Electronic Glucose Management System (FEMH-eGMS)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Conventional Basal-Bolus Subcutaneous Insulin Protocol",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Control group"
-   ],
-   "label": "Conventional Basal-Bolus Subcutaneous Insulin Protocol",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The purpose of this study is to compare the eGMS designed by FEMH with the usual insulin ordering protocol in the safety and efficacy of subcutaneous insulin therapy in ordinary ward.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥ 20 years\n* Type 2 diabetes mellitus\n* Required four-times-daily subcutaneous basal-bolus insulin during admission\n* At least two point-of-care glucose readings \\>180 mg/dL during admission\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus\n* Pregnancy\n* Gestational diabetes\n* Hyperosmolar hyperglycemic state or diabetic ketoacidosis at admission\n* Total parenteral nutrition\n* Treatment with intravenous insulin infusion (insulin pump)",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "city": "New Taipei City",
-   "country": "Taiwan",
    "facility": "Far Eastern Memory Hospital",
-   "lat": 25.06199,
-   "lon": 121.45703,
+   "city": "New Taipei City",
    "state": null,
-   "status": null
+   "country": "Taiwan",
+   "status": null,
+   "lat": 25.06199,
+   "lon": 121.45703
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07664293",

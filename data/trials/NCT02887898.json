@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Hvidovre University Hospital"
+  "name": "Hvidovre University Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,31 +48,31 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Automated bolus calculator",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Education",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Carb counting and bolus calculator",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Automated bolus calculator",
     "Other: Education"
-   ],
-   "label": "Carb counting and bolus calculator",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Carb counting",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Education"
-   ],
-   "label": "Carb counting",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "The investigators hypothesize that non-optimal basal-bolus insulin treated patients with type 2 diabetes can achieve better metabolic control by counting carbohydrates with concurrent use of an automated bolus calculator. Additionally, the investigators propose that this intervention will lead to improvement in patient related outcomes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes \\> 1 year\n* Age 18 years or older\n* HbA1C \\> 64 mmol/mol (8.0 %)\n* Treatment with multiple daily insulin injections (basal and prandial insulin) ≥ 6 months\n* GAD-antibody negative\n* Naïve to bolus calculators\n\nExclusion Criteria:\n\n* Pregnancy or breast feeding\n* Gastroparesis\n* Severe nephropathy (eGFR\\<30 mL/min/1,73 m2)\n* Use of sulfonylurea",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "city": "Hvidovre",
-   "country": "Denmark",
    "facility": "Hvidovre University Hospital",
-   "lat": 55.64297,
-   "lon": 12.47708,
+   "city": "Hvidovre",
    "state": null,
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.64297,
+   "lon": 12.47708
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02887898",

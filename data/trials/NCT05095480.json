@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Shiraz University of Medical Sciences"
+  "name": "Shiraz University of Medical Sciences",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Red Yeast Rice Pill",
    "other_names": [
     "Lesstat"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Lesstat",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Red Yeast Rice Pill"
-   ],
-   "label": "Lesstat",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "We conducted a triple-blind clinical trial on 92 patients in 2019. They were randomly divided into a control group of 49 patients and a treatment group of 43 patients. Treatment group received Lesstat and placebo group received the same color tablets",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Having serum levels of LDL cholesterol (LDL-C) at least 100 mg/dL and being treated with any group of statins for at least 3 months prior to the trial.\n\nExclusion Criteria:\n\n* Having very high serum levels of LDL-C (above 200 mg/dL)\n* Hypersensitivity to orlistat\n* Using other lipid-lowering agents with statins\n* History of liver disease\n* Pregnancy.",
-  "healthy_volunteers": true,
-  "maximum_age": "72 Years",
-  "minimum_age": "55 Years",
   "sex": "ALL",
+  "minimum_age": "55 Years",
+  "maximum_age": "72 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,13 +129,13 @@
  },
  "sites": [
   {
-   "city": "Shiraz",
-   "country": "Iran",
    "facility": "Javad Kojuri",
-   "lat": 29.61031,
-   "lon": 52.53113,
+   "city": "Shiraz",
    "state": "Outside of the US",
-   "status": null
+   "country": "Iran",
+   "status": null,
+   "lat": 29.61031,
+   "lon": 52.53113
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05095480",

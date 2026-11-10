@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2009-05-12",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "GlaxoSmithKline"
+  "name": "GlaxoSmithKline",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Lovaza (omega-3-acid ethyl esters) [formerly known as Omacor] plus atorvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "atorvastatin",
    "other_names": [
     "Lovaza (omega-3-acid ethyl esters) [formerly known as Omacor] plus atorvastatin"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "atorvastatin arm",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: atorvastatin"
-   ],
-   "label": "atorvastatin arm",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Lovaza arm",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Lovaza (omega-3-acid ethyl esters) [formerly known as Omacor] plus atorvastatin"
-   ],
-   "label": "Lovaza arm",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of Omacor (omega-3-acid ethyl esters) combined with atorvastatin for lowering non-high-density lipoprotein cholesterol (non-HDL-C) in hypertriglyceridemic subjects.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women, ages 18-79 years, inclusive\n* Fasting, untreated non-high-density lipoprotein cholesterol (non-HDL-C) level above NCEP ATPIII goals\n* Fasting, untreated triglyceride (TG) level in the high to very high range\n* Provide written informed consent and authorization for protected health information disclosure\n\nExclusion Criteria:\n\n* Pregnancy\n* Use of lipid-altering drugs which cannot be stopped\n* History of certain cardiovascular conditions or cardiac surgery within prior 6 months\n* Body mass index above 40 kg per square meter\n* Allergy or sensitivity to omega-3 fatty acids or to statin drugs\n* Poorly-controlled conditions including diabetes, hypertension, or thyroid disease\n* Certain muscle, liver, kidney, lung, or gastrointestinal conditions\n* Certain medications\n* Active cancers treated within prior 2 years (except non-melanoma skin cancer)",
-  "healthy_volunteers": false,
-  "maximum_age": "79 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "79 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

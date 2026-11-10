@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Yonsei University"
+  "name": "Yonsei University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "Amaryl"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Empagliflozin",
    "other_names": [
     "Jardiance"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride"
-   ],
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Empagliflozin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin"
-   ],
-   "label": "Empagliflozin",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "* Single-center, prospective, active-controlled, open, randomized, 2 arm parallel, interventional, exploratory pilot\n* Type 2 diabetic patients with high cardiovascular risks who have inadequate glycaemic control with metformin-based oral hypoglycemic agents will be prescribed glimepiride (comparison group) or empagliflozin (study group) for 60 days (plus or minus 32 days) as add-on therapy\n* Changes in IL-1beta secretion, serum beta-hydroxybutyrate concentration, and NLRP3 inflammasome activity from baseline to final timepoint will be assessed.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥19 years\n* inadequate glycaemic control : HbA1c ≥6.5% or fasting glucose \\>120 mg/dl or random glucose \\>180 mg/dl\n* High risk of cardiovascular events defined as the presence of ≥1 of the following:\n\n  1. History of myocardial infarction\n  2. Evidence of multi-vessel coronary artery disease\n  3. Evidence of single-vessel coronary artery disease with a positive non-invasive stress test for ischemia or history of hospitalization for unstable angina\n  4. History of stroke\n  5. Evidence of occlusive peripheral artery disease\n  6. Evidence of carotid atherosclerosis\n  7. Metabolic syndrome\n* Healthy volunteers\n\nExclusion Criteria:\n\n* Type 1 diabetes\n* Organ transplantation\n* Pregnant women\n* eGFR \\<45\n* Cortisol or growth hormone deficiency, pituitary diseases\n* Gastric surgery\n* Hematologic disorders\n* Active cancers",
-  "healthy_volunteers": true,
-  "maximum_age": "85 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "85 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Yonsei University College of Medicine, Department of Internal Medicine, Division of Endocrinology, Severance Hospital, Diabetes center",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02964572",

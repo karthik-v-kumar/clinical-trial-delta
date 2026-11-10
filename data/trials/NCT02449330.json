@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "National Cerebral and Cardiovascular Center, Japan"
+  "name": "National Cerebral and Cardiovascular Center, Japan",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -50,35 +50,35 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Teneligliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Teneligliptin"
-   ],
    "label": "Teneligliptin in the inhibition test",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [],
-   "label": "Other agents in the inhibition test",
-   "type": "NO_INTERVENTION"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Teneligliptin"
-   ],
-   "label": "Teneligliptin in the improvement test",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
+   "label": "Other agents in the inhibition test",
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
+  },
+  {
+   "label": "Teneligliptin in the improvement test",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Teneligliptin"
+   ]
+  },
+  {
    "label": "Other agents in the improvement test",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "This is the clinical trial designed to assess the cardiac diastolic function of long term treatment with teneligliptin compared to that without teneligliptin in patients with type 2 diabetes mellitus by two arms; one includes patients showing E/e' by echocardiography less than 8, the other includes patients showing E/e' by echocardiography more than 8.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Asians aged from 20 to 85 years old at baseline\n* Patients with type 2 diabetes mellitus and including either A) or B) criteria.\n\nA) Patients necessary to start the treatment using anti-diabetic agent(s) or to change the anti-diabetic agent(s).\n\nB) Patients possible to change the anti-diabetic agent(s).\n\n* Patients with left ventricular ejection fraction more than 40%\n* Patients with written informed consent\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes mellitus\n* Patients with slowly progressive type 1 diabetes mellitus positive for pancreatic islets related autoimmune antibody as GAD antibody or IA-2 antibody or ICA antibody\n* Patients with diabetes mellitus caused by evident genetic factors\n* Patients with diabetes mellitus caused by secondary factors as endocrine disease or liver disease\n* Patients with diabetic ketoacidosis or hyperosmolar hyperglycemic syndrome\n* Patients with any severe infectious diseases or planed any surgical treatments or suffered any severe traumas\n* Patients with severe liver dysfunction\n* Patients with hypophyseoprivic or adrenal insufficiency\n* Patients under malnutrition or starved state or irregular caloric intake or calorie insufficiency or hyposthenia\n* Patients judged to be unsuitable for the study as they are planning to exercise intensively\n* Patients judged to be unsuitable for the study as they may drink excessively or abuse drugs\n* Patients showing QT prolongation in the electrocardiogram\n* Patients with any past histories of heart failure showing NYHA classification grade more than 3 at baseline\n* Patients with any past histories of acute coronary syndrome or coronary intervention or cardiac surgery developed within 6 months\n* Patients with any surgical past histories of mitral valve replacement or mitral valve repair or severe calcification of mitral valve\n* Patients already treated with Teneligliptin\n* Women with breast-feeding\n* Pregnant women or patients who have possibilities of pregnancy\n* Patients expected to live less than 3 years\n* Patients with any past histories of drug hypersensitivity against Teneligliptin\n* Patients already involved in any other interventional clinical trials or planned to be involved\n* Patients judged to be inappropriate for the study by the doctors in charge",
-  "healthy_volunteers": false,
-  "maximum_age": "85 Years",
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": "85 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Suita",
-   "country": "Japan",
    "facility": "National Cerebral and Cardiovascular Center",
-   "lat": 34.76143,
-   "lon": 135.51567,
+   "city": "Suita",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Japan",
+   "status": "RECRUITING",
+   "lat": 34.76143,
+   "lon": 135.51567
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02449330",

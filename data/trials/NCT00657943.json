@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Steno Diabetes Center Copenhagen"
+  "name": "Steno Diabetes Center Copenhagen",
+  "class": "OTHER"
  },
  "collaborators": [
   "Hvidovre University Hospital",
@@ -65,81 +65,81 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "metformin",
    "other_names": [
     "glucophage"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "insulin detemir",
    "other_names": [
     "Levemir"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "insulin aspart + insulin aspart protamin",
    "other_names": [
     "novomix"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Insulin aspart",
    "other_names": [
     "NovoRapid"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: metformin",
-    "Drug: insulin detemir"
-   ],
    "label": "1M",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: metformin",
+    "Drug: insulin detemir"
+   ]
   },
   {
+   "label": "1P",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: insulin detemir"
-   ],
-   "label": "1P",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: metformin",
-    "Drug: insulin aspart + insulin aspart protamin"
-   ],
    "label": "2M",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: metformin",
+    "Drug: insulin aspart + insulin aspart protamin"
+   ]
   },
   {
+   "label": "2P",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: insulin aspart + insulin aspart protamin"
-   ],
-   "label": "2P",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "3M",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: metformin",
     "Drug: insulin detemir",
     "Drug: Insulin aspart"
-   ],
-   "label": "3M",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "3P",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: insulin detemir",
     "Drug: Insulin aspart"
-   ],
-   "label": "3P",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -151,10 +151,10 @@
  "brief_summary": "Type 2 Diabetes Mellitus patients (T2DM) have an increased mortality rate due to macrovascular disease. The primary objective of the study is to evaluate the effect of an 18-month treatment with metformin versus placebo in combination with one of three insulin analogue regimens following a treat-to-target principle. The primary outcome measure is change in wall thickness of the carotic arteries(CIMT)measured by ultrasound. A total of 900 patients with T2DM and HbA1c above 7.5% will be included.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males and females over 30 years of age\n* Type 2 diabetes\n* Body mass index (BMI): 25.0-39.9 kg/m2\n* HbA1c above 7.5 %\n* Antidiabetic tablet-treatment during 1 year minimum AND / OR\n* Insulin treatment during a minimum of 3 months\n* Negative pregnancy test\n* Signed, informed consent\n\nExclusion Criteria:\n\n* MI, coronary revascularization, TCI,or apoplexy within the last 3 months\n* TCI with verified stenosis of above 70%\n* Heart failure (NYHA class III or IV)\n* Former cancer patient, unless disease-free period of more than 5 years\n* estimated creatinine clearance \\< 60 ml/min Liver disease\n* Alcohol abuse\n* Drug abuse\n* Retinopathy with on-going laser treatment at start of study\n* Other acute or chronic serious disease leading to hypoxia\n* Pregnant or breastfeeding women\n* Women of child-bearing potential, not using contraceptives\n* Allergy to medication used in the study\n* Incapable of understanding the nature of the informed consent",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -162,85 +162,85 @@
  },
  "sites": [
   {
-   "city": "Copenhagen",
-   "country": "Denmark",
    "facility": "Bispebjerg Hospital",
-   "lat": 55.67594,
-   "lon": 12.56553,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Copenhagen",
+   "state": null,
    "country": "Denmark",
-   "facility": "Rigshospitalet",
+   "status": null,
    "lat": 55.67594,
-   "lon": 12.56553,
-   "state": null,
-   "status": null
+   "lon": 12.56553
   },
   {
-   "city": "Frederiksberg",
+   "facility": "Rigshospitalet",
+   "city": "Copenhagen",
+   "state": null,
    "country": "Denmark",
+   "status": null,
+   "lat": 55.67594,
+   "lon": 12.56553
+  },
+  {
    "facility": "Frederiksberg Hospital",
+   "city": "Frederiksberg",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
    "lat": 55.67938,
-   "lon": 12.53463,
-   "state": null,
-   "status": null
+   "lon": 12.53463
   },
   {
-   "city": "Gentofte Municipality",
-   "country": "Denmark",
    "facility": "Gentofte Sygehus",
-   "lat": 55.74903,
-   "lon": 12.54601,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Gentofte Municipality",
+   "state": null,
    "country": "Denmark",
-   "facility": "Steno Diabetes Center",
+   "status": null,
    "lat": 55.74903,
-   "lon": 12.54601,
-   "state": null,
-   "status": null
+   "lon": 12.54601
   },
   {
-   "city": "Herlev",
+   "facility": "Steno Diabetes Center",
+   "city": "Gentofte Municipality",
+   "state": null,
    "country": "Denmark",
+   "status": null,
+   "lat": 55.74903,
+   "lon": 12.54601
+  },
+  {
    "facility": "Herlev Hospital",
+   "city": "Herlev",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
    "lat": 55.72366,
-   "lon": 12.43998,
-   "state": null,
-   "status": null
+   "lon": 12.43998
   },
   {
-   "city": "Hillerød",
-   "country": "Denmark",
    "facility": "Hillerod Sygehus",
+   "city": "Hillerød",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
    "lat": 55.92791,
-   "lon": 12.30081,
-   "state": null,
-   "status": null
+   "lon": 12.30081
   },
   {
-   "city": "Hvidovre",
-   "country": "Denmark",
    "facility": "Hvidovre Hospital",
-   "lat": 55.64297,
-   "lon": 12.47708,
+   "city": "Hvidovre",
    "state": null,
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.64297,
+   "lon": 12.47708
   },
   {
-   "city": "Køge",
-   "country": "Denmark",
    "facility": "Køge Sygehus",
-   "lat": 55.45802,
-   "lon": 12.18214,
+   "city": "Køge",
    "state": null,
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.45802,
+   "lon": 12.18214
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00657943",

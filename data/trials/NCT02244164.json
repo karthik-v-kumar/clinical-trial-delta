@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "PREVENTION",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Erasme University Hospital"
+  "name": "Erasme University Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -50,48 +50,48 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Incretinomimetics",
    "other_names": [
     "- exenatide (Byetta®)",
     "- liraglutide (Victoza®)",
     "- lixisenatide (Lyxumia®)",
     "- exenatide extended-release (Bydureon®)."
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "DPP-4 inhibitors",
    "other_names": [
     "- sitagliptine (Januvia®)",
     "- vildagliptine (Galvus®)",
     "- saxagliptine (Onglyza®)",
     "- linagliptine (Trajenta®)."
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Sulfonylurea",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Incretinomimetics",
     "Drug: DPP-4 inhibitors"
-   ],
-   "label": "Sulfonylurea",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Incretinomimectics",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: DPP-4 inhibitors"
-   ],
-   "label": "Incretinomimectics",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "DPP-4 inhibitors",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Incretinomimetics"
-   ],
-   "label": "DPP-4 inhibitors",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "Incretinomimetics and inhibitors of dipeptidyl peptidase-4 (DPP-4) are new treatments for diabetes. Previous retrospective studies have shown that these treatments induced an increase in pancreatic mass with potentially a risk for pancreatitis and development of precancerous lesions.\n\nThe aim of our study is to provide a better understanding of the pathophysiological mechanisms of increased volume and / or pancreatic exocrine secretion when exposed to certain treatment of type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes inadequately controlled or intolerant to metformin\n* Obtaining informed consent\n* Aged between 18 and 70 years\n* BMI between 20 and 45 kg / m²\n\nExclusion Criteria:\n\n* Contraindication to nuclear magnetic resonance (NMR):\n* Carrying a metallic foreign body (pacemaker, valve, intraocular equipment, clips)\n* Allergy to Gadolinium / Secretin\n* Pregnancy or breastfeeding\n* Contraindication to treatment with incretinomimetic:\n* Hypersensitivity to the active substance or to any of the excipients\n* Severe Gastroparesis\n* Severe renal impairment\n* History of Surgery (gastroduodenal, pancreatic or ileocecal)\n* Presence or history of pancreatic disease\n* Active alcoholism",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "city": "Brussels",
-   "country": "Belgium",
    "facility": "Gastroenterology Department Erasme Hospital",
-   "lat": 50.85045,
-   "lon": 4.34878,
+   "city": "Brussels",
    "state": null,
-   "status": null
+   "country": "Belgium",
+   "status": null,
+   "lat": 50.85045,
+   "lon": 4.34878
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02244164",

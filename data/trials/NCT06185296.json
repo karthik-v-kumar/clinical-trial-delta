@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Aalborg University Hospital"
+  "name": "Aalborg University Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "Novo Nordisk A/S",
@@ -51,35 +51,35 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Intelligent telemonitoring",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Telemonitoring",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Intelligent telemonitoring",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Intelligent telemonitoring"
-   ],
-   "label": "Intelligent telemonitoring",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Telemonitoring",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Telemonitoring"
-   ],
-   "label": "Telemonitoring",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Usual care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "The trial is an open-label, randomized controlled trial. Patients with T2D on insulin therapy will be randomized to an intelligent telemonitoring group (intervention), a telemonitoring group (control), and a usual care group (control). Both the intelligent telemonitoring group and the telemonitoring group will use various devices at home. Hospital staff will monitor their data for three months. In the intelligent telemonitoring group, hospital staff and participants will be supported by decision-support algorithms in the management of insulin treatment.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults ≥ 18 years.\n* Diagnosis of T2D for at least 12 months prior to the day of screening.\n* Patients who are being treated with insulin or about to start insulin treatment (insulin naïve) willing to travel to trial site in North Denmark to attend in-person visits.\n* Have internet at home, have MitID, and willingness to use a smartphone and the other devices used in the trial\n* Signed informed consent.\n* Ability to understand and read Danish.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding.\n* Major surgery is planned during the trial period.\n* Cancer diagnosis within five years prior to inclusion.\n* Participation in other interventional trials.\n* Limited literacy affecting the use of trial devices.\n* Patient who has worn a CGM monitor less than 6 months prior to the trial.\n* Terms that, in the opinion of the sub-investigator or investigator, render the participant unfit to conduct the trial, including lack of understanding of the trial or lack of physical or cognitive ability to participate.\n* Patients treated with mixed insulin.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "city": "Aalborg",
-   "country": "Denmark",
    "facility": "Department of Endocrinology",
-   "lat": 57.048,
-   "lon": 9.9187,
+   "city": "Aalborg",
    "state": "North Jutland",
-   "status": "RECRUITING"
+   "country": "Denmark",
+   "status": "RECRUITING",
+   "lat": 57.048,
+   "lon": 9.9187
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06185296",

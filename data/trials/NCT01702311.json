@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2014-08-01",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Emory University"
+  "name": "Emory University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,25 +48,25 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Bedtime insulin Aspart (Novolog)",
    "other_names": [
     "Aspart (Novolog)"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Bedtime supplementation",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Bedtime insulin Aspart (Novolog)"
-   ],
-   "label": "Bedtime supplementation",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "no bedtime supplementation",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "Capillary point-of-care (POC) testing is advocated as a valuable aid in the management of diabetes and hyperglycemia in the hospital setting. POC testing aims at collecting information on BG levels at different time points during the day in order to assess glycemic control and to guide insulin adjustment/correction doses. Although POC testing provides insights into day-to-day excursions in BG levels, bedtime BG testing triggers the use of insulin supplements that may result in increased frequency of hypoglycemia and is expensive with an estimated annual cost in hospitals of several hundreds of millions of dollars in the U.S. Accordingly, this pilot study aims to assess the utility of POC and insulin supplementation (correction doses) at bedtime in improving glycemic control and in preventing hypoglycemia in non-ICU patients with type 2 diabetes mellitus (T2DM). A total of 250 non-ICU medical and surgical patients treated with basal bolus regimen will undergo POC testing before meals and bedtime (standard of care) and half of the patients will receive insulin correction doses at bedtime for BG \\> 140 mg/dL following a sliding scale protocol, while the other half will be followed without insulin supplementation at bedtime except for extreme hyperglycemia (BG \\> 350 mg/dl). Patients will be recruited at Emory University Hospital and Grady Memorial Hospital.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male and female patients with a known history of T2DM for \\> 3 months\n2. Age 18-80 years\n3. Home treatment with either diet alone, any combination of oral antidiabetic agents, non-insulin injectables or insulin therapy\n4. BG \\> 140 mg and \\< 400 mg/dL without laboratory evidence of diabetic ketoacidosis\n\nExclusion Criteria:\n\n1. Hyperglycemia without a history of diabetes\n2. Acute critical illness admitted to the ICU or expected to require ICU admission\n3. Receiving continuous insulin infusion\n4. Clinically relevant hepatic disease\n5. Patients on corticosteroid therapy\n6. Patients with creatinine ≥ 3.5 mg/dl\n7. Subjects unable to sign consent\n8. Pregnancy",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,22 +89,22 @@
  },
  "sites": [
   {
-   "city": "Atlanta",
-   "country": "United States",
    "facility": "Emory University Hospital",
-   "lat": 33.749,
-   "lon": -84.38798,
+   "city": "Atlanta",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.749,
+   "lon": -84.38798
   },
   {
-   "city": "Atlanta",
-   "country": "United States",
    "facility": "Grady Memorial Hospital",
-   "lat": 33.749,
-   "lon": -84.38798,
+   "city": "Atlanta",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.749,
+   "lon": -84.38798
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01702311",

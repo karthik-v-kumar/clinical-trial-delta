@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2017-12-18",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "NuSirt Biopharma"
+  "name": "NuSirt Biopharma",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,62 +53,62 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Low Metformin",
    "other_names": [
     "Metformin, L-Leucince, Leucine"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Mid Metformin",
    "other_names": [
     "Metformin, Leucine, L-Leucine"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "High Metformin",
    "other_names": [
     "Metformin, Leucine, L-Leucine"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Metformin, Leucine, L-Leucine"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Low Metformin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Low Metformin"
-   ],
-   "label": "Low Metformin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Mid Metformin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Mid Metformin"
-   ],
-   "label": "Mid Metformin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "High Metformin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: High Metformin"
-   ],
-   "label": "High Metformin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Metformin Monotherapy",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ],
-   "label": "Metformin Monotherapy",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "Study NS-0100-01E is an extension of Study NS-01-0100 designed to assess safety and longer term effect (i.e., additional 8 weeks) of various fixed-dose leucine and metformin combinations (NS-0100) versus standard metformin monotherapy on glycemic control in subjects with type 2 diabetes using HbA1c as the primary endpoint.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Has completed Study NS-0100-01, including all procedures required at Study Termination (Day 28/Visit 7) without major protocol deviations\n2. Is male, or female and, if female, meets all of the following criteria:\n\n   * Not breastfeeding\n   * Post-menopausal or negative pregnancy test result (human chorionic gonadotropin, beta subunit \\[β-hCG\\]) at Screening (Visit 1) (not required for hysterectomized females)\n   * If of childbearing potential (including perimenopausal women who have had a menstrual period within one year) and sexually active, must practice and be willing to continue to practice appropriate birth control (defined as a method which results in a low failure rate, i.e., less than 1% per year, when used consistently and correctly, such as double barrier methods \\[male condom with spermicide, with or without cervical cap or diaphragm\\], implants, injectables, oral contraceptives \\[must have been using for at least the last 3 months\\], some intrauterine contraceptive devices, tubal ligation, or a vasectomized partner) during the entire duration of the study.\n3. Is able to read, understand, and sign the informed consent forms (ICF) and if applicable, an authorization to use and disclose protected health information form (consistent with health insurance portability and accountability act of 1996 \\[HIPAA\\] legislation), communicate with the investigator, and understand and comply with protocol requirements.\n\nExclusion Criteria:\n\nSubjects who meet any of the following criteria will be excluded from the study.\n\n1. Is undesirable as a study participant as judged by the investigator (e.g., exhibited poor compliance during Study NS-0100-01)\n2. Is expected to require treatment, or if currently on a stable dose, changes to their regimen of the following medications:\n\n   * Lipid-lowering agents\n   * Anti-hypertensive medications\n   * Thyroid replacement therapy\n   * Non-steroidal anti-inflammatory agents\n3. Is expected to require or undergo treatment with any of the following medications:\n\n   * Antidiabetes medications (with the exception of study medication \\[i.e., metformin\\])\n   * Oral or parenteral steroids.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,85 +131,85 @@
  },
  "sites": [
   {
-   "city": "Chino",
-   "country": "United States",
    "facility": "Catalina Research Institute",
-   "lat": 34.01223,
-   "lon": -117.68894,
+   "city": "Chino",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.01223,
+   "lon": -117.68894
   },
   {
-   "city": "Palm Beach",
-   "country": "United States",
    "facility": "Palm Beach Research",
+   "city": "Palm Beach",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.70562,
-   "lon": -80.03643,
-   "state": "Florida",
-   "status": null
+   "lon": -80.03643
   },
   {
-   "city": "Tampa",
-   "country": "United States",
    "facility": "Meridien Research",
-   "lat": 27.94752,
-   "lon": -82.45843,
+   "city": "Tampa",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 27.94752,
+   "lon": -82.45843
   },
   {
-   "city": "Blue Ridge",
-   "country": "United States",
    "facility": "River Birch Research Alliance",
+   "city": "Blue Ridge",
+   "state": "Georgia",
+   "country": "United States",
+   "status": null,
    "lat": 34.86397,
-   "lon": -84.32409,
-   "state": "Georgia",
-   "status": null
+   "lon": -84.32409
   },
   {
-   "city": "Savannah",
-   "country": "United States",
    "facility": "Meridian Research",
-   "lat": 32.08354,
-   "lon": -81.09983,
+   "city": "Savannah",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.08354,
+   "lon": -81.09983
   },
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "Streling Research Group",
-   "lat": 39.12711,
-   "lon": -84.51439,
+   "city": "Cincinnati",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
   },
   {
-   "city": "Charleston",
-   "country": "United States",
    "facility": "Medical Research South",
-   "lat": 32.77632,
-   "lon": -79.93275,
+   "city": "Charleston",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.77632,
+   "lon": -79.93275
   },
   {
-   "city": "Nashville",
-   "country": "United States",
    "facility": "Meharry Medical College",
-   "lat": 36.16589,
-   "lon": -86.78444,
+   "city": "Nashville",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.16589,
+   "lon": -86.78444
   },
   {
-   "city": "Nashville",
-   "country": "United States",
    "facility": "Vanderbilt University Medical Center, Diabetes, Endocrinology, and Metabolism",
-   "lat": 36.16589,
-   "lon": -86.78444,
+   "city": "Nashville",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.16589,
+   "lon": -86.78444
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02435277",

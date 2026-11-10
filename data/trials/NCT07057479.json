@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eurofarma Laboratorios S.A."
+  "name": "Eurofarma Laboratorios S.A.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,50 +53,50 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Fixed-dose combination of SGLT2 inhibitor and thiazolidinedione",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Control Group 1 Intervention - SGLT2 inhibitor monotherapy",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Control Group 2 Intervention - Thiazolidinedione monotherapy",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Background Therapy (All Groups) - Metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Fixed-Dose Combination of SGLT2i /TZD + Metformin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Fixed-dose combination of SGLT2 inhibitor and thiazolidinedione",
     "Drug: Background Therapy (All Groups) - Metformin"
-   ],
-   "label": "Fixed-Dose Combination of SGLT2i /TZD + Metformin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Control Group 1 - SGLT2 Inhibitor + Metformin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Control Group 1 Intervention - SGLT2 inhibitor monotherapy",
     "Drug: Background Therapy (All Groups) - Metformin"
-   ],
-   "label": "Control Group 1 - SGLT2 Inhibitor + Metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Control Group 2 - Thiazolidinedione + Metformin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Control Group 2 Intervention - Thiazolidinedione monotherapy",
     "Drug: Background Therapy (All Groups) - Metformin"
-   ],
-   "label": "Control Group 2 - Thiazolidinedione + Metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -108,10 +108,10 @@
  "brief_summary": "This clinical trial is studying whether combining two commonly used diabetes medications into a single pill works better than taking them separately for people with type 2 diabetes who are already on metformin. Both medications work in different ways to lower blood sugar - one helps remove excess sugar through urine while the other helps the body use insulin better.\n\nThe study has two main goals:\n\nTo see if the combined pill controls blood sugar more effectively than either medication alone\n\nTo check if combining them reduces common side effects like weight gain and swelling that can occur with one of the medications\n\nParticipants will be randomly assigned to one of three groups:\n\nThe new combination pill\n\nOne of the standard diabetes medications alone\n\nThe other standard diabetes medication alone\n\nAll participants will take their assigned treatment daily and attend regular clinic visits for monitoring. Doctors will track blood sugar control, weight changes, and any side effects throughout the study period.\n\nThis research could lead to a simpler treatment option that combines the benefits of both medications while potentially minimizing side effects. For people with diabetes who often need multiple medications, a combined pill might make treatment easier to manage while providing better blood sugar control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Signed informed consent form\n* Age ≥18 years\n* Diagnosis of type 2 diabetes (T2DM)\n* HbA1c 7.5-10% while on stable metformin monotherapy (≥1000 mg/day) for ≥12 weeks\n* ≥80% adherence to run-in medication\n\nExclusion Criteria:\n\n* Type 1 diabetes or other specific diabetes types (e.g., monogenic, pancreatic, or drug-induced)\n* Severe hyperglycemia (≥270 mg/dL) or diabetic ketoacidosis in past 12 weeks\n* Hypersensitivity to study drugs or excipients\n* Pregnancy, lactation, or planning pregnancy\n* Severe diabetic complications (proliferative retinopathy, severe neuropathy)\n* Major cardiovascular events in past 12 weeks (e.g., myocardial infarction, heart failure NYHA III/IV)\n* Uncontrolled hypertension (SBP \\>180 mmHg or DBP \\>110 mmHg)\n* Moderate/severe renal impairment (eGFR \\<45 mL/min/1.73m²)\n* Liver disease (cirrhosis, active hepatitis)\n* History of malignancy (except treated skin cancers) in past 5 years\n* Use of non-metformin antidiabetics or weight-loss drugs in past 12 weeks",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,13 +119,13 @@
  },
  "sites": [
   {
-   "city": "Itapevi",
-   "country": "Brazil",
    "facility": "Eurofarma Laboratórios S.A",
-   "lat": -23.54889,
-   "lon": -46.93417,
+   "city": "Itapevi",
    "state": "São Paulo",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -23.54889,
+   "lon": -46.93417
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07057479",

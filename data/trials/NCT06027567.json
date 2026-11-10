@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Rigmor Højland Jensen"
+  "name": "Rigmor Højland Jensen",
+  "class": "OTHER"
  },
  "collaborators": [
   "Copenhagen University Hospital, Rigshospitalet",
@@ -57,39 +57,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "Ozempic, Wegovy"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "Very Low Calorie Diet",
-   "other_names": [],
-   "type": "DIETARY_SUPPLEMENT"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Dietician counselling",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Semaglutide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide",
     "Dietary Supplement: Very Low Calorie Diet",
     "Behavioral: Dietician counselling"
-   ],
-   "label": "Semaglutide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Standard care (dietician)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Dietician counselling"
-   ],
-   "label": "Standard care (dietician)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "50 patients with verified new-onset Idiopathic Intracranial Hypertension are randomly allocated to standard weight management (dietician counselling) or trial intervention consisting of subcutaneous injections with Semaglutide for 10 months combined, in the initial 8 weeks following diagnosis, with a Very Low Calorie-Diet (max 800 kcal/day)",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Confirmed new onset definite IIH with papilledema and lumbar opening pressure ≥25 cm cerebrospinal fluid according to Friedmann diagnostic criteria\n* BMI ≥ 27\n* Use of contraceptive methods with failure rates of less than 1 % throughout the study period for group A and for at least an additional 2 months after cessation of Semaglutide\n* Written, informed consent\n\nExclusion Criteria:\n\n* Unable to provide written informed consent or participate\n* Malignant IIH with visual threat that requires surgical intervention, i.e., cerebrospinal fluid diversion (shunting), optic nerve sheet fenestration or cerebral venous sinus stenting\n* Pregnancy or breastfeeding\n* Treatment with antidiabetics, blood-thinners or medication that may increase the risk of adverse events\n* Diabetes, congestive heart failure, severe vascular disease, pancreatitis, severe ophthalmological disorders other than IIH (e.g. retinopathy)\n* History or family history of thyroid carcinomas or Multiple Endocrine Neoplasias (MEN1/MEN2)\n* History of bariatric surgery\n* Known hypersensitivity to any contents of Semaglutide®\n* Other severe/uncontrolled mental or physical disease",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "FEMALE",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,22 +120,22 @@
  },
  "sites": [
   {
-   "city": "Glostrup Municipality",
-   "country": "Denmark",
    "facility": "Danish Headache Center, Department of Neurology, Rigshospitalet",
-   "lat": 55.6666,
-   "lon": 12.40377,
+   "city": "Glostrup Municipality",
    "state": null,
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.6666,
+   "lon": 12.40377
   },
   {
-   "city": "Odense",
-   "country": "Denmark",
    "facility": "Headache clinic, Department of Neurology, Odense University Hospital",
-   "lat": 55.39594,
-   "lon": 10.38831,
+   "city": "Odense",
    "state": "Odense",
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.39594,
+   "lon": 10.38831
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06027567",

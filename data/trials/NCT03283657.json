@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Northwestern University"
+  "name": "Northwestern University",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -56,30 +56,30 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "DiRECT",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Usual care (UC)",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "DiRECT",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: DiRECT"
-   ],
-   "label": "DiRECT",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Usual Care (UC)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Usual care (UC)"
-   ],
-   "label": "Usual Care (UC)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "A large body of research has demonstrated that intensive lifestyle interventions and metformin are effective treatments to prevent or delay diabetes among high-risk adults, yet neither treatment is routinely used in practice. This pilot study will develop and evaluate the Diabetes Risk Education and Communication Trial (DiRECT) intervention, which communicates information about diabetes risk and treatment options for preventing diabetes among primary care patients with prediabetes. Given that 38% of U.S. adults have prediabetes, this project has large potential to impact public health by developing a scalable intervention to promote the use of evidence-based treatments that lower diabetes risk in this population.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Overweight or obesity\n* documentation of prediabetes in medical chart or\n* A1c 5.7-6.4\n\nExclusion Criteria:\n\n* Age \\< 18; individuals who are not yet adults (infants, children, teenagers)\n* Patient's primary care physician did not provide permission to participate in the study\n* Pregnancy status: current or planned pregnancy during study period\n* Serum creatinine \\>1.4mg/dL in women and \\>1.5mg/dL in men\n* Patients that are blind, deaf, or otherwise unable to review study materials\n* Prior diagnosis of diabetes mellitus type 1 or type 2 or on antidiabetic medication\n* Diagnosis of post-surgical hypoinsulinemia\n* Diagnosis of dementia\n* Uncontrolled hypertension (≥160/100 mm Hg)\n* No office visit in past 12 months",
-  "healthy_volunteers": true,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "city": "Chicago",
-   "country": "United States",
    "facility": "Northwestern University",
-   "lat": 41.85003,
-   "lon": -87.65005,
+   "city": "Chicago",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.85003,
+   "lon": -87.65005
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03283657",

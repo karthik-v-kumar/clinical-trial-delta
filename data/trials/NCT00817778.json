@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2012-11-16",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "AZD1656",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "AZD1656",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD1656"
-   ],
-   "label": "AZD1656",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "The purpose of this study is to assess the 1 month safety and tolerability after multiple oral doses of AZD1656 in patients with Type 2 Diabetes Mellitus Treated with Metformin",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or women of non-childbearing potential (postmenopausal, and/or have undergone hysterectomy and/or bilateral oophorectomy or salpingectomy/ tubal ligation)\n* Ongoing treatment with metformin on a stable dose of ≥ 1500 mg/day for at least 8 weeks prior to randomisation\n* HbA1c ≤ 10% at enrolment (HbA1c value according to international Diabetes Control and Complications Trial \\[DCCT\\] standard)\n\nExclusion Criteria:\n\n* History of ischemic heart disease, symptomatic heart failure, stroke, transitory ischemic attack or symptomatic peripheral vascular disease\n* Clinically significant abnormalities in ECG, clinical chemistry, haematology, or urine analysis results. Positive test for Hepatitis B surface antigen or antibodies to human immunodeficiency virus (HIV) or antibodies to Hepatitis C virus",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Research Site",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00817778",

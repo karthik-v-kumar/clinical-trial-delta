@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Catholic University of Pelotas"
+  "name": "Catholic University of Pelotas",
+  "class": "OTHER"
  },
  "collaborators": [
   "Federal University of Health Science of Porto Alegre",
@@ -55,23 +55,23 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "Educational Intervention via Telemedicine",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Telemedicine Education Group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Educational Intervention via Telemedicine"
-   ],
-   "label": "Telemedicine Education Group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Routine Clinical Practice Group",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "This clinical trial aims to evaluate whether a structured medical education strategy can improve the quality of care provided to hospitalized patients with diabetes or hyperglycemia. Internal medicine residents from four university hospitals in southern Brazil are assigned to two groups: an intervention group receiving a 30-minute online lecture and 30 days of educational follow-up via WhatsApp®, and a control group receiving no additional training.\n\nThe primary goal is to assess changes in physicians' knowledge about inpatient glycemic control. Secondary goals include evaluating the quality of insulin prescriptions, rates of hyperglycemia and hypoglycemia, and hospital length of stay.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Internal medicine residents from clinical teams at the participating university hospitals in southern Brazil.\n* Residents assigned to clinical teams during the intervention month.\n* Provided informed consent to participate in the study.\n\nExclusion Criteria:\n\n* Residents on vacation during the intervention month.\n* Residents from teams supervised by endocrinologists.\n* Refusal to participate in the study.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "city": "Pelotas",
-   "country": "Brazil",
    "facility": "Catholic University of Pelotas",
-   "lat": -31.76997,
-   "lon": -52.34101,
+   "city": "Pelotas",
    "state": "Rio Grande do Sul",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -31.76997,
+   "lon": -52.34101
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07108426",

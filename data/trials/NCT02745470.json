@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "SINGLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Seoul National University Hospital"
+  "name": "Seoul National University Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "Seoul National University"
@@ -52,34 +52,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Lixisenatide",
    "other_names": [
     "Lyxumia® pen injection"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "OTHER",
    "name": "Placebo",
    "other_names": [
     "Normal saline injection"
-   ],
-   "type": "OTHER"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Lixisenatide injection",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Lixisenatide"
-   ],
-   "label": "Lixisenatide injection",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Normal saline",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ],
-   "label": "Normal saline",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "The aims this study is to explore the effect of a GLP-1 receptor agonist on the degree of brain activation and connectivity obtained by functional magnetic resonance imaging in lean and obese type 2 diabetes",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI ≤ 23kg/m2 or BMI ≥ 26kg/m2\n* participants with diabetes treated by diet or oral antidiabetic drug, HbA1c less than 8.5%\n\nExclusion Criteria:\n\n* Those who diagnosed by Type 1 diabetes\n* History of insulin therapy\n* Aspartate aminotransferase(AST) or Alanine transaminase(ALT) \\>2.5 times of upper normal reference range\n* Estimated Glomerular Filtration Rate(eGFR) \\<30 mL/min/1.73m2\n* Those who can't be performed MRI",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Seoul National University Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02745470",

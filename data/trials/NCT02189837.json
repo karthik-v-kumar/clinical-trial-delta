@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2016-08-31",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Amgen"
+  "name": "Amgen",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,63 +52,63 @@
  ],
  "interventions": [
   {
+   "type": "BIOLOGICAL",
    "name": "Evolocumab",
    "other_names": [
     "AMG 145",
     "Repatha"
-   ],
-   "type": "BIOLOGICAL"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "LIPITOR®"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo to Evolocumab",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo to Atorvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to Evolocumab",
     "Drug: Placebo to Atorvastatin"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Atorvastatin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin",
     "Drug: Placebo to Evolocumab"
-   ],
-   "label": "Atorvastatin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Evolocumab",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: Evolocumab",
     "Drug: Placebo to Atorvastatin"
-   ],
-   "label": "Evolocumab",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Evolocumab and Atorvastatin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: Evolocumab",
     "Drug: Atorvastatin"
-   ],
-   "label": "Evolocumab and Atorvastatin",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "This is a randomized, double-blind, placebo-controlled trial to evaluate the effect of evolocumab, atorvastatin, and combination therapy on lipoprotein kinetics.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Fasting LDL-C at screening ≥ 100 mg/dL and ≤ 190 mg/dL\n* Fasting triglycerides ≤ 150 mg/dL\n* Body mass index (BMI) between 18.0 and 32.0 kg/m\\^2\n* Framingham cardiac risk score 10% or less\n\nExclusion Criteria:\n\n* Treatment with a lipid-regulating drug or over the counter supplement in the last 3 months prior to screening\n* History of coronary heart disease (CHD) or CHD equivalent\n* Uncontrolled hypertension\n* Diabetes mellitus",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "MALE",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,22 +131,22 @@
  },
  "sites": [
   {
-   "city": "Adelaide",
-   "country": "Australia",
    "facility": "Research Site",
-   "lat": -34.92866,
-   "lon": 138.59863,
+   "city": "Adelaide",
    "state": "South Australia",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -34.92866,
+   "lon": 138.59863
   },
   {
-   "city": "Nedlands",
-   "country": "Australia",
    "facility": "Research Site",
-   "lat": -31.98184,
-   "lon": 115.8073,
+   "city": "Nedlands",
    "state": "Western Australia",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -31.98184,
+   "lon": 115.8073
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02189837",

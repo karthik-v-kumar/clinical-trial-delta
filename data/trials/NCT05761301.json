@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Alnylam Pharmaceuticals"
+  "name": "Alnylam Pharmaceuticals",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,44 +53,44 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "ALN-KHK",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: ALN-KHK"
-   ],
    "label": "Part A: ALN-KHK",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Placebo"
-   ],
-   "label": "Part A: Placebo",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ALN-KHK"
-   ],
-   "label": "Part B: ALN-KHK",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Part A: Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
+   ]
+  },
+  {
+   "label": "Part B: ALN-KHK",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: ALN-KHK"
+   ]
+  },
+  {
    "label": "Part B: Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "To evaluate the safety, tolerability, pharmacokinetics (PK) and pharmacodynamics (PD) of single ascending doses of ALN-KHK and to evaluate the safety, tolerability, efficacy, PK and PD of multiple doses of KHK.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Stable euthyroid status (no known changes in thyroid function; stable hormone replacement for at least 4 months) at screening\n* Part A: body mass index (BMI) ≥27 kg/m\\^2 and ≤34.9 kg/m\\^2\n* Part B: BMI ≥30 kg/m\\^2 to ≤39.9 kg/m\\^2, confirmed diagnosis of T2DM, and an HbA1c ≥7.5% to \\<10%\n* Part B: Confirmed T2DM diagnosis\n\nExclusion Criteria:\n\n* Parts A and B: has received an investigational agent within the last 30 days\n* Part A: History of Type 1 or Type 2 diabetes\n* Part B: History of Type 1 diabetes",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,139 +117,139 @@
  },
  "sites": [
   {
+   "facility": "Clinical Trial Site",
    "city": "Toronto",
-   "country": "Canada",
-   "facility": "Clinical Trial Site",
-   "lat": 43.65333,
-   "lon": -79.38389,
    "state": null,
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Sarnia",
-   "country": "Canada",
-   "facility": "Clinical Trial Site",
-   "lat": 42.97866,
-   "lon": -82.40407,
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 42.97866,
+   "lon": -82.40407
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Montreal",
+   "state": "Quebec",
    "country": "Canada",
-   "facility": "Clinical Trial Site",
+   "status": null,
    "lat": 45.50884,
-   "lon": -73.58781,
-   "state": "Quebec",
-   "status": null
+   "lon": -73.58781
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Victoriaville",
-   "country": "Canada",
-   "facility": "Clinical Trial Site",
-   "lat": 46.05007,
-   "lon": -71.96579,
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 46.05007,
+   "lon": -71.96579
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Phoenix",
-   "country": "United States",
-   "facility": "Clinical Trial Site",
-   "lat": 33.44838,
-   "lon": -112.07404,
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.44838,
+   "lon": -112.07404
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Vista",
-   "country": "United States",
-   "facility": "Clinical Trial Site",
-   "lat": 33.20004,
-   "lon": -117.24254,
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.20004,
+   "lon": -117.24254
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Lake Worth",
+   "state": "Florida",
    "country": "United States",
-   "facility": "Clinical Trial Site",
+   "status": null,
    "lat": 26.61708,
-   "lon": -80.07231,
-   "state": "Florida",
-   "status": null
+   "lon": -80.07231
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Orlando",
-   "country": "United States",
-   "facility": "Clinical Trial Site",
-   "lat": 28.53834,
-   "lon": -81.37924,
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 28.53834,
+   "lon": -81.37924
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Atlanta",
-   "country": "United States",
-   "facility": "Clinical Trial Site",
-   "lat": 33.749,
-   "lon": -84.38798,
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.749,
+   "lon": -84.38798
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Berlin",
-   "country": "United States",
-   "facility": "Clinical Trial Site",
-   "lat": 39.79123,
-   "lon": -74.92905,
    "state": "New Jersey",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.79123,
+   "lon": -74.92905
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Monroe",
-   "country": "United States",
-   "facility": "Clinical Trial Site",
-   "lat": 34.98543,
-   "lon": -80.54951,
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.98543,
+   "lon": -80.54951
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Oklahoma City",
-   "country": "United States",
-   "facility": "Clinical Trial Site",
-   "lat": 35.46756,
-   "lon": -97.51643,
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.46756,
+   "lon": -97.51643
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
-   "facility": "Clinical Trial Site",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
+   "facility": "Clinical Trial Site",
    "city": "Houston",
-   "country": "United States",
-   "facility": "Clinical Trial Site",
-   "lat": 29.76328,
-   "lon": -95.36327,
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Clinical Trial Site",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05761301",

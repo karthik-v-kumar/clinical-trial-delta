@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Suzhou Sanegene Bio Inc."
+  "name": "Suzhou Sanegene Bio Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,65 +53,65 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "SGB-3403",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Atorvastatin",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: SGB-3403"
-   ],
    "label": "SGB-3403(SAD)",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Other: Placebo"
-   ],
-   "label": "placebo(SAD)",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: SGB-3403"
-   ],
-   "label": "SGB-3403(Non-Statin MAD)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "placebo(SAD)",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ],
-   "label": "placebo(Non-Statin MAD)",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "SGB-3403(Non-Statin MAD)",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: SGB-3403"
+   ]
+  },
+  {
+   "label": "placebo(Non-Statin MAD)",
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Other: Placebo"
+   ]
+  },
+  {
+   "label": "SGB-3403 and atorvastatin(statin MAD)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: SGB-3403",
     "Other: Atorvastatin"
-   ],
-   "label": "SGB-3403 and atorvastatin(statin MAD)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "placebo and atorvastatin(statin MAD)",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Atorvastatin",
     "Other: Placebo"
-   ],
-   "label": "placebo and atorvastatin(statin MAD)",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -135,10 +135,10 @@
  "brief_summary": "This study is a randomized, double-blind, placebo-controlled, single ascending dose (SAD) and multiple ascending doses (MAD) of SGB-3403 when single administered subcutaneously to healthy volunteers and multiple administered subcutaneously to subjects with elevated LDL-C to evaluate the safety, tolerance, PK, and PD.",
  "eligibility": {
   "criteria": "Inclusion Criteria in SAD:\n\n* Male and female subjects aged 18 to 55 years are included.\n* Body mass index between 19 and 32 kg/m2, inclusive.\n* Physical examination, vital signs, 12-lead electrocardiogram, and laboratory tests will be normal or slightly abnormal but not clinically significant according to the Investigator's judgment.\n* Willing to comply with the protocol required visit schedule and visit requirements and provide written informed consent.\n\nExclusion Criteria in SAD:\n\n* An underlying known disease or surgical or medical condition that, in the opinion of the Investigator, might interfere with the interpretation of the clinical study results.\n* The positive result of hepatitis B surface antigen (HBsAg), hepatitis C virus antibody (HCV Ab), human immunodeficiency virus (HIV) antibody, or syphilis at screening.\n* Alanine aminotransferase (ALT), total bilirubin (TBIL), aspartate aminotransferase (AST), alkaline phosphatase (ALP), or gamma-glutamyl transferase (GGT) \\> 1.5 × ULN (upper limit of normal).\n* Serum creatinine exceeds the upper limit of normal at screening.\n* History of multiple drug allergies or allergic reactions to an oligonucleotide or N acetylgalactosamine (GalNAc).\n* History of intolerance to subcutaneous (SC) injection or relevant abdominal scarring (surgical, burns, etc.)\n* Received an investigational agent within 28 days or 5 half-lives (whichever is longer) before the first dose of the study drug or are in another clinical study, received INCLISIRAN within 1 year.\n* Use any Chinese herbs, vitamins, or supplements known to affect lipid metabolism (e.g., fish oil \\> 1000 mg/ day, medicines, or health products containing red yeast rice) within 28 days before receiving the test drug.\n* Any conditions which, in the opinion of the Investigator, would make the subject unsuitable for enrollment or could interfere with the subject's participation in or completion of the study.\n\nInclusion Criteria in MAD:\n\n* Male and female subjects aged 18 to 65 years are included.\n* Body mass index between 19 and 35 kg/m2, inclusive.\n* Serum LDL-C ≥ 2.6mmol/L (≤ 100 mg/dL) and ≤ 4.9 mmol/L (≤ 190 mg/dL) at screening.\n* Fasting triglyceride \\< 4.52 mmol/L (\\< 400 mg/dL) at screening.",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

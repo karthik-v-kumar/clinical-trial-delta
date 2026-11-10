@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2019-10-11",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Tobira Therapeutics, Inc."
+  "name": "Tobira Therapeutics, Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Cenicriviroc 150 mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Cenicriviroc 150 mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Cenicriviroc 150 mg"
-   ],
-   "label": "Cenicriviroc 150 mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "A Phase 2a, randomized, double-blind, placebo-controlled, multi-center study of cenicriviroc (CVC) to be conducted in approximately 50 adult obese subjects \\[body mass index (BMI) ≥ 30 kg/m\\^2\\] with prediabetes or type 2 diabetes mellitus and suspected NALFD.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adult male and female subjects aged between 18-75 years\n* Obesity as defined by BMI ≥ 30 kg/m2\n* Evidence of prediabetes or type 2 diabetes mellitus based on Screening laboratory values with at least one of the following criteria:\n* Fasting plasma glucose (FPG) of 100 - 270 mg/dL (5.6 - 15.0 mmol/L)\n* Hemoglobin A1c (HbA1c) of 5.7 - 10.0%\n* Participants receiving metformin alone or in combination with a sulfonylurea (glimepiride, glipizide, glyburide, or gliclazide) must be on stable therapy for at least 90 days prior to Screening.\n* Suspected diagnosis of NAFLD warranting confirmation by liver biopsy\n* Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) ≤ 5 upper limit normal (ULN)\n* Ability to understand and sign a written informed consent form\n* Females of child-bearing potential and males participating in the study must agree to use at least 2 approved barrier methods of contraception throughout the duration of the study and for 3 months after stopping study drug. Females who are postmenopausal must have documentation of cessation of menses for ≥ 12 months and serum follicle stimulating hormone (FSH) ≥ 30 mU/mL\n* Participants receiving allowed concomitant medications need to be on stable therapy for 28 days prior to Baseline.\n\nExclusion Criteria:\n\n* Use of oral antihyperglycemic agents (OHAs) other than metformin or sulfonylureas, including but not limited to thiazolidinediones, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists, meglitinides, α-glucosidase inhibitors, colesevelam, bromocriptine, pramlintide or basal insulin within 90 days prior to Screening or anticipated use during the trial\n* Type 1 diabetes\n* Hepatitis B Surface Antigen (HBsAg) positive\n* Human Immunodeficiency Virus-1 (HIV-1) or Human Immunodeficiency Virsu-2 (HIV-2) infection\n* Hepatitis C Virus Antibody (HCVAb) positive\n* Prior or planned liver transplantation\n* Other known causes of chronic liver disease, including alcoholic liver disease\n* History of cirrhosis and/or hepatic decompensation including ascites, encephalopathy or variceal bleeding\n* Alcohol consumption greater than 14 units/week\n* Weight reduction through bariatric surgery or planned bariatric surgery during the conduct of the study (including gastric banding)\n* Any Grade ≥ 3 laboratory abnormality as defined by the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) Toxicity Grading Scale, except subjects with Grade ≥ 3 dyslipidemia with triglyceride or cholesterol elevations unless clinical assessment foresees an immediate health risk to the subject\n* Serum albumin \\< 3.5 g/dL\n* Serum creatinine levels ≥ 1.5 mg/dL for males or ≥ 1.4 mg/dL for females if participant is receiving metformin\n* Estimated glomerular filtration rate (eGFR) \\< 50 mL/min/1.73 m2 according to the Modification of Diet in Renal Disease (MDRD) equation\n* Platelet count \\< 100,000/mm3\n* Hemoglobin \\< 12 g/dL for males or \\< 11 g/dL for females\n* Females who are pregnant or breastfeeding\n* Receiving ongoing therapy with any disallowed medication at Screening\n* Allergy to the study drug or its components\n* Any other clinically significant disorders or prior therapy that, in the opinion of the investigator, would make the subject unsuitable for the study or unable to comply with the dosing and protocol requirements.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,31 +104,31 @@
  },
  "sites": [
   {
-   "city": "San Juan",
-   "country": "Puerto Rico",
    "facility": "Fundacion de Investigacion",
-   "lat": 18.46633,
-   "lon": -66.10572,
+   "city": "San Juan",
    "state": null,
-   "status": null
+   "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.46633,
+   "lon": -66.10572
   },
   {
-   "city": "Fort Sam Houston",
-   "country": "United States",
    "facility": "San Antonio Military Medical Center",
-   "lat": 29.45303,
-   "lon": -98.4417,
+   "city": "Fort Sam Houston",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.45303,
+   "lon": -98.4417
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Gastroenterology Consultants of San Antonio Digestive Research Center",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02330549",

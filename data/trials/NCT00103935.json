@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -53,58 +53,58 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Exenatide LAR",
    "other_names": [
     "Bydureon"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Exenatide LAR",
    "other_names": [
     "Bydureon"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: placebo"
-   ],
    "label": "Group A1",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ],
+   ]
+  },
+  {
    "label": "Group A2",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: placebo"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Exenatide LAR"
-   ],
    "label": "Group B",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Exenatide LAR"
-   ],
+   ]
+  },
+  {
    "label": "Group C",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Exenatide LAR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -116,10 +116,10 @@
  "brief_summary": "Exenatide LAR is a long-acting release formulation of exenatide, which is a twice-daily dosage form currently under investigation as a potential treatment for people with type 2 diabetes mellitus. This study will assess the safety, tolerability, and pharmacokinetics of Exenatide LAR administered weekly by subcutaneous injection in people with type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Has type 2 diabetes treated with either: \\*A stable regimen of metformin for a minimum of 3 months, and/or \\*Diet modification and exercise for a minimum of 3 months.\n* Has HbA1c of 7.1% to 11.0%, inclusive.\n* Has a body mass index (BMI) of 25 kg/m2 to 45 kg/m2, inclusive.\n\nExclusion Criteria:\n\n* Received any investigational drug within 3 months prior to screening.\n* Is currently treated with any of the following excluded medications: \\*Thiazolidinediones within 3 months of screening; \\* Sulfonylureas within 3 months of screening; \\* Insulin within 1 year of screening.\n* Participated previously in an exenatide clinical study.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -127,67 +127,67 @@
  },
  "sites": [
   {
+   "facility": "Research Site",
    "city": "Walnut Creek",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 37.90631,
-   "lon": -122.06496,
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.90631,
+   "lon": -122.06496
   },
   {
+   "facility": "Research Site",
    "city": "Honolulu",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 21.30694,
-   "lon": -157.85833,
    "state": "Hawaii",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
+   "facility": "Research Site",
    "city": "St Louis",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 38.62727,
-   "lon": -90.19789,
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
+   "facility": "Research Site",
    "city": "Butte",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 46.00382,
-   "lon": -112.53474,
    "state": "Montana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.00382,
+   "lon": -112.53474
   },
   {
+   "facility": "Research Site",
    "city": "Portland",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 45.52345,
-   "lon": -122.67621,
    "state": "Oregon",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 45.52345,
+   "lon": -122.67621
   },
   {
+   "facility": "Research Site",
    "city": "San Antonio",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 29.42412,
-   "lon": -98.49363,
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   },
   {
-   "city": "Olympia",
-   "country": "United States",
    "facility": "Research Site",
-   "lat": 47.04491,
-   "lon": -122.90169,
+   "city": "Olympia",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.04491,
+   "lon": -122.90169
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00103935",

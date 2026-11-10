@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "LifeScan"
+  "name": "LifeScan",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "DM-Standard",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Disease Management Plus",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "DM-Standard",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: DM-Standard"
-   ],
-   "label": "DM-Standard",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "DM-Plus",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Disease Management Plus"
-   ],
-   "label": "DM-Plus",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -84,23 +84,23 @@
  "brief_summary": "The primary objective of this study is to determine whether remote monitoring in diabetes management is more effective at helping patients manage their disease than a standard disease management program.",
  "eligibility": {
   "criteria": "Inclusion Criteria\n\n* Between 18 and 64 years of age as of January 1, 2008\n* Diagnosis of diabetes mellitus (listed ICD-9-CM diagnosis code on two or more outpatient claims, or on one or more inpatient admissions or emergency room claims in the most recent 12-month period)\n* Continuously enrolled in a health plan with pharmacy and medical benefits for the most recent 12-month period or with one period of non-enrollment up to only 30 days\n* Able to provide written informed consent for study participation\n\nExclusion Criteria\n\n* Advanced renal disease (one or more claims in the most recent 12-month period) as defined by a claim for nephropathy or creatinine greater than 2.5 mg/dl\n* Selected cancers (one or more claims in the most recent 12-month period)\n* HIV/AIDS (one or more claims in the most recent 12-month period)\n* Heart, liver, kidney, or multiple organ transplant (one or more claims in the most recent 12-month period)\n* Cirrhosis of the liver (one or more claims in the most recent 12-month period)\n* Current participation in another LifeScan study or other diabetes-related clinical trials\n* Medicare is primary source of insurance coverage\n* Unable to understand written and spoken English",
-  "healthy_volunteers": false,
-  "maximum_age": "64 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "64 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Marietta",
-   "country": "United States",
    "facility": null,
-   "lat": 33.9526,
-   "lon": -84.54993,
+   "city": "Marietta",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.9526,
+   "lon": -84.54993
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00675311",

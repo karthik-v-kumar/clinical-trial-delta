@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "masking": "NONE",
   "primary_purpose": "OTHER",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Diabeloop"
+  "name": "Diabeloop",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Icadom",
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Actimetry",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Questionnaires",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Glucose level and insulin administration",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "At home clinical data collection",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Actimetry",
     "Other: Questionnaires",
     "Other: Glucose level and insulin administration"
-   ],
-   "label": "At home clinical data collection",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The objective of this study is to collect the evolution of blood glucose levels in type 2 diabetes (T2D) patients under different conditions of their daily life: physical activity, meals, sleep, etc. This data will be used to develop a test bench to evaluate insulin delivery algorithms to treat patients with insulin-resistant T2D using a closed loop.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patient with T2D treated with insulin pump for at least 6 months\n* Patient with a body mass index (BMI) between 27 and 40 kg/m2\n* Patient treated with a total daily dose of insulin between 40 and 300 U/24 h\n* Patient with CGM\n* Patient with Social security or beneficiary\n* Patient able to read and understand the procedure, and able to express consent for the study protocol\n\nExclusion Criteria:\n\n* Patient with T1D\n* Patient currently participating or having participated in the month prior to inclusion in another interventional clinical research that may impact the study, this impact is left to the investigator's discretion\n* Persons referred to in articles L.1121-5 to L.1121-8 of the CSP (corresponds to all the protected persons: pregnant woman (checked by the dosage of β-human chorionic gonadotropin for any woman wishing to participate in the protocol and in childbearing age 60 years), parturient, mother breastfeeding, person deprived of liberty by judicial or administrative decision, person subject to a legal protection measure)",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Meylan",
-   "country": "France",
    "facility": "AGIRADOM",
-   "lat": 45.20978,
-   "lon": 5.77762,
+   "city": "Meylan",
    "state": null,
-   "status": null
+   "country": "France",
+   "status": null,
+   "lat": 45.20978,
+   "lon": 5.77762
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04522882",

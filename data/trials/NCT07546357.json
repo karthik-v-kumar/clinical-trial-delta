@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "masking": "NONE",
   "primary_purpose": "OTHER",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "NYU Langone Health"
+  "name": "NYU Langone Health",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -52,25 +52,25 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "AIManage",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Providers (Phase 1)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: AIManage"
-   ],
-   "label": "Providers (Phase 1)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Patients (Phase 1)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: AIManage"
-   ],
-   "label": "Patients (Phase 1)",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "The objective of this project is to define and test the GenAI-powered Clinical Decision Support (CDS) tool, AIManage, providing a broad range of incretin mimetic medication management services to optimize dose titrations. The study will take place across primary care and obesity medicine clinics at NYUH.\n\nThe study is currently conducting formative data collection for tool refinement (Phase 1). Once completed, a cluster randomized controlled trial of the AIManage tool will be undertaken (Phase 2).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nProvider Eligibility Criteria (Phase 1)\n\n* Primary or bariatric care provider (MD/DO, NP) practicing at the participating NYULH clinics,\n* Provide care to at least 5 patients prescribed an IMM.\n\nPatient Eligibility Criteria (Phase 1)\n\n* (Phase 1) Currently taking an IMM or have taken an IMM in the past 6 months;\n* Fluency in English or Spanish;\n* Be willing to send/receive text messages; and\n* Be \\> 18 years of age.\n\nExclusion Criteria:\n\nProvider Exclusion Criteria (Phase 1) • Refuse to participate\n\nPatient Exclusion Criteria (Phase 1)\n\n• Refuse or are unable to provide informed consent;",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "city": "New York",
-   "country": "United States",
    "facility": "NYU Langone Health",
-   "lat": 40.71427,
-   "lon": -74.00597,
+   "city": "New York",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.71427,
+   "lon": -74.00597
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07546357",

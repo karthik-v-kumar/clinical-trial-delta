@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "JW Pharmaceutical"
+  "name": "JW Pharmaceutical",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Anagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ],
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "CWP-0403",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Anagliptin"
-   ],
-   "label": "CWP-0403",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "This trial is to evaluate the efficacy and safety of CWP-0403 compared to Sitagliptin by proving non-inferiority in patients with type 2 Diabetes Mellitus insufficiently controlled with metformin alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who had diagnosed with type 2 DM before 3 months\n* Men and women between the age of ≥ 19 and ≤ 75 years\n* FPG ≤ 270 mg/dL at screening visit\n* Patients who consent to participate in this trial by written Informed Consent Form\n\nExclusion Criteria:\n\n* Type 1 DM or secondary diabetes\n* Subjects who are administrating oral anti-hyperglycemic drugs or have to take a medicine\n* Body mass index \\< 20 kg/m2 or \\> 40.0kg/m2\n* Subjects who are assessed to be inappropriate for this trial by investigator",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Kangbuk Samsung Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01529541",

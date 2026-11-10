@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2011-09-05",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novartis"
+  "name": "Novartis",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,6 +54,7 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Canakinumab 150 mg",
    "other_names": [
     "ACZ885",
@@ -85,10 +86,10 @@
     "Lente",
     "Ultralente",
     "NPH Iletin"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo to Canakinumab",
    "other_names": [
     "ACZ885",
@@ -120,80 +121,79 @@
     "Lente",
     "Ultralente",
     "NPH Iletin"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Canakinumab 150 mg"
-   ],
    "label": "Canakinumab 150 mg + Metformin",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Canakinumab 150 mg"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Placebo to Canakinumab"
-   ],
    "label": "Placebo + Metformin",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo to Canakinumab"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Canakinumab 150 mg"
-   ],
    "label": "Canakinumab 150 mg + Metforimin + Sulfonylurea",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Canakinumab 150 mg"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Placebo to Canakinumab"
-   ],
    "label": "Placebo + Metforimin + Sulfonylurea",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo to Canakinumab"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Canakinumab 150 mg"
-   ],
    "label": "Canakinumab 150 mg + Met + Sulfonyl + Thiazolidinedione",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Canakinumab 150 mg"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Placebo to Canakinumab"
-   ],
    "label": "Placebo + Met + Sulfonyl + Thiazolidinedione",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo to Canakinumab"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Canakinumab 150 mg"
-   ],
    "label": "Canakinumab 150 mg + Insulin",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Placebo to Canakinumab"
-   ],
-   "label": "Placebo + Insulin",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Canakinumab 150 mg"
-   ],
-   "label": "Canakinumab 150 mg in patients with IGT",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo + Insulin",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo to Canakinumab"
-   ],
+   ]
+  },
+  {
+   "label": "Canakinumab 150 mg in patients with IGT",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Canakinumab 150 mg"
+   ]
+  },
+  {
    "label": "Placebo in patients with IGT",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo to Canakinumab"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -205,10 +205,10 @@
  "brief_summary": "This was a 10-week, placebo-controlled, randomized study to investigate the effect of injectable IL-1B antagonist, Canakinumab , in participants with impaired glucose tolerance or Type 2 Diabetes Mellitus (T2DM) already treated on different background diabetes therapies.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patient must fulfill all criteria in one of the following groups:\n\n   * Impaired Glucose Tolerance (IGT) as diagnosed per protocol and not on an anti-diabetic medicine during the study\n   * Diagnosis of Type 2 diabetes in stable treatment with metformin\n   * Diagnosis of Type 2 diabetes in stable treatment with metformin (at least 1000 mg/day) in combination with a sulfonylurea\n   * Diagnosis of Type 2 diabetes in stable treatment with metformin (at least 1000 mg/day), sulfonylurea and thiazolidinedione combination therapy\n   * Diagnosis of Type 2 diabetes in stable treatment with at least two insulin injections a day with or without metformin\n2. HbA1c between 6.5% and 8%, inclusive, at Screening; this criterion does not apply to the IGT group\n3. Age from 18-74 years, inclusive, and of either sex\n\nExclusion Criteria:\n\n1. Type 1 diabetes or diabetes that is a result of pancreatic injury or other secondary forms of diabetes\n2. History or current findings of active pulmonary disease (e.g. tuberculosis, fungal diseases) as defined in the protocol:\n3. Known presence or suspicion of active or recurrent bacterial, fungal or viral infection at the time of enrollment proven.",
-  "healthy_volunteers": false,
-  "maximum_age": "74 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "74 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -216,472 +216,472 @@
  },
  "sites": [
   {
-   "city": "Geelong",
-   "country": "Australia",
    "facility": "Barwon Health - Geelong Hospital",
+   "city": "Geelong",
+   "state": "Victoria",
+   "country": "Australia",
+   "status": null,
    "lat": -38.14711,
-   "lon": 144.36069,
-   "state": "Victoria",
-   "status": null
+   "lon": 144.36069
   },
   {
-   "city": "Heidelberg Heights",
-   "country": "Australia",
    "facility": "Austin Health - Heidelberg Repatriation Hospital",
-   "lat": -37.74313,
-   "lon": 145.05695,
+   "city": "Heidelberg Heights",
    "state": "Victoria",
-   "status": null
-  },
-  {
-   "city": "Melbourne",
    "country": "Australia",
+   "status": null,
+   "lat": -37.74313,
+   "lon": 145.05695
+  },
+  {
    "facility": "Melbourne Health - Royal Melbourne Hospital",
-   "lat": -37.814,
-   "lon": 144.96332,
+   "city": "Melbourne",
    "state": "Victoria",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
-   "city": "Etobicoke",
-   "country": "Canada",
    "facility": "Lifestyle Metabolism Centre (Etobicoke)",
+   "city": "Etobicoke",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 43.64415,
-   "lon": -79.56985,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.56985
   },
   {
-   "city": "Markham",
-   "country": "Canada",
    "facility": "LMC Endocrinology Centres (Markham) Ltd",
+   "city": "Markham",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 43.86682,
-   "lon": -79.2663,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.2663
   },
   {
-   "city": "Thornhill",
-   "country": "Canada",
    "facility": "LMC Endocrinology Centres (Thornhill) Ltd",
-   "lat": 43.815,
-   "lon": -79.4242,
+   "city": "Thornhill",
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.815,
+   "lon": -79.4242
   },
   {
-   "city": "Laval",
-   "country": "Canada",
    "facility": "Centre de recherche clinique de Laval",
-   "lat": 45.56995,
-   "lon": -73.692,
+   "city": "Laval",
    "state": "Quebec",
-   "status": null
-  },
-  {
-   "city": "Montreal",
    "country": "Canada",
+   "status": null,
+   "lat": 45.56995,
+   "lon": -73.692
+  },
+  {
    "facility": "Hôpital Maisonneuve-Rosemont",
-   "lat": 45.50884,
-   "lon": -73.58781,
+   "city": "Montreal",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
   },
   {
-   "city": "Helsinki",
-   "country": "Finland",
    "facility": "Lihavuustutkimusyksikkö",
-   "lat": 60.16952,
-   "lon": 24.93545,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Helsinki",
+   "state": null,
    "country": "Finland",
-   "facility": "Lääkärikeskus Mehiläinen Töölö",
+   "status": null,
    "lat": 60.16952,
-   "lon": 24.93545,
-   "state": null,
-   "status": null
+   "lon": 24.93545
   },
   {
-   "city": "Oulu",
+   "facility": "Lääkärikeskus Mehiläinen Töölö",
+   "city": "Helsinki",
+   "state": null,
    "country": "Finland",
+   "status": null,
+   "lat": 60.16952,
+   "lon": 24.93545
+  },
+  {
    "facility": "ODL Terveys Oy",
+   "city": "Oulu",
+   "state": null,
+   "country": "Finland",
+   "status": null,
    "lat": 65.01236,
-   "lon": 25.46816,
-   "state": null,
-   "status": null
+   "lon": 25.46816
   },
   {
-   "city": "Berlin",
-   "country": "Germany",
    "facility": "Clintrial Berlin Praxis fuer medizinische Studien",
-   "lat": 52.52437,
-   "lon": 13.41053,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Berlin",
+   "state": null,
    "country": "Germany",
-   "facility": "Klinische Forschung Berlin-Buch Dr. Andrei Khariouzov",
+   "status": null,
    "lat": 52.52437,
-   "lon": 13.41053,
-   "state": null,
-   "status": null
+   "lon": 13.41053
   },
   {
-   "city": "Duisburg",
+   "facility": "Klinische Forschung Berlin-Buch Dr. Andrei Khariouzov",
+   "city": "Berlin",
+   "state": null,
    "country": "Germany",
+   "status": null,
+   "lat": 52.52437,
+   "lon": 13.41053
+  },
+  {
    "facility": "Gemeinschaftspraxis Dr. Ingo Zeissig",
+   "city": "Duisburg",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 51.43247,
-   "lon": 6.76516,
-   "state": null,
-   "status": null
+   "lon": 6.76516
   },
   {
-   "city": "Düsseldorf",
-   "country": "Germany",
    "facility": "\"Sana Krankenhaus Gerresheim",
+   "city": "Düsseldorf",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 51.22319,
-   "lon": 6.77927,
-   "state": null,
-   "status": null
+   "lon": 6.77927
   },
   {
-   "city": "Essen",
-   "country": "Germany",
    "facility": "Praxis Dr. Thorsten Rau",
+   "city": "Essen",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 51.45657,
-   "lon": 7.01228,
-   "state": null,
-   "status": null
+   "lon": 7.01228
   },
   {
-   "city": "Falkensee",
-   "country": "Germany",
    "facility": "Praxis Dr. med. Joerg Luedemann",
+   "city": "Falkensee",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 52.56261,
-   "lon": 13.08718,
-   "state": null,
-   "status": null
+   "lon": 13.08718
   },
   {
-   "city": "Hildesheim",
-   "country": "Germany",
    "facility": "Dr. Helmut Anderten Gemeinschaftspraxis Dres. Anderten und Krok",
+   "city": "Hildesheim",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 52.15077,
-   "lon": 9.95112,
-   "state": null,
-   "status": null
+   "lon": 9.95112
   },
   {
-   "city": "Karlsruhe",
-   "country": "Germany",
    "facility": "Praxis Dr. Julia Chevts",
+   "city": "Karlsruhe",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 49.00937,
-   "lon": 8.40444,
-   "state": null,
-   "status": null
+   "lon": 8.40444
   },
   {
-   "city": "Lübeck",
-   "country": "Germany",
    "facility": "Pro Scientia Med",
+   "city": "Lübeck",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 53.86893,
-   "lon": 10.68729,
-   "state": null,
-   "status": null
+   "lon": 10.68729
   },
   {
-   "city": "Münster",
-   "country": "Germany",
    "facility": "Praxis Dr. Winfried Keuthage",
+   "city": "Münster",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 51.96236,
-   "lon": 7.62571,
-   "state": null,
-   "status": null
+   "lon": 7.62571
   },
   {
-   "city": "Neumünster",
-   "country": "Germany",
    "facility": "Praxis Dr. Uwe Boeckmann",
+   "city": "Neumünster",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 54.07399,
-   "lon": 9.98456,
-   "state": null,
-   "status": null
+   "lon": 9.98456
   },
   {
-   "city": "Potsdam",
-   "country": "Germany",
    "facility": "Dr. Klaus Funke IkFE Studiencenter Potsdam GMBH I.G.",
+   "city": "Potsdam",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 52.39886,
-   "lon": 13.06566,
-   "state": null,
-   "status": null
+   "lon": 13.06566
   },
   {
-   "city": "Viernheim",
-   "country": "Germany",
    "facility": "Praxis Dr. Gerhard Steinmaier",
-   "lat": 49.54033,
-   "lon": 8.5782,
+   "city": "Viernheim",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Wetzlar-Naunheim",
    "country": "Germany",
+   "status": null,
+   "lat": 49.54033,
+   "lon": 8.5782
+  },
+  {
    "facility": "Praxis Dr. Reinhold U. Schneider",
-   "lat": null,
-   "lon": null,
+   "city": "Wetzlar-Naunheim",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Visakhapatnam",
-   "country": "India",
-   "facility": "Visakha Diabetes & Endocrine Centre",
-   "lat": 17.68009,
-   "lon": 83.20161,
-   "state": "Andhra Pradesh",
-   "status": null
-  },
-  {
-   "city": "Bangalore",
-   "country": "India",
-   "facility": "Jnana Sanjeevini Medical Center",
-   "lat": 12.97194,
-   "lon": 77.59369,
-   "state": "Kar",
-   "status": null
-  },
-  {
-   "city": "Banglore",
-   "country": "India",
-   "facility": "Bangalore Diabetes Hospital,",
+   "country": "Germany",
+   "status": null,
    "lat": null,
-   "lon": null,
+   "lon": null
+  },
+  {
+   "facility": "Visakha Diabetes & Endocrine Centre",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "country": "India",
+   "status": null,
+   "lat": 17.68009,
+   "lon": 83.20161
+  },
+  {
+   "facility": "Jnana Sanjeevini Medical Center",
+   "city": "Bangalore",
+   "state": "Kar",
+   "country": "India",
+   "status": null,
+   "lat": 12.97194,
+   "lon": 77.59369
+  },
+  {
+   "facility": "Bangalore Diabetes Hospital,",
+   "city": "Banglore",
    "state": "KAR",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Trivandrum",
-   "country": "India",
    "facility": "Health & Research Centre",
-   "lat": 8.4855,
-   "lon": 76.94924,
+   "city": "Trivandrum",
    "state": "Ker",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 8.4855,
+   "lon": 76.94924
   },
   {
-   "city": "Indore",
-   "country": "India",
    "facility": "Diabetes Thyroid Hormone Research Institute Pvt .Ltd.",
-   "lat": 22.71792,
-   "lon": 75.8333,
+   "city": "Indore",
    "state": "Madhya Pradesh",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 22.71792,
+   "lon": 75.8333
   },
   {
-   "city": "Pune",
-   "country": "India",
    "facility": "Sahyadri Hospital Bibewewadi Centre of Excellence for Diabetics",
-   "lat": 18.51957,
-   "lon": 73.85535,
+   "city": "Pune",
    "state": "Mah",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 18.51957,
+   "lon": 73.85535
   },
   {
-   "city": "Nagpur",
-   "country": "India",
    "facility": "Indrayani Speciality Hospital,",
-   "lat": 21.14631,
-   "lon": 79.08491,
+   "city": "Nagpur",
    "state": "Maharashtra",
-   "status": null
-  },
-  {
-   "city": "Chennai",
    "country": "India",
+   "status": null,
+   "lat": 21.14631,
+   "lon": 79.08491
+  },
+  {
    "facility": "Madras Diabetes Research Foundation",
-   "lat": 13.08784,
-   "lon": 80.27847,
+   "city": "Chennai",
    "state": "Tamil Nadu",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 13.08784,
+   "lon": 80.27847
   },
   {
-   "city": "Bergamo",
-   "country": "Italy",
    "facility": "Azienda Ospedaliera-Ospedali Riuniti di BergamoU",
-   "lat": 45.69601,
-   "lon": 9.66721,
+   "city": "Bergamo",
    "state": "BG",
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 45.69601,
+   "lon": 9.66721
   },
   {
-   "city": "Genova",
-   "country": "Italy",
    "facility": "Az. Ospedaliera Universit. S.Martino-Universita degli Studi",
-   "lat": 45.21604,
-   "lon": 11.87211,
+   "city": "Genova",
    "state": "GE",
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 45.21604,
+   "lon": 11.87211
   },
   {
-   "city": "Milan",
-   "country": "Italy",
    "facility": "Azienda Ospedaliera S. Paolo-Polo Universitario",
-   "lat": 42.78235,
-   "lon": 12.59836,
-   "state": "MI",
-   "status": null
-  },
-  {
    "city": "Milan",
+   "state": "MI",
    "country": "Italy",
-   "facility": "Fondazione Centro San Raffaele del Monte Tabor-IRCCSUnità",
+   "status": null,
    "lat": 42.78235,
-   "lon": 12.59836,
+   "lon": 12.59836
+  },
+  {
+   "facility": "Fondazione Centro San Raffaele del Monte Tabor-IRCCSUnità",
+   "city": "Milan",
    "state": "Mi",
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 42.78235,
+   "lon": 12.59836
   },
   {
-   "city": "Casorate Primo",
-   "country": "Italy",
    "facility": "Az. Ospedaliera Della Prov.di Pavia",
-   "lat": 45.31142,
-   "lon": 9.01703,
+   "city": "Casorate Primo",
    "state": "PV",
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 45.31142,
+   "lon": 9.01703
   },
   {
-   "city": "Roma",
-   "country": "Italy",
    "facility": "Policlinico A.Gemelli - Univ.Cattolica del Sacro Cuore",
-   "lat": 44.99364,
-   "lon": 11.10642,
+   "city": "Roma",
    "state": "Roma",
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 44.99364,
+   "lon": 11.10642
   },
   {
-   "city": "Siena",
-   "country": "Italy",
    "facility": "A.O.Universitaria Senese, Universita degli Studi di Siena",
-   "lat": 43.31822,
-   "lon": 11.33064,
+   "city": "Siena",
    "state": "SI",
-   "status": null
-  },
-  {
-   "city": "Torino",
    "country": "Italy",
+   "status": null,
+   "lat": 43.31822,
+   "lon": 11.33064
+  },
+  {
    "facility": "S.C.D.U. Endocrinologia e Malattie del Metabolismo",
-   "lat": 44.88856,
-   "lon": 11.99138,
+   "city": "Torino",
    "state": "To",
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 44.88856,
+   "lon": 11.99138
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "National Research Institute",
+   "city": "Los Angeles",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": null
+   "lon": -118.24368
   },
   {
-   "city": "Santa Ana",
-   "country": "United States",
    "facility": "Crest Clinical Trials",
+   "city": "Santa Ana",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.74557,
-   "lon": -117.86783,
-   "state": "California",
-   "status": null
+   "lon": -117.86783
   },
   {
-   "city": "Spring Valley",
-   "country": "United States",
    "facility": "Encompass Clinical Research",
-   "lat": 32.74477,
-   "lon": -116.99892,
+   "city": "Spring Valley",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.74477,
+   "lon": -116.99892
   },
   {
-   "city": "Madisonville",
-   "country": "United States",
    "facility": "Commonwealth Biomedical Research LLC",
-   "lat": 37.3281,
-   "lon": -87.49889,
+   "city": "Madisonville",
    "state": "Kentucky",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.3281,
+   "lon": -87.49889
   },
   {
-   "city": "Omaha",
-   "country": "United States",
    "facility": "University of Nebraska Medical Center",
-   "lat": 41.25626,
-   "lon": -95.94043,
-   "state": "Nebraska",
-   "status": null
-  },
-  {
    "city": "Omaha",
-   "country": "United States",
-   "facility": "VA Medical Center",
-   "lat": 41.25626,
-   "lon": -95.94043,
    "state": "Nebraska",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.25626,
+   "lon": -95.94043
   },
   {
-   "city": "Fargo",
+   "facility": "VA Medical Center",
+   "city": "Omaha",
+   "state": "Nebraska",
    "country": "United States",
+   "status": null,
+   "lat": 41.25626,
+   "lon": -95.94043
+  },
+  {
    "facility": "Lillestol Research LLC",
-   "lat": 46.87719,
-   "lon": -96.7898,
+   "city": "Fargo",
    "state": "North Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.87719,
+   "lon": -96.7898
   },
   {
-   "city": "Pittsburgh",
-   "country": "United States",
    "facility": "Preferred Primary Care Physicians",
-   "lat": 40.44062,
-   "lon": -79.99589,
+   "city": "Pittsburgh",
    "state": "Pennsylvania",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.44062,
+   "lon": -79.99589
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Dallas Diabetes and Endocrine Center",
+   "city": "Dallas",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "Texas Center for Drug Development P.A.",
-   "lat": 29.76328,
-   "lon": -95.36327,
+   "city": "Houston",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
-   "city": "Salt Lake City",
-   "country": "United States",
    "facility": "Utah Clinical Trials",
-   "lat": 40.76078,
-   "lon": -111.89105,
+   "city": "Salt Lake City",
    "state": "Utah",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.76078,
+   "lon": -111.89105
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01068860",

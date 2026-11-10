@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2017-03-15",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Sanofi"
+  "name": "Sanofi",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Regeneron Pharmaceuticals"
@@ -54,59 +54,59 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Alirocumab",
    "other_names": [
     "SAR236553",
     "REGN727",
     "Praluent®"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo (for Alirocumab)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Non-statin LMT",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Diet Alone",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Alirocumab",
-    "Drug: Placebo (for Alirocumab)",
-    "Drug: Non-statin LMT",
-    "Other: Diet Alone"
-   ],
    "label": "Placebo Q2W",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
-   "intervention_names": [
-    "Drug: Alirocumab",
-    "Drug: Non-statin LMT",
-    "Other: Diet Alone"
-   ],
-   "label": "Alirocumab 75 mg Q2W/Up to 150 mg Q2W (Calibrator)",
-   "type": "OTHER"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Alirocumab",
     "Drug: Placebo (for Alirocumab)",
     "Drug: Non-statin LMT",
     "Other: Diet Alone"
-   ],
+   ]
+  },
+  {
+   "label": "Alirocumab 75 mg Q2W/Up to 150 mg Q2W (Calibrator)",
+   "type": "OTHER",
+   "intervention_names": [
+    "Drug: Alirocumab",
+    "Drug: Non-statin LMT",
+    "Other: Diet Alone"
+   ]
+  },
+  {
    "label": "Alirocumab 150 mg Q4W/Up to 150 mg Q2W",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Alirocumab",
+    "Drug: Placebo (for Alirocumab)",
+    "Drug: Non-statin LMT",
+    "Other: Diet Alone"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "Primary Objective:\n\nTo demonstrate the reduction of low-density lipoprotein cholesterol (LDL-C) by a regimen of Alirocumab including a starting dose of 150 mg every 4 weeks (Q4W) as add-on to non-statin lipid modifying background therapy or as monotherapy in comparison with placebo in participants with primary hypercholesterolemia not treated with a statin.\n\nSecondary Objective:\n\n* To evaluate the effects on other lipid parameters of Alirocumab 150 mg Q4W versus placebo.\n* To evaluate the safety and tolerability of Alirocumab 150 mg Q4W.\n\nAlirocumab 75 mg Q2W was added as a calibrator arm.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\nParticipants with primary hypercholesterolemia (heterozygous familial hypercholesterolemia \\[heFH\\] or non-FH) not adequately controlled with their non-statin LMT (either ezetimibe or fenofibrate) or diet alone.\n\nExclusion criteria:\n\n* LDL-C \\<70 mg/dL (1.81 mmol/L) at screening for statin intolerant participants at very high cardiovascular (CV) risk;\n* LDL-C \\<100 mg/dL (\\<2.59 mmol/L) at screening for statin intolerant participants at high or moderate CV risk or, participants not fulfilling the statin intolerant definition at moderate CV risk;\n* LDL-C ≥160 mg/dL (≥4.1 mmol/L) at screening for participants receiving diet only or, participants not fulfilling the statin intolerant definition at moderate CV risk and receiving a non-statin LMT.\n\nThe above information is not intended to contain all considerations relevant to a participant's potential participation in a clinical trial.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,391 +129,391 @@
  },
  "sites": [
   {
-   "city": "Ashford",
-   "country": "Australia",
    "facility": "Investigational Site Number 036703",
+   "city": "Ashford",
+   "state": null,
+   "country": "Australia",
+   "status": null,
    "lat": -34.94859,
-   "lon": 138.57457,
-   "state": null,
-   "status": null
+   "lon": 138.57457
   },
   {
-   "city": "Perth",
-   "country": "Australia",
    "facility": "Investigational Site Number 036702",
-   "lat": -31.95224,
-   "lon": 115.8614,
+   "city": "Perth",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Woolloongabba",
    "country": "Australia",
+   "status": null,
+   "lat": -31.95224,
+   "lon": 115.8614
+  },
+  {
    "facility": "Investigational Site Number 036701",
+   "city": "Woolloongabba",
+   "state": null,
+   "country": "Australia",
+   "status": null,
    "lat": -27.48855,
-   "lon": 153.03655,
-   "state": null,
-   "status": null
+   "lon": 153.03655
   },
   {
-   "city": "Antwerp",
-   "country": "Belgium",
    "facility": "Investigational Site Number 056702",
+   "city": "Antwerp",
+   "state": null,
+   "country": "Belgium",
+   "status": null,
    "lat": 51.22047,
-   "lon": 4.40026,
-   "state": null,
-   "status": null
+   "lon": 4.40026
   },
   {
-   "city": "Haine-Saint-Paul",
-   "country": "Belgium",
    "facility": "Investigational Site Number 056703",
-   "lat": 50.45544,
-   "lon": 4.1885,
+   "city": "Haine-Saint-Paul",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Leuven",
    "country": "Belgium",
+   "status": null,
+   "lat": 50.45544,
+   "lon": 4.1885
+  },
+  {
    "facility": "Investigational Site Number 056701",
+   "city": "Leuven",
+   "state": null,
+   "country": "Belgium",
+   "status": null,
    "lat": 50.87959,
-   "lon": 4.70093,
-   "state": null,
-   "status": null
+   "lon": 4.70093
   },
   {
-   "city": "Chicoutimi",
-   "country": "Canada",
    "facility": "Investigational Site Number 124703",
+   "city": "Chicoutimi",
+   "state": null,
+   "country": "Canada",
+   "status": null,
    "lat": 48.41963,
-   "lon": -71.06369,
-   "state": null,
-   "status": null
+   "lon": -71.06369
   },
   {
-   "city": "Québec",
-   "country": "Canada",
    "facility": "Investigational Site Number 124701",
+   "city": "Québec",
+   "state": null,
+   "country": "Canada",
+   "status": null,
    "lat": 46.81228,
-   "lon": -71.21454,
-   "state": null,
-   "status": null
+   "lon": -71.21454
   },
   {
-   "city": "Sherbrooke",
-   "country": "Canada",
    "facility": "Investigational Site Number 124704",
+   "city": "Sherbrooke",
+   "state": null,
+   "country": "Canada",
+   "status": null,
    "lat": 45.40008,
-   "lon": -71.89908,
-   "state": null,
-   "status": null
+   "lon": -71.89908
   },
   {
-   "city": "Toronto",
-   "country": "Canada",
    "facility": "Investigational Site Number 124706",
+   "city": "Toronto",
+   "state": null,
+   "country": "Canada",
+   "status": null,
    "lat": 43.65333,
-   "lon": -79.38389,
-   "state": null,
-   "status": null
+   "lon": -79.38389
   },
   {
-   "city": "Vancouver",
-   "country": "Canada",
    "facility": "Investigational Site Number 124702",
-   "lat": 49.24966,
-   "lon": -123.11934,
+   "city": "Vancouver",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Victoria",
    "country": "Canada",
+   "status": null,
+   "lat": 49.24966,
+   "lon": -123.11934
+  },
+  {
    "facility": "Investigational Site Number 124705",
+   "city": "Victoria",
+   "state": null,
+   "country": "Canada",
+   "status": null,
    "lat": 48.4359,
-   "lon": -123.35155,
-   "state": null,
-   "status": null
+   "lon": -123.35155
   },
   {
-   "city": "Aarhus",
-   "country": "Denmark",
    "facility": "Investigational Site Number 208703",
+   "city": "Aarhus",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
    "lat": 56.15674,
-   "lon": 10.21076,
-   "state": null,
-   "status": null
+   "lon": 10.21076
   },
   {
-   "city": "Esbjerg",
-   "country": "Denmark",
    "facility": "Investigational Site Number 208702",
+   "city": "Esbjerg",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
    "lat": 55.47028,
-   "lon": 8.45187,
-   "state": null,
-   "status": null
+   "lon": 8.45187
   },
   {
-   "city": "Glostrup Municipality",
-   "country": "Denmark",
    "facility": "Investigational Site Number 208701",
+   "city": "Glostrup Municipality",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
    "lat": 55.6666,
-   "lon": 12.40377,
-   "state": null,
-   "status": null
+   "lon": 12.40377
   },
   {
-   "city": "Hvidovre",
-   "country": "Denmark",
    "facility": "Investigational Site Number 208704",
-   "lat": 55.64297,
-   "lon": 12.47708,
+   "city": "Hvidovre",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Køge",
    "country": "Denmark",
+   "status": null,
+   "lat": 55.64297,
+   "lon": 12.47708
+  },
+  {
    "facility": "Investigational Site Number 208705",
+   "city": "Køge",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
    "lat": 55.45802,
-   "lon": 12.18214,
-   "state": null,
-   "status": null
+   "lon": 12.18214
   },
   {
-   "city": "Amsterdam",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528701",
+   "city": "Amsterdam",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 52.37403,
-   "lon": 4.88969,
-   "state": null,
-   "status": null
+   "lon": 4.88969
   },
   {
-   "city": "Den Helder",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528708",
+   "city": "Den Helder",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 52.95988,
-   "lon": 4.75933,
-   "state": null,
-   "status": null
+   "lon": 4.75933
   },
   {
-   "city": "Hoogeveen",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528702",
+   "city": "Hoogeveen",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 52.7225,
-   "lon": 6.47639,
-   "state": null,
-   "status": null
+   "lon": 6.47639
   },
   {
-   "city": "Hoorn",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528703",
+   "city": "Hoorn",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 52.6425,
-   "lon": 5.05972,
-   "state": null,
-   "status": null
+   "lon": 5.05972
   },
   {
-   "city": "Rotterdam",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528706",
+   "city": "Rotterdam",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 51.9225,
-   "lon": 4.47917,
-   "state": null,
-   "status": null
+   "lon": 4.47917
   },
   {
-   "city": "Sneek",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528709",
+   "city": "Sneek",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 53.03297,
-   "lon": 5.6589,
-   "state": null,
-   "status": null
+   "lon": 5.6589
   },
   {
-   "city": "Utrecht",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528704",
-   "lat": 52.09083,
-   "lon": 5.12222,
+   "city": "Utrecht",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Venlo",
    "country": "Netherlands",
+   "status": null,
+   "lat": 52.09083,
+   "lon": 5.12222
+  },
+  {
    "facility": "Investigational Site Number 528707",
+   "city": "Venlo",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 51.37,
-   "lon": 6.16806,
-   "state": null,
-   "status": null
+   "lon": 6.16806
   },
   {
-   "city": "Auckland",
-   "country": "New Zealand",
    "facility": "Investigational Site Number 554702",
-   "lat": -36.84853,
-   "lon": 174.76349,
+   "city": "Auckland",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Christchurch",
    "country": "New Zealand",
+   "status": null,
+   "lat": -36.84853,
+   "lon": 174.76349
+  },
+  {
    "facility": "Investigational Site Number 554701",
+   "city": "Christchurch",
+   "state": null,
+   "country": "New Zealand",
+   "status": null,
    "lat": -43.53333,
-   "lon": 172.63333,
-   "state": null,
-   "status": null
+   "lon": 172.63333
   },
   {
-   "city": "A Coruña",
-   "country": "Spain",
    "facility": "Investigational Site Number 724703",
+   "city": "A Coruña",
+   "state": null,
+   "country": "Spain",
+   "status": null,
    "lat": 43.37135,
-   "lon": -8.396,
-   "state": null,
-   "status": null
+   "lon": -8.396
   },
   {
-   "city": "Barcelona",
-   "country": "Spain",
    "facility": "Investigational Site Number 724707",
-   "lat": 41.38879,
-   "lon": 2.15899,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Barcelona",
+   "state": null,
    "country": "Spain",
-   "facility": "Investigational Site Number 724710",
+   "status": null,
    "lat": 41.38879,
-   "lon": 2.15899,
-   "state": null,
-   "status": null
+   "lon": 2.15899
   },
   {
-   "city": "Córdoba",
+   "facility": "Investigational Site Number 724710",
+   "city": "Barcelona",
+   "state": null,
    "country": "Spain",
+   "status": null,
+   "lat": 41.38879,
+   "lon": 2.15899
+  },
+  {
    "facility": "Investigational Site Number 724702",
+   "city": "Córdoba",
+   "state": null,
+   "country": "Spain",
+   "status": null,
    "lat": 37.89155,
-   "lon": -4.77275,
-   "state": null,
-   "status": null
+   "lon": -4.77275
   },
   {
-   "city": "Granada",
-   "country": "Spain",
    "facility": "Investigational Site Number 724705",
+   "city": "Granada",
+   "state": null,
+   "country": "Spain",
+   "status": null,
    "lat": 37.18817,
-   "lon": -3.60667,
-   "state": null,
-   "status": null
+   "lon": -3.60667
   },
   {
-   "city": "Sant Joan Despí",
-   "country": "Spain",
    "facility": "Investigational Site Number 724709",
+   "city": "Sant Joan Despí",
+   "state": null,
+   "country": "Spain",
+   "status": null,
    "lat": 41.36718,
-   "lon": 2.0574,
-   "state": null,
-   "status": null
+   "lon": 2.0574
   },
   {
-   "city": "Santiago de Compostela",
-   "country": "Spain",
    "facility": "Investigational Site Number 724706",
-   "lat": 42.88052,
-   "lon": -8.54569,
+   "city": "Santiago de Compostela",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Zaragoza",
    "country": "Spain",
+   "status": null,
+   "lat": 42.88052,
+   "lon": -8.54569
+  },
+  {
    "facility": "Investigational Site Number 724701",
-   "lat": 41.65606,
-   "lon": -0.87734,
+   "city": "Zaragoza",
    "state": null,
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 41.65606,
+   "lon": -0.87734
   },
   {
-   "city": "Beverly Hills",
-   "country": "United States",
    "facility": "Investigational Site Number 840703",
-   "lat": 34.07362,
-   "lon": -118.40036,
+   "city": "Beverly Hills",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.07362,
+   "lon": -118.40036
   },
   {
-   "city": "Atlantis",
-   "country": "United States",
    "facility": "Investigational Site Number 840704",
+   "city": "Atlantis",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.5909,
-   "lon": -80.10088,
-   "state": "Florida",
-   "status": null
+   "lon": -80.10088
   },
   {
-   "city": "Jacksonville",
-   "country": "United States",
    "facility": "Investigational Site Number 840708",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 30.33218,
-   "lon": -81.65565,
-   "state": "Florida",
-   "status": null
+   "lon": -81.65565
   },
   {
-   "city": "Sarasota",
-   "country": "United States",
    "facility": "Investigational Site Number 840701",
-   "lat": 27.33643,
-   "lon": -82.53065,
+   "city": "Sarasota",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 27.33643,
+   "lon": -82.53065
   },
   {
-   "city": "Fall River",
-   "country": "United States",
    "facility": "Investigational Site Number 840706",
-   "lat": 41.70149,
-   "lon": -71.15505,
+   "city": "Fall River",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.70149,
+   "lon": -71.15505
   },
   {
-   "city": "St Louis",
-   "country": "United States",
    "facility": "Investigational Site Number 840705",
-   "lat": 38.62727,
-   "lon": -90.19789,
+   "city": "St Louis",
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
-   "city": "Durham",
-   "country": "United States",
    "facility": "Investigational Site Number 840707",
-   "lat": 35.99403,
-   "lon": -78.89862,
+   "city": "Durham",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.99403,
+   "lon": -78.89862
   },
   {
-   "city": "Summerville",
-   "country": "United States",
    "facility": "Investigational Site Number 840702",
-   "lat": 33.0185,
-   "lon": -80.17565,
+   "city": "Summerville",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.0185,
+   "lon": -80.17565
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02023879",

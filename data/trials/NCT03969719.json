@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2022-05-11",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Pfizer"
+  "name": "Pfizer",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "PF-06835919",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "PF-06835919",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: PF-06835919"
-   ],
    "label": "Low Dose",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: PF-06835919"
-   ],
+   ]
+  },
+  {
    "label": "High Dose",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: PF-06835919"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "This is a double-blind, placebo-controlled study in adults with non-alcoholic steatohepatitis and Type 2 Diabetes Mellitis on stable dose of metformin monotherapy. Participants will be treated for 16 weeks with placebo or 1 of 2 doses of investigational product to determine the effect on liver fat, HbA1c, safety, tolerability and pharmacodynamics.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males, or females of nonchildbearing potential\n* 18 to 70 years of age\n* Type 2 Diabetes Mellitus\n* Liver fat \\>/=8% by MRI-PDFF\n* On stable dose of metformin monotherapy for at least 2 months (at a dose of at least 500 mg daily)\n\nExclusion Criteria:\n\n* History of other liver disease\n* Unable to have an MRI performed\n* Significant weight loss in the previous month and/or participant in current weight loss program\n* History of diabetic complications with end-organ damage",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,958 +113,958 @@
  },
  "sites": [
   {
-   "city": "Québec",
-   "country": "Canada",
    "facility": "ALPHA Recherche Clinique Lebourgneuf",
-   "lat": 46.81228,
-   "lon": -71.21454,
+   "city": "Québec",
    "state": null,
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 46.81228,
+   "lon": -71.21454
   },
   {
-   "city": "Québec",
-   "country": "Canada",
    "facility": "Centre de Recherche Saint-Louis",
-   "lat": 46.81228,
-   "lon": -71.21454,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Québec",
-   "country": "Canada",
-   "facility": "IRM Quebec",
-   "lat": 46.81228,
-   "lon": -71.21454,
    "state": null,
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 46.81228,
+   "lon": -71.21454
   },
   {
-   "city": "Victoria",
+   "facility": "IRM Quebec",
+   "city": "Québec",
+   "state": null,
    "country": "Canada",
+   "status": null,
+   "lat": 46.81228,
+   "lon": -71.21454
+  },
+  {
    "facility": "Discovery Clinical Services Ltd.",
-   "lat": 48.4359,
-   "lon": -123.35155,
-   "state": "British Columbia",
-   "status": null
-  },
-  {
    "city": "Victoria",
-   "country": "Canada",
-   "facility": "West Coast Medical Imaging",
-   "lat": 48.4359,
-   "lon": -123.35155,
    "state": "British Columbia",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 48.4359,
+   "lon": -123.35155
   },
   {
-   "city": "Halifax",
+   "facility": "West Coast Medical Imaging",
+   "city": "Victoria",
+   "state": "British Columbia",
    "country": "Canada",
+   "status": null,
+   "lat": 48.4359,
+   "lon": -123.35155
+  },
+  {
    "facility": "Nova Scotia Health Authority - Queen Elizabeth II Health Sciences Centre",
-   "lat": 44.64269,
-   "lon": -63.57688,
-   "state": "Nova Scotia",
-   "status": null
-  },
-  {
    "city": "Halifax",
-   "country": "Canada",
-   "facility": "Nova Scotia Health Authority QE II Health Sciences Centre",
-   "lat": 44.64269,
-   "lon": -63.57688,
    "state": "Nova Scotia",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 44.64269,
+   "lon": -63.57688
   },
   {
+   "facility": "Nova Scotia Health Authority QE II Health Sciences Centre",
    "city": "Halifax",
-   "country": "Canada",
-   "facility": "Nova Scotia Health Authority QE II Health Sciences Centre",
-   "lat": 44.64269,
-   "lon": -63.57688,
    "state": "Nova Scotia",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 44.64269,
+   "lon": -63.57688
   },
   {
-   "city": "Brampton",
+   "facility": "Nova Scotia Health Authority QE II Health Sciences Centre",
+   "city": "Halifax",
+   "state": "Nova Scotia",
    "country": "Canada",
+   "status": null,
+   "lat": 44.64269,
+   "lon": -63.57688
+  },
+  {
    "facility": "Aggarwal and Associates Limited",
+   "city": "Brampton",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 43.68341,
-   "lon": -79.76633,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.76633
   },
   {
-   "city": "London",
-   "country": "Canada",
    "facility": "The Western Centre for Functional and Metabolic Mapping",
+   "city": "London",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 42.98339,
-   "lon": -81.23304,
-   "state": "Ontario",
-   "status": null
+   "lon": -81.23304
   },
   {
-   "city": "Mississauga",
-   "country": "Canada",
    "facility": "Oxford Medical Imaging",
+   "city": "Mississauga",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 43.5789,
-   "lon": -79.6583,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.6583
   },
   {
-   "city": "Sarnia",
-   "country": "Canada",
    "facility": "Bluewater Clinical Research Group, Inc.",
+   "city": "Sarnia",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 42.97866,
-   "lon": -82.40407,
-   "state": "Ontario",
-   "status": null
+   "lon": -82.40407
   },
   {
-   "city": "Toronto",
-   "country": "Canada",
    "facility": "St. Michael's Hospital",
-   "lat": 43.65333,
-   "lon": -79.38389,
-   "state": "Ontario",
-   "status": null
-  },
-  {
    "city": "Toronto",
-   "country": "Canada",
-   "facility": "Toronto Liver Centre",
-   "lat": 43.65333,
-   "lon": -79.38389,
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
   },
   {
-   "city": "Chicoutimi",
+   "facility": "Toronto Liver Centre",
+   "city": "Toronto",
+   "state": "Ontario",
    "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
+  },
+  {
    "facility": "Ecogene-21",
-   "lat": 48.41963,
-   "lon": -71.06369,
-   "state": "Quebec",
-   "status": null
-  },
-  {
    "city": "Chicoutimi",
+   "state": "Quebec",
    "country": "Canada",
-   "facility": "Resonance Magnetique du Saguenay-Lac-Saint-Jean",
+   "status": null,
    "lat": 48.41963,
-   "lon": -71.06369,
-   "state": "Quebec",
-   "status": null
+   "lon": -71.06369
   },
   {
-   "city": "Montreal",
+   "facility": "Resonance Magnetique du Saguenay-Lac-Saint-Jean",
+   "city": "Chicoutimi",
+   "state": "Quebec",
    "country": "Canada",
+   "status": null,
+   "lat": 48.41963,
+   "lon": -71.06369
+  },
+  {
    "facility": "Clinique de Medecine Urbaine du Quartier Latin",
-   "lat": 45.50884,
-   "lon": -73.58781,
+   "city": "Montreal",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
   },
   {
-   "city": "Montreal",
-   "country": "Canada",
    "facility": "McGill University Health Centre (MUHC)",
-   "lat": 45.50884,
-   "lon": -73.58781,
+   "city": "Montreal",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
   },
   {
-   "city": "Montreal",
-   "country": "Canada",
    "facility": "MRI TTT Philips Radiation Oncology",
-   "lat": 45.50884,
-   "lon": -73.58781,
-   "state": "Quebec",
-   "status": null
-  },
-  {
    "city": "Montreal",
-   "country": "Canada",
-   "facility": "Radiologie Varad",
-   "lat": 45.50884,
-   "lon": -73.58781,
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
   },
   {
-   "city": "Gilbert",
-   "country": "United States",
+   "facility": "Radiologie Varad",
+   "city": "Montreal",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
+  },
+  {
    "facility": "Horizon Clinical Research Associates, PLLC",
+   "city": "Gilbert",
+   "state": "Arizona",
+   "country": "United States",
+   "status": null,
    "lat": 33.35283,
-   "lon": -111.78903,
-   "state": "Arizona",
-   "status": null
+   "lon": -111.78903
   },
   {
-   "city": "Tempe",
-   "country": "United States",
    "facility": "Clinical Research Consortium an AMR company",
-   "lat": 33.41477,
-   "lon": -111.90931,
+   "city": "Tempe",
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.41477,
+   "lon": -111.90931
   },
   {
-   "city": "Anaheim",
-   "country": "United States",
    "facility": "Anaheim Clinical Trials LLC-Clinical Research",
-   "lat": 33.83529,
-   "lon": -117.9145,
-   "state": "California",
-   "status": null
-  },
-  {
    "city": "Anaheim",
+   "state": "California",
    "country": "United States",
-   "facility": "Anaheim Clinical Trials, LLC",
+   "status": null,
    "lat": 33.83529,
-   "lon": -117.9145,
-   "state": "California",
-   "status": null
+   "lon": -117.9145
   },
   {
-   "city": "Canoga Park",
+   "facility": "Anaheim Clinical Trials, LLC",
+   "city": "Anaheim",
+   "state": "California",
    "country": "United States",
+   "status": null,
+   "lat": 33.83529,
+   "lon": -117.9145
+  },
+  {
    "facility": "Hope Clinical Research",
+   "city": "Canoga Park",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.20112,
-   "lon": -118.59814,
-   "state": "California",
-   "status": null
+   "lon": -118.59814
   },
   {
-   "city": "Chula Vista",
-   "country": "United States",
    "facility": "San Diego Imaging SDI",
+   "city": "Chula Vista",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 32.64005,
-   "lon": -117.0842,
-   "state": "California",
-   "status": null
+   "lon": -117.0842
   },
   {
-   "city": "Coronado",
-   "country": "United States",
    "facility": "Sharp Coronado Hospital",
-   "lat": 32.68589,
-   "lon": -117.18309,
-   "state": "California",
-   "status": null
-  },
-  {
    "city": "Coronado",
+   "state": "California",
    "country": "United States",
-   "facility": "Southern California Research Center",
+   "status": null,
    "lat": 32.68589,
-   "lon": -117.18309,
-   "state": "California",
-   "status": null
+   "lon": -117.18309
   },
   {
-   "city": "Harbor City",
+   "facility": "Southern California Research Center",
+   "city": "Coronado",
+   "state": "California",
    "country": "United States",
+   "status": null,
+   "lat": 32.68589,
+   "lon": -117.18309
+  },
+  {
    "facility": "Holy Trinity Medical Clinic",
-   "lat": 33.79002,
-   "lon": -118.29785,
-   "state": "California",
-   "status": null
-  },
-  {
    "city": "Harbor City",
+   "state": "California",
    "country": "United States",
-   "facility": "Innovative Clinical Research, Inc.",
+   "status": null,
    "lat": 33.79002,
-   "lon": -118.29785,
-   "state": "California",
-   "status": null
+   "lon": -118.29785
   },
   {
-   "city": "Inglewood",
+   "facility": "Innovative Clinical Research, Inc.",
+   "city": "Harbor City",
+   "state": "California",
    "country": "United States",
+   "status": null,
+   "lat": 33.79002,
+   "lon": -118.29785
+  },
+  {
    "facility": "ICM Medical Group",
+   "city": "Inglewood",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.96168,
-   "lon": -118.35313,
-   "state": "California",
-   "status": null
+   "lon": -118.35313
   },
   {
-   "city": "La Mesa",
-   "country": "United States",
    "facility": "eStudySite",
+   "city": "La Mesa",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 32.76783,
-   "lon": -117.02308,
-   "state": "California",
-   "status": null
+   "lon": -117.02308
   },
   {
-   "city": "Lincoln",
-   "country": "United States",
    "facility": "Clinical Trials Research",
+   "city": "Lincoln",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 38.89156,
-   "lon": -121.29301,
-   "state": "California",
-   "status": null
+   "lon": -121.29301
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "National Research Institute",
+   "city": "Los Angeles",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": null
+   "lon": -118.24368
   },
   {
-   "city": "Northridge",
-   "country": "United States",
    "facility": "Renaissance Imaging Medical Associates",
+   "city": "Northridge",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.22834,
-   "lon": -118.53675,
-   "state": "California",
-   "status": null
+   "lon": -118.53675
   },
   {
-   "city": "Pasadena",
-   "country": "United States",
    "facility": "Huntington Medical Research Institute",
+   "city": "Pasadena",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.14778,
-   "lon": -118.14452,
-   "state": "California",
-   "status": null
+   "lon": -118.14452
   },
   {
-   "city": "Rialto",
-   "country": "United States",
    "facility": "Inland Empire Clinical Trials, LLC",
+   "city": "Rialto",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.1064,
-   "lon": -117.37032,
-   "state": "California",
-   "status": null
+   "lon": -117.37032
   },
   {
-   "city": "Sacramento",
-   "country": "United States",
    "facility": "Diagnostic Radiological Imaging Sacramento",
+   "city": "Sacramento",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 38.58157,
-   "lon": -121.4944,
-   "state": "California",
-   "status": null
+   "lon": -121.4944
   },
   {
-   "city": "San Diego",
-   "country": "United States",
    "facility": "Precision Research Institute",
-   "lat": 32.71571,
-   "lon": -117.16472,
+   "city": "San Diego",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.71571,
+   "lon": -117.16472
   },
   {
-   "city": "San Diego",
-   "country": "United States",
    "facility": "Sharp & Children's MRI Center, LLC",
-   "lat": 32.71571,
-   "lon": -117.16472,
-   "state": "California",
-   "status": null
-  },
-  {
    "city": "San Diego",
+   "state": "California",
    "country": "United States",
-   "facility": "Sharp and Children's MRI Center, LLC",
+   "status": null,
    "lat": 32.71571,
-   "lon": -117.16472,
-   "state": "California",
-   "status": null
+   "lon": -117.16472
   },
   {
-   "city": "Santa Ana",
+   "facility": "Sharp and Children's MRI Center, LLC",
+   "city": "San Diego",
+   "state": "California",
    "country": "United States",
+   "status": null,
+   "lat": 32.71571,
+   "lon": -117.16472
+  },
+  {
    "facility": "West Coast Radiology",
+   "city": "Santa Ana",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.74557,
-   "lon": -117.86783,
-   "state": "California",
-   "status": null
+   "lon": -117.86783
   },
   {
-   "city": "Spring Valley",
-   "country": "United States",
    "facility": "Encompass Clinical Research",
+   "city": "Spring Valley",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 32.74477,
-   "lon": -116.99892,
-   "state": "California",
-   "status": null
+   "lon": -116.99892
   },
   {
-   "city": "Tarzana",
-   "country": "United States",
    "facility": "Liberty Pacific Advanced Imaging",
+   "city": "Tarzana",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.17334,
-   "lon": -118.55397,
-   "state": "California",
-   "status": null
+   "lon": -118.55397
   },
   {
-   "city": "Thousand Oaks",
-   "country": "United States",
    "facility": "Advanced Gastroenterology",
+   "city": "Thousand Oaks",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.17056,
-   "lon": -118.83759,
-   "state": "California",
-   "status": null
+   "lon": -118.83759
   },
   {
-   "city": "Tustin",
-   "country": "United States",
    "facility": "University Clinical Investigators, Incorporated",
-   "lat": 33.74585,
-   "lon": -117.82617,
+   "city": "Tustin",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.74585,
+   "lon": -117.82617
   },
   {
-   "city": "Atlantis",
-   "country": "United States",
    "facility": "Independant Imaging",
+   "city": "Atlantis",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.5909,
-   "lon": -80.10088,
-   "state": "Florida",
-   "status": null
+   "lon": -80.10088
   },
   {
-   "city": "Daytona Beach",
-   "country": "United States",
    "facility": "Twin Lakes Imaging",
+   "city": "Daytona Beach",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.21081,
-   "lon": -81.02283,
-   "state": "Florida",
-   "status": null
+   "lon": -81.02283
   },
   {
-   "city": "Doral",
-   "country": "United States",
    "facility": "Life Radiology",
+   "city": "Doral",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.81954,
-   "lon": -80.35533,
-   "state": "Florida",
-   "status": null
+   "lon": -80.35533
   },
   {
-   "city": "Hallandale",
-   "country": "United States",
    "facility": "MD Clinical LLC",
+   "city": "Hallandale",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.9812,
-   "lon": -80.14838,
-   "state": "Florida",
-   "status": null
+   "lon": -80.14838
   },
   {
-   "city": "Jacksonville",
-   "country": "United States",
    "facility": "Borland Groover",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 30.33218,
-   "lon": -81.65565,
-   "state": "Florida",
-   "status": null
+   "lon": -81.65565
   },
   {
-   "city": "Lake City",
-   "country": "United States",
    "facility": "Multi-Specialty Research Associates, Inc.",
+   "city": "Lake City",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 30.18968,
-   "lon": -82.63929,
-   "state": "Florida",
-   "status": null
+   "lon": -82.63929
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Clinical Research of Miami",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Finlay Medical Research",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Health Care Family Rehab and Research Center",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "International Research Associates",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Stand Up MRI of Miami",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Suncoast Research Group, LLC",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Unique Imaging",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Unique Imaging",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Vital Imaging",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Vital Imaging Center",
-   "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
-  },
-  {
    "city": "Miami",
+   "state": "Florida",
    "country": "United States",
-   "facility": "Y & L Advance Health Care, Inc D/B/A Elite Clinical Research",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
-   "city": "Miami Lakes",
+   "facility": "Y & L Advance Health Care, Inc D/B/A Elite Clinical Research",
+   "city": "Miami",
+   "state": "Florida",
    "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
+  },
+  {
    "facility": "Panax Clinical Research",
+   "city": "Miami Lakes",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.90871,
-   "lon": -80.30866,
-   "state": "Florida",
-   "status": null
+   "lon": -80.30866
   },
   {
-   "city": "Palm Harbor",
-   "country": "United States",
    "facility": "Advanced Gastroenterology Associates, LLC",
-   "lat": 28.07807,
-   "lon": -82.76371,
-   "state": "Florida",
-   "status": null
-  },
-  {
    "city": "Palm Harbor",
+   "state": "Florida",
    "country": "United States",
-   "facility": "Rose Radiology",
+   "status": null,
    "lat": 28.07807,
-   "lon": -82.76371,
-   "state": "Florida",
-   "status": null
+   "lon": -82.76371
   },
   {
-   "city": "Palm Springs",
+   "facility": "Rose Radiology",
+   "city": "Palm Harbor",
+   "state": "Florida",
    "country": "United States",
+   "status": null,
+   "lat": 28.07807,
+   "lon": -82.76371
+  },
+  {
    "facility": "Castillo & Torres MD PA",
-   "lat": 26.6359,
-   "lon": -80.09615,
-   "state": "Florida",
-   "status": null
-  },
-  {
    "city": "Palm Springs",
+   "state": "Florida",
    "country": "United States",
-   "facility": "Ctmd Research Inc",
+   "status": null,
    "lat": 26.6359,
-   "lon": -80.09615,
-   "state": "Florida",
-   "status": null
+   "lon": -80.09615
   },
   {
-   "city": "Port Orange",
+   "facility": "Ctmd Research Inc",
+   "city": "Palm Springs",
+   "state": "Florida",
    "country": "United States",
+   "status": null,
+   "lat": 26.6359,
+   "lon": -80.09615
+  },
+  {
    "facility": "Progressive Medical Research",
+   "city": "Port Orange",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.13832,
-   "lon": -80.99561,
-   "state": "Florida",
-   "status": null
+   "lon": -80.99561
   },
   {
-   "city": "South Miami",
-   "country": "United States",
    "facility": "Qps-Mra, Llc",
-   "lat": 25.7076,
-   "lon": -80.29338,
+   "city": "South Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.7076,
+   "lon": -80.29338
   },
   {
-   "city": "Lawrenceville",
-   "country": "United States",
    "facility": "Physicians Research Associates , LLC",
-   "lat": 33.95621,
-   "lon": -83.98796,
+   "city": "Lawrenceville",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.95621,
+   "lon": -83.98796
   },
   {
-   "city": "Honolulu",
-   "country": "United States",
    "facility": "East-West Medical Research Institute",
-   "lat": 21.30694,
-   "lon": -157.85833,
+   "city": "Honolulu",
    "state": "Hawaii",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
-   "city": "Wichita",
-   "country": "United States",
    "facility": "Alliance Multispecialty Research, LLC",
-   "lat": 37.69224,
-   "lon": -97.33754,
+   "city": "Wichita",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.69224,
+   "lon": -97.33754
   },
   {
-   "city": "Flint",
-   "country": "United States",
    "facility": "AA MRC",
-   "lat": 43.01253,
-   "lon": -83.68746,
+   "city": "Flint",
    "state": "Michigan",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.01253,
+   "lon": -83.68746
   },
   {
-   "city": "Omaha",
-   "country": "United States",
    "facility": "Nebraska Medicine",
-   "lat": 41.25626,
-   "lon": -95.94043,
-   "state": "Nebraska",
-   "status": null
-  },
-  {
    "city": "Omaha",
-   "country": "United States",
-   "facility": "University of Nebraska Medical Center",
-   "lat": 41.25626,
-   "lon": -95.94043,
    "state": "Nebraska",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.25626,
+   "lon": -95.94043
   },
   {
-   "city": "Las Vegas",
+   "facility": "University of Nebraska Medical Center",
+   "city": "Omaha",
+   "state": "Nebraska",
    "country": "United States",
+   "status": null,
+   "lat": 41.25626,
+   "lon": -95.94043
+  },
+  {
    "facility": "Alliance for Multispecialty, LLC",
-   "lat": 36.17497,
-   "lon": -115.13722,
+   "city": "Las Vegas",
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
-   "city": "Las Vegas",
-   "country": "United States",
    "facility": "Desert Radiology",
-   "lat": 36.17497,
-   "lon": -115.13722,
+   "city": "Las Vegas",
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
-   "city": "Las Vegas",
-   "country": "United States",
    "facility": "Excel Clinical Research",
-   "lat": 36.17497,
-   "lon": -115.13722,
-   "state": "Nevada",
-   "status": null
-  },
-  {
    "city": "Las Vegas",
-   "country": "United States",
-   "facility": "Pueblo Imaging",
-   "lat": 36.17497,
-   "lon": -115.13722,
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
-   "city": "Garden City",
+   "facility": "Pueblo Imaging",
+   "city": "Las Vegas",
+   "state": "Nevada",
    "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
+  },
+  {
    "facility": "Northwell Imaging of Garden City",
+   "city": "Garden City",
+   "state": "New York",
+   "country": "United States",
+   "status": null,
    "lat": 40.72677,
-   "lon": -73.6343,
-   "state": "New York",
-   "status": null
+   "lon": -73.6343
   },
   {
-   "city": "Manhasset",
-   "country": "United States",
    "facility": "Northwell Health - Center for Liver Diseases and Transplantation",
-   "lat": 40.79788,
-   "lon": -73.69957,
+   "city": "Manhasset",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.79788,
+   "lon": -73.69957
   },
   {
-   "city": "Wilmington",
-   "country": "United States",
    "facility": "PMG Research of Wilmington",
+   "city": "Wilmington",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 34.23556,
-   "lon": -77.94604,
-   "state": "North Carolina",
-   "status": null
+   "lon": -77.94604
   },
   {
-   "city": "Winston-Salem",
-   "country": "United States",
    "facility": "Gastroenterology Associates of the Piedmont, PA",
-   "lat": 36.09986,
-   "lon": -80.24422,
-   "state": "North Carolina",
-   "status": null
-  },
-  {
    "city": "Winston-Salem",
-   "country": "United States",
-   "facility": "PMG Research of Winston Salem",
-   "lat": 36.09986,
-   "lon": -80.24422,
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.09986,
+   "lon": -80.24422
   },
   {
-   "city": "Cincinnati",
+   "facility": "PMG Research of Winston Salem",
+   "city": "Winston-Salem",
+   "state": "North Carolina",
    "country": "United States",
+   "status": null,
+   "lat": 36.09986,
+   "lon": -80.24422
+  },
+  {
    "facility": "CTI Clinical Research Center",
-   "lat": 39.12711,
-   "lon": -84.51439,
-   "state": "Ohio",
-   "status": null
-  },
-  {
    "city": "Cincinnati",
+   "state": "Ohio",
    "country": "United States",
-   "facility": "ProScan",
+   "status": null,
    "lat": 39.12711,
-   "lon": -84.51439,
-   "state": "Ohio",
-   "status": null
+   "lon": -84.51439
   },
   {
-   "city": "Marion",
+   "facility": "ProScan",
+   "city": "Cincinnati",
+   "state": "Ohio",
    "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
+  },
+  {
    "facility": "RAS Health",
-   "lat": 40.58867,
-   "lon": -83.12852,
+   "city": "Marion",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.58867,
+   "lon": -83.12852
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Dallas Diabetes and Endocrine Research Center",
-   "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
-  },
-  {
    "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
-   "facility": "Southwest Diagnostics Imaging Center",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
-   "city": "Houston",
+   "facility": "Southwest Diagnostics Imaging Center",
+   "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
+   "status": null,
+   "lat": 32.78306,
+   "lon": -96.80667
+  },
+  {
    "facility": "Endocrine IPS, PLLC",
-   "lat": 29.76328,
-   "lon": -95.36327,
+   "city": "Houston",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "Houston Medical Imaging",
-   "lat": 29.76328,
-   "lon": -95.36327,
+   "city": "Houston",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "PrimeCare Medical Group",
-   "lat": 29.76328,
-   "lon": -95.36327,
+   "city": "Houston",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "Texas Center for Drug Development",
-   "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": null
-  },
-  {
    "city": "Houston",
+   "state": "Texas",
    "country": "United States",
-   "facility": "The Endocrine Center",
+   "status": null,
    "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": null
+   "lon": -95.36327
   },
   {
-   "city": "Live Oak",
+   "facility": "The Endocrine Center",
+   "city": "Houston",
+   "state": "Texas",
    "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
+  },
+  {
    "facility": "South Texas Radiology Imaging Centers",
+   "city": "Live Oak",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 29.56523,
-   "lon": -98.3364,
-   "state": "Texas",
-   "status": null
+   "lon": -98.3364
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Clinical Trials of Texas",
-   "lat": 29.42412,
-   "lon": -98.49363,
-   "state": "Texas",
-   "status": null
-  },
-  {
    "city": "San Antonio",
+   "state": "Texas",
    "country": "United States",
-   "facility": "STRIC Northeast Imaging Center",
+   "status": null,
    "lat": 29.42412,
-   "lon": -98.49363,
-   "state": "Texas",
-   "status": null
+   "lon": -98.49363
   },
   {
-   "city": "Schertz",
+   "facility": "STRIC Northeast Imaging Center",
+   "city": "San Antonio",
+   "state": "Texas",
    "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
+  },
+  {
    "facility": "Northeast Clinical Research of San Antonio, LLC (NECRSA, LLC)",
-   "lat": 29.55217,
-   "lon": -98.26973,
+   "city": "Schertz",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.55217,
+   "lon": -98.26973
   },
   {
-   "city": "Richmond",
-   "country": "United States",
    "facility": "Clinical Research Partners, LLC",
-   "lat": 37.55376,
-   "lon": -77.46026,
+   "city": "Richmond",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.55376,
+   "lon": -77.46026
   },
   {
-   "city": "Richmond",
-   "country": "United States",
    "facility": "VCU Gateway Building Basement",
-   "lat": 37.55376,
-   "lon": -77.46026,
-   "state": "Virginia",
-   "status": null
-  },
-  {
    "city": "Richmond",
+   "state": "Virginia",
    "country": "United States",
-   "facility": "Virginia Endoscopy Group",
+   "status": null,
    "lat": 37.55376,
-   "lon": -77.46026,
-   "state": "Virginia",
-   "status": null
+   "lon": -77.46026
   },
   {
-   "city": "Salem",
+   "facility": "Virginia Endoscopy Group",
+   "city": "Richmond",
+   "state": "Virginia",
    "country": "United States",
+   "status": null,
+   "lat": 37.55376,
+   "lon": -77.46026
+  },
+  {
    "facility": "Salem VA Medical Center",
-   "lat": 37.29347,
-   "lon": -80.05476,
+   "city": "Salem",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.29347,
+   "lon": -80.05476
   },
   {
-   "city": "Seattle",
-   "country": "United States",
    "facility": "Harborview Medical Center",
-   "lat": 47.60621,
-   "lon": -122.33207,
+   "city": "Seattle",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.60621,
+   "lon": -122.33207
   },
   {
-   "city": "Seattle",
-   "country": "United States",
    "facility": "Harborview Medical Center Investigational Drug Services",
-   "lat": 47.60621,
-   "lon": -122.33207,
+   "city": "Seattle",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.60621,
+   "lon": -122.33207
   },
   {
-   "city": "Seattle",
-   "country": "United States",
    "facility": "University of Washington Medical Center",
-   "lat": 47.60621,
-   "lon": -122.33207,
+   "city": "Seattle",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.60621,
+   "lon": -122.33207
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03969719",

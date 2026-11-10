@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Phenomix Sciences"
+  "name": "Phenomix Sciences",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,33 +51,33 @@
  ],
  "interventions": [
   {
+   "type": "GENETIC",
    "name": "Genetic Test",
    "other_names": [
     "MyPhenome Test"
-   ],
-   "type": "GENETIC"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Anti-Obesity Medication (AOM) treatment",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Standard of Care Medication Selection",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Anti-Obesity Medication (AOM) treatment"
-   ],
-   "label": "Standard of Care Medication Selection",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "MyPhenome Test",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Genetic: Genetic Test",
     "Drug: Anti-Obesity Medication (AOM) treatment"
-   ],
-   "label": "MyPhenome Test",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "A pragmatic, randomized, parallel-arm, controlled study of weight loss outcomes using AOMs guided by MyPhenome test.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults - age 18 or older\n* obesity (BMI ≥ 30 kg/m2) without obesity related diseases (ORDs). Or obesity (BMI ≥ 27 kg/m2) with obesity related diseases (ORDs).\n* Mayo Clinic employee or dependent\n* Referred to Community Internal Medicine Weight Management Program\n\nExclusion Criteria:\n\n* Pregnancy or currently breast feeding.\n* No contraindications to the weight loss medications: Phentermine-Topiramate Extended Release (Qsymia®); Oral naltrexone extended-release/bupropion extended-release (NBSR; Contrave®, Mysimba™); Liraglutide (Saxenda®), Semaglutide (Wegovy®), and Tirzepatide (Zepbound®).",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

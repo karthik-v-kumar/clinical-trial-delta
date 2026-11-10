@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "DIAGNOSTIC",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Nemours Children's Clinic"
+  "name": "Nemours Children's Clinic",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
+   "type": "PROCEDURE",
    "name": "Hyperglycemic clamp",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   },
   {
+   "type": "PROCEDURE",
    "name": "Hyperinsulinemic Euglycemic clamp",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Type 2 Diabetes",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Hyperglycemic clamp",
     "Procedure: Hyperinsulinemic Euglycemic clamp"
-   ],
-   "label": "Type 2 Diabetes",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Lean Control",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   },
   {
-   "intervention_names": [],
    "label": "Obese Control",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "This study evaluates differences in brain function and cognitive performance in adolescents with type 2 diabetes (T2D) compared to non diabetic controls (both obese and lean) and correlates these changes with obesity, insulin resistance, and glycemic control in youth with T2D.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nType 2 Diabetes:\n\n* BMI ≥85th percentile\n* A1c ≥ 8%\n* Pubertal\n\nHealthy Controls:\n\n* BMI ≥85th percentile for Obese Controls\n* BMI \\< 85th percentile for Lean Controls\n* Pubertal\n* Normal A1c \\& Fasting glucose\n\nExclusion Criteria:\n\n* Significant developmental delay or learning disability\n* Significant visual or auditory deficits\n* Born \\<34 weeks gestation\n* Neurologic disease\n* Psychiatric disease requiring inpatient treatment\n* Significant head trauma\n* Malignancy\n* Pregnancy\n* Weight \\> 350lb (MRI weight limit)\n* Metal in the body (including dental braces)",
-  "healthy_volunteers": true,
-  "maximum_age": "18 Years",
-  "minimum_age": "12 Years",
   "sex": "ALL",
+  "minimum_age": "12 Years",
+  "maximum_age": "18 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "CHILD",
    "ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "city": "Jacksonville",
-   "country": "United States",
    "facility": "Nemours Children's Health System",
-   "lat": 30.33218,
-   "lon": -81.65565,
+   "city": "Jacksonville",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.33218,
+   "lon": -81.65565
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03461510",

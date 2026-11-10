@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2016-04-15",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Merck Sharp & Dohme LLC"
+  "name": "Merck Sharp & Dohme LLC",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Duke Clinical Research Institute, Oxford Diabetes Trials Unit"
@@ -53,33 +53,33 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "MK-0431",
     "Januvia®"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Sitagliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ],
-   "label": "Sitagliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "This is a clinical trial designed to assess the cardiovascular outcome of long-term treatment with sitagliptin used as part of usual care compared to usual care without sitagliptin in participants with type 2 diabetes mellitus (T2DM) having a history of cardiovascular (CV) disease and a hemoglobin A1c (HbA1c) of 6.5% to 8.0%.\n\nPrimary hypothesis A is that sitagliptin, when used as part of usual care, is non-inferior to usual care without sitagliptin with regard to the risk of developing a confirmed event in the primary CV composite endpoint of Major Adverse Cardiovascular Event (MACE) plus. If hypothesis A is satisfied: hypothesis B is that sitagliptin, when used as part of usual care, is superior to usual care without sitagliptin with regard to the risk of developing a confirmed event in the primary CV composite endpoint.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Has T2DM\n* Has HbA1c between 6.5% (48 mmol/mol) and 8.0% (64 mmol/mol) on stable dose(s) of antihyperglycemic agent(s), including insulin\n* Has pre-existing cardiovascular disease\n\nExclusion Criteria:\n\n* Has a history of type 1 diabetes mellitus or ketoacidosis.\n* Is not able to take sitagliptin",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "50 Years",
   "sex": "ALL",
+  "minimum_age": "50 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

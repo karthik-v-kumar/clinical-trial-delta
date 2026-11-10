@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "National Cancer Institute, Egypt"
+  "name": "National Cancer Institute, Egypt",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Rosuvastatin 20mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "PROCEDURE",
    "name": "surgical castration",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Control/statin non-users",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: surgical castration"
-   ],
-   "label": "Control/statin non-users",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Interventional/statin users",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Rosuvastatin 20mg"
-   ],
-   "label": "Interventional/statin users",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -115,10 +115,10 @@
  "brief_summary": "Aim: The role of surgical castration and rosuvastatin treatment on lipid profile and lipid metabolism related markers was evaluated for their prognostic significance in metastatic prostate cancer (mPC) patients.\n\nMethods: A total of 70 newly diagnosed castrated mPC patients treated with castration were recruited and divided into two groups: Group I included 30 patients and served as control (statin non-users) while group II included 40 patients treated with Rosuvastatin (20 mg/day) for 6 months and served as statin users. Prostate specific antigen (PSA), epidermal growth factor receptor (EGFR), Caveolin-1, lipid profile (LDL, HDL, triglycerides and cholesterol) and lipid metabolism related markers (aldoketoreductase (AKR1C4), HMGCoA reductase, ABCA1, and SLDL RP1) were measured at baseline, after 3 and 6 months. Overall survival (OS) were analyzed by Kaplan-Meier and COX regression for prognostic significance.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Naïve newly diagnosed with metastatic prostate cancer\n* Age ≥ 50 years.\n* No psychological or geographical barriers for regular follow up of the patients.\n\nExclusion Criteria:\n\n* Age \\< 50 years.\n* psychological or geographical barriers for regular follow up of the patients.",
-  "healthy_volunteers": false,
-  "maximum_age": "85 Years",
-  "minimum_age": "50 Years",
   "sex": "MALE",
+  "minimum_age": "50 Years",
+  "maximum_age": "85 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -126,13 +126,13 @@
  },
  "sites": [
   {
-   "city": "Cairo",
-   "country": "Egypt",
    "facility": "National Cancer Institute",
-   "lat": 30.06263,
-   "lon": 31.24967,
+   "city": "Cairo",
    "state": null,
-   "status": null
+   "country": "Egypt",
+   "status": null,
+   "lat": 30.06263,
+   "lon": 31.24967
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04776889",

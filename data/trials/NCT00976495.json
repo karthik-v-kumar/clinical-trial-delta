@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": "2017-03-08",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Astra Zeneca, Bristol-Myers Squibb"
@@ -53,38 +53,38 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "BMS-512148"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Hydrochlorothiazide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin",
     "Drug: Placebo"
-   ],
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Hydrochlorothiazide",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Hydrochlorothiazide"
-   ],
-   "label": "Hydrochlorothiazide",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effects of dapagliflozin on kidney function, as assessed by glomerular filtration rate.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes and inadequate glycemic control, defined as A1C ≥ 6.6 and ≤ 9.5%\n* Stable dose of metformin AND/OR a sulfonylurea, for at least 4 weeks prior to the enrollment visit\n* Inadequate blood pressure (BP) control, defined as systolic BP (SBP) ≥ 130 and \\< 165 mmHg, AND/OR diastolic BP (DBP) ≥ 80 and \\< 105 mmHg\n* C-peptide ≥ 0.8 ng/mL\n* Estimated GFR by the Modification of Diet in Renal Disease (MDRD) formula \\> 60 mL/min/1.73m² and \\< 150 mL/min/1.73m²\n* Urine albumin:creatinine ratio (UACR) \\< 300 mg/g\n* BMI ≤ 45.0 kg/m2\n\nExclusion Criteria:\n\n* Administration of diuretics or other medication approved for the treatment of hypertension (with the exception of either ACEI or ARB), at any dose during the 12 weeks prior to the enrollment visit\n* History of adverse reaction to radio-contrast dye\n* Allergy or contraindication to use of thiazide diuretics\n* Aspartate Aminotransferase (AST) \\> 3X Upper limit of normal (ULN)\n* Alanine aminotransferase (ALT) \\> 3X ULN\n* Serum Total Bilirubin \\> 1.5X ULN\n* Serum Creatinine (Scr) ≥ 1.50 mg/dL (133 μmol/l) for men; SCr ≥ 1.40 mg/dL (124 μmol/l) for women\n* Currently unstable or serious cardiovascular, renal, hepatic, hematological, oncologic, endocrine, psychiatric, or rheumatic diseases",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,112 +107,112 @@
  },
  "sites": [
   {
+   "facility": "Local Institution",
    "city": "Toronto",
-   "country": "Canada",
-   "facility": "Local Institution",
-   "lat": 43.65333,
-   "lon": -79.38389,
    "state": "Ontario",
-   "status": null
-  },
-  {
-   "city": "Laval",
    "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
+  },
+  {
    "facility": "Local Institution",
-   "lat": 45.56995,
-   "lon": -73.692,
+   "city": "Laval",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.56995,
+   "lon": -73.692
   },
   {
-   "city": "Groningen",
-   "country": "Netherlands",
    "facility": "Local Institution",
-   "lat": 53.21917,
-   "lon": 6.56667,
+   "city": "Groningen",
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 53.21917,
+   "lon": 6.56667
   },
   {
-   "city": "Anaheim",
-   "country": "United States",
    "facility": "Advanced Clinical Res Inst",
+   "city": "Anaheim",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.83529,
-   "lon": -117.9145,
-   "state": "California",
-   "status": null
+   "lon": -117.9145
   },
   {
-   "city": "Lomita",
-   "country": "United States",
    "facility": "Torrance Clinical Research",
-   "lat": 33.79224,
-   "lon": -118.31507,
+   "city": "Lomita",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.79224,
+   "lon": -118.31507
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Elite Research Institute",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
-   "city": "Orlando",
-   "country": "United States",
    "facility": "Compass Research, Llc",
-   "lat": 28.53834,
-   "lon": -81.37924,
-   "state": "Florida",
-   "status": null
-  },
-  {
    "city": "Orlando",
-   "country": "United States",
-   "facility": "Orlando Clinical Research Center",
-   "lat": 28.53834,
-   "lon": -81.37924,
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 28.53834,
+   "lon": -81.37924
   },
   {
-   "city": "Ann Arbor",
+   "facility": "Orlando Clinical Research Center",
+   "city": "Orlando",
+   "state": "Florida",
    "country": "United States",
+   "status": null,
+   "lat": 28.53834,
+   "lon": -81.37924
+  },
+  {
    "facility": "University Of Michigan",
-   "lat": 42.27756,
-   "lon": -83.74088,
+   "city": "Ann Arbor",
    "state": "Michigan",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.27756,
+   "lon": -83.74088
   },
   {
-   "city": "Saint Paul",
-   "country": "United States",
    "facility": "Prism Research",
-   "lat": 44.94441,
-   "lon": -93.09327,
+   "city": "Saint Paul",
    "state": "Minnesota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.94441,
+   "lon": -93.09327
   },
   {
-   "city": "Pawtucket",
-   "country": "United States",
    "facility": "Memorial Hospital Of Rhode Island",
-   "lat": 41.87871,
-   "lon": -71.38256,
+   "city": "Pawtucket",
    "state": "Rhode Island",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.87871,
+   "lon": -71.38256
   },
   {
-   "city": "Milwaukee",
-   "country": "United States",
    "facility": "Zablocki Veterans Affairs Medical Center",
-   "lat": 43.0389,
-   "lon": -87.90647,
+   "city": "Milwaukee",
    "state": "Wisconsin",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.0389,
+   "lon": -87.90647
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00976495",

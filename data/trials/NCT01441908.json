@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "SCREENING",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "MaiHealth Inc"
+  "name": "MaiHealth Inc",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Pravastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [],
    "label": "Control Group",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   },
   {
+   "label": "Statin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pravastatin"
-   ],
-   "label": "Statin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -76,10 +76,10 @@
  "brief_summary": "The primary objective of this study is to determine any changes in cardiovascular risk among individuals receiving a statin by assessing their multi-analyte profile.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Sign and Date IRB approved consent form\n* Be between 30-65 years of age as of date of consent\n* Have a total cholesterol value of 200-300 (units)\n* Have an LDL cholesterol value of \\> 100 (units)\n* Able to speak and understand English\n* Willing and able to participate for the 6 months required by the study\n* Willing and able to provide fasting blood specimens\n* Women of child-bearing potential must have a negative pregnancy test at screening\n* Medically (appropriate) eligible to take the statin as determined by PI\n\nExclusion Criteria:\n\n* Have a body Mass Index (BMI) \\> or = 35\n* Pregnant (or planning to become pregnant during the course of the study)\n* Currently taking a statin or discontinued taking a statin within 9 months of the date of screening",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -87,13 +87,13 @@
  },
  "sites": [
   {
-   "city": "Raleigh",
-   "country": "United States",
    "facility": "Wake Research Associates",
-   "lat": 35.7721,
-   "lon": -78.63861,
+   "city": "Raleigh",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.7721,
+   "lon": -78.63861
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01441908",

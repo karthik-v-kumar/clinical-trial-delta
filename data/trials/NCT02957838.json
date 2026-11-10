@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University Hospital Heidelberg"
+  "name": "University Hospital Heidelberg",
+  "class": "OTHER"
  },
  "collaborators": [
   "German Cancer Research Center"
@@ -55,35 +55,35 @@
  ],
  "interventions": [
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "C18:0",
    "other_names": [
     "stearic acid",
     "stearic acid, Sigma-Aldrich, product number W303518"
-   ],
-   "type": "DIETARY_SUPPLEMENT"
+   ]
   },
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "mock",
-   "other_names": [],
-   "type": "DIETARY_SUPPLEMENT"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Non-diabetics",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: C18:0",
     "Dietary Supplement: mock"
-   ],
-   "label": "Non-diabetics",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Type 2 Diabetics",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: C18:0",
     "Dietary Supplement: mock"
-   ],
-   "label": "Type 2 Diabetics",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The purpose of this crossover study is to determine whether nutritional supplementation of C18:0 in humans has mitochondrial effects as shown in Drosophila and human cell culture. We will compare a study cohort of patients with diagnosed type 2 diabetes with non-diabetics. Participants will undergo a 2-day low-fat vegan diet and will then be supplemented with a bolus of C18:0. Changes in the mitochondrial morphology and function of white blood cells will be scored by immunofluorescence and FACS analysis.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetes, either dietary treatment or oral medication\n* must be able to give consent\n\nExclusion Criteria:\n\n* insulin treated diabetes mellitus\n* severe diseases inducing wasting (e.g. cancer, liver cirrhosis, renal failure)\n* conditions of malnourishment\n* severe anemia\n* pregnancy\n* alcohol abuse",
-  "healthy_volunteers": true,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "city": "Heidelberg",
-   "country": "Germany",
    "facility": "University of Heidelberg",
-   "lat": 49.40768,
-   "lon": 8.69079,
+   "city": "Heidelberg",
    "state": "Baden-Wurttemberg",
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 49.40768,
+   "lon": 8.69079
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02957838",

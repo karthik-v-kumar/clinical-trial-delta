@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "run": {
-  "run_at": "2026-11-09T21:21:27-08:00",
-  "date": "2026-11-09",
+  "run_at": "2026-11-10T14:46:22-08:00",
+  "date": "2026-11-10",
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "judge_model": "gemini-3.6-flash",
@@ -14,12 +14,11 @@
   "judge_status": "scored",
   "judge_note": null,
   "golden_cases": 30,
-  "passed": 29,
-  "failed": 1,
+  "passed": 30,
+  "failed": 0,
   "no_output": 0,
   "requests": {
-   "gemini-3.5-flash-lite": 21,
-   "gemini-3.6-flash": 16
+   "gemini-3.6-flash": 7
   }
  },
  "by_type": [
@@ -27,13 +26,13 @@
    "type": "summary",
    "label": "Summary faithfulness",
    "cases": 13,
-   "passed": 12,
-   "failed": 1,
+   "passed": 13,
+   "failed": 0,
    "no_output": 0,
-   "pass_rate": 0.9231,
+   "pass_rate": 1.0,
    "judge": {
     "status": "scored",
-    "scored": 10,
+    "scored": 13,
     "faithfulness_mean": 5.0,
     "clarity_mean": 5.0
    }
@@ -62,19 +61,19 @@
    "no_output": 0,
    "pass_rate": 1.0,
    "judge": {
-    "status": "not_run",
-    "scored": 0,
-    "faithfulness_mean": null,
-    "clarity_mean": null
+    "status": "scored",
+    "scored": 1,
+    "faithfulness_mean": 5.0,
+    "clarity_mean": 5.0
    }
   }
  ],
  "production": {
-  "published": 92,
-  "checked": 92,
-  "passed": 92,
+  "published": 169,
+  "checked": 168,
+  "passed": 168,
   "failed": 0,
-  "stale": 0,
+  "stale": 1,
   "rejected": 0,
   "failures": []
  },
@@ -137,7 +136,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:15:10-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -208,7 +207,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:16:01-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -278,7 +277,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:16:30-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -348,7 +347,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:16:36-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -421,7 +420,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:16:43-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -491,7 +490,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:18:46-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -563,7 +562,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:19:04-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -634,7 +633,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:19:26-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -705,7 +704,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:19:58-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -779,12 +778,10 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:20:04-08:00",
-    "cached": false
+    "cached": true
    },
-   "status": "fail",
-   "problems": [
-    "malformed NCT number 'NCT'"
-   ],
+   "status": "pass",
+   "problems": [],
    "judge": {
     "faithfulness": 5,
     "clarity": 5,
@@ -851,13 +848,17 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:20:27-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The summary is completely accurate according to the trial record and is written in clear, accessible language.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -918,13 +919,17 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:20:34-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The summary is fully accurate according to the trial record and is written in clear, plain language.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -984,13 +989,17 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "summary-v1-a3185a",
     "generated_at": "2026-11-09T21:20:40-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The summary is accurate, well-explained in plain language, and fully supported by the trial registry record.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -1767,13 +1776,17 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "ask-v1-b9a396",
     "generated_at": "2026-11-09T21:20:45-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The response accurately states that the specific numerical weight loss results are not provided in the record text.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -1828,7 +1841,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "ask-v1-b9a396",
     "generated_at": "2026-11-09T21:20:52-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -1886,7 +1899,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "ask-v1-b9a396",
     "generated_at": "2026-11-09T21:20:57-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -1946,7 +1959,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "ask-v1-b9a396",
     "generated_at": "2026-11-09T21:21:03-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -2008,7 +2021,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "ask-v1-b9a396",
     "generated_at": "2026-11-09T21:21:09-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -2065,7 +2078,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "ask-v1-b9a396",
     "generated_at": "2026-11-09T21:21:15-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -2123,7 +2136,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "ask-v1-b9a396",
     "generated_at": "2026-11-09T21:21:21-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],
@@ -2186,7 +2199,7 @@
     "model": "gemini-3.5-flash-lite",
     "prompt_version": "ask-v1-b9a396",
     "generated_at": "2026-11-09T21:21:27-08:00",
-    "cached": false
+    "cached": true
    },
    "status": "pass",
    "problems": [],

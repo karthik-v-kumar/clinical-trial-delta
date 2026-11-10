@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Skane University Hospital"
+  "name": "Skane University Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "Medical Research Council",
@@ -52,34 +52,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "pioglitazone",
    "other_names": [
     "Actos"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "insulin glargine",
    "other_names": [
     "Lantus"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: pioglitazone"
-   ],
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin glargine"
-   ],
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Pioglitazone and insulin glargine are equally effective in achieving glycemic control in secondary drug failure of type 2 diabetes but the mechanisms of actions are different.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetes\n* inadequately controlled on 50% of maximal-dose of an insulin secretagogue and metformin\n\nExclusion Criteria:\n\n* heart failure (NYHA II-IV)",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "city": "Malmö",
-   "country": "Sweden",
    "facility": "Malmö University Hospital",
-   "lat": 55.60587,
-   "lon": 13.00073,
+   "city": "Malmö",
    "state": null,
-   "status": null
+   "country": "Sweden",
+   "status": null,
+   "lat": 55.60587,
+   "lon": 13.00073
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00609856",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Prince Sattam Bin Abdulaziz University"
+  "name": "Prince Sattam Bin Abdulaziz University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -50,32 +50,32 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "Exercise training",
    "other_names": [
     "Resistance and aerobic exercise program"
-   ],
-   "type": "OTHER"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Other: Exercise training"
-   ],
    "label": "Resistance exercise group",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Exercise training"
-   ],
-   "label": "Aerobic exercise program",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [],
+   "label": "Aerobic exercise program",
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Other: Exercise training"
+   ]
+  },
+  {
    "label": "Metformin group",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -87,23 +87,23 @@
  "brief_summary": "Background: Both exercise and metformin are used to control blood glucose levels in patients with type 2 diabetes mellitus (T2DM), while no previous studies have investigated the effect of resistance exercise combined with metformin versus aerobic exercise with metformin in T2DM patients. This study was conducted to compare the effects of resistance exercise combined with metformin versus aerobic exercise with metformin in T2DM patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of T2DM\n* Glycated hemoglobin (HbA1c) ≥8.0%\n* A previous inactive lifestyle\n* Not receiving insulin or diabetic medications except for metformin\n* Metformin dosage of 1000-1500 mg daily.\n\nExclusion Criteria:\n\n* Cancer\n* Pregnancy\n* Corticosteroid medications\n* Uncontrolled systemic diseases\n* Any physical limits that affect exercise training",
-  "healthy_volunteers": false,
-  "maximum_age": "55 Years",
-  "minimum_age": "35 Years",
   "sex": "ALL",
+  "minimum_age": "35 Years",
+  "maximum_age": "55 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Al Kharj",
-   "country": "Saudi Arabia",
    "facility": "Prince Sattam bin Abdulaziz University",
-   "lat": 24.15541,
-   "lon": 47.33457,
+   "city": "Al Kharj",
    "state": "Riyadh Region",
-   "status": null
+   "country": "Saudi Arabia",
+   "status": null,
+   "lat": 24.15541,
+   "lon": 47.33457
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05004948",

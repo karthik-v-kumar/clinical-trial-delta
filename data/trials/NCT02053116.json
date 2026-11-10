@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Pfizer"
+  "name": "Pfizer",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "PF-05175157",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "PF-05175157",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: PF-05175157"
-   ],
-   "label": "PF-05175157",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "A Phase 2a study to evaluate the effects of an investigational compound administered at 200 mg, twice daily (BID), for 6 weeks, with canagliflozin, in adult subjects with Type 2 Diabetes Mellitus (T2DM).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with Type 2 Diabetes Mellitus and treated with metformin at a dose greater than or equal to 1000 mg for at least 3 months and are willing to switch to canagliflozin from metformin for the duration of the study\n* Hemoglobin A1c of 7-10% at screening.\n* Body Mass Index of at least 25 kg/m2.\n\nExclusion Criteria:\n\n* Compliant with study drug administration during the run-in period and throughout the trial.\n* Patients with fasting triglycerides greater than 500 mg/dL at screening.\n* History of certain diabetic complications or cardiac problems.",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "city": "DeLand",
-   "country": "United States",
    "facility": "Pfizer Investigational Site",
-   "lat": 29.02832,
-   "lon": -81.30312,
+   "city": "DeLand",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.02832,
+   "lon": -81.30312
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02053116",

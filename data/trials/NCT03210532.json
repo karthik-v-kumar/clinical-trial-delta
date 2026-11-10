@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Daewon Pharmaceutical Co., Ltd."
+  "name": "Daewon Pharmaceutical Co., Ltd.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Telmisartan + Amlodipine + Rosuvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Telmisartan + Amlodipine",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Telmisartan + Rosuvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Test",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Telmisartan + Amlodipine + Rosuvastatin"
-   ],
-   "label": "Test",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Reference 1",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Telmisartan + Rosuvastatin"
-   ],
-   "label": "Reference 1",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Reference 2",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Telmisartan + Amlodipine"
-   ],
-   "label": "Reference 2",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "A Multicenter, Randomized, Double-blinded, Double-dummy, Phase 3 Clinical Trial to Evaluate the Efficacy and Safety of Combination Treatment with DW1501-R1+DW1501-R2 Versus DW1501-R1 or DW1501-R2+DW1501-R3 in Patients with Hypertension and Dyslipidemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adults both male and female who are ≥19,\\<80 years old\n* at screening, 140mmHg≤ SBP\\<180mmHg \\& 90mmHg≤ DBP\\<110mmHg \\& LDL-C≤250mg/dL \\& triglyceride\\<400mg/dL\n\nExclusion Criteria:\n\n* at screening, the difference BP of one-side arm is SBP ≥ 20mmHg and DBP ≥ 10mmHg\n* secondary hypertension or secondary dyslipidemia\n* patients who have uncontrolled diabetes melitus, hyper/hypothyroidism or cardiac disease\n* women who are pregnant or lactating",
-  "healthy_volunteers": false,
-  "maximum_age": "79 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "79 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Sevrance Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03210532",

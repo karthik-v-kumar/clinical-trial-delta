@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Hyundai Pharm"
+  "name": "Hyundai Pharm",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Ezetimibe/Rosuvastatin/Candesartan/Amlodipine",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Candesartan/Amlodipine",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Candesartan/Rosuvastatin/Ezetimibe",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "HODO-2224-1+HODO-2224-2+HODO-2224-4",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe/Rosuvastatin/Candesartan/Amlodipine"
-   ],
-   "label": "HODO-2224-1+HODO-2224-2+HODO-2224-4",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "HODO-2224-1+HODO-2224-4+HODO-2224-5",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Candesartan/Amlodipine"
-   ],
-   "label": "HODO-2224-1+HODO-2224-4+HODO-2224-5",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "HODO-2224-2+HODO-2224-3+HODO-2224-6",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Candesartan/Rosuvastatin/Ezetimibe"
-   ],
-   "label": "HODO-2224-2+HODO-2224-3+HODO-2224-6",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "A Multicenter, Randomized, Double-blind, Active-controlled, Parallel group, Phase 3 trial to Evaluate the Efficacy and Safety of Co-administrated HODO-2224-1 and HODO-2224-2 in Patients with Essential Hypertension and Primary Hypercholesterolemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥ 19\n* Patients with Essential Hypertension and Primary Hypercholesterolemia\n\nExclusion Criteria:\n\n* Patients with differences between arms greater than 20 mmHg for mean sitSBP or 10 mmHg for mean sitDBP\n* Patients with mean sitSBP ≥ 180 mmHg or mean sitDBP ≥ 110 mmHg",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Hanyang University Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06646354",

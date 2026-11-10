@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "The University of Texas Health Science Center at San Antonio"
+  "name": "The University of Texas Health Science Center at San Antonio",
+  "class": "OTHER"
  },
  "collaborators": [
   "Janssen Scientific Affairs, LLC"
@@ -54,34 +54,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Canagliflozin 300mg",
    "other_names": [
     "Invokana"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Canagliflozin Placebo"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Canagliflozin Group",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Canagliflozin 300mg"
-   ],
-   "label": "Canagliflozin Group",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo Group",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo Group",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "RESEARCH HYPOTHESIS\n\n* In subjects with T2DM and HF, effect of canagliflozin will be superior to placebo for the change from baseline in PCWP after a single dose (6 hours post-dose) and after 4 weeks.\n* Treatment with canagliflozin will be well tolerated over 4 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* on stable doses (more than 3 months) of antihyperglycemic agents (except for an SGLT2 inhibitor and insulin)\n* have an A1c ≥7% and ≤11%\n* Estimated glomerular filtration rate (eGFR) must be ≥45 ml/min•1.73 m2\n* have an NT-proBNP ≥500 pg/mL\n* be on a stable dose of guideline-directed HF medication (i.e., angiotensin converting enzyme \\[ACE\\] inhibitor, angiotensin II receptor blocker \\[ARB\\], or angiotensin receptor neprilysin inhibitor \\[ARNI\\], β-blocker, diuretics, and/or mineralcorticoid receptor antagonist) for at least 4 weeks\n* be on stable antihypertensive therapy for at least 2 months\n\nExclusion Criteria:\n\n* T1DM\n* repeated fasting plasma glucose (FPG) or fasting self-monitored blood glucose measurements ≥240 mg/dL or both\n* during the pretreatment phase, NYHA Class IV HF status, uncontrolled hypertension as defined as systolic blood pressure (SBP) \\>160 or diastolic blood pressure (DBP) \\>100 mmHg\n* liver disease (ALT or AST \\>3 x ULN)\n* anemia Hb\\<10\n* anticipated cardiac surgery or coronary intervention within the next 3 months\n* severe unremediated valvular heart disease\n* major CV event (e.g., MI, cerebrovascular accident) within 3 months prior to screening visit\n* hospitalization for HF within 2 months prior to screening visit\n* documented atrial fibrillation\n* history of atraumatic amputation within past 12 months of screening or critical ischemia of the lower extremity within 6 months of screening\n* an active skin ulcer, osteomyelitis, or gangrene\n* have an allergy to iodocyanine green and inulin",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "The University of Texas Health Science Center at San Antonio",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03190798",

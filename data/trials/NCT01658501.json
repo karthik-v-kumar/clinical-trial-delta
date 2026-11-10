@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "PhaseBio Pharmaceuticals Inc."
+  "name": "PhaseBio Pharmaceuticals Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,101 +53,103 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "50 mg PB1023",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "70 mg PB1023",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "100 mg PB1023",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo (0.9% Sodium Chloride)",
    "other_names": [
     "SC Weekly Injection"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Victoza®",
    "other_names": [
     "daily SC injection"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "OTHER",
    "name": "Diet and Exercise",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Sulfonylurea",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Metformin and Sulfonylurea",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: 50 mg PB1023",
-    "Drug: 70 mg PB1023",
-    "Drug: 100 mg PB1023",
-    "Drug: Placebo (0.9% Sodium Chloride)",
-    "Drug: Victoza®"
-   ],
    "label": "Diet and Exercise",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: 50 mg PB1023",
     "Drug: 70 mg PB1023",
     "Drug: 100 mg PB1023",
     "Drug: Placebo (0.9% Sodium Chloride)",
     "Drug: Victoza®"
-   ],
+   ]
+  },
+  {
    "label": "Metformin",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: 50 mg PB1023",
     "Drug: 70 mg PB1023",
     "Drug: 100 mg PB1023",
     "Drug: Placebo (0.9% Sodium Chloride)",
     "Drug: Victoza®"
-   ],
+   ]
+  },
+  {
    "label": "Sulfonylurea",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: 50 mg PB1023",
     "Drug: 70 mg PB1023",
     "Drug: 100 mg PB1023",
     "Drug: Placebo (0.9% Sodium Chloride)",
     "Drug: Victoza®"
-   ],
-   "label": "Metformin and Sulfonylurea",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Metformin and Sulfonylurea",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: 50 mg PB1023",
+    "Drug: 70 mg PB1023",
+    "Drug: 100 mg PB1023",
+    "Drug: Placebo (0.9% Sodium Chloride)",
+    "Drug: Victoza®"
+   ]
+  },
+  {
+   "label": "PB1023",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: 50 mg PB1023",
     "Drug: 70 mg PB1023",
@@ -156,31 +158,29 @@
     "Drug: Metformin",
     "Drug: Sulfonylurea",
     "Drug: Metformin and Sulfonylurea"
-   ],
-   "label": "PB1023",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo Comparator",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo (0.9% Sodium Chloride)",
     "Other: Diet and Exercise",
     "Drug: Metformin",
     "Drug: Sulfonylurea",
     "Drug: Metformin and Sulfonylurea"
-   ],
-   "label": "Placebo Comparator",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Active Comparator",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Victoza®",
     "Other: Diet and Exercise",
     "Drug: Metformin",
     "Drug: Sulfonylurea",
     "Drug: Metformin and Sulfonylurea"
-   ],
-   "label": "Active Comparator",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -192,10 +192,10 @@
  "brief_summary": "Primary objective:\n\nThe primary objective of this study is to define the dose response of Glymera as measured as the change from baseline in hemoglobin A1c (HbA1c) following 20 weeks of once-weekly dosing.\n\nSecondary objectives:\n\nThe secondary objectives are to:\n\n* Describe incidence, severity, and duration of reported gastrointestinal side effects of Glymera compared to active comparator;\n* Compare change from baseline in HbA1c following 20 weeks of dosing compared to placebo and active comparator;\n* Compare change from baseline in fasting plasma glucose (FPG) following 20 weeks of dosing compared to placebo and active comparator;\n* Describe the frequencies of adverse events in the treatment groups; and\n* Describe the above endpoints for the following subgroups of subjects according to baseline type 2 diabetes mellitus (T2DM) therapy: diet and exercise only, metformin only, sulfonylurea only, or metformin and sulfonylurea combination therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male and female subjects 18 to 75 years of age, inclusive;\n* Body mass index ≤45 kg/m2;\n* Diagnosed with T2DM with HbA1c of ≥7.0% and ≤11.0% and treated with diet and exercise alone, or with stable doses of metformin alone, sulfonylurea alone or metformin and sulfonylurea.\n\nExclusion Criteria:\n\n* Currently taking or have taken within the last 6 months non-oral antihyperglycemic agents (eg, insulin, Byetta®, Bydureon®, or Victoza). Short-term use of insulin within this period will not be cause for exclusion if insulin was used during the treatment of an acute intercurrent illness;\n* Known allergy to or serious adverse effect caused by an approved or investigational glucagon-like peptide-1 (GLP-1) receptor analog/agonist;\n* Unstable cardiovascular disease;\n* History of weight loss surgery or other gastrointestinal surgical procedures that could possibly interfere with the mechanism of action of GLP-1 receptor agonists;\n* Based on contraindications/warnings identified with other GLP-1 receptor agonists, subjects will be excluded if they have: History, symptoms, or signs of pancreatitis or severe gastrointestinal disease (ie, gastroparesis) or Personal or family history of medullary thyroid tumors or history of Multiple Endocrine Neoplasia Syndrome Type 2;\n* Clinically significant renal and/or hepatic dysfunction;\n* Pregnant or lactating female subjects.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -203,841 +203,841 @@
  },
  "sites": [
   {
+   "facility": null,
    "city": "Anniston",
+   "state": "Alabama",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.65983,
-   "lon": -85.83163,
-   "state": "Alabama",
-   "status": null
+   "lon": -85.83163
   },
   {
+   "facility": null,
    "city": "Birmingham",
+   "state": "Alabama",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.52066,
-   "lon": -86.80249,
-   "state": "Alabama",
-   "status": null
+   "lon": -86.80249
   },
   {
+   "facility": null,
    "city": "Gulf Shores",
+   "state": "Alabama",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 30.24604,
-   "lon": -87.70082,
-   "state": "Alabama",
-   "status": null
+   "lon": -87.70082
   },
   {
+   "facility": null,
    "city": "Huntsville",
+   "state": "Alabama",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.7304,
-   "lon": -86.58594,
-   "state": "Alabama",
-   "status": null
+   "lon": -86.58594
   },
   {
+   "facility": null,
    "city": "Mobile",
+   "state": "Alabama",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 30.69436,
-   "lon": -88.04305,
-   "state": "Alabama",
-   "status": null
+   "lon": -88.04305
   },
   {
+   "facility": null,
    "city": "Muscle Shoals",
-   "country": "United States",
-   "facility": null,
-   "lat": 34.74481,
-   "lon": -87.66753,
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.74481,
+   "lon": -87.66753
   },
   {
+   "facility": null,
    "city": "Chandler",
+   "state": "Arizona",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.30616,
-   "lon": -111.84125,
-   "state": "Arizona",
-   "status": null
+   "lon": -111.84125
   },
   {
+   "facility": null,
    "city": "Glendale",
+   "state": "Arizona",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.53865,
-   "lon": -112.18599,
-   "state": "Arizona",
-   "status": null
+   "lon": -112.18599
   },
   {
+   "facility": null,
    "city": "Goodyear",
+   "state": "Arizona",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.43532,
-   "lon": -112.35821,
-   "state": "Arizona",
-   "status": null
+   "lon": -112.35821
   },
   {
+   "facility": null,
    "city": "Tucson",
-   "country": "United States",
-   "facility": null,
-   "lat": 32.22174,
-   "lon": -110.92648,
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.22174,
+   "lon": -110.92648
   },
   {
+   "facility": null,
    "city": "Harrisburg",
+   "state": "Arkansas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 35.56425,
-   "lon": -90.71678,
-   "state": "Arkansas",
-   "status": null
+   "lon": -90.71678
   },
   {
+   "facility": null,
    "city": "Little Rock",
+   "state": "Arkansas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.74648,
-   "lon": -92.28959,
-   "state": "Arkansas",
-   "status": null
+   "lon": -92.28959
   },
   {
+   "facility": null,
    "city": "Searcy",
-   "country": "United States",
-   "facility": null,
-   "lat": 35.25064,
-   "lon": -91.73625,
    "state": "Arkansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.25064,
+   "lon": -91.73625
   },
   {
+   "facility": null,
    "city": "Chula Vista",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 32.64005,
-   "lon": -117.0842,
-   "state": "California",
-   "status": null
+   "lon": -117.0842
   },
   {
+   "facility": null,
    "city": "Concord",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 37.97798,
-   "lon": -122.03107,
-   "state": "California",
-   "status": null
+   "lon": -122.03107
   },
   {
+   "facility": null,
    "city": "Escondido",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.11921,
-   "lon": -117.08642,
-   "state": "California",
-   "status": null
+   "lon": -117.08642
   },
   {
+   "facility": null,
    "city": "Hawaiian Gardens",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.8314,
-   "lon": -118.07284,
-   "state": "California",
-   "status": null
+   "lon": -118.07284
   },
   {
+   "facility": null,
    "city": "La Mesa",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 32.76783,
-   "lon": -117.02308,
-   "state": "California",
-   "status": null
+   "lon": -117.02308
   },
   {
+   "facility": null,
    "city": "Los Angeles",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": null
+   "lon": -118.24368
   },
   {
+   "facility": null,
    "city": "Oceanside",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.19587,
-   "lon": -117.37948,
-   "state": "California",
-   "status": null
+   "lon": -117.37948
   },
   {
+   "facility": null,
    "city": "San Jose",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 37.33939,
-   "lon": -121.89496,
-   "state": "California",
-   "status": null
+   "lon": -121.89496
   },
   {
+   "facility": null,
    "city": "Santa Rosa",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.44047,
-   "lon": -122.71443,
-   "state": "California",
-   "status": null
+   "lon": -122.71443
   },
   {
+   "facility": null,
    "city": "Walnut Creek",
-   "country": "United States",
-   "facility": null,
-   "lat": 37.90631,
-   "lon": -122.06496,
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.90631,
+   "lon": -122.06496
   },
   {
+   "facility": null,
    "city": "Colorado Springs",
+   "state": "Colorado",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.83388,
-   "lon": -104.82136,
-   "state": "Colorado",
-   "status": null
+   "lon": -104.82136
   },
   {
+   "facility": null,
    "city": "Denver",
-   "country": "United States",
-   "facility": null,
-   "lat": 39.73915,
-   "lon": -104.9847,
    "state": "Colorado",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.73915,
+   "lon": -104.9847
   },
   {
+   "facility": null,
    "city": "Stamford",
-   "country": "United States",
-   "facility": null,
-   "lat": 41.05343,
-   "lon": -73.53873,
    "state": "Connecticut",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.05343,
+   "lon": -73.53873
   },
   {
+   "facility": null,
    "city": "Brandenton",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": "Florida",
-   "status": null
+   "lon": null
   },
   {
+   "facility": null,
    "city": "Brooksville",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 28.55554,
-   "lon": -82.38991,
-   "state": "Florida",
-   "status": null
+   "lon": -82.38991
   },
   {
+   "facility": null,
    "city": "Fort Lauderdale",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 26.12231,
-   "lon": -80.14338,
-   "state": "Florida",
-   "status": null
+   "lon": -80.14338
   },
   {
+   "facility": null,
    "city": "Hialeah",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 25.8576,
-   "lon": -80.27811,
-   "state": "Florida",
-   "status": null
+   "lon": -80.27811
   },
   {
+   "facility": null,
    "city": "Jacksonville",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 30.33218,
-   "lon": -81.65565,
-   "state": "Florida",
-   "status": null
+   "lon": -81.65565
   },
   {
+   "facility": null,
    "city": "Miami",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
+   "facility": null,
    "city": "New Port Richey",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 28.24418,
-   "lon": -82.71927,
-   "state": "Florida",
-   "status": null
+   "lon": -82.71927
   },
   {
+   "facility": null,
    "city": "Oviedo",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 28.67,
-   "lon": -81.20812,
-   "state": "Florida",
-   "status": null
+   "lon": -81.20812
   },
   {
+   "facility": null,
    "city": "St. Petersburg",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 27.77086,
-   "lon": -82.67927,
-   "state": "Florida",
-   "status": null
+   "lon": -82.67927
   },
   {
+   "facility": null,
    "city": "Tampa",
-   "country": "United States",
-   "facility": null,
-   "lat": 27.94752,
-   "lon": -82.45843,
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 27.94752,
+   "lon": -82.45843
   },
   {
+   "facility": null,
    "city": "Decatur",
+   "state": "Georgia",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.77483,
-   "lon": -84.29631,
-   "state": "Georgia",
-   "status": null
+   "lon": -84.29631
   },
   {
+   "facility": null,
    "city": "Marietta",
+   "state": "Georgia",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.9526,
-   "lon": -84.54993,
-   "state": "Georgia",
-   "status": null
+   "lon": -84.54993
   },
   {
+   "facility": null,
    "city": "Roswell",
+   "state": "Georgia",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.02316,
-   "lon": -84.36159,
-   "state": "Georgia",
-   "status": null
+   "lon": -84.36159
   },
   {
+   "facility": null,
    "city": "Savannah",
-   "country": "United States",
-   "facility": null,
-   "lat": 32.08354,
-   "lon": -81.09983,
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.08354,
+   "lon": -81.09983
   },
   {
+   "facility": null,
    "city": "Boise",
-   "country": "United States",
-   "facility": null,
-   "lat": 43.6135,
-   "lon": -116.20345,
    "state": "Idaho",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.6135,
+   "lon": -116.20345
   },
   {
+   "facility": null,
    "city": "Arlington Heights",
+   "state": "Illinois",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 42.08836,
-   "lon": -87.98063,
-   "state": "Illinois",
-   "status": null
+   "lon": -87.98063
   },
   {
+   "facility": null,
    "city": "Chicago",
-   "country": "United States",
-   "facility": null,
-   "lat": 41.85003,
-   "lon": -87.65005,
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.85003,
+   "lon": -87.65005
   },
   {
+   "facility": null,
    "city": "Evansville",
+   "state": "Indiana",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 37.97476,
-   "lon": -87.55585,
-   "state": "Indiana",
-   "status": null
+   "lon": -87.55585
   },
   {
+   "facility": null,
    "city": "Indianapolis",
-   "country": "United States",
-   "facility": null,
-   "lat": 39.76838,
-   "lon": -86.15804,
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
+   "facility": null,
    "city": "Council Bluffs",
-   "country": "United States",
-   "facility": null,
-   "lat": 41.26194,
-   "lon": -95.86083,
    "state": "Iowa",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.26194,
+   "lon": -95.86083
   },
   {
+   "facility": null,
    "city": "Augusta",
+   "state": "Kansas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 37.68668,
-   "lon": -96.9767,
-   "state": "Kansas",
-   "status": null
+   "lon": -96.9767
   },
   {
+   "facility": null,
    "city": "Newton",
+   "state": "Kansas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.04668,
-   "lon": -97.34504,
-   "state": "Kansas",
-   "status": null
+   "lon": -97.34504
   },
   {
+   "facility": null,
    "city": "Overland Park",
+   "state": "Kansas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.98223,
-   "lon": -94.67079,
-   "state": "Kansas",
-   "status": null
+   "lon": -94.67079
   },
   {
+   "facility": null,
    "city": "Wichita",
-   "country": "United States",
-   "facility": null,
-   "lat": 37.69224,
-   "lon": -97.33754,
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.69224,
+   "lon": -97.33754
   },
   {
+   "facility": null,
    "city": "New Orleans",
-   "country": "United States",
-   "facility": null,
-   "lat": 29.95465,
-   "lon": -90.07507,
    "state": "Louisiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.95465,
+   "lon": -90.07507
   },
   {
+   "facility": null,
    "city": "Oxon Hill",
-   "country": "United States",
-   "facility": null,
-   "lat": 38.80345,
-   "lon": -76.9897,
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.80345,
+   "lon": -76.9897
   },
   {
+   "facility": null,
    "city": "Ypsilanti",
-   "country": "United States",
-   "facility": null,
-   "lat": 42.24115,
-   "lon": -83.61299,
    "state": "Michigan",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.24115,
+   "lon": -83.61299
   },
   {
+   "facility": null,
    "city": "Saint Paul",
-   "country": "United States",
-   "facility": null,
-   "lat": 44.94441,
-   "lon": -93.09327,
    "state": "Minnesota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.94441,
+   "lon": -93.09327
   },
   {
+   "facility": null,
    "city": "St Louis",
-   "country": "United States",
-   "facility": null,
-   "lat": 38.62727,
-   "lon": -90.19789,
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
+   "facility": null,
    "city": "Fremont",
+   "state": "Nebraska",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 41.43333,
-   "lon": -96.49808,
-   "state": "Nebraska",
-   "status": null
+   "lon": -96.49808
   },
   {
+   "facility": null,
    "city": "Omaha",
-   "country": "United States",
-   "facility": null,
-   "lat": 41.25626,
-   "lon": -95.94043,
    "state": "Nebraska",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.25626,
+   "lon": -95.94043
   },
   {
+   "facility": null,
    "city": "Las Vegas",
-   "country": "United States",
-   "facility": null,
-   "lat": 36.17497,
-   "lon": -115.13722,
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
+   "facility": null,
    "city": "Berlin",
-   "country": "United States",
-   "facility": null,
-   "lat": 39.79123,
-   "lon": -74.92905,
    "state": "New Jersey",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.79123,
+   "lon": -74.92905
   },
   {
+   "facility": null,
    "city": "New Windsor",
+   "state": "New York",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 41.47676,
-   "lon": -74.02375,
-   "state": "New York",
-   "status": null
+   "lon": -74.02375
   },
   {
+   "facility": null,
    "city": "Rochester",
-   "country": "United States",
-   "facility": null,
-   "lat": 43.15478,
-   "lon": -77.61556,
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.15478,
+   "lon": -77.61556
   },
   {
+   "facility": null,
    "city": "Charlotte",
+   "state": "North Carolina",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 35.22709,
-   "lon": -80.84313,
-   "state": "North Carolina",
-   "status": null
+   "lon": -80.84313
   },
   {
+   "facility": null,
    "city": "Durham",
+   "state": "North Carolina",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 35.99403,
-   "lon": -78.89862,
-   "state": "North Carolina",
-   "status": null
+   "lon": -78.89862
   },
   {
+   "facility": null,
    "city": "Hickory",
+   "state": "North Carolina",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 35.73319,
-   "lon": -81.3412,
-   "state": "North Carolina",
-   "status": null
+   "lon": -81.3412
   },
   {
+   "facility": null,
    "city": "Morehead City",
+   "state": "North Carolina",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.72294,
-   "lon": -76.72604,
-   "state": "North Carolina",
-   "status": null
+   "lon": -76.72604
   },
   {
+   "facility": null,
    "city": "Raleigh",
+   "state": "North Carolina",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 35.7721,
-   "lon": -78.63861,
-   "state": "North Carolina",
-   "status": null
+   "lon": -78.63861
   },
   {
+   "facility": null,
    "city": "Wilmington",
+   "state": "North Carolina",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.23556,
-   "lon": -77.94604,
-   "state": "North Carolina",
-   "status": null
+   "lon": -77.94604
   },
   {
+   "facility": null,
    "city": "Winston-Salem",
-   "country": "United States",
-   "facility": null,
-   "lat": 36.09986,
-   "lon": -80.24422,
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.09986,
+   "lon": -80.24422
   },
   {
+   "facility": null,
    "city": "Cincinnati",
+   "state": "Ohio",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 39.12711,
-   "lon": -84.51439,
-   "state": "Ohio",
-   "status": null
+   "lon": -84.51439
   },
   {
+   "facility": null,
    "city": "Cleveland",
+   "state": "Ohio",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 41.4995,
-   "lon": -81.69541,
-   "state": "Ohio",
-   "status": null
+   "lon": -81.69541
   },
   {
+   "facility": null,
    "city": "Delaware",
+   "state": "Ohio",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 40.29867,
-   "lon": -83.06797,
-   "state": "Ohio",
-   "status": null
+   "lon": -83.06797
   },
   {
+   "facility": null,
    "city": "Kettering",
+   "state": "Ohio",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 39.6895,
-   "lon": -84.16883,
-   "state": "Ohio",
-   "status": null
+   "lon": -84.16883
   },
   {
+   "facility": null,
    "city": "Lyndhurst",
+   "state": "Ohio",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 41.52005,
-   "lon": -81.48873,
-   "state": "Ohio",
-   "status": null
+   "lon": -81.48873
   },
   {
+   "facility": null,
    "city": "Wadsworth",
+   "state": "Ohio",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 41.02561,
-   "lon": -81.72985,
-   "state": "Ohio",
-   "status": null
+   "lon": -81.72985
   },
   {
+   "facility": null,
    "city": "Willoughby Hills",
-   "country": "United States",
-   "facility": null,
-   "lat": 41.59838,
-   "lon": -81.41845,
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.59838,
+   "lon": -81.41845
   },
   {
+   "facility": null,
    "city": "Oklahoma City",
+   "state": "Oklahoma",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 35.46756,
-   "lon": -97.51643,
-   "state": "Oklahoma",
-   "status": null
+   "lon": -97.51643
   },
   {
+   "facility": null,
    "city": "Tulsa",
-   "country": "United States",
-   "facility": null,
-   "lat": 36.15398,
-   "lon": -95.99277,
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.15398,
+   "lon": -95.99277
   },
   {
+   "facility": null,
    "city": "Eugene",
-   "country": "United States",
-   "facility": null,
-   "lat": 44.05207,
-   "lon": -123.08675,
    "state": "Oregon",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.05207,
+   "lon": -123.08675
   },
   {
+   "facility": null,
    "city": "Greer",
+   "state": "South Carolina",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.93873,
-   "lon": -82.22706,
-   "state": "South Carolina",
-   "status": null
+   "lon": -82.22706
   },
   {
+   "facility": null,
    "city": "Spartanburg",
-   "country": "United States",
-   "facility": null,
-   "lat": 34.94957,
-   "lon": -81.93205,
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.94957,
+   "lon": -81.93205
   },
   {
+   "facility": null,
    "city": "Austin",
+   "state": "Texas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 30.26715,
-   "lon": -97.74306,
-   "state": "Texas",
-   "status": null
+   "lon": -97.74306
   },
   {
+   "facility": null,
    "city": "Corpus Christi",
+   "state": "Texas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 27.80058,
-   "lon": -97.39638,
-   "state": "Texas",
-   "status": null
+   "lon": -97.39638
   },
   {
+   "facility": null,
    "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
+   "facility": null,
    "city": "Houston",
+   "state": "Texas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": null
+   "lon": -95.36327
   },
   {
+   "facility": null,
    "city": "Hurst",
+   "state": "Texas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 32.82346,
-   "lon": -97.17057,
-   "state": "Texas",
-   "status": null
+   "lon": -97.17057
   },
   {
+   "facility": null,
    "city": "Katy",
-   "country": "United States",
-   "facility": null,
-   "lat": 29.78579,
-   "lon": -95.8244,
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.78579,
+   "lon": -95.8244
   },
   {
+   "facility": null,
    "city": "Magna",
+   "state": "Utah",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 40.70911,
-   "lon": -112.10161,
-   "state": "Utah",
-   "status": null
+   "lon": -112.10161
   },
   {
+   "facility": null,
    "city": "West Jordan",
-   "country": "United States",
-   "facility": null,
-   "lat": 40.60967,
-   "lon": -111.9391,
    "state": "Utah",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.60967,
+   "lon": -111.9391
   },
   {
+   "facility": null,
    "city": "Burke",
+   "state": "Virginia",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.79345,
-   "lon": -77.27165,
-   "state": "Virginia",
-   "status": null
+   "lon": -77.27165
   },
   {
+   "facility": null,
    "city": "Richmond",
+   "state": "Virginia",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 37.55376,
-   "lon": -77.46026,
-   "state": "Virginia",
-   "status": null
+   "lon": -77.46026
   },
   {
+   "facility": null,
    "city": "Virginia Beach",
-   "country": "United States",
-   "facility": null,
-   "lat": 36.85293,
-   "lon": -75.97799,
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.85293,
+   "lon": -75.97799
   },
   {
+   "facility": null,
    "city": "Renton",
-   "country": "United States",
-   "facility": null,
-   "lat": 47.48288,
-   "lon": -122.21707,
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.48288,
+   "lon": -122.21707
   },
   {
-   "city": "Kenosha",
-   "country": "United States",
    "facility": null,
-   "lat": 42.58474,
-   "lon": -87.82119,
+   "city": "Kenosha",
    "state": "Wisconsin",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.58474,
+   "lon": -87.82119
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01658501",

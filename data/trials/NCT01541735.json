@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -43,8 +43,8 @@
  "results_first_posted": "2014-02-21",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER_GOV",
-  "name": "Coordinación de Investigación en Salud, Mexico"
+  "name": "Coordinación de Investigación en Salud, Mexico",
+  "class": "OTHER_GOV"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Pantoprazole",
    "other_names": [
     "Pantozol"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Pantoprazole",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pantoprazole"
-   ],
-   "label": "Pantoprazole",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -97,23 +97,23 @@
  "brief_summary": "The purpose of the study is to evaluate the effect of pantoprazole on insulin secretion in drug-naïve patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* Drug-Naive\n* No complications\n* HbA1c 7 to \\< 9%\n* Fasting plasma glucose \\< 210mg/dl\n* Body mass index 30.0 to 39.9 and body weight stable for at least 3 months before the study\n* Non smokers\n* Blood pressure \\< 130/80\n\nExclusion Criteria:\n\n* Diabetes complications\n* Women pregnant or stage of lactation\n* Hepatic, renal, autoimmune disease\n* Take drugs with effects on insulin secretion\n* Zollinger-Ellison disease\n* Gastric or pancreatic tumor.",
-  "healthy_volunteers": false,
-  "maximum_age": "60 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "60 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Guadalajara",
-   "country": "Mexico",
    "facility": "Instituto Mexicano del Seguro Social. Hospital de Especialidades.",
-   "lat": 20.67738,
-   "lon": -103.34749,
+   "city": "Guadalajara",
    "state": "Jalisco",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 20.67738,
+   "lon": -103.34749
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01541735",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novartis Pharmaceuticals"
+  "name": "Novartis Pharmaceuticals",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Vildagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "vildagliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Vildagliptin"
-   ],
-   "label": "vildagliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The study will demonstrate the effect of 24 weeks of treatment with vildagliptin compared to placebo on insulin sensitivity in patients with type 2 diabetes mellitus (T2DM) treated with metformin, assessed as glucose Rd (rate of glucose disposal) during a hyperinsulinemic euglycemic clamp.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age in the range of 18-70 years.\n2. Patients with T2DM, diagnosed at least 6 months prior to Visit 1, who have received metformin for at least 3 months and have been on a stable dose of at least 1000mg daily for a minimum of 4 weeks prior to Visit 1.\n3. HbA1c ≤ 7.6% at Visit 1.\n4. Body mass index (BMI) in the range of 22-38kg/m2 inclusive at Visit 1.\n\nExclusion Criteria:\n\n1. Pregnant or nursing (lactating) women.\n2. Patients with cardiac pacemakers or with metallic implants incompatible with magnetic resonance methodology.\n3. Congestive heart failure requiring pharmacologic treatment. Other protocol-defined inclusion/exclusion criteria may apply.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "city": "Newcastle upon Tyne",
-   "country": "United Kingdom",
    "facility": "Novartis Investigative Site",
-   "lat": 54.97328,
-   "lon": -1.61396,
+   "city": "Newcastle upon Tyne",
    "state": null,
-   "status": null
+   "country": "United Kingdom",
+   "status": null,
+   "lat": 54.97328,
+   "lon": -1.61396
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01356381",

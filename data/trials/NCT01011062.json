@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER_GOV",
-  "name": "Institute for Clinical and Experimental Medicine"
+  "name": "Institute for Clinical and Experimental Medicine",
+  "class": "OTHER_GOV"
  },
  "collaborators": [
   "Ministry of Health, Czech Republic"
@@ -51,43 +51,43 @@
  ],
  "interventions": [
   {
+   "type": "PROCEDURE",
    "name": "Hyperinsulinaemia",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Losartan",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Saline",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Hyperinsulinaemia",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Hyperinsulinaemia"
-   ],
-   "label": "Hyperinsulinaemia",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Losartan + hyperinsulinaemia",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Procedure: Hyperinsulinaemia",
     "Drug: Losartan"
-   ],
-   "label": "Losartan + hyperinsulinaemia",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Saline",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Saline"
-   ],
-   "label": "Saline",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The study aims to investigate the effect of acute angiotensin receptor blockade on insulin action/insulin resistance and expressions of selected adipocytokines in subcutaneous adipose tissue in insulin-resistant subjects with type 2 diabetes and healthy controls.\n\nHypothesis: Changes in adipocytokine concentrations and/or expressions and different reactions to acute in vivo induced hyperinsulinemia and angiotensin receptor blockade will be found in patients with type 2 diabetes compared to healthy subjects. A significant relationships between insulin sensitivity and selected adipokines and intracellular fat content and high energy phosphates in soleus muscle will be documented in healthy individuals, while no significant relation will be found in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 Diabetes treated with oral agents and/or diet\n2. Healthy volunteers age- and sex-matched to type 2 diabetes, without any concomitant disease\n\nExclusion Criteria:\n\n1. Type 2 Diabetes\n\n   * treated with insulin\n   * clinical evidence of atherosclerotic complications\n   * advanced long-term diabetic complications (manifest nephropathy, proliferative retinopathy)\n   * other internal disease\n   * weight change \\>10% 3 months prior to study\n2. Healthy volunteers\n\n   * fulfilling the criteria of metabolic syndrome\n   * weight change \\>10% 3 months prior to study",
-  "healthy_volunteers": true,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "MALE",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "city": "Prague",
-   "country": "Czechia",
    "facility": "Diabetes Center, Institute of Clinical and Experimental Medicine",
-   "lat": 50.08804,
-   "lon": 14.42076,
+   "city": "Prague",
    "state": null,
-   "status": null
+   "country": "Czechia",
+   "status": null,
+   "lat": 50.08804,
+   "lon": 14.42076
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01011062",

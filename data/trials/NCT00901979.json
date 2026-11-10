@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novartis Pharmaceuticals"
+  "name": "Novartis Pharmaceuticals",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,102 +53,102 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "LCQ908A",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "LCQ908A",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "LCQ908A",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "LCQ908A",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "LCQ908A",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Sitagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: LCQ908A",
-    "Drug: metformin"
-   ],
    "label": "LCQ908 Dose 1",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LCQ908A",
     "Drug: metformin"
-   ],
+   ]
+  },
+  {
    "label": "LCQ908 Dose 2",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LCQ908A",
     "Drug: metformin"
-   ],
+   ]
+  },
+  {
    "label": "LCQ908 Dose 3",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LCQ908A",
     "Drug: metformin"
-   ],
+   ]
+  },
+  {
    "label": "LCQ908 Dose 4",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LCQ908A",
     "Drug: metformin"
-   ],
-   "label": "LCQ908 Dose 5",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "LCQ908 Dose 5",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: LCQ908A",
+    "Drug: metformin"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: metformin"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin",
     "Drug: metformin"
-   ],
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -160,10 +160,10 @@
  "brief_summary": "This study will assess the effect of LCQ when added to metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* HbA1c from 7.0-10.0%, Stable Metformin dose\n\nExclusion Criteria:\n\n* CHF Class III-IV, Liver disease\n\nOther protocol-defined inclusion/exclusion criteria may apply",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -171,607 +171,607 @@
  },
  "sites": [
   {
-   "city": "Winnipeg",
-   "country": "Canada",
    "facility": "Health Sciences Centre - Diabetes Research Group",
-   "lat": 49.8844,
-   "lon": -97.14704,
-   "state": "Manitoba",
-   "status": null
-  },
-  {
    "city": "Winnipeg",
-   "country": "Canada",
-   "facility": "Rivergrove Medical Clinic",
-   "lat": 49.8844,
-   "lon": -97.14704,
    "state": "Manitoba",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 49.8844,
+   "lon": -97.14704
   },
   {
-   "city": "Mississauga",
+   "facility": "Rivergrove Medical Clinic",
+   "city": "Winnipeg",
+   "state": "Manitoba",
    "country": "Canada",
+   "status": null,
+   "lat": 49.8844,
+   "lon": -97.14704
+  },
+  {
    "facility": "Credit Valley Prof Bldg",
+   "city": "Mississauga",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 43.5789,
-   "lon": -79.6583,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.6583
   },
   {
-   "city": "Sherbrooke",
-   "country": "Canada",
    "facility": "Hamilton Medical Research Group",
-   "lat": null,
-   "lon": null,
-   "state": "Ontario",
-   "status": null
-  },
-  {
-   "city": "Montreal",
-   "country": "Canada",
-   "facility": "Hopital Maisonneuve-Rosemont",
-   "lat": 45.50884,
-   "lon": -73.58781,
-   "state": "Quebec",
-   "status": null
-  },
-  {
-   "city": "Montreal",
-   "country": "Canada",
-   "facility": "Institut de Recherches Cliniques",
-   "lat": 45.50884,
-   "lon": -73.58781,
-   "state": "Quebec",
-   "status": null
-  },
-  {
-   "city": "Québec",
-   "country": "Canada",
-   "facility": "Clinique Médicale Millénia Santé",
-   "lat": 46.81228,
-   "lon": -71.21454,
-   "state": "Quebec",
-   "status": null
-  },
-  {
    "city": "Sherbrooke",
+   "state": "Ontario",
    "country": "Canada",
-   "facility": "CHUS - Hopital Fleurimont",
-   "lat": 45.40008,
-   "lon": -71.89908,
+   "status": null,
+   "lat": null,
+   "lon": null
+  },
+  {
+   "facility": "Hopital Maisonneuve-Rosemont",
+   "city": "Montreal",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
   },
   {
-   "city": "Bergamo",
-   "country": "Italy",
+   "facility": "Institut de Recherches Cliniques",
+   "city": "Montreal",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
+  },
+  {
+   "facility": "Clinique Médicale Millénia Santé",
+   "city": "Québec",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
+   "lat": 46.81228,
+   "lon": -71.21454
+  },
+  {
+   "facility": "CHUS - Hopital Fleurimont",
+   "city": "Sherbrooke",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
+   "lat": 45.40008,
+   "lon": -71.89908
+  },
+  {
    "facility": "Azienda Ospedaliera-Ospedali Riuniti di Bergamo",
+   "city": "Bergamo",
+   "state": null,
+   "country": "Italy",
+   "status": null,
    "lat": 45.69601,
-   "lon": 9.66721,
-   "state": null,
-   "status": null
+   "lon": 9.66721
   },
   {
-   "city": "Chieti",
-   "country": "Italy",
    "facility": "Centro Studi sull'Invecchiamento CeSI-Univers.G.D'Annunzio",
+   "city": "Chieti",
+   "state": null,
+   "country": "Italy",
+   "status": null,
    "lat": 42.34827,
-   "lon": 14.16494,
-   "state": null,
-   "status": null
+   "lon": 14.16494
   },
   {
-   "city": "Milan",
-   "country": "Italy",
    "facility": "A.O.Polo Universitario Luigi Sacco",
-   "lat": 42.78235,
-   "lon": 12.59836,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Milan",
+   "state": null,
    "country": "Italy",
-   "facility": "Istituto Scientifico San Raffaele - IRCCS",
+   "status": null,
    "lat": 42.78235,
-   "lon": 12.59836,
-   "state": null,
-   "status": null
+   "lon": 12.59836
   },
   {
-   "city": "Olbia",
+   "facility": "Istituto Scientifico San Raffaele - IRCCS",
+   "city": "Milan",
+   "state": null,
    "country": "Italy",
+   "status": null,
+   "lat": 42.78235,
+   "lon": 12.59836
+  },
+  {
    "facility": "Ospedale S.Giovanni di Dio",
+   "city": "Olbia",
+   "state": null,
+   "country": "Italy",
+   "status": null,
    "lat": 40.92337,
-   "lon": 9.49802,
-   "state": null,
-   "status": null
+   "lon": 9.49802
   },
   {
-   "city": "Pisa",
-   "country": "Italy",
    "facility": "Presidio Ospedaliero di Cisanello Università degli Studi",
-   "lat": 43.70853,
-   "lon": 10.4036,
+   "city": "Pisa",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Roma",
    "country": "Italy",
+   "status": null,
+   "lat": 43.70853,
+   "lon": 10.4036
+  },
+  {
    "facility": "Univ.Tor Vergata - AUSL ROMA B - Sede Territoriale",
+   "city": "Roma",
+   "state": null,
+   "country": "Italy",
+   "status": null,
    "lat": 44.99364,
-   "lon": 11.10642,
-   "state": null,
-   "status": null
+   "lon": 11.10642
   },
   {
-   "city": "Oława",
-   "country": "Poland",
    "facility": "Samodzielny Publiczny Zaklad Opieki Zdrowotnej",
+   "city": "Oława",
+   "state": null,
+   "country": "Poland",
+   "status": null,
    "lat": 50.9466,
-   "lon": 17.2926,
-   "state": null,
-   "status": null
+   "lon": 17.2926
   },
   {
-   "city": "Carolina",
-   "country": "Puerto Rico",
    "facility": "Policlinica Dr. Luis Rodriguez Carrasquillo",
+   "city": "Carolina",
+   "state": null,
+   "country": "Puerto Rico",
+   "status": null,
    "lat": 18.38078,
-   "lon": -65.95739,
-   "state": null,
-   "status": null
+   "lon": -65.95739
   },
   {
-   "city": "Ponce",
-   "country": "Puerto Rico",
    "facility": "Endocrine Lipid Diabetes Research Institute Ponce PR United States",
-   "lat": 18.01031,
-   "lon": -66.62398,
+   "city": "Ponce",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "San Juan",
    "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.01031,
+   "lon": -66.62398
+  },
+  {
    "facility": "Miguel Sosa-Padilla, M.D.",
-   "lat": 18.46633,
-   "lon": -66.10572,
+   "city": "San Juan",
    "state": null,
-   "status": null
+   "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.46633,
+   "lon": -66.10572
   },
   {
-   "city": "Mesa",
-   "country": "United States",
    "facility": "Clinical Research Advantage",
-   "lat": 33.42227,
-   "lon": -111.82264,
-   "state": "Arizona",
-   "status": null
-  },
-  {
    "city": "Mesa",
-   "country": "United States",
-   "facility": "Mesa Family Medical Center/Clinical Research Advantage",
-   "lat": 33.42227,
-   "lon": -111.82264,
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.42227,
+   "lon": -111.82264
   },
   {
-   "city": "Little Rock",
+   "facility": "Mesa Family Medical Center/Clinical Research Advantage",
+   "city": "Mesa",
+   "state": "Arizona",
    "country": "United States",
+   "status": null,
+   "lat": 33.42227,
+   "lon": -111.82264
+  },
+  {
    "facility": "Woodland International Reserach Group, LLC",
-   "lat": 34.74648,
-   "lon": -92.28959,
+   "city": "Little Rock",
    "state": "Arkansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.74648,
+   "lon": -92.28959
   },
   {
-   "city": "Buena Park",
-   "country": "United States",
    "facility": "Associated Pharmaceutical Research",
+   "city": "Buena Park",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.86751,
-   "lon": -117.99812,
-   "state": "California",
-   "status": null
+   "lon": -117.99812
   },
   {
-   "city": "Concord",
-   "country": "United States",
    "facility": "John Muir Clinical Research",
+   "city": "Concord",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 37.97798,
-   "lon": -122.03107,
-   "state": "California",
-   "status": null
+   "lon": -122.03107
   },
   {
-   "city": "Pasadena",
-   "country": "United States",
    "facility": "*Private Practice*",
+   "city": "Pasadena",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.14778,
-   "lon": -118.14452,
-   "state": "California",
-   "status": null
+   "lon": -118.14452
   },
   {
-   "city": "Riverside",
-   "country": "United States",
    "facility": "Apex Research of Riverside",
+   "city": "Riverside",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.95335,
-   "lon": -117.39616,
-   "state": "California",
-   "status": null
+   "lon": -117.39616
   },
   {
-   "city": "San Diego",
-   "country": "United States",
    "facility": "California Research Foundation",
-   "lat": 32.71571,
-   "lon": -117.16472,
-   "state": "California",
-   "status": null
-  },
-  {
    "city": "San Diego",
+   "state": "California",
    "country": "United States",
-   "facility": "CNRI-San Diego, LLC",
+   "status": null,
    "lat": 32.71571,
-   "lon": -117.16472,
-   "state": "California",
-   "status": null
+   "lon": -117.16472
   },
   {
-   "city": "Tustin",
+   "facility": "CNRI-San Diego, LLC",
+   "city": "San Diego",
+   "state": "California",
    "country": "United States",
+   "status": null,
+   "lat": 32.71571,
+   "lon": -117.16472
+  },
+  {
    "facility": "Orange County Research Center",
+   "city": "Tustin",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.74585,
-   "lon": -117.82617,
-   "state": "California",
-   "status": null
+   "lon": -117.82617
   },
   {
-   "city": "Walnut Creek",
-   "country": "United States",
    "facility": "Diablo Clinical",
-   "lat": 37.90631,
-   "lon": -122.06496,
+   "city": "Walnut Creek",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.90631,
+   "lon": -122.06496
   },
   {
-   "city": "Denver",
-   "country": "United States",
    "facility": "Denver VA Medical Center",
+   "city": "Denver",
+   "state": "Colorado",
+   "country": "United States",
+   "status": null,
    "lat": 39.73915,
-   "lon": -104.9847,
-   "state": "Colorado",
-   "status": null
+   "lon": -104.9847
   },
   {
-   "city": "Northglenn",
-   "country": "United States",
    "facility": "Complete Family Care",
-   "lat": 39.88554,
-   "lon": -104.9872,
+   "city": "Northglenn",
    "state": "Colorado",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.88554,
+   "lon": -104.9872
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Research Center Phase I-IV of Florida, Corp.",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
-   "city": "West Palm Beach",
-   "country": "United States",
    "facility": "Metabolic Research Institute, Inc.",
-   "lat": 26.71534,
-   "lon": -80.05337,
+   "city": "West Palm Beach",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 26.71534,
+   "lon": -80.05337
   },
   {
-   "city": "Roswell",
-   "country": "United States",
    "facility": "Perimeter North Medical Research",
-   "lat": 34.02316,
-   "lon": -84.36159,
+   "city": "Roswell",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.02316,
+   "lon": -84.36159
   },
   {
-   "city": "Berwyn",
-   "country": "United States",
    "facility": "MacNeal Center for Clinical Research",
-   "lat": 41.85059,
-   "lon": -87.79367,
+   "city": "Berwyn",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.85059,
+   "lon": -87.79367
   },
   {
-   "city": "Overland Park",
-   "country": "United States",
    "facility": "Venture Resource Group",
+   "city": "Overland Park",
+   "state": "Kansas",
+   "country": "United States",
+   "status": null,
    "lat": 38.98223,
-   "lon": -94.67079,
-   "state": "Kansas",
-   "status": null
+   "lon": -94.67079
   },
   {
-   "city": "Topeka",
-   "country": "United States",
    "facility": "Cotton-O'Neil Clinical Research Center Topeka KS United States",
-   "lat": 39.04833,
-   "lon": -95.67804,
+   "city": "Topeka",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.04833,
+   "lon": -95.67804
   },
   {
-   "city": "Bowling Green",
-   "country": "United States",
    "facility": "Graves Gilbert Clinic Bowling Green KY United States",
+   "city": "Bowling Green",
+   "state": "Kentucky",
+   "country": "United States",
+   "status": null,
    "lat": 36.99032,
-   "lon": -86.4436,
-   "state": "Kentucky",
-   "status": null
+   "lon": -86.4436
   },
   {
-   "city": "Madisonville",
-   "country": "United States",
    "facility": "Commonwealth Biomedical Research, LLC",
-   "lat": 37.3281,
-   "lon": -87.49889,
+   "city": "Madisonville",
    "state": "Kentucky",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.3281,
+   "lon": -87.49889
   },
   {
-   "city": "Elkridge",
-   "country": "United States",
    "facility": "Centennial Medical Group",
+   "city": "Elkridge",
+   "state": "Maryland",
+   "country": "United States",
+   "status": null,
    "lat": 39.21261,
-   "lon": -76.71358,
-   "state": "Maryland",
-   "status": null
+   "lon": -76.71358
   },
   {
-   "city": "Towson",
-   "country": "United States",
    "facility": "International Research Center Towson MD United States",
-   "lat": 39.4015,
-   "lon": -76.60191,
+   "city": "Towson",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.4015,
+   "lon": -76.60191
   },
   {
-   "city": "Worcester",
-   "country": "United States",
    "facility": "Fallon Clinic Worcester MA United States",
-   "lat": 42.26259,
-   "lon": -71.80229,
+   "city": "Worcester",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.26259,
+   "lon": -71.80229
   },
   {
-   "city": "Bridgman",
-   "country": "United States",
    "facility": "Southwestern Medical Clinic",
+   "city": "Bridgman",
+   "state": "Michigan",
+   "country": "United States",
+   "status": null,
    "lat": 41.9431,
-   "lon": -86.55697,
-   "state": "Michigan",
-   "status": null
+   "lon": -86.55697
   },
   {
-   "city": "Clarkston",
-   "country": "United States",
    "facility": "Clarkston Medical Group",
+   "city": "Clarkston",
+   "state": "Michigan",
+   "country": "United States",
+   "status": null,
    "lat": 42.73586,
-   "lon": -83.41883,
-   "state": "Michigan",
-   "status": null
+   "lon": -83.41883
   },
   {
-   "city": "Kalamazoo",
-   "country": "United States",
    "facility": "Michigan State University - Kalamazoo Ctr for Med Studies",
-   "lat": 42.29171,
-   "lon": -85.58723,
+   "city": "Kalamazoo",
    "state": "Michigan",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.29171,
+   "lon": -85.58723
   },
   {
-   "city": "Picayune",
-   "country": "United States",
    "facility": "Mississippi Medical Research, LLC",
-   "lat": 30.52556,
-   "lon": -89.67788,
+   "city": "Picayune",
    "state": "Mississippi",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.52556,
+   "lon": -89.67788
   },
   {
-   "city": "Springfield",
-   "country": "United States",
    "facility": "ClinVest Research",
-   "lat": 37.21533,
-   "lon": -93.29824,
-   "state": "Missouri",
-   "status": null
-  },
-  {
    "city": "Springfield",
-   "country": "United States",
-   "facility": "St. John's Clinic - Medical Research",
-   "lat": 37.21533,
-   "lon": -93.29824,
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.21533,
+   "lon": -93.29824
   },
   {
-   "city": "Missoula",
+   "facility": "St. John's Clinic - Medical Research",
+   "city": "Springfield",
+   "state": "Missouri",
    "country": "United States",
+   "status": null,
+   "lat": 37.21533,
+   "lon": -93.29824
+  },
+  {
    "facility": "Montana Medical Research",
-   "lat": 46.87215,
-   "lon": -113.994,
+   "city": "Missoula",
    "state": "Montana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.87215,
+   "lon": -113.994
   },
   {
-   "city": "Omaha",
-   "country": "United States",
    "facility": "Meera Dewan, P.C.",
-   "lat": 41.25626,
-   "lon": -95.94043,
+   "city": "Omaha",
    "state": "Nebraska",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.25626,
+   "lon": -95.94043
   },
   {
-   "city": "Brick",
-   "country": "United States",
    "facility": "Libra Clinical Research Associates",
+   "city": "Brick",
+   "state": "New Jersey",
+   "country": "United States",
+   "status": null,
    "lat": 40.05928,
-   "lon": -74.13708,
-   "state": "New Jersey",
-   "status": null
+   "lon": -74.13708
   },
   {
-   "city": "Toms River",
-   "country": "United States",
    "facility": "Physicians Research Center",
-   "lat": 39.95373,
-   "lon": -74.19792,
+   "city": "Toms River",
    "state": "New Jersey",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.95373,
+   "lon": -74.19792
   },
   {
-   "city": "Endwell",
-   "country": "United States",
    "facility": "Endwell Family Physician",
+   "city": "Endwell",
+   "state": "New York",
+   "country": "United States",
+   "status": null,
    "lat": 42.11285,
-   "lon": -76.02103,
-   "state": "New York",
-   "status": null
+   "lon": -76.02103
   },
   {
-   "city": "Staten Island",
-   "country": "United States",
    "facility": "*Private Practice* Staten Island",
-   "lat": 40.56233,
-   "lon": -74.13986,
+   "city": "Staten Island",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.56233,
+   "lon": -74.13986
   },
   {
-   "city": "Carlisle",
-   "country": "United States",
    "facility": "Medical Frontiers LLC",
-   "lat": 39.582,
-   "lon": -84.32022,
+   "city": "Carlisle",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.582,
+   "lon": -84.32022
   },
   {
-   "city": "Greer",
-   "country": "United States",
    "facility": "Radiant Research",
-   "lat": 34.93873,
-   "lon": -82.22706,
+   "city": "Greer",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.93873,
+   "lon": -82.22706
   },
   {
-   "city": "Memphis",
-   "country": "United States",
    "facility": "Southwind Medical Specialists Memphis TN United States",
-   "lat": 35.14953,
-   "lon": -90.04898,
+   "city": "Memphis",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.14953,
+   "lon": -90.04898
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Dallas Diabetic and Endocrinology Research Center",
-   "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
-  },
-  {
    "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
-   "facility": "Radiant Research - North Dallas",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
-   "city": "Houston",
+   "facility": "Radiant Research - North Dallas",
+   "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
+   "status": null,
+   "lat": 32.78306,
+   "lon": -96.80667
+  },
+  {
    "facility": "Accurate Clinical Research",
-   "lat": 29.76328,
-   "lon": -95.36327,
+   "city": "Houston",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "Blalock Clinical Research",
-   "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": null
-  },
-  {
    "city": "Houston",
-   "country": "United States",
-   "facility": "Texas Center for Drug Development, P.A.",
-   "lat": 29.76328,
-   "lon": -95.36327,
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
-   "city": "Ettrick",
+   "facility": "Texas Center for Drug Development, P.A.",
+   "city": "Houston",
+   "state": "Texas",
    "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
+  },
+  {
    "facility": "Ettrick Health Center",
+   "city": "Ettrick",
+   "state": "Virginia",
+   "country": "United States",
+   "status": null,
    "lat": 37.24015,
-   "lon": -77.42998,
-   "state": "Virginia",
-   "status": null
+   "lon": -77.42998
   },
   {
-   "city": "Richmond",
-   "country": "United States",
    "facility": "McGuire Veterans Medical Center",
-   "lat": 37.55376,
-   "lon": -77.46026,
+   "city": "Richmond",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.55376,
+   "lon": -77.46026
   },
   {
-   "city": "Bellevue",
-   "country": "United States",
    "facility": "Northwest Clinical Research",
-   "lat": 47.61038,
-   "lon": -122.20068,
+   "city": "Bellevue",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.61038,
+   "lon": -122.20068
   },
   {
-   "city": "Monroe",
-   "country": "United States",
    "facility": "Providence Physicians Group",
-   "lat": 47.85538,
-   "lon": -121.97096,
+   "city": "Monroe",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.85538,
+   "lon": -121.97096
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00901979",

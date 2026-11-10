@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2025-08-08",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -55,46 +55,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Tirzepatide"
-   ],
    "label": "5 Milligram (mg) Tirzepatide",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ],
+   ]
+  },
+  {
    "label": "10 mg Tirzepatide",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ],
-   "label": "15 mg Tirzepatide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "15 mg Tirzepatide",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Tirzepatide"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "The main purpose of this study is to compare the effect of the addition of tirzepatide or placebo to titrated basal insulin on glycemic control in Chinese participants with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have type 2 diabetes mellitus (T2DM)\n* Have HbA1c ≥7.0% (53 mmol/mol) to ≤11% (97 mmol/mol)\n* Have been treated with insulin glargine (U100) once daily alone, or in combination with metformin with or without SGLT-2i ≥90 days\n* Have a body mass index (BMI) ≥23 kilograms per meter squared (kg/m²)\n\nExclusion Criteria:\n\n* Have type 1 diabetes mellitus (T1DM)\n* Have a history of chronic or acute pancreatitis\n* Have proliferative diabetic retinopathy or diabetic macular edema or nonproliferative diabetic retinopathy that requires acute treatment\n* Have a personal or family history of medullary thyroid carcinoma or personal history of multiple endocrine neoplasia syndrome type 2\n* Have a history of severe hypoglycemia and/or hypoglycemia unawareness within the 6 months\n* Have a history of diabetic ketoacidosis or hyperosmolar state/coma within the 6 months\n* Have acute myocardial infarction, or cerebrovascular accident (stroke) or hospitalization due to congestive heart failure (CHF) in the past 2 months\n* Have a serum calcitonin level of ≥35 ng/L, as determined by central laboratory\n* Have acute or chronic hepatitis, signs, and symptoms of any other liver disease other than nonalcoholic fatty liver disease (NAFLD), or alanine aminotransferase (ALT) level \\>3.0 times the upper limit of normal (ULN), as determined by the central laboratory at study entry; participants with NAFLD are eligible for participation in this trial only if their ALT level is ≤3.0 times ULN.",
-  "healthy_volunteers": true,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,229 +117,229 @@
  },
  "sites": [
   {
-   "city": "Hefei",
-   "country": "China",
    "facility": "The Second People's Hospital of Hefei",
-   "lat": 31.86389,
-   "lon": 117.28083,
+   "city": "Hefei",
    "state": "Anhui",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 31.86389,
+   "lon": 117.28083
   },
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Beijing Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
-   "state": "Beijing Municipality",
-   "status": null
-  },
-  {
    "city": "Beijing",
-   "country": "China",
-   "facility": "Beijing Pinggu District Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
    "state": "Beijing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
   },
   {
-   "city": "Chongqing",
+   "facility": "Beijing Pinggu District Hospital",
+   "city": "Beijing",
+   "state": "Beijing Municipality",
    "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
+  },
+  {
    "facility": "Chongqing General Hospital",
-   "lat": 29.56026,
-   "lon": 106.55771,
+   "city": "Chongqing",
    "state": "Chongqing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 29.56026,
+   "lon": 106.55771
   },
   {
-   "city": "Huizhou",
-   "country": "China",
    "facility": "Huizhou Municipal Central Hospital",
-   "lat": 23.11147,
-   "lon": 114.41523,
+   "city": "Huizhou",
    "state": "Guangdong",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 23.11147,
+   "lon": 114.41523
   },
   {
-   "city": "Harbin",
-   "country": "China",
    "facility": "The First Hospital of Harbin Medical University",
-   "lat": 45.75,
-   "lon": 126.65,
-   "state": "Heilongjiang",
-   "status": null
-  },
-  {
    "city": "Harbin",
-   "country": "China",
-   "facility": "The Fourth Hospital of Harbin Medical University",
-   "lat": 45.75,
-   "lon": 126.65,
    "state": "Heilongjiang",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 45.75,
+   "lon": 126.65
   },
   {
-   "city": "LuoyangShi",
+   "facility": "The Fourth Hospital of Harbin Medical University",
+   "city": "Harbin",
+   "state": "Heilongjiang",
    "country": "China",
+   "status": null,
+   "lat": 45.75,
+   "lon": 126.65
+  },
+  {
    "facility": "The First Affiliated Hospital of Henan University of Science &Technology",
-   "lat": null,
-   "lon": null,
+   "city": "LuoyangShi",
    "state": "Henan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Zhengzhou",
-   "country": "China",
    "facility": "The Second Affiliated Hospital of Zhengzhou University",
-   "lat": 34.75778,
-   "lon": 113.64861,
+   "city": "Zhengzhou",
    "state": "Henan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 34.75778,
+   "lon": 113.64861
   },
   {
-   "city": "Yueyang",
-   "country": "China",
    "facility": "The First People's Hospital of Yueyang",
-   "lat": 29.37455,
-   "lon": 113.09481,
+   "city": "Yueyang",
    "state": "Hunan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 29.37455,
+   "lon": 113.09481
   },
   {
-   "city": "Baotou",
-   "country": "China",
    "facility": "Baotou Central Hospital",
-   "lat": 40.6516,
-   "lon": 109.84389,
+   "city": "Baotou",
    "state": "Inner Mongolia",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 40.6516,
+   "lon": 109.84389
   },
   {
-   "city": "Changzhou",
-   "country": "China",
    "facility": "Changzhou No.2 People's Hospital",
+   "city": "Changzhou",
+   "state": "Jiangsu",
+   "country": "China",
+   "status": null,
    "lat": 31.77359,
-   "lon": 119.95401,
-   "state": "Jiangsu",
-   "status": null
+   "lon": 119.95401
   },
   {
-   "city": "Nanjing",
-   "country": "China",
    "facility": "Nanjing First Hospital",
-   "lat": 32.06167,
-   "lon": 118.77778,
+   "city": "Nanjing",
    "state": "Jiangsu",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 32.06167,
+   "lon": 118.77778
   },
   {
-   "city": "Nanjing",
-   "country": "China",
    "facility": "The Second Affiliated Hospital of Nanjing Medical University",
-   "lat": 32.06167,
-   "lon": 118.77778,
-   "state": "Jiangsu",
-   "status": null
-  },
-  {
    "city": "Nanjing",
+   "state": "Jiangsu",
    "country": "China",
-   "facility": "Zhongda Hospital Southeast University",
+   "status": null,
    "lat": 32.06167,
-   "lon": 118.77778,
-   "state": "Jiangsu",
-   "status": null
+   "lon": 118.77778
   },
   {
-   "city": "Wuxi",
+   "facility": "Zhongda Hospital Southeast University",
+   "city": "Nanjing",
+   "state": "Jiangsu",
    "country": "China",
+   "status": null,
+   "lat": 32.06167,
+   "lon": 118.77778
+  },
+  {
    "facility": "Wuxi People's Hospital",
+   "city": "Wuxi",
+   "state": "Jiangsu",
+   "country": "China",
+   "status": null,
    "lat": 31.56887,
-   "lon": 120.28857,
-   "state": "Jiangsu",
-   "status": null
+   "lon": 120.28857
   },
   {
-   "city": "WuxiShi",
-   "country": "China",
    "facility": "The Affiliated Jiangyin Hospital of Southeast University Medical College",
+   "city": "WuxiShi",
+   "state": "Jiangsu",
+   "country": "China",
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": "Jiangsu",
-   "status": null
+   "lon": null
   },
   {
-   "city": "Zhenjiang",
-   "country": "China",
    "facility": "Affiliated Hospital of Jiangsu University",
-   "lat": 32.21086,
-   "lon": 119.45508,
+   "city": "Zhenjiang",
    "state": "Jiangsu",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 32.21086,
+   "lon": 119.45508
   },
   {
-   "city": "Nanchang",
-   "country": "China",
    "facility": "The Third Hospital of Nanchang",
-   "lat": 28.68396,
-   "lon": 115.85306,
+   "city": "Nanchang",
    "state": "Jiangxi",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 28.68396,
+   "lon": 115.85306
   },
   {
-   "city": "Xi'an",
-   "country": "China",
    "facility": "The First Affiliated Hospital of Xi'an Medical University",
-   "lat": 34.25833,
-   "lon": 108.92861,
+   "city": "Xi'an",
    "state": "Shaanxi",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 34.25833,
+   "lon": 108.92861
   },
   {
-   "city": "Jinan",
-   "country": "China",
    "facility": "Jinan Central Hospital",
-   "lat": 36.66833,
-   "lon": 116.99722,
+   "city": "Jinan",
    "state": "Shandong",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 36.66833,
+   "lon": 116.99722
   },
   {
-   "city": "Chengdu",
-   "country": "China",
    "facility": "Chengdu Fifth People's Hospital",
-   "lat": 30.66667,
-   "lon": 104.06667,
-   "state": "Sichuan",
-   "status": null
-  },
-  {
    "city": "Chengdu",
-   "country": "China",
-   "facility": "West China Hospital of Sichuan University",
-   "lat": 30.66667,
-   "lon": 104.06667,
    "state": "Sichuan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 30.66667,
+   "lon": 104.06667
   },
   {
-   "city": "Tianjin",
+   "facility": "West China Hospital of Sichuan University",
+   "city": "Chengdu",
+   "state": "Sichuan",
    "country": "China",
+   "status": null,
+   "lat": 30.66667,
+   "lon": 104.06667
+  },
+  {
    "facility": "Tianjin Medical University General Hospital",
-   "lat": 39.14222,
-   "lon": 117.17667,
+   "city": "Tianjin",
    "state": "Tianjin Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.14222,
+   "lon": 117.17667
   },
   {
-   "city": "Huzhou",
-   "country": "China",
    "facility": "Huzhou Central Hospital",
-   "lat": 30.8703,
-   "lon": 120.0933,
+   "city": "Huzhou",
    "state": "Zhejiang",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 30.8703,
+   "lon": 120.0933
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05691712",

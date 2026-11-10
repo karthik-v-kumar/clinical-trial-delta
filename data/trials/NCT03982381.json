@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Uppsala University"
+  "name": "Uppsala University",
+  "class": "OTHER"
  },
  "collaborators": [
   "Uppsala University Hospital",
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Dapagliflozin 10 MG",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ],
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin 10 MG"
-   ],
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "A real-world, nationwide, register-based, randomised trial (RRCT) comparing SGLT2 inhibitors with metformin as standard treatment in early typ 2 diabetes. An open-label trial addressing efficacy with respect to clinically important macro- and microvascular events.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women ≥18 years old\n* T2D (according to World Health Organization (WHO) criteria) of less than 4 years duration\n* BMI 18.5-45 kg/m2\n* Drug naïve or oral monotherapy with glucose-lowering drug.\n* Accepting NDR participation and other register data collection.\n\nExclusion Criteria:\n\n* Known or suspected other form of diabetes than type 2\n* Ongoing or more than \\>4 weeks in total of any previous treatment with: insulin, GLP-1 receptor agonists, SGLT2 inhibitors or combination of any diabetes medications\n* Medical need to start or intensify any specific GLD treatment, e.g. insulin due to marked hyperglycemia\n* HbA1c \\>70 mmol/mol for patients on monotherapy, \\>80 in drug naïve\n* Contraindication to either metformin or dapagliflozin, or any unacceptable risk with either treatment as assessed by the investigator\n* History or signs of established cardiovascular disease: diagnosis of myocardial infarction, angina pectoris, heart failure, stroke, lower extremity arterial disease, any limb amputation (except due to trauma or malignancy)\n* Any serious illness or other condition with short life expectancy (\\<4 yr)\n* Renal impairment (eGFR \\<60 ml/min/1,73m2)\n* Any condition, as judged by the investigator, that suggests that the patient will be non-compliant or otherwise unsuitable to study medication or study participation\n* Pregnancy or breastfeeding, women of childbearing potential (WOCBP; including perimenopausal women who have had a menstrual period within 1 year) without adequate anticonception during any part of the study period\n* Involvement in the planning and/or conduct of the study\n* Ongoing participation in another clinical trial.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Uppsala",
-   "country": "Sweden",
    "facility": "Uppsala University Hospital",
-   "lat": 59.85882,
-   "lon": 17.63889,
+   "city": "Uppsala",
    "state": null,
-   "status": null
+   "country": "Sweden",
+   "status": null,
+   "lat": 59.85882,
+   "lon": 17.63889
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03982381",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Janssen Research & Development, LLC"
+  "name": "Janssen Research & Development, LLC",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Canagliflozin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Canagliflozin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Canagliflozin"
-   ],
-   "label": "Canagliflozin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -125,10 +125,10 @@
  "brief_summary": "The purpose of the study is to evaluate the effects of canagliflozin on plasma volume and renal parameters in patients with Type 2 Diabetes Mellitus who are currently taking metformin and being treated for high blood pressure.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* All patients must have a diagnosis of T2DM with inadequate glycemic control (ie, HbA1c of \\>=7.0% and \\<=9.0% at Screening) on metformin monotherapy and be receiving therapy with an antihypertensive agent (an ACEI or ARB) for at least 4 weeks prior to Screening\n\nExclusion Criteria:\n\n-History of diabetic ketoacidosis, type 1 diabetes mellitus (T1DM), pancreas or beta cell transplantation, or diabetes secondary to pancreatitis or pancreatectomy; or a severe hypoglycemic episode within 6 months before screening",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "25 Years",
   "sex": "ALL",
+  "minimum_age": "25 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -136,13 +136,13 @@
  },
  "sites": [
   {
-   "city": "Neuss",
-   "country": "Germany",
    "facility": null,
-   "lat": 51.19807,
-   "lon": 6.68504,
+   "city": "Neuss",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 51.19807,
+   "lon": 6.68504
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01483781",

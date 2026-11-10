@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Sihuan Pharmaceutical Holdings Group Ltd."
+  "name": "Sihuan Pharmaceutical Holdings Group Ltd.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Janagliflozin plus metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Janagliflozin plus metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Placebo plus metformin",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Janagliflozin plus metformin"
-   ],
    "label": "Janagliflozin 25 mg plus metformin",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Janagliflozin plus metformin"
-   ],
-   "label": "Janagliflozin 50 mg plus metformin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Janagliflozin 50 mg plus metformin",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Janagliflozin plus metformin"
+   ]
+  },
+  {
+   "label": "Placebo/Janagliflozin plus metformin",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Device: Placebo plus metformin"
-   ],
-   "label": "Placebo/Janagliflozin plus metformin",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of Janagliflozin compared to placebo, both in combination with Metformin, in Chinese patients with type 2 diabetes mellitus (T2DM) inadequately controlled with Metformin alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* T2DM Patients with inadequate glycemic control (HbA1c level≥7.0% and ≤10.5% at baseline) on metformin monotherapy.\n* Body Mass Index: 18.0\\~35.0 kg/m2 (both inclusive)\n\nExclusion Criteria:\n\n* History of type 1 diabetes mellitus (T1DM), diabetes caused by pancreatic injury, or secondary diabetes (e.g., diabetes caused by Cushing's syndrome or acromegaly)\n* More than 10% change in body weight within the 3 months before screening\n* Any laboratory test indicators meet the following standards:\n\n  * fasting plasma glucose ≥ 15 mmol/L\n  * aspartate aminotransferase, alanine aminotransferase levels \\> 3 times the upper limit of normal (ULN); total bilirubin \\> 1.5 times ULN\n  * hemoglobin \\< 100 g/L\n  * eGFR \\< 60 mL/min/1.73m2\n  * fasting triglycerides \\> 5.64 mmol/L (500 mg/dL)",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Linong Ji",
-   "lat": 39.9075,
-   "lon": 116.39723,
+   "city": "Beijing",
    "state": "Beijing Municipality",
-   "status": "RECRUITING"
+   "country": "China",
+   "status": "RECRUITING",
+   "lat": 39.9075,
+   "lon": 116.39723
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03851432",

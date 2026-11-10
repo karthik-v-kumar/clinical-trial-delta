@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -42,8 +42,8 @@
  "results_first_posted": "2014-05-14",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "exenatide once weekly",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "exenatide once weekly",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: exenatide once weekly"
-   ],
    "label": "Cohort 1: Healthy Participants",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide once weekly"
-   ],
-   "label": "Cohort 2: Diabetes Participants",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Cohort 2: Diabetes Participants",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: exenatide once weekly"
+   ]
+  },
+  {
+   "label": "Cohort 2: Diabetes Participants Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ],
-   "label": "Cohort 2: Diabetes Participants Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -148,10 +148,10 @@
  "brief_summary": "This study is designed to evaluate the pharmacokinetics, tolerability, and safety of exenatide once weekly suspension in both healthy subjects and in subjects with type 2 diabetes. The study will also evaluate efficacy in the type 2 diabetes patients. Development of this exenatide once weekly presentation would eliminate the need to reconstitute the product prior to use.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nCohort 1:\n\n* Is 19 to 65 years old\n* Has a body mass index (BMI) of 23 kg/m2 to 35 kg/m2, inclusive, at study start\n\nCohort 2:\n\n* Is 19 to 75 years old\n* Has been diagnosed with type 2 diabetes mellitus\n* Has HbA1c of 7.1% to 10.0%, inclusive, at study start\n* Has a body mass index (BMI) of 25 kg/m2 to 45 kg/m2, inclusive, at study start\n* Has been treated with diet and exercise alone or with a stable regimen of metformin, a TZD, or a combination of metformin and a TZD, for a minimum of 2 months prior to study start\n* Either is not treated with or has been on a stable treatment regimen with any of the following medications for a minimum of 2 months prior to study start:\n\n  * Hormone replacement therapy (female subjects)\n  * Oral contraceptives (female subjects)\n  * Antihypertensive agents\n  * Lipid-lowering agents\n  * Thyroid replacement therapy\n  * Antidepressant agents\n\nExclusion Criteria:\n\nCohort 1:\n\n* Has a personal history of diabetes mellitus (including impaired glucose tolerance, impaired fasting glucose, or gestational diabetes)\n* Has received any investigational drug within 30 days (or 5 half-lives of the investigational drug, whichever is greater) prior to study start\n* Has ever been exposed to exenatide (BYETTA, exenatide once weekly, or any other formulation of exenatide) or any GLP 1 analog\n\nCohort 2:\n\n* Has received any investigational drug within 30 days (or 5 half-lives of the investigational drug, whichever is greater) prior to study start\n* Has ever been exposed to exenatide (BYETTA, exenatide once weekly, or any other formulation of exenatide) or any GLP 1 analog\n* Has been treated, is currently being treated, or is expected to require or undergo treatment with any of the following treatment-excluded medications:\n\n  * Any DPP-4 inhibitor or sulfonylurea (SU) within 3 months prior to study start\n  * Alpha glucosidase inhibitor, meglitinide, nateglinide, or pramlintide (SYMLIN®) within 30 days prior to study start\n  * Insulin within 2 weeks prior to study start or for more than 1 week within 3 months prior to study start\n  * Systemic corticosteroids by oral, intravenous, or intramuscular route; or potent, inhaled, or intrapulmonary (including ADVAIR®) steroids known to have a high rate of systemic absorption\n  * Prescription or over-the-counter weight loss medications within 3 months prior to study start",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -159,13 +159,13 @@
  },
  "sites": [
   {
-   "city": "Lincoln",
-   "country": "United States",
    "facility": "Research Site",
-   "lat": 40.8,
-   "lon": -96.66696,
+   "city": "Lincoln",
    "state": "Nebraska",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.8,
+   "lon": -96.66696
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00894322",

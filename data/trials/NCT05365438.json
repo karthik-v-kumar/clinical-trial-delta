@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Seoul National University Bundang Hospital"
+  "name": "Seoul National University Bundang Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "Korea United Pharm. Inc."
@@ -54,46 +54,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Omega 3-Atorvastatin",
    "other_names": [
     "Atmeg-Omethyl cutielet"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Omega 3-Atorvastatin",
    "other_names": [
     "Atmeg"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin-Ezetimibe",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Omega 3-Atorvastatin"
-   ],
    "label": "Atmeg with Omethyl Cutielet",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Omega 3-Atorvastatin"
-   ],
-   "label": "Atmeg",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Atmeg",
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Omega 3-Atorvastatin"
+   ]
+  },
+  {
+   "label": "ezetimibe/atorvastatin 10/20",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin-Ezetimibe"
-   ],
-   "label": "ezetimibe/atorvastatin 10/20",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "This is a randomized controlled study to assess the effect of atorvastatin and omega 3 combination therapy compared with atorvastatin and ezetimibe combination therapy in Korean T2DM patients with asymptomatic atherosclerosis.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes under treatment with HbA1c 6.0-10.0% at screening visit\n* Male or female of 20 years or over\n* Mixed dyslipidemia under moderate-intensity statin: triglyceride ≥200 mg/dL, HDL-cholesterol ≤50 mg/dL, LDL-cholesterol ≥100 mg/dL\n\n  * moderate-intensity statin: atorvastatin 10-20mg, rosuvastatin 5mg, simvastatin 20-40mg, pravastatin 40-80mg, lovastatin 40mg, fluvastatin XL 80mg, fluvastatin 40mg bid, pitavastatin 2-4mg\n* Identified carotid artery plaque: carotid intima-media thickness (cIMT) ≥ 1.0 mm\n* Asymptomatic patients without history of angina, myocardial infarction, or cerebral infarction\n* Creatinine ≤1.8 mg/dL\n\nExclusion Criteria:\n\n* Dyslipidemia which requires other therapy: triglyceride ≥500 mg/dL or LDL-cholesterol ≥190 mg/dL\n* Uncontrolled hypertension: SBP \\>180 mmHg or DBP \\>110 mmHg\n* Severe renal dysfunction: eGFR \\<30 mL/min/1.73m2\n* AST/ALT \\>120/120 or chronic liver disease\n* Pregnant or childbearing woman who does not have enough contraception\n* Changes of medication related to chronic diseases (diabetes, hypertension, dyslipidemia, etc.) within 3 months\n* Usage of dyslipidemia therapy other than statin",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "city": "Seongnam-si",
-   "country": "South Korea",
    "facility": "SNUBH",
-   "lat": 37.43861,
-   "lon": 127.13778,
+   "city": "Seongnam-si",
    "state": "Gyeonggi-do",
-   "status": "RECRUITING"
+   "country": "South Korea",
+   "status": "RECRUITING",
+   "lat": 37.43861,
+   "lon": 127.13778
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05365438",

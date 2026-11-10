@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2020-07-24",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Boehringer Ingelheim"
+  "name": "Boehringer Ingelheim",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -55,39 +55,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Empagliflozin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo (matching empagliflozin)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "ramipril",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Sequence A",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin",
     "Drug: Placebo (matching empagliflozin)",
     "Drug: ramipril"
-   ],
-   "label": "Sequence A",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Sequence B",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin",
     "Drug: Placebo (matching empagliflozin)",
     "Drug: ramipril"
-   ],
-   "label": "Sequence B",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "This is a randomized, double-blind, double-dummy, placebo-controlled, cross over design trial with empagliflozin compared to placebo that is added to open-label ramipril.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Signed and dated written informed consent.\n* Male or female patients diagnosed with type 1 diabetes (T1D) at least 6 months prior to informed consent or type 2 diabetes (T2D) or non-diabetic obese patients.\n* T1D patients must use and be willing of and be willing to continue throughout the duration of the trial either:\n* multiple daily injections of insulin OR\n* continuous sub-cutaneous insulin infusion of any insulin type, with at least 3 months experience\n* For patients with T1D or T2D,HbA1c of 6.5 - 11%\n* Age at least 18 years of age\n* Body mass index of \\>=18.5 kg/m\\^2\n* Estimated glomerular filtration rate greater than or equal to 60 ml/min/1.73m2\n* Blood pressure greater than 90 /60 mmHg and less than or equal to 140 / 90 mmHg\n* Use of a highly effective method of contraception.\n* Further inclusion criteria apply\n\nExclusion criteria:\n\n* For patients with T1D, treatment with an antihyperglycaemic agent within 3 months prior to visit 1\n* occurrence of severe hypoglycaemia within 3 months prior to visit 1\n* hypoglycaemic unawareness within 3 months prior to visit 1\n* occurrence of diabetic ketoacidosis within 3 months of visit 1 and until visit 3 Further exclusion criteria apply",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "city": "Toronto",
-   "country": "Canada",
    "facility": "Toronto General Hospital",
-   "lat": 43.65333,
-   "lon": -79.38389,
+   "city": "Toronto",
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02632747",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "QUADRUPLE",
   "primary_purpose": "SCREENING",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "St. Louis University"
+  "name": "St. Louis University",
+  "class": "OTHER"
  },
  "collaborators": [
   "Washington University School of Medicine"
@@ -56,46 +56,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Metformin"
-   ],
    "label": "Metformin intolerant & metformin",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Placebo"
-   ],
-   "label": "Metformin intolerant & placebo",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin"
-   ],
-   "label": "Metformin tolerant & metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Metformin intolerant & placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
+   ]
+  },
+  {
+   "label": "Metformin tolerant & metformin",
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Metformin"
+   ]
+  },
+  {
    "label": "Metformin tolerant and placebo",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -107,10 +107,10 @@
  "brief_summary": "Metformin is associated with a high degree of gastrointestinal intolerance, which limits the effective use of the medication. It is proposed to be an inhibitor of liver mitochondrial glycerophosphate dehydrogenase which results in partial blockade of mitochondrial complex 1 and inhibition of metabolism of lactate to pyruvate. There is also evidence that it is accumulated in gastrointestinal cells, and that there are certain genotypes associated with inclusion or lack of exclusion of the metformin from these cells. To validate this hypothesis investigators propose to give metformin after a standard meal test to see if there is the accumulation of lactic acid in those with gastrointestinal intolerance to metformin, compared to those without intolerance, and to determine if these elevations of lactic acid and GI symptoms are associated with genetic predispositions.\n\nAims:\n\n1. To determine if the GI intolerance to metformin is associated with post meal elevations of lactic acid.\n\n   a. The test will measure the inhibition of mitochondrial complex 1 levels of lactate to pyruvate compared with non- intolerant subjects.\n2. To determine if individuals with gastrointestinal symptoms and elevated lactate/pyruvate ratios have genetic variation in the organic cation transporters.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Diabetes mellitus\n2. Tolerance to meformin\n3. Intolerance to metformin\n\nExclusion Criteria:\n\n1. Exclusion: Pregnant or nursing mothers\n2. Those not competent to provide informed consent\n3. Known systemic allergy (not intolerance) to metformin\n4. Congestive heart failure NYHA class III-IV\n5. Renal impairment,EGFRr\\<45ml/min\n6. Liver cirrhosis",
-  "healthy_volunteers": true,
-  "maximum_age": "70 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -118,13 +118,13 @@
  },
  "sites": [
   {
-   "city": "St Louis",
-   "country": "United States",
    "facility": "Saint Louis University",
-   "lat": 38.62727,
-   "lon": -90.19789,
+   "city": "St Louis",
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03445702",

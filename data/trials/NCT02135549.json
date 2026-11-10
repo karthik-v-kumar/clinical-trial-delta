@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Boston Therapeutics"
+  "name": "Boston Therapeutics",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,37 +52,37 @@
  ],
  "interventions": [
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "SugarDown",
-   "other_names": [],
-   "type": "DIETARY_SUPPLEMENT"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo Oral Tablet",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Dietary Supplement: SugarDown"
-   ],
    "label": "SugarDown 4 grams",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: SugarDown"
-   ],
-   "label": "SugarDown 8 grams",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "SugarDown 8 grams",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Dietary Supplement: SugarDown"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo Oral Tablet"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "To assess the safety and effectiveness of two doses of SugarDown in two different doses vs. placebo on serum glucose levels after meals in subjects with Type 2 Diabetes treated with metformin alone. There will be five visits, a screening visit, baseline visit, and 3 treatment visits. The study duration will be five weeks. Subjects will all receive placebo tablets at the baseline visit, eat a standard rice meal, and then serum glucose levels will be measured in frequent intervals over four hours immediately following the meal. Subjects will be randomized to one of the six treatment sequences. Patients will take in an unknown order one week of placebo, one week of 4 g dose and one week of 8 g dose of SugarDown immediately before breakfast, lunch and dinner meals. Patients will continue their usual metformin regimen during the trial period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Written informed consent prior to any trial-related activity\n* Male or female, between 25-75 years of age\n* A diagnosis of Type 2 Diabetes for at least one year prior to screening visit\n* Stable daily dose of metformin (up to 1.7 g daily) for at least 3 months prior to screening visit\n* Body Mass Index (BMI) between 25 and 35\n* HbA1c between 6.5% and 9.0%\n* Fasting blood glucose \\< 180 mg/dL\n\nExclusion Criteria:\n\n* Clinically significant cardiovascular, peripheral vascular, cerebrovascular or renal disease\n* Any clinical condition apart from diabetes Type 2 that affects glycemic control, examples include diabetes Type 1, liver disease, chronic pancreatitis, endocrine disease (e.g. pituitary, thyroid, adrenal gland disease), small or large intestine motility or absorptive disease, active infection, advanced malignant tumor or bariatric surgery\n* Any concomitant anti-diabetic medication other than metformin, including, but not limited to, the following classes of medication: insulin, sulfonylureas, glinides, glitazones, alpha-glucosidase inhibitors, amylin agonists, DPP-4 inhibitors, and GLP-1 agonists\n* Any concomitant steroid, hormonal, anorexic or other medications that could significantly interfere with glycemic control in subjects\n* Lactating or pregnant women, or women of child-bearing potential unable to use adequate birth control.\n* History or patient reported illicit drug abuse or alcoholism\n* Participation in another clinical study one month preceding recruitment\n* Any of the following laboratory abnormalities: AST or ALT \\> 1.5 times upper limit normal on liver function test, glomerular filtration rate \\< 60 (mL/min/1.73 m2) on chemistry panel measured by MDRD criteria, and hemoglobin \\< 10 g/dL on complete blood count",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "25 Years",
   "sex": "ALL",
+  "minimum_age": "25 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "city": "Garden City",
-   "country": "United States",
    "facility": "Accumed",
-   "lat": 40.72677,
-   "lon": -73.6343,
+   "city": "Garden City",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.72677,
+   "lon": -73.6343
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02135549",

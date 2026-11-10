@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Mayo Clinic"
+  "name": "Mayo Clinic",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institutes of Health (NIH)",
@@ -56,30 +56,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Semaglutide Group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ],
-   "label": "Semaglutide Group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo Group",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo Group",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "This study is being done to assess the efficacy of a saliva- based biomarker to predict response to semaglutide for the treatment of obesity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n\\- Obesity (BMI ≥30 kg/m2) without or with controlled chronic conditions (e.g., controlled hypertension).\n\nExclusion Criteria:\n\n* Weight changes greater than 3% in the previous 3 months\n* History of bariatric surgery including lap band and bariatric endoscopy\n* Significant untreated psychiatric dysfunction based upon screening with the Hospital Anxiety and Depression Inventory (HAD), Questionnaire on Eating and Weight Patterns (binge eating disorders and bulimia) and Columbia Suicide Severity Rating Scale (C-SSRS). If such a dysfunction is identified by an anxiety or depression score \\>11 or difficulties with substance or eating disorders, the participant will be excluded and given a referral letter to his/her primary care doctor for further appraisal and follow-up. Any suicidal ideation of type 4 or 5, any suicide attempt during the patient's lifetime, or any suicidal behavior in the last month.\n* Current use of anti-obesity medications or GLP1R agonists for Type 2 Diabetes\n* Any contraindication to FDA-approved GLP1R agonists\n* A person who is pregnant or wanting to become pregnant\n* Once the positive or negative cohort is filled at 2:1 ratio, some patients will be screen failed if their gene cohort is full.\n* A family member who is enrolled in this study.\n* Principal Investigator Discretion",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,22 +102,22 @@
  },
  "sites": [
   {
-   "city": "Jacksonville",
-   "country": "United States",
    "facility": "Mayo Clinic in Florida",
-   "lat": 30.33218,
-   "lon": -81.65565,
+   "city": "Jacksonville",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.33218,
+   "lon": -81.65565
   },
   {
-   "city": "Rochester",
-   "country": "United States",
    "facility": "Mayo Clinic in Rochester",
-   "lat": 44.02163,
-   "lon": -92.4699,
+   "city": "Rochester",
    "state": "Minnesota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.02163,
+   "lon": -92.4699
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06814938",

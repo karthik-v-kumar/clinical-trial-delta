@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Hoffmann-La Roche"
+  "name": "Hoffmann-La Roche",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,53 +52,53 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "RO7795081",
    "other_names": [
     "CT-996",
     "RG6652"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Crestor®"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Pitavastatin",
    "other_names": [
     "Livazo®",
     "Livalo®",
     "Zypitamag®"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Arm 1: ROS Alone, Then PIT Alone, Then RO7795081 Alone, Then RO7795081 + ROS, Then RO7795081 + PIT",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: RO7795081",
     "Drug: Rosuvastatin",
     "Drug: Pitavastatin"
-   ],
-   "label": "Arm 1: ROS Alone, Then PIT Alone, Then RO7795081 Alone, Then RO7795081 + ROS, Then RO7795081 + PIT",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Arm 2: ROS Alone, Then PIT Alone, Then Placebo Alone, Then Placebo + ROS, Then Placebo + PIT",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Rosuvastatin",
     "Drug: Pitavastatin"
-   ],
-   "label": "Arm 2: ROS Alone, Then PIT Alone, Then Placebo Alone, Then Placebo + ROS, Then Placebo + PIT",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -154,10 +154,10 @@
  "brief_summary": "This is a randomized, investigator-and-participant-blind, placebo-controlled, fixed sequence, cross-over, Phase 1 study to investigate the safety, tolerability, and pharmacokinetics of multiple doses of orally administered RO7795081 and the effect of a steady-state dose of orally administered RO7795081 on the pharmacokinetics of pitavastatin and rosuvastatin in otherwise healthy, overweight or obese adult participants.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy participants with no clinically relevant findings on physical examination at screening and at baseline (including detailed medical and surgical history, vital signs, 12-lead ECG, hematology, blood chemistry, and urinalysis); with no suspicion of cognitive impairment or dementia as judged by the Investigator; who are not under judicial supervision, guardianship, or curatorship.\n* Body Mass Index (BMI) ≥27.0 kg/m\\^2 at screening and on Day -1 of Period 1\n* Stable body weight (defined as \\<5% gain or loss) in the 2 months prior to screening as per verbal report by the participant and for the period between screening and Day -1 of Period 1 as per measured weight\n* Agreement to adhere to the contraception requirements\n\nExclusion Criteria:\n\n* Pregnant, breastfeeding, or intending to become pregnant during the study\n* Any condition or disease detected during the medical interview or physical examination that would render the participant unsuitable for the study, place the participant at undue risk, or interfere with the ability of the participant to complete the study in the opinion of the Investigator\n* History or presence of any clinically significant cardiovascular, broncho-pulmonary, hepatic, renal, gastrointestinal, endocrinological, hematological, neurological, psychiatric, or metabolic disorders, allergic diseases, hypofertility, cancer, or cirrhosis\n* History or evidence of any medical condition capable of significantly altering the absorption, metabolism, or elimination of drugs\n* History of convulsions (other than benign febrile convulsions of childhood) including epilepsy, or personal history of significant cerebral trauma or CNS infections (e.g., meningitis)\n* History of acute or chronic metabolic acidosis, including diabetic ketoacidosis with or without coma",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -165,13 +165,13 @@
  },
  "sites": [
   {
-   "city": "Groningen",
-   "country": "Netherlands",
    "facility": "ICON Plc (LPRA) - Netherlands",
-   "lat": 53.21917,
-   "lon": 6.56667,
+   "city": "Groningen",
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 53.21917,
+   "lon": 6.56667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06982131",

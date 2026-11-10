@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2017-05-25",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Johns Hopkins University"
+  "name": "Johns Hopkins University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -50,39 +50,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Standard Treatment",
    "other_names": [
     "insulin",
     "metformin",
     "sulfonylureas",
     "TZDs"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Incretin-Based Treatment",
    "other_names": [
     "GLP-1 analogues and receptor agonists,",
     "DPP-4 inhibitors,",
     "amylin analogues"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Standard Treatment",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Standard Treatment"
-   ],
-   "label": "Standard Treatment",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Incretin-based Treatment",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Incretin-Based Treatment"
-   ],
-   "label": "Incretin-based Treatment",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -94,23 +94,23 @@
  "brief_summary": "This study is a pilot randomized controlled trial of 30 elderly type 2 diabetes patients conducted at the MODEL Clinical Research (MODEL), Research Division of Bay West Endocrinology Associates in Baltimore, Maryland. The investigators hypothesized that compared to a regimen base solely on traditional drugs, a regimen including newer drugs will achieve glycemic target faster and induce less hypoglycemia, weight gain, and other side effects, over the short run.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetics diagnosed for at least 6 months\n* Patients ages ≥ 65 years and older\n* Active patients in the Bay West Endocrinology practice\n* Inadequately controlled on oral agents and/or basal insulin with HbA1c between 8.0% and 12%\n* Eligible for randomization to either treatment group\n* Patients willing to follow either treatment arm including regimen using one or more injectables\n* Patients to have an English Reading Level of Grade 6 or above\n* Patients residing at home\n\nExclusion Criteria:\n\n* Unwilling to use a regimen that may contain using one or more injections\n* Using short acting insulin prior to the study\n* Using GLP-1 in past 10 weeks\n* History of hypoglycemia unawareness or episodes needing emergency intervention\n* End-stage renal disease\n* Dementia\n* Blindness\n* Terminal illness",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "65 Years",
   "sex": "ALL",
+  "minimum_age": "65 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "OLDER_ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Baltimore",
-   "country": "United States",
    "facility": "Bay West Endocrinology Associates",
-   "lat": 39.29038,
-   "lon": -76.61219,
+   "city": "Baltimore",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.29038,
+   "lon": -76.61219
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02029846",

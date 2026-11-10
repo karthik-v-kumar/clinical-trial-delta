@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,47 +54,47 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Cagrilintide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo cagrilintide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Cagrilintide",
-    "Drug: Placebo cagrilintide",
-    "Drug: Placebo semaglutide"
-   ],
    "label": "Cagrilintide + placebo semaglutide in device 1 and placebo cagrilintide in device 2",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Cagrilintide",
     "Drug: Placebo cagrilintide",
     "Drug: Placebo semaglutide"
-   ],
-   "label": "Cagrilintide in device 2 and placebo cagrilintide + placebo semaglutide in device 1",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Cagrilintide in device 2 and placebo cagrilintide + placebo semaglutide in device 1",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Cagrilintide",
+    "Drug: Placebo cagrilintide",
+    "Drug: Placebo semaglutide"
+   ]
+  },
+  {
+   "label": "Placebo cagrilintide in device 2 and placebo cagrilintide + placebo semaglutide in device 1",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo cagrilintide",
     "Drug: Placebo semaglutide"
-   ],
-   "label": "Placebo cagrilintide in device 2 and placebo cagrilintide + placebo semaglutide in device 1",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "The purpose of this clinical study is to look at how well a study medicine called cagrilintide helps people living with excess body weight to lose weight. Participants will either get cagrilintide, the active study medicine being tested or placebo, a medicine that has no active medicine in it. Which treatment participants get is decided by chance. Cagrilintide is a new medicine under development that doctors cannot prescribe yet, but it has been tested in humans before. Participants will be in this clinical study for about 9 months.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Informed consent obtained before any study-related activities. Study-related activities are any procedures that are carried out as part of the study, including activities to determine suitability for the study.\n* Male or female (sex assigned at birth, inclusive of all gender identities).\n* Age 18 years or above at the time of signing the informed consent.\n* Body mass index (BMI) greater than or equal to (\\>=) 30.0 kilograms per square meter (kg/m\\^2), or BMI \\>= 27.0 kg/m\\^2 with the presence of at least one weight related comorbidity including, but not limited to, hypertension, dyslipidaemia, obstructive sleep apnoea or cardiovascular disease.\n\nExclusion criteria:\n\n* History of Type 1 Diabetes (T1D) or Type 2 Diabetes (T2D).\n* Previous dosing of marketed or non-marketed amylin-based compounds.\n* Treatment, or intention to initiate treatment, with any medication prescribed for the indication of weight management within 180 days before screening.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,328 +117,328 @@
  },
  "sites": [
   {
-   "city": "Athens",
-   "country": "Greece",
    "facility": "General Hospital Of Athens Alexandra - Department of Endocrinology, Diabetes Center",
-   "lat": 37.98376,
-   "lon": 23.72784,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Athens",
+   "state": null,
    "country": "Greece",
-   "facility": "General Hospital Of Athens G Gennimatas - Department of Endocrinology",
+   "status": "RECRUITING",
    "lat": 37.98376,
-   "lon": 23.72784,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 23.72784
   },
   {
-   "city": "Irakleio",
+   "facility": "General Hospital Of Athens G Gennimatas - Department of Endocrinology",
+   "city": "Athens",
+   "state": null,
    "country": "Greece",
+   "status": "RECRUITING",
+   "lat": 37.98376,
+   "lon": 23.72784
+  },
+  {
    "facility": "General Hospital Venizeleio-Pananeio - Diabetic Clinic",
+   "city": "Irakleio",
+   "state": null,
+   "country": "Greece",
+   "status": "RECRUITING",
    "lat": 38.05282,
-   "lon": 23.76523,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 23.76523
   },
   {
-   "city": "Peristeri",
-   "country": "Greece",
    "facility": "Athens Medical Center S.A. (Iatriko Peristeriou) - Diabetes, obesity and cardiometabolic diseases department",
+   "city": "Peristeri",
+   "state": null,
+   "country": "Greece",
+   "status": "RECRUITING",
    "lat": 38.01539,
-   "lon": 23.69187,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 23.69187
   },
   {
-   "city": "Thessaloniki",
-   "country": "Greece",
    "facility": "Ippokratio General Hospital Of Thessaloniki - B' Internal Medicine clinic",
-   "lat": 40.64072,
-   "lon": 22.93493,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Thessaloniki",
+   "state": null,
    "country": "Greece",
-   "facility": "St. Luke's Hospital S.A. - Endocrinology Department and Obesity Clinic",
+   "status": "RECRUITING",
    "lat": 40.64072,
-   "lon": 22.93493,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 22.93493
   },
   {
-   "city": "Kecskemét",
-   "country": "Hungary",
+   "facility": "St. Luke's Hospital S.A. - Endocrinology Department and Obesity Clinic",
+   "city": "Thessaloniki",
+   "state": null,
+   "country": "Greece",
+   "status": "RECRUITING",
+   "lat": 40.64072,
+   "lon": 22.93493
+  },
+  {
    "facility": "Trial Pharma Kft.",
+   "city": "Kecskemét",
+   "state": null,
+   "country": "Hungary",
+   "status": "RECRUITING",
    "lat": 46.90618,
-   "lon": 19.69128,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 19.69128
   },
   {
-   "city": "Szeged",
-   "country": "Hungary",
    "facility": "KomplexLabor Diagnosztika Kft.",
+   "city": "Szeged",
+   "state": null,
+   "country": "Hungary",
+   "status": "RECRUITING",
    "lat": 46.253,
-   "lon": 20.14824,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 20.14824
   },
   {
-   "city": "Kalocsa",
-   "country": "Hungary",
    "facility": "Stúdium Egészségház Kft.",
-   "lat": 46.52981,
-   "lon": 18.97283,
+   "city": "Kalocsa",
    "state": "Bács-Kiskun county",
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Nyíregyháza",
    "country": "Hungary",
+   "status": "RECRUITING",
+   "lat": 46.52981,
+   "lon": 18.97283
+  },
+  {
    "facility": "Borbánya Praxis E.Ü. Kft.",
-   "lat": 47.95539,
-   "lon": 21.71671,
+   "city": "Nyíregyháza",
    "state": "Szabolcs-Szatmar Varmegye",
-   "status": "RECRUITING"
+   "country": "Hungary",
+   "status": "RECRUITING",
+   "lat": 47.95539,
+   "lon": 21.71671
   },
   {
-   "city": "Caldas da Rainha",
-   "country": "Portugal",
    "facility": "ULS Do Oeste E.P.E. - Unidade Caldas da Rainha_CAMI - Unidade de Diabetes",
+   "city": "Caldas da Rainha",
+   "state": null,
+   "country": "Portugal",
+   "status": "RECRUITING",
    "lat": 39.40326,
-   "lon": -9.13839,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -9.13839
   },
   {
-   "city": "Figueira da Foz Municipality",
-   "country": "Portugal",
    "facility": "ULS Do Baixo Mondego, E.P.E. - HDFF_Serviço Cirurgia (Esp. Endocrinologia)",
+   "city": "Figueira da Foz Municipality",
+   "state": null,
+   "country": "Portugal",
+   "status": "RECRUITING",
    "lat": 40.15085,
-   "lon": -8.86179,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -8.86179
   },
   {
-   "city": "Leiria",
-   "country": "Portugal",
    "facility": "Hospital São Francisco, S.A_EECC",
+   "city": "Leiria",
+   "state": null,
+   "country": "Portugal",
+   "status": "RECRUITING",
    "lat": 39.74362,
-   "lon": -8.80705,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -8.80705
   },
   {
-   "city": "Lisbon",
-   "country": "Portugal",
    "facility": "APDP - Associação Protectora dos Diabéticos de Portugal",
-   "lat": 38.72509,
-   "lon": -9.1498,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Lisbon",
+   "state": null,
    "country": "Portugal",
-   "facility": "CVP Hospital Cruz Vermelha_Cardiologia",
+   "status": "RECRUITING",
    "lat": 38.72509,
-   "lon": -9.1498,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -9.1498
   },
   {
-   "city": "Vila Nova de Gaia",
+   "facility": "CVP Hospital Cruz Vermelha_Cardiologia",
+   "city": "Lisbon",
+   "state": null,
    "country": "Portugal",
+   "status": "RECRUITING",
+   "lat": 38.72509,
+   "lon": -9.1498
+  },
+  {
    "facility": "ULS De Gaia/Espinho_H.Santos Silva_Endocrinologia",
+   "city": "Vila Nova de Gaia",
+   "state": null,
+   "country": "Portugal",
+   "status": "RECRUITING",
    "lat": 41.12401,
-   "lon": -8.61241,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -8.61241
   },
   {
-   "city": "Belgrade",
-   "country": "Serbia",
    "facility": "Endocrinology, Diabetes and Metabolism Diseases Clinic",
+   "city": "Belgrade",
+   "state": null,
+   "country": "Serbia",
+   "status": "RECRUITING",
    "lat": 44.80401,
-   "lon": 20.46513,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 20.46513
   },
   {
-   "city": "Kamenitz",
-   "country": "Serbia",
    "facility": "Institute for Cardiovascular Diseases of Vojvodina - Sremska Kamenica",
+   "city": "Kamenitz",
+   "state": null,
+   "country": "Serbia",
+   "status": "RECRUITING",
    "lat": 45.22334,
-   "lon": 19.84263,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 19.84263
   },
   {
-   "city": "Niš",
-   "country": "Serbia",
    "facility": "Clinical Centre Nis, Endocrinology, Diabetes and Metabolism",
-   "lat": 43.32472,
-   "lon": 21.90333,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Niš",
+   "state": null,
    "country": "Serbia",
-   "facility": "University Clinical Centre Nis, Clinic for Cardiology",
+   "status": "RECRUITING",
    "lat": 43.32472,
-   "lon": 21.90333,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 21.90333
   },
   {
-   "city": "Novi Sad",
+   "facility": "University Clinical Centre Nis, Clinic for Cardiology",
+   "city": "Niš",
+   "state": null,
    "country": "Serbia",
+   "status": "RECRUITING",
+   "lat": 43.32472,
+   "lon": 21.90333
+  },
+  {
    "facility": "Clin. Centre Vojvodina, Clin. endocr., diab. and met. dis.",
+   "city": "Novi Sad",
+   "state": null,
+   "country": "Serbia",
+   "status": "RECRUITING",
    "lat": 45.25167,
-   "lon": 19.83694,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 19.83694
   },
   {
-   "city": "Lund",
-   "country": "Sweden",
    "facility": "Skånes Universitets Sjukhus",
+   "city": "Lund",
+   "state": null,
+   "country": "Sweden",
+   "status": "RECRUITING",
    "lat": 55.70584,
-   "lon": 13.19321,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 13.19321
   },
   {
-   "city": "Mölndal",
-   "country": "Sweden",
    "facility": "Forsåker vårdcentral",
+   "city": "Mölndal",
+   "state": null,
+   "country": "Sweden",
+   "status": "RECRUITING",
    "lat": 57.6554,
-   "lon": 12.01378,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 12.01378
   },
   {
-   "city": "Rättvik",
-   "country": "Sweden",
    "facility": "Dalecarlia Clinical Research AB",
-   "lat": 60.88632,
-   "lon": 15.11787,
+   "city": "Rättvik",
    "state": null,
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Örebro",
    "country": "Sweden",
+   "status": "RECRUITING",
+   "lat": 60.88632,
+   "lon": 15.11787
+  },
+  {
    "facility": "Örebro US - Överviktsenheten",
-   "lat": 59.27412,
-   "lon": 15.2066,
+   "city": "Örebro",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Sweden",
+   "status": "RECRUITING",
+   "lat": 59.27412,
+   "lon": 15.2066
   },
   {
-   "city": "Conyers",
-   "country": "United States",
    "facility": "Hope Clin Res & Wellness",
-   "lat": 33.66761,
-   "lon": -84.01769,
+   "city": "Conyers",
    "state": "Georgia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 33.66761,
+   "lon": -84.01769
   },
   {
-   "city": "Honolulu",
-   "country": "United States",
    "facility": "East West Med Res Inst",
-   "lat": 21.30694,
-   "lon": -157.85833,
+   "city": "Honolulu",
    "state": "Hawaii",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
-   "city": "Oak Park",
-   "country": "United States",
    "facility": "Walgreens - Store 11760",
-   "lat": 41.88503,
-   "lon": -87.7845,
+   "city": "Oak Park",
    "state": "Illinois",
-   "status": "NOT_YET_RECRUITING"
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 41.88503,
+   "lon": -87.7845
   },
   {
-   "city": "Indianapolis",
-   "country": "United States",
    "facility": "Midwest Inst For Clin Res",
-   "lat": 39.76838,
-   "lon": -86.15804,
+   "city": "Indianapolis",
    "state": "Indiana",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
-   "city": "Lexington",
-   "country": "United States",
    "facility": "The Alliance for Multispecialty Research LLC AMR",
-   "lat": 37.98869,
-   "lon": -84.47772,
+   "city": "Lexington",
    "state": "Kentucky",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 37.98869,
+   "lon": -84.47772
   },
   {
-   "city": "Greensboro",
-   "country": "United States",
    "facility": "PharmQuest",
+   "city": "Greensboro",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 36.07264,
-   "lon": -79.79198,
-   "state": "North Carolina",
-   "status": "RECRUITING"
+   "lon": -79.79198
   },
   {
-   "city": "Wilmington",
-   "country": "United States",
    "facility": "KDCILM, LLC & Accellacare US, Inc.",
-   "lat": 34.23556,
-   "lon": -77.94604,
+   "city": "Wilmington",
    "state": "North Carolina",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 34.23556,
+   "lon": -77.94604
   },
   {
-   "city": "North Charleston",
-   "country": "United States",
    "facility": "Coastal Carolina Res Ctr",
-   "lat": 32.85462,
-   "lon": -79.97481,
+   "city": "North Charleston",
    "state": "South Carolina",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 32.85462,
+   "lon": -79.97481
   },
   {
-   "city": "Newport News",
-   "country": "United States",
    "facility": "Health Res of Hampton Roads",
+   "city": "Newport News",
+   "state": "Virginia",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 36.98038,
-   "lon": -76.42975,
-   "state": "Virginia",
-   "status": "RECRUITING"
+   "lon": -76.42975
   },
   {
-   "city": "Richmond",
-   "country": "United States",
    "facility": "National Clin Res Inc.",
-   "lat": 37.55376,
-   "lon": -77.46026,
+   "city": "Richmond",
    "state": "Virginia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 37.55376,
+   "lon": -77.46026
   },
   {
-   "city": "Winchester",
-   "country": "United States",
    "facility": "Selma Medical Associates",
-   "lat": 39.18566,
-   "lon": -78.16333,
+   "city": "Winchester",
    "state": "Virginia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 39.18566,
+   "lon": -78.16333
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07745504",

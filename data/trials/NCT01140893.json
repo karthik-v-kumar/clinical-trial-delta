@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University Hospital, Caen"
+  "name": "University Hospital, Caen",
+  "class": "OTHER"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Exenatide",
    "other_names": [
     "Exenatide = BYETTA (R)"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "exenatide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Exenatide"
-   ],
-   "label": "exenatide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The purpose of this study is to determine whether exenatide is effective to improve glycemic control among type 2 diabetic patients treated by insulin pump therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men or women aged 35 to 70\n* Type 2 diabetes diagnosed for at least 12 months, according the criteria of the American Diabetes Association :\n\n  * presence of classic symptoms of diabetes mellitus with unequivocal elevation of plasma glucose (2-hour post-prandial or random glucose \\>200 mg/dL) or\n  * fasting plasma glucose elevation on more than 1 occasion \\> 125 mg/dL or\n  * patient currently undergoing pharmacological and/or non-pharmacological treatment for diabetes mellitus\n* CSII treatment using a rapid analog for at least 6 month (CSII being initiated in patients with HbA1c \\> 8 % despite a well-conducted MDI trial using a 2 to 5 daily injection regimen)\n* HbA1c ≥ 7,5% and ≤ 10 %\n* BMI ≥ 25 and ≤ 45\n* Stable body weight (≤10% variation) during the 3 last months\n\nExclusion Criteria:\n\n* Type 1 diabetes assessed by positive anti-GAD65 or anti-insulin or anti-IA2 antibodies\n* Monogenic diabetes (MODY, mitochondrial diabetes…)\n* Current treatment with OHA (OHA ought to be interrupted at least two months prior to inclusion in the study)\n* Current treatment specifically addressed for weight lost (orlistat, sibutramine, rimonabant may be interrupted at least 3 months prior to inclusion in the study)\n* Use of corticosteroid therapy for more than 10 days within the 3-past months, or patient who ought to be treated by corticosteroid during the study period\n* Clinically significant hepatic disease\n* Documented gastroparesis, or current use of drugs that directly affect gastrointestinal motility, or any significant abdominal disease that may increase the risk of adverse gastrointestinal effects induced by exenatide\n* Kidney failure (MDRD less than 50 ml/min)\n* Pregnancy/breastfeeding\n* Any social and/or mental condition rendering the subject unable to understand the scope and possible consequences of the study\n* Concurrent enrolment in another clinical trial\n* Geographically inaccessible for follow-up visits required by protocol",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "35 Years",
   "sex": "ALL",
+  "minimum_age": "35 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,31 +101,31 @@
  },
  "sites": [
   {
-   "city": "Caen",
-   "country": "France",
    "facility": "Endocrinology Unit and Clinical Research Center Basse Normandie, University Hospital of Caen",
+   "city": "Caen",
+   "state": null,
+   "country": "France",
+   "status": "RECRUITING",
    "lat": 49.18585,
-   "lon": -0.35912,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -0.35912
   },
   {
-   "city": "Corbeil-Essonne",
-   "country": "France",
    "facility": "CERIDT",
-   "lat": null,
-   "lon": null,
+   "city": "Corbeil-Essonne",
    "state": null,
-   "status": "RECRUITING"
+   "country": "France",
+   "status": "RECRUITING",
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Strasbourg",
-   "country": "France",
    "facility": "Endocrinology Unit",
-   "lat": 48.58392,
-   "lon": 7.74553,
+   "city": "Strasbourg",
    "state": null,
-   "status": "NOT_YET_RECRUITING"
+   "country": "France",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 48.58392,
+   "lon": 7.74553
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01140893",

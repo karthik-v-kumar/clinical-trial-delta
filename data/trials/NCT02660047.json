@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Leiden University Medical Center"
+  "name": "Leiden University Medical Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -59,6 +59,7 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Trade name: Victoza",
@@ -67,31 +68,30 @@
     "Marketing Authorisation number: EU/1/09/529/001",
     "ATC code: A10BX07",
     "CAS number 204656-20-2"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Liraglutide - Placebo",
    "other_names": [
     "Placebo"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Liraglutide",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Liraglutide"
-   ],
-   "label": "Liraglutide",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Liraglutide - Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Liraglutide - Placebo"
-   ],
-   "label": "Liraglutide - Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -143,10 +143,10 @@
  "brief_summary": "Among South Asians, in comparison to Western Europeans, there is an increased risk of type 2 diabetes mellitus (DM2) and DM2-related cardiovascular disease. The effect of Liraglutide (Victoza®) on cardiovascular function is therefore investigated in the DM2 patient group of South Asian descent specifically.\n\nLiraglutide is a new widely prescribed therapeutic agent for DM2 patients. It is a Glucagon Like Peptide - 1 homologue that improves glucose homeostasis and reduces blood pressure and body weight. The disadvantageous metabolic phenotype as seen in South Asians includes a relatively large total fat mass, with predominately visceral relative to subcutaneous adipose tissue and lower brown adipose tissue volume and activity, accompanied by increased lipid levels. The key elements in the mechanism of action of Liraglutide seem to correspond to the differences in metabolic profile between South Asians and Western Europeans. Diastolic dysfunction, an early finding of cardiovascular disease in DM2 and obesity and an independent predictor of mortality, has been shown to be associated with the amount of triglyceride accumulation in the heart and liver. The investigators hypothesize that Liraglutide has direct advantageous cardiovascular effects and reduces triglyceride accumulation in end-organs, specifically for DM2 patients of South Asian descent.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Informed consent\n* Age \\> 18 years and \\< 75 years\n* BMI \\> 23 kg/m2\n* DM2 treated with metformin and/or SU derivative and/or insulin for at least 3 months in stable dosage\n* HbA1c ≥ 6.5% and ≤ 11.0% (≥ 47.5 mmol/mol and ≤ 97.4 mmol/mol)\n* EGFR \\> 30 ml/min\n* Ethnicity: South Asian descent (i.e. Hindustani Surinamese), based on self-identified ethnicity and self-reported origin of the mother, the father and the mother's and father's ancestors. Both parents and the mother's and father's ancestors should be South Asian for inclusion.\n\nExclusion Criteria:\n\n* Use of thiazolidinediones (TZD), GLP-1 analogues, DPP-IV inhibitors, fibrates, prednisone, cytostatic or antiretroviral therapy within 6 months prior to the study\n* Uncontrolled treated or untreated hypertension (systolic blood pressue ≥ 180 mmHg and/or diastolic blood pressue ≥ 110 mmHg)\n* Acute coronary or cerebrovascular event within 30 days prior to study\n* Congestive heart failure NYHA III-IV\n* Hereditary lipoprotein disease\n* Psychiatric disorders and / or use of antipsychotic or antidepressant drugs at present or in the past\n* Hepatic disease (AST/ALT \\> 2 times reference values)\n* Endocrine disease other than diabetes mellitus type 2\n* Any significant chronic disease (e.g. inflammatory bowel disease)\n* Any significant abnormal laboratory results found during the medical screening procedure\n* Gastrointestinal surgery (e.g. gastric bypass)\n* Pregnant woman or a woman who is breast-feeding\n* Female of child-bearing potential intending to become pregnant or is not using adequate contraceptive methods while sexually active\n* Allergy to intravenous contrast\n* Known or suspected hypersensitivity to trial products or related products\n* Chronic pancreatitis or previous acute pancreatitis\n* Personal history or family history of medullary thyroid carcinoma or personal history of multiple endocrine neoplasia type 2\n* Claustrophobia\n* Metal implants or other contraindications for MRI\n* Recent participation in other research projects within the last 3 months or participation in 2 or more projects in one year",
-  "healthy_volunteers": false,
-  "maximum_age": "74 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "74 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -154,13 +154,13 @@
  },
  "sites": [
   {
-   "city": "Leiden",
-   "country": "Netherlands",
    "facility": "Leiden University Medical Center",
-   "lat": 52.15833,
-   "lon": 4.49306,
+   "city": "Leiden",
    "state": "Albinusdreef 2",
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 52.15833,
+   "lon": 4.49306
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02660047",

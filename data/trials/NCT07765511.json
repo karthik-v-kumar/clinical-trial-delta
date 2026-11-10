@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,62 +52,62 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Macupatide",
    "other_names": [
     "LY3532226"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Eloralintide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Macupatide ＋ placebo",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Macupatide",
     "Drug: Placebo"
-   ],
-   "label": "Macupatide ＋ placebo",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Eloralintide + placebo",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Eloralintide",
     "Drug: Placebo"
-   ],
-   "label": "Eloralintide + placebo",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Macupatide",
-    "Drug: Eloralintide"
-   ],
    "label": "Macupatide Dose A + Eloralintide",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Macupatide",
     "Drug: Eloralintide"
-   ],
-   "label": "Macupatide Dose B + Eloralintide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Macupatide Dose B + Eloralintide",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Macupatide",
+    "Drug: Eloralintide"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -119,10 +119,10 @@
  "brief_summary": "The main purpose of this study is to assess how well macupatide, when dosed alone and in combination with eloralintide, is tolerated and what side effects may occur in participants with obesity or overweight without Type 2 diabetes. Blood tests will be performed to investigate how the body processes the study drug and how the study drug affects the body. For each participant, the study will last about 4 months and will include 2 stays in the Clinical Research Unit (CRU), each lasting 3-5 nights.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Are Japanese participants assigned male at birth (AMAB) or assigned female at birth (AFAB) who agree to contraception requirements or participants who are individuals not of childbearing potential (INOCBP).\n* Have a body mass index greater than or equal to (≥)25 kilograms per square meter (kg/m²)\n* Have had a stable weight for the 3 months prior to screening. Stable weight is defined as less than 5 percent (%) body weight change.\n\nExclusion Criteria:\n\n* Have known allergies to related compounds of macupatide or eloralintide, or any components of the formulations.\n* Have a history of significant atopy, including severe allergic manifestations, or clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions.\n* Have a history or presence of psychiatric disorders, including a history of major depressive disorder or severe psychiatric disorders, within the last 3 years, that would present a safety risk or may significantly impair the participant's ability to comply with study procedures.\n* Have been diagnosed with Type 1 or Type 2 diabetes mellitus.\n* Have a history of chronic medical conditions involving the heart, liver, or kidneys.\n* Have a history of any malignancy within the past 5 years except for basal cell or squamous epithelial carcinomas of the skin that have been resected with no evidence of metastatic disease for 3 years.\n* Have a history or presence of a gastrointestinal (GI) disorder or previous surgery that impacts gastric emptying.\n* Have had or plan to have during the study, a device-based or surgical treatment use for obesity.\n* Have been treated, or plan to be treated, with prescription medications or other non approved drugs intended to promote weight loss, within 3 months prior to screening.\n* Are currently enrolled or have participated, within the last 30 days, in a clinical study involving an investigational product. If the previous investigational product has a long half-life, 5 half-lives or 30 days, whichever is longer, should have passed.\n* Have previously completed or withdrawn from this study or have previously received macupatide or eloralintide.\n* Have evidence of acute or chronic liver disease or pancreatic disease.",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -130,31 +130,31 @@
  },
  "sites": [
   {
-   "city": "Fukuoka",
-   "country": "Japan",
    "facility": "Souseikai Fukuoka Mirai Hospital",
+   "city": "Fukuoka",
+   "state": null,
+   "country": "Japan",
+   "status": null,
    "lat": 33.6,
-   "lon": 130.41667,
-   "state": null,
-   "status": null
+   "lon": 130.41667
   },
   {
-   "city": "Sumida-ku",
-   "country": "Japan",
    "facility": "Sumida Hospital",
-   "lat": null,
-   "lon": null,
+   "city": "Sumida-ku",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Toshima City",
-   "country": "Japan",
    "facility": "Medical Corporation Houeikai Sekino Clinical Pharmacology Clinic",
-   "lat": 35.76126,
-   "lon": 139.74491,
+   "city": "Toshima City",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.76126,
+   "lon": 139.74491
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07765511",

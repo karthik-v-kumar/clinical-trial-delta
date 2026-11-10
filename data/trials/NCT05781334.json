@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Duke University"
+  "name": "Duke University",
+  "class": "OTHER"
  },
  "collaborators": [
   "Boehringer Ingelheim"
@@ -52,23 +52,23 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "Virtual Consult Intervention",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Virtual Consult Intervention",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Virtual Consult Intervention"
-   ],
-   "label": "Virtual Consult Intervention",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Usual Care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "This study will be a prospective randomized implementation trial for patients hospitalized with heart failure, chronic kidney disease, and/or type 2 diabetes mellitus within Duke University Medical Center. The primary hypothesis is that a virtual quality improvement-based consult intervention will improve the rate of in-hospital evidence-based cardio-renal-metabolic medication use, particularly SGLT2 inhibitor therapy. Approximately 200 patients meeting eligibility criteria will be included in the study. Patients will be assigned into study groups, as defined by randomization of their treating clinician team to receiving the virtual consult versus not.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1\\. Hospitalized adults age ≥ 18 years with ≥1 of the following diagnoses, as defined by the medical record:\n\n1. HF (any ejection fraction)\n2. CKD with estimated GFR ≥ 20 mL/min/1.73m2 \\*\n3. T2DM (by clinical history or hemoglobin A1c)\n\nExclusion Criteria:\n\n1. End-stage stage renal disease on dialysis or eGFR \\<20 mL/kg/1.73m2.\n2. Pre-menopausal woman who are either breast-feeding or pregnant\n3. History of heart transplant or actively listed for heart transplant\n4. Implanted left ventricular assist device or implant anticipated within 3 months.\n5. Enrolled in or planning to enroll in hospice care.\n6. Active cancer (except localized prostate, breast, or non-melanoma skin cancers)",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "city": "Durham",
-   "country": "United States",
    "facility": "Duke University Medical Center",
-   "lat": 35.99403,
-   "lon": -78.89862,
+   "city": "Durham",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.99403,
+   "lon": -78.89862
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05781334",

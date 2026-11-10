@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2015-11-25",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Merck Sharp & Dohme LLC"
+  "name": "Merck Sharp & Dohme LLC",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,24 +52,25 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Omarigliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Matching placebo to Omarigliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Glimepiride",
    "other_names": [
     "Amaryl®",
     "Glimy"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Fortamet®",
@@ -77,28 +78,27 @@
     "Glucophage® XR",
     "Glumetza®",
     "Riomet®"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Omarigliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Omarigliptin",
     "Drug: Glimepiride",
     "Drug: Metformin"
-   ],
-   "label": "Omarigliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Matching placebo to Omarigliptin",
     "Drug: Glimepiride",
     "Drug: Metformin"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "This study will examine the safety and efficacy of the addition of omarigliptin in participants with type 2 diabetes mellitus with inadequate glycemic control on metformin and glimepiride. The primary hypothesis is that after 24 weeks, the addition of treatment with omarigliptin provides a greater reduction in hemoglobin A1c (A1C) compared with the addition of placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed with type 2 diabetes mellitus\n* Currently taking stable doses of metformin (\\>=1500 mg/day) and sulfonylurea\n* Male, or female not of reproductive potential or female of reproductive potential who agrees to remain abstinent or use (or have their partner use) 2 methods of acceptable contraception to prevent pregnancy during the study and for 21 days after the last dose of study drug\n\nExclusion Criteria:\n\n* History of type 1 diabetes mellitus or a history of ketoacidosis\n* Treated with any antihyperglycemic agent therapies other than the protocol-required sulfonylurea and metformin within 12 weeks prior to study participation or with omarigliptin at any time prior to study participation.\n* History of hypersensitivity to a dipeptidyl peptidase IV (DPP-4) inhibitor\n* On a weight loss program and is not in the maintenance phase; or has been on a weight loss medication in the past 6 months; or has undergone bariatric surgery within 12 months prior to study participation.\n* Is on or likely to require treatment for \\>=2 consecutive weeks or repeated courses of corticosteroids (inhaled, nasal or topical corticosteroids are permitted)\n* Currently being treated for hyperthyroidism or is on thyroid replacement therapy and has not been on a stable dose for at least 6 weeks\n* Medical history of active liver disease (other than non-alcoholic hepatic steatosis), including chronic active hepatitis B or C, primary biliary cirrhosis, or symptomatic gallbladder disease\n* Human immunodeficiency virus (HIV)\n* New or worsening coronary heart disease, congestive heart failure, myocardial infarction, unstable angina, coronary artery intervention, stroke, or transient ischemic neurological disorder within the past 3 months\n* Poorly controlled hypertension\n* History of malignancy \\<=5 years prior to study participation, except for adequately treated basal cell or squamous cell skin cancer, or in situ cervical cancer\n* Clinically important hematological disorder (such as aplastic anemia, myeloproliferative or myelodysplastic syndromes, thrombocytopenia)\n* Pregnant or breast feeding, or is expecting to conceive or donate eggs during the trial, including 21 days following the last dose of study drug\n* Current user of recreational or illicit drugs or has had a recent history of drug abuse or routinely consumes \\>2 alcoholic drinks per day or \\>14 drinks per week, or engages in binge drinking\n* Donated blood products within 8 weeks of study participation, or intends to donate blood products during the study or has received or anticipates receiving blood products within 12 weeks prior to study participation or during the study",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

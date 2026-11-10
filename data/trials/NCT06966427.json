@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Rabin Medical Center"
+  "name": "Rabin Medical Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "DreaMed Diabetes"
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Dosing Guidance System to be used with both time and amount of insulin as input",
    "other_names": [
     "endo.digital (Modi algorithm)"
-   ],
-   "type": "DEVICE"
+   ]
   },
   {
+   "type": "DEVICE",
    "name": "Dosing Guidance System to be used with only time of insulin as input",
    "other_names": [
     "endo.digital (Modi algorithm)"
-   ],
-   "type": "DEVICE"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Dosing Guidance System- Group A",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Dosing Guidance System to be used with both time and amount of insulin as input"
-   ],
-   "label": "Dosing Guidance System- Group A",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Dosing Guidance System-Group B",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Dosing Guidance System to be used with only time of insulin as input"
-   ],
-   "label": "Dosing Guidance System-Group B",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "A prospective, randomized, single blind, two-arms, multicenter study. The study aims to assess the safety of a dosing-guided system (DGS) that provides direct advice on insulin dosing recommendations and diabetes management to individuals with diabetes using insulin or starting basal insulin therapy, guided by their continuous glucose monitoring (CGM).\n\nThe study population will include up to 45 individuals with diabetes, distributed as follows: 15 with Type 1 diabetes (T1D) and 15 with Type 2 diabetes (T2D), both on MDI therapy and 15 with T2D using or starting to use basal insulin.\n\nThe study will include a 2- to 4-week run-in period followed by a 6-week intervention period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Documented T1D or T2D, for at least 6 months\n* Aged ≥ 6 years ≤ 75 years\n* HbA1c ≤ 11%\n* For Segment 1: Using basal-bolus MDI therapy, i.e. basal insulin and a bolus that is either:\n\n  1. Carbohydrate counting with carbohydrate ratio (CR) and correction factor (CF)\n  2. Fix dose for meal / meal estimation with CF\n* For Segment 2: Using or prescribed basal insulin\n* Participants using the following type of insulin as directed in the instructions for use:\n\n  1. Basal insulin: Glargine (including Rezvoglar, Semglee, Toujeo, Soliqua), Degludec (including Tresiba U-100, Tresiba U-200, Xultophy), Determir\n  2. Bolus insulin: regular insulin, rapid analogues (Insulin Aspart, Insulin Glulisine, Insulin Lispro) or ultra-rapid analogues (Fiasp, Lyumjev)\n* Participants willing to use FreesStyle Libre CGM according to manufacturer instructions, document insulin delivery, meals, and daily activities.\n* Participants have a smartphone compatible with study requirements.\n* Participants are willing and able to sign a written informed consent form to use their data.\n* Participants are willing to use the bolus calculator for insulin dosing (only for segment 1)\n\nExclusion Criteria:\n\n1. Concomitant diseases/treatment that influence metabolic control or any significant diseases/conditions including psychiatric disorders and substance abuse or drug or alcohol abuse that in the opinion of the investigator is likely to affect the subject's ability to complete the study or compromise patients' safety.\n2. Relevant severe organ disorders (diabetic nephropathy, diabetic retinopathy, diabetic foot syndrome) or any secondary disease or complication of diabetes mellitus, such as:\n\n   1. Subject has unstable or rapidly progressive renal disease or has eGFR \\< 45 or is receiving dialysis\n   2. Subject has active proliferative retinopathy\n   3. Active gastroparesis\n3. Participation in any other interventional study\n4. Female participant who is pregnant or planning to become pregnant within the planned study duration\n5. Individuals who are using one of the following types of insulin:\n\n   1. Intermediate-acting insulin (NPH)\n   2. Mixed insulin like:\n\n   i. Premix NPH/ Regular (e.g. Humalin 70/30, Novolog 70/30) ii. Premix analogs (e.g, Novolog mix 70/30, Hu,alog mix 75, 25, Humalog Mix 50/50) c. Inhale insulin (e.g. Afrezza)\n6. Hypoglycemia unawareness\n7. Individuals who are treated with intravenous (IV) insulin injections, or a combination of insulin injections and/or IV insulin and insulin pump therapy.\n8. Individuals who have extensive skin changes/diseases at the proposed application sites that could interfere with device placement or the accuracy of interstitial glucose measurements.\n9. An episode of diabetic keto-acidosis within the month prior to study entry and/or severe hypoglycemia resulting in seizure or loss of consciousness in the month prior to enrolment.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "6 Years",
   "sex": "ALL",
+  "minimum_age": "6 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -104,22 +104,22 @@
  },
  "sites": [
   {
-   "city": "Petah Tikva",
-   "country": "Israel",
    "facility": "Schneider Children Medical Center of Israel",
-   "lat": 32.0888,
-   "lon": 34.88666,
+   "city": "Petah Tikva",
    "state": null,
-   "status": "NOT_YET_RECRUITING"
+   "country": "Israel",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 32.0888,
+   "lon": 34.88666
   },
   {
-   "city": "Ljubljana",
-   "country": "Slovenia",
    "facility": "University Medical Center of Ljubljana",
-   "lat": 46.05108,
-   "lon": 14.50513,
+   "city": "Ljubljana",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Slovenia",
+   "status": "RECRUITING",
+   "lat": 46.05108,
+   "lon": 14.50513
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06966427",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "LG Life Sciences"
+  "name": "LG Life Sciences",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -49,74 +49,64 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Sequence 1 : Period 1 (VR 160/20 mg-1), Period 2(VR 160/20 mg-2), Period (V+R)",
    "other_names": [
     "Rovatitan tab",
     "Diovan",
     "Crestor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Sequence 2 : Period 1 (VR 160/20 mg-2), Period 2 (V+R), Period 3 (VR 160/20 mg-1)",
    "other_names": [
     "Rovatitan tab",
     "Diovan",
     "Crestor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Sequence 3 : Period 1 (V+R), Period 2 (VR 160/20 mg-2), Period 3 (VR 160/20 mg-1)",
    "other_names": [
     "Rovatitan tab",
     "Diovan",
     "Crestor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Sequence 4 : Period 1 (VR 160/20 mg-1), Period 2 (V+R), Period 3 (VR 160/20 mg-2 )",
    "other_names": [
     "Rovatitan tab",
     "Diovan",
     "Crestor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Sequence 5 : Period 1 (VR 160/20 mg-2), Period 2 (VR 160/20 mg-1), Period 3 (V+R )",
    "other_names": [
     "Rovatitan tab",
     "Diovan",
     "Crestor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Sequence 6 : Period 1 (V+R), Period 2 (VR 160/20 mg-1), Period 3 (VR 160/20 mg-2)",
    "other_names": [
     "Rovatitan tab",
     "Diovan",
     "Crestor"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Sequence 1 : Period 1 (VR 160/20 mg-1), Period 2(VR 160/20 mg-2), Period (V+R)",
-    "Drug: Sequence 2 : Period 1 (VR 160/20 mg-2), Period 2 (V+R), Period 3 (VR 160/20 mg-1)",
-    "Drug: Sequence 3 : Period 1 (V+R), Period 2 (VR 160/20 mg-2), Period 3 (VR 160/20 mg-1)",
-    "Drug: Sequence 4 : Period 1 (VR 160/20 mg-1), Period 2 (V+R), Period 3 (VR 160/20 mg-2 )",
-    "Drug: Sequence 5 : Period 1 (VR 160/20 mg-2), Period 2 (VR 160/20 mg-1), Period 3 (V+R )",
-    "Drug: Sequence 6 : Period 1 (V+R), Period 2 (VR 160/20 mg-1), Period 3 (VR 160/20 mg-2)"
-   ],
    "label": "Fixed-dose combination VR 160/20 mg-1",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sequence 1 : Period 1 (VR 160/20 mg-1), Period 2(VR 160/20 mg-2), Period (V+R)",
     "Drug: Sequence 2 : Period 1 (VR 160/20 mg-2), Period 2 (V+R), Period 3 (VR 160/20 mg-1)",
@@ -124,11 +114,11 @@
     "Drug: Sequence 4 : Period 1 (VR 160/20 mg-1), Period 2 (V+R), Period 3 (VR 160/20 mg-2 )",
     "Drug: Sequence 5 : Period 1 (VR 160/20 mg-2), Period 2 (VR 160/20 mg-1), Period 3 (V+R )",
     "Drug: Sequence 6 : Period 1 (V+R), Period 2 (VR 160/20 mg-1), Period 3 (VR 160/20 mg-2)"
-   ],
+   ]
+  },
+  {
    "label": "Fixed-dose combination VR 160/20 mg-2",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Sequence 1 : Period 1 (VR 160/20 mg-1), Period 2(VR 160/20 mg-2), Period (V+R)",
     "Drug: Sequence 2 : Period 1 (VR 160/20 mg-2), Period 2 (V+R), Period 3 (VR 160/20 mg-1)",
@@ -136,9 +126,19 @@
     "Drug: Sequence 4 : Period 1 (VR 160/20 mg-1), Period 2 (V+R), Period 3 (VR 160/20 mg-2 )",
     "Drug: Sequence 5 : Period 1 (VR 160/20 mg-2), Period 2 (VR 160/20 mg-1), Period 3 (V+R )",
     "Drug: Sequence 6 : Period 1 (V+R), Period 2 (VR 160/20 mg-1), Period 3 (VR 160/20 mg-2)"
-   ],
+   ]
+  },
+  {
    "label": "Valsartan 160mg placebo + Rosuvastatin 20mg",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Sequence 1 : Period 1 (VR 160/20 mg-1), Period 2(VR 160/20 mg-2), Period (V+R)",
+    "Drug: Sequence 2 : Period 1 (VR 160/20 mg-2), Period 2 (V+R), Period 3 (VR 160/20 mg-1)",
+    "Drug: Sequence 3 : Period 1 (V+R), Period 2 (VR 160/20 mg-2), Period 3 (VR 160/20 mg-1)",
+    "Drug: Sequence 4 : Period 1 (VR 160/20 mg-1), Period 2 (V+R), Period 3 (VR 160/20 mg-2 )",
+    "Drug: Sequence 5 : Period 1 (VR 160/20 mg-2), Period 2 (VR 160/20 mg-1), Period 3 (V+R )",
+    "Drug: Sequence 6 : Period 1 (V+R), Period 2 (VR 160/20 mg-1), Period 3 (VR 160/20 mg-2)"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -154,23 +154,23 @@
  "brief_summary": "To compare the safety and pharmacokinetics between ROVATITAN tab. 160/20 mg (ROVATITAN tab 160/20mg-1, ROVATITAN tab. 160/20mg-2) and coadministration of Diovan® (Valsartan) 160 mg and Crestor® (Rosuvastatin) 20 mg in healthy male volunteers",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Healthy male aged 20\\~45 years at screening\n2. 19 kg/m2 ≤ BMI ≤27 kg/m2 at screening\n3. Subject who is able to communicate with investigators and understand the nature of the clinical study and is willing and able to provide a written informed consent form\n\nExclusion Criteria:\n\n1. Subject with current or previous clinically significant diseases in liver, renal, neurologic, pulmonary, gastrointestinal, endocrine, hematologic, oncologic, cardiovascular, psychological, and musculoskeletal system\n2. Patient with renal defects (Calculated GFR \\< 60 ml/min based on serum creatinine level )\n3. Subject who can not satisfy the following criteria for sitting blood pressure at screening test 90 ≤SBP \\<140 (mmHg) 60 ≤ DBP \\<90 (mmHg)\n4. Subject who can not satisfy the following criteria at screening 1) AST and ALT ≤ 1.5x ULN 2) Serum total bilirubin ≤ 1.5x ULN 3) CK (Creatinine kinase) ≤ 2x ULN\n5. Subject with a medical history of gastrointestinal diseases (e.g., Crohn's disease, ulcer) or a surgery (for appendicitis and hernia repair are allowed) that might affect the investigational product absorption\n6. Subject with hypersensitivity to the drugs containing components of valsartan and rosuvastatin or other drugs (aspirin, antibiotics) or a previous clinically significant history of hypersensitivity\n7. Subject with a previous history of drug overdose or a positive to the drugs (Barbiturate, Benzodiazepine, Methamphetamine, Cannabinoids, Cocaine, Opiate) in urine drug screening test\n8. Subject who has taken any prescribed medicines or oriental medicines within two weeks before the first investigational product administration, or who has taken any over-the-counter drugs within one week before the first investigational product administration (If the subject is eligible for all other criteria, he or she may participate in the clinical study based on investigator's discretion.)\n9. Subject who has taken other investigational products within 60 days before the first investigational product administration\n10. Subject who donated whole blood within 60 days or donated apheresis blood within 30 days or received a transfusion within 30 days before the first investigational product administaration.\n11. Subject who has taken the drugs that induce or inhibit drug-metabolizing enzymes such as barbiturates within 30 days before the first investigational product administration\n12. Subject with a daily intake of drinks containing caffeine (coffee, tea, coke) or grapefruit juice \\> average of 4 cups / day (800 mL) or a subject who can not discontinue such drinks during the clinical study period(from screening to post-study visit)\n13. Subject with a mean weekly drinking amount of \\> 140g or a subject who can not stop drinking until outpatient visit after the investigational product administration, including the hospitalization in each period.\n14. Subject with a mean daily smoking amount of \\> 10 cigarettes or a subject who can not stop smoking during the hospitalization\n15. Subject positive result in serology tests (hepatitis B, hepatitis C, HIV)\n16. Subject with genetic muscle disease, or familial history of muscle disease, or medical history of drug-derived muscle disorder\n17. Subject who is considered not to be eligible at investigator's discretion.",
-  "healthy_volunteers": true,
-  "maximum_age": "45 Years",
-  "minimum_age": "20 Years",
   "sex": "MALE",
+  "minimum_age": "20 Years",
+  "maximum_age": "45 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Samsung Medical Center",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01918358",

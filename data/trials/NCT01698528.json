@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "SUPPORTIVE_CARE",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2017-09-14",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Joslin Diabetes Center"
+  "name": "Joslin Diabetes Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "Massachusetts Institute of Technology"
@@ -50,25 +50,25 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Tablet Computer",
    "other_names": [
     "Toshiba tablet computer"
-   ],
-   "type": "DEVICE"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Intervention Group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Tablet Computer"
-   ],
-   "label": "Intervention Group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Control Group",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -80,10 +80,10 @@
  "brief_summary": "The purpose of this study is to determine if using a diabetes management technology system, including a tablet computer, to track diabetes care and communicate with a clinician coach (a doctor or nurse from the Joslin Clinic) makes starting and adjusting insulin easier and safer for people with type 2 diabetes. Hypothesis: The use of a diabetes management technology system with a clinician coach helps more individuals starting basal insulin achieve better glycemic control with less hypoglycemia compared with standard clinical practice at Joslin Diabetes Center.",
  "eligibility": {
   "criteria": "Inclusion:\n\n* 18 years or older\n* Has type 2 diabetes, starting on basal insulin therapy\n* Hemoglobin A1c between 9-14%\n* Has Wi-Fi internet connection at home\n* Is willing to monitor blood glucose at least once per day\n* Is willing to inject and self-titrate insulin dose\n* Able to read and communicate in English proficiently\n\nExclusion:\n\n* Has severe visual impairment impacting visual acuity\n* Has severe hearing impairment impacting communication\n* Has Type 1 diabetes\n* Pregnant or lactating women\n* Alcohol dependency\n* Require multiple daily insulin injections",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -91,13 +91,13 @@
  },
  "sites": [
   {
-   "city": "Boston",
-   "country": "United States",
    "facility": "Joslin Diabetes Center",
-   "lat": 42.35843,
-   "lon": -71.05977,
+   "city": "Boston",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.35843,
+   "lon": -71.05977
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01698528",

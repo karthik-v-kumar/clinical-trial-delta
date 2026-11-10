@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,70 +52,70 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "liraglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "moxifloxacin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "PROCEDURE",
    "name": "electrocardiogram (ECG)",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   },
   {
+   "type": "PROCEDURE",
    "name": "electrocardiogram (ECG)",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: liraglutide",
-    "Drug: placebo",
-    "Procedure: electrocardiogram (ECG)"
-   ],
    "label": "Double-blind / liraglutide",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: liraglutide",
     "Drug: placebo",
     "Procedure: electrocardiogram (ECG)"
-   ],
-   "label": "Double-blind / placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Double-blind / placebo",
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: liraglutide",
+    "Drug: placebo",
+    "Procedure: electrocardiogram (ECG)"
+   ]
+  },
+  {
+   "label": "Open-label / moxifloxacin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: moxifloxacin",
     "Procedure: electrocardiogram (ECG)"
-   ],
-   "label": "Open-label / moxifloxacin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Open-label / placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo",
     "Procedure: electrocardiogram (ECG)"
-   ],
-   "label": "Open-label / placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -127,23 +127,23 @@
  "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to investigate if liraglutide effects the QTc interval. Moxifloxacin (Avelox®) is administered as positive control.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy\n* Fasting plasma glucose within normal limits (80-100 mg/dl)\n* BMI (Body Mass Index): 20.0-29.0 kg/m\\^2 (inclusive)\n* Heart rate within the range of 50-90 beats per minute (inclusive)\n* Subject is judged to be in good health on the basis of their medical history, physical examination, ECG (electrocardiogram), and routine laboratory data\n\nExclusion Criteria:\n\n* Any clinically significant disease history, in the opinion of the investigator, of systemic or organ disease\n* Any clinically significant disease history, in the opinion of the investigator, of cardiovascular disease\n* Clinically significant abnormalities on any pre-study clinical examination or any abnormal laboratory measurements during screening\n* A family history of sudden cardiac death at age less than 50 years old\n* T-wave abnormalities\n* Individual or familial history of long QT Syndrome\n* Positive results on Screening for Hepatitis B surface antigen, Hepatitis C antibody or HIV (human immunodeficiency virus) antibody\n* Positive results on the urine drug and alcohol screen\n* Any regular use of prescription or nonprescription drugs or vitamins and herbal/nutritional supplements that cannot be stopped at screening\n* Any strenuous exercise (as judged by the investigator) from 4 days prior to randomisation and during the entire trial period\n* Blood donation, trauma or surgery with blood loss exceeding 500 ml within the last 2 months prior to dosing\n* Subject is a smoker, occasional smoker or has a history of smoking (or use of any tobacco) within the last 3 months\n* Excessive use of methylxanthine-containing beverages (more than 8 cups/day of coffee, tea, soda or chocolate)\n* Females who are pregnant, breastfeeding, intend to become pregnant within the next 3 months, or who are judged to be using inadequate contraceptive measures\n* A history (within the last 2 years) of drug or alcohol abuse",
-  "healthy_volunteers": true,
-  "maximum_age": "45 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "45 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Fargo",
-   "country": "United States",
    "facility": "Novo Nordisk Investigational Site",
-   "lat": 46.87719,
-   "lon": -96.7898,
+   "city": "Fargo",
    "state": "North Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.87719,
+   "lon": -96.7898
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01516255",

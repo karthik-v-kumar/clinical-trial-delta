@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Jeil Pharmaceutical Co., Ltd."
+  "name": "Jeil Pharmaceutical Co., Ltd.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Group I (Telmisartan 80 mg, Amlodipine 10 mg, Rosuvastatin 20 mg)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Group II (Telmisartan 80 mg, Amodipine 10 mg, Rosuvastatin placebo)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Group III (Telmisartan 80 mg, Amlodipine placebo, Rosuvastatin 20 mg)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Group I",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Group I (Telmisartan 80 mg, Amlodipine 10 mg, Rosuvastatin 20 mg)"
-   ],
-   "label": "Group I",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Group II",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Group II (Telmisartan 80 mg, Amodipine 10 mg, Rosuvastatin placebo)"
-   ],
-   "label": "Group II",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Group III",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Group III (Telmisartan 80 mg, Amlodipine placebo, Rosuvastatin 20 mg)"
-   ],
-   "label": "Group III",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "To evaluate efficacy and safety of co-administrated temisartan/amlodipine and rosuvastatin in subjects with dyslipidemia with hypertension.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Dyslipidemia with hypertesion\n* msSBP \\< 180 mmHg\n* msDBP \\< 110 mmHg\n* LDL-C ≤ 250 mg/dL\n* Triglycerides \\< 400 mg/dL\n\nExclusion Criteria:\n\n* At Visit 3, BP difference SBP ≥20mmHg or DBP ≥10mmHg\n* CK normal range ≥ 2 times\n* Uncontrolled primary hypothyroidism(TSH normal range ≥ 1.5 times)\n* AST or ALT ≥ 2 times\n* Uncontrolled diabetes mellitus (HbA1c≥9%)\n* CLcr \\< 30 mL/min/1.73m\\^2\n* K \\> 5.5 mEq/L\n* Other exclusion applied",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,112 +114,112 @@
  },
  "sites": [
   {
-   "city": "Daejeon",
-   "country": "South Korea",
    "facility": "Chungnam National University Hospital",
+   "city": "Daejeon",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
    "lat": 36.35022,
-   "lon": 127.3848,
-   "state": null,
-   "status": null
+   "lon": 127.3848
   },
   {
-   "city": "Gwangju",
-   "country": "South Korea",
    "facility": "Chonnam National University Hospital",
+   "city": "Gwangju",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
    "lat": 35.15472,
-   "lon": 126.91556,
-   "state": null,
-   "status": null
+   "lon": 126.91556
   },
   {
-   "city": "Gyeonggi-do",
-   "country": "South Korea",
    "facility": "Seoul National University Bundang Hospital",
+   "city": "Gyeonggi-do",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
    "lat": 37.58944,
-   "lon": 126.76917,
-   "state": null,
-   "status": null
+   "lon": 126.76917
   },
   {
-   "city": "Incheon",
-   "country": "South Korea",
    "facility": "Gachon University Gil Medical Center",
+   "city": "Incheon",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
    "lat": 37.45646,
-   "lon": 126.70515,
-   "state": null,
-   "status": null
+   "lon": 126.70515
   },
   {
-   "city": "Pusan",
-   "country": "South Korea",
    "facility": "Inje University Haeundae Paik Hospital",
+   "city": "Pusan",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
    "lat": 36.3809,
-   "lon": 128.3681,
-   "state": null,
-   "status": null
+   "lon": 128.3681
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Ewha Womans University Mokdong Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Kangbuk Samsung Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Korea University Anam Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "KyungHee University Hospital at Gangdong",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Seoul National University Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "SoonChunHyang University Hospital, Seoul",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "The Catholic University of Korea Seoul St. Mary's Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03088254",

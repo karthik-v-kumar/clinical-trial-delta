@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -45,8 +45,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Ikaria Bioscience Pty Ltd"
+  "name": "Ikaria Bioscience Pty Ltd",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Shanghai Rona Therapeutics Co., Ltd."
@@ -56,51 +56,51 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "RN3161",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo Control",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Tirzepatide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "RN3161",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: RN3161"
-   ],
-   "label": "RN3161",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo Control",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo Control"
-   ],
-   "label": "Placebo Control",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "RN3161 and tirzepatide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: RN3161",
     "Drug: Tirzepatide"
-   ],
-   "label": "RN3161 and tirzepatide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo and tirzepatide",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo Control",
     "Drug: Tirzepatide"
-   ],
-   "label": "Placebo and tirzepatide",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -148,10 +148,10 @@
  "brief_summary": "Study to assess the safety, pharmacokinetics (the amount of study drug or any of its breakdown products in your body) and pharmacodynamics (how the study drug affects your body) of RN3161 alone (healthy volunteers) and RN3161 with tirzepatide (overweight and obese subjects)",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI:\n\nObesity: BMI ≥ 30 kg/m² for participants with no Asian ancestry and ≥ 27.5 kg/m² for participants with Asian ancestry that has been stable (± 5%) for the previous 3 months (based on participant self-report or available medical records), with or without a weight-related comorbidity (excluding diabetes)\n\nOverweight: BMI 27 to \\<30 kg/m² for participants with no Asian ancestry and 23.0 to \\<27.5 kg/m² for participants with Asian ancestry that has been stable (± 5%) for the previous 3 months (based on participant self-report or available medical records), with at least 1 weight-related comorbidity (excluding diabetes)\n\nWeight-related comorbidities include a diagnosis of the following:\n\n* Hypertension: seated BP ≤ 140/90 mm Hg; receiving ≤ 2 stable (≥ 4 weeks) agents limited to ACE inhibitors, angiotensin receptor blockers, calcium channel blockers, or thiazide ≤ 25 mg, or untreated\n* Dyslipidemia: stable use of lipid-lowering agents for dyslipidemia (LDL-C \\< 150 mg/dL, triglycerides \\< 300 mg/dL)\n* Osteoarthritis\n\nExclusion Criteria:\n\n* self-reported or documented weight gain or loss \\>5% within 3 months prior to screening\n* use of GLP1R agonists within 6 months of screening\n* intolerance to GLP-1 medications in the past\n* use of non-GLP1R medications for weight loss within 3 months of screening\n* HbA1c \\>6.5%\n* diagnosis of significant liver disease\n* history of malignancy or anaphylaxis\n* use of any siRNA agent in the prior 12 months",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -159,13 +159,13 @@
  },
  "sites": [
   {
-   "city": "Melbourne",
-   "country": "Australia",
    "facility": "Nucleus Network Pty Ltd",
-   "lat": -37.814,
-   "lon": 144.96332,
+   "city": "Melbourne",
    "state": "Victoria",
-   "status": "RECRUITING"
+   "country": "Australia",
+   "status": "RECRUITING",
+   "lat": -37.814,
+   "lon": 144.96332
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07245771",

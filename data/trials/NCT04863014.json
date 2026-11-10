@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2024-05-22",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Regeneron Pharmaceuticals"
+  "name": "Regeneron Pharmaceuticals",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,33 +53,33 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "evinacumab",
    "other_names": [
     "REGN1500",
     "Evkeeza™"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "OTHER",
    "name": "Placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "evinacumab",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: evinacumab"
-   ],
-   "label": "evinacumab",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "The primary objective of the study is to determine the proportion of patients with elevated triglycerides (TG), without familial chylomicronemia syndrome (FCS) due to loss of function (LoF) mutations in lipoprotein lipase (LPL), and a history of hypertriglyceridemia (HTG)-associated acute pancreatitis (AP) who experience a recurrent episode of AP after treatment with evinacumab versus placebo.\n\nThe secondary objectives of the study are:\n\n* To determine the change in the standard lipid profile after therapy with evinacumab versus placebo\n* To determine the changes in specialty lipoprotein parameters (ApoC3, ApoB48, ApoB100, and nuclear magnetic resonance \\[NMR\\] lipid profile) after therapy with evinacumab versus placebo\n* To measure the number of AP episodes per patient\n* To assess the safety and tolerability of evinacumab\n* To assess the potential immunogenicity of evinacumab\n* To assess the concentrations of total evinacumab and total angiopoietin-like 3 (ANGPTL3)",
  "eligibility": {
   "criteria": "Key Inclusion Criteria:\n\n1. Adults without FCS due to LPL loss of function mutations\n2. Documented history of 1 HTG-associated AP episode within 24 months of screening\n3. Fasting serum TG value \\>880 mg/dL (10 mmol/L) or \\>500 mg/dL (5.6mmol/L) determined during the screening period as described in the protocol\n4. Stable dose of lipid-lowering therapy (≥8 weeks) and willingness to maintain a stable regimen throughout the study\n5. Body mass index ≥18.0 and ≤45.0 kg/m2\n6. Compliance with a stable diet and exercise regimen at screening and willingness to continue the diet through the end of the study\n\nKey Exclusion Criteria:\n\n1. Hospitalization for AP within 4 weeks of screening\n2. Known genetic FCS defined as homozygous or compound heterozygous LoF mutations in LPL as defined in the protocol\n3. Symptomatic gallstone disease within 6 months prior to screening as defined in the protocol\n4. Use of any medication or nutraceutical known to alter serum lipids which has not been part of a stable therapeutic regimen for at least 8 weeks, and there are no plans to change the regimen during the study\n5. Presence of any clinically significant, uncontrolled endocrine disease known to influence serum lipids as defined in the protocol\n6. Has received a COVID-19 vaccination within 1-week of planned start medication or for which the planned COVID-19 vaccination would not be completed 1-week prior to start of the study\n\nNote: Other protocol-defined Inclusion/ Exclusion Criteria apply",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,355 +102,355 @@
  },
  "sites": [
   {
-   "city": "Québec",
-   "country": "Canada",
    "facility": "Clinique des maladies lipidiques de Quebec",
+   "city": "Québec",
+   "state": null,
+   "country": "Canada",
+   "status": null,
    "lat": 46.81228,
-   "lon": -71.21454,
-   "state": null,
-   "status": null
+   "lon": -71.21454
   },
   {
-   "city": "London",
-   "country": "Canada",
    "facility": "Robarts Research Institute",
-   "lat": 42.98339,
-   "lon": -81.23304,
+   "city": "London",
    "state": "Ontario",
-   "status": null
-  },
-  {
-   "city": "Chicoutimi",
    "country": "Canada",
+   "status": null,
+   "lat": 42.98339,
+   "lon": -81.23304
+  },
+  {
    "facility": "Centre Etudes Cliniques Ecogene-21",
-   "lat": 48.41963,
-   "lon": -71.06369,
+   "city": "Chicoutimi",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 48.41963,
+   "lon": -71.06369
   },
   {
-   "city": "Dresden",
-   "country": "Germany",
    "facility": "University Hospital Carl Gustav Carus",
-   "lat": 51.05089,
-   "lon": 13.73832,
+   "city": "Dresden",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Leipzig",
    "country": "Germany",
+   "status": null,
+   "lat": 51.05089,
+   "lon": 13.73832
+  },
+  {
    "facility": "University Hospital of Leipzig",
+   "city": "Leipzig",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 51.33962,
-   "lon": 12.37129,
-   "state": null,
-   "status": null
+   "lon": 12.37129
   },
   {
-   "city": "Amsterdam",
-   "country": "Netherlands",
    "facility": "Amsterdam University Medical Center (Amsterdam UMC), Academic Medical Center (AMC)",
-   "lat": 52.37403,
-   "lon": 4.88969,
+   "city": "Amsterdam",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Arnhem",
    "country": "Netherlands",
+   "status": null,
+   "lat": 52.37403,
+   "lon": 4.88969
+  },
+  {
    "facility": "Ziekenhuis Rijnstate",
-   "lat": 51.98,
-   "lon": 5.91111,
+   "city": "Arnhem",
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 51.98,
+   "lon": 5.91111
   },
   {
-   "city": "Newport Beach",
-   "country": "United States",
    "facility": "Radin Cardivascular Medical Group, Inc",
-   "lat": 33.61891,
-   "lon": -117.92895,
+   "city": "Newport Beach",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.61891,
+   "lon": -117.92895
   },
   {
-   "city": "New Haven",
-   "country": "United States",
    "facility": "Yale Cancer Center - Yale University",
-   "lat": 41.30815,
-   "lon": -72.92816,
+   "city": "New Haven",
    "state": "Connecticut",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.30815,
+   "lon": -72.92816
   },
   {
-   "city": "Boca Raton",
-   "country": "United States",
    "facility": "Excel Medical Clinical Trials, LLC",
+   "city": "Boca Raton",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.35869,
-   "lon": -80.0831,
-   "state": "Florida",
-   "status": null
+   "lon": -80.0831
   },
   {
-   "city": "Hialeah",
-   "country": "United States",
    "facility": "Harmony Medical Research Institute, Inc.",
-   "lat": 25.8576,
-   "lon": -80.27811,
+   "city": "Hialeah",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.8576,
+   "lon": -80.27811
   },
   {
-   "city": "Gainesville",
-   "country": "United States",
    "facility": "Northeast Georgia Medical Center",
-   "lat": 34.29788,
-   "lon": -83.82407,
+   "city": "Gainesville",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.29788,
+   "lon": -83.82407
   },
   {
-   "city": "Evanston",
-   "country": "United States",
    "facility": "NorthShore Medical Group",
+   "city": "Evanston",
+   "state": "Illinois",
+   "country": "United States",
+   "status": null,
    "lat": 42.04114,
-   "lon": -87.69006,
-   "state": "Illinois",
-   "status": null
+   "lon": -87.69006
   },
   {
-   "city": "Park Ridge",
-   "country": "United States",
    "facility": "Advocate Medical Group Midwest Heart Specialists",
+   "city": "Park Ridge",
+   "state": "Illinois",
+   "country": "United States",
+   "status": null,
    "lat": 42.01114,
-   "lon": -87.84062,
-   "state": "Illinois",
-   "status": null
+   "lon": -87.84062
   },
   {
-   "city": "Peoria",
-   "country": "United States",
    "facility": "Methodist Medical Center of Illiniois - UnityPoint Clinic",
+   "city": "Peoria",
+   "state": "Illinois",
+   "country": "United States",
+   "status": null,
    "lat": 40.69365,
-   "lon": -89.58899,
-   "state": "Illinois",
-   "status": null
+   "lon": -89.58899
   },
   {
-   "city": "Quincy",
-   "country": "United States",
    "facility": "Quincy Medical Group",
-   "lat": 39.9356,
-   "lon": -91.40987,
+   "city": "Quincy",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.9356,
+   "lon": -91.40987
   },
   {
-   "city": "Carmel",
-   "country": "United States",
    "facility": "St. Vincent Medical Group, Inc.",
-   "lat": 39.97837,
-   "lon": -86.11804,
+   "city": "Carmel",
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.97837,
+   "lon": -86.11804
   },
   {
-   "city": "Kansas City",
-   "country": "United States",
    "facility": "University of Kansas Medical Center",
-   "lat": 39.11417,
-   "lon": -94.62746,
+   "city": "Kansas City",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.11417,
+   "lon": -94.62746
   },
   {
-   "city": "Baltimore",
-   "country": "United States",
    "facility": "Johns Hopkins University School of Medicine",
-   "lat": 39.29038,
-   "lon": -76.61219,
+   "city": "Baltimore",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.29038,
+   "lon": -76.61219
   },
   {
-   "city": "Minneapolis",
-   "country": "United States",
    "facility": "Minneapolis Heart Institute",
-   "lat": 44.97997,
-   "lon": -93.26384,
-   "state": "Minnesota",
-   "status": null
-  },
-  {
    "city": "Minneapolis",
-   "country": "United States",
-   "facility": "University of Minnesota",
-   "lat": 44.97997,
-   "lon": -93.26384,
    "state": "Minnesota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.97997,
+   "lon": -93.26384
   },
   {
-   "city": "St Louis",
+   "facility": "University of Minnesota",
+   "city": "Minneapolis",
+   "state": "Minnesota",
    "country": "United States",
+   "status": null,
+   "lat": 44.97997,
+   "lon": -93.26384
+  },
+  {
    "facility": "Saint Louis University",
-   "lat": 38.62727,
-   "lon": -90.19789,
-   "state": "Missouri",
-   "status": null
-  },
-  {
    "city": "St Louis",
-   "country": "United States",
-   "facility": "Washington University School of Medicine",
-   "lat": 38.62727,
-   "lon": -90.19789,
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
-   "city": "Manhasset",
+   "facility": "Washington University School of Medicine",
+   "city": "St Louis",
+   "state": "Missouri",
    "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
+  },
+  {
    "facility": "Northwell Health",
+   "city": "Manhasset",
+   "state": "New York",
+   "country": "United States",
+   "status": null,
    "lat": 40.79788,
-   "lon": -73.69957,
-   "state": "New York",
-   "status": null
+   "lon": -73.69957
   },
   {
-   "city": "Mineola",
-   "country": "United States",
    "facility": "NYU Langone Hospital - Long Island",
+   "city": "Mineola",
+   "state": "New York",
+   "country": "United States",
+   "status": null,
    "lat": 40.74927,
-   "lon": -73.64068,
-   "state": "New York",
-   "status": null
+   "lon": -73.64068
   },
   {
-   "city": "New York",
-   "country": "United States",
    "facility": "Mt Sinai - Ichan Medical Institute",
-   "lat": 40.71427,
-   "lon": -74.00597,
-   "state": "New York",
-   "status": null
-  },
-  {
    "city": "New York",
-   "country": "United States",
-   "facility": "Weill Cornell Medical College",
-   "lat": 40.71427,
-   "lon": -74.00597,
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.71427,
+   "lon": -74.00597
   },
   {
-   "city": "Winston-Salem",
+   "facility": "Weill Cornell Medical College",
+   "city": "New York",
+   "state": "New York",
    "country": "United States",
+   "status": null,
+   "lat": 40.71427,
+   "lon": -74.00597
+  },
+  {
    "facility": "Wake Forest University Health Sciences",
-   "lat": 36.09986,
-   "lon": -80.24422,
+   "city": "Winston-Salem",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.09986,
+   "lon": -80.24422
   },
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "University of Cincinnati Hospital",
-   "lat": 39.12711,
-   "lon": -84.51439,
+   "city": "Cincinnati",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
   },
   {
-   "city": "Philadelphia",
-   "country": "United States",
    "facility": "Penn Medicine: University of Pennsylvania Health System",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "country": "United States",
+   "status": null,
    "lat": 39.95238,
-   "lon": -75.16362,
-   "state": "Pennsylvania",
-   "status": null
+   "lon": -75.16362
   },
   {
-   "city": "Pittsburgh",
-   "country": "United States",
    "facility": "University Of Pittsburgh",
-   "lat": 40.44062,
-   "lon": -79.99589,
+   "city": "Pittsburgh",
    "state": "Pennsylvania",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.44062,
+   "lon": -79.99589
   },
   {
-   "city": "Charleston",
-   "country": "United States",
    "facility": "Medical University of South Carolina",
-   "lat": 32.77632,
-   "lon": -79.93275,
+   "city": "Charleston",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.77632,
+   "lon": -79.93275
   },
   {
-   "city": "Chattanooga",
-   "country": "United States",
    "facility": "University Diabetes & Endocrine Consultants",
-   "lat": 35.04563,
-   "lon": -85.30968,
+   "city": "Chattanooga",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.04563,
+   "lon": -85.30968
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Methodist Dallas Medical Center",
+   "city": "Dallas",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
-   "city": "Kerrville",
-   "country": "United States",
    "facility": "Sante Clinical Research",
-   "lat": 30.04743,
-   "lon": -99.14032,
+   "city": "Kerrville",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.04743,
+   "lon": -99.14032
   },
   {
-   "city": "Seattle",
-   "country": "United States",
    "facility": "University of Washington",
+   "city": "Seattle",
+   "state": "Washington",
+   "country": "United States",
+   "status": null,
    "lat": 47.60621,
-   "lon": -122.33207,
-   "state": "Washington",
-   "status": null
+   "lon": -122.33207
   },
   {
-   "city": "Spokane",
-   "country": "United States",
    "facility": "MultiCare Institute for Research",
-   "lat": 47.65966,
-   "lon": -117.42908,
+   "city": "Spokane",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.65966,
+   "lon": -117.42908
   },
   {
-   "city": "Morgantown",
-   "country": "United States",
    "facility": "West Virginia University Heart & Vascular Institute",
-   "lat": 39.62953,
-   "lon": -79.9559,
+   "city": "Morgantown",
    "state": "West Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.62953,
+   "lon": -79.9559
   },
   {
-   "city": "Milwaukee",
-   "country": "United States",
    "facility": "Wisconsin Center for Advanced Research - a division of GI Associates, LLC",
-   "lat": 43.0389,
-   "lon": -87.90647,
+   "city": "Milwaukee",
    "state": "Wisconsin",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.0389,
+   "lon": -87.90647
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04863014",
@@ -505,12 +505,11 @@
    },
    {
     "text": "Has received a COVID-19 vaccination within 1-week of planned start medication or for which the planned COVID-19 vaccination would not be completed 1-week prior to start of the study"
-   },
-   {
-    "text": "Note: Other protocol-defined Inclusion/ Exclusion Criteria apply"
    }
   ],
-  "notes": []
+  "notes": [
+   "Note: Other protocol-defined Inclusion/ Exclusion Criteria apply"
+  ]
  },
  "in_watchlist": true,
  "history": []

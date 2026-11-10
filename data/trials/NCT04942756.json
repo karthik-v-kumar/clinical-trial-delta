@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "SUPPORTIVE_CARE",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Antea Foundation"
+  "name": "Antea Foundation",
+  "class": "OTHER"
  },
  "collaborators": [
   "Abbott Diabetes Care"
@@ -58,30 +58,30 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Continuous Glucose Monitoring",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Standard Care",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Continuous Glucose Monitoring",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Continuous Glucose Monitoring"
-   ],
-   "label": "Continuous Glucose Monitoring",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Standard Care",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Standard Care"
-   ],
-   "label": "Standard Care",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Cancer patients with known or newly diagnosed (i.e. iatrogenic) Diabetes Mellitus (DM) in Palliative/Supportive Care will be enrolled. Patients will be randomly assigned to one of two groups. Patients included in the first group will monitor glucose levels through Continuous Glucose Monitoring (CGM), using the FreeStyle Libre 2 (FSL2). The second group is represented by the usual standard way for blood glucose (BG) monitoring (lancing device for finger samples). An interim analysis is foreseen when the half of the expected events (hyperglycemic peaks) will be observed. In case the results of interim analysis show superiority of the CGM (FSL2) group patients of the second group will be switched.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Aged \\> or = 18 years\n* Diagnosed with advanced oncological disease\n* Known/newly diagnosed DM according to ADA criteria\n* Need of a Insulin therapy and need of Glycemia Monitoring with at least three finger pricks/die\n* Karnofsky Index \\>= 30\n* Provision of signed and dated informed consent form\n\nExclusion criteria:\n\n* Diagnosis of all types of Dementia\n* Presence of severe psychiatric diseases/symptoms\n* Kidney failure requiring dialysis\n* Patients with implanted pacemaker",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,58 +104,58 @@
  },
  "sites": [
   {
-   "city": "Ramat Gan",
-   "country": "Israel",
    "facility": "Palliative care Service - Sheba Medical Centre",
+   "city": "Ramat Gan",
+   "state": null,
+   "country": "Israel",
+   "status": null,
    "lat": 32.08227,
-   "lon": 34.81065,
-   "state": null,
-   "status": null
+   "lon": 34.81065
   },
   {
-   "city": "Roma",
-   "country": "Italy",
    "facility": "Antea Foundation",
-   "lat": 44.99364,
-   "lon": 11.10642,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Roma",
+   "state": null,
    "country": "Italy",
-   "facility": "Centro di Cure Palliative \"Insieme nella Cura\" - Policlinico Universitario - Campus Bio-Medico (Roma)",
+   "status": null,
    "lat": 44.99364,
-   "lon": 11.10642,
-   "state": null,
-   "status": null
+   "lon": 11.10642
   },
   {
-   "city": "Rome",
+   "facility": "Centro di Cure Palliative \"Insieme nella Cura\" - Policlinico Universitario - Campus Bio-Medico (Roma)",
+   "city": "Roma",
+   "state": null,
    "country": "Italy",
+   "status": null,
+   "lat": 44.99364,
+   "lon": 11.10642
+  },
+  {
    "facility": "Unità Operativa Complessa di Oncologia Medica - Policlinico Univeristario Campus Bio-medico di Roma",
-   "lat": 41.89193,
-   "lon": 12.51133,
+   "city": "Rome",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Torino",
    "country": "Italy",
-   "facility": "Fondazione FARO",
-   "lat": 44.88856,
-   "lon": 11.99138,
-   "state": null,
-   "status": null
+   "status": null,
+   "lat": 41.89193,
+   "lon": 12.51133
   },
   {
-   "city": "Arlesheim",
-   "country": "Switzerland",
-   "facility": "Hospiz im Park",
-   "lat": 47.49412,
-   "lon": 7.61979,
+   "facility": "Fondazione FARO",
+   "city": "Torino",
    "state": null,
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 44.88856,
+   "lon": 11.99138
+  },
+  {
+   "facility": "Hospiz im Park",
+   "city": "Arlesheim",
+   "state": null,
+   "country": "Switzerland",
+   "status": null,
+   "lat": 47.49412,
+   "lon": 7.61979
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04942756",

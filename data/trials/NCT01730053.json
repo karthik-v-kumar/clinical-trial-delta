@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2015-10-28",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Regeneron Pharmaceuticals"
+  "name": "Regeneron Pharmaceuticals",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Sanofi"
@@ -55,84 +55,84 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Alirocumab",
    "other_names": [
     "REGN727/SAR236553"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Crestor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Ezetimibe",
    "other_names": [
     "Ezetrol"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Rosuvastatin",
-    "Drug: Placebo"
-   ],
    "label": "Rosuvastatin 20 mg",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin",
-    "Drug: Ezetimibe",
     "Drug: Placebo"
-   ],
+   ]
+  },
+  {
    "label": "Ezetimibe 10 mg + Rosuvastatin 10 mg",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
-   "intervention_names": [
-    "Drug: Alirocumab",
-    "Drug: Rosuvastatin",
-    "Drug: Placebo"
-   ],
-   "label": "Alirocumab 75 mg/up to 150 mg + Rosuvastatin 10 mg",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Rosuvastatin",
-    "Drug: Placebo"
-   ],
-   "label": "Rosuvastatin 40 mg",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin",
     "Drug: Ezetimibe",
     "Drug: Placebo"
-   ],
-   "label": "Ezetimibe 10 mg + Rosuvastatin 20 mg",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Alirocumab 75 mg/up to 150 mg + Rosuvastatin 10 mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alirocumab",
     "Drug: Rosuvastatin",
     "Drug: Placebo"
-   ],
+   ]
+  },
+  {
+   "label": "Rosuvastatin 40 mg",
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Rosuvastatin",
+    "Drug: Placebo"
+   ]
+  },
+  {
+   "label": "Ezetimibe 10 mg + Rosuvastatin 20 mg",
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Rosuvastatin",
+    "Drug: Ezetimibe",
+    "Drug: Placebo"
+   ]
+  },
+  {
    "label": "Alirocumab 75 mg/ up to 150 mg + Rosuvastatin 20 mg",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Alirocumab",
+    "Drug: Rosuvastatin",
+    "Drug: Placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -144,10 +144,10 @@
  "brief_summary": "To evaluate the reduction of low-density lipoprotein cholesterol (LDL-C) by alirocumab (REGN727/SAR236553) as an add-on therapy to other LMT in patients with hypercholesterolemia at high cardiovascular (CV) risk.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patients with LDL-C greater than or equal to 70 mg/dL at the screening visit and who are not adequately controlled with a stable daily dose of rosuvastatin, with or without other LMT.\n\n   OR\n2. Patients with screening LDL-C greater than or equal to 100 mg/dL who are not adequately controlled with a stable daily dose of rosuvastatin before the screening visit, with or without other LMT.\n\nExclusion Criteria:\n\n1. LDL-C less than 70 mg/dL at the screening visit in patients with history of documented cardiovascular disease (CVD)\n2. LDL-C less than 100 mg/dL at the screening visit in patients without history of documented coronary heart disease (CHD) or non-CHD CVD, but with other risk factors\n3. Homozygous familial hypercholesterolemia (FH) (clinically or previous genotyping)\n4. Recent (within 3 months prior to the screening visit) myocardial infarction (MI), unstable angina leading to hospitalization, percutaneous coronary intervention (PCI), coronary bypass graft surgery (CABG), uncontrolled cardiac arrhythmia, stroke, transient ischemic attack, carotid revascularization, endovascular procedure or surgical intervention for peripheral vascular disease\n5. Newly diagnosed (within 3 months prior to randomization visit) or poorly controlled diabetes\n6. Presence of any clinically significant uncontrolled endocrine disease known to influence serum lipids or lipoproteins\n\n(The inclusion/ exclusion criteria provided above is not intended to contain all considerations relevant to a patient's potential participation in this clinical trial).",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -155,841 +155,841 @@
  },
  "sites": [
   {
+   "facility": null,
    "city": "Herston",
+   "state": null,
    "country": "Australia",
-   "facility": null,
+   "status": null,
    "lat": -27.44453,
-   "lon": 153.01852,
-   "state": null,
-   "status": null
+   "lon": 153.01852
   },
   {
+   "facility": null,
    "city": "New Lambton Heights",
+   "state": null,
    "country": "Australia",
-   "facility": null,
+   "status": null,
    "lat": -32.92466,
-   "lon": 151.69364,
-   "state": null,
-   "status": null
+   "lon": 151.69364
   },
   {
+   "facility": null,
    "city": "Perth",
+   "state": null,
    "country": "Australia",
-   "facility": null,
+   "status": null,
    "lat": -31.95224,
-   "lon": 115.8614,
-   "state": null,
-   "status": null
+   "lon": 115.8614
   },
   {
+   "facility": null,
    "city": "Sherwood",
+   "state": null,
    "country": "Australia",
-   "facility": null,
+   "status": null,
    "lat": -31.06485,
-   "lon": 152.72879,
-   "state": null,
-   "status": null
+   "lon": 152.72879
   },
   {
+   "facility": null,
    "city": "Woolloongabba",
+   "state": null,
    "country": "Australia",
-   "facility": null,
+   "status": null,
    "lat": -27.48855,
-   "lon": 153.03655,
-   "state": null,
-   "status": null
+   "lon": 153.03655
   },
   {
+   "facility": null,
    "city": "Brampton",
+   "state": "Ontario",
    "country": "Canada",
-   "facility": null,
+   "status": null,
    "lat": 43.68341,
-   "lon": -79.76633,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.76633
   },
   {
+   "facility": null,
    "city": "Burlington",
+   "state": "Ontario",
    "country": "Canada",
-   "facility": null,
+   "status": null,
    "lat": 43.38621,
-   "lon": -79.83713,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.83713
   },
   {
+   "facility": null,
    "city": "Etobicoke",
+   "state": "Ontario",
    "country": "Canada",
-   "facility": null,
+   "status": null,
    "lat": 43.64415,
-   "lon": -79.56985,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.56985
   },
   {
+   "facility": null,
    "city": "London",
+   "state": "Ontario",
    "country": "Canada",
-   "facility": null,
+   "status": null,
    "lat": 42.98339,
-   "lon": -81.23304,
-   "state": "Ontario",
-   "status": null
+   "lon": -81.23304
   },
   {
+   "facility": null,
    "city": "Newmarket",
+   "state": "Ontario",
    "country": "Canada",
-   "facility": null,
+   "status": null,
    "lat": 44.05011,
-   "lon": -79.46631,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.46631
   },
   {
+   "facility": null,
    "city": "Thornhill",
+   "state": "Ontario",
    "country": "Canada",
-   "facility": null,
+   "status": null,
    "lat": 43.815,
-   "lon": -79.4242,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.4242
   },
   {
+   "facility": null,
    "city": "Toronto",
-   "country": "Canada",
-   "facility": null,
-   "lat": 43.65333,
-   "lon": -79.38389,
    "state": "Ontario",
-   "status": null
-  },
-  {
-   "city": "Chicoutimi",
    "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
+  },
+  {
    "facility": null,
-   "lat": 48.41963,
-   "lon": -71.06369,
+   "city": "Chicoutimi",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 48.41963,
+   "lon": -71.06369
   },
   {
+   "facility": null,
    "city": "Dijon",
+   "state": null,
    "country": "France",
-   "facility": null,
+   "status": null,
    "lat": 47.31344,
-   "lon": 5.01391,
-   "state": null,
-   "status": null
+   "lon": 5.01391
   },
   {
+   "facility": null,
    "city": "Lille",
+   "state": null,
    "country": "France",
-   "facility": null,
+   "status": null,
    "lat": 50.63391,
-   "lon": 3.05512,
-   "state": null,
-   "status": null
+   "lon": 3.05512
   },
   {
+   "facility": null,
    "city": "Bad Oeynhausen",
+   "state": null,
    "country": "Germany",
-   "facility": null,
+   "status": null,
    "lat": 52.20699,
-   "lon": 8.80365,
-   "state": null,
-   "status": null
+   "lon": 8.80365
   },
   {
+   "facility": null,
    "city": "Berlin",
+   "state": null,
    "country": "Germany",
-   "facility": null,
+   "status": null,
    "lat": 52.52437,
-   "lon": 13.41053,
-   "state": null,
-   "status": null
+   "lon": 13.41053
   },
   {
+   "facility": null,
    "city": "Cologne",
+   "state": null,
    "country": "Germany",
-   "facility": null,
+   "status": null,
    "lat": 50.93333,
-   "lon": 6.95,
-   "state": null,
-   "status": null
+   "lon": 6.95
   },
   {
+   "facility": null,
    "city": "Regensburg",
+   "state": null,
    "country": "Germany",
-   "facility": null,
+   "status": null,
    "lat": 49.01513,
-   "lon": 12.10161,
-   "state": null,
-   "status": null
+   "lon": 12.10161
   },
   {
+   "facility": null,
    "city": "Ulm",
+   "state": null,
    "country": "Germany",
-   "facility": null,
+   "status": null,
    "lat": 48.39841,
-   "lon": 9.99155,
-   "state": null,
-   "status": null
+   "lon": 9.99155
   },
   {
+   "facility": null,
    "city": "Chieti",
+   "state": null,
    "country": "Italy",
-   "facility": null,
+   "status": null,
    "lat": 42.34827,
-   "lon": 14.16494,
-   "state": null,
-   "status": null
+   "lon": 14.16494
   },
   {
+   "facility": null,
    "city": "Genova",
+   "state": null,
    "country": "Italy",
-   "facility": null,
+   "status": null,
    "lat": 45.21604,
-   "lon": 11.87211,
-   "state": null,
-   "status": null
+   "lon": 11.87211
   },
   {
+   "facility": null,
    "city": "Naples",
+   "state": null,
    "country": "Italy",
-   "facility": null,
+   "status": null,
    "lat": 40.85216,
-   "lon": 14.26811,
-   "state": null,
-   "status": null
+   "lon": 14.26811
   },
   {
+   "facility": null,
    "city": "Palermo",
+   "state": null,
    "country": "Italy",
-   "facility": null,
+   "status": null,
    "lat": 38.1166,
-   "lon": 13.3636,
-   "state": null,
-   "status": null
+   "lon": 13.3636
   },
   {
+   "facility": "(2 Locations)",
    "city": "Roma",
+   "state": null,
    "country": "Italy",
-   "facility": "(2 Locations)",
+   "status": null,
    "lat": 44.99364,
-   "lon": 11.10642,
-   "state": null,
-   "status": null
+   "lon": 11.10642
   },
   {
+   "facility": null,
    "city": "Baja California",
+   "state": null,
    "country": "Mexico",
-   "facility": null,
+   "status": null,
    "lat": 16.43333,
-   "lon": -93.79528,
-   "state": null,
-   "status": null
+   "lon": -93.79528
   },
   {
+   "facility": null,
    "city": "Distrito Federal",
+   "state": null,
    "country": "Mexico",
-   "facility": null,
+   "status": null,
    "lat": 16.59,
-   "lon": -93.02694,
-   "state": null,
-   "status": null
+   "lon": -93.02694
   },
   {
-   "city": "Guadalajara",
-   "country": "Mexico",
    "facility": "(3 Locations)",
+   "city": "Guadalajara",
+   "state": null,
+   "country": "Mexico",
+   "status": null,
    "lat": 20.67738,
-   "lon": -103.34749,
-   "state": null,
-   "status": null
+   "lon": -103.34749
   },
   {
+   "facility": null,
    "city": "Monterrey",
+   "state": null,
    "country": "Mexico",
-   "facility": null,
+   "status": null,
    "lat": 25.68435,
-   "lon": -100.31721,
-   "state": null,
-   "status": null
+   "lon": -100.31721
   },
   {
+   "facility": null,
    "city": "Zapopan Jalisco",
+   "state": null,
    "country": "Mexico",
-   "facility": null,
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": null,
-   "status": null
+   "lon": null
   },
   {
+   "facility": "(2 Locations)",
    "city": "Barcelona",
+   "state": null,
    "country": "Spain",
-   "facility": "(2 Locations)",
+   "status": null,
    "lat": 41.38879,
-   "lon": 2.15899,
-   "state": null,
-   "status": null
+   "lon": 2.15899
   },
   {
+   "facility": null,
    "city": "Madrid",
+   "state": null,
    "country": "Spain",
-   "facility": null,
+   "status": null,
    "lat": 40.4165,
-   "lon": -3.70256,
-   "state": null,
-   "status": null
+   "lon": -3.70256
   },
   {
+   "facility": null,
    "city": "Santiago",
+   "state": null,
    "country": "Spain",
-   "facility": null,
+   "status": null,
    "lat": 43.34226,
-   "lon": -1.78705,
-   "state": null,
-   "status": null
+   "lon": -1.78705
   },
   {
+   "facility": null,
    "city": "Seville",
+   "state": null,
    "country": "Spain",
-   "facility": null,
+   "status": null,
    "lat": 37.38283,
-   "lon": -5.97317,
-   "state": null,
-   "status": null
+   "lon": -5.97317
   },
   {
+   "facility": null,
    "city": "Chester",
+   "state": null,
    "country": "United Kingdom",
-   "facility": null,
+   "status": null,
    "lat": 53.1905,
-   "lon": -2.89189,
-   "state": null,
-   "status": null
+   "lon": -2.89189
   },
   {
+   "facility": null,
    "city": "Peterborough",
+   "state": null,
    "country": "United Kingdom",
-   "facility": null,
+   "status": null,
    "lat": 52.57364,
-   "lon": -0.24777,
-   "state": null,
-   "status": null
+   "lon": -0.24777
   },
   {
+   "facility": null,
    "city": "Salford",
+   "state": null,
    "country": "United Kingdom",
-   "facility": null,
+   "status": null,
    "lat": 53.48771,
-   "lon": -2.29042,
-   "state": null,
-   "status": null
+   "lon": -2.29042
   },
   {
+   "facility": null,
    "city": "Stevenage",
-   "country": "United Kingdom",
-   "facility": null,
-   "lat": 51.90224,
-   "lon": -0.20256,
    "state": null,
-   "status": null
-  },
-  {
-   "city": "West Bromwich",
    "country": "United Kingdom",
+   "status": null,
+   "lat": 51.90224,
+   "lon": -0.20256
+  },
+  {
    "facility": null,
-   "lat": 52.51868,
-   "lon": -1.9945,
+   "city": "West Bromwich",
    "state": "West Midlands",
-   "status": null
+   "country": "United Kingdom",
+   "status": null,
+   "lat": 52.51868,
+   "lon": -1.9945
   },
   {
+   "facility": null,
    "city": "Chandler",
+   "state": "Arizona",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.30616,
-   "lon": -111.84125,
-   "state": "Arizona",
-   "status": null
+   "lon": -111.84125
   },
   {
+   "facility": null,
    "city": "Tucson",
-   "country": "United States",
-   "facility": null,
-   "lat": 32.22174,
-   "lon": -110.92648,
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.22174,
+   "lon": -110.92648
   },
   {
+   "facility": null,
    "city": "Anaheim",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.83529,
-   "lon": -117.9145,
-   "state": "California",
-   "status": null
+   "lon": -117.9145
   },
   {
+   "facility": null,
    "city": "Beverly Hills",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.07362,
-   "lon": -118.40036,
-   "state": "California",
-   "status": null
+   "lon": -118.40036
   },
   {
+   "facility": null,
    "city": "Fair Oaks",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.64463,
-   "lon": -121.27217,
-   "state": "California",
-   "status": null
+   "lon": -121.27217
   },
   {
+   "facility": null,
    "city": "Newport Beach",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 33.61891,
-   "lon": -117.92895,
-   "state": "California",
-   "status": null
+   "lon": -117.92895
   },
   {
+   "facility": null,
    "city": "Northridge",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.22834,
-   "lon": -118.53675,
-   "state": "California",
-   "status": null
+   "lon": -118.53675
   },
   {
+   "facility": null,
    "city": "Sacramento",
+   "state": "California",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.58157,
-   "lon": -121.4944,
-   "state": "California",
-   "status": null
+   "lon": -121.4944
   },
   {
+   "facility": null,
    "city": "Walnut Creek",
-   "country": "United States",
-   "facility": null,
-   "lat": 37.90631,
-   "lon": -122.06496,
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.90631,
+   "lon": -122.06496
   },
   {
+   "facility": null,
    "city": "Milford",
-   "country": "United States",
-   "facility": null,
-   "lat": 41.22232,
-   "lon": -73.0565,
    "state": "Connecticut",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.22232,
+   "lon": -73.0565
   },
   {
+   "facility": null,
    "city": "Atlantis",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 26.5909,
-   "lon": -80.10088,
-   "state": "Florida",
-   "status": null
+   "lon": -80.10088
   },
   {
+   "facility": null,
    "city": "Bradenton",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 27.49893,
-   "lon": -82.57482,
-   "state": "Florida",
-   "status": null
+   "lon": -82.57482
   },
   {
+   "facility": null,
    "city": "Clearwater",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 27.96585,
-   "lon": -82.8001,
-   "state": "Florida",
-   "status": null
+   "lon": -82.8001
   },
   {
+   "facility": null,
    "city": "Fort Lauderdale",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 26.12231,
-   "lon": -80.14338,
-   "state": "Florida",
-   "status": null
+   "lon": -80.14338
   },
   {
+   "facility": null,
    "city": "Jacksonville",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 30.33218,
-   "lon": -81.65565,
-   "state": "Florida",
-   "status": null
+   "lon": -81.65565
   },
   {
+   "facility": null,
    "city": "Lakeland",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 28.03947,
-   "lon": -81.9498,
-   "state": "Florida",
-   "status": null
+   "lon": -81.9498
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "(2 Locations)",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
+   "facility": null,
    "city": "Oviedo",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 28.67,
-   "lon": -81.20812,
-   "state": "Florida",
-   "status": null
+   "lon": -81.20812
   },
   {
+   "facility": null,
    "city": "Pinellas Park",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 27.8428,
-   "lon": -82.69954,
-   "state": "Florida",
-   "status": null
+   "lon": -82.69954
   },
   {
+   "facility": null,
    "city": "Port Orange",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 29.13832,
-   "lon": -80.99561,
-   "state": "Florida",
-   "status": null
+   "lon": -80.99561
   },
   {
+   "facility": null,
    "city": "Sarasota",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 27.33643,
-   "lon": -82.53065,
-   "state": "Florida",
-   "status": null
+   "lon": -82.53065
   },
   {
+   "facility": null,
    "city": "Tampa",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 27.94752,
-   "lon": -82.45843,
-   "state": "Florida",
-   "status": null
+   "lon": -82.45843
   },
   {
+   "facility": null,
    "city": "West Palm Beach",
+   "state": "Florida",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 26.71534,
-   "lon": -80.05337,
-   "state": "Florida",
-   "status": null
+   "lon": -80.05337
   },
   {
+   "facility": null,
    "city": "Winter Park",
-   "country": "United States",
-   "facility": null,
-   "lat": 28.6,
-   "lon": -81.33924,
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 28.6,
+   "lon": -81.33924
   },
   {
+   "facility": null,
    "city": "Boise",
-   "country": "United States",
-   "facility": null,
-   "lat": 43.6135,
-   "lon": -116.20345,
    "state": "Idaho",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.6135,
+   "lon": -116.20345
   },
   {
+   "facility": null,
    "city": "Morton",
-   "country": "United States",
-   "facility": null,
-   "lat": 40.61282,
-   "lon": -89.45926,
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.61282,
+   "lon": -89.45926
   },
   {
+   "facility": null,
    "city": "Evansville",
+   "state": "Indiana",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 37.97476,
-   "lon": -87.55585,
-   "state": "Indiana",
-   "status": null
+   "lon": -87.55585
   },
   {
+   "facility": null,
    "city": "Indianapolis",
-   "country": "United States",
-   "facility": null,
-   "lat": 39.76838,
-   "lon": -86.15804,
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
+   "facility": null,
    "city": "Newton",
+   "state": "Kansas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.04668,
-   "lon": -97.34504,
-   "state": "Kansas",
-   "status": null
+   "lon": -97.34504
   },
   {
+   "facility": null,
    "city": "Overland Park",
+   "state": "Kansas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 38.98223,
-   "lon": -94.67079,
-   "state": "Kansas",
-   "status": null
+   "lon": -94.67079
   },
   {
+   "facility": null,
    "city": "Wichita",
-   "country": "United States",
-   "facility": null,
-   "lat": 37.69224,
-   "lon": -97.33754,
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.69224,
+   "lon": -97.33754
   },
   {
+   "facility": null,
    "city": "Lexington",
+   "state": "Kentucky",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 37.98869,
-   "lon": -84.47772,
-   "state": "Kentucky",
-   "status": null
+   "lon": -84.47772
   },
   {
+   "facility": null,
    "city": "Louisville",
-   "country": "United States",
-   "facility": null,
-   "lat": 38.25424,
-   "lon": -85.75941,
    "state": "Kentucky",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.25424,
+   "lon": -85.75941
   },
   {
+   "facility": null,
    "city": "Auburn",
-   "country": "United States",
-   "facility": null,
-   "lat": 44.09785,
-   "lon": -70.23117,
    "state": "Maine",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.09785,
+   "lon": -70.23117
   },
   {
+   "facility": null,
    "city": "Bethesda",
-   "country": "United States",
-   "facility": null,
-   "lat": 38.98067,
-   "lon": -77.10026,
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.98067,
+   "lon": -77.10026
   },
   {
+   "facility": null,
    "city": "Edina",
+   "state": "Minnesota",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 44.88969,
-   "lon": -93.34995,
-   "state": "Minnesota",
-   "status": null
+   "lon": -93.34995
   },
   {
+   "facility": null,
    "city": "Rochester",
-   "country": "United States",
-   "facility": null,
-   "lat": 44.02163,
-   "lon": -92.4699,
    "state": "Minnesota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.02163,
+   "lon": -92.4699
   },
   {
+   "facility": null,
    "city": "Olive Branch",
+   "state": "Mississippi",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.96176,
-   "lon": -89.82953,
-   "state": "Mississippi",
-   "status": null
+   "lon": -89.82953
   },
   {
+   "facility": null,
    "city": "Port Gibson",
-   "country": "United States",
-   "facility": null,
-   "lat": 31.96099,
-   "lon": -90.98399,
    "state": "Mississippi",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 31.96099,
+   "lon": -90.98399
   },
   {
+   "facility": null,
    "city": "St Louis",
-   "country": "United States",
-   "facility": null,
-   "lat": 38.62727,
-   "lon": -90.19789,
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
+   "facility": null,
    "city": "Butte",
-   "country": "United States",
-   "facility": null,
-   "lat": 46.00382,
-   "lon": -112.53474,
    "state": "Montana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.00382,
+   "lon": -112.53474
   },
   {
+   "facility": null,
    "city": "Williamsville",
-   "country": "United States",
-   "facility": null,
-   "lat": 42.96395,
-   "lon": -78.73781,
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.96395,
+   "lon": -78.73781
   },
   {
+   "facility": null,
    "city": "Cincinnati",
+   "state": "Ohio",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 39.12711,
-   "lon": -84.51439,
-   "state": "Ohio",
-   "status": null
+   "lon": -84.51439
   },
   {
+   "facility": null,
    "city": "Marion",
-   "country": "United States",
-   "facility": null,
-   "lat": 40.58867,
-   "lon": -83.12852,
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.58867,
+   "lon": -83.12852
   },
   {
+   "facility": null,
    "city": "Portland",
-   "country": "United States",
-   "facility": null,
-   "lat": 45.52345,
-   "lon": -122.67621,
    "state": "Oregon",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 45.52345,
+   "lon": -122.67621
   },
   {
+   "facility": null,
    "city": "Warwick",
-   "country": "United States",
-   "facility": null,
-   "lat": 41.7001,
-   "lon": -71.41617,
    "state": "Rhode Island",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.7001,
+   "lon": -71.41617
   },
   {
+   "facility": null,
    "city": "Greer",
+   "state": "South Carolina",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 34.93873,
-   "lon": -82.22706,
-   "state": "South Carolina",
-   "status": null
+   "lon": -82.22706
   },
   {
+   "facility": null,
    "city": "Summerville",
-   "country": "United States",
-   "facility": null,
-   "lat": 33.0185,
-   "lon": -80.17565,
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.0185,
+   "lon": -80.17565
   },
   {
+   "facility": null,
    "city": "Kingsport",
-   "country": "United States",
-   "facility": null,
-   "lat": 36.54843,
-   "lon": -82.56182,
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.54843,
+   "lon": -82.56182
   },
   {
+   "facility": null,
    "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
+   "facility": null,
    "city": "Fort Worth",
+   "state": "Texas",
    "country": "United States",
-   "facility": null,
+   "status": null,
    "lat": 32.72541,
-   "lon": -97.32085,
-   "state": "Texas",
-   "status": null
+   "lon": -97.32085
   },
   {
+   "facility": null,
    "city": "Houston",
-   "country": "United States",
-   "facility": null,
-   "lat": 29.76328,
-   "lon": -95.36327,
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
+   "facility": null,
    "city": "Bountiful",
-   "country": "United States",
-   "facility": null,
-   "lat": 40.88939,
-   "lon": -111.88077,
    "state": "Utah",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.88939,
+   "lon": -111.88077
   },
   {
-   "city": "Salt Lake City",
-   "country": "United States",
    "facility": null,
-   "lat": 40.76078,
-   "lon": -111.89105,
+   "city": "Salt Lake City",
    "state": "Utah",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.76078,
+   "lon": -111.89105
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01730053",

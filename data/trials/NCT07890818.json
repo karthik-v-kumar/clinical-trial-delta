@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "SUPPORTIVE_CARE",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Cincinnati"
+  "name": "University of Cincinnati",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,25 +48,25 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Continuous glucose monitor",
    "other_names": [
     "CGM"
-   ],
-   "type": "DEVICE"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Participants discharged with continuous glucose monitoring",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Continuous glucose monitor"
-   ],
-   "label": "Participants discharged with continuous glucose monitoring",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Participants discharged with usual care with point-of-care (POC) capillary glucose checks",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -78,10 +78,10 @@
  "brief_summary": "The TRANSITION-CGM trial will evaluate whether starting continuous glucose monitoring (CGM) before hospital discharge improves blood glucose control in adults with type 2 diabetes compared with usual care using finger-stick blood glucose checks. The study focuses on the transition from hospital to home, when patients may face changes in diabetes medications and challenges managing their blood glucose levels.\n\nThis single-center, randomized controlled trial will enroll approximately 218 adults with type 2 diabetes, a hemoglobin A1c (HbA1c) 9% and above, and treatment with insulin and/or oral diabetes medications. Participants will be recruited during hospitalization and must be expected to return home after discharge. People already using a CGM will not be eligible.\n\nParticipants will be randomly assigned in equal numbers to one of two groups. The CGM group will start using a continuous glucose monitor before discharge and receive device training and written instructions. The usual-care group will continue finger-stick blood glucose monitoring and receive standard discharge education. Both groups will receive assistance with outpatient diabetes follow-up. Diabetes medications will be managed by treating clinicians according to usual clinical practice.\n\nParticipants will be followed for approximately 12 weeks after discharge, with an early follow-up encounter and a final assessment at 12 weeks. The primary outcome is HbA1c at 12 weeks, a blood test that reflects average blood glucose levels over approximately three months. Secondary outcomes include diabetes-related hospitalizations and episodes of low blood sugar. Additional exploratory measures include CGM use, follow-up attendance, patient-reported experiences, and time spent within the target glucose range when CGM data are available.\n\nThe study will determine whether initiating CGM during hospitalization can improve glycemic control after discharge and provide preliminary evidence about its effects on diabetes-related hospitalizations and hypoglycemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Established or new diagnosis of type 2 diabetes mellitus (T2DM)\n* HbA1C \\>/= 9%\n* On insulin therapy and/or oral hypoglycemic agents at time of index hospitalization\n* Anticipated discharge to home within 48-72 hours\n* Ability to provide informed consent and attend 12-week follow-up\n\nExclusion Criteria:\n\n* Active psychiatric illness that interferes with consent or study adherence\n* Cognitive disturbance/dementia impairing device use or self-care\n* Housing instability\n* Skilled nursing facility (SNF) admission or planned discharge to SNF\n* Contraindication to CGM placement (e.g., severe skin allergy)\n* Pre-existing established CGM use\n* Pregnancy\n* ESRD\n* Steroid use (Prednisone equivalent 10 mg/day or more)\n* HgbA1C \\< 9%\n* Hemoglobinopathy (where HgbA1C is not reliable)",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -89,13 +89,13 @@
  },
  "sites": [
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "University of Cincinnati Medical Center",
-   "lat": 39.12711,
-   "lon": -84.51439,
+   "city": "Cincinnati",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07890818",

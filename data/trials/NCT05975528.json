@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Yonsei University"
+  "name": "Yonsei University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "SGLT2 inhibitor",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Glimepiride",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "SGLT2 inhibitor user",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: SGLT2 inhibitor"
-   ],
-   "label": "SGLT2 inhibitor user",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Glimepiride user",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride"
-   ],
-   "label": "Glimepiride user",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Patients with type 2 diabetes (T2D) are more prevalent with aging-related comorbidities and frailty, which leads to a shorter life expectancy than non-diabetic individuals and that this excess mortality is largely attributable to cardiovascular causes.\n\nTherefore, since diabetes accelerates cellular senescence, attenuating aging process in patients with T2D is expected to reduce progression of comorbidities and eventually increase lifespan.\n\nAccording to previous studies, sodium-glucose cotransporter 2 (SGLT2) inhibitors have shown increased ketone bodies not only in blood but in various tissues including liver, kidney and colon, which could lead to beneficial effects in metabolic diseases. Especially, β-hydroxybutyrate (βHB) inhibits oxidative stress and reduces insulin resistance, which has a positive effect on preventing cardio-renal-metabolic diseases and aging process in patients with T2D.\n\nIn this context, SGLT2 inhibitor can be a promising option to alleviate senescence process in patients with T2D. However, despite the accumulating evidence that support anti-senescent effect of SGLT2 inhibitor in preclinical models, no clinical study has investigated association between SGLT2 inhibitor use and senescence patients with T2D.\n\nThus, the objective of this study is to determine whether the use of SGLT2 inhibitor is associated with anti-senescent effect in patients with T2D, which may expand the indications of SGLT2 inhibitor other than glycemic control.",
  "eligibility": {
   "criteria": "\\<Inclusion criteria for patients with type 2 diabetes and high risk cardiovascular disease\\>\n\n1. Patients with type 2 diabetes who meet the diagnostic criteria of standard practice guidelines\n2. Age between 50 and 85\n3. Patients who signed the consent form\n4. Patients who meet at least one of the following as a high-risk group for cardiovascular disease:\n\n1\\) History of myocardial infarction, within the last 3 months 2) Imaging proven coronary artery disease (2 or more coronary arteries or left main coronary artery disease) 3) History of ischemic or hemorrhagic cerebrovascular disease within the last 3 months 4) Imaging proven obstructive peripheral arterial disease 5) Intima media thickness more than 0.9mm or observed plaque 6) estimated glomerular filtration rate between 30-60 7) BMI more than 25kg/m2 accompanied two or more of the following are present: hypertension, current smoker, imaging proven steatohepatitis, alanine aminotransferase more than 40IU/L\n\n\\<Inclusion criteria for healthy people\\>\n\n1. Adults 19 years of age or older who do not meet the diagnostic criteria for metabolic syndrome, diabetes, or hyperlipidemia\n2. Patients not taking medications related to diabetes or hyperlipidemia\n3. BMI less than 25kg/m2\n\n\\<Exclusion criteria\\>\n\n1. Those who are unable to participate in clinical trials due to other researchers' judgment\n2. Those who cannot read the consent form\n3. Patients who refused to fill out the research participation consent form\n4. Breastfeeding or pregnant women\n5. Type 1 diabetes\n6. adrenal insufficiency, growth hormone deficiency, pituitary disease\n7. Patients who have undergone bariatric surgery within the past 2 years or gastrointestinal surgery that can cause chronic malabsorption\n8. Patients who have taken anti-obesity drugs within the past month or who have received other treatments that can cause weight changes\n9. Patients with blood diseases that can cause hemolysis or abnormal red blood cells\n10. Patients with active cancer or undergoing chemotherapy\n11. Patients with liver disease and cirrhosis who are taking antiviral drugs\n12. Patients with autoimmune disease taking steroids and immunosuppressants\n13. Organ transplant patients\n14. Taking antibiotics or NSAIDs within the last 2 weeks\n15. Patients with acute infections in previous 3 months including COVID-19\n16. Previous use of GLP-1 receptor agonist, thiazolidinedione, SGLT2 inhibitor\n17. Patients with severe hyperglycemia (HbA1c \\> 10%)",
-  "healthy_volunteers": true,
-  "maximum_age": "85 Years",
-  "minimum_age": "50 Years",
   "sex": "ALL",
+  "minimum_age": "50 Years",
+  "maximum_age": "85 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Yonsei University College of Medicine",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": "RECRUITING"
+   "country": "South Korea",
+   "status": "RECRUITING",
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05975528",

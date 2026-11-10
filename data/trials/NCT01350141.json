@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2017-11-08",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Pfizer"
+  "name": "Pfizer",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "Placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "PF-04950615 (RN316)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "PF-04950615 (RN316)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Treatment A",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ],
-   "label": "Treatment A",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: PF-04950615 (RN316)"
-   ],
    "label": "Treatment B",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: PF-04950615 (RN316)"
-   ],
+   ]
+  },
+  {
    "label": "Treatment C",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: PF-04950615 (RN316)"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "PF-04950615 is a new investigational hypercholesterolemic agent that is being tested in this study to evaluate if it can lower LDL cholesterol.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Body Mass Index (BMI) of 18.5 to 40 kg/m2\n* On a stable maximum daily dose of a statin, defined as atorvastatin 80 mg or rosuvastatin 40 mg for a minimum of 45 days prior to Day 1.\n* Lipids meet the following criteria twice during screening period:\n* Fasting LDL C = or \\> 80 mg/dL;\n* Fasting TG \\< 400 mg/dL.\n\nExclusion Criteria:\n\n* History of a cardiovascular or cerebrovascular event or procedure (eg, MI, stroke, TIA, angioplasty) during the past year.\n* Poorly controlled type 1 or type 2 diabetes mellitus.\n* Poorly controlled hypertension.\n* Fasting triglycerides \\> 400 mg/dL\n* 12 lead ECG demonstrating QTcFF \\>455 msec at screening.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,319 +110,319 @@
  },
  "sites": [
   {
-   "city": "Kelowna",
-   "country": "Canada",
    "facility": "The Medical Arts Health Research Group",
-   "lat": 49.88307,
-   "lon": -119.48568,
+   "city": "Kelowna",
    "state": "British Columbia",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 49.88307,
+   "lon": -119.48568
   },
   {
-   "city": "Chicoutimi",
-   "country": "Canada",
    "facility": "Q & T Research Chicoutimi",
+   "city": "Chicoutimi",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
    "lat": 48.41963,
-   "lon": -71.06369,
-   "state": "Quebec",
-   "status": null
+   "lon": -71.06369
   },
   {
-   "city": "Laval",
-   "country": "Canada",
    "facility": "Centre de Recherche Clinique de Laval",
+   "city": "Laval",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
    "lat": 45.56995,
-   "lon": -73.692,
-   "state": "Quebec",
-   "status": null
+   "lon": -73.692
   },
   {
-   "city": "Montreal",
-   "country": "Canada",
    "facility": "Diex Research Montreal Inc.",
+   "city": "Montreal",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
    "lat": 45.50884,
-   "lon": -73.58781,
-   "state": "Quebec",
-   "status": null
+   "lon": -73.58781
   },
   {
-   "city": "Québec",
-   "country": "Canada",
    "facility": "Clinique des Maladies Lipidiques de Quebec Inc.",
-   "lat": 46.81228,
-   "lon": -71.21454,
+   "city": "Québec",
    "state": "Quebec",
-   "status": null
-  },
-  {
-   "city": "Sherbrooke",
    "country": "Canada",
+   "status": null,
+   "lat": 46.81228,
+   "lon": -71.21454
+  },
+  {
    "facility": "Diex Research Sherbrooke Inc.",
-   "lat": 45.40008,
-   "lon": -71.89908,
+   "city": "Sherbrooke",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.40008,
+   "lon": -71.89908
   },
   {
-   "city": "Birmingham",
-   "country": "United States",
    "facility": "Achieve Clinical Research, LLC",
-   "lat": 33.52066,
-   "lon": -86.80249,
+   "city": "Birmingham",
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.52066,
+   "lon": -86.80249
   },
   {
-   "city": "Garden Grove",
-   "country": "United States",
    "facility": "Advance Outcome Management, Inc.",
-   "lat": 33.77391,
-   "lon": -117.94145,
-   "state": "California",
-   "status": null
-  },
-  {
    "city": "Garden Grove",
+   "state": "California",
    "country": "United States",
-   "facility": "Collaborative Neuroscience Network, Inc",
+   "status": null,
    "lat": 33.77391,
-   "lon": -117.94145,
-   "state": "California",
-   "status": null
+   "lon": -117.94145
   },
   {
-   "city": "Long Beach",
+   "facility": "Collaborative Neuroscience Network, Inc",
+   "city": "Garden Grove",
+   "state": "California",
    "country": "United States",
+   "status": null,
+   "lat": 33.77391,
+   "lon": -117.94145
+  },
+  {
    "facility": "Collaborative Neuroscience Network, Inc.",
+   "city": "Long Beach",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.76696,
-   "lon": -118.18923,
-   "state": "California",
-   "status": null
+   "lon": -118.18923
   },
   {
-   "city": "Wildomar",
-   "country": "United States",
    "facility": "Elite Clinical Trials, Inc.",
-   "lat": 33.59891,
-   "lon": -117.28004,
+   "city": "Wildomar",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.59891,
+   "lon": -117.28004
   },
   {
-   "city": "Clearwater",
-   "country": "United States",
    "facility": "Innovative Research of West Florida, Inc.",
+   "city": "Clearwater",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 27.96585,
-   "lon": -82.8001,
-   "state": "Florida",
-   "status": null
+   "lon": -82.8001
   },
   {
-   "city": "DeLand",
-   "country": "United States",
    "facility": "Avail Clinical Research, LLC",
+   "city": "DeLand",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.02832,
-   "lon": -81.30312,
-   "state": "Florida",
-   "status": null
+   "lon": -81.30312
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Kendall South Medical Center, Inc.",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
-   "city": "Orlando",
-   "country": "United States",
    "facility": "Compass Research, LLC",
-   "lat": 28.53834,
-   "lon": -81.37924,
+   "city": "Orlando",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 28.53834,
+   "lon": -81.37924
   },
   {
-   "city": "Atlanta",
-   "country": "United States",
    "facility": "Atlanta Diabetes Associates",
-   "lat": 33.749,
-   "lon": -84.38798,
+   "city": "Atlanta",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.749,
+   "lon": -84.38798
   },
   {
-   "city": "Overland Park",
-   "country": "United States",
    "facility": "Midwest Cardiology Associates",
-   "lat": 38.98223,
-   "lon": -94.67079,
+   "city": "Overland Park",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.98223,
+   "lon": -94.67079
   },
   {
-   "city": "Overland Park",
-   "country": "United States",
    "facility": "Stark Pharmacy",
-   "lat": 38.98223,
-   "lon": -94.67079,
-   "state": "Kansas",
-   "status": null
-  },
-  {
    "city": "Overland Park",
-   "country": "United States",
-   "facility": "Vince and Associates Clinical Research",
-   "lat": 38.98223,
-   "lon": -94.67079,
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.98223,
+   "lon": -94.67079
   },
   {
-   "city": "Kansas City",
+   "facility": "Vince and Associates Clinical Research",
+   "city": "Overland Park",
+   "state": "Kansas",
    "country": "United States",
+   "status": null,
+   "lat": 38.98223,
+   "lon": -94.67079
+  },
+  {
    "facility": "Saint Luke's Hospital",
-   "lat": 39.09973,
-   "lon": -94.57857,
-   "state": "Missouri",
-   "status": null
-  },
-  {
    "city": "Kansas City",
+   "state": "Missouri",
    "country": "United States",
-   "facility": "Saint Luke's Lipid and Diabetes Research Center",
+   "status": null,
    "lat": 39.09973,
-   "lon": -94.57857,
-   "state": "Missouri",
-   "status": null
+   "lon": -94.57857
   },
   {
-   "city": "St Louis",
+   "facility": "Saint Luke's Lipid and Diabetes Research Center",
+   "city": "Kansas City",
+   "state": "Missouri",
    "country": "United States",
+   "status": null,
+   "lat": 39.09973,
+   "lon": -94.57857
+  },
+  {
    "facility": "Advance Clinical Research",
-   "lat": 38.62727,
-   "lon": -90.19789,
+   "city": "St Louis",
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
-   "city": "Raleigh",
-   "country": "United States",
    "facility": "Wake Internal Medicine Consultants, Inc.",
-   "lat": 35.7721,
-   "lon": -78.63861,
-   "state": "North Carolina",
-   "status": null
-  },
-  {
    "city": "Raleigh",
-   "country": "United States",
-   "facility": "Wake Research Associates, LLC",
-   "lat": 35.7721,
-   "lon": -78.63861,
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.7721,
+   "lon": -78.63861
   },
   {
-   "city": "Oklahoma City",
+   "facility": "Wake Research Associates, LLC",
+   "city": "Raleigh",
+   "state": "North Carolina",
    "country": "United States",
+   "status": null,
+   "lat": 35.7721,
+   "lon": -78.63861
+  },
+  {
    "facility": "Lynn Health Science Institute",
-   "lat": 35.46756,
-   "lon": -97.51643,
+   "city": "Oklahoma City",
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.46756,
+   "lon": -97.51643
   },
   {
-   "city": "Oklahoma City",
-   "country": "United States",
    "facility": "Oklahoma Cardiovascular Research Group",
-   "lat": 35.46756,
-   "lon": -97.51643,
+   "city": "Oklahoma City",
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.46756,
+   "lon": -97.51643
   },
   {
-   "city": "Oklahoma City",
-   "country": "United States",
    "facility": "Oklahoma Heart Hospital",
-   "lat": 35.46756,
-   "lon": -97.51643,
-   "state": "Oklahoma",
-   "status": null
-  },
-  {
    "city": "Oklahoma City",
-   "country": "United States",
-   "facility": "Oklahoma Heart Hospital Physicians",
-   "lat": 35.46756,
-   "lon": -97.51643,
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.46756,
+   "lon": -97.51643
   },
   {
-   "city": "Duncansville",
+   "facility": "Oklahoma Heart Hospital Physicians",
+   "city": "Oklahoma City",
+   "state": "Oklahoma",
    "country": "United States",
+   "status": null,
+   "lat": 35.46756,
+   "lon": -97.51643
+  },
+  {
    "facility": "Altoona Center for Clinical Research",
-   "lat": 40.42341,
-   "lon": -78.4339,
+   "city": "Duncansville",
    "state": "Pennsylvania",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.42341,
+   "lon": -78.4339
   },
   {
-   "city": "Greer",
-   "country": "United States",
    "facility": "DeGarmo Institute of Medical Research",
-   "lat": 34.93873,
-   "lon": -82.22706,
+   "city": "Greer",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.93873,
+   "lon": -82.22706
   },
   {
-   "city": "Kingsport",
-   "country": "United States",
    "facility": "Holston Medical Group",
-   "lat": 36.54843,
-   "lon": -82.56182,
+   "city": "Kingsport",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.54843,
+   "lon": -82.56182
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "Texas Center for Drug Development, Inc",
+   "city": "Houston",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": null
+   "lon": -95.36327
   },
   {
-   "city": "Tomball",
-   "country": "United States",
    "facility": "Martin Diagnostic Clinic",
-   "lat": 30.09716,
-   "lon": -95.61605,
+   "city": "Tomball",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.09716,
+   "lon": -95.61605
   },
   {
-   "city": "Orem",
-   "country": "United States",
    "facility": "Aspen Clinical Research, LLC",
-   "lat": 40.2969,
-   "lon": -111.69465,
+   "city": "Orem",
    "state": "Utah",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.2969,
+   "lon": -111.69465
   },
   {
-   "city": "Richmond",
-   "country": "United States",
    "facility": "National Clinical Research - Richmond, Inc.",
-   "lat": 37.55376,
-   "lon": -77.46026,
+   "city": "Richmond",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.55376,
+   "lon": -77.46026
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01350141",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Aalborg University Hospital"
+  "name": "Aalborg University Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "Steno Diabetes Center Sjaelland",
@@ -53,23 +53,23 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Telemonitoring",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Telemonitoring",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Telemonitoring"
-   ],
-   "label": "Telemonitoring",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Usual Care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "The trial is an open-label randomized controlled trial. Patients with T2D on insulin therapy will be randomized to a telemonitoring group (intervention) and a usual care group (control). The telemonitoring group will use various devices at home. Hospital staff will monitor their data for a period of three months.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* ≥ 18 years\n* T2D diagnosis for ≥ 12 months\n* Residence in Region North Denmark or Region Zealand\n* In treatment with insulin\n* Being able to use a smartphone along with the other devices to be used in the trial\n* Able to understand and read Danish.\n\nExclusion Criteria:\n\n* Pregnancy or breastfeeding,\n* Major surgery planned during the trial period\n* Participation in other trials\n* Terms that, in the opinion of the investigator or subinvestigators, render the participant unfit to conduct the trial, including lack of understanding of the trial or lack of physical or cognitive ability to participate",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "city": "Aalborg",
-   "country": "Denmark",
    "facility": "Department of Endocrinology",
-   "lat": 57.048,
-   "lon": 9.9187,
+   "city": "Aalborg",
    "state": null,
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 57.048,
+   "lon": 9.9187
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04981808",

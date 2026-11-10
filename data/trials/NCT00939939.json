@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Ludwig-Maximilians - University of Munich"
+  "name": "Ludwig-Maximilians - University of Munich",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "sitagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "glimepiride",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "sitagliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: sitagliptin"
-   ],
-   "label": "sitagliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "glimepirid",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: glimepiride"
-   ],
-   "label": "glimepirid",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The goal of the study is to evaluate whether sitagliptin can affect postprandial lipoprotein metabolism in type 2 diabetic patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetes\n* dietary therapy\n\nExclusion Criteria:\n\n* lipid-lowering therapy\n* anti-hyperglycemic drug therapy",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "city": "Munich",
-   "country": "Germany",
    "facility": "Medical Dept. 2, Grosshadern, University Munich",
-   "lat": 48.13743,
-   "lon": 11.57549,
+   "city": "Munich",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 48.13743,
+   "lon": 11.57549
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00939939",

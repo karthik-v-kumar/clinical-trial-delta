@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Rome Tor Vergata"
+  "name": "University of Rome Tor Vergata",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Simvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Simvastatin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Simvastatin"
-   ],
-   "label": "Simvastatin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Rosuvastatin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin"
-   ],
-   "label": "Rosuvastatin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "Type 2 diabetes (T2D), because of impaired glucose regulation and consequent hyperglycemia, promotes the development of coronary heart disease. Secondary dyslipidemia is often associated with T2D and enhances the risk of cardiovascular complications. HMG-CoA reductase inhibitors (statins) are selectively administrated for the treatment of dyslipidemia, leading to a significant reduction of cardiovascular risk. More recently, revisions to guidelines have established a lower therapeutic LDL cholesterol goal for diabetic patients, requiring the administration of higher dose of statin. However, it is unclear whether high dose statin therapy could affect glycemic control in diabetic patients. Moreover, data regarding the effects of statins on insulin-resistance and endothelial function are controversial.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes in good glycemic control, treated with metformin alone.\n* Untreated dyslipidemia.\n* BMI \\<30.\n\nExclusion Criteria:\n\n* History of cancer.\n* History of cardiovascular diseases.\n* Any other acute or cronic illness which requires administration of steroids or other drugs able to interfere with glucose metabolism.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "50 Years",
   "sex": "ALL",
+  "minimum_age": "50 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "city": "Rome",
-   "country": "Italy",
    "facility": "University of Rome Tor Vergata",
-   "lat": 41.89193,
-   "lon": 12.51133,
+   "city": "Rome",
    "state": null,
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 41.89193,
+   "lon": 12.51133
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00854503",

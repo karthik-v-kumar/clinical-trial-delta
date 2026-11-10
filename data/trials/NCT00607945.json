@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Ohio State University"
+  "name": "Ohio State University",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Center for Complementary and Integrative Health (NCCIH)",
@@ -58,50 +58,50 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Rosiglitazone (Avandia) OR other diabetes medication currently prescribed to participant",
    "other_names": [
     "Avandia"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "conjugated linoleic acid (CLA)",
    "other_names": [
     "Tonalin, Clarinol"
-   ],
-   "type": "DIETARY_SUPPLEMENT"
+   ]
   },
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "conjugated linoleic acid (CLA)",
    "other_names": [
     "Tonalin, Clarinol"
-   ],
-   "type": "DIETARY_SUPPLEMENT"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "0 g CLA",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Rosiglitazone (Avandia) OR other diabetes medication currently prescribed to participant"
-   ],
-   "label": "0 g CLA",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Rosiglitazone (Avandia) OR other diabetes medication currently prescribed to participant",
-    "Dietary Supplement: conjugated linoleic acid (CLA)"
-   ],
    "label": "3.2 g CLA",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Rosiglitazone (Avandia) OR other diabetes medication currently prescribed to participant",
     "Dietary Supplement: conjugated linoleic acid (CLA)"
-   ],
+   ]
+  },
+  {
    "label": "6.4 g CLA",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Rosiglitazone (Avandia) OR other diabetes medication currently prescribed to participant",
+    "Dietary Supplement: conjugated linoleic acid (CLA)"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -113,10 +113,10 @@
  "brief_summary": "The purpose of the study is to see how a dietary oil called conjugated linoleic acid, or CLA, might be useful in combination with diabetes medication. Some studies show that CLA can modestly reduce body weight and body fat. Our research idea is that taking CLA will reduce body weight and body fat without interfering with the diabetes medications' effects on blood sugar.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes mellitus\n* HbA1c ≤ 9%\n* Overweight or obese (BMI ≥ 25 kg/m2 and ≤ 45 kg/m2)\n* Age ≥ 30 and ≤ 70 years (postmenopausal if female)\n* Stable medical therapy for past 3 months\n* Stable body weight (within ± 2 kg) for past 3 months\n* Plans to remain in the Columbus, OH metropolitan area for at least 1 year\n\nExclusion Criteria:\n\n* Substance abuse\n* Current use of prescription or over-the-counter medications or supplements known to affect body composition\n* Current use of prescription or over-the-counter medications or supplements known to interact with thiazolidinediones(TZDs)\n* Current or previous diagnosis of congestive heart failure\n* Self-report of claustrophobia\n* Abnormal liver function\n* Impaired cognitive function\n* Current or previous diagnosis of renal disease\n* Gastrointestinal diseases or disorders\n* Current use of hormone therapies, or use within the past 3 months\n* Discontinuation of diabetes medication",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -124,13 +124,13 @@
  },
  "sites": [
   {
-   "city": "Columbus",
-   "country": "United States",
    "facility": "The Ohio State University Clinical Research Center (Davis Medical Research Center)",
-   "lat": 39.96118,
-   "lon": -82.99879,
+   "city": "Columbus",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.96118,
+   "lon": -82.99879
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00607945",

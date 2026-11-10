@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -41,12 +41,12 @@
   "type": "ESTIMATED"
  },
  "first_posted": "2025-07-10",
- "last_update_posted": "2026-10-07",
+ "last_update_posted": "2026-11-10",
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Merck Sharp & Dohme LLC"
+  "name": "Merck Sharp & Dohme LLC",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,47 +54,47 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Enlicitide Decanoate",
    "other_names": [
     "MK-0616",
     "Enlicitide"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Enlicitide Decanoate"
-   ],
    "label": "Part A: Enlicitide Decanoate",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Enlicitide Decanoate"
-   ],
-   "label": "Part B: Enlicitide Decanoate",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Part B: Enlicitide Decanoate",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Enlicitide Decanoate"
+   ]
+  },
+  {
+   "label": "Part B: Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Part B: Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Open-Label Extension: Enlicitide Decanoate",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Enlicitide Decanoate"
-   ],
-   "label": "Open-Label Extension: Enlicitide Decanoate",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -122,441 +122,450 @@
  "brief_summary": "This study is designed to learn if enlicitide decanoate is safe and effective to treat children and adolescents with heterozygous familial hypercholesterolemia (HeFH) and high amounts of low-density lipoprotein cholesterol (LDL-C) in the blood.\n\nThe goals of this study are to learn about the safety of enlicitide and if children tolerate it, what happens to enlicitide in a child's body over time, and if enlicitide works to lower cholesterol levels in children more than a placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nInclusion criteria include, but are not limited to:\n\n* Has possible or definite diagnosis of HeFH based on a locally accepted diagnostic algorithm or diagnosis by genetic testing results\n* Has a fasted LDL-C value (evaluated by the central laboratory) that is ≥130 mg/dL\n* Is receiving either:\n\n  * An optimized daily dose of statin (± nonstatin LLT)\n  * A nonstatin LLT with documented intolerance to at least 2 different statins, or documented intolerance to 1 statin plus refusal of statin therapy by the participant or legally acceptable representative\n* Is on a stable dose of all background LLTs for at least 30 days prior to screening, with no medication or dose changes planned during participation in Part A or Part B\n\nExclusion Criteria:\n\nExclusion criteria include, but are not limited to:\n\n* Has a history of homozygous FH based on genetic or clinical criteria, or history of known compound heterozygous FH, or double heterozygous FH\n* Has a history of nephrotic syndrome\n* Has any clinically significant malabsorption condition based on investigator assessment\n* Was previously treated/is being treated with certain other cholesterol lowering medications, including proprotein convertase subtilisin/kexin type 9 (PCSK9) inhibitors without adequate washout",
-  "healthy_volunteers": false,
-  "maximum_age": "17 Years",
-  "minimum_age": "6 Years",
   "sex": "ALL",
+  "minimum_age": "6 Years",
+  "maximum_age": "17 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "city": "Clayton",
-   "country": "Australia",
    "facility": "Monash Children s Hospital ( Site 1603)",
-   "lat": -37.91667,
-   "lon": 145.11667,
+   "city": "Clayton",
    "state": "Victoria",
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Nedlands",
    "country": "Australia",
+   "status": "RECRUITING",
+   "lat": -37.91667,
+   "lon": 145.11667
+  },
+  {
    "facility": "Perth Children s Hospital ( Site 1601)",
-   "lat": -31.98184,
-   "lon": 115.8073,
+   "city": "Nedlands",
    "state": "Western Australia",
-   "status": "RECRUITING"
+   "country": "Australia",
+   "status": "RECRUITING",
+   "lat": -31.98184,
+   "lon": 115.8073
   },
   {
-   "city": "Edegem",
-   "country": "Belgium",
    "facility": "UZ Antwerpen ( Site 0601)",
-   "lat": 51.15662,
-   "lon": 4.44504,
+   "city": "Edegem",
    "state": "Antwerpen",
-   "status": "RECRUITING"
+   "country": "Belgium",
+   "status": "RECRUITING",
+   "lat": 51.15662,
+   "lon": 4.44504
   },
   {
-   "city": "São Paulo",
-   "country": "Brazil",
    "facility": "Incor - Instituto do Coracao ( Site 0200)",
-   "lat": -23.5475,
-   "lon": -46.63611,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "São Paulo",
+   "state": null,
    "country": "Brazil",
-   "facility": "Instituto Dante Pazzanese de Cardiology ( Site 0206)",
+   "status": "RECRUITING",
    "lat": -23.5475,
-   "lon": -46.63611,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -46.63611
   },
   {
-   "city": "Fortaleza",
+   "facility": "Instituto Dante Pazzanese de Cardiology ( Site 0206)",
+   "city": "São Paulo",
+   "state": null,
    "country": "Brazil",
+   "status": "RECRUITING",
+   "lat": -23.5475,
+   "lon": -46.63611
+  },
+  {
    "facility": "Universidade Federal Do Ceara ( Site 0201)",
-   "lat": -3.71722,
-   "lon": -38.54306,
+   "city": "Fortaleza",
    "state": "Ceará",
-   "status": "RECRUITING"
+   "country": "Brazil",
+   "status": "RECRUITING",
+   "lat": -3.71722,
+   "lon": -38.54306
   },
   {
-   "city": "Concepción",
-   "country": "Chile",
    "facility": "Biocenter ( Site 0305)",
-   "lat": -36.82699,
-   "lon": -73.04977,
+   "city": "Concepción",
    "state": "Biobio",
-   "status": "RECRUITING"
+   "country": "Chile",
+   "status": "RECRUITING",
+   "lat": -36.82699,
+   "lon": -73.04977
   },
   {
-   "city": "Santiago",
-   "country": "Chile",
    "facility": "Explora Salud ( Site 0304)",
-   "lat": -33.45694,
-   "lon": -70.64827,
-   "state": "Region M. de Santiago",
-   "status": "RECRUITING"
-  },
-  {
    "city": "Santiago",
-   "country": "Chile",
-   "facility": "Pontificia Universidad Catolica de Chile ( Site 0300)",
-   "lat": -33.45694,
-   "lon": -70.64827,
    "state": "Region M. de Santiago",
-   "status": "RECRUITING"
+   "country": "Chile",
+   "status": "RECRUITING",
+   "lat": -33.45694,
+   "lon": -70.64827
   },
   {
-   "city": "Beijing",
-   "country": "China",
+   "facility": "Pontificia Universidad Catolica de Chile ( Site 0300)",
+   "city": "Santiago",
+   "state": "Region M. de Santiago",
+   "country": "Chile",
+   "status": "RECRUITING",
+   "lat": -33.45694,
+   "lon": -70.64827
+  },
+  {
    "facility": "Beijing Anzhen Hospital. Capital Medical University ( Site 1917)",
-   "lat": 39.9075,
-   "lon": 116.39723,
-   "state": "Beijing Municipality",
-   "status": "RECRUITING"
-  },
-  {
    "city": "Beijing",
-   "country": "China",
-   "facility": "Children's Hospital Capital Institute of Pediatrics ( Site 1908)",
-   "lat": 39.9075,
-   "lon": 116.39723,
    "state": "Beijing Municipality",
-   "status": "RECRUITING"
+   "country": "China",
+   "status": "RECRUITING",
+   "lat": 39.9075,
+   "lon": 116.39723
   },
   {
-   "city": "Guangzhou",
+   "facility": "Children's Hospital Capital Institute of Pediatrics ( Site 1908)",
+   "city": "Beijing",
+   "state": "Beijing Municipality",
    "country": "China",
+   "status": "RECRUITING",
+   "lat": 39.9075,
+   "lon": 116.39723
+  },
+  {
    "facility": "Guangdong Provincial People's Hospital ( Site 1915)",
-   "lat": 23.11667,
-   "lon": 113.25,
+   "city": "Guangzhou",
    "state": "Guangdong",
-   "status": "RECRUITING"
+   "country": "China",
+   "status": "RECRUITING",
+   "lat": 23.11667,
+   "lon": 113.25
   },
   {
-   "city": "Shanghai",
-   "country": "China",
    "facility": "Children's Hospital of Fudan University ( Site 1906)",
-   "lat": 31.22222,
-   "lon": 121.45806,
-   "state": "Shanghai Municipality",
-   "status": "RECRUITING"
-  },
-  {
    "city": "Shanghai",
-   "country": "China",
-   "facility": "Shanghai Children's Medical Center ( Site 1918)",
-   "lat": 31.22222,
-   "lon": 121.45806,
    "state": "Shanghai Municipality",
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Hangzhou",
    "country": "China",
+   "status": "RECRUITING",
+   "lat": 31.22222,
+   "lon": 121.45806
+  },
+  {
+   "facility": "Shanghai Children's Medical Center ( Site 1918)",
+   "city": "Shanghai",
+   "state": "Shanghai Municipality",
+   "country": "China",
+   "status": "RECRUITING",
+   "lat": 31.22222,
+   "lon": 121.45806
+  },
+  {
    "facility": "The Children's Hospital of Zhejiang University School of Medicine ( Site 1905)",
-   "lat": 30.29365,
-   "lon": 120.16142,
+   "city": "Hangzhou",
    "state": "Zhejiang",
-   "status": "RECRUITING"
+   "country": "China",
+   "status": "RECRUITING",
+   "lat": 30.29365,
+   "lon": 120.16142
   },
   {
-   "city": "Barranquilla",
-   "country": "Colombia",
    "facility": "Clinica de la Costa S.A.S. ( Site 0400)",
-   "lat": 10.96854,
-   "lon": -74.78132,
+   "city": "Barranquilla",
    "state": "Atlántico",
-   "status": "RECRUITING"
+   "country": "Colombia",
+   "status": "RECRUITING",
+   "lat": 10.96854,
+   "lon": -74.78132
   },
   {
-   "city": "Montería",
-   "country": "Colombia",
    "facility": "Oncomédica S.A.S ( Site 0401)",
-   "lat": 8.75081,
-   "lon": -75.87823,
+   "city": "Montería",
    "state": "Departamento de Córdoba",
-   "status": "RECRUITING"
+   "country": "Colombia",
+   "status": "RECRUITING",
+   "lat": 8.75081,
+   "lon": -75.87823
   },
   {
-   "city": "Piedecuesta",
-   "country": "Colombia",
    "facility": "Fundación Cardiovascular de Colombia ( Site 0402)",
-   "lat": 6.98789,
-   "lon": -73.04953,
+   "city": "Piedecuesta",
    "state": "Santander Department",
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Cali",
    "country": "Colombia",
+   "status": "RECRUITING",
+   "lat": 6.98789,
+   "lon": -73.04953
+  },
+  {
    "facility": "Fundacion Valle del Lili ( Site 0403)",
-   "lat": 3.43054,
-   "lon": -76.5199,
+   "city": "Cali",
    "state": "Valle del Cauca Department",
-   "status": "RECRUITING"
+   "country": "Colombia",
+   "status": "RECRUITING",
+   "lat": 3.43054,
+   "lon": -76.5199
   },
   {
-   "city": "Prague",
-   "country": "Czechia",
    "facility": "Fakultni nemocnice v Motole ( Site 0700)",
-   "lat": 50.08804,
-   "lon": 14.42076,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Brno",
-   "country": "Czechia",
-   "facility": "Detska nemocnice FN Brno ( Site 0701)",
-   "lat": 49.19522,
-   "lon": 16.60796,
-   "state": "Brno-mesto",
-   "status": "RECRUITING"
-  },
-  {
    "city": "Prague",
+   "state": null,
    "country": "Czechia",
-   "facility": "Vseobecna fakultni nemocnice v Praze ( Site 0702)",
+   "status": "RECRUITING",
    "lat": 50.08804,
-   "lon": 14.42076,
+   "lon": 14.42076
+  },
+  {
+   "facility": "Detska nemocnice FN Brno ( Site 0701)",
+   "city": "Brno",
+   "state": "Brno-mesto",
+   "country": "Czechia",
+   "status": "RECRUITING",
+   "lat": 49.19522,
+   "lon": 16.60796
+  },
+  {
+   "facility": "Vseobecna fakultni nemocnice v Praze ( Site 0702)",
+   "city": "Prague",
    "state": "Praha 2",
-   "status": "RECRUITING"
+   "country": "Czechia",
+   "status": "RECRUITING",
+   "lat": 50.08804,
+   "lon": 14.42076
   },
   {
-   "city": "Helsinki",
-   "country": "Finland",
    "facility": "New Childrens Hospital ( Site 0800)",
-   "lat": 60.16952,
-   "lon": 24.93545,
+   "city": "Helsinki",
    "state": "Uusimaa",
-   "status": "RECRUITING"
+   "country": "Finland",
+   "status": "RECRUITING",
+   "lat": 60.16952,
+   "lon": 24.93545
   },
   {
-   "city": "Bron",
-   "country": "France",
    "facility": "Hopital Femme Mere Enfant ( Site 2101)",
-   "lat": 45.73865,
-   "lon": 4.91303,
+   "city": "Bron",
    "state": "Rhone",
-   "status": "RECRUITING"
+   "country": "France",
+   "status": "RECRUITING",
+   "lat": 45.73865,
+   "lon": 4.91303
   },
   {
-   "city": "Freiburg im Breisgau",
-   "country": "Germany",
    "facility": "Universitaetsklinikum Freiburg ( Site 2203)",
-   "lat": 47.9959,
-   "lon": 7.85222,
+   "city": "Freiburg im Breisgau",
    "state": "Baden-Wurttemberg",
-   "status": "RECRUITING"
+   "country": "Germany",
+   "status": "RECRUITING",
+   "lat": 47.9959,
+   "lon": 7.85222
   },
   {
-   "city": "Huixquilucan",
-   "country": "Mexico",
+   "facility": "Chutoen General Medical Center ( Site 2003)",
+   "city": "Kakegawa",
+   "state": "Shizuoka",
+   "country": "Japan",
+   "status": "RECRUITING",
+   "lat": 34.76667,
+   "lon": 138.01667
+  },
+  {
    "facility": "INVECORDIS S.C. ( Site 0503)",
+   "city": "Huixquilucan",
+   "state": null,
+   "country": "Mexico",
+   "status": "RECRUITING",
    "lat": 19.35985,
-   "lon": -99.35016,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -99.35016
   },
   {
-   "city": "Monterrey",
-   "country": "Mexico",
    "facility": "Laboratorio de Patología Clínica del Hospital Universitario \"Dr. José Eleuterio González\" ( Site 0501)",
-   "lat": 25.68435,
-   "lon": -100.31721,
+   "city": "Monterrey",
    "state": "Nuevo León",
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Oaxaca City",
    "country": "Mexico",
+   "status": "RECRUITING",
+   "lat": 25.68435,
+   "lon": -100.31721
+  },
+  {
    "facility": "Centro de Investigacion Clinica de Oaxaca ( Site 0505)",
-   "lat": 17.06025,
-   "lon": -96.72544,
+   "city": "Oaxaca City",
    "state": "Oaxaca",
-   "status": "RECRUITING"
+   "country": "Mexico",
+   "status": "RECRUITING",
+   "lat": 17.06025,
+   "lon": -96.72544
   },
   {
-   "city": "Amsterdam",
-   "country": "Netherlands",
    "facility": "Amsterdam UMC, locatie AMC ( Site 1000)",
-   "lat": 52.37403,
-   "lon": 4.88969,
+   "city": "Amsterdam",
    "state": "North Holland",
-   "status": "RECRUITING"
+   "country": "Netherlands",
+   "status": "RECRUITING",
+   "lat": 52.37403,
+   "lon": 4.88969
   },
   {
-   "city": "Christchurch",
-   "country": "New Zealand",
    "facility": "New Zealand Clinical Research (Christchurch) ( Site 1700)",
-   "lat": -43.53333,
-   "lon": 172.63333,
+   "city": "Christchurch",
    "state": "Canterbury",
-   "status": "RECRUITING"
+   "country": "New Zealand",
+   "status": "RECRUITING",
+   "lat": -43.53333,
+   "lon": 172.63333
   },
   {
-   "city": "Oslo",
-   "country": "Norway",
    "facility": "Oslo Universitetssykehus Aker-Lipidklinikken ( Site 1100)",
+   "city": "Oslo",
+   "state": null,
+   "country": "Norway",
+   "status": "RECRUITING",
    "lat": 59.91273,
-   "lon": 10.74609,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 10.74609
   },
   {
-   "city": "Lodz",
-   "country": "Poland",
    "facility": "Instytut Centrum Zdrowia Matki Polki ( Site 1201)",
-   "lat": 51.77058,
-   "lon": 19.47395,
+   "city": "Lodz",
    "state": "Łódź Voivodeship",
-   "status": "RECRUITING"
+   "country": "Poland",
+   "status": "RECRUITING",
+   "lat": 51.77058,
+   "lon": 19.47395
   },
   {
-   "city": "Singapore",
-   "country": "Singapore",
    "facility": "National University Hospital-Paediatrics ( Site 1800)",
-   "lat": 1.28967,
-   "lon": 103.85007,
+   "city": "Singapore",
    "state": "Central Singapore",
-   "status": "RECRUITING"
+   "country": "Singapore",
+   "status": "RECRUITING",
+   "lat": 1.28967,
+   "lon": 103.85007
   },
   {
-   "city": "Oviedo",
-   "country": "Spain",
    "facility": "Hospital Universitario Central de Asturias ( Site 1303)",
-   "lat": 43.36029,
-   "lon": -5.84476,
+   "city": "Oviedo",
    "state": "Asturias, Principado de",
-   "status": "RECRUITING"
+   "country": "Spain",
+   "status": "RECRUITING",
+   "lat": 43.36029,
+   "lon": -5.84476
   },
   {
-   "city": "Santiago de Compostela",
-   "country": "Spain",
    "facility": "Hospital Clinico Universitario de Santiago de Compostela ( Site 1300)",
-   "lat": 42.88052,
-   "lon": -8.54569,
+   "city": "Santiago de Compostela",
    "state": "La Coruna",
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Pamplona",
    "country": "Spain",
+   "status": "RECRUITING",
+   "lat": 42.88052,
+   "lon": -8.54569
+  },
+  {
    "facility": "COMPLEJO HOSPITALARIO DE NAVARRA ( Site 1302)",
-   "lat": 42.81687,
-   "lon": -1.64323,
+   "city": "Pamplona",
    "state": "Navarre",
-   "status": "RECRUITING"
+   "country": "Spain",
+   "status": "RECRUITING",
+   "lat": 42.81687,
+   "lon": -1.64323
   },
   {
-   "city": "Birmingham",
-   "country": "United Kingdom",
    "facility": "Birmingham Childrens Hospital ( Site 1501)",
+   "city": "Birmingham",
+   "state": null,
+   "country": "United Kingdom",
+   "status": "RECRUITING",
    "lat": 52.48142,
-   "lon": -1.89983,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -1.89983
   },
   {
-   "city": "Sheffield",
-   "country": "United Kingdom",
    "facility": "Sheffield Childrens Hospital ( Site 1503)",
-   "lat": 53.38297,
-   "lon": -1.4659,
+   "city": "Sheffield",
    "state": null,
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Southampton",
    "country": "United Kingdom",
+   "status": "RECRUITING",
+   "lat": 53.38297,
+   "lon": -1.4659
+  },
+  {
    "facility": "Southampton General Hospital ( Site 1502)",
-   "lat": 50.90395,
-   "lon": -1.40428,
+   "city": "Southampton",
    "state": null,
-   "status": "RECRUITING"
+   "country": "United Kingdom",
+   "status": "RECRUITING",
+   "lat": 50.90395,
+   "lon": -1.40428
   },
   {
-   "city": "Wilmington",
-   "country": "United States",
    "facility": "Nemours/Alfred I. duPont Hospital for Children ( Site 0001)",
-   "lat": 39.74595,
-   "lon": -75.54659,
+   "city": "Wilmington",
    "state": "Delaware",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 39.74595,
+   "lon": -75.54659
   },
   {
-   "city": "Washington D.C.",
-   "country": "United States",
    "facility": "Children's National Medical Center ( Site 0015)",
-   "lat": 38.89511,
-   "lon": -77.03637,
+   "city": "Washington D.C.",
    "state": "District of Columbia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 38.89511,
+   "lon": -77.03637
   },
   {
-   "city": "Boca Raton",
-   "country": "United States",
    "facility": "Excel Medical Clinical Trials ( Site 0008)",
-   "lat": 26.35869,
-   "lon": -80.0831,
+   "city": "Boca Raton",
    "state": "Florida",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 26.35869,
+   "lon": -80.0831
   },
   {
-   "city": "Atlanta",
-   "country": "United States",
    "facility": "Children's Healthcare of Atlanta Cardiology ( Site 0026)",
-   "lat": 33.749,
-   "lon": -84.38798,
+   "city": "Atlanta",
    "state": "Georgia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 33.749,
+   "lon": -84.38798
   },
   {
-   "city": "Boston",
-   "country": "United States",
    "facility": "Boston Children's Hospital ( Site 0018)",
-   "lat": 42.35843,
-   "lon": -71.05977,
+   "city": "Boston",
    "state": "Massachusetts",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 42.35843,
+   "lon": -71.05977
   },
   {
-   "city": "St Louis",
-   "country": "United States",
    "facility": "St. Louis Children's Hospital ( Site 0014)",
-   "lat": 38.62727,
-   "lon": -90.19789,
+   "city": "St Louis",
    "state": "Missouri",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "Cincinnati Children's Hospital Medical Center ( Site 0016)",
-   "lat": 39.12711,
-   "lon": -84.51439,
+   "city": "Cincinnati",
    "state": "Ohio",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 39.12711,
+   "lon": -84.51439
   },
   {
-   "city": "Morgantown",
-   "country": "United States",
    "facility": "West Virginia University ( Site 0013)",
-   "lat": 39.62953,
-   "lon": -79.9559,
+   "city": "Morgantown",
    "state": "West Virginia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 39.62953,
+   "lon": -79.9559
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07058077",
- "content_hash": "28b6eff716f13936",
+ "content_hash": "754026b325e8c0d3",
  "collections": [
   "cholesterol-lipids"
  ],
@@ -609,5 +618,28 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "596115f7f1a12f60",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "Chutoen General Medical Center ( Site 2003)",
+     "city": "Kakegawa",
+     "state": "Shizuoka",
+     "country": "Japan"
+    }
+   ],
+   "detected_date": "2026-11-10",
+   "context": {
+    "site_count_before": 47,
+    "site_count_after": 48
+   },
+   "collections": [
+    "cholesterol-lipids"
+   ]
+  }
+ ]
 }

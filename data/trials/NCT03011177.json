@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Handok Inc."
+  "name": "Handok Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Teneligliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Linagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "teneligliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Teneligliptin"
-   ],
-   "label": "teneligliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "linagliptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Linagliptin"
-   ],
-   "label": "linagliptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "To assess the efficacy and safety of Teneligliptin and Linagliptin in the type 2 Diabetes Mellitus patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who are 19 years or older on screening\n* Patients with type 2 diabetes mellitus\n* Patients with 7.0% ≤ HbA1c ≤ 11.0% at the screening visit\n* Patients with Fasting Plasma Glucose \\<15mmol/L(270mg/dL) on screening\n\nExclusion Criteria:\n\n\\-",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Asan Medical Center",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03011177",
@@ -128,11 +128,7 @@
     "text": "Patients with Fasting Plasma Glucose <15mmol/L(270mg/dL) on screening"
    }
   ],
-  "exclusion": [
-   {
-    "text": "-"
-   }
-  ],
+  "exclusion": [],
   "notes": []
  },
  "in_watchlist": true,

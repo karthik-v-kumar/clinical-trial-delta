@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Hua Medicine Limited"
+  "name": "Hua Medicine Limited",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Covance"
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "HMS5552",
    "other_names": [
     "Glucokinase Activator (GKA)"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "HMS5552",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: HMS5552"
-   ],
-   "label": "HMS5552",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This study evaluates the efficacy and safety and population PK of HMS5552 add-on to Metformin in adult type 2 diabetic subjects. There will be 2 groups in the first 24 weeks, one group will receive HMS5552 plus Metformin, while the other group will receive placebo plus Metformin; after 24 weeks, all subjects will receive HMS5552 plus Metformin for 28 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Male or female, aged 18\\~75 years old;\n2. T2DM and treated with Metformin ≥ 1500mg/day constantly for at least 12 consecutive weeks;\n3. 7.5% ≤ HbA1c ≤ 10.0% at screening;\n4. 18.5 kg/m2 \\< BMI \\< 35.0 kg/m2 at screening;\n\nExclusion Criteria:\n\n1. Any anti-diabetic therapy other than Metformin within 12 weeks before screening;\n2. Received insulin therapy more than 30 days within 1 year before screening;\n3. Fasting C-peptide \\<0.81 ng/ml (0.27 nmol/L) at screening;\n4. Medical history of severe hypoglycemia or frequent hypoglycemia, diabetic ketoacidosis, diabetes lactic acidosis or hyperosmotic nonketotic diabetic coma, severe cardio-cerebrovascular, unstable or rapidly progressive kidney disease, active liver diseases, diagnosed mental disease etc.\n5. T1DM;",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "city": "Shanghai",
-   "country": "China",
    "facility": "Hua Medicine Limited",
-   "lat": 31.22222,
-   "lon": 121.45806,
+   "city": "Shanghai",
    "state": null,
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 31.22222,
+   "lon": 121.45806
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03141073",

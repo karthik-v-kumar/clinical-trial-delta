@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": "2023-01-27",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Shionogi Inc."
+  "name": "Shionogi Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -50,44 +50,44 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "JTT-662",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: JTT-662"
-   ],
    "label": "JTT-662 5 mg",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: JTT-662"
-   ],
+   ]
+  },
+  {
    "label": "JTT-662 10 mg",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: JTT-662"
-   ],
-   "label": "JTT-662 20 mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "JTT-662 20 mg",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: JTT-662"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -111,10 +111,10 @@
  "brief_summary": "This study will evaluate the safety, tolerability, pharmacokinetics and pharmacodynamics of JTT-662 administered once daily for 28 days in subjects with Type 2 diabetes mellitus (T2DM) who are receiving metformin monotherapy",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of T2DM for at least 12 weeks prior to the Screening Visit\n* Currently treated with a stable oral dose of metformin monotherapy for at least 12 weeks prior to the Screening Visit and until Day -3\n* Have a glycosylated hemoglobin (HbA1c) value of between 6.5% and 10.0% at the Screening Visit\n* Have a fasting plasma glucose (FPG) value of no more than 280 mg/dL at the Screening Visit and on Day -3\n* Body Mass Index (BMI) of 25 to 40 kg/m2 (inclusive)\n\nExclusion Criteria:\n\n* Known medical history or presence of Type 1 diabetes mellitus, Maturity Onset Diabetes of the Young or secondary forms of diabetes\n* Known medical history or presence of diabetic complications\n* Have taken anti-diabetic medications (other than metformin) or medications that act mainly in the gastrointestinal tract (e.g., orlistat, acarbose) within 12 weeks prior to the Screening Visit or from the Screening Visit to Day -3\n* Have uncontrolled hypertension (systolic blood pressure of at least 160 mmHg or diastolic blood pressure of at least 95 mmHg) at the Screening Visit\n* Have impaired renal function (estimated glomerular filtration rate (eGFR) \\<60 mL/min/1.73 m2)",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -122,13 +122,13 @@
  },
  "sites": [
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Qps-Mra, Llc",
-   "lat": 25.77427,
-   "lon": -80.19366,
+   "city": "Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.77427,
+   "lon": -80.19366
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04465877",

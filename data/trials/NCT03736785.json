@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2021-03-08",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,37 +48,37 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "LY3209590",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Insulin Degludec",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: LY3209590"
-   ],
    "label": "LY3209590 Algorithm 1",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3209590"
-   ],
-   "label": "LY3209590 Algorithm 2",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "LY3209590 Algorithm 2",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: LY3209590"
+   ]
+  },
+  {
+   "label": "Insulin Degludec",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Degludec"
-   ],
-   "label": "Insulin Degludec",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The reason for this study is to see if the study drug LY3209590 is safe and effective in participants with type 2 diabetes that have already been treated with basal insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus according to the World Health Organization (WHO) criteria treated with basal insulin and up to 3 of the following oral antihyperglycemic medication (OAM):\n\n  * dipeptidyl peptidase-4 (DPP-4) inhibitors\n  * sodium-glucose cotransporter (SGLT-2) inhibitors\n  * biguanides\n  * alpha-glucosidase inhibitors\n  * sulfonlyureas\n* HbA1c value of 6.5% to 10%, inclusive\n* Body mass index (BMI) between 20 and 45 kilograms per meter squared (kg/m2), inclusive\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus or latent autoimmune diabetes\n* Any episodes of severe hypoglycemia and/or hypoglycemia unawareness within the 6 months prior to screening\n* Any of the following cardiovascular (CV) conditions: acute myocardial infarction, New York Heart Association Class III or IV heart failure, or cerebrovascular accident (stroke)\n* Acute or chronic hepatitis, or obvious clinical signs or symptoms of any other liver disease\n* Estimated glomerular filtration rate (eGFR) \\<30 milliliters/minute/1.73 m2\n* Active or untreated malignancy\n* Chronic (\\>14 days) systemic glucocorticoid therapy",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,400 +101,400 @@
  },
  "sites": [
   {
-   "city": "Chihuahua City",
-   "country": "Mexico",
    "facility": "Investigacion en Salud y Metabolismo S.C",
-   "lat": 28.63528,
-   "lon": -106.08889,
+   "city": "Chihuahua City",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Monterrey",
    "country": "Mexico",
+   "status": null,
+   "lat": 28.63528,
+   "lon": -106.08889
+  },
+  {
    "facility": "Hospital Universitario UANL",
-   "lat": 25.68435,
-   "lon": -100.31721,
+   "city": "Monterrey",
    "state": "Nuevo León",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 25.68435,
+   "lon": -100.31721
   },
   {
-   "city": "Yabucoa",
-   "country": "Puerto Rico",
    "facility": "Centro de Endocrinologia del Este",
-   "lat": 18.05052,
-   "lon": -65.87933,
+   "city": "Yabucoa",
    "state": null,
-   "status": null
+   "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.05052,
+   "lon": -65.87933
   },
   {
-   "city": "Bayamón",
-   "country": "Puerto Rico",
    "facility": "Advanced Clinical Research, LLC",
+   "city": "Bayamón",
+   "state": "PR",
+   "country": "Puerto Rico",
+   "status": null,
    "lat": 18.39856,
-   "lon": -66.15572,
-   "state": "PR",
-   "status": null
+   "lon": -66.15572
   },
   {
-   "city": "Manati",
-   "country": "Puerto Rico",
    "facility": "Manati Center for Clinical Research Inc",
+   "city": "Manati",
+   "state": "PR",
+   "country": "Puerto Rico",
+   "status": null,
    "lat": 18.42745,
-   "lon": -66.49212,
-   "state": "PR",
-   "status": null
+   "lon": -66.49212
   },
   {
-   "city": "San Juan",
-   "country": "Puerto Rico",
    "facility": "GCM Medical Group PSC",
-   "lat": 18.46633,
-   "lon": -66.10572,
-   "state": "PR",
-   "status": null
-  },
-  {
    "city": "San Juan",
-   "country": "Puerto Rico",
-   "facility": "Martha Gomez Cuellar M.D.",
-   "lat": 18.46633,
-   "lon": -66.10572,
    "state": "PR",
-   "status": null
+   "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.46633,
+   "lon": -66.10572
   },
   {
-   "city": "Birmingham",
-   "country": "United States",
+   "facility": "Martha Gomez Cuellar M.D.",
+   "city": "San Juan",
+   "state": "PR",
+   "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.46633,
+   "lon": -66.10572
+  },
+  {
    "facility": "Central Research Associates, Inc.",
-   "lat": 33.52066,
-   "lon": -86.80249,
+   "city": "Birmingham",
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.52066,
+   "lon": -86.80249
   },
   {
-   "city": "Little Rock",
-   "country": "United States",
    "facility": "Arkansas Clinical Research",
-   "lat": 34.74648,
-   "lon": -92.28959,
+   "city": "Little Rock",
    "state": "Arkansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.74648,
+   "lon": -92.28959
   },
   {
-   "city": "Concord",
-   "country": "United States",
    "facility": "John Muir Physician Network Clinical Research Center",
+   "city": "Concord",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 37.97798,
-   "lon": -122.03107,
-   "state": "California",
-   "status": null
+   "lon": -122.03107
   },
   {
-   "city": "Escondido",
-   "country": "United States",
    "facility": "AMCR Institute INC",
+   "city": "Escondido",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.11921,
-   "lon": -117.08642,
-   "state": "California",
-   "status": null
+   "lon": -117.08642
   },
   {
-   "city": "Fresno",
-   "country": "United States",
    "facility": "Valley Endocrine, Fresno",
+   "city": "Fresno",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 36.74773,
-   "lon": -119.77237,
-   "state": "California",
-   "status": null
+   "lon": -119.77237
   },
   {
-   "city": "Greenbrae",
-   "country": "United States",
    "facility": "Marin Endocrine Associates",
+   "city": "Greenbrae",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 37.94854,
-   "lon": -122.5247,
-   "state": "California",
-   "status": null
+   "lon": -122.5247
   },
   {
+   "facility": "National Research Institute",
    "city": "Huntington Park",
+   "state": "California",
    "country": "United States",
-   "facility": "National Research Institute",
+   "status": null,
    "lat": 33.98168,
-   "lon": -118.22507,
-   "state": "California",
-   "status": null
+   "lon": -118.22507
   },
   {
-   "city": "Lancaster",
-   "country": "United States",
    "facility": "First Valley Medical Group",
+   "city": "Lancaster",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.69804,
-   "lon": -118.13674,
-   "state": "California",
-   "status": null
+   "lon": -118.13674
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "National Research Institute",
+   "city": "Los Angeles",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": null
+   "lon": -118.24368
   },
   {
-   "city": "Tustin",
-   "country": "United States",
    "facility": "University Clinical Investigators, Inc.",
-   "lat": 33.74585,
-   "lon": -117.82617,
+   "city": "Tustin",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.74585,
+   "lon": -117.82617
   },
   {
-   "city": "Waterbury",
-   "country": "United States",
    "facility": "Chase Medical Research, LLC",
-   "lat": 41.55815,
-   "lon": -73.0515,
+   "city": "Waterbury",
    "state": "Connecticut",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.55815,
+   "lon": -73.0515
   },
   {
-   "city": "Cooper City",
-   "country": "United States",
    "facility": "ALL Medical Research, LLC",
+   "city": "Cooper City",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.05731,
-   "lon": -80.27172,
-   "state": "Florida",
-   "status": null
+   "lon": -80.27172
   },
   {
-   "city": "New Port Richey",
-   "country": "United States",
    "facility": "Suncoast Clinical Research",
+   "city": "New Port Richey",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 28.24418,
-   "lon": -82.71927,
-   "state": "Florida",
-   "status": null
+   "lon": -82.71927
   },
   {
-   "city": "West Palm Beach",
-   "country": "United States",
    "facility": "Metabolic Research Institute Inc.",
-   "lat": 26.71534,
-   "lon": -80.05337,
+   "city": "West Palm Beach",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 26.71534,
+   "lon": -80.05337
   },
   {
-   "city": "Honolulu",
-   "country": "United States",
    "facility": "East West Medical Institute",
-   "lat": 21.30694,
-   "lon": -157.85833,
+   "city": "Honolulu",
    "state": "Hawaii",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
-   "city": "Blackfoot",
-   "country": "United States",
    "facility": "Elite Clinical Trials LLLP",
+   "city": "Blackfoot",
+   "state": "Idaho",
+   "country": "United States",
+   "status": null,
    "lat": 43.19047,
-   "lon": -112.34498,
-   "state": "Idaho",
-   "status": null
+   "lon": -112.34498
   },
   {
-   "city": "Idaho Falls",
-   "country": "United States",
    "facility": "Rocky Mountain Diabetes and Osteoporosis Center",
-   "lat": 43.46658,
-   "lon": -112.03414,
+   "city": "Idaho Falls",
    "state": "Idaho",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.46658,
+   "lon": -112.03414
   },
   {
-   "city": "West Des Moines",
-   "country": "United States",
    "facility": "Iderc, P.L.C.",
-   "lat": 41.57721,
-   "lon": -93.71133,
+   "city": "West Des Moines",
    "state": "Iowa",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.57721,
+   "lon": -93.71133
   },
   {
-   "city": "Topeka",
-   "country": "United States",
    "facility": "Cotton O'Neil Diabetes and Endocrinology Center",
-   "lat": 39.04833,
-   "lon": -95.67804,
+   "city": "Topeka",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.04833,
+   "lon": -95.67804
   },
   {
-   "city": "Rockville",
-   "country": "United States",
    "facility": "Endocrine and Metabolic Consultants",
-   "lat": 39.084,
-   "lon": -77.15276,
+   "city": "Rockville",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.084,
+   "lon": -77.15276
   },
   {
-   "city": "Fall River",
-   "country": "United States",
    "facility": "NECCR PrimaCare Research, LLC",
-   "lat": 41.70149,
-   "lon": -71.15505,
+   "city": "Fall River",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.70149,
+   "lon": -71.15505
   },
   {
-   "city": "Las Vegas",
-   "country": "United States",
    "facility": "Palm Research Center",
-   "lat": 36.17497,
-   "lon": -115.13722,
-   "state": "Nevada",
-   "status": null
-  },
-  {
    "city": "Las Vegas",
-   "country": "United States",
-   "facility": "Palm Research Center",
-   "lat": 36.17497,
-   "lon": -115.13722,
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
-   "city": "Nashua",
+   "facility": "Palm Research Center",
+   "city": "Las Vegas",
+   "state": "Nevada",
    "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
+  },
+  {
    "facility": "Southern New Hampshire Diabetes and Endocrinology",
-   "lat": 42.76537,
-   "lon": -71.46757,
+   "city": "Nashua",
    "state": "New Hampshire",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.76537,
+   "lon": -71.46757
   },
   {
-   "city": "Charlotte",
-   "country": "United States",
    "facility": "Metrolina Internal Medicine, P.A.",
-   "lat": 35.22709,
-   "lon": -80.84313,
+   "city": "Charlotte",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.22709,
+   "lon": -80.84313
   },
   {
-   "city": "Norman",
-   "country": "United States",
    "facility": "Intend Research",
-   "lat": 35.22257,
-   "lon": -97.43948,
+   "city": "Norman",
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.22257,
+   "lon": -97.43948
   },
   {
-   "city": "Corvallis",
-   "country": "United States",
    "facility": "The Corvallis Clinic P.C.",
-   "lat": 44.56457,
-   "lon": -123.26204,
+   "city": "Corvallis",
    "state": "Oregon",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.56457,
+   "lon": -123.26204
   },
   {
-   "city": "Philadelphia",
-   "country": "United States",
    "facility": "Thomas Jefferson University",
+   "city": "Philadelphia",
+   "state": "Pennsylvania",
+   "country": "United States",
+   "status": null,
    "lat": 39.95238,
-   "lon": -75.16362,
-   "state": "Pennsylvania",
-   "status": null
+   "lon": -75.16362
   },
   {
-   "city": "Uniontown",
-   "country": "United States",
    "facility": "Preferred Primary Care Physicians - Jacob Murphy Lane",
-   "lat": 39.90008,
-   "lon": -79.71643,
+   "city": "Uniontown",
    "state": "Pennsylvania",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.90008,
+   "lon": -79.71643
   },
   {
-   "city": "Anderson",
-   "country": "United States",
    "facility": "Internal Medicine Associates of Anderson",
+   "city": "Anderson",
+   "state": "South Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 34.50344,
-   "lon": -82.65013,
-   "state": "South Carolina",
-   "status": null
+   "lon": -82.65013
   },
   {
-   "city": "Mauldin",
-   "country": "United States",
    "facility": "The Research Center of the Upstate",
-   "lat": 34.77873,
-   "lon": -82.31012,
+   "city": "Mauldin",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.77873,
+   "lon": -82.31012
   },
   {
-   "city": "Austin",
-   "country": "United States",
    "facility": "Texas Diabetes and Endocrinology",
+   "city": "Austin",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 30.26715,
-   "lon": -97.74306,
-   "state": "Texas",
-   "status": null
+   "lon": -97.74306
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Dallas Diabetes Endocrine Center",
+   "city": "Dallas",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Clinical Trials of Texas, Inc.",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   },
   {
-   "city": "Manassas",
-   "country": "United States",
    "facility": "Manassas Clinical Research Center",
-   "lat": 38.75095,
-   "lon": -77.47527,
+   "city": "Manassas",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.75095,
+   "lon": -77.47527
   },
   {
-   "city": "Renton",
-   "country": "United States",
    "facility": "Rainier Clinical Research Center",
-   "lat": 47.48288,
-   "lon": -122.21707,
+   "city": "Renton",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.48288,
+   "lon": -122.21707
   },
   {
-   "city": "Wenatchee",
-   "country": "United States",
    "facility": "Confluence Health Clinical Research Department",
-   "lat": 47.42346,
-   "lon": -120.31035,
+   "city": "Wenatchee",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.42346,
+   "lon": -120.31035
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03736785",

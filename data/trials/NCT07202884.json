@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,46 +51,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Orforglipron",
    "other_names": [
     "LY3502970"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Orforglipron"
-   ],
    "label": "Orforglipron (GZS1)",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Placebo"
-   ],
-   "label": "Placebo (GZS1)",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Orforglipron"
-   ],
-   "label": "Orforglipron (GZS2)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo (GZS1)",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
+   ]
+  },
+  {
+   "label": "Orforglipron (GZS2)",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Orforglipron"
+   ]
+  },
+  {
    "label": "Placebo (GZS2)",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "The GZPS master protocol will support two independent studies, J2A-MC-GZS1 and J2A-MC-GZS2. Each study will see how well and safely orforglipron works in adult female participants with stress urinary incontinence (SUI) who have obesity or overweight. SUI is leaking urine during movement or activity such as coughing or exercising. Participation in the study will last about 58 weeks from screening to safety follow-up.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have a body mass index (BMI) of 27 kilograms per square meter (kg/m2) or higher at screening\n* Have a diagnosis of stress urinary incontinence\n\nExclusion Criteria:\n\n* Have had urinary incontinence surgery\n* Have recently received onabotulinumtoxin A (Botox) bladder injections or currently taking medications for urinary incontinence\n* Have given birth within one year of screening\n* Have had a change in body weight of more than 11 pounds within 90 days prior to screening\n* Have used any anti-obesity medication or alternative weight loss remedies within 180 days prior to screening\n* Have type 1 diabetes, type 2 diabetes, or any other type of diabetes\n* Have had a cardiovascular health condition within 90 days prior to screening\n* Are pregnant, intending to be pregnant, breastfeeding, or intending to breastfeed for the duration of the study",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "FEMALE",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,1084 +113,1084 @@
  },
  "sites": [
   {
-   "city": "Kelowna",
-   "country": "Canada",
    "facility": "Kelowna Health and Memory Centre",
-   "lat": 49.88307,
-   "lon": -119.48568,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Kelowna",
+   "state": null,
    "country": "Canada",
-   "facility": "OCT Research ULC",
+   "status": "RECRUITING",
    "lat": 49.88307,
-   "lon": -119.48568,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -119.48568
   },
   {
-   "city": "Lévis",
+   "facility": "OCT Research ULC",
+   "city": "Kelowna",
+   "state": null,
    "country": "Canada",
+   "status": "RECRUITING",
+   "lat": 49.88307,
+   "lon": -119.48568
+  },
+  {
    "facility": "Alpha Recherche Clinique - Lévis",
+   "city": "Lévis",
+   "state": null,
+   "country": "Canada",
+   "status": "RECRUITING",
    "lat": 46.80326,
-   "lon": -71.17793,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -71.17793
   },
   {
-   "city": "Oakville",
-   "country": "Canada",
    "facility": "The Fe/Male Health Centre",
+   "city": "Oakville",
+   "state": null,
+   "country": "Canada",
+   "status": "RECRUITING",
    "lat": 43.45011,
-   "lon": -79.68292,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -79.68292
   },
   {
-   "city": "Québec",
-   "country": "Canada",
    "facility": "Alpha Recherche Clinique",
-   "lat": 46.81228,
-   "lon": -71.21454,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Québec",
+   "state": null,
    "country": "Canada",
-   "facility": "ALPHA Recherche Clinique",
+   "status": "RECRUITING",
    "lat": 46.81228,
-   "lon": -71.21454,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -71.21454
   },
   {
-   "city": "Red Deer",
+   "facility": "ALPHA Recherche Clinique",
+   "city": "Québec",
+   "state": null,
    "country": "Canada",
+   "status": "RECRUITING",
+   "lat": 46.81228,
+   "lon": -71.21454
+  },
+  {
    "facility": "CaRe Clinic",
-   "lat": 52.26682,
-   "lon": -113.802,
+   "city": "Red Deer",
    "state": null,
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Toronto",
    "country": "Canada",
+   "status": "RECRUITING",
+   "lat": 52.26682,
+   "lon": -113.802
+  },
+  {
    "facility": "Sunnybrook Research Institute",
+   "city": "Toronto",
+   "state": null,
+   "country": "Canada",
+   "status": "RECRUITING",
    "lat": 43.65333,
-   "lon": -79.38389,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -79.38389
   },
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Peking University First Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
+   "city": "Beijing",
    "state": null,
-   "status": "RECRUITING"
+   "country": "China",
+   "status": "RECRUITING",
+   "lat": 39.9075,
+   "lon": 116.39723
   },
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Peking University People's Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
+   "city": "Beijing",
    "state": null,
-   "status": "RECRUITING"
+   "country": "China",
+   "status": "RECRUITING",
+   "lat": 39.9075,
+   "lon": 116.39723
   },
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Peking University Third Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Beijing",
+   "state": null,
    "country": "China",
-   "facility": "Xuanwu Hospital Capital Medical University",
+   "status": "RECRUITING",
    "lat": 39.9075,
-   "lon": 116.39723,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 116.39723
   },
   {
-   "city": "Chengdu",
+   "facility": "Xuanwu Hospital Capital Medical University",
+   "city": "Beijing",
+   "state": null,
    "country": "China",
+   "status": "RECRUITING",
+   "lat": 39.9075,
+   "lon": 116.39723
+  },
+  {
    "facility": "Chengdu Women and Children Center Hospital",
-   "lat": 30.66667,
-   "lon": 104.06667,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Chengdu",
+   "state": null,
    "country": "China",
-   "facility": "Sichuan Provincial People's Hospital",
+   "status": "RECRUITING",
    "lat": 30.66667,
-   "lon": 104.06667,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 104.06667
   },
   {
-   "city": "Chongqing",
+   "facility": "Sichuan Provincial People's Hospital",
+   "city": "Chengdu",
+   "state": null,
    "country": "China",
+   "status": "RECRUITING",
+   "lat": 30.66667,
+   "lon": 104.06667
+  },
+  {
    "facility": "2nd Affiliated Hospital Chongqing Medical University",
+   "city": "Chongqing",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 29.56026,
-   "lon": 106.55771,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 106.55771
   },
   {
-   "city": "Guangzhou",
-   "country": "China",
    "facility": "The First Affiliated Hospital of Jinan University",
-   "lat": 23.11667,
-   "lon": 113.25,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Guangzhou",
+   "state": null,
    "country": "China",
-   "facility": "Zhujiang Hospital",
+   "status": "RECRUITING",
    "lat": 23.11667,
-   "lon": 113.25,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 113.25
   },
   {
-   "city": "Hangzhou",
+   "facility": "Zhujiang Hospital",
+   "city": "Guangzhou",
+   "state": null,
    "country": "China",
+   "status": "RECRUITING",
+   "lat": 23.11667,
+   "lon": 113.25
+  },
+  {
    "facility": "Zhejiang Provincial People's Hospital",
+   "city": "Hangzhou",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 30.29365,
-   "lon": 120.16142,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 120.16142
   },
   {
-   "city": "Hefei",
-   "country": "China",
    "facility": "Second Affiliated hospital of Anhui Medical University",
+   "city": "Hefei",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 31.86389,
-   "lon": 117.28083,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 117.28083
   },
   {
-   "city": "Lanzhou",
-   "country": "China",
    "facility": "Gansu Provincial Hospital",
+   "city": "Lanzhou",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 36.05701,
-   "lon": 103.83987,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 103.83987
   },
   {
-   "city": "Nanjing",
-   "country": "China",
    "facility": "Nanjing Drum Tower Hospital The Affiliated Hospital of Nanjing University Medical School",
+   "city": "Nanjing",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 32.06167,
-   "lon": 118.77778,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 118.77778
   },
   {
-   "city": "Ningbo",
-   "country": "China",
    "facility": "Ningbo First Hospital",
+   "city": "Ningbo",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 29.87819,
-   "lon": 121.54945,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 121.54945
   },
   {
-   "city": "Shanghai",
-   "country": "China",
    "facility": "Obstetrics & Gynecology Hospital of Fudan University",
+   "city": "Shanghai",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 31.22222,
-   "lon": 121.45806,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 121.45806
   },
   {
-   "city": "Shenzhen",
-   "country": "China",
    "facility": "Peking University Shenzhen Hospital",
+   "city": "Shenzhen",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 22.54554,
-   "lon": 114.0683,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 114.0683
   },
   {
-   "city": "Suzhou",
-   "country": "China",
    "facility": "The Second Affiliated Hospital of Soochow University",
+   "city": "Suzhou",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 31.30408,
-   "lon": 120.59538,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 120.59538
   },
   {
-   "city": "Wuhan",
-   "country": "China",
    "facility": "Tongji Hospital, Tongji Medical College of Huazhong University of Science and Technology",
+   "city": "Wuhan",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 30.58333,
-   "lon": 114.26667,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 114.26667
   },
   {
-   "city": "Xi'an",
-   "country": "China",
    "facility": "The First Affiliated Hospital of Xi'an Jiaotong University",
-   "lat": 34.25833,
-   "lon": 108.92861,
+   "city": "Xi'an",
    "state": null,
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Xiamen",
    "country": "China",
+   "status": "RECRUITING",
+   "lat": 34.25833,
+   "lon": 108.92861
+  },
+  {
    "facility": "The First Affiliated hospital of Xiamen University",
+   "city": "Xiamen",
+   "state": null,
+   "country": "China",
+   "status": "RECRUITING",
    "lat": 24.47979,
-   "lon": 118.08187,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 118.08187
   },
   {
-   "city": "Benešov",
-   "country": "Czechia",
    "facility": "Afimed - Urologicka ambulance",
+   "city": "Benešov",
+   "state": null,
+   "country": "Czechia",
+   "status": "ACTIVE_NOT_RECRUITING",
    "lat": 49.78162,
-   "lon": 14.68697,
-   "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
+   "lon": 14.68697
   },
   {
-   "city": "Brno",
-   "country": "Czechia",
    "facility": "Gynekologie Šottner",
+   "city": "Brno",
+   "state": null,
+   "country": "Czechia",
+   "status": "ACTIVE_NOT_RECRUITING",
    "lat": 49.19522,
-   "lon": 16.60796,
-   "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
+   "lon": 16.60796
   },
   {
-   "city": "Karlovy Vary",
-   "country": "Czechia",
    "facility": "Centrum Panevniho Dna",
+   "city": "Karlovy Vary",
+   "state": null,
+   "country": "Czechia",
+   "status": "ACTIVE_NOT_RECRUITING",
    "lat": 50.23271,
-   "lon": 12.87117,
-   "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
+   "lon": 12.87117
   },
   {
-   "city": "Náchod",
-   "country": "Czechia",
    "facility": "Kestr-gyn",
+   "city": "Náchod",
+   "state": null,
+   "country": "Czechia",
+   "status": "ACTIVE_NOT_RECRUITING",
    "lat": 50.4167,
-   "lon": 16.16289,
-   "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
+   "lon": 16.16289
   },
   {
-   "city": "Olomouc",
-   "country": "Czechia",
    "facility": "G-CENTRUM Olomouc",
-   "lat": 49.59552,
-   "lon": 17.25175,
-   "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
-  },
-  {
    "city": "Olomouc",
+   "state": null,
    "country": "Czechia",
-   "facility": "NEUMED gynekologická ambulance",
+   "status": "ACTIVE_NOT_RECRUITING",
    "lat": 49.59552,
-   "lon": 17.25175,
-   "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
+   "lon": 17.25175
   },
   {
-   "city": "Ostrava",
+   "facility": "NEUMED gynekologická ambulance",
+   "city": "Olomouc",
+   "state": null,
    "country": "Czechia",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "lat": 49.59552,
+   "lon": 17.25175
+  },
+  {
    "facility": "GYNORD plus",
+   "city": "Ostrava",
+   "state": null,
+   "country": "Czechia",
+   "status": "ACTIVE_NOT_RECRUITING",
    "lat": 49.83465,
-   "lon": 18.28204,
-   "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
+   "lon": 18.28204
   },
   {
-   "city": "Pilsen",
-   "country": "Czechia",
    "facility": "Gyncare",
-   "lat": 49.74747,
-   "lon": 13.37759,
+   "city": "Pilsen",
    "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
-  },
-  {
-   "city": "Prague",
    "country": "Czechia",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "lat": 49.74747,
+   "lon": 13.37759
+  },
+  {
    "facility": "Nestátní zdravotnické zařízení GONA",
+   "city": "Prague",
+   "state": null,
+   "country": "Czechia",
+   "status": "ACTIVE_NOT_RECRUITING",
    "lat": 50.08804,
-   "lon": 14.42076,
-   "state": null,
-   "status": "ACTIVE_NOT_RECRUITING"
+   "lon": 14.42076
   },
   {
-   "city": "Arakawa City",
-   "country": "Japan",
    "facility": "Hasegawa Hospital - Arakawa",
+   "city": "Arakawa City",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.73825,
-   "lon": 139.78047,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 139.78047
   },
   {
-   "city": "Chiba",
-   "country": "Japan",
    "facility": "Takasu Nephrology and Urology Clinic",
+   "city": "Chiba",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.6,
-   "lon": 140.11667,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 140.11667
   },
   {
-   "city": "Chiyoda City",
-   "country": "Japan",
    "facility": "Yotsuya Medical Cube",
+   "city": "Chiyoda City",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.68449,
-   "lon": 139.75056,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 139.75056
   },
   {
-   "city": "Chūōku",
-   "country": "Japan",
    "facility": "St. Luke's International Hospital",
+   "city": "Chūōku",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 33.63867,
-   "lon": 130.67068,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 130.67068
   },
   {
-   "city": "Higashiibaraki",
-   "country": "Japan",
    "facility": "Mito Medical Center",
-   "lat": null,
-   "lon": null,
+   "city": "Higashiibaraki",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Japan",
+   "status": "RECRUITING",
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Kitakyushu",
-   "country": "Japan",
    "facility": "Kokura Memorial Hospital",
+   "city": "Kitakyushu",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 33.85181,
-   "lon": 130.85034,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 130.85034
   },
   {
-   "city": "Matsudo",
-   "country": "Japan",
    "facility": "Touyu Clinic",
+   "city": "Matsudo",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.77995,
-   "lon": 139.90144,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 139.90144
   },
   {
-   "city": "Minatoku",
-   "country": "Japan",
    "facility": "Tokyo Saiseikai Central Hospital",
+   "city": "Minatoku",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 32.57237,
-   "lon": 130.59341,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 130.59341
   },
   {
-   "city": "Nagoya",
-   "country": "Japan",
    "facility": "Koujunkai Daido Clinic",
+   "city": "Nagoya",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.18147,
-   "lon": 136.90641,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 136.90641
   },
   {
-   "city": "Naka-ku, Yokohama-Shi",
-   "country": "Japan",
    "facility": "Women's Clinic LUNA NEXT STAGE",
-   "lat": null,
-   "lon": null,
+   "city": "Naka-ku, Yokohama-Shi",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Japan",
+   "status": "RECRUITING",
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Narashino",
-   "country": "Japan",
    "facility": "Chiba Saiseikai Narashino hospital",
+   "city": "Narashino",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.68184,
-   "lon": 140.04152,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 140.04152
   },
   {
-   "city": "Nonoichi",
-   "country": "Japan",
    "facility": "Nakazawa Nephrology and Urology Clinic",
+   "city": "Nonoichi",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 36.53333,
-   "lon": 136.61667,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 136.61667
   },
   {
-   "city": "Okayama",
-   "country": "Japan",
    "facility": "Miyabi Urogyne Clinic",
+   "city": "Okayama",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 34.65,
-   "lon": 133.93333,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 133.93333
   },
   {
-   "city": "Osaka",
-   "country": "Japan",
    "facility": "Nakatsu Hospital",
+   "city": "Osaka",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 34.69379,
-   "lon": 135.50107,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 135.50107
   },
   {
-   "city": "Saitama-shi",
-   "country": "Japan",
    "facility": "Kashiwazaki Obstetrics and Gynecology Clinic",
+   "city": "Saitama-shi",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": null,
-   "lon": null,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": null
   },
   {
-   "city": "Sendai",
-   "country": "Japan",
    "facility": "Izumi Chuo Hospital",
+   "city": "Sendai",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 38.26667,
-   "lon": 140.86667,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 140.86667
   },
   {
-   "city": "tabashi City",
-   "country": "Japan",
    "facility": "Nihon University Itabashi Hospital",
+   "city": "tabashi City",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.74893,
-   "lon": 139.71497,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 139.71497
   },
   {
-   "city": "Toride",
-   "country": "Japan",
    "facility": "Toride Urology Clinic",
+   "city": "Toride",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.9,
-   "lon": 140.08333,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 140.08333
   },
   {
-   "city": "Tsukuba",
-   "country": "Japan",
    "facility": "Tsukuba Urocare Clinic",
-   "lat": 36.08333,
-   "lon": 140.11667,
+   "city": "Tsukuba",
    "state": null,
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Ōta-ku",
    "country": "Japan",
+   "status": "RECRUITING",
+   "lat": 36.08333,
+   "lon": 140.11667
+  },
+  {
    "facility": "Yukigaya Urology Clinic",
+   "city": "Ōta-ku",
+   "state": null,
+   "country": "Japan",
+   "status": "RECRUITING",
    "lat": 35.56126,
-   "lon": 139.71605,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 139.71605
   },
   {
-   "city": "Chihuahua City",
-   "country": "Mexico",
    "facility": "Medical Center Metas",
-   "lat": 28.63528,
-   "lon": -106.08889,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Chihuahua City",
+   "state": null,
    "country": "Mexico",
-   "facility": "Scientia Investigacion Clinica S.C.",
+   "status": "RECRUITING",
    "lat": 28.63528,
-   "lon": -106.08889,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -106.08889
   },
   {
-   "city": "Ciudad Madero",
+   "facility": "Scientia Investigacion Clinica S.C.",
+   "city": "Chihuahua City",
+   "state": null,
    "country": "Mexico",
+   "status": "RECRUITING",
+   "lat": 28.63528,
+   "lon": -106.08889
+  },
+  {
    "facility": "Centro de Estudios de Investigacion Metabolicos y Cardiovasculares, S.C.",
+   "city": "Ciudad Madero",
+   "state": null,
+   "country": "Mexico",
+   "status": "RECRUITING",
    "lat": 22.2475,
-   "lon": -97.83665,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -97.83665
   },
   {
-   "city": "Juriquilla",
-   "country": "Mexico",
    "facility": "Health Pharma Querétaro",
+   "city": "Juriquilla",
+   "state": null,
+   "country": "Mexico",
+   "status": "RECRUITING",
    "lat": 20.7114,
-   "lon": -100.45705,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -100.45705
   },
   {
-   "city": "Mexico City",
-   "country": "Mexico",
    "facility": "Centro de Oncología de Precisión - Mexico City",
-   "lat": 19.42847,
-   "lon": -99.12766,
+   "city": "Mexico City",
    "state": null,
-   "status": "NOT_YET_RECRUITING"
+   "country": "Mexico",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 19.42847,
+   "lon": -99.12766
   },
   {
-   "city": "Mexico City",
-   "country": "Mexico",
    "facility": "Quemex Medical and Research",
-   "lat": 19.42847,
-   "lon": -99.12766,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Mexico City",
+   "state": null,
    "country": "Mexico",
-   "facility": "RM Pharma Specialists - Unidad Especializada en Datos",
+   "status": "RECRUITING",
    "lat": 19.42847,
-   "lon": -99.12766,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -99.12766
   },
   {
-   "city": "Monterrey",
+   "facility": "RM Pharma Specialists - Unidad Especializada en Datos",
+   "city": "Mexico City",
+   "state": null,
    "country": "Mexico",
+   "status": "RECRUITING",
+   "lat": 19.42847,
+   "lon": -99.12766
+  },
+  {
    "facility": "Centro de investigación y control metabólico",
-   "lat": 25.68435,
-   "lon": -100.31721,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Monterrey",
+   "state": null,
    "country": "Mexico",
-   "facility": "Jose Gerardo Garza Leal",
+   "status": "RECRUITING",
    "lat": 25.68435,
-   "lon": -100.31721,
-   "state": null,
-   "status": "NOT_YET_RECRUITING"
+   "lon": -100.31721
   },
   {
-   "city": "Morelia",
+   "facility": "Jose Gerardo Garza Leal",
+   "city": "Monterrey",
+   "state": null,
    "country": "Mexico",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 25.68435,
+   "lon": -100.31721
+  },
+  {
    "facility": "Centro de Investigacion Clinica Chapultepec",
+   "city": "Morelia",
+   "state": null,
+   "country": "Mexico",
+   "status": "NOT_YET_RECRUITING",
    "lat": 19.70078,
-   "lon": -101.18443,
-   "state": null,
-   "status": "NOT_YET_RECRUITING"
+   "lon": -101.18443
   },
   {
-   "city": "Mérida",
-   "country": "Mexico",
    "facility": "Medical Care and Research SA de CV",
+   "city": "Mérida",
+   "state": null,
+   "country": "Mexico",
+   "status": "RECRUITING",
    "lat": 20.967,
-   "lon": -89.62318,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -89.62318
   },
   {
-   "city": "México",
-   "country": "Mexico",
    "facility": "Clinstile, S.A. de C.V.",
-   "lat": 31.00435,
-   "lon": -108.15213,
+   "city": "México",
    "state": null,
-   "status": "NOT_YET_RECRUITING"
-  },
-  {
-   "city": "Tlalpan",
    "country": "Mexico",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 31.00435,
+   "lon": -108.15213
+  },
+  {
    "facility": "Medimanage Research",
+   "city": "Tlalpan",
+   "state": null,
+   "country": "Mexico",
+   "status": "RECRUITING",
    "lat": 19.29513,
-   "lon": -99.16206,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -99.16206
   },
   {
-   "city": "Bydgoszcz",
-   "country": "Poland",
    "facility": "IN VIVO",
+   "city": "Bydgoszcz",
+   "state": null,
+   "country": "Poland",
+   "status": "RECRUITING",
    "lat": 53.1235,
-   "lon": 18.00762,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 18.00762
   },
   {
-   "city": "Skórzewo",
-   "country": "Poland",
    "facility": "AIDPORT Sp. z o.o.",
+   "city": "Skórzewo",
+   "state": null,
+   "country": "Poland",
+   "status": "RECRUITING",
    "lat": 53.03629,
-   "lon": 17.81889,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 17.81889
   },
   {
-   "city": "Szczecin",
-   "country": "Poland",
    "facility": "Centrum Medyczne Euromedis",
+   "city": "Szczecin",
+   "state": null,
+   "country": "Poland",
+   "status": "RECRUITING",
    "lat": 53.42894,
-   "lon": 14.55302,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 14.55302
   },
   {
-   "city": "Warsaw",
-   "country": "Poland",
    "facility": "Medical Concierge Centrum Medyczne",
+   "city": "Warsaw",
+   "state": null,
+   "country": "Poland",
+   "status": "RECRUITING",
    "lat": 52.22977,
-   "lon": 21.01178,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 21.01178
   },
   {
-   "city": "Wroclaw",
-   "country": "Poland",
    "facility": "Centrum Medyczne Ginemedica",
-   "lat": 51.10286,
-   "lon": 17.03006,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Wroclaw",
+   "state": null,
    "country": "Poland",
-   "facility": "EMC Instytut Medyczny SA",
+   "status": "RECRUITING",
    "lat": 51.10286,
-   "lon": 17.03006,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 17.03006
   },
   {
-   "city": "Brasov",
-   "country": "Romania",
+   "facility": "EMC Instytut Medyczny SA",
+   "city": "Wroclaw",
+   "state": null,
+   "country": "Poland",
+   "status": "RECRUITING",
+   "lat": 51.10286,
+   "lon": 17.03006
+  },
+  {
    "facility": "Centrul Medical Unirea",
-   "lat": 45.64861,
-   "lon": 25.60613,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Brasov",
+   "state": null,
    "country": "Romania",
-   "facility": "Spitalul Clinic Judetean de Urgenta (Brasov)",
+   "status": "RECRUITING",
    "lat": 45.64861,
-   "lon": 25.60613,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 25.60613
   },
   {
-   "city": "Bucharest",
+   "facility": "Spitalul Clinic Judetean de Urgenta (Brasov)",
+   "city": "Brasov",
+   "state": null,
    "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 45.64861,
+   "lon": 25.60613
+  },
+  {
    "facility": "Delta Health Care",
-   "lat": 44.43225,
-   "lon": 26.10626,
+   "city": "Bucharest",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 44.43225,
+   "lon": 26.10626
   },
   {
-   "city": "Bucharest",
-   "country": "Romania",
    "facility": "Fundeni Clinical Institute",
-   "lat": 44.43225,
-   "lon": 26.10626,
+   "city": "Bucharest",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 44.43225,
+   "lon": 26.10626
   },
   {
-   "city": "Bucharest",
-   "country": "Romania",
    "facility": "Gnosis Evomed S.R.L.",
-   "lat": 44.43225,
-   "lon": 26.10626,
+   "city": "Bucharest",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 44.43225,
+   "lon": 26.10626
   },
   {
-   "city": "Bucharest",
-   "country": "Romania",
    "facility": "Spitalul Clinic Colentina",
-   "lat": 44.43225,
-   "lon": 26.10626,
+   "city": "Bucharest",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 44.43225,
+   "lon": 26.10626
   },
   {
-   "city": "Bucharest",
-   "country": "Romania",
    "facility": "Spitalul Clinic de Nefrologie Doctor Carol Davila",
-   "lat": 44.43225,
-   "lon": 26.10626,
+   "city": "Bucharest",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 44.43225,
+   "lon": 26.10626
   },
   {
-   "city": "Bucharest",
-   "country": "Romania",
    "facility": "Spitalul Clinic Județean de Urgență Ilfov",
-   "lat": 44.43225,
-   "lon": 26.10626,
+   "city": "Bucharest",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 44.43225,
+   "lon": 26.10626
   },
   {
-   "city": "Bucharest",
-   "country": "Romania",
    "facility": "Spitalul Clinic Profesor Doctor Theodor Burghele",
-   "lat": 44.43225,
-   "lon": 26.10626,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Bucharest",
+   "state": null,
    "country": "Romania",
-   "facility": "Spitalul de Urgenta al Ministerului Administratiei si Internelor \"Prof. Dr. Dimitrie Gerota\"",
+   "status": "RECRUITING",
    "lat": 44.43225,
-   "lon": 26.10626,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 26.10626
   },
   {
-   "city": "Craiova",
+   "facility": "Spitalul de Urgenta al Ministerului Administratiei si Internelor \"Prof. Dr. Dimitrie Gerota\"",
+   "city": "Bucharest",
+   "state": null,
    "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 44.43225,
+   "lon": 26.10626
+  },
+  {
    "facility": "Spitalul Clinic Județean de Urgență",
+   "city": "Craiova",
+   "state": null,
+   "country": "Romania",
+   "status": "RECRUITING",
    "lat": 44.31667,
-   "lon": 23.8,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 23.8
   },
   {
-   "city": "Oradea",
-   "country": "Romania",
    "facility": "Spitalul Clinic Judetean De Urgenta Bihor",
+   "city": "Oradea",
+   "state": null,
+   "country": "Romania",
+   "status": "RECRUITING",
    "lat": 47.0458,
-   "lon": 21.91833,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 21.91833
   },
   {
-   "city": "Sibiu",
-   "country": "Romania",
    "facility": "Clinica Polisano",
+   "city": "Sibiu",
+   "state": null,
+   "country": "Romania",
+   "status": "RECRUITING",
    "lat": 45.8,
-   "lon": 24.15,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 24.15
   },
   {
-   "city": "Suceagu",
-   "country": "Romania",
    "facility": "Polaris Medical SA",
+   "city": "Suceagu",
+   "state": null,
+   "country": "Romania",
+   "status": "RECRUITING",
    "lat": 46.78432,
-   "lon": 23.46511,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 23.46511
   },
   {
-   "city": "Timișoara",
-   "country": "Romania",
    "facility": "S.C. Materna Care S.R.L.",
-   "lat": 45.75372,
-   "lon": 21.22571,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Timișoara",
+   "state": null,
    "country": "Romania",
-   "facility": "Spitalul Clinic Judeţean de Urgenţă Pius Brînzeu Timişoara",
+   "status": "RECRUITING",
    "lat": 45.75372,
-   "lon": 21.22571,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 21.22571
   },
   {
-   "city": "Anyang-si",
-   "country": "South Korea",
+   "facility": "Spitalul Clinic Judeţean de Urgenţă Pius Brînzeu Timişoara",
+   "city": "Timișoara",
+   "state": null,
+   "country": "Romania",
+   "status": "RECRUITING",
+   "lat": 45.75372,
+   "lon": 21.22571
+  },
+  {
    "facility": "Hallym University Sacred Heart Hospital",
+   "city": "Anyang-si",
+   "state": null,
+   "country": "South Korea",
+   "status": "RECRUITING",
    "lat": 37.3925,
-   "lon": 126.92694,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 126.92694
   },
   {
-   "city": "Bucheon-si",
-   "country": "South Korea",
    "facility": "The Catholic University of Korea, Bucheon St. Mary's Hospital",
+   "city": "Bucheon-si",
+   "state": null,
+   "country": "South Korea",
+   "status": "RECRUITING",
    "lat": 37.49889,
-   "lon": 126.78306,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 126.78306
   },
   {
-   "city": "Busan",
-   "country": "South Korea",
    "facility": "Pusan National University Hospital",
+   "city": "Busan",
+   "state": null,
+   "country": "South Korea",
+   "status": "RECRUITING",
    "lat": 35.10168,
-   "lon": 129.03004,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 129.03004
   },
   {
-   "city": "Gwangju",
-   "country": "South Korea",
    "facility": "Chonnam National University Hospital",
+   "city": "Gwangju",
+   "state": null,
+   "country": "South Korea",
+   "status": "RECRUITING",
    "lat": 35.15472,
-   "lon": 126.91556,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 126.91556
   },
   {
-   "city": "Junggu",
-   "country": "South Korea",
    "facility": "Kyungpook National University Hospital",
+   "city": "Junggu",
+   "state": null,
+   "country": "South Korea",
+   "status": "RECRUITING",
    "lat": 37.69175,
-   "lon": 126.60024,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 126.60024
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Samsung Medical Center",
-   "lat": 37.566,
-   "lon": 126.9784,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Seoul",
-   "country": "South Korea",
-   "facility": "Severance Hospital, Yonsei University Health System",
-   "lat": 37.566,
-   "lon": 126.9784,
    "state": null,
-   "status": "RECRUITING"
+   "country": "South Korea",
+   "status": "RECRUITING",
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
-   "city": "Birmingham",
-   "country": "United States",
+   "facility": "Severance Hospital, Yonsei University Health System",
+   "city": "Seoul",
+   "state": null,
+   "country": "South Korea",
+   "status": "RECRUITING",
+   "lat": 37.566,
+   "lon": 126.9784
+  },
+  {
    "facility": "University of Alabama -The Kirklin Clinic",
+   "city": "Birmingham",
+   "state": "Alabama",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 33.52066,
-   "lon": -86.80249,
-   "state": "Alabama",
-   "status": "RECRUITING"
+   "lon": -86.80249
   },
   {
+   "facility": "AMR Clinical",
    "city": "Mobile",
-   "country": "United States",
-   "facility": "AMR Clinical",
-   "lat": 30.69436,
-   "lon": -88.04305,
    "state": "Alabama",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 30.69436,
+   "lon": -88.04305
   },
   {
-   "city": "Mesa",
-   "country": "United States",
    "facility": "Urologic Surgeons of Arizona",
-   "lat": 33.42227,
-   "lon": -111.82264,
+   "city": "Mesa",
    "state": "Arizona",
-   "status": "NOT_YET_RECRUITING"
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 33.42227,
+   "lon": -111.82264
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "Matrix Clinical Research",
+   "city": "Los Angeles",
+   "state": "California",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": "RECRUITING"
+   "lon": -118.24368
   },
   {
-   "city": "Montebello",
-   "country": "United States",
    "facility": "Alarcon Urology Center",
+   "city": "Montebello",
+   "state": "California",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 34.00946,
-   "lon": -118.10535,
-   "state": "California",
-   "status": "RECRUITING"
+   "lon": -118.10535
   },
   {
-   "city": "Tustin",
-   "country": "United States",
    "facility": "Prestige Medical Group",
-   "lat": 33.74585,
-   "lon": -117.82617,
+   "city": "Tustin",
    "state": "California",
-   "status": "COMPLETED"
+   "country": "United States",
+   "status": "COMPLETED",
+   "lat": 33.74585,
+   "lon": -117.82617
   },
   {
-   "city": "Lakewood",
-   "country": "United States",
    "facility": "Colorado Clinical Research",
-   "lat": 39.70471,
-   "lon": -105.08137,
+   "city": "Lakewood",
    "state": "Colorado",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 39.70471,
+   "lon": -105.08137
   },
   {
-   "city": "Fort Myers",
-   "country": "United States",
    "facility": "AMR Clinical",
+   "city": "Fort Myers",
+   "state": "Florida",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 26.62168,
-   "lon": -81.84059,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -81.84059
   },
   {
-   "city": "Lake Worth",
-   "country": "United States",
    "facility": "Altus Research",
+   "city": "Lake Worth",
+   "state": "Florida",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 26.61708,
-   "lon": -80.07231,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -80.07231
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "New Age Medical Research Corporation",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -80.19366
   },
   {
-   "city": "Panama City",
-   "country": "United States",
    "facility": "Emerald Coast OBGYN Clinical Research",
-   "lat": 30.15946,
-   "lon": -85.65983,
+   "city": "Panama City",
    "state": "Florida",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 30.15946,
+   "lon": -85.65983
   },
   {
-   "city": "Lawrenceville",
-   "country": "United States",
    "facility": "Teak Research Consults",
-   "lat": 33.95621,
-   "lon": -83.98796,
+   "city": "Lawrenceville",
    "state": "Georgia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 33.95621,
+   "lon": -83.98796
   },
   {
-   "city": "Troy",
-   "country": "United States",
    "facility": "Arcturus Healthcare , PLC, Troy Internal Medicine Research Division",
-   "lat": 42.60559,
-   "lon": -83.14993,
+   "city": "Troy",
    "state": "Michigan",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 42.60559,
+   "lon": -83.14993
   },
   {
-   "city": "Erie",
-   "country": "United States",
    "facility": "OB/GYN Associates of Erie",
+   "city": "Erie",
+   "state": "Pennsylvania",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 42.12922,
-   "lon": -80.08506,
-   "state": "Pennsylvania",
-   "status": "RECRUITING"
+   "lon": -80.08506
   },
   {
-   "city": "Philadelphia",
-   "country": "United States",
    "facility": "Clinical Research of Philadelphia",
-   "lat": 39.95238,
-   "lon": -75.16362,
+   "city": "Philadelphia",
    "state": "Pennsylvania",
-   "status": "COMPLETED"
+   "country": "United States",
+   "status": "COMPLETED",
+   "lat": 39.95238,
+   "lon": -75.16362
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "Innovative Medical Research of Texas",
-   "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": "RECRUITING"
-  },
-  {
    "city": "Houston",
-   "country": "United States",
-   "facility": "Next Level Urgent Care",
-   "lat": 29.76328,
-   "lon": -95.36327,
    "state": "Texas",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 29.76328,
+   "lon": -95.36327
   },
   {
-   "city": "Newport News",
+   "facility": "Next Level Urgent Care",
+   "city": "Houston",
+   "state": "Texas",
    "country": "United States",
+   "status": "RECRUITING",
+   "lat": 29.76328,
+   "lon": -95.36327
+  },
+  {
    "facility": "Health Research of Hampton Roads, Inc.",
+   "city": "Newport News",
+   "state": "Virginia",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 36.98038,
-   "lon": -76.42975,
-   "state": "Virginia",
-   "status": "RECRUITING"
+   "lon": -76.42975
   },
   {
-   "city": "Virginia Beach",
-   "country": "United States",
    "facility": "Urology of Virginia",
-   "lat": 36.85293,
-   "lon": -75.97799,
+   "city": "Virginia Beach",
    "state": "Virginia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 36.85293,
+   "lon": -75.97799
   },
   {
-   "city": "Bellevue",
-   "country": "United States",
    "facility": "Northwest Clinical Research Center",
-   "lat": 47.61038,
-   "lon": -122.20068,
+   "city": "Bellevue",
    "state": "Washington",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 47.61038,
+   "lon": -122.20068
   },
   {
-   "city": "Seattle",
-   "country": "United States",
    "facility": "Seattle Clinical Research Center",
-   "lat": 47.60621,
-   "lon": -122.33207,
+   "city": "Seattle",
    "state": "Washington",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 47.60621,
+   "lon": -122.33207
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07202884",

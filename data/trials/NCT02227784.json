@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2018-03-22",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,62 +51,62 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Evacetrapib",
    "other_names": [
     "LY2484595"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Ezetimibe",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Atorvastatin + Evacetrapib",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Evacetrapib",
     "Drug: Atorvastatin",
     "Drug: Placebo"
-   ],
-   "label": "Atorvastatin + Evacetrapib",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Atorvastatin 80 mg",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin",
     "Drug: Placebo"
-   ],
-   "label": "Atorvastatin 80 mg",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Atorvastatin + Ezetimibe",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin",
     "Drug: Ezetimibe",
     "Drug: Placebo"
-   ],
-   "label": "Atorvastatin + Ezetimibe",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Atorvastatin 40 mg",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin",
     "Drug: Placebo"
-   ],
-   "label": "Atorvastatin 40 mg",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "The purpose of the ACCENTUATE study is to evaluate whether the study drug known as evacetrapib is effective in treating participants with high cholesterol and atherosclerotic cardiovascular disease (ASCVD) and/or diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Must be treated with atorvastatin 40 mg/day for at least 30 days prior to screening\n* Have an LDL-C \\>70 mg/deciliter(dL) or non-HDL-C \\>100 mg/dL\n* Have screening triglycerides ≤400 mg/dL (≤4.5 millimoles/Liter)\n* Individuals with ASCVD and/or individuals with type 1 or type 2 diabetes\n\nExclusion Criteria:\n\n* Have a hemoglobin A1c (HbA1c) \\>9.5%\n* New York Heart Association (NYHA) class III or IV congestive heart failure\n* History of either a transient ischemic stroke or ischemic stroke \\<30 days\n* History of acute coronary syndrome (ACS) \\<30 days",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,580 +129,580 @@
  },
  "sites": [
   {
-   "city": "Ponce",
-   "country": "Puerto Rico",
    "facility": "Research and Cardiovascular Corp.",
+   "city": "Ponce",
+   "state": null,
+   "country": "Puerto Rico",
+   "status": null,
    "lat": 18.01031,
-   "lon": -66.62398,
-   "state": null,
-   "status": null
+   "lon": -66.62398
   },
   {
-   "city": "San Juan",
-   "country": "Puerto Rico",
    "facility": "Clinical Research Puerto Rico, Inc.",
-   "lat": 18.46633,
-   "lon": -66.10572,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "San Juan",
-   "country": "Puerto Rico",
-   "facility": "GCM Medical Group PSC",
-   "lat": 18.46633,
-   "lon": -66.10572,
    "state": null,
-   "status": null
+   "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.46633,
+   "lon": -66.10572
   },
   {
-   "city": "Huntsville",
-   "country": "United States",
+   "facility": "GCM Medical Group PSC",
+   "city": "San Juan",
+   "state": null,
+   "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.46633,
+   "lon": -66.10572
+  },
+  {
    "facility": "Heart Center Research, LLC",
-   "lat": 34.7304,
-   "lon": -86.58594,
+   "city": "Huntsville",
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.7304,
+   "lon": -86.58594
   },
   {
-   "city": "Mesa",
-   "country": "United States",
    "facility": "Desert Clinical Research",
+   "city": "Mesa",
+   "state": "Arizona",
+   "country": "United States",
+   "status": null,
    "lat": 33.42227,
-   "lon": -111.82264,
-   "state": "Arizona",
-   "status": null
+   "lon": -111.82264
   },
   {
-   "city": "Phoenix",
-   "country": "United States",
    "facility": "Central Phoenix Med Clinic LLC",
-   "lat": 33.44838,
-   "lon": -112.07404,
+   "city": "Phoenix",
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.44838,
+   "lon": -112.07404
   },
   {
-   "city": "Carmichael",
-   "country": "United States",
    "facility": "Advanced Clinical Research",
+   "city": "Carmichael",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 38.61713,
-   "lon": -121.32828,
-   "state": "California",
-   "status": null
+   "lon": -121.32828
   },
   {
-   "city": "Encino",
-   "country": "United States",
    "facility": "Tooraj Joseph Raoof M.D., Inc.",
+   "city": "Encino",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.15917,
-   "lon": -118.50119,
-   "state": "California",
-   "status": null
+   "lon": -118.50119
   },
   {
-   "city": "Irvine",
-   "country": "United States",
    "facility": "Irvine Clinical Research Center",
+   "city": "Irvine",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.66946,
-   "lon": -117.82311,
-   "state": "California",
-   "status": null
+   "lon": -117.82311
   },
   {
-   "city": "Long Beach",
-   "country": "United States",
    "facility": "VA Long Beach Healthcare System",
+   "city": "Long Beach",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.76696,
-   "lon": -118.18923,
-   "state": "California",
-   "status": null
+   "lon": -118.18923
   },
   {
-   "city": "Rancho Cucamonga",
-   "country": "United States",
    "facility": "Rancho Cucamonga Clinical",
+   "city": "Rancho Cucamonga",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.1064,
-   "lon": -117.59311,
-   "state": "California",
-   "status": null
+   "lon": -117.59311
   },
   {
-   "city": "Spring Valley",
-   "country": "United States",
    "facility": "Encompass Clinical Research",
+   "city": "Spring Valley",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 32.74477,
-   "lon": -116.99892,
-   "state": "California",
-   "status": null
+   "lon": -116.99892
   },
   {
-   "city": "Tustin",
-   "country": "United States",
    "facility": "University Clinical Investigators, Inc.",
+   "city": "Tustin",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.74585,
-   "lon": -117.82617,
-   "state": "California",
-   "status": null
+   "lon": -117.82617
   },
   {
-   "city": "Walnut Creek",
-   "country": "United States",
    "facility": "Diablo Clinical Research",
-   "lat": 37.90631,
-   "lon": -122.06496,
+   "city": "Walnut Creek",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.90631,
+   "lon": -122.06496
   },
   {
-   "city": "Aurora",
-   "country": "United States",
    "facility": "University of Colorado Health Sciences Center",
+   "city": "Aurora",
+   "state": "Colorado",
+   "country": "United States",
+   "status": null,
    "lat": 39.72943,
-   "lon": -104.83192,
-   "state": "Colorado",
-   "status": null
+   "lon": -104.83192
   },
   {
-   "city": "Colorado Springs",
-   "country": "United States",
    "facility": "Cardiac Research",
-   "lat": 38.83388,
-   "lon": -104.82136,
+   "city": "Colorado Springs",
    "state": "Colorado",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.83388,
+   "lon": -104.82136
   },
   {
-   "city": "Boynton Beach",
-   "country": "United States",
    "facility": "ZASA Clinical Research",
+   "city": "Boynton Beach",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.52535,
-   "lon": -80.06643,
-   "state": "Florida",
-   "status": null
+   "lon": -80.06643
   },
   {
-   "city": "Daytona Beach",
-   "country": "United States",
    "facility": "Cardiology Research Assoc.",
+   "city": "Daytona Beach",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.21081,
-   "lon": -81.02283,
-   "state": "Florida",
-   "status": null
+   "lon": -81.02283
   },
   {
-   "city": "DeLand",
-   "country": "United States",
    "facility": "Avail Clinical Research LLC",
+   "city": "DeLand",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.02832,
-   "lon": -81.30312,
-   "state": "Florida",
-   "status": null
+   "lon": -81.30312
   },
   {
-   "city": "Fort Lauderdale",
-   "country": "United States",
    "facility": "Alan Graff, MD, PA",
+   "city": "Fort Lauderdale",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.12231,
-   "lon": -80.14338,
-   "state": "Florida",
-   "status": null
+   "lon": -80.14338
   },
   {
-   "city": "Inverness",
-   "country": "United States",
    "facility": "Nature Coast Clinical Research, LLC",
+   "city": "Inverness",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 28.83582,
-   "lon": -82.33037,
-   "state": "Florida",
-   "status": null
+   "lon": -82.33037
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Suncoast Research Group, LLC",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
-   "city": "Port Orange",
-   "country": "United States",
    "facility": "Progressive Medical Research",
+   "city": "Port Orange",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.13832,
-   "lon": -80.99561,
-   "state": "Florida",
-   "status": null
+   "lon": -80.99561
   },
   {
-   "city": "Wellington",
-   "country": "United States",
    "facility": "Cardiology Partners Clinical Research Institute, LLC",
-   "lat": 26.65868,
-   "lon": -80.24144,
+   "city": "Wellington",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 26.65868,
+   "lon": -80.24144
   },
   {
-   "city": "Covington",
-   "country": "United States",
    "facility": "Georgia Heart Specialists",
+   "city": "Covington",
+   "state": "Georgia",
+   "country": "United States",
+   "status": null,
    "lat": 33.59678,
-   "lon": -83.86018,
-   "state": "Georgia",
-   "status": null
+   "lon": -83.86018
   },
   {
-   "city": "Gainesville",
-   "country": "United States",
    "facility": "United Osteoporosis Center",
-   "lat": 34.29788,
-   "lon": -83.82407,
+   "city": "Gainesville",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.29788,
+   "lon": -83.82407
   },
   {
-   "city": "Honolulu",
-   "country": "United States",
    "facility": "East West Medical Institute",
-   "lat": 21.30694,
-   "lon": -157.85833,
+   "city": "Honolulu",
    "state": "Hawaii",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
-   "city": "Meridian",
-   "country": "United States",
    "facility": "Solaris Clinical Research",
-   "lat": 43.61211,
-   "lon": -116.39151,
+   "city": "Meridian",
    "state": "Idaho",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.61211,
+   "lon": -116.39151
   },
   {
-   "city": "Arlington Heights",
-   "country": "United States",
    "facility": "Northwest Heart Clinical Research, LLC",
+   "city": "Arlington Heights",
+   "state": "Illinois",
+   "country": "United States",
+   "status": null,
    "lat": 42.08836,
-   "lon": -87.98063,
-   "state": "Illinois",
-   "status": null
+   "lon": -87.98063
   },
   {
-   "city": "Chicago",
-   "country": "United States",
    "facility": "Cedar-Crosse Research Center",
+   "city": "Chicago",
+   "state": "Illinois",
+   "country": "United States",
+   "status": null,
    "lat": 41.85003,
-   "lon": -87.65005,
-   "state": "Illinois",
-   "status": null
+   "lon": -87.65005
   },
   {
-   "city": "Crystal Lake",
-   "country": "United States",
    "facility": "Midwest CRC",
-   "lat": 42.24113,
-   "lon": -88.3162,
+   "city": "Crystal Lake",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.24113,
+   "lon": -88.3162
   },
   {
-   "city": "Indianapolis",
-   "country": "United States",
    "facility": "Indiana Heart Physicians Inc",
-   "lat": 39.76838,
-   "lon": -86.15804,
-   "state": "Indiana",
-   "status": null
-  },
-  {
    "city": "Indianapolis",
-   "country": "United States",
-   "facility": "Midwest Institute for Clinical Research",
-   "lat": 39.76838,
-   "lon": -86.15804,
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
-   "city": "Hutchinson",
+   "facility": "Midwest Institute for Clinical Research",
+   "city": "Indianapolis",
+   "state": "Indiana",
    "country": "United States",
+   "status": null,
+   "lat": 39.76838,
+   "lon": -86.15804
+  },
+  {
    "facility": "Hutchinson Clinic",
-   "lat": 38.06084,
-   "lon": -97.92977,
+   "city": "Hutchinson",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.06084,
+   "lon": -97.92977
   },
   {
-   "city": "Louisville",
-   "country": "United States",
    "facility": "Community Medical Associates",
-   "lat": 38.25424,
-   "lon": -85.75941,
+   "city": "Louisville",
    "state": "Kentucky",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.25424,
+   "lon": -85.75941
   },
   {
-   "city": "Bossier City",
-   "country": "United States",
    "facility": "Grace Research",
-   "lat": 32.51599,
-   "lon": -93.73212,
+   "city": "Bossier City",
    "state": "Louisiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.51599,
+   "lon": -93.73212
   },
   {
-   "city": "Baltimore",
-   "country": "United States",
    "facility": "Maryland Cardiovascular Specialists",
-   "lat": 39.29038,
-   "lon": -76.61219,
-   "state": "Maryland",
-   "status": null
-  },
-  {
    "city": "Baltimore",
-   "country": "United States",
-   "facility": "Overlea Personal Physicians",
-   "lat": 39.29038,
-   "lon": -76.61219,
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.29038,
+   "lon": -76.61219
   },
   {
-   "city": "Hyannis",
+   "facility": "Overlea Personal Physicians",
+   "city": "Baltimore",
+   "state": "Maryland",
    "country": "United States",
+   "status": null,
+   "lat": 39.29038,
+   "lon": -76.61219
+  },
+  {
    "facility": "Cape Cod Research Institute",
+   "city": "Hyannis",
+   "state": "Massachusetts",
+   "country": "United States",
+   "status": null,
    "lat": 41.65289,
-   "lon": -70.2828,
-   "state": "Massachusetts",
-   "status": null
+   "lon": -70.2828
   },
   {
-   "city": "Methuen",
-   "country": "United States",
    "facility": "ActivMed Practices & Research, Inc",
-   "lat": 42.7262,
-   "lon": -71.19089,
+   "city": "Methuen",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.7262,
+   "lon": -71.19089
   },
   {
+   "facility": "Medex Healthcare Research, Inc.",
    "city": "St Louis",
-   "country": "United States",
-   "facility": "Medex Healthcare Research, Inc.",
-   "lat": 38.62727,
-   "lon": -90.19789,
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
-   "city": "Las Vegas",
-   "country": "United States",
    "facility": "Palm Research Center",
-   "lat": 36.17497,
-   "lon": -115.13722,
+   "city": "Las Vegas",
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
-   "city": "Somerset",
-   "country": "United States",
    "facility": "Heart and Vascular Center of New Brunswick LLC",
-   "lat": 40.4976,
-   "lon": -74.48849,
+   "city": "Somerset",
    "state": "New Jersey",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.4976,
+   "lon": -74.48849
   },
   {
-   "city": "New York",
-   "country": "United States",
    "facility": "Medex Healthcare Research, Inc.",
+   "city": "New York",
+   "state": "New York",
+   "country": "United States",
+   "status": null,
    "lat": 40.71427,
-   "lon": -74.00597,
-   "state": "New York",
-   "status": null
+   "lon": -74.00597
   },
   {
-   "city": "Saratoga Springs",
-   "country": "United States",
    "facility": "Saratoga Clinical Research LLC",
+   "city": "Saratoga Springs",
+   "state": "New York",
+   "country": "United States",
+   "status": null,
    "lat": 43.08313,
-   "lon": -73.78457,
-   "state": "New York",
-   "status": null
+   "lon": -73.78457
   },
   {
-   "city": "Williamsville",
-   "country": "United States",
    "facility": "Buffalo Cardiology and Pulmonary Associates, P.C.",
-   "lat": 42.96395,
-   "lon": -78.73781,
+   "city": "Williamsville",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.96395,
+   "lon": -78.73781
   },
   {
-   "city": "Asheville",
-   "country": "United States",
    "facility": "Asheville Cardiology Associates",
+   "city": "Asheville",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 35.60095,
-   "lon": -82.55402,
-   "state": "North Carolina",
-   "status": null
+   "lon": -82.55402
   },
   {
-   "city": "Charlotte",
-   "country": "United States",
    "facility": "Metrolina Internal Medicine, P.A.",
+   "city": "Charlotte",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 35.22709,
-   "lon": -80.84313,
-   "state": "North Carolina",
-   "status": null
+   "lon": -80.84313
   },
   {
-   "city": "High Point",
-   "country": "United States",
    "facility": "High Point Clinical Trials Center",
+   "city": "High Point",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 35.95569,
-   "lon": -80.00532,
-   "state": "North Carolina",
-   "status": null
+   "lon": -80.00532
   },
   {
-   "city": "Rocky Mount",
-   "country": "United States",
    "facility": "Boice Willis Clinic, PA",
+   "city": "Rocky Mount",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 35.93821,
-   "lon": -77.79053,
-   "state": "North Carolina",
-   "status": null
+   "lon": -77.79053
   },
   {
-   "city": "Wilmington",
-   "country": "United States",
    "facility": "PMG Research of Wilmington, LLC",
-   "lat": 34.23556,
-   "lon": -77.94604,
+   "city": "Wilmington",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.23556,
+   "lon": -77.94604
   },
   {
-   "city": "Fargo",
-   "country": "United States",
    "facility": "Lillestol Research LLC",
-   "lat": 46.87719,
-   "lon": -96.7898,
+   "city": "Fargo",
    "state": "North Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.87719,
+   "lon": -96.7898
   },
   {
-   "city": "Columbus",
-   "country": "United States",
    "facility": "Aventiv Research",
-   "lat": 39.96118,
-   "lon": -82.99879,
+   "city": "Columbus",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.96118,
+   "lon": -82.99879
   },
   {
-   "city": "Oklahoma City",
-   "country": "United States",
    "facility": "South Oklahoma Heart Research, LLC",
-   "lat": 35.46756,
-   "lon": -97.51643,
+   "city": "Oklahoma City",
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.46756,
+   "lon": -97.51643
   },
   {
-   "city": "Portland",
-   "country": "United States",
    "facility": "Portland Preventive Cardiology, LLC",
-   "lat": 45.52345,
-   "lon": -122.67621,
+   "city": "Portland",
    "state": "Oregon",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 45.52345,
+   "lon": -122.67621
   },
   {
-   "city": "Cumberland",
-   "country": "United States",
    "facility": "Partners in Clinical Research",
-   "lat": 41.96677,
-   "lon": -71.43284,
+   "city": "Cumberland",
    "state": "Rhode Island",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.96677,
+   "lon": -71.43284
   },
   {
-   "city": "Mt. Pleasant",
-   "country": "United States",
    "facility": "PMG Research of Charleston, LLC",
-   "lat": 32.79407,
-   "lon": -79.86259,
+   "city": "Mt. Pleasant",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.79407,
+   "lon": -79.86259
   },
   {
-   "city": "Rapid City",
-   "country": "United States",
    "facility": "Black Hills Cardiovascular Research Group",
-   "lat": 44.08054,
-   "lon": -103.23101,
+   "city": "Rapid City",
    "state": "South Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.08054,
+   "lon": -103.23101
   },
   {
-   "city": "Kingsport",
-   "country": "United States",
    "facility": "Holston Medical Group Clinical Research",
-   "lat": 36.54843,
-   "lon": -82.56182,
+   "city": "Kingsport",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.54843,
+   "lon": -82.56182
   },
   {
-   "city": "Tomball",
-   "country": "United States",
    "facility": "Northwest Houston Heart Center",
-   "lat": 30.09716,
-   "lon": -95.61605,
+   "city": "Tomball",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.09716,
+   "lon": -95.61605
   },
   {
-   "city": "Richmond",
-   "country": "United States",
    "facility": "National Clinical Research - Richmond",
-   "lat": 37.55376,
-   "lon": -77.46026,
+   "city": "Richmond",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.55376,
+   "lon": -77.46026
   },
   {
-   "city": "Bellevue",
-   "country": "United States",
    "facility": "Northwest Clinical Research Center",
+   "city": "Bellevue",
+   "state": "Washington",
+   "country": "United States",
+   "status": null,
    "lat": 47.61038,
-   "lon": -122.20068,
-   "state": "Washington",
-   "status": null
+   "lon": -122.20068
   },
   {
-   "city": "Spokane",
-   "country": "United States",
    "facility": "Kootenai Heart Clinics, LLC",
-   "lat": 47.65966,
-   "lon": -117.42908,
+   "city": "Spokane",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.65966,
+   "lon": -117.42908
   },
   {
-   "city": "Kenosha",
-   "country": "United States",
    "facility": "Clinical Investigation Specialists Inc",
-   "lat": 42.58474,
-   "lon": -87.82119,
+   "city": "Kenosha",
    "state": "Wisconsin",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.58474,
+   "lon": -87.82119
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02227784",

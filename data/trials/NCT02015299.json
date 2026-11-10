@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "dr. DJ Mulder"
+  "name": "dr. DJ Mulder",
+  "class": "OTHER"
  },
  "collaborators": [
   "Boehringer Ingelheim"
@@ -55,33 +55,33 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Linagliptin",
    "other_names": [
     "Trajenta",
     "DPP-4 inhibitor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Linagliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Linagliptin"
-   ],
-   "label": "Linagliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Diabetes is associated with an increased risk for developing premature macrovascular complications. The process of irreversible subclinical damage to the vasculature already starts during its preceding stages. Dipeptidyl peptidase (DPP)-4 inhibitors have been shown to attenuate vascular damage in preclinical studies. Off-target effects on adipose tissue inflammation, liver steatosis and atherosclerotic plaques have been extensively documented in animal studies.\n\nBased on these considerations the investigators hypothesize that early therapy with the DPP4 inhibitor linagliptin in subjects with treatment naive type 2 diabetes will lead to beneficial effects on arterial stiffness as measured by pulse wave velocity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women, age 30 to 70 years, AND\n* Treatment naïve type 2 diabetes, as defined as t\n* Fasting plasma glucose ≥ 7.0 mmol/l, OR\n* Random plasma glucose ≥ 11.1 mmol/l, OR\n* HbA1c ≥6,5%\n* Written informed consent\n* Assessable Pulse Wave Velocity measurement at screening\n\nExclusion Criteria:\n\n* Current or previous use of glycemic control medications\n* Type 1 diabetes\n* Gestational diabetes mellitus\n* Other specific types of diabetes due to other causes, e.g., genetic defects in β-cell function, genetic defects in insulin action, diseases of the exocrine pancreas (such as cystic fibrosis), and drug- or chemical-induced (such as in the treatment of HIV/AIDS or after organ transplantation)\n* Uncontrolled hypertension, defined as systolic blood pressure \\>160 or a diastolic blood pressure \\>100 mmHg at screening visit\n* Severe dyslipidemia indicating primary dyslipidemia, defined as total cholesterol \\>8 mmol/l, triglycerides \\>10 mmol/l of high density lipoprotein cholesterol \\<0.6 mmol/l\n* Current use of weight loss medication or previous weight loss surgery\n* History of severe gastrointestinal disease\n* Clinical contraindications to DPP4-inhibitors\n* Previous cardiovascular disease, defined as stable coronary artery disease or acute coronary syndrome, stroke or transient ischemic attack, peripheral artery disease\n* Symptomatic heart failure, New York Heart Association (NYHA) class II-IV\n* Women who are currently pregnant,planning to become pregnant,breastfeeding women, or women with child bearing potential not using appropriate contraceptive measures\n* Clinically significant liver disease or hepatic function greater than 3 times upper limit of normal\n* Known impaired renal function or eGFR \\<30 ml/min/1.73m2\n* Patients who are mentally incompetent and cannot sign a Patient Informed Consent\n* Current active malignancy or in the previous 6 months\n* Documented HIV infection\n* Use of rifampicin",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "city": "Groningen",
-   "country": "Netherlands",
    "facility": "University Medical Center Groningen",
-   "lat": 53.21917,
-   "lon": 6.56667,
+   "city": "Groningen",
    "state": "Provincie Groningen",
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 53.21917,
+   "lon": 6.56667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02015299",

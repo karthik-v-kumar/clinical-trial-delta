@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "PREVENTION",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Kaiser Permanente"
+  "name": "Kaiser Permanente",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "SAGE Group Sessions",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Usual Care",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Group Education Sessions",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: SAGE Group Sessions"
-   ],
-   "label": "Group Education Sessions",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Usual Care",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Usual Care"
-   ],
-   "label": "Usual Care",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -88,68 +88,68 @@
  "brief_summary": "Older adults with type 2 diabetes are at higher risk for severe hypoglycemia and its related complications (including hospitalization and death) when taking insulin. This study proposes to evaluate, in a randomized clinical trial, a strategy of safe insulin prescribing based on an educational program that leverages continuous glucose monitoring to support older adults at high risk for hypoglycemia. If the aims of this project are achieved, this novel care strategy could be widely applied to reduce severe hypoglycemia episodes in older, high-risk adults with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 75 years and older\n* Diagnosis of Type 2 Diabetes\n* Current treatment with insulin\n* Increased hypoglycemia risk (prior year hypoglycemia by self-report or utilization)\n* Able to communicate in English\n* Able to access email and the Internet\n\nExclusion Criteria:\n\n* On renal dialysis\n* Dementia\n* Pacemaker or Automatic Implantable Cardioverter Defibrillator\n* Using insulin pump\n* Severe Mental Illness\n* Severe Visual Impairment\n* In Hospice\n* Current or recent CGM use",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "75 Years",
   "sex": "ALL",
+  "minimum_age": "75 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "OLDER_ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Fremont",
-   "country": "United States",
    "facility": "Kaiser Permanente Fremont",
+   "city": "Fremont",
+   "state": "California",
+   "country": "United States",
+   "status": "COMPLETED",
    "lat": 37.54827,
-   "lon": -121.98857,
-   "state": "California",
-   "status": "COMPLETED"
+   "lon": -121.98857
   },
   {
-   "city": "Sacramento",
-   "country": "United States",
    "facility": "Kaiser Permanente Sacramento",
+   "city": "Sacramento",
+   "state": "California",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 38.58157,
-   "lon": -121.4944,
-   "state": "California",
-   "status": "RECRUITING"
+   "lon": -121.4944
   },
   {
-   "city": "San Jose",
-   "country": "United States",
    "facility": "Kaiser Permanente San Jose",
+   "city": "San Jose",
+   "state": "California",
+   "country": "United States",
+   "status": "COMPLETED",
    "lat": 37.33939,
-   "lon": -121.89496,
-   "state": "California",
-   "status": "COMPLETED"
+   "lon": -121.89496
   },
   {
-   "city": "San Leandro",
-   "country": "United States",
    "facility": "Kaiser Permanente San Leandro",
+   "city": "San Leandro",
+   "state": "California",
+   "country": "United States",
+   "status": "COMPLETED",
    "lat": 37.72493,
-   "lon": -122.15608,
-   "state": "California",
-   "status": "COMPLETED"
+   "lon": -122.15608
   },
   {
-   "city": "Santa Clara",
-   "country": "United States",
    "facility": "Kaiser Permanente Santa Clara",
-   "lat": 37.35411,
-   "lon": -121.95524,
+   "city": "Santa Clara",
    "state": "California",
-   "status": "COMPLETED"
+   "country": "United States",
+   "status": "COMPLETED",
+   "lat": 37.35411,
+   "lon": -121.95524
   },
   {
-   "city": "Union City",
-   "country": "United States",
    "facility": "Kaiser Permanente - Union City",
-   "lat": 37.59577,
-   "lon": -122.01913,
+   "city": "Union City",
    "state": "California",
-   "status": "COMPLETED"
+   "country": "United States",
+   "status": "COMPLETED",
+   "lat": 37.59577,
+   "lon": -122.01913
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06296485",

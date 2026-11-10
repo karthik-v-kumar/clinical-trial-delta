@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Actimed Therapeutics Ltd"
+  "name": "Actimed Therapeutics Ltd",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "SCIRENT Clinical Research and Science d.o.o."
@@ -56,50 +56,50 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "(S)-pindolol benzoate",
    "other_names": [
     "ACM-001.1"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo to (S)-pindolol benzoate",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: (S)-pindolol benzoate",
-    "Drug: Semaglutide",
-    "Drug: Placebo to (S)-pindolol benzoate"
-   ],
    "label": "Arm 1 semaglutide, low dose ACM-001.1 or sham injection/placebo during semaglutide therapy PROACT 1",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: (S)-pindolol benzoate",
     "Drug: Semaglutide",
     "Drug: Placebo to (S)-pindolol benzoate"
-   ],
+   ]
+  },
+  {
    "label": "Arm 2 semaglutide, high dose ACM-001.1 or sham injection/placebo during semaglutide therapy PROACT 1",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: (S)-pindolol benzoate",
     "Drug: Semaglutide",
     "Drug: Placebo to (S)-pindolol benzoate"
-   ],
+   ]
+  },
+  {
    "label": "Arm 3 ACM-001.1 low dose, high dose or placebo following semaglutide therapy PROACT 2",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: (S)-pindolol benzoate",
+    "Drug: Semaglutide",
+    "Drug: Placebo to (S)-pindolol benzoate"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -115,10 +115,10 @@
  "brief_summary": "Semaglutide is approved for weight management (weight loss and weight maintenance) in adult obese patients. Drug treatments like semaglutide that result in weight-loss can also decrease muscle mass. The purpose of this study is to investigate the effect of ACM-001.1 (the study drug) on how much muscle is lost when a person takes it with semaglutide (PROACT 1) and how much muscle mass is gained when a person continues taking ACM-001.1 but stops taking semaglutide (PROACT 2).",
  "eligibility": {
   "criteria": "Key Inclusion Criteria:\n\nEligible for treatment with semaglutide.\n\nHave a BMI of ≥30.0 kg/m².\n\nKey Exclusion Criteria:\n\nType 2 diabetes mellitus who in the preceding 90 days have either:\n\n* received a GLP-1RA (including semaglutide),\n* had a hypoglycaemic event,\n* lost \\>5 kg weight,\n* had a HBA1C over 10.0%.\n\nAny cardiovascular event within previous 6 months, uncontrolled hypertension, known congestive heart failure, or angina during the past year\n\nKnown severe chronic obstructive pulmonary disease (COPD)\n\nConcomitant use of beta blockers and patients with contra indications to beta blockers",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -126,67 +126,67 @@
  },
  "sites": [
   {
-   "city": "Belgrade",
-   "country": "Serbia",
    "facility": "Clinical Hospital Center 'Dr Dragisa Misovic - Dedinje'",
-   "lat": 44.80401,
-   "lon": 20.46513,
+   "city": "Belgrade",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Serbia",
+   "status": "RECRUITING",
+   "lat": 44.80401,
+   "lon": 20.46513
   },
   {
-   "city": "Belgrade",
-   "country": "Serbia",
    "facility": "Clinical Hospital Center Bezanijska kosa",
-   "lat": 44.80401,
-   "lon": 20.46513,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Belgrade",
+   "state": null,
    "country": "Serbia",
-   "facility": "University Clinical Center of Serbia",
+   "status": "RECRUITING",
    "lat": 44.80401,
-   "lon": 20.46513,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 20.46513
   },
   {
-   "city": "Kragujevac",
+   "facility": "University Clinical Center of Serbia",
+   "city": "Belgrade",
+   "state": null,
    "country": "Serbia",
+   "status": "RECRUITING",
+   "lat": 44.80401,
+   "lon": 20.46513
+  },
+  {
    "facility": "University Clinical Center Kragujevac",
+   "city": "Kragujevac",
+   "state": null,
+   "country": "Serbia",
+   "status": "RECRUITING",
    "lat": 44.01667,
-   "lon": 20.91667,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 20.91667
   },
   {
-   "city": "Niš",
-   "country": "Serbia",
    "facility": "Klinika Za Endocrinologiju, Dijabetes I Bolesti Metabolizma",
+   "city": "Niš",
+   "state": null,
+   "country": "Serbia",
+   "status": "RECRUITING",
    "lat": 43.32472,
-   "lon": 21.90333,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 21.90333
   },
   {
-   "city": "Novi Sad",
-   "country": "Serbia",
    "facility": "University Clinical Center of Vojvodina",
-   "lat": 45.25167,
-   "lon": 19.83694,
+   "city": "Novi Sad",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Serbia",
+   "status": "RECRUITING",
+   "lat": 45.25167,
+   "lon": 19.83694
   },
   {
-   "city": "Pančevo",
-   "country": "Serbia",
    "facility": "Opsta bolnica Pancevo",
-   "lat": 44.87177,
-   "lon": 20.64167,
+   "city": "Pančevo",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Serbia",
+   "status": "RECRUITING",
+   "lat": 44.87177,
+   "lon": 20.64167
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07101939",

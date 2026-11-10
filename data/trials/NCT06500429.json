@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "PREVENTION",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Neurogastrx, Inc."
+  "name": "Neurogastrx, Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,39 +52,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "NG101",
    "other_names": [
     "metopimazine mesylate"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Semaglutide Injectable Product",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "NG101 20 mg BID",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: NG101",
     "Drug: Semaglutide Injectable Product"
-   ],
-   "label": "NG101 20 mg BID",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Semaglutide Injectable Product"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -100,23 +100,23 @@
  "brief_summary": "Adult participants with BMI between 22 - 35 kg/m2 will be enrolled and randomized to receive either NG101 (20 mg twice daily \\[BID\\]) or placebo for 5 days beginning on Day 1. On Day 2, all participants will receive a single subcutaneous injection of a Glucagon-like Peptide-1 (GLP-1) agonist (semaglutide). Participants will remain at the clinical research unit for the duration of the treatment period.\n\nThe goal of this clinical trial is to evaluate the safety and efficacy of NG101 compared to placebo, when also administered along with a GLP-1 agonist, in the management of gastrointestinal side effects commonly associated with GLP-1 agonists for overweight or obesity. Adverse event information will be collected. Gastrointestinal (GI)-specific questionnaires will be used to capture additional details if GI-related adverse events are reported.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy adult\n* Male or female\n* BMI between 22 - 35 kg/m2 at screening\n\nExclusion Criteria:\n\n* Presence or history of illness that might confound the results of the study or pose an -\n* History of presence of gastroparesis, gallbladder disease, acute or chronic pancreatitis, or surgery of the abdomen\n* History or presence of Type 1 or Type 2 diabetes",
-  "healthy_volunteers": true,
-  "maximum_age": "55 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "55 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Tempe",
-   "country": "United States",
    "facility": "Celerion",
-   "lat": 33.41477,
-   "lon": -111.90931,
+   "city": "Tempe",
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.41477,
+   "lon": -111.90931
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06500429",
@@ -143,7 +143,7 @@
   ],
   "exclusion": [
    {
-    "text": "Presence or history of illness that might confound the results of the study or pose an -"
+    "text": "Presence or history of illness that might confound the results of the study or pose an"
    },
    {
     "text": "History of presence of gastroparesis, gallbladder disease, acute or chronic pancreatitis, or surgery of the abdomen"

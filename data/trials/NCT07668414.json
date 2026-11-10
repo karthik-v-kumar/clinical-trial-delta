@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,50 +54,50 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Zenagamtide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo (matched to semaglutide)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo (matched to zenagamtide)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Zenagamtide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Zenagamtide",
     "Drug: Placebo (matched to semaglutide)"
-   ],
-   "label": "Zenagamtide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Semaglutide",
-    "Drug: Placebo (matched to zenagamtide)"
-   ],
    "label": "Semaglutide dose 1",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide",
     "Drug: Placebo (matched to zenagamtide)"
-   ],
+   ]
+  },
+  {
    "label": "Semaglutide dose 2",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Semaglutide",
+    "Drug: Placebo (matched to zenagamtide)"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "The purpose of this study is to find out if zenagamtide is safe and effective for treating participants who have excess body weight compared to treatment with semaglutide.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female (sex at birth).\n* Age 18 years or above at the time of signing the informed consent.\n\nExclusion Criteria:\n\n* Glycated haemoglobin (HbA1c) ≥ 6.5% (48 millimoles per mole \\[mmol/mol\\]) as measured by the central laboratory at screening.\n* History of type 1 or type 2 diabetes mellitus as declared by the participant or reported in the medical records.\n* Treatment with glucagon-like-peptide-1 (GLP-1) receptor agonists (RA), dual GLP-1/gastric inhibitory peptide (GIP) RAs (or any other GLP-1 based treatment) or amylin analogues within 1 year before screening.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,409 +120,409 @@
  },
  "sites": [
   {
-   "city": "Lancaster",
-   "country": "United States",
    "facility": "First Valley Medical Group",
+   "city": "Lancaster",
+   "state": "California",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 34.69804,
-   "lon": -118.13674,
-   "state": "California",
-   "status": "RECRUITING"
+   "lon": -118.13674
   },
   {
-   "city": "Palm Springs",
-   "country": "United States",
    "facility": "Desert Oasis Healthcare",
+   "city": "Palm Springs",
+   "state": "California",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 33.8303,
-   "lon": -116.54529,
-   "state": "California",
-   "status": "RECRUITING"
+   "lon": -116.54529
   },
   {
-   "city": "Pomona",
-   "country": "United States",
    "facility": "Western University of Health Sciences",
+   "city": "Pomona",
+   "state": "California",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 34.05529,
-   "lon": -117.75228,
-   "state": "California",
-   "status": "RECRUITING"
+   "lon": -117.75228
   },
   {
-   "city": "San Diego",
-   "country": "United States",
    "facility": "Artemis Insitute for Clin Res",
-   "lat": 32.71571,
-   "lon": -117.16472,
+   "city": "San Diego",
    "state": "California",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 32.71571,
+   "lon": -117.16472
   },
   {
-   "city": "Washington D.C.",
-   "country": "United States",
    "facility": "Med Home Development Grp",
-   "lat": 38.89511,
-   "lon": -77.03637,
+   "city": "Washington D.C.",
    "state": "District of Columbia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 38.89511,
+   "lon": -77.03637
   },
   {
-   "city": "Hollywood",
-   "country": "United States",
    "facility": "Encore Medical Research LLC",
-   "lat": 26.0112,
-   "lon": -80.14949,
-   "state": "Florida",
-   "status": "RECRUITING"
-  },
-  {
    "city": "Hollywood",
+   "state": "Florida",
    "country": "United States",
-   "facility": "NextPhase Research",
+   "status": "RECRUITING",
    "lat": 26.0112,
-   "lon": -80.14949,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -80.14949
   },
   {
-   "city": "Jacksonville",
+   "facility": "NextPhase Research",
+   "city": "Hollywood",
+   "state": "Florida",
    "country": "United States",
+   "status": "RECRUITING",
+   "lat": 26.0112,
+   "lon": -80.14949
+  },
+  {
    "facility": "Jacksonville Ctr Clin Res",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
    "lat": 30.33218,
-   "lon": -81.65565,
-   "state": "Florida",
-   "status": "NOT_YET_RECRUITING"
+   "lon": -81.65565
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "PharmaDev Clinical Research Institute LLC",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -80.19366
   },
   {
-   "city": "Miramar",
-   "country": "United States",
    "facility": "South Broward Research LLC",
+   "city": "Miramar",
+   "state": "Florida",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 25.98731,
-   "lon": -80.23227,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -80.23227
   },
   {
-   "city": "Naples",
-   "country": "United States",
    "facility": "Essence MD Research",
+   "city": "Naples",
+   "state": "Florida",
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
    "lat": 26.14234,
-   "lon": -81.79596,
-   "state": "Florida",
-   "status": "NOT_YET_RECRUITING"
+   "lon": -81.79596
   },
   {
-   "city": "Orlando",
-   "country": "United States",
    "facility": "Florida Inst For Clin Res LLC",
+   "city": "Orlando",
+   "state": "Florida",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 28.53834,
-   "lon": -81.37924,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -81.37924
   },
   {
-   "city": "Oviedo",
-   "country": "United States",
    "facility": "Oviedo Medical Research, LLC",
+   "city": "Oviedo",
+   "state": "Florida",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 28.67,
-   "lon": -81.20812,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -81.20812
   },
   {
-   "city": "West Palm Beach",
-   "country": "United States",
    "facility": "Palm Beach Research Center",
+   "city": "West Palm Beach",
+   "state": "Florida",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 26.71534,
-   "lon": -80.05337,
-   "state": "Florida",
-   "status": "RECRUITING"
+   "lon": -80.05337
   },
   {
-   "city": "Weston",
-   "country": "United States",
    "facility": "Encore Medical Research of Weston",
-   "lat": 26.10037,
-   "lon": -80.39977,
+   "city": "Weston",
    "state": "Florida",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 26.10037,
+   "lon": -80.39977
   },
   {
-   "city": "Atlanta",
-   "country": "United States",
    "facility": "Conquest Research",
+   "city": "Atlanta",
+   "state": "Georgia",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 33.749,
-   "lon": -84.38798,
-   "state": "Georgia",
-   "status": "RECRUITING"
+   "lon": -84.38798
   },
   {
-   "city": "Snellville",
-   "country": "United States",
    "facility": "Eastside Bariatric and Gen Surg",
-   "lat": 33.85733,
-   "lon": -84.01991,
+   "city": "Snellville",
    "state": "Georgia",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 33.85733,
+   "lon": -84.01991
   },
   {
-   "city": "Chicago",
-   "country": "United States",
    "facility": "Chicago Research Center, Inc",
+   "city": "Chicago",
+   "state": "Illinois",
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
    "lat": 41.85003,
-   "lon": -87.65005,
-   "state": "Illinois",
-   "status": "NOT_YET_RECRUITING"
+   "lon": -87.65005
   },
   {
-   "city": "Skokie",
-   "country": "United States",
    "facility": "Endeavor Health",
-   "lat": 42.03336,
-   "lon": -87.73339,
+   "city": "Skokie",
    "state": "Illinois",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 42.03336,
+   "lon": -87.73339
   },
   {
-   "city": "Indianapolis",
-   "country": "United States",
    "facility": "Midwest Inst For Clin Res",
-   "lat": 39.76838,
-   "lon": -86.15804,
+   "city": "Indianapolis",
    "state": "Indiana",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
-   "city": "Zachary",
-   "country": "United States",
    "facility": "Southern Clin Research",
-   "lat": 30.64852,
-   "lon": -91.1565,
+   "city": "Zachary",
    "state": "Louisiana",
-   "status": "NOT_YET_RECRUITING"
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 30.64852,
+   "lon": -91.1565
   },
   {
-   "city": "St Louis",
-   "country": "United States",
    "facility": "Amicis Centers of Clinical Research",
-   "lat": 38.62727,
-   "lon": -90.19789,
+   "city": "St Louis",
    "state": "Missouri",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
-   "city": "Syracuse",
-   "country": "United States",
    "facility": "Ichor Research",
+   "city": "Syracuse",
+   "state": "New York",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 43.04812,
-   "lon": -76.14742,
-   "state": "New York",
-   "status": "RECRUITING"
+   "lon": -76.14742
   },
   {
-   "city": "West Seneca",
-   "country": "United States",
    "facility": "Southgate Medical Group, LLP",
-   "lat": 42.85006,
-   "lon": -78.79975,
+   "city": "West Seneca",
    "state": "New York",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 42.85006,
+   "lon": -78.79975
   },
   {
-   "city": "Greensboro",
-   "country": "United States",
    "facility": "PharmQuest Life Sciences LLC",
+   "city": "Greensboro",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
    "lat": 36.07264,
-   "lon": -79.79198,
-   "state": "North Carolina",
-   "status": "NOT_YET_RECRUITING"
+   "lon": -79.79198
   },
   {
-   "city": "Statesville",
-   "country": "United States",
    "facility": "Piedmont Healthcare/Research",
-   "lat": 35.78264,
-   "lon": -80.8873,
+   "city": "Statesville",
    "state": "North Carolina",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 35.78264,
+   "lon": -80.8873
   },
   {
-   "city": "Fargo",
-   "country": "United States",
    "facility": "Lillestol Research LLC",
-   "lat": 46.87719,
-   "lon": -96.7898,
+   "city": "Fargo",
    "state": "North Dakota",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 46.87719,
+   "lon": -96.7898
   },
   {
-   "city": "Danville",
-   "country": "United States",
    "facility": "Geisinger Clinic",
-   "lat": 40.96342,
-   "lon": -76.61273,
+   "city": "Danville",
    "state": "Pennsylvania",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 40.96342,
+   "lon": -76.61273
   },
   {
-   "city": "Charleston",
-   "country": "United States",
    "facility": "Medical University Of South Carolina",
+   "city": "Charleston",
+   "state": "South Carolina",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 32.77632,
-   "lon": -79.93275,
-   "state": "South Carolina",
-   "status": "RECRUITING"
+   "lon": -79.93275
   },
   {
-   "city": "Simpsonville",
-   "country": "United States",
    "facility": "Hillcrest Clinical Research",
+   "city": "Simpsonville",
+   "state": "South Carolina",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 34.73706,
-   "lon": -82.25428,
-   "state": "South Carolina",
-   "status": "RECRUITING"
+   "lon": -82.25428
   },
   {
-   "city": "Spartanburg",
-   "country": "United States",
    "facility": "Spartanburg Medical Research",
-   "lat": 34.94957,
-   "lon": -81.93205,
+   "city": "Spartanburg",
    "state": "South Carolina",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 34.94957,
+   "lon": -81.93205
   },
   {
-   "city": "Amarillo",
-   "country": "United States",
    "facility": "Amarillo Med Spec LLP",
+   "city": "Amarillo",
+   "state": "Texas",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 35.222,
-   "lon": -101.8313,
-   "state": "Texas",
-   "status": "RECRUITING"
+   "lon": -101.8313
   },
   {
-   "city": "Austin",
-   "country": "United States",
    "facility": "Texas Diabetes & Endocrinology",
+   "city": "Austin",
+   "state": "Texas",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 30.26715,
-   "lon": -97.74306,
-   "state": "Texas",
-   "status": "RECRUITING"
+   "lon": -97.74306
   },
   {
-   "city": "Brownsville",
-   "country": "United States",
    "facility": "Pinnacle Clinical Research",
+   "city": "Brownsville",
+   "state": "Texas",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 25.90175,
-   "lon": -97.49748,
-   "state": "Texas",
-   "status": "RECRUITING"
+   "lon": -97.49748
   },
   {
-   "city": "Corpus Christi",
-   "country": "United States",
    "facility": "Osvaldo A. Brusco MD",
+   "city": "Corpus Christi",
+   "state": "Texas",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 27.80058,
-   "lon": -97.39638,
-   "state": "Texas",
-   "status": "RECRUITING"
+   "lon": -97.39638
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "UT Southwestern Med Center",
+   "city": "Dallas",
+   "state": "Texas",
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": "NOT_YET_RECRUITING"
+   "lon": -96.80667
   },
   {
-   "city": "DeSoto",
-   "country": "United States",
    "facility": "Epic Medical Research",
+   "city": "DeSoto",
+   "state": "Texas",
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
    "lat": 32.58986,
-   "lon": -96.85695,
-   "state": "Texas",
-   "status": "NOT_YET_RECRUITING"
+   "lon": -96.85695
   },
   {
-   "city": "Houston",
-   "country": "United States",
    "facility": "Houston Research Institute",
-   "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": "NOT_YET_RECRUITING"
-  },
-  {
    "city": "Houston",
+   "state": "Texas",
    "country": "United States",
-   "facility": "The Endocrine Center",
+   "status": "NOT_YET_RECRUITING",
    "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": "NOT_YET_RECRUITING"
+   "lon": -95.36327
   },
   {
-   "city": "San Antonio",
+   "facility": "The Endocrine Center",
+   "city": "Houston",
+   "state": "Texas",
    "country": "United States",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 29.76328,
+   "lon": -95.36327
+  },
+  {
    "facility": "Sleep Therapy Research Center",
+   "city": "San Antonio",
+   "state": "Texas",
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
    "lat": 29.42412,
-   "lon": -98.49363,
-   "state": "Texas",
-   "status": "NOT_YET_RECRUITING"
+   "lon": -98.49363
   },
   {
-   "city": "Sugar Land",
-   "country": "United States",
    "facility": "Olympus Clinical Research",
-   "lat": 29.61968,
-   "lon": -95.63495,
+   "city": "Sugar Land",
    "state": "Texas",
-   "status": "NOT_YET_RECRUITING"
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 29.61968,
+   "lon": -95.63495
   },
   {
-   "city": "Richmond",
-   "country": "United States",
    "facility": "National Clin Res Inc.",
+   "city": "Richmond",
+   "state": "Virginia",
+   "country": "United States",
+   "status": "RECRUITING",
    "lat": 37.55376,
-   "lon": -77.46026,
-   "state": "Virginia",
-   "status": "RECRUITING"
+   "lon": -77.46026
   },
   {
-   "city": "Roanoke",
-   "country": "United States",
    "facility": "Gastroent Consult of SW VA",
-   "lat": 37.27097,
-   "lon": -79.94143,
+   "city": "Roanoke",
    "state": "Virginia",
-   "status": "NOT_YET_RECRUITING"
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 37.27097,
+   "lon": -79.94143
   },
   {
-   "city": "Renton",
-   "country": "United States",
    "facility": "Rainier Clin Res Ctr Inc",
-   "lat": 47.48288,
-   "lon": -122.21707,
+   "city": "Renton",
    "state": "Washington",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 47.48288,
+   "lon": -122.21707
   },
   {
-   "city": "Seattle",
-   "country": "United States",
    "facility": "Seattle Clinical Research Center",
-   "lat": 47.60621,
-   "lon": -122.33207,
+   "city": "Seattle",
    "state": "Washington",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 47.60621,
+   "lon": -122.33207
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07668414",

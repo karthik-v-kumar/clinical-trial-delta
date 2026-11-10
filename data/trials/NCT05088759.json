@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Brigham and Women's Hospital"
+  "name": "Brigham and Women's Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -49,23 +49,23 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "Alert",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Alert",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Alert"
-   ],
-   "label": "Alert",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "No Alert",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -77,10 +77,10 @@
  "brief_summary": "A 400-patient U.S.-based single-center Quality Improvement Initiative in the form of a randomized controlled trial focused on the feasibility of implementation of this electronic alert-based CDS (EPIC BPA) based on LDL-C values. The 400 patients will be comprised of 200 in the \"Hospitalized Patient Cohort\" and 200 in the \"Outpatient Clinic Cohort.\" The allocation ratio will be 1:1 for an electronic alert-based CDS (EPIC BPA) notification versus no notification.",
  "eligibility": {
   "criteria": "Inclusion:\n\n* patients ≥ 18 years old AND\n* admitted to the BWH Cardiovascular Medicine Service with a diagnosis (primary or secondary), medical history entry, or problem list entry of ASCVD (acute coronary syndromes, a history of MI, stable or unstable angina, coronary or other arterial revascularization, stroke, transient ischemic attack, or peripheral arterial disease) AND\n* most recent (within 1 year) or current LDL-C value greater than 80 mg/dL AND\n* on a statin but not on ezetimibe and/or PCSK9 inhibitor will be potentially eligible for randomization\n\nExclusion:\n\n-already receiving PCSK9 inhibitor therapy",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -88,13 +88,13 @@
  },
  "sites": [
   {
-   "city": "Boston",
-   "country": "United States",
    "facility": "Brigham and Women's Hospital",
-   "lat": 42.35843,
-   "lon": -71.05977,
+   "city": "Boston",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.35843,
+   "lon": -71.05977
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05088759",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Sao Paulo General Hospital"
+  "name": "University of Sao Paulo General Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,25 +51,25 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Empagliflozin 25 MG",
    "other_names": [
     "Jardiance 25 mg"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "SGLT2i (empagliflozin)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Empagliflozin 25 MG"
-   ],
-   "label": "SGLT2i (empagliflozin)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Standard of care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -81,10 +81,10 @@
  "brief_summary": "Introduction: Diabetes Mellitus (DM) is a condition known to be associated with coronary artery disease (CAD) and its role as promoter of atherosclerosis is well stablished. The revascularization surgery is commonly indicated to patients with multivessel coronary disease and kidney injury is a prevalent complication in post operation. This work aims to evaluate the impact of a strategy to control Diabetes Mellitus using inhibitors of sodium-glucose cotransporters (ISGLT2) in diabetics patients with assigned myocardial revascularization with cardiopulmonary bypass",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age \\> 18\n* Type 2 diabetes mellitus\n* Multivessel CAD documented by coronary angiography with formal indication for CRM.\n\nExclusion Criteria:\n\n* eGFR \\<30mL / min / 1.73m2 or dialysis therapy;\n* Inability to sign the informed consent form;\n* Contraindication to CABG on pump;\n* Need for urgent or emergency CABG;\n* Terminal or disabling illness with reduced life expectancy;\n* Pregnancy in progress.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -92,13 +92,13 @@
  },
  "sites": [
   {
-   "city": "São Paulo",
-   "country": "Brazil",
    "facility": "University of Sao Paulo Medical School - The Heart Institute",
-   "lat": -23.5475,
-   "lon": -46.63611,
+   "city": "São Paulo",
    "state": "São Paulo",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -23.5475,
+   "lon": -46.63611
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04523064",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Kun-Ho Yoon"
+  "name": "Kun-Ho Yoon",
+  "class": "OTHER"
  },
  "collaborators": [
   "Takeda"
@@ -50,48 +50,48 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "alogliptin+pioglitazone",
    "other_names": [
     "nesina, actos"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "alogliptin",
    "other_names": [
     "nesina"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "pioglitazone",
    "other_names": [
     "actos"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "alogliptin+pioglitazone",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: alogliptin+pioglitazone"
-   ],
-   "label": "alogliptin+pioglitazone",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "alogliptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: alogliptin"
-   ],
-   "label": "alogliptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "pioglitazone",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: pioglitazone"
-   ],
-   "label": "pioglitazone",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "Double blind, three arm, comparative intervention trial for 24 weeks(PEAK study) with open label extension trial for 28 weeks followed by 2 year observational study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Completed \"ALO-IIT-012(PEAK study)\", without major protocol deviations.\n* Male, or female, 19 years to 75 years.\n* Female with childbearing potential who has a negative urine pregnancy test result at study start and willing to continue practice appropriate birth control during the entire duration of study\n* Subjects completed PEAK can be included within 30 days after End Of the Study\n* Subjects completed PEAK can be included if their treatment is the same as randomized even after 30 days of End Of the Study.\n\nExclusion Criteria:\n\n* eGFR(Epidermal growth factor receptor) \\< 50mL/min\n* AST(aspartate aminotransferase)/ALT(alanine aminotransaminase) \\>2.5 upper limit of normal\n* Pregnant or lactating women\n* Subject who the investigator deems inappropriate to participate in this study\n* Patients with a history of bladder cancer or patients with active bladder cancer\n* Patients with uninvestigated macroscopic hematuria\n* Patients with cardiac failure or a history of cardiac failure (New York Heart Association \\[NYHA\\] Stages 3 to 4)\n* Patients with genetic problems such as galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption, since this study drug contains lactose",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Seoul St Mary's Hospital, The Catholic University of Korea",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02763007",

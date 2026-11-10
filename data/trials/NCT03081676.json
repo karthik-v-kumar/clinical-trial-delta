@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University Hospital, Gentofte, Copenhagen"
+  "name": "University Hospital, Gentofte, Copenhagen",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,79 +51,79 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Glimepiride 1Mg Tablet",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Glucagon-like Peptide-1",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Glucose-Dependent Insulinotropic Polypeptide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo Oral Tablet",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo infusion",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Glimepiride + GIP",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride 1Mg Tablet",
     "Drug: Glucose-Dependent Insulinotropic Polypeptide"
-   ],
-   "label": "Glimepiride + GIP",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo + GIP",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glucose-Dependent Insulinotropic Polypeptide",
     "Drug: Placebo Oral Tablet"
-   ],
-   "label": "Placebo + GIP",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Glimepiride + GLP-1",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride 1Mg Tablet",
     "Drug: Glucagon-like Peptide-1"
-   ],
-   "label": "Glimepiride + GLP-1",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo + GLP-1",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glucagon-like Peptide-1",
     "Drug: Placebo Oral Tablet"
-   ],
-   "label": "Placebo + GLP-1",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Glimepiride + Placebo",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride 1Mg Tablet",
     "Drug: Placebo infusion"
-   ],
-   "label": "Glimepiride + Placebo",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo + Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo Oral Tablet",
     "Drug: Placebo infusion"
-   ],
-   "label": "Placebo + Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -135,10 +135,10 @@
  "brief_summary": "The most prevalent monogenetic diabetic subtype is named maturity onset diabetes of the young type (MODY3) or hepatocyte nuclear factor 1α (HNF1A)-diabetes. The aim of this study is to evaluate the effects of supra-physiological levels of GIP and GLP-1, respectively, on insulin and glucagon secretion at fasting plasma glucose (FPG) and \"post-prandial\" PG levels (1.5 × FPG) in patients with HNF1A-diabetes and matched healthy controls treated with or without a low dose of glimepiride (sulphonylurea). In addition, we will evaluate the maximal insulin and glucagon secretory capacity in both groups.",
  "eligibility": {
   "criteria": "Participants\n\nTen patients with HNF1A-diabetes and ten matched healthy controls will be recruited. Different inclusion and exclusion criteria applies for the two groups:\n\nInclusion criteria for HNF1A-patients\n\n* Patients with HNF1A-diabetes verified by genetic testing\n* Patients treated with diet or sulphonylurea monotherapy\n* Normal haemoglobin (males 8.3-10.5 mmol/l, females 7.3-9.5 mmol/l)\n* Informed consent\n\nExclusion criteria for HNF1A-patients\n\n* Nephropathy (estimated glomerular filtration rate (eGFR) \\<60 ml/min/1.73m2 and/or albuminuria)\n* Liver disease (serum alanine aminotransferase (ALT) and/or serum aspartate aminotransferase (AST) above 2 × normal values)\n* Pregnancy or breastfeeding\n\nInclusion criteria for healthy controls\n\n* FPG ≤6 mmol/l and glycated haemoglobin (HbA1c) ≤43 mmol/mol\n* Normal haemoglobin as defined above\n* Age ≥18 years\n* Informed consent\n\nExclusion criteria for healthy controls\n\n* No family history of type 1 or type 2 diabetes\n* Nephropathy (defined above)\n* Liver disease (defined above)\n* Pregnancy or breastfeeding",
-  "healthy_volunteers": true,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -146,13 +146,13 @@
  },
  "sites": [
   {
-   "city": "Hellerup",
-   "country": "Denmark",
    "facility": "Center for Diabetes Research, Gentofte Hospital",
-   "lat": 55.73204,
-   "lon": 12.57093,
+   "city": "Hellerup",
    "state": null,
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.73204,
+   "lon": 12.57093
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03081676",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "exenatide",
    "other_names": [
     "Byetta",
     "AC2993",
     "synthetic enxendin-4"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Exenatide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide"
-   ],
-   "label": "Exenatide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The purpose of this study is to test the hypothesis that in patients with type 2 diabetes, the addition of exenatide will result in lower time-averaged serum glucose during a 24-hour period, compared with placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subject has an HbA1c between 7.0% and 10.0%, inclusive.\n* Subject has a body mass index (BMI) \\>25 kg/m\\^2 and \\<50 kg/m\\^2.\n* Subject is on a stable dose of metformin or metformin plus a thiazolidinedione.\n\nExclusion Criteria:\n\n* Subject has been treated with any of the following medications: \\*exogenous insulin for more than 1 week within 3 months of screening, \\*sulfonylureas or meglitinides within 2 months of screening, \\*alpha-glucosidase inhibitors within 2 months of screening, \\*pramlintide acetate injection within 2 months of screening.\n* Subject has received exenatide, GLP-1 analogs, DPP-IV inhibitors, or has participated in this study previously.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,22 +103,22 @@
  },
  "sites": [
   {
-   "city": "Washington D.C.",
-   "country": "United States",
    "facility": "Research Site",
-   "lat": 38.89511,
-   "lon": -77.03637,
+   "city": "Washington D.C.",
    "state": "District of Columbia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.89511,
+   "lon": -77.03637
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Research Site",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00241423",

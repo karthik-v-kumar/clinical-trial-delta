@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER_GOV",
-  "name": "Cook County Health"
+  "name": "Cook County Health",
+  "class": "OTHER_GOV"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -50,38 +50,38 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Glargine insulin",
    "other_names": [
     "Lantus insulin"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "NPH insulin and regular insulin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "lispro insulin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "2",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: NPH insulin and regular insulin"
-   ],
-   "label": "2",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "1",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Glargine insulin",
     "Drug: lispro insulin"
-   ],
-   "label": "1",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "The purpose of this study is to determine if by using insulin analog (Glargine and lispro insulin) with an insulin pen the investigators are able to obtain a higher rate of correct timing of insulin and food administration as when compared to the usual therapy (insulin NPH and regular) with syringes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Uncontrolled blood sugar:\n\n  * Random blood sugar ≥ 200mg/dl\n  * Pre-prandial blood sugar greater than 180 mg/dl on two occasions within 24 hours.\n* Patient may be off insulin or on subcutaneous inpatient insulin regimen less than 36 hours.\n* Transition from an Insulin Drip in the intensive care units to subcutaneous insulin upon transfer to general ward.\n* Patient is able to eat and oral feeding is expected.\n\nExclusion Criteria:\n\n* Patients receiving inpatient oral hypoglycemic agents\n* Patients with chronic kidney disease stages 4 \\& 5 (estimated GFR of \\<30ml/min) and on dialysis\n* Patient with chronic liver disease\n* Patient with hypoglycemia unawareness\n* Pregnancy\n* Patients who are on \"NPO\" for medical reasons.\n* Patient is expected to stay in the hospital for less than 3 days.\n* Patient on a new inpatient insulin regimen for \\> 36 hours.",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "city": "Chicago",
-   "country": "United States",
    "facility": "John H Stroger Jr. Hospital",
-   "lat": 41.85003,
-   "lon": -87.65005,
+   "city": "Chicago",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.85003,
+   "lon": -87.65005
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00841919",

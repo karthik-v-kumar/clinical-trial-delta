@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of the Faroe Islands"
+  "name": "University of the Faroe Islands",
+  "class": "OTHER"
  },
  "collaborators": [
   "University of Copenhagen",
@@ -57,43 +57,43 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Atorvastatin 80mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Exercise",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Atorvastatin + exercise",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin 80mg",
     "Behavioral: Exercise"
-   ],
-   "label": "Atorvastatin + exercise",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo + exercise",
+   "type": "OTHER",
    "intervention_names": [
     "Behavioral: Exercise"
-   ],
-   "label": "Placebo + exercise",
-   "type": "OTHER"
+   ]
   },
   {
+   "label": "Atorvastatin + non-exercise",
+   "type": "OTHER",
    "intervention_names": [
     "Drug: Atorvastatin 80mg"
-   ],
-   "label": "Atorvastatin + non-exercise",
-   "type": "OTHER"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Placebo + non-exercise",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "Around the world, about 4 in 10 adults have abnormal blood fat levels-known as dyslipidaemia-which raises their chances of getting heart disease. Many people with this condition are prescribed statins, medications that help lower the \"bad\" Low-density lipoprotein cholesterol (LDL-C) in the blood and, in doing so, help prevent serious heart-related problems. While statins do lower these harmful cholesterol levels, recent research suggests that statins might interfere with some of the positive effects that exercise typically has on muscle cells' energy centers (the mitochondria) and on a person's aerobic capacity. It is not yet fully understood how statins might influence these exercise benefits at the molecular level. To address this gap, the present study will look closely at how taking statins combined with a structured exercise program affects both the muscle cells and the whole-body fitness of people with dyslipidaemia. By using a wide-ranging protein analysis, the research aims to identify changes in muscle proteins and other metabolism-related factors that could explain why statins might alter the expected improvements from exercise.\n\nMethods and Analysis In this 12-week study, we aim to enrol between 100 and 125 adults (aged 40-65 years, with dyslipidaemia without established heart disease); the trial is powered for the first 100, and recruitment will stay open up to 125 to offset potential drop-outs. Participants will be randomly split into one of four groups: (1) exercise plus a placebo (an inactive pill), (2) exercise plus a daily high-dose statin (atorvastatin, 80 mg), (3) a daily high-dose statin without exercise, or (4) a placebo without exercise. More participants will be placed in the exercise groups to better understand the combined effects of exercise and statins. The main measurement will be how well the muscle's mitochondria work, assessed by changes in an enzyme called citrate synthase (CS) from before the program to after. Other important measures will include overall fitness (using a peak oxygen uptake (VO2peak) test) and detailed protein analyses. The study will also look at genetic variations to see if they influence how each participant responds to the treatment.\n\nEthics and Sharing of Results The study has received approval from the Faroe Islands Ethical Committee (2024-10) and follows international guidelines to protect participants' rights and data. Once the research is complete, the findings will be shared in leading scientific journals for the broader public and medical community to learn from.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age: 40-65 years\n* LDL-C \\> 4.0 mmol/L.\n\nExclusion Criteria:\n\n* Diagnosed with serious chronic disease including type 1 or 2 diabetes.\n* Cancer.\n* A history of atherosclerotic cardiovascular disease.\n* A history of major depression or other severe psychiatric disorders.\n* Severe renal dysfunction (creatinine clearance \\<30 mL/min).\n* Severe hepatic impairment.\n* Active pregnancy or breast feeding.\n* Active cigarette or e-cigarette smoker.\n* Regular (\\>2 hours pr week) aerobic high-intensity exercise training.",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "city": "Tórshavn",
-   "country": "Faroe Islands",
    "facility": "University of the Faroe Islands",
-   "lat": 62.00973,
-   "lon": -6.77164,
+   "city": "Tórshavn",
    "state": null,
-   "status": null
+   "country": "Faroe Islands",
+   "status": null,
+   "lat": 62.00973,
+   "lon": -6.77164
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06841536",

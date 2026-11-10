@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Vermont"
+  "name": "University of Vermont",
+  "class": "OTHER"
  },
  "collaborators": [
   "Takeda"
@@ -55,32 +55,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Actos (brand name for pioglitazone)"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pioglitazone"
-   ],
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "Incretin hormones are hormones produced by the gut in response to food intake. These hormones help the body to control the metabolism of glucose (sugar). In particular, two incretin hormones (GLP-1 and GIP) cause the pancreas to secrete more insulin in response to high blood glucose levels. This helps the body to metabolize the glucose more effectively, lowering blood sugar levels. GLP-1 and GIP do not work as well in patients with type 2 diabetes (T2DM) as in subjects who do not have diabetes. This study tests whether a medicine called pioglitazone (Actos), which is commonly used to treat T2DM, improves the ability of GIP to increase insulin secretion.\n\nTo address this question the investigators will recruit patients with T2DM whose diabetes is controlled with either diet and exercise or with metformin (another medicine commonly used to treat T2DM). Subjects will undergo measurement of body fat by DEXA scanning and a series of studies to characterize their metabolism. These studies include an oral glucose tolerance test (a test sometimes used to diagnose diabetes), a mixed-meal challenge (to measure how much GLP-1 and GIP are produced in response to a meal) and measurement of insulin secretion in response to glucose and GIP given through a vein. The investigators will also obtain small samples of fat (from just under the skin of the belly) using a needle to measure levels of the receptor for GIP. Subjects will then be randomly assigned to 12 weeks of treatment with either pioglitazone or matching placebo (an inactive tablet that does not contain medication). The dose of pioglitazone will be increased during the first 4 weeks to the maximum prescribed dose of 45 mg per day. Subjects will be seen every 2-4 weeks during the treatment phase of the study. After 12 weeks of treatment all studies performed at the beginning of the study will be repeated. The pioglitazone treatment will continue until the end of testing, approximately 4 weeks.\n\nThe results of this study may give us information about why glucose control deteriorates in T2DM. This information might also lead to new ways to prevent or treat T2DM.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes controlled with diet+exercise or metformin monotherapy\n* HbA1c less than or equal to 7%\n* Women will be non-fertile or practicing birth control\n\nExclusion Criteria:\n\n* Acute or chronic medical conditions that would contraindicate participation\n* Class III or IV heart failure\n* Pregnant or nursing women\n* Patients taking antidiabetic medications other than metformin, oral or chronic topical steroids, weight loss agents, antipsychotics, or other drugs that could affect insulin sensitivity or secretion.\n* AST or ALT more than 2.5 times the upper limit of normal\n* Active alcohol or drug abuse\n* Weight greater than 300 pounds",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "city": "South Burlington",
-   "country": "United States",
    "facility": "University of Vermont",
-   "lat": 44.46699,
-   "lon": -73.17096,
+   "city": "South Burlington",
    "state": "Vermont",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.46699,
+   "lon": -73.17096
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00656864",

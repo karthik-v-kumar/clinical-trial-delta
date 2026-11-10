@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-06-12",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "exenatide",
    "other_names": [
     "Byetta",
     "AC2993",
     "LY2148568"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Exenatide Arm",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide"
-   ],
-   "label": "Exenatide Arm",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo Arm",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ],
-   "label": "Placebo Arm",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This study will explore the effect of exenatide (given twice a day) versus placebo (given twice a day) treatment on change in mean 24-hour heart rate over a 12 week period of drug exposure in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosed with type 2 diabetes.\n* Treated with metformin and/or a thiazolidinedione.\n* HbA1c between 6.5% and 9.5%, inclusive.\n* Body Mass Index (BMI) \\> 25 kg/m\\^2 and \\< 40 kg/m\\^2.\n\nExclusion Criteria:\n\n* Have previously received exenatide or glucagon-like peptide-1 analogs.\n* Have participated in an interventional medical, surgical, or pharmaceutical study (a study in which an experimental, drug, medical, or surgical treatment was given) within 30 days of screening. This criterion includes drugs that have not received regulatory approval for any indication at the time of study entry.\n* Receiving beta blockers.\n* Receiving treatment with a drug directly affecting gastrointestinal motility, including but not limited to Reglan® (metoclopramide), Propulsid® (cisapride), and chronic macrolide antibiotics.\n* Have received treatment with systemic glucocorticoid therapy by oral, intravenous (IV), or intramuscular (IM) route within 6 weeks of screening, or are regularly treated with potent, inhaled intranasal steroids that are known to have a high rate of systemic absorption or bronchodilators.\n* Have been treated with drugs that promote weight loss (for example, Adipex® \\[phentermine\\], Acomplia® \\[rimonabant\\], Xenical® \\[orlistat\\], Meridia® \\[sibutramine\\], Acutrim® \\[phenylpropanolamine\\], or similar over-the-counter medications) within 3 months of screening.\n* Have been treated for longer than 2 weeks with any of the following excluded medications within 3 months prior to screening: \\*Insulin; \\*Alpha-glucosidase inhibitors (for example, Glyset® \\[miglitol\\] or Precose® \\[acarbose\\]); \\*Meglitinides (for example, Prandin® \\[repaglinide\\] or Starlix® \\[nateglinide\\]); \\*Sulfonylureas (for example, Glucotrol® \\[glipizide\\] or Micronase® \\[glyburide\\]); \\*Dipeptidyl peptidase IV (DPP-IV) inhibitors (for example, Januvia™ \\[sitagliptin\\])\n* Have donated blood within 60 days of screening.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,58 +103,58 @@
  },
  "sites": [
   {
+   "facility": "Research Site",
    "city": "Halifax",
-   "country": "Canada",
-   "facility": "Research Site",
-   "lat": 44.64269,
-   "lon": -63.57688,
    "state": "Nova Scotia",
-   "status": null
-  },
-  {
-   "city": "Toronto",
    "country": "Canada",
+   "status": null,
+   "lat": 44.64269,
+   "lon": -63.57688
+  },
+  {
    "facility": "Research Site",
-   "lat": 43.65333,
-   "lon": -79.38389,
+   "city": "Toronto",
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
   },
   {
+   "facility": "Research Site",
    "city": "Etten-Leur",
+   "state": null,
    "country": "Netherlands",
-   "facility": "Research Site",
+   "status": null,
    "lat": 51.57056,
-   "lon": 4.63726,
-   "state": null,
-   "status": null
+   "lon": 4.63726
   },
   {
+   "facility": "Research Site",
    "city": "Leiden",
+   "state": null,
    "country": "Netherlands",
-   "facility": "Research Site",
+   "status": null,
    "lat": 52.15833,
-   "lon": 4.49306,
-   "state": null,
-   "status": null
+   "lon": 4.49306
   },
   {
+   "facility": "Research Site",
    "city": "Rotterdam",
-   "country": "Netherlands",
-   "facility": "Research Site",
-   "lat": 51.9225,
-   "lon": 4.47917,
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 51.9225,
+   "lon": 4.47917
   },
   {
-   "city": "Utrecht",
-   "country": "Netherlands",
    "facility": "Research Site",
-   "lat": 52.09083,
-   "lon": 5.12222,
+   "city": "Utrecht",
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 52.09083,
+   "lon": 5.12222
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00516074",

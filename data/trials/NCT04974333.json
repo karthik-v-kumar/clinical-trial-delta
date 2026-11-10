@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER_GOV",
-  "name": "General Health Council, Mexico"
+  "name": "General Health Council, Mexico",
+  "class": "OTHER_GOV"
  },
  "collaborators": [
   "Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado",
@@ -51,23 +51,23 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Mobile health application on phone",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Mobile health application",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Mobile health application on phone"
-   ],
-   "label": "Mobile health application",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Standard care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -79,10 +79,10 @@
  "brief_summary": "The SANENT trial is a primary care-based, prospective, two-arm, randomized controlled, open-label, blinded-endpoint study with the aim to compare a diabetes management strategy using an information board and a mobile application versus standard care in patients with uncontrolled type 2 diabetes. This trial aims to recruit 1440 type 2 diabetes patients during a period of six months until the requested number of participants have been achieved. The total length of the intervention will be one year. The SANENT trial protocol is presented according to Standard Protocol Items: Recommendations for Interventional Trials (SPIRIT) recommendations",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women treated for type 2 diabetes with an HbA1C\\>8.5%;\n* ≥20 years-of-age;\n* Signed up for diabetes treatment and control in one of the participating primary healthcare practices.\n* Having access to a mobile phone (or having a family member who will help them in sending, understanding, and retrieving messages and information provided in Spanish language through the mobile application)\n\nExclusion Criteria:\n\n* Participants who are pregnant, within 3 months postpartum or planning pregnancy during the trial;\n* Breastfeeding;\n* Serious medical condition (i.e. dialysis treatment);\n* Having been admitted to hospital within the last 3 months for hyperglycemia or hypoglycemia;\n* Not permanent residents of the states where the study is conducted.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -90,31 +90,31 @@
  },
  "sites": [
   {
-   "city": "Chihuahua City",
-   "country": "Mexico",
    "facility": "Unidad de Medicina Familiar 33",
+   "city": "Chihuahua City",
+   "state": null,
+   "country": "Mexico",
+   "status": "RECRUITING",
    "lat": 28.63528,
-   "lon": -106.08889,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": -106.08889
   },
   {
-   "city": "Colima",
-   "country": "Mexico",
    "facility": "Establecimiento salud: Centro de Salud Urbano Zona Oriente \"La Vurgencita\"",
-   "lat": 19.24473,
-   "lon": -103.7127,
+   "city": "Colima",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Mexico",
+   "status": "RECRUITING",
+   "lat": 19.24473,
+   "lon": -103.7127
   },
   {
-   "city": "Mexico City",
-   "country": "Mexico",
    "facility": "Coordinacion Clinica de Educacion e Investigacion en Salud Medicina Familiar",
-   "lat": 19.42847,
-   "lon": -99.12766,
+   "city": "Mexico City",
    "state": "Mexico City",
-   "status": "RECRUITING"
+   "country": "Mexico",
+   "status": "RECRUITING",
+   "lat": 19.42847,
+   "lon": -99.12766
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04974333",

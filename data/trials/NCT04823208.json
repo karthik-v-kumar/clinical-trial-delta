@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,30 +51,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "LY3437943",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "LY3437943",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3437943"
-   ],
-   "label": "LY3437943",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "The main purpose of this study is to learn about the side effects of LY3437943 when given to Japanese participants with type 2 diabetes mellitus. Blood tests will be performed to investigate how the body processes the study drug and how the study drug affects the body. Each enrolled participant will receive injections of LY3437943 or placebo given just under the skin. For each participant, the study will last up to 5 months, inclusive of screening and will include 16 visits to the study center.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have type 2 diabetes mellitus (T2DM) diagnosed for at least 1 year.\n* Have glycated hemoglobin (HbA1c) value ≥ 7.0% and ≤10.0% for participants treated with diet and exercise or HbA1c ≥ 6.5% and ≤ 9.0% for participants who have washed out antidiabetic medications at lead-in and screening\n* Have a body mass index (BMI) within the range 23 to 35 kilograms per square meter (kg/m²), inclusive, and a body weight of at least 54 kilograms (Kg).\n* Males and females not of childbearing potential\n\nExclusion Criteria:\n\n* Have type 1 diabetes mellitus (T1DM)\n* Have uncontrolled diabetes defined as an episode of ketoacidosis or hyperosmolar state requiring hospitalization\n* Have had an episode of severe hypoglycemia, as defined by the occurrence of neuroglycopenic symptoms requiring the assistance of another person for recovery, or have a history of hypoglycemia unawareness or poor recognition of hypoglycemic symptoms.\n* Have a history of acute or chronic pancreatitis or fasting serum triglyceride level of \\>500 milligram per deciliter (mg/dL).\n* Have known liver disease, obvious clinical signs or symptoms of liver disease, acute or chronic hepatitis, or have elevations in aminotransferases (alanine aminotransferase \\[ALT\\] and aspartate aminotransferase \\[AST\\]) greater than 3× upper limit of normal (ULN).",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,40 +97,40 @@
  },
  "sites": [
   {
-   "city": "Yokohama",
-   "country": "Japan",
    "facility": "Yokohama Minoru Clinic",
-   "lat": 35.43333,
-   "lon": 139.65,
+   "city": "Yokohama",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.43333,
+   "lon": 139.65
   },
   {
-   "city": "Suita-shi",
-   "country": "Japan",
    "facility": "Medical Corporation Heishinkai OCROM Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Suita-shi",
    "state": "Osaka",
-   "status": null
-  },
-  {
-   "city": "Hachiōji",
    "country": "Japan",
-   "facility": "P-one clinic",
-   "lat": 35.65583,
-   "lon": 139.32389,
-   "state": "Tokyo",
-   "status": null
-  },
-  {
-   "city": "Shinjuku-ku",
-   "country": "Japan",
-   "facility": "Clinical Research Hospital Tokyo",
+   "status": null,
    "lat": null,
-   "lon": null,
+   "lon": null
+  },
+  {
+   "facility": "P-one clinic",
+   "city": "Hachiōji",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.65583,
+   "lon": 139.32389
+  },
+  {
+   "facility": "Clinical Research Hospital Tokyo",
+   "city": "Shinjuku-ku",
+   "state": "Tokyo",
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04823208",

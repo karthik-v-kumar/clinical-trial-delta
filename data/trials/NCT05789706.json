@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "FED",
-  "name": "VA Sierra Nevada Health Care System"
+  "name": "VA Sierra Nevada Health Care System",
+  "class": "FED"
  },
  "collaborators": [],
  "conditions": [
@@ -49,23 +49,23 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "Dayamed Arthur a novel intelligent medication adherence platform",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Intervention Arm",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Dayamed Arthur a novel intelligent medication adherence platform"
-   ],
-   "label": "Intervention Arm",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Standard of Care Arm",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -77,10 +77,10 @@
  "brief_summary": "The purpose of this study is to determine if a novel smartphone-based medication adherence platform accompanied by directed pharmacist intervention can improve A1c control and medication compliance in non-insulin dependent diabetics.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Assigned primary care provider at VA Sierra Nevada Healthcare System (VASNHCS)\n* Diagnosis of type 2 diabetes\n* Own a smart phone/tablet\n* HgbA1c drawn at or within 30 days of study enrollment.\n* Uncontrolled A1c defined as an A1c \\>9 in the following order of preference\n\n  * Last 3 A1cs \\>9% in the last 2 year\n  * Last 2 A1cs \\>9% in the last 2 years\n  * Last A1c \\>9% in the last 2 years\n  * 2-year average A1c \\>9%\n\nExclusion Criteria:\n\n* Actively on insulin therapy\n* Unable to install DayaMed application onto their phone/tablet\n* Unable to load medications",
-  "healthy_volunteers": true,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -88,13 +88,13 @@
  },
  "sites": [
   {
-   "city": "Reno",
-   "country": "United States",
    "facility": "VA Sierra Nevada Health Care System",
-   "lat": 39.52963,
-   "lon": -119.8138,
+   "city": "Reno",
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.52963,
+   "lon": -119.8138
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05789706",

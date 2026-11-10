@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "SUPPORTIVE_CARE",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Tanta University"
+  "name": "Tanta University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -55,41 +55,41 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "Standard Preoperative Fasting With Water",
    "other_names": [
     "Routine fasting protocol"
-   ],
-   "type": "BEHAVIORAL"
+   ]
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Preoperative Oral Carbohydrate Loading",
    "other_names": [
     "Oral carbohydrate drink"
-   ],
-   "type": "BEHAVIORAL"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Group I - Nondiabetic Control",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Behavioral: Standard Preoperative Fasting With Water"
-   ],
-   "label": "Group I - Nondiabetic Control",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Behavioral: Preoperative Oral Carbohydrate Loading"
-   ],
    "label": "Group II - Nondiabetic CHO",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Preoperative Oral Carbohydrate Loading"
-   ],
+   ]
+  },
+  {
    "label": "Group III - Diabetic CHO",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Behavioral: Preoperative Oral Carbohydrate Loading"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "This study evaluates the effect of preoperative carbohydrate loading on early postoperative recovery in patients with type 2 diabetes mellitus undergoing elective abdominal surgery. Traditionally, patients fast before surgery, which can increase insulin resistance, delay recovery, and worsen postoperative outcomes. Preoperative carbohydrate drinks may reduce surgical stress and improve recovery, but concerns exist regarding blood glucose control and gastric emptying in diabetic patients.\n\nIn this randomized, double-blind clinical trial, 120 eligible patients will be assigned to three groups: nondiabetic control, nondiabetic with carbohydrate load, and diabetic with carbohydrate load. Patients will receive either a carbohydrate-rich drink or control solution before surgery. Preoperative gastric residual volume will be measured using ultrasound to assess aspiration risk. Blood glucose levels will be measured before and after carbohydrate intake. Postoperative outcomes including metabolic and inflammatory response, nausea and vomiting, length of hospital stay, and time to independent ambulation will be recorded.\n\nThe study aims to determine whether preoperative carbohydrate loading is safe and beneficial for diabetic patients undergoing elective abdominal surgery.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nAdults aged 21-65 years\n\nBoth males and females\n\nAmerican Society of Anesthesiologists (ASA) physical status I-II\n\nScheduled for elective abdominal surgery under general anesthesia\n\nAble and willing to provide informed consent\n\nExclusion Criteria:\n\nPatient refusal\n\nKnown liver or renal pathology affecting gastric function\n\nMental dysfunction or cognitive disorders impairing consent or cooperation\n\nIncreased risk of gastric content aspiration\n\nBody mass index (BMI) \\< 20 or \\> 35 kg/m²\n\nPrior upper gastrointestinal surgery\n\nUse of medications affecting gastric motility\n\nType 1 diabetes mellitus\n\nType 2 diabetes mellitus treated with insulin\n\nPatients with clinical evidence of diabetic gastropathy or autonomic dysfunction",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "21 Years",
   "sex": "ALL",
+  "minimum_age": "21 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,13 +112,13 @@
  },
  "sites": [
   {
-   "city": "Tanta",
-   "country": "Egypt",
    "facility": "Tanta University Hospitals",
-   "lat": 30.78847,
-   "lon": 31.00192,
+   "city": "Tanta",
    "state": "Gharbia Governorate",
-   "status": null
+   "country": "Egypt",
+   "status": null,
+   "lat": 30.78847,
+   "lon": 31.00192
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07451015",

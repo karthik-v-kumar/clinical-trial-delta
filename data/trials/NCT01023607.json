@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Harbin Medical University"
+  "name": "Harbin Medical University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,42 +51,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Atorvastatin"
-   ],
    "label": "Group A:",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ],
-   "label": "Group B:",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Group B:",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Atorvastatin"
+   ]
+  },
+  {
+   "label": "Group C:",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin"
-   ],
-   "label": "Group C:",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "Many trials suggested that lipid lowering therapy could significantly reduce cardiovascular events. Enhancing stability of vulnerable plaque is probably the main reason by which statins reduce adverse coronary events. The size of lipid core and the fibrous cap thickness (FCT) are the major determinants of plaque vulnerability. So, it is very important to accurately evaluate changes in plaque after stains therapy.\n\nPrevious reports suggested that intensive lipid lowering therapy provide more significantly clinical benefit compared with moderate lipid lowering therapy.Such benefit may contribute to the changes in following parameters: FCT, lipid arc(quadrants), TCFA, macrophage, plaque disruption, and thrombus measured by OCT, and plaque burden and remodeling index by IVUS.\n\nCurrent intravascular imaging modalities, such as optical coherence tomography (OCT) and intravascular ultrasound (IVUS) can provide in vivo quantitative and qualitative information of coronary plaques. However, there were few studies aimed at monitoring the progression of coronary plaques in patients receiving statin therapy by OCT combined with IVUS.\n\nTherefore, the study we designed were to compare the effect of the rosuvastatin 10mg, atorvastatin 20mg and atorvastatin 60mg treatment on the changes in FCT and lipid core arc by OCT and plaque burden by IVUS of coronary atherosclerotic plaques.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age :18-75Y\n2. Clinical indication for coronary angiography (CAG).\n3. CAG demonstrates at least 1 de novo lesion with luminal diameter stenosis between 20% and 70% (visual estimation).\n4. OCT demonstrates the lesion is a lipid-rich plaque (FCT ≤200μm and lipid arc ≥100o).\n5. LDL-C range between 70mg /dl and 160mg /dl.\n6. Patient or legal guardian understands and agrees to comply with all specified study requirements and provides written informed consent.\n\nExclusion criteria:\n\n1. Life expectancy \\<12 months due to another medical condition.\n2. Contraindication to the atorvastatin and rosuvastatin.\n3. Creatinine levels more than 2.0mg/dL or ESRD.\n4. Severe hepatic dysfunction (AST and/or ALT more than 3 times the upper limit of normal).\n5. Congestive heart failure (left ventricle eject fraction ≤35%).\n6. Female of childbearing potential with a positive pregnancy test within 7 days before study, or lactating, or intends to become pregnant during the following 12 months.\n7. The patient is likely to require coronary bypass surgery, cardiac transplantation, surgical repair or replacement during the course.\n\nExit criteria\n\n1. ALT/AST ≥ 3times upper limit of normal after enrollment.\n2. Muscle ache/myopathy.\n3. Lose follow-up.\n4. Patient insists on exit.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "city": "Harbin",
-   "country": "China",
    "facility": "The Second Affiliated Hospital of Harbin Medical University",
-   "lat": 45.75,
-   "lon": 126.65,
+   "city": "Harbin",
    "state": "Heilongjiang",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 45.75,
+   "lon": 126.65
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01023607",

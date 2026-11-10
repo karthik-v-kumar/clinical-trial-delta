@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Lise Tarnow"
+  "name": "Lise Tarnow",
+  "class": "OTHER"
  },
  "collaborators": [
   "Novo Nordisk A/S",
@@ -58,54 +58,54 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "nexium",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "nexium",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "Yoghurt",
-   "other_names": [],
-   "type": "DIETARY_SUPPLEMENT"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "placebo+placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: nexium"
-   ],
    "label": "Nexium + Yoghurt",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: nexium"
-   ],
-   "label": "Nexium + Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Nexium + Placebo",
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: nexium"
+   ]
+  },
+  {
+   "label": "Placebo+ Yoghurt",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Dietary Supplement: Yoghurt"
-   ],
-   "label": "Placebo+ Yoghurt",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "placebo+placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo+placebo"
-   ],
-   "label": "placebo+placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -117,10 +117,10 @@
  "brief_summary": "To test the effect of Nexium and probiotics on insulin secretion and cardiovascular risk factors on type 2 diabetic patients.\n\nStudy Hypothesis:\n\n1. Nexium causes an increased gastrin secretion that increases the insulin secretion and thereby a reduction of HbA1c\n2. Probiotics changes the gut flora and bloodpressure\n3. Probiotics causes a change in inflammation and thrombosis.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes (WHO criteria) treated with metformin and/or sulfonylureas or diet\n* Males and females between 40 and 70 years\n* HbA1c between 6,0-10,0\n* Diabetes duration \\> 1 year\n\nExclusion Criteria:\n\n* Kidney disease (s-creatinine above the upper limit of normal range).\n* Liver disease (ALAT increase \\> 3 times the upper limit of the normal range of ALAT).\n* Macroalbuminuria (urinary albumin excretion of \\> 300 mg/day).\n* Heart failure(NYHA class lll or lV)\n* Severe neuropathy (symptoms + vibration perception threshold \\> 50 measured by biothesiometer.)\n* Neutropenia (neutrophil count\\<2.0x10/l) or anemia (hemoglobin\\<8mM for men or \\<7mM for women.\n* Alcohol abuse\n* Drug abuse\n* Severe organic or metabolic diseases including cancer\n* C-peptide\\< 0,3 pmol/l\n* Medicine interaction\n* Treatment with insulin\n* PPI or other medications for ulcus diseases\n* Treatment with warfarin or other coumarin derivations\n* Pregnant or breastfeeding women\n* Allergy to medication used in the study\n* Participants may not participate in another clinical intervention trial",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

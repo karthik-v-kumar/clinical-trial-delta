@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "insulin detemir",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "insulin NPH",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "insulin detemir",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: insulin detemir",
     "Drug: insulin NPH"
-   ],
-   "label": "insulin detemir",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "insulin NPH",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin detemir",
     "Drug: insulin NPH"
-   ],
-   "label": "insulin NPH",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This trial is conducted in the United States of America (USA). The aim of this trial is to evaluate the the dose-response of insulin detemir and insulin NPH in subjects with type 2 diabetes of various race and ethnicity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Insulin treatment with any insulin preparation/regimen for at least three months with or without combination with below or equal to 2 oral antidiabetic agents (OADs)\n* Duration of diabetes at least 12 months\n* Body Mass Index (BMI) below 33 kg/m\\^2\n* HbA1c maximum 10 % based on analysis from the central laboratory\n\nExclusion Criteria:\n\n* Current treatment with insulin above 1.2 U/kg/day\n* Current treatment with drugs known to interfere with glucose metabolism other than OADs such as systemic corticosteroids, non-selective beta-blockers, and monoamino oxidase (MAO) inhibitors\n* Blood donation of more than 500 mL within the last three months",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "city": "Chula Vista",
-   "country": "United States",
    "facility": "Novo Nordisk Investigational Site",
-   "lat": 32.64005,
-   "lon": -117.0842,
+   "city": "Chula Vista",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.64005,
+   "lon": -117.0842
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01497600",

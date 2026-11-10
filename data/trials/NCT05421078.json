@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2024-09-27",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "NewAmsterdam Pharma"
+  "name": "NewAmsterdam Pharma",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -55,48 +55,48 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Obicetrapib",
    "other_names": [
     "CETP inhibitor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "placebo tablet"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Obicetrapib"
-   ],
    "label": "2.5 mg Obicetrapib",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Obicetrapib"
-   ],
+   ]
+  },
+  {
    "label": "5 mg Obicetrapib",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Obicetrapib"
-   ],
+   ]
+  },
+  {
    "label": "10 mg Obicetrapib",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Obicetrapib"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -128,10 +128,10 @@
  "brief_summary": "This study will be a placebo-controlled, double-blind, randomized, phase 2 dose-finding study in Japanese patients to evaluate the efficacy, safety, and tolerability of obicetrapib as an adjunct to stable statin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL-C \\> 70 mg/dL and TG \\< 400 mg/dL,\n* Treated with a stable statin therapy; Atorvastatin 20/40 or Simvastatin 10/20\n\nExclusion Criteria:\n\n* BMI \\> or =35 kg/m2\n* Significant cardiovascular disease\n* HbA1c \\> 10%\n* Uncontrolled hypertension\n* Active muscle disease\n* GFR \\< 60 ml/min\n* Hepatic dysfunction\n* Anemia\n* Existing CETP deficiency\n* History of Homozygous Familial Hypercholerstrolemia\n* History of malignancy\n* Alcohol abuse\n* Treatment with investigational product\n* Treatment with PCSK9\n* Clinically significant condition\n* Known CETP inhibitor allergy",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -139,94 +139,94 @@
  },
  "sites": [
   {
-   "city": "Fukuyama",
-   "country": "Japan",
    "facility": "Nippon Kokan Fukuyama Hospital",
+   "city": "Fukuyama",
+   "state": null,
+   "country": "Japan",
+   "status": null,
    "lat": 34.48333,
-   "lon": 133.36667,
-   "state": null,
-   "status": null
+   "lon": 133.36667
   },
   {
-   "city": "Itoshima",
-   "country": "Japan",
    "facility": "Nakamura Cardiology and Cardiovascular Surgery Clinic",
+   "city": "Itoshima",
+   "state": null,
+   "country": "Japan",
+   "status": null,
    "lat": 33.54225,
-   "lon": 130.18421,
-   "state": null,
-   "status": null
+   "lon": 130.18421
   },
   {
-   "city": "Osaka",
-   "country": "Japan",
    "facility": "Kishiwada Tokushu-Kai Hospital",
-   "lat": 34.69379,
-   "lon": 135.50107,
+   "city": "Osaka",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 34.69379,
+   "lon": 135.50107
   },
   {
-   "city": "Osaka",
-   "country": "Japan",
    "facility": "Kyosokai AMC NISHI-UMEDA Clinic",
-   "lat": 34.69379,
-   "lon": 135.50107,
+   "city": "Osaka",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 34.69379,
+   "lon": 135.50107
   },
   {
-   "city": "Osaka",
-   "country": "Japan",
    "facility": "Sakurabashi Watanabe Hospital",
-   "lat": 34.69379,
-   "lon": 135.50107,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Osaka",
+   "state": null,
    "country": "Japan",
-   "facility": "Uji Tokushu-Kai Hospital",
+   "status": null,
    "lat": 34.69379,
-   "lon": 135.50107,
-   "state": null,
-   "status": null
+   "lon": 135.50107
   },
   {
-   "city": "Saitama",
+   "facility": "Uji Tokushu-Kai Hospital",
+   "city": "Osaka",
+   "state": null,
    "country": "Japan",
+   "status": null,
+   "lat": 34.69379,
+   "lon": 135.50107
+  },
+  {
    "facility": "Sanai Hospital",
+   "city": "Saitama",
+   "state": null,
+   "country": "Japan",
+   "status": null,
    "lat": 35.90807,
-   "lon": 139.65657,
-   "state": null,
-   "status": null
+   "lon": 139.65657
   },
   {
-   "city": "Sendai",
-   "country": "Japan",
    "facility": "Shinden Higashi Clinic",
+   "city": "Sendai",
+   "state": null,
+   "country": "Japan",
+   "status": null,
    "lat": 38.26667,
-   "lon": 140.86667,
-   "state": null,
-   "status": null
+   "lon": 140.86667
   },
   {
-   "city": "Sōka",
-   "country": "Japan",
    "facility": "Soka-Sugiura Clinic",
-   "lat": 35.83643,
-   "lon": 139.79957,
+   "city": "Sōka",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.83643,
+   "lon": 139.79957
   },
   {
-   "city": "Tokyo",
-   "country": "Japan",
    "facility": "Sugiura Clinic",
-   "lat": 35.6895,
-   "lon": 139.69171,
+   "city": "Tokyo",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.6895,
+   "lon": 139.69171
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05421078",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Sun Yat-sen University"
+  "name": "Sun Yat-sen University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "CSII in the prediction model group",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "CSII in the empirical group",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Prediction model group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: CSII in the prediction model group"
-   ],
-   "label": "Prediction model group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Empirical group",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: CSII in the empirical group"
-   ],
-   "label": "Empirical group",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The present study aims to conduct a prospective controlled trial comparing an LSTM-based artificial intelligence (AI) prediction model and clinicians' experience in the efficacy and safety of blood glucose control in hospitalized patients with type 2 diabetes mellitus (T2DM) receiving continuous subcutaneous insulin infusion (CSII) treatment in the Department of Endocrinology. The main question it aims to answer is:\n\nIs the prediction model superior to or (at least) non-inferior to clinicians' experience?\n\nEligible patients who receive CSII treatment are randomly allocated into the prediction model group and the empirical group. Patients will:\n\n1. Receive CSII treatment as standard of care during hospitalization for 1-2 weeks, where the daily insulin dose regimen is determined by a prediction model or a clinician's experience.\n2. Use continuous glucose monitoring (CGM) for glucose tracking.\n3. Receive diabetes self-management education covering nutrition and physical activity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Meets the diagnostic criteria of type 2 diabetes mellitus in the Chinese Guidelines for the Prevention and Treatment of Type 2 Diabetes (2020 edition).\n2. Insulin pump is used to control blood glucose during hospitalization, and the duration of CSII treatment period ≥6 days and \\<30 days.\n\nExclusion Criteria:\n\n1. Diabetes other than type 2.\n2. Age ≥75 years who is not suitable for intensive insulin therapy.\n3. Hypoglycemic regimen other than CSII treatment, such as oral hypoglycemic drugs or multiple daily insulin injections during hospitalization.\n4. With severe infection or uncontrolled acute complications (including ketoacidosis coma, hyperosmolar hyperglycemia, etc.) , or any condition that the researcher believes not suitable for the study.\n5. Severe hepatic and renal insufficiency (ALT≥5 times the upper limit of normal, eGFR\\<30ml/min/1.73m2) ), or patients at the acute stage of cardiovascular and cerebrovascular diseases considered unsuitable for study.\n6. Pregnancy.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "city": "Guangzhou",
-   "country": "China",
    "facility": "Department of Endocrinology and Diabetes Center, The First Affiliated Hospital of Sun Yat-sen University",
-   "lat": 23.11667,
-   "lon": 113.25,
+   "city": "Guangzhou",
    "state": "Guangdong",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 23.11667,
+   "lon": 113.25
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07066891",

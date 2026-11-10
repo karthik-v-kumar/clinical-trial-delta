@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Hospital de Sao Sebastiao"
+  "name": "Hospital de Sao Sebastiao",
+  "class": "OTHER"
  },
  "collaborators": [
   "Instituto de Ciências Biomédicas Abel Salazar",
@@ -52,37 +52,37 @@
  ],
  "interventions": [
   {
+   "type": "PROCEDURE",
    "name": "Short BPL RYGB",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   },
   {
+   "type": "PROCEDURE",
    "name": "Long BPL RYGB",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Short BPL RYGB in glucose-tolerant participants",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Short BPL RYGB"
-   ],
-   "label": "Short BPL RYGB in glucose-tolerant participants",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Procedure: Long BPL RYGB"
-   ],
    "label": "Long BPL RYGB in glucose-tolerant participants",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Long BPL RYGB"
-   ],
+   ]
+  },
+  {
    "label": "Long BPL RYGB in diabetic participants",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Procedure: Long BPL RYGB"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -118,10 +118,10 @@
  "brief_summary": "This study will determine how two variants of gastric bypass induce changes in dynamic endocrine response in the fasting and post-prandial state, both before and at different time points after the surgical interventions.\n\nThis study will monitor the endocrine dynamics after different anatomical modifications produced by Roux-en-Y gastric bypass procedures in diabetic participants and normoglycemic participants, to gain insights into the mechanisms beyond the metabolic improvement after the two surgical variants through participants re-evaluation at different time points.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI between 35 and 45 kg/m2 with indication for bariatric surgery\n* Aged between 18 and 65 years at surgery\n\nExclusion Criteria:\n\n* Unwillingness, inability or intolerance to complete the MMTT (ingest 200 mL in 15 minutes or less)",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -129,13 +129,13 @@
  },
  "sites": [
   {
-   "city": "Santa Maria da Feira",
-   "country": "Portugal",
    "facility": "São Sebastião Hospital",
-   "lat": 40.92726,
-   "lon": -8.54839,
+   "city": "Santa Maria da Feira",
    "state": "Aveiro District",
-   "status": null
+   "country": "Portugal",
+   "status": null,
+   "lat": 40.92726,
+   "lon": -8.54839
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04196348",

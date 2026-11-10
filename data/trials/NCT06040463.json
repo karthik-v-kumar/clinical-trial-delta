@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Sinai Health System"
+  "name": "Sinai Health System",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,69 +51,69 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "Diabetes Self-Management Training (DSMT)",
    "other_names": [
     "Diabetes Self-Management Education and Support (DSMES)"
-   ],
-   "type": "BEHAVIORAL"
+   ]
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Remote Glucose Monitoring (RGM)",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Community Health Worker tailored support",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Remote Glucose Monitoring > Remote Glucose Monitoring (RGM->RGM)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Remote Glucose Monitoring (RGM)"
-   ],
-   "label": "Remote Glucose Monitoring > Remote Glucose Monitoring (RGM->RGM)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Remote Glucose Monitoring > Remote Glucose Monitoring+Community Health Worker (RGM->RGM+CHW)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Remote Glucose Monitoring (RGM)",
     "Behavioral: Community Health Worker tailored support"
-   ],
-   "label": "Remote Glucose Monitoring > Remote Glucose Monitoring+Community Health Worker (RGM->RGM+CHW)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Remote Glucose Monitoring > Diabetes Self-Management Training (RGM->DSMT)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Diabetes Self-Management Training (DSMT)",
     "Behavioral: Remote Glucose Monitoring (RGM)"
-   ],
-   "label": "Remote Glucose Monitoring > Diabetes Self-Management Training (RGM->DSMT)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Diabetes Self-Management Training > Standard of Care (DSMT->SOC)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Diabetes Self-Management Training (DSMT)"
-   ],
-   "label": "Diabetes Self-Management Training > Standard of Care (DSMT->SOC)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Diabetes Self-Management Training > Community Health Worker (DSMT->CHW)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Diabetes Self-Management Training (DSMT)",
     "Behavioral: Community Health Worker tailored support"
-   ],
-   "label": "Diabetes Self-Management Training > Community Health Worker (DSMT->CHW)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Diabetes Self-Management Training > Remote Glucose Monitoring (DSMT->RGM)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Diabetes Self-Management Training (DSMT)",
     "Behavioral: Remote Glucose Monitoring (RGM)"
-   ],
-   "label": "Diabetes Self-Management Training > Remote Glucose Monitoring (DSMT->RGM)",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -125,10 +125,10 @@
  "brief_summary": "The goal of this randomized trial is to determine the optimal combination and sequence of three enhancements for a team-based care model for patients living with diabetes in Chicago. The study aim is to determine optimization of intervention components. Participants will be randomly assigned to diabetes self-management training or remote glucose monitoring. After 6 months, participants will be rerandomized to a subsequent study arm (including a CHW support program) depending on a tailoring variable of change in A1c. Researchers will compare the final 6 study arms to see which combination and sequence of enhancements produces the most improvement in A1c.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* A diagnosis of type 1 or type 2 diabetes\n* 18+ years of age\n* Able to provide consent\n* Identify as African American/Black or Latinx\n* most recent HbA1c \\> 7%,\n* Have a smartphone compatible with the Glooko application\n* Have completed at least one Center appointment (i.e. current patient)\n* Completed at least 3 months of their assigned study condition\n\nExclusion Criteria:\n\n* Already an active user of RGM\n* Actively working with a CHW\n* Diagnosis of gestational diabetes (without type 1 or type 2)\n* Has a Power of Attorney\n* Be suffering from Stage-V renal disease or undergoing dialysis.\n* Be suffering from a severe form of cardiovascular disease (NYHA Class III and IV)",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -136,13 +136,13 @@
  },
  "sites": [
   {
-   "city": "Chicago",
-   "country": "United States",
    "facility": "Mount Sinai Hospital",
-   "lat": 41.85003,
-   "lon": -87.65005,
+   "city": "Chicago",
    "state": "Illinois",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 41.85003,
+   "lon": -87.65005
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06040463",

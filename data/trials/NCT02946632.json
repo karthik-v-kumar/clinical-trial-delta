@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Korea University Anam Hospital"
+  "name": "Korea University Anam Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "AstraZeneca"
@@ -50,38 +50,38 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "triple combination therapy",
    "other_names": [
     "metformin 1000mg",
     "dapagliflozin 10mg",
     "saxagliptin 5mg"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Stepwise add-on therapy",
    "other_names": [
     "Metformin",
     "Glimepiride",
     "Sitagliptin"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Triple combination therapy group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: triple combination therapy"
-   ],
-   "label": "Triple combination therapy group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Stepwise add-on therapy group",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Stepwise add-on therapy"
-   ],
-   "label": "Stepwise add-on therapy group",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "In this study, the investigators will assess the efficacy and tolerability of a novel, initial triple combination therapy with metformin, saxaglipitin, and dapagliflozin, compared to conventional stepwise add-on therapy in drug-naïve patients with recently onset type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Drug-naïve patients with type 2 diabetes by American Diabetes Association criteria\n* HbA1c ≥ 8%, \\< 10.5% at screening\n* Age ≥ 18 years, \\< 65 years\n* Body mass index (BMI) ≥ 23 kg/m2, \\< 35 kg/m2\n* Estimated GFR (eGFR) ≥ 60 ml/min/1.73m2\n\nExclusion Criteria:\n\n* Uncontrolled hyperglycemia \\> 270 mg/dl after an overnight fast\n* Diabetic ketoacidosis\n* Type 1 diabetes\n* Confirmed cardiovascular disease (acute coronary syndrome, stroke, or transient ischemic attack) within 3 months of screening\n* Congestive heart failure (New York Heart Association functional class IV)\n* severe hepatic dysfunction (serum levels of either AST, ALT, or alkaline phosphatase above 3 x upper limit of normal (ULN))\n* alcohol abuse within the 3 months prior to informed consent that would interfere with trial participation or any ongoing condition leading to a decreased compliance to study procedures or study drug intake\n* pregnant women, women with potential of pregnancy not using adequate contraception method as evaluated by the investigator, lactating women\n* use of systemic glucocorticoid",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Korea University Anam Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02946632",

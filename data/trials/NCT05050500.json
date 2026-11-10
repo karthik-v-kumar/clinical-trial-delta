@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Qingdao Central Hospital"
+  "name": "Qingdao Central Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dapagliflozin 10mg/Tab",
    "other_names": [
     "Dapagliflozin Group"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "control group",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Intervention Group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg/Tab"
-   ],
-   "label": "Intervention Group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Control Group",
+   "type": "OTHER",
    "intervention_names": [
     "Drug: control group"
-   ],
-   "label": "Control Group",
-   "type": "OTHER"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "Dapagliflozin is one of the SGLT-2 inhibiters. Recent clinical trials have demonstrated that SGLT-2 inhibitors are effective for treating heart failure. The DAPA-HF clinical trial has demonstrated that the effects of empagliflozin and dapagliflozin improve renal outcomes and reduce all-cause and cardiovascular death in patients with HFrEF\\[1\\]. However, its effect on myocardial infarction, the most common disease leading to death in the population, has not been evaluated sufficiently. A meta-analysis has demonstrated that compared with the control, SGLT2 inhibitor is associated with a reduction in the incidence of major adverse cardiovascular events (MACEs), myocardial infarction, cardiovascular mortality and all-cause mortality\\[2\\]. It seems that dapagliflozin might be effective for patients with acute myocardial infarction based on these studies. Thus, this study aims to evaluate the effect of dapagliflozin on short-term prognosis in patients with acute myocardial infarction compared to placebo.\n\n1. Faiez Zannad, João Pedro Ferreira, Stuart J Pocock et el. SGLT2 inhibitors in patients with heart failure with reduced ejection fraction: a meta-analysis of the EMPEROR-Reduced and DAPA-HF trials. Lancet. 2020 Sep 19;396(10254):819-829.\n2. Cai-Yan Zou, Xue-Kui Liu, Yi-Quan Sang et el. Effects of SGLT2 inhibitors on cardiovascular outcomes and mortality in type 2 diabetes: A meta-analysis. Medicine (Baltimore). 2019 Dec;98(49):e18245.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Diagnosed with acute MI, either STEMI or NSTEMI, according to the fourth universal definition of MI (Thygesen et al. 2019), disease onset within 7 days.\n2. Previously diagnosed with type2 diabetes mellitus, newly diagnosed type2 diabetes according to ADA criteria or glucose intolerance.\n3. Capable of giving signed informed consent, which includes compliance with the requirements and restrictions listed in the informed consent form and the protocol.\n\nExclusion Criteria:\n\n1. Patients diagnosed with Type 1 Diabetes Mellitus.\n2. Patients with renal dysfunction. (GFR\\<90mmol/L).\n3. Patients who have recently undergone immunosuppressive therapy.\n4. Patients with a history of recurrent urinary tract infections.\n5. Patients who are known to be allergic to SGLT-2 inhibitors.\n6. Patients who are hemodynamically unstable.\n7. Chronic symptomatic heart failure within the last year and known reduced ejection fraction (LVEF≤40 %), documented before the current MI hospitalization.\n8. Severe hepatic impairment (Child-Pugh class C) at the time of inclusion into the trial.\n9. Any other non cardiovascular diseases, such as active malignancy requiring treatment at the time of screening or with a life expectancy of fewer than two years based on the investigator´s clinical judgment.\n10. Currently on treatment with a sodium-glucose co-transporter 2 inhibitor (SGLT2-inhibitor).",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "city": "Qingdao",
-   "country": "China",
    "facility": "Mengmei Li",
-   "lat": 36.06488,
-   "lon": 120.38042,
+   "city": "Qingdao",
    "state": "Shandong",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 36.06488,
+   "lon": 120.38042
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05050500",

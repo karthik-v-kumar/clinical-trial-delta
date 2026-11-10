@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2018-04-27",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,59 +51,59 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dulaglutide",
    "other_names": [
     "LY2189265"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "SGLT2 inhibitor",
    "other_names": [
     "Canagliflozin",
     "Dapagliflozin",
     "Empagliflozin"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Dulaglutide",
-    "Drug: SGLT2 inhibitor",
-    "Drug: Metformin"
-   ],
    "label": "1.5 mg Dulaglutide",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dulaglutide",
     "Drug: SGLT2 inhibitor",
     "Drug: Metformin"
-   ],
-   "label": "0.75 mg Dulaglutide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "0.75 mg Dulaglutide",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Dulaglutide",
+    "Drug: SGLT2 inhibitor",
+    "Drug: Metformin"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: SGLT2 inhibitor",
     "Drug: Metformin"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -119,10 +119,10 @@
  "brief_summary": "The main purpose of this study is to evaluate the efficacy and safety of the study drug known as dulaglutide when added to sodium-glucose co-transporter 2 (SGLT2) inhibitors in participants with type 2 diabetes mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have type 2 diabetes mellitus (based on the World Health Organization's \\[WHO\\] diagnostic criteria)\n* Have been treated with an SGLT2 inhibitor, with or without metformin, for at least 3 months prior to study entry (minimum required doses for that period for allowed SGLT2 inhibitors: empagliflozin 10 mg, dapagliflozin 5 or 10 mg \\[per country-specific label\\], canagliflozin 100 mg); minimum required dose for metformin, if used, is ≥1500 mg/day and must be reached (or highest tolerated dose which is acceptable with documented gastrointestinal \\[GI\\] intolerability)\n* Daily doses of all allowed oral antihyperglycemia agent (OAMs) must have been stable for at least 12 weeks (±3 days) prior to randomization (study enrollment); daily doses of SGLT2 inhibitor and metformin, if used, will be considered stable during this period if:\n\n  * all prescribed daily doses were in the range between the minimum required dose and maximum-approved dose per country-specific label; and\n  * \\>90% of prescribed daily doses were equal to the dose at randomization\n* Have HbA1c ≥7.0% and ≤9.5% at study entry and approximately 1 week prior to randomization\n* Have body mass index (BMI) ≤45 kilograms per meter squared (kg/m\\^2) and agree to not initiate a diet and/or exercise program during the study with the intent of reducing body weight other than the lifestyle and dietary measures for diabetes treatment\n\nExclusion Criteria:\n\n* Have type 1 diabetes mellitus\n* Have been treated with any other OAMs (other than SGLT2 inhibitors and metformin), glucagon-like peptide-1 receptor agonist (GLP-1 RA), pramlintide or insulin 3 months prior to study entry, or between study entry and randomization; or initiate metformin between study entry and randomization; short-term use of insulin for acute care (≤14 days) during the 3-month period prior to entry is not exclusionary\n* Have any condition that is a contraindication for use of the GLP-1 RA class or the SGLT2 inhibitor class (per country-specific labels) at study entry or develop such condition between study entry and randomization\n* Have acute or chronic hepatitis, signs and symptoms of any other liver disease other than nonalcoholic fatty liver disease (NAFLD), or alanine transaminase (ALT) level \\>2.5 times the upper limit of the reference range, as determined by the central laboratory at study entry; participants with NAFLD are eligible for participation in this trial\n* Had chronic or acute pancreatitis any time prior to study entry\n* Estimated glomerular filtration rate (eGFR) \\<45 milliliters(mL)/minute/1.73m\\^2, calculated by the Chronic Kidney Disease-Epidemiology (CKD-EPI) equation, as determined by the central laboratory at study entry and confirmed at lead in\n* Have any self or family history of type 2A or type 2B multiple endocrine neoplasia (MEN 2A or 2B) in the absence of known C-cell hyperplasia (this exclusion includes participants with a family history of MEN 2A or 2B, whose family history for the syndrome is rearranged during transfect \\[RET\\]-negative; the only exception for this exclusion will be for participants whose family members with MEN 2A or 2B have a known RET mutation and the potential participant for the study is negative for the RET mutation)\n* Have any self or family history of medullary C-cell hyperplasia, focal hyperplasia, carcinoma (including sporadic, familial, or part of MEN 2A or 2B syndrome)\n* Have a serum calcitonin ≥20 picograms/mL as determined by the central laboratory at study entry",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -130,373 +130,373 @@
  },
  "sites": [
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Saint Stefan Ob Stainz",
-   "country": "Austria",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": null,
-   "lon": null,
    "state": null,
-   "status": null
+   "country": "Austria",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Steyr",
+   "state": null,
    "country": "Austria",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 48.04274,
-   "lon": 14.42127,
-   "state": null,
-   "status": null
+   "lon": 14.42127
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Vienna",
+   "state": null,
    "country": "Austria",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 48.20849,
-   "lon": 16.37208,
-   "state": null,
-   "status": null
+   "lon": 16.37208
   },
   {
-   "city": "Brandys Nad Labem-Stara Bolesl",
-   "country": "Czechia",
    "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician",
+   "city": "Brandys Nad Labem-Stara Bolesl",
+   "state": null,
+   "country": "Czechia",
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": null,
-   "status": null
+   "lon": null
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Holešov",
+   "state": null,
    "country": "Czechia",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 49.33331,
-   "lon": 17.57832,
-   "state": null,
-   "status": null
+   "lon": 17.57832
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Krnov",
+   "state": null,
    "country": "Czechia",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 50.08967,
-   "lon": 17.70385,
-   "state": null,
-   "status": null
+   "lon": 17.70385
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Pardubice",
+   "state": null,
    "country": "Czechia",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 50.04075,
-   "lon": 15.77659,
-   "state": null,
-   "status": null
+   "lon": 15.77659
   },
   {
-   "city": "Prague",
-   "country": "Czechia",
    "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": 50.08804,
-   "lon": 14.42076,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Prague",
-   "country": "Czechia",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": 50.08804,
-   "lon": 14.42076,
    "state": null,
-   "status": null
+   "country": "Czechia",
+   "status": null,
+   "lat": 50.08804,
+   "lon": 14.42076
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "city": "Prague",
+   "state": null,
+   "country": "Czechia",
+   "status": null,
+   "lat": 50.08804,
+   "lon": 14.42076
+  },
+  {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Münster",
+   "state": null,
    "country": "Germany",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 51.96236,
-   "lon": 7.62571,
-   "state": null,
-   "status": null
+   "lon": 7.62571
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Oldenburg",
+   "state": null,
    "country": "Germany",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 53.14039,
-   "lon": 8.21479,
-   "state": null,
-   "status": null
+   "lon": 8.21479
   },
   {
-   "city": "Budapest",
-   "country": "Hungary",
    "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": 47.49835,
-   "lon": 19.04045,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Budapest",
-   "country": "Hungary",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": 47.49835,
-   "lon": 19.04045,
    "state": null,
-   "status": null
+   "country": "Hungary",
+   "status": null,
+   "lat": 47.49835,
+   "lon": 19.04045
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "city": "Budapest",
+   "state": null,
+   "country": "Hungary",
+   "status": null,
+   "lat": 47.49835,
+   "lon": 19.04045
+  },
+  {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Debrecen",
+   "state": null,
    "country": "Hungary",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 47.53167,
-   "lon": 21.62444,
-   "state": null,
-   "status": null
+   "lon": 21.62444
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Nagykanizsa",
+   "state": null,
    "country": "Hungary",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 46.45347,
-   "lon": 16.99104,
-   "state": null,
-   "status": null
+   "lon": 16.99104
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Haifa",
+   "state": null,
    "country": "Israel",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 32.81303,
-   "lon": 34.99928,
-   "state": null,
-   "status": null
+   "lon": 34.99928
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Holon",
+   "state": null,
    "country": "Israel",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 32.0122,
-   "lon": 34.77826,
-   "state": null,
-   "status": null
+   "lon": 34.77826
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Jerusalem",
+   "state": null,
    "country": "Israel",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 31.76904,
-   "lon": 35.21633,
-   "state": null,
-   "status": null
+   "lon": 35.21633
   },
   {
-   "city": "Monterrey",
-   "country": "Mexico",
    "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": 25.68435,
-   "lon": -100.31721,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Monterrey",
-   "country": "Mexico",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": 25.68435,
-   "lon": -100.31721,
    "state": null,
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 25.68435,
+   "lon": -100.31721
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "city": "Monterrey",
+   "state": null,
+   "country": "Mexico",
+   "status": null,
+   "lat": 25.68435,
+   "lon": -100.31721
+  },
+  {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Zapopan",
+   "state": null,
    "country": "Mexico",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 20.72111,
-   "lon": -103.38742,
-   "state": null,
-   "status": null
+   "lon": -103.38742
   },
   {
-   "city": "Caguas",
-   "country": "Puerto Rico",
    "facility": "Centro de Endocrinologia y Nutricion",
+   "city": "Caguas",
+   "state": null,
+   "country": "Puerto Rico",
+   "status": null,
    "lat": 18.23412,
-   "lon": -66.0485,
-   "state": null,
-   "status": null
+   "lon": -66.0485
   },
   {
-   "city": "Manati",
-   "country": "Puerto Rico",
    "facility": "Manati Medical Center",
-   "lat": 18.42745,
-   "lon": -66.49212,
+   "city": "Manati",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Yabucoa",
    "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.42745,
+   "lon": -66.49212
+  },
+  {
    "facility": "Centro de Endocrinologia del Este",
+   "city": "Yabucoa",
+   "state": null,
+   "country": "Puerto Rico",
+   "status": null,
    "lat": 18.05052,
-   "lon": -65.87933,
-   "state": null,
-   "status": null
+   "lon": -65.87933
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Alicante",
+   "state": null,
    "country": "Spain",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 38.34517,
-   "lon": -0.48149,
-   "state": null,
-   "status": null
+   "lon": -0.48149
   },
   {
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
    "city": "Málaga",
+   "state": null,
    "country": "Spain",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "status": null,
    "lat": 36.72016,
-   "lon": -4.42034,
-   "state": null,
-   "status": null
+   "lon": -4.42034
   },
   {
-   "city": "Seville",
-   "country": "Spain",
    "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": 37.38283,
-   "lon": -5.97317,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Seville",
-   "country": "Spain",
-   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
-   "lat": 37.38283,
-   "lon": -5.97317,
    "state": null,
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 37.38283,
+   "lon": -5.97317
   },
   {
-   "city": "Encino",
-   "country": "United States",
+   "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri from 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST), or speak with your personal physician.",
+   "city": "Seville",
+   "state": null,
+   "country": "Spain",
+   "status": null,
+   "lat": 37.38283,
+   "lon": -5.97317
+  },
+  {
    "facility": "Medical Group of Encino",
+   "city": "Encino",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.15917,
-   "lon": -118.50119,
-   "state": "California",
-   "status": null
+   "lon": -118.50119
   },
   {
+   "facility": "National Research Institute",
    "city": "Huntington Park",
+   "state": "California",
    "country": "United States",
-   "facility": "National Research Institute",
+   "status": null,
    "lat": 33.98168,
-   "lon": -118.22507,
-   "state": "California",
-   "status": null
+   "lon": -118.22507
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "National Research Institute",
-   "lat": 34.05223,
-   "lon": -118.24368,
+   "city": "Los Angeles",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.05223,
+   "lon": -118.24368
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "New Horizon Research Center",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
-   "city": "West Palm Beach",
-   "country": "United States",
    "facility": "Metabolic Research Institute Inc.",
-   "lat": 26.71534,
-   "lon": -80.05337,
+   "city": "West Palm Beach",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 26.71534,
+   "lon": -80.05337
   },
   {
-   "city": "Topeka",
-   "country": "United States",
    "facility": "Cotton O'Neil Diabetes and Endocrinology Center",
-   "lat": 39.04833,
-   "lon": -95.67804,
+   "city": "Topeka",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.04833,
+   "lon": -95.67804
   },
   {
-   "city": "Jefferson City",
-   "country": "United States",
    "facility": "JCMG Clinical Research",
-   "lat": 38.5767,
-   "lon": -92.17352,
+   "city": "Jefferson City",
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.5767,
+   "lon": -92.17352
   },
   {
-   "city": "Brooklyn",
-   "country": "United States",
    "facility": "Grand Street Medical PC",
-   "lat": 40.6501,
-   "lon": -73.94958,
+   "city": "Brooklyn",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.6501,
+   "lon": -73.94958
   },
   {
-   "city": "Morehead City",
-   "country": "United States",
    "facility": "Diabetes & Endocrinology Consultants PC",
+   "city": "Morehead City",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 34.72294,
-   "lon": -76.72604,
-   "state": "North Carolina",
-   "status": null
+   "lon": -76.72604
   },
   {
-   "city": "Wilmington",
-   "country": "United States",
    "facility": "PMG Research of Wilmington, LLC",
-   "lat": 34.23556,
-   "lon": -77.94604,
+   "city": "Wilmington",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.23556,
+   "lon": -77.94604
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Dallas Diabetes Endocrine Center",
-   "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
-  },
-  {
    "city": "Dallas",
-   "country": "United States",
-   "facility": "Galenos Research",
-   "lat": 32.78306,
-   "lon": -96.80667,
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.78306,
+   "lon": -96.80667
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
-   "facility": "Endeavor Clinical Trials",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "facility": "Galenos Research",
+   "city": "Dallas",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.78306,
+   "lon": -96.80667
+  },
+  {
+   "facility": "Endeavor Clinical Trials",
+   "city": "San Antonio",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02597049",

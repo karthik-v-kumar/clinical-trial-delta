@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2017-04-06",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Beth Israel Deaconess Medical Center"
+  "name": "Beth Israel Deaconess Medical Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "r-metHuLeptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "r-MetHuLeptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: r-metHuLeptin"
-   ],
-   "label": "r-MetHuLeptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The purpose of this study is to examine whether replacing leptin to normal levels can reverse the changes in fat distribution, lipid profile, and other metabolic problems associated with highly active antiretroviral therapy (HAART)-induced lipodystrophy and metabolic syndrome in HIV patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* At least 18 years old\n* Documented HIV infection\n* Exposed to at least 6 months of cumulative highly active antiretroviral medications for HIV\n* Developed fat depletion after starting HIV medications\n* Low leptin level in the blood\n* Fasting triglyceride level \\> 300 mg/dl\n\nExclusion Criteria:\n\n* Active infectious diseases, except HIV\n* Diabetes prior to starting HIV medications\n* Alcohol or drug abuse\n* Triglyceride level \\> 1000 mg/dl\n* Significant kidney, liver, or thyroid dysfunction\n* Cancer or lymphoma\n* Pregnancy or planning to become pregnant during the study",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Boston",
-   "country": "United States",
    "facility": "Beth Israel Deaconess Medical Center",
-   "lat": 42.35843,
-   "lon": -71.05977,
+   "city": "Boston",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.35843,
+   "lon": -71.05977
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00140244",

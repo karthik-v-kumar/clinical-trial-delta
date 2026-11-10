@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novartis Pharmaceuticals"
+  "name": "Novartis Pharmaceuticals",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Vildagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Glimepiride",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Vildagliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Vildagliptin"
-   ],
-   "label": "Vildagliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride"
-   ],
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "This study will use Continuous Glucose Monitoring to assess differences in glycemic profiles between vildagliptin and glimepiride.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes patients on stable metformin\n* 18-70 years old\n* Willing to perform at least 4 capillary blood glucose tests per day\n\nExclusion Criteria:\n\n* Type 2 diabetes patients on any other antidiabetic treatment\n* Patients listed in other trials\n* Patients with significant diabetic organ disease or complications.\n\nOther protocol-defined inclusion/exclusion criteria may apply",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "city": "Mainz",
-   "country": "Germany",
    "facility": "Novartis Investigative Site",
-   "lat": 49.98185,
-   "lon": 8.28008,
+   "city": "Mainz",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 49.98185,
+   "lon": 8.28008
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01262586",

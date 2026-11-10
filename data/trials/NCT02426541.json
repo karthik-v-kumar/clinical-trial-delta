@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2018-02-05",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Antaros Medical",
@@ -56,32 +56,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dapagliflozin",
    "other_names": [
     "Forxiga, Farxiga"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Dapagliflozin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ],
-   "label": "Dapagliflozin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "This is an 8-week, single centre, randomized, parallel-group, double-blind, placebo-controlled Phase IV study to evaluate the effect of dapagliflozin on tissue specific insulin sensitivity in patients with Type 2 diabetes mellitus",
  "eligibility": {
   "criteria": "Main Inclusion Criteria:\n\n1. Provision of signed informed consent prior to any study specific procedures.\n2. Female or male aged 35 to 70 years inclusive with suitable veins for cannulation or repeated venipuncture\n3. Type 2 Diabetes mellitus defined as HbA1c of ≥ 6.5% and ≤ 10.5%.\n4. Stable (≥ 3 months) T2D treatment with metformin and/or metformin+dipeptidyl peptidase-4 inhibitors (DPP-IV)\n5. Body mass index (BMI) ≤ 40 kg/m2.\n6. Female subjects must be of non-childbearing potential, meeting at least one of the following criteria:\n\n   1. Hysterectomized females\n   2. Postmenopausal women, defined as women who have not had a menstrual period within 1 year\n\nMain Exclusion Criteria:\n\n1. Any condition that is contraindicated with MRI such as, but not limited to, having a pacemaker or claustrophobia.\n2. Volume depleted patients. Patients at risk for volume depletion due to co-existing conditions or concomitant medications, such as loop diuretics should have careful monitoring of their volume status.\n3. Recent Cardiovascular Events in a patient:\n\n   * Acute Coronary Syndrome (ACS) within 2 months prior to enrolment\n   * Hospitalization for unstable angina or acute myocardial infarction within 2 months prior to enrolment\n   * Acute Stroke or Transient Ischemic Attack (TIA) within two months prior to enrolment\n   * Less than two months post coronary artery revascularization\n4. Congestive heart failure defined as New York Heart Association (NYHA) class IV, unstable or acute congestive heart failure.\n5. Blood pressure at enrolment: Systolic BP ≥165 mm Hg and/or diastolic BP ≥100 mm Hg\n6. Any clinically significant illness, medical or surgical procedure or trauma within 4 weeks of the first administration of the investigational product.\n7. On insulin, GLP-1 or other oral antidiabetic drug treatment (metformin or both metformin and DPP-IV allowed) or using other medications known to affect glucose metabolism.\n8. Any clinically significant abnormalities in physical examination, Electrocardiography (ECG) or clinical chemistry results as judged by the investigator. The following specific exclusion criteria apply to the selected Clinical Chemistry results:\n\n   1. Creatinine clearance \\<60mL/min (estimated with Cockroft-Gault formula).\n   2. Severe hepatic insufficiency and/or significant abnormal liver function defined as aspartate aminotransferase (AST) \\>3x upper limit of normal (ULN) and/or alanine aminotransferase (ALT) \\>3x ULN.\n   3. Total bilirubin (TB) \\>2.0 mg/dL (34.2 µmol/L).\n9. Body weight loss greater than 5% within 3 months prior to Visit 1.\n10. Previous PET scan\n11. History of or presence of (as found at Visit 1) any clinically significant disease, disorder or condition which, in the opinion of the investigator, may either put the subject at risk because of participation in the study, or influence the results or the subject's ability to participate in the study.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "35 Years",
   "sex": "ALL",
+  "minimum_age": "35 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "city": "Turku",
-   "country": "Finland",
    "facility": "Research Site",
-   "lat": 60.45148,
-   "lon": 22.26869,
+   "city": "Turku",
    "state": null,
-   "status": null
+   "country": "Finland",
+   "status": null,
+   "lat": 60.45148,
+   "lon": 22.26869
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02426541",

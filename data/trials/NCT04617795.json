@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "DEVICE_FEASIBILITY",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2025-04-18",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Insulet Corporation"
+  "name": "Insulet Corporation",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,25 +48,25 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Omnipod 5 Automated Insulin Delivery System",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Basal-Bolus (Group A)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Omnipod 5 Automated Insulin Delivery System"
-   ],
-   "label": "Basal-Bolus (Group A)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Basal (Group B)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Omnipod 5 Automated Insulin Delivery System"
-   ],
-   "label": "Basal (Group B)",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "The study subjects will be separated into 2 groups, depending on their previous insulin therapy with approximately 50% of subjects from each group, continuous glucose monitoring (CGM) naive.\n\nGroup A will complete a 2-week Standard Therapy Phase followed by 8 weeks of Omnipod 5 system use.\n\nGroup B will complete a 2-week Standard Therapy Phase followed by 10 weeks of Omnipod 5 system use.\n\nGroup A and Group B will have an optional 6-month extension of Omnipod 5 system use",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age at time of consent 18-75 years\n2. Diagnosed with type 2 diabetes on insulin therapy by injection: basal-bolus (12 subjects) or basal only (12 subjects) regimens\n3. A1C 8.0-12.0%\n4. Has not used an insulin pump within 3 months of screening\n5. Willing to use only the following types of insulin during the study: Humalog, Novolog, Admelog or Apidra during the study\n6. Maximum insulin dose of 200 units/day\n7. Stable doses over the last 4 weeks of other glucose-lowering medications as determined by Investigator\n8. Willing to wear the system continuously throughout the study\n9. Deemed appropriate for pump therapy per investigator's assessment considering previous history of severe hypoglycemic and hyperglycemic events, and other comorbidities\n10. Investigator has confidence that the subject has the cognitive ability and can successfully operate all study devices and can adhere to the protocol\n11. Must be willing to use the Dexcom App on the Omnipod 5 PDM as the sole source of Dexcom data (except for the Dexcom Follow App) during Automated Mode\n12. Subjects scoring ≥ 4 on the Clarke Questionnaire must agree to have an overnight companion, defined as someone who resides in the same home or building as the study subject and who can be available overnight\n13. Able to read and speak English fluently\n14. Willing and able to sign the Informed Consent Form (ICF)\n\nExclusion Criteria:\n\n1. A medical condition, which in the opinion of the investigator, would put the subject at an unacceptable safety risk\n2. Planned major surgery during the study\n3. History of severe hypoglycemia in the past 6 months\n4. History of diabetic ketoacidosis (DKA) in the past 6 months, unrelated to an intercurrent illness, infusion set failure or initial diagnosis\n5. Diagnosed with a blood dyscrasia or bleeding disorder\n6. Plans to receive blood transfusion over the course of the study\n7. Currently diagnosed with anorexia nervosa or bulimia\n8. Currently on hemodialysis\n9. History of adrenal insufficiency\n10. Has taken oral or injectable steroids within the past 8-weeks or plans to take oral or injectable steroids during the study\n11. Unable to tolerate adhesive tape or has any unresolved skin condition in sensor or pump placement\n12. Plans to use insulin other than U-100 insulin during the Omnipod 5 phase of the study\n13. Cardiac disease with functional status New York Heart Association Class III or IV or current or known history of coronary artery disease that is not stable with medical management, including unstable angina, or angina that prevents moderate exercise despite medical management, or a history of myocardial infarction, percutaneous coronary intervention, or coronary artery bypass grafting within the previous 12-months.\n14. Pregnant or lactating, or is a woman of childbearing potential and not on acceptable form of birth control (acceptable includes abstinence, condoms, oral/injectable contraceptives, IUD, or implant)\n15. Participation in another clinical study using an investigational drug or device other than the Omnipod 5 in the preceding 30-days or intends to participate during the study period\n16. Unable to follow clinical protocol for the duration of the study or is otherwise deemed unacceptable to participate in the study per the investigator's clinical judgment",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,40 +93,40 @@
  },
  "sites": [
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "University of California",
-   "lat": 34.05223,
-   "lon": -118.24368,
+   "city": "Los Angeles",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.05223,
+   "lon": -118.24368
   },
   {
-   "city": "Atlanta",
-   "country": "United States",
    "facility": "Atlanta Diabetes",
-   "lat": 33.749,
-   "lon": -84.38798,
-   "state": "Georgia",
-   "status": null
-  },
-  {
    "city": "Atlanta",
-   "country": "United States",
-   "facility": "Emory University",
-   "lat": 33.749,
-   "lon": -84.38798,
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.749,
+   "lon": -84.38798
   },
   {
-   "city": "Saint Louis Park",
+   "facility": "Emory University",
+   "city": "Atlanta",
+   "state": "Georgia",
    "country": "United States",
+   "status": null,
+   "lat": 33.749,
+   "lon": -84.38798
+  },
+  {
    "facility": "International Diabetes Center",
-   "lat": 44.9483,
-   "lon": -93.34801,
+   "city": "Saint Louis Park",
    "state": "Minnesota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.9483,
+   "lon": -93.34801
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04617795",

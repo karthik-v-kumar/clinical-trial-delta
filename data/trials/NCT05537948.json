@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER_GOV",
-  "name": "National Medical Research Center for Therapy and Preventive Medicine"
+  "name": "National Medical Research Center for Therapy and Preventive Medicine",
+  "class": "OTHER_GOV"
  },
  "collaborators": [],
  "conditions": [
@@ -56,30 +56,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Pitavastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "PCSK9 inhibitor",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "pitavastatin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pitavastatin"
-   ],
-   "label": "pitavastatin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "PCSK9 Inhibitors",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: PCSK9 inhibitor"
-   ],
-   "label": "PCSK9 Inhibitors",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "To study the efficacy and safety of pitavastatin and PCSK9 inhibitors in liver transplant patients on ongoing immunosuppressive therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* signed informed consent to participate in the study;\n* a history of liver transplantation for any reason;\n* immunosuppressive therapy;\n* the presence of hyperlipidemia, requiring the prescription of lipid-lowering therapy according to the clinical guidelines of the European Society for the Study of Atherosclerosis (EAS) 2019\n* failure to achieve the target level of LDL-C against the background of current lipid-lowering therapy;\n* if the patient within 1 month before randomization took lipid-lowering therapy, then the absence of side effects against the background of previous lipid-lowering therapy.\n\nExclusion Criteria:\n\n* treatment with PCSK9 in previous 6 months;\n* current treatment in the form of lipoprotein apheresis;\n* heart failure IV NYHA;\n* active infectious disease, severe hematological, metabolic, gastrointestinal or endocrine dysfunctions (for example, uncontrolled thyroid dysfunction) at the time of the screening or randomization visits;\n* the presence of an oncological disease, with the exception of hepatocellular carcinoma, which served as the reason for liver transplantation;\n* CFR\\<15ml/min/1,73m2;\n* pregnancy and breastfeeding.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "city": "Moscow",
-   "country": "Russia",
    "facility": "National Medical Research Centre for Therapy and Preventive Medicine of the Ministry of Health of Russia",
-   "lat": 55.75204,
-   "lon": 37.61781,
+   "city": "Moscow",
    "state": null,
-   "status": null
+   "country": "Russia",
+   "status": null,
+   "lat": 55.75204,
+   "lon": 37.61781
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05537948",

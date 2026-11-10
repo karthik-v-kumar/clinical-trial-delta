@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Campania Luigi Vanvitelli"
+  "name": "University of Campania Luigi Vanvitelli",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,43 +51,43 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Incretin Effect",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Cardiac Resynchronization therapy defibrillator device",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "SGLT-2 inhibitor",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "incretin arm",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Incretin Effect",
     "Device: Cardiac Resynchronization therapy defibrillator device"
-   ],
-   "label": "incretin arm",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "conventional hypoglycemic drug arm",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Device: Cardiac Resynchronization therapy defibrillator device"
-   ],
-   "label": "conventional hypoglycemic drug arm",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Incretin added to SGLT2i",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: SGLT-2 inhibitor"
-   ],
-   "label": "Incretin added to SGLT2i",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -103,10 +103,10 @@
  "brief_summary": "Incretin therapy and sodium-glucose- transporter2 inhibitors (SGLT2i) are a treatment for type 2 diabetes (T2DM) affected by heart failure (HF) and treated with cardiac resynchromization therapy (CRT). In this study the investigators will recruit T2DM patients affected by HF with depressed ejection fraction and treated by CRT. These patients will randomly be treated by incretin v/s SGLT2i vs combined therapy with incretin+SGLT2i (and added to conventional hypoglicemic drugs). In these patients investigators will report at follow up CRT-d responders rate, mortality, and hospital admission for HF worsening. Combined therapy with incretin and SGLT2i may reduce hospital admissions for HF in T2DM v/s incretin and/or SGLT2i therapy (added to conventional hypoglicemic drugs).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* aged more than 18 years, with clinical hystory of T2DM non insulin dependent, and diagnosed failing heart with depressed ejection fraction; CRTd recipients.\n\nExclusion Criteria:\n\n* T2DM in insuline therapy; renal impairment, chronic inflammatory and systemic diseases; neoplastic diseases.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -114,13 +114,13 @@
  },
  "sites": [
   {
-   "city": "Naples",
-   "country": "Italy",
    "facility": "Raffaele Marfella",
-   "lat": 40.85216,
-   "lon": 14.26811,
+   "city": "Naples",
    "state": "Italy",
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 40.85216,
+   "lon": 14.26811
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03282136",

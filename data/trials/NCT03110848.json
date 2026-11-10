@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "INVESTIGATOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Pisa"
+  "name": "University of Pisa",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,35 +51,35 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Atorvastatin",
    "other_names": [
     "Statins"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Methylprednisolone",
    "other_names": [
     "Intravenous glucocorticoids"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Statins",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin",
     "Drug: Methylprednisolone"
-   ],
-   "label": "Statins",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "No statins",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Methylprednisolone"
-   ],
-   "label": "No statins",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Graves' orbitopathy (GO) is the most common extra-thyroidal manifestation of Graves' disease (GD), being observed in \\~25% of patients. Besides genetic and demographical variables, risk factors associated with the development of GO in GD patients are known to be inadequate control of hyperthyroidism, radioiodine treatment, and smoking. In a large retrospective study conducted in more than 8,000 individuals with GD it was observed that treatment with 3-hydroxy-3-methylglutaryl-coenzyme reductase inhibitors, better known as statins, is associated with a \\~40% reduced risk of developing GO in GD patients. The findings were interpreted as the consequence of the anti-inflammatory action of statins, being GO notoriously an autoimmune, inflammatory conditions.\n\nStatins are widely used for the treatment of hypercholesterolemia, for which they are quite effective. The possibility that their \"protective\" effect in terms of GO development in GD patients, as observed by Stein et al., was simply due to their hypolipemic actions was not considered. To evaluate the possibility that the findings reflected lowering of cholesterol rather than a direct anti-inflammatory effect of statins a prospective, observational study to assess the association between GO and high cholesterol levels and/or the relationship between the degree and/or activity of GO and hypercholesterolemia is ongoing. Preliminary findings suggest that GO is more severe and active in patients with high cholesterol levels. On the basis of these observations, the present randomized clinical trial was designed to be performed in hypercholesterolemic patients with GD and moderate-to-severe and active GO, aimed at investigating if lowering of cholesterol levels with statins is associated with a better outcome of GO.",
  "eligibility": {
   "criteria": "1. Informed consent\n2. A diagnosis of Graves' disease\n3. A moderately severe GO\n4. Active GO\n5. No corticosteroids or immunosuppressive treatment for GO in the last 3 months.\n6. No previous surgical treatment for GO\n7. No contraindication to GC\n8. Male and female patients of age: 18-75 years\n9. LDL-cholesterol levels of 115-189 mg/dl\n10. No more than one cardiovascular risk factor (diabetes, high blood pressure, smoking, familial history of acute cardiovascular events, obesity)\n11. Effective method of contraception\n12. No mental illness that prevent patients from comprehensive, written informed consent\n13. Compliant patient, regular follow-up possible\n\nExclusion Criteria:\n\n1. lack of informed consent\n2. Absence of Graves' hyperthyroidism (present or past)\n3. Inactive GO\n4. Optic neuropathy\n5. Corticosteroids or immunosuppressive treatment for GO in the last 3 months.\n6. Previous surgical treatment for GO\n7. Contraindications to GC\n8. Pregnancy, breast-feeding women\n9. Acute or chronic liver disease\n10. Hypersensitivity to atorvastatin or other statins, or hypersensitivity or intolerance to the medication excipients such as lactose.\n11. Medications interfering/interacting with statins (CYP3A4 inhibitors or inductors)\n12. Relevant Malignancy\n13. Corticosteroids or other immunosuppressive agents within last 3 months\n14. Recent (≤1 year) history of alcoholism or drug abuse\n15. Clinical ASCVD (AthroSclerotic CardioVascular Disease)\n16. LDL-cholesterol levels ≥190 mg/dl or presence of more than one associated cardiovascular risk factor (diabetes, high blood pressure, smoking, familial history of acute cardiovascular events, obesity)\n17. Severe familial hyperlipemia",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "city": "Pisa",
-   "country": "Italy",
    "facility": "Ospedale Cisanello-Endocrinology I and II",
-   "lat": 43.70853,
-   "lon": 10.4036,
+   "city": "Pisa",
    "state": null,
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 43.70853,
+   "lon": 10.4036
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03110848",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Chong Kun Dang Pharmaceutical"
+  "name": "Chong Kun Dang Pharmaceutical",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "empagliflozin 10mg",
    "other_names": [
     "Empamax 10mg"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Glimepiride 1mg",
    "other_names": [
     "Amaryl 1mg"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Expermental group 1",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: empagliflozin 10mg"
-   ],
-   "label": "Expermental group 1",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Expermental group 2",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glimepiride 1mg"
-   ],
-   "label": "Expermental group 2",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of Empagliflozin or Glimepiride Combination Therapy in Type 2 Diabetes Mellitus Patients",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Over 19 years old\n* Type 2 diabetes mellitus\n* Patient who has been taking oral hypoglycemic agents for over 8 weeks\n* Agreement with written informed consent\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus or secondary diabetes mellitus\n* Patients with complications of severe diabetes such as proliferative diabetic retinopathy\n* Patients with genetic problems such as galactose intolerance, Lapp lactase deficiency or glucose-galactose malabsorption\n* Patients with abnormal laboratory test results according to the protocol\n* Continuous or non-continuous treatment with insulin for over 7 days within 12 weeks prior to screening\n* History of treatment with corticosteroids within 4 weeks prior to screening",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Kyung Hee University Hospital at Gangdong",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07365358",

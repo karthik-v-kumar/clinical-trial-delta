@@ -15,8 +15,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -40,8 +40,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Peking University Aerospace Center Hospital"
+  "name": "Peking University Aerospace Center Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -49,37 +49,37 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "BMMCT",
    "other_names": [
     "Bone marrow mononuclear cell transplantation"
-   ],
-   "type": "OTHER"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [],
    "label": "Oral medication treatment",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   },
   {
-   "intervention_names": [
-    "Other: BMMCT"
-   ],
    "label": "Oral medication plus BMMCT",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [],
-   "label": "Oral medication plus insulin treatment",
-   "type": "NO_INTERVENTION"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: BMMCT"
-   ],
+   ]
+  },
+  {
+   "label": "Oral medication plus insulin treatment",
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
+  },
+  {
    "label": "Oral medication plus insulin plus BMMCT",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Other: BMMCT"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "The study is aimed to evaluate the safety and efficiency of autologous bone marrow mononuclear cell transplantation in treating selective patients with type 2 Diabetes Mellitus. We hypothesized that autologous bone marrow stem cell transplantation would promote β-cells regeneration by directly differentiated from the transplanted BMMCs or stimulate local stem cells regeneration and thus decrease or eliminate the need of exogenous insulin and improve β-cells function.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus\n* age 30-70\n* stable doses of medication for at least 3 months\n* BMI \\<35 and \\>18.5\n\nExclusion Criteria:\n\n* secondary cause for hyperglycemia\n* pregnancy or nursing\n* positive autoimmune antibody of diabetes\n* severe complication or concurrent diseases\n* active infection or febrile illness\n* allergy to iodine\n* history or signs of aortic aneurysm\n* history or active pancreatic diseases\n* known substance abuse or alcoholism or heavy smoking\n* not suitable for other conditions upon investigators' expertise",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Division of Hematology and Endocrinology, Peking University Aerospace Centre Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
+   "city": "Beijing",
    "state": "Beijing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01677013",

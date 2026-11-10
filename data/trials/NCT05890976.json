@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Semaglutide Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Semaglutide 50 mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ],
-   "label": "Semaglutide 50 mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Semaglutide Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide Placebo"
-   ],
-   "label": "Semaglutide Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "This study is being conducted to see if semaglutide tablets can be used as a treatment to help people who are above a healthy weight range to lose weight. Semaglutide tablets are a new medicine being tested to treat people living with excess body weight. Participants will either get semaglutide or placebo once daily morning for 44 weeks.\n\nIn addition to taking the medicine, participants will have talks with study staff about:\n\n* Healthy food choices\n* How to be more physically active\n* What participants can do to lose weight This study will last for about 1 year.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Informed consent obtained before any study-related activities. Study-related activities are any procedures that are carried out as part of the study, including activities to determine suitability for the study.\n* Male or female, age greater than or equal to 18 years at the time of signing informed consent.\n* Body mass index (BMI) of\n\n  1. greater than or equal to 28.0 kilogram per meter square (kg/m\\^2) or\n  2. greater than or equal to 24.0 kg/m\\^2 with greater than or equal to 1 weight-related comorbidity (treated or untreated). Weight-related comorbidities should be hypertension, T2D, dyslipidaemia, obstructive sleep apnoea or cardiovascular disease.\n* History of at least one self-reported unsuccessful dietary effort to lose body weight.\n\nFor participants with T2D at screening the following inclusion criteria apply in addition to criteria 1- 4:\n\n* Diagnosed with T2D greater than or equal to 180 days prior to screening.\n* Treated with either diet and exercise alone or stable treatment (same drug(s) or active ingredient, dose and dosing frequency) for at least 60 days prior to the day of screening with up to 3 oral antidiabetic drugs (OAD)s alone or in any combination (metformin, α-glucosidase (AGI), sulphonylureas (SU), glinides, SGLT2i (sodium-glucose co-transporter 2 inhibitor) or glitazone).\n* HbA1c 7.0 - 10.0 percent (53 - 86 millimoles per mole \\[mmol/mol\\]) (both inclusive) as measured by central laboratory at screening.\n\nExclusion Criteria:\n\nParticipants without T2D at screening:\n\n* HbA1c greater than or equal to 6.5 percent (48 mmol/mol) as measured by the central laboratory at screening.\n* History of type 1 or type 2 diabetes.\n* Treatment with glucose-lowering agent(s) within 90 days prior to screening.\n\nParticipants with T2D at screening:\n\n* Uncontrolled and potentially unstable diabetic retinopathy or maculopathy. Verified by a fundus examination performed by an ophthalmologist or another suitably qualified health care provider within the past 90 days prior to screening or in the period between screening and randomisation. Pharmacological pupil-dilation is a requirement unless using a digital fundus photography camera specified for non-dilated examination.\n* Renal impairment measured as estimated glomerular filtration rate (eGFR) value of lesser than 30 milli litre per min/1.73 square metre (mL/min/1.73 m\\^2) according to Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) creatinine equation as defined by Kidney Disease Improving Global Outcomes (KDIGO) 2012 classification by the central laboratory at screening.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,148 +104,148 @@
  },
  "sites": [
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Beijing Friendship Hospital, Capital Medical University-Endocrinology",
-   "lat": 39.9075,
-   "lon": 116.39723,
-   "state": "Beijing Municipality",
-   "status": null
-  },
-  {
    "city": "Beijing",
-   "country": "China",
-   "facility": "Peking University People's Hospital-Endocrinology",
-   "lat": 39.9075,
-   "lon": 116.39723,
    "state": "Beijing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
   },
   {
-   "city": "Chongqing",
+   "facility": "Peking University People's Hospital-Endocrinology",
+   "city": "Beijing",
+   "state": "Beijing Municipality",
    "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
+  },
+  {
    "facility": "Chongqing University Three Gorges Hospital",
-   "lat": 29.56026,
-   "lon": 106.55771,
+   "city": "Chongqing",
    "state": "Chongqing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 29.56026,
+   "lon": 106.55771
   },
   {
-   "city": "Huizhou",
-   "country": "China",
    "facility": "Huizhou Central People's Hospital-Endocrinology",
-   "lat": 23.11147,
-   "lon": 114.41523,
+   "city": "Huizhou",
    "state": "Guangdong",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 23.11147,
+   "lon": 114.41523
   },
   {
-   "city": "Kaifeng",
-   "country": "China",
    "facility": "Huaihe Hospital of Henan University-Endocrinology",
+   "city": "Kaifeng",
+   "state": "Henan",
+   "country": "China",
+   "status": null,
    "lat": 34.7986,
-   "lon": 114.30742,
-   "state": "Henan",
-   "status": null
+   "lon": 114.30742
   },
   {
-   "city": "Luoyang",
-   "country": "China",
    "facility": "The First Affiliated Hospital of Henan University of Science and Technology",
-   "lat": 34.67345,
-   "lon": 112.43684,
+   "city": "Luoyang",
    "state": "Henan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 34.67345,
+   "lon": 112.43684
   },
   {
-   "city": "Shiyan",
-   "country": "China",
    "facility": "Taihe Hospital-Endocrinology",
-   "lat": 32.6475,
-   "lon": 110.77806,
+   "city": "Shiyan",
    "state": "Hubei",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 32.6475,
+   "lon": 110.77806
   },
   {
-   "city": "Changde",
-   "country": "China",
    "facility": "The First People's Hospital of Changde City-Endocrinology",
-   "lat": 29.03205,
-   "lon": 111.69844,
+   "city": "Changde",
    "state": "Hunan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 29.03205,
+   "lon": 111.69844
   },
   {
-   "city": "Changzhou",
-   "country": "China",
    "facility": "Changzhou No.2 People's Hospital",
+   "city": "Changzhou",
+   "state": "Jiangsu",
+   "country": "China",
+   "status": null,
    "lat": 31.77359,
-   "lon": 119.95401,
-   "state": "Jiangsu",
-   "status": null
+   "lon": 119.95401
   },
   {
-   "city": "Nanjing",
-   "country": "China",
    "facility": "The Second Affiliated Hospital of Nanjing Medical University",
+   "city": "Nanjing",
+   "state": "Jiangsu",
+   "country": "China",
+   "status": null,
    "lat": 32.06167,
-   "lon": 118.77778,
-   "state": "Jiangsu",
-   "status": null
+   "lon": 118.77778
   },
   {
-   "city": "Zhenjiang",
-   "country": "China",
    "facility": "The Affiliated Hospital of Jiangsu University",
-   "lat": 32.21086,
-   "lon": 119.45508,
+   "city": "Zhenjiang",
    "state": "Jiangsu",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 32.21086,
+   "lon": 119.45508
   },
   {
+   "facility": "Jinan Central Hospital",
    "city": "Ji'nan",
+   "state": "Shandong",
    "country": "China",
-   "facility": "Jinan Central Hospital",
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": "Shandong",
-   "status": null
+   "lon": null
   },
   {
-   "city": "Jinan",
-   "country": "China",
    "facility": "Jinan Central Hospital",
-   "lat": 36.66833,
-   "lon": 116.99722,
+   "city": "Jinan",
    "state": "Shandong",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 36.66833,
+   "lon": 116.99722
   },
   {
-   "city": "Shanghai",
-   "country": "China",
    "facility": "Huashan Hospital Fudan University-Endocrinology",
-   "lat": 31.22222,
-   "lon": 121.45806,
-   "state": "Shanghai Municipality",
-   "status": null
-  },
-  {
    "city": "Shanghai",
-   "country": "China",
-   "facility": "Shanghai Pudong New Area People's Hospital-Endocrinology",
-   "lat": 31.22222,
-   "lon": 121.45806,
    "state": "Shanghai Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 31.22222,
+   "lon": 121.45806
   },
   {
-   "city": "Tianjin",
+   "facility": "Shanghai Pudong New Area People's Hospital-Endocrinology",
+   "city": "Shanghai",
+   "state": "Shanghai Municipality",
    "country": "China",
+   "status": null,
+   "lat": 31.22222,
+   "lon": 121.45806
+  },
+  {
    "facility": "General Hospital of Tianjin Medical University-Endocrinology",
-   "lat": 39.14222,
-   "lon": 117.17667,
+   "city": "Tianjin",
    "state": "Tianjin Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.14222,
+   "lon": 117.17667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05890976",

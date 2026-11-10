@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "PREVENTION",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "The George Institute"
+  "name": "The George Institute",
+  "class": "OTHER"
  },
  "collaborators": [
   "The University of New South Wales",
@@ -57,30 +57,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dapagliflozin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Dapagliflozin 10mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Dapagliflozin"
-   ],
-   "label": "Dapagliflozin 10mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Metformin XR 2000mg",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ],
-   "label": "Metformin XR 2000mg",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "The aim of the trial is to evaluate the effects of the SGLT2 inhibitor, dapagliflozin, compared to metformin on annual decline in eGFR when used as first line therapy in people with Type 2 Diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of T2D;\n* Aged ≥18 years;\n* Body mass index \\> 18.5 kg/m2;\n* Drug naïve, or managed with metformin monotherapy and willing to be randomised to either dapagliflozin or metformin;\n* eGFR ≥45 ml/min/1,73m2; and\n* Signed informed consent.\n\nExclusion Criteria:\n\n* Have an immediate need for rapid intensification of glucose lowering therapy due to marked hyperglycaemia; or\n* There is a definite indication for, or contraindication to, either metformin or SGLT2 inhibitor; or\n* They have clearly documented coronary artery disease (defined as a previous acute coronary syndrome, coronary stent or bypass surgery) or clearly documented heart failure (defined on the basis of a hospital admission, specialist diagnosis or an echocardiogram or other imaging modality); or\n* Pregnant or breast-feeding.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,76 +103,76 @@
  },
  "sites": [
   {
+   "facility": "The George Institute for Global Health",
    "city": "Sydney",
-   "country": "Australia",
-   "facility": "The George Institute for Global Health",
-   "lat": -33.86785,
-   "lon": 151.20732,
    "state": "New South Wales",
-   "status": "RECRUITING"
+   "country": "Australia",
+   "status": "RECRUITING",
+   "lat": -33.86785,
+   "lon": 151.20732
   },
   {
-   "city": "Brisbane",
-   "country": "Australia",
    "facility": "The George Institute for Global Health",
-   "lat": -27.46794,
-   "lon": 153.02809,
+   "city": "Brisbane",
    "state": "Queensland",
-   "status": "RECRUITING"
-  },
-  {
-   "city": "Melbourne",
    "country": "Australia",
+   "status": "RECRUITING",
+   "lat": -27.46794,
+   "lon": 153.02809
+  },
+  {
    "facility": "Monash University",
-   "lat": -37.814,
-   "lon": 144.96332,
+   "city": "Melbourne",
    "state": "Victoria",
-   "status": "RECRUITING"
+   "country": "Australia",
+   "status": "RECRUITING",
+   "lat": -37.814,
+   "lon": 144.96332
   },
   {
-   "city": "Colombo",
-   "country": "Sri Lanka",
    "facility": "National Hospital of Sri Lanka 1",
-   "lat": 6.93548,
-   "lon": 79.84868,
-   "state": null,
-   "status": "RECRUITING"
-  },
-  {
    "city": "Colombo",
+   "state": null,
    "country": "Sri Lanka",
-   "facility": "National Hospital of Sri Lanka 2",
+   "status": "RECRUITING",
    "lat": 6.93548,
-   "lon": 79.84868,
-   "state": null,
-   "status": "NOT_YET_RECRUITING"
+   "lon": 79.84868
   },
   {
-   "city": "Jaffna",
+   "facility": "National Hospital of Sri Lanka 2",
+   "city": "Colombo",
+   "state": null,
    "country": "Sri Lanka",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 6.93548,
+   "lon": 79.84868
+  },
+  {
    "facility": "Jaffna Teaching Hospital",
+   "city": "Jaffna",
+   "state": null,
+   "country": "Sri Lanka",
+   "status": "RECRUITING",
    "lat": 9.66845,
-   "lon": 80.00742,
-   "state": null,
-   "status": "RECRUITING"
+   "lon": 80.00742
   },
   {
-   "city": "Kandy",
-   "country": "Sri Lanka",
    "facility": "Kandy National Hospital",
-   "lat": 7.2906,
-   "lon": 80.6336,
+   "city": "Kandy",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Sri Lanka",
+   "status": "RECRUITING",
+   "lat": 7.2906,
+   "lon": 80.6336
   },
   {
-   "city": "Galle",
-   "country": "Sri Lanka",
    "facility": "National Hospital - Galle",
-   "lat": 6.0461,
-   "lon": 80.2103,
+   "city": "Galle",
    "state": "Southern Province",
-   "status": "NOT_YET_RECRUITING"
+   "country": "Sri Lanka",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 6.0461,
+   "lon": 80.2103
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05345327",

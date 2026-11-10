@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Medical University of Vienna"
+  "name": "Medical University of Vienna",
+  "class": "OTHER"
  },
  "collaborators": [
   "Austrian Science Fund (FWF)",
@@ -60,32 +60,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Simvastatin",
    "other_names": [
     "Zocord"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Simvastatin"
-   ],
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -97,10 +97,10 @@
  "brief_summary": "We aimed to address the issue whether statins affect insulin resistance. To this end, we combined the available state-of-the art technology for detailed assessment of both whole-body and tissue specific insulin sensitivity in vivo in humans (euglycemic-hyperinsulinemic clamp, stable isotope \\[6,6-2H2\\]glucose dilution technique, proton nuclear magnetic resonance spectroscopy - 1H MRS - of liver and skeletal muscle). Outcome measures were determined before and after 8 weeks therapy with 80 mg Simvastatin in hypercholesterolemic patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetic patients with known duration of disease: 3-10 years\n* Age: 35-75 years\n* BMI\\<32 kg/m2\n* Hypercholesterolemia: fasting serum low density lipoprotein (LDL)\n* Cholesterol concentration \\< 4.16 mmol/L (\\<160 mg/dl)\n* Normotriglyceridemia: fasting plasma triglyceride concentration \\< 2.75 mmol/L (250 mg/dl)\n* Creatinine levels \\< 1.8 mg /dl\n* Liver transaminases \\< 20% over the upper limit with no active liver disease and CK \\< 50% above the upper limit\n* Blood pressure less than 160/100 mmHg were accepted as eligible for enrollment\n\nExclusion Criteria:\n\n* Hypertension, cardiovascular disease or metabolic diseases other than T2DM as determined by medical history, physical examination and routine laboratory tests\n* Alcohol consumption (more than 10 drinks/week)\n* Poor glycemic control (HbA1c\\<9%)\n* Patients requiring insulin, patients with type 1 diabetes\n* Patients taking any medicine known to interfere with metabolism of statins or with insulin sensitivity as summarized in an exclusionary drug table\n* Patients receiving any hypolipidemic medication or diet during the last 2 months before enrollment",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "21 Years",
   "sex": "ALL",
+  "minimum_age": "21 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -108,13 +108,13 @@
  },
  "sites": [
   {
-   "city": "Vienna",
-   "country": "Austria",
    "facility": "Medical University of Vienna",
-   "lat": 48.20849,
-   "lon": 16.37208,
+   "city": "Vienna",
    "state": "State of Vienna",
-   "status": null
+   "country": "Austria",
+   "status": null,
+   "lat": 48.20849,
+   "lon": 16.37208
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00704314",

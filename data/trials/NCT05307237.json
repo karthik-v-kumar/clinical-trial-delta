@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Scripps Whittier Diabetes Institute"
+  "name": "Scripps Whittier Diabetes Institute",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Dexcom G6 Continous Glucose Monitoring Management",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Usual Care - Blinded Continuous Glucose Monitoring Management",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Continuous Glucose Monitoring",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Dexcom G6 Continous Glucose Monitoring Management"
-   ],
-   "label": "Continuous Glucose Monitoring",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Usual Care",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: Usual Care - Blinded Continuous Glucose Monitoring Management"
-   ],
-   "label": "Usual Care",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Given the known serious consequences of uncontrolled blood sugars during hospitalization, this research plans to study an alternative seamlessly integrated continuous glucose monitoring (CGM) system in the hospital to test a dynamic and digitized, team-based approach to glucose management in an underserved and understudied, yet high-risk population. A digital dashboard will facilitate real-time, remote monitoring of a large volume of patients simultaneously; automatically identify and prioritize patients for intervention; and will detect any and all potentially dangerous hypoglycemic episodes in a hospital environment. The study will focus on clinical metrics of glucose control and infection that are in-line with patient priorities and US hospital quality initiatives.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Documented previous or current Type 2 Diabetes (T2D) diagnosis as defined by either diagnosis in the chart or an HbA1c \\> or = to 6.5% in the last 90 days\n* Either on subcutaneous (SQ) insulin orders, or greater than two serum or Point of Care (POC) glucose \\> or = 200 mg/dL in most recent 24 hours of admission\n\nExclusion Criteria:\n\n* Anticipated length of stay \\< 24 hours;\n* Current or anticipated ICU placement;\n* Does not speak English or Spanish;\n* Known allergy to adhesives;\n* Current participation in any medication or device research study;\n* Pregnant;\n* Any other condition that Multiple Principal Investigator (MPI) Philis-Tsimikas or the attending physician deems contraindicated",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "city": "Chula Vista",
-   "country": "United States",
    "facility": "Scripps Mercy Hospital",
-   "lat": 32.64005,
-   "lon": -117.0842,
+   "city": "Chula Vista",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.64005,
+   "lon": -117.0842
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05307237",

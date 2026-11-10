@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2014-03-18",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Merck Sharp & Dohme LLC"
+  "name": "Merck Sharp & Dohme LLC",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,11 +51,12 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "MK-0893",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage",
@@ -63,51 +64,50 @@
     "Glumetza",
     "Fortamet",
     "Riomet"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: MK-0893",
-    "Drug: Placebo"
-   ],
    "label": "MK-0893 (40 mg)",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: MK-0893",
     "Drug: Placebo"
-   ],
-   "label": "MK-0893 (120 mg)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "MK-0893 (120 mg)",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: MK-0893",
+    "Drug: Placebo"
+   ]
+  },
+  {
+   "label": "Metformin (2000 mg)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin",
     "Drug: Placebo"
-   ],
-   "label": "Metformin (2000 mg)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -127,10 +127,10 @@
  "brief_summary": "This study will assess the safety, tolerability and glucose-lowering efficacy of MK-0893 in participants with type 2 diabetes mellitus. The primary hypothesis is that MK-0893 will reduce 24-hour weighted mean glucose (WMG) significantly more than placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Not currently on antihyperglycemic agent (AHA) or AHA monotherapy (not to include treatment with insulin or thiazolidinediones \\[i.e., peroxisome proliferator activated receptor-gamma, PPARγ agents\\])\n* male or a female of non-childbearing potential. Women must be postmenopausal or premenopausal and documented surgically sterilized\n* A body mass index (BMI) that is \\> 20 and ≤ 40 kg/m2\n\nExclusion Criteria:\n\n* History of type 1 diabetes or assessed by the investigator as possibly having type 1 diabetes\n* History of ketoacidosis; clinically unstable or rapidly progressive diabetic retinopathy, nephropathy, neuropathy\n* Treatment for diabetes within 3 months of study participation with combination anti-hyperglycemic therapy, insulin or thiazolidinediones (e.g., rosiglitazone or pioglitazone)\n* oral corticosteroid medications within 2 weeks prior to study participation, or requires digoxin, warfarin, warfarin-like anticoagulants, theophylline, anti-dysrhythmic or anti-seizure medications, immunosuppressants, or anti-neoplastic agents, or herbal remedies\n* History of acquired immunodeficiency syndrome (AIDS) or human immunodeficiency virus (HIV)\n* History of gastrointestinal problems or disorders or extensive bowel or gastric surgery\n* History of significant or unstable cardiovascular disease\n* History of neoplastic disease\n* History of hepatic disease\n* History of seizures, epilepsy or other neurologic disease\n* History of myelodysplastic or pre-leukemic disorders or other severe hematological disorder",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "21 Years",
   "sex": "ALL",
+  "minimum_age": "21 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

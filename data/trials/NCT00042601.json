@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Pramlintide acetate",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Pramlintide",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Pramlintide acetate"
-   ],
-   "label": "Pramlintide",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This is a single center, randomized, blinded, placebo-controlled, two-period, cross-over study to evaluate the effect of pramlintide on satiety and food intake in normal-weight and obese non-diabetic subjects and in insulin-treated subjects with type 1 and type 2 diabetes.",
  "eligibility": {
   "criteria": "For Healthy Volunteers:\n\n•BMI \\>=20 to \\<=25kg/m2 or \\>=30 to \\<=40 kg/m2\n\nFor Subjects with Type 1 or Type 2 Diabetes:\n\n* Treated with insulin for at least 6 months prior to screening\n* HbA1c value between 6.5-10% inclusive\n* BMI between 20-40kg/m2",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "MALE",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "city": "Adelaide",
-   "country": "Australia",
    "facility": "Royal Adelaide Hospital",
-   "lat": -34.92866,
-   "lon": 138.59863,
+   "city": "Adelaide",
    "state": "South Australia",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -34.92866,
+   "lon": 138.59863
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00042601",

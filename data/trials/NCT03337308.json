@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2020-04-08",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Esperion Therapeutics, Inc."
+  "name": "Esperion Therapeutics, Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,66 +53,66 @@
  ],
  "interventions": [
   {
+   "type": "COMBINATION_PRODUCT",
    "name": "Bempedoic Acid + Ezetimibe Fixed-Dose Combination",
    "other_names": [
     "Bempedoic Acid + Zetia FDC",
     "ETC-1002 + Zetia"
-   ],
-   "type": "COMBINATION_PRODUCT"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Bempedoic Acid",
    "other_names": [
     "ETC-1002"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Ezetimibe",
    "other_names": [
     "Zetia"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebos",
    "other_names": [
     "Placebo"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "BA 180 mg + EZE 10 mg FDC",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Combination Product: Bempedoic Acid + Ezetimibe Fixed-Dose Combination",
     "Drug: Placebos"
-   ],
-   "label": "BA 180 mg + EZE 10 mg FDC",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "BA 180 mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Bempedoic Acid",
     "Drug: Placebos"
-   ],
-   "label": "BA 180 mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "EZE 10 mg",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe",
     "Drug: Placebos"
-   ],
-   "label": "EZE 10 mg",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebos",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebos"
-   ],
-   "label": "Placebos",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -124,10 +124,10 @@
  "brief_summary": "The purpose of this study is to determine if Bempedoic Acid (BA) + Ezetimibe (EZE) in a fixed-dose combination (FDC) is effective and safe versus its individual components and placebo in patients with elevated LDL cholesterol treated with maximally tolerated statin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Require lipid-modifying therapy for primary or secondary prevention of cardiovascular disease\n* Fasting LDL-C ≥ 130 mg/dL for primary prevention or LDL-C ≥ 100 mg/dL for secondary prevention (history of HeFH and/or ASCVD)\n* Treated with maximally tolerated statin therapy at stable dose for at least 4 weeks prior to screening\n\nExclusion Criteria:\n\n* Total Fasting Triglyceride ≥ 400 mg/dL\n* Renal Dysfunction or nephrotic syndrome or history of nephritis\n* Significant cardiovascular disease or cardiovascular event within the past 3 months",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -135,49 +135,49 @@
  },
  "sites": [
   {
-   "city": "Ames",
-   "country": "United States",
    "facility": "PMG Research of McFarland",
-   "lat": 42.03471,
-   "lon": -93.61994,
+   "city": "Ames",
    "state": "Iowa",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.03471,
+   "lon": -93.61994
   },
   {
-   "city": "Nashua",
-   "country": "United States",
    "facility": "Foundation Cardiology",
-   "lat": 42.76537,
-   "lon": -71.46757,
+   "city": "Nashua",
    "state": "New Hampshire",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.76537,
+   "lon": -71.46757
   },
   {
-   "city": "Statesville",
-   "country": "United States",
    "facility": "PMG Research of Piedmont Healthcare",
+   "city": "Statesville",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 35.78264,
-   "lon": -80.8873,
-   "state": "North Carolina",
-   "status": null
+   "lon": -80.8873
   },
   {
-   "city": "Wilmington",
-   "country": "United States",
    "facility": "PMG Research of Wilmington",
-   "lat": 34.23556,
-   "lon": -77.94604,
+   "city": "Wilmington",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.23556,
+   "lon": -77.94604
   },
   {
-   "city": "Knoxville",
-   "country": "United States",
    "facility": "PMG Research of Knoxville",
-   "lat": 35.96064,
-   "lon": -83.92074,
+   "city": "Knoxville",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.96064,
+   "lon": -83.92074
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03337308",

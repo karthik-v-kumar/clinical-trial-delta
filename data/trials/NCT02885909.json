@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Taichung Veterans General Hospital"
+  "name": "Taichung Veterans General Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,36 +48,36 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "CONTINUE GLUCOSE MONITOR",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "PROCEDURE",
    "name": "Insulin protocal",
-   "other_names": [],
-   "type": "PROCEDURE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Insulin protocal with CGM",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: CONTINUE GLUCOSE MONITOR",
     "Procedure: Insulin protocal"
-   ],
-   "label": "Insulin protocal with CGM",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Insulin protocal",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Procedure: Insulin protocal"
-   ],
-   "label": "Insulin protocal",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Convential treatment",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This study will be conducted in the ward of Taichung Veterans General Hospital. The patient with hyperglycemia in hospitalization will be enrolled by glucose management team.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetic inpatient\n* Fasting glucose \\>140 mg/dl or random glucose \\>180 mg/dl\n\nExclusion Criteria:\n\n* incooperative for glucose monitor\n* refusal of insulin\n* pregnancy",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "city": "Taichung",
-   "country": "Taiwan",
    "facility": "Taichung Veterans General Hospital",
-   "lat": 24.1469,
-   "lon": 120.6839,
+   "city": "Taichung",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Taiwan",
+   "status": "RECRUITING",
+   "lat": 24.1469,
+   "lon": 120.6839
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02885909",

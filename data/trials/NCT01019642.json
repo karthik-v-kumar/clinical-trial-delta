@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Instituto Nacional de Salud Publica, Mexico"
+  "name": "Instituto Nacional de Salud Publica, Mexico",
+  "class": "OTHER"
  },
  "collaborators": [
   "Instituto Mexicano del Seguro Social",
@@ -59,30 +59,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "cholecalciferol",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Vitamin D",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: cholecalciferol"
-   ],
-   "label": "Vitamin D",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "Randomized, double blind, placebo-controlled clinical trial of vitamin D supplementation (cholecalciferol, 4,000 IU/day for 6 months, in 104 postmenopausal women with type 2 diabetes mellitus.\n\nThe objective was to evaluate the effect of vitamin D supplementation on C-reactive protein (CRP) and insulin resistance in women with type 2 diabetes mellitus (T2DM).\n\nThe trial was conducted from March to October 2008 at the Hospital of the Mexican Social Security in Cuernavaca, Mexico.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes mellitus w/ \\< 10 yrs of diagnosis\n* Postmenopausal\n* Overweight or obesity (BMI \\>=25)\n* Treated with metformin\n\nExclusion Criteria:\n\n* BMI \\>=40\n* Liver or kidney disease\n* Other important chronic disease: i.e. cancer, autoimmune.\n* Receiving insulin",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "45 Years",
   "sex": "FEMALE",
+  "minimum_age": "45 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "city": "Cuernavaca",
-   "country": "Mexico",
    "facility": "Instituto Mexicano del Seguro Social",
-   "lat": 18.9261,
-   "lon": -99.23075,
+   "city": "Cuernavaca",
    "state": "Morelos",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 18.9261,
+   "lon": -99.23075
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01019642",

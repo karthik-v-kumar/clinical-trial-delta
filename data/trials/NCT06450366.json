@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": "2026-03-27",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Merck Sharp & Dohme LLC"
+  "name": "Merck Sharp & Dohme LLC",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,75 +52,75 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Enlicitide",
    "other_names": [
     "MK-0616",
     "Enlicitide Decanoate"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Ezetimibe",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Bempedoic Acid",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Placebo for Enlicitide",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Placebo for Ezetimibe",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Placebo for Bempedoic Acid",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Enlicitide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Enlicitide",
     "Other: Placebo for Ezetimibe",
     "Other: Placebo for Bempedoic Acid"
-   ],
-   "label": "Enlicitide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Ezetimibe",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe",
     "Other: Placebo for Enlicitide",
     "Other: Placebo for Bempedoic Acid"
-   ],
-   "label": "Ezetimibe",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Bempedoic Acid",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Bempedoic Acid",
     "Other: Placebo for Enlicitide",
     "Other: Placebo for Ezetimibe"
-   ],
-   "label": "Bempedoic Acid",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Ezetimibe + Bempedoic Acid",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe",
     "Drug: Bempedoic Acid",
     "Other: Placebo for Enlicitide"
-   ],
-   "label": "Ezetimibe + Bempedoic Acid",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -132,10 +132,10 @@
  "brief_summary": "The main purpose of this study is to assess whether enlicitide is superior to ezetimibe or bempedoic acid or ezetimibe + bempedoic acid in reducing low-density lipoprotein cholesterol (LDL-C) in participants with hypercholesterolemia, and to evaluate its safety and tolerability. The primary study hypotheses are enlicitide is superior to ezetimibe, bempedoic acid, and ezetimibe + bempedoic acid on mean percent change from baseline in LDL-C at week 8.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Has either a) history of a major atherosclerotic cardiovascular disease (ASCVD) event or b) if no history of a major ASCVD event, has intermediate to high risk for development of a first major ASCVD event\n* Has fasted lipid values (evaluated by the central laboratory) at Visit 1 (Screening) as follows: a) history of a major ASCVD event with LDL-C ≥55 mg/dL (≥1.42 mmol/L) OR b) No history of a major ASCVD event with low-density lipoprotein cholesterol (LDL-C) ≥70 mg/dL (≥1.81 mmol/L)\n* Is treated with a low, moderate, or high intensity statin (±non-statin lipid lowering therapy \\[LLT\\])\n* Is on a stable dose of all background LLTs with no planned medication or dose changes during the study\n* Is an individual of any sex/gender, from 18 years of age inclusive, at the time of providing the informed consent\n\nExclusion Criteria:\n\n* Has a history of homozygous familial hypercholesterolemia (FH) based on genetic or clinical criteria, compound heterozygous familial hypercholesterolemia (HeFH), or double HeFH\n* Has New York Heart Association class IV heart failure, or last known left ventricular ejection fraction ≤25% by any imaging method, or had a heart failure hospitalization within 3 months before Visit 1 (Screening)\n* Participants with a history of tendon disorder or tendon rupture\n* Participants with a history of gout\n* Is undergoing or previously underwent an LDL-C apheresis program within 3 months before Visit 1 (Screening) or plans to initiate an LDL-C apheresis program\n* Was previously treated/is being treated with certain other cholesterol lowering medications, including ezetimibe, bempedoic acid, or protein convertase subtilisin/kexin type 9 (PCSK9) inhibitors without adequate washout",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -143,319 +143,319 @@
  },
  "sites": [
   {
-   "city": "Mar del Plata",
-   "country": "Argentina",
    "facility": "Instituto de Investigaciones Clínicas Mar del Plata ( Site 1002)",
-   "lat": -38.00042,
-   "lon": -57.5562,
+   "city": "Mar del Plata",
    "state": "Buenos Aires",
-   "status": null
+   "country": "Argentina",
+   "status": null,
+   "lat": -38.00042,
+   "lon": -57.5562
   },
   {
-   "city": "Buenos Aires",
-   "country": "Argentina",
    "facility": "CIPREC-CIPREC Sede Arenales ( Site 1000)",
-   "lat": -34.61315,
-   "lon": -58.37723,
+   "city": "Buenos Aires",
    "state": "Buenos Aires F.D.",
-   "status": null
-  },
-  {
-   "city": "Rosario",
    "country": "Argentina",
+   "status": null,
+   "lat": -34.61315,
+   "lon": -58.37723
+  },
+  {
    "facility": "Fundacion Estudios Clinicos ( Site 1001)",
-   "lat": -32.94682,
-   "lon": -60.63932,
+   "city": "Rosario",
    "state": "Santa Fe Province",
-   "status": null
+   "country": "Argentina",
+   "status": null,
+   "lat": -32.94682,
+   "lon": -60.63932
   },
   {
-   "city": "Vancouver",
-   "country": "Canada",
    "facility": "The Medical Arts Health Research Group ( Site 1606)",
-   "lat": 49.24966,
-   "lon": -123.11934,
+   "city": "Vancouver",
    "state": "British Columbia",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 49.24966,
+   "lon": -123.11934
   },
   {
-   "city": "Cambridge",
-   "country": "Canada",
    "facility": "Cambridge Cardiac Care Centre ( Site 1603)",
+   "city": "Cambridge",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 43.3601,
-   "lon": -80.31269,
-   "state": "Ontario",
-   "status": null
+   "lon": -80.31269
   },
   {
-   "city": "North York",
-   "country": "Canada",
    "facility": "North York Diagnostic and Cardiac Centre ( Site 1605)",
-   "lat": null,
-   "lon": null,
+   "city": "North York",
    "state": "Ontario",
-   "status": null
-  },
-  {
-   "city": "Montreal",
    "country": "Canada",
-   "facility": "Institut de Cardiologie de Montreal ( Site 1604)",
-   "lat": 45.50884,
-   "lon": -73.58781,
-   "state": "Quebec",
-   "status": null
-  },
-  {
-   "city": "Trois-Rivières",
-   "country": "Canada",
-   "facility": "Diex Recherche Trois-Rivieres ( Site 1602)",
-   "lat": 46.34515,
-   "lon": -72.5477,
-   "state": "Quebec",
-   "status": null
-  },
-  {
-   "city": "Paris",
-   "country": "France",
-   "facility": "Hôpital Bichat - Claude-Bernard ( Site 0504)",
-   "lat": 48.85341,
-   "lon": 2.3488,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Montpellier",
-   "country": "France",
-   "facility": "Hôpital Arnaud de Villeneuve - CHU Montpellier ( Site 0505)",
-   "lat": 43.61093,
-   "lon": 3.87635,
-   "state": "Herault",
-   "status": null
-  },
-  {
-   "city": "Nantes",
-   "country": "France",
-   "facility": "Hôpital Nord Guillaume-et-René-Laennec / CHU de Nantes-CIC Endocrinology-Diabetology-Nutrition ( Sit",
-   "lat": 47.21725,
-   "lon": -1.55336,
-   "state": "Loire-Atlantique",
-   "status": null
-  },
-  {
-   "city": "Bron",
-   "country": "France",
-   "facility": "Hospices Civils de Lyon - Hopital Louis Pradel ( Site 0501)",
-   "lat": 45.73865,
-   "lon": 4.91303,
-   "state": "Rhone",
-   "status": null
-  },
-  {
-   "city": "Beer Yaakov",
-   "country": "Israel",
-   "facility": "Yitzhak Shamir Medical Center. ( Site 0702)",
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": null,
-   "status": null
+   "lon": null
   },
   {
-   "city": "Beersheba",
+   "facility": "Institut de Cardiologie de Montreal ( Site 1604)",
+   "city": "Montreal",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
+  },
+  {
+   "facility": "Diex Recherche Trois-Rivieres ( Site 1602)",
+   "city": "Trois-Rivières",
+   "state": "Quebec",
+   "country": "Canada",
+   "status": null,
+   "lat": 46.34515,
+   "lon": -72.5477
+  },
+  {
+   "facility": "Hôpital Bichat - Claude-Bernard ( Site 0504)",
+   "city": "Paris",
+   "state": null,
+   "country": "France",
+   "status": null,
+   "lat": 48.85341,
+   "lon": 2.3488
+  },
+  {
+   "facility": "Hôpital Arnaud de Villeneuve - CHU Montpellier ( Site 0505)",
+   "city": "Montpellier",
+   "state": "Herault",
+   "country": "France",
+   "status": null,
+   "lat": 43.61093,
+   "lon": 3.87635
+  },
+  {
+   "facility": "Hôpital Nord Guillaume-et-René-Laennec / CHU de Nantes-CIC Endocrinology-Diabetology-Nutrition ( Sit",
+   "city": "Nantes",
+   "state": "Loire-Atlantique",
+   "country": "France",
+   "status": null,
+   "lat": 47.21725,
+   "lon": -1.55336
+  },
+  {
+   "facility": "Hospices Civils de Lyon - Hopital Louis Pradel ( Site 0501)",
+   "city": "Bron",
+   "state": "Rhone",
+   "country": "France",
+   "status": null,
+   "lat": 45.73865,
+   "lon": 4.91303
+  },
+  {
+   "facility": "Yitzhak Shamir Medical Center. ( Site 0702)",
+   "city": "Beer Yaakov",
+   "state": null,
    "country": "Israel",
+   "status": null,
+   "lat": null,
+   "lon": null
+  },
+  {
    "facility": "Assuta Beersheba MC ( Site 0704)",
+   "city": "Beersheba",
+   "state": null,
+   "country": "Israel",
+   "status": null,
    "lat": 31.25181,
-   "lon": 34.7913,
-   "state": null,
-   "status": null
+   "lon": 34.7913
   },
   {
-   "city": "Haifa",
-   "country": "Israel",
    "facility": "Rambam Health Care Campus ( Site 0700)",
-   "lat": 32.81303,
-   "lon": 34.99928,
+   "city": "Haifa",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Kfar Saba",
    "country": "Israel",
+   "status": null,
+   "lat": 32.81303,
+   "lon": 34.99928
+  },
+  {
    "facility": "Meir Medical Center. ( Site 0703)",
+   "city": "Kfar Saba",
+   "state": null,
+   "country": "Israel",
+   "status": null,
    "lat": 32.175,
-   "lon": 34.90694,
-   "state": null,
-   "status": null
+   "lon": 34.90694
   },
   {
-   "city": "Barcelona",
-   "country": "Spain",
    "facility": "EAP Sardenya ( Site 0800)",
-   "lat": 41.38879,
-   "lon": 2.15899,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Barcelona",
+   "state": null,
    "country": "Spain",
-   "facility": "Hospital Universitari Vall d'Hebron ( Site 0803)",
+   "status": null,
    "lat": 41.38879,
-   "lon": 2.15899,
-   "state": null,
-   "status": null
+   "lon": 2.15899
   },
   {
-   "city": "Málaga",
+   "facility": "Hospital Universitari Vall d'Hebron ( Site 0803)",
+   "city": "Barcelona",
+   "state": null,
    "country": "Spain",
+   "status": null,
+   "lat": 41.38879,
+   "lon": 2.15899
+  },
+  {
    "facility": "Hospital Universitario Virgen de la Victoria-UGC Endocrinologia y nutricion ( Site 0801)",
-   "lat": 36.72016,
-   "lon": -4.42034,
+   "city": "Málaga",
    "state": "Andalusia",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 36.72016,
+   "lon": -4.42034
   },
   {
-   "city": "Figueres",
-   "country": "Spain",
    "facility": "Hospital de Figueres ( Site 0804)",
-   "lat": 42.26645,
-   "lon": 2.96163,
+   "city": "Figueres",
    "state": "Gerona",
-   "status": null
-  },
-  {
-   "city": "A Coruña",
    "country": "Spain",
+   "status": null,
+   "lat": 42.26645,
+   "lon": 2.96163
+  },
+  {
    "facility": "Hospital San Rafael de Coruna ( Site 0805)",
-   "lat": 43.37135,
-   "lon": -8.396,
+   "city": "A Coruña",
    "state": "La Coruna",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 43.37135,
+   "lon": -8.396
   },
   {
-   "city": "Tainan",
-   "country": "Taiwan",
    "facility": "National Cheng Kung University Hospital-Internal Medicine ( Site 0403)",
+   "city": "Tainan",
+   "state": null,
+   "country": "Taiwan",
+   "status": null,
    "lat": 22.99259,
-   "lon": 120.20507,
-   "state": null,
-   "status": null
+   "lon": 120.20507
   },
   {
-   "city": "Taipei",
-   "country": "Taiwan",
    "facility": "National Taiwan University Hospital ( Site 0400)",
-   "lat": 25.05306,
-   "lon": 121.52639,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Taipei",
+   "state": null,
    "country": "Taiwan",
-   "facility": "Taipei Veterans General Hospital-Department of Medicine ( Site 0402)",
+   "status": null,
    "lat": 25.05306,
-   "lon": 121.52639,
-   "state": null,
-   "status": null
+   "lon": 121.52639
   },
   {
-   "city": "Taoyuan",
+   "facility": "Taipei Veterans General Hospital-Department of Medicine ( Site 0402)",
+   "city": "Taipei",
+   "state": null,
    "country": "Taiwan",
+   "status": null,
+   "lat": 25.05306,
+   "lon": 121.52639
+  },
+  {
    "facility": "Chang Gung Medical Foundation-Linkou Branch ( Site 0404)",
-   "lat": 24.99368,
-   "lon": 121.29696,
+   "city": "Taoyuan",
    "state": null,
-   "status": null
+   "country": "Taiwan",
+   "status": null,
+   "lat": 24.99368,
+   "lon": 121.29696
   },
   {
-   "city": "London",
-   "country": "United Kingdom",
    "facility": "Barts Health NHS Trust-William Harvey Clinical Research Centre ( Site 0901)",
-   "lat": 51.50853,
-   "lon": -0.12574,
+   "city": "London",
    "state": "England",
-   "status": null
+   "country": "United Kingdom",
+   "status": null,
+   "lat": 51.50853,
+   "lon": -0.12574
   },
   {
-   "city": "London",
-   "country": "United Kingdom",
    "facility": "Royal Free Hospital ( Site 0900)",
-   "lat": 51.50853,
-   "lon": -0.12574,
-   "state": "England",
-   "status": null
-  },
-  {
    "city": "London",
+   "state": "England",
    "country": "United Kingdom",
-   "facility": "National Institute for Health Research UCLH Clinical Research Facility ( Site 0908)",
+   "status": null,
    "lat": 51.50853,
-   "lon": -0.12574,
+   "lon": -0.12574
+  },
+  {
+   "facility": "National Institute for Health Research UCLH Clinical Research Facility ( Site 0908)",
+   "city": "London",
    "state": "London, City of",
-   "status": null
+   "country": "United Kingdom",
+   "status": null,
+   "lat": 51.50853,
+   "lon": -0.12574
   },
   {
-   "city": "Lincoln",
-   "country": "United States",
    "facility": "Clinical Trials Research ( Site 1509)",
-   "lat": 38.89156,
-   "lon": -121.29301,
+   "city": "Lincoln",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.89156,
+   "lon": -121.29301
   },
   {
-   "city": "Flossmoor",
-   "country": "United States",
    "facility": "Healthcare Research Network - Chicago ( Site 1507)",
-   "lat": 41.54281,
-   "lon": -87.68477,
+   "city": "Flossmoor",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.54281,
+   "lon": -87.68477
   },
   {
-   "city": "Louisville",
-   "country": "United States",
    "facility": "L-MARC Research Center ( Site 1501)",
-   "lat": 38.25424,
-   "lon": -85.75941,
+   "city": "Louisville",
    "state": "Kentucky",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.25424,
+   "lon": -85.75941
   },
   {
-   "city": "Rockville",
-   "country": "United States",
    "facility": "Velocity Clinical Research Rockville ( Site 1503)",
-   "lat": 39.084,
-   "lon": -77.15276,
+   "city": "Rockville",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.084,
+   "lon": -77.15276
   },
   {
-   "city": "Gulfport",
-   "country": "United States",
    "facility": "Velocity Clinical Research, Gulfport ( Site 1505)",
-   "lat": 30.36742,
-   "lon": -89.09282,
+   "city": "Gulfport",
    "state": "Mississippi",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.36742,
+   "lon": -89.09282
   },
   {
-   "city": "Fort Mill",
-   "country": "United States",
    "facility": "Piedmont Research Partners ( Site 1506)",
-   "lat": 35.00737,
-   "lon": -80.94508,
+   "city": "Fort Mill",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.00737,
+   "lon": -80.94508
   },
   {
-   "city": "Renton",
-   "country": "United States",
    "facility": "Rainier Clinical Research Center ( Site 1502)",
-   "lat": 47.48288,
-   "lon": -122.21707,
+   "city": "Renton",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.48288,
+   "lon": -122.21707
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06450366",

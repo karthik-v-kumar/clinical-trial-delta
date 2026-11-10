@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Minnesota"
+  "name": "University of Minnesota",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -52,25 +52,25 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "Clinical Decision Support Message",
    "other_names": [
     "CDS Message"
-   ],
-   "type": "OTHER"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Clinical Decision Support",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Clinical Decision Support Message"
-   ],
-   "label": "Clinical Decision Support",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Usual Care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "This pilot study will evaluate the feasibility of using a clinical decision support(CDS) message to support consideration of SGLT2 inhibitor prescribing in patients with type 2 diabetes who recently had acute kidney injury.\n\nParticipating M Health Fairview primary care clinics will be randomized to either receive the clinical decision support intervention or continue usual care. In intervention clinics, providers or clinic pharmacists will receive a message before a scheduled encounter with an eligible patient. The message is intended to support clinical decision-making about SGLT2 inhibitor use, but prescribing decisions will remain with the patient's usual clinical care team.\n\nThe study will assess feasibility outcomes, including identification of eligible patients, delivery of clinical decision support (CDS) messages, provider/pharmacist receipt of CDS messages, SGLT2i consideration, SGLT2i prescribing, and availability of follow-up kidney function data in the electronic health record.",
  "eligibility": {
   "criteria": "Inclusion Criteria for Providers and Pharmacists:\n\n* Assigned to work in a primary care specialty as a medical provider or assigned to work as a clinic pharmacist\n* Assigned to work in one of the participating study clinics\n\nInclusion Criteria for Patients:\n\n* Scheduled to be seen in a participating clinic with a physician or advanced practice provider in a primary care specialty or a clinic pharmacist\n* Medical history of acute kidney injury during a hospitalization with discharge within 1 year before the scheduled appointment\n* Medical history of type 2 diabetes mellitus (by billing code)\n* Age 30 to 75 years at the date of study enrollment\n* Available eGFR from labs more than 3 business days before the scheduled appointment and after AKI onset that is at least 30 mL/min/1.73 m²\n* Either a serum creatinine lab measured after discharge from the hospitalization including the AKI, or the last serum creatinine lab during the hospitalization with AKI is less than 0.3 mg/dL above the patient's baseline serum creatinine concentration\n\nExclusion Criteria for Providers and Pharmacists:\n\n* None\n\nExclusion Criteria for Patients:\n\n* Opted out of research use of AHC/M Health Fairview data shelter data\n* History of kidney transplantation as a recipient(by billing code)\n* Pregnancy documented in AHC/M Health Fairview data shelter data (by billing code)\n* SGLT2i allergy in the EHR allergy list\n* Medical history of diabetic ketoacidosis, dementia, hospice care, or oncology care (by billing code and/or encounter)\n* Medical history in the prior 1 year of indwelling Foley urinary catheter, cystitis, pyelonephritis, prostatitis, or urinary tract infection (by billing code)\n* Serum creatinine rise of at least 0.3 mg/dL between the two most recent serum creatinine measurements\n* Children\n* Prisoners",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "city": "Minneapolis",
-   "country": "United States",
    "facility": "University of Minnesota",
-   "lat": 44.97997,
-   "lon": -93.26384,
+   "city": "Minneapolis",
    "state": "Minnesota",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 44.97997,
+   "lon": -93.26384
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07868666",

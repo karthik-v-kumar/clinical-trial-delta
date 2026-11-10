@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Chong Kun Dang Pharmaceutical"
+  "name": "Chong Kun Dang Pharmaceutical",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,90 +53,90 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Atorvastatin10mg, Ezetimibe10mg",
    "other_names": [
     "CKD-391"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin10mg, Ezetimibe placebo",
    "other_names": [
     "Lipitor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin20mg, Ezetimibe10mg",
    "other_names": [
     "CKD-391"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin20mg, Ezetimibe placebo",
    "other_names": [
     "Lipitor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin40mg, Ezetimibe10mg",
    "other_names": [
     "CKD-391"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin40mg, Ezetimibe placebo",
    "other_names": [
     "Lipitor"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Atorvastatin10mg, Ezetimibe10mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin10mg, Ezetimibe10mg"
-   ],
-   "label": "Atorvastatin10mg, Ezetimibe10mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Atorvastatin10mg, Ezetimibe placebo",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin10mg, Ezetimibe placebo"
-   ],
-   "label": "Atorvastatin10mg, Ezetimibe placebo",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Atorvastatin20mg, Ezetimibe10mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin20mg, Ezetimibe10mg"
-   ],
-   "label": "Atorvastatin20mg, Ezetimibe10mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Atorvastatin20mg, Ezetimibe placebo",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin20mg, Ezetimibe placebo"
-   ],
-   "label": "Atorvastatin20mg, Ezetimibe placebo",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Atorvastatin40mg, Ezetimibe10mg",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Atorvastatin40mg, Ezetimibe10mg"
-   ],
-   "label": "Atorvastatin40mg, Ezetimibe10mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Atorvastatin40mg, Ezetimibe placebo",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin40mg, Ezetimibe placebo"
-   ],
-   "label": "Atorvastatin40mg, Ezetimibe placebo",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -148,10 +148,10 @@
  "brief_summary": "A Multicenter, Randomized, Double-blind, Active-controlled, Parallel group, Factorial Design, Phase III Clinical Trial.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Adult, at least 19 years of age.\n* Hyperlipidemia patient of LDL-C≤250 mg/dl and TG ≤400 mg/dl\n* Patients requiring anti-dyslipidemia drug therapy \\[based on the NCEP ATP III(2002)\\]\n* Drug compliance during Run-in period ≥70%\n* Patients must willing to the study and signed an informed consent\n\nExclusion Criteria:\n\n* Patients with myopathy included rhabdomyolysis or CPK level≥2xULN\n* Patients with acute arterial disease\n* Patients with renal dysfunction or Serum creatinine level ≥2x ULN\n* Patients with liver dysfunction or ALT, AST level \\> 2xULN\n* Patients with medical history within 6 months prior to screening visit (Heart failure, uncontrolled arrhythmia, drug and alcohol abuse history, gastrointestinal disease or surgery, anticoagulation disease)\n* Patient with uncontrolled disease (diabetes mellitus as HbA1c level of \\> 9.0%, hypertension as SBP≥180mmHg or DBP≥110mmHg, hypothyroidism as TSH≥1.5xULN)\n* Patients who have a history or presence of active malignancy within 5 years\n* Patients with difficulty of stop taking lipid-lowering agents during run-in period.\n* Patients who have taken another investigational drug within 4 weeks prior to screening visit.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -159,13 +159,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "The catholic university of korea seoul st. Mary's hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02451098",

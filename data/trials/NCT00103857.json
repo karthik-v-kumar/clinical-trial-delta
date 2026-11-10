@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "FACTORIAL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-05-19",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Merck Sharp & Dohme LLC"
+  "name": "Merck Sharp & Dohme LLC",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,89 +51,89 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Comparator: MK0431 50 mg b.i.d. (b.i.d. = twice daily)",
    "other_names": [
     "MK0431"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Comparator: MK0431 100 mg q.d. (q.d. = once daily)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Comparator: Placebo (Phase A)/Metformin (Phase B)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Comparator: Metformin 500 mg b.i.d.",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Comparator: Open-Label MK0431/Metformin 50/1000 mg b.i.d.",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Comparator: Metformin 1000 mg b.i.d.",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "1",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: MK0431 100 mg q.d. (q.d. = once daily)"
-   ],
-   "label": "1",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Comparator: Metformin 500 mg b.i.d."
-   ],
    "label": "2",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Comparator: Metformin 500 mg b.i.d."
+   ]
   },
   {
+   "label": "3",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Metformin 1000 mg b.i.d."
-   ],
-   "label": "3",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "4",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: MK0431 50 mg b.i.d. (b.i.d. = twice daily)",
     "Drug: Comparator: Metformin 500 mg b.i.d."
-   ],
-   "label": "4",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "5",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: MK0431 50 mg b.i.d. (b.i.d. = twice daily)",
     "Drug: Comparator: Metformin 1000 mg b.i.d."
-   ],
-   "label": "5",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "6",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Placebo (Phase A)/Metformin (Phase B)"
-   ],
-   "label": "6",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "7",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Comparator: Open-Label MK0431/Metformin 50/1000 mg b.i.d."
-   ],
-   "label": "7",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -145,10 +145,10 @@
  "brief_summary": "The purpose of this study is to determine the safety and effectiveness of an investigational drug in patients with Type 2 Diabetes Mellitus (T2DM) (a specific type of diabetes).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n54-Week Base Study:\n\n* Patients between the ages of 18 and 78 with Type 2 Diabetes Mellitus (a specific type of diabetes)\n\n  50-Week Extension Study:\n* Patients who complete the 54-week base study are eligible to enter the 50-week extension study\n\nExclusion Criteria:\n\n* Patients who do not have Type 2 Diabetes Mellitus (a specific type of diabetes)",
-  "healthy_volunteers": false,
-  "maximum_age": "78 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "78 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

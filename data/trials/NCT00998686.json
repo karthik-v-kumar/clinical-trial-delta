@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Phenomix"
+  "name": "Phenomix",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Forest Laboratories"
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "dutogliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "sitagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "dutogliptin/PHX1149T",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: dutogliptin"
-   ],
-   "label": "dutogliptin/PHX1149T",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "sitagliptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: sitagliptin"
-   ],
-   "label": "sitagliptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The purpose of this study is to demonstrate the safety and tolerability of dutogliptin over 52 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Completion of all required visits of a qualifying Phase 3 core protocol\n* Current treatment of Type 2 diabetes mellitus as in PHX1149-PROT302\n\nExclusion Criteria:\n\n* Any condition, disease, disorder or clinically relevant laboratory abnormality which, in the opinion of the investigator, would jeopardize the patient's appropriate participation in this study or obscure the effects of treatment",
-  "healthy_volunteers": false,
-  "maximum_age": "85 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "85 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,400 +100,400 @@
  },
  "sites": [
   {
-   "city": "Buenos Aires",
-   "country": "Argentina",
    "facility": "Phenomix Investigational Site 402",
-   "lat": -34.61315,
-   "lon": -58.37723,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Buenos Aires",
+   "state": null,
    "country": "Argentina",
-   "facility": "Phenomix Investigational Site 408",
+   "status": null,
    "lat": -34.61315,
-   "lon": -58.37723,
-   "state": null,
-   "status": null
+   "lon": -58.37723
   },
   {
-   "city": "Mendoza",
+   "facility": "Phenomix Investigational Site 408",
+   "city": "Buenos Aires",
+   "state": null,
    "country": "Argentina",
+   "status": null,
+   "lat": -34.61315,
+   "lon": -58.37723
+  },
+  {
    "facility": "Phenomix Investigational Site 410",
+   "city": "Mendoza",
+   "state": null,
+   "country": "Argentina",
+   "status": null,
    "lat": -32.88946,
-   "lon": -68.84582,
-   "state": null,
-   "status": null
+   "lon": -68.84582
   },
   {
-   "city": "Prague",
-   "country": "Czechia",
    "facility": "Phenomix Investigational Site 208",
+   "city": "Prague",
+   "state": null,
+   "country": "Czechia",
+   "status": null,
    "lat": 50.08804,
-   "lon": 14.42076,
-   "state": null,
-   "status": null
+   "lon": 14.42076
   },
   {
-   "city": "Praha 4 Chodov",
-   "country": "Czechia",
    "facility": "Phenomix Investigational Site 209",
-   "lat": null,
-   "lon": null,
+   "city": "Praha 4 Chodov",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Uničov",
    "country": "Czechia",
-   "facility": "Phenomix Investigational Site 207",
-   "lat": 49.77092,
-   "lon": 17.12144,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Shāstrinagar",
-   "country": "India",
-   "facility": "Phenomix Investigational Site 707",
-   "lat": 20.39992,
-   "lon": 78.13349,
-   "state": "Jaipur",
-   "status": null
-  },
-  {
-   "city": "Bangalore",
-   "country": "India",
-   "facility": "Phenomix Investigational Site 701",
-   "lat": 12.97194,
-   "lon": 77.59369,
-   "state": "Karnataka",
-   "status": null
-  },
-  {
-   "city": "Trivandrum",
-   "country": "India",
-   "facility": "Phenomix Investigational Site 705",
-   "lat": 8.4855,
-   "lon": 76.94924,
-   "state": "Kerala",
-   "status": null
-  },
-  {
-   "city": "Indore",
-   "country": "India",
-   "facility": "Phenomix Investigational Site 706",
-   "lat": 22.71792,
-   "lon": 75.8333,
-   "state": "Madhya Pradesh",
-   "status": null
-  },
-  {
-   "city": "Mumbai",
-   "country": "India",
-   "facility": "Phenomix Investigational Site 711",
-   "lat": 19.07283,
-   "lon": 72.88261,
-   "state": "Maharashtra",
-   "status": null
-  },
-  {
-   "city": "Arequipa",
-   "country": "Peru",
-   "facility": "Phenomix Investigational Site 607",
-   "lat": -16.39899,
-   "lon": -71.53747,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Ica",
-   "country": "Peru",
-   "facility": "Phenomix Investigational Site 601",
-   "lat": -14.07538,
-   "lon": -75.73422,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Lima",
-   "country": "Peru",
-   "facility": "Phenomix Investigational Site 604",
-   "lat": -12.04318,
-   "lon": -77.02824,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Lima",
-   "country": "Peru",
-   "facility": "Phenomix Investigational Site 610",
-   "lat": -12.04318,
-   "lon": -77.02824,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Gdansk",
-   "country": "Poland",
-   "facility": "Phenomix Investigational Site 300",
-   "lat": 54.35227,
-   "lon": 18.64912,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Karkow",
-   "country": "Poland",
-   "facility": "Phenomix Investigational Site 309",
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": null,
-   "status": null
+   "lon": null
   },
   {
-   "city": "Katowice",
+   "facility": "Phenomix Investigational Site 207",
+   "city": "Uničov",
+   "state": null,
+   "country": "Czechia",
+   "status": null,
+   "lat": 49.77092,
+   "lon": 17.12144
+  },
+  {
+   "facility": "Phenomix Investigational Site 707",
+   "city": "Shāstrinagar",
+   "state": "Jaipur",
+   "country": "India",
+   "status": null,
+   "lat": 20.39992,
+   "lon": 78.13349
+  },
+  {
+   "facility": "Phenomix Investigational Site 701",
+   "city": "Bangalore",
+   "state": "Karnataka",
+   "country": "India",
+   "status": null,
+   "lat": 12.97194,
+   "lon": 77.59369
+  },
+  {
+   "facility": "Phenomix Investigational Site 705",
+   "city": "Trivandrum",
+   "state": "Kerala",
+   "country": "India",
+   "status": null,
+   "lat": 8.4855,
+   "lon": 76.94924
+  },
+  {
+   "facility": "Phenomix Investigational Site 706",
+   "city": "Indore",
+   "state": "Madhya Pradesh",
+   "country": "India",
+   "status": null,
+   "lat": 22.71792,
+   "lon": 75.8333
+  },
+  {
+   "facility": "Phenomix Investigational Site 711",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "country": "India",
+   "status": null,
+   "lat": 19.07283,
+   "lon": 72.88261
+  },
+  {
+   "facility": "Phenomix Investigational Site 607",
+   "city": "Arequipa",
+   "state": null,
+   "country": "Peru",
+   "status": null,
+   "lat": -16.39899,
+   "lon": -71.53747
+  },
+  {
+   "facility": "Phenomix Investigational Site 601",
+   "city": "Ica",
+   "state": null,
+   "country": "Peru",
+   "status": null,
+   "lat": -14.07538,
+   "lon": -75.73422
+  },
+  {
+   "facility": "Phenomix Investigational Site 604",
+   "city": "Lima",
+   "state": null,
+   "country": "Peru",
+   "status": null,
+   "lat": -12.04318,
+   "lon": -77.02824
+  },
+  {
+   "facility": "Phenomix Investigational Site 610",
+   "city": "Lima",
+   "state": null,
+   "country": "Peru",
+   "status": null,
+   "lat": -12.04318,
+   "lon": -77.02824
+  },
+  {
+   "facility": "Phenomix Investigational Site 300",
+   "city": "Gdansk",
+   "state": null,
    "country": "Poland",
+   "status": null,
+   "lat": 54.35227,
+   "lon": 18.64912
+  },
+  {
+   "facility": "Phenomix Investigational Site 309",
+   "city": "Karkow",
+   "state": null,
+   "country": "Poland",
+   "status": null,
+   "lat": null,
+   "lon": null
+  },
+  {
    "facility": "Phenomix Investigational Site 303",
+   "city": "Katowice",
+   "state": null,
+   "country": "Poland",
+   "status": null,
    "lat": 50.2597,
-   "lon": 19.02173,
-   "state": null,
-   "status": null
+   "lon": 19.02173
   },
   {
-   "city": "Puławy",
-   "country": "Poland",
    "facility": "Phenomix Investigational Site 306",
+   "city": "Puławy",
+   "state": null,
+   "country": "Poland",
+   "status": null,
    "lat": 51.41655,
-   "lon": 21.96939,
-   "state": null,
-   "status": null
+   "lon": 21.96939
   },
   {
-   "city": "Warsaw",
-   "country": "Poland",
    "facility": "Phenomix Investigational Site 305",
-   "lat": 52.22977,
-   "lon": 21.01178,
+   "city": "Warsaw",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Wroclaw",
    "country": "Poland",
+   "status": null,
+   "lat": 52.22977,
+   "lon": 21.01178
+  },
+  {
    "facility": "Phenomix Investigational Site 302",
-   "lat": 51.10286,
-   "lon": 17.03006,
+   "city": "Wroclaw",
    "state": null,
-   "status": null
+   "country": "Poland",
+   "status": null,
+   "lat": 51.10286,
+   "lon": 17.03006
   },
   {
+   "facility": "Phenomix Investigational Site 105",
    "city": "Montgomery",
-   "country": "United States",
-   "facility": "Phenomix Investigational Site 105",
-   "lat": 32.36681,
-   "lon": -86.29997,
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.36681,
+   "lon": -86.29997
   },
   {
-   "city": "Tempe",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 121",
-   "lat": 33.41477,
-   "lon": -111.90931,
-   "state": "Arizona",
-   "status": null
-  },
-  {
    "city": "Tempe",
-   "country": "United States",
-   "facility": "Phenomix Investigational Site 137",
-   "lat": 33.41477,
-   "lon": -111.90931,
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.41477,
+   "lon": -111.90931
   },
   {
-   "city": "Anaheim",
+   "facility": "Phenomix Investigational Site 137",
+   "city": "Tempe",
+   "state": "Arizona",
    "country": "United States",
+   "status": null,
+   "lat": 33.41477,
+   "lon": -111.90931
+  },
+  {
    "facility": "Phenomix Investigational Site 105",
+   "city": "Anaheim",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.83529,
-   "lon": -117.9145,
-   "state": "California",
-   "status": null
+   "lon": -117.9145
   },
   {
-   "city": "Long Beach",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 103",
+   "city": "Long Beach",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.76696,
-   "lon": -118.18923,
-   "state": "California",
-   "status": null
+   "lon": -118.18923
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 106",
-   "lat": 34.05223,
-   "lon": -118.24368,
+   "city": "Los Angeles",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.05223,
+   "lon": -118.24368
   },
   {
-   "city": "Coral Gables",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 143",
+   "city": "Coral Gables",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.72149,
-   "lon": -80.26838,
-   "state": "Florida",
-   "status": null
+   "lon": -80.26838
   },
   {
-   "city": "Hialeah",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 142",
+   "city": "Hialeah",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.8576,
-   "lon": -80.27811,
-   "state": "Florida",
-   "status": null
+   "lon": -80.27811
   },
   {
-   "city": "Kissimmee",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 133",
-   "lat": 28.30468,
-   "lon": -81.41667,
+   "city": "Kissimmee",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 28.30468,
+   "lon": -81.41667
   },
   {
-   "city": "Honolulu",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 101",
-   "lat": 21.30694,
-   "lon": -157.85833,
+   "city": "Honolulu",
    "state": "Hawaii",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
-   "city": "Chicago",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 135",
-   "lat": 41.85003,
-   "lon": -87.65005,
+   "city": "Chicago",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.85003,
+   "lon": -87.65005
   },
   {
-   "city": "Indianapolis",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 124",
-   "lat": 39.76838,
-   "lon": -86.15804,
+   "city": "Indianapolis",
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
-   "city": "Brockton",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 136",
-   "lat": 42.08343,
-   "lon": -71.01838,
+   "city": "Brockton",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.08343,
+   "lon": -71.01838
   },
   {
-   "city": "Biloxi",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 138",
-   "lat": 30.39603,
-   "lon": -88.88531,
+   "city": "Biloxi",
    "state": "Mississippi",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.39603,
+   "lon": -88.88531
   },
   {
-   "city": "Las Vegas",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 122",
-   "lat": 36.17497,
-   "lon": -115.13722,
-   "state": "Nevada",
-   "status": null
-  },
-  {
    "city": "Las Vegas",
-   "country": "United States",
-   "facility": "Phenomix Investigational Site 140",
-   "lat": 36.17497,
-   "lon": -115.13722,
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
-   "city": "Trenton",
+   "facility": "Phenomix Investigational Site 140",
+   "city": "Las Vegas",
+   "state": "Nevada",
    "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
+  },
+  {
    "facility": "Phenomix Investigational Site 110",
-   "lat": 40.21705,
-   "lon": -74.74294,
+   "city": "Trenton",
    "state": "New Jersey",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.21705,
+   "lon": -74.74294
   },
   {
-   "city": "Albuquerque",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 116",
-   "lat": 35.08449,
-   "lon": -106.65114,
+   "city": "Albuquerque",
    "state": "New Mexico",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.08449,
+   "lon": -106.65114
   },
   {
-   "city": "Winston-Salem",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 107",
-   "lat": 36.09986,
-   "lon": -80.24422,
+   "city": "Winston-Salem",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.09986,
+   "lon": -80.24422
   },
   {
-   "city": "Greenville",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 112",
-   "lat": 34.85262,
-   "lon": -82.39401,
+   "city": "Greenville",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.85262,
+   "lon": -82.39401
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 102",
+   "city": "Dallas",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 104",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   },
   {
-   "city": "Kenosha",
-   "country": "United States",
    "facility": "Phenomix Investigational Site 100",
-   "lat": 42.58474,
-   "lon": -87.82119,
+   "city": "Kenosha",
    "state": "Wisconsin",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.58474,
+   "lon": -87.82119
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00998686",

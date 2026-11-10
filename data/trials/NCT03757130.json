@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "masking": "DOUBLE",
   "primary_purpose": "OTHER",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2023-09-14",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Amgen"
+  "name": "Amgen",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,83 +51,83 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "AMG 598",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Saxenda®"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo + Liraglutide",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Liraglutide"
-   ],
-   "label": "Placebo + Liraglutide",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: AMG 598"
-   ],
    "label": "AMG 598 70 mg",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: AMG 598"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: AMG 598",
-    "Drug: Liraglutide"
-   ],
    "label": "AMG 598 70 mg + Liraglutide",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: AMG 598",
+    "Drug: Liraglutide"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: AMG 598"
-   ],
    "label": "AMG 598 210 mg",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: AMG 598",
-    "Drug: Liraglutide"
-   ],
-   "label": "AMG 598 210 mg + Liraglutide",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AMG 598"
-   ],
-   "label": "AMG 598 420 mg",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "AMG 598 210 mg + Liraglutide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AMG 598",
     "Drug: Liraglutide"
-   ],
+   ]
+  },
+  {
+   "label": "AMG 598 420 mg",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: AMG 598"
+   ]
+  },
+  {
    "label": "AMG 598 420 mg + Liraglutide",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: AMG 598",
+    "Drug: Liraglutide"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -143,10 +143,10 @@
  "brief_summary": "The main objective of this study is to assess the safety and tolerability of multiple doses of AMG 598 administered alone or in combination with liraglutide in adults with obesity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women with ages between 18 and 65 years old, inclusive, at time of signing consent\n* Body mass index (BMI) between greater than or equal to 30.0 kg/m\\^2 and less than or equal to 40.0 kg/m\\^2 at screening\n* Except for obesity, otherwise healthy or medically stable per protocol\n* Have a stable body weight defined as less than 5 kg self-reported change during the previous 8 weeks prior to screening\n* Other Inclusion criteria may apply\n* Stable on liraglutide, depending on cohort\n\nExclusion Criteria:\n\n* History or clinical evidence of diabetes\n* Inadequate organ function at screening\n* Currently receiving treatment in another investigational device or drug study\n* Women who are pregnant/lactating/breastfeeding or who plan to become pregnant/breastfeed while on study through 5 months after receiving the last dose of investigational product\n* History or evidence of a clinically significant disorder, condition or disease that would pose a risk to subject safety or interfere with the study evaluation, procedures or completion\n* A family or personal history of medullary thyroid carcinoma or multiple endocrine neoplasia type 2; a personal history of non-familial medullary thyroid carcinoma; confirmed chronic pancreatitis or idiopathic acute pancreatitis, or gallbladder disease (ie, cholelithiasis or cholecystitis) not treated with cholecystectomy, for cohorts receiving liraglutide\n* History of major depressive disorder\n* Other Exclusion criteria may apply",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -154,40 +154,40 @@
  },
  "sites": [
   {
-   "city": "Birmingham",
-   "country": "United States",
    "facility": "William D Summers MD LLC",
-   "lat": 33.52066,
-   "lon": -86.80249,
+   "city": "Birmingham",
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.52066,
+   "lon": -86.80249
   },
   {
-   "city": "Tustin",
-   "country": "United States",
    "facility": "Orange County Research Center",
-   "lat": 33.74585,
-   "lon": -117.82617,
+   "city": "Tustin",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.74585,
+   "lon": -117.82617
   },
   {
-   "city": "South Miami",
-   "country": "United States",
    "facility": "QPS Miami Research Associates",
-   "lat": 25.7076,
-   "lon": -80.29338,
+   "city": "South Miami",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 25.7076,
+   "lon": -80.29338
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Dallas Diabetes and Endocrine Center",
-   "lat": 32.78306,
-   "lon": -96.80667,
+   "city": "Dallas",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.78306,
+   "lon": -96.80667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03757130",

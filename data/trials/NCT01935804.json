@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "King Abdulaziz University"
+  "name": "King Abdulaziz University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -55,34 +55,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Actos"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Glucophage"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Experimental: 1",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pioglitazone"
-   ],
-   "label": "Experimental: 1",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Active comparator: 2",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ],
-   "label": "Active comparator: 2",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "The study tests whether pioglitazone (PIO)as compared to metformin (MET)affects bone health including bone mineral density, bone turnover markers, and osteocyte biomarker in patients with type 2 diabetes (T2DM).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMD T-score greater than -2.5 at the total hip, femoral neck, and lumbar spine;\n* No prior antidiabetic therapy;\n* Drug-naïve with glycosylated hemoglobin A1c (HbA1c) ≥ 7.0 to ≤ 10.0%. 53.2 mmol/mol to 88.2 mmol/mol);\n* Body-mass index of 40 Kg/m2 and less;\n* Stable body weight for at least 4 months.\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus (presence of GAD auto antibodies);\n* History of diabetes or uncontrolled hypertension;\n* Treatment with antidiabetic agents including TZDs;\n* Chronic diseases known to affect bone;\n* Previous treatment with estrogens and other medications known to affect bone ;\n* Creatinine clearance less than 60 ml/min",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "50 Years",
   "sex": "FEMALE",
+  "minimum_age": "50 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "city": "Jeddah",
-   "country": "Saudi Arabia",
    "facility": "Center of Excellence for Osteoporosis Research, King Abdulaziz University",
-   "lat": 21.49012,
-   "lon": 39.18624,
+   "city": "Jeddah",
    "state": "Mecca Region",
-   "status": null
+   "country": "Saudi Arabia",
+   "status": null,
+   "lat": 21.49012,
+   "lon": 39.18624
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01935804",

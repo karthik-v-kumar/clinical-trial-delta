@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,37 +54,37 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Paracetamol",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Semaglutide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide",
     "Drug: Paracetamol"
-   ],
-   "label": "Semaglutide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo semaglutide",
     "Drug: Paracetamol"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -96,23 +96,23 @@
  "brief_summary": "The purpose of the study is to determine the effect of semaglutide on gastric emptying in people with obesity. Participants will receive either semaglutide or placebo, and the treatment assigned will be decided by chance. Semaglutide is a medicine that doctors can already prescribe, while placebo contains no active medicine.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 18-64 years (both inclusive) at the time of signing the informed consent.\n* Male or female (sex assigned at birth, inclusive of all gender identities).\n* Body mass index (BMI) between 30.0 - 44.9 kilogram per meter square (kg/m\\^2) (both inclusive) at screening. Obesity should be due to excess adipose tissue, as judged by the investigator.\n\nExclusion Criteria:\n\n* Known or suspected hypersensitivity to study intervention(s) (including paracetamol) or related products.\n* Use of prescription medicinal products or non-prescription drugs, including any herbal medicine known to interfere with the metabolic CYP pathways, such as perikon (St. John's Wort), within 14 days (or within 5 half-lives of the medicinal product, whichever is longest) of screening, with the exception of use of routine vitamins (vitamins used within a normal dose reference interval) and occasional use of paracetamol/acetaminophen, ibuprofen and acetylsalicylic acid, or topical medication not reaching systemic circulation.\n* Impaired liver function defined as any of the below:\n\n  1. Alanine Aminotransferase (ALT) greater than or equal to (\\>= ) 2.5 times the upper limit of normal (ULN)\n  2. Aspartate Aminotransferase (AST) \\>=2.5 times ULN\n  3. Total bilirubin greater than (\\>) 1.5 times ULN",
-  "healthy_volunteers": false,
-  "maximum_age": "64 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "64 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Graz",
-   "country": "Austria",
    "facility": "Medical University of Graz",
-   "lat": 47.06733,
-   "lon": 15.44197,
+   "city": "Graz",
    "state": null,
-   "status": null
+   "country": "Austria",
+   "status": null,
+   "lat": 47.06733,
+   "lon": 15.44197
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07845578",

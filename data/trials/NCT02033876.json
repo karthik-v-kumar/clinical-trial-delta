@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2019-05-08",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Mayo Clinic"
+  "name": "Mayo Clinic",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -52,27 +52,27 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Ursodiol",
    "other_names": [
     "Ursodeoxycholic acid"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Ursodiol",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ursodiol"
-   ],
-   "label": "Ursodiol",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Ursodiol"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "This study will evaluate whether bile acids are able to increase insulin sensitivity and enhance glycemic control in T2DM patients, as well as exploring the mechanisms that enhance glycemic control. These observations will provide the preliminary data for proposing future therapeutic as well as further mechanistic studies of the role of bile acids in the control of glycemia in T2DM.",
  "eligibility": {
   "criteria": "Overweight or Obese subjects with BMI\\> 25 Kg/m2 with Type 2 Diabetes mellitus on Metformin, receiving standard of care for Type 2 DM. Otherwise individuals who are not currently on treatment for cardiac, pulmonary, gastrointestinal, hepatic, renal, hematological, neurological, endocrine (other than T2DM) and unstable psychiatric disease.\n\nMen or women. Women of childbearing potential will have a negative pregnancy test before initiation of medication.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "city": "Rochester",
-   "country": "United States",
    "facility": "Mayo Clinic in Rochester",
-   "lat": 44.02163,
-   "lon": -92.4699,
+   "city": "Rochester",
    "state": "Minnesota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.02163,
+   "lon": -92.4699
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02033876",

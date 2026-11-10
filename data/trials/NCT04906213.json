@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "PREVENTION",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Duke University"
+  "name": "Duke University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Empagliflozin10Mg Tab",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Arm I: With Type II Diabetes",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Empagliflozin10Mg Tab",
     "Drug: Placebo"
-   ],
-   "label": "Arm I: With Type II Diabetes",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Arm 2: Without Diabetes",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Empagliflozin10Mg Tab",
     "Drug: Placebo"
-   ],
-   "label": "Arm 2: Without Diabetes",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -114,10 +114,10 @@
  "brief_summary": "CREST-KT is a single-center, double-blinded, randomized trial of empagliflozin therapy in 72 kidney transplant recipients with (n=36) and without type 2 diabetes (n=36). After evenly dividing patients by type 2 diabetes diagnosis, patients will be randomized 2:1 to empagliflozin 10mg versus placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Equal to or greater than 12 months and up tp 60 months post kidney transplant\n2. Estimated glomerular filtration rate (eGFR) equal to or greater than 30ml/min/1.73m squared at screening\n3. Standard immunosuppression, including calcineurin inhibitor, Mycophenolate Mofetil or Sodium and a glucocorticoid\n4. Able to provide written consent -\n\nExclusion Criteria:\n\n1. Type I diabetes\n2. Any other solid organ transplant\n3. Hemoglobin A1c greater than 12 %\n4. SGLT2i use at the time of enrollment\n5. Prior SGLT2i allergy or intolerance\n6. Pregnant or nursing at the time of enrollment\n7. History of antibody medicated rejection (AMR) or a Banff score greater than 2B for acute cellular rejection (ACR)\n8. Active anticoagulant use other than aspirin 81 mg for primary prevention of cardiovascular disease\n9. Known positive donor-specific antibodies prior to enrollment\n10. Uncircumcised men\n11. Greater than 2 urinary tract infections (UTI) over the 12 months prior to enrollment\n12. Any genital infections over the 12 months prior to enrollment -",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -125,13 +125,13 @@
  },
  "sites": [
   {
-   "city": "Durham",
-   "country": "United States",
    "facility": "Duke University Medical Center",
-   "lat": 35.99403,
-   "lon": -78.89862,
+   "city": "Durham",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.99403,
+   "lon": -78.89862
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04906213",
@@ -156,7 +156,7 @@
     "text": "Standard immunosuppression, including calcineurin inhibitor, Mycophenolate Mofetil or Sodium and a glucocorticoid"
    },
    {
-    "text": "Able to provide written consent -"
+    "text": "Able to provide written consent"
    }
   ],
   "exclusion": [
@@ -194,7 +194,7 @@
     "text": "Greater than 2 urinary tract infections (UTI) over the 12 months prior to enrollment"
    },
    {
-    "text": "Any genital infections over the 12 months prior to enrollment -"
+    "text": "Any genital infections over the 12 months prior to enrollment"
    }
   ],
   "notes": []

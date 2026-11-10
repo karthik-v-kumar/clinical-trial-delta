@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2024-07-03",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "NewAmsterdam Pharma"
+  "name": "NewAmsterdam Pharma",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -55,52 +55,52 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Obicetrapib",
    "other_names": [
     "CETP inhibitor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Ezetimibe 10mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Obicetrapib placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Ezetimibe placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Obicetrapib placebo",
     "Other: Ezetimibe placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "monotherapy",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Obicetrapib",
     "Other: Ezetimibe placebo"
-   ],
-   "label": "monotherapy",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "combination therapy",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Obicetrapib",
     "Drug: Ezetimibe 10mg"
-   ],
-   "label": "combination therapy",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -132,10 +132,10 @@
  "brief_summary": "This study will be a placebo-controlled, double-blind, randomized, phase 2 study to evaluate the efficacy, safety, and tolerability of obicetrapib 10 mg, both in combination with ezetimibe 10 mg and as monotherapy, as an adjunct to high-intensity statin therapy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* LDL-C \\> 70 mg/dL and Triglycerides \\< 400 mg/dL,\n* Treated with a high-intensity statin therapy\n\nExclusion Criteria:\n\n* BMI \\>= 40 kg/m2\n* Significant cardiovascular disease\n* HbA1c \\>= 10%\n* Uncontrolled hypertension\n* Active muscle disease\n* estimated glomerular filtration rate \\< 60 mL/min\n* Hepatic dysfunction\n* History of participation in any clinical trial evaluating obicetrapib\n* Anemia\n* History of malignancy\n* Alcohol abuse\n* Treatment with investigational product\n* Treatment with PCSK9\n* Clinically significant condition\n* Known CETP inhibitor allergy",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -143,148 +143,148 @@
  },
  "sites": [
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "Velocity Clinical Research - Westlake d.b.a National Research Institute",
+   "city": "Los Angeles",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": null
+   "lon": -118.24368
   },
   {
-   "city": "Northridge",
-   "country": "United States",
    "facility": "Valley Clinical Trials, Inc.",
-   "lat": 34.22834,
-   "lon": -118.53675,
+   "city": "Northridge",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.22834,
+   "lon": -118.53675
   },
   {
-   "city": "Ocala",
-   "country": "United States",
    "facility": "Ocala Cardiovascular Research",
+   "city": "Ocala",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.1872,
-   "lon": -82.14009,
-   "state": "Florida",
-   "status": null
+   "lon": -82.14009
   },
   {
-   "city": "Pembroke Pines",
-   "country": "United States",
    "facility": "A & R Research Group, LLC",
+   "city": "Pembroke Pines",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.00315,
-   "lon": -80.22394,
-   "state": "Florida",
-   "status": null
+   "lon": -80.22394
   },
   {
-   "city": "Port Orange",
-   "country": "United States",
    "facility": "Progressive Medical Research",
-   "lat": 29.13832,
-   "lon": -80.99561,
+   "city": "Port Orange",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.13832,
+   "lon": -80.99561
   },
   {
-   "city": "Savannah",
-   "country": "United States",
    "facility": "Meridian Clinical Research - Savannah, GA",
-   "lat": 32.08354,
-   "lon": -81.09983,
+   "city": "Savannah",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.08354,
+   "lon": -81.09983
   },
   {
-   "city": "Meridian",
-   "country": "United States",
    "facility": "Velocity Clinical Research",
-   "lat": 43.61211,
-   "lon": -116.39151,
+   "city": "Meridian",
    "state": "Idaho",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.61211,
+   "lon": -116.39151
   },
   {
-   "city": "Addison",
-   "country": "United States",
    "facility": "Biofortis, Inc",
+   "city": "Addison",
+   "state": "Illinois",
+   "country": "United States",
+   "status": null,
    "lat": 41.9317,
-   "lon": -87.98896,
-   "state": "Illinois",
-   "status": null
+   "lon": -87.98896
   },
   {
-   "city": "Arlington Heights",
-   "country": "United States",
    "facility": "Northwest Heart Clinical Research, LLC",
-   "lat": 42.08836,
-   "lon": -87.98063,
+   "city": "Arlington Heights",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.08836,
+   "lon": -87.98063
   },
   {
-   "city": "Indianapolis",
-   "country": "United States",
    "facility": "Midwest Institute for Clinical Research",
-   "lat": 39.76838,
-   "lon": -86.15804,
+   "city": "Indianapolis",
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
-   "city": "Owensboro",
-   "country": "United States",
    "facility": "Research Integrity LLC",
-   "lat": 37.77422,
-   "lon": -87.11333,
+   "city": "Owensboro",
    "state": "Kentucky",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.77422,
+   "lon": -87.11333
   },
   {
-   "city": "Troy",
-   "country": "United States",
    "facility": "Oakland Medical Research Center",
-   "lat": 42.60559,
-   "lon": -83.14993,
+   "city": "Troy",
    "state": "Michigan",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.60559,
+   "lon": -83.14993
   },
   {
-   "city": "Butte",
-   "country": "United States",
    "facility": "Mercury Street Medical",
-   "lat": 46.00382,
-   "lon": -112.53474,
+   "city": "Butte",
    "state": "Montana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.00382,
+   "lon": -112.53474
   },
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "Meridian Clinical Research- Springdale, OH",
+   "city": "Cincinnati",
+   "state": "Ohio",
+   "country": "United States",
+   "status": null,
    "lat": 39.12711,
-   "lon": -84.51439,
-   "state": "Ohio",
-   "status": null
+   "lon": -84.51439
   },
   {
-   "city": "Columbus",
-   "country": "United States",
    "facility": "Aventiv Research, Inc.",
-   "lat": 39.96118,
-   "lon": -82.99879,
+   "city": "Columbus",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.96118,
+   "lon": -82.99879
   },
   {
-   "city": "Munroe Falls",
-   "country": "United States",
    "facility": "Summit Research Group, LLC",
-   "lat": 41.1445,
-   "lon": -81.43983,
+   "city": "Munroe Falls",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.1445,
+   "lon": -81.43983
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05266586",

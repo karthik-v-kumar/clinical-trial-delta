@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Amalgam Rx, Inc."
+  "name": "Amalgam Rx, Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,23 +48,23 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Basal Insulin Titration Application",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Prospective Cohort",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Basal Insulin Titration Application"
-   ],
-   "label": "Prospective Cohort",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Retrospective Cohort",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -76,10 +76,10 @@
  "brief_summary": "The digital health tool is an application (\"app\") available on iOS and Android enabled mobile phones. Health Care Providers (\"HCPs\") configure algorithms which can be tailored to individual patient's needs and then prescribe the app to support optimal basal insulin titration and dosing. In this study, participants will be recruited from a medical practice in which an HCP has prescribed a once-daily basal insulin. Participants will be trained on the use of the app utilizing their own mobile phone. During training, a brief self-assessment survey will be administered. After 90 days of usage, a telephone survey will be conducted. The baseline A1C results and the end of study A1C results will be collected from the patients' routine clinical care records. Data from the retrospective control group will be collected from a chart review of the same practice.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n\\- Prospective cohort: The participants will be patients with type 2 diabetes mellitus who are not at goal on their current dose of prescribed basal insulin (e.g. Lantus, Toujeo, Levemir, Tresiba, or Basaglar). Participants shall be age 21 or older, prescribed basal insulin within the past 18 months, own a compatible mobile phone, able to receive/make calls and read messages on their phone. There is no predefined gender or ethnic group. Participants should be generally healthy and not expected to be hospitalized for surgery or other medical care during the study period.\n\n\\- Retrospective cohort: This will be a chart review. Participants will be matched to the prospective cohort for age, gender and baseline A1C. Patients should have been prescribed one of the basal insulins above.\n\nExclusion Criteria:\n\n\\- Prospective cohort: Participants with stage 4 or 5 kidney disease, active malignancies, variable glucocorticoid doses during the study period, severe visual impairment, or dementia will be excluded. Also, participants prescribed rapid-acting or premixed insulins (any insulin not on the above list) will be excluded.\n\n\\- Retrospective cohort: Same as above.",
-  "healthy_volunteers": true,
-  "maximum_age": null,
-  "minimum_age": "21 Years",
   "sex": "ALL",
+  "minimum_age": "21 Years",
+  "maximum_age": null,
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -87,13 +87,13 @@
  },
  "sites": [
   {
-   "city": "Towson",
-   "country": "United States",
    "facility": "MODEL Clinical Research",
-   "lat": 39.4015,
-   "lon": -76.60191,
+   "city": "Towson",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.4015,
+   "lon": -76.60191
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03138447",

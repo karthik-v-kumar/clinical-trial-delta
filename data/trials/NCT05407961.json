@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,63 +51,63 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "LY3532226",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Dulaglutide",
    "other_names": [
     "Trulicity"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: LY3532226",
-    "Drug: Dulaglutide"
-   ],
    "label": "LY3532226 + Dulaglutide (Part A)",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Placebo",
-    "Drug: Dulaglutide"
-   ],
-   "label": "Placebo + Dulaglutide (Part A)",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
-   "intervention_names": [
-    "Drug: Placebo",
-    "Drug: Dulaglutide"
-   ],
-   "label": "Dulaglutide + Placebo (Part B)",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3532226",
     "Drug: Dulaglutide"
-   ],
-   "label": "LY3532226 + Dulaglutide (Part B)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo + Dulaglutide (Part A)",
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo",
+    "Drug: Dulaglutide"
+   ]
+  },
+  {
+   "label": "Dulaglutide + Placebo (Part B)",
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo",
+    "Drug: Dulaglutide"
+   ]
+  },
+  {
+   "label": "LY3532226 + Dulaglutide (Part B)",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: LY3532226",
+    "Drug: Dulaglutide"
+   ]
+  },
+  {
+   "label": "LY3532226 + Placebo (Part B)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3532226",
     "Drug: Placebo"
-   ],
-   "label": "LY3532226 + Placebo (Part B)",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -123,10 +123,10 @@
  "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of the study drug known as LY3532226 in participants with type 2 diabetes mellitus (T2DM). Blood tests will be performed to check how much LY3532226 gets into the bloodstream and how long it takes the body to eliminate it. This is a 2-part study and will last approximately 16 weeks excluding screening period for each part, respectively.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Participants with type 2 diabetes mellitus (T2DM) for at least 3 months before screening\n* Have the following glycosylated hemoglobin (HbA1c) levels at screening:\n\n  1. HbA1c \\>/= 7.0% to \\</= 10.0% for participants treated with diet and exercise alone and participants treated with metformin alone, and\n  2. HbA1c \\>/= 6.0% to \\</= 9.5% for participants treated with dipeptidyl peptidase inhibitor-4 (DPP-4) (with/without metformin) inhibitors and participants treated with metformin and sodium-glucose cotransporter-2 (SGLT-2) inhibitor\n* Participants treated with diet and exercise alone or on a stable dose of metformin for at least 3 months\n* Participants with body weight up to 150 kilograms (kg) and body mass index (BMI) of 23.0 to 45.0 kilograms per meter squared (kg/m²)\n* Male participants who agree to use effective methods of contraception and female participants not of childbearing potential\n\nExclusion Criteria:\n\n* Participants who have uncontrolled diabetes defined as an episode of ketoacidosis or hyperosmolar state requiring hospitalization in the 6 months prior to screening\n* Have a clinically significant abnormality ECG\n* Have obesity induced by other endocrine disorders such as Cushing's syndrome or Prader-Willi syndrome\n* Are on any glucose-lowering medications other than metformin, SGLT-2 inhibitors and/or DPP4\n* Have received chronic systemic glucocorticoid therapy (\\>2 weeks) in the past 6 months\n* Have an average weekly alcohol intake that exceeds 21 units per week (males 65 years of age or lesser) and 14 units per week (females and males 65 years of age or older)\n* Smoke more than 10 cigarettes, or cigarette equivalent, per day",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -134,13 +134,13 @@
  },
  "sites": [
   {
-   "city": "Neuss",
-   "country": "Germany",
    "facility": "Profil Institut für Stoffwechselforschung",
-   "lat": 51.19807,
-   "lon": 6.68504,
+   "city": "Neuss",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 51.19807,
+   "lon": 6.68504
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05407961",

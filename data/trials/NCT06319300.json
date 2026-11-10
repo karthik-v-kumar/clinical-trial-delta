@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Shanghai Zhongshan Hospital"
+  "name": "Shanghai Zhongshan Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "Fudan University"
@@ -52,32 +52,32 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "AI-assisted insulin dose adjustment model",
    "other_names": [
     "the Artificial Intelligence-assisted Insulin Dose Adjustment System"
-   ],
-   "type": "DEVICE"
+   ]
   },
   {
+   "type": "OTHER",
    "name": "doctor's insulin dose adjustment",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "AI group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: AI-assisted insulin dose adjustment model"
-   ],
-   "label": "AI group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Doctor group",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: doctor's insulin dose adjustment"
-   ],
-   "label": "Doctor group",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Our study was a single-blind, randomised, controlled, multicentre study. The study was planned to enrol 142 patients with T2DM admitted to general wards who required subcutaneous insulin therapy. Participants were randomly divided into two groups in the ratio of 1:1, one group with an artificial intelligence-assisted insulin decision system to adjust insulin doses for blood glucose control, and the other group received clinician-instituted insulin dose adjustments for blood glucose control. The effectiveness and safety of the system was confirmed by comparing the glycaemic control and risk of adverse events between the two groups.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes mellitus \\> 3 months\n* Age≥18 years old\n* Receiving glucose-lowering management for at least 90 days\n* Blood glucose:7.8-22.2 mmol/L\n* Length of proposed hospitalisation ≥5 days.\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus, other special types of diabetes mellitus\n* BG\\>22.2 mmol/L, or acute complications of diabetes, such as diabetic ketoacidosis, diabetic hyperosmolar state\n* History of severe or repeated hypoglycaemia\n* BMI≥45 kg/m2\n* Pregnant and lactating women\n* Clinically relevant liver disease (established cirrhosis and portal hypertension)\n* Presence of severe renal disease (serum creatinine ≥3.0 mg/dL or estimated glomerular filtration rate \\<30 ml/min/1.73 m2)\n* Severe cardiac insufficiency\n* Patients undergoing corticosteroid therapy (equivalent to a prednisone dose \\>5 mg/day)\n* Psychiatric abnormalities or impaired cognitive function\n* Patients with severe oedema, infection, or peripheral blood circulation disorder\n* Patients with severe illness or patients to be transferred to ICU for treatment\n* Surgery of the heart or abdomen that may have a significant impact on the test is planned during hospitalisation\n* Expected to be NPO for an extended period\n* Any medical or psychological conditions, or medications that, in the doctor's judgment, could interfere with the results\n* Subjects who cannot comply with the protocol.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "city": "Shanghai",
-   "country": "China",
    "facility": "Zhongshan Hospital, Fudan University",
-   "lat": 31.22222,
-   "lon": 121.45806,
+   "city": "Shanghai",
    "state": "Shanghai Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 31.22222,
+   "lon": 121.45806
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06319300",

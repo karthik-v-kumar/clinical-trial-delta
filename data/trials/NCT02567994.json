@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Handok Inc."
+  "name": "Handok Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,25 +53,25 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Teneligliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Teneligliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Teneligliptin"
-   ],
-   "label": "Teneligliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Teneligliptin"
-   ],
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "After a screening, a 2-week, single-blind placebo run-in, 200 patients will be randomized in a 1 : 1 ratio to the addition of either once-daily Teneligliptin 20mg or sitagliptin 100mg to ongoing stable doses of glimepiride in combination with metformin for 24 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Patients with Type 2 Diabetes Mellitus\n2. Adults aged ≥ 19 years old\n3. Patients with HbA1c 7%\\~11% at Screening and Run-in visit\n\nExclusion Criteria:\n\n\\-",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -94,13 +94,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Samsung Medical Center",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02567994",
@@ -125,11 +125,7 @@
     "text": "Patients with HbA1c 7%~11% at Screening and Run-in visit"
    }
   ],
-  "exclusion": [
-   {
-    "text": "-"
-   }
-  ],
+  "exclusion": [],
   "notes": []
  },
  "in_watchlist": true,

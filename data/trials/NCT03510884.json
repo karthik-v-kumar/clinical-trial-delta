@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2023-05-06",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Sanofi"
+  "name": "Sanofi",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Regeneron Pharmaceuticals"
@@ -54,112 +54,77 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Alirocumab SAR236553 (REGN727)",
    "other_names": [
     "Praluent"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Rosuvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Simvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Pravastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Lovastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Fluvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Ezetimibe",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Cholestyramine",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Nicotinic acid",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Fenofibrate",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Omega-3 fatty acids",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Alirocumab SAR236553 (REGN727)",
-    "Drug: Rosuvastatin",
-    "Drug: Atorvastatin",
-    "Drug: Simvastatin",
-    "Drug: Pravastatin",
-    "Drug: Lovastatin",
-    "Drug: Fluvastatin",
-    "Drug: Ezetimibe",
-    "Drug: Cholestyramine",
-    "Drug: Nicotinic acid",
-    "Drug: Fenofibrate",
-    "Drug: Omega-3 fatty acids",
-    "Drug: Placebo"
-   ],
    "label": "Placebo/Alirocumab Q2W",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Alirocumab SAR236553 (REGN727)",
-    "Drug: Rosuvastatin",
-    "Drug: Atorvastatin",
-    "Drug: Simvastatin",
-    "Drug: Pravastatin",
-    "Drug: Lovastatin",
-    "Drug: Fluvastatin",
-    "Drug: Ezetimibe",
-    "Drug: Cholestyramine",
-    "Drug: Nicotinic acid",
-    "Drug: Fenofibrate",
-    "Drug: Omega-3 fatty acids"
-   ],
-   "label": "Alirocumab Q2W",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alirocumab SAR236553 (REGN727)",
     "Drug: Rosuvastatin",
@@ -174,11 +139,11 @@
     "Drug: Fenofibrate",
     "Drug: Omega-3 fatty acids",
     "Drug: Placebo"
-   ],
-   "label": "Placebo/Alirocumab Q4W",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Alirocumab Q2W",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alirocumab SAR236553 (REGN727)",
     "Drug: Rosuvastatin",
@@ -192,9 +157,44 @@
     "Drug: Nicotinic acid",
     "Drug: Fenofibrate",
     "Drug: Omega-3 fatty acids"
-   ],
+   ]
+  },
+  {
+   "label": "Placebo/Alirocumab Q4W",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Alirocumab SAR236553 (REGN727)",
+    "Drug: Rosuvastatin",
+    "Drug: Atorvastatin",
+    "Drug: Simvastatin",
+    "Drug: Pravastatin",
+    "Drug: Lovastatin",
+    "Drug: Fluvastatin",
+    "Drug: Ezetimibe",
+    "Drug: Cholestyramine",
+    "Drug: Nicotinic acid",
+    "Drug: Fenofibrate",
+    "Drug: Omega-3 fatty acids",
+    "Drug: Placebo"
+   ]
+  },
+  {
    "label": "Alirocumab Q4W",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Alirocumab SAR236553 (REGN727)",
+    "Drug: Rosuvastatin",
+    "Drug: Atorvastatin",
+    "Drug: Simvastatin",
+    "Drug: Pravastatin",
+    "Drug: Lovastatin",
+    "Drug: Fluvastatin",
+    "Drug: Ezetimibe",
+    "Drug: Cholestyramine",
+    "Drug: Nicotinic acid",
+    "Drug: Fenofibrate",
+    "Drug: Omega-3 fatty acids"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -206,401 +206,401 @@
  "brief_summary": "Primary Objective:\n\nTo evaluate the efficacy of alirocumab administered every 2 weeks (Q2W) and every 4 weeks (Q4W) versus placebo after 24 weeks of double-blind (DB) treatment on low-density lipoprotein cholesterol (LDL-C) levels in participants with heterozygous familial hypercholesterolemia (heFH) 8 to 17 years of age on optimal stable daily dose of statin therapy ± other lipid modifying therapies (LMTs) or a stable dose of non-statin LMTs in case of intolerance to statins.\n\nSecondary Objectives:\n\n* To evaluate the efficacy of alirocumab versus placebo on LDL-C levels.\n* To evaluate the effects of alirocumab versus placebo on other lipid parameters.\n* To evaluate the safety and tolerability of alirocumab in comparison with placebo.\n* To evaluate the efficacy, safety, and tolerability of alirocumab after open label treatment.\n* To evaluate the development of anti-alirocumab antibodies.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Children and adolescent male and female participants 8 to 17 years of age at the time of signed informed consent.\n* Participants with diagnosis of heFH through genotyping or clinical criteria.\n* Participants treated with optimal dose of statin +/- other LMT(s) or non-statin LMT(s) if statin intolerant at stable dose for at least 4 weeks prior to screening lipid sampling.\n* Participants with calculated LDL-C greater than or equal to 130 mg/dL (\\>=3.37 mmol/L) at the screening visit except for participants who have previously participated in the DFI14223 (NCT02890992) study.\n* A signed informed consent indicating parental permission with or without participant assent.\n\nExclusion criteria:\n\n* Participant with body weight \\< 25 kg.\n* Participants aged of 8 to 9 years not at Tanner stage 1 and participants aged of 10 to 17 years not at least at Tanner stage 2 in their development.\n* Participants with secondary hyperlipidemia.\n* Diagnosis of homozygous familial hypercholesterolemia.\n* Participant who had received lipid apheresis treatment within 2 months prior to the screening period, or has plans to receive it during the study.\n* Participants with uncontrolled type 1 or type 2 diabetes mellitus.\n* Participants with known uncontrolled thyroid disease.\n* Participants with uncontrolled hypertension.\n* Fasting triglycerides greater than (\\>) 350 mg/dL (3.95 mmol/L).\n* Severe renal impairment (ie, estimated glomerular filtration rate \\<30 mL/min/1.73 m\\^2).\n* Alanine aminotransferase or aspartate aminotransferase \\>2\\*upper limit of normal (ULN).\n* Creatinine phosphokinase (CPK) \\>3\\*ULN.\n\nThe above information was not intended to contain all considerations relevant to a participant's potential participation in a clinical trial.",
-  "healthy_volunteers": false,
-  "maximum_age": "17 Years",
-  "minimum_age": "8 Years",
   "sex": "ALL",
+  "minimum_age": "8 Years",
+  "maximum_age": "17 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "CHILD"
   ]
  },
  "sites": [
   {
-   "city": "Buenos Aires",
-   "country": "Argentina",
    "facility": "Investigational Site Number :0320001",
+   "city": "Buenos Aires",
+   "state": null,
+   "country": "Argentina",
+   "status": null,
    "lat": -34.61315,
-   "lon": -58.37723,
-   "state": null,
-   "status": null
+   "lon": -58.37723
   },
   {
-   "city": "Vienna",
-   "country": "Austria",
    "facility": "Investigational Site Number :0400001",
+   "city": "Vienna",
+   "state": null,
+   "country": "Austria",
+   "status": null,
    "lat": 48.20849,
-   "lon": 16.37208,
-   "state": null,
-   "status": null
+   "lon": 16.37208
   },
   {
-   "city": "São Paulo",
-   "country": "Brazil",
    "facility": "Investigational Site Number :0760001",
-   "lat": -23.5475,
-   "lon": -46.63611,
+   "city": "São Paulo",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Porto Alegre",
    "country": "Brazil",
+   "status": null,
+   "lat": -23.5475,
+   "lon": -46.63611
+  },
+  {
    "facility": "Investigational Site Number :0760004",
-   "lat": -30.03283,
-   "lon": -51.23019,
+   "city": "Porto Alegre",
    "state": "Rio Grande do Sul",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -30.03283,
+   "lon": -51.23019
   },
   {
-   "city": "Plovdiv",
-   "country": "Bulgaria",
    "facility": "Investigational Site Number :1000002",
+   "city": "Plovdiv",
+   "state": null,
+   "country": "Bulgaria",
+   "status": null,
    "lat": 42.15387,
-   "lon": 24.75001,
-   "state": null,
-   "status": null
+   "lon": 24.75001
   },
   {
-   "city": "Québec",
-   "country": "Canada",
    "facility": "Investigational Site Number :1240001",
+   "city": "Québec",
+   "state": null,
+   "country": "Canada",
+   "status": null,
    "lat": 46.81228,
-   "lon": -71.21454,
-   "state": null,
-   "status": null
+   "lon": -71.21454
   },
   {
-   "city": "Brno",
-   "country": "Czechia",
    "facility": "Investigational Site Number :2030002",
-   "lat": 49.19522,
-   "lon": 16.60796,
+   "city": "Brno",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Praha 5 - Motol",
    "country": "Czechia",
+   "status": null,
+   "lat": 49.19522,
+   "lon": 16.60796
+  },
+  {
    "facility": "Investigational Site Number :2030001",
-   "lat": null,
-   "lon": null,
+   "city": "Praha 5 - Motol",
    "state": null,
-   "status": null
+   "country": "Czechia",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Copenhagen",
-   "country": "Denmark",
    "facility": "Investigational Site Number :2080001",
+   "city": "Copenhagen",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
    "lat": 55.67594,
-   "lon": 12.56553,
-   "state": null,
-   "status": null
+   "lon": 12.56553
   },
   {
-   "city": "HUS",
-   "country": "Finland",
    "facility": "Investigational Site Number :2460001",
+   "city": "HUS",
+   "state": null,
+   "country": "Finland",
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": null,
-   "status": null
+   "lon": null
   },
   {
-   "city": "Bron",
-   "country": "France",
    "facility": "Investigational Site Number :2500001",
-   "lat": 45.73865,
-   "lon": 4.91303,
+   "city": "Bron",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Nantes",
    "country": "France",
+   "status": null,
+   "lat": 45.73865,
+   "lon": 4.91303
+  },
+  {
    "facility": "Investigational Site Number :2500002",
+   "city": "Nantes",
+   "state": null,
+   "country": "France",
+   "status": null,
    "lat": 47.21725,
-   "lon": -1.55336,
-   "state": null,
-   "status": null
+   "lon": -1.55336
   },
   {
-   "city": "Budapest",
-   "country": "Hungary",
    "facility": "Investigational Site Number :3480001",
+   "city": "Budapest",
+   "state": null,
+   "country": "Hungary",
+   "status": null,
    "lat": 47.49835,
-   "lon": 19.04045,
-   "state": null,
-   "status": null
+   "lon": 19.04045
   },
   {
-   "city": "Milan",
-   "country": "Italy",
    "facility": "Investigational Site Number :3800003",
+   "city": "Milan",
+   "state": null,
+   "country": "Italy",
+   "status": null,
    "lat": 42.78235,
-   "lon": 12.59836,
-   "state": null,
-   "status": null
+   "lon": 12.59836
   },
   {
-   "city": "Palermo",
-   "country": "Italy",
    "facility": "Investigational Site Number :3800001",
-   "lat": 38.1166,
-   "lon": 13.3636,
+   "city": "Palermo",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Roma",
    "country": "Italy",
+   "status": null,
+   "lat": 38.1166,
+   "lon": 13.3636
+  },
+  {
    "facility": "Investigational Site Number :3800002",
+   "city": "Roma",
+   "state": null,
+   "country": "Italy",
+   "status": null,
    "lat": 44.99364,
-   "lon": 11.10642,
-   "state": null,
-   "status": null
+   "lon": 11.10642
   },
   {
-   "city": "Beirut",
-   "country": "Lebanon",
    "facility": "Investigational Site Number :4220001",
-   "lat": 33.89332,
-   "lon": 35.50157,
+   "city": "Beirut",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Room Hospital Street, Achrafie",
    "country": "Lebanon",
+   "status": null,
+   "lat": 33.89332,
+   "lon": 35.50157
+  },
+  {
    "facility": "Investigational Site Number :4220003",
+   "city": "Room Hospital Street, Achrafie",
+   "state": null,
+   "country": "Lebanon",
+   "status": null,
    "lat": 33.886,
-   "lon": 35.51962,
-   "state": null,
-   "status": null
+   "lon": 35.51962
   },
   {
-   "city": "Oaxaca City",
-   "country": "Mexico",
    "facility": "Investigational Site Number :4840007",
-   "lat": 17.06025,
-   "lon": -96.72544,
+   "city": "Oaxaca City",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Guadalajara",
    "country": "Mexico",
+   "status": null,
+   "lat": 17.06025,
+   "lon": -96.72544
+  },
+  {
    "facility": "Investigational Site Number :4840008",
-   "lat": 20.67738,
-   "lon": -103.34749,
+   "city": "Guadalajara",
    "state": "Jalisco",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 20.67738,
+   "lon": -103.34749
   },
   {
-   "city": "Amsterdam",
-   "country": "Netherlands",
    "facility": "Investigational Site Number :5280001",
+   "city": "Amsterdam",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 52.37403,
-   "lon": 4.88969,
-   "state": null,
-   "status": null
+   "lon": 4.88969
   },
   {
-   "city": "Oslo",
-   "country": "Norway",
    "facility": "Investigational Site Number :5780001",
+   "city": "Oslo",
+   "state": null,
+   "country": "Norway",
+   "status": null,
    "lat": 59.91273,
-   "lon": 10.74609,
-   "state": null,
-   "status": null
+   "lon": 10.74609
   },
   {
-   "city": "Lodz",
-   "country": "Poland",
    "facility": "Investigational Site Number :6160001",
-   "lat": 51.77058,
-   "lon": 19.47395,
+   "city": "Lodz",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Gdansk",
    "country": "Poland",
+   "status": null,
+   "lat": 51.77058,
+   "lon": 19.47395
+  },
+  {
    "facility": "Investigational Site Number :6160002",
-   "lat": 54.35227,
-   "lon": 18.64912,
+   "city": "Gdansk",
    "state": "Pomeranian Voivodeship",
-   "status": null
+   "country": "Poland",
+   "status": null,
+   "lat": 54.35227,
+   "lon": 18.64912
   },
   {
-   "city": "Kazan'",
-   "country": "Russia",
    "facility": "Investigational Site Number :6430006",
+   "city": "Kazan'",
+   "state": null,
+   "country": "Russia",
+   "status": null,
    "lat": 55.78874,
-   "lon": 49.12214,
-   "state": null,
-   "status": null
+   "lon": 49.12214
   },
   {
-   "city": "Kemerovo",
-   "country": "Russia",
    "facility": "Investigational Site Number :6430001",
+   "city": "Kemerovo",
+   "state": null,
+   "country": "Russia",
+   "status": null,
    "lat": 55.35417,
-   "lon": 86.10435,
-   "state": null,
-   "status": null
+   "lon": 86.10435
   },
   {
-   "city": "Moscow",
-   "country": "Russia",
    "facility": "Investigational Site Number :6430004",
-   "lat": 55.75204,
-   "lon": 37.61781,
+   "city": "Moscow",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Ufa",
    "country": "Russia",
+   "status": null,
+   "lat": 55.75204,
+   "lon": 37.61781
+  },
+  {
    "facility": "Investigational Site Number :6430002",
+   "city": "Ufa",
+   "state": null,
+   "country": "Russia",
+   "status": null,
    "lat": 54.74306,
-   "lon": 55.96779,
-   "state": null,
-   "status": null
+   "lon": 55.96779
   },
   {
-   "city": "Ljubljana",
-   "country": "Slovenia",
    "facility": "Investigational Site Number :7050001",
+   "city": "Ljubljana",
+   "state": null,
+   "country": "Slovenia",
+   "status": null,
    "lat": 46.05108,
-   "lon": 14.50513,
-   "state": null,
-   "status": null
+   "lon": 14.50513
   },
   {
-   "city": "Parow",
-   "country": "South Africa",
    "facility": "Investigational Site Number :7100002",
+   "city": "Parow",
+   "state": null,
+   "country": "South Africa",
+   "status": null,
    "lat": -33.89723,
-   "lon": 18.59992,
-   "state": null,
-   "status": null
+   "lon": 18.59992
   },
   {
-   "city": "A Coruña",
-   "country": "Spain",
    "facility": "Investigational Site Number :7240002",
+   "city": "A Coruña",
+   "state": null,
+   "country": "Spain",
+   "status": null,
    "lat": 43.37135,
-   "lon": -8.396,
-   "state": null,
-   "status": null
+   "lon": -8.396
   },
   {
-   "city": "Badalona",
-   "country": "Spain",
    "facility": "Investigational Site Number :7240004",
+   "city": "Badalona",
+   "state": null,
+   "country": "Spain",
+   "status": null,
    "lat": 41.45004,
-   "lon": 2.24741,
-   "state": null,
-   "status": null
+   "lon": 2.24741
   },
   {
-   "city": "Barcelona",
-   "country": "Spain",
    "facility": "Investigational Site Number :7240001",
-   "lat": 41.38879,
-   "lon": 2.15899,
+   "city": "Barcelona",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Pamplona",
    "country": "Spain",
+   "status": null,
+   "lat": 41.38879,
+   "lon": 2.15899
+  },
+  {
    "facility": "Investigational Site Number :7240003",
-   "lat": 42.81687,
-   "lon": -1.64323,
+   "city": "Pamplona",
    "state": "Navarre",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 42.81687,
+   "lon": -1.64323
   },
   {
-   "city": "Stockholm",
-   "country": "Sweden",
    "facility": "Investigational Site Number :7520001",
+   "city": "Stockholm",
+   "state": null,
+   "country": "Sweden",
+   "status": null,
    "lat": 59.32938,
-   "lon": 18.06871,
-   "state": null,
-   "status": null
+   "lon": 18.06871
   },
   {
-   "city": "Taipei",
-   "country": "Taiwan",
    "facility": "Investigational Site Number :1580001",
+   "city": "Taipei",
+   "state": null,
+   "country": "Taiwan",
+   "status": null,
    "lat": 25.05306,
-   "lon": 121.52639,
-   "state": null,
-   "status": null
+   "lon": 121.52639
   },
   {
-   "city": "Ankara",
-   "country": "Turkey (Türkiye)",
    "facility": "Investigational Site Number :7920002",
-   "lat": 39.91987,
-   "lon": 32.85427,
+   "city": "Ankara",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Izmir",
    "country": "Turkey (Türkiye)",
+   "status": null,
+   "lat": 39.91987,
+   "lon": 32.85427
+  },
+  {
    "facility": "Investigational Site Number :7920001",
-   "lat": 38.41273,
-   "lon": 27.13838,
+   "city": "Izmir",
    "state": null,
-   "status": null
+   "country": "Turkey (Türkiye)",
+   "status": null,
+   "lat": 38.41273,
+   "lon": 27.13838
   },
   {
-   "city": "Boca Raton",
-   "country": "United States",
    "facility": "Excel Medical Clinical Trials, LLC-Site Number:8400001",
-   "lat": 26.35869,
-   "lon": -80.0831,
+   "city": "Boca Raton",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 26.35869,
+   "lon": -80.0831
   },
   {
-   "city": "St Louis",
-   "country": "United States",
    "facility": "Washington University School of Medicine-Site Number:8400006",
-   "lat": 38.62727,
-   "lon": -90.19789,
+   "city": "St Louis",
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   },
   {
-   "city": "Charlotte",
-   "country": "United States",
    "facility": "Presbyterian Novant Heart & Wellness-Site Number:8400002",
-   "lat": 35.22709,
-   "lon": -80.84313,
+   "city": "Charlotte",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.22709,
+   "lon": -80.84313
   },
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "Cincinnati Children's Hospital Medical Center-Site Number:8400005",
-   "lat": 39.12711,
-   "lon": -84.51439,
+   "city": "Cincinnati",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
   },
   {
-   "city": "Nashville",
-   "country": "United States",
    "facility": "Vanderbilt University-Site Number:8400003",
-   "lat": 36.16589,
-   "lon": -86.78444,
+   "city": "Nashville",
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.16589,
+   "lon": -86.78444
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03510884",

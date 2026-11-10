@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "PREVENTION",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Yunlong Wang"
+  "name": "Yunlong Wang",
+  "class": "OTHER"
  },
  "collaborators": [
   "Shanghai Zhongshan Hospital"
@@ -54,33 +54,33 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "Mounjaro"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Structured Lifestyle Intervention",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Tirzepatide + Lifestyle Intervention",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide",
     "Behavioral: Structured Lifestyle Intervention"
-   ],
-   "label": "Tirzepatide + Lifestyle Intervention",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Lifestyle Intervention",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Structured Lifestyle Intervention"
-   ],
-   "label": "Lifestyle Intervention",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "This multicenter, randomized, open-label, blinded-endpoint trial evaluates whether weekly subcutaneous tirzepatide for 12 months reduces atrial fibrillation (AF) recurrence after catheter ablation in adults with obesity and heart failure with preserved ejection fraction (HFpEF). HFpEF is diagnosed by direct intraprocedural measurement of mean left atrial pressure (mLAP ≥ 15 mmHg at rest) during the ablation procedure, providing a hemodynamically anchored, homogeneous study population free from the diagnostic ambiguities of N-terminal pro-B-type natriuretic peptide (NT-proBNP) and E/e' in AF patients. Approximately 602 participants will be randomized 1:1 to tirzepatide (titrated to a target of 10 mg/week, maximum 15 mg/week) plus standard care, or standard care alone. Both groups receive an identical structured lifestyle intervention. The primary endpoint is the first documented AF/atrial flutter/atrial tachycardia episode lasting ≥ 30 seconds, occurring between day 91 and day 365 after ablation, adjudicated by an independent blinded clinical endpoint committee.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 18 to 80 years\n* Symptomatic atrial fibrillation (paroxysmal or persistent of ≤ 5 years duration), undergoing first-time catheter ablation\n* Body weight criteria (aligned with NMPA-approved tirzepatide indication)，meeting at least one of the following:\n\n  * BMI ≥28.0 kg/m² (obesity threshold per Chinese criteria), OR\n  * BMI ≥24.0 kg/m² and \\<28.0 kg/m² (overweight per Chinese criteria) with at least one weight-related comorbidity: hypertension, dyslipidemia, type 2 diabetes mellitus (T2DM), obstructive sleep apnea syndrome (OSAS), or atherosclerotic cardiovascular disease (ASCVD)\n* HFpEF defined by intraprocedural mean left atrial pressure ≥ 15 mmHg at rest\n* Left ventricular ejection fraction ≥ 50% on echocardiography within 30 days prior to enrollment\n* Provision of written informed consent\n\nExclusion Criteria:\n\n* Prior use of any GLP-1 receptor agonist or GIP/GLP-1 dual receptor agonist\n* Type 1 diabetes mellitus; or type 2 diabetes with HbA1c \\> 10%\n* Personal history of pancreatitis; personal or family history of medullary thyroid carcinoma or multiple endocrine neoplasia type 2 (MEN2)\n* Severe gastrointestinal disease, including gastroparesis or active inflammatory bowel disease\n* Prior bariatric surgery\n* Moderate or severe valvular heart disease, hypertrophic cardiomyopathy, cardiac amyloidosis, constrictive pericarditis, or restrictive cardiomyopathy\n* Severe renal impairment (eGFR \\< 30 mL/min/1.73m²)\n* Active malignancy, excluding basal cell carcinoma\n* Acute coronary syndrome, stroke, percutaneous coronary intervention, or cardiac surgery within 30 days prior to enrollment\n* Pregnancy, lactation, or planned pregnancy within 6 months\n* Life expectancy \\< 12 months\n* Concurrent participation in another interventional clinical trial\n* Any condition that, in the investigator's judgment, would interfere with participation",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Beijing Anzhen Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
+   "city": "Beijing",
    "state": "Beijing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07630454",

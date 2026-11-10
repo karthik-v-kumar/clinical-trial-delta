@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "McMaster University"
+  "name": "McMaster University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -53,34 +53,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Metformin",
    "other_names": [
     "Group A"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Group B"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin"
-   ],
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -92,10 +92,10 @@
  "brief_summary": "Type II Diabetes Mellitus patients having surgery who adhere to their regular scheduled metformin dosing and take this medication on the morning of surgery will have better glycemic control peri-operatively and potentially suffer less morbidity compared to individuals taking a placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* ages 18 - 75, using metformin for control of Type II Diabetes mellitus, American Society of Anesthesiologists(ASA) I, II and III, informed consent, surgery in which less than 1000 mL of blood loss is expected.\n\nExclusion Criteria:\n\n* renal failure, liver failure, Congestive heart failure (CHF), previous episodes of hypoglycemia, conditions which mask symptoms of hypoglycemia (autonomic neuropathy or chronic high dose beta-blocker usage), low capillary blood sugar (CBG) (≤4.0 mmol/L) at pre-operative appointment date, same day surgery, any patient who received contrast dye within 2 days of the planned surgery or requires intra-operative contrast dye and same day surgery.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

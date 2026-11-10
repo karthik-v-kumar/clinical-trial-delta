@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "PREVENTION",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Emory University"
+  "name": "Emory University",
+  "class": "OTHER"
  },
  "collaborators": [
   "Madras Diabetes Research Foundation"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "Lifestyle Intervention",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Standard of Care",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Standard of Care",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Standard of Care"
-   ],
-   "label": "Standard of Care",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Lifestyle Intervention",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Lifestyle Intervention"
-   ],
-   "label": "Lifestyle Intervention",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "People from the Indian subcontinent are more likely to get diabetes, even at younger ages. The Diabetes Community Lifestyle Improvement Program (D-CLIP) will test in a randomized trial if a culturally specific, community-based lifestyle and metformin (for individuals who do not respond to lifestyle change alone) intervention for men and women living in Chennai, India can effectively prevent type 2 diabetes in high-risk individuals. Lifestyle interventions are programs that seek to prevent disease by promoting changes in health behaviors, improved diet, increased physical activity, and weight loss. The results of this program will be used to make policy and public health recommendations, which will result in broader diabetes prevention efforts. The research team hypothesizes that this program will result in improvements in health (diabetes prevention, weight loss, and improvements in other markers of chronic disease) for intervention participants compared to participants in the control arm of the study.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Live in or near Chennai, India\n* Aged 20-65 years\n* A BMI \\>22 kg/m2 and/or a waist circumference \\>90 cm for men and \\>80 cm for women\n* No prior diabetes diagnosis, except for gestational diabetes\n* At high risk of developing diabetes (pre-diabetes) as defined by a casual capillary glucose greater than or equal to 110 (measured during screening) AND Baseline fasting glucose of 100-125 mg/dL and/or 2-hour post-load glucose of 140-199 mg/dL\n* Willingness to consent to randomization\n\nExclusion Criteria:\n\n* Does not fulfill inclusion criteria\n* Currently pregnant or breastfeeding\n* History of or biomarkers indicating heart disease, serious illness, cancer diagnosis in the past 5 years, or other conditions that may impede or prohibit participation in an unsupervised diet change and physical activity program.",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "city": "Chennai",
-   "country": "India",
    "facility": "Madras Diabetes Research Foundation",
-   "lat": 13.08784,
-   "lon": 80.27847,
+   "city": "Chennai",
    "state": "Tamil Nadu",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 13.08784,
+   "lon": 80.27847
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01283308",

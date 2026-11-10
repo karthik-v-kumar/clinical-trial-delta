@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Yonsei University"
+  "name": "Yonsei University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Moderate-intensity statin and ezetimibe combination therapy",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "High-intensity statin monotherapy",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Moderate-intensity statin and ezetimibe combination therapy",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Moderate-intensity statin and ezetimibe combination therapy"
-   ],
-   "label": "Moderate-intensity statin and ezetimibe combination therapy",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "High-intensity statin monotherapy",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: High-intensity statin monotherapy"
-   ],
-   "label": "High-intensity statin monotherapy",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The ULTRA-CKD trial is a prospective, randomized, open-label, multicenter trial designed to compare the efficacy and safety of moderate-intensity statin plus ezetimibe combination therapy versus high-intensity statin monotherapy in patients with chronic kidney disease (CKD) and concomitant atherosclerotic cardiovascular disease (ASCVD).\n\nPatients with CKD are at very high risk for ASCVD. In this population, it is important to establish a lipid-lowering strategy that optimizes cardiovascular outcomes while ensuring long-term safety. While high-intensity statins are generally considered as initial treatment option for secondary prevention, the optimal strategy for CKD patients remains to be clinicaly defined. This study aims to evaluate whether the combination of moderate-intensity statin and ezetimibe is non-inferior to high-intensity statin monotherapy in terms of 3-year composite of major adverse cardiovascular events.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Age 19-85 years.\n2. Chronic kidney disease stage III, IV, or V (CKD-EPI eGFR \\<60 / \\<30 / \\<15 mL/min/1.73 m² or on dialysis).\n3. Established ASCVD, meeting at least one of the following:\n\n   * Prior acute coronary syndrome (myocardial infarction or unstable angina).\n   * Stable angina confirmed by imaging studies.\n   * History of coronary revascularization (percutaneous coronary intervention or coronary artery bypass grafting).\n   * Peripheral artery disease.\n   * Ischemic stroke or transient ischemic attack.\n\nExclusion Criteria:\n\n1. Baseline LDL cholesterol \\<55 mg/dL in the absence of statin therapy.\n2. Acute liver disease or persistently unexplained serum AST/ALT ≥2 × the upper limit of normal.\n3. Allergy or hypersensitivity to statins.\n4. Life expectancy \\<1 year.\n5. Expected inability to complete at least 1 year of follow-up.\n6. Inability to read or understand the informed consent form.",
-  "healthy_volunteers": false,
-  "maximum_age": "85 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "85 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Severance Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": "RECRUITING"
+   "country": "South Korea",
+   "status": "RECRUITING",
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07524101",

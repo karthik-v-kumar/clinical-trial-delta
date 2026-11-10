@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Consorci Sanitari Integral"
+  "name": "Consorci Sanitari Integral",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,30 +48,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "premixed insulin therapy",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "basal bolus insulin therapy",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Group A (experimental arm)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: premixed insulin therapy"
-   ],
-   "label": "Group A (experimental arm)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Group B (active comparator)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: basal bolus insulin therapy"
-   ],
-   "label": "Group B (active comparator)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -83,10 +83,10 @@
  "brief_summary": "The purpose of this study is to compare efficacy and security of premixed insulin treatment vs basal bolus insulin treatment in older patients with poorly controlled type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Outpatients\n* Age ≥ 65 years old\n* Type 2 diabetes mellitus\n* HbA1c ≥9% (74 mmol/mol)\n* Previously treated with one or two doses of basal insulin and oral hypoglycaemic agents\n\nExclusion Criteria:\n\n* Severe insulin-resistance\n* High doses of corticosteroids\n* Chemotherapy treatment\n* High comorbidity\n* Bad compliance of the treatment\n* Frequent severe hypoglycaemia",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "65 Years",
   "sex": "ALL",
+  "minimum_age": "65 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "OLDER_ADULT"
   ]

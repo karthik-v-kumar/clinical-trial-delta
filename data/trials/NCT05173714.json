@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Srinvasan Beddhu"
+  "name": "Srinvasan Beddhu",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -57,58 +57,58 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "SLIMM",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Standard Resistance Training",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Guided Resistance Training",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "SLIMM + Standard RT + Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Behavioral: SLIMM",
     "Behavioral: Standard Resistance Training",
     "Drug: Placebo"
-   ],
-   "label": "SLIMM + Standard RT + Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "SLIMM + Guided RT + Placebo",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: SLIMM",
     "Behavioral: Guided Resistance Training",
     "Drug: Placebo"
-   ],
-   "label": "SLIMM + Guided RT + Placebo",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "SLIMM + Guided RT + Semaglutide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: SLIMM",
     "Behavioral: Guided Resistance Training",
     "Drug: Semaglutide"
-   ],
-   "label": "SLIMM + Guided RT + Semaglutide",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -120,10 +120,10 @@
  "brief_summary": "* Prolonged sitting (sedentary behavior) is a risk factor for decreased kidney function, obesity, diabetes and mortality. Prolonged sitting is associated with decreased kidney function and increased risk of diabetes, heart disease and death.\n* In a previous pilot study funded by NIH, it was shown that a Sit Less, Interact and Move More (SLIMM) intervention targeting sedentary behavior in people with kidney disease was able to decrease prolonged sitting but that effect was not sustained.\n* Therefore, the researchers are currently conducting a follow-up study named Sit Less, Interact and Move More (SLIMM) 2.\n* This NIH funded study is conducted at the University of Utah and Stanford University.\n* The purpose of this study is to see if guided resistance training (to improve muscle strength) and semaglutide (FDA approved diabetes and weight loss medication that might also improve physical function) can boost adherence to the SLIMM Intervention and reduce sedentary behavior.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) Glomerular Filtration Rate (eGFR) 20 to \\<60 mL/min/1.73m\\^2\n* Able to perform resistance training\n* Access to compatible \"smartphone\" or device (i.e., Android, Kindle or Apple with internet connectivity or mobile network), desktop or laptop\n\nExclusion Criteria:\n\n* Type 1 Diabetes\n* History of gastroparesis or paralytic ileus\n* At baseline, if sedentary time is 25 min/hr or less, measured by accelerometer\n* Potential contraindications to semaglutide such as a history of pancreatitis, and a family or personal history of multiple endocrine neoplasia type 2 or familial medullary thyroid carcinoma.\n* Previous bariatric surgery\n* Medical condition likely to limit survival to less than 1 year\n* Anticipated start of dialysis or kidney transplantation within 6 months\n* Any factors judged by the investigator or study team to likely limit adherence to interventions\n* Vulnerable populations- pregnant or incarcerated\n* Enrolled in interventional trials using drugs or devices\n* Not able to undergo informed consent\n* Recent hospitalizations or major interventional procedures done within the past 60 days\n* Known or suspected hypersensitivity to tegaderm\n* Use of any GLP-1 receptor agonist within 30 days prior to screening\n* Presently classified as being in New York Heart Association (NYHA) Class IV Heart Failure\n* Daytime use of supplemental oxygen (i.e., prescribed a stationary or portable oxygen system)\n* Presence of metastatic cancer\n* Current use of mobility aid(s)\n* Living in the same household of a participant already enrolled in the study",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -131,22 +131,22 @@
  },
  "sites": [
   {
-   "city": "Stanford",
-   "country": "United States",
    "facility": "Stanford University",
-   "lat": 37.42411,
-   "lon": -122.16608,
+   "city": "Stanford",
    "state": "California",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 37.42411,
+   "lon": -122.16608
   },
   {
-   "city": "Salt Lake City",
-   "country": "United States",
    "facility": "University of Utah",
-   "lat": 40.76078,
-   "lon": -111.89105,
+   "city": "Salt Lake City",
    "state": "Utah",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 40.76078,
+   "lon": -111.89105
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05173714",

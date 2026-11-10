@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Li Bo"
+  "name": "Li Bo",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -49,32 +49,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Sitagliptin",
    "other_names": [
     "JANUVIA"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Sitagliptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Sitagliptin"
-   ],
-   "label": "Sitagliptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This study was to investigate the Effect of Sitagliptin, a dipeptidyl peptidase-4 inhibitor, on Progression of Coronary Intermediate Lesion.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients \\> 18, \\< 80 years old, with type 2 diabetes mellitus and angiographically proven Coronary Intermediate Lesion.\n\nExclusion Criteria:\n\n* Allergy or hypersensitivity to any of the drug's components.\n* Severe liver failure, moderate or severe kidney failure\n* Malignant disease.\n* Active infectious disease.\n* Pregnancy or breastfeeding.",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "The General Hospital of PLA",
-   "lat": 39.9075,
-   "lon": 116.39723,
+   "city": "Beijing",
    "state": "Beijing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02655757",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "PREVENTION",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2023-01-19",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Inova Health Care Services"
+  "name": "Inova Health Care Services",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Evolocumab",
    "other_names": [
     "Repatha"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "evolocumab 420mg",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Evolocumab"
-   ],
-   "label": "evolocumab 420mg",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Prospective, single center, double-blind, randomized pharmacodynamic experimental study. The study will enroll 150 subjects with ASCVD on optimal statin therapy as per physician and Diabetes Mellitus (DM) undergoing elective Percutaneous Coronary Intervention (PCI). Eligible patients will be randomized for 30 day treatment to either 1) evolocumab 420 mg ; or 2) placebo.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diabetes Mellitus\n* Dyslipidemia\n* Undergoing elective PCI\n\nExclusion Criteria:\n\n* Patients with recent Acute Coronary Syndrome (≤1 month)\n* Patients on dual antiplatelet treatment (DAPT) with ticagrelor or prasugrel\n* Patients undergoing urgent/emergent PCI for stent thrombosis\n* Severe acute or chronic medical or psychiatric condition\n* Pregnancy\n* Participation in another experimental clinical trial, without formal approval\n* Unwillingness or inability to comply with the requirements of this protocol",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": null,
   "sex": "ALL",
+  "minimum_age": null,
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -103,13 +103,13 @@
  },
  "sites": [
   {
-   "city": "Falls Church",
-   "country": "United States",
    "facility": "Inova Fairfax Hospital",
-   "lat": 38.88233,
-   "lon": -77.17109,
+   "city": "Falls Church",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.88233,
+   "lon": -77.17109
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03258281",

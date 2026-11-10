@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Medical University of Bialystok"
+  "name": "Medical University of Bialystok",
+  "class": "OTHER"
  },
  "collaborators": [
   "Diabetes Poland"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Continuous glucose monitoring",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Self-monitoring of blood glucose",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Continuous glucose monitoring",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Continuous glucose monitoring"
-   ],
-   "label": "Continuous glucose monitoring",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Self-monitoring of blood glucose",
+   "type": "OTHER",
    "intervention_names": [
     "Device: Self-monitoring of blood glucose"
-   ],
-   "label": "Self-monitoring of blood glucose",
-   "type": "OTHER"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The aim of the study is to assess the influence of continuous glucose monitoring (CGM) systems on metabolic control and quality of life in people with type 2 diabetes and overweight/obesity who are not treated with insulin. Additionally, the study aims to assess the association between metabolic control of diabetes and markers of early cardiovascular disease, taking into account the impact of CGM use.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age between 18 and 65 years (both inclusive)\n* Type 2 diabetes diagnosed at least 6 months prior to entering the study\n* Body mass index ≥25 kg/m2\n* Diabetes treated with oral medications and/or GLP-1 receptor agonists and/or tirzepatide\n* No modifications of diabetes treatment in the previous 3 months\n* HbA1c between 7.5% and 10% (both inclusive)\n* Oral and written informed consent for participation\n\nExclusion Criteria:\n\n* Type 1 diabetes, gestational diabetes, other specific types of diabetes\n* HbA1c \\>10.0%\n* Treatment with insulin\n* Previous use of any continuous glucose monitoring system\n* GFR \\<30 ml/min\n* Acute infections, acute diabetes complications and/or unplanned hospitalisations in the previous month\n* Use of steroids or immunosuppressive medications in the previous 3 months\n* Chemotherapy, radiotherapy, immune therapy in the previous 3 months\n* Pregnancy and/or breastfeeding\n* Skin lesions or dermatological conditions preventing proper sensor insertion\n* Cognitive impairment and/or other conditions preventing proper use of continuous glucose monitoring system\n* Lack of consent for the use of continuous glucose monitoring system",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "city": "Bialystok",
-   "country": "Poland",
    "facility": "Medical University of Bialystok, Department of Internal Medicine and Metabolic Diseases",
-   "lat": 53.13333,
-   "lon": 23.16433,
+   "city": "Bialystok",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Poland",
+   "status": "RECRUITING",
+   "lat": 53.13333,
+   "lon": 23.16433
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07919236",

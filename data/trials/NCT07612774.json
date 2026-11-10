@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "West China Hospital"
+  "name": "West China Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -53,37 +53,37 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Evolocumab",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DIAGNOSTIC_TEST",
    "name": "Serial photon-counting coronary computed tomography angiography",
-   "other_names": [],
-   "type": "DIAGNOSTIC_TEST"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Standard Lipid-Lowering Therapy",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Experimental: Evolocumab Plus Standard Lipid-Lowering Therapy",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Evolocumab",
     "Diagnostic Test: Serial photon-counting coronary computed tomography angiography"
-   ],
-   "label": "Experimental: Evolocumab Plus Standard Lipid-Lowering Therapy",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Active Comparator: Standard Lipid-Lowering Therapy",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Diagnostic Test: Serial photon-counting coronary computed tomography angiography",
     "Drug: Standard Lipid-Lowering Therapy"
-   ],
-   "label": "Active Comparator: Standard Lipid-Lowering Therapy",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The CAPRA-EVO trial is a single-center, randomized, open-label study with blinded endpoint assessment comparing early evolocumab plus standard lipid-lowering therapy versus standard-of-care lipid-lowering therapy in patients with acute coronary syndrome after successful percutaneous coronary intervention. The study will use serial photon-counting coronary computed tomography angiography at baseline and 52 weeks to assess changes in non-culprit coronary plaque burden and stenosis severity. Secondary outcomes include changes in high-risk plaque features, lipid and inflammatory biomarkers, cardiovascular events, and safety outcomes. The trial aims to determine whether early intensive LDL-C lowering with evolocumab can reduce coronary plaque progression and support PCCT-CCTA as a noninvasive tool for monitoring atherosclerotic plaque dynamics.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nEligible patients must meet the following criteria:\n\n* Age between 40 and 75 years.\n* Diagnosis of ACS, including ST-elevation myocardial infarction (STEMI) or non-ST-elevation myocardial infarction (NSTEMI) or unstable angina (UA).\n* Successful PCI treatment, with post-procedural TIMI grade 3 flow and residual stenosis \\<30% and atherosclerotic plaque presence in non-culprit coronary vessels (not attributed to this target event).\n* Suboptimal LDL-C control: Patients must have received any statin treatment for at least 4 weeks, with an LDL-C level ≥1.8 mmol/L; or Statin-naive patients must have an LDL-C level ≥3.2 mmol/L.\n* Agreement to complete baseline CCTA and laboratory tests within 7 days of enrollment and signed informed consent.\n* Commitment to complete 52 weeks of follow-up.\n\nExclusion Criteria:\n\n* History of coronary artery bypass grafting (CABG).\n* History of valve surgery.\n* History of PCI treatment before the index ACS event\n* Complex bifurcation lesions (Medina 1,1,1).\n* Use of PCSK9 inhibitors (e.g., evolocumab, alirocumab) or potent CYP3A4 inhibitors (e.g., itraconazole) within the last 12 months.\n* Known intolerance to statins, evolocumab, or other investigational drugs related to the study.\n* Hepatic or renal insufficiency (eGFR \\<60 mL/min/1.73m² or ALT/AST \\>3 times the upper limit of normal).\n* Active autoimmune diseases (e.g., rheumatoid arthritis, systemic lupus erythematosus).\n* Uncontrolled heart failure (NYHA class III-IV) or malignant arrhythmias.\n* Known allergy or hypersensitivity to iodinated contrast media\n* Hyperthyroidism or active thyroid disease\n* Pregnancy or breastfeeding (or plans for pregnancy within the next year).\n* Life expectancy of less than 1 year (e.g., due to advanced malignancy).\n* Participation in another interventional clinical trial within the past 3 months.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,22 +110,22 @@
  },
  "sites": [
   {
-   "city": "Xi’an",
-   "country": "China",
    "facility": "Tangdu Hospital, Air Force Medical University",
-   "lat": 35.99785,
-   "lon": 113.52486,
+   "city": "Xi’an",
    "state": "Shanxi",
-   "status": "NOT_YET_RECRUITING"
+   "country": "China",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 35.99785,
+   "lon": 113.52486
   },
   {
-   "city": "Chengdu",
-   "country": "China",
    "facility": "West China Hospital of Sichuan University",
-   "lat": 30.66667,
-   "lon": 104.06667,
+   "city": "Chengdu",
    "state": "Sichuan",
-   "status": "RECRUITING"
+   "country": "China",
+   "status": "RECRUITING",
+   "lat": 30.66667,
+   "lon": 104.06667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07612774",

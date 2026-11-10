@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "S.LAB (SOLOWAYS)"
+  "name": "S.LAB (SOLOWAYS)",
+  "class": "OTHER"
  },
  "collaborators": [
   "Center of New Medical Technologies",
@@ -55,30 +55,30 @@
  ],
  "interventions": [
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "Fiber Supplement Group",
-   "other_names": [],
-   "type": "DIETARY_SUPPLEMENT"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Semaglutide with Active Fiber Supplement Group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Fiber Supplement Group"
-   ],
-   "label": "Semaglutide with Active Fiber Supplement Group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo group",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: placebo"
-   ],
-   "label": "Placebo group",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "This clinical trial investigated the combined effects of Semaglutide and a fiber supplement (glucomannan, inulin, psyllium) on weight loss in adults with overweight or obesity. Participants, aged 18-65 with a BMI ≥30 or ≥27 with comorbidities, were randomized into two groups: one receiving Semaglutide with active fiber supplements and the other with Semaglutide and placebo, over a 180-day period. Key endpoints included percentage change in body weight, BMI, body composition, safety, and appetite control, with a focus on evaluating the additive effects of dietary fibers in enhancing Semaglutide's efficacy.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI ≥30, or ≥27 with comorbidities.\n\nExclusion Criteria:\n\n* Serious chronic illnesses.\n* History of bulimia or anorexia.\n* Pregnancy or lactation.",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "city": "Novosibirsk",
-   "country": "Russia",
    "facility": "Center of New Medical Technologies",
-   "lat": 55.02259,
-   "lon": 82.93175,
+   "city": "Novosibirsk",
    "state": "Novosibisk Region",
-   "status": null
+   "country": "Russia",
+   "status": null,
+   "lat": 55.02259,
+   "lon": 82.93175
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06215196",

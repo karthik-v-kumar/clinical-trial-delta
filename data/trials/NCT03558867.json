@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "PREVENTION",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Garvan Institute of Medical Research"
+  "name": "Garvan Institute of Medical Research",
+  "class": "OTHER"
  },
  "collaborators": [
   "Weizmann Institute of Science"
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Metformin + Healthy diet",
    "other_names": [
     "Metformin + Healthy (low fat) diet"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Metformin + Personalized diet",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Metformin + Healthy diet",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin + Healthy diet"
-   ],
-   "label": "Metformin + Healthy diet",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Metformin + Personalized diet",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin + Personalized diet"
-   ],
-   "label": "Metformin + Personalized diet",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Prediabetes is a common condition in overweight individuals affecting approximately 35% of American adults and 30% of Australian adults. Like diabetes, prediabetes is a serious risk factor for cardiovascular disease, eye, kidney and liver disease, and some types of cancer.\n\nAppropriate blood glucose control is crucial in preventing pre-diabetes complications and onset of diabetes, yet clinical practice, backed by randomised trials, reports that many patients treated with standard dietary guidelines or with the first-line treatment of diabetes patients, metformin, do not improve blood glucose control sufficiently.\n\nThe overarching goal of the present project is to improve the efficacy of metformin mono-therapy in pre-diabetes and early type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Prediabetes or early-stage type 2 diabetes according to the American Diabetes Association (2019) diagnostic criteria, with HbA1c ≤8.0% (64 mmol/mol).\n* Women of childbearing potential willing to take precautions to avoid pregnancy throughout the study and for 3 months after the end of treatment.\n* Willingness to provide written informed consent and willingness to participate and comply with the study.\n\nExclusion Criteria:\n\n* Females planning a pregnancy during the course of the research or 3 months after completion of the research project. Females who breastfeed.\n* Patients with type 1 diabetes, chronically active inflammatory disease, neoplastic disease in the previous 3 years, chronic gastrointestinal disorders, including inflammatory bowel disease or celiac.\n* Liver enzymes ALT and/or AST\\>3-times normal range limit.\n* Abnormal renal function as measured by (eGFR\\<45 mL/min/1.73m\\^2).\n* Individuals with a history of a psychological illness or condition that may interfere with the individual's ability to understand the requirements of the study.\n* Normo-glycaemia.\n* HbA1c\\>8.0%\n* Cardiovascular event in the previous 6 months.\n* Current or recent (within 24 months) treatment with a glucose lowering medication (i.e. GLP-1 receptor agonist, SGLT2 inhibitor, thiazolidinedione, sulfonylurea, DPP-4 inhibitor or insulin).\n* Current or recent (within 3 months) treatment with metformin.\n* Treatment with an oral steroid.\n* Treatment with antibiotics in the last 3 months.\n* Treatment with immunosuppressive medications.\n* Treatment with medications known to interact with metformin, including cimetidine, vitamin K antagonists and nifedipine.\n* Substance abuse.\n* Participants who had received an investigational new drug within the last 6 months.\n* Participants involved in another clinical study.\n* Participants who actively lose weight.\n* Participants who had a bariatric surgery.\n* Any reason the Investigator believes the participant is not likely to be adherent to the study treatment and protocol, including non-adherence to run-in.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Sydney",
-   "country": "Australia",
    "facility": "Garvan Institute of Medical Research",
-   "lat": -33.86785,
-   "lon": 151.20732,
+   "city": "Sydney",
    "state": "New South Wales",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -33.86785,
+   "lon": 151.20732
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03558867",

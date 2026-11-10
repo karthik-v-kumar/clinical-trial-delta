@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,72 +52,72 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "LY3841136",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "LY3841136-Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Tirzepatide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Tirzepatide-Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Part A: LY3841136",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3841136"
-   ],
-   "label": "Part A: LY3841136",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Part A: Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: LY3841136-Placebo"
-   ],
-   "label": "Part A: Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: LY3841136-Placebo",
-    "Drug: Tirzepatide"
-   ],
    "label": "Part B: Tirzepatide + LY3841136-Placebo",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: LY3841136-Placebo",
+    "Drug: Tirzepatide"
+   ]
   },
   {
+   "label": "Part B: LY3841136 + Tirzepatide-Placebo",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3841136",
     "Drug: Tirzepatide-Placebo"
-   ],
-   "label": "Part B: LY3841136 + Tirzepatide-Placebo",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Part B: LY3841136 + Tirzepatide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY3841136",
     "Drug: Tirzepatide"
-   ],
-   "label": "Part B: LY3841136 + Tirzepatide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Part B: LY3841136-Placebo + Tirzepatide-Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: LY3841136-Placebo",
     "Drug: Tirzepatide-Placebo"
-   ],
-   "label": "Part B: LY3841136-Placebo + Tirzepatide-Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -133,10 +133,10 @@
  "brief_summary": "The main purpose of this study is to learn about the side effects of LY3841136 alone and in combination with tirzepatide, when given to Japanese participants with obese or overweight. Blood tests will be performed to investigate how the body processes the study drug and how the study drug affects the body. Part A of the study will last about 28 weeks and may include up to 17 visits. Part B of the study will last about 40 weeks and may include up to 29 visits.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female participants who agree to contraception requirements\n* Have a body mass index (BMI) within the range of 27 to 40 kg/m², inclusive\n* Have had a stable weight for the 3 months\n\nExclusion Criteria:\n\n* Have a history of significant atopy (severe allergic manifestations), multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions\n* Have a history or presence of psychiatric disorders, including a history of major depressive disorder or severe psychiatric disorders such as schizophrenia, bipolar disorder within the last 3 years\n* Have been diagnosed with Type 1 or Type 2 Diabetes Mellitus\n* Have a history of chronic medical conditions involving the heart, liver, or kidneys\n* Have a history of any malignancy within the past 5 years\n* Have a history or presence of a GI disorder\n* Have had within the last 6 months, or plan to have during the study, a device-based or surgical treatment use for obesity\n* Have been treated, or plan to be treated, with prescription medications or other non-approved drugs intended to promote weight loss, within 3 months prior to screening\n* For participants in Part B, have previously received tirzepatide within 6 months prior to screening\n* For participants in Part B, have a personal or family history of medullary thyroid carcinoma, or have multiple endocrine neoplasia syndrome type 2",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -144,31 +144,31 @@
  },
  "sites": [
   {
-   "city": "Fukuoka",
-   "country": "Japan",
    "facility": "Hakata Clinic",
-   "lat": 33.6,
-   "lon": 130.41667,
+   "city": "Fukuoka",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 33.6,
+   "lon": 130.41667
   },
   {
-   "city": "Hachiōji",
-   "country": "Japan",
    "facility": "P-One Clinic",
-   "lat": 35.65583,
-   "lon": 139.32389,
+   "city": "Hachiōji",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.65583,
+   "lon": 139.32389
   },
   {
-   "city": "Sumida-ku",
-   "country": "Japan",
    "facility": "Sumida Hospital",
-   "lat": null,
-   "lon": null,
+   "city": "Sumida-ku",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06297616",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2022-03-14",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Population Health Research Institute"
+  "name": "Population Health Research Institute",
+  "class": "OTHER"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -50,41 +50,41 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "insulin glargine",
    "other_names": [
     "Lantus"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "sitagliptin/metformin",
    "other_names": [
     "Janumet"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "BEHAVIORAL",
    "name": "lifestyle therapy",
    "other_names": [
     "diet and exercise"
-   ],
-   "type": "BEHAVIORAL"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Intervention",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: insulin glargine",
     "Drug: sitagliptin/metformin",
     "Behavioral: lifestyle therapy"
-   ],
-   "label": "Intervention",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Standard Care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The purpose of the study is to determine whether in patients with early type 2 diabetes,a short-term intensive metabolic intervention comprising of sitagliptin, metformin, basal insulin glargine and lifestyle approaches will be superior to standard diabetes therapy in achieving sustained diabetes remission.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. men and women 30-80 years of age inclusive;\n2. type 2 diabetes mellitus diagnosed by a physician within 5 years prior to patient enrollment;\n3. anti-diabetic drug regimen (either drug or dose of drug) unchanged during 8 weeks prior to screening and randomization;\n4. HbA1C ≤ 9.5% on no oral hypoglycemic agents or HbA1C ≤ 8.0% on 1 oral agent or on half-maximal doses of 2 agents;\n5. body mass index ≥ 23 kg/m2;\n6. a negative pregnancy test and an agreement to use a reliable method of birth control for the duration of the trial in all females with childbearing potential;\n7. ability and willingness to perform self-monitoring of capillary blood glucose (SMBG); ability and willingness to self-inject insulin;\n8. provision of informed consent.\n\nExclusion Criteria:\n\n1. current use of insulin;\n2. history of hypoglycemia unawareness; history of severe hypoglycemia requiring assistance within the last 5 years;\n3. renal dysfunction as evidenced by serum creatinine (Cr) ≥ 124 μmol/l;\n4. history of lactic acidosis or diabetic ketoacidosis;\n5. active liver disease or elevated alanine transferase (ALT) levels ≥ 2.5 times upper limit of normal at the time of enrollment;\n6. history of pancreatitis;\n7. cardiovascular disease including any of: a) systolic blood pressure \\> 180 mmHg or diastolic blood pressure \\> 105 mmHg; b) peripheral vascular disease; c) left bundle branch block or second or third degree AV block; d) tachyarrhythmias or bradyarrhythmias with uncontrolled ventricular rate; e) stenotic valvular heart disease; f) cardiomyopathy; g) history of heart failure; h) history of aortic dissection; i) documented history of angina or coronary artery disease; j) history of stroke or transient ischemic attack;\n8. history of any disease requiring continuous systemic glucocorticoid treatment;\n9. history of any major illness with a life expectancy of \\< 3 years;\n10. history of injury or any other condition that significantly limits participant's ability to achieve moderate levels of physical activity;\n11. excessive alcohol consumption (\\>14 alcoholic drinks per week in men and \\>7 alcoholic drinks per week in women);\n12. known hypersensitivity to insulin glargine, metformin, or any DPP-4 inhibitor.",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,58 +111,58 @@
  },
  "sites": [
   {
-   "city": "Calgary",
-   "country": "Canada",
    "facility": "University of Calgary",
-   "lat": 51.05011,
-   "lon": -114.08529,
+   "city": "Calgary",
    "state": "Alberta",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 51.05011,
+   "lon": -114.08529
   },
   {
-   "city": "Winnipeg",
-   "country": "Canada",
    "facility": "Health Science Centre",
-   "lat": 49.8844,
-   "lon": -97.14704,
+   "city": "Winnipeg",
    "state": "Manitoba",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 49.8844,
+   "lon": -97.14704
   },
   {
-   "city": "Hamilton",
-   "country": "Canada",
    "facility": "McMaster University",
+   "city": "Hamilton",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 43.25011,
-   "lon": -79.84963,
-   "state": "Ontario",
-   "status": null
+   "lon": -79.84963
   },
   {
-   "city": "London",
-   "country": "Canada",
    "facility": "St. Joseph's Hospital",
+   "city": "London",
+   "state": "Ontario",
+   "country": "Canada",
+   "status": null,
    "lat": 42.98339,
-   "lon": -81.23304,
-   "state": "Ontario",
-   "status": null
+   "lon": -81.23304
   },
   {
-   "city": "Markham",
-   "country": "Canada",
    "facility": "LMC",
-   "lat": 43.86682,
-   "lon": -79.2663,
+   "city": "Markham",
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.86682,
+   "lon": -79.2663
   },
   {
-   "city": "Montreal",
-   "country": "Canada",
    "facility": "Univeristy of Montreal",
-   "lat": 45.50884,
-   "lon": -73.58781,
+   "city": "Montreal",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.50884,
+   "lon": -73.58781
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02623998",

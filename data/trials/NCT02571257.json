@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "NeuroBo Pharmaceuticals Inc."
+  "name": "NeuroBo Pharmaceuticals Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,42 +53,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Gemcabene",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Gemcabene",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Gemcabene"
-   ],
    "label": "Gemcabene 300 mg QD",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Gemcabene"
-   ],
+   ]
+  },
+  {
    "label": "Gemcabene 900 mg QD",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Gemcabene"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "The purpose of this study is to evaluate the effect of gemcabene on LDL-C and other lipid parameters in hypercholesterolemic patients on a stable dose of a statin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Males and Females\n* 18 to 65 years of age\n* Baseline LDL-C ≥ 130 mg/dL (3.4 mmol/L)\n\nExclusion Criteria:\n\n* If female, postmenopausal or surgically menopausal\n* Triglycerides (TG) \\>400 mg/dL\n* Creatine phosphokinase (CPK) \\>3 × the upper limit of normal (ULN)\n* Body Mass Index (BMI) \\>35 kg/m2\n* Uncontrolled diabetes mellitus (HbA1c \\>10%)\n* Renal dysfunction (blood urea nitrogen \\[BUN\\] or creatinine \\>2 × ULN)\n* Hepatic dysfunction (aspartate aminotransferase \\[AST\\] or alanine aminotransferase \\[ALT\\] \\>2 × ULN)\n* Myocardial infarction, severe or unstable angina pectoris, coronary angioplasty, coronary artery bypass graft, or any other major cardiovascular event resulting in hospitalization in previous month",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

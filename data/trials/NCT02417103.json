@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Universitätsklinikum Hamburg-Eppendorf"
+  "name": "Universitätsklinikum Hamburg-Eppendorf",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,34 +51,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "GLP-1 (Liraglutide)",
    "other_names": [
     "Victoza"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "PL1 PR1"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "GLP-1 (Liraglutide)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: GLP-1 (Liraglutide)"
-   ],
-   "label": "GLP-1 (Liraglutide)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo Comparator",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo Comparator",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The aim of this study is to investigate the effect of the treatment with the GLP-1 Analogon Liraglutide on the lipid metabolism an inflammation in adipose tissue.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* BMI 35-55 Kg/m2\n* Fasting Blood glucose \\>140mg/dl\n* Planned bariatric surgery\n* Diabetic Medication (Metformin, Sulfonylurea, Insuline)\n\nExclusion Criteria:\n\n* Known hypersensitivity against Liraglutid\n* Pretreatment DPP-4 Inhibitors or GLP-1 Analogue the last 3 months\n* HbA1c \\>10%",
-  "healthy_volunteers": false,
-  "maximum_age": "77 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "77 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Hamburg",
-   "country": "Germany",
    "facility": "University Medical Center Hamburg",
-   "lat": 53.55073,
-   "lon": 9.99302,
+   "city": "Hamburg",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 53.55073,
+   "lon": 9.99302
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02417103",

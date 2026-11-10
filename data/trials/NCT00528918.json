@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "FED",
-  "name": "Carl T. Hayden VA Medical Center"
+  "name": "Carl T. Hayden VA Medical Center",
+  "class": "FED"
  },
  "collaborators": [
   "Sanofi"
@@ -54,25 +54,25 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Glulisine (Apidra)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Apidra",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glulisine (Apidra)"
-   ],
-   "label": "Apidra",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Regular",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glulisine (Apidra)"
-   ],
-   "label": "Regular",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "The purpose of this study is to compare Apidra (a rapid acting insulin analogue) with Regular insulin (fast acting) in addition to the use of long acting insulin Glargine in hospitalized patients in terms of efficacy and safety in blood glucose control and frequency of low blood glucose. Blood glucose control along with incidence and rate of low blood glucose during the hospitalization shall be of primary interest; length of hospital stay comparing the short acting insulin used shall be the secondary interest.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects must be admitted to non-critical care units with expected length of stay of at least three days.\n* Subjects must be able to communicate meaningfully with the investigator and must be legally competent to provide written informed consent.\n* Subjects may be of either sex. Female subjects of child-bearing potential must be non-lactating and have a negative pregnancy test before starting the study.\n* Subjects must be diagnosed with T2DM or develop hyperglycemia (BG \\>180 mg/dl) during hospitalization.\n\nExclusion Criteria:\n\n* Subjects must not be admitted for 'observation' or for expected length of stay of less than three days.\n* Subjects must not have Type 1 Diabetes.\n* Subjects must not be using rapid acting insulin analogues.\n* Subjects must not be receiving nutrition via tube feedings.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": null,
   "sex": "ALL",
+  "minimum_age": null,
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "CHILD",
    "ADULT",
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "city": "Phoenix",
-   "country": "United States",
    "facility": "Phoenix VA Health Care System",
-   "lat": 33.44838,
-   "lon": -112.07404,
+   "city": "Phoenix",
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.44838,
+   "lon": -112.07404
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00528918",

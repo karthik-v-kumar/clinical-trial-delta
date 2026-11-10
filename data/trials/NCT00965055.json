@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2019-08-21",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of California, San Diego"
+  "name": "University of California, San Diego",
+  "class": "OTHER"
  },
  "collaborators": [
   "Merck Sharp & Dohme LLC"
@@ -56,34 +56,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Ezetimibe",
    "other_names": [
     "Zetia",
     "Lipitor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Atorvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Atorvastatin",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Atorvastatin"
-   ],
-   "label": "Atorvastatin",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Atorvastatin/Ezetimibe",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Ezetimibe",
     "Drug: Atorvastatin"
-   ],
-   "label": "Atorvastatin/Ezetimibe",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "Response to statin therapy for elevated low density lipoprotein is variable and may be influenced by cholesterol absorption. This study will evaluate whether combination therapy with atorvastatin/ezetimibe will be superior to atorvastatin alone in subjects who have less than 25% LDL reduction on starting dose statin (eg, atorvastatin 10 mg daily or simvastatin 20 mg daily).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients will need to have an LDL-C level of 130 mg/dl or greater without treatment.\n* They must have demonstrated an initial LDL-C reduction of less than 25% on 10 mg of atorvastatin or 20 mg of simvastatin.\n* Eligible patients will be those deemed by their physicians to be eligible for lipid lowering therapy with a statin and to have stable CAD, CAD equivalent per NCEP guidelines, or Framingham risk of 10-20%.\n\nExclusion Criteria:\n\n* Recent (\\<3 months) diagnosis of Acute Coronary Syndromes due to ethical considerations \\[10\\].\n* Pregnant patients, those planning to become pregnant, or those who are breast feeding, those with liver disease, history allergic reaction to any agent used in the trial, history of myositis, myopathy, pancreatitis, hypertriglyceridemia (TG \\> 400 mg/dL), history of significant alcohol or drug abuse, history of organ transplantation, or patient refusal.",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "city": "San Diego",
-   "country": "United States",
    "facility": "UCSD Medical Center in Hillcrest Clinical Trials Facility",
-   "lat": 32.71571,
-   "lon": -117.16472,
+   "city": "San Diego",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.71571,
+   "lon": -117.16472
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00965055",

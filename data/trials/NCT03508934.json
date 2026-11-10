@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "PREVENTION",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "FED",
-  "name": "VA Office of Research and Development"
+  "name": "VA Office of Research and Development",
+  "class": "FED"
  },
  "collaborators": [],
  "conditions": [
@@ -49,31 +49,31 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "GTS (Continuous Glucose Monitoring)",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "POC (Point of Care)",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Intervention group (Continuous Glucose Monitroring and POC)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Device: GTS (Continuous Glucose Monitoring)",
     "Other: POC (Point of Care)"
-   ],
-   "label": "Intervention group (Continuous Glucose Monitroring and POC)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Control group (Point of Care-POC)",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: POC (Point of Care)"
-   ],
-   "label": "Control group (Point of Care-POC)",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "More than 25% of the patients admitted in the general wards have a history of Diabetes Mellitus (DM). Up to 30% of the hospitalized diabetics develop hypoglycemia (low glucose values); a condition that is associated with seizures, cardiac arrhythmias, and even death. In Veterans, the prevalence is disproportionally higher. It is estimated that 40-50% of hospitalized Veterans are diabetics. In this clinical trial the investigators describe the development of a novel system, the Glucose Telemetry System (GTS), with which glucose values can be wirelessly transmitted from the patient's bedside to a monitor device at the nursing station. The goal of this work is to develop a more effective glucose surveillance system at the general wards, which can decrease hypoglycemia in the hospital and improve clinical outcomes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Veterans with history of DM2 managed with insulin (either basal bolus, basal only or basal with per os DM medications), admitted to the Baltimore VA Medical Center, who have at\n\n  * least 1 risk factor of hypoglycemia\n\nExclusion Criteria:\n\n* Veterans with history of type 1 DM.\n* Veterans with history of DM2 managed with diet or any combination of oral antidiabetic drugs only.\n* Veterans hospitalized with significant hyperglycemia or diabetic ketoacidosis\n* Pregnant Veterans\n* Veterans receiving glucocorticosteroids in doses (equivalent) to 20 mg of hydrocortisone/day\n* Veterans that are expected to require a hospital stay \\<3 days will also be excluded",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "21 Years",
   "sex": "ALL",
+  "minimum_age": "21 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "city": "Baltimore",
-   "country": "United States",
    "facility": "Baltimore VA Medical Center VA Maryland Health Care System, Baltimore, MD",
-   "lat": 39.29038,
-   "lon": -76.61219,
+   "city": "Baltimore",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.29038,
+   "lon": -76.61219
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03508934",

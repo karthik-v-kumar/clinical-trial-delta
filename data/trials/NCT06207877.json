@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,36 +53,36 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Cagrilintide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "CagriSema",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Cagrilintide",
     "Drug: Semaglutide"
-   ],
-   "label": "CagriSema",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -94,10 +94,10 @@
  "brief_summary": "This research study tests if CagriSema influences food intake, appetite and emptying of the stomach in people with excess body weight. Participant will either get CagriSema (active medicine) or placebo (a dummy medicine), which has no effect on the body. The treatment participants get is decided by chance. The study will last for about 32 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female.\n* Aged 18-65 years (both inclusive) at the time of signing informed consent.\n* Considered eligible based on the medical history, physical examination, and the results of vital signs, electrocardiogram and clinical laboratory tests performed during the screening visit, as judged by the investigator.\n* Body mass index (BMI) equal to or above 27.0 kilograms per meter square (kg/m\\^2) at screening. Overweight should be due to excess adipose tissue, as judged by the investigator.\n\nExclusion Criteria:\n\n* Glycated haemoglobin (HbA1C) greater than or equal to (≥) 6.5 % (48 millimoles per mole \\[mmol/mol\\]) at screening.\n* History of type 1 or type 2 diabetes mellitus.\n* Any clinically significant body weight change (≥5% self-reported change) or dieting attempts (e.g., participation in a weight reduction program) within 90 days before screening.\n* Female who is pregnant, breast-feeding or intends to become pregnant or is of childbearing potential and not using highly effective contraceptive method.\n* Presence or history of any clinically relevant respiratory, metabolic, renal, hepatic, gastrointestinal, or endocrinological conditions.",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -105,13 +105,13 @@
  },
  "sites": [
   {
-   "city": "Berlin",
-   "country": "Germany",
    "facility": "Parexel International GmbH",
-   "lat": 52.52437,
-   "lon": 13.41053,
+   "city": "Berlin",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 52.52437,
+   "lon": 13.41053
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06207877",

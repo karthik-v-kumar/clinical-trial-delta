@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Palermo"
+  "name": "University of Palermo",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -53,57 +53,57 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dapagliflozin tablet",
    "other_names": [
     "SGLT2 inhibitor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Hypertonic Saline Solution, 1 Ml",
    "other_names": [
     "Hypertonic Solution, Saline"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Furosemide Injection",
    "other_names": [
     "FUROSEMIDE"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Dapagliflozin tablet",
-    "Drug: Hypertonic Saline Solution, 1 Ml"
-   ],
    "label": "Dapa-Tonic",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Dapagliflozin tablet",
+    "Drug: Hypertonic Saline Solution, 1 Ml"
+   ]
   },
   {
+   "label": "Tonic-Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Hypertonic Saline Solution, 1 Ml"
-   ],
-   "label": "Tonic-Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Furosemide-Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Furosemide Injection"
-   ],
-   "label": "Furosemide-Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Dapa-Furo",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapagliflozin tablet",
     "Drug: Furosemide Injection"
-   ],
-   "label": "Dapa-Furo",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -123,10 +123,10 @@
  "brief_summary": "The purpose of the current investigation is to demonstrate the efficacy of high-dose furosemide plus small-volume hypertonic saline solution and a Sodium-Glucose cotransporter-2 (SGLT-2) inhibitor among patients admitted for acute exacerbation of heart failure, in determining a significant increase in diuresis and natriuresis. It is also accompanied by a rapid reduction in body weight and a substantial decrease in hospitalization length without compromising renal function.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* acute heart failure;\n* diabetes type 2.\n\nExclusion Criteria:\n\n* low estimated glomerular filtration rate;\n* hypernatremia;\n* diabetes type 1;\n* non-cardiac causes of dyspnea;\n* cardiogenic shock;\n* recent occurrence of Acute Coronary Syndrome;\n* ketoacidosis;\n* hyperosmolar hyperglycemic syndrome.",
-  "healthy_volunteers": false,
-  "maximum_age": "89 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "89 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"

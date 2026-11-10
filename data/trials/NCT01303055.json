@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Aichi Gakuin University"
+  "name": "Aichi Gakuin University",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,34 +48,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Alogliptin",
    "other_names": [
     "Nothing"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Metformin 750 mg",
    "other_names": [
     "Nothing"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Alogliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alogliptin"
-   ],
-   "label": "Alogliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Metformin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin 750 mg"
-   ],
-   "label": "Metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "It is reported that pancreatic beta cell function is already declined at pre-diabetic stage, impaired glucose tolerance (IGT). It has not been clarified whether inhibitors of the dipeptidyl peptidase IV enzyme (DPP-IV inhibitors) improve beta cell function on human pancreas, however, if efficacy is ensured, they may become the first medicine to be chosen for treatments of type 2 diabetes and IGT.\n\nIn this trial, a DPP-IV inhibitor, Alogliptin, or Metformin are given to diabetic patients whose HbA1c level is below 7.9%. Oral glucose tolerance test (OGTT) will be conducted before, a year after, and two years after the beginning of the trial and beta cell function will be evaluated.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who are diagnosed as type 2 diabetes with HbA1c level below 7.9% and haven't received oral hypoglycemic agents or insulin treatments for the past three months.\n\nExclusion Criteria:\n\n* Patients whose 75 g OGTT 30-minutes insulin secretion exceeds 100 μU/ml\n* Patients with renal failure with serum creatinine level ≧ 1.2\n* Patients with hepatocirrhosis\n* Patients with proliferative diabetic retinopathy or worse\n* Patients with acute infectious disease\n* Patients who are treated with steroids\n* Patients with cancer\n* Pregnant patients\n* Patients with malfunction of the heart (NYHA classification III-IV)\n* Patients who are decided to be inappropriate subjects by study physicians",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,40 +98,40 @@
  },
  "sites": [
   {
-   "city": "Nagoya",
-   "country": "Japan",
    "facility": "Dept. of Intern. Med., School of Dentistry, Aichi Gakuin University",
-   "lat": 35.18147,
-   "lon": 136.90641,
-   "state": "Aichi-ken",
-   "status": "RECRUITING"
-  },
-  {
    "city": "Nagoya",
+   "state": "Aichi-ken",
    "country": "Japan",
-   "facility": "Tosaki Clinic for Diabetes and Endocrinology",
+   "status": "RECRUITING",
    "lat": 35.18147,
-   "lon": 136.90641,
-   "state": "Aichi-ken",
-   "status": "NOT_YET_RECRUITING"
+   "lon": 136.90641
   },
   {
-   "city": "Okazaki",
+   "facility": "Tosaki Clinic for Diabetes and Endocrinology",
+   "city": "Nagoya",
+   "state": "Aichi-ken",
    "country": "Japan",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 35.18147,
+   "lon": 136.90641
+  },
+  {
    "facility": "Diabetes Clinic, Okazaki East Hospital",
-   "lat": 34.95,
-   "lon": 137.16667,
+   "city": "Okazaki",
    "state": "Aichi-ken",
-   "status": "RECRUITING"
+   "country": "Japan",
+   "status": "RECRUITING",
+   "lat": 34.95,
+   "lon": 137.16667
   },
   {
-   "city": "Yokkaichi",
-   "country": "Japan",
    "facility": "Diabetes Center, Yokkaichi Social Insurance Hospital",
-   "lat": 34.96667,
-   "lon": 136.61667,
+   "city": "Yokkaichi",
    "state": "Mie-ken",
-   "status": "RECRUITING"
+   "country": "Japan",
+   "status": "RECRUITING",
+   "lat": 34.96667,
+   "lon": 136.61667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01303055",

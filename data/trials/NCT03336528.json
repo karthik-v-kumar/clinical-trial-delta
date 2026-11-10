@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2022-03-31",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Emory University"
+  "name": "Emory University",
+  "class": "OTHER"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -50,43 +50,43 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Degludec",
    "other_names": [
     "Tresiba"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Glargine",
    "other_names": [
     "Lantus"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Aspart",
    "other_names": [
     "Novolog"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Degludec inpatient",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Degludec",
     "Drug: Aspart"
-   ],
-   "label": "Degludec inpatient",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Glargine U100 inpatient",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Glargine",
     "Drug: Aspart"
-   ],
-   "label": "Glargine U100 inpatient",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "The purpose of this study is to find out if treatment with degludec insulin when compared to glargine U100 insulin will result in similar blood sugar control in patients with diabetes who are admitted to the hospital and then transition to home after discharge from the hospital.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Males or females \\> 18 years of age who are admitted to a general medicine or surgical service\n2. A known history of T2D treated either with diet alone, oral monotherapy, any combination of oral antidiabetic agents, short-acting glucagon-like peptide-1 receptor agonists (GLP-1 RA) or insulin therapy except for degludec and glargine U300\n3. Subjects with diet alone and HbA1c\\>7.0%\n4. Medical and surgical patients expected to be admitted length of stay (LOS) longer than 2 days\n5. Subjects must have a randomization BG \\> 140 mg and \\< 400 mg/dL without laboratory evidence of diabetic ketoacidosis (bicarbonate \\< 18 milliequivalent (mEq)/L, potential of hydrogen (pH) \\< 7.30, or positive serum or urinary ketones)\n6. Signed, informed consent and HIPAA documentation prior to any study procedures\n\nExclusion Criteria:\n\n1. Subjects with increased BG concentration, but without a known history of diabetes (stress hyperglycemia)\n2. Subjects treated with diet alone (no antidiabetic agents) and admission HbA1c \\<7%\n3. Admission or pre-randomization BG≥400 mg/dL\n4. Subjects with a history of diabetic ketoacidosis and hyperosmolar hyperglycemic state, or ketonuria\n5. Patients treated with degludec or glargine U300, or with long-acting weekly GLP-1 RA (weekly exenatide, dulaglutide or albiglutide)\n6. Patients with acute critical or surgical illness admitted to the ICU except for observation (\\<24 hours and did not require vasopressors and/or mechanical ventilation)\n7. Patients with history of clinically relevant hepatic disease (diagnosed liver cirrhosis and portal hypertension), ongoing corticosteroid therapy (equal to a prednisone dose ≥5 mg/day), or impaired renal function (eGFR\\< 30 ml/min), or congestive heart failure (NYHA- IV)\n8. Mental condition rendering the subject unable to understand the nature, scope, and possible consequences of the study\n9. Female subjects who are pregnant or breast feeding at time of enrollment into the study\n10. Known or suspected allergy to trial medication(s), excipients, or related products\n11. Previous participation in this trial",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,40 +113,40 @@
  },
  "sites": [
   {
-   "city": "Atlanta",
-   "country": "United States",
    "facility": "Emory University Hospital Clinical Research Network",
-   "lat": 33.749,
-   "lon": -84.38798,
-   "state": "Georgia",
-   "status": null
-  },
-  {
    "city": "Atlanta",
-   "country": "United States",
-   "facility": "Grady Hospital",
-   "lat": 33.749,
-   "lon": -84.38798,
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.749,
+   "lon": -84.38798
   },
   {
-   "city": "New York",
+   "facility": "Grady Hospital",
+   "city": "Atlanta",
+   "state": "Georgia",
    "country": "United States",
+   "status": null,
+   "lat": 33.749,
+   "lon": -84.38798
+  },
+  {
    "facility": "Mount Sinai",
-   "lat": 40.71427,
-   "lon": -74.00597,
+   "city": "New York",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.71427,
+   "lon": -74.00597
   },
   {
-   "city": "Spokane",
-   "country": "United States",
    "facility": "Providence Medical Research Centre",
-   "lat": 47.65966,
-   "lon": -117.42908,
+   "city": "Spokane",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.65966,
+   "lon": -117.42908
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03336528",

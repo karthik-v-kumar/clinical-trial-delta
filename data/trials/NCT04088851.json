@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "German Diabetes Center"
+  "name": "German Diabetes Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "Yale University"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "On Metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Off Metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Metformin - T2D",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: On Metformin"
-   ],
-   "label": "Metformin - T2D",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "No Metformin - T2D",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Off Metformin"
-   ],
-   "label": "No Metformin - T2D",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Investigation of the effects of redox shuttle inhibition by metformin on gluconeogenic flux rates of lactate and glycerol in humans with type 2 diabetes",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* type 2 diabetes (duration \\<7 years),\n* age (18-75 years)\n* BMI \\<40 kg/m2\n* HbA1c 6-15%\n\nExclusion criteria:\n\n* uncontrolled hyperglycaemia (\\>340 mg/dl)\n* diabetes types other than type 2 diabetes (ADA criteria)\n* thiazolidinedione use during the preceding 6 months\n* clinically relevant angiopathy, restrictive or obstructive lung diseases\n* other acute or chronic diseases including wounds and the use of pharmacological agents known to affect insulin sensitivity, lipid metabolism or immunological function.",
-  "healthy_volunteers": true,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "city": "Düsseldorf",
-   "country": "Germany",
    "facility": "German Diabetes Center",
-   "lat": 51.22319,
-   "lon": 6.77927,
+   "city": "Düsseldorf",
    "state": "North Rhine-Westphalia",
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 51.22319,
+   "lon": 6.77927
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04088851",

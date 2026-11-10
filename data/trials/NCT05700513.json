@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER"
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Tabriz University of Medical Sciences"
+  "name": "Tabriz University of Medical Sciences",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
+   "type": "COMBINATION_PRODUCT",
    "name": "Capsules containing the combination products",
-   "other_names": [],
-   "type": "COMBINATION_PRODUCT"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo capsules",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Capsules containing the combination products",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Combination Product: Capsules containing the combination products"
-   ],
-   "label": "Capsules containing the combination products",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo capsules"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "This study investigates the safety and combined effect of Cranberry leaves, Cranberry Berries, Alfalfa, Fenugreek, Lemon Beebrush, Urtica, Dog-rose, and Sumac on improving the glycemic profile of patients with type 2 diabetes mellitus compared to the placebo group.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* At least one year of diagnosis of type 2 diabetes according to the criteria of the World Health Organization,\n* Hemoglobin A1c (HbA1c) \\> 7.0% or fasting blood glucose \\> 7.0 mmol/L,\n* Body mass index (BMI) more than 23 kg/m2 and less than 35.\n\nExclusion Criteria:\n\n* Comorbidities, including type 1 diabetes, cardiovascular disease, thyroid disease, liver disease, kidney disease, cancer, mental disorders, and the use of drugs related to the aforementioned diseases,\n* Pregnancy,\n* Patients with a BMI over 35 who were on a weight loss diet or had taken weight loss supplements for less than 6 months\n* A history of allergy to one of the components of the nestling fruit, carob leaf, carob fruit, alfalfa seed, fenugreek seed, lemon, Nettles and sumac and also\n* Lactating women\n* Regularly consuming cigarettes or alcohol\n* Using psychiatric drugs or insulin\n* Changing in the medication regimen during the trial period. For example, to start receiving insulin therapy, become pregnant, or no longer follow medication and dietary instructions.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Tabriz",
-   "country": "Iran",
    "facility": "Imam Reza hospital and clinic of Salamat",
-   "lat": 38.08,
-   "lon": 46.2919,
+   "city": "Tabriz",
    "state": "AzarbayejaneShargi",
-   "status": null
+   "country": "Iran",
+   "status": null,
+   "lat": 38.08,
+   "lon": 46.2919
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05700513",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Eli Lilly and Company"
@@ -53,44 +53,44 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "exenatide once weekly",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: exenatide once weekly"
-   ],
    "label": "1",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: exenatide once weekly"
-   ],
+   ]
+  },
+  {
    "label": "2",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: exenatide once weekly"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: placebo"
-   ],
    "label": "3",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ],
+   ]
+  },
+  {
    "label": "4",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "Exenatide twice daily has been studied in Japanese type 2 diabetes patients. A once-weekly version of exenatide is currently being evaluated. Study GWBW is the first study of exenatide once weekly in Japanese patients. This study is designed to evaluate safety and tolerability of exenatide once weekly in Japanese patients and determine whether the dose selected for US and European development is appropriate for Japanese patients with Type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Body weight ≥50 kg.\n* Have suboptimal glycemic control as evidenced by an HbA1c defined by the following criteria: \\*6.5% to 10.0%, inclusive, at study start for patients managed with diet modification and exercise or treated with oral antidiabetics drug but not alpha glucosidase inhibitor or meglitinide derivatives; \\*6.5% to 9.5%, inclusive, at study start for patients treated with oral antidiabetics including alpha glucosidase inhibitor or meglitinide derivatives.\n* Have been treated with diet modification and exercise alone or in combination with a stable regimen of oral antidiabetic drugs (sulfonylurea, metformin and thiazolidinedione) for at least 2 months prior to study start. In the case of patients with concomitant use of sulfonylurea, the dose of sulfonylurea must not be more than maximum recommended dose. The patients with concomitant use of alpha glucosidase inhibitors (Glucobay® \\[acarbose\\], Basen® \\[voglibose\\], or Seibule® \\[miglitol\\]) or meglitinide derivatives (Glufast® \\[mitiglinide\\] or Fastic®/Starsis® \\[nateglinide\\]) can be included in this study, but these drugs must be discontinued after confirmation of eligibility at study start.\n\nExclusion Criteria:\n\n* Subjects who have donated more than 200 mL of blood and component blood donation within one month of study start, or those who have donated more than 400 mL of blood within three months of study start.\n* Have received treatment within the last 30 days with a drug that has not received regulatory approval for any indication at the time of study entry.\n* Have participated and received at least one dose of exenatide or other GLP-1 analogs in this study previously, or any other study using exenatide or other GLP-1 analogs.\n* Are treated with any exogenous insulin within 3 months of screening.\n* Are continuously treated with any of the following excluded medications within 3 months of screening (more than 7 days per 1 month): \\*Drugs that directly affect gastrointestinal motility, including Nauzelin® (domperidone), Primperan®/Terperan® (metoclopramide), Ganaton® (itopride), Acenalin® (cisapride), Gasmotin® (mosapride), or Cerekinon® (trimebutine).\n* Females who are breastfeeding.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,40 +113,40 @@
  },
  "sites": [
   {
+   "facility": "Research Site",
    "city": "Fukuoka",
+   "state": null,
    "country": "Japan",
-   "facility": "Research Site",
+   "status": null,
    "lat": 33.6,
-   "lon": 130.41667,
-   "state": null,
-   "status": null
+   "lon": 130.41667
   },
   {
+   "facility": "Research Site",
    "city": "Kanagawa",
+   "state": null,
    "country": "Japan",
-   "facility": "Research Site",
+   "status": null,
    "lat": 37.58333,
-   "lon": 139.91667,
-   "state": null,
-   "status": null
+   "lon": 139.91667
   },
   {
+   "facility": "Research Site",
    "city": "Osaka",
-   "country": "Japan",
-   "facility": "Research Site",
-   "lat": 34.69379,
-   "lon": 135.50107,
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 34.69379,
+   "lon": 135.50107
   },
   {
-   "city": "Tokyo",
-   "country": "Japan",
    "facility": "Research Site",
-   "lat": 35.6895,
-   "lon": 139.69171,
+   "city": "Tokyo",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.6895,
+   "lon": 139.69171
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00612794",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2024-05-22",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,39 +52,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "OTHER",
    "name": "Placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Tirzepatide"
-   ],
    "label": "Tirzepatide (lead-in)",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ],
-   "label": "Tirzepatide MTD",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Tirzepatide MTD",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Tirzepatide"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "This was a study of tirzepatide in participants with obesity or overweight. The main purpose was to learn more about how tirzepatide maintained body weight loss. The study had two phases: a lead-in phase in which all participants took tirzepatide and a treatment phase in which participants either continued tirzepatide or switched to placebo. The study lasted about 2 years (25 visits).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Body Mass Index (BMI) ≥30 kilograms per square meter (kg/m²), or ≥27 kg/m² and previous diagnosis with at least one of the following comorbidities: hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease\n* History of at least one unsuccessful dietary effort to lose body weight\n\nExclusion Criteria:\n\n* Diabetes mellitus\n* Change in body weight greater than 5 kg within 3 months prior to starting study\n* Obesity induced by other endocrinologic disorders or monogenetic or syndromic forms of obesity\n* History of pancreatitis\n* Family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\n* History of significant active or unstable major depressive disorder (MDD) or other severe psychiatric disorder within the last 2 years\n* Any lifetime history of a suicide attempt",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,634 +107,634 @@
  },
  "sites": [
   {
-   "city": "Buenos Aires",
-   "country": "Argentina",
    "facility": "Asociación de Beneficencia Hospital Sirio Libanés",
-   "lat": -34.61315,
-   "lon": -58.37723,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "CABA",
-   "country": "Argentina",
-   "facility": "CEDIC",
-   "lat": null,
-   "lon": null,
-   "state": "Buenos Aires",
-   "status": null
-  },
-  {
-   "city": "CABA",
-   "country": "Argentina",
-   "facility": "Centro Médico Viamonte",
-   "lat": null,
-   "lon": null,
-   "state": "Buenos Aires",
-   "status": null
-  },
-  {
-   "city": "Ciudad Autónoma de Buenos Aire",
-   "country": "Argentina",
-   "facility": "Stat Research S.A.",
-   "lat": null,
-   "lon": null,
-   "state": "Buenos Aires",
-   "status": null
-  },
-  {
    "city": "Buenos Aires",
+   "state": null,
    "country": "Argentina",
-   "facility": "Mautalen Salud e Investigación",
+   "status": null,
    "lat": -34.61315,
-   "lon": -58.37723,
-   "state": "Ciudad Autónoma de Buenos Aire",
-   "status": null
+   "lon": -58.37723
   },
   {
-   "city": "Ciudad Autonoma de Buenos Aire",
+   "facility": "CEDIC",
+   "city": "CABA",
+   "state": "Buenos Aires",
    "country": "Argentina",
-   "facility": "Centro Medico Dr Laura Maffei Investigacion Clinica Aplicada",
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": "Ciudad Autónoma de Buenos Aire",
-   "status": null
+   "lon": null
   },
   {
-   "city": "Rosario",
+   "facility": "Centro Médico Viamonte",
+   "city": "CABA",
+   "state": "Buenos Aires",
    "country": "Argentina",
+   "status": null,
+   "lat": null,
+   "lon": null
+  },
+  {
+   "facility": "Stat Research S.A.",
+   "city": "Ciudad Autónoma de Buenos Aire",
+   "state": "Buenos Aires",
+   "country": "Argentina",
+   "status": null,
+   "lat": null,
+   "lon": null
+  },
+  {
+   "facility": "Mautalen Salud e Investigación",
+   "city": "Buenos Aires",
+   "state": "Ciudad Autónoma de Buenos Aire",
+   "country": "Argentina",
+   "status": null,
+   "lat": -34.61315,
+   "lon": -58.37723
+  },
+  {
+   "facility": "Centro Medico Dr Laura Maffei Investigacion Clinica Aplicada",
+   "city": "Ciudad Autonoma de Buenos Aire",
+   "state": "Ciudad Autónoma de Buenos Aire",
+   "country": "Argentina",
+   "status": null,
+   "lat": null,
+   "lon": null
+  },
+  {
    "facility": "Instituto Médico Catamarca IMEC",
-   "lat": -32.94682,
-   "lon": -60.63932,
+   "city": "Rosario",
    "state": "Santa Fe Province",
-   "status": null
+   "country": "Argentina",
+   "status": null,
+   "lat": -32.94682,
+   "lon": -60.63932
   },
   {
-   "city": "Rio de Janeiro",
-   "country": "Brazil",
    "facility": "IBPClin - Instituto Brasil de Pesquisa Clínica",
+   "city": "Rio de Janeiro",
+   "state": null,
+   "country": "Brazil",
+   "status": null,
    "lat": -22.90642,
-   "lon": -43.18223,
-   "state": null,
-   "status": null
+   "lon": -43.18223
   },
   {
-   "city": "São Paulo",
-   "country": "Brazil",
    "facility": "CPQuali Pesquisa Clínica",
-   "lat": -23.5475,
-   "lon": -46.63611,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Vitória",
-   "country": "Brazil",
-   "facility": "CEDOES",
-   "lat": -20.31944,
-   "lon": -40.33778,
-   "state": "Espírito Santo",
-   "status": null
-  },
-  {
-   "city": "Curitiba",
-   "country": "Brazil",
-   "facility": "Cline Research Center",
-   "lat": -25.42778,
-   "lon": -49.27306,
-   "state": "Paraná",
-   "status": null
-  },
-  {
-   "city": "Porto Alegre",
-   "country": "Brazil",
-   "facility": "Núcleo de Pesquisa Clínica do Rio Grande do Sul",
-   "lat": -30.03283,
-   "lon": -51.23019,
-   "state": "Rio Grande do Sul",
-   "status": null
-  },
-  {
-   "city": "Campinas",
-   "country": "Brazil",
-   "facility": "Centro de Pesquisa Sao Lucas",
-   "lat": -22.90556,
-   "lon": -47.06083,
-   "state": "São Paulo",
-   "status": null
-  },
-  {
-   "city": "São José dos Campos",
-   "country": "Brazil",
-   "facility": "ISPEM - Instituto São José dos Campos em Pesquisas Médicas",
-   "lat": -23.17944,
-   "lon": -45.88694,
-   "state": "São Paulo",
-   "status": null
-  },
-  {
    "city": "São Paulo",
+   "state": null,
    "country": "Brazil",
-   "facility": "BR Trials - Ensaios Clinicos e Consultoria",
+   "status": null,
    "lat": -23.5475,
-   "lon": -46.63611,
+   "lon": -46.63611
+  },
+  {
+   "facility": "CEDOES",
+   "city": "Vitória",
+   "state": "Espírito Santo",
+   "country": "Brazil",
+   "status": null,
+   "lat": -20.31944,
+   "lon": -40.33778
+  },
+  {
+   "facility": "Cline Research Center",
+   "city": "Curitiba",
+   "state": "Paraná",
+   "country": "Brazil",
+   "status": null,
+   "lat": -25.42778,
+   "lon": -49.27306
+  },
+  {
+   "facility": "Núcleo de Pesquisa Clínica do Rio Grande do Sul",
+   "city": "Porto Alegre",
+   "state": "Rio Grande do Sul",
+   "country": "Brazil",
+   "status": null,
+   "lat": -30.03283,
+   "lon": -51.23019
+  },
+  {
+   "facility": "Centro de Pesquisa Sao Lucas",
+   "city": "Campinas",
    "state": "São Paulo",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -22.90556,
+   "lon": -47.06083
   },
   {
-   "city": "Bayamón",
-   "country": "Puerto Rico",
+   "facility": "ISPEM - Instituto São José dos Campos em Pesquisas Médicas",
+   "city": "São José dos Campos",
+   "state": "São Paulo",
+   "country": "Brazil",
+   "status": null,
+   "lat": -23.17944,
+   "lon": -45.88694
+  },
+  {
+   "facility": "BR Trials - Ensaios Clinicos e Consultoria",
+   "city": "São Paulo",
+   "state": "São Paulo",
+   "country": "Brazil",
+   "status": null,
+   "lat": -23.5475,
+   "lon": -46.63611
+  },
+  {
    "facility": "Centro de Endocrinologia Alcantara Gonzalez",
+   "city": "Bayamón",
+   "state": null,
+   "country": "Puerto Rico",
+   "status": null,
    "lat": 18.39856,
-   "lon": -66.15572,
-   "state": null,
-   "status": null
+   "lon": -66.15572
   },
   {
-   "city": "San Juan",
-   "country": "Puerto Rico",
    "facility": "Private Practice Dr. Martha Gomez Cuellar",
-   "lat": 18.46633,
-   "lon": -66.10572,
+   "city": "San Juan",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Vega Baja",
    "country": "Puerto Rico",
+   "status": null,
+   "lat": 18.46633,
+   "lon": -66.10572
+  },
+  {
    "facility": "Wellness clinical Research Vega Baja",
+   "city": "Vega Baja",
+   "state": null,
+   "country": "Puerto Rico",
+   "status": null,
    "lat": 18.44439,
-   "lon": -66.38767,
-   "state": null,
-   "status": null
+   "lon": -66.38767
   },
   {
-   "city": "Taichung",
-   "country": "Taiwan",
    "facility": "China Medical University Hospital",
-   "lat": 24.1469,
-   "lon": 120.6839,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Taichung",
+   "state": null,
    "country": "Taiwan",
-   "facility": "Chung Shan Medical University Hospital",
+   "status": null,
    "lat": 24.1469,
-   "lon": 120.6839,
-   "state": null,
-   "status": null
+   "lon": 120.6839
   },
   {
-   "city": "Tainan",
+   "facility": "Chung Shan Medical University Hospital",
+   "city": "Taichung",
+   "state": null,
    "country": "Taiwan",
+   "status": null,
+   "lat": 24.1469,
+   "lon": 120.6839
+  },
+  {
    "facility": "National Cheng-Kung Uni. Hosp.",
-   "lat": 22.99259,
-   "lon": 120.20507,
+   "city": "Tainan",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Taipei",
    "country": "Taiwan",
+   "status": null,
+   "lat": 22.99259,
+   "lon": 120.20507
+  },
+  {
    "facility": "National Taiwan University Hospital",
-   "lat": 25.05306,
-   "lon": 121.52639,
+   "city": "Taipei",
    "state": null,
-   "status": null
+   "country": "Taiwan",
+   "status": null,
+   "lat": 25.05306,
+   "lon": 121.52639
   },
   {
-   "city": "Pelham",
-   "country": "United States",
    "facility": "Cahaba Research",
-   "lat": 33.28567,
-   "lon": -86.80999,
+   "city": "Pelham",
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.28567,
+   "lon": -86.80999
   },
   {
-   "city": "La Jolla",
-   "country": "United States",
    "facility": "Scripps Memorial Hospital La Jolla",
+   "city": "La Jolla",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 32.84727,
-   "lon": -117.2742,
-   "state": "California",
-   "status": null
+   "lon": -117.2742
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "National Research Institute - Wilshire",
+   "city": "Los Angeles",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": null
+   "lon": -118.24368
   },
   {
-   "city": "Panorama City",
-   "country": "United States",
    "facility": "National Research Institute",
+   "city": "Panorama City",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.22473,
-   "lon": -118.44981,
-   "state": "California",
-   "status": null
+   "lon": -118.44981
   },
   {
-   "city": "San Diego",
-   "country": "United States",
    "facility": "Artemis Institute for Clinical Research",
+   "city": "San Diego",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 32.71571,
-   "lon": -117.16472,
-   "state": "California",
-   "status": null
+   "lon": -117.16472
   },
   {
-   "city": "Tustin",
-   "country": "United States",
    "facility": "University Clinical Investigators, Inc.",
-   "lat": 33.74585,
-   "lon": -117.82617,
+   "city": "Tustin",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.74585,
+   "lon": -117.82617
   },
   {
-   "city": "Golden",
-   "country": "United States",
    "facility": "New West Physicians Clinical Research",
+   "city": "Golden",
+   "state": "Colorado",
+   "country": "United States",
+   "status": null,
    "lat": 39.75554,
-   "lon": -105.2211,
-   "state": "Colorado",
-   "status": null
+   "lon": -105.2211
   },
   {
-   "city": "Monument",
-   "country": "United States",
    "facility": "Optumcare Colorado Springs - Monument",
-   "lat": 39.09166,
-   "lon": -104.87276,
+   "city": "Monument",
    "state": "Colorado",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.09166,
+   "lon": -104.87276
   },
   {
-   "city": "Jacksonville",
-   "country": "United States",
    "facility": "Care Partners Clinical Research",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 30.33218,
-   "lon": -81.65565,
-   "state": "Florida",
-   "status": null
+   "lon": -81.65565
   },
   {
-   "city": "Margate",
-   "country": "United States",
    "facility": "South Florida Clinical Research Institute",
+   "city": "Margate",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.24453,
-   "lon": -80.20644,
-   "state": "Florida",
-   "status": null
+   "lon": -80.20644
   },
   {
-   "city": "Ocala",
-   "country": "United States",
    "facility": "Renstar Medical Research",
+   "city": "Ocala",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.1872,
-   "lon": -82.14009,
-   "state": "Florida",
-   "status": null
+   "lon": -82.14009
   },
   {
-   "city": "Tampa",
-   "country": "United States",
    "facility": "ForCare Clinical Research",
-   "lat": 27.94752,
-   "lon": -82.45843,
+   "city": "Tampa",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 27.94752,
+   "lon": -82.45843
   },
   {
-   "city": "Roswell",
-   "country": "United States",
    "facility": "Endocrine Research Solutions, Inc.",
+   "city": "Roswell",
+   "state": "Georgia",
+   "country": "United States",
+   "status": null,
    "lat": 34.02316,
-   "lon": -84.36159,
-   "state": "Georgia",
-   "status": null
+   "lon": -84.36159
   },
   {
-   "city": "Union City",
-   "country": "United States",
    "facility": "SKY Clinical Research Network Group-Blake",
-   "lat": 33.58706,
-   "lon": -84.54243,
+   "city": "Union City",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.58706,
+   "lon": -84.54243
   },
   {
-   "city": "Honolulu",
-   "country": "United States",
    "facility": "East-West Medical Research Institute",
-   "lat": 21.30694,
-   "lon": -157.85833,
+   "city": "Honolulu",
    "state": "Hawaii",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
-   "city": "Idaho Falls",
-   "country": "United States",
    "facility": "Rocky Mountain Clinical Research",
-   "lat": 43.46658,
-   "lon": -112.03414,
+   "city": "Idaho Falls",
    "state": "Idaho",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.46658,
+   "lon": -112.03414
   },
   {
-   "city": "Flossmoor",
-   "country": "United States",
    "facility": "Healthcare Research Network - Chicago",
+   "city": "Flossmoor",
+   "state": "Illinois",
+   "country": "United States",
+   "status": null,
    "lat": 41.54281,
-   "lon": -87.68477,
-   "state": "Illinois",
-   "status": null
+   "lon": -87.68477
   },
   {
-   "city": "Gurnee",
-   "country": "United States",
    "facility": "Clinical Investigation Specialists",
-   "lat": 42.3703,
-   "lon": -87.90202,
+   "city": "Gurnee",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.3703,
+   "lon": -87.90202
   },
   {
-   "city": "Indianapolis",
-   "country": "United States",
    "facility": "Midwest Institute For Clinical Research",
+   "city": "Indianapolis",
+   "state": "Indiana",
+   "country": "United States",
+   "status": null,
    "lat": 39.76838,
-   "lon": -86.15804,
-   "state": "Indiana",
-   "status": null
+   "lon": -86.15804
   },
   {
-   "city": "New Albany",
-   "country": "United States",
    "facility": "American Health Network of Indiana, LLC - New Albany",
-   "lat": 38.28562,
-   "lon": -85.82413,
+   "city": "New Albany",
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.28562,
+   "lon": -85.82413
   },
   {
-   "city": "Topeka",
-   "country": "United States",
    "facility": "Cotton O'Neil Clinic",
-   "lat": 39.04833,
-   "lon": -95.67804,
+   "city": "Topeka",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.04833,
+   "lon": -95.67804
   },
   {
-   "city": "Louisville",
-   "country": "United States",
    "facility": "L-MARC Research Center",
-   "lat": 38.25424,
-   "lon": -85.75941,
+   "city": "Louisville",
    "state": "Kentucky",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.25424,
+   "lon": -85.75941
   },
   {
-   "city": "Elkridge",
-   "country": "United States",
    "facility": "Centennial Medical Group",
+   "city": "Elkridge",
+   "state": "Maryland",
+   "country": "United States",
+   "status": null,
    "lat": 39.21261,
-   "lon": -76.71358,
-   "state": "Maryland",
-   "status": null
+   "lon": -76.71358
   },
   {
-   "city": "Hyattsville",
-   "country": "United States",
    "facility": "MedStar Health Research Institute (MedStar Physician Based Research Network)",
-   "lat": 38.95594,
-   "lon": -76.94553,
+   "city": "Hyattsville",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.95594,
+   "lon": -76.94553
   },
   {
-   "city": "Methuen",
-   "country": "United States",
    "facility": "ActivMed Practices and Research",
-   "lat": 42.7262,
-   "lon": -71.19089,
+   "city": "Methuen",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.7262,
+   "lon": -71.19089
   },
   {
-   "city": "Troy",
-   "country": "United States",
    "facility": "Arcturus Healthcare , PLC, Troy Internal Medicine Research Division",
-   "lat": 42.60559,
-   "lon": -83.14993,
+   "city": "Troy",
    "state": "Michigan",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.60559,
+   "lon": -83.14993
   },
   {
-   "city": "City of Saint Peters",
-   "country": "United States",
    "facility": "StudyMetrix Research",
-   "lat": 38.80033,
-   "lon": -90.62651,
+   "city": "City of Saint Peters",
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.80033,
+   "lon": -90.62651
   },
   {
-   "city": "Kalispell",
-   "country": "United States",
    "facility": "Glacier View Research Institute - Endocrinology",
-   "lat": 48.19579,
-   "lon": -114.31291,
+   "city": "Kalispell",
    "state": "Montana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 48.19579,
+   "lon": -114.31291
   },
   {
-   "city": "New York",
-   "country": "United States",
    "facility": "Weill Cornell Medical College",
-   "lat": 40.71427,
-   "lon": -74.00597,
+   "city": "New York",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.71427,
+   "lon": -74.00597
   },
   {
-   "city": "Chapel Hill",
-   "country": "United States",
    "facility": "University of North Carolina Medical Center",
+   "city": "Chapel Hill",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 35.9132,
-   "lon": -79.05584,
-   "state": "North Carolina",
-   "status": null
+   "lon": -79.05584
   },
   {
-   "city": "Greensboro",
-   "country": "United States",
    "facility": "PharmQuest",
+   "city": "Greensboro",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 36.07264,
-   "lon": -79.79198,
-   "state": "North Carolina",
-   "status": null
+   "lon": -79.79198
   },
   {
-   "city": "Winston-Salem",
-   "country": "United States",
    "facility": "Wake Forest University Baptist Medical Center (WFUBMC)",
-   "lat": 36.09986,
-   "lon": -80.24422,
+   "city": "Winston-Salem",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.09986,
+   "lon": -80.24422
   },
   {
-   "city": "Fargo",
-   "country": "United States",
    "facility": "Lillestol Research",
-   "lat": 46.87719,
-   "lon": -96.7898,
+   "city": "Fargo",
    "state": "North Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.87719,
+   "lon": -96.7898
   },
   {
-   "city": "Columbus",
-   "country": "United States",
    "facility": "Aventiv Research Inc",
-   "lat": 39.96118,
-   "lon": -82.99879,
+   "city": "Columbus",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.96118,
+   "lon": -82.99879
   },
   {
-   "city": "Norman",
-   "country": "United States",
    "facility": "Intend Research, LLC",
-   "lat": 35.22257,
-   "lon": -97.43948,
+   "city": "Norman",
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.22257,
+   "lon": -97.43948
   },
   {
-   "city": "Portland",
-   "country": "United States",
    "facility": "Summit Research Network",
-   "lat": 45.52345,
-   "lon": -122.67621,
+   "city": "Portland",
    "state": "Oregon",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 45.52345,
+   "lon": -122.67621
   },
   {
-   "city": "Camp Hill",
-   "country": "United States",
    "facility": "Capital Area Research, LLC",
-   "lat": 40.23981,
-   "lon": -76.91997,
+   "city": "Camp Hill",
    "state": "Pennsylvania",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.23981,
+   "lon": -76.91997
   },
   {
-   "city": "Greenville",
-   "country": "United States",
    "facility": "Tribe Clinical Research, LLC",
-   "lat": 34.85262,
-   "lon": -82.39401,
+   "city": "Greenville",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.85262,
+   "lon": -82.39401
   },
   {
-   "city": "Bellaire",
-   "country": "United States",
    "facility": "The University of Texas Health Science Center at Houston",
+   "city": "Bellaire",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 29.70579,
-   "lon": -95.45883,
-   "state": "Texas",
-   "status": null
+   "lon": -95.45883
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Dallas Diabetes Research Center",
-   "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
-  },
-  {
    "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
-   "facility": "North Texas Endocrine Center",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
-   "city": "Houston",
+   "facility": "North Texas Endocrine Center",
+   "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
+   "status": null,
+   "lat": 32.78306,
+   "lon": -96.80667
+  },
+  {
    "facility": "Biopharma Informatic, LLC",
+   "city": "Houston",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 29.76328,
-   "lon": -95.36327,
-   "state": "Texas",
-   "status": null
+   "lon": -95.36327
   },
   {
-   "city": "North Richland Hills",
-   "country": "United States",
    "facility": "North Hills Family Medicine/North Hills Medical Research",
+   "city": "North Richland Hills",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 32.8343,
-   "lon": -97.2289,
-   "state": "Texas",
-   "status": null
+   "lon": -97.2289
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Clinical Trials of Texas, Inc.",
+   "city": "San Antonio",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 29.42412,
-   "lon": -98.49363,
-   "state": "Texas",
-   "status": null
+   "lon": -98.49363
   },
   {
-   "city": "Tomball",
-   "country": "United States",
    "facility": "Northwest Houston Heart Center",
-   "lat": 30.09716,
-   "lon": -95.61605,
+   "city": "Tomball",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.09716,
+   "lon": -95.61605
   },
   {
-   "city": "Newport News",
-   "country": "United States",
    "facility": "Health Research of Hampton Roads, Inc.",
-   "lat": 36.98038,
-   "lon": -76.42975,
+   "city": "Newport News",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.98038,
+   "lon": -76.42975
   },
   {
-   "city": "Olympia",
-   "country": "United States",
    "facility": "Capital Clinical Research Center",
-   "lat": 47.04491,
-   "lon": -122.90169,
+   "city": "Olympia",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.04491,
+   "lon": -122.90169
   },
   {
-   "city": "Renton",
-   "country": "United States",
    "facility": "Rainier Clinical Research Center",
-   "lat": 47.48288,
-   "lon": -122.21707,
+   "city": "Renton",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.48288,
+   "lon": -122.21707
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04660643",

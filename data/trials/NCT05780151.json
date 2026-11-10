@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "OTHER",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Mira Zuidgeest"
+  "name": "Mira Zuidgeest",
+  "class": "OTHER"
  },
  "collaborators": [
   "IMI Trials@Home consortium",
@@ -52,42 +52,42 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "Methodological intervention",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Toujeo",
    "other_names": [
     "insulin glargine 300 U/ml"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Other: Methodological intervention",
-    "Drug: Toujeo"
-   ],
    "label": "Conventional",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Methodological intervention",
     "Drug: Toujeo"
-   ],
+   ]
+  },
+  {
    "label": "Hybrid",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Methodological intervention",
     "Drug: Toujeo"
-   ],
+   ]
+  },
+  {
    "label": "Remote",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Other: Methodological intervention",
+    "Drug: Toujeo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -135,10 +135,10 @@
  "brief_summary": "Pan-European proof-of-concept study comparing Decentralised Clinical Trial (DCT) and hybrid approaches to conventional clinical trial approaches in patients with Type 2 diabetes mellitus treated with Toujeo®.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nParticipants are eligible to be included in the study only if all of the following criteria apply:\n\n1. Participant with T2DM diagnosed for at least 1 year before the screening visit (V1).\n2. Participant treated with a stable basal insulin regimen (i.e. type of insulin and time/frequency of the injection), for at least 3 months before the screening visit.\n3. The total daily basal insulin dose should be stable (±20%) for at least 1 month before the screening visit.\n4. Participant treated with ≥1 noninsulin antidiabetic drugs at stable dose in the 3 months before the screening visit.\n5. Signed written informed consent or e-consent depending on the arm.\n6. Participant's mental and physical status allows them to be able to perform their activities of daily living with no or minimal assistance, including the ability to administer injectable insulin and measure their blood glycaemic level.\n7. Willing and able to permit home visits (only for Part A of the study).\n8. Willing and able to comply with study drug receipt, accountability, and return processes and procedures.\n9. Access to tablet/smartphone with Bluetooth functionality.\n10. Access to internet connection that allows remote data entry and, for part B, video conferencing.\n\nExclusion Criteria:\n\nParticipants are excluded from the study if any of the following criteria apply:\n\n1. Age \\<18 years.\n2. HbA1c at screening visit: \\<7.0% or \\>10.0%.\n3. Patient not willing to self-manage insulin titration algorithm.\n4. Type 1 diabetes mellitus.\n5. Treatment with mixed insulin (premixes), short-acting insulin, fast acting insulin analogues or Toujeo® during the 3 months before the screening visit.\n6. Use of systemic glucocorticoids (excluding topical application or inhaled forms) for two weeks or more within 8 weeks prior to the time of screening.\n7. Any clinically significant abnormality identified at the time of screening, or any condition (including known substance or alcohol abuse, or psychiatric disorder) that in the opinion of the Investigator or any sub-Investigator would make implementation of the protocol or interpretation of the study results difficult or would preclude the safe participation of the participant in this study.\n8. Use of any investigational drug within 1 month or 5 half-lives, whichever is longer, prior to screening visit.\n9. Participant is the Investigator or any Subinvestigator, research assistant, pharmacist, study coordinator, other staff or relative thereof directly involved in the conduct of the protocol.\n10. Participant whom the investigator deems otherwise ineligible (e.g. unable to understand and follow instructions). Reason for ineligibility will be documented.\n11. Pregnant or breastfeeding woman at the time of screening.\n12. Woman of childbearing potential not protected by acceptable method(s) of birth control and/or who are unwilling or unable to be tested for pregnancy (see Section 10.3).\n13. Known hypersensitivity / intolerance to insulin glargine or any of Toujeo® excipients.\n14. Participant who withdraws consent during the screening (participant who is not willing to continue or fails to return).\n15. Despite screening of the participant, enrolment is stopped at the study level.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -146,85 +146,85 @@
  },
  "sites": [
   {
-   "city": "Odense",
-   "country": "Denmark",
    "facility": "Steno Diabetes Centre Odense",
-   "lat": 55.39594,
-   "lon": 10.38831,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Odense",
+   "state": null,
    "country": "Denmark",
-   "facility": "Syddansk Universitet",
+   "status": null,
    "lat": 55.39594,
-   "lon": 10.38831,
-   "state": null,
-   "status": null
+   "lon": 10.38831
   },
   {
-   "city": "Berlin",
-   "country": "Germany",
+   "facility": "Syddansk Universitet",
+   "city": "Odense",
+   "state": null,
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.39594,
+   "lon": 10.38831
+  },
+  {
    "facility": "Studienzentrum Diabetespraxis Dr. Braun",
+   "city": "Berlin",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 52.52437,
-   "lon": 13.41053,
-   "state": null,
-   "status": null
+   "lon": 13.41053
   },
   {
-   "city": "Dresden",
-   "country": "Germany",
    "facility": "Klinische Forschung Dresden GmbH",
-   "lat": 51.05089,
-   "lon": 13.73832,
+   "city": "Dresden",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Leipzig",
    "country": "Germany",
+   "status": null,
+   "lat": 51.05089,
+   "lon": 13.73832
+  },
+  {
    "facility": "Velocity Clinical Research Leipzig GmbH",
+   "city": "Leipzig",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 51.33962,
-   "lon": 12.37129,
-   "state": null,
-   "status": null
+   "lon": 12.37129
   },
   {
-   "city": "Birmingham",
-   "country": "United Kingdom",
    "facility": "FutureMeds Soho Health Centre",
+   "city": "Birmingham",
+   "state": null,
+   "country": "United Kingdom",
+   "status": null,
    "lat": 52.48142,
-   "lon": -1.89983,
-   "state": null,
-   "status": null
+   "lon": -1.89983
   },
   {
-   "city": "Blackpool",
-   "country": "United Kingdom",
    "facility": "Blackpool Teaching Hospitals NHS Foundation Trust",
+   "city": "Blackpool",
+   "state": null,
+   "country": "United Kingdom",
+   "status": null,
    "lat": 53.81667,
-   "lon": -3.05,
-   "state": null,
-   "status": null
+   "lon": -3.05
   },
   {
-   "city": "Leicester",
-   "country": "United Kingdom",
    "facility": "University Hospitals Leicester NHS Trust",
-   "lat": 52.6386,
-   "lon": -1.13169,
+   "city": "Leicester",
    "state": null,
-   "status": null
+   "country": "United Kingdom",
+   "status": null,
+   "lat": 52.6386,
+   "lon": -1.13169
   },
   {
-   "city": "Newcastle",
-   "country": "United Kingdom",
    "facility": "NIHR Patient Recruitment Centre Newcastle, The Newcastle upon Tyne Hospitals NHS Foundation Trust",
-   "lat": 54.21804,
-   "lon": -5.88979,
+   "city": "Newcastle",
    "state": null,
-   "status": null
+   "country": "United Kingdom",
+   "status": null,
+   "lat": 54.21804,
+   "lon": -5.88979
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05780151",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2009-05-01",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Merck Sharp & Dohme LLC"
+  "name": "Merck Sharp & Dohme LLC",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,32 +51,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "sitagliptin phosphate",
    "other_names": [
     "MK0431"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Comparator: Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "1",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: sitagliptin phosphate"
-   ],
-   "label": "1",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Comparator: Placebo"
-   ],
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "To evaluate the effect of treatment with sitagliptin compared to placebo in elderly patients with type 2 diabetes mellitus who have poor glycemic control with diet and exercise.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Community dwelling patients 65 years of age or older diagnosed with Type 2 Diabetes not controlled with diet and exercise\n* Patients must have a HbA1c of 7-10% off medication, or as a result of a protocol wash-out from oral anti-hyperglycemic agents by the qualifying visit\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes\n* History of ketoacidosis or requires insulin use\n* Alanine aminotransferase / aspartate aminotransferase \\> 2.5 X ULN, triglycerides \\> 600 mg/dL, creatinine clearance \\< 35 mL/min\n* Fasting plasma glucose consistently \\> 260 mg/dL\n* Poorly controlled hypertension",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "65 Years",
   "sex": "ALL",
+  "minimum_age": "65 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "OLDER_ADULT"
   ]

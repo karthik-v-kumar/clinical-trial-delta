@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "LG Life Sciences"
+  "name": "LG Life Sciences",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Gemigliptin and/or Rosuvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Gemigliptin and/or Rosuvastatin"
-   ],
    "label": "Gemigliptin",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Gemigliptin and/or Rosuvastatin"
-   ],
+   ]
+  },
+  {
    "label": "Rosuvastatin",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Gemigliptin and/or Rosuvastatin"
-   ],
+   ]
+  },
+  {
    "label": "FDC",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Gemigliptin and/or Rosuvastatin"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -95,10 +95,10 @@
  "brief_summary": "To evaluate the efficacy and safety of the fix-dose combination therapy with Gemigliptin 50mg and Rosuvastatin 20mg with type 2 diabetes and dyslipidemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 Diabetes Mellitus with Dyslipidemia\n* Adults who are at least 19 years old\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes, diabetic ketoacidosis, diabetic coma and pre-coma\n* Patients with gestational diabetes or secondary diabetes\n* Patients with NYHA Class III, IV congestive heart failure or arrhythmias requiring treatment\n* Patients with thyroid gland dysfunction deviating from the normal TSH range\n* Patients with pituitary insufficiency or adrenal insufficiency",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -106,13 +106,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Severance hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02126358",

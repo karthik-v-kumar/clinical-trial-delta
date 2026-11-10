@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Boehringer Ingelheim"
+  "name": "Boehringer Ingelheim",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -50,64 +50,64 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "BI 1820237",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Saxenda®",
    "other_names": [
     "Liraglutide"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Paracetamol-ratiopharm®",
    "other_names": [
     "Paracetamol"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: BI 1820237",
-    "Drug: Paracetamol-ratiopharm®"
-   ],
    "label": "BI 1820237",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: BI 1820237",
+    "Drug: Paracetamol-ratiopharm®"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Paracetamol-ratiopharm®"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "BI 1820237 + liraglutide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: BI 1820237",
     "Drug: Saxenda®",
     "Drug: Paracetamol-ratiopharm®"
-   ],
-   "label": "BI 1820237 + liraglutide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo + liraglutide",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Saxenda®",
     "Drug: Paracetamol-ratiopharm®"
-   ],
-   "label": "Placebo + liraglutide",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -119,23 +119,23 @@
  "brief_summary": "The main objective of this trial is to investigate safety, tolerability and pharmacokinetics (PK) and pharmacodynamics (PD) of BI 1820237 alone or together with a single low dose of liraglutide in male subjects with overweight/obesity (otherwise healthy) following subcutaneous administration of single rising doses.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male subjects with overweight/obesity (otherwise healthy) according to the assessment of the investigator, as based on a complete medical history including a physical examination, vital signs (blood pressure (BP), pulse rate (PR)), 12 lead electrocardiogram (ECG), and clinical laboratory tests\n* Age of 18 to 50 years (inclusive)\n* Body mass index (BMI) of 25.0 to 34.9 kg/m2 (inclusive). Overweight should be due to excess adipose tissue, as judged by the investigator\n* Body weight greater than or equal to 70 kg\n* Signed and dated written informed consent prior to admission to the study, in accordance with Good Clinical Practice (GCP) and local legislation\n\nExclusion Criteria:\n\n* Any finding in the medical examination (including BP, PR or ECG) deviating from normal and assessed as clinically relevant by the investigator\n* Repeated measurement of systolic blood pressure outside the range of 90 to 140 millimeter of mercury (mmHg), diastolic blood pressure outside the range of 50 to 90 mmHg, or pulse rate outside the range of 50 to 90 beats per minute (bpm)\n* Any laboratory value outside the reference range that the investigator considers to be of clinical relevance\n* Any evidence of a concomitant disease assessed as clinically relevant by the investigator\n* Gastrointestinal, hepatic, renal, respiratory, cardiovascular, metabolic, immunological or hormonal disorders\n* Cholecystectomy or other surgery of the gastrointestinal tract that could interfere with the pharmacokinetics of the trial medications except appendectomy or simple hernia repair\n* Diseases of the central nervous system (including but not limited to any kind of seizures or stroke), and other relevant neurological or psychiatric disorders\n* History of relevant orthostatic hypotension, fainting spells, or blackouts Further exclusion criteria apply",
-  "healthy_volunteers": true,
-  "maximum_age": "50 Years",
-  "minimum_age": "18 Years",
   "sex": "MALE",
+  "minimum_age": "18 Years",
+  "maximum_age": "50 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Mannheim",
-   "country": "Germany",
    "facility": "CRS Clinical Research Services Mannheim GmbH",
-   "lat": 49.4891,
-   "lon": 8.46694,
+   "city": "Mannheim",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 49.4891,
+   "lon": 8.46694
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04903509",

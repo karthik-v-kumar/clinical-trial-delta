@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": "2018-08-03",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Beth Israel Deaconess Medical Center"
+  "name": "Beth Israel Deaconess Medical Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "Janssen Scientific Affairs, LLC"
@@ -56,32 +56,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Canagliflozin",
    "other_names": [
     "Invokana"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Canagliflozin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Canagliflozin"
-   ],
-   "label": "Canagliflozin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "The purpose of this study is to investigate the effect of canagliflozin, a medication approved by the FDA for the treatment of type 2 diabetes, on body weight and metabolism in people with type 2 diabetes who are overweight or obese.\n\nCanagliflozin lowers glucose levels in the blood by making the kidneys excrete, rather than absorb, glucose. Canagliflozin is also often associated with weight loss.\n\nThe study population will generally be type 2 diabetics, ages 18-75 years old, who are overweight or obese.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes\n2. BMI 25-45 kg/m2\n3. Hemoglobin A1C \\> 6.5% but \\< 9%\n4. Normal renal function (GFR \\> 60)\n5. Age 18-75\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. History of recurrent UTI or mycotic genital infections\n3. Treatment with insulin or a GLP1 agent\n4. Pregnant or breastfeeding",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "city": "Boston",
-   "country": "United States",
    "facility": "Beth Israel Deaconess Medical Center",
-   "lat": 42.35843,
-   "lon": -71.05977,
+   "city": "Boston",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.35843,
+   "lon": -71.05977
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02360774",

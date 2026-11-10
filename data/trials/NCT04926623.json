@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Daewoong Pharmaceutical Co. LTD."
+  "name": "Daewoong Pharmaceutical Co. LTD.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,37 +48,37 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "FreeStyle Libre 24 weeks",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "SMBG (22 weeks) and blind CGM (2 weeks)",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Device: FreeStyle Libre 24 weeks"
-   ],
    "label": "CGM with Structured Education",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: FreeStyle Libre 24 weeks"
-   ],
-   "label": "CGM with Standard Education",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "CGM with Standard Education",
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Device: FreeStyle Libre 24 weeks"
+   ]
+  },
+  {
+   "label": "SMBG with Standard Education",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: SMBG (22 weeks) and blind CGM (2 weeks)"
-   ],
-   "label": "SMBG with Standard Education",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "Multicenter, Open-label, Randomized Trial to Compare the Effectiveness of Structured Education and Safety of FreeStyle Libre or Self-Monitoring of Blood Glucose (SMBG) in patients with type 2 Diabetes Mellitus using Multiple Daily Injections or Insulin Pumps",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Type 2 diabetes patients aged 19 and under 75 years.\n2. Multiple insulin injections at the time of screening (at least one base insulin and two or more fast-acting insulin. However, one insulin aspart/insulin degludec + one insulin aspart or two or more insulin aspart/insulin degludec can be included.) or those who have been using an insulin pump for at least 12 weeks.\n3. HbA1c of not less than 7.5% and not more than 12.0% at the time of screening\n4. patients who agree to use FreeStyle Libre for medical care and research\n5. patients who voluntarily signed a written consent form\n\nExclusion Criteria:\n\n1. Those who have difficulty in education due to severe systemic diseases (e.g., terminal renal failure requiring dialysis, cirrhosis above Child-Pugh Class C), cognitive impairment, and mental illness.\n2. Those who are taking drugs that may affect metabolism per screening time (e.g., adrenocortical hormones, immunosuppressants, etc.) (However, those who have taken the same dose for more than 12 weeks until screening time and who are not scheduled to change drug dose can participate in this study.)\n3. Those with clinically significant cardiovascular diseases (heart failure, angina, myocardial infarction, cerebral infarction, etc.) within 24 weeks of screening.\n4. Those who have a glomerular filtration rate (eGFR) of \\<15 mL/min.\n5. A person with severe diabetes complications that deteriorate or newly occur within 3 months of screening and require emergency treatment.\n6. Pregnant or lactating persons.\n7. Pregnancy is planned during the study period, effective contraception (if condoms, oral contraceptives, intrauterine contraceptives, injections, transplants, contraceptives, or absolute abstinence, such as periodic abstinence (e.g., Krenda, ovulation, symptom body temperature) and resection are not considered as recognized contraceptives) for women or men.\n8. Those who find other researchers inappropriate for participation in research.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Samsung Medical Center",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04926623",

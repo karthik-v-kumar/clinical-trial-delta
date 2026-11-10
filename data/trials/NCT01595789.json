@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDIV",
-  "name": "Haugaard, Steen Bendix, M.D., DMSc"
+  "name": "Haugaard, Steen Bendix, M.D., DMSc",
+  "class": "INDIV"
  },
  "collaborators": [],
  "conditions": [
@@ -54,35 +54,35 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Brand name: Victoza",
     "Active substance: liraglutide",
     "EMA Product number: EMEA/H/C/001026",
     "ATC Code: A10BX07"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo + metformin",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo + metformin",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Liraglutide + metformin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Liraglutide"
-   ],
-   "label": "Liraglutide + metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The purpose of this study is to investigate the effect of combined glucagon-like-peptide-1 (GLP-1) analogue and metformin therapy on glucose metabolic and cardiovascular endpoints compared to metformin monotherapy in patients with coronary artery disease (CAD) and newly diagnosed type 2 diabetes (T2D).\n\nIt is hypothesized that GLP-1 analogue added to backbone therapy of metformin in CAD patients with T2D will improve beta-cell function, left ventricular ejection fraction (LVEF), heart rate variability and lower 24h blood pressure among other selected endpoints.\n\nThe present study on CAD patients with newly diagnosed T2D will address these selected endpoints during an investigator initiated, randomized, double blind, crossover, placebo-controlled 12 + 12 weeks intervention study with a 2 week wash-out period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Stable CAD documented by one of the following:\n\n   * Previous MI (a minimum of 6 weeks after an acute MI)\n   * Previous coronary revascularization\n   * CAD confirmed by an abnormal coronary angiography (CAG) or CT-angiography showing stenosis \\> 50% of any major coronary arteries.\n2. Body mass index (BMI) \\>/= 25,0 kg/m2\n3. Age \\>/= 18 years and \\</= 85 years\n4. Type 2 diabetes diagnosed by one of the following criteria:\n\n   * HbA1c \\>/= 6.5%\n   * HbA1c \\< 6.5 % and fasting plasma glucose \\>/= 7.0 mmol/l (confirmed)\n   * HbA1c \\< 6.5 % and a 2 h plasma glucose value during OGTT \\>/= 11.1 mmol/l\n\nThe data for glucose metabolism are accepted provided that they have been obtained within 24 months prior to inclusion of the patient. The glucose metabolic categories are defined by ADA and WHO criteria.\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus defined as C-peptide \\< 450 pM\n* Previously diagnosed diabetes mellitus for more than 24 months prior to the screening procedure for this trial, except from gestational diabetes\n* Use of more than 2 types of oral antidiabetic medication and/or use of parenteral antidiabetic medication in the period of 3 months prior to the screening visit. It is accepted that the patient continues his usual antidiabetic medication after the screening visit but antidiabetic medication must be discontinued 2 weeks prior to the baseline visit.\n* Significant heart disease (NYHA \\> 2; Ejection Fraction \\< 40% and unstable angina pectoris) and known severe valve disease\n* Documented atrial fibrillation or atrial flutter within 6 weeks previous to the screening. Paroxysmal atrial fibrillation is accepted if sinus rhythm is achieved at the screening.\n* Uncontrolled arterial hypertension (\\> 180/100 mmHg) at the time of screening\n* Liver (transaminases greater than x 2 the upper normal level) or renal diseases (eGFR \\< 60 ml/min)\n* Amylase greater than x 3 the upper reference value\n* Any chronic medical condition to unduly increase risk for the potential enrollee as judged by study investigators\n* Dysregulated myxedema or hyperthyroid condition defined by a value of TSH \\< 0,1 and \\> 10,0 milli U/L\n* Anemia (\\< 85% of lower normal limit), leucopenia (\\< 85% of lower normal limit), or thrombocytopenia (\\< 85% of lower normal limit)\n* Pregnancy or failure to comply with contraception planning within two years, or breastfeeding\n* Abuse of alcohol or drugs, or any other co-existing condition that would make patients unsuitable to participate in the study, as judged by the investigators\n* Use of immunosuppressive therapy in the preceding 12 months\n* Chronic pancreatitis or previous acute pancreatitis\n* Known or suspected hypersensitivity to trial product(s) or related products\n* Treatment with oral glucocorticoids, calcineurin inhibitors, or dipeptidyl peptidase 4 (DPP4) inhibitors, or other GLP-1 mimetics (e.g. exenatide), which in the Investigator's opinion could interfere with glucose metabolism\n* Cancer (except basal cell skin cancer or squamous cell skin cancer) or any other clinically significant disorder, which in the Investigator's opinion could interfere with the results of the trail\n* Inflammatory bowel disease\n* Previous bowel resection\n* Clinical signs of diabetic gastroparesis\n* Plasma calcium-ion \\>/= 1,45 mmol/L\n* Plasma calcitonin \\>/= 50 ng/L\n* Subjects with personal or family history of medullary thyroid carcinoma or a personal history of multiple endocrine neoplasia type 2\n* Refusal to sign informed consent.",
-  "healthy_volunteers": false,
-  "maximum_age": "85 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "85 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "city": "Copenhagen",
-   "country": "Denmark",
    "facility": "Copenhagen University Hospital, Bispebjerg",
-   "lat": 55.67594,
-   "lon": 12.56553,
+   "city": "Copenhagen",
    "state": "Bispebjerg",
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.67594,
+   "lon": 12.56553
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01595789",

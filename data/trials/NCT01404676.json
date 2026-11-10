@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Samsung Medical Center"
+  "name": "Samsung Medical Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "Novartis"
@@ -50,30 +50,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Add Vildagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Add Glimepiride",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Vildagliptin + Metformin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Add Vildagliptin"
-   ],
-   "label": "Vildagliptin + Metformin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Glimepiride + Metformin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Add Glimepiride"
-   ],
-   "label": "Glimepiride + Metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The effect of vildagliptin based treatment versus sulfonylurea based treatment on glycemic variability, oxidative stress, and endothelial function in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetic patients with hemoglobin A1c levels within the range 7% - 10%",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Division of Endocrinology and Metabolism, Department of Internal Medicine, Samsung Medical Center, Sungkyunkwan University School of Medicine",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01404676",

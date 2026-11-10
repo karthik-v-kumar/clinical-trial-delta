@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University Medical Center Groningen"
+  "name": "University Medical Center Groningen",
+  "class": "OTHER"
  },
  "collaborators": [
   "AstraZeneca"
@@ -63,60 +63,49 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dapagliflozin 10mg Tab",
    "other_names": [
     "Forxiga",
     "(2S,3R,4R,5S,6R)-2-[4-chloro-3-(4-ethoxybenzyl)phenyl]-6-(hydroxymethyl)tetrahydro-2H-pyran-3,4,5-triol",
     "A10BK01"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Withings BPM Connect",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Withings Body+",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "DIAGNOSTIC_TEST",
    "name": "Hem-Col Capillary Blood Collection Device",
-   "other_names": [],
-   "type": "DIAGNOSTIC_TEST"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "MEMS (Medication Electronic Monitoring System) Cap",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Questionnaire: participants' perspectives toward remote data collection",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Dapagliflozin 10mg Tab",
-    "Drug: Placebo",
-    "Device: Withings BPM Connect",
-    "Device: Withings Body+",
-    "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
-    "Device: MEMS (Medication Electronic Monitoring System) Cap",
-    "Behavioral: Questionnaire: participants' perspectives toward remote data collection"
-   ],
    "label": "Option 1 (D-D-P-P)",
-   "type": "OTHER"
-  },
-  {
+   "type": "OTHER",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg Tab",
     "Drug: Placebo",
@@ -125,11 +114,11 @@
     "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
     "Device: MEMS (Medication Electronic Monitoring System) Cap",
     "Behavioral: Questionnaire: participants' perspectives toward remote data collection"
-   ],
+   ]
+  },
+  {
    "label": "Option 2 (D-P-D-P)",
-   "type": "OTHER"
-  },
-  {
+   "type": "OTHER",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg Tab",
     "Drug: Placebo",
@@ -138,11 +127,11 @@
     "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
     "Device: MEMS (Medication Electronic Monitoring System) Cap",
     "Behavioral: Questionnaire: participants' perspectives toward remote data collection"
-   ],
+   ]
+  },
+  {
    "label": "Option 3 (D-P-P-D)",
-   "type": "OTHER"
-  },
-  {
+   "type": "OTHER",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg Tab",
     "Drug: Placebo",
@@ -151,11 +140,11 @@
     "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
     "Device: MEMS (Medication Electronic Monitoring System) Cap",
     "Behavioral: Questionnaire: participants' perspectives toward remote data collection"
-   ],
+   ]
+  },
+  {
    "label": "Option 4 (P-P-D-D)",
-   "type": "OTHER"
-  },
-  {
+   "type": "OTHER",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg Tab",
     "Drug: Placebo",
@@ -164,11 +153,11 @@
     "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
     "Device: MEMS (Medication Electronic Monitoring System) Cap",
     "Behavioral: Questionnaire: participants' perspectives toward remote data collection"
-   ],
+   ]
+  },
+  {
    "label": "Option 5 (P-D-P-D)",
-   "type": "OTHER"
-  },
-  {
+   "type": "OTHER",
    "intervention_names": [
     "Drug: Dapagliflozin 10mg Tab",
     "Drug: Placebo",
@@ -177,9 +166,20 @@
     "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
     "Device: MEMS (Medication Electronic Monitoring System) Cap",
     "Behavioral: Questionnaire: participants' perspectives toward remote data collection"
-   ],
+   ]
+  },
+  {
    "label": "Option 6 (P-D-D-P)",
-   "type": "OTHER"
+   "type": "OTHER",
+   "intervention_names": [
+    "Drug: Dapagliflozin 10mg Tab",
+    "Drug: Placebo",
+    "Device: Withings BPM Connect",
+    "Device: Withings Body+",
+    "Diagnostic Test: Hem-Col Capillary Blood Collection Device",
+    "Device: MEMS (Medication Electronic Monitoring System) Cap",
+    "Behavioral: Questionnaire: participants' perspectives toward remote data collection"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -191,10 +191,10 @@
  "brief_summary": "Randomized placebo-controlled double-blind cross-over N=1 trial in adult male and female patients with UACR \\>20 mg/g (2.26 mg/mmol) with type 2 diabetes treated in primary or secondary healthcare.\n\nThe goal of this clinical trial is to determine the individual response to the SGLT2 inhibitor dapagliflozin in urine albumin-to-creatinine ratio (UACR). Secondary objectives are to determine the individual response to dapagliflozin in systolic blood pressure, body weight, eGFR, and fasting plasma glucose.\n\nParticipants will collect all study data in the comfort of their own environments:\n\n* First-morning void urine samples\n* Capillary blood samples\n* Blood pressure\n* Body weight\n\nParticipants will be randomly assigned to a cross-over study consisting of two periods of 1-week treatment with dapagliflozin 10 mg/day and two periods of 1-week treatment with placebo in random order with a 1-week wash-out period between every treatment period to avoid cross-over effects.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥18 years\n* Diagnosis of type 2 diabetes mellitus\n* Urinary albumin-to-creatinine ratio \\>20 mg/g (2.26 mg/mmol)\n* eGFR \\>30 ml/min/1.73m2\n* Willing to sign informed consent\n\nExclusion Criteria:\n\n* Diagnosis of type 1 diabetes\n* Prior treatment with SGLT2 inhibitor in the four weeks prior to randomization\n* History of severe hypersensitivity or contraindications to dapagliflozin\n* Unable to monitor blood pressure / body weight or handle digital technologies\n* History of non-adherence to medical regimens or unwillingness to comply with the study protocol\n* Participation in any clinical investigation within 3 months prior to initial dosing\n* Unstable or rapidly progressing renal disease\n* Severe hepatic impairment (Child-Pugh class C) as determined by the treating physician.\n* Active malignancy\n* Any medication, surgical or medical condition which might significantly alter the absorption, distribution, metabolism, or excretion of medications including, but not limited to any of the following: History of active inflammatory bowel disease, within the last six months; Major gastrointestinal tract surgery as decided by the treating physician; Pancreatitis within the last six months; Evidence of serious hepatic disease as determined by the treating physician; Evidence of urinary obstruction or difficulty in voiding at screening.\n* Confirmed lactose intolerance demonstrated with a lactose intolerance test.\n* Donation or loss of 400 mL of blood within 8 weeks prior to initial dosing\n* History of drug or alcohol abuse within the 12 months prior to dosing, or evidence of such abuse as indicated by the laboratory assays conducted during the screening\n* Any surgical or medical condition, which in the opinion of the investigator, may place the patient at higher risk from participation in the study, or is likely to prevent the patient from complying with the requirements of the study or completing the study.\n* Current pregnancy or breast feeding / attempting to conceive.\n* Women of childbearing potential (WOCBP): WOCBP who are unwilling or unable to use an acceptable method of contraception to avoid pregnancy throughout the study and for up to 4 weeks after the last dose of study drug in such a manner the risk of pregnancy is minimized; WOCBP must have a negative serum or urine pregnancy test result (minimum sensitivity 25 IU/L or equivalent of HCG) within 0 to 72 hours before the first dose of study drug.\n\nWOCBP comprises women who have experienced menarche and who have not undergone successful surgical sterilization (hysterectomy, bilateral tubal ligation, or bilateral oophorectomy) or who are not post-menopausal (see definition below). The following women are WOCBP:\n\n* Women using the following methods to prevent pregnancy: oral contraceptives, other hormonal contraceptives (vaginal products, skin patches, or implanted or injectable products), or mechanical products such as intrauterine devices or barrier methods (diaphragm, condoms, spermicides).\n* Women who are practicing abstinence.\n* Women who have a partner who is sterile (e.g. due to vasectomy).\n\nPost-menopause is defined as:\n\n* Women who have had amenorrhea for \\>12 consecutive months (without another cause) and who have a documented serum follicle-stimulating hormone (FSH) level \\>35 mIU/mL.\n* Women who have irregular menstrual periods and a documented serum FSH level \\>35 mIU/mL.\n* Women who are taking hormone replacement therapy (HRT).",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -202,22 +202,22 @@
  },
  "sites": [
   {
-   "city": "Almelo",
-   "country": "Netherlands",
    "facility": "Ziekenhuisgroep Twente",
-   "lat": 52.35667,
-   "lon": 6.6625,
+   "city": "Almelo",
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 52.35667,
+   "lon": 6.6625
   },
   {
-   "city": "Groningen",
-   "country": "Netherlands",
    "facility": "University Medical Center Groningen",
-   "lat": 53.21917,
-   "lon": 6.56667,
+   "city": "Groningen",
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 53.21917,
+   "lon": 6.56667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06374043",

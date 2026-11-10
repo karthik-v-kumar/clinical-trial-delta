@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "DIAGNOSTIC",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "The University of Hong Kong"
+  "name": "The University of Hong Kong",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -52,41 +52,41 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Empagliflozin 10 MG",
    "other_names": [
     "Empagliflozin"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DIAGNOSTIC_TEST",
    "name": "Stress Cardiac Magnetic Resonance",
    "other_names": [
     "Stress CMR"
-   ],
-   "type": "DIAGNOSTIC_TEST"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Control",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo",
     "Diagnostic Test: Stress Cardiac Magnetic Resonance"
-   ],
-   "label": "Control",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Intervention",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin 10 MG",
     "Diagnostic Test: Stress Cardiac Magnetic Resonance"
-   ],
-   "label": "Intervention",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "The study design is a double blinded randomised control trial study that aims to conduct a randomised controlled trial of empagliflozin and determine if empagliflozin will improve myocardial blood flow in asymptomatic high risk type 2 diabetic patients. Also, to determine a cut-off using maximum upslope ratio and myocardial perfusion reserve index in which patients would demonstrate an improvement in myocardial blood flow.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Onset of type 2 diabetes at ≥30yrs old with no history of ketoacidosis\n* 40-90yrs old\n* Any 2 risk factors which include:\n\n  i) Smoking (ie. current or ex-smokers) ii) Dyslipidaemia (defined as low density lipoprotein ≥2.6mmol/L, triglyceride \\>1.7mmol/L or decreased high density lipoprotein cholesterol \\<1.04mmol/L \\[man\\] or \\<1.29mmol/L \\[woman\\] or on lipid-lowering agent)(17, 18) iii) Hypertension (ie. systolic blood pressure \\>140mmHg or diastolic blood pressure \\>90mmHg or patients treated for hypertension) iv) Obesity (using definition adapted for chinese ethnicity, body mass index \\>25kg/m2)(19) v) Family history of premature heart disease (defined as 1st degree relative \\[ie. parent or sibling\\] with development of atherosclerotic cardiovascular disease or cardiovascular related death \\<55 years of age in male and \\<65 years of age in female)\n* HbA1c ≥ 6.5% and \\<10.0%\n\nExclusion Criteria:\n\n* Angina pectoris or chest discomfort\n* Prior coronary artery bypass grafts\n* Coronary artery stenting within 6 months of study enrolment\n* Previous myocardial infarct\n* Any contraindication for stress CMR testing\n* Renal impairment with eGFR \\<45ml/min/1.73m2\n* Limited life expectancy \\<5 years, for example due to pulmonary disease, cancer or significant hepatic failure\n* Contraindication to dual antiplatelet therapy\n* Contraindication to empagliflozin or other SGLT2 inhibitors\n* Unable to take empagliflozin\n* Patients currently on empagliflozin or given empagliflozin in the last 6 months\n* Planned need for concomitant cardiac surgery or coronary intervention\n* Refusal or inability to sign an informed consent.\n* Potential for non-compliance towards the requirements in the trial protocol (especially the medical treatment) or follow-up visits",
-  "healthy_volunteers": false,
-  "maximum_age": "90 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "90 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -121,13 +121,13 @@
  },
  "sites": [
   {
-   "city": "Hong Kong",
-   "country": "Hong Kong",
    "facility": "The University of Hong Kong",
-   "lat": 22.27832,
-   "lon": 114.17469,
+   "city": "Hong Kong",
    "state": null,
-   "status": null
+   "country": "Hong Kong",
+   "status": null,
+   "lat": 22.27832,
+   "lon": 114.17469
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04541797",

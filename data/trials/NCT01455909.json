@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Intarcia Therapeutics"
+  "name": "Intarcia Therapeutics",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "ITCA 650 60 mcg/day",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "sitagliptin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "ITCA 650 60 mcg/day",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: ITCA 650 60 mcg/day"
-   ],
-   "label": "ITCA 650 60 mcg/day",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "sitagliptin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: sitagliptin"
-   ],
-   "label": "sitagliptin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "Phase 3 study to compare treatment with ITCA 650 to sitagliptin when added to metformin monotherapy in patients with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* HbA1c between 7.5%-10%\n* on metformin monotherapy\n* BMI between 25 \\& 45 kg/m2\n\nExclusion Criteria:\n\n* taking thiazolidinedione, sulfonylurea, DPP-4, exenatide, alpha glucosidase inhibitors, meglitinides or insulin within last 3 months\n* history of pancreatitis",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "city": "Hayward",
-   "country": "United States",
    "facility": "Intarcia Therapeutics, Inc",
-   "lat": 37.66882,
-   "lon": -122.0808,
+   "city": "Hayward",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.66882,
+   "lon": -122.0808
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01455909",

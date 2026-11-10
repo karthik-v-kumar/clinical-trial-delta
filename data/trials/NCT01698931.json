@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -49,48 +49,48 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "repaglinide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "glyburide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: repaglinide",
-    "Drug: glyburide",
-    "Drug: placebo"
-   ],
    "label": "Treatment period 1",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: repaglinide",
     "Drug: glyburide",
     "Drug: placebo"
-   ],
+   ]
+  },
+  {
    "label": "Treatment period 2",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: repaglinide",
     "Drug: glyburide",
     "Drug: placebo"
-   ],
+   ]
+  },
+  {
    "label": "Treatment period 3",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: repaglinide",
+    "Drug: glyburide",
+    "Drug: placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -102,10 +102,10 @@
  "brief_summary": "This trial is conducted in Europe. The aim of this trial is to compare the efficacy of repaglinide to glyburide and placebo on hepatic glucose metabolism in subjects with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* HbA1c (glycosylated haemoglobin A1c) above 7 %\n* BMI (body mass index) below 32 kg/m\\^2\n* FBG (fasting blood glucose) after wash out period 130-220 mg/dl\n* Currently treated with diet or OHA (oral hypoglycaemic agent)\n\nExclusion Criteria:\n\n* Current systemic treatment with concomitant medication\n* Known or suspected history of drug or alcohol dependence\n* Any other significant concomitant disease such as cerebrovascular or symptomatic peripheral vascular disease, malignant, disease or severe treated or untreated hypertension\n* Hepatic disease\n* Cardiac problems\n* Active proliferative retinopathy\n* Known or suspected allergy to trial product or related products\n* Women in fertile age and women having the intention of becoming pregnant\n* Body Mass Index (BMI) above 32 kg/m\\^2",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -113,13 +113,13 @@
  },
  "sites": [
   {
-   "city": "Padova",
-   "country": "Italy",
    "facility": "Novo Nordisk Investigational Site",
-   "lat": 44.38225,
-   "lon": 11.14261,
+   "city": "Padova",
    "state": null,
-   "status": null
+   "country": "Italy",
+   "status": null,
+   "lat": 44.38225,
+   "lon": 11.14261
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01698931",

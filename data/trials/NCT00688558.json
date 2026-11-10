@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Shionogi Inc."
+  "name": "Shionogi Inc.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "JTT-705 600 mg and simvastatin 40 mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo and simvastatin 40 mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "1",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: JTT-705 600 mg and simvastatin 40 mg"
-   ],
-   "label": "1",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "2",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo and simvastatin 40 mg"
-   ],
-   "label": "2",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "The purpose of this study is to evaluate safety of JTT-705 and to demonstrate efficacy of JTT-705 compared with placebo when co-administered with simvastatin 40 mg in patients with low HDL",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients having lipid values as indicated below:\n* HDL-C ≤ 1.0 mmol/L (40 mg/dL)\n* TG ≤4.5 mmol/L (400 mg/dL)\n* Patients with CHD or CHD risk equivalent\n* Male and females between 18 and 70 years of age (female patients must be post-menopausal, surgically sterile or using an acceptable form of contraception)\n\nExclusion Criteria:\n\n* Body Mass Index of ≥ 35 kg/m2\n* Females that are pregnant or breast-feeding, and females of child bearing potential who are not using an effective method of contraception\n* Concomitant use of medications identified in the protocol",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "city": "Amsterdam",
-   "country": "Netherlands",
    "facility": null,
-   "lat": 52.37403,
-   "lon": 4.88969,
+   "city": "Amsterdam",
    "state": "Amsterdam",
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 52.37403,
+   "lon": 4.88969
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00688558",

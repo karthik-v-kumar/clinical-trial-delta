@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2024-07-16",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,39 +51,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Tirzepatide",
    "other_names": [
     "LY3298176"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "OTHER",
    "name": "Placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Tirzepatide"
-   ],
    "label": "10 Milligrams (mg) Tirzepatide",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Tirzepatide"
-   ],
-   "label": "15 mg Tirzepatide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "15 mg Tirzepatide",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Tirzepatide"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The main purpose of this study is to learn more about tirzepatide in participants with obesity disease. The study will also measure how Tirzepatide affects body weight with a low-calorie diet and increased physical activity. The study will last around 72 Weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have a BMI of greater than or equal to ≥27 kg/m² and \\<less than 35 kg/m² with at least 2 obesity-related health problems or ≥35 kg/m² with at least 1 obesity-related health problems. Health problems are IGT, hyperlipidemia, or NAFLD.\n* Have a history of at least 1 self-reported unsuccessful dietary effort to lose body weight.\n\nExclusion Criteria:\n\n* Have diabetes.\n* Acute or chronic liver disease other than NAFLD.\n* Have a self-reported change in body weight \\>5 kg within 3 months prior to screening.\n* Have or plan to have endoscopic and/or device-based therapy for obesity or have had device removal within the last 6 months.\n* Have renal impairment measured as estimated glomerular filtration rate (eGFR) \\<30 mL/min/1.73 m2, calculated by Japanese Society of Nephrology coefficient-modified Chronic Kidney Disease-Epidemiology equation during screening.\n* Have a known clinically significant gastric emptying abnormality.\n* Have had a history of chronic or acute pancreatitis.\n* Have thyroid-stimulating hormone outside of the range of 0.4 to 6.0 micro units per milliliter (μIU/mL) at screening.\n* Have obesity induced by other endocrinologic disorders or diagnosed monogenetic or syndromic forms of obesity.\n* Have a history of significant active or unstable major depressive disorder or other severe psychiatric disorder within the last 2 years.\n* Have a cardiovascular condition within 3 months prior to randomization\n* Have a family or personal history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia Syndrome type 2.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,166 +110,166 @@
  },
  "sites": [
   {
-   "city": "Osaka",
-   "country": "Japan",
    "facility": "AMC Nishiumeda Clinic",
-   "lat": 34.69379,
-   "lon": 135.50107,
+   "city": "Osaka",
    "state": null,
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 34.69379,
+   "lon": 135.50107
   },
   {
-   "city": "Ichikawa",
-   "country": "Japan",
    "facility": "Kohnodai Hospital, National Center for Global Health and Medicine",
-   "lat": 35.73413,
-   "lon": 139.9065,
+   "city": "Ichikawa",
    "state": "Chiba",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.73413,
+   "lon": 139.9065
   },
   {
-   "city": "Matsuyama",
-   "country": "Japan",
    "facility": "Saiseikai Matsuyama Hospital",
-   "lat": 33.83916,
-   "lon": 132.76574,
+   "city": "Matsuyama",
    "state": "Ehime",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 33.83916,
+   "lon": 132.76574
   },
   {
-   "city": "Kamakura-shi",
-   "country": "Japan",
    "facility": "Takai Internal Medicine Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Kamakura-shi",
    "state": "Kanagawa",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Yokohama",
-   "country": "Japan",
    "facility": "Motomachi Takatsuka Naika Clinic",
-   "lat": 35.43333,
-   "lon": 139.65,
-   "state": "Kanagawa",
-   "status": null
-  },
-  {
    "city": "Yokohama",
-   "country": "Japan",
-   "facility": "Saiseikai Yokohamashi Tobu Hospital",
-   "lat": 35.43333,
-   "lon": 139.65,
    "state": "Kanagawa",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 35.43333,
+   "lon": 139.65
   },
   {
-   "city": "Suita",
+   "facility": "Saiseikai Yokohamashi Tobu Hospital",
+   "city": "Yokohama",
+   "state": "Kanagawa",
    "country": "Japan",
+   "status": null,
+   "lat": 35.43333,
+   "lon": 139.65
+  },
+  {
    "facility": "Osaka Saiseikai Suita hospital",
+   "city": "Suita",
+   "state": "Osaka",
+   "country": "Japan",
+   "status": null,
    "lat": 34.76143,
-   "lon": 135.51567,
-   "state": "Osaka",
-   "status": null
+   "lon": 135.51567
   },
   {
-   "city": "Suita-shi",
-   "country": "Japan",
    "facility": "Medical Corporation Heishinkai OCROM Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Suita-shi",
    "state": "Osaka",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Takatsuki",
-   "country": "Japan",
    "facility": "Takatsuki Red Cross Hospital",
-   "lat": 34.84833,
-   "lon": 135.61678,
+   "city": "Takatsuki",
    "state": "Osaka",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 34.84833,
+   "lon": 135.61678
   },
   {
-   "city": "Chuo-ku",
-   "country": "Japan",
    "facility": "Fukuwa Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Chuo-ku",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Chuo-ku",
-   "country": "Japan",
    "facility": "Medical Corporation Chiseikai Tokyo Center Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Chuo-ku",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Chuo-ku",
-   "country": "Japan",
    "facility": "The Institute for Adult Disease, Asahi Life Foundation",
-   "lat": null,
-   "lon": null,
-   "state": "Tokyo",
-   "status": null
-  },
-  {
    "city": "Chuo-ku",
+   "state": "Tokyo",
    "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
+  },
+  {
    "facility": "Tokyo-Eki Center-building Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Chuo-ku",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Minato-Ku",
-   "country": "Japan",
    "facility": "Saiseikai Central Hospital",
-   "lat": null,
-   "lon": null,
+   "city": "Minato-Ku",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Setagaya-ku",
-   "country": "Japan",
    "facility": "Shimokitazawa Tomo Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Setagaya-ku",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Shinagawa-ku",
-   "country": "Japan",
    "facility": "Miho Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Shinagawa-ku",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Shinjuku-ku",
-   "country": "Japan",
    "facility": "Medical Corporation Heishinkai ToCROM Clinic",
-   "lat": null,
-   "lon": null,
+   "city": "Shinjuku-ku",
    "state": "Tokyo",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "Yamagata",
-   "country": "Japan",
    "facility": "Yamagata Tokushukai Hospital",
-   "lat": 38.23333,
-   "lon": 140.36667,
+   "city": "Yamagata",
    "state": "Yamagata",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 38.23333,
+   "lon": 140.36667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04844918",

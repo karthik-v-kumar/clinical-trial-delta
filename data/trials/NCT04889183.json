@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University Medical Center Groningen"
+  "name": "University Medical Center Groningen",
+  "class": "OTHER"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -56,30 +56,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Semaglutide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ],
-   "label": "Semaglutide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "Study to assess the effects of weekly subcutaneous administration of the GLP1-RA semaglutide 2.4mg on kidney function parameters in obese/overweight individuals at high risk of CKD progression.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age ≥ 18 years\n* Body Mass index ≥ 27 kg/m2\n* Albuminuria ≥ 30 mg/g and ≤ 3500 mg/g\n* eGFR ≥ 25 ml/min/1.73m2\n* Stable renal function prior to entry into the study defined as no more than 30% eGFR change in 3 months prior to enrolment\n* Signed Informed Consent\n\nExclusion Criteria:\n\n* Diagnosis with type 1 or type 2 Diabetes\n* Hba1c ≥ 6.5% at screening\n* Cardiovascular disease event in 3 months prior to enrollment\n* Treatment with GLP-1 RA \\< 4 weeks prior to screening\n* Uncontrolled thyroid disease TSH\\>6.0 mIU/L or \\<0.4 mIU/L at screening\n* Acute pancreatitis \\< 180 days prior to screening\n* History or presence of chronic pancreatitis\n* Females of child-bearing potential who are pregnant, breast-feeding or have intention of becoming pregnant or are not using adequate contraceptive measures",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,121 +102,121 @@
  },
  "sites": [
   {
-   "city": "Calgary",
-   "country": "Canada",
    "facility": "University of Calgary",
-   "lat": 51.05011,
-   "lon": -114.08529,
+   "city": "Calgary",
    "state": "Alberta",
-   "status": null
-  },
-  {
-   "city": "Toronto",
    "country": "Canada",
+   "status": null,
+   "lat": 51.05011,
+   "lon": -114.08529
+  },
+  {
    "facility": "Division of Nephrology University Health Network, University of Toronto",
-   "lat": 43.65333,
-   "lon": -79.38389,
+   "city": "Toronto",
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
   },
   {
-   "city": "Erlangen",
-   "country": "Germany",
    "facility": "University Hospital Erlangen",
-   "lat": 49.59099,
-   "lon": 11.00783,
+   "city": "Erlangen",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Würzburg",
    "country": "Germany",
+   "status": null,
+   "lat": 49.59099,
+   "lon": 11.00783
+  },
+  {
    "facility": "University Hospital Wuerzburg",
+   "city": "Würzburg",
+   "state": null,
+   "country": "Germany",
+   "status": null,
    "lat": 49.79391,
-   "lon": 9.95121,
-   "state": null,
-   "status": null
+   "lon": 9.95121
   },
   {
-   "city": "Almelo",
-   "country": "Netherlands",
    "facility": "Dept Internal Medicine, division of Nephrology Hospital Group Twente",
+   "city": "Almelo",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 52.35667,
-   "lon": 6.6625,
-   "state": null,
-   "status": null
+   "lon": 6.6625
   },
   {
-   "city": "Arnhem",
-   "country": "Netherlands",
    "facility": "Rijnstate",
-   "lat": 51.98,
-   "lon": 5.91111,
+   "city": "Arnhem",
    "state": "Gelderland",
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 51.98,
+   "lon": 5.91111
   },
   {
-   "city": "Zwolle",
-   "country": "Netherlands",
    "facility": "Isala",
-   "lat": 52.5125,
-   "lon": 6.09444,
+   "city": "Zwolle",
    "state": "Overijssel",
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 52.5125,
+   "lon": 6.09444
   },
   {
-   "city": "Groningen",
-   "country": "Netherlands",
    "facility": "Martini Ziekenhuis",
-   "lat": 53.21917,
-   "lon": 6.56667,
-   "state": "Provincie Groningen",
-   "status": null
-  },
-  {
    "city": "Groningen",
-   "country": "Netherlands",
-   "facility": "University Medical Center Groningen",
-   "lat": 53.21917,
-   "lon": 6.56667,
    "state": "Provincie Groningen",
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 53.21917,
+   "lon": 6.56667
   },
   {
-   "city": "Barcelona",
-   "country": "Spain",
+   "facility": "University Medical Center Groningen",
+   "city": "Groningen",
+   "state": "Provincie Groningen",
+   "country": "Netherlands",
+   "status": null,
+   "lat": 53.21917,
+   "lon": 6.56667
+  },
+  {
    "facility": "Hospital Universitari de Bellvitge",
-   "lat": 41.38879,
-   "lon": 2.15899,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Barcelona",
+   "state": null,
    "country": "Spain",
-   "facility": "Vall d'Hebron University Hospital",
+   "status": null,
    "lat": 41.38879,
-   "lon": 2.15899,
-   "state": null,
-   "status": null
+   "lon": 2.15899
   },
   {
-   "city": "Lugo",
+   "facility": "Vall d'Hebron University Hospital",
+   "city": "Barcelona",
+   "state": null,
    "country": "Spain",
+   "status": null,
+   "lat": 41.38879,
+   "lon": 2.15899
+  },
+  {
    "facility": "Hospital Da Costa Burela",
-   "lat": 43.00992,
-   "lon": -7.55602,
+   "city": "Lugo",
    "state": null,
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 43.00992,
+   "lon": -7.55602
   },
   {
-   "city": "Valencia",
-   "country": "Spain",
    "facility": "Hospital Clínico Universitario",
-   "lat": 39.47391,
-   "lon": -0.37966,
+   "city": "Valencia",
    "state": null,
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 39.47391,
+   "lon": -0.37966
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04889183",

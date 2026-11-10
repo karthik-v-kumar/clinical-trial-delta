@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2020-09-21",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "NYU Langone Health"
+  "name": "NYU Langone Health",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,33 +48,33 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Abbott Freestyle Libre Pro",
    "other_names": [
     "Abbott"
-   ],
-   "type": "DEVICE"
+   ]
   },
   {
+   "type": "BEHAVIORAL",
    "name": "LifeStyle",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Life Style",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: LifeStyle"
-   ],
-   "label": "Life Style",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Life Style + Metformin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Abbott Freestyle Libre Pro",
     "Behavioral: LifeStyle"
-   ],
-   "label": "Life Style + Metformin",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -86,10 +86,10 @@
  "brief_summary": "This is an initial validation study of the Personal Nutrition Project (PNP) algorithm in a North American population with recently diagnosed Type 2 Diabetes (T2D). This is a 2-stage, single-group feeding study in 20 individuals, including 10 participants managed with lifestyle alone, and 10 managed with lifestyle plus metformin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age \\>21 years to \\<70 years\n* Diagnosed with T2DM within 2 years with an HbA1c\\<7%\n* Diabetes management by metformin or lifestyle intervention\n* Fasting C-peptide ≥ 0.5 mg/mL (0.17 nmol/L) (to exclude those for whom hyperglycemic exposure is driven by β-cell failure rather than dietary behaviors, as well as those requiring escalation of the medication regime)\n* Ownership a smart phone and are willing to use it to monitor multiple factors influencing glycemic response to glycemia (e.g., sleep, physical activity, diet, stress, medication, and hunger)\n\nExclusion Criteria:\n\n* are unable or unwilling to provide informed consent;\n* are unable to participate meaningfully in an intervention that involves self-monitoring using software available in English (e.g., due to uncorrected sight impairment, illiterate, non-English-speaking, dementia);\n* are pregnant, are currently trying to become pregnant, or who become pregnant during the study\n* are institutionalized (e.g., in a nursing home or personal care facility, or those who are incarcerated and have limited control over self-management)\n* have had or are planning to have bariatric surgery during the study\n* have a history of heart disease, kidney disease, or retinopathy (to rule-out those with long-standing, undiagnosed T2D)\n* those with an active infection requiring antibiotics in the last 3 months or who develop an active infection requiring antibiotics during the study;\n* those who use acetaminophen and are unwilling or unable to discontinue its use during the study (acetaminophen affects CGM accuracy)39\n* immunosuppressive drugs within three months prior to participation and\n* Chronically active inflammatory or neoplastic disease in the three years prior to enrollment.\n* Patients with known food allergy.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "21 Years",
   "sex": "ALL",
+  "minimum_age": "21 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -97,13 +97,13 @@
  },
  "sites": [
   {
-   "city": "New York",
-   "country": "United States",
    "facility": "New York University School of Medicine",
-   "lat": 40.71427,
-   "lon": -74.00597,
+   "city": "New York",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.71427,
+   "lon": -74.00597
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03053518",

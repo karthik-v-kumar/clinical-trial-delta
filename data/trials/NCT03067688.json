@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Yuhan Corporation"
+  "name": "Yuhan Corporation",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,48 +52,48 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Temisartan+Amlodipine+Rosuvastatin (Combination drug)",
    "other_names": [
     "Twynsta Tab.+Crestor Tab."
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Temisartan+Amlodipine",
    "other_names": [
     "Twynsta Tab."
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Temisartan+Rosuvastatin",
    "other_names": [
     "Micardis Tab.+Crestor Tab."
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "\"Combination drug:Temisartan+Amlodipine+Rosuvastatin\"",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Temisartan+Amlodipine+Rosuvastatin (Combination drug)"
-   ],
-   "label": "\"Combination drug:Temisartan+Amlodipine+Rosuvastatin\"",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Temisartan+Amlodipine",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Temisartan+Amlodipine"
-   ],
-   "label": "Temisartan+Amlodipine",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Temisartan+Rosuvastatin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Temisartan+Rosuvastatin"
-   ],
-   "label": "Temisartan+Rosuvastatin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "Randomized, double-blind, active-controlled, multicenter phase 3 trial to evaluate efficacy and safety of co-administrated temisartan/amlodipine and rosuvastatin in subjects with hypertension and hyperlipidemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Signed informed consent\n2. Subjects with hypertension and hyperlipidemia\n\nExclusion Criteria:\n\n1. Patients with known or suspected secondary hypertension\n2. Other exclusions applied",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,13 +120,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Seoul Natuional University Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": "Jongno",
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03067688",

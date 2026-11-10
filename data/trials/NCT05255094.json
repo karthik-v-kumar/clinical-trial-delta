@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Akeso"
+  "name": "Akeso",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,54 +53,54 @@
  ],
  "interventions": [
   {
+   "type": "BIOLOGICAL",
    "name": "AK102",
-   "other_names": [],
-   "type": "BIOLOGICAL"
+   "other_names": []
   },
   {
+   "type": "BIOLOGICAL",
    "name": "AK102",
-   "other_names": [],
-   "type": "BIOLOGICAL"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Biological: AK102"
-   ],
    "label": "AK102 regimen 1",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: AK102"
-   ],
+   ]
+  },
+  {
    "label": "AK102 regimen 2",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Biological: AK102"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Placebo"
-   ],
    "label": "Placebo 1",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
+   ]
+  },
+  {
    "label": "Placebo 2",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -112,10 +112,10 @@
  "brief_summary": "This is a randomized, double-blind, placebo-controlled phase 3 clinical study evaluating the efficacy and safety of AK102 in patients with primary hypercholesterolemia and mixed hyperlipidemia.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Subject understand and voluntarily sign the written Inform Consent Form (ICF).\n2. Male or female ≥ 18 to ≤ 80 years of age.\n3. The fasting serum LDL-C level of subjects did not meet the treatment goal after at least 4 weeks of stable lipid-lowering background treatment.\n4. TG ≤ 4.5 mmol/L (400 mg/dl).\n\nExclusion Criteria:\n\n1. Known homozygous familial hypercholesterolemia.\n2. Received PCSK9 inhibitors within 6 months before randomization.\n3. Known sensitivity to PCSK9 inhibitors and any substances to be administered.\n4. Severe renal dysfunction.\n5. Previously received organ transplantation.\n6. Uncontrolled hypothyroidism or hyperthyroidism.\n7. Uncontrolled hypertension.\n8. Known hyperlipidemia secondary to comorbidity, including nephrotic syndrome, cholestatic liver failure, etc.\n9. History of malignancy of any organ system within the past 5 years.\n10. Pregnant or lactating women.",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -123,13 +123,13 @@
  },
  "sites": [
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Peking University First Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
+   "city": "Beijing",
    "state": null,
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05255094",

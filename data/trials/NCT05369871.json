@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Diabeloop"
+  "name": "Diabeloop",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Icadom",
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
+   "type": "DEVICE",
    "name": "Closed-loop system",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Open-loop system",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Closed-loop system followed by open-loop system",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Closed-loop system",
     "Device: Open-loop system"
-   ],
-   "label": "Closed-loop system followed by open-loop system",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Open-loop system followed by closed-loop system",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Device: Closed-loop system",
     "Device: Open-loop system"
-   ],
-   "label": "Open-loop system followed by closed-loop system",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "The objective of this clinical trial is to study the feasibility of using a closed loop and its impact on glycemic control, in patients with type 2 diabetes (T2D) treated with insulin pumps.",
  "eligibility": {
   "criteria": "Inclusion Criteria :\n\n* Patient \\> 18 years old\n* Patient with a weight \\< 150 kg\n* Patient with type 2 diabetes (T2D) treated by insulin pump for at least 6 months\n* Patient with stable pharmacological treatment of diabetes for at least 6 months\n* Patient equipped with a CGM or Flash Glucose Meter (FGM)\n* Patient diagnosed with T2D by a diabetologist\n* Patient treated with a total daily dose of insulin \\< 160 U/24 h\n* Patient with an HbA1c \\< 10%.\n* Patient affiliated to the social security system or beneficiary of such a system\n* Patient able to read and understand the procedure, and in a condition to express consent for the study protocol\n\nNo Inclusion Criteria:\n\n* Patient with type 1 diabetes\n* Patient receiving less than 8 units of insulin per day\n* Patients suffering from a serious illness or undergoing treatment that may affect the physiology of diabetes, i.e., interactions with glucose and/or insulin that may interfere with the medical device (e.g., steroid treatment)\n* Patient with severe uncorrected hearing and/or visual acuity problems\n* Patient not wishing to use rapid-acting insulin analog 100 U/mL\n* Patient who has undergone pancreatectomy or whose pancreas is severely impaired\n* Patients with severe renal impairment (clearance \\< 30 mL/min)\n* Patient with reduced sensation of hypoglycemia\n* Patient with highly unstable diabetes\n* Patient who received a pancreas or islet transplant\n* Patient undergoing dialysis\n* Critically ill patient\n* Patient with neuropathy\n* Patient with retinopathy\n* Patient currently participating or having participated in the month prior to inclusion in another clinical interventional research study that may have an impact on the study, this impact is left to the discretion of the investigator\n* Persons referred to in articles L1121-5 to L1121-8 of the CSP: pregnant women, parturients, nursing mothers, persons deprived of liberty by judicial or administrative decision, persons under legal protection\n* Subject who would receive more than 4500 euros in compensation due to his or her participation in other research involving the human person in the 12 months preceding this study",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,31 +102,31 @@
  },
  "sites": [
   {
-   "city": "Chambéry",
-   "country": "France",
    "facility": "CH Métropole Savoie",
+   "city": "Chambéry",
+   "state": null,
+   "country": "France",
+   "status": null,
    "lat": 45.56628,
-   "lon": 5.92079,
-   "state": null,
-   "status": null
+   "lon": 5.92079
   },
   {
-   "city": "Epagny Metz-Tessy",
-   "country": "France",
    "facility": "CH Annecy-Genevois",
-   "lat": null,
-   "lon": null,
+   "city": "Epagny Metz-Tessy",
    "state": null,
-   "status": null
+   "country": "France",
+   "status": null,
+   "lat": null,
+   "lon": null
   },
   {
-   "city": "La Tronche",
-   "country": "France",
    "facility": "CHU Grenoble Alpes",
-   "lat": 45.20507,
-   "lon": 5.74629,
+   "city": "La Tronche",
    "state": null,
-   "status": null
+   "country": "France",
+   "status": null,
+   "lat": 45.20507,
+   "lon": 5.74629
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05369871",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -50,46 +50,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "AZD5004",
    "other_names": [
     "ECC5004"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Part A: Multiple Ascending dose (MAD) (AZD5004)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD5004"
-   ],
-   "label": "Part A: Multiple Ascending dose (MAD) (AZD5004)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Part A: Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Part A: Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: AZD5004"
-   ],
    "label": "Part B: Treatment 1 (AZD5004)",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: AZD5004"
-   ],
+   ]
+  },
+  {
    "label": "Part B: Treatment 2 (AZD5004)",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: AZD5004"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -117,23 +117,23 @@
  "brief_summary": "The main purpose of this study is to assess the safety, tolerability, and pharmacokinetic (PK) of AZD5004 administered as multiple oral doses in healthy participants and to compare the relative bioavailability of two oral tablet strengths of AZD5004.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Must have suitable veins for cannulation or repeated venipuncture.\n* Female(s) of Childbearing Potential must use adequate contraception (oral contraceptives are not permitted).\n* Have a BMI ≥ 23 kg/m2 and not exceeding 35 kg/m2 inclusive and weigh at least 60 kg.\n* No or off statin treatment for ≥ 4 weeks prior to the study treatment.\n\nExclusion Criteria:\n\n* History of any clinically important disease or disorder.\n* History of acute pancreatitis, chronic pancreatitis, gallstones, or elevation in serum lipase/pancreatic amylase.\n* History or presence of gastrointestinal, hepatic, or renal disease.\n* Clinically significant hepatic disease, inflammatory bowel disease, gastroparesis, severe disease, or surgery affecting the upper gastrointestinal tract.\n* Any clinically important abnormalities in clinical chemistry, hematology, or urinalysis results.\n* Any clinically important abnormalities in rhythm, blood pressure, heart rate, conduction or morphology of the resting electrocardiogram (ECG).\n* Uncontrolled thyroid disease, defined as thyroid-stimulating hormone \\> 6.0 mIU/L or \\< 0.4 mIU/L at Screening.\n* Current smokers or known history of alcohol or drug abuse.\n* History of severe allergy/hypersensitivity or excessive intake of caffeine-containing drinks or food.\n* Use of any prescribed or nonprescribed medication including antacids or analgesics.\n* Participants who are on or are planning to undertake a weight loss program.\n* History of psychosis, major depressive disorder, suicide attempt or suicidal ideation within the past year.\n* Lactating, breastfeeding, or pregnant females or females who intend to become pregnant.\n* Participants who are vegans or have medical dietary restrictions.",
-  "healthy_volunteers": true,
-  "maximum_age": "55 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "55 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Brooklyn",
-   "country": "United States",
    "facility": "Research Site",
-   "lat": 39.23039,
-   "lon": -76.60219,
+   "city": "Brooklyn",
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.23039,
+   "lon": -76.60219
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06555822",

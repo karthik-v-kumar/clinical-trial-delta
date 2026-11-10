@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,30 +54,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Semaglutide",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ],
-   "label": "Semaglutide",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo (Semaglutide)",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo (Semaglutide)",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "This study will look at how the emptying of the participant's stomach after a meal is affected by semaglutide (a new medicine) compared to a \"dummy\" medicine. In addition, the study will also look at the effect of semaglutide on the participant's appetite and energy intake. Participants will either get semaglutide or \"dummy\" medicine - which treatment any participant gets is decided by chance. Participants will take 1 injection per week. The study medicine is injected with a thin needle in the stomach, thigh or upper arm. The study will last for about 27 weeks (from first treatment to last check-up). Participants will have 8 visits at the clinic with the study doctor.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female, aged between 18 to 65 years (both inclusive) at the time of signing informed consent\n* Body mass index (BMI) between 30.0 and 45.0 kg/m\\^2 (both inclusive)\n\nExclusion criteria:\n\n* Female who is pregnant, breast-feeding or intends to become pregnant or is of child-bearing potential and not using a highly effective contraceptive method\n* Any disorder which in the investigator's opinion might jeopardise subject's safety or compliance with the protocol\n* Presence or history of any clinically relevant respiratory, metabolic, renal, hepatic, gastrointestinal, or endocrinological conditions",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "city": "Berlin",
-   "country": "Germany",
    "facility": "Novo Nordisk Investigational Site",
-   "lat": 52.52437,
-   "lon": 13.41053,
+   "city": "Berlin",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 52.52437,
+   "lon": 13.41053
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03842202",

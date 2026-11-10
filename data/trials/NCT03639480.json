@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "HK inno.N Corporation"
+  "name": "HK inno.N Corporation",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,42 +54,42 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Amlodipine 10mg+Valsartan 160mg+Atorvastatin 40mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Amlodipine 10mg+Valsartan 160mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Valsartan 160mg+Atorvastatin 40mg",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Test",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Amlodipine 10mg+Valsartan 160mg+Atorvastatin 40mg"
-   ],
-   "label": "Test",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Reference 1",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Amlodipine 10mg+Valsartan 160mg"
-   ],
-   "label": "Reference 1",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Reference 2",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Valsartan 160mg+Atorvastatin 40mg"
-   ],
-   "label": "Reference 2",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "To evaluate the safety and efficacy of CJ-30061 compared with amlodipine/valsartan combination therapy and valsartan/atorvastatin combination therapy in hypertensive patients with hyperlipidemia",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Aged between 19 and 74 years\n* Diagnosed with essintial hypertension(average siSBP ≥ 140mmHg) accompanying hyperlipidemia(LDL-C ≥ 100mg/dL) and were on or off treatment at Visit 1(screening)\n* Decided to participate in the study and provided signed informed consent form voluntarily after receiving explanation of the objectives, methods, and effects of the study\n\nExclusion Criteria:\n\n* Severe hypertension defined as average siDBP ≥ 120mmHg or average siSBP ≥ 200mmHg at Visit 1(screening)\n* The difference in BPs between those measured at the reference arm at Visit 1(screening) was ≥ 10mmHg for siDBP or ≥ 20mmHg for siSBP\n* LDL-C \\> 250mg/dL or TG ≥ 400mg/dL at Visit 1(screening)\n* Secondary hypertension\n* Diagnosis of type 1 diabetes mellitus(DM) or uncontrolled DM(patients on insulin therapy or patients with HbA1c ≥ 9%)",
-  "healthy_volunteers": false,
-  "maximum_age": "74 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "74 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,13 +116,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Asan Medical Center",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03639480",

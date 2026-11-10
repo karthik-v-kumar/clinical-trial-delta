@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Washington University School of Medicine"
+  "name": "Washington University School of Medicine",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -52,64 +52,64 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Placebo",
    "other_names": [
     "Vehicle Alone"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Glucose-dependent Insulinotropic Polypeptide (GIP)",
    "other_names": [
     "GIP"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Xenin-25",
    "other_names": [
     "Xenin"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Glucose-dependent Insulinotropic Polypeptide plus Xenin-25",
    "other_names": [
     "GIP plus Xenin"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Placebo",
-    "Drug: Glucose-dependent Insulinotropic Polypeptide (GIP)",
-    "Drug: Xenin-25",
-    "Drug: Glucose-dependent Insulinotropic Polypeptide plus Xenin-25"
-   ],
    "label": "Normal Glucose Tolerance",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Glucose-dependent Insulinotropic Polypeptide (GIP)",
     "Drug: Xenin-25",
     "Drug: Glucose-dependent Insulinotropic Polypeptide plus Xenin-25"
-   ],
+   ]
+  },
+  {
    "label": "Impaired Glucose Tolerance",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Placebo",
     "Drug: Glucose-dependent Insulinotropic Polypeptide (GIP)",
     "Drug: Xenin-25",
     "Drug: Glucose-dependent Insulinotropic Polypeptide plus Xenin-25"
-   ],
+   ]
+  },
+  {
    "label": "Type 2 Diabetes Mellitus",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Placebo",
+    "Drug: Glucose-dependent Insulinotropic Polypeptide (GIP)",
+    "Drug: Xenin-25",
+    "Drug: Glucose-dependent Insulinotropic Polypeptide plus Xenin-25"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -121,10 +121,10 @@
  "brief_summary": "An intestinal hormone called Glucose-dependent Insulinotropic Polypeptide (GIP) is released into the blood immediately after ingestion of a meal and plays an important role in regulating blood sugar levels. However, GIP is not active in persons with type 2 diabetes mellitus (T2DM) which is also known as adult onset or non-insulin-dependent diabetes. This study is being conducted to determine whether a hormone called xenin-25 can restore the activity of GIP in persons with T2DM.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Ages 18-65. No minors will be studied.\n* Individuals must be able to consent for their own participation (no mental impairment affecting cognition or willingness to follow study instructions).\n* Healthy volunteers with no clinical evidence of T2DM (see below).\n* Otherwise healthy volunteers that have impaired glucose tolerance (see below).\n* Otherwise healthy volunteers with Diet Controlled T2DM (see below).\n* Otherwise healthy volunteers with T2DM that take oral agents only and if the subject's pre-existing oral anti-diabetic agents can be safely discontinued for 48 hours prior to Oral Glucose Tolerance Test.\n* Otherwise healthy volunteers with T2DM who do not use insulin for blood glucose control.\n* Persons with HbA1c ≤ 9%.\n* Women of childbearing potential must be currently taking/using a method of birth control that is acceptable to the investigators. A pregnancy test will be done at the beginning of each visit. Any woman with a positive pregnancy test will be removed from the study.\n* Willingness to return have 8-10ml of blood drawn 25-30 days after the last Xenin infusion; to check for Xenin peptide antibodies that MAY develop. (All efforts will be made to complete this visit during study participation.\n\nExclusion Criteria:\n\n* \\<18years of age or \\>65 years of age\n* Lacks cognitive ability to sign the consent \\&/or follow the study directions for themselves\n* Women unwilling to comply with using an acceptable method of contraception during the course of the study, or who are currently breast-feeding.\n* Any subject whose screening HbA1c is \\>9.0%\n* Type 2 diabetes requiring the use of supplemental insulin @ home\n* Volunteers with a history of Acute Pancreatitis\n* Volunteer with a history of Chronic Pancreatitis and/or risk factors for chronic pancreatitis including hypertriglyceridemia (triglycerides \\>400mg/ml) hypercalcemia (blood calcium level \\>11.md/dl) and/or the presence of gallstones.\n* Volunteers with a history of gastrointestinal disorders, particularly related to gastric motility/emptying such as gastric bypass, documented gastro-paresis in diabetic volunteers.\n* Volunteers with a history of cancer. Exception: skin cancer.\n* Diabetics that have the potential to have a low blood sugar without them being aware that their blood sugar is low (hypoglycemia unawareness).\n* Known heart, kidney. liver or pancreatic disease requiring medications.\n* Subjects unwilling to allow the use of their own blood or the human albumin in the preparation of the peptides.\n* Unwillingness to allow blood glucose level adjustment (if needed) with IV insulin.",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -132,13 +132,13 @@
  },
  "sites": [
   {
-   "city": "St Louis",
-   "country": "United States",
    "facility": "Washington University School of Medicine",
-   "lat": 38.62727,
-   "lon": -90.19789,
+   "city": "St Louis",
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.62727,
+   "lon": -90.19789
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00949663",

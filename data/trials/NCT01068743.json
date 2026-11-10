@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "NONE",
   "primary_purpose": null,
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2012-02-08",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,55 +48,55 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "saxagliptin",
    "other_names": [
     "Onglyza"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "metformin",
    "other_names": [
     "Glucophage"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "saxagliptin + metformin (FDC tablet)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: saxagliptin",
-    "Drug: metformin"
-   ],
    "label": "Arm A (saxagliptin 2.5 mg + metformin 850 mg; Fasting)",
-   "type": "OTHER"
-  },
-  {
-   "intervention_names": [
-    "Drug: saxagliptin + metformin (FDC tablet)"
-   ],
-   "label": "Arm B (saxagliptin 2.5 mg + metformin 850 mg FDC; Fasting)",
-   "type": "OTHER"
-  },
-  {
+   "type": "OTHER",
    "intervention_names": [
     "Drug: saxagliptin",
     "Drug: metformin"
-   ],
-   "label": "Arm C (saxagliptin 2.5 mg + metformin 850 mg; Fed)",
-   "type": "OTHER"
+   ]
   },
   {
+   "label": "Arm B (saxagliptin 2.5 mg + metformin 850 mg FDC; Fasting)",
+   "type": "OTHER",
    "intervention_names": [
     "Drug: saxagliptin + metformin (FDC tablet)"
-   ],
+   ]
+  },
+  {
+   "label": "Arm C (saxagliptin 2.5 mg + metformin 850 mg; Fed)",
+   "type": "OTHER",
+   "intervention_names": [
+    "Drug: saxagliptin",
+    "Drug: metformin"
+   ]
+  },
+  {
    "label": "Arm D (saxagliptin 2.5 mg + metformin 850 mg FDC; Fed)",
-   "type": "OTHER"
+   "type": "OTHER",
+   "intervention_names": [
+    "Drug: saxagliptin + metformin (FDC tablet)"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -120,23 +120,23 @@
  "brief_summary": "To demonstrate bioequivalence of a 2.5 mg saxagliptin/850 mg metformin fixed dose combination (FDC) tablet relative to the 2.5 mg saxagliptin tablet and 850 mg metformin (Glucophage Marketed by Merck-Serono) tablet co-administered to healthy subjects in the fasted and fed condition.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men and women ages 18 to 55 inclusive\n* Healthy subjects as determined by no clinically significant deviation from normal in medical history, physical examination, electrocardiograms (ECGs), and clinical laboratory determinations\n* Body Mass Index (BMI) of 18 to 32 kg/m\\^2, inclusive. BMI = weight (kg)/ \\[height (m)\\]\\^2\n\nExclusion Criteria:\n\n* Any significant acute or chronic medical illness\n* Current or recent (within 3 months) gastrointestinal disease\n* Any major surgery within 4 weeks of study drug administration\n* History of allergy to a dipeptidyl peptidase-IV (DPP4) inhibitor or related compound\n* History of allergy or intolerance to metformin or other similar acting agents\n* Prior exposure to saxagliptin\n* Prior exposure to metformin within 3 months of study drug administration\n* Estimated creatinine clearance (Clcr) of \\< 80 mL/min using the Cockcroft Gault formula",
-  "healthy_volunteers": true,
-  "maximum_age": "55 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "55 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Austin",
-   "country": "United States",
    "facility": "PPD Development, LP",
-   "lat": 30.26715,
-   "lon": -97.74306,
+   "city": "Austin",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.26715,
+   "lon": -97.74306
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01068743",

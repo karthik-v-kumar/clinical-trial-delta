@@ -14,8 +14,8 @@
  "design": {
   "allocation": null,
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -36,8 +36,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Johnson & Johnson Pharmaceutical Research & Development, L.L.C."
+  "name": "Johnson & Johnson Pharmaceutical Research & Development, L.L.C.",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -45,23 +45,23 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Canagliflozin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [],
    "label": "Part 1: no Intervention",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   },
   {
+   "label": "Part 2: canagliflozin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Canagliflozin"
-   ],
-   "label": "Part 2: canagliflozin",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -77,10 +77,10 @@
  "brief_summary": "The purpose of this study is to compare the results from two methods used to determine the renal threshold for glucose excretion (defined as the lowest plasma glucose concentration at which appreciable amounts of glucose appear in the urine) in untreated patients with type 2 diabetes mellitus and in patients with type 2 diabetes mellitus who are treated with 100 mg once-daily canigliflozin for 8 days.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients with T2DM who are not receiving treatment with any anti-hyperglycemic agents (AHAs) for at least 12 weeks, or who are receiving treatment with a stable dose and regimen of metformin monotherapy for at least 12 weeks and have a hemoglobin A1c (HbA1c) in the range of \\>=7% to \\<=10%\n\nExclusion Criteria:\n\n* History of Type 1, \"brittle\" diabetes or secondary forms of diabetes\n* History of 1 or more severe hypoglycemic episodes\n* History of diabetic complications considered to be clinically significant by the Investigator\n* History of or current illness considered to be clinically significant by the investigator",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -88,13 +88,13 @@
  },
  "sites": [
   {
-   "city": "Neuss",
-   "country": "Germany",
    "facility": null,
-   "lat": 51.19807,
-   "lon": 6.68504,
+   "city": "Neuss",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 51.19807,
+   "lon": 6.68504
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01273558",

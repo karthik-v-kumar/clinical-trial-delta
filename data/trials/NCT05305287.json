@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "The University of Texas Health Science Center at San Antonio"
+  "name": "The University of Texas Health Science Center at San Antonio",
+  "class": "OTHER"
  },
  "collaborators": [
   "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
@@ -54,46 +54,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Pioglitazone",
    "other_names": [
     "Actos"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "OTHER",
    "name": "Placebo",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Pioglitazone"
-   ],
    "label": "T2D + NAFL and pioglitazone",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Other: Placebo"
-   ],
-   "label": "T2D + NAFL and placebo",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Pioglitazone"
-   ],
-   "label": "T2D + NASH and pioglitazone",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "T2D + NAFL and placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Other: Placebo"
-   ],
+   ]
+  },
+  {
+   "label": "T2D + NASH and pioglitazone",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Pioglitazone"
+   ]
+  },
+  {
    "label": "T2D + NASH and placebo",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Other: Placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "In this study the investigators will quantitate hepatic mitochondrial fluxes in T2D patients with NAFL and NASH before and after 16-weeks treatment with the insulin sensitizer pioglitazone",
  "eligibility": {
   "criteria": "T2D with NAFL\n\nInclusion Criteria:\n\n* Confirmed T2D based on OGTT (2 h glucose ≥200 mg/dl).\n* Treated with diet, metformin, and/or sulfonylurea and in good general health determined by medical history, physical exam, and routine blood chemistries;\n* age = 18-80 years;\n* BMI = 25-40 kg/m2;\n* HbA1c = 7-10%; stable body weight (±4 pounds) over the preceding 3-months;\n* not taking any medication known to affect glucose metabolism other than antidiabetic medications.\n* Evidence of moderate/severe fatty liver (steatosis; grade S2/S3 on FibroScan corresponding to ≥10% fat on MRI-PDFF) and no/minimal hepatic fibrosis (grade F0/F1 on FibroScan).\n\nExclusion Criteria:\n\n* Alcohol consumption \\>14 units/week for women and \\>21 units/week for men.\n* Liver cirrhosis (fibrosis stage 4).\n* Evidence of other forms of chronic liver disease, including alcoholic liver disease, hepatitis B and C, primary biliary cholangitis, suspected/proven liver cancer and any other liver disease other than NAFLD.\n* Type 1 diabetes and/or GAD positive subjects.\n* Subjects not drug naive or have been on metformin more than 3 months.\n* Presence of proliferative retinopathy.\n* Urine albumin excretion \\> 300 mg/day.\n* History of NY Class III-IV heart failure\n\nT2D with NASH\n\nInclusion Criteria:\n\n* Confirmed T2D based on OGTT (2 h glucose ≥200 mg/dl).\n* Treated with diet, metformin, and/or sulfonylurea and in good general health determined by medical history, physical exam, and routine blood chemistries;\n* age = 18-80 years;\n* BMI = 25-40 kg/m2;\n* HbA1c = 7-10%;\n* stable body weight (±4 pounds) over the preceding 3-months;\n* not taking any medication known to affect glucose metabolism other than antidiabetic medications.\n* Evidence of moderate/severe fatty liver (steatosis; grade S2/S3 on FibroScan corresponding to ≥10% liver fat on MRI-PDFF) and moderate/severe hepatic fibrosis (grade F2/F3 on FibroScan).\n\nExclusion Criteria:\n\n* Alcohol consumption \\>14 units/week for women and \\>21 units/week for men.\n* Liver cirrhosis (fibrosis stage 4).\n* Evidence of other forms of chronic liver disease, including alcoholic liver disease, hepatitis B and C, primary biliary cholangitis, suspected/proven liver cancer and any other liver disease other than NAFLD.\n* Type 1 diabetes and/or GAD positive subjects.\n* Subjects not drug naive or have been on metformin more than 3 months.\n* Presence of proliferative retinopathy.\n* Urine albumin excretion \\> 300 mg/day.\n* History of NY Class III-IV heart failure",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,22 +116,22 @@
  },
  "sites": [
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "Texas Diabetes Institute - University Health System",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 29.42412,
+   "lon": -98.49363
   },
   {
-   "city": "San Antonio",
-   "country": "United States",
    "facility": "University of Texas Health Science Center at San Antonio",
-   "lat": 29.42412,
-   "lon": -98.49363,
+   "city": "San Antonio",
    "state": "Texas",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 29.42412,
+   "lon": -98.49363
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05305287",

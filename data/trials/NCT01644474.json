@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2015-11-06",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Sanofi"
+  "name": "Sanofi",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Regeneron Pharmaceuticals"
@@ -55,45 +55,45 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Alirocumab",
    "other_names": [
     "SAR236553",
     "REGN727"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Ezetimibe",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo (for Alirocumab)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo (for Ezetimibe)",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Ezetimibe 10 mg",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe",
     "Drug: Placebo (for Alirocumab)"
-   ],
-   "label": "Ezetimibe 10 mg",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Alirocumab 75/Up to 150 mg Q2W",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Alirocumab",
     "Drug: Placebo (for Ezetimibe)"
-   ],
-   "label": "Alirocumab 75/Up to 150 mg Q2W",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -105,10 +105,10 @@
  "brief_summary": "Alirocumab (SAR236553/REGN727) is a fully human monoclonal antibody that binds PCSK9 (proprotein convertase subtilisin/kexin type 9).\n\nPrimary Objective of the study:\n\nTo demonstrate the reduction of low-density lipoprotein cholesterol (LDL-C) by alirocumab in comparison with ezetimibe after 24 weeks of treatment in participants with hypercholesterolemia.\n\nSecondary Objectives:\n\n* To evaluate the effect of alirocumab in comparison with ezetimibe on LDL-C at other time points\n* To evaluate the effect of alirocumab on other lipid parameters\n* To evaluate the safety and tolerability of alirocumab",
  "eligibility": {
   "criteria": "Inclusion criteria:\n\n* Participants with hypercholesterolemia\n\nExclusion criteria:\n\n* Age \\< 18 or legal age of adulthood, whichever was greater\n* LDL-C \\< 100 mg/dL (\\< 2.59 mmol/L) or \\> 190 mg/dL (\\> 4.9 mmol/L)\n* Fasting serum triglycerides (TG) \\> 400 mg/dL (\\> 4.52 mmol/L)\n* Known history of homozygous or heterozygous familial hypercholesterolemia\n\nThe above information was not intended to contain all considerations relevant to a participant's potential participation in a clinical trial.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -116,76 +116,76 @@
  },
  "sites": [
   {
-   "city": "Antwerp",
-   "country": "Belgium",
    "facility": "Investigational Site Number 056601",
+   "city": "Antwerp",
+   "state": null,
+   "country": "Belgium",
+   "status": null,
    "lat": 51.22047,
-   "lon": 4.40026,
-   "state": null,
-   "status": null
+   "lon": 4.40026
   },
   {
-   "city": "Helsinki",
-   "country": "Finland",
    "facility": "Investigational Site Number 246601",
+   "city": "Helsinki",
+   "state": null,
+   "country": "Finland",
+   "status": null,
    "lat": 60.16952,
-   "lon": 24.93545,
-   "state": null,
-   "status": null
+   "lon": 24.93545
   },
   {
-   "city": "Groningen",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528602",
+   "city": "Groningen",
+   "state": null,
+   "country": "Netherlands",
+   "status": null,
    "lat": 53.21917,
-   "lon": 6.56667,
-   "state": null,
-   "status": null
+   "lon": 6.56667
   },
   {
-   "city": "Rotterdam",
-   "country": "Netherlands",
    "facility": "Investigational Site Number 528601",
-   "lat": 51.9225,
-   "lon": 4.47917,
+   "city": "Rotterdam",
    "state": null,
-   "status": null
-  },
-  {
-   "city": "Velp",
    "country": "Netherlands",
+   "status": null,
+   "lat": 51.9225,
+   "lon": 4.47917
+  },
+  {
    "facility": "Investigational Site Number 528603",
-   "lat": 51.995,
-   "lon": 5.97361,
+   "city": "Velp",
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 51.995,
+   "lon": 5.97361
   },
   {
-   "city": "Overland Park",
-   "country": "United States",
    "facility": "Investigational Site Number 840603",
-   "lat": 38.98223,
-   "lon": -94.67079,
+   "city": "Overland Park",
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.98223,
+   "lon": -94.67079
   },
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "Investigational Site Number 840601",
-   "lat": 39.12711,
-   "lon": -84.51439,
+   "city": "Cincinnati",
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
   },
   {
-   "city": "Richmond",
-   "country": "United States",
    "facility": "Investigational Site Number 840602",
-   "lat": 37.55376,
-   "lon": -77.46026,
+   "city": "Richmond",
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.55376,
+   "lon": -77.46026
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01644474",

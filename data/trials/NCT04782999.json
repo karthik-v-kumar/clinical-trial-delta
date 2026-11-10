@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "masking": "SINGLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Hvidovre University Hospital"
+  "name": "Hvidovre University Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "University of Copenhagen"
@@ -53,44 +53,44 @@
  ],
  "interventions": [
   {
+   "type": "DIAGNOSTIC_TEST",
    "name": "Oral Glucose Tolerance Test",
-   "other_names": [],
-   "type": "DIAGNOSTIC_TEST"
+   "other_names": []
   },
   {
+   "type": "DIAGNOSTIC_TEST",
    "name": "Hyperglycemic clamp with infusion of saline, GLP-1 or GIP",
-   "other_names": [],
-   "type": "DIAGNOSTIC_TEST"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Oral glucose tolerance test",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Diagnostic Test: Oral Glucose Tolerance Test"
-   ],
-   "label": "Oral glucose tolerance test",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Diagnostic Test: Hyperglycemic clamp with infusion of saline, GLP-1 or GIP"
-   ],
    "label": "Hyperglycemic clamp with saline infusion combined with arginine test",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Diagnostic Test: Hyperglycemic clamp with infusion of saline, GLP-1 or GIP"
-   ],
+   ]
+  },
+  {
    "label": "Hyperglycemic clamp with GLP-1 infusion",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Diagnostic Test: Hyperglycemic clamp with infusion of saline, GLP-1 or GIP"
-   ],
+   ]
+  },
+  {
    "label": "Hyperglycemic clamp with GIP infusion",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Diagnostic Test: Hyperglycemic clamp with infusion of saline, GLP-1 or GIP"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -110,10 +110,10 @@
  "brief_summary": "The aim of the study is to investigate the effect of Roux-en-Y gastric bypass (RYGB) on pancreatic alpha and beta-cell function and for the sensitivity of incretin hormones in patients with pre-operative type 2 diabetes.\n\nPrimary hypotheses:\n\n* After RYGB, the sensitivity to GLP-1 and GIP is improved (improved insulinotropic effect).\n* After RYGB, the insulin secretion improves during an oral glucose tolerance test within 3 months postoperatively.\n* After RYGB, the insulin secretion during intraveneous stimulation with glucose or non-glucose (arginin) is unchanged.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Inclusion criteria for RYGB in Denmark (ie. BMI \\> 35 in the presence of obesity related co-morbidities as type 2 diabetes)\n* Type 2 diabetes\n* Pre-operative: Fasting plasma glucose ≥7,0 mmol/L or 2 hour plasma glucose ≥ 11,1 mmol/L (after pausing antidiabetic medication for a minimum of 3 days)\n* Written informed consent.\n\nExclusion Criteria:\n\n* Exclusion criteria for RYGB (psychiatric illness, obesity triggered by medical treatment for psychiatric illness, mental retardation, alcohol or drug abuse, severe heart-lung disease despite optimal medical treatment, previous serious problems with universal anesthesia, previous peritonitis, large hiatus hernia, diseases of the ventricle / previously complicated upper abdominal surgery, recurrent esophagitis, poor compliance).\n* Type 2 diabetes where antidiabetic medication cannot be paused for 3 days.\n* Pregnancy and breast-feeding.\n* Hemoglobin \\<7.0 mmol/L",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -121,13 +121,13 @@
  },
  "sites": [
   {
-   "city": "Hvidovre",
-   "country": "Denmark",
    "facility": "Hvidovre University Hospital",
-   "lat": 55.64297,
-   "lon": 12.47708,
+   "city": "Hvidovre",
    "state": null,
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.64297,
+   "lon": 12.47708
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04782999",

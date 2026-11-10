@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -40,8 +40,8 @@
  "results_first_posted": "2009-03-25",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Abbott"
+  "name": "Abbott",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,69 +51,69 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "ABT-335",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Simvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: ABT-335",
-    "Drug: Simvastatin"
-   ],
    "label": "A",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: ABT-335",
     "Drug: Simvastatin"
-   ],
-   "label": "B",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "B",
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: ABT-335",
+    "Drug: Simvastatin"
+   ]
+  },
+  {
+   "label": "C",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: ABT-335",
     "Drug: Placebo"
-   ],
-   "label": "C",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Simvastatin",
-    "Drug: Placebo"
-   ],
    "label": "D",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Simvastatin",
     "Drug: Placebo"
-   ],
+   ]
+  },
+  {
    "label": "E",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Simvastatin",
     "Drug: Placebo"
-   ],
+   ]
+  },
+  {
    "label": "F",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: Simvastatin",
+    "Drug: Placebo"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -133,10 +133,10 @@
  "brief_summary": "The purpose of this study is to compare the safety and efficacy of fenofibric acid (ABT-335) + simvastatin combination therapy with ABT-335 and simvastatin monotherapy in subjects with multiple abnormal lipid levels in the blood.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects with mixed dyslipidemia\n* Subjects agree to utilize adequate birth control methods and to adhere to the American Heart Association (AHA) diet.\n\nExclusion Criteria:\n\n* Subjects with unstable medical conditions or medical conditions considered inappropriate in a clinical trial.\n* Patients who are taking certain medications or unstable dose of specific medications.\n* Women who are pregnant or plan on becoming pregnant, or women who are lactating.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -144,13 +144,13 @@
  },
  "sites": [
   {
-   "city": "North Chicago",
-   "country": "United States",
    "facility": "Global Medical Information",
-   "lat": 42.32558,
-   "lon": -87.84118,
+   "city": "North Chicago",
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.32558,
+   "lon": -87.84118
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00300456",

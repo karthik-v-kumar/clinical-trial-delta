@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2020-04-28",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -51,48 +51,48 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "LY900014",
    "other_names": [
     "Ultra-Rapid Lispro"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Insulin Lispro",
    "other_names": [
     "LY275585"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: LY900014"
-   ],
    "label": "LY900014 (Part A)",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Insulin Lispro"
-   ],
-   "label": "Insulin Lispro - Reference (Part A)",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY900014"
-   ],
-   "label": "LY900014 (Part B)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Insulin Lispro - Reference (Part A)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Lispro"
-   ],
+   ]
+  },
+  {
+   "label": "LY900014 (Part B)",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: LY900014"
+   ]
+  },
+  {
    "label": "Insulin Lispro - Reference (Part B)",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Insulin Lispro"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -108,10 +108,10 @@
  "brief_summary": "The study will be conducted in participants with type 2 diabetes on insulin injection therapy to investigate how the body processes LY900014 and the effect of LY900014 on blood sugar levels. Side effects and tolerability will be documented. The study will be conducted in two parts (Part A and Part B) to achieve its objectives. Participants are expected to enroll in both parts.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Are male or female participants with Type 2 Diabetes Mellitus (T2DM) on a stable multiple daily injection regimen with a short-acting as well as a long-acting insulin\n* Have a body mass index (BMI) ranging from 18.5 to 33.0 kilogram per square meter (kg/m²), inclusive, at screening\n* Have blood pressure, pulse rate, electrocardiogram (ECG), blood and urine laboratory test results acceptable for the study\n* Have had no episodes of severe hypoglycemia in the past 6 months (requiring assistance in treatment by a second party)\n* Have venous access sufficient to allow for blood sampling\n* Have provided written consent and are willing to follow study procedures and commit to the study duration\n\nExclusion Criteria:\n\n* Are currently enrolled, or have participated within the last 30 days, in a clinical trial or any other type of medical research judged to be incompatible with this study\n* Have previously completed or withdrawn from this study\n* Have or used to have health problems that, in the opinion of the doctor, could make it unsafe to participate in the study\n* Had blood loss of more than 500 milliliters (mL) within the last month\n* Are treated with a continuous subcutaneous insulin infusion (insulin pump)",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -119,13 +119,13 @@
  },
  "sites": [
   {
-   "city": "Neuss",
-   "country": "Germany",
    "facility": "For additional information regarding investigative sites for this trial, contact 1-877-CTLILLY (1-877-285-4559, 1-317-615-4559) Mon - Fri, 9 AM to 5 PM Eastern Time (UTC/GMT - 5 hours, EST) or speak with your personal physician.",
-   "lat": 51.19807,
-   "lon": 6.68504,
+   "city": "Neuss",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 51.19807,
+   "lon": 6.68504
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02703337",

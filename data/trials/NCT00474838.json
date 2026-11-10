@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Kyunghee University Medical Center"
+  "name": "Kyunghee University Medical Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "Korea University Guro Hospital",
@@ -59,33 +59,33 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "intensive insulin group",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Oral AntiDiabetic Drug (glimepiride and metformin)",
    "other_names": [
     "glimepiride(amaryl)",
     "metformin(diabex)"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Oral AntiDiabetic Drug",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Oral AntiDiabetic Drug (glimepiride and metformin)"
-   ],
-   "label": "Oral AntiDiabetic Drug",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "intensive insulin group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: intensive insulin group"
-   ],
-   "label": "intensive insulin group",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -101,10 +101,10 @@
  "brief_summary": "This randomized controlled prospective study aims to evaluate the efficacy of intensive insulin therapy for long term glycemic control and improvement or preservation of beta cell function in newly diagnosed type 2 diabetes patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Newly diagnosed drug naïve type 2 diabetic patient with typical diabetic symptom (polydipsia, polyuria, unexplained weight loss) within recent 1 year\n* Initial HbA1c : 8.0 % ≤ HbA1c \\< 12.0%\n\nExclusion Criteria:\n\n* Known contraindication to insulin glargine, insulin glulisine, metformin, glimepiride\n* Patients with proliferative diabetic retinopathy\n* Severe liver disease or AST, ALT ≥ 2.5 x ULN\n* History of lactic acidosis\n* Unstable or severe angina\n* Congestive heart failure\n* Chronic disease treated with continuous corticosteroid therapy\n* Diagnosis of cancer\n* Positive urine pregnancy test or plan to become pregnant during the clinical trial",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "25 Years",
   "sex": "ALL",
+  "minimum_age": "25 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -112,76 +112,76 @@
  },
  "sites": [
   {
-   "city": "Bucheon-si",
-   "country": "South Korea",
    "facility": "The Catholic University of Korea Bucheon St.Mary's Hospital",
+   "city": "Bucheon-si",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
    "lat": 37.49889,
-   "lon": 126.78306,
-   "state": null,
-   "status": null
+   "lon": 126.78306
   },
   {
-   "city": "Incheon",
-   "country": "South Korea",
    "facility": "Inha University Hospital",
+   "city": "Incheon",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
    "lat": 37.45646,
-   "lon": 126.70515,
-   "state": null,
-   "status": null
+   "lon": 126.70515
   },
   {
-   "city": "Jeju-do",
-   "country": "South Korea",
    "facility": "Jeju National University Hospital",
+   "city": "Jeju-do",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
    "lat": null,
-   "lon": null,
-   "state": null,
-   "status": null
+   "lon": null
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Korea University Guro Hospital",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Kyung Hee University East Weast Neo Medicalcenter",
-   "lat": 37.566,
-   "lon": 126.9784,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Seoul",
+   "state": null,
    "country": "South Korea",
-   "facility": "Kyunghee University Medical Center",
+   "status": null,
    "lat": 37.566,
-   "lon": 126.9784,
-   "state": null,
-   "status": null
+   "lon": 126.9784
   },
   {
-   "city": "Suwon",
+   "facility": "Kyunghee University Medical Center",
+   "city": "Seoul",
+   "state": null,
    "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
+  },
+  {
    "facility": "Ajou University Medical Center",
-   "lat": 37.27818,
-   "lon": 127.03164,
+   "city": "Suwon",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.27818,
+   "lon": 127.03164
   },
   {
-   "city": "Guri-si",
-   "country": "South Korea",
    "facility": "Hanyang University Medical Center",
-   "lat": 37.5986,
-   "lon": 127.1394,
+   "city": "Guri-si",
    "state": "Gyeonggi-do",
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.5986,
+   "lon": 127.1394
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00474838",

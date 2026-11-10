@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Hospital Universitario San Ignacio"
+  "name": "Hospital Universitario San Ignacio",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -48,32 +48,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "insulin degludec + liraglutide",
    "other_names": [
     "ideglira"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Insulin Glargine - Insulin Aspart",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "basal group bolus",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Insulin Glargine - Insulin Aspart"
-   ],
-   "label": "basal group bolus",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "insulin degludec + liraglutide ( ideglira)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: insulin degludec + liraglutide"
-   ],
-   "label": "insulin degludec + liraglutide ( ideglira)",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "The association of insulin degludec with liraglutide in the same device (IDegLira) is a potent but at the same time safe drug that reduces the risk of hypoglycemia when compared to a basal or basal-bolus insulin schedule.\n\nThe DUAL (Dual Action of Liraglutide and Insulin Degludec) studies are the pivotal studies of this combination. Specifically, the DUAL VII study has demonstrated that ideglira is a non-inferior drug in terms of glycemic control versus a basal-bolus schedule in patients in the outpatient setting who have failed basal insulin.\n\nAlthough the basal-bolus insulin plus correction schedule is frequently used in hospitalized patients with hyperglycemia, outpatient management with a complex insulin schedule creates challenges that are difficult to mitigate due to limited time for patient education during an acute illness and limited access to the physician responsible for post-discharge diabetes management.\n\nThe use of IDegLira has not been evaluated in clinical studies in the hospital discharge setting where the authors believe it has great potential because it offers similar potency to the basal-bolus scheme but with greater safety with respect to hypoglycemia and less complexity for the patient because it is associated with fewer applications and less need for capillary self-monitoring.\n\nFor this reason, in the hospital-home transition scenario, ideglira therapy in patients with poor metabolic control and requiring intensification therapy is proposed as an alternative to the basal-bolus scheme.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients over 18 years of age with a diagnosis of type 2 diabetes mellitus who have received basal-bolus insulin during hospitalization and who, at the time of hospital discharge, are considered necessary to continue this scheme (basal-bolus).\n\nExclusion Criteria:\n\n* Patient with diagnosis or suspicion of DM1.\n* Inability of the patient or family member to continue injectable therapy at home.\n* CKD with GFR \\< 15 ml/minute by CKD EPI.\n* History of chronic or acute pancreatitis in the last 3 months.\n* History of personal or family history of medullary thyroid cancer.\n* History of hypersensitivity to any of the components of the IdegLira combination.\n* Women in pregnancy, breastfeeding or absence of hormonal contraception.\n* Management for obesity with GLP1 receptor agonist.\n* Previous management with basal bolus scheme with total daily dose of insulin (DDT) greater than 70 U/day.\n* Patients with hyperglycemia associated with steroids.\n* Patients who are insulin users prior to current hospitalization and have an in-hospital HbA1c greater than 11%.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "city": "Bogotá",
-   "country": "Colombia",
    "facility": "Hospital Universitario San Ignacio",
-   "lat": 4.60971,
-   "lon": -74.08175,
+   "city": "Bogotá",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Colombia",
+   "status": "RECRUITING",
+   "lat": 4.60971,
+   "lon": -74.08175
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05767255",

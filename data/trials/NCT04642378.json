@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "SUPPORTIVE_CARE",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Shanghai Zhongshan Hospital"
+  "name": "Shanghai Zhongshan Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "Fudan University",
@@ -53,30 +53,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "iNCDSS based insulin regime",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "routine insulin treatment regime",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "iNCDSS group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: iNCDSS based insulin regime"
-   ],
-   "label": "iNCDSS group",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Routine treatment group",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: routine insulin treatment regime"
-   ],
-   "label": "Routine treatment group",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -88,10 +88,10 @@
  "brief_summary": "This is a multi-center, single-blind, parallel group, randomized controlled trial to access the effect and safety of the Artificial Intelligence Assisted Insulin Titration System (iNCDSS) in patients with Type 2 Diabetes Mellitus.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Men or women aged 18 and above years old;\n* Subjects who had been diagnosed with type 2 diabetes;\n* Subjects who are on diabetes treatment for at least 3 months;\n* HbA1c: 7.0%-11.0%.\n\nExclusion Criteria:\n\n* Subjects with acute complications of diabetes such as ketoacidosis or hyperglycemic hyperosmolar state;\n* Subjects who change the insulin regimens during hospitalization;\n* BMI ≥ 45kg/m2;\n* Women who are pregnant or nursing;\n* Subjects with severe cardiac, hepatic, renal or general diseases;\n* Subjects with psychiatric disorders or impaired cognitive function;\n* Subjects with severe edema, infections or peripheral circulation disorders;\n* Patients treated with surgery during hospitalization;\n* Subjects that are, in the judgement of the investigator, unlikely to comply with the protocol.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -99,13 +99,13 @@
  },
  "sites": [
   {
-   "city": "Shanghai",
-   "country": "China",
    "facility": "180 Fenglin Road",
-   "lat": 31.22222,
-   "lon": 121.45806,
+   "city": "Shanghai",
    "state": null,
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 31.22222,
+   "lon": 121.45806
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04642378",

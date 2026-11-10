@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Myopharm Limited"
+  "name": "Myopharm Limited",
+  "class": "OTHER"
  },
  "collaborators": [
   "Southern Star Research"
@@ -55,46 +55,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Metformin XR",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Celecoxib",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Valsartan",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Arm 1: Metformin XR Monotherapy",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Metformin XR"
-   ],
-   "label": "Arm 1: Metformin XR Monotherapy",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Metformin XR",
-    "Drug: Celecoxib",
-    "Drug: Valsartan"
-   ],
    "label": "Arm 2: TriGlytza Low Dose",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Metformin XR",
     "Drug: Celecoxib",
     "Drug: Valsartan"
-   ],
+   ]
+  },
+  {
    "label": "High-dose TriGlytza®-01",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Metformin XR",
+    "Drug: Celecoxib",
+    "Drug: Valsartan"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -106,10 +106,10 @@
  "brief_summary": "This Phase 2a, randomized, double-blind, active-controlled study will evaluate the safety, tolerability, and preliminary efficacy of TriGlytza®-01 compared with metformin in adults with Type 2 diabetes inadequately controlled despite metformin therapy. Participants will be randomized to one of three treatment groups and treated for 16 weeks. Safety, glycaemic control, body weight, and other metabolic outcomes will be assessed",
  "eligibility": {
   "criteria": "Inclusion Criteria Adults aged 18 to 70 years. Confirmed diagnosis of Type 2 diabetes mellitus. Inadequate glycaemic control while receiving a stable dose of metformin.\n\nInclusion Criteria:\n\n* Adults aged 18 to 70 years.\n* Confirmed diagnosis of Type 2 diabetes mellitus.\n* Inadequate glycaemic control while receiving a stable dose of metformin.\n* HbA1c within the protocol-defined screening range.\n* Body mass index (BMI) 25 to 40 kg/m².\n* Adequate renal function.\n* Able and willing to provide written informed consent and comply with study procedures.\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus or history of diabetic ketoacidosis.\n* Use of prohibited glucose-lowering medications before screening.\n* Clinically significant renal, hepatic, gastrointestinal, cardiovascular, or other medical conditions that could interfere with study participation or safety.\n* Recent major cardiovascular event or unstable cardiovascular disease.\n* Previous bariatric surgery or recent treatment with anti-obesity medication.\n* Active infection or other uncontrolled medical condition.\n* Pregnant or breastfeeding, or unwilling to comply with protocol-required contraception.\n* Any condition that, in the investigator's opinion, would make participation unsuitable or compromise the study.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -117,31 +117,31 @@
  },
  "sites": [
   {
-   "city": "Sydney",
-   "country": "Australia",
    "facility": "Momentum Darlinghurst",
-   "lat": -33.86785,
-   "lon": 151.20732,
+   "city": "Sydney",
    "state": null,
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -33.86785,
+   "lon": 151.20732
   },
   {
-   "city": "Maroochydore",
-   "country": "Australia",
    "facility": "UniSC Clinical Trials",
-   "lat": -26.66008,
-   "lon": 153.09953,
+   "city": "Maroochydore",
    "state": "Queensland",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -26.66008,
+   "lon": 153.09953
   },
   {
-   "city": "Melbourne",
-   "country": "Australia",
    "facility": "Momentum Sunshine",
-   "lat": -37.814,
-   "lon": 144.96332,
+   "city": "Melbourne",
    "state": "Victoria",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -37.814,
+   "lon": 144.96332
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07139405",

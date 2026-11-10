@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novartis Pharmaceuticals"
+  "name": "Novartis Pharmaceuticals",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,51 +53,51 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "vildagliptin",
    "other_names": [
     "LAF237, Galvus"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "glimepiride",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Metformin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Vildagliptin matching placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Glimepiride matching placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Vildagliptin",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: vildagliptin",
     "Drug: Metformin",
     "Drug: Glimepiride matching placebo"
-   ],
-   "label": "Vildagliptin",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Glimepiride",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: glimepiride",
     "Drug: Metformin",
     "Drug: Vildagliptin matching placebo"
-   ],
-   "label": "Glimepiride",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "Many people with type 2 diabetes cannot maintain target blood glucose levels when taking a single oral drug. The purpose of this study is to assess the long term safety and effectiveness of vildagliptin, an unapproved drug, compared to that of glimepiride in lowering overall blood glucose levels when added to metformin in people with type 2 diabetes not at target blood glucose levels on metformin alone.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* On a stable dose of metformin as defined by the protocol\n* Body mass index (BMI) in the range 22-45\n* Blood glucose criteria must be met\n\nExclusion Criteria:\n\n* Pregnancy or lactation\n* Type 1 diabetes\n* Evidence of significant diabetic complications\n* Evidence of serious cardiovascular complications\n* Laboratory value abnormalities as defined by the protocol\n* Other protocol-defined exclusion criteria may apply",
-  "healthy_volunteers": false,
-  "maximum_age": "73 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "73 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,22 +120,22 @@
  },
  "sites": [
   {
-   "city": "Nuremberg",
-   "country": "Germany",
    "facility": "Investigative Centers",
-   "lat": 49.45421,
-   "lon": 11.07752,
+   "city": "Nuremberg",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 49.45421,
+   "lon": 11.07752
   },
   {
-   "city": "East Hanover",
-   "country": "United States",
    "facility": "Novartis Pharmaceuticals",
-   "lat": 40.8201,
-   "lon": -74.36487,
+   "city": "East Hanover",
    "state": "New Jersey",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.8201,
+   "lon": -74.36487
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00106340",

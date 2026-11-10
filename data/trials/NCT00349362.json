@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Barnsley Hospital"
+  "name": "Barnsley Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Testosterone",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "0.9% saline",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Testosterone",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Testosterone"
-   ],
-   "label": "Testosterone",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: 0.9% saline"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "The purpose of this study is to test the effect of testosterone treatment on glycaemic control, arterial stiffness and IMT in hypogonadal men with type 2 diabetes treated with insulin.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* males over 40 years old\n* type 2 diabetes treated with insulin\n* serum testosterone less than 12nmol/L on 2 consecutive morning samples\n* symptoms attributable to hypogonadism\n\nExclusion Criteria:\n\n* current or previous breast cancer\n* current or previous prostate cancer\n* raised prostate specific antigen or abdominal digital rectal examination suspicious of prostate cancer unless diagnosis excluded after specialist urology opinion and/or prostate biopsy\n* severe symptoms of benign prostatic hypertrophy\n* treatment with testosterone in the three months prior to the trial\n* investigational drug treatment in the three months prior to the trial",
-  "healthy_volunteers": true,
-  "maximum_age": null,
-  "minimum_age": "40 Years",
   "sex": "MALE",
+  "minimum_age": "40 Years",
+  "maximum_age": null,
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "city": "Barnsley",
-   "country": "United Kingdom",
    "facility": "Barnsley Hospital NHS Foundation Trust",
-   "lat": 53.55,
-   "lon": -1.48333,
+   "city": "Barnsley",
    "state": "South Yorkshire",
-   "status": null
+   "country": "United Kingdom",
+   "status": null,
+   "lat": 53.55,
+   "lon": -1.48333
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00349362",

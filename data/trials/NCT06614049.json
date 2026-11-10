@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "OTHER",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "National University of Singapore"
+  "name": "National University of Singapore",
+  "class": "OTHER"
  },
  "collaborators": [
   "National University Polyclinics, Singapore",
@@ -55,6 +55,7 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "Human Coach-supported Digital/AI Personal Health Assistant to Improve Adherence to Lipid-Lowering Medications",
    "other_names": [
     "Artificial Intelligence",
@@ -62,22 +63,21 @@
     "CADENCE D-PHA",
     "Improve Adherence to Lipid-Lowering Medications",
     "Statin"
-   ],
-   "type": "BEHAVIORAL"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [],
    "label": "Standard care",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   },
   {
+   "label": "Standard care + Human Coach-supported Digital/AI Personal Health Assistant",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Human Coach-supported Digital/AI Personal Health Assistant to Improve Adherence to Lipid-Lowering Medications"
-   ],
-   "label": "Standard care + Human Coach-supported Digital/AI Personal Health Assistant",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Investigators hypothesize that the use of a human coach-supported digital/AI personal health assistant (app) will improve adherence to cholesterol-lowering medications (statins with or without ezetimibe) among patients with hyperlipidaemia and suboptimal LDL-C control, when compared to standard care.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Between 21 to 84 years old\n* Prescribed statins with or without ezetimibe for hyperlipidaemia.\n* Medication non-adherence as defined by the \\&#34;Extent to Non-adherence\\&#34; sub-scale of the DOSE Non-Adherence Measure), with a score \\&gt; 1 (range from 0-15)\n* Singapore residents (citizens, permanent residents, or long-term pass holders).\n* In possession of a smartphone or tablet with Android or iOS operating systems.\n* Have internet access on their mobile devices.\n\nExclusion Criteria:\n\n* Does not read or understand English. Current use of smartphone medication adherence app(s) that include statins.\n* Concurrent use of PCSK9 Inhibitors in addition to statins and/or ezetimibe\n* Participation in another study that uses medications that could affect lipid levels\n* Severe renal impairment defined as chronic kidney disease stage 4 and above.\n* Severe liver disease (Child-Pugh Class C)\n* Existing muscular-related complaints or diagnoses which may confound adverse event reporting\n* Uncorrected thyroid conditions, especially poorly-controlled hypothyroidism\n* Documented psychiatric diagnosis or history of mental illness or deemed as unable to give informed consent.\n* Currently pregnant, breastfeeding or expecting to get pregnant during the course of the study (1 year).\n* Guarded prognosis with expectant mortality within 12 months or less.",
-  "healthy_volunteers": true,
-  "maximum_age": "84 Years",
-  "minimum_age": "21 Years",
   "sex": "ALL",
+  "minimum_age": "21 Years",
+  "maximum_age": "84 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,22 +104,22 @@
  },
  "sites": [
   {
-   "city": "Singapore",
-   "country": "Singapore",
    "facility": "National Healthcare Group Polyclinics",
-   "lat": 1.28967,
-   "lon": 103.85007,
+   "city": "Singapore",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Singapore",
+   "status": "RECRUITING",
+   "lat": 1.28967,
+   "lon": 103.85007
   },
   {
-   "city": "Singapore",
-   "country": "Singapore",
    "facility": "National University Polyclinics",
-   "lat": 1.28967,
-   "lon": 103.85007,
+   "city": "Singapore",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Singapore",
+   "status": "RECRUITING",
+   "lat": 1.28967,
+   "lon": 103.85007
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06614049",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Beijing QL Biopharmaceutical Co.,Ltd"
+  "name": "Beijing QL Biopharmaceutical Co.,Ltd",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,46 +48,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "zovaglutide Arm 1",
    "other_names": [
     "ZT002 Injection"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "zovaglutide Arm 2",
    "other_names": [
     "ZT002 Injection"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "zovaglutide Arm1",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: zovaglutide Arm 1"
-   ],
-   "label": "zovaglutide Arm1",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "zovaglutide Arm2",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: zovaglutide Arm 2"
-   ],
-   "label": "zovaglutide Arm2",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "semaglutide Arm",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: semaglutide"
-   ],
-   "label": "semaglutide Arm",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of continuing treatment with zovaglutide injection following titration to 2.4 mg semaglutide injection in adult participants with obesity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female subjects aged≥18years and≤75 years at the time of signing the Informed Consent Form (ICF).\n* At screening, Body Mass Index (BMI)≥28kg/m²\n* Weight change due to diet and exercise alone within 3 months prior to screening did not exceed 5%.\n\nExclusion Criteria:\n\n* Previously diagnosed obesity caused by monogenic mutations, other diseases, or medications.\n* Previous diagnosis of diabetes; or HbA1c ≥ 6.5% or fasting blood glucose ≥ 7.0 mmol/L at screening.\n* Used of medicines or treatments that affect weight within 3 months prior to screening.\n* History of acute or chronic pancreatitis, or pancreatic injury.\n* History of medullary thyroid carcinoma (MTC) or type 2 multiple endocrine neoplasia (MEN2) in personal or family history.\n* History of medullary thyroid carcinoma (MTC) or type 2 multiple endocrine neoplasia (MEN2) in personal or family history.\n* Patient Health Questionnaire-9 (PHQ-9) scale score is ≥ 15 at screening\n* Screening Columbia-Suicide Severity Rating Scale(C-SSRS) questionnaire suicide ideation response of \"Category 4 or 5,\" or any \"yes\" response to suicidal behavior questions",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,148 +110,148 @@
  },
  "sites": [
   {
-   "city": "Beijing",
-   "country": "China",
    "facility": "Beijing Friendship Hospital, Capital Medical University",
-   "lat": 39.9075,
-   "lon": 116.39723,
-   "state": "Beijing Municipality",
-   "status": null
-  },
-  {
    "city": "Beijing",
-   "country": "China",
-   "facility": "Peking University People's Hospital",
-   "lat": 39.9075,
-   "lon": 116.39723,
    "state": "Beijing Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
   },
   {
-   "city": "Huizhou",
+   "facility": "Peking University People's Hospital",
+   "city": "Beijing",
+   "state": "Beijing Municipality",
    "country": "China",
+   "status": null,
+   "lat": 39.9075,
+   "lon": 116.39723
+  },
+  {
    "facility": "Huizhou Central People's Hospital",
-   "lat": 23.11147,
-   "lon": 114.41523,
+   "city": "Huizhou",
    "state": "Guangdong",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 23.11147,
+   "lon": 114.41523
   },
   {
-   "city": "Handan",
-   "country": "China",
    "facility": "Handan First Hospital",
+   "city": "Handan",
+   "state": "Hebei",
+   "country": "China",
+   "status": null,
    "lat": 36.60999,
-   "lon": 114.48764,
-   "state": "Hebei",
-   "status": null
+   "lon": 114.48764
   },
   {
-   "city": "Langfang",
-   "country": "China",
    "facility": "Hebei Petro China Cental Hospital",
-   "lat": 39.52079,
-   "lon": 116.71471,
+   "city": "Langfang",
    "state": "Hebei",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 39.52079,
+   "lon": 116.71471
   },
   {
-   "city": "Harbin",
-   "country": "China",
    "facility": "Harbin Medical University Affiliated Fourth Hospital",
-   "lat": 45.75,
-   "lon": 126.65,
+   "city": "Harbin",
    "state": "Heilongjiang",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 45.75,
+   "lon": 126.65
   },
   {
-   "city": "Nanyang",
-   "country": "China",
    "facility": "The First Affiliated of Nanyang Medical College",
-   "lat": 33.00524,
-   "lon": 112.54659,
+   "city": "Nanyang",
    "state": "Henan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 33.00524,
+   "lon": 112.54659
   },
   {
-   "city": "Yichang",
-   "country": "China",
    "facility": "Yichang Central People's Hospital (Xiling Campus)",
-   "lat": 30.71444,
-   "lon": 111.28472,
+   "city": "Yichang",
    "state": "Hubei",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 30.71444,
+   "lon": 111.28472
   },
   {
-   "city": "Changde",
-   "country": "China",
    "facility": "The First People's Hospital of Changde",
-   "lat": 29.03205,
-   "lon": 111.69844,
+   "city": "Changde",
    "state": "Hunan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 29.03205,
+   "lon": 111.69844
   },
   {
-   "city": "Changchun",
-   "country": "China",
    "facility": "Jilin Province FAW General Hospital",
-   "lat": 43.88,
-   "lon": 125.32278,
+   "city": "Changchun",
    "state": "Jilin",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 43.88,
+   "lon": 125.32278
   },
   {
-   "city": "Shenyang",
-   "country": "China",
    "facility": "The Fifth People's Hospital of Shenyang",
-   "lat": 41.79222,
-   "lon": 123.43278,
+   "city": "Shenyang",
    "state": "Liaoning",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 41.79222,
+   "lon": 123.43278
   },
   {
-   "city": "Jinan",
-   "country": "China",
    "facility": "Central Hospital Affiliated to Shandong First Medical University",
+   "city": "Jinan",
+   "state": "Shandong",
+   "country": "China",
+   "status": null,
    "lat": 36.66833,
-   "lon": 116.99722,
-   "state": "Shandong",
-   "status": null
+   "lon": 116.99722
   },
   {
-   "city": "Zibo",
-   "country": "China",
    "facility": "Zibo Central Hospital",
-   "lat": 36.79056,
-   "lon": 118.06333,
-   "state": "Shandong",
-   "status": null
-  },
-  {
    "city": "Zibo",
-   "country": "China",
-   "facility": "Zibo Municipal Hospital",
-   "lat": 36.79056,
-   "lon": 118.06333,
    "state": "Shandong",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 36.79056,
+   "lon": 118.06333
   },
   {
-   "city": "Jincheng",
+   "facility": "Zibo Municipal Hospital",
+   "city": "Zibo",
+   "state": "Shandong",
    "country": "China",
+   "status": null,
+   "lat": 36.79056,
+   "lon": 118.06333
+  },
+  {
    "facility": "Jincheng General Hospital",
-   "lat": 35.50222,
-   "lon": 112.83278,
+   "city": "Jincheng",
    "state": "Shanxi",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 35.50222,
+   "lon": 112.83278
   },
   {
-   "city": "Chengdu",
-   "country": "China",
    "facility": "The 2nd People's Hospital of Chengdu",
-   "lat": 30.66667,
-   "lon": 104.06667,
+   "city": "Chengdu",
    "state": "Sichuan",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 30.66667,
+   "lon": 104.06667
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07812597",

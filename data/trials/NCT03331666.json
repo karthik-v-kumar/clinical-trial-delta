@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "PREVENTION",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": "2021-04-01",
  "has_results": true,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Columbia University"
+  "name": "Columbia University",
+  "class": "OTHER"
  },
  "collaborators": [
   "Amgen"
@@ -53,27 +53,27 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Evolocumab",
    "other_names": [
     "REPATHA"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Evolocumab",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Evolocumab"
-   ],
-   "label": "Evolocumab",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Evolocumab"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "The primary goal is to assess the impact of Evolocumab therapy on platelet function of familial hypercholesterolemia (FH) patients in a randomized, double blind study. Evolocumab is a humanized monoclonal antibody that targets circulating PCSK9, increases hepatic LDL receptor, decreases plasma LDL cholesterol and reduces risk of cardiovascular events. Evolocumab (brand name Rapatha) has been approved by FDA along with diet and maximally tolerated statin therapy in adults with FH or atherosclerotic heart or blood vessel problems, who need additional lowering of LDL cholesterol.\n\nThe secondary goal is to determine if platelet activation or the response to Evolocumab therapy is modified by rs3184504 polymorphism. The investigators believe that these investigations will complement ongoing studies to demonstrate that Evolocumab reduces athero-thrombotic risk and aid the decision-making as to whether Evolocumab can reduce the atherothrombotic risk in acute coronary syndrome (ACS) patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Subjects who have a clinical diagnosis of familial hypercholesterolemia (FH)\n* Subjects who are referred to Dr. Ginsberg's Lipid Practice for treatment with PCSK9 inhibitor\n* Subjects with LDL cholesterol levels \\>100 mg/dl on baseline treatment with statins and/or ezetimibe\n\nExclusion Criteria:\n\n* Children under 18 years of age",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "city": "New York",
-   "country": "United States",
    "facility": "Columbia University Medical Center",
-   "lat": 40.71427,
-   "lon": -74.00597,
+   "city": "New York",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.71427,
+   "lon": -74.00597
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03331666",

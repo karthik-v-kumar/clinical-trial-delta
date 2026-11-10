@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "PREVENTION",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "NuMe Health"
+  "name": "NuMe Health",
+  "class": "INDUSTRY"
  },
  "collaborators": [
   "Pennington Biomedical Research Center"
@@ -53,6 +53,7 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "NM504",
    "other_names": [
     "NM-504",
@@ -60,22 +61,21 @@
     "NM-504 cobiotic formula",
     "NM504 cobiotic",
     "NM504 cobiotic formula"
-   ],
-   "type": "OTHER"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Metformin, NM504",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: NM504"
-   ],
-   "label": "Metformin, NM504",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
-   "intervention_names": [],
    "label": "Metformin, Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": []
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "The purpose of the study is to determine if NM504 will prevent GI side effects that are associated with using metformin for the treatment of diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or a female with type 2 diabetes\n* Known tolerance to metformin\n* 18 years of age or older\n* Body mass index that is not less than 20 kg/m2\n\nExclusion Criteria:\n\n* Not pregnant or breast feeding a baby.\n* Not taking chronic medication that has not had a stable dose for 1 month or longer.",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Baton Rouge",
-   "country": "United States",
    "facility": "Pennington Biomedical Research Center",
-   "lat": 30.44332,
-   "lon": -91.18747,
+   "city": "Baton Rouge",
    "state": "Louisiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.44332,
+   "lon": -91.18747
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01866462",

@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Lahore"
+  "name": "University of Lahore",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -49,30 +49,30 @@
  ],
  "interventions": [
   {
+   "type": "DIETARY_SUPPLEMENT",
    "name": "Vitamin D",
-   "other_names": [],
-   "type": "DIETARY_SUPPLEMENT"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Dietary Supplement: Vitamin D"
-   ],
    "label": "Treatment Group-1",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [],
-   "label": "Placebo",
-   "type": "NO_INTERVENTION"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Dietary Supplement: Vitamin D"
-   ],
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
+  },
+  {
    "label": "Treatment Group 2",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Dietary Supplement: Vitamin D"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -84,10 +84,10 @@
  "brief_summary": "COMPARISON OF DIFFERENT DOSES OF VITAMIN D SUPPLEMENTATION ON GLYCATED HEMOGLOBIN (HbA1c) and BLOOD GLUCOSE PARAMETRS IN PATIENTS WITH TYPE 2 DIABETES MELLITUS HAVING VITAMIN D DEFICIENCY\"",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nPatients diagnosed of T2DM with the age of 40-70 years from both genders taking only metformin with an Hb1Ac range of 7.5-9% and 25-hydroxy Vitamin D levels (25\\[OH\\]D) \\<20ng/ml. Exclusion Criteria: Individuals\n\nExclusion Criteria: Individuals with the following conditions will not be included as participants;\n\n* Inability or unwilling to participate or Clinical proximal myopathy\n* Renal, hepatic, endocrinological disorders or malignancies on basis of history\n* Serum calcium levels \\> 10.5mg/dl\n* Use of insulin or any change in dosage of current hypoglycemic medications during last 3 months\n* Intake of vitamin D, calcium or omega 3 supplements within the past 3 months",
-  "healthy_volunteers": false,
-  "maximum_age": "70 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "70 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -95,13 +95,13 @@
  },
  "sites": [
   {
-   "city": "Islamabad",
-   "country": "Pakistan",
    "facility": "PAF Hospital",
-   "lat": 33.72148,
-   "lon": 73.04329,
+   "city": "Islamabad",
    "state": null,
-   "status": null
+   "country": "Pakistan",
+   "status": null,
+   "lat": 33.72148,
+   "lon": 73.04329
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07321223",

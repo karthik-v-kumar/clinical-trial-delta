@@ -15,8 +15,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "PREVENTION",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -45,8 +45,8 @@
  "results_first_posted": "2014-04-22",
  "has_results": true,
  "lead_sponsor": {
-  "class": "FED",
-  "name": "VA Office of Research and Development"
+  "name": "VA Office of Research and Development",
+  "class": "FED"
  },
  "collaborators": [
   "Joslin Diabetes Center"
@@ -60,6 +60,7 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Salsalate",
    "other_names": [
     "Amigesic",
@@ -70,29 +71,28 @@
     "Mono-Gesic",
     "Salflex",
     "Salsitab"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Salsalate Therapy",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Salsalate"
-   ],
-   "label": "Salsalate Therapy",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -104,10 +104,10 @@
  "brief_summary": "The hypothesis is that salsalate therapy may be an effective and safe method to modulate inflammation in metabolically-critical tissues and thus reduce insulin resistance and its related complications.\n\nThe objectives of the study are to (1) determine whether salsalate therapy improves insulin resistance in subjects with IGT and changes in glucose area under the curve following a standard oral glucose tolerance test (OGTT); (2) determine whether salsalate therapy reduces a) plasma levels of a variety of well established inflammatory proteins and b) mononuclear cell inflammatory activity to provide evidence of reduced systemic and tissue inflammation, respectively; and (3)also determine whether salsalate therapy improves parameters of cardiovascular disease risk, including features of metabolic syndrome (fasting glucose, triglycerides, HDL, and blood pressure) as well as endothelial dysfunction.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male and female veterans between the age of 21-75 who have IFG (impaired fasting glucose) and/or IGT\n\nExclusion Criteria:\n\n* any diabetes therapy in the prior 12-months period\n* any acute illness\n* Ongoing high dose aspirin or Salsalate Therapy\n* history of GI bleeding\n* hearing problems\n* poor vascular access, prior pancreatitis, uncontrolled hypertension, pregnancy, renal disease or anemia",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "21 Years",
   "sex": "ALL",
+  "minimum_age": "21 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -115,13 +115,13 @@
  },
  "sites": [
   {
-   "city": "Phoenix",
-   "country": "United States",
    "facility": "Carl T. Hayden VA Medical Center",
-   "lat": 33.44838,
-   "lon": -112.07404,
+   "city": "Phoenix",
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.44838,
+   "lon": -112.07404
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00330733",

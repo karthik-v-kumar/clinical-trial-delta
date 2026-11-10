@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Huashan Hospital"
+  "name": "Huashan Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -50,27 +50,27 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide",
    "other_names": [
     "dosage regime"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "standard arm",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide"
-   ],
-   "label": "standard arm",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "titration arm",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Semaglutide"
-   ],
-   "label": "titration arm",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -82,10 +82,10 @@
  "brief_summary": "Investigators determined to detect the effect of smeglutide on body weight and metabolic indexes among overweight and obese participants through two different dosing programs.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. 18 ≤ age\\<75;\n2. Overweight or obesity: meet either one of the following standards\n\n   1. Patients with BMI ≥ 24 kg/m2 and at least one obesity complication (hypertension, hyperlipidemia, apnea syndrome, cardiovascular disease)\n   2. Simple obese patients with BMI ≥ 28kg/m2\n   3. Abdominal obesity, waist circumference ≥ 90 cm for males and ≥ 80 cm for females\n\nExclusion Criteria:\n\n1. Have a personal or family history of medullary thyroid carcinoma (MTC) or have multiple endocrine neoplasia type 2 (MEN-2) patients.\n2. Patients with severe hypersensitivity to smeglutide or any other excipient component.\n3. Diabetic patients (glycosylated hemoglobin ≥ 6.5% or fasting blood glucose ≥ 7.0 mmol/L or blood glucose ≥ 11.1 mmol/L 2 hours after meal or random blood glucose ≥ 11.1 mmol/L).\n4. Triglyceride\\>5.6mmol/L;\n5. Participants in other clinical drug trials in recent three months.\n6. The range of weight change in recent 90 days is\\>5kg.\n7. Cushing's syndrome and abnormal thyroid function.\n8. Pregnant or breastfed women.\n9. The study doctor judged that it was not suitable to participate in the test.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -93,13 +93,13 @@
  },
  "sites": [
   {
-   "city": "Shanghai",
-   "country": "China",
    "facility": "Shanghai Public Health Clinical Center",
-   "lat": 31.22222,
-   "lon": 121.45806,
+   "city": "Shanghai",
    "state": "Shanghai Municipality",
-   "status": null
+   "country": "China",
+   "status": null,
+   "lat": 31.22222,
+   "lon": 121.45806
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05616052",

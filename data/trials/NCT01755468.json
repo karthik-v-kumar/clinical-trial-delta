@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Mount Sinai Hospital, Canada"
+  "name": "Mount Sinai Hospital, Canada",
+  "class": "OTHER"
  },
  "collaborators": [
   "Canadian Institutes of Health Research (CIHR)"
@@ -50,34 +50,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Intermittent insulin therapy",
    "other_names": [
     "Basal insulin glargine and pre-meal insulin lispro"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Continuous metformin",
    "other_names": [
     "Metformin"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Continuous metformin",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Continuous metformin"
-   ],
-   "label": "Continuous metformin",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Intermittent insulin therapy",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Intermittent insulin therapy"
-   ],
-   "label": "Intermittent insulin therapy",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -89,10 +89,10 @@
  "brief_summary": "Type 2 diabetes mellitus is a chronic metabolic disorder characterized by progressive deterioration in the function of the pancreatic beta-cells, which are the cells that produce and secrete insulin (the hormone primarily responsible for the handling of glucose in the body). The investigators propose a pilot randomized controlled trial to determine whether intermittent intensive insulin therapy is an effective therapeutic strategy that can preserve pancreatic beta-cell function and maintain glycemic control early in the course of type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Men and women between the ages of 30 and 80 years inclusive\n2. T2DM diagnosed by a physician \\</= 5 years prior to enrolment\n3. Negative for anti-glutamic acid decarboxylase (anti-GAD) antibodies\n4. On either no anti-diabetic medication or on metformin monotherapy, with no change in dose/regimen within 4 weeks prior to enrolment\n5. A1c at screening between 5.5% and 9.0% inclusive if on metformin, or between 6.0% and 9.5% inclusive if on no oral anti-diabetic medication\n6. BMI \\>/= 23 kg/m2\n7. Negative pregnancy test at recruitment for all women with childbearing potential\n\nExclusion Criteria:\n\n1. Current anti-diabetic treatment with insulin, sulfonylurea, thiazolidinedione, alpha-glucosidase inhibitor, GLP-1 agonist or dipeptidyl peptidase-4 inhibitor\n2. Type 1 diabetes or secondary forms of diabetes\n3. History of hypoglycemia unawareness or severe hypoglycemia requiring assistance\n4. Any major illness with a life expectancy of \\<5 years\n5. Hypersensitivity to insulin, metformin or the formulations of these products\n6. Renal dysfunction as evidenced by estimated glomerular filtration rate (eGFR) \\<50 ml/min\n7. Hepatic disease considered to be clinically significant (includes jaundice, chronic hepatitis, previous liver transplant) or transaminases \\>2.5 X upper limit of normal\n8. History of congestive heart failure\n9. Excessive alcohol consumption, defined as \\>14 alcoholic drinks per week for males and \\>9 alcoholic drinks per week for females\n10. Unwillingness to administer insulin therapy or perform capillary blood glucose monitoring at least 4 times per day while receiving IIT\n11. Pregnancy or unwillingness to use reliable contraception. Women should not be planning pregnancy for the duration of the study or the first 3 months after the study. Reliable contraception includes birth control pill, intra-uterine device, abstinence, tubal ligation, partner vasectomy, or condoms with spermicide.\n12. Non-adherence to the induction phase or any factor likely to limit adherence to the study protocol, in the opinion of the investigator",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -100,13 +100,13 @@
  },
  "sites": [
   {
-   "city": "Toronto",
-   "country": "Canada",
    "facility": "Mount Sinai Hospital",
-   "lat": 43.65333,
-   "lon": -79.38389,
+   "city": "Toronto",
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01755468",

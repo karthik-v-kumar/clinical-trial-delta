@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NA",
   "intervention_model": "SINGLE_GROUP",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": "2024-02-15",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,21 +48,21 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Insulin Glargine",
    "other_names": [
     "LY2963016",
     "Basaglar"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Insulin Glargine",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Insulin Glargine"
-   ],
-   "label": "Insulin Glargine",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -74,10 +74,10 @@
  "brief_summary": "The reason for this study is to see if insulin glargine is safe in participants with type 2 diabetes mellitus (T2DM) in India.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have T2DM based on the disease diagnostic criteria from the World Health Organization (WHO) classification for at least 6 months before screening.\n* Have been receiving glucagon-like peptide-1 receptor agonist (GLP-1 RA) or ≥2 oral antihyperglycemic medication (OAMs) at stable doses for 90 days prior to screening.\n* Have an HbA1c level ≥7.0% and \\<11.0%.\n* Have never been treated with insulins except for short term treatment of acute conditions up to a maximum of 14 days.\n\nExclusion Criteria:\n\n* Have any form of diabetes other than T2DM.\n* Have hypersensitivity to the active substance of LY2963016 or to any of the excipients.\n* Have any clinically significant disorder, other than T2DM, that in the investigator's opinion, would preclude participation in the trial.\n* Are receiving systemic glucocorticosteroids therapy or have excessive insulin resistance (total insulin dose \\>2 units per kilogram).\n* Have a history or diagnosis of human immunodeficiency virus infection, hepatitis B and C.\n* Have comorbidities of unstable angina, cardiac failure (Stage III or IV as per New York Heart Association guidelines) or renal failure (estimated glomerular filtration rate \\<30 milliliters/minute/meter squared).\n* Are pregnant or intend to become pregnant during the course of the study; or are sexually active women of child-bearing potential not actively practicing birth control by a medically acceptable method as determined by the investigator.\n* Is a woman who is breastfeeding.\n* Have participated within the last 30 days in a clinical trial involving an investigational product other than the LY2963016. If the previous investigational product has a long half-life, 3 months or 5 half-lives (whichever is longer) should have passed.\n* Have previously completed or withdrawn from this study or any other study investigating LY2963016. This exclusion criterion does not apply to participants who are rescreened prior to baseline visit.\n* Are currently enrolled in any other clinical study involving an investigational product or any other type of medical research judged not to be scientifically or medically compatible with this study.\n* Are unwilling or unable to comply with the use of a glucometer.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -85,103 +85,103 @@
  },
  "sites": [
   {
-   "city": "New Delhi",
-   "country": "India",
    "facility": "Maharaja Agrasen Hospital",
-   "lat": 28.62137,
-   "lon": 77.2148,
-   "state": null,
-   "status": null
-  },
-  {
-   "city": "Ahemdabad",
-   "country": "India",
-   "facility": "DIACARE",
-   "lat": null,
-   "lon": null,
-   "state": "Gujarat",
-   "status": null
-  },
-  {
-   "city": "Ahmedabad",
-   "country": "India",
-   "facility": "Gujarat Endocrine Center",
-   "lat": 23.02579,
-   "lon": 72.58727,
-   "state": "Gujarat",
-   "status": null
-  },
-  {
-   "city": "Surat",
-   "country": "India",
-   "facility": "Nirmal Hospital Private Limited",
-   "lat": 21.19594,
-   "lon": 72.83023,
-   "state": "Gujarat",
-   "status": null
-  },
-  {
-   "city": "Vadodara",
-   "country": "India",
-   "facility": "Government Medical College & Sir Sayajirao General Hospital",
-   "lat": 22.29941,
-   "lon": 73.20812,
-   "state": "Gujarat",
-   "status": null
-  },
-  {
-   "city": "Vadodara",
-   "country": "India",
-   "facility": "Sumandeep Vidhyapeeth & Dhiraj General Hospital",
-   "lat": 22.29941,
-   "lon": 73.20812,
-   "state": "Gujarat",
-   "status": null
-  },
-  {
-   "city": "Bangalore",
-   "country": "India",
-   "facility": "Bangalore Diabetes Center",
-   "lat": 12.97194,
-   "lon": 77.59369,
-   "state": "Karnataka",
-   "status": null
-  },
-  {
-   "city": "Nashik",
-   "country": "India",
-   "facility": "Supe Heart & Diabetes Hospital & Research Centre",
-   "lat": 19.99727,
-   "lon": 73.79096,
-   "state": "Maharashtra",
-   "status": null
-  },
-  {
    "city": "New Delhi",
+   "state": null,
    "country": "India",
-   "facility": "Sir Ganga Ram Hospital",
+   "status": null,
    "lat": 28.62137,
-   "lon": 77.2148,
+   "lon": 77.2148
+  },
+  {
+   "facility": "DIACARE",
+   "city": "Ahemdabad",
+   "state": "Gujarat",
+   "country": "India",
+   "status": null,
+   "lat": null,
+   "lon": null
+  },
+  {
+   "facility": "Gujarat Endocrine Center",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "country": "India",
+   "status": null,
+   "lat": 23.02579,
+   "lon": 72.58727
+  },
+  {
+   "facility": "Nirmal Hospital Private Limited",
+   "city": "Surat",
+   "state": "Gujarat",
+   "country": "India",
+   "status": null,
+   "lat": 21.19594,
+   "lon": 72.83023
+  },
+  {
+   "facility": "Government Medical College & Sir Sayajirao General Hospital",
+   "city": "Vadodara",
+   "state": "Gujarat",
+   "country": "India",
+   "status": null,
+   "lat": 22.29941,
+   "lon": 73.20812
+  },
+  {
+   "facility": "Sumandeep Vidhyapeeth & Dhiraj General Hospital",
+   "city": "Vadodara",
+   "state": "Gujarat",
+   "country": "India",
+   "status": null,
+   "lat": 22.29941,
+   "lon": 73.20812
+  },
+  {
+   "facility": "Bangalore Diabetes Center",
+   "city": "Bangalore",
+   "state": "Karnataka",
+   "country": "India",
+   "status": null,
+   "lat": 12.97194,
+   "lon": 77.59369
+  },
+  {
+   "facility": "Supe Heart & Diabetes Hospital & Research Centre",
+   "city": "Nashik",
+   "state": "Maharashtra",
+   "country": "India",
+   "status": null,
+   "lat": 19.99727,
+   "lon": 73.79096
+  },
+  {
+   "facility": "Sir Ganga Ram Hospital",
+   "city": "New Delhi",
    "state": "National Capital Territory of Delhi",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 28.62137,
+   "lon": 77.2148
   },
   {
-   "city": "Kanpur",
-   "country": "India",
    "facility": "GSVM Medical College",
-   "lat": 26.46523,
-   "lon": 80.34975,
+   "city": "Kanpur",
    "state": "Uttar Pradesh",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 26.46523,
+   "lon": 80.34975
   },
   {
-   "city": "Varanasi",
-   "country": "India",
    "facility": "Popular Hospital",
-   "lat": 25.31668,
-   "lon": 83.01041,
+   "city": "Varanasi",
    "state": "Uttar Pradesh",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 25.31668,
+   "lon": 83.01041
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04153981",

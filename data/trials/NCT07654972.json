@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SEQUENTIAL",
-  "masking": "DOUBLE",
   "primary_purpose": "BASIC_SCIENCE",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,51 +52,51 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "LY4174794",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "LY4174794",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: LY4174794",
-    "Drug: Placebo"
-   ],
    "label": "Part A: LY4174794",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY4174794",
     "Drug: Placebo"
-   ],
-   "label": "Part B: LY4174794",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Part B: LY4174794",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: LY4174794",
+    "Drug: Placebo"
+   ]
+  },
+  {
+   "label": "Part A & B: Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Part A & B: Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Part C: LY4174794",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: LY4174794"
-   ],
-   "label": "Part C: LY4174794",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -112,10 +112,10 @@
  "brief_summary": "The main purpose of this study is to understand how safe and well-tolerated LY4174794 is in participants with obesity or overweight who are otherwise healthy. Blood tests will be performed to check how much LY4174794 gets into the bloodstream and how long it takes the body to eliminate it.\n\nParticipation in this study will last about 30 to 39 weeks (7 to 10 months).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Are overtly healthy with no comorbidities related to body mass index (BMI), such as type 2 diabetes mellitus or unstable cardiovascular disease\n* Are overweight with a BMI of ≥27 kilogram per meter square (kg/m²), or have obesity with a BMI of ≥30 kg/ m²\n* Have had a self-reported stable weight for 3 months prior to screening\n\nExclusion Criteria:\n\n* Have a history or presence of cardiovascular, respiratory, hepatic, renal, GI, endocrine, hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs, or of constituting a risk when taking the study intervention, or of interfering with the interpretation of data\n* Is an individual of childbearing potential (IOCBP)",
-  "healthy_volunteers": true,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -123,31 +123,31 @@
  },
  "sites": [
   {
-   "city": "Singapore",
-   "country": "Singapore",
    "facility": "Lilly Centre for Clinical Pharmacology",
-   "lat": 1.28967,
-   "lon": 103.85007,
+   "city": "Singapore",
    "state": null,
-   "status": "NOT_YET_RECRUITING"
+   "country": "Singapore",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 1.28967,
+   "lon": 103.85007
   },
   {
+   "facility": "ICON Early Phase Services, LLC",
    "city": "San Antonio",
-   "country": "United States",
-   "facility": "ICON Early Phase Services, LLC",
-   "lat": 29.42412,
-   "lon": -98.49363,
    "state": "Texas",
-   "status": "RECRUITING"
+   "country": "United States",
+   "status": "RECRUITING",
+   "lat": 29.42412,
+   "lon": -98.49363
   },
   {
-   "city": "Salt Lake City",
-   "country": "United States",
    "facility": "ICON Early Phase Services, LLC",
-   "lat": 40.76078,
-   "lon": -111.89105,
+   "city": "Salt Lake City",
    "state": "Utah",
-   "status": "NOT_YET_RECRUITING"
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 40.76078,
+   "lon": -111.89105
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07654972",

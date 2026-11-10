@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University Hospital, Gentofte, Copenhagen"
+  "name": "University Hospital, Gentofte, Copenhagen",
+  "class": "OTHER"
  },
  "collaborators": [
   "Zealand Pharma"
@@ -54,39 +54,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Dapiglutide",
    "other_names": [
     "ZP7570"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo (4 mg and 6 mg)",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo (4 mg and 6 mg)",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Dapiglutide"
-   ],
    "label": "4 mg dapiglutide",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Dapiglutide"
-   ],
+   ]
+  },
+  {
    "label": "6 mg dapiglutide",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Dapiglutide"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "This study is an investigator-initiated, proof-of-concept, randomised, double-blind, placebo-controlled, parallel-group, single-centre clinical trial investigating the body weight loss potential of dapiglutide, a dual GLP-1R/GLP-2R agonist, administered subcutaneously once weekly. The study will investigate the efficacy of once-weekly subcutaneously administered of 4 mg and 6 mg dapiglutide versus placebo in 54 obese individuals (BMI \\>30 kg/m2) during a 12-week treatment period.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Age 18-75 years\n* BMI ≥ 30 kg/m²\n* History of at least one attempt to lose body weight\n\nExclusion Criteria:\n\n* A self-reported change in body weight ≥ 5% within the last 90 days prior to the screening visit\n* Treatment with any therapy, including endoscopic procedures and/or medication (e.g. liraglutide, bupropion/naltrexone and orlistat), intended for weight management within 90 days prior to screening\n* Previous, current, or planned (during the trial period) obesity treatment with surgery or a weight loss device \\< 1 year prior to screening\n* Glycated haemoglobin (HbA1c) ≥ 48 mmol/mol\n* History of type 1 diabetes or type 2 diabetes\n* Treatment with glucose-lowering agents within 90 days prior to screening\n* Compromised kidney function (estimated glomerular filtration rate (eGFR) \\< 60 ml/min/1.73 m2) at screening\n* Known liver disease (except for non-alcoholic fatty liver disease) and/or elevated plasma alanine aminotransferase (ALT) \\> three times the upper limit of normal at screening\n* History of acute and/or chronic pancreatitis\n* History and/or family history of medullary carcinoma and/or multiple endocrine neoplasia syndrome\n* Inflammatory bowel disease\n* Any history of colon cancer or intestinal polyps\n* Any history of intestinal stenosis\n* History of any other cancers (except margin-free resected cutaneous basal or squamous cell carcinoma or adequately treated in situ cervical cancer) unless disease-free state for at least five years\n* Uncontrolled thyroid disease as per discretion of the investigators\n* Any of the following: myocardial infarction, stroke, hospitalisation for angina and transient ischaemic attack within the last 60 days prior to screening\n* Class IV heart failure according to the New York Heart Association\n* Any concomitant disease or treatment that, at the discretion of the investigators, might jeopardise the participant's safety during the trial\n* Alcohol/drug abuse as per discretion of the investigators\n* Known or suspected hypersensitivity to the trial product or related products\n* Previous treatment with the trial product\n* Administration of an investigational drug within 90 days prior to screening\n* Simultaneous participation in any other clinical intervention trial\n* Mental incapacity or language barriers that preclude adequate understanding or cooperation, or unwillingness to comply with trial requirements\n* Use of GLP-1RA, GLP-2RA, dipeptidyl peptidase 4 (DPP) inhibitors, human growth hormone, somatostatin, or analogues thereof, within three months prior to screening\n* Known radiation enteritis or significant villous atrophy, e.g., due to active coeliac disease or inflammatory bowel disease\n* Regarding fertile men and women:\n\n  * Women who are pregnant, breastfeeding, intend to become pregnant or are of childbearing potential will not be included in the study\n  * Sterilised or postmenopausal women (\\> 12 months amenorrhoea or females ≥ 60 years of age) can be included\n  * The following contraceptive methods are considered adequate for study enrolment of male participants: Surgically sterilised or willing to refrain from sexual intercourse from screening and until completion of the follow-up visit, or, if sexually active, condom usage and partner-practised contraception during the trial, i.e., from screening to the last visit",
-  "healthy_volunteers": true,
-  "maximum_age": "75 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "city": "Hellerup",
-   "country": "Denmark",
    "facility": "Center for Clinical Metabolic Research, Herlev-Gentofte Hospital",
-   "lat": 55.73204,
-   "lon": 12.57093,
+   "city": "Hellerup",
    "state": null,
-   "status": null
+   "country": "Denmark",
+   "status": null,
+   "lat": 55.73204,
+   "lon": 12.57093
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05788601",

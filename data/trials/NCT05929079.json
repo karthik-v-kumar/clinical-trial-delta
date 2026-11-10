@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Eli Lilly and Company"
+  "name": "Eli Lilly and Company",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -54,46 +54,46 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Retatrutide",
    "other_names": [
     "LY3437943"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Retatrutide"
-   ],
    "label": "Retatrutide Dose 1",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Retatrutide"
-   ],
+   ]
+  },
+  {
    "label": "Retatrutide Dose 2",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Retatrutide"
-   ],
-   "label": "Retatrutide Dose 3",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Retatrutide Dose 3",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Retatrutide"
+   ]
+  },
+  {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -109,10 +109,10 @@
  "brief_summary": "The purpose of this study is to is to evaluate the efficacy and safety of retatrutide in participants with type 2 diabetes in participants who have obesity or overweight (J1I-MC-GZBK master protocol) including a subset of participants who have obstructive sleep apnea (OSA) (J1I-MC-GSA2). The study will last about 89 weeks and will include up to 24 visits.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Have a body mass index (BMI) greater than or equal to 27.0 kilogram/square meter (kg/m ²)\n* Have Type 2 Diabetes (T2D)\n* Are on stable treatment for T2D for at least 90 days\n* Have a history of at least one unsuccessful dietary effort to lose body weight.\n\nGSA2 Inclusion Criteria\n\n* Previously diagnosed with OSA\n* Have AHI ≥15 on polysomnography at screening (definition of moderate-to-severe OSA)\n* For participants not on positive airway pressure (PAP) therapy: unable or unwilling to use PAP therapy and have not used PAP for at least 4 weeks prior to screening.\n* If on PAP therapy, have been on PAP therapy for at least 3 consecutive months prior to screening, and willing to temporarily stop using PAP therapy for approximately 7 days prior to each of the sleep study (PSG) visits.\n\nExclusion Criteria:\n\n* Have a self-reported or documented change in body weight \\>5 kg (11 pounds) within 90 days.\n* Have taken weight loss drugs, including over-the-counter medications, within 90 days prior to screening.\n* Have a prior or planned surgical treatment for obesity.\n* Have Type 1 diabetes\n* Have a family or personal history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia syndrome type 2 (MEN-2)\n* Have had pancreatitis\n\nGSA2 Exclusion Criteria\n\n* Use stimulants (for example, modafinil, armodafinil, solriamfetol, pitolisant, amphetamine) less than 3 months prior to screening.\n* Use hypnotics, mirtazapine, opioids, trazodone, and zonisamide less than 3 months prior to screening.\n* Use a dental appliance or other device to treat OSA other than PAP therapy.",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -120,886 +120,886 @@
  },
  "sites": [
   {
-   "city": "Buenos Aires",
-   "country": "Argentina",
    "facility": "Centro Medico Dra. Laura Maffei- Investigacion Clinica Aplicada",
-   "lat": -34.61315,
-   "lon": -58.37723,
+   "city": "Buenos Aires",
    "state": "Buenos Aires F.D.",
-   "status": null
+   "country": "Argentina",
+   "status": null,
+   "lat": -34.61315,
+   "lon": -58.37723
   },
   {
-   "city": "Buenos Aires",
-   "country": "Argentina",
    "facility": "Centro Médico Viamonte",
-   "lat": -34.61315,
-   "lon": -58.37723,
-   "state": "Buenos Aires F.D.",
-   "status": null
-  },
-  {
    "city": "Buenos Aires",
-   "country": "Argentina",
-   "facility": "Consultorio de Investigación Clínica EMO SRL",
-   "lat": -34.61315,
-   "lon": -58.37723,
    "state": "Buenos Aires F.D.",
-   "status": null
-  },
-  {
-   "city": "Santa Rosa",
    "country": "Argentina",
+   "status": null,
+   "lat": -34.61315,
+   "lon": -58.37723
+  },
+  {
+   "facility": "Consultorio de Investigación Clínica EMO SRL",
+   "city": "Buenos Aires",
+   "state": "Buenos Aires F.D.",
+   "country": "Argentina",
+   "status": null,
+   "lat": -34.61315,
+   "lon": -58.37723
+  },
+  {
    "facility": "Centro de Salud e Investigaciones Médicas",
-   "lat": -36.61617,
-   "lon": -64.28991,
+   "city": "Santa Rosa",
    "state": "La Pampa Province",
-   "status": null
+   "country": "Argentina",
+   "status": null,
+   "lat": -36.61617,
+   "lon": -64.28991
   },
   {
+   "facility": "Emeritus Research",
    "city": "Botany",
+   "state": "New South Wales",
    "country": "Australia",
-   "facility": "Emeritus Research",
+   "status": null,
    "lat": -33.94599,
-   "lon": 151.19591,
-   "state": "New South Wales",
-   "status": null
+   "lon": 151.19591
   },
   {
-   "city": "Macquarie Park",
-   "country": "Australia",
    "facility": "Woolcock Institute of Medical Research",
+   "city": "Macquarie Park",
+   "state": "New South Wales",
+   "country": "Australia",
+   "status": null,
    "lat": -33.78105,
-   "lon": 151.12757,
-   "state": "New South Wales",
-   "status": null
+   "lon": 151.12757
   },
   {
-   "city": "Merewether",
-   "country": "Australia",
    "facility": "The AIM Centre / Hunter Diabetes Centre",
-   "lat": -32.94801,
-   "lon": 151.74325,
+   "city": "Merewether",
    "state": "New South Wales",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -32.94801,
+   "lon": 151.74325
   },
   {
-   "city": "Brisbane",
-   "country": "Australia",
    "facility": "Core Research Group",
-   "lat": -27.46794,
-   "lon": 153.02809,
-   "state": "Queensland",
-   "status": null
-  },
-  {
    "city": "Brisbane",
-   "country": "Australia",
-   "facility": "Royal Brisbane and Women's Hospital",
-   "lat": -27.46794,
-   "lon": 153.02809,
    "state": "Queensland",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -27.46794,
+   "lon": 153.02809
   },
   {
-   "city": "Adelaide",
+   "facility": "Royal Brisbane and Women's Hospital",
+   "city": "Brisbane",
+   "state": "Queensland",
    "country": "Australia",
+   "status": null,
+   "lat": -27.46794,
+   "lon": 153.02809
+  },
+  {
    "facility": "Nightingale Research",
+   "city": "Adelaide",
+   "state": "South Australia",
+   "country": "Australia",
+   "status": null,
    "lat": -34.92866,
-   "lon": 138.59863,
-   "state": "South Australia",
-   "status": null
+   "lon": 138.59863
   },
   {
-   "city": "Bedford Park",
-   "country": "Australia",
    "facility": "Flinders University",
+   "city": "Bedford Park",
+   "state": "South Australia",
+   "country": "Australia",
+   "status": null,
    "lat": -35.02204,
-   "lon": 138.56815,
-   "state": "South Australia",
-   "status": null
+   "lon": 138.56815
   },
   {
-   "city": "Oaklands Park",
-   "country": "Australia",
    "facility": "Southern Adelaide Diabetes & Endocrine Services",
-   "lat": -35.00671,
-   "lon": 138.54457,
+   "city": "Oaklands Park",
    "state": "South Australia",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -35.00671,
+   "lon": 138.54457
   },
   {
-   "city": "Box Hill",
-   "country": "Australia",
    "facility": "Box Hill Hospital",
+   "city": "Box Hill",
+   "state": "Victoria",
+   "country": "Australia",
+   "status": null,
    "lat": -37.81887,
-   "lon": 145.12545,
-   "state": "Victoria",
-   "status": null
+   "lon": 145.12545
   },
   {
-   "city": "Camberwell",
-   "country": "Australia",
    "facility": "Emeritus Research",
+   "city": "Camberwell",
+   "state": "Victoria",
+   "country": "Australia",
+   "status": null,
    "lat": -37.84205,
-   "lon": 145.0694,
-   "state": "Victoria",
-   "status": null
+   "lon": 145.0694
   },
   {
-   "city": "Heidelberg West",
-   "country": "Australia",
    "facility": "Austin Health - Repatriation Hospital",
-   "lat": -37.73922,
-   "lon": 145.04034,
+   "city": "Heidelberg West",
    "state": "Victoria",
-   "status": null
-  },
-  {
-   "city": "Joondalup",
    "country": "Australia",
+   "status": null,
+   "lat": -37.73922,
+   "lon": 145.04034
+  },
+  {
    "facility": "Advara HeartCare Joondalup",
-   "lat": -31.74445,
-   "lon": 115.76835,
+   "city": "Joondalup",
    "state": "Western Australia",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -31.74445,
+   "lon": 115.76835
   },
   {
-   "city": "São Paulo",
-   "country": "Brazil",
    "facility": "BR Trials - Ensaios Clinicos e Consultoria",
-   "lat": -23.5475,
-   "lon": -46.63611,
+   "city": "São Paulo",
    "state": "São Paulo",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -23.5475,
+   "lon": -46.63611
   },
   {
-   "city": "São Paulo",
-   "country": "Brazil",
    "facility": "CEPIC - Centro Paulista de Investigação Clínica",
-   "lat": -23.5475,
-   "lon": -46.63611,
-   "state": "São Paulo",
-   "status": null
-  },
-  {
    "city": "São Paulo",
-   "country": "Brazil",
-   "facility": "CPQuali Pesquisa Clínica",
-   "lat": -23.5475,
-   "lon": -46.63611,
    "state": "São Paulo",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -23.5475,
+   "lon": -46.63611
   },
   {
-   "city": "Raipur",
-   "country": "India",
+   "facility": "CPQuali Pesquisa Clínica",
+   "city": "São Paulo",
+   "state": "São Paulo",
+   "country": "Brazil",
+   "status": null,
+   "lat": -23.5475,
+   "lon": -46.63611
+  },
+  {
    "facility": "All India Institute of Medical Sciences",
-   "lat": 21.23333,
-   "lon": 81.63333,
+   "city": "Raipur",
    "state": "Chhattisgarh",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 21.23333,
+   "lon": 81.63333
   },
   {
-   "city": "Ahmedabad",
-   "country": "India",
    "facility": "Avron Hospitals",
-   "lat": 23.02579,
-   "lon": 72.58727,
+   "city": "Ahmedabad",
    "state": "Gujarat",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 23.02579,
+   "lon": 72.58727
   },
   {
-   "city": "Ahmedabad",
-   "country": "India",
    "facility": "V.S. General Hospital",
-   "lat": 23.02579,
-   "lon": 72.58727,
-   "state": "Gujarat",
-   "status": null
-  },
-  {
    "city": "Ahmedabad",
-   "country": "India",
-   "facility": "Zydus Hospitals & Healthcare Research Pvt.Ltd.",
-   "lat": 23.02579,
-   "lon": 72.58727,
    "state": "Gujarat",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 23.02579,
+   "lon": 72.58727
   },
   {
-   "city": "Bangalore",
+   "facility": "Zydus Hospitals & Healthcare Research Pvt.Ltd.",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
    "country": "India",
+   "status": null,
+   "lat": 23.02579,
+   "lon": 72.58727
+  },
+  {
    "facility": "Life Care Hospital and Research Centre",
+   "city": "Bangalore",
+   "state": "Karnataka",
+   "country": "India",
+   "status": null,
    "lat": 12.97194,
-   "lon": 77.59369,
-   "state": "Karnataka",
-   "status": null
+   "lon": 77.59369
   },
   {
-   "city": "Hubli",
-   "country": "India",
    "facility": "Sushruta Multispeciality Hospital & Research Centre",
+   "city": "Hubli",
+   "state": "Karnataka",
+   "country": "India",
+   "status": null,
    "lat": 17.58662,
-   "lon": 76.51148,
-   "state": "Karnataka",
-   "status": null
+   "lon": 76.51148
   },
   {
-   "city": "Mysore",
-   "country": "India",
    "facility": "Mysore Medical College",
-   "lat": 12.29791,
-   "lon": 76.63925,
+   "city": "Mysore",
    "state": "Karnataka",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 12.29791,
+   "lon": 76.63925
   },
   {
-   "city": "Indore",
-   "country": "India",
    "facility": "CARE CHL-Hospitals",
-   "lat": 22.71792,
-   "lon": 75.8333,
+   "city": "Indore",
    "state": "Madhya Pradesh",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 22.71792,
+   "lon": 75.8333
   },
   {
-   "city": "Jaipur",
-   "country": "India",
    "facility": "Sawai Man Singh Medical College Hospital (SMS Hospital)",
-   "lat": 26.91962,
-   "lon": 75.78781,
+   "city": "Jaipur",
    "state": "Rajasthan",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 26.91962,
+   "lon": 75.78781
   },
   {
-   "city": "Chennai",
-   "country": "India",
    "facility": "Madras Diabetes Research Foundation",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "country": "India",
+   "status": null,
    "lat": 13.08784,
-   "lon": 80.27847,
-   "state": "Tamil Nadu",
-   "status": null
+   "lon": 80.27847
   },
   {
-   "city": "Vellore",
-   "country": "India",
    "facility": "Christian Medical College Vellore",
-   "lat": 12.9184,
-   "lon": 79.13255,
+   "city": "Vellore",
    "state": "Tamil Nadu",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 12.9184,
+   "lon": 79.13255
   },
   {
-   "city": "Hyderabad",
-   "country": "India",
    "facility": "Care Hospitals Hyderabad- Banjara Hills",
-   "lat": 17.38405,
-   "lon": 78.45636,
-   "state": "Telangana",
-   "status": null
-  },
-  {
    "city": "Hyderabad",
-   "country": "India",
-   "facility": "Diabetes Research Center",
-   "lat": 17.38405,
-   "lon": 78.45636,
    "state": "Telangana",
-   "status": null
-  },
-  {
-   "city": "Kolkata",
    "country": "India",
+   "status": null,
+   "lat": 17.38405,
+   "lon": 78.45636
+  },
+  {
+   "facility": "Diabetes Research Center",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "country": "India",
+   "status": null,
+   "lat": 17.38405,
+   "lon": 78.45636
+  },
+  {
    "facility": "Institute of Post Graduate Medical Education and Research and Seth Sukhlal Karnani Memorial Hospital",
-   "lat": 22.56263,
-   "lon": 88.36304,
+   "city": "Kolkata",
    "state": "West Bengal",
-   "status": null
+   "country": "India",
+   "status": null,
+   "lat": 22.56263,
+   "lon": 88.36304
   },
   {
-   "city": "Chihuahua City",
-   "country": "Mexico",
    "facility": "Investigacion En Salud Y Metabolismo S.C / Nutricion Clinica / Unidad de Base de Datos",
-   "lat": 28.63528,
-   "lon": -106.08889,
+   "city": "Chihuahua City",
    "state": "Chihuahua",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 28.63528,
+   "lon": -106.08889
   },
   {
-   "city": "Mexicali",
-   "country": "Mexico",
    "facility": "Centro de Investigacion en Artritis y Osteoporosis SC",
-   "lat": 32.62781,
-   "lon": -115.45446,
+   "city": "Mexicali",
    "state": "Estado de Baja California",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 32.62781,
+   "lon": -115.45446
   },
   {
-   "city": "Guadalajara",
-   "country": "Mexico",
    "facility": "Diseno y Planeacion en Investigacion Medica",
-   "lat": 20.67738,
-   "lon": -103.34749,
+   "city": "Guadalajara",
    "state": "Jalisco",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 20.67738,
+   "lon": -103.34749
   },
   {
-   "city": "Guadalajara",
-   "country": "Mexico",
    "facility": "Private Practice - Dr. Arechavaleta Granell Maria del Rosario",
-   "lat": 20.67738,
-   "lon": -103.34749,
-   "state": "Jalisco",
-   "status": null
-  },
-  {
    "city": "Guadalajara",
-   "country": "Mexico",
-   "facility": "Unidad de Investigación Clínica y Atención Médica HEPA",
-   "lat": 20.67738,
-   "lon": -103.34749,
    "state": "Jalisco",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 20.67738,
+   "lon": -103.34749
   },
   {
-   "city": "Mexico City",
+   "facility": "Unidad de Investigación Clínica y Atención Médica HEPA",
+   "city": "Guadalajara",
+   "state": "Jalisco",
    "country": "Mexico",
+   "status": null,
+   "lat": 20.67738,
+   "lon": -103.34749
+  },
+  {
    "facility": "Centro Especializado En Diabetes, Obesidad Y Prevencion De Enfermedades Cardiovasculares",
-   "lat": 19.42847,
-   "lon": -99.12766,
+   "city": "Mexico City",
    "state": "Mexico City",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 19.42847,
+   "lon": -99.12766
   },
   {
-   "city": "Mexico City",
-   "country": "Mexico",
    "facility": "Clinica Omega",
-   "lat": 19.42847,
-   "lon": -99.12766,
-   "state": "Mexico City",
-   "status": null
-  },
-  {
    "city": "Mexico City",
-   "country": "Mexico",
-   "facility": "RM Pharma Specialists",
-   "lat": 19.42847,
-   "lon": -99.12766,
    "state": "Mexico City",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 19.42847,
+   "lon": -99.12766
   },
   {
-   "city": "Monterrey",
+   "facility": "RM Pharma Specialists",
+   "city": "Mexico City",
+   "state": "Mexico City",
    "country": "Mexico",
+   "status": null,
+   "lat": 19.42847,
+   "lon": -99.12766
+  },
+  {
    "facility": "Cardiolink Clin Trials",
-   "lat": 25.68435,
-   "lon": -100.31721,
-   "state": "Nuevo León",
-   "status": null
-  },
-  {
    "city": "Monterrey",
-   "country": "Mexico",
-   "facility": "Unidad biomedica avanzada monterrey",
-   "lat": 25.68435,
-   "lon": -100.31721,
    "state": "Nuevo León",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 25.68435,
+   "lon": -100.31721
   },
   {
-   "city": "Veracruz",
+   "facility": "Unidad biomedica avanzada monterrey",
+   "city": "Monterrey",
+   "state": "Nuevo León",
    "country": "Mexico",
+   "status": null,
+   "lat": 25.68435,
+   "lon": -100.31721
+  },
+  {
    "facility": "Arké SMO S.A de C.V",
-   "lat": 19.18095,
-   "lon": -96.1429,
-   "state": "Veracruz",
-   "status": null
-  },
-  {
    "city": "Veracruz",
-   "country": "Mexico",
-   "facility": "FAICIC S. de R.L. de C.V.",
-   "lat": 19.18095,
-   "lon": -96.1429,
    "state": "Veracruz",
-   "status": null
+   "country": "Mexico",
+   "status": null,
+   "lat": 19.18095,
+   "lon": -96.1429
   },
   {
-   "city": "Bacau",
-   "country": "Romania",
+   "facility": "FAICIC S. de R.L. de C.V.",
+   "city": "Veracruz",
+   "state": "Veracruz",
+   "country": "Mexico",
+   "status": null,
+   "lat": 19.18095,
+   "lon": -96.1429
+  },
+  {
    "facility": "CMI Dr.Pletea Noemi SRL",
-   "lat": 46.56718,
-   "lon": 26.91384,
+   "city": "Bacau",
    "state": "Bacău",
-   "status": null
+   "country": "Romania",
+   "status": null,
+   "lat": 46.56718,
+   "lon": 26.91384
   },
   {
-   "city": "Oradea",
-   "country": "Romania",
    "facility": "Diabdana",
-   "lat": 47.0458,
-   "lon": 21.91833,
+   "city": "Oradea",
    "state": "Bihor County",
-   "status": null
+   "country": "Romania",
+   "status": null,
+   "lat": 47.0458,
+   "lon": 21.91833
   },
   {
-   "city": "Bucharest",
-   "country": "Romania",
    "facility": "Centrul Medical NutriLife",
-   "lat": 44.43225,
-   "lon": 26.10626,
-   "state": "Bucharest",
-   "status": null
-  },
-  {
    "city": "Bucharest",
-   "country": "Romania",
-   "facility": "Geea Medical Easy Diet",
-   "lat": 44.43225,
-   "lon": 26.10626,
    "state": "Bucharest",
-   "status": null
+   "country": "Romania",
+   "status": null,
+   "lat": 44.43225,
+   "lon": 26.10626
   },
   {
-   "city": "Mangalia",
+   "facility": "Geea Medical Easy Diet",
+   "city": "Bucharest",
+   "state": "Bucharest",
    "country": "Romania",
+   "status": null,
+   "lat": 44.43225,
+   "lon": 26.10626
+  },
+  {
    "facility": "Gama Diamed",
-   "lat": 43.81623,
-   "lon": 28.57656,
+   "city": "Mangalia",
    "state": "Constanța County",
-   "status": null
-  },
-  {
-   "city": "Târgu Mureş",
    "country": "Romania",
+   "status": null,
+   "lat": 43.81623,
+   "lon": 28.57656
+  },
+  {
    "facility": "Centrul Medical Mediab",
-   "lat": 46.54245,
-   "lon": 24.55747,
+   "city": "Târgu Mureş",
    "state": "Mureș County",
-   "status": null
+   "country": "Romania",
+   "status": null,
+   "lat": 46.54245,
+   "lon": 24.55747
   },
   {
-   "city": "Almería",
-   "country": "Spain",
    "facility": "Centro Periférico de Especialidades Bola Azul",
-   "lat": 36.83814,
-   "lon": -2.45974,
+   "city": "Almería",
    "state": "Almería",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 36.83814,
+   "lon": -2.45974
   },
   {
-   "city": "Málaga",
-   "country": "Spain",
    "facility": "H.R.U Málaga - Hospital Civil",
-   "lat": 36.72016,
-   "lon": -4.42034,
-   "state": "Andalusia",
-   "status": null
-  },
-  {
    "city": "Málaga",
-   "country": "Spain",
-   "facility": "Hospital Universitario Virgen de la Victoria",
-   "lat": 36.72016,
-   "lon": -4.42034,
    "state": "Andalusia",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 36.72016,
+   "lon": -4.42034
   },
   {
-   "city": "León",
+   "facility": "Hospital Universitario Virgen de la Victoria",
+   "city": "Málaga",
+   "state": "Andalusia",
    "country": "Spain",
+   "status": null,
+   "lat": 36.72016,
+   "lon": -4.42034
+  },
+  {
    "facility": "Complejo Asistencial Universitario de León - Hospital de León",
-   "lat": 42.60003,
-   "lon": -5.57032,
+   "city": "León",
    "state": "Castille and León",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 42.60003,
+   "lon": -5.57032
   },
   {
-   "city": "Madrid",
-   "country": "Spain",
    "facility": "Hospital Universitario Ramón y Cajal",
-   "lat": 40.4165,
-   "lon": -3.70256,
+   "city": "Madrid",
    "state": "Madrid, Comunidad de",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 40.4165,
+   "lon": -3.70256
   },
   {
-   "city": "Seville",
-   "country": "Spain",
    "facility": "Hospital Universitario Virgen Del Rocio",
-   "lat": 37.38283,
-   "lon": -5.97317,
-   "state": "Sevilla",
-   "status": null
-  },
-  {
    "city": "Seville",
-   "country": "Spain",
-   "facility": "Vithas Hospital Sevilla",
-   "lat": 37.38283,
-   "lon": -5.97317,
    "state": "Sevilla",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 37.38283,
+   "lon": -5.97317
   },
   {
-   "city": "Anniston",
-   "country": "United States",
+   "facility": "Vithas Hospital Sevilla",
+   "city": "Seville",
+   "state": "Sevilla",
+   "country": "Spain",
+   "status": null,
+   "lat": 37.38283,
+   "lon": -5.97317
+  },
+  {
    "facility": "Pinnacle Research Group, LLC",
+   "city": "Anniston",
+   "state": "Alabama",
+   "country": "United States",
+   "status": null,
    "lat": 33.65983,
-   "lon": -85.83163,
-   "state": "Alabama",
-   "status": null
+   "lon": -85.83163
   },
   {
-   "city": "Cullman",
-   "country": "United States",
    "facility": "Cullman Clinical Trials",
-   "lat": 34.17482,
-   "lon": -86.84361,
+   "city": "Cullman",
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.17482,
+   "lon": -86.84361
   },
   {
-   "city": "Little Rock",
-   "country": "United States",
    "facility": "Preferred Research Partners",
-   "lat": 34.74648,
-   "lon": -92.28959,
+   "city": "Little Rock",
    "state": "Arkansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.74648,
+   "lon": -92.28959
   },
   {
-   "city": "Cerritos",
-   "country": "United States",
    "facility": "Core Healthcare Group",
+   "city": "Cerritos",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 33.85835,
-   "lon": -118.06479,
-   "state": "California",
-   "status": null
+   "lon": -118.06479
   },
   {
-   "city": "Los Angeles",
-   "country": "United States",
    "facility": "Velocity Clinical Research, Westlake",
+   "city": "Los Angeles",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.05223,
-   "lon": -118.24368,
-   "state": "California",
-   "status": null
+   "lon": -118.24368
   },
   {
-   "city": "Northridge",
-   "country": "United States",
    "facility": "Valley Clinical Trials, Inc.",
+   "city": "Northridge",
+   "state": "California",
+   "country": "United States",
+   "status": null,
    "lat": 34.22834,
-   "lon": -118.53675,
-   "state": "California",
-   "status": null
+   "lon": -118.53675
   },
   {
-   "city": "Walnut Creek",
-   "country": "United States",
    "facility": "Diablo Clinical Research, Inc.",
-   "lat": 37.90631,
-   "lon": -122.06496,
+   "city": "Walnut Creek",
    "state": "California",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.90631,
+   "lon": -122.06496
   },
   {
-   "city": "Waterbury",
-   "country": "United States",
    "facility": "Chase Medical Research, LLC",
-   "lat": 41.55815,
-   "lon": -73.0515,
+   "city": "Waterbury",
    "state": "Connecticut",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.55815,
+   "lon": -73.0515
   },
   {
-   "city": "Boca Raton",
-   "country": "United States",
    "facility": "Excel Medical Clinical Trials",
+   "city": "Boca Raton",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.35869,
-   "lon": -80.0831,
-   "state": "Florida",
-   "status": null
+   "lon": -80.0831
   },
   {
-   "city": "Brandon",
-   "country": "United States",
    "facility": "Teradan Clinical Trials, LLC",
+   "city": "Brandon",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 27.9378,
-   "lon": -82.28592,
-   "state": "Florida",
-   "status": null
+   "lon": -82.28592
   },
   {
-   "city": "Fleming Island",
-   "country": "United States",
    "facility": "Fleming Island Center for Clinical Research",
+   "city": "Fleming Island",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 30.0933,
-   "lon": -81.71898,
-   "state": "Florida",
-   "status": null
+   "lon": -81.71898
   },
   {
-   "city": "Fort Lauderdale",
-   "country": "United States",
    "facility": "Therafirst Medical Center",
+   "city": "Fort Lauderdale",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.12231,
-   "lon": -80.14338,
-   "state": "Florida",
-   "status": null
+   "lon": -80.14338
   },
   {
-   "city": "Miami",
-   "country": "United States",
    "facility": "Clinical Site Partners LLC, dba Flourish Research",
+   "city": "Miami",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
-   "city": "Miami Beach",
-   "country": "United States",
    "facility": "Quantum Clinical Trials",
+   "city": "Miami Beach",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 25.79065,
-   "lon": -80.13005,
-   "state": "Florida",
-   "status": null
+   "lon": -80.13005
   },
   {
-   "city": "Ocala",
-   "country": "United States",
    "facility": "Renstar Medical Research",
+   "city": "Ocala",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 29.1872,
-   "lon": -82.14009,
-   "state": "Florida",
-   "status": null
+   "lon": -82.14009
   },
   {
-   "city": "Pompano Beach",
-   "country": "United States",
    "facility": "Clinical Research Center of Florida",
+   "city": "Pompano Beach",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.23786,
-   "lon": -80.12477,
-   "state": "Florida",
-   "status": null
+   "lon": -80.12477
   },
   {
-   "city": "West Palm Beach",
-   "country": "United States",
    "facility": "Palm Beach Research Center",
+   "city": "West Palm Beach",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
    "lat": 26.71534,
-   "lon": -80.05337,
-   "state": "Florida",
-   "status": null
+   "lon": -80.05337
   },
   {
-   "city": "Winter Park",
-   "country": "United States",
    "facility": "Clinical Site Partners, LLC dba Flourish Research",
-   "lat": 28.6,
-   "lon": -81.33924,
+   "city": "Winter Park",
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 28.6,
+   "lon": -81.33924
   },
   {
-   "city": "Atlanta",
-   "country": "United States",
    "facility": "NeuroTrials Research Inc",
+   "city": "Atlanta",
+   "state": "Georgia",
+   "country": "United States",
+   "status": null,
    "lat": 33.749,
-   "lon": -84.38798,
-   "state": "Georgia",
-   "status": null
+   "lon": -84.38798
   },
   {
-   "city": "Rincon",
-   "country": "United States",
    "facility": "Centricity Research Rincon Pulmonology",
-   "lat": 32.29603,
-   "lon": -81.23539,
+   "city": "Rincon",
    "state": "Georgia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.29603,
+   "lon": -81.23539
   },
   {
-   "city": "Honolulu",
-   "country": "United States",
    "facility": "East-West Medical Research Institute",
-   "lat": 21.30694,
-   "lon": -157.85833,
+   "city": "Honolulu",
    "state": "Hawaii",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 21.30694,
+   "lon": -157.85833
   },
   {
-   "city": "Indianapolis",
-   "country": "United States",
    "facility": "Brengle Family Medicine",
-   "lat": 39.76838,
-   "lon": -86.15804,
+   "city": "Indianapolis",
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
-   "city": "Waltham",
-   "country": "United States",
    "facility": "MedVadis Research Corporation",
-   "lat": 42.37649,
-   "lon": -71.23561,
+   "city": "Waltham",
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.37649,
+   "lon": -71.23561
   },
   {
-   "city": "City of Saint Peters",
-   "country": "United States",
    "facility": "StudyMetrix Research",
-   "lat": 38.80033,
-   "lon": -90.62651,
+   "city": "City of Saint Peters",
    "state": "Missouri",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.80033,
+   "lon": -90.62651
   },
   {
-   "city": "Las Vegas",
-   "country": "United States",
    "facility": "Las Vegas Medical Research",
-   "lat": 36.17497,
-   "lon": -115.13722,
+   "city": "Las Vegas",
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
-   "city": "New Windsor",
-   "country": "United States",
    "facility": "Mid Hudson Medical Research",
-   "lat": 41.47676,
-   "lon": -74.02375,
+   "city": "New Windsor",
    "state": "New York",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.47676,
+   "lon": -74.02375
   },
   {
-   "city": "Monroe",
-   "country": "United States",
    "facility": "Monroe Biomedical Research",
+   "city": "Monroe",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 34.98543,
-   "lon": -80.54951,
-   "state": "North Carolina",
-   "status": null
+   "lon": -80.54951
   },
   {
-   "city": "Morehead City",
-   "country": "United States",
    "facility": "Carteret Medical Group",
-   "lat": 34.72294,
-   "lon": -76.72604,
+   "city": "Morehead City",
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.72294,
+   "lon": -76.72604
   },
   {
-   "city": "Fargo",
-   "country": "United States",
    "facility": "Lillestol Research",
-   "lat": 46.87719,
-   "lon": -96.7898,
+   "city": "Fargo",
    "state": "North Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.87719,
+   "lon": -96.7898
   },
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "CTI Clinical Research Center",
-   "lat": 39.12711,
-   "lon": -84.51439,
-   "state": "Ohio",
-   "status": null
-  },
-  {
    "city": "Cincinnati",
-   "country": "United States",
-   "facility": "Intrepid Research",
-   "lat": 39.12711,
-   "lon": -84.51439,
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
   },
   {
-   "city": "Pittsburgh",
+   "facility": "Intrepid Research",
+   "city": "Cincinnati",
+   "state": "Ohio",
    "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
+  },
+  {
    "facility": "Preferred Primary Care Physicians, Preferred Clinical Research (Ofc 18)",
+   "city": "Pittsburgh",
+   "state": "Pennsylvania",
+   "country": "United States",
+   "status": null,
    "lat": 40.44062,
-   "lon": -79.99589,
-   "state": "Pennsylvania",
-   "status": null
+   "lon": -79.99589
   },
   {
-   "city": "Uniontown",
-   "country": "United States",
    "facility": "Preferred Primary Care Physicians",
-   "lat": 39.90008,
-   "lon": -79.71643,
+   "city": "Uniontown",
    "state": "Pennsylvania",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.90008,
+   "lon": -79.71643
   },
   {
-   "city": "Greenville",
-   "country": "United States",
    "facility": "Tribe Clinical Research, LLC",
+   "city": "Greenville",
+   "state": "South Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 34.85262,
-   "lon": -82.39401,
-   "state": "South Carolina",
-   "status": null
+   "lon": -82.39401
   },
   {
-   "city": "Myrtle Beach",
-   "country": "United States",
    "facility": "Trial Management Associates",
+   "city": "Myrtle Beach",
+   "state": "South Carolina",
+   "country": "United States",
+   "status": null,
    "lat": 33.68906,
-   "lon": -78.88669,
-   "state": "South Carolina",
-   "status": null
+   "lon": -78.88669
   },
   {
-   "city": "Spartanburg",
-   "country": "United States",
    "facility": "Tribe Clinical Research - Spartanburg",
-   "lat": 34.94957,
-   "lon": -81.93205,
+   "city": "Spartanburg",
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.94957,
+   "lon": -81.93205
   },
   {
-   "city": "Austin",
-   "country": "United States",
    "facility": "FutureSearch Trials of Neurology",
+   "city": "Austin",
+   "state": "Texas",
+   "country": "United States",
+   "status": null,
    "lat": 30.26715,
-   "lon": -97.74306,
-   "state": "Texas",
-   "status": null
+   "lon": -97.74306
   },
   {
-   "city": "Dallas",
-   "country": "United States",
    "facility": "Velocity Clinical Research, Dallas",
-   "lat": 32.78306,
-   "lon": -96.80667,
+   "city": "Dallas",
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.78306,
+   "lon": -96.80667
   },
   {
-   "city": "Ogden",
-   "country": "United States",
    "facility": "Advanced Research Institute",
-   "lat": 41.223,
-   "lon": -111.97383,
+   "city": "Ogden",
    "state": "Utah",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.223,
+   "lon": -111.97383
   },
   {
-   "city": "Bellevue",
-   "country": "United States",
    "facility": "Northwest Clinical Research Center",
-   "lat": 47.61038,
-   "lon": -122.20068,
+   "city": "Bellevue",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.61038,
+   "lon": -122.20068
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05929079",

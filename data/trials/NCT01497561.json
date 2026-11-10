@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "PARTICIPANT",
    "INVESTIGATOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -52,30 +52,30 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "insulin detemir",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "insulin NPH",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "insulin detemir",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: insulin detemir"
-   ],
-   "label": "insulin detemir",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "insulin NPH",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: insulin NPH"
-   ],
-   "label": "insulin NPH",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "This trial is conducted in Europe. The aim of this trial is to investigate the pharmacodynamics and pharmacokinetics of single doses of insulin detemir and insulin NPH in subjects with type 2 diabetes.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Type 2 diabetes\n* Subjects treated with insulin for minimum 3 months\n* Duration of diabetes for at least 12 months\n* Body Mass Index (BMI) below 30 kg/m\\^2\n* HbA1c maximum 10% based on analysis from central laboratory\n\nExclusion Criteria:\n\n* Current treatment with insulin above 1.2 U/kg/day\n* Current treatment with insulin glargine\n* Current treatment with drugs known to interfere with glucose metabolism\n* Current treatment with oral antidiabetic drugs",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Graz",
-   "country": "Germany",
    "facility": "Novo Nordisk Investigational Site",
-   "lat": null,
-   "lon": null,
+   "city": "Graz",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": null,
+   "lon": null
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01497561",

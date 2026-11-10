@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "OUTCOMES_ASSESSOR"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University Hospital Sestre Milosrdnice"
+  "name": "University Hospital Sestre Milosrdnice",
+  "class": "OTHER"
  },
  "collaborators": [
   "University of Zagreb"
@@ -54,39 +54,39 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Semaglutide",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "standard of care",
    "other_names": [
     "Metformin, Sulfonylureas, Sodium-glucose cotransporter-2 inhibitors, pioglitazone"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: standard of care"
-   ],
    "label": "Type 2 diabetic patients without disordered eating behaviour",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: standard of care"
-   ],
-   "label": "Type 2 diabetic patients with disordered eating behaviour A",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Type 2 diabetic patients with disordered eating behaviour A",
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Drug: standard of care"
+   ]
+  },
+  {
+   "label": "Type 2 diabetic patients with disordered eating behaviour B",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Semaglutide"
-   ],
-   "label": "Type 2 diabetic patients with disordered eating behaviour B",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -98,10 +98,10 @@
  "brief_summary": "The aim of this study is to evaluate the effect of glucagon-like peptide-1 (GLP-1) receptor agonist semaglutide on disordered eating behaviour in patients with overweight and type 2 diabetes. The investigators will also evaluate serum concentrations of incretin hormones GLP-1 and glucose-dependent insulinotropic polypeptide (GIP), as well as glucose variability using continuous glucose monitoring (CGM) devices before and after semaglutide, and determine his influence on eating disorders.\n\nIn this prospective study the investigators aim to recruit 60 patients with type 2 diabetes and randomize them based on the presence of a disordered eating behaviour diagnosed by a validated questionnaire (1:1). Patients with a disordered eating behaviour will further be randomized (1:1) to receive semaglutide. At baseline and after 12 weeks of semaglutide therapy, the investigators will reevaluate glucose variability over 14 days using a continuous glucose monitoring device (CGM).\n\nWith this study the investigators will determine the impact of GLP-1 receptor agonist semaglutide on disordered eating behaviour in patients with overweight and type 2 diabetes. This study will contribute to the knowledge about the role of incretin hormones and glucose variability in eating disorders in this population of patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* type 2 diabetes, age 18-65, BMI ≥28 kg/m2, HbA1c\\>7%, glp-1 receptor agonist naïve\n\nExclusion Criteria:\n\n* hepatic impairment (Child Pugh score C), renal impairment (eGFR\\<30 ml/min), use of medication that affect eating (GLP-1 receptor agonists, antidepressants, antiobesity medications, glucocorticoids, insulin, oral contraceptives, hormonal therapy), conditions that can affect eating (hypothyroidism, hyperthyroidism, Cushing syndrome, acromegaly, adrenal insufficiency, pregnancy, breastfeeding), contraindications for semaglutide",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -109,13 +109,13 @@
  },
  "sites": [
   {
-   "city": "Zagreb",
-   "country": "Croatia",
    "facility": "UH Sestre milosrdnice",
-   "lat": 45.81444,
-   "lon": 15.97798,
+   "city": "Zagreb",
    "state": null,
-   "status": null
+   "country": "Croatia",
+   "status": null,
+   "lat": 45.81444,
+   "lon": 15.97798
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06243536",

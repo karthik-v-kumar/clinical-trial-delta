@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Leiden University Medical Center"
+  "name": "Leiden University Medical Center",
+  "class": "OTHER"
  },
  "collaborators": [
   "Novo Nordisk A/S"
@@ -59,6 +59,7 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Liraglutide",
    "other_names": [
     "Trade name: Victoza",
@@ -67,31 +68,30 @@
     "Marketing Authorisation number: EU/1/09/529/001",
     "ATC code: A10BX07",
     "CAS number 204656-20-2"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Liraglutide - Placebo",
    "other_names": [
     "Placebo"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Liraglutide",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Liraglutide"
-   ],
-   "label": "Liraglutide",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Liraglutide-placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Liraglutide - Placebo"
-   ],
-   "label": "Liraglutide-placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -143,10 +143,10 @@
  "brief_summary": "The most important cause of mortality amongst DM2 patients is cardiovascular disease. An early finding of cardiovascular disease in DM2 and obesity is diastolic dysfunction. Diastolic dysfunction is an independent predictor of mortality and has been shown to improve in patients on a low calorie diet. The improvement of diastolic function was associated with a reduction in triglyceride accumulation in the heart and liver. A relatively new widely prescribed therapeutic agent for DM2 patients is Liraglutide (Victoza®). Liraglutide is a Glucagon Like Peptide - 1 homologue that improves glucose homeostasis and reduces blood pressure and body weight. Next to the induction of weight loss, which is potentially beneficial for cardiac function, GLP-1 therapy might have a direct advantageous effect on the cardiovascular system. However, the effect of Liraglutide on cardiovascular function has not been investigated yet. The investigators hypothesize that treatment of DM2 patients with Liraglutide is associated with improvement of cardiovascular function and a reduction of triglyceride accumulation in end-organs.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Informed consent\n* Age \\> 18 years and \\< 70 years\n* BMI \\> 25 kg/m2\n* DM2 treated with metformin, metformin + SU derivative, metformin + SU derivative + insulin, or metformin + insulin for at least 3 months in the maximum tolerable dosage\n* HbA1c ≥7% and ≤ 10.0 %\n* EGFR \\> 60 ml/min\n* Normal sitting blood pressure \\< 150/85 mm Hg and stable for at least one month\n\nExclusion Criteria:\n\n* Use of thiazolidinediones (TZD), GLP-1 analogues, DPP-IV inhibitors, fibrates, prednisone, cytostatic or antiretroviral therapy within 6 months prior to the study\n* Hereditary lipoprotein disease\n* Psychiatric disorders and / or use of antipsychotic or antidepressant drugs at present or in the past\n* Hepatic disease (AST/ALT \\> 2 times reference values)\n* Endocrine disease other than diabetes mellitus type 2\n* History or presence of cardiovascular disease\n* Any significant chronic disease (e.g. inflammatory bowel disease)\n* Any significant abnormal laboratory results found during the medical screening procedure\n* Gastrointestinal surgery (e.g. gastric bypass)\n* Pregnant woman or a woman who is breast-feeding\n* Female of child-bearing potential intending to become pregnant or is not using adequate contraceptive methods while sexually active\n* Allergy to intravenous contrast\n* Known or suspected hypersensitivity to trial products or related products\n* Chronic pancreatitis or previous acute pancreatitis\n* Personal history or family history of medullary thyroid carcinoma or personal history of multiple endocrine neoplasia type 2\n* Claustrophobia\n* Metal implants or other contraindications for MRI\n* Recent participation in other research projects within the last 3 months or participation in 2 or more projects in one year",
-  "healthy_volunteers": false,
-  "maximum_age": "69 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "69 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -154,13 +154,13 @@
  },
  "sites": [
   {
-   "city": "Leiden",
-   "country": "Netherlands",
    "facility": "Leiden University Medical Center",
-   "lat": 52.15833,
-   "lon": 4.49306,
+   "city": "Leiden",
    "state": null,
-   "status": null
+   "country": "Netherlands",
+   "status": null,
+   "lat": 52.15833,
+   "lon": 4.49306
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01761318",

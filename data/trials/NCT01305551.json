@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "SINGLE_GROUP",
-  "masking": "NONE",
   "primary_purpose": null,
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "AstraZeneca"
+  "name": "AstraZeneca",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -48,57 +48,57 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Saxagliptin",
    "other_names": [
     "Onglyza"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Metformin XR",
    "other_names": [
     "Glifage XR"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Saxagliptin/Metformin XR FDC",
    "other_names": [
     "Onglyza/Glucophage"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Drug: Saxagliptin",
-    "Drug: Metformin XR"
-   ],
    "label": "Treatment A-Saxagliptin+Metformin XR",
-   "type": "EXPERIMENTAL"
-  },
-  {
-   "intervention_names": [
-    "Drug: Saxagliptin/Metformin XR FDC"
-   ],
-   "label": "Treatment B-Saxagliptin/Metformin XR FDC",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Saxagliptin",
     "Drug: Metformin XR"
-   ],
-   "label": "Treatment C-Saxagliptin+Metformin XR",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Treatment B-Saxagliptin/Metformin XR FDC",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Saxagliptin/Metformin XR FDC"
-   ],
+   ]
+  },
+  {
+   "label": "Treatment C-Saxagliptin+Metformin XR",
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Saxagliptin",
+    "Drug: Metformin XR"
+   ]
+  },
+  {
    "label": "Treatment D-Saxagliptin/Metformin XR FDC",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Drug: Saxagliptin/Metformin XR FDC"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -126,23 +126,23 @@
  "brief_summary": "The purpose of this study is to demonstrate the bioequivalence (BE) of Saxagliptin and Metformin from a 5 mg Saxagliptin/500 mg Metformin extended release (XR) fixed dose combination (FDC) tablet relative to 5 mg Onglyza™ and 500 mg Glifage® XR (marketed in Brazil by Merck S.A.) tablets administered together in both the fasted and fed states.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Healthy men and women\n* Women of childbearing potential (WOCBP) who are using acceptable method of contraception\n* Women who are not nursing\n\nExclusion Criteria:\n\n* History of Gastrointestinal (GI) disease\n* Any GI surgery that could impact study drug absorption\n* History of allergy to drug class or related compounds\n* History of allergy to metformin or other similar acting agents.\n* History of any significant drug allergy.\n* Estimated creatinine clearance (ClCr) \\< 80 mL/min using Cockcroft-Gault formula",
-  "healthy_volunteers": true,
-  "maximum_age": "55 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "55 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Campinas",
-   "country": "Brazil",
    "facility": "Local Institution",
-   "lat": -22.90556,
-   "lon": -47.06083,
+   "city": "Campinas",
    "state": "São Paulo",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -22.90556,
+   "lon": -47.06083
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01305551",

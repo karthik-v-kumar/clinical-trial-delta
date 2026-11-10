@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Seoul National University Bundang Hospital"
+  "name": "Seoul National University Bundang Hospital",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -51,34 +51,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Empagliflozin 10 MG",
    "other_names": [
     "SGLT2 inhibitor"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Hypoglycemics Oral",
    "other_names": [
     "Oral antidiabetic medication escalation"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Control group",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Hypoglycemics Oral"
-   ],
-   "label": "Control group",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Study group",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Empagliflozin 10 MG"
-   ],
-   "label": "Study group",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "The purpose of this study is to evaluate changes of body composition induced by Sodium-glucose cotransporter-2 (SGLT2) inhibitor and its metabolic consequence in Korean type 2 diabetes (T2D).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\nPatients with type 2 diabetes Age: 20-79 years BMI ≥ 20 kg/m2 eGFR ≥ 45\n\nExclusion Criteria:\n\nPatients with type 1 diabetes Secondary diabetes due to Cushing diseases, acromegaly Insulin user BMI \\< 20 kg/m2 eGFR \\< 45 Malignancy",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Seongnam-si",
-   "country": "South Korea",
    "facility": "Seoul National University Bundang Hospital",
-   "lat": 37.43861,
-   "lon": 127.13778,
+   "city": "Seongnam-si",
    "state": "Gyeonggi-do",
-   "status": "RECRUITING"
+   "country": "South Korea",
+   "status": "RECRUITING",
+   "lat": 37.43861,
+   "lon": 127.13778
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03877406",

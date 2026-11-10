@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Sao Paulo General Hospital"
+  "name": "University of Sao Paulo General Hospital",
+  "class": "OTHER"
  },
  "collaborators": [
   "InCor Heart Institute"
@@ -54,34 +54,34 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "sitagliptin OR saxagliptin",
    "other_names": [
     "januvia ® OR onglyza ®"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "placebo",
    "other_names": [
     "PBO"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "treatment: DPP4 -i",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: sitagliptin OR saxagliptin"
-   ],
-   "label": "treatment: DPP4 -i",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "control",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ],
-   "label": "control",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Cardiovascular events are the main cause of mortality in diabetic patients ,on the other hand,during an acute myocardial infarction(AMI),hyperglycemia increases mortality and is related to different pathophysiologic processes.\n\nMore important evidence regarding the effect of glycemic control on AMI patients prognosis is contradictory,and the potential benefits of dipeptidyl peptidase-4 inhibitors(DPP4-i) in this setting is unknown.\n\nThe aim of this study is to assess the presence of pleiotropic effects of DPP4-i(sitagliptin or saxagliptin) and their relationship with glycemic control during in-hospital phase of AMI.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* previous diagnosis of type 2 diabetes mellitus,with treatment including insulin and/or oral antidiabetic agent;\n* subjects without previous diagnosis of diabetes,but HbA1c admission \\>= 6,5% during current hospital-stay\n* AMI with or without ST-elevation;\n* use of double antiplatelet therapy;\n* signed informed consent term\n\nExclusion Criteria:\n\n* GFR \\<30 ml/min;\n* use of DPP4 inhibitors or glucagon- like peptide-1(GLP1) analogue in the past 6 months;\n* use of strong inhibitors of cytochrome P450(CYP3A4/5) ou glucocorticoids;\n* severe systemic decompensation requiring insulin infusion;\n* Killip classification of myocardial infarction grade \\>2;\n* previous history of pancreatitis",
-  "healthy_volunteers": false,
-  "maximum_age": null,
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": null,
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "city": "São Paulo",
-   "country": "Brazil",
    "facility": "Heart Institute(InCor)-Acute Coronary Care Unit",
-   "lat": -23.5475,
-   "lon": -46.63611,
+   "city": "São Paulo",
    "state": "São Paulo",
-   "status": null
+   "country": "Brazil",
+   "status": null,
+   "lat": -23.5475,
+   "lon": -46.63611
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02377388",

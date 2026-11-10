@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "TREATMENT",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER_GOV",
-  "name": "Moscow Regional Research and Clinical Institute (MONIKI)"
+  "name": "Moscow Regional Research and Clinical Institute (MONIKI)",
+  "class": "OTHER_GOV"
  },
  "collaborators": [
   "Botkin Hospital",
@@ -52,43 +52,43 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "SGLT2 inhibitor",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "GLP-1 RA",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [],
    "label": "Control",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   },
   {
+   "label": "SGLT2 inhibitor",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: SGLT2 inhibitor"
-   ],
-   "label": "SGLT2 inhibitor",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "GLP-1 RA",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: GLP-1 RA"
-   ],
-   "label": "GLP-1 RA",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "SGLT2 inhibitor + GLP-1 RA",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: SGLT2 inhibitor",
     "Drug: GLP-1 RA"
-   ],
-   "label": "SGLT2 inhibitor + GLP-1 RA",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -100,10 +100,10 @@
  "brief_summary": "Background. Metabolic dysfunction-associated fatty liver disease (MAFLD/MASLD) is highly prevalent in patients with type 2 diabetes mellitus (T2DM) and is associated with insulin resistance. Adiponectin, particularly its high-molecular-weight (HMW) form, is a promising biomarker of metabolic status. However, its role in predicting response to antidiabetic therapy remains unclear.\n\nObjective. To evaluate the association between circulating HMW-adiponectin levels and the clinical course of MAFLD in patients with T2DM receiving different treatment regimens: glucagon-like peptide-1 receptor agonists (GLP-1 RAs), sodium-glucose cotransporter-2 inhibitors (SGLT2 inhibitors), and their combination.\n\nStudy Design. Open-label randomized controlled trial.\n\nPopulation. Adults aged 40-65 years with confirmed T2DM and MAFLD, body mass index 25-39.9 kg/m², with glycated hemoglobin exceeding the target by no more than 1%.\n\nInterventions. Patients were randomized into three intervention groups (n=30 each): SGLT2 inhibitor monotherapy, GLP-1 RA monotherapy, or combination therapy. A control group (n=40) received no drug therapy for MAFLD.\n\nOutcome Measures. Primary outcome: change in serum HMW-adiponectin levels from baseline to 6 months. Secondary outcome: change in liver steatosis measured by Controlled Attenuation Parameter (CAP).\n\nTimeframe. Follow-up duration: 6 months.\n\nConclusion. This study will determine whether baseline HMW-adiponectin levels predict the reduction in liver steatosis in response to SGLT2 inhibitors, GLP-1 RAs, or their combination in patients with T2DM and MAFLD/MASLD.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Written informed consent of the patient to participate in the study\n* Glycated hemoglobin level exceeding the target by no more than 1%.\n* Age 40 to 65 years inclusive\n* Verified diagnosis of MAFLD, according to the criteria of EASL 2020,\n* Confirmed diagnosis of type 2 diabetes mellitus\n* Body mass index (BMI) 25-39.9 kg/m2\n* Refusal to take any dietary supplements\n\nNon-inclusion criteria:\n\n* Chronic alcohol abuse (alcoholic fatty liver disease)\n* Insulin-dependent diabetes\n* Use of hepatoprotective agents\n* High risk of atherosclerotic cardiovascular disease (age \\> 55 years with coronary, carotid, or lower extremity artery stenosis, or left ventricular hypertrophy)\n* Chronic kidney disease\n* Chronic heart failure\n\nExclusion Criteria:\n\n* Patient withdrawal of consent\n* Pregnancy (if applicable)\n* Decompensation of diabetes during therapy\n* Development of adverse events associated with therapy.",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -111,13 +111,13 @@
  },
  "sites": [
   {
-   "city": "Moscow",
-   "country": "Russia",
    "facility": "Moscow Regional Research and Clinical Institute",
-   "lat": 55.75204,
-   "lon": 37.61781,
+   "city": "Moscow",
    "state": null,
-   "status": null
+   "country": "Russia",
+   "status": null,
+   "lat": 55.75204,
+   "lon": 37.61781
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07539584",

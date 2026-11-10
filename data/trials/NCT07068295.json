@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "CROSSOVER",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Novo Nordisk A/S"
+  "name": "Novo Nordisk A/S",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,32 +53,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "NNC0471-0119 H",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Insulin Aspart",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "NNC0471-0119 H then Insulin Aspart",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: NNC0471-0119 H",
     "Drug: Insulin Aspart"
-   ],
-   "label": "NNC0471-0119 H then Insulin Aspart",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Insulin Aspart then NNC0471-0119 H",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: NNC0471-0119 H",
     "Drug: Insulin Aspart"
-   ],
-   "label": "Insulin Aspart then NNC0471-0119 H",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -90,10 +90,10 @@
  "brief_summary": "This study looks at the effect and safety of a new fast-acting insulin (NNC0471-0119) in people with type 2 diabetes when given by an insulin pump. The study tests how fast insulin NNC0471-0119 enters bloodstream, how long it stays there and how much it lowers blood sugar. The new insulin NNC0471-0119 will be compared to insulin aspart. The study will last for about 13-67 days (or a half to 2 months).",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female (sex at birth).\n* Age 18-69 years (both inclusive) at the time of signing the informed consent.\n* Diagnosed with Type 2 Diabetes (T2D) greater than or equal to (≥) 180 days before screening.\n* Treated with any injectable insulin, except once-weekly insulin, ≥ 180 days before screening.\n* Current daily insulin treatment between 0.2 and 1.2 Insulin units per kilogram per day \\[(I) U/kg/day\\] (both inclusive) with or without the following anti-diabetic drugs with stable doses ≥ 90 days prior to the day of screening:\n* Any metformin formulation\n* Dipeptidyl peptidase-4 inhibitor (DPP4i)\n* Sodium-glucose Cotransporter-2 inhibitor (SGLT2i)\n* Body mass index (BMI) between 18.5 and 34.9 kg/m2 (both inclusive) at screening.\n* HbA1c lesser than or equal to (≤) 9.5%\n\nExclusion Criteria:\n\n* Known or suspected hypersensitivity to study intervention(s) or related products.\n* Female who is pregnant, breast-feeding or intends to become pregnant or is of child-bearing potential and not using adequate contraceptive methods.",
-  "healthy_volunteers": false,
-  "maximum_age": "69 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "69 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -101,13 +101,13 @@
  },
  "sites": [
   {
-   "city": "Neuss",
-   "country": "Germany",
    "facility": "Profil Institut für Stoffwechselforschung GmbH",
-   "lat": 51.19807,
-   "lon": 6.68504,
+   "city": "Neuss",
    "state": null,
-   "status": null
+   "country": "Germany",
+   "status": null,
+   "lat": 51.19807,
+   "lon": 6.68504
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07068295",

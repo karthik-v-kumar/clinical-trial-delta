@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "IlDong Pharmaceutical Co Ltd"
+  "name": "IlDong Pharmaceutical Co Ltd",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,35 +53,35 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Rosuvastatin",
    "other_names": [
     "Crestor Tab."
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Fenofibrate",
    "other_names": [
     "Lipidil supra Tab."
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Experimental",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Rosuvastatin",
     "Drug: Fenofibrate"
-   ],
-   "label": "Experimental",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Comparator",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Rosuvastatin"
-   ],
-   "label": "Comparator",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -93,10 +93,10 @@
  "brief_summary": "Efficacy and safety of combination therapy of rosuvastatin and fenofibrate versus rosuvastatin monotherapy in mixed dyslipidemia patients: A randomized, multi-center, double-blind, phase 3 study",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* 19 \\~ 80 years old\n* High risk patient to Coronary Heart Disease\n* At Visit 1(Screening)\n\n  1. Treated with Rosuvastatin 10mg monotherapy 4weeks prior to this study\n  2. 110 mg/dl ≥ LDL-C, 200 mg/dl ≤ TG ≤ 500 mg/dl\n* At Visit 2 (Baseline), 110 mg/dl ≥ LDL-C, 200 mg/dl ≤ TG ≤ 500 mg/dl\n\nExclusion Criteria:\n\n* AST or ALT \\> 2X ULN\n* Patients with uncontrolled hyperthyroidism (TSH\\>1.5X ULN)\n* Patients with uncontrolled diabetes (HbA1c ≥ 9%)\n* Patients with uncontrolled hypertension(SBP\\>160mmHg or DBP\\>95mmHg)\n* Patients with congestive heart failure(NYHA class III\\~IV) or uncontrolled arrhythmia within 6 months\n* Patients treated with any investigational drugs within 3 months at the time consents are obtained\n* Not eligible to participate for the study at the discretion of investigator",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "19 Years",
   "sex": "ALL",
+  "minimum_age": "19 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -104,13 +104,13 @@
  },
  "sites": [
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Ildong Pharm.",
-   "lat": 37.566,
-   "lon": 126.9784,
+   "city": "Seoul",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT02262143",

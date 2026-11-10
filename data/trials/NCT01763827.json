@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2015-12-30",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Amgen"
+  "name": "Amgen",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,79 +53,79 @@
  ],
  "interventions": [
   {
+   "type": "BIOLOGICAL",
    "name": "Evolocumab",
    "other_names": [
     "AMG 145",
     "Repatha"
-   ],
-   "type": "BIOLOGICAL"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Ezetimibe",
    "other_names": [
     "Zetia"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "BIOLOGICAL",
    "name": "Placebo to Evolocumab",
-   "other_names": [],
-   "type": "BIOLOGICAL"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Placebo to Ezetimibe",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Biological: Placebo to Evolocumab",
-    "Other: Placebo to Ezetimibe"
-   ],
    "label": "Placebo Q2W",
-   "type": "PLACEBO_COMPARATOR"
-  },
-  {
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Biological: Placebo to Evolocumab",
     "Other: Placebo to Ezetimibe"
-   ],
+   ]
+  },
+  {
    "label": "Placebo QM",
-   "type": "PLACEBO_COMPARATOR"
+   "type": "PLACEBO_COMPARATOR",
+   "intervention_names": [
+    "Biological: Placebo to Evolocumab",
+    "Other: Placebo to Ezetimibe"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: Ezetimibe",
-    "Biological: Placebo to Evolocumab"
-   ],
    "label": "Ezetimibe (Q2W)",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Ezetimibe",
     "Biological: Placebo to Evolocumab"
-   ],
+   ]
+  },
+  {
    "label": "Ezetimibe (QM)",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: Ezetimibe",
+    "Biological: Placebo to Evolocumab"
+   ]
   },
   {
-   "intervention_names": [
-    "Biological: Evolocumab",
-    "Other: Placebo to Ezetimibe"
-   ],
    "label": "Evolocumab Q2W",
-   "type": "EXPERIMENTAL"
-  },
-  {
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Biological: Evolocumab",
     "Other: Placebo to Ezetimibe"
-   ],
+   ]
+  },
+  {
    "label": "Evolocumab QM",
-   "type": "EXPERIMENTAL"
+   "type": "EXPERIMENTAL",
+   "intervention_names": [
+    "Biological: Evolocumab",
+    "Other: Placebo to Ezetimibe"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -141,10 +141,10 @@
  "brief_summary": "The primary objective was to evaluate the effect of 12 weeks of evolocumab subcutaneous (SC) monotherapy every 2 weeks (Q2W) and monthly (QM), compared with placebo and ezetimibe, on percent change from baseline in low-density lipoprotein cholesterol (LDL-C) in adults with a 10-year Framingham risk score of 10% or less.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Male or female ≥ 18 to ≤ 80 years of age\n* National Cholesterol Education Program Adult Treatment Panel III (NCEP ATP III) Framingham risk score of 10% or less\n* Fasting LDL-C ≥ 100 mg/dL (2.6 mmol/L) and \\<190 mg/dL\n* Fasting triglycerides ≤ 400 mg/dL (4.5 mmol/L)\n\nExclusion Criteria:\n\n* History of coronary heart disease\n* New York Heart Association (NYHA) III or IV heart failure\n* Uncontrolled cardiac arrhythmia\n* Uncontrolled hypertension\n* Diabetes mellitus (Type 1 diabetes, poorly controlled type 2 diabetes)\n* Uncontrolled hypothyroidism or hyperthyroidism",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -152,751 +152,751 @@
  },
  "sites": [
   {
+   "facility": "Research Site",
    "city": "Darlinghurst",
+   "state": "New South Wales",
    "country": "Australia",
-   "facility": "Research Site",
+   "status": null,
    "lat": -33.87939,
-   "lon": 151.21925,
-   "state": "New South Wales",
-   "status": null
+   "lon": 151.21925
   },
   {
+   "facility": "Research Site",
    "city": "Maroubra",
-   "country": "Australia",
-   "facility": "Research Site",
-   "lat": -33.95,
-   "lon": 151.23333,
    "state": "New South Wales",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -33.95,
+   "lon": 151.23333
   },
   {
+   "facility": "Research Site",
    "city": "Carina Heights",
+   "state": "Queensland",
    "country": "Australia",
-   "facility": "Research Site",
+   "status": null,
    "lat": -27.50721,
-   "lon": 153.09126,
-   "state": "Queensland",
-   "status": null
+   "lon": 153.09126
   },
   {
+   "facility": "Research Site",
    "city": "Sherwood",
-   "country": "Australia",
-   "facility": "Research Site",
-   "lat": -27.53034,
-   "lon": 152.98216,
    "state": "Queensland",
-   "status": null
+   "country": "Australia",
+   "status": null,
+   "lat": -27.53034,
+   "lon": 152.98216
   },
   {
+   "facility": "Research Site",
    "city": "Anthée",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 50.24018,
-   "lon": 4.76197,
-   "state": null,
-   "status": null
+   "lon": 4.76197
   },
   {
+   "facility": "Research Site",
    "city": "Brussels",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 50.85045,
-   "lon": 4.34878,
-   "state": null,
-   "status": null
+   "lon": 4.34878
   },
   {
+   "facility": "Research Site",
    "city": "Gozée",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 50.33461,
-   "lon": 4.35273,
-   "state": null,
-   "status": null
+   "lon": 4.35273
   },
   {
+   "facility": "Research Site",
    "city": "Gribomont",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 49.82166,
-   "lon": 5.3243,
-   "state": null,
-   "status": null
+   "lon": 5.3243
   },
   {
+   "facility": "Research Site",
    "city": "Halen",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 50.94837,
-   "lon": 5.11096,
-   "state": null,
-   "status": null
+   "lon": 5.11096
   },
   {
+   "facility": "Research Site",
    "city": "Ham",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 50.94066,
-   "lon": 3.45852,
-   "state": null,
-   "status": null
+   "lon": 3.45852
   },
   {
+   "facility": "Research Site",
    "city": "Linkebeek",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 50.76781,
-   "lon": 4.33688,
-   "state": null,
-   "status": null
+   "lon": 4.33688
   },
   {
+   "facility": "Research Site",
    "city": "Retie",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 51.26652,
-   "lon": 5.08242,
-   "state": null,
-   "status": null
+   "lon": 5.08242
   },
   {
+   "facility": "Research Site",
    "city": "Tessenderlo",
+   "state": null,
    "country": "Belgium",
-   "facility": "Research Site",
+   "status": null,
    "lat": 51.06513,
-   "lon": 5.08856,
-   "state": null,
-   "status": null
+   "lon": 5.08856
   },
   {
+   "facility": "Research Site",
    "city": "Bay Roberts",
+   "state": "Newfoundland and Labrador",
    "country": "Canada",
-   "facility": "Research Site",
+   "status": null,
    "lat": 47.59989,
-   "lon": -53.26478,
-   "state": "Newfoundland and Labrador",
-   "status": null
+   "lon": -53.26478
   },
   {
+   "facility": "Research Site",
    "city": "Mount Pearl",
-   "country": "Canada",
-   "facility": "Research Site",
-   "lat": 47.51659,
-   "lon": -52.78135,
    "state": "Newfoundland and Labrador",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 47.51659,
+   "lon": -52.78135
   },
   {
+   "facility": "Research Site",
    "city": "Toronto",
-   "country": "Canada",
-   "facility": "Research Site",
-   "lat": 43.65333,
-   "lon": -79.38389,
    "state": "Ontario",
-   "status": null
-  },
-  {
-   "city": "Granby",
    "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
+  },
+  {
    "facility": "Research Site",
-   "lat": 45.40008,
-   "lon": -72.73243,
+   "city": "Granby",
    "state": "Quebec",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 45.40008,
+   "lon": -72.73243
   },
   {
+   "facility": "Research Site",
    "city": "Aalborg",
+   "state": null,
    "country": "Denmark",
-   "facility": "Research Site",
+   "status": null,
    "lat": 57.048,
-   "lon": 9.9187,
-   "state": null,
-   "status": null
+   "lon": 9.9187
   },
   {
+   "facility": "Research Site",
    "city": "Ballerup Municipality",
+   "state": null,
    "country": "Denmark",
-   "facility": "Research Site",
+   "status": null,
    "lat": 55.73165,
-   "lon": 12.36328,
-   "state": null,
-   "status": null
+   "lon": 12.36328
   },
   {
+   "facility": "Research Site",
    "city": "Vejle",
+   "state": null,
    "country": "Denmark",
-   "facility": "Research Site",
+   "status": null,
    "lat": 55.70927,
-   "lon": 9.5357,
-   "state": null,
-   "status": null
+   "lon": 9.5357
   },
   {
+   "facility": "Research Site",
    "city": "Gières",
+   "state": null,
    "country": "France",
-   "facility": "Research Site",
+   "status": null,
    "lat": 45.17997,
-   "lon": 5.78935,
-   "state": null,
-   "status": null
+   "lon": 5.78935
   },
   {
+   "facility": "Research Site",
    "city": "Grenoble",
+   "state": null,
    "country": "France",
-   "facility": "Research Site",
+   "status": null,
    "lat": 45.17869,
-   "lon": 5.71479,
-   "state": null,
-   "status": null
+   "lon": 5.71479
   },
   {
+   "facility": "Research Site",
    "city": "Bloemfontein",
+   "state": null,
    "country": "South Africa",
-   "facility": "Research Site",
+   "status": null,
    "lat": -29.12107,
-   "lon": 26.214,
-   "state": null,
-   "status": null
+   "lon": 26.214
   },
   {
+   "facility": "Research Site",
    "city": "Alberton",
+   "state": "Gauteng",
    "country": "South Africa",
-   "facility": "Research Site",
+   "status": null,
    "lat": -26.26786,
-   "lon": 28.12225,
-   "state": "Gauteng",
-   "status": null
+   "lon": 28.12225
   },
   {
+   "facility": "Research Site",
    "city": "Johannesburg",
-   "country": "South Africa",
-   "facility": "Research Site",
-   "lat": -26.20227,
-   "lon": 28.04363,
    "state": "Gauteng",
-   "status": null
+   "country": "South Africa",
+   "status": null,
+   "lat": -26.20227,
+   "lon": 28.04363
   },
   {
+   "facility": "Research Site",
    "city": "Parow",
+   "state": "Western Cape",
    "country": "South Africa",
-   "facility": "Research Site",
+   "status": null,
    "lat": -33.89723,
-   "lon": 18.59992,
-   "state": "Western Cape",
-   "status": null
+   "lon": 18.59992
   },
   {
+   "facility": "Research Site",
    "city": "Somerset West",
+   "state": "Western Cape",
    "country": "South Africa",
-   "facility": "Research Site",
+   "status": null,
    "lat": -34.08401,
-   "lon": 18.82113,
-   "state": "Western Cape",
-   "status": null
+   "lon": 18.82113
   },
   {
+   "facility": "Research Site",
    "city": "Worcester",
-   "country": "South Africa",
-   "facility": "Research Site",
-   "lat": -33.64651,
-   "lon": 19.44852,
    "state": "Western Cape",
-   "status": null
+   "country": "South Africa",
+   "status": null,
+   "lat": -33.64651,
+   "lon": 19.44852
   },
   {
-   "city": "Seoul",
-   "country": "South Korea",
    "facility": "Research Site",
-   "lat": 37.566,
-   "lon": 126.9784,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Seoul",
-   "country": "South Korea",
-   "facility": "Research Site",
-   "lat": 37.566,
-   "lon": 126.9784,
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
+   "facility": "Research Site",
    "city": "Seoul",
-   "country": "South Korea",
-   "facility": "Research Site",
-   "lat": 37.566,
-   "lon": 126.9784,
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
   },
   {
+   "facility": "Research Site",
+   "city": "Seoul",
+   "state": null,
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.566,
+   "lon": 126.9784
+  },
+  {
+   "facility": "Research Site",
    "city": "Kaohsiung City",
-   "country": "Taiwan",
-   "facility": "Research Site",
-   "lat": 22.61626,
-   "lon": 120.31333,
    "state": null,
-   "status": null
+   "country": "Taiwan",
+   "status": null,
+   "lat": 22.61626,
+   "lon": 120.31333
   },
   {
+   "facility": "Research Site",
    "city": "Kaohsiung City",
-   "country": "Taiwan",
-   "facility": "Research Site",
-   "lat": 22.61626,
-   "lon": 120.31333,
    "state": null,
-   "status": null
+   "country": "Taiwan",
+   "status": null,
+   "lat": 22.61626,
+   "lon": 120.31333
   },
   {
+   "facility": "Research Site",
    "city": "Taipei",
+   "state": null,
    "country": "Taiwan",
-   "facility": "Research Site",
+   "status": null,
    "lat": 25.05306,
-   "lon": 121.52639,
-   "state": null,
-   "status": null
+   "lon": 121.52639
   },
   {
-   "city": "Istanbul",
-   "country": "Turkey (Türkiye)",
    "facility": "Research Site",
-   "lat": 41.01384,
-   "lon": 28.94966,
-   "state": null,
-   "status": null
-  },
-  {
    "city": "Istanbul",
-   "country": "Turkey (Türkiye)",
-   "facility": "Research Site",
-   "lat": 41.01384,
-   "lon": 28.94966,
    "state": null,
-   "status": null
+   "country": "Turkey (Türkiye)",
+   "status": null,
+   "lat": 41.01384,
+   "lon": 28.94966
   },
   {
+   "facility": "Research Site",
+   "city": "Istanbul",
+   "state": null,
+   "country": "Turkey (Türkiye)",
+   "status": null,
+   "lat": 41.01384,
+   "lon": 28.94966
+  },
+  {
+   "facility": "Research Site",
    "city": "Birmingham",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 33.52066,
-   "lon": -86.80249,
    "state": "Alabama",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.52066,
+   "lon": -86.80249
   },
   {
+   "facility": "Research Site",
    "city": "Chandler",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 33.30616,
-   "lon": -111.84125,
    "state": "Arizona",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 33.30616,
+   "lon": -111.84125
   },
   {
+   "facility": "Research Site",
    "city": "Little Rock",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 34.74648,
-   "lon": -92.28959,
    "state": "Arkansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.74648,
+   "lon": -92.28959
   },
   {
+   "facility": "Research Site",
    "city": "Carmichael",
+   "state": "California",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 38.61713,
-   "lon": -121.32828,
-   "state": "California",
-   "status": null
+   "lon": -121.32828
   },
   {
+   "facility": "Research Site",
    "city": "Encinitas",
+   "state": "California",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 33.03699,
-   "lon": -117.29198,
-   "state": "California",
-   "status": null
+   "lon": -117.29198
   },
   {
+   "facility": "Research Site",
    "city": "San Diego",
+   "state": "California",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 32.71571,
-   "lon": -117.16472,
-   "state": "California",
-   "status": null
+   "lon": -117.16472
   },
   {
+   "facility": "Research Site",
    "city": "Tustin",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 33.74585,
-   "lon": -117.82617,
    "state": "California",
-   "status": null
-  },
-  {
-   "city": "Jacksonville",
    "country": "United States",
-   "facility": "Research Site",
-   "lat": 30.33218,
-   "lon": -81.65565,
-   "state": "Florida",
-   "status": null
+   "status": null,
+   "lat": 33.74585,
+   "lon": -117.82617
   },
   {
+   "facility": "Research Site",
    "city": "Jacksonville",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 30.33218,
-   "lon": -81.65565,
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 30.33218,
+   "lon": -81.65565
   },
   {
+   "facility": "Research Site",
+   "city": "Jacksonville",
+   "state": "Florida",
+   "country": "United States",
+   "status": null,
+   "lat": 30.33218,
+   "lon": -81.65565
+  },
+  {
+   "facility": "Research Site",
    "city": "Miami",
+   "state": "Florida",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 25.77427,
-   "lon": -80.19366,
-   "state": "Florida",
-   "status": null
+   "lon": -80.19366
   },
   {
+   "facility": "Research Site",
    "city": "Ponte Vedra",
+   "state": "Florida",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 30.22746,
-   "lon": -81.38008,
-   "state": "Florida",
-   "status": null
+   "lon": -81.38008
   },
   {
+   "facility": "Research Site",
    "city": "Sanford",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 28.80055,
-   "lon": -81.27312,
    "state": "Florida",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 28.80055,
+   "lon": -81.27312
   },
   {
+   "facility": "Research Site",
    "city": "Boise",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 43.6135,
-   "lon": -116.20345,
    "state": "Idaho",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 43.6135,
+   "lon": -116.20345
   },
   {
+   "facility": "Research Site",
    "city": "Chicago",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 41.85003,
-   "lon": -87.65005,
    "state": "Illinois",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.85003,
+   "lon": -87.65005
   },
   {
+   "facility": "Research Site",
    "city": "Indianapolis",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 39.76838,
-   "lon": -86.15804,
    "state": "Indiana",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.76838,
+   "lon": -86.15804
   },
   {
+   "facility": "Research Site",
    "city": "Overland Park",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 38.98223,
-   "lon": -94.67079,
    "state": "Kansas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.98223,
+   "lon": -94.67079
   },
   {
+   "facility": "Research Site",
    "city": "Louisville",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 38.25424,
-   "lon": -85.75941,
    "state": "Kentucky",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.25424,
+   "lon": -85.75941
   },
   {
+   "facility": "Research Site",
    "city": "Bethesda",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 38.98067,
-   "lon": -77.10026,
    "state": "Maryland",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 38.98067,
+   "lon": -77.10026
   },
   {
+   "facility": "Research Site",
    "city": "Brockton",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 42.08343,
-   "lon": -71.01838,
    "state": "Massachusetts",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 42.08343,
+   "lon": -71.01838
   },
   {
+   "facility": "Research Site",
    "city": "Edina",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 44.88969,
-   "lon": -93.34995,
    "state": "Minnesota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.88969,
+   "lon": -93.34995
   },
   {
+   "facility": "Research Site",
    "city": "Olive Branch",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 34.96176,
-   "lon": -89.82953,
    "state": "Mississippi",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 34.96176,
+   "lon": -89.82953
   },
   {
+   "facility": "Research Site",
    "city": "Las Vegas",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 36.17497,
-   "lon": -115.13722,
    "state": "Nevada",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 36.17497,
+   "lon": -115.13722
   },
   {
+   "facility": "Research Site",
    "city": "Endwell",
+   "state": "New York",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 42.11285,
-   "lon": -76.02103,
-   "state": "New York",
-   "status": null
+   "lon": -76.02103
   },
   {
+   "facility": "Research Site",
    "city": "New Windsor",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 41.47676,
-   "lon": -74.02375,
    "state": "New York",
-   "status": null
-  },
-  {
-   "city": "Raleigh",
    "country": "United States",
-   "facility": "Research Site",
-   "lat": 35.7721,
-   "lon": -78.63861,
-   "state": "North Carolina",
-   "status": null
+   "status": null,
+   "lat": 41.47676,
+   "lon": -74.02375
   },
   {
+   "facility": "Research Site",
    "city": "Raleigh",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 35.7721,
-   "lon": -78.63861,
    "state": "North Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.7721,
+   "lon": -78.63861
   },
   {
+   "facility": "Research Site",
+   "city": "Raleigh",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": null,
+   "lat": 35.7721,
+   "lon": -78.63861
+  },
+  {
+   "facility": "Research Site",
    "city": "Fargo",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 46.87719,
-   "lon": -96.7898,
    "state": "North Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 46.87719,
+   "lon": -96.7898
   },
   {
+   "facility": "Research Site",
    "city": "Akron",
+   "state": "Ohio",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 41.08144,
-   "lon": -81.51901,
-   "state": "Ohio",
-   "status": null
+   "lon": -81.51901
   },
   {
-   "city": "Cincinnati",
-   "country": "United States",
    "facility": "Research Site",
-   "lat": 39.12711,
-   "lon": -84.51439,
-   "state": "Ohio",
-   "status": null
-  },
-  {
    "city": "Cincinnati",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 39.12711,
-   "lon": -84.51439,
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
   },
   {
+   "facility": "Research Site",
    "city": "Cincinnati",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 39.12711,
-   "lon": -84.51439,
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
   },
   {
+   "facility": "Research Site",
+   "city": "Cincinnati",
+   "state": "Ohio",
+   "country": "United States",
+   "status": null,
+   "lat": 39.12711,
+   "lon": -84.51439
+  },
+  {
+   "facility": "Research Site",
    "city": "Cleveland",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 41.4995,
-   "lon": -81.69541,
    "state": "Ohio",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 41.4995,
+   "lon": -81.69541
   },
   {
+   "facility": "Research Site",
    "city": "Norman",
+   "state": "Oklahoma",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 35.22257,
-   "lon": -97.43948,
-   "state": "Oklahoma",
-   "status": null
+   "lon": -97.43948
   },
   {
+   "facility": "Research Site",
    "city": "Oklahoma City",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 35.46756,
-   "lon": -97.51643,
    "state": "Oklahoma",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.46756,
+   "lon": -97.51643
   },
   {
+   "facility": "Research Site",
    "city": "Duncansville",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 40.42341,
-   "lon": -78.4339,
    "state": "Pennsylvania",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.42341,
+   "lon": -78.4339
   },
   {
+   "facility": "Research Site",
    "city": "Anderson",
+   "state": "South Carolina",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 34.50344,
-   "lon": -82.65013,
-   "state": "South Carolina",
-   "status": null
+   "lon": -82.65013
   },
   {
+   "facility": "Research Site",
    "city": "Mt. Pleasant",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 32.79407,
-   "lon": -79.86259,
    "state": "South Carolina",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 32.79407,
+   "lon": -79.86259
   },
   {
+   "facility": "Research Site",
    "city": "Rapid City",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 44.08054,
-   "lon": -103.23101,
    "state": "South Dakota",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 44.08054,
+   "lon": -103.23101
   },
   {
+   "facility": "Research Site",
    "city": "Jackson",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 35.61452,
-   "lon": -88.81395,
    "state": "Tennessee",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 35.61452,
+   "lon": -88.81395
   },
   {
+   "facility": "Research Site",
    "city": "Boerne",
+   "state": "Texas",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 29.79466,
-   "lon": -98.73197,
-   "state": "Texas",
-   "status": null
+   "lon": -98.73197
   },
   {
+   "facility": "Research Site",
    "city": "Dallas",
+   "state": "Texas",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 32.78306,
-   "lon": -96.80667,
-   "state": "Texas",
-   "status": null
+   "lon": -96.80667
   },
   {
+   "facility": "Research Site",
    "city": "San Antonio",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 29.42412,
-   "lon": -98.49363,
    "state": "Texas",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 29.42412,
+   "lon": -98.49363
   },
   {
+   "facility": "Research Site",
    "city": "Salt Lake City",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 40.76078,
-   "lon": -111.89105,
    "state": "Utah",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 40.76078,
+   "lon": -111.89105
   },
   {
+   "facility": "Research Site",
    "city": "Norfolk",
+   "state": "Virginia",
    "country": "United States",
-   "facility": "Research Site",
+   "status": null,
    "lat": 36.84681,
-   "lon": -76.28522,
-   "state": "Virginia",
-   "status": null
+   "lon": -76.28522
   },
   {
+   "facility": "Research Site",
    "city": "Richmond",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 37.55376,
-   "lon": -77.46026,
    "state": "Virginia",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 37.55376,
+   "lon": -77.46026
   },
   {
+   "facility": "Research Site",
    "city": "Renton",
-   "country": "United States",
-   "facility": "Research Site",
-   "lat": 47.48288,
-   "lon": -122.21707,
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.48288,
+   "lon": -122.21707
   },
   {
-   "city": "Seattle",
-   "country": "United States",
    "facility": "Research Site",
-   "lat": 47.60621,
-   "lon": -122.33207,
+   "city": "Seattle",
    "state": "Washington",
-   "status": null
+   "country": "United States",
+   "status": null,
+   "lat": 47.60621,
+   "lon": -122.33207
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01763827",

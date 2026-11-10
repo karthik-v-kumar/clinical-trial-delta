@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "SINGLE",
   "primary_purpose": "TREATMENT",
+  "masking": "SINGLE",
   "who_masked": [
    "PARTICIPANT"
   ]
@@ -41,8 +41,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Gachon University Gil Medical Center"
+  "name": "Gachon University Gil Medical Center",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -50,44 +50,44 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "rosuvastatin",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: placebo"
-   ],
-   "label": "placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
-   "intervention_names": [
-    "Drug: rosuvastatin"
-   ],
    "label": "rosuvastatin 5",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: rosuvastatin"
-   ],
+   ]
+  },
+  {
    "label": "rosuvastatin 10",
-   "type": "ACTIVE_COMPARATOR"
-  },
-  {
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: rosuvastatin"
-   ],
+   ]
+  },
+  {
    "label": "rosuvastatin 20",
-   "type": "ACTIVE_COMPARATOR"
+   "type": "ACTIVE_COMPARATOR",
+   "intervention_names": [
+    "Drug: rosuvastatin"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -99,10 +99,10 @@
  "brief_summary": "The investigators hypothesize that rosuvastatin does-dependently worsens insulin sensitivity.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* hypercholesterolemia\n\nExclusion Criteria:\n\n* overt liver disease, chronic renal failure, hypothyroidism, myopathy, uncontrolled diabetes (HbA1c \\> 9%), severe hypertension, stroke, acute coronary events, coronary revascularization within the preceding 3 months, or alcohol abuse",
-  "healthy_volunteers": false,
-  "maximum_age": "80 Years",
-  "minimum_age": "25 Years",
   "sex": "ALL",
+  "minimum_age": "25 Years",
+  "maximum_age": "80 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -110,13 +110,13 @@
  },
  "sites": [
   {
-   "city": "Incheon",
-   "country": "South Korea",
    "facility": "Gil Medical Center",
-   "lat": 37.45646,
-   "lon": 126.70515,
+   "city": "Incheon",
    "state": null,
-   "status": null
+   "country": "South Korea",
+   "status": null,
+   "lat": 37.45646,
+   "lon": 126.70515
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01660919",

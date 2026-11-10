@@ -14,8 +14,8 @@
  "design": {
   "allocation": "NON_RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "NONE",
   "primary_purpose": "PREVENTION",
+  "masking": "NONE",
   "who_masked": []
  },
  "enrollment": {
@@ -39,8 +39,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Juliana CN Chan"
+  "name": "Juliana CN Chan",
+  "class": "OTHER"
  },
  "collaborators": [
   "Chinese University of Hong Kong",
@@ -56,63 +56,53 @@
  ],
  "interventions": [
   {
+   "type": "GENETIC",
    "name": "Risk assessment with biogenetic and clinical test to predict diabetes risk",
-   "other_names": [],
-   "type": "GENETIC"
+   "other_names": []
   },
   {
+   "type": "DIAGNOSTIC_TEST",
    "name": "Oral glucose tolerance test (OGTT) and cardiovascular-kidney-metabolic (CKM) risk factors",
-   "other_names": [],
-   "type": "DIAGNOSTIC_TEST"
+   "other_names": []
   },
   {
+   "type": "DRUG",
    "name": "Medication",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   },
   {
+   "type": "DEVICE",
    "name": "Continuous glucose monitoring (CGM) devices and/or weighing scale",
-   "other_names": [],
-   "type": "DEVICE"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Visit to family doctor with nurse education",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "DIAGNOSTIC_TEST",
    "name": "Joint Asia Diabetes Evaluation (JADE) assessment",
-   "other_names": [],
-   "type": "DIAGNOSTIC_TEST"
+   "other_names": []
   },
   {
+   "type": "BEHAVIORAL",
    "name": "Education webinars, workshops and health messages",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [
-    "Genetic: Risk assessment with biogenetic and clinical test to predict diabetes risk",
-    "Behavioral: Education webinars, workshops and health messages"
-   ],
    "label": "Low risk",
-   "type": "OTHER"
-  },
-  {
+   "type": "OTHER",
    "intervention_names": [
     "Genetic: Risk assessment with biogenetic and clinical test to predict diabetes risk",
-    "Diagnostic Test: Oral glucose tolerance test (OGTT) and cardiovascular-kidney-metabolic (CKM) risk factors",
-    "Drug: Medication",
-    "Device: Continuous glucose monitoring (CGM) devices and/or weighing scale",
-    "Behavioral: Visit to family doctor with nurse education",
     "Behavioral: Education webinars, workshops and health messages"
-   ],
+   ]
+  },
+  {
    "label": "High risk progressors",
-   "type": "OTHER"
-  },
-  {
+   "type": "OTHER",
    "intervention_names": [
     "Genetic: Risk assessment with biogenetic and clinical test to predict diabetes risk",
     "Diagnostic Test: Oral glucose tolerance test (OGTT) and cardiovascular-kidney-metabolic (CKM) risk factors",
@@ -120,11 +110,23 @@
     "Device: Continuous glucose monitoring (CGM) devices and/or weighing scale",
     "Behavioral: Visit to family doctor with nurse education",
     "Behavioral: Education webinars, workshops and health messages"
-   ],
-   "label": "Impaired glucose tolerance (IGT)",
-   "type": "OTHER"
+   ]
   },
   {
+   "label": "Impaired glucose tolerance (IGT)",
+   "type": "OTHER",
+   "intervention_names": [
+    "Genetic: Risk assessment with biogenetic and clinical test to predict diabetes risk",
+    "Diagnostic Test: Oral glucose tolerance test (OGTT) and cardiovascular-kidney-metabolic (CKM) risk factors",
+    "Drug: Medication",
+    "Device: Continuous glucose monitoring (CGM) devices and/or weighing scale",
+    "Behavioral: Visit to family doctor with nurse education",
+    "Behavioral: Education webinars, workshops and health messages"
+   ]
+  },
+  {
+   "label": "Diabetes",
+   "type": "OTHER",
    "intervention_names": [
     "Genetic: Risk assessment with biogenetic and clinical test to predict diabetes risk",
     "Diagnostic Test: Oral glucose tolerance test (OGTT) and cardiovascular-kidney-metabolic (CKM) risk factors",
@@ -133,9 +135,7 @@
     "Behavioral: Visit to family doctor with nurse education",
     "Diagnostic Test: Joint Asia Diabetes Evaluation (JADE) assessment",
     "Behavioral: Education webinars, workshops and health messages"
-   ],
-   "label": "Diabetes",
-   "type": "OTHER"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -147,23 +147,23 @@
  "brief_summary": "This is a community-based implementation program consisting of multiple components delivered by a multidisciplinary team to detect and prevent young onset diabetes with precision and value using biogenetic markers, digital tools, integrated care through public private partnership. Adults aged between 18 and 44 (inclusive) without known diabetes and with at least one risk factor for diabetes will undergo a saliva DNA and capillary blood test and complete a questionnaire. Depending on their risk levels, participants will be stratified to high risk and low risk progressors to diabetes. The high risk progressors will undergo annual oral glucose tolerance test to detect diabetes and impaired glucose tolerance (IGT). All participants will receive a personalized report indicating their genetic and modifiable risk explained by nurses or doctors. All participants will be offered regular access to webinars for education and empowerment for 2 years. The high risk group will additionally receive a 2-year risk-stratified intervention with different combinations of care interventions. These include clinical and laboratory assessment for comprehensive evaluation of cardiovascular-kidney-metabolic risks, medical and nurse consultations, empowerment by health messages, webinars, face-to-face workshops, subsidies for medications and self-monitoring tools (e.g. CGM devices, weighing scale) to motivate behavioural change. The outcomes will be analysed within the REAIM framework (reach, effectiveness, adoption, implementation and maintenance), progresssion to prediabetes or diabetes, patient reported outcomes and cost effectiveness.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Aged between 18 and 44 years old\n* With at least one risk factor for diabetes\n\nExclusion Criteria:\n\n* Known history of Diabetes\n* With conditions considered not suitable by the project team (including illiteracy)\n\nThe risk factors for diabetes include central or general obesity, family history of diabetes, smoking history, history of hypertension/ high blood glucose level/ abnormal lipid level/ vascular disease/ fatty liver, history of gestational diabetes/ polycystic ovary syndrome/ delivery of baby≥ 4kg (for women only), and less than 150mins of physical activity every week.",
-  "healthy_volunteers": true,
-  "maximum_age": "44 Years",
-  "minimum_age": "18 Years",
   "sex": "ALL",
+  "minimum_age": "18 Years",
+  "maximum_age": "44 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT"
   ]
  },
  "sites": [
   {
-   "city": "Hong Kong",
-   "country": "Hong Kong",
    "facility": "Asia Diabetes Foundation",
-   "lat": 22.27832,
-   "lon": 114.17469,
+   "city": "Hong Kong",
    "state": null,
-   "status": "RECRUITING"
+   "country": "Hong Kong",
+   "status": "RECRUITING",
+   "lat": 22.27832,
+   "lon": 114.17469
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06693934",

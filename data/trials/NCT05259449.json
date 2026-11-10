@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "TREATMENT",
+  "masking": "DOUBLE",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "University of Cadiz"
+  "name": "University of Cadiz",
+  "class": "OTHER"
  },
  "collaborators": [
   "Ministerio de Ciencia e Innovación, Spain"
@@ -53,63 +53,63 @@
  ],
  "interventions": [
   {
+   "type": "BEHAVIORAL",
    "name": "Nutritional Intervention",
-   "other_names": [],
-   "type": "BEHAVIORAL"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "High-intensity interval training (HIIT)",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   },
   {
+   "type": "OTHER",
    "name": "Moderate-intensity continuous training (MICT)",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [],
    "label": "ND-INACT",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   },
   {
+   "label": "Moderate-intensity continuous training (ND-MICT)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: Moderate-intensity continuous training (MICT)"
-   ],
-   "label": "Moderate-intensity continuous training (ND-MICT)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "High-intensity interval training (ND-HIIT)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Other: High-intensity interval training (HIIT)"
-   ],
-   "label": "High-intensity interval training (ND-HIIT)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Nutritional Intervention (D-INACT)",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Behavioral: Nutritional Intervention"
-   ],
-   "label": "Nutritional Intervention (D-INACT)",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   },
   {
+   "label": "Nutritional Intervention Moderate-intensity continuous training (D-MICT)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Nutritional Intervention",
     "Other: Moderate-intensity continuous training (MICT)"
-   ],
-   "label": "Nutritional Intervention Moderate-intensity continuous training (D-MICT)",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Nutritional Intervention High-intensity interval training (D-HIIT)",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Behavioral: Nutritional Intervention",
     "Other: High-intensity interval training (HIIT)"
-   ],
-   "label": "Nutritional Intervention High-intensity interval training (D-HIIT)",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -121,10 +121,10 @@
  "brief_summary": "The aim of this randomized controlled trial is to investigate the effects of different aerobic modalities: moderate-intensity continuous training (MICT) and high-intensity interval training (HIIT), and a nutritional intervention (D) on appetite regulation, appetite-related hormones, neural responses to food cues (EEG), and exosome-derived molecular signals in patients with prediabetes or type 2 diabetes (T2D), and overweight or obesity. It will also examine whether these effects differ between men and women.\n\nThe main questions it aims to answer are:\n\n* What is the isolated and combined effect of these exercise modalities and diet on glucose metabolism, insulin dynamics, miRNA exosomal expression, appetite hormones, and neural responses to food stimuli?\n* Is there a sex-specific best combination choice for improving appetite regulation and metabolic control?\n* Are changes in miRNA exosomal profile, appetite-related hormones, and EEG-based neural responses associated with other health-related outcomes such as body composition, fat mass reduction, insulin sensitivity, physical condition, and quality of life?\n\nTo answer these questions, researchers designed a two-factor study. One factor was diet, with two levels (Diet (D) and no diet (ND)). The second factor was exercise, with three levels (inactive (INACT), MICT, and HIIT). Participants were randomly allocated into six groups: ND-INACT, ND-MICT, ND-HIIT, D-INACT, D-MICT, D-HIIT.\n\nParticipants did:\n\n* Underwent a 12-week intervention within their assigned group.\n* Visited the research facilities three times per week if assigned to an exercise group, or once every two weeks if in a diet group.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes or prediabetes (HbA1c ≥ 5.7%)\n* No history of substance abuse (tobacco, alcohol, or other drugs).\n* Body mass index ≥25 kg/m², maintaining habitual dietary patterns with stable body weight for at least 6 months\n* Stable physical activity and medication regimen for at least 6 months\n* Lack of habitual vigorous-intensity physical activity and the presence of sedentary behavior characterized by prolonged sitting time (screening using the International Physical Activity Questionnaire short form).\n* Not insulin-dependent\n* Absence of injury, disease, disability, or other known medical condition which could affect the ability to successfully participate in physical exercise tests\n* Absence of tumors and cancer disease\n* Absence of other pathologies that could affect the study outcomes.\n* Not under medication regimen that could affect the study outcomes.\n* Being able to understand communication in Spanish or English.\n* Not pregnant\n\nExclusion Criteria:\n\n* Failure to attend more than 2 consecutive sessions or a total of 4 sessions of nutritional intervention.\n* Failure to attend more than 4 consecutive or a total of 6 sessions of physical training.\n* Serious injury\n* Voluntary withdrawal\n* Increased dose of diabetes medication",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "30 Years",
   "sex": "ALL",
+  "minimum_age": "30 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -132,13 +132,13 @@
  },
  "sites": [
   {
-   "city": "Puerto Real",
-   "country": "Spain",
    "facility": "Science of Education Faculty",
-   "lat": 36.52819,
-   "lon": -6.19011,
+   "city": "Puerto Real",
    "state": "Cadiz",
-   "status": null
+   "country": "Spain",
+   "status": null,
+   "lat": 36.52819,
+   "lon": -6.19011
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05259449",

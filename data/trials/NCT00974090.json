@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": "2014-05-08",
  "has_results": true,
  "lead_sponsor": {
-  "class": "INDUSTRY",
-  "name": "Tanabe Pharma Corporation"
+  "name": "Tanabe Pharma Corporation",
+  "class": "INDUSTRY"
  },
  "collaborators": [],
  "conditions": [
@@ -53,38 +53,38 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Placebo / Teneli (Teneligliptin) + SU (Sulfonylurea)",
    "other_names": [
     "MP-513",
     "Amaryl",
     "glimepiride"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Teneli / Teneli + SU",
    "other_names": [
     "MP-513",
     "Amaryl",
     "glimepiride"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo / Teneli + SU",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo / Teneli (Teneligliptin) + SU (Sulfonylurea)"
-   ],
-   "label": "Placebo / Teneli + SU",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Teneli / Teneli + SU",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Teneli / Teneli + SU"
-   ],
-   "label": "Teneli / Teneli + SU",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -96,10 +96,10 @@
  "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of MP-513 (Teneligliptin) in combination with Sulfonylurea in patients with type 2 Diabetes for 12 weeks administration and to evaluate the safety and efficacy of MP-513 in combination with Sulfonylurea with an extension treatment for up to 52 weeks.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Patients who are 20 - 75 years old\n* Patients who are under dietary management and taking therapeutic exercise for diabetes over 12 weeks before administration of investigational drug\n* Patients whose HbA1c is between 7.0% and 10.0%\n* Patients who took Sulfonylurea for diabetes over 12 weeks before administration of investigational drug\n* Patients who were not administered diabetes therapeutic drugs prohibited for concomitant use within 12 weeks before administration of investigational drug\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes, diabetes mellitus caused by pancreas impairment, or secondary diabetes (Cushing disease, acromegaly, etc)\n* Patients with Class III/IV heart failure symptoms according to NYHA functional classification\n* Patients who are gastrointestinal disorder (diarrhea, vomiting)\n* Patients with serious diabetic complications\n* Patients who are the excessive alcohol addicts\n* Patients with severe hepatic disorder or severe renal disorder\n* Patients who are pregnant, lactating, and probably pregnant patients, and patients who can not agree to contraception",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "20 Years",
   "sex": "ALL",
+  "minimum_age": "20 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -107,13 +107,13 @@
  },
  "sites": [
   {
-   "city": "Sapporo",
-   "country": "Japan",
    "facility": null,
-   "lat": 43.06667,
-   "lon": 141.35,
+   "city": "Sapporo",
    "state": "Hokkaido",
-   "status": null
+   "country": "Japan",
+   "status": null,
+   "lat": 43.06667,
+   "lon": 141.35
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00974090",

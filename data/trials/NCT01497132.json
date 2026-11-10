@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "TRIPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "TRIPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -43,8 +43,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Karolinska Institutet"
+  "name": "Karolinska Institutet",
+  "class": "OTHER"
  },
  "collaborators": [],
  "conditions": [
@@ -54,32 +54,32 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Vitamin D3",
    "other_names": [
     "Vigantol oil"
-   ],
-   "type": "DRUG"
+   ]
   },
   {
+   "type": "DRUG",
    "name": "Placebo",
-   "other_names": [],
-   "type": "DRUG"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
+   "label": "Vitamin D3",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Drug: Vitamin D3"
-   ],
-   "label": "Vitamin D3",
-   "type": "EXPERIMENTAL"
+   ]
   },
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Placebo"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -91,10 +91,10 @@
  "brief_summary": "The purpose of this study is to evaluate if treatment with vitamin D increase beta cell function and insulin sensitivity in subjects with pre-diabetes or newly diagnosed diabetes mellitus type 2.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Meeting criteria for IFG, IGT, IFG+IGT or diabetes mellitus at OGTT.\n* BMI ≤ 32 kg/m2.\n* HbA1c ≤ 7.0 % (MonoS) or ≤ 63 mmol/mol (IFCC).\n* Fasting plasma glucose \\< 9 mmol/l\n* S-25-OH-vitamin D3 \\< 75 nmol/l.\n\nExclusion Criteria:\n\n* Treatment with any vitamin D preparation.\n* Regular sun-bathing in solarium.\n* Hypercalcemia at screening, defined as free s-calcium \\> 1.35 mmol/l.\n* Hyperphosphatemia at screening, defined as s-phosphate \\> 1.5 mmol/l.\n* Sarcoidosis or other granulomatous disease.\n* Treatment with phenytoin, barbiturates, rifampicin, isoniazid, cardiac glycosides, orlistat or colestyramin.\n* Impaired hepatic function.\n* Impaired renal function\n* Cardiac disease defined as:\n\n  * Unstable angina pectoris\n  * Myocardial infarction within the last 6 months\n  * Congestive heart failure NYHA class III and IV\n* Cerebral stroke within the last 6 months.\n* Anti-diabetic medication of any kind.\n* Females of childbearing potential who are pregnant, breast-feeding or intend to become pregnant or are not using adequate contraceptive methods.",
-  "healthy_volunteers": false,
-  "maximum_age": "75 Years",
-  "minimum_age": "45 Years",
   "sex": "ALL",
+  "minimum_age": "45 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -102,13 +102,13 @@
  },
  "sites": [
   {
-   "city": "Stockholm",
-   "country": "Sweden",
    "facility": "Dpt of Endocrinology, Karolinska University Hospital",
-   "lat": 59.32938,
-   "lon": 18.06871,
+   "city": "Stockholm",
    "state": "Stockholm County",
-   "status": null
+   "country": "Sweden",
+   "status": null,
+   "lat": 59.32938,
+   "lon": 18.06871
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01497132",

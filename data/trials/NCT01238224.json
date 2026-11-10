@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "QUADRUPLE",
   "primary_purpose": "TREATMENT",
+  "masking": "QUADRUPLE",
   "who_masked": [
    "PARTICIPANT",
    "CARE_PROVIDER",
@@ -44,8 +44,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER_GOV",
-  "name": "Vastra Gotaland Region"
+  "name": "Vastra Gotaland Region",
+  "class": "OTHER_GOV"
  },
  "collaborators": [],
  "conditions": [
@@ -53,27 +53,27 @@
  ],
  "interventions": [
   {
+   "type": "DRUG",
    "name": "Tadalafil",
    "other_names": [
     "Cialis"
-   ],
-   "type": "DRUG"
+   ]
   }
  ],
  "arm_groups": [
   {
+   "label": "Placebo",
+   "type": "PLACEBO_COMPARATOR",
    "intervention_names": [
     "Drug: Tadalafil"
-   ],
-   "label": "Placebo",
-   "type": "PLACEBO_COMPARATOR"
+   ]
   },
   {
+   "label": "Tadalafil",
+   "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Tadalafil"
-   ],
-   "label": "Tadalafil",
-   "type": "ACTIVE_COMPARATOR"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -85,10 +85,10 @@
  "brief_summary": "An increase of blood flow and capillary permeability decrease the impact of an endothelial barrier for glucose and insulin allowing them to reach their target cells in peripheral insulin sensitive organ in the human body. It is well known that insulin-resistant type 2 diabetes patients have an impaired blood flow in skeletal muscle and it is therefore important to elucidate means to reverse this metabolic defect.\n\nThe investigators have in a recently published study in type 2 diabetes patients used a drug against erectile dysfunction, the PDE-5 inhibitor tadalafil, with known effects on several vascular territories, to increase muscle blood flow in type 2 diabetes patients who were studied after fasting overnight.\n\nThe aim of this study is to test the hypothesis that tadalafil, compared to placebo, increases muscle glucose uptake and lowers blood glucose following a mixed meal served to type 2 diabetes patients.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n1. Postmenopausal state, defines as natural amenorrhea for at least 12 months.\n2. Age; females 52-65 years, males: 40-65 years.\n3. Type 2 diabetes based on fasting plasma glucose or 2-hr glucose after an OGTT.\n4. Diabetes duration less than 5 years.\n\nExclusion Criteria:\n\n1. Patients with concurrent use of nitrates or NO donors, history of heart or cerebrovascular disease, cardiac failure (stages NYHA II-IV), uncontrolled hypertension (\\> 160/100 mm Hg), significant diabetic complications, and inadequate glycemic control (HbA1c \\> 7%, ref value 3.5-5.3%)\n2. Patients on glitazones, insulin, beta-blockers, ACE-inhibitors and corticosteroids",
-  "healthy_volunteers": false,
-  "maximum_age": "65 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "65 Years",
+  "healthy_volunteers": false,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -96,13 +96,13 @@
  },
  "sites": [
   {
-   "city": "Gothenburg",
-   "country": "Sweden",
    "facility": "The Wallenberg Laboratory, Dept of Molecular and Clinical Medicine, Sahlgrenska University Hospital, Bruna stråket 16,",
-   "lat": 57.70716,
-   "lon": 11.96679,
+   "city": "Gothenburg",
    "state": null,
-   "status": null
+   "country": "Sweden",
+   "status": null,
+   "lat": 57.70716,
+   "lon": 11.96679
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01238224",

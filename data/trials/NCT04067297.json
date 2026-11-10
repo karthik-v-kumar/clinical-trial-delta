@@ -14,8 +14,8 @@
  "design": {
   "allocation": "RANDOMIZED",
   "intervention_model": "PARALLEL",
-  "masking": "DOUBLE",
   "primary_purpose": "HEALTH_SERVICES_RESEARCH",
+  "masking": "DOUBLE",
   "who_masked": [
    "INVESTIGATOR",
    "OUTCOMES_ASSESSOR"
@@ -42,8 +42,8 @@
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
-  "class": "OTHER",
-  "name": "Institute for Clinical Evaluative Sciences"
+  "name": "Institute for Clinical Evaluative Sciences",
+  "class": "OTHER"
  },
  "collaborators": [
   "Unity Health Toronto",
@@ -59,23 +59,23 @@
  ],
  "interventions": [
   {
+   "type": "OTHER",
    "name": "Lipid management toolbox",
-   "other_names": [],
-   "type": "OTHER"
+   "other_names": []
   }
  ],
  "arm_groups": [
   {
-   "intervention_names": [],
    "label": "Control Arm",
-   "type": "NO_INTERVENTION"
+   "type": "NO_INTERVENTION",
+   "intervention_names": []
   },
   {
+   "label": "Intervention Arm",
+   "type": "EXPERIMENTAL",
    "intervention_names": [
     "Other: Lipid management toolbox"
-   ],
-   "label": "Intervention Arm",
-   "type": "EXPERIMENTAL"
+   ]
   }
  ],
  "primary_outcomes": [
@@ -87,10 +87,10 @@
  "brief_summary": "Traditional randomized clinical trials (RCTs) have provided extremely valuable information on medical therapies and procedures that have changed the way heart diseases are treated. However, despite these contributions, traditional RCTs are costly, the findings may not be applicable to patients unlike those in the study, and the use of trial findings may be infrequent. These limitations may be addressed by incorporating 'big data' in RCTs, which is the emerging field using electronic information that is routinely collected in various large administrative health databases. The Community Heart Outcomes Improvement and Cholesterol Education Study (CHOICES) will test the potential of using 'big data' in a 'real-world' clinical trial to measure outcomes using routinely collected health information. CHOICES aims to increase the use of cholesterol-lowering statin drugs to prevent heart attack and stroke in high-risk health regions across Ontario using a 'toolbox' of interventions. The 'toolbox' of interventions are informational strategies targeted for both patients and family physicians to help improve cholesterol management and contribute to shared decision making for heart healthy goals.",
  "eligibility": {
   "criteria": "Inclusion Criteria:\n\n* Community with CVD incidence rates higher than the Ontario provincial average\n* Community with a population size greater than 5,000 40 to 75 year olds\n* Community with at least 1,000 66 to 75 year olds\n* Community with 20 to 130 active and practicing family physicians\n\nExclusion Criteria:\n\n* Patients with established CVD within each community",
-  "healthy_volunteers": true,
-  "maximum_age": "75 Years",
-  "minimum_age": "40 Years",
   "sex": "ALL",
+  "minimum_age": "40 Years",
+  "maximum_age": "75 Years",
+  "healthy_volunteers": true,
   "std_ages": [
    "ADULT",
    "OLDER_ADULT"
@@ -98,13 +98,13 @@
  },
  "sites": [
   {
-   "city": "Toronto",
-   "country": "Canada",
    "facility": "ICES",
-   "lat": 43.65333,
-   "lon": -79.38389,
+   "city": "Toronto",
    "state": "Ontario",
-   "status": null
+   "country": "Canada",
+   "status": null,
+   "lat": 43.65333,
+   "lon": -79.38389
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04067297",
