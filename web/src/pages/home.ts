@@ -57,7 +57,7 @@ export async function homePage(meta: Meta): Promise<Page> {
       "div",
       { class: "hero" },
       h("p", { class: "eyebrow" }, "Independent registry monitor · Updated daily"),
-      h("h1", null, "Every trial has a past."),
+      h("h1", null, "Version history for the clinical trial registry"),
       h(
         "p",
         { class: "lede" },
