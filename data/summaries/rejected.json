@@ -1,5 +1,25 @@
 {
  "schema_version": 1,
- "count": 0,
- "rejected": []
+ "count": 1,
+ "rejected": [
+  {
+   "nct_id": "NCT07428473",
+   "content_hash": "14686395af8ee100",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "summary-v1-a3185a",
+   "attempted_at": "2026-11-11T15:51:11-08:00",
+   "problems": [
+    "summary mentions 1150 people but the record's enrollment is 64"
+   ],
+   "output": {
+    "summary": "This clinical trial is testing a study drug called STX-1150 in people who have high levels of low-density lipoprotein cholesterol, which is a type of fat in the blood. Researchers want to see how the participants respond to the treatment over a period of up to one year. The study is currently recruiting participants.",
+    "facts": {
+     "phase": "Phase 1",
+     "sponsor": "Monash University",
+     "enrollment": 64,
+     "status": "Recruiting"
+    }
+   }
+  }
+ ]
 }

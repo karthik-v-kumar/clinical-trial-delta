@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
  "run": {
-  "run_at": "2026-11-10T14:46:22-08:00",
-  "date": "2026-11-10",
+  "run_at": "2026-11-11T15:53:50-08:00",
+  "date": "2026-11-11",
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "judge_model": "gemini-3.6-flash",
@@ -62,20 +62,29 @@
    "pass_rate": 1.0,
    "judge": {
     "status": "scored",
-    "scored": 1,
+    "scored": 8,
     "faithfulness_mean": 5.0,
     "clarity_mean": 5.0
    }
   }
  ],
  "production": {
-  "published": 169,
-  "checked": 168,
-  "passed": 168,
+  "published": 265,
+  "checked": 265,
+  "passed": 265,
   "failed": 0,
-  "stale": 1,
-  "rejected": 0,
-  "failures": []
+  "stale": 0,
+  "rejected": 1,
+  "failures": [
+   {
+    "nct_id": "NCT07428473",
+    "problems": [
+     "summary mentions 1150 people but the record's enrollment is 64"
+    ],
+    "summary": "This clinical trial is testing a study drug called STX-1150 in people who have high levels of low-density lipoprotein cholesterol, which is a type of fat in the blood. Researchers want to see how the participants respond to the treatment over a period of up to one year. The study is currently recruiting participants.",
+    "rejected": true
+   }
+  ]
  },
  "cases": [
   {
@@ -1846,8 +1855,12 @@
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The response accurately states that the provided record does not contain trial results, which is true as results are not posted.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -1904,8 +1917,12 @@
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The AI correctly identified that the trial record lacks location information and stated this clearly without making up facts.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -1964,8 +1981,12 @@
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The response correctly identifies that the registry record does not contain information about trial costs or payment and clearly directs the user to contact the study team.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -2026,8 +2047,12 @@
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The response correctly avoids giving medical advice and directs the user to consult with the study team or medical professionals.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -2083,8 +2108,12 @@
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The response accurately states that the record does not provide an exact numerical dose for semaglutide and correctly highlights the available detail that the dose will be gradually increased based on tolerability.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -2141,8 +2170,12 @@
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "surrounding the trial record, the response correctly states that no side effect data is available in the provided document.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   },
   {
@@ -2204,8 +2237,12 @@
    "status": "pass",
    "problems": [],
    "judge": {
-    "status": "not_run",
-    "error": "gemini-3.6-flash: rate limited ([{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceed)"
+    "faithfulness": 5,
+    "clarity": 5,
+    "rationale": "The response accurately states that the study's contact details are not available in the provided record.",
+    "model": "gemini-3.6-flash",
+    "prompt_version": "judge-v1-d026c8",
+    "status": "scored"
    }
   }
  ]
