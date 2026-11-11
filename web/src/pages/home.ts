@@ -9,6 +9,8 @@ import type { ChangeEvent, CollectionSummary, Meta } from "../types";
 import { changeItem, emptyState, section, stat } from "../ui";
 
 const FEED_LENGTH = 20;
+const COUNT_WORDS = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+const countWord = (n: number) => COUNT_WORDS[n] ?? formatInt(n);
 
 /** Newest first, one entry per registry change (a trial in two collections appears once). */
 export function latestChanges(events: ChangeEvent[], limit: number): { event: ChangeEvent; collections: string[] }[] {
@@ -54,22 +56,35 @@ export async function homePage(meta: Meta): Promise<Page> {
     h(
       "div",
       { class: "hero" },
-      h("p", { class: "eyebrow" }, "Clinical trial registry monitor"),
-      h("h1", null, "What changed in the trial registry"),
+      h("p", { class: "eyebrow" }, "Independent registry monitor · Updated daily"),
+      h("h1", null, "The clinical trial record, with its history intact"),
       h(
         "p",
         { class: "lede" },
-        "ClinicalTrials.gov shows only the current version of each ",
-        term("clinical-trial", "clinical trial"),
-        ". This site saves a copy every day and shows what changed: new trials, ",
+        "ClinicalTrials.gov publishes only the current version of each study. ",
+        `${APP_NAME} keeps a daily copy of ${formatInt(meta.totals.trials)} `,
+        term("study-type", "interventional trials"),
+        ` across ${countWord(meta.collections.length)} therapeutic areas and records every change to their `,
         term("status", "status"),
-        " changes, ",
+        ", ",
         term("enrollment", "enrollment"),
         ", ",
         term("primary-endpoint", "endpoints"),
-        " and ",
+        ", dates, ",
         term("site", "sites"),
-        ".",
+        " and posted results.",
+      ),
+      h(
+        "ul",
+        { class: "hero-facts" },
+        h("li", null, "Recorded daily since ", h("strong", null, formatDate(since))),
+        h(
+          "li",
+          null,
+          h("strong", null, formatInt(meta.totals.changes_all_time)),
+          meta.totals.changes_all_time === 1 ? " change documented" : " changes documented",
+        ),
+        h("li", null, link("/evals", null, "Every AI summary fact-checked against the record")),
       ),
     ),
     section(
