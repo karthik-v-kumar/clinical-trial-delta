@@ -16,12 +16,16 @@ from pipeline.writers import (
     TRIAL_EXCLUDED,
     TRIAL_FIELDS,
     TRIAL_FILE_KEYS,
+    age_in_years,
+    has_placebo_group,
+    interventions_tested,
     phase_bucket,
     publish,
     sponsor_matcher,
     trial_history,
     update_changes,
     write_collections,
+    write_finder,
     write_sites,
     write_trials,
 )
@@ -172,3 +176,107 @@ def test_sites_index_lists_recruiting_cities_only(tmp_path, day2):
     assert glp1["sites_without_coordinates"] == 2 and glp1["recruiting_site_count"] == 4
     assert stats["glp1-obesity"] == {"cities": 1, "trials": 2}
     assert glp1["snapshot_date"] == "2026-01-06" and glp1["collection"] == "glp1-obesity"
+
+
+# --- trial finder -------------------------------------------------------------
+
+
+def test_age_limits_are_read_in_years():
+    assert age_in_years("18 Years") == 18 and age_in_years("65 years") == 65
+    assert age_in_years("6 Months") == 0.5 and age_in_years("2 Weeks") == 0.04
+    assert age_in_years("N/A") is None and age_in_years(None) is None and age_in_years("") is None
+
+
+def test_tested_interventions_leave_out_placebo_and_group_kinds():
+    record = {
+        "interventions": [
+            {"type": "DRUG", "name": "Tirzepatide"},
+            {"type": "DRUG", "name": "Placebo"},
+            {"type": "OTHER", "name": "Sham device"},
+            {"type": "BEHAVIORAL", "name": "Lifestyle counselling"},
+            {"type": "DRUG", "name": "tirzepatide"},
+            {"type": "PROCEDURE", "name": None},
+        ]
+    }
+    assert interventions_tested(record) == (
+        ["Tirzepatide", "Lifestyle counselling"],
+        ["medicine", "lifestyle", "procedure"],
+    )
+    assert interventions_tested({}) == ([], [])
+
+
+def test_placebo_group_from_arms_or_intervention_names():
+    assert has_placebo_group({"arm_groups": [{"type": "PLACEBO_COMPARATOR"}]})
+    assert has_placebo_group({"arm_groups": [{"type": "SHAM_COMPARATOR"}]})
+    assert has_placebo_group({"interventions": [{"type": "DRUG", "name": "Matching placebo"}]})
+    assert not has_placebo_group({"arm_groups": [{"type": "EXPERIMENTAL"}], "interventions": [{"name": "Semaglutide"}]})
+
+
+def _event(nct, kind, new_value, date, change_id, collection="glp1-obesity"):
+    return {
+        "id": f"{change_id}-{collection}",
+        "change_id": change_id,
+        "type": kind,
+        "nct_id": nct,
+        "collection": collection,
+        "field": "sites" if kind == "site_added" else "overall_status",
+        "old_value": None,
+        "new_value": new_value,
+        "detected_date": date,
+        "brief_title": None,
+    }
+
+
+def test_finder_lists_recruiting_trials_with_a_mappable_site(tmp_path, day2):
+    day2.trials["NCT90000014"].update(
+        {
+            "conditions": ["Obesity", "Overweight"],
+            "interventions": [{"type": "DRUG", "name": "Retatrutide"}, {"type": "DRUG", "name": "Placebo"}],
+            "arm_groups": [{"type": "EXPERIMENTAL"}, {"type": "PLACEBO_COMPARATOR"}],
+            "eligibility": {"sex": "ALL", "minimum_age": "18 Years", "maximum_age": "75 Years"},
+            "lead_sponsor": {"name": "Eli Lilly and Company", "class": "INDUSTRY"},
+        }
+    )
+    boston = {"facility": "Site 1", "city": "Boston", "state": "Massachusetts", "country": "United States"}
+    events = [
+        _event("NCT90000014", "status_change", "RECRUITING", "2026-01-06", "c1"),
+        # The same registry change seen from a second collection counts once.
+        _event("NCT90000010", "site_added", [boston], "2026-01-06", "c2"),
+        _event("NCT90000010", "site_added", [boston], "2026-01-06", "c2", collection="type-2-diabetes"),
+        # Outside the 30-day window: ignored.
+        _event("NCT90000012", "status_change", "RECRUITING", "2025-11-01", "c3", collection="type-2-diabetes"),
+        # A site added in a city the trial is not recruiting in: no news.
+        _event(
+            "NCT90000004",
+            "site_added",
+            [{**boston, "city": "Austin"}],
+            "2026-01-05",
+            "c4",
+            collection="type-2-diabetes",
+        ),
+    ]
+    stats = write_finder(tmp_path, day2, load_watchlist(), events)
+    finder = read(tmp_path / "finder.json")
+    by_id = {t["nct_id"]: t for t in finder["trials"]}
+
+    # Recruiting overall: 04, 05, 09, 10, 12, 14. NCT90000005's recruiting sites
+    # have no coordinates, so it is counted but not listed.
+    assert sorted(by_id) == ["NCT90000004", "NCT90000009", "NCT90000010", "NCT90000012", "NCT90000014"]
+    assert finder["recruiting_trials"] == 6 and finder["trials_without_location"] == 1
+    assert stats == {"trials": 5, "cities": 1, "without_location": 1}
+    assert finder["cities"] == [
+        {"city": "Boston", "state": "Massachusetts", "country": "United States", "lat": 42.36, "lon": -71.06}
+    ]
+    assert [c["id"] for c in finder["collections"]] == ["glp1-obesity", "type-2-diabetes", "cholesterol-lipids"]
+    assert by_id["NCT90000010"]["collections"] == ["glp1-obesity", "type-2-diabetes"]
+
+    trial = by_id["NCT90000014"]
+    assert trial["tested"] == ["Retatrutide"] and trial["kinds"] == ["medicine"] and trial["placebo"] is True
+    assert (trial["sex"], trial["min_age"], trial["max_age"]) == ("ALL", 18, 75)
+    assert trial["conditions"] == ["Obesity", "Overweight"] and trial["sponsor"] == "Eli Lilly and Company"
+    assert trial["cities"] == [0] and trial["site_count"] == 1
+    assert trial["opened"] == "2026-01-06" and "new_sites" not in trial
+
+    assert by_id["NCT90000010"]["new_sites"] == [{"date": "2026-01-06", "cities": [0]}]
+    assert "opened" not in by_id["NCT90000012"] and "new_sites" not in by_id["NCT90000004"]
+    assert finder["snapshot_date"] == "2026-01-06" and finder["news_window_days"] == 30

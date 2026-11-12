@@ -91,6 +91,21 @@ export async function homePage(meta: Meta): Promise<Page> {
       "collections",
       "Collections",
       h("ul", { class: "cards" }, meta.collections.map((c) => collectionCard(c, meta.recent_window_days))),
+      h(
+        "aside",
+        { class: "find-cta", "aria-label": "Find a trial" },
+        h(
+          "div",
+          { class: "find-cta-text" },
+          h("p", { class: "find-cta-title" }, "Looking for a trial to join?"),
+          h(
+            "p",
+            null,
+            "Search the trials in these areas that are recruiting now, by where you live, your age and what is being tested.",
+          ),
+        ),
+        link("/find", { class: "button button-primary" }, "Find a trial near you"),
+      ),
     ),
     section(
       "changes",

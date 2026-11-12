@@ -16,13 +16,16 @@ Allowlists: TRIAL_FIELDS / TRIAL_DERIVED (trial files), CHECKLIST_FIELDS /
 CHECKLIST_ITEM_FIELDS (eligibility checklist), ROW_FIELDS (collection table
 rows), EVENT_FIELDS (changes.json), HISTORY_FIELDS (trial history),
 COLLECTION_FIELDS, SITES_FIELDS / SITES_CITY_FIELDS / SITES_TRIAL_FIELDS
-(recruiting-sites index), META_FIELDS / META_RUN_FIELDS / META_COLLECTION_FIELDS.
+(recruiting-sites index), FINDER_FIELDS / FINDER_COLLECTION_FIELDS /
+FINDER_TRIAL_FIELDS / FINDER_NEW_SITES_FIELDS (trial finder),
+META_FIELDS / META_RUN_FIELDS / META_COLLECTION_FIELDS.
 
 Output (all JSON, all committed):
     data/meta.json                  run info + per-collection counts (home page)
     data/changes.json               every change event ever detected (append-only)
     data/collections/<id>.json      collection metadata, landscape counts, trial table rows
     data/sites/<id>.json            where a collection's trials are recruiting (city search)
+    data/finder.json                every recruiting trial, for the "Find a trial" page
     data/trials/<NCT>.json          one trial: record + checklist + collections + change history
 """
 
@@ -166,6 +169,41 @@ SITES_FIELDS = (
 )
 SITES_CITY_FIELDS = ("city", "state", "country", "lat", "lon")
 SITES_TRIAL_FIELDS = ("nct_id", "cities")
+
+# data/finder.json: every recruiting trial with a mappable recruiting site, with
+# the facts a patient filters on (age and sex limits, what is tested). The page
+# filters this file in the browser; what a visitor types never leaves it.
+FINDER_FIELDS = (
+    "schema_version",
+    "snapshot_date",
+    "news_window_days",
+    "collections",
+    "cities",
+    "trials",
+    "recruiting_trials",
+    "trials_without_location",
+)
+FINDER_COLLECTION_FIELDS = ("id", "name")
+FINDER_TRIAL_FIELDS = (
+    "nct_id",
+    "title",
+    "collections",
+    "phases",
+    "conditions",
+    "tested",
+    "kinds",
+    "placebo",
+    "sex",
+    "min_age",
+    "max_age",
+    "sponsor",
+    "first_posted",
+    "cities",
+    "site_count",
+    "opened",
+    "new_sites",
+)
+FINDER_NEW_SITES_FIELDS = ("date", "cities")
 
 # data/meta.json
 META_FIELDS = (
@@ -517,6 +555,197 @@ def write_sites(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:
         write_json(data_dir / "sites" / f"{c.id}.json", body, indent=None)
         stats[c.id] = {"cities": len(cities), "trials": len(trials)}
     return stats
+
+
+# --- trial finder -------------------------------------------------------------
+
+FINDER_NEWS_DAYS = 30
+FINDER_MAX_LISTED = 4
+# Registry intervention types, grouped the way a patient would ask about them.
+INTERVENTION_KINDS = {
+    "DRUG": "medicine",
+    "BIOLOGICAL": "medicine",
+    "GENETIC": "medicine",
+    "COMBINATION_PRODUCT": "medicine",
+    "DEVICE": "device",
+    "DIAGNOSTIC_TEST": "device",
+    "BEHAVIORAL": "lifestyle",
+    "DIETARY_SUPPLEMENT": "lifestyle",
+    "PROCEDURE": "procedure",
+    "RADIATION": "procedure",
+}
+KIND_ORDER = ("medicine", "device", "lifestyle", "procedure", "other")
+_PLACEBO = re.compile(r"\b(placebo|sham)\b", re.IGNORECASE)
+_AGE = re.compile(r"^\s*(\d+(?:\.\d+)?)\s*(year|month|week|day|hour|minute)s?\s*$", re.IGNORECASE)
+_AGE_UNIT_YEARS = {
+    "year": 1,
+    "month": 1 / 12,
+    "week": 7 / 365.25,
+    "day": 1 / 365.25,
+    "hour": 1 / 8766,
+    "minute": 1 / 525960,
+}
+
+
+def age_in_years(text: str | None) -> float | None:
+    """Registry age limits ("18 Years", "6 Months") in years; None when absent or unreadable."""
+    match = _AGE.match(text or "")
+    if not match:
+        return None
+    years = round(float(match.group(1)) * _AGE_UNIT_YEARS[match.group(2).lower()], 2)
+    return int(years) if years.is_integer() else years
+
+
+def _is_placebo(name: str | None) -> bool:
+    return bool(name and _PLACEBO.search(name))
+
+
+def interventions_tested(record: dict) -> tuple[list[str], list[str]]:
+    """Names of what the trial tests (placebo and sham left out) and their kinds."""
+    names: list[str] = []
+    seen: set[str] = set()
+    kinds: set[str] = set()
+    for iv in record.get("interventions") or []:
+        name = (iv.get("name") or "").strip()
+        if _is_placebo(name):
+            continue
+        kinds.add(INTERVENTION_KINDS.get(iv.get("type") or "", "other"))
+        if name and name.lower() not in seen:
+            seen.add(name.lower())
+            names.append(name)
+    return names[:FINDER_MAX_LISTED], [k for k in KIND_ORDER if k in kinds]
+
+
+def has_placebo_group(record: dict) -> bool:
+    """True when some participants get a placebo or sham, per the arms or interventions."""
+    if any(a.get("type") in ("PLACEBO_COMPARATOR", "SHAM_COMPARATOR") for a in record.get("arm_groups") or []):
+        return True
+    return any(_is_placebo(iv.get("name")) for iv in record.get("interventions") or [])
+
+
+def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dict]) -> dict:
+    """data/finder.json: recruiting trials across every collection, for "Find a trial".
+
+    A trial is listed when its overall status is RECRUITING and at least one of its
+    RECRUITING sites has coordinates; the others are counted, not listed. Recent
+    news comes from the change feed: the date a trial started recruiting and the
+    cities where recruiting sites were added, within the last FINDER_NEWS_DAYS.
+    """
+    members: dict[str, list[str]] = defaultdict(list)
+    names = {}
+    for c in wl.collections:
+        state = snap.collections.get(c.id)
+        if state is None:
+            continue
+        names[c.id] = c.name
+        for nct in state.members:
+            members[nct].append(c.id)
+
+    window_start = (dt.date.fromisoformat(snap.snapshot_date) - dt.timedelta(days=FINDER_NEWS_DAYS - 1)).isoformat()
+    opened: dict[str, str] = {}
+    added: dict[str, dict[str, list[tuple]]] = defaultdict(lambda: defaultdict(list))
+    seen_changes: set[str] = set()
+    for e in events:
+        if e["detected_date"] < window_start or e["change_id"] in seen_changes:
+            continue
+        seen_changes.add(e["change_id"])
+        if e["type"] == "status_change" and e.get("new_value") == "RECRUITING":
+            opened[e["nct_id"]] = max(opened.get(e["nct_id"], ""), e["detected_date"])
+        elif e["type"] == "site_added":
+            for site in e.get("new_value") or []:
+                added[e["nct_id"]][e["detected_date"]].append(
+                    (site.get("city"), site.get("state"), site.get("country"))
+                )
+
+    city_index: dict[tuple, int] = {}
+    cities: list[dict] = []
+    trials: list[dict] = []
+    recruiting = 0
+    without_location = 0
+    for nct in sorted(members):
+        record = snap.trials.get(nct)
+        if record is None or record.get("overall_status") != "RECRUITING":
+            continue
+        recruiting += 1
+        indexes: list[int] = []
+        site_count = 0
+        for site in record.get("sites") or []:
+            if site.get("status") != "RECRUITING":
+                continue
+            site_count += 1
+            if site.get("lat") is None or site.get("lon") is None or not site.get("city"):
+                continue
+            key = (site.get("city"), site.get("state"), site.get("country"))
+            if key not in city_index:
+                city_index[key] = len(cities)
+                cities.append(
+                    publish(
+                        {
+                            "city": site["city"],
+                            "state": site.get("state"),
+                            "country": site.get("country"),
+                            "lat": round(site["lat"], 3),
+                            "lon": round(site["lon"], 3),
+                        },
+                        SITES_CITY_FIELDS,
+                    )
+                )
+            if city_index[key] not in indexes:
+                indexes.append(city_index[key])
+        if not indexes:
+            without_location += 1
+            continue
+        new_sites = []
+        for date in sorted(added.get(nct, {}), reverse=True):
+            found = []
+            for key in added[nct][date]:
+                i = city_index.get(key)
+                if i is not None and i in indexes and i not in found:
+                    found.append(i)
+            if found:
+                new_sites.append(publish({"date": date, "cities": found}, FINDER_NEW_SITES_FIELDS))
+        tested, kinds = interventions_tested(record)
+        eligibility = record.get("eligibility") or {}
+        row = {
+            "nct_id": nct,
+            "title": record.get("brief_title") or record.get("official_title"),
+            "collections": [c for c in names if c in members[nct]],
+            "phases": record.get("phases") or [],
+            "conditions": (record.get("conditions") or [])[:FINDER_MAX_LISTED],
+            "tested": tested,
+            "kinds": kinds,
+            "placebo": has_placebo_group(record),
+            "sex": eligibility.get("sex"),
+            "min_age": age_in_years(eligibility.get("minimum_age")),
+            "max_age": age_in_years(eligibility.get("maximum_age")),
+            "sponsor": (record.get("lead_sponsor") or {}).get("name"),
+            "first_posted": record.get("first_posted"),
+            "cities": indexes,
+            "site_count": site_count,
+        }
+        if nct in opened:
+            row["opened"] = opened[nct]
+        if new_sites:
+            row["new_sites"] = new_sites
+        trials.append(publish(row, FINDER_TRIAL_FIELDS))
+
+    body = publish(
+        {
+            "schema_version": SCHEMA_VERSION,
+            "snapshot_date": snap.snapshot_date,
+            "news_window_days": FINDER_NEWS_DAYS,
+            "collections": [
+                publish({"id": cid, "name": name}, FINDER_COLLECTION_FIELDS) for cid, name in names.items()
+            ],
+            "cities": cities,
+            "trials": trials,
+            "recruiting_trials": recruiting,
+            "trials_without_location": without_location,
+        },
+        FINDER_FIELDS,
+    )
+    write_json(data_dir / "finder.json", body, indent=None)
+    return {"trials": len(trials), "cities": len(cities), "without_location": without_location}
 
 
 def write_meta(

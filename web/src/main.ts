@@ -11,6 +11,7 @@ import { daysBetween, formatDate, todayInLosAngeles } from "./format";
 import { closeGlossaryPopup, initGlossaryPopups } from "./glossary";
 import { collectionPage } from "./pages/collection";
 import { evalsPage } from "./pages/evals";
+import { findPage } from "./pages/find";
 import { glossaryPage } from "./pages/glossary";
 import { homePage } from "./pages/home";
 import { trialPage } from "./pages/trial";
@@ -23,6 +24,7 @@ const routes: [RegExp, Handler][] = [
   [/^\/$/, (meta) => homePage(meta)],
   [/^\/c\/([a-z0-9-]+)\/?$/, (meta, [id]) => collectionPage(meta, id ?? "")],
   [/^\/t\/(NCT\d{8})\/?$/i, (meta, [nct]) => trialPage(meta, (nct ?? "").toUpperCase())],
+  [/^\/find\/?$/, (meta) => findPage(meta)],
   [/^\/glossary\/?$/, () => glossaryPage()],
   [/^\/evals\/?$/, () => evalsPage()],
 ];
@@ -54,6 +56,7 @@ function logo(): SVGElement {
 
 const NAV: [string, string, RegExp][] = [
   ["/", "Collections", /^\/(c\/|t\/)?/],
+  ["/find", "Find a trial", /^\/find/],
   ["/evals", "AI evaluation", /^\/evals/],
   ["/glossary", "Glossary", /^\/glossary/],
 ];

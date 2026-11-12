@@ -61,6 +61,7 @@ from .writers import (
     read_meta,
     update_changes,
     write_collections,
+    write_finder,
     write_meta,
     write_sites,
     write_trials,
@@ -263,6 +264,7 @@ def run(
     trial_stats = write_trials(data_dir, snap, wl, events)
     collections = write_collections(data_dir, snap, wl)
     write_sites(data_dir, snap, wl)
+    write_finder(data_dir, snap, wl, events)
     finished_at = now_iso()
     write_meta(
         data_dir,
@@ -330,6 +332,7 @@ def rebuild(
     summary["trial_files"] = write_trials(data_dir, snap, wl, events)
     collections = write_collections(data_dir, snap, wl)
     summary["sites"] = write_sites(data_dir, snap, wl)
+    summary["finder"] = write_finder(data_dir, snap, wl, events)
     previous = read_meta(data_dir) or {}
     finished_at = now_iso()
     write_meta(

@@ -237,6 +237,13 @@ function citySearch(collection: Collection): HTMLElement {
     { class: "city-search" },
     note,
     h(
+      "p",
+      { class: "section-note" },
+      "To narrow by age, sex or what is being tested, use ",
+      link(`/find?area=${encodeURIComponent(collection.id)}`, null, "Find a trial"),
+      ".",
+    ),
+    h(
       "div",
       { class: "controls" },
       h("label", { class: "field" }, h("span", null, "City"), input),

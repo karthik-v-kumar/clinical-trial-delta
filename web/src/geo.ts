@@ -1,9 +1,10 @@
-// Distance and city matching for the "recruiting near a city" search. Works
-// entirely from the registry's own city coordinates; nothing is sent anywhere.
+// Distance and city matching for the "recruiting near a city" search and the
+// trial finder. Works entirely from the registry's own city coordinates; nothing
+// is sent anywhere.
 
-import type { SitesIndex } from "./types";
+import type { Place, SitesIndex } from "./types";
 
-export type City = SitesIndex["cities"][number];
+export type City = Place;
 
 const EARTH_RADIUS_MILES = 3958.8;
 
@@ -30,8 +31,11 @@ export function matchCities(cities: City[], typed: string, limit = 8): City[] {
   if (query.length < 2) return [];
   const starts: City[] = [];
   const contains: City[] = [];
+  const seen = new Set<string>();
   for (const city of cities) {
     const name = fold(cityName(city));
+    if (seen.has(name)) continue;
+    seen.add(name);
     if (name.startsWith(query)) starts.push(city);
     else if (name.includes(query)) contains.push(city);
   }

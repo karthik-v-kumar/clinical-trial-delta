@@ -62,6 +62,11 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     group: "Basics",
     text: "A hospital, clinic or research center where the trial takes place.",
   },
+  "age-limits": {
+    title: "Age limits",
+    group: "Basics",
+    text: "The youngest and oldest ages a trial accepts, as its registry record lists them. Being within them is only a first check: the study team decides who can join, using the full eligibility criteria.",
+  },
   "primary-endpoint": {
     title: "Primary endpoint",
     group: "Basics",

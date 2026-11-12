@@ -1815,3 +1815,345 @@ details[open] > summary::before {
     border-left: 1px solid var(--grid);
   }
 }
+
+/* --- find a trial ----------------------------------------------------------- */
+
+.button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-color: var(--brand);
+  background: var(--brand);
+  color: var(--brand-ink);
+  text-decoration: none;
+}
+
+.button-primary:hover {
+  background: var(--brand);
+  opacity: 0.88;
+}
+
+.find-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 20px;
+  padding: 16px 18px;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--brand);
+  background: var(--surface);
+}
+
+.find-cta-title {
+  margin-bottom: 4px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.find-cta-text p:not(.find-cta-title) {
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+  max-width: 60ch;
+}
+
+.find-notice {
+  display: grid;
+  gap: 8px;
+  margin-top: 22px;
+  padding: 12px 16px;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--brand);
+  background: var(--surface);
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+  max-width: 76ch;
+}
+
+.find-notice strong {
+  color: var(--ink);
+}
+
+.finder {
+  margin-top: 28px;
+}
+
+.finder-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 12px;
+  padding: 16px;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--brand);
+  background: var(--surface);
+}
+
+.finder-form {
+  align-items: start;
+}
+
+.finder-form .field {
+  margin: 0;
+  align-content: start;
+}
+
+.finder-form .field-area,
+.finder-form .field-place,
+.finder-form .finder-foot {
+  grid-column: 1 / -1;
+}
+
+.finder-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 16px;
+}
+
+.field-place > label {
+  color: inherit;
+}
+
+.place-row {
+  display: flex;
+  gap: 8px;
+}
+
+.place-row .input {
+  flex: 1;
+  min-width: 0;
+}
+
+.field .place-row .button {
+  flex: none;
+  width: auto;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button-quiet {
+  border-color: var(--axis);
+  font-size: 0.9375rem;
+}
+
+.button[disabled] {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.field-help {
+  color: var(--ink-3);
+  font-size: 0.8125rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.45;
+  text-transform: none;
+}
+
+.field-place .city-options {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.field-place .city-none {
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  color: var(--ink);
+  font-size: 0.9375rem;
+  cursor: pointer;
+}
+
+.check input {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--brand);
+}
+
+.link-button {
+  appearance: none;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--link);
+  font: inherit;
+  font-size: 0.9375rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.find-count {
+  margin: 22px 0 12px;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.find-list {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+
+.find-item {
+  padding: 16px;
+}
+
+.find-item + .find-item {
+  border-top: 1px solid var(--rule);
+}
+
+.find-news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.find-news li {
+  padding: 2px 8px;
+  border-left: 3px solid var(--good-dot);
+  background: var(--surface-2);
+  color: var(--good);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.find-title {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.find-title .row-title {
+  font-weight: inherit;
+}
+
+.find-facts {
+  display: grid;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.find-fact {
+  display: grid;
+  gap: 1px;
+  font-size: 0.9375rem;
+}
+
+.find-facts {
+  gap: 10px;
+}
+
+.find-place,
+.find-sub {
+  display: block;
+}
+
+.find-sub {
+  color: var(--ink-2);
+}
+
+.find-fact dt {
+  padding-top: 2px;
+  color: var(--ink-3);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.find-fact dd {
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.find-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  margin-top: 12px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.find-about {
+  display: grid;
+  gap: 8px;
+  max-width: 76ch;
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+}
+
+.find-about li {
+  position: relative;
+  padding-left: 17px;
+}
+
+.find-about li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  background: var(--brand);
+}
+
+@media (min-width: 720px) {
+  .find-cta {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .find-cta .button {
+    flex: none;
+  }
+
+  .finder-form {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding: 20px;
+  }
+
+  .finder-form .field-area,
+  .finder-form .field-place {
+    grid-column: span 2;
+  }
+
+  .find-facts {
+    gap: 6px;
+  }
+
+  .find-fact {
+    grid-template-columns: 8rem minmax(0, 1fr);
+    gap: 12px;
+  }
+}
+
+@media print {
+  .finder-form,
+  .find-cta {
+    display: none;
+  }
+}

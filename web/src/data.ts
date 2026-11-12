@@ -3,7 +3,18 @@
 // app) calls an LLM, an API or a third-party host at view time;
 // scripts/check-fetch-targets.mjs enforces that in CI.
 
-import type { AISummary, ChangesFile, Collection, EvalHistory, EvalReport, Meta, SitesIndex, SummaryIndex, Trial } from "./types";
+import type {
+  AISummary,
+  ChangesFile,
+  Collection,
+  EvalHistory,
+  EvalReport,
+  FinderIndex,
+  Meta,
+  SitesIndex,
+  SummaryIndex,
+  Trial,
+} from "./types";
 
 const DATA_ROOT = "/data/";
 
@@ -47,6 +58,7 @@ export const loadCollection = (id: string): Promise<Collection> =>
   cached<Collection>(`collections/${encodeURIComponent(id)}.json`);
 export const loadSites = (id: string): Promise<SitesIndex> =>
   cached<SitesIndex>(`sites/${encodeURIComponent(id)}.json`);
+export const loadFinder = (): Promise<FinderIndex> => cached<FinderIndex>("finder.json");
 export const loadTrial = (nctId: string): Promise<Trial> =>
   cached<Trial>(`trials/${encodeURIComponent(nctId)}.json`);
 

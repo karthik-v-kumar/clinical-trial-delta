@@ -172,14 +172,58 @@ export interface Collection {
   trials: TrialRow[];
 }
 
+/** A city with at least one recruiting site, located by the registry's own coordinates. */
+export interface Place {
+  city: string;
+  state: string | null;
+  country: string | null;
+  lat: number;
+  lon: number;
+}
+
 export interface SitesIndex {
   schema_version: number;
   collection: string;
   snapshot_date: string;
-  cities: { city: string; state: string | null; country: string | null; lat: number; lon: number }[];
+  cities: Place[];
   trials: { nct_id: string; cities: number[] }[];
   recruiting_site_count: number;
   sites_without_coordinates: number;
+}
+
+/** What a trial tests, grouped the way a patient would ask (pipeline INTERVENTION_KINDS). */
+export type InterventionKind = "medicine" | "device" | "lifestyle" | "procedure" | "other";
+
+/** One recruiting trial in data/finder.json. */
+export interface FinderTrial {
+  nct_id: string;
+  title: string | null;
+  collections: string[];
+  phases: string[];
+  conditions: string[];
+  tested: string[];
+  kinds: InterventionKind[];
+  placebo: boolean;
+  sex: string | null;
+  min_age: number | null; // years
+  max_age: number | null; // years
+  sponsor: string | null;
+  first_posted: string | null;
+  cities: number[]; // indexes into FinderIndex.cities
+  site_count: number;
+  opened?: string; // date the registry status changed to recruiting, if recent
+  new_sites?: { date: string; cities: number[] }[]; // recruiting sites added recently
+}
+
+export interface FinderIndex {
+  schema_version: number;
+  snapshot_date: string;
+  news_window_days: number;
+  collections: { id: string; name: string }[];
+  cities: Place[];
+  trials: FinderTrial[];
+  recruiting_trials: number;
+  trials_without_location: number;
 }
 
 export interface CollectionSummary {
