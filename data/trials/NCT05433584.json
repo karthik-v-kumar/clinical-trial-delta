@@ -19,8 +19,8 @@
   "who_masked": []
  },
  "enrollment": {
-  "count": 780,
-  "type": "ESTIMATED"
+  "count": 794,
+  "type": "ACTUAL"
  },
  "start_date": {
   "date": "2022-08-01",
@@ -35,9 +35,9 @@
   "type": "ESTIMATED"
  },
  "first_posted": "2022-06-27",
- "last_update_posted": "2025-12-12",
- "results_first_posted": null,
- "has_results": false,
+ "last_update_posted": "2026-11-12",
+ "results_first_posted": "2026-11-12",
+ "has_results": true,
  "lead_sponsor": {
   "name": "Eli Lilly and Company",
   "class": "INDUSTRY"
@@ -69,7 +69,7 @@
    ]
   },
   {
-   "label": "Intensified Conventional Care Dose",
+   "label": "Intensified Conventional Care (ICC)",
    "type": "ACTIVE_COMPARATOR",
    "intervention_names": [
     "Drug: Antihyperglycemic medication"
@@ -78,7 +78,7 @@
  ],
  "primary_outcomes": [
   {
-   "measure": "Change from Baseline in Hemoglobin A1c (HbA1c)",
+   "measure": "Change From Baseline in Hemoglobin A1c (HbA1c)",
    "time_frame": "Baseline, Week 104"
   }
  ],
@@ -907,7 +907,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT05433584",
- "content_hash": "a2fa43c243b24e7b",
+ "content_hash": "b69e9a04dba928ac",
  "collections": [
   "type-2-diabetes"
  ],
@@ -979,5 +979,37 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "7acf5864efe2730f",
+   "type": "enrollment_change",
+   "field": "enrollment",
+   "old_value": {
+    "count": 780,
+    "type": "ESTIMATED"
+   },
+   "new_value": {
+    "count": 794,
+    "type": "ACTUAL"
+   },
+   "detected_date": "2026-11-12",
+   "collections": [
+    "type-2-diabetes"
+   ]
+  },
+  {
+   "change_id": "cbe91cf39d2b185c",
+   "type": "results_posted",
+   "field": "has_results",
+   "old_value": false,
+   "new_value": true,
+   "detected_date": "2026-11-12",
+   "context": {
+    "results_first_posted": "2026-11-12"
+   },
+   "collections": [
+    "type-2-diabetes"
+   ]
+  }
+ ]
 }
