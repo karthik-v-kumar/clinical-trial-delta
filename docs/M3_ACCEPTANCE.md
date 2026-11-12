@@ -67,6 +67,18 @@ than 5 tells us little. The deterministic assertions are the gate that decides
 what is published; the judge is a second opinion. A sterner judge prompt, or a
 few deliberately flawed golden outputs it must mark down, would test it.
 
+## Second checker false alarm (Nov 11 run)
+
+The Nov 11 run rejected its first summary (NCT07428473) after two attempts:
+"summary mentions 1150 people but the record's enrollment is 64". The summary
+said "a study drug called STX-1150 in people...": the head-count check read
+the digits of the drug code as a number of people. The model was right; the
+check was wrong, and it failed safe (the summary was not published). The check
+now ignores digits inside a code (preceded by a letter, digit, dot or hyphen)
+and "N in people", with that sentence as a regression test; a real count such
+as "enrolls 1150 people" is still caught. The stored output passes the fixed
+check, and the rejection was cleared so the next run writes this trial again.
+
 ## Hard rules
 
 - **LLM only in the daily Actions run, never at page view:** the site fetches only

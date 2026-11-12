@@ -291,6 +291,19 @@ def test_age_ranges_are_not_mistaken_for_enrollment(record):
     assert assert_summary(record, good_summary(record, summary=text)) == []
 
 
+def test_numbers_inside_drug_codes_are_not_head_counts(record):
+    """From the Nov 11, 2026 production run (NCT07428473): a correct summary was rejected for
+    "a study drug called STX-1150 in people", because 1150 was read as a head count."""
+    text = "This study tests a drug called STX-1150 in people with high cholesterol. It is run by Hoffmann-La Roche."
+    assert assert_summary(record, good_summary(record, summary=text)) == []
+    code = "This study tests LY3502970 participants take weekly. It is run by Hoffmann-La Roche in 600 adults."
+    assert assert_summary(record, good_summary(record, summary=code)) == []
+    still_caught = good_summary(
+        record, summary="This study of a drug called STX-1150 enrolls 1150 people with obesity."
+    )
+    assert any("mentions 1150 people" in p for p in assert_summary(record, still_caught))
+
+
 def test_missing_enrollment_must_be_null(record):
     record = dict(record, enrollment=None)
     out = good_summary(record, summary="A study of exampleglutide for adults with obesity, run by Hoffmann-La Roche.")

@@ -231,12 +231,14 @@ _PHASE_MENTION = re.compile(
     r"\bphase\s+((?:[1-4]|I{1,3}|IV)(?:\s*(?:/|and|-|or)\s*(?:[1-4]|I{1,3}|IV))?)\b", re.IGNORECASE
 )
 _ROMAN = {"I": "1", "II": "2", "III": "3", "IV": "4"}
+# A head count is a number standing on its own: digits inside a drug code
+# ("STX-1150 in people", "LY3502970 participants") are not one.
 _COUNT = re.compile(
-    r"\b(\d{1,3}(?:,\d{3})+|\d+)\s+(?:([a-z-]+)\s+)?"
+    r"(?<![\w.-])(\d{1,3}(?:,\d{3})+|\d+)\s+(?:([a-z-]+)\s+)?"
     r"(people|participants|adults|patients|volunteers|subjects|individuals|children|men|women)\b",
     re.IGNORECASE,
 )
-_NOT_A_COUNT_WORD = {"years", "year", "months", "weeks", "days", "kg", "mg", "percent", "to", "or", "and", "%"}
+_NOT_A_COUNT_WORD = {"years", "year", "months", "weeks", "days", "kg", "mg", "percent", "to", "or", "and", "in", "%"}
 
 
 def _phase_numbers(label: str) -> set[str]:
