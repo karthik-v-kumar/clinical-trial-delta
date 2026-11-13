@@ -101,7 +101,7 @@ export async function homePage(meta: Meta): Promise<Page> {
           h(
             "p",
             null,
-            "Search the trials in these areas that are recruiting now, by where you live, your age and what is being tested.",
+            "Search the trials in these areas that are recruiting now or not open yet, by where you live, your age and what is being tested.",
           ),
         ),
         link("/find", { class: "button button-primary" }, "Find a trial near you"),

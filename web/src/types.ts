@@ -194,10 +194,11 @@ export interface SitesIndex {
 /** What a trial tests, grouped the way a patient would ask (pipeline INTERVENTION_KINDS). */
 export type InterventionKind = "medicine" | "device" | "lifestyle" | "procedure" | "other";
 
-/** One recruiting trial in data/finder.json. */
+/** One trial in data/finder.json: recruiting now, or listed as not yet recruiting. */
 export interface FinderTrial {
   nct_id: string;
   title: string | null;
+  status: "RECRUITING" | "NOT_YET_RECRUITING";
   collections: string[];
   phases: string[];
   conditions: string[];
@@ -209,10 +210,13 @@ export interface FinderTrial {
   max_age: number | null; // years
   sponsor: string | null;
   first_posted: string | null;
-  cities: number[]; // indexes into FinderIndex.cities
+  start_date?: string; // planned start of a trial that is not yet recruiting
+  cities: number[]; // where it is recruiting now (indexes into FinderIndex.cities)
   site_count: number;
+  soon: number[]; // where a site is listed but has not opened
+  planned_site_count: number;
   opened?: string; // date the registry status changed to recruiting, if recent
-  new_sites?: { date: string; cities: number[] }[]; // recruiting sites added recently
+  new_sites?: { date: string; cities: number[] }[]; // sites added recently
 }
 
 export interface FinderIndex {
@@ -224,6 +228,8 @@ export interface FinderIndex {
   trials: FinderTrial[];
   recruiting_trials: number;
   trials_without_location: number;
+  not_yet_recruiting_trials: number;
+  not_yet_without_location: number;
 }
 
 export interface CollectionSummary {

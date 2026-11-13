@@ -1901,6 +1901,7 @@ details[open] > summary::before {
 }
 
 .finder-form .field-area,
+.finder-form .field-show,
 .finder-form .field-place,
 .finder-form .finder-foot {
   grid-column: 1 / -1;
@@ -2002,6 +2003,25 @@ details[open] > summary::before {
   margin: 22px 0 12px;
   color: var(--ink);
   font-weight: 600;
+}
+
+.find-group + .find-group {
+  margin-top: 32px;
+}
+
+.find-group-title {
+  padding-top: 10px;
+  margin-bottom: 12px;
+  border-top: 1px solid var(--rule-strong);
+  font-size: 1.25rem;
+}
+
+.find-group-count {
+  color: var(--ink-3);
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 .find-list {
@@ -2137,8 +2157,16 @@ details[open] > summary::before {
   }
 
   .finder-form .field-area,
-  .finder-form .field-place {
+  .finder-form .field-show,
+  .finder-form .field-place,
+  .finder-form .finder-foot {
     grid-column: span 2;
+  }
+
+  /* Third row: Sex, What is tested, then the placebo choice level with the inputs. */
+  .finder-form .finder-foot {
+    align-self: end;
+    min-height: 44px;
   }
 
   .find-facts {

@@ -8,9 +8,11 @@ flips, enrollment, endpoint, and site changes.
 Public registry data only. Information and links, not medical advice.
 
 It also has a **Find a trial** page for patients and caregivers: the trials in
-these three areas that are recruiting now, searched by distance from a city or
-the visitor's own location, by the age and sex limits each record lists, and by
-what is being tested. It flags trials that started recruiting or added a site
+these three areas that are recruiting now or listed as not yet recruiting,
+searched by distance from a city or the visitor's own location, by the age and
+sex limits each record lists, and by what is being tested. Recruiting trials
+come first; trials and sites that have not opened are listed separately, with
+the planned start date. It flags trials that started recruiting or added a site
 recently. The search runs entirely in the browser from `data/finder.json`;
 the place and age a visitor enters are never sent anywhere or saved.
 
@@ -136,7 +138,7 @@ that match only because of the edit are not reported as "new trials".
 | `data/changes.json` | Every change event ever detected, oldest first (append-only) |
 | `data/collections/<id>.json` | Collection metadata, trials-by-phase and trials-by-status counts, trial table rows |
 | `data/sites/<id>.json` | Cities where a collection's trials are recruiting, for the near-a-city search |
-| `data/finder.json` | Every recruiting trial with a mappable recruiting site: cities, age and sex limits, what is tested, placebo group, and recent news (started recruiting, sites added) for the Find a trial page |
+| `data/finder.json` | Every trial that is recruiting or not yet recruiting and names a mappable site: cities recruiting now, cities with sites not open yet, planned start, age and sex limits, what is tested, placebo group, and recent news (started recruiting, sites added) for the Find a trial page |
 | `data/trials/<NCT>.json` | One trial: the normalized record, its eligibility checklist, its collections, and its full change history |
 | `data/summaries/<NCT>.json` | A trial's AI summary, with the record hash it was written from |
 | `data/evals/latest.json`, `history.json` | Latest eval run (every case, output and expected answer) and one row per run |

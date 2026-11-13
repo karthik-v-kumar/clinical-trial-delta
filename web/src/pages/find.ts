@@ -1,5 +1,6 @@
-// Find a trial: recruiting trials near a place, narrowed by the age and sex
-// limits the registry lists and by what is being tested. Everything runs in the
+// Find a trial: trials that are recruiting, or listed as not yet recruiting, near
+// a place, narrowed by the age and sex limits the registry lists and by what is
+// being tested. Recruiting trials always come first. Everything runs in the
 // browser from data/finder.json; the place, age and other answers a visitor
 // gives are never sent anywhere or saved, and nothing is written to the URL but
 // the chosen area.
@@ -11,12 +12,19 @@ import { daysBetween, formatDate, formatInt, plural, sexLabel } from "../format"
 import { cityName, fold, matchCities, milesBetween, type City } from "../geo";
 import { term } from "../glossary";
 import type { FinderIndex, FinderTrial, InterventionKind, Meta } from "../types";
-import { emptyState, phaseChip, section, showMoreButton } from "../ui";
+import { emptyState, phaseChip, section, showMoreButton, statusChip } from "../ui";
 
-const PAGE_SIZE = 20;
+/** Results shown per group before "Show more"; recruiting trials get the longer first page. */
+const PAGE_SIZE: Record<"open" | "soon", number> = { open: 20, soon: 10 };
 const RADII = [10, 25, 50, 100, 250];
 const ANY_DISTANCE = 0;
 const DEFAULT_RADIUS = 50;
+/** A site that has not opened is worth a mention when it is at least this much nearer. */
+const CLOSER_BY_MILES = 5;
+
+/** "open": a recruiting site is in reach. "soon": only sites that have not opened are. */
+type Group = "open" | "soon";
+const GROUP_TITLES: Record<Group, string> = { open: "Recruiting now", soon: "Not recruiting yet" };
 
 const KIND_LABELS: Record<InterventionKind, string> = {
   medicine: "Medicines",
@@ -35,6 +43,7 @@ interface Origin {
 
 interface Filters {
   area: string;
+  show: "" | Group;
   origin: Origin | null;
   radius: number;
   age: number | null;
@@ -43,11 +52,20 @@ interface Filters {
   noPlacebo: boolean;
 }
 
+interface Near {
+  city: City;
+  miles: number;
+  /** How many of the trial's cities of this kind are within the chosen distance. */
+  count: number;
+}
+
 interface Hit {
   trial: FinderTrial;
-  nearest: City | null;
-  miles: number | null;
-  inRange: number;
+  group: Group;
+  /** Nearest site of the group's kind, when a place is set. */
+  near: Near | null;
+  /** For a recruiting hit: a site that has not opened and is clearly nearer. */
+  closer: Near | null;
 }
 
 // --- matching -----------------------------------------------------------------
@@ -66,8 +84,27 @@ export function fitsSex(trial: FinderTrial, sex: string): boolean {
   return trial.sex === sex;
 }
 
+function nearestOf(index: FinderIndex, cities: number[], distance: number[], radius: number): Near | null {
+  let best = -1;
+  let count = 0;
+  for (const i of cities) {
+    const miles = distance[i] ?? Infinity;
+    if (radius !== ANY_DISTANCE && miles > radius) continue;
+    count += 1;
+    if (best === -1 || miles < (distance[best] ?? Infinity)) best = i;
+  }
+  const city = index.cities[best];
+  return city ? { city, miles: distance[best] ?? 0, count } : null;
+}
+
+/**
+ * Matching trials, recruiting ones first. With a place, a trial counts as
+ * recruiting when a recruiting site is within the distance, and as "not
+ * recruiting yet" when only sites that have not opened are. Without one, the
+ * trial's own status decides.
+ */
 function findTrials(index: FinderIndex, filters: Filters): Hit[] {
-  const { origin, radius } = filters;
+  const { origin, radius, show } = filters;
   const distance = origin ? index.cities.map((city) => milesBetween(origin, city)) : null;
   const hits: Hit[] = [];
   for (const trial of index.trials) {
@@ -76,27 +113,32 @@ function findTrials(index: FinderIndex, filters: Filters): Hit[] {
     if (filters.kind && !trial.kinds.includes(filters.kind as InterventionKind)) continue;
     if (filters.noPlacebo && trial.placebo) continue;
     if (!distance) {
-      hits.push({ trial, nearest: null, miles: null, inRange: 0 });
+      const group: Group = trial.status === "RECRUITING" ? "open" : "soon";
+      if (!show || show === group) hits.push({ trial, group, near: null, closer: null });
       continue;
     }
-    let best = -1;
-    let inRange = 0;
-    for (const i of trial.cities) {
-      const miles = distance[i] ?? Infinity;
-      if (radius !== ANY_DISTANCE && miles > radius) continue;
-      inRange += 1;
-      if (best === -1 || miles < (distance[best] ?? Infinity)) best = i;
+    const open = nearestOf(index, trial.cities, distance, radius);
+    const soon = nearestOf(index, trial.soon, distance, radius);
+    if (open) {
+      if (show === "soon") continue;
+      const closer = !show && soon && soon.miles + CLOSER_BY_MILES <= open.miles ? soon : null;
+      hits.push({ trial, group: "open", near: open, closer });
+    } else if (soon && show !== "open") {
+      hits.push({ trial, group: "soon", near: soon, closer: null });
     }
-    if (best === -1) continue;
-    hits.push({ trial, nearest: index.cities[best] ?? null, miles: distance[best] ?? null, inRange });
   }
+  const byGroup = (a: Hit, b: Hit) => (a.group === b.group ? 0 : a.group === "open" ? -1 : 1);
   if (distance) {
-    return hits.sort((a, b) => (a.miles ?? 0) - (b.miles ?? 0) || a.trial.nct_id.localeCompare(b.trial.nct_id));
+    return hits.sort(
+      (a, b) => byGroup(a, b) || (a.near?.miles ?? 0) - (b.near?.miles ?? 0) || a.trial.nct_id.localeCompare(b.trial.nct_id),
+    );
   }
   // No place given: the newest news first, then the most recently registered.
   const newest = (t: FinderTrial) =>
     [t.opened ?? "", t.new_sites?.[0]?.date ?? "", t.first_posted ?? ""].sort().at(-1) ?? "";
-  return hits.sort((a, b) => newest(b.trial).localeCompare(newest(a.trial)) || b.trial.nct_id.localeCompare(a.trial.nct_id));
+  return hits.sort(
+    (a, b) => byGroup(a, b) || newest(b.trial).localeCompare(newest(a.trial)) || b.trial.nct_id.localeCompare(a.trial.nct_id),
+  );
 }
 
 // --- wording ------------------------------------------------------------------
@@ -135,13 +177,21 @@ function inSentence(name: string): string {
   return /^[A-Z][a-z]/.test(name) ? name.charAt(0).toLowerCase() + name.slice(1) : name;
 }
 
-function countriesOf(index: FinderIndex, trial: FinderTrial): string[] {
+/** "in Germany and Japan" for one or two countries, "in 5 countries" for more. */
+function countriesText(index: FinderIndex, cities: number[]): string {
   const countries: string[] = [];
-  for (const i of trial.cities) {
+  for (const i of cities) {
     const country = index.cities[i]?.country;
     if (country && !countries.includes(country)) countries.push(country);
   }
-  return countries;
+  if (!countries.length) return "";
+  return countries.length <= 2 ? ` in ${listText(countries)}` : ` in ${countries.length} countries`;
+}
+
+/** A planned start is the sponsor's estimate; say so plainly when it has already gone by. */
+export function plannedStartText(start: string, today: string): string {
+  const passed = start < today.slice(0, start.length);
+  return passed ? `${formatDate(start)}, now past; the record still says not yet recruiting` : formatDate(start);
 }
 
 // --- results ------------------------------------------------------------------
@@ -150,17 +200,22 @@ function newsLines(index: FinderIndex, hit: Hit, filters: Filters): HTMLElement[
   const today = index.snapshot_date;
   const recent = (date: string | null | undefined) =>
     Boolean(date) && daysBetween(date as string, today) < index.news_window_days;
+  const { origin, radius } = filters;
   const lines: HTMLElement[] = [];
   const { trial } = hit;
   if (trial.opened) lines.push(h("li", null, `Started recruiting ${formatDate(trial.opened)}`));
   for (const added of trial.new_sites ?? []) {
-    const cities = added.cities.map((i) => index.cities[i]).filter((c): c is City => Boolean(c));
-    const near = filters.origin
-      ? cities.filter((c) => filters.radius === ANY_DISTANCE || milesBetween(filters.origin as Origin, c) <= filters.radius)
-      : [];
-    const named = near.length ? near : cities;
-    const where = named.length === 1 && named[0] ? ` in ${named[0].city}` : "";
-    const what = near.length ? (near.length === 1 ? "New site nearby" : `${near.length} new sites nearby`) : cities.length === 1 ? "New site" : `${cities.length} new sites`;
+    const all = added.cities.flatMap((i) => {
+      const city = index.cities[i];
+      return city ? [{ city, open: trial.cities.includes(i) }] : [];
+    });
+    const near = origin ? all.filter((site) => radius === ANY_DISTANCE || milesBetween(origin, site.city) <= radius) : [];
+    const named = near.length ? near : all;
+    if (!named.length) continue;
+    // A site that was added but has not opened is a planned one.
+    const noun = named.every((site) => !site.open) ? "planned site" : "site";
+    const what = `${named.length === 1 ? "New" : `${named.length} new`} ${noun}${named.length === 1 ? "" : "s"}${near.length ? " nearby" : ""}`;
+    const where = named.length === 1 && named[0] ? ` in ${named[0].city.city}` : "";
     lines.push(h("li", null, `${what}${where}, added ${formatDate(added.date)}`));
   }
   if (!trial.opened && recent(trial.first_posted)) {
@@ -175,25 +230,54 @@ function placeboChip(): HTMLElement {
   return chip;
 }
 
-function resultItem(index: FinderIndex, hit: Hit, filters: Filters): HTMLElement {
-  const { trial } = hit;
-  const news = newsLines(index, hit, filters);
-  let where: (string | Node)[];
-  if (hit.nearest && hit.miles !== null) {
-    const detail = [distanceText(hit.miles)];
-    const others = hit.inRange - 1;
-    if (others > 0) {
-      const scope = filters.radius === ANY_DISTANCE ? "" : ` within ${filters.radius} miles`;
-      detail.push(`${plural(others, "more city", "more cities")}${scope}`);
+/** Where the trial is, in words: the nearest site when a place is set, a site count otherwise. */
+function whereFact(index: FinderIndex, hit: Hit, filters: Filters): { label: Node | string; value: (Node | string)[] } {
+  const { trial, group, near } = hit;
+  const sub = (text: string) => h("span", { class: "find-sub" }, text);
+  if (!near) {
+    if (group === "open") {
+      const value: (Node | string)[] = [
+        h("span", { class: "find-place" }, `${plural(trial.site_count, "recruiting site")}${countriesText(index, trial.cities)}`),
+      ];
+      if (trial.planned_site_count) value.push(sub(`${plural(trial.planned_site_count, "more site")} not open yet`));
+      return { label: term("site", "Sites"), value };
     }
-    where = [h("span", { class: "find-place" }, cityName(hit.nearest)), h("span", { class: "find-sub" }, detail.join(" · "))];
-  } else {
-    const countries = countriesOf(index, trial);
-    const place = countries.length <= 2 ? `in ${listText(countries)}` : `in ${countries.length} countries`;
-    where = [`${plural(trial.site_count, "recruiting site")} ${place}`];
+    return {
+      label: term("site", "Planned sites"),
+      value: [`${plural(trial.planned_site_count, "site")}${countriesText(index, trial.soon)}, none open yet`],
+    };
   }
+  const scope = filters.radius === ANY_DISTANCE ? "" : ` within ${filters.radius} miles`;
+  const detail = [distanceText(near.miles)];
+  if (near.count > 1) detail.push(`${plural(near.count - 1, "more city", "more cities")}${scope}`);
+  const value: (Node | string)[] = [h("span", { class: "find-place" }, cityName(near.city))];
+  if (group === "open") {
+    value.push(sub(detail.join(" · ")));
+    if (hit.closer) {
+      value.push(sub(`A closer site, in ${cityName(hit.closer.city)} (${distanceText(hit.closer.miles)}), is not open yet.`));
+    }
+    return { label: "Nearest site", value };
+  }
+  value.push(sub(`${detail.join(" · ")} · not open yet`));
+  if (trial.status === "RECRUITING" && trial.site_count) {
+    value.push(sub(`Recruiting now at ${plural(trial.site_count, "site")} farther away.`));
+  }
+  return { label: "Planned site", value };
+}
+
+function resultItem(index: FinderIndex, hit: Hit, filters: Filters): HTMLElement {
+  const { trial, group } = hit;
+  const news = newsLines(index, hit, filters);
+  const where = whereFact(index, hit, filters);
   const fact = (label: Node | string, ...value: (Node | string)[]) =>
     h("div", { class: "find-fact" }, h("dt", null, label), h("dd", null, ...value));
+  // A trial that has not started says so; one that is recruiting elsewhere only has a nearby site to open.
+  const notOpen =
+    trial.status === "NOT_YET_RECRUITING"
+      ? statusChip(trial.status)
+      : group === "soon"
+        ? h("span", { class: "chip chip-plain" }, "Nearby site not open yet")
+        : null;
   return h(
     "li",
     { class: "find-item" },
@@ -202,6 +286,7 @@ function resultItem(index: FinderIndex, hit: Hit, filters: Filters): HTMLElement
     h(
       "p",
       { class: "row-meta" },
+      notOpen,
       phaseChip(trial.phases),
       trial.placebo ? placeboChip() : null,
       h("span", { class: "row-sub" }, trial.nct_id, trial.sponsor ? ` · ${trial.sponsor}` : ""),
@@ -209,7 +294,10 @@ function resultItem(index: FinderIndex, hit: Hit, filters: Filters): HTMLElement
     h(
       "dl",
       { class: "find-facts" },
-      fact(hit.nearest ? "Nearest site" : term("site", "Sites"), ...where),
+      fact(where.label, ...where.value),
+      trial.status === "NOT_YET_RECRUITING" && trial.start_date
+        ? fact(term("start-date", "Planned start"), plannedStartText(trial.start_date, index.snapshot_date))
+        : null,
       fact(term("age-limits", "Who"), ageText(trial.min_age, trial.max_age), " · ", sexLabel(trial.sex ?? "ALL").toLowerCase()),
       trial.tested.length ? fact(term("intervention", "Testing"), trial.tested.join(", ")) : null,
       trial.conditions.length ? fact(term("condition", "For"), trial.conditions.join(", ")) : null,
@@ -236,6 +324,7 @@ function select(id: string, options: [string, string][], value: string): HTMLSel
 function finder(index: FinderIndex, initialArea: string): HTMLElement {
   const filters: Filters = {
     area: index.collections.some((c) => c.id === initialArea) ? initialArea : "",
+    show: "",
     origin: null,
     radius: DEFAULT_RADIUS,
     age: null,
@@ -243,7 +332,7 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     kind: "",
     noPlacebo: false,
   };
-  let shown = PAGE_SIZE;
+  const shown = { ...PAGE_SIZE };
 
   const inArea = (id: string) => index.trials.filter((t) => t.collections.includes(id)).length;
   const area = select(
@@ -253,6 +342,15 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
       ...index.collections.map((c): [string, string] => [c.id, `${c.name} (${formatInt(inArea(c.id))})`]),
     ],
     filters.area,
+  );
+  const show = select(
+    "find-show",
+    [
+      ["", "Recruiting or not yet recruiting"],
+      ["open", "Recruiting now only"],
+      ["soon", "Not yet recruiting only"],
+    ],
+    "",
   );
   const place = h("input", {
     type: "search",
@@ -267,7 +365,7 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
   const placeHelp = h(
     "p",
     { class: "field-help", id: "find-place-help", "aria-live": "polite" },
-    "Pick from the cities that have a recruiting site, or use your location. Distances are straight-line, between city centers.",
+    "Pick from the cities that have a trial site, or use your location. Distances are straight-line, between city centers.",
   );
   const options = h("ul", { class: "city-options", id: "find-place-options" });
   const radius = select(
@@ -301,44 +399,71 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
   const render = () => {
     const hits = findTrials(index, filters);
     clear(results);
+    const counts: Record<Group, number> = { open: 0, soon: 0 };
+    for (const hit of hits) counts[hit.group] += 1;
     const where = filters.origin
       ? filters.radius === ANY_DISTANCE
         ? `, nearest to ${filters.origin.label} first`
         : ` within ${filters.radius} miles of ${filters.origin.label}, nearest first`
       : "";
-    count.textContent = hits.length
-      ? `${plural(hits.length, "recruiting trial")}${where}.${filters.origin ? "" : " Add a place to see the nearest first."}`
-      : "";
+    clear(count);
     if (!hits.length) {
+      const reach = filters.origin && filters.radius !== ANY_DISTANCE;
       results.appendChild(
         emptyState(
-          filters.origin && filters.radius !== ANY_DISTANCE
-            ? `No recruiting trial matches within ${filters.radius} miles of ${filters.origin.label}`
-            : "No recruiting trial matches these answers",
-          filters.origin && filters.radius !== ANY_DISTANCE
-            ? "Try a wider distance, or clear an answer. "
-            : "Try clearing an answer. ",
+          reach ? `No trial matches within ${filters.radius} miles of ${filters.origin?.label}` : "No trial matches these answers",
+          reach ? "Try a wider distance, or clear an answer. " : "Try clearing an answer. ",
           "Trials open and close every week, and this list is refreshed daily.",
         ),
       );
       return;
     }
-    results.appendChild(h("ol", { class: "find-list" }, hits.slice(0, shown).map((hit) => resultItem(index, hit, filters))));
-    if (hits.length > shown) {
+    // "26 trials recruiting now and 19 not recruiting yet within 50 miles of ...": the
+    // second count jumps to its group, which sits below the recruiting trials.
+    const soonText = `${counts.open ? formatInt(counts.soon) : plural(counts.soon, "trial")} not recruiting yet`;
+    count.append(
+      counts.open ? `${plural(counts.open, "trial")} recruiting now` : "",
+      counts.open && counts.soon ? " and " : "",
+      counts.soon ? (counts.open ? h("a", { href: "#find-group-soon" }, soonText) : soonText) : "",
+      `${where}.${filters.origin ? "" : " Add a place to see the nearest first."}`,
+    );
+    for (const group of ["open", "soon"] as const) {
+      const all = hits.filter((hit) => hit.group === group);
+      if (!all.length) continue;
       results.appendChild(
         h(
-          "div",
-          { class: "more" },
-          showMoreButton(hits.length - shown, PAGE_SIZE, () => {
-            shown += PAGE_SIZE;
-            render();
-          }),
+          "section",
+          { class: "find-group", "aria-labelledby": `find-group-${group}` },
+          h(
+            "h2",
+            { class: "find-group-title", id: `find-group-${group}` },
+            GROUP_TITLES[group],
+            h("span", { class: "find-group-count" }, ` ${formatInt(all.length)}`),
+          ),
+          group === "soon"
+            ? h(
+                "p",
+                { class: "section-note" },
+                "These are not open to participants yet. Planned dates are the sponsor's estimates and often move; the study contact on ClinicalTrials.gov can say when a site expects to open.",
+              )
+            : null,
+          h("ol", { class: "find-list" }, all.slice(0, shown[group]).map((hit) => resultItem(index, hit, filters))),
+          all.length > shown[group]
+            ? h(
+                "div",
+                { class: "more" },
+                showMoreButton(all.length - shown[group], PAGE_SIZE.open, () => {
+                  shown[group] += PAGE_SIZE.open;
+                  render();
+                }),
+              )
+            : null,
         ),
       );
     }
   };
   const update = () => {
-    shown = PAGE_SIZE;
+    Object.assign(shown, PAGE_SIZE);
     render();
   };
 
@@ -356,7 +481,7 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     const matches = matchCities(index.cities, typed);
     if (fold(typed).length >= 2 && !matches.length) {
       options.appendChild(
-        h("li", { class: "city-none" }, "No recruiting site in a city with that name. Try the nearest large city, or use your location."),
+        h("li", { class: "city-none" }, "No trial site in a city with that name. Try the nearest large city, or use your location."),
       );
       return;
     }
@@ -413,6 +538,10 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     history.replaceState(history.state, "", url.pathname + url.search);
     update();
   });
+  show.addEventListener("change", () => {
+    filters.show = show.value as Filters["show"];
+    update();
+  });
   radius.addEventListener("change", () => {
     filters.radius = Number(radius.value);
     update();
@@ -435,8 +564,9 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     update();
   });
   reset.addEventListener("click", () => {
-    Object.assign(filters, { area: "", origin: null, radius: DEFAULT_RADIUS, age: null, sex: "", kind: "", noPlacebo: false });
+    Object.assign(filters, { area: "", show: "", origin: null, radius: DEFAULT_RADIUS, age: null, sex: "", kind: "", noPlacebo: false });
     area.value = "";
+    show.value = "";
     place.value = "";
     radius.value = String(DEFAULT_RADIUS);
     age.value = "";
@@ -458,8 +588,9 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     { class: "finder" },
     h(
       "form",
-      { class: "finder-form", role: "search", "aria-label": "Find a recruiting trial", onsubmit: (e: Event) => e.preventDefault() },
+      { class: "finder-form", role: "search", "aria-label": "Find a trial", onsubmit: (e: Event) => e.preventDefault() },
       field("Condition area", area, "field-area"),
+      field("Trial status", show, "field-show"),
       h(
         "div",
         { class: "field field-place" },
@@ -493,6 +624,19 @@ export async function findPage(meta: Meta): Promise<Page> {
   const index = await loadFinder();
   const initialArea = new URLSearchParams(location.search).get("area") ?? "";
   const areas = listText(index.collections.map((c) => inSentence(c.name)));
+  const openCount = index.trials.filter((t) => t.status === "RECRUITING").length;
+  const soonCount = index.trials.length - openCount;
+  // "2 recruiting trials and 68 trials that are not yet recruiting name no such site ..."
+  const missing = [
+    index.trials_without_location ? plural(index.trials_without_location, "recruiting trial") : "",
+    index.not_yet_without_location
+      ? `${formatInt(index.not_yet_without_location)} that ${index.not_yet_without_location === 1 ? "is" : "are"} not yet recruiting`
+      : "",
+  ].filter(Boolean);
+  const missingCount = index.trials_without_location + index.not_yet_without_location;
+  const unlisted = missing.length
+    ? `${missing.join(" and ")} ${missingCount === 1 ? "names" : "name"} no such site and ${missingCount === 1 ? "is" : "are"} on the collection pages only.`
+    : "";
   const node = h(
     "div",
     { class: "page find-page" },
@@ -500,13 +644,15 @@ export async function findPage(meta: Meta): Promise<Page> {
       "header",
       { class: "hero hero-accent" },
       h("p", { class: "eyebrow" }, "For patients and caregivers"),
-      h("h1", null, "Find a trial that is recruiting near you"),
+      h("h1", null, "Find a trial near you"),
       h(
         "p",
         { class: "lede" },
-        `Search the ${formatInt(index.trials.length)} trials in ${areas} that are `,
+        `Search ${formatInt(openCount)} trials in ${areas} that are `,
         term("status-recruiting", "recruiting"),
-        " now. Narrow them by where you live, your age and what is being tested, then take the trials that interest you to your doctor.",
+        ` now, and ${formatInt(soonCount)} more that are `,
+        term("status-not_yet_recruiting", "not yet recruiting"),
+        ". Narrow them by where you live, your age and what is being tested, then take the trials that interest you to your doctor.",
       ),
     ),
     h(
@@ -537,11 +683,13 @@ export async function findPage(meta: Meta): Promise<Page> {
         h(
           "li",
           null,
-          `Listed: trials whose registry record says they are recruiting and names at least one recruiting site with a location. `,
-          index.trials_without_location
-            ? `${plural(index.trials_without_location, "recruiting trial")} ${index.trials_without_location === 1 ? "lists" : "list"} no such site and ${index.trials_without_location === 1 ? "is" : "are"} on the collection pages only. `
-            : "",
-          "Sites that have not opened yet are not counted.",
+          "Listed: trials whose registry record says recruiting or not yet recruiting, and that name at least one site with a location. ",
+          unlisted,
+        ),
+        h(
+          "li",
+          null,
+          "With a place chosen, a trial is under “Recruiting now” when one of its recruiting sites is within the distance, and under “Not recruiting yet” when only sites that have not opened are. A trial that has not started gives its sites no status, so all of them count as planned.",
         ),
         h(
           "li",
@@ -551,7 +699,7 @@ export async function findPage(meta: Meta): Promise<Page> {
         h(
           "li",
           null,
-          `“Started recruiting” and “new site” come from this site's daily comparison of the registry, over the last ${index.news_window_days} days. Recruiting status can lag behind what is happening at a site, so confirm with the study contact.`,
+          `“Started recruiting” and “new site” come from this site's daily comparison of the registry, over the last ${index.news_window_days} days. Recruiting status and planned start dates can lag behind what is happening at a site, so confirm with the study contact.`,
         ),
         h(
           "li",

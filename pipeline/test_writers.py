@@ -227,7 +227,7 @@ def _event(nct, kind, new_value, date, change_id, collection="glp1-obesity"):
     }
 
 
-def test_finder_lists_recruiting_trials_with_a_mappable_site(tmp_path, day2):
+def test_finder_lists_open_and_not_yet_open_trials_with_a_mappable_site(tmp_path, day2):
     day2.trials["NCT90000014"].update(
         {
             "conditions": ["Obesity", "Overweight"],
@@ -238,6 +238,25 @@ def test_finder_lists_recruiting_trials_with_a_mappable_site(tmp_path, day2):
         }
     )
     boston = {"facility": "Site 1", "city": "Boston", "state": "Massachusetts", "country": "United States"}
+
+    def site(city, status, lat=42.0, lon=-71.5):
+        return {**boston, "city": city, "status": status, "lat": lat, "lon": lon}
+
+    # NCT90000007 has not started: the registry gives its sites no status of their own.
+    day2.trials["NCT90000007"]["start_date"] = {"date": "2026-03", "type": "ESTIMATED"}
+    day2.trials["NCT90000007"]["sites"] = [
+        site("Boston", None, 42.36, -71.06),
+        site("Cambridge", None),
+        site("Lowell", "WITHDRAWN"),
+        site("Salem", None, lat=None),
+    ]
+    # NCT90000009 is recruiting in Boston; its Worcester site has not opened, and a
+    # second Boston site that has not opened does not make Boston "not open yet".
+    day2.trials["NCT90000009"]["sites"] += [
+        site("Worcester", "NOT_YET_RECRUITING"),
+        site("Boston", "NOT_YET_RECRUITING", 42.36, -71.06),
+        site("Springfield", "COMPLETED"),
+    ]
     events = [
         _event("NCT90000014", "status_change", "RECRUITING", "2026-01-06", "c1"),
         # The same registry change seen from a second collection counts once.
@@ -245,7 +264,7 @@ def test_finder_lists_recruiting_trials_with_a_mappable_site(tmp_path, day2):
         _event("NCT90000010", "site_added", [boston], "2026-01-06", "c2", collection="type-2-diabetes"),
         # Outside the 30-day window: ignored.
         _event("NCT90000012", "status_change", "RECRUITING", "2025-11-01", "c3", collection="type-2-diabetes"),
-        # A site added in a city the trial is not recruiting in: no news.
+        # A site added in a city the trial lists no open or planned site in: no news.
         _event(
             "NCT90000004",
             "site_added",
@@ -254,28 +273,66 @@ def test_finder_lists_recruiting_trials_with_a_mappable_site(tmp_path, day2):
             "c4",
             collection="type-2-diabetes",
         ),
+        # A planned site that was just added is news too.
+        _event(
+            "NCT90000009",
+            "site_added",
+            [{**boston, "city": "Worcester"}],
+            "2026-01-06",
+            "c5",
+            collection="cholesterol-lipids",
+        ),
     ]
     stats = write_finder(tmp_path, day2, load_watchlist(), events)
     finder = read(tmp_path / "finder.json")
     by_id = {t["nct_id"]: t for t in finder["trials"]}
+    city = [c["city"] for c in finder["cities"]]
 
     # Recruiting overall: 04, 05, 09, 10, 12, 14. NCT90000005's recruiting sites
-    # have no coordinates, so it is counted but not listed.
-    assert sorted(by_id) == ["NCT90000004", "NCT90000009", "NCT90000010", "NCT90000012", "NCT90000014"]
-    assert finder["recruiting_trials"] == 6 and finder["trials_without_location"] == 1
-    assert stats == {"trials": 5, "cities": 1, "without_location": 1}
-    assert finder["cities"] == [
-        {"city": "Boston", "state": "Massachusetts", "country": "United States", "lat": 42.36, "lon": -71.06}
+    # have no coordinates, so it is counted but not listed. Not yet recruiting: 07.
+    assert sorted(by_id) == [
+        "NCT90000004",
+        "NCT90000007",
+        "NCT90000009",
+        "NCT90000010",
+        "NCT90000012",
+        "NCT90000014",
     ]
+    assert finder["recruiting_trials"] == 6 and finder["trials_without_location"] == 1
+    assert finder["not_yet_recruiting_trials"] == 1 and finder["not_yet_without_location"] == 0
+    assert stats == {"trials": 6, "cities": 3, "without_location": 1, "not_yet_recruiting": 1}
+    assert city == ["Boston", "Cambridge", "Worcester"]
+    assert finder["cities"][0] == {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States",
+        "lat": 42.36,
+        "lon": -71.06,
+    }
     assert [c["id"] for c in finder["collections"]] == ["glp1-obesity", "type-2-diabetes", "cholesterol-lipids"]
     assert by_id["NCT90000010"]["collections"] == ["glp1-obesity", "type-2-diabetes"]
 
     trial = by_id["NCT90000014"]
+    assert trial["status"] == "RECRUITING"
     assert trial["tested"] == ["Retatrutide"] and trial["kinds"] == ["medicine"] and trial["placebo"] is True
     assert (trial["sex"], trial["min_age"], trial["max_age"]) == ("ALL", 18, 75)
     assert trial["conditions"] == ["Obesity", "Overweight"] and trial["sponsor"] == "Eli Lilly and Company"
     assert trial["cities"] == [0] and trial["site_count"] == 1
+    assert trial["soon"] == [] and trial["planned_site_count"] == 0 and "start_date" not in trial
     assert trial["opened"] == "2026-01-06" and "new_sites" not in trial
+
+    # Not started: no recruiting cities; every site that is not closed is a planned one
+    # (the one without coordinates is counted but cannot be placed).
+    planned = by_id["NCT90000007"]
+    assert planned["status"] == "NOT_YET_RECRUITING" and planned["start_date"] == "2026-03"
+    assert planned["cities"] == [] and planned["site_count"] == 0
+    assert [city[i] for i in planned["soon"]] == ["Boston", "Cambridge"] and planned["planned_site_count"] == 3
+
+    # Recruiting, with a site that has not opened.
+    mixed = by_id["NCT90000009"]
+    assert [city[i] for i in mixed["cities"]] == ["Boston"] and mixed["site_count"] == 1
+    assert [city[i] for i in mixed["soon"]] == ["Worcester"] and mixed["planned_site_count"] == 2
+    assert mixed["new_sites"] == [{"date": "2026-01-06", "cities": [2]}]
 
     assert by_id["NCT90000010"]["new_sites"] == [{"date": "2026-01-06", "cities": [0]}]
     assert "opened" not in by_id["NCT90000012"] and "new_sites" not in by_id["NCT90000004"]

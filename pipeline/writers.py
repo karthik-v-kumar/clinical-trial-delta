@@ -170,9 +170,10 @@ SITES_FIELDS = (
 SITES_CITY_FIELDS = ("city", "state", "country", "lat", "lon")
 SITES_TRIAL_FIELDS = ("nct_id", "cities")
 
-# data/finder.json: every recruiting trial with a mappable recruiting site, with
-# the facts a patient filters on (age and sex limits, what is tested). The page
-# filters this file in the browser; what a visitor types never leaves it.
+# data/finder.json: every trial that is recruiting or not yet recruiting and names
+# a site with coordinates, with the facts a patient filters on (age and sex
+# limits, what is tested). The page filters this file in the browser; what a
+# visitor types never leaves it.
 FINDER_FIELDS = (
     "schema_version",
     "snapshot_date",
@@ -182,11 +183,14 @@ FINDER_FIELDS = (
     "trials",
     "recruiting_trials",
     "trials_without_location",
+    "not_yet_recruiting_trials",
+    "not_yet_without_location",
 )
 FINDER_COLLECTION_FIELDS = ("id", "name")
 FINDER_TRIAL_FIELDS = (
     "nct_id",
     "title",
+    "status",
     "collections",
     "phases",
     "conditions",
@@ -198,8 +202,11 @@ FINDER_TRIAL_FIELDS = (
     "max_age",
     "sponsor",
     "first_posted",
+    "start_date",
     "cities",
     "site_count",
+    "soon",
+    "planned_site_count",
     "opened",
     "new_sites",
 )
@@ -623,13 +630,22 @@ def has_placebo_group(record: dict) -> bool:
     return any(_is_placebo(iv.get("name")) for iv in record.get("interventions") or [])
 
 
-def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dict]) -> dict:
-    """data/finder.json: recruiting trials across every collection, for "Find a trial".
+FINDER_STATUSES = ("RECRUITING", "NOT_YET_RECRUITING")
+# In a trial that has not started, the registry gives sites no status of their own:
+# every listed site is a planned one unless it is marked as closed.
+CLOSED_SITE_STATUSES = ("ACTIVE_NOT_RECRUITING", "COMPLETED", "SUSPENDED", "TERMINATED", "WITHDRAWN")
 
-    A trial is listed when its overall status is RECRUITING and at least one of its
-    RECRUITING sites has coordinates; the others are counted, not listed. Recent
-    news comes from the change feed: the date a trial started recruiting and the
-    cities where recruiting sites were added, within the last FINDER_NEWS_DAYS.
+
+def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dict]) -> dict:
+    """data/finder.json: trials open or about to open, across every collection, for "Find a trial".
+
+    A trial is listed when its overall status is RECRUITING or NOT_YET_RECRUITING and
+    at least one of its recruiting or planned sites has coordinates; the others are
+    counted, not listed. `cities` are where it is recruiting now. `soon` are where a
+    site is listed but not open: NOT_YET_RECRUITING sites of a recruiting trial, and
+    every site of a trial that has not started. Recent news comes from the change
+    feed: the date a trial started recruiting and the cities where sites were added,
+    within the last FINDER_NEWS_DAYS.
     """
     members: dict[str, list[str]] = defaultdict(list)
     names = {}
@@ -659,48 +675,67 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
 
     city_index: dict[tuple, int] = {}
     cities: list[dict] = []
+
+    def city_of(site: dict) -> int | None:
+        """Index of the site's city in `cities` (added on first use); None if it cannot be mapped."""
+        if site.get("lat") is None or site.get("lon") is None or not site.get("city"):
+            return None
+        key = (site.get("city"), site.get("state"), site.get("country"))
+        if key not in city_index:
+            city_index[key] = len(cities)
+            cities.append(
+                publish(
+                    {
+                        "city": site["city"],
+                        "state": site.get("state"),
+                        "country": site.get("country"),
+                        "lat": round(site["lat"], 3),
+                        "lon": round(site["lon"], 3),
+                    },
+                    SITES_CITY_FIELDS,
+                )
+            )
+        return city_index[key]
+
     trials: list[dict] = []
-    recruiting = 0
-    without_location = 0
+    counted = dict.fromkeys(FINDER_STATUSES, 0)
+    unlisted = dict.fromkeys(FINDER_STATUSES, 0)
     for nct in sorted(members):
         record = snap.trials.get(nct)
-        if record is None or record.get("overall_status") != "RECRUITING":
+        status = (record or {}).get("overall_status")
+        if record is None or status not in FINDER_STATUSES:
             continue
-        recruiting += 1
-        indexes: list[int] = []
-        site_count = 0
+        counted[status] += 1
+        recruiting_now = status == "RECRUITING"
+        open_cities: list[int] = []
+        soon_cities: list[int] = []
+        site_count = planned_count = 0
         for site in record.get("sites") or []:
-            if site.get("status") != "RECRUITING":
+            site_status = site.get("status")
+            if recruiting_now and site_status == "RECRUITING":
+                site_count += 1
+                target = open_cities
+            elif (recruiting_now and site_status == "NOT_YET_RECRUITING") or (
+                not recruiting_now and site_status not in CLOSED_SITE_STATUSES
+            ):
+                planned_count += 1
+                target = soon_cities
+            else:
                 continue
-            site_count += 1
-            if site.get("lat") is None or site.get("lon") is None or not site.get("city"):
-                continue
-            key = (site.get("city"), site.get("state"), site.get("country"))
-            if key not in city_index:
-                city_index[key] = len(cities)
-                cities.append(
-                    publish(
-                        {
-                            "city": site["city"],
-                            "state": site.get("state"),
-                            "country": site.get("country"),
-                            "lat": round(site["lat"], 3),
-                            "lon": round(site["lon"], 3),
-                        },
-                        SITES_CITY_FIELDS,
-                    )
-                )
-            if city_index[key] not in indexes:
-                indexes.append(city_index[key])
-        if not indexes:
-            without_location += 1
+            i = city_of(site)
+            if i is not None and i not in target:
+                target.append(i)
+        # A city with a recruiting site is not also "not open yet".
+        soon_cities = [i for i in soon_cities if i not in open_cities]
+        if not open_cities and not soon_cities:
+            unlisted[status] += 1
             continue
         new_sites = []
         for date in sorted(added.get(nct, {}), reverse=True):
             found = []
             for key in added[nct][date]:
                 i = city_index.get(key)
-                if i is not None and i in indexes and i not in found:
+                if i is not None and (i in open_cities or i in soon_cities) and i not in found:
                     found.append(i)
             if found:
                 new_sites.append(publish({"date": date, "cities": found}, FINDER_NEW_SITES_FIELDS))
@@ -709,6 +744,7 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
         row = {
             "nct_id": nct,
             "title": record.get("brief_title") or record.get("official_title"),
+            "status": status,
             "collections": [c for c in names if c in members[nct]],
             "phases": record.get("phases") or [],
             "conditions": (record.get("conditions") or [])[:FINDER_MAX_LISTED],
@@ -720,9 +756,13 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
             "max_age": age_in_years(eligibility.get("maximum_age")),
             "sponsor": (record.get("lead_sponsor") or {}).get("name"),
             "first_posted": record.get("first_posted"),
-            "cities": indexes,
+            "cities": open_cities,
             "site_count": site_count,
+            "soon": soon_cities,
+            "planned_site_count": planned_count,
         }
+        if not recruiting_now and (record.get("start_date") or {}).get("date"):
+            row["start_date"] = record["start_date"]["date"]
         if nct in opened:
             row["opened"] = opened[nct]
         if new_sites:
@@ -739,13 +779,20 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
             ],
             "cities": cities,
             "trials": trials,
-            "recruiting_trials": recruiting,
-            "trials_without_location": without_location,
+            "recruiting_trials": counted["RECRUITING"],
+            "trials_without_location": unlisted["RECRUITING"],
+            "not_yet_recruiting_trials": counted["NOT_YET_RECRUITING"],
+            "not_yet_without_location": unlisted["NOT_YET_RECRUITING"],
         },
         FINDER_FIELDS,
     )
     write_json(data_dir / "finder.json", body, indent=None)
-    return {"trials": len(trials), "cities": len(cities), "without_location": without_location}
+    return {
+        "trials": len(trials),
+        "cities": len(cities),
+        "without_location": unlisted["RECRUITING"],
+        "not_yet_recruiting": counted["NOT_YET_RECRUITING"] - unlisted["NOT_YET_RECRUITING"],
+    }
 
 
 def write_meta(
