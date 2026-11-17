@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "app": "Clinical Trial Delta",
-  "snapshot_date": "2026-11-15",
+  "snapshot_date": "2026-11-16",
   "tracking_since": "2026-11-09",
-  "generated_at": "2026-11-15T14:05:47-08:00",
+  "generated_at": "2026-11-16T17:04:36-08:00",
   "run": {
     "mode": "daily",
-    "started_at": "2026-11-15T14:05:18-08:00",
-    "finished_at": "2026-11-15T14:05:47-08:00",
-    "compared_against": "2026-11-14",
+    "started_at": "2026-11-16T17:04:13-08:00",
+    "finished_at": "2026-11-16T17:04:36-08:00",
+    "compared_against": "2026-11-15",
     "baseline": false,
     "partial": false,
     "failed_queries": {},
     "records_kept_from_previous": [],
     "records_skipped": [],
-    "events_detected": 0,
-    "records_changed": 0,
+    "events_detected": 14,
+    "records_changed": 11,
     "rebaselined_collections": [],
     "left_watchlist": {},
     "api_requests": 13,
@@ -25,12 +25,12 @@
     "name": "ClinicalTrials.gov API v2",
     "url": "https://clinicaltrials.gov/api/v2",
     "api_version": "2.0.5",
-    "data_timestamp": "2026-11-13T10:00:06"
+    "data_timestamp": "2026-11-16T10:00:05"
   },
   "totals": {
-    "trials": 6204,
-    "events_all_time": 99,
-    "changes_all_time": 91
+    "trials": 6205,
+    "events_all_time": 113,
+    "changes_all_time": 105
   },
   "recent_window_days": 7,
   "collections": [
@@ -41,8 +41,8 @@
       "accent": "#0B8FA8",
       "partial": false,
       "trial_count": 1097,
-      "recruiting_count": 241,
-      "changes_recent": 28
+      "recruiting_count": 243,
+      "changes_recent": 38
     },
     {
       "id": "type-2-diabetes",
@@ -50,9 +50,9 @@
       "why_it_matters": "South Asians develop type 2 diabetes earlier and at lower body weights than other groups — this collection exists for the family as much as the portfolio.",
       "accent": "#D65F21",
       "partial": false,
-      "trial_count": 4190,
+      "trial_count": 4191,
       "recruiting_count": 193,
-      "changes_recent": 57
+      "changes_recent": 58
     },
     {
       "id": "cholesterol-lipids",
@@ -62,7 +62,7 @@
       "partial": false,
       "trial_count": 1082,
       "recruiting_count": 55,
-      "changes_recent": 14
+      "changes_recent": 17
     }
   ],
   "queries": [
@@ -88,8 +88,8 @@
       "id": "t2d-drugs",
       "collection": "type-2-diabetes",
       "label": "Type 2 diabetes, testing metformin, insulin, an SGLT2 or a DPP-4 medicine",
-      "matched": 3737,
-      "registry_count": 3737,
+      "matched": 3738,
+      "registry_count": 3738,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=%22Diabetes%20Mellitus%2C%20Type%202%22&intr=metformin%20OR%20insulin%20OR%20empagliflozin%20OR%20dapagliflozin%20OR%20canagliflozin%20OR%20ertugliflozin%20OR%20SGLT2%20OR%20%22SGLT-2%22%20OR%20%22SGLT2%20inhibitor%22%20OR%20%22sodium-glucose%20cotransporter%202%22%20OR%20sitagliptin%20OR%20saxagliptin%20OR%20linagliptin%20OR%20alogliptin%20OR%20vildagliptin%20OR%20%22DPP-4%22%20OR%20DPP4%20OR%20%22DPP-4%20inhibitor%22%20OR%20%22dipeptidyl%20peptidase-4%22&aggFilters=studyType%3Aint"
     },

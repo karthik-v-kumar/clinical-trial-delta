@@ -24,8 +24,8 @@
   ]
  },
  "enrollment": {
-  "count": 78,
-  "type": "ESTIMATED"
+  "count": 82,
+  "type": "ACTUAL"
  },
  "start_date": {
   "date": "2021-03-04",
@@ -40,9 +40,9 @@
   "type": "ESTIMATED"
  },
  "first_posted": "2021-03-01",
- "last_update_posted": "2026-07-09",
- "results_first_posted": null,
- "has_results": false,
+ "last_update_posted": "2026-11-16",
+ "results_first_posted": "2026-11-16",
+ "has_results": true,
  "lead_sponsor": {
   "name": "Novo Nordisk A/S",
   "class": "INDUSTRY"
@@ -81,8 +81,8 @@
  ],
  "primary_outcomes": [
   {
-   "measure": "Relative change in BMI (Body mass index)",
-   "time_frame": "From baseline (week 0) to week 56"
+   "measure": "Relative Change in Body Mass Index (BMI)",
+   "time_frame": "Baseline (week 0), week 56"
   }
  ],
  "brief_summary": "The study looks at how liraglutide works on participant's body weight. Researchers will look at how liraglutide can help children with obesity to lose weight. They will look at how much weight the children will lose, and if there are any side effects.\n\nParticipants will either get liraglutide or placebo. Which treatment the participants get is decided by chance. Liraglutide is a new medicine for children, but it can already be prescribed by doctors to adults with overweight or obesity. The participant will get 1 injection every day.\n\nIn addition to taking the medicine, the participants will have talks with the study staff about healthy food choices, how they can be more physically active and what can be done to help the participants to lose weight.\n\nThe study will last for about 96 weeks (almost 2 years). The participants will have 18 clinic visits and 10 phone or video calls with the study doctor/staff. Participant will have blood samples taken, have 1 test to check the heart, 1 hand X-ray taken and must fill in a diary between some of the visits.",
@@ -387,7 +387,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04775082",
- "content_hash": "71d8df3c692a0573",
+ "content_hash": "107205412d9167c0",
  "collections": [
   "glp1-obesity"
  ],
@@ -438,5 +438,52 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "f4906c016e61ac82",
+   "type": "enrollment_change",
+   "field": "enrollment",
+   "old_value": {
+    "count": 78,
+    "type": "ESTIMATED"
+   },
+   "new_value": {
+    "count": 82,
+    "type": "ACTUAL"
+   },
+   "detected_date": "2026-11-16",
+   "collections": [
+    "glp1-obesity"
+   ]
+  },
+  {
+   "change_id": "a1c488535827f3b6",
+   "type": "endpoint_change",
+   "field": "primary_outcomes",
+   "old_value": [
+    "Relative change in BMI (Body mass index)"
+   ],
+   "new_value": [
+    "Relative Change in Body Mass Index (BMI)"
+   ],
+   "detected_date": "2026-11-16",
+   "collections": [
+    "glp1-obesity"
+   ]
+  },
+  {
+   "change_id": "9c904734ad2928c5",
+   "type": "results_posted",
+   "field": "has_results",
+   "old_value": false,
+   "new_value": true,
+   "detected_date": "2026-11-16",
+   "context": {
+    "results_first_posted": "2026-11-16"
+   },
+   "collections": [
+    "glp1-obesity"
+   ]
+  }
+ ]
 }
