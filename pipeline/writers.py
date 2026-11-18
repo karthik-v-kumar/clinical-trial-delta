@@ -17,7 +17,8 @@ CHECKLIST_ITEM_FIELDS (eligibility checklist), ROW_FIELDS (collection table
 rows), EVENT_FIELDS (changes.json), HISTORY_FIELDS (trial history),
 COLLECTION_FIELDS, SITES_FIELDS / SITES_CITY_FIELDS / SITES_TRIAL_FIELDS
 (recruiting-sites index), FINDER_FIELDS / FINDER_COLLECTION_FIELDS /
-FINDER_TRIAL_FIELDS / FINDER_NEW_SITES_FIELDS (trial finder), DRUG_FIELDS /
+FINDER_TRIAL_FIELDS / FINDER_NEW_SITES_FIELDS (trial finder), CLINICAL_* (clinician
+view), EXPANDING_* (trials adding sites), DRUG_FIELDS /
 DRUG_INDEX_FIELDS / DRUG_ENTRY_FIELDS (drug pages),
 META_FIELDS / META_RUN_FIELDS / META_COLLECTION_FIELDS.
 
@@ -27,6 +28,8 @@ Output (all JSON, all committed):
     data/collections/<id>.json      collection metadata, landscape counts, trial table rows
     data/sites/<id>.json            where a collection's trials are recruiting (city search)
     data/finder.json                every recruiting trial, for the "Find a trial" page
+    data/clinical.json              clinical detail for the finder's clinician view (lazy-loaded)
+    data/expanding.json             open trials that may still be adding sites (clinicians page)
     data/drugs/index.json           the drugs with their own page, with trial counts
     data/drugs/<id>.json            one drug: counts by phase and status, trial table rows
     data/feeds/all.xml              RSS feed of the latest changes (and one per collection)
@@ -220,6 +223,38 @@ FINDER_TRIAL_FIELDS = (
     "new_sites",
 )
 FINDER_NEW_SITES_FIELDS = ("date", "cities")
+
+# data/clinical.json: what a clinician checks before referring a patient, for
+# every trial in finder.json. Loaded only when the finder's clinician view is on;
+# the institutions near a place come from the trial files, for the results shown.
+# Investigator names and contact details are never fetched (see fetch/ctgov.py);
+# the registry is the place for those.
+CLINICAL_FIELDS = ("schema_version", "snapshot_date", "trials")
+CLINICAL_TRIAL_FIELDS = ("criteria", "design", "comparators", "endpoints", "enrollment", "primary_completion")
+CLINICAL_CRITERION_FIELDS = ("labs", "kind", "text")
+CLINICAL_DESIGN_FIELDS = ("allocation", "masking", "model", "purpose")
+CLINICAL_ENDPOINT_FIELDS = ("measure", "time_frame")
+
+# data/expanding.json: recruiting or not-yet-recruiting trials with a sign that the
+# sponsor may still be adding sites or patients.
+EXPANDING_FIELDS = ("schema_version", "snapshot_date", "window_days", "registered_days", "trials")
+EXPANDING_TRIAL_FIELDS = (
+    "nct_id",
+    "title",
+    "status",
+    "phases",
+    "sponsor",
+    "sponsor_class",
+    "collections",
+    "countries",
+    "site_count",
+    "planned_site_count",
+    "start_date",
+    "first_posted",
+    "signals",
+    "latest",
+)
+EXPANDING_SIGNAL_FIELDS = ("type", "date", "count", "countries", "from", "to")
 
 # data/drugs/index.json and data/drugs/<id>.json: one page per drug in the
 # watchlist's "drugs" list. A drug file has the same landscape and table shape as
@@ -704,6 +739,96 @@ def drug_matcher(drugs) -> callable:
     return match
 
 
+# Lab cut-offs a clinician looks for first. A criterion is shown when it names one
+# of these and contains a number; long criteria are cut to an excerpt around it.
+LAB_PATTERNS = (
+    ("HbA1c", re.compile(r"\b(hba1c|hb\s?a1c|a1c|glycated ha?emoglobin|glycosylated ha?emoglobin)\b", re.IGNORECASE)),
+    ("BMI", re.compile(r"\b(bmi|body mass index)\b", re.IGNORECASE)),
+    ("eGFR", re.compile(r"\b(egfr|glomerular filtration rate|creatinine clearance|crcl)\b", re.IGNORECASE)),
+    ("LDL-C", re.compile(r"\b(ldl-?c?|low[- ]density lipoprotein)\b", re.IGNORECASE)),
+    ("Triglycerides", re.compile(r"\b(triglycerides?|tg)\b", re.IGNORECASE)),
+    ("Lp(a)", re.compile(r"(\blp\s?\(a\)|lipoprotein\s?\(a\))", re.IGNORECASE)),
+)
+CRITERION_SHORT = 240  # shown whole up to this length
+EXCERPT_BEFORE, EXCERPT_AFTER = 60, 180  # characters around the lab name in a longer criterion
+KEY_CRITERIA_MAX = 8
+_DIGIT = re.compile(r"\d")
+_NOT_A_CUTOFF = re.compile(r"\btype\s*[12]\b", re.IGNORECASE)  # "type 2 diabetes" is not a lab value
+
+
+def _has_cutoff(text: str) -> bool:
+    """A number other than the ones inside lab names ("HbA1c") or "type 2"."""
+    for _, pattern in LAB_PATTERNS:
+        text = pattern.sub(" ", text)
+    return bool(_DIGIT.search(_NOT_A_CUTOFF.sub(" ", text)))
+
+
+def _excerpt(text: str, start: int, end: int) -> str:
+    """text[start:end] widened to whole words, with … where it was cut."""
+    lo, hi = max(0, start - EXCERPT_BEFORE), min(len(text), end + EXCERPT_AFTER)
+    if lo > 0:
+        space = text.find(" ", lo)
+        lo = space + 1 if 0 <= space < start else lo
+    if hi < len(text):
+        space = text.rfind(" ", end, hi)
+        hi = space if space > end else hi
+    return ("…" if lo > 0 else "") + text[lo:hi].strip() + ("…" if hi < len(text) else "")
+
+
+def key_lab_criteria(checklist: dict | None) -> list[dict]:
+    """Eligibility criteria that set a lab cut-off (HbA1c, BMI, eGFR, LDL-C, triglycerides, Lp(a)), verbatim."""
+    if not checklist or not checklist.get("parsed"):
+        return []
+    found: list[dict] = []
+    seen: set[str] = set()
+    for kind in ("inclusion", "exclusion"):
+        for item in checklist.get(kind) or []:
+            for text in [item.get("text") or "", *(item.get("sub_items") or [])]:
+                matches = [(lab, m) for lab, pattern in LAB_PATTERNS if (m := pattern.search(text))]
+                if not matches:
+                    continue
+                if len(text) <= CRITERION_SHORT:
+                    entries = [([lab for lab, _ in matches], text)] if _has_cutoff(text) else []
+                else:
+                    entries = [([lab], _excerpt(text, m.start(), m.end())) for lab, m in matches]
+                for labs, shown in entries:
+                    if shown in seen or not _has_cutoff(shown):
+                        continue
+                    seen.add(shown)
+                    found.append({"labs": labs, "kind": kind, "text": shown})
+    return found[:KEY_CRITERIA_MAX]
+
+
+def comparators(record: dict) -> list[str]:
+    """What the tested treatment is compared with: active comparators by name, then placebo, sham or none."""
+    names: list[str] = []
+    kinds = {
+        "PLACEBO_COMPARATOR": "Placebo",
+        "SHAM_COMPARATOR": "Sham (simulated) procedure",
+        "NO_INTERVENTION": "No treatment",
+    }
+    for arm in record.get("arm_groups") or []:
+        arm_type = arm.get("type")
+        if arm_type == "ACTIVE_COMPARATOR":
+            listed = [n.split(":", 1)[-1].strip() for n in arm.get("intervention_names") or []]
+            listed = [n for n in listed if n and not _is_placebo(n)] or [arm.get("label") or "Active comparator"]
+            names += listed
+        elif arm_type in kinds:
+            names.append(kinds[arm_type])
+    unique: list[str] = []
+    for name in names:
+        if name.lower() not in {u.lower() for u in unique}:
+            unique.append(name)
+    return unique[:4]
+
+
+def _clip(text: str | None, limit: int) -> str | None:
+    if not text:
+        return None
+    text = " ".join(text.split())
+    return text if len(text) <= limit else text[: text.rfind(" ", 0, limit - 1)].rstrip(",;:") + "…"
+
+
 def has_placebo_group(record: dict) -> bool:
     """True when some participants get a placebo or sham, per the arms or interventions."""
     if any(a.get("type") in ("PLACEBO_COMPARATOR", "SHAM_COMPARATOR") for a in record.get("arm_groups") or []):
@@ -780,6 +905,7 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
         return city_index[key]
 
     trials: list[dict] = []
+    clinical: dict[str, dict] = {}
     counted = dict.fromkeys(FINDER_STATUSES, 0)
     unlisted = dict.fromkeys(FINDER_STATUSES, 0)
     for nct in sorted(members):
@@ -852,6 +978,38 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
         if new_sites:
             row["new_sites"] = new_sites
         trials.append(publish(row, FINDER_TRIAL_FIELDS))
+        design = record.get("design") or {}
+        enrollment = record.get("enrollment") or {}
+        clinical[nct] = publish(
+            {
+                "criteria": [
+                    publish(c, CLINICAL_CRITERION_FIELDS)
+                    for c in key_lab_criteria(parse_criteria(eligibility.get("criteria")))
+                ],
+                "design": publish(
+                    {
+                        "allocation": design.get("allocation"),
+                        "masking": design.get("masking"),
+                        "model": design.get("intervention_model"),
+                        "purpose": design.get("primary_purpose"),
+                    },
+                    CLINICAL_DESIGN_FIELDS,
+                ),
+                "comparators": comparators(record),
+                "endpoints": [
+                    publish(
+                        {"measure": _clip(o.get("measure"), 220), "time_frame": _clip(o.get("time_frame"), 90)},
+                        CLINICAL_ENDPOINT_FIELDS,
+                    )
+                    for o in (record.get("primary_outcomes") or [])[:2]
+                ],
+                "enrollment": {"count": enrollment.get("count"), "type": enrollment.get("type")}
+                if enrollment.get("count") is not None
+                else None,
+                "primary_completion": record.get("primary_completion_date"),
+            },
+            CLINICAL_TRIAL_FIELDS,
+        )
 
     body = publish(
         {
@@ -872,12 +1030,131 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
         FINDER_FIELDS,
     )
     write_json(data_dir / "finder.json", body, indent=None)
+    write_json(
+        data_dir / "clinical.json",
+        publish(
+            {"schema_version": SCHEMA_VERSION, "snapshot_date": snap.snapshot_date, "trials": clinical}, CLINICAL_FIELDS
+        ),
+        indent=None,
+    )
     return {
         "trials": len(trials),
         "cities": len(cities),
         "without_location": unlisted["RECRUITING"],
         "not_yet_recruiting": counted["NOT_YET_RECRUITING"] - unlisted["NOT_YET_RECRUITING"],
     }
+
+
+EXPANDING_DAYS = 60
+REGISTERED_DAYS = 90
+
+
+def write_expanding(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dict]) -> dict:
+    """data/expanding.json: open trials that may still be adding sites or patients.
+
+    Signals, newest first: sites added or the enrollment target raised in the last
+    EXPANDING_DAYS (from the change feed), not yet recruiting (sites may still be
+    being chosen), and first posted in the last REGISTERED_DAYS. A trial with no
+    signal is not listed.
+    """
+    members: dict[str, list[str]] = defaultdict(list)
+    for c in wl.collections:
+        state = snap.collections.get(c.id)
+        for nct in state.members if state else ():
+            members[nct].append(c.id)
+    today = dt.date.fromisoformat(snap.snapshot_date)
+    window_start = (today - dt.timedelta(days=EXPANDING_DAYS - 1)).isoformat()
+    registered_start = (today - dt.timedelta(days=REGISTERED_DAYS - 1)).isoformat()
+
+    changes: dict[str, list[dict]] = defaultdict(list)
+    seen: set[str] = set()
+    for e in events:
+        if e["detected_date"] < window_start or e["change_id"] in seen:
+            continue
+        seen.add(e["change_id"])
+        if e["type"] == "site_added":
+            sites = e.get("new_value") or []
+            countries = sorted({s.get("country") for s in sites if s.get("country")})
+            changes[e["nct_id"]].append(
+                {"type": "sites_added", "date": e["detected_date"], "count": len(sites), "countries": countries}
+            )
+        elif e["type"] == "enrollment_change":
+            old, new = (e.get("old_value") or {}).get("count"), (e.get("new_value") or {}).get("count")
+            if isinstance(old, int) and isinstance(new, int) and new > old:
+                changes[e["nct_id"]].append(
+                    {"type": "enrollment_raised", "date": e["detected_date"], "from": old, "to": new}
+                )
+
+    trials = []
+    for nct in sorted(members):
+        record = snap.trials.get(nct)
+        status = (record or {}).get("overall_status")
+        if record is None or status not in FINDER_STATUSES:
+            continue
+        signals = sorted(changes.get(nct, []), key=lambda s: s["date"], reverse=True)
+        start = (record.get("start_date") or {}).get("date")
+        if status == "NOT_YET_RECRUITING":
+            signals.append({"type": "not_yet_recruiting", "date": start})
+        first_posted = record.get("first_posted")
+        if first_posted and first_posted >= registered_start:
+            signals.append({"type": "newly_registered", "date": first_posted})
+        if not signals:
+            continue
+        by_country: Counter = Counter()
+        site_count = planned = 0
+        for site in record.get("sites") or []:
+            site_status = site.get("status")
+            if status == "RECRUITING" and site_status == "RECRUITING":
+                site_count += 1
+            elif (status == "RECRUITING" and site_status == "NOT_YET_RECRUITING") or (
+                status == "NOT_YET_RECRUITING" and site_status not in CLOSED_SITE_STATUSES
+            ):
+                planned += 1
+            else:
+                continue
+            by_country[site.get("country") or "Country not given"] += 1
+        dated = [s["date"] for s in signals if s["type"] in ("sites_added", "enrollment_raised", "newly_registered")]
+        sponsor = record.get("lead_sponsor") or {}
+        trials.append(
+            publish(
+                {
+                    "nct_id": nct,
+                    "title": record.get("brief_title") or record.get("official_title"),
+                    "status": status,
+                    "phases": record.get("phases") or [],
+                    "sponsor": sponsor.get("name"),
+                    "sponsor_class": sponsor.get("class"),
+                    "collections": [c.id for c in wl.collections if c.id in members[nct]],
+                    "countries": [
+                        [country, n] for country, n in sorted(by_country.items(), key=lambda kv: (-kv[1], kv[0]))
+                    ],
+                    "site_count": site_count,
+                    "planned_site_count": planned,
+                    "start_date": start,
+                    "first_posted": first_posted,
+                    "signals": [publish(s, EXPANDING_SIGNAL_FIELDS) for s in signals],
+                    "latest": max(dated) if dated else (first_posted or ""),
+                },
+                EXPANDING_TRIAL_FIELDS,
+            )
+        )
+    trials.sort(key=lambda t: (t["latest"], t["nct_id"]), reverse=True)
+    write_json(
+        data_dir / "expanding.json",
+        publish(
+            {
+                "schema_version": SCHEMA_VERSION,
+                "snapshot_date": snap.snapshot_date,
+                "window_days": EXPANDING_DAYS,
+                "registered_days": REGISTERED_DAYS,
+                "trials": trials,
+            },
+            EXPANDING_FIELDS,
+        ),
+        indent=None,
+    )
+    kinds = Counter(s["type"] for t in trials for s in t["signals"])
+    return {"trials": len(trials), **kinds}
 
 
 def write_drugs(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:

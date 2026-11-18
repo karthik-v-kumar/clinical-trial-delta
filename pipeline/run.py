@@ -62,6 +62,7 @@ from .writers import (
     update_changes,
     write_collections,
     write_drugs,
+    write_expanding,
     write_feeds,
     write_finder,
     write_meta,
@@ -268,6 +269,7 @@ def run(
     write_sites(data_dir, snap, wl)
     write_finder(data_dir, snap, wl, events)
     write_drugs(data_dir, snap, wl)
+    write_expanding(data_dir, snap, wl, events)
     write_feeds(data_dir, wl, events)
     finished_at = now_iso()
     write_meta(
@@ -338,6 +340,7 @@ def rebuild(
     summary["sites"] = write_sites(data_dir, snap, wl)
     summary["finder"] = write_finder(data_dir, snap, wl, events)
     summary["drugs"] = write_drugs(data_dir, snap, wl)
+    summary["expanding"] = write_expanding(data_dir, snap, wl, events)
     summary["feeds"] = write_feeds(data_dir, wl, events)
     previous = read_meta(data_dir) or {}
     finished_at = now_iso()

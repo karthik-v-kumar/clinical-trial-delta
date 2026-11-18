@@ -3,16 +3,32 @@
 // being tested. Recruiting trials always come first. Everything runs in the
 // browser from data/finder.json; the place, age and other answers a visitor
 // gives are never sent anywhere or saved, and nothing is written to the URL but
-// the chosen area.
+// the chosen area and view.
+//
+// The clinician view adds, per result, the lab cut-offs quoted from the
+// eligibility criteria, the design, comparators, primary endpoint and target
+// enrollment (data/clinical.json, loaded when the view is first switched on),
+// and, with a place set, the nearest institutions from the trial's own file.
 
 import { REGISTRY_URL, type Page } from "../config";
-import { loadFinder } from "../data";
+import { loadClinical, loadFinder, loadTrial } from "../data";
 import { clear, external, h, link } from "../dom";
-import { daysBetween, formatDate, formatInt, plural, sexLabel } from "../format";
+import {
+  allocationLabel,
+  daysBetween,
+  formatDate,
+  formatDateValue,
+  formatEnrollment,
+  formatInt,
+  maskingLabel,
+  modelLabel,
+  plural,
+  sexLabel,
+} from "../format";
 import { followButton } from "../follow";
 import { cityName, fold, matchCities, milesBetween, type City } from "../geo";
 import { term } from "../glossary";
-import type { FinderIndex, FinderTrial, InterventionKind, Meta } from "../types";
+import type { ClinicalDetail, ClinicalIndex, FinderIndex, FinderTrial, InterventionKind, Meta } from "../types";
 import { emptyState, phaseChip, section, showMoreButton, statusChip } from "../ui";
 
 /** Results shown per group before "Show more"; recruiting trials get the longer first page. */
@@ -36,6 +52,24 @@ const KIND_LABELS: Record<InterventionKind, string> = {
 };
 const KINDS = Object.keys(KIND_LABELS) as InterventionKind[];
 
+/** Who is searching: the clinician view adds clinical detail to every result. */
+export type View = "patient" | "clinician";
+
+/** Glossary keys for the labs the clinician view quotes. */
+const LAB_TERMS: Record<string, string> = {
+  HbA1c: "hba1c",
+  BMI: "bmi",
+  eGFR: "egfr",
+  "LDL-C": "ldl-c",
+  Triglycerides: "triglycerides",
+  "Lp(a)": "lp-a",
+};
+
+/** "Research Site", "Novartis Investigative Site", "Site 104": the registry names no institution. */
+const UNNAMED_SITE = /^(?:.*\b)?(?:research|investigative|investigational|clinical|study|trial)\s+(?:site|center|centre)(?:\s*(?:no\.?|#)?\s*\d+)?$|^site\s*(?:no\.?|#)?\s*\d+$/i;
+const CLOSED_SITE = new Set(["ACTIVE_NOT_RECRUITING", "COMPLETED", "SUSPENDED", "TERMINATED", "WITHDRAWN"]);
+const INSTITUTIONS_SHOWN = 4;
+
 interface Origin {
   lat: number;
   lon: number;
@@ -43,6 +77,7 @@ interface Origin {
 }
 
 interface Filters {
+  view: View;
   /** Words that must all appear in the trial's title, treatments (with brand names and codes), sponsor or conditions. */
   q: string;
   area: string;
@@ -290,7 +325,7 @@ function whereFact(index: FinderIndex, hit: Hit, filters: Filters): { label: Nod
   return { label: "Planned site", value };
 }
 
-function resultItem(index: FinderIndex, hit: Hit, filters: Filters): HTMLElement {
+function resultItem(index: FinderIndex, hit: Hit, filters: Filters, clinical: ClinicalIndex | null): HTMLElement {
   const { trial, group } = hit;
   const news = newsLines(index, hit, filters);
   const where = whereFact(index, hit, filters);
@@ -327,12 +362,133 @@ function resultItem(index: FinderIndex, hit: Hit, filters: Filters): HTMLElement
       trial.tested.length ? fact(term("intervention", "Testing"), trial.tested.join(", ")) : null,
       trial.conditions.length ? fact(term("condition", "For"), trial.conditions.join(", ")) : null,
     ),
+    filters.view === "clinician" && clinical ? clinicalFacts(trial, clinical.trials[trial.nct_id], filters) : null,
     h(
       "p",
       { class: "find-links" },
       link(`/t/${trial.nct_id}`, null, "Trial details and eligibility"),
       external(`${REGISTRY_URL}study/${trial.nct_id}`, null, "Contacts on ClinicalTrials.gov"),
       followButton(trial.nct_id, trial.title, index.snapshot_date, "button-small"),
+    ),
+  );
+}
+
+// --- clinician view ---------------------------------------------------------------
+
+/** The institutions nearest the chosen place, from the trial's own file (sites carry no investigator names). */
+function institutions(trial: FinderTrial, filters: Filters): HTMLElement {
+  const slot = h("div", { class: "institutions", "aria-live": "polite" }, h("span", { class: "muted" }, "Looking up institutions…"));
+  const origin = filters.origin;
+  if (!origin) return slot;
+  const recruiting = trial.status === "RECRUITING";
+  loadTrial(trial.nct_id)
+    .then((full) => {
+      const rows = full.sites
+        .flatMap((site) => {
+          if (site.lat === null || site.lon === null || CLOSED_SITE.has(site.status ?? "")) return [];
+          const open = recruiting && site.status === "RECRUITING";
+          if (recruiting && !open && site.status !== "NOT_YET_RECRUITING") return [];
+          const miles = milesBetween(origin, { lat: site.lat, lon: site.lon });
+          if (filters.radius !== ANY_DISTANCE && miles > filters.radius) return [];
+          return [{ site, open, miles }];
+        })
+        .sort((a, b) => Number(b.open) - Number(a.open) || a.miles - b.miles);
+      clear(slot);
+      if (!rows.length) {
+        slot.append(h("span", { class: "muted" }, "No site with a location in this distance."));
+        return;
+      }
+      slot.append(
+        h(
+          "ul",
+          { class: "institution-list" },
+          rows.slice(0, INSTITUTIONS_SHOWN).map(({ site, open, miles }) => {
+            const named = site.facility && !UNNAMED_SITE.test(site.facility.trim());
+            return h(
+              "li",
+              null,
+              h("span", { class: named ? "institution" : "institution muted" }, named ? site.facility : "Institution not named in the registry"),
+              h(
+                "span",
+                { class: "find-sub" },
+                [site.city, site.state ?? site.country].filter(Boolean).join(", "),
+                ` · ${distanceText(miles)} · `,
+                open ? "recruiting" : "not open yet",
+              ),
+            );
+          }),
+        ),
+        rows.length > INSTITUTIONS_SHOWN
+          ? h("span", { class: "find-sub" }, `And ${plural(rows.length - INSTITUTIONS_SHOWN, "more site")} in this distance, on the trial page.`)
+          : "",
+      );
+    })
+    .catch(() => {
+      clear(slot);
+      slot.append(h("span", { class: "muted" }, "The site list could not be loaded."));
+    });
+  return slot;
+}
+
+function clinicalFacts(trial: FinderTrial, detail: ClinicalDetail | undefined, filters: Filters): HTMLElement {
+  const fact = (label: Node | string, ...value: (Node | string)[]) =>
+    h("div", { class: "find-fact" }, h("dt", null, label), h("dd", null, ...value));
+  if (!detail) return h("p", { class: "note" }, "Clinical detail is not available for this trial.");
+  const design = [
+    allocationLabel(detail.design.allocation),
+    maskingLabel(detail.design.masking),
+    modelLabel(detail.design.model),
+  ].filter((part) => part && part !== "—");
+  return h(
+    "div",
+    { class: "clinical" },
+    h("p", { class: "clinical-head" }, "Clinical detail"),
+    h(
+      "dl",
+      { class: "find-facts" },
+      fact(
+        "Lab criteria",
+        detail.criteria.length
+          ? h(
+              "ul",
+              { class: "lab-criteria" },
+              detail.criteria.map((c) =>
+                h(
+                  "li",
+                  { class: `lab-${c.kind}` },
+                  h("span", { class: "lab-kind" }, c.kind === "inclusion" ? "Must have" : "Excludes"),
+                  " ",
+                  c.labs.map((lab, i) => [i ? ", " : "", LAB_TERMS[lab] ? term(LAB_TERMS[lab] as string, lab) : lab]),
+                  h("span", { class: "lab-text" }, c.text),
+                ),
+              ),
+            )
+          : h("span", { class: "muted" }, "No HbA1c, BMI, eGFR, LDL-C, triglyceride or Lp(a) cut-off in the criteria."),
+      ),
+      design.length ? fact("Design", design.join(" · ")) : null,
+      fact(term("active-comparator", "Compared with"), detail.comparators.join(", ") || "No comparison group listed"),
+      detail.endpoints.length
+        ? fact(
+            term("primary-endpoint", "Primary endpoint"),
+            ...detail.endpoints.flatMap((e, i) => [
+              i ? h("br") : "",
+              e.measure ?? "Not described",
+              e.time_frame ? h("span", { class: "find-sub" }, e.time_frame) : "",
+            ]),
+          )
+        : null,
+      fact(
+        term("enrollment", "Target enrollment"),
+        formatEnrollment(detail.enrollment),
+        detail.primary_completion ? h("span", { class: "find-sub" }, `Primary completion ${formatDateValue(detail.primary_completion)}`) : "",
+      ),
+      filters.origin ? fact("Institutions near", institutions(trial, filters)) : null,
+    ),
+    h(
+      "p",
+      { class: "find-sub" },
+      "Lab criteria are quoted from the registry; “…” marks an excerpt. ",
+      link(`/t/${trial.nct_id}#eligibility`, null, "Full criteria"),
     ),
   );
 }
@@ -347,8 +503,15 @@ function select(id: string, options: [string, string][], value: string): HTMLSel
   );
 }
 
-function finder(index: FinderIndex, initialArea: string, initialQuery: string): HTMLElement {
+function finder(
+  index: FinderIndex,
+  initialArea: string,
+  initialQuery: string,
+  initialView: View,
+  onView: (view: View) => void,
+): HTMLElement {
   const filters: Filters = {
+    view: "patient",
     q: initialQuery.trim().slice(0, 80),
     area: index.collections.some((c) => c.id === initialArea) ? initialArea : "",
     show: "",
@@ -488,7 +651,7 @@ function finder(index: FinderIndex, initialArea: string, initialQuery: string): 
                 "These are not open to participants yet. Planned dates are the sponsor's estimates and often move; the study contact on ClinicalTrials.gov can say when a site expects to open.",
               )
             : null,
-          h("ol", { class: "find-list" }, all.slice(0, shown[group]).map((hit) => resultItem(index, hit, filters))),
+          h("ol", { class: "find-list" }, all.slice(0, shown[group]).map((hit) => resultItem(index, hit, filters, clinical))),
           all.length > shown[group]
             ? h(
                 "div",
@@ -508,7 +671,48 @@ function finder(index: FinderIndex, initialArea: string, initialQuery: string): 
     render();
   };
 
-  // Place: a city from the list, or the device's own location.
+  // Who is searching. The clinician view loads data/clinical.json the first time.
+  let clinical: ClinicalIndex | null = null;
+  const viewButton = (view: View, label: string) =>
+    h("button", { type: "button", class: "view-option", "data-view": view, onclick: () => void setView(view) }, label);
+  const viewButtons = [viewButton("patient", "For patients"), viewButton("clinician", "For clinical professionals")];
+  const viewNote = h("p", { class: "view-note", "aria-live": "polite" });
+  const setView = async (view: View) => {
+    filters.view = view;
+    for (const button of viewButtons) button.setAttribute("aria-pressed", String(button.dataset.view === view));
+    const url = new URL(location.href);
+    if (view === "clinician") url.searchParams.set("view", "clinician");
+    else url.searchParams.delete("view");
+    history.replaceState(history.state, "", url.pathname + url.search);
+    onView(view);
+    clear(viewNote);
+    if (view === "clinician") {
+      viewNote.append(
+        "Each result adds its lab cut-offs quoted from the criteria, design, comparators, primary endpoint and target enrollment; set a place to see the nearest institutions. Named investigators and study contacts are on ClinicalTrials.gov. ",
+        link("/clinicians", null, "Trials still adding sites"),
+      );
+      if (!clinical) {
+        count.textContent = "Loading clinical detail…";
+        try {
+          clinical = await loadClinical();
+        } catch {
+          viewNote.append(h("span", { class: "muted" }, " The clinical detail could not be loaded."));
+        }
+      }
+    }
+    if (filters.view === view) update();
+  };
+
+  // Place: a city from the list, or the device's own location. Cities with more
+  // trials come first among those with the same name.
+  const sitesIn = new Map<City, number>();
+  for (const trial of index.trials) {
+    for (const i of [...trial.cities, ...trial.soon]) {
+      const city = index.cities[i];
+      if (city) sitesIn.set(city, (sitesIn.get(city) ?? 0) + 1);
+    }
+  }
+  const weight = (city: City) => sitesIn.get(city) ?? 0;
   const choose = (city: City) => {
     filters.origin = { lat: city.lat, lon: city.lon, label: cityName(city) };
     place.value = cityName(city);
@@ -519,7 +723,7 @@ function finder(index: FinderIndex, initialArea: string, initialQuery: string): 
     clear(options);
     const typed = place.value;
     if (filters.origin && fold(filters.origin.label) === fold(typed)) return;
-    const matches = matchCities(index.cities, typed);
+    const matches = matchCities(index.cities, typed, 8, weight);
     if (fold(typed).length >= 2 && !matches.length) {
       options.appendChild(
         h("li", { class: "city-none" }, "No trial site in a city with that name. Try the nearest large city, or use your location."),
@@ -541,7 +745,7 @@ function finder(index: FinderIndex, initialArea: string, initialQuery: string): 
   place.addEventListener("keydown", (event) => {
     if ((event as KeyboardEvent).key !== "Enter") return;
     event.preventDefault();
-    const first = matchCities(index.cities, place.value, 1)[0];
+    const first = matchCities(index.cities, place.value, 1, weight)[0];
     if (first) choose(first);
   });
   locate.addEventListener("click", () => {
@@ -641,7 +845,7 @@ function finder(index: FinderIndex, initialArea: string, initialQuery: string): 
   });
 
   renderDrugHint();
-  update();
+  void setView(initialView);
 
   const field = (label: string | Node, control: HTMLElement, extra = "") =>
     h("label", { class: `field ${extra}`.trim() }, h("span", null, label), control);
@@ -649,6 +853,8 @@ function finder(index: FinderIndex, initialArea: string, initialQuery: string): 
   return h(
     "div",
     { class: "finder" },
+    h("div", { class: "view-switch", role: "group", "aria-label": "Who is searching" }, viewButtons),
+    viewNote,
     h(
       "form",
       { class: "finder-form", role: "search", "aria-label": "Find a trial", onsubmit: (e: Event) => e.preventDefault() },
@@ -695,6 +901,11 @@ export async function findPage(meta: Meta): Promise<Page> {
   const params = new URLSearchParams(location.search);
   const initialArea = params.get("area") ?? "";
   const initialQuery = params.get("q") ?? "";
+  const initialView: View = params.get("view") === "clinician" ? "clinician" : "patient";
+  const eyebrow = h("p", { class: "eyebrow" });
+  const showView = (view: View) => {
+    eyebrow.textContent = view === "clinician" ? "For clinical professionals" : "For patients and caregivers";
+  };
   const areas = listText(index.collections.map((c) => inSentence(c.name)));
   const openCount = index.trials.filter((t) => t.status === "RECRUITING").length;
   const soonCount = index.trials.length - openCount;
@@ -715,7 +926,7 @@ export async function findPage(meta: Meta): Promise<Page> {
     h(
       "header",
       { class: "hero hero-accent" },
-      h("p", { class: "eyebrow" }, "For patients and caregivers"),
+      eyebrow,
       h("h1", null, "Find a trial near you"),
       h(
         "p",
@@ -745,7 +956,7 @@ export async function findPage(meta: Meta): Promise<Page> {
         "Your place, age and other answers stay in this browser. They are not sent anywhere or saved.",
       ),
     ),
-    finder(index, initialArea, initialQuery),
+    finder(index, initialArea, initialQuery, initialView, showView),
     section(
       "find-about",
       "About these results",
@@ -779,6 +990,13 @@ export async function findPage(meta: Meta): Promise<Page> {
           `This page covers only the three areas this site tracks. For any other condition, use the search on `,
           external(REGISTRY_URL, null, "ClinicalTrials.gov"),
           ".",
+        ),
+        h(
+          "li",
+          null,
+          "For clinicians: the view above adds lab cut-offs, design and endpoints to each result, and ",
+          link("/clinicians", null, "this page"),
+          " lists trials that may still be adding sites.",
         ),
         h("li", null, `Data as of ${formatDate(meta.snapshot_date)}.`),
       ),

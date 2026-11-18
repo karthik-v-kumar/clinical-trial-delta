@@ -131,6 +131,9 @@ function citySearch(collection: Collection): HTMLElement {
   const options = h("ul", { class: "city-options", id: "city-options" });
   const results = h("div", { class: "city-results", "aria-live": "polite" });
   let index: SitesIndex | null = null;
+  // Among cities with the same name, the one with more recruiting trials comes first.
+  const trialsIn = new Map<City, number>();
+  const weight = (city: City) => trialsIn.get(city) ?? 0;
   let chosen: City | null = null;
   let shown = PAGE_SIZE;
 
@@ -197,7 +200,7 @@ function citySearch(collection: Collection): HTMLElement {
     if (!index) return;
     const typed = input.value;
     if (chosen && fold(cityName(chosen)) === fold(typed)) return;
-    const matches = matchCities(index.cities, typed);
+    const matches = matchCities(index.cities, typed, 8, weight);
     if (fold(typed).length >= 2 && !matches.length) {
       options.appendChild(
         h("li", { class: "city-none" }, "No recruiting site in a city with that name. Try the nearest large city."),
@@ -218,7 +221,7 @@ function citySearch(collection: Collection): HTMLElement {
   });
   input.addEventListener("keydown", (event) => {
     if ((event as KeyboardEvent).key !== "Enter" || !index) return;
-    const first = matchCities(index.cities, input.value, 1)[0];
+    const first = matchCities(index.cities, input.value, 1, weight)[0];
     if (first) choose(first);
   });
   radius.addEventListener("change", renderResults);
@@ -227,6 +230,12 @@ function citySearch(collection: Collection): HTMLElement {
   void loadSites(collection.id)
     .then((loaded) => {
       index = loaded;
+      for (const trial of loaded.trials) {
+        for (const i of trial.cities) {
+          const city = loaded.cities[i];
+          if (city) trialsIn.set(city, (trialsIn.get(city) ?? 0) + 1);
+        }
+      }
       note.textContent =
         `Search ${formatInt(loaded.cities.length)} cities where ${plural(loaded.trials.length, "trial")} in this collection ` +
         `${loaded.trials.length === 1 ? "is" : "are"} recruiting. Distances are between city centers.`;

@@ -17,10 +17,12 @@ from pipeline.writers import (
     TRIAL_FIELDS,
     TRIAL_FILE_KEYS,
     age_in_years,
+    comparators,
     describe_change,
     drug_matcher,
     has_placebo_group,
     interventions_tested,
+    key_lab_criteria,
     other_names,
     phase_bucket,
     publish,
@@ -29,6 +31,7 @@ from pipeline.writers import (
     update_changes,
     write_collections,
     write_drugs,
+    write_expanding,
     write_feeds,
     write_finder,
     write_sites,
@@ -469,3 +472,122 @@ def test_change_descriptions():
         "context": {"why_stopped": "Sponsor decision"},
     }
     assert describe_change(stopped) == ("Status: Recruiting → Terminated", "Reason given: Sponsor decision")
+
+
+# --- clinician view and trials adding sites --------------------------------------
+
+
+def test_key_lab_criteria_are_verbatim_and_need_a_number():
+    long = (
+        "Laboratory abnormalities at screening judged clinically significant by the investigator, including "
+        "serum alanine aminotransferase (ALT) above twice the upper limit of normal, or estimated glomerular "
+        "filtration rate (eGFR) <30 mL/min/1.73 m² using the CKD-EPI formula, or any other value that in the "
+        "opinion of the investigator would interfere with participation in the trial or the interpretation of data"
+    )
+    checklist = {
+        "parsed": True,
+        "inclusion": [
+            {"text": "HbA1c ≥7.0% and ≤10.5% at screening"},
+            {"text": "Laboratory values:", "sub_items": ["BMI ≥ 27 kg/m²", "Stable body weight"]},
+            {"text": "HbA1c measured by the central laboratory"},  # the 1 in "HbA1c" is not a cut-off
+            {"text": "HbA1c tested in people with type 2 diabetes"},  # nor is "type 2"
+        ],
+        "exclusion": [{"text": long}, {"text": "Fasting triglycerides >500 mg/dL or LDL-C <70 mg/dL"}],
+    }
+    found = key_lab_criteria(checklist)
+    assert found[0] == {"labs": ["HbA1c"], "kind": "inclusion", "text": "HbA1c ≥7.0% and ≤10.5% at screening"}
+    assert found[1] == {"labs": ["BMI"], "kind": "inclusion", "text": "BMI ≥ 27 kg/m²"}
+    excerpt = found[2]
+    assert excerpt["labs"] == ["eGFR"] and excerpt["kind"] == "exclusion"
+    assert excerpt["text"].startswith("…") and excerpt["text"].endswith("…") and "<30 mL/min/1.73 m²" in excerpt["text"]
+    assert len(excerpt["text"]) < len(long)
+    assert found[3]["labs"] == ["LDL-C", "Triglycerides"]
+    assert len(found) == 4
+    assert key_lab_criteria({"parsed": False}) == [] and key_lab_criteria(None) == []
+
+
+def test_comparators_name_active_arms_then_placebo():
+    record = {
+        "arm_groups": [
+            {"type": "EXPERIMENTAL", "label": "Drug X", "intervention_names": ["Drug: X"]},
+            {
+                "type": "ACTIVE_COMPARATOR",
+                "label": "Sema",
+                "intervention_names": ["Drug: Semaglutide", "Drug: Placebo for X"],
+            },
+            {"type": "PLACEBO_COMPARATOR", "label": "Placebo", "intervention_names": ["Drug: Placebo"]},
+            {"type": "ACTIVE_COMPARATOR", "label": "Usual care", "intervention_names": []},
+        ]
+    }
+    assert comparators(record) == ["Semaglutide", "Placebo", "Usual care"]
+    assert comparators({}) == []
+
+
+def test_clinical_file_covers_every_finder_trial(tmp_path, day2):
+    day2.trials["NCT90000014"].update(
+        {
+            "eligibility": {
+                "criteria": "Inclusion Criteria:\n\n* BMI ≥30 kg/m²\n\nExclusion Criteria:\n\n* HbA1c >10%"
+            },
+            "design": {"allocation": "RANDOMIZED", "masking": "DOUBLE", "intervention_model": "PARALLEL"},
+            "primary_outcomes": [{"measure": "Change in body weight " * 20, "time_frame": "Week 72"}],
+            "enrollment": {"count": 600, "type": "ESTIMATED"},
+        }
+    )
+    write_finder(tmp_path, day2, load_watchlist(), [])
+    finder = read(tmp_path / "finder.json")
+    clinical = read(tmp_path / "clinical.json")
+    assert set(clinical["trials"]) == {t["nct_id"] for t in finder["trials"]}
+    trial = clinical["trials"]["NCT90000014"]
+    assert [(c["labs"], c["kind"]) for c in trial["criteria"]] == [(["BMI"], "inclusion"), (["HbA1c"], "exclusion")]
+    assert trial["design"] == {"allocation": "RANDOMIZED", "masking": "DOUBLE", "model": "PARALLEL", "purpose": None}
+    assert trial["endpoints"][0]["measure"].endswith("…") and len(trial["endpoints"][0]["measure"]) <= 220
+    assert trial["enrollment"] == {"count": 600, "type": "ESTIMATED"}
+    assert "sites" not in trial  # institutions come from the trial files, for the results on screen
+
+
+def test_expanding_lists_trials_with_a_signal(tmp_path, day2):
+    added = [{"facility": "A", "city": "Lyon", "state": None, "country": "France"}]
+    events = [
+        _event("NCT90000010", "site_added", added, "2026-01-06", "s1"),
+        _event("NCT90000010", "site_added", added, "2026-01-06", "s1", collection="type-2-diabetes"),
+        {
+            **_event("NCT90000012", "enrollment_change", {"count": 900, "type": "ESTIMATED"}, "2026-01-05", "e1"),
+            "old_value": {"count": 600, "type": "ESTIMATED"},
+        },
+        # A lowered target is not a signal.
+        {
+            **_event("NCT90000004", "enrollment_change", {"count": 100, "type": "ESTIMATED"}, "2026-01-05", "e2"),
+            "old_value": {"count": 300, "type": "ESTIMATED"},
+        },
+        # Older than the window.
+        _event("NCT90000009", "site_added", added, "2025-09-01", "s2"),
+    ]
+    day2.trials["NCT90000007"]["start_date"] = {"date": "2026-04", "type": "ESTIMATED"}
+    day2.trials["NCT90000014"]["first_posted"] = "2025-12-20"
+    stats = write_expanding(tmp_path, day2, load_watchlist(), events)
+    body = read(tmp_path / "expanding.json")
+    by_id = {t["nct_id"]: t for t in body["trials"]}
+    assert set(by_id) == {"NCT90000007", "NCT90000010", "NCT90000012", "NCT90000014"}
+    assert stats["trials"] == 4 and stats["sites_added"] == 1 and stats["enrollment_raised"] == 1
+    assert by_id["NCT90000010"]["signals"] == [
+        {"type": "sites_added", "date": "2026-01-06", "count": 1, "countries": ["France"]}
+    ]
+    assert by_id["NCT90000012"]["signals"][0] == {
+        "type": "enrollment_raised",
+        "date": "2026-01-05",
+        "from": 600,
+        "to": 900,
+    }
+    planned = by_id["NCT90000007"]
+    # The fixture posted it on 2026-01-05, so it is also newly registered.
+    assert planned["signals"] == [
+        {"type": "not_yet_recruiting", "date": "2026-04"},
+        {"type": "newly_registered", "date": "2026-01-05"},
+    ]
+    assert planned["planned_site_count"] == 1 and planned["site_count"] == 0
+    assert planned["countries"] == [["United States", 1]]
+    assert by_id["NCT90000014"]["signals"] == [{"type": "newly_registered", "date": "2025-12-20"}]
+    # Newest signal first.
+    assert [t["nct_id"] for t in body["trials"]][:2] == ["NCT90000010", "NCT90000012"]
+    assert body["window_days"] == 60 and body["registered_days"] == 90

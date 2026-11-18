@@ -32,6 +32,22 @@ Visitors can also:
   summary with its verification note, the eligibility checklist and questions to
   ask the study team.
 
+For clinical professionals (`/clinicians`):
+
+- **Clinician view of Find a trial** (`/find?view=clinician`): each result adds
+  the HbA1c, BMI, eGFR, LDL-C, triglyceride and Lp(a) cut-offs quoted verbatim
+  from the eligibility criteria (an excerpt, marked with "…", for long ones), the
+  design, comparators, primary endpoint, target enrollment and, with a place
+  set, the nearest institutions. Detail comes from `data/clinical.json`, loaded
+  only when the view is switched on; institutions come from the trial files.
+- **Trials that may still be adding sites** (`data/expanding.json`): recruiting
+  or not-yet-recruiting trials with a sign of expansion (sites added or the
+  enrollment target raised in the last 60 days, not yet recruiting, or first
+  posted in the last 90), filterable by area, country, sign and sponsor type.
+- The site lists institutions, never investigators: investigator names and
+  contact details are not fetched, and every trial links to its
+  ClinicalTrials.gov record for those.
+
 **Status:** milestones M1 (data pipeline), M2 (site) and M3 (AI summaries and
 evals) are built. See [BUILD_BRIEF.md](BUILD_BRIEF.md) for the full spec and
 [REFERENCE_FRH.md](REFERENCE_FRH.md) for the financial-research-hub conventions
@@ -155,6 +171,8 @@ that match only because of the edit are not reported as "new trials".
 | `data/collections/<id>.json` | Collection metadata, trials-by-phase and trials-by-status counts, trial table rows |
 | `data/sites/<id>.json` | Cities where a collection's trials are recruiting, for the near-a-city search |
 | `data/finder.json` | Every trial that is recruiting or not yet recruiting and names a mappable site: cities recruiting now, cities with sites not open yet, planned start, age and sex limits, what is tested, placebo group, and recent news (started recruiting, sites added) for the Find a trial page |
+| `data/clinical.json` | For the clinician view: per open trial, lab cut-offs quoted from the criteria, design, comparators, primary endpoints, target enrollment and primary completion |
+| `data/expanding.json` | Open trials that may still be adding sites, with their signs (sites added, enrollment raised, not yet recruiting, newly posted) and sites per country |
 | `data/drugs/index.json`, `data/drugs/<id>.json` | The drugs with their own page and, per drug, trial counts by phase and status plus table rows (the same shape as a collection file) |
 | `data/feeds/all.xml`, `data/feeds/<id>.xml` | RSS feeds of the latest 50 changes, overall and per collection |
 | `data/trials/<NCT>.json` | One trial: the normalized record, its eligibility checklist, its collections, and its full change history |

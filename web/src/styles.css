@@ -2555,3 +2555,136 @@ details[open] > summary::before {
     font-size: 1.4rem;
   }
 }
+
+/* --- clinician view and trials adding sites ------------------------------- */
+
+.view-switch {
+  display: inline-flex;
+  margin-bottom: 10px;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+}
+
+.view-option {
+  appearance: none;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.view-option + .view-option {
+  border-left: 1px solid var(--rule-strong);
+}
+
+.view-option[aria-pressed="true"] {
+  background: var(--brand);
+  color: var(--brand-ink);
+}
+
+.view-note {
+  margin-bottom: 14px;
+  color: var(--ink-2);
+  font-size: 0.875rem;
+  max-width: 76ch;
+}
+
+.view-note:empty {
+  display: none;
+}
+
+.clinical {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--grid);
+  border-left: 3px solid var(--brand);
+  background: var(--page);
+}
+
+.clinical .find-facts {
+  margin-top: 8px;
+}
+
+.clinical-head {
+  color: var(--ink-3);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.lab-criteria {
+  display: grid;
+  gap: 6px;
+}
+
+.lab-kind {
+  display: inline-block;
+  margin-right: 2px;
+  padding: 0 6px;
+  border: 1px solid var(--axis);
+  border-radius: var(--radius);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.lab-inclusion .lab-kind {
+  border-color: var(--good-dot);
+  color: var(--good);
+}
+
+.lab-exclusion .lab-kind {
+  border-color: var(--bad);
+  color: var(--bad);
+}
+
+.lab-text {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+.institution-list {
+  display: grid;
+  gap: 4px;
+}
+
+.institution {
+  display: block;
+  font-weight: 600;
+}
+
+.institution.muted {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.clinician-link {
+  margin-top: 12px;
+}
+
+.expanding-form {
+  margin-top: 4px;
+}
+
+.clinicians-page .trial-actions .button {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media (min-width: 720px) {
+  .expanding-form .field-small {
+    grid-column: span 1;
+  }
+}

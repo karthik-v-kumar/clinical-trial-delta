@@ -235,6 +235,65 @@ export interface FinderIndex {
   not_yet_without_location: number;
 }
 
+// --- clinician view (data/clinical.json) and trials adding sites (data/expanding.json)
+
+export interface ClinicalCriterion {
+  labs: string[]; // HbA1c, BMI, eGFR, LDL-C, Triglycerides, Lp(a)
+  kind: "inclusion" | "exclusion";
+  text: string; // verbatim from the registry; "…" marks an excerpt of a longer criterion
+}
+
+export interface ClinicalDetail {
+  criteria: ClinicalCriterion[];
+  design: { allocation: string | null; masking: string | null; model: string | null; purpose: string | null };
+  comparators: string[];
+  endpoints: { measure: string | null; time_frame: string | null }[];
+  enrollment: Enrollment | null;
+  primary_completion: DateValue | null;
+}
+
+export interface ClinicalIndex {
+  schema_version: number;
+  snapshot_date: string;
+  trials: Record<string, ClinicalDetail>;
+}
+
+export type ExpandingSignalType = "sites_added" | "enrollment_raised" | "not_yet_recruiting" | "newly_registered";
+
+export interface ExpandingSignal {
+  type: ExpandingSignalType;
+  date: string | null;
+  count?: number;
+  countries?: string[];
+  from?: number;
+  to?: number;
+}
+
+export interface ExpandingTrial {
+  nct_id: string;
+  title: string | null;
+  status: string;
+  phases: string[];
+  sponsor: string | null;
+  sponsor_class: string | null;
+  collections: string[];
+  countries: [string, number][]; // open and planned sites per country, most first
+  site_count: number;
+  planned_site_count: number;
+  start_date: string | null;
+  first_posted: string | null;
+  signals: ExpandingSignal[];
+  latest: string;
+}
+
+export interface ExpandingIndex {
+  schema_version: number;
+  snapshot_date: string;
+  window_days: number;
+  registered_days: number;
+  trials: ExpandingTrial[];
+}
+
 /** One drug in data/drugs/index.json. */
 export interface DrugEntry {
   id: string;

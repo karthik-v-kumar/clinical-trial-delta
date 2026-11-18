@@ -25,8 +25,12 @@ export function cityName(city: City): string {
   return [city.city, city.state, city.country].filter(Boolean).join(", ");
 }
 
-/** Cities whose name starts with (or, failing that, contains) what was typed. */
-export function matchCities(cities: City[], typed: string, limit = 8): City[] {
+/**
+ * Cities whose name starts with (or, failing that, contains) what was typed.
+ * Within each group, cities with more trial sites come first (so "Houston"
+ * offers Houston, Texas before Houston, North Carolina), then by name.
+ */
+export function matchCities(cities: City[], typed: string, limit = 8, weight?: (city: City) => number): City[] {
   const query = fold(typed);
   if (query.length < 2) return [];
   const starts: City[] = [];
@@ -39,8 +43,8 @@ export function matchCities(cities: City[], typed: string, limit = 8): City[] {
     if (name.startsWith(query)) starts.push(city);
     else if (name.includes(query)) contains.push(city);
   }
-  const byName = (a: City, b: City) => cityName(a).localeCompare(cityName(b));
-  return [...starts.sort(byName), ...contains.sort(byName)].slice(0, limit);
+  const order = (a: City, b: City) => (weight ? weight(b) - weight(a) : 0) || cityName(a).localeCompare(cityName(b));
+  return [...starts.sort(order), ...contains.sort(order)].slice(0, limit);
 }
 
 export interface NearbyTrial {

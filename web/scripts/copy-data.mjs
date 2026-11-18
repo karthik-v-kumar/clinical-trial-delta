@@ -1,7 +1,8 @@
 // Copies the site's data files from the repo's committed data/ into public/data,
 // so `vite dev` serves them and `vite build` ships them in dist/data.
 //
-// Only what the pages read is copied: meta.json, changes.json, finder.json, collections/,
+// Only what the pages read is copied: meta.json, changes.json, finder.json,
+// clinical.json, expanding.json, collections/,
 // sites/, trials/, summaries/, drugs/ and evals/ (top-level files only, so the eval
 // caches stay behind), plus the RSS feeds in feeds/ (copied byte for byte).
 // Snapshots are pipeline state and never ship. JSON files are re-serialized
@@ -15,7 +16,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const source = process.env.CTD_DATA_DIR ? path.resolve(process.env.CTD_DATA_DIR) : path.resolve(here, "../../data");
 const target = path.resolve(here, "../public/data");
 
-const FILES = ["meta.json", "changes.json", "finder.json"];
+const FILES = ["meta.json", "changes.json", "finder.json", "clinical.json", "expanding.json"];
 const DIRECTORIES = ["collections", "sites", "trials", "summaries", "drugs", "evals"];
 const FEEDS = "feeds";
 

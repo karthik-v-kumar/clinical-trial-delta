@@ -10,6 +10,7 @@ import { clear, external, h, link } from "./dom";
 import { daysBetween, formatDate, todayInLosAngeles } from "./format";
 import { followCount, onFollowChange } from "./follow";
 import { closeGlossaryPopup, initGlossaryPopups } from "./glossary";
+import { cliniciansPage } from "./pages/clinicians";
 import { collectionPage } from "./pages/collection";
 import { drugPage, drugsPage } from "./pages/drugs";
 import { evalsPage } from "./pages/evals";
@@ -32,6 +33,7 @@ const routes: [RegExp, Handler][] = [
   [/^\/drugs\/?$/, (meta) => drugsPage(meta)],
   [/^\/d\/([a-z0-9-]+)\/?$/, (meta, [id]) => drugPage(meta, id ?? "")],
   [/^\/following\/?$/, (meta) => followingPage(meta)],
+  [/^\/clinicians\/?$/, (meta) => cliniciansPage(meta)],
   [/^\/find\/?$/, (meta) => findPage(meta)],
   [/^\/glossary\/?$/, () => glossaryPage()],
   [/^\/evals\/?$/, () => evalsPage()],

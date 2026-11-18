@@ -113,6 +113,13 @@ export async function homePage(meta: Meta): Promise<Page> {
         ),
         link("/find", { class: "button button-primary" }, "Find a trial near you"),
       ),
+      h(
+        "p",
+        { class: "section-note clinician-link" },
+        h("strong", null, "Clinical professional? "),
+        link("/clinicians", null, "Refer patients with the clinician view, or find trials still adding sites"),
+        ".",
+      ),
     ),
     section(
       "changes",

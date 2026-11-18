@@ -7,7 +7,7 @@ import { h, link } from "./dom";
 export interface GlossaryEntry {
   title: string;
   text: string;
-  group: "Basics" | "Phases" | "Statuses" | "Design" | "Dates and results" | "About this site";
+  group: "Basics" | "Phases" | "Statuses" | "Design" | "Lab tests" | "Dates and results" | "About this site";
 }
 
 export const GLOSSARY: Record<string, GlossaryEntry> = {
@@ -61,6 +61,21 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     title: "Site",
     group: "Basics",
     text: "A hospital, clinic or research center where the trial takes place.",
+  },
+  "principal-investigator": {
+    title: "Principal investigator (PI)",
+    group: "Basics",
+    text: "The doctor or scientist in charge of a trial at one site, or of the whole trial. Every site has one; the registry names them for some trials only.",
+  },
+  "site-selection": {
+    title: "Site selection",
+    group: "Basics",
+    text: "How a sponsor chooses the hospitals and clinics that run its trial, usually with a survey about each one's patients, staff and equipment. There is no public sign-up for investigators.",
+  },
+  cro: {
+    title: "Contract research organization (CRO)",
+    group: "Basics",
+    text: "A company that sponsors hire to run parts of a trial, often including finding and checking sites.",
   },
   "age-limits": {
     title: "Age limits",
@@ -193,6 +208,16 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     group: "Design",
     text: "Hiding who gets which treatment so that expectations cannot sway the results. In a “double-blind” trial, neither the participants nor the researchers know.",
   },
+  "active-comparator": {
+    title: "Active comparator",
+    group: "Design",
+    text: "An existing treatment that the new one is compared with, instead of or as well as a placebo.",
+  },
+  "intervention-model": {
+    title: "Intervention model",
+    group: "Design",
+    text: "How the groups are arranged: parallel (each group keeps one treatment), crossover (each person gets every treatment in turn), single group (everyone gets the same treatment) or factorial (treatments tested in combination).",
+  },
   "open-label": {
     title: "Open label",
     group: "Design",
@@ -262,18 +287,51 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     group: "About this site",
     text: "Questions the registry record cannot answer, such as costs or side effects. The right behavior is to say the record doesn’t say, not to guess.",
   },
+
+  // --- Lab tests (the cut-offs the clinician view quotes from eligibility criteria)
+  hba1c: {
+    title: "HbA1c",
+    group: "Lab tests",
+    text: "A blood test of average blood sugar over the last two to three months, as a percentage (or mmol/mol). Diabetes trials often set a range, such as 7% to 10.5%.",
+  },
+  bmi: {
+    title: "BMI (body mass index)",
+    group: "Lab tests",
+    text: "Weight in kilograms divided by height in meters squared. Obesity trials often require a BMI of 30 or more, or 27 or more with a weight-related condition.",
+  },
+  egfr: {
+    title: "eGFR",
+    group: "Lab tests",
+    text: "Estimated glomerular filtration rate: how well the kidneys filter blood, in mL/min/1.73 m². Lower means weaker kidney function; many trials exclude people below a set level.",
+  },
+  "ldl-c": {
+    title: "LDL-C",
+    group: "Lab tests",
+    text: "LDL cholesterol, the “bad” cholesterol that builds up in arteries, in mg/dL or mmol/L. Cholesterol trials usually require it to be above a set level.",
+  },
+  triglycerides: {
+    title: "Triglycerides",
+    group: "Lab tests",
+    text: "A type of fat in the blood, in mg/dL or mmol/L. Very high levels can inflame the pancreas, so some trials set an upper limit.",
+  },
+  "lp-a": {
+    title: "Lp(a)",
+    group: "Lab tests",
+    text: "Lipoprotein(a): a cholesterol-carrying particle whose level is set mostly by genes. High levels raise the risk of heart attack and stroke.",
+  },
 };
+
 
 export const GLOSSARY_GROUPS: GlossaryEntry["group"][] = [
   "Basics",
   "Phases",
   "Statuses",
   "Design",
+  "Lab tests",
   "Dates and results",
   "About this site",
 ];
 
-/** A tappable piece of jargon. Falls back to plain text for unknown keys. */
 /** A glossary word. An inline span acting as a button (not a <button>), so it wraps
  * like the text around it and punctuation after it never starts a new line. */
 export function term(key: string, label?: string): HTMLElement {
