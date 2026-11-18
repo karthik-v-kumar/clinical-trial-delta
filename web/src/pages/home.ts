@@ -92,6 +92,13 @@ export async function homePage(meta: Meta): Promise<Page> {
       "Collections",
       h("ul", { class: "cards" }, meta.collections.map((c) => collectionCard(c, meta.recent_window_days))),
       h(
+        "p",
+        { class: "section-note browse-more" },
+        "Or browse ",
+        link("/drugs", null, "by drug"),
+        ", from semaglutide and tirzepatide to inclisiran, with every tracked trial of each.",
+      ),
+      h(
         "aside",
         { class: "find-cta", "aria-label": "Find a trial" },
         h(
@@ -115,7 +122,10 @@ export async function homePage(meta: Meta): Promise<Page> {
             h(
               "p",
               { class: "section-note" },
-              `The ${plural(feed.length, "most recent change")} across all collections, out of ${formatInt(meta.totals.changes_all_time)} recorded since ${formatDate(since)}.`,
+              `The ${plural(feed.length, "most recent change")} across all collections, out of ${formatInt(meta.totals.changes_all_time)} recorded since ${formatDate(since)}. `,
+              h("a", { href: "/data/feeds/all.xml", type: "application/rss+xml" }, "RSS feed"),
+              " · ",
+              link("/following", null, "Follow single trials"),
             ),
             h(
               "ul",

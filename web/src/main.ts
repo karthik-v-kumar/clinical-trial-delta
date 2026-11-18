@@ -8,12 +8,16 @@ import { APP_NAME, REPO_URL, type Page } from "./config";
 import { clearCache, loadMetaFresh, NotFoundError } from "./data";
 import { clear, external, h, link } from "./dom";
 import { daysBetween, formatDate, todayInLosAngeles } from "./format";
+import { followCount, onFollowChange } from "./follow";
 import { closeGlossaryPopup, initGlossaryPopups } from "./glossary";
 import { collectionPage } from "./pages/collection";
+import { drugPage, drugsPage } from "./pages/drugs";
 import { evalsPage } from "./pages/evals";
 import { findPage } from "./pages/find";
+import { followingPage } from "./pages/following";
 import { glossaryPage } from "./pages/glossary";
 import { homePage } from "./pages/home";
+import { printPage } from "./pages/print";
 import { trialPage } from "./pages/trial";
 import type { Meta } from "./types";
 import { errorBox, loading } from "./ui";
@@ -24,6 +28,10 @@ const routes: [RegExp, Handler][] = [
   [/^\/$/, (meta) => homePage(meta)],
   [/^\/c\/([a-z0-9-]+)\/?$/, (meta, [id]) => collectionPage(meta, id ?? "")],
   [/^\/t\/(NCT\d{8})\/?$/i, (meta, [nct]) => trialPage(meta, (nct ?? "").toUpperCase())],
+  [/^\/t\/(NCT\d{8})\/print\/?$/i, (meta, [nct]) => printPage(meta, (nct ?? "").toUpperCase())],
+  [/^\/drugs\/?$/, (meta) => drugsPage(meta)],
+  [/^\/d\/([a-z0-9-]+)\/?$/, (meta, [id]) => drugPage(meta, id ?? "")],
+  [/^\/following\/?$/, (meta) => followingPage(meta)],
   [/^\/find\/?$/, (meta) => findPage(meta)],
   [/^\/glossary\/?$/, () => glossaryPage()],
   [/^\/evals\/?$/, () => evalsPage()],
@@ -55,21 +63,32 @@ function logo(): SVGElement {
 }
 
 const NAV: [string, string, RegExp][] = [
-  ["/", "Collections", /^\/(c\/|t\/)?/],
+  ["/", "Collections", /^\/($|c\/|t\/|d\/|drugs)/],
   ["/find", "Find a trial", /^\/find/],
   ["/evals", "AI evaluation", /^\/evals/],
   ["/glossary", "Glossary", /^\/glossary/],
 ];
 const navLinks = NAV.map(([href, label]) => link(href, { class: "nav-link" }, label));
 
-/** Mark the section the reader is in (trial and collection pages belong to Collections). */
+/** Mark the section the reader is in (trial, collection and drug pages belong to Collections). */
 function updateNav(path: string): void {
-  const active = NAV.findIndex(([, , pattern], i) => i > 0 && pattern.test(path));
+  const active = NAV.findIndex(([, , pattern]) => pattern.test(path));
   navLinks.forEach((a, i) => {
-    if (i === (active === -1 ? 0 : active)) a.setAttribute("aria-current", "page");
+    if (i === active) a.setAttribute("aria-current", "page");
     else a.removeAttribute("aria-current");
   });
 }
+
+/** "Following 3" in the dateline, once the visitor follows anything (kept in this browser). */
+const followLink = link("/following", { class: "dateline-follow" });
+function renderFollowLink(): void {
+  const count = followCount();
+  followLink.hidden = count === 0;
+  clear(followLink);
+  followLink.append(h("span", { class: "dateline-follow-mark", "aria-hidden": "true" }), `Following ${count}`);
+}
+onFollowChange(renderFollowLink);
+renderFollowLink();
 
 function shell(): HTMLElement {
   return h(
@@ -102,6 +121,7 @@ function shell(): HTMLElement {
           "div",
           { class: "wrap dateline-row" },
           badge,
+          followLink,
           h("p", { class: "dateline-source" }, "Source: ClinicalTrials.gov registry, copied daily"),
         ),
       ),

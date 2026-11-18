@@ -17,7 +17,8 @@ CHECKLIST_ITEM_FIELDS (eligibility checklist), ROW_FIELDS (collection table
 rows), EVENT_FIELDS (changes.json), HISTORY_FIELDS (trial history),
 COLLECTION_FIELDS, SITES_FIELDS / SITES_CITY_FIELDS / SITES_TRIAL_FIELDS
 (recruiting-sites index), FINDER_FIELDS / FINDER_COLLECTION_FIELDS /
-FINDER_TRIAL_FIELDS / FINDER_NEW_SITES_FIELDS (trial finder),
+FINDER_TRIAL_FIELDS / FINDER_NEW_SITES_FIELDS (trial finder), DRUG_FIELDS /
+DRUG_INDEX_FIELDS / DRUG_ENTRY_FIELDS (drug pages),
 META_FIELDS / META_RUN_FIELDS / META_COLLECTION_FIELDS.
 
 Output (all JSON, all committed):
@@ -26,16 +27,21 @@ Output (all JSON, all committed):
     data/collections/<id>.json      collection metadata, landscape counts, trial table rows
     data/sites/<id>.json            where a collection's trials are recruiting (city search)
     data/finder.json                every recruiting trial, for the "Find a trial" page
+    data/drugs/index.json           the drugs with their own page, with trial counts
+    data/drugs/<id>.json            one drug: counts by phase and status, trial table rows
+    data/feeds/all.xml              RSS feed of the latest changes (and one per collection)
     data/trials/<NCT>.json          one trial: record + checklist + collections + change history
 """
 
 from __future__ import annotations
 
 import datetime as dt
+import email.utils
 import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
+from xml.sax.saxutils import escape as xml_escape
 
 from .config import Watchlist
 from .diff import EVENT_TYPES
@@ -179,6 +185,7 @@ FINDER_FIELDS = (
     "snapshot_date",
     "news_window_days",
     "collections",
+    "drugs",
     "cities",
     "trials",
     "recruiting_trials",
@@ -195,6 +202,8 @@ FINDER_TRIAL_FIELDS = (
     "phases",
     "conditions",
     "tested",
+    "also",
+    "drugs",
     "kinds",
     "placebo",
     "sex",
@@ -211,6 +220,30 @@ FINDER_TRIAL_FIELDS = (
     "new_sites",
 )
 FINDER_NEW_SITES_FIELDS = ("date", "cities")
+
+# data/drugs/index.json and data/drugs/<id>.json: one page per drug in the
+# watchlist's "drugs" list. A drug file has the same landscape and table shape as
+# a collection file, so the site draws both with the same code.
+DRUG_ENTRY_FIELDS = (
+    "id",
+    "name",
+    "drug_class",
+    "also_listed_as",
+    "collections",
+    "trial_count",
+    "recruiting_count",
+    "not_yet_recruiting_count",
+)
+DRUG_INDEX_FIELDS = ("schema_version", "snapshot_date", "drugs")
+DRUG_FIELDS = (
+    "schema_version",
+    "snapshot_date",
+    *DRUG_ENTRY_FIELDS,
+    "accent",
+    "by_phase",
+    "by_status",
+    "trials",
+)
 
 # data/meta.json
 META_FIELDS = (
@@ -314,6 +347,17 @@ def write_json(path: Path, obj, indent: int | None = 1) -> bool:
     """Write JSON if the content differs; returns True when the file changed."""
     text = json.dumps(obj, indent=indent, ensure_ascii=False, separators=(",", ":") if indent is None else None)
     text += "\n"
+    if path.exists() and path.read_text(encoding="utf-8") == text:
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(text, encoding="utf-8")
+    tmp.replace(path)
+    return True
+
+
+def write_text(path: Path, text: str) -> bool:
+    """Write text if it differs; returns True when the file changed."""
     if path.exists() and path.read_text(encoding="utf-8") == text:
         return False
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -623,6 +667,43 @@ def interventions_tested(record: dict) -> tuple[list[str], list[str]]:
     return names[:FINDER_MAX_LISTED], [k for k in KIND_ORDER if k in kinds]
 
 
+def other_names(record: dict, limit: int = 8) -> list[str]:
+    """Other names of what the trial tests (brand names, sponsor codes), for search."""
+    found: list[str] = []
+    seen = {(iv.get("name") or "").strip().lower() for iv in record.get("interventions") or []}
+    for iv in record.get("interventions") or []:
+        if _is_placebo(iv.get("name")):
+            continue
+        for alias in iv.get("other_names") or []:
+            alias = (alias or "").strip()
+            if alias and not _is_placebo(alias) and alias.lower() not in seen:
+                seen.add(alias.lower())
+                found.append(alias)
+    return found[:limit]
+
+
+def _term_pattern(term: str) -> str:
+    """A whole-word pattern; spaces and hyphens in a term match either ("BI 456906", "BI-456906")."""
+    words = [re.escape(w) for w in re.split(r"[\s-]+", term.strip()) if w]
+    return r"(?<![\w-])" + r"[\s-]?".join(words) + r"(?!\w)"
+
+
+def drug_matcher(drugs) -> callable:
+    """record -> ids of the watchlist drugs it tests, from its intervention names and other names."""
+    patterns = [(d.id, re.compile("|".join(_term_pattern(t) for t in d.terms), re.IGNORECASE)) for d in drugs]
+
+    def match(record: dict) -> list[str]:
+        texts = [
+            " | ".join([iv.get("name") or "", *(iv.get("other_names") or [])])
+            for iv in record.get("interventions") or []
+            if not _is_placebo(iv.get("name"))
+        ]
+        blob = " || ".join(texts)
+        return [did for did, pattern in patterns if pattern.search(blob)] if blob else []
+
+    return match
+
+
 def has_placebo_group(record: dict) -> bool:
     """True when some participants get a placebo or sham, per the arms or interventions."""
     if any(a.get("type") in ("PLACEBO_COMPARATOR", "SHAM_COMPARATOR") for a in record.get("arm_groups") or []):
@@ -656,6 +737,7 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
         names[c.id] = c.name
         for nct in state.members:
             members[nct].append(c.id)
+    match_drugs = drug_matcher(wl.drugs)
 
     window_start = (dt.date.fromisoformat(snap.snapshot_date) - dt.timedelta(days=FINDER_NEWS_DAYS - 1)).isoformat()
     opened: dict[str, str] = {}
@@ -749,6 +831,8 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
             "phases": record.get("phases") or [],
             "conditions": (record.get("conditions") or [])[:FINDER_MAX_LISTED],
             "tested": tested,
+            "also": other_names(record),
+            "drugs": match_drugs(record),
             "kinds": kinds,
             "placebo": has_placebo_group(record),
             "sex": eligibility.get("sex"),
@@ -777,6 +861,7 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
             "collections": [
                 publish({"id": cid, "name": name}, FINDER_COLLECTION_FIELDS) for cid, name in names.items()
             ],
+            "drugs": [{"id": d.id, "name": d.name} for d in wl.drugs],
             "cities": cities,
             "trials": trials,
             "recruiting_trials": counted["RECRUITING"],
@@ -793,6 +878,206 @@ def write_finder(data_dir: Path, snap: Snapshot, wl: Watchlist, events: list[dic
         "without_location": unlisted["RECRUITING"],
         "not_yet_recruiting": counted["NOT_YET_RECRUITING"] - unlisted["NOT_YET_RECRUITING"],
     }
+
+
+def write_drugs(data_dir: Path, snap: Snapshot, wl: Watchlist) -> dict:
+    """data/drugs/index.json and data/drugs/<id>.json for each drug in the watchlist.
+
+    A drug's trials are the tracked trials whose listed interventions name it (see
+    drug_matcher). Files for drugs no longer in the watchlist are removed.
+    """
+    match_drugs = drug_matcher(wl.drugs)
+    match_sponsors = sponsor_matcher(wl.all_sponsors_of_note)
+    trials_of: dict[str, list[str]] = defaultdict(list)
+    for nct in sorted(snap.trials, reverse=True):  # newest NCT numbers first
+        for did in match_drugs(snap.trials[nct]):
+            trials_of[did].append(nct)
+    collection_of = {nct: [] for nct in snap.trials}
+    for c in wl.collections:
+        state = snap.collections.get(c.id)
+        for nct in state.members if state else ():
+            collection_of.setdefault(nct, []).append(c.id)
+    accents = {c.id: c.accent for c in wl.collections}
+
+    folder = data_dir / "drugs"
+    entries = []
+    for drug in wl.drugs:
+        records = [snap.trials[n] for n in trials_of.get(drug.id, [])]
+        statuses = Counter(r.get("overall_status") for r in records)
+        in_collection = Counter(cid for r in records for cid in collection_of.get(r["nct_id"], []))
+        collections = [cid for cid, _ in sorted(in_collection.items(), key=lambda kv: (-kv[1], kv[0]))]
+        entry = {
+            "id": drug.id,
+            "name": drug.name,
+            "drug_class": drug.drug_class,
+            "also_listed_as": list(drug.terms[1:]),
+            "collections": collections,
+            "trial_count": len(records),
+            "recruiting_count": statuses.get("RECRUITING", 0),
+            "not_yet_recruiting_count": statuses.get("NOT_YET_RECRUITING", 0),
+        }
+        entries.append(publish(entry, DRUG_ENTRY_FIELDS))
+        body = {
+            "schema_version": SCHEMA_VERSION,
+            "snapshot_date": snap.snapshot_date,
+            **entry,
+            "accent": accents.get(collections[0]) if collections else None,
+            "by_phase": _ordered_counts(Counter(phase_bucket(r.get("phases")) for r in records), PHASE_ORDER, "phase"),
+            "by_status": _ordered_counts(statuses, STATUS_ORDER, "status"),
+            "trials": [collection_row(r, snap, match_sponsors) for r in records],
+        }
+        write_json(folder / f"{drug.id}.json", publish(body, DRUG_FIELDS), indent=None)
+    keep = {f"{d.id}.json" for d in wl.drugs} | {"index.json"}
+    for stale in folder.glob("*.json") if folder.exists() else ():
+        if stale.name not in keep:
+            stale.unlink()
+    write_json(
+        folder / "index.json",
+        publish(
+            {"schema_version": SCHEMA_VERSION, "snapshot_date": snap.snapshot_date, "drugs": entries}, DRUG_INDEX_FIELDS
+        ),
+    )
+    return {e["id"]: e["trial_count"] for e in entries}
+
+
+# --- RSS feeds ------------------------------------------------------------------
+
+SITE_URL = "https://clinical-trial-delta-delta.vercel.app"
+FEED_ITEMS = 50
+_STATUS_WORDS = {
+    "NOT_YET_RECRUITING": "Not yet recruiting",
+    "RECRUITING": "Recruiting",
+    "ENROLLING_BY_INVITATION": "Enrolling by invitation",
+    "ACTIVE_NOT_RECRUITING": "Active, not recruiting",
+    "SUSPENDED": "Suspended",
+    "TERMINATED": "Terminated",
+    "COMPLETED": "Completed",
+    "WITHDRAWN": "Withdrawn",
+    "UNKNOWN": "Unknown status",
+}
+
+
+def _feed_date(value) -> str:
+    if isinstance(value, dict):
+        value = value.get("date")
+    if not value:
+        return "none"
+    parts = str(value).split("-")
+    try:
+        day = dt.date(int(parts[0]), int(parts[1]), int(parts[2]) if len(parts) > 2 else 1)
+    except (ValueError, IndexError):
+        return str(value)
+    return f"{day:%b} {day.day}, {day.year}" if len(parts) > 2 else f"{day:%b} {day.year}"
+
+
+def _feed_enrollment(value) -> str:
+    if not isinstance(value, dict) or value.get("count") is None:
+        return "none"
+    kind = {"ACTUAL": " (actual)", "ESTIMATED": " (target)"}.get(value.get("type") or "", "")
+    return f"{value['count']:,} people{kind}"
+
+
+def _feed_places(sites) -> str:
+    names = []
+    for site in sites or []:
+        name = ", ".join(x for x in (site.get("city"), site.get("state") or site.get("country")) if x)
+        name = name or site.get("facility") or "unnamed site"
+        if name not in names:
+            names.append(name)
+    shown = "; ".join(names[:3])
+    return f"{shown}; and {len(names) - 3} more" if len(names) > 3 else shown
+
+
+def describe_change(event: dict) -> tuple[str, str]:
+    """(headline, detail) in the same words as the site's change feed."""
+    kind, old, new = event["type"], event.get("old_value"), event.get("new_value")
+    if kind == "new_trial":
+        status = _STATUS_WORDS.get((new or {}).get("overall_status") or "", "")
+        return "New trial in this collection", f"Status: {status}." if status else ""
+    if kind == "status_change":
+        why = (event.get("context") or {}).get("why_stopped")
+        headline = f"Status: {_STATUS_WORDS.get(old, old or 'none')} → {_STATUS_WORDS.get(new, new or 'none')}"
+        return headline, f"Reason given: {why}" if why else ""
+    if kind == "enrollment_change":
+        return f"Enrollment: {_feed_enrollment(old)} → {_feed_enrollment(new)}", ""
+    if kind == "endpoint_change":
+        return "Primary endpoint wording changed", f"Now: {'; '.join(new or []) or 'none listed'}"
+    if kind in ("site_added", "site_removed"):
+        sites = new if kind == "site_added" else old
+        count = len(sites or [])
+        verb = "added" if kind == "site_added" else "removed"
+        return f"{count} site{'s' if count != 1 else ''} {verb}", _feed_places(sites)
+    if kind == "date_change":
+        which = "Primary completion" if event.get("field") == "primary_completion_date" else "Completion"
+        return f"{which}: {_feed_date(old)} → {_feed_date(new)}", ""
+    if kind == "results_posted":
+        return "Results posted on ClinicalTrials.gov", ""
+    return kind, ""
+
+
+def _rss(title: str, link: str, self_url: str, description: str, events: list[dict]) -> str:
+    def rfc822(day: str) -> str:
+        return email.utils.format_datetime(dt.datetime.fromisoformat(day).replace(hour=12, tzinfo=dt.UTC))
+
+    items = []
+    for e in events:
+        headline, detail = describe_change(e)
+        trial = e.get("brief_title") or e["nct_id"]
+        body = f"{headline}. {detail.rstrip('.')}." if detail else f"{headline}."
+        item_title = xml_escape(f"{headline}: {trial}")
+        item_link = xml_escape(f"{SITE_URL}/t/{e['nct_id']}")
+        detected = _feed_date(e["detected_date"])
+        item_text = xml_escape(f"{body} {e['nct_id']}, detected {detected}.")
+        items.append(
+            "    <item>\n"
+            f"      <title>{item_title}</title>\n"
+            f"      <link>{item_link}</link>\n"
+            f'      <guid isPermaLink="false">{xml_escape(e["change_id"])}</guid>\n'
+            f"      <pubDate>{rfc822(e['detected_date'])}</pubDate>\n"
+            f"      <description>{item_text}</description>\n"
+            "    </item>"
+        )
+    latest = f"    <pubDate>{rfc822(events[0]['detected_date'])}</pubDate>\n" if events else ""
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        "  <channel>\n"
+        f"    <title>{xml_escape(title)}</title>\n"
+        f"    <link>{xml_escape(link)}</link>\n"
+        f'    <atom:link href="{xml_escape(self_url)}" rel="self" type="application/rss+xml"/>\n'
+        f"    <description>{xml_escape(description)}</description>\n"
+        "    <language>en-us</language>\n"
+        f"{latest}" + ("\n".join(items) + "\n" if items else "") + "  </channel>\n</rss>\n"
+    )
+
+
+def write_feeds(data_dir: Path, wl: Watchlist, events: list[dict]) -> dict:
+    """data/feeds/all.xml and data/feeds/<collection>.xml: the latest changes as RSS.
+
+    One item per registry change (a change seen from two collections appears once in
+    all.xml), newest first. No build timestamp, so a day without changes leaves the
+    files untouched.
+    """
+
+    def latest(selected: list[dict]) -> list[dict]:
+        seen: dict[str, dict] = {}
+        for e in reversed(selected):  # changes.json is oldest first
+            seen.setdefault(e["change_id"], e)
+        return sorted(seen.values(), key=lambda e: (e["detected_date"], e["change_id"]), reverse=True)[:FEED_ITEMS]
+
+    feeds = {"all": (f"{APP_NAME}: all changes", f"{SITE_URL}/", latest(events))}
+    for c in wl.collections:
+        mine = [e for e in events if e["collection"] == c.id]
+        feeds[c.id] = (f"{APP_NAME}: {c.name}", f"{SITE_URL}/c/{c.id}", latest(mine))
+    counts = {}
+    for name, (title, link, items) in feeds.items():
+        self_url = f"{SITE_URL}/data/feeds/{name}.xml"
+        description = (
+            "Changes to clinical trial registry records on ClinicalTrials.gov, detected by a daily comparison."
+        )
+        write_text(data_dir / "feeds" / f"{name}.xml", _rss(title, link, self_url, description, items))
+        counts[name] = len(items)
+    return counts
 
 
 def write_meta(

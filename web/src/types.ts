@@ -203,6 +203,8 @@ export interface FinderTrial {
   phases: string[];
   conditions: string[];
   tested: string[];
+  also: string[]; // other names of what is tested: brand names, sponsor codes
+  drugs: string[]; // ids of the drugs with their own page that the trial tests
   kinds: InterventionKind[];
   placebo: boolean;
   sex: string | null;
@@ -224,12 +226,41 @@ export interface FinderIndex {
   snapshot_date: string;
   news_window_days: number;
   collections: { id: string; name: string }[];
+  drugs: { id: string; name: string }[];
   cities: Place[];
   trials: FinderTrial[];
   recruiting_trials: number;
   trials_without_location: number;
   not_yet_recruiting_trials: number;
   not_yet_without_location: number;
+}
+
+/** One drug in data/drugs/index.json. */
+export interface DrugEntry {
+  id: string;
+  name: string;
+  drug_class: string;
+  also_listed_as: string[];
+  collections: string[]; // most trials first
+  trial_count: number;
+  recruiting_count: number;
+  not_yet_recruiting_count: number;
+}
+
+export interface DrugIndex {
+  schema_version: number;
+  snapshot_date: string;
+  drugs: DrugEntry[];
+}
+
+/** data/drugs/<id>.json: the same landscape and table shape as a collection. */
+export interface DrugFile extends DrugEntry {
+  schema_version: number;
+  snapshot_date: string;
+  accent: string | null;
+  by_phase: { phase: string; count: number }[];
+  by_status: { status: string; count: number }[];
+  trials: TrialRow[];
 }
 
 export interface CollectionSummary {

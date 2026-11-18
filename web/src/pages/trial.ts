@@ -2,7 +2,8 @@
 // the sites, and every change our snapshots have recorded for this trial.
 
 import type { Page } from "../config";
-import { loadSummary, loadTrial } from "../data";
+import { loadDrugIndex, loadSummary, loadTrial } from "../data";
+import { followButton } from "../follow";
 import { external, h, link, type Child } from "../dom";
 import {
   allocationLabel,
@@ -25,8 +26,9 @@ import {
   whoMaskedLabel,
 } from "../format";
 import { term } from "../glossary";
-import type { AISummary, Checklist, ChecklistItem, Enrollment, Meta, Site, Trial } from "../types";
+import type { AISummary, Checklist, ChecklistItem, DrugEntry, Enrollment, Meta, Site, Trial } from "../types";
 import { changeItem, collectionTag, emptyState, phaseChip, section, statusChip } from "../ui";
+import { drugsIn } from "./drugs";
 
 const SITES_OPEN_LIMIT = 12;
 
@@ -164,10 +166,19 @@ function summarySection(trial: Trial, summary: AISummary | null): HTMLElement {
   );
 }
 
-function testedSection(trial: Trial): HTMLElement {
+function testedSection(trial: Trial, drugs: DrugEntry[]): HTMLElement {
   return section(
     "tested",
     "What is being tested",
+    drugs.length
+      ? h(
+          "p",
+          { class: "drug-links" },
+          `Every tracked trial of `,
+          drugs.map((drug, i) => [i ? (i === drugs.length - 1 ? " and " : ", ") : "", link(`/d/${drug.id}`, null, drug.name)]),
+          ".",
+        )
+      : null,
     trial.interventions.length
       ? h(
           "ul",
@@ -358,7 +369,11 @@ function sitesSection(trial: Trial): HTMLElement {
 }
 
 export async function trialPage(meta: Meta, nctId: string): Promise<Page> {
-  const [trial, summary] = await Promise.all([loadTrial(nctId), loadSummary(nctId)]);
+  const [trial, summary, drugIndex] = await Promise.all([
+    loadTrial(nctId),
+    loadSummary(nctId),
+    loadDrugIndex().catch(() => null), // drug links are extra; the page works without them
+  ]);
   const collections = trial.collections.flatMap((id) => meta.collections.find((c) => c.id === id) ?? []);
   const home = collections[0];
   const since = meta.tracking_since ?? meta.snapshot_date;
@@ -390,6 +405,12 @@ export async function trialPage(meta: Meta, nctId: string): Promise<Page> {
         trial.has_results ? h("span", { class: "chip chip-plain" }, "Results posted") : null,
       ),
       collections.length ? h("p", { class: "change-collections" }, collections.map((c) => link(`/c/${c.id}`, { class: "tag-link" }, collectionTag(c)))) : null,
+      h(
+        "p",
+        { class: "trial-actions" },
+        followButton(trial.nct_id, title, meta.snapshot_date),
+        link(`/t/${trial.nct_id}/print`, { class: "button button-quiet" }, "Print for your doctor"),
+      ),
     ),
     trial.in_watchlist
       ? null
@@ -400,7 +421,7 @@ export async function trialPage(meta: Meta, nctId: string): Promise<Page> {
         ),
     section("facts", "Key facts", keyFacts(trial)),
     summarySection(trial, summary),
-    testedSection(trial),
+    testedSection(trial, drugIndex ? drugsIn(trial, drugIndex.drugs) : []),
     eligibilitySection(trial),
     sitesSection(trial),
     section(

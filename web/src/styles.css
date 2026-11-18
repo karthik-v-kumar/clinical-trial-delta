@@ -2185,3 +2185,373 @@ details[open] > summary::before {
     display: none;
   }
 }
+
+/* --- following, drugs, keyword search ------------------------------------ */
+
+.dateline-follow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.dateline-follow[hidden] {
+  display: none;
+}
+
+.dateline-follow:hover {
+  text-decoration: underline;
+}
+
+.dateline-follow-mark {
+  width: 7px;
+  height: 7px;
+  background: var(--brand);
+}
+
+.trial-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.trial-actions .button {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9375rem;
+  text-decoration: none;
+}
+
+.follow-button[aria-pressed="true"] {
+  border-color: var(--brand);
+  background: var(--brand);
+  color: var(--brand-ink);
+}
+
+.follow-button[aria-pressed="true"]::before {
+  content: "\2713\00a0";
+}
+
+.follow-button[aria-pressed="true"]:hover {
+  background: var(--brand);
+  opacity: 0.88;
+}
+
+.button-small {
+  min-height: 36px;
+  padding: 0 12px;
+  font-size: 0.875rem;
+}
+
+.find-links {
+  align-items: center;
+}
+
+.find-links .follow-button {
+  margin-left: auto;
+}
+
+.field-q > label {
+  color: inherit;
+}
+
+.finder-form .field-q {
+  grid-column: 1 / -1;
+}
+
+.find-drug-hint:empty {
+  display: none;
+}
+
+.find-drug-hint a {
+  font-weight: 600;
+}
+
+.browse-more {
+  margin-top: 16px;
+}
+
+.follow-list {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+
+.follow-item {
+  padding: 16px;
+}
+
+.follow-item + .follow-item {
+  border-top: 1px solid var(--rule);
+}
+
+.follow-item-new {
+  box-shadow: inset 3px 0 0 var(--good-dot);
+}
+
+.follow-new {
+  margin-top: 12px;
+  color: var(--good);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.follow-quiet {
+  margin-top: 12px;
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+}
+
+.changes-compact {
+  margin-top: 8px;
+}
+
+.follow-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 16px;
+  margin-top: 12px;
+}
+
+.feed-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font-weight: 600;
+}
+
+.drug-list {
+  display: grid;
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--accent);
+  background: var(--surface);
+}
+
+.drug-item {
+  display: grid;
+  gap: 2px;
+  padding: 12px 16px;
+}
+
+.drug-item + .drug-item {
+  border-top: 1px solid var(--grid);
+}
+
+.drug-name {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.drug-name:hover {
+  text-decoration: underline;
+}
+
+.drug-class {
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+}
+
+.drug-counts {
+  color: var(--ink-3);
+  font-size: 0.875rem;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.drug-links {
+  margin-bottom: 14px;
+  color: var(--ink-2);
+}
+
+.drug-links a {
+  font-weight: 600;
+}
+
+.drug-page .find-cta {
+  margin-top: 24px;
+}
+
+/* --- print summary (take to your doctor) --------------------------------- */
+
+.print-page {
+  max-width: 820px;
+}
+
+.print-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 20px 0 24px;
+}
+
+.print-head {
+  padding-top: 14px;
+  border-top: 4px solid var(--brand);
+}
+
+.print-head h1 {
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+.print-ids {
+  margin-top: 8px;
+  color: var(--ink-2);
+  font-size: 0.875rem;
+  overflow-wrap: anywhere;
+}
+
+.print-facts {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.print-facts th,
+.print-facts td {
+  padding: 6px 10px 6px 0;
+  border-top: 1px solid var(--grid);
+  text-align: left;
+  vertical-align: top;
+}
+
+.print-facts th {
+  width: 11rem;
+  color: var(--ink-3);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.print-section {
+  margin-top: 24px;
+}
+
+.print-section h2 {
+  padding-top: 8px;
+  margin-bottom: 8px;
+  border-top: 1px solid var(--rule-strong);
+  font-size: 1.125rem;
+}
+
+.print-section h3 {
+  margin-top: 12px;
+  font-size: 0.9375rem;
+}
+
+.print-summary {
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.print-small {
+  margin-top: 8px;
+  color: var(--ink-2);
+  font-size: 0.8125rem;
+}
+
+.print-criteria {
+  padding-left: 1.2em;
+  list-style: disc;
+  font-size: 0.875rem;
+  line-height: 1.45;
+}
+
+.print-criteria li + li {
+  margin-top: 3px;
+}
+
+.print-criteria ul {
+  padding-left: 1.2em;
+  list-style: circle;
+}
+
+.print-questions ol {
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+
+.print-questions li + li {
+  margin-top: 4px;
+}
+
+/* Ruled lines for handwriting: borders, because browsers drop backgrounds when printing. */
+.print-line {
+  height: 1.9em;
+  border-bottom: 1px solid var(--axis);
+}
+
+.print-foot {
+  margin-top: 24px;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-2);
+  font-size: 0.8125rem;
+  overflow-wrap: anywhere;
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .print-actions,
+  .trial-actions,
+  .follow-button,
+  .dateline-follow {
+    display: none;
+  }
+
+  /* Print in the light palette even when the screen is in dark mode. */
+  :root {
+    --page: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f1efe9;
+    --ink: #111821;
+    --ink-2: #3b4552;
+    --ink-3: #5f6975;
+    --rule: #d9d6ce;
+    --rule-strong: #111821;
+    --grid: #e6e3dc;
+    --axis: #a9a59b;
+    --link: #17508f;
+    --brand: #102a43;
+    --brand-ink: #ffffff;
+    --good: #1d6b34;
+    --good-dot: #2b8a49;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .print-page {
+    max-width: none;
+  }
+
+  .print-facts tr,
+  .print-criteria li,
+  .print-questions,
+  .print-notes {
+    break-inside: avoid;
+  }
+
+  .print-section h2,
+  .print-section h3 {
+    break-after: avoid;
+  }
+
+  .print-head h1 {
+    font-size: 1.4rem;
+  }
+}

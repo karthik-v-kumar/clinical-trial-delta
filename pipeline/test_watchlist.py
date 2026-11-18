@@ -66,6 +66,12 @@ def test_query_hash_changes_only_with_matching_rules(raw):
         (lambda r: r["collections"][0]["queries"][0].update(intr=["semaglutide", "Semaglutide"]), "duplicate"),
         (lambda r: r["collections"][0]["queries"].append({"id": "empty-q", "label": "x"}), "at least one"),
         (lambda r: r.update(schema_version=2), "schema_version"),
+        (lambda r: r["drugs"][1].update(id="semaglutide"), "more than once"),
+        (lambda r: r["drugs"][0].update(id="Semaglutide"), "kebab"),
+        (lambda r: r["drugs"][0].update(terms=[]), "at least the drug's name"),
+        (lambda r: r["drugs"][0].update(brand="x"), "unknown keys"),
+        (lambda r: r["drugs"][0].pop("class"), "'class'"),
+        (lambda r: r.update(drugs={}), "'drugs' must be a list"),
     ],
 )
 def test_validation_errors(raw, mutate, message):
@@ -73,3 +79,17 @@ def test_validation_errors(raw, mutate, message):
     mutate(bad)
     with pytest.raises(WatchlistError, match=message):
         parse_watchlist(bad)
+
+
+def test_seed_drugs_load_with_their_generic_name_first():
+    wl = load_watchlist()
+    ids = [d.id for d in wl.drugs]
+    assert {"semaglutide", "tirzepatide", "retatrutide", "inclisiran", "empagliflozin"} <= set(ids)
+    assert len(ids) == len(set(ids))
+    for drug in wl.drugs:
+        assert drug.terms[0].casefold() in drug.name.casefold(), drug
+
+
+def test_drugs_are_optional(raw):
+    del raw["drugs"]
+    assert parse_watchlist(raw).drugs == ()

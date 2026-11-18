@@ -7,6 +7,8 @@ import type {
   AISummary,
   ChangesFile,
   Collection,
+  DrugFile,
+  DrugIndex,
   EvalHistory,
   EvalReport,
   FinderIndex,
@@ -59,6 +61,8 @@ export const loadCollection = (id: string): Promise<Collection> =>
 export const loadSites = (id: string): Promise<SitesIndex> =>
   cached<SitesIndex>(`sites/${encodeURIComponent(id)}.json`);
 export const loadFinder = (): Promise<FinderIndex> => cached<FinderIndex>("finder.json");
+export const loadDrugIndex = (): Promise<DrugIndex> => cached<DrugIndex>("drugs/index.json");
+export const loadDrug = (id: string): Promise<DrugFile> => cached<DrugFile>(`drugs/${encodeURIComponent(id)}.json`);
 export const loadTrial = (nctId: string): Promise<Trial> =>
   cached<Trial>(`trials/${encodeURIComponent(nctId)}.json`);
 

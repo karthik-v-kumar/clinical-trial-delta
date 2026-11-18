@@ -28,7 +28,11 @@ const PAGE_SIZE = 25;
 
 // --- landscape -----------------------------------------------------------------
 
-function landscape(collection: Collection): HTMLElement {
+/** What the landscape charts and the trial table need; drug pages pass the same shape. */
+export type Landscape = Pick<Collection, "name" | "by_phase" | "by_status"> & { accent: string | null };
+export type TableSource = Pick<Collection, "trials" | "by_phase" | "by_status">;
+
+export function landscape(collection: Landscape): HTMLElement {
   const phaseCounts = new Map(collection.by_phase.map((p) => [p.phase, p.count]));
   const extraPhases = collection.by_phase.map((p) => p.phase).filter((p) => !PHASE_ORDER.includes(p));
   const phases = [...PHASE_ORDER, ...extraPhases].map((phase) => ({
@@ -45,7 +49,7 @@ function landscape(collection: Collection): HTMLElement {
   }));
   return h(
     "div",
-    { class: "charts", style: `--accent:${collection.accent}` },
+    { class: "charts", style: collection.accent ? `--accent:${collection.accent}` : null },
     barChart({
       title: ["Trials by ", term("phase", "phase")],
       summary: `Bar chart of ${collection.name} trials by phase.`,
@@ -293,7 +297,7 @@ function compareRows(key: SortKey, descending: boolean): (a: TrialRow, b: TrialR
   }
 }
 
-function trialTable(collection: Collection): HTMLElement {
+export function trialTable(collection: TableSource): HTMLElement {
   let sortKey: SortKey = "start";
   let descending = true;
   let shown = PAGE_SIZE;
@@ -528,6 +532,11 @@ export async function collectionPage(meta: Meta, id: string): Promise<Page> {
     section(
       "changes",
       `Changed in the last ${meta.recent_window_days} days`,
+      h(
+        "p",
+        { class: "section-note" },
+        h("a", { href: `/data/feeds/${collection.id}.xml`, type: "application/rss+xml" }, "RSS feed of this collection's changes"),
+      ),
       recent.length
         ? changeList
         : emptyState(

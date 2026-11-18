@@ -2,9 +2,10 @@
 // so `vite dev` serves them and `vite build` ships them in dist/data.
 //
 // Only what the pages read is copied: meta.json, changes.json, finder.json, collections/,
-// sites/, trials/, summaries/ and evals/ (top-level files only, so the eval
-// caches stay behind). Snapshots are pipeline state and never ship. Files are
-// re-serialized without indentation to keep downloads small.
+// sites/, trials/, summaries/, drugs/ and evals/ (top-level files only, so the eval
+// caches stay behind), plus the RSS feeds in feeds/ (copied byte for byte).
+// Snapshots are pipeline state and never ship. JSON files are re-serialized
+// without indentation to keep downloads small.
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
@@ -15,7 +16,8 @@ const source = process.env.CTD_DATA_DIR ? path.resolve(process.env.CTD_DATA_DIR)
 const target = path.resolve(here, "../public/data");
 
 const FILES = ["meta.json", "changes.json", "finder.json"];
-const DIRECTORIES = ["collections", "sites", "trials", "summaries", "evals"];
+const DIRECTORIES = ["collections", "sites", "trials", "summaries", "drugs", "evals"];
+const FEEDS = "feeds";
 
 async function copyJson(from, to) {
   const parsed = JSON.parse(await readFile(from, "utf8"));
@@ -45,6 +47,14 @@ async function main() {
       );
     }
     count += names.length;
+  }
+  const feeds = path.join(source, FEEDS);
+  if (existsSync(feeds)) {
+    await mkdir(path.join(target, FEEDS), { recursive: true });
+    for (const name of (await readdir(feeds)).filter((n) => n.endsWith(".xml"))) {
+      await writeFile(path.join(target, FEEDS, name), await readFile(path.join(feeds, name)));
+      count += 1;
+    }
   }
   console.log(`copy-data: ${count} files -> ${path.relative(process.cwd(), target)}`);
 }

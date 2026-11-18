@@ -9,6 +9,7 @@ import { REGISTRY_URL, type Page } from "../config";
 import { loadFinder } from "../data";
 import { clear, external, h, link } from "../dom";
 import { daysBetween, formatDate, formatInt, plural, sexLabel } from "../format";
+import { followButton } from "../follow";
 import { cityName, fold, matchCities, milesBetween, type City } from "../geo";
 import { term } from "../glossary";
 import type { FinderIndex, FinderTrial, InterventionKind, Meta } from "../types";
@@ -42,6 +43,8 @@ interface Origin {
 }
 
 interface Filters {
+  /** Words that must all appear in the trial's title, treatments (with brand names and codes), sponsor or conditions. */
+  q: string;
   area: string;
   show: "" | Group;
   origin: Origin | null;
@@ -103,12 +106,34 @@ function nearestOf(index: FinderIndex, cities: number[], distance: number[], rad
  * recruiting yet" when only sites that have not opened are. Without one, the
  * trial's own status decides.
  */
+/** What the keyword box searches, folded once per trial. */
+const searchText = new WeakMap<FinderTrial, string>();
+function haystack(index: FinderIndex, trial: FinderTrial): string {
+  let text = searchText.get(trial);
+  if (text === undefined) {
+    const drugNames = trial.drugs.map((id) => index.drugs.find((d) => d.id === id)?.name ?? "");
+    text = fold(
+      [trial.title, trial.nct_id, trial.sponsor, ...trial.tested, ...trial.also, ...drugNames, ...trial.conditions].join(" | "),
+    );
+    searchText.set(trial, text);
+  }
+  return text;
+}
+
+export function matchesWords(text: string, query: string): boolean {
+  return fold(query)
+    .split(/\s+/)
+    .filter(Boolean)
+    .every((word) => text.includes(word));
+}
+
 function findTrials(index: FinderIndex, filters: Filters): Hit[] {
   const { origin, radius, show } = filters;
   const distance = origin ? index.cities.map((city) => milesBetween(origin, city)) : null;
   const hits: Hit[] = [];
   for (const trial of index.trials) {
     if (filters.area && !trial.collections.includes(filters.area)) continue;
+    if (filters.q && !matchesWords(haystack(index, trial), filters.q)) continue;
     if (!fitsAge(trial, filters.age) || !fitsSex(trial, filters.sex)) continue;
     if (filters.kind && !trial.kinds.includes(filters.kind as InterventionKind)) continue;
     if (filters.noPlacebo && trial.placebo) continue;
@@ -307,6 +332,7 @@ function resultItem(index: FinderIndex, hit: Hit, filters: Filters): HTMLElement
       { class: "find-links" },
       link(`/t/${trial.nct_id}`, null, "Trial details and eligibility"),
       external(`${REGISTRY_URL}study/${trial.nct_id}`, null, "Contacts on ClinicalTrials.gov"),
+      followButton(trial.nct_id, trial.title, index.snapshot_date, "button-small"),
     ),
   );
 }
@@ -321,8 +347,9 @@ function select(id: string, options: [string, string][], value: string): HTMLSel
   );
 }
 
-function finder(index: FinderIndex, initialArea: string): HTMLElement {
+function finder(index: FinderIndex, initialArea: string, initialQuery: string): HTMLElement {
   const filters: Filters = {
+    q: initialQuery.trim().slice(0, 80),
     area: index.collections.some((c) => c.id === initialArea) ? initialArea : "",
     show: "",
     origin: null,
@@ -343,6 +370,17 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     ],
     filters.area,
   );
+  // The keyword box is never written into the address: what a visitor types stays
+  // in the page. A ?q= link from a drug page fills it in once.
+  const query = h("input", {
+    type: "search",
+    id: "find-q",
+    class: "input",
+    placeholder: "For example tirzepatide, Wegovy or Novo Nordisk",
+    autocomplete: "off",
+    value: filters.q,
+  });
+  const drugHint = h("p", { class: "field-help find-drug-hint", "aria-live": "polite" });
   const show = select(
     "find-show",
     [
@@ -356,7 +394,7 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     type: "search",
     id: "find-place",
     class: "input",
-    placeholder: "City, for example Boston",
+    placeholder: "Type a city",
     autocomplete: "off",
     "aria-controls": "find-place-options",
     "aria-describedby": "find-place-help",
@@ -411,7 +449,9 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
       const reach = filters.origin && filters.radius !== ANY_DISTANCE;
       results.appendChild(
         emptyState(
-          reach ? `No trial matches within ${filters.radius} miles of ${filters.origin?.label}` : "No trial matches these answers",
+          reach
+            ? `No trial${filters.q ? ` matching “${filters.q.trim()}”` : ""} within ${filters.radius} miles of ${filters.origin?.label}`
+            : `No trial matches ${filters.q ? `“${filters.q.trim()}” and ` : ""}these answers`,
           reach ? "Try a wider distance, or clear an answer. " : "Try clearing an answer. ",
           "Trials open and close every week, and this list is refreshed daily.",
         ),
@@ -421,11 +461,12 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     // "26 trials recruiting now and 19 not recruiting yet within 50 miles of ...": the
     // second count jumps to its group, which sits below the recruiting trials.
     const soonText = `${counts.open ? formatInt(counts.soon) : plural(counts.soon, "trial")} not recruiting yet`;
+    const matching = filters.q ? ` matching “${filters.q.trim()}”` : "";
     count.append(
       counts.open ? `${plural(counts.open, "trial")} recruiting now` : "",
       counts.open && counts.soon ? " and " : "",
       counts.soon ? (counts.open ? h("a", { href: "#find-group-soon" }, soonText) : soonText) : "",
-      `${where}.${filters.origin ? "" : " Add a place to see the nearest first."}`,
+      `${matching}${where}.${filters.origin ? "" : " Add a place to see the nearest first."}`,
     );
     for (const group of ["open", "soon"] as const) {
       const all = hits.filter((hit) => hit.group === group);
@@ -538,6 +579,25 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     history.replaceState(history.state, "", url.pathname + url.search);
     update();
   });
+  const renderDrugHint = () => {
+    clear(drugHint);
+    const typed = fold(filters.q);
+    const drug = index.drugs.find((d) => fold(d.name) === typed);
+    if (drug) {
+      drugHint.append("Every tracked trial of ", link(`/d/${drug.id}`, null, drug.name), ", including finished ones, is on its drug page.");
+    }
+  };
+  query.addEventListener("input", () => {
+    filters.q = query.value.slice(0, 80);
+    renderDrugHint();
+    update();
+    // A ?q= that came in on a link no longer describes the page once the box is edited.
+    const url = new URL(location.href);
+    if (url.searchParams.has("q")) {
+      url.searchParams.delete("q");
+      history.replaceState(history.state, "", url.pathname + url.search);
+    }
+  });
   show.addEventListener("change", () => {
     filters.show = show.value as Filters["show"];
     update();
@@ -564,7 +624,9 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     update();
   });
   reset.addEventListener("click", () => {
-    Object.assign(filters, { area: "", show: "", origin: null, radius: DEFAULT_RADIUS, age: null, sex: "", kind: "", noPlacebo: false });
+    Object.assign(filters, { q: "", area: "", show: "", origin: null, radius: DEFAULT_RADIUS, age: null, sex: "", kind: "", noPlacebo: false });
+    query.value = "";
+    renderDrugHint();
     area.value = "";
     show.value = "";
     place.value = "";
@@ -578,6 +640,7 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     update();
   });
 
+  renderDrugHint();
   update();
 
   const field = (label: string | Node, control: HTMLElement, extra = "") =>
@@ -589,6 +652,13 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
     h(
       "form",
       { class: "finder-form", role: "search", "aria-label": "Find a trial", onsubmit: (e: Event) => e.preventDefault() },
+      h(
+        "div",
+        { class: "field field-q" },
+        h("label", { for: "find-q" }, "Drug, sponsor or keyword"),
+        query,
+        drugHint,
+      ),
       field("Condition area", area, "field-area"),
       field("Trial status", show, "field-show"),
       h(
@@ -622,7 +692,9 @@ function finder(index: FinderIndex, initialArea: string): HTMLElement {
 
 export async function findPage(meta: Meta): Promise<Page> {
   const index = await loadFinder();
-  const initialArea = new URLSearchParams(location.search).get("area") ?? "";
+  const params = new URLSearchParams(location.search);
+  const initialArea = params.get("area") ?? "";
+  const initialQuery = params.get("q") ?? "";
   const areas = listText(index.collections.map((c) => inSentence(c.name)));
   const openCount = index.trials.filter((t) => t.status === "RECRUITING").length;
   const soonCount = index.trials.length - openCount;
@@ -673,7 +745,7 @@ export async function findPage(meta: Meta): Promise<Page> {
         "Your place, age and other answers stay in this browser. They are not sent anywhere or saved.",
       ),
     ),
-    finder(index, initialArea),
+    finder(index, initialArea, initialQuery),
     section(
       "find-about",
       "About these results",
@@ -694,7 +766,7 @@ export async function findPage(meta: Meta): Promise<Page> {
         h(
           "li",
           null,
-          "The age and sex filters use only the limits each record lists. Every other criterion is on the trial page and in the registry.",
+          "The age and sex filters use only the limits each record lists. Every other criterion is on the trial page and in the registry. The keyword box searches titles, sponsors, conditions and what is tested, including brand names and sponsor codes (Wegovy, LY3298176).",
         ),
         h(
           "li",

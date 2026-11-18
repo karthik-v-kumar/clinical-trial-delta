@@ -17,14 +17,19 @@ from pipeline.writers import (
     TRIAL_FIELDS,
     TRIAL_FILE_KEYS,
     age_in_years,
+    describe_change,
+    drug_matcher,
     has_placebo_group,
     interventions_tested,
+    other_names,
     phase_bucket,
     publish,
     sponsor_matcher,
     trial_history,
     update_changes,
     write_collections,
+    write_drugs,
+    write_feeds,
     write_finder,
     write_sites,
     write_trials,
@@ -337,3 +342,130 @@ def test_finder_lists_open_and_not_yet_open_trials_with_a_mappable_site(tmp_path
     assert by_id["NCT90000010"]["new_sites"] == [{"date": "2026-01-06", "cities": [0]}]
     assert "opened" not in by_id["NCT90000012"] and "new_sites" not in by_id["NCT90000004"]
     assert finder["snapshot_date"] == "2026-01-06" and finder["news_window_days"] == 30
+
+
+# --- drugs, search names and feeds --------------------------------------------------
+
+
+def _drugs():
+    from pipeline.config import Drug
+
+    return (
+        Drug("semaglutide", "Semaglutide", "GLP-1 receptor agonist", ("semaglutide", "Wegovy", "NN9535")),
+        Drug("survodutide", "Survodutide", "Glucagon and GLP-1 receptor agonist", ("survodutide", "BI 456906")),
+        Drug("bempedoic-acid", "Bempedoic acid", "ACL inhibitor", ("bempedoic acid", "ETC-1002")),
+    )
+
+
+def test_drugs_match_listed_interventions_by_whole_word_and_code():
+    match = drug_matcher(_drugs())
+    iv = lambda name, *other, kind="DRUG": {"type": kind, "name": name, "other_names": list(other)}
+    assert match({"interventions": [iv("Semaglutide 2.4 mg")]}) == ["semaglutide"]
+    assert match({"interventions": [iv("Study drug", "Wegovy")]}) == ["semaglutide"]
+    # Sponsor codes match with a space, a hyphen or neither.
+    assert match({"interventions": [iv("BI-456906")]}) == ["survodutide"]
+    assert match({"interventions": [iv("BI456906")]}) == ["survodutide"]
+    assert match({"interventions": [iv("Bempedoic Acid 180 mg")]}) == ["bempedoic-acid"]
+    # A placebo made to match the drug is not the drug.
+    assert match({"interventions": [iv("Placebo matching semaglutide"), iv("Diet")]}) == []
+    # Whole words only; and free text such as the title never counts.
+    assert match({"interventions": [iv("NN95351")], "brief_title": "Semaglutide study"}) == []
+    assert match({}) == []
+
+
+def test_other_names_skip_placebo_and_repeats():
+    record = {
+        "interventions": [
+            {"name": "Tirzepatide", "other_names": ["LY3298176", "Mounjaro", "tirzepatide"]},
+            {"name": "Placebo", "other_names": ["Placebo for tirzepatide"]},
+            {"name": "Semaglutide", "other_names": ["Wegovy", "LY3298176", "matching placebo"]},
+        ]
+    }
+    assert other_names(record) == ["LY3298176", "Mounjaro", "Wegovy"]
+
+
+def test_drug_files_have_the_collection_shape(tmp_path, day2):
+    from pipeline.config import Watchlist
+
+    day2.trials["NCT90000010"]["interventions"] = [{"type": "DRUG", "name": "Semaglutide", "other_names": []}]
+    day2.trials["NCT90000014"]["interventions"] = [{"type": "DRUG", "name": "NN9535", "other_names": []}]
+    day2.trials["NCT90000009"]["interventions"] = [{"type": "DRUG", "name": "Placebo for Wegovy", "other_names": []}]
+    wl = Watchlist(collections=load_watchlist().collections, drugs=_drugs())
+    (tmp_path / "drugs").mkdir()
+    (tmp_path / "drugs" / "retired-drug.json").write_text("{}")
+    stats = write_drugs(tmp_path, day2, wl)
+    assert stats == {"semaglutide": 2, "survodutide": 0, "bempedoic-acid": 0}
+    assert not (tmp_path / "drugs" / "retired-drug.json").exists()
+
+    index = read(tmp_path / "drugs" / "index.json")
+    first = index["drugs"][0]
+    assert first == {
+        "id": "semaglutide",
+        "name": "Semaglutide",
+        "drug_class": "GLP-1 receptor agonist",
+        "also_listed_as": ["Wegovy", "NN9535"],
+        "collections": ["glp1-obesity", "type-2-diabetes"],
+        "trial_count": 2,
+        "recruiting_count": 2,
+        "not_yet_recruiting_count": 0,
+    }
+    drug = read(tmp_path / "drugs" / "semaglutide.json")
+    assert [t["nct_id"] for t in drug["trials"]] == ["NCT90000014", "NCT90000010"]  # newest first
+    assert set(drug["trials"][0]) == set(ROW_FIELDS)
+    assert drug["by_status"] == [{"status": "RECRUITING", "count": 2}]
+    assert drug["accent"] == load_watchlist().collections[0].accent
+    assert read(tmp_path / "drugs" / "survodutide.json")["trials"] == []
+
+
+def test_feeds_list_each_change_once_newest_first(tmp_path):
+    import xml.etree.ElementTree as ET
+
+    site = [{"facility": "A & B Clinic", "city": "Boston", "state": "Massachusetts", "country": "United States"}]
+    events = [
+        _event("NCT90000014", "status_change", "RECRUITING", "2026-01-05", "c1"),
+        _event("NCT90000010", "site_added", site, "2026-01-06", "c2"),
+        _event("NCT90000010", "site_added", site, "2026-01-06", "c2", collection="type-2-diabetes"),
+    ]
+    events[0]["old_value"] = "NOT_YET_RECRUITING"
+    events[0]["brief_title"] = "Retatrutide <obesity> study"
+    counts = write_feeds(tmp_path, load_watchlist(), events)
+    assert counts == {"all": 2, "glp1-obesity": 2, "type-2-diabetes": 1, "cholesterol-lipids": 0}
+
+    channel = ET.parse(tmp_path / "feeds" / "all.xml").getroot().find("channel")
+    items = channel.findall("item")
+    assert [i.findtext("guid") for i in items] == ["c2", "c1"]
+    assert items[0].findtext("title") == "1 site added: NCT90000010"
+    assert items[0].findtext("link").endswith("/t/NCT90000010")
+    assert "Boston, Massachusetts" in items[0].findtext("description")
+    assert items[1].findtext("title") == "Status: Not yet recruiting → Recruiting: Retatrutide <obesity> study"
+    assert items[1].findtext("pubDate") == "Mon, 05 Jan 2026 12:00:00 +0000"
+    assert channel.findtext("pubDate") == "Tue, 06 Jan 2026 12:00:00 +0000"
+    # An empty collection still gets a valid feed, and an unchanged feed is not rewritten.
+    assert ET.parse(tmp_path / "feeds" / "cholesterol-lipids.xml").getroot().find("channel").findall("item") == []
+    before = (tmp_path / "feeds" / "all.xml").stat().st_mtime_ns
+    write_feeds(tmp_path, load_watchlist(), events)
+    assert (tmp_path / "feeds" / "all.xml").stat().st_mtime_ns == before
+
+
+def test_change_descriptions():
+    date = lambda d: {"date": d, "type": "ESTIMATED"}
+    event = {
+        "type": "date_change",
+        "field": "primary_completion_date",
+        "old_value": date("2027-06"),
+        "new_value": date("2027-12-15"),
+    }
+    assert describe_change(event) == ("Primary completion: Jun 2027 → Dec 15, 2027", "")
+    enrollment = {
+        "type": "enrollment_change",
+        "old_value": {"count": 600, "type": "ESTIMATED"},
+        "new_value": {"count": 1200, "type": "ESTIMATED"},
+    }
+    assert describe_change(enrollment)[0] == "Enrollment: 600 people (target) → 1,200 people (target)"
+    stopped = {
+        "type": "status_change",
+        "old_value": "RECRUITING",
+        "new_value": "TERMINATED",
+        "context": {"why_stopped": "Sponsor decision"},
+    }
+    assert describe_change(stopped) == ("Status: Recruiting → Terminated", "Reason given: Sponsor decision")

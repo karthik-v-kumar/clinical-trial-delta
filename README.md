@@ -13,8 +13,24 @@ searched by distance from a city or the visitor's own location, by the age and
 sex limits each record lists, and by what is being tested. Recruiting trials
 come first; trials and sites that have not opened are listed separately, with
 the planned start date. It flags trials that started recruiting or added a site
-recently. The search runs entirely in the browser from `data/finder.json`;
-the place and age a visitor enters are never sent anywhere or saved.
+recently, and a keyword box finds trials by drug (generic name, brand name or
+sponsor code), sponsor or condition. The search runs entirely in the browser
+from `data/finder.json`; the place, age and keywords a visitor enters are never
+sent anywhere or saved.
+
+Visitors can also:
+
+- **Follow trials.** The list is saved in the visitor's own browser
+  (localStorage) and never leaves it; `/following` shows what changed in each
+  followed trial since they last looked.
+- **Subscribe to RSS feeds** of the latest changes, overall and per collection
+  (`data/feeds/*.xml`).
+- **Browse by drug.** 27 drugs, defined in `pipeline/watchlist.json` (`drugs`),
+  each with every tracked trial that lists it as a treatment, its phase and
+  status charts, and recent changes.
+- **Print a summary for their doctor** (`/t/<NCT>/print`): key facts, the AI
+  summary with its verification note, the eligibility checklist and questions to
+  ask the study team.
 
 **Status:** milestones M1 (data pipeline), M2 (site) and M3 (AI summaries and
 evals) are built. See [BUILD_BRIEF.md](BUILD_BRIEF.md) for the full spec and
@@ -139,6 +155,8 @@ that match only because of the edit are not reported as "new trials".
 | `data/collections/<id>.json` | Collection metadata, trials-by-phase and trials-by-status counts, trial table rows |
 | `data/sites/<id>.json` | Cities where a collection's trials are recruiting, for the near-a-city search |
 | `data/finder.json` | Every trial that is recruiting or not yet recruiting and names a mappable site: cities recruiting now, cities with sites not open yet, planned start, age and sex limits, what is tested, placebo group, and recent news (started recruiting, sites added) for the Find a trial page |
+| `data/drugs/index.json`, `data/drugs/<id>.json` | The drugs with their own page and, per drug, trial counts by phase and status plus table rows (the same shape as a collection file) |
+| `data/feeds/all.xml`, `data/feeds/<id>.xml` | RSS feeds of the latest 50 changes, overall and per collection |
 | `data/trials/<NCT>.json` | One trial: the normalized record, its eligibility checklist, its collections, and its full change history |
 | `data/summaries/<NCT>.json` | A trial's AI summary, with the record hash it was written from |
 | `data/evals/latest.json`, `history.json` | Latest eval run (every case, output and expected answer) and one row per run |

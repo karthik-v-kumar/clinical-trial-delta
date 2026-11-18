@@ -69,8 +69,21 @@ class Collection:
 
 
 @dataclass(frozen=True)
+class Drug:
+    """A drug with its own page. `terms` are matched against each trial's listed
+    interventions (names and other names), never against free text: the generic
+    name first, then brand names and sponsor codes."""
+
+    id: str
+    name: str
+    drug_class: str
+    terms: tuple[str, ...]
+
+
+@dataclass(frozen=True)
 class Watchlist:
     collections: tuple[Collection, ...]
+    drugs: tuple[Drug, ...] = ()
 
     @property
     def queries(self) -> tuple[Query, ...]:
@@ -179,7 +192,34 @@ def parse_watchlist(raw: dict) -> Watchlist:
                 queries=tuple(queries),
             )
         )
-    return Watchlist(collections=tuple(collections))
+    return Watchlist(collections=tuple(collections), drugs=_parse_drugs(raw.get("drugs", [])))
+
+
+def _parse_drugs(raw_drugs) -> tuple[Drug, ...]:
+    if not isinstance(raw_drugs, list):
+        raise WatchlistError("'drugs' must be a list")
+    drugs = []
+    seen: set[str] = set()
+    for i, rd in enumerate(raw_drugs):
+        where = f"drugs[{i}]"
+        if not isinstance(rd, dict):
+            raise WatchlistError(f"{where}: must be an object")
+        unknown = set(rd) - {"id", "name", "class", "terms"}
+        if unknown:
+            raise WatchlistError(f"{where}: unknown keys {sorted(unknown)}")
+        did = _require_str(rd, "id", where)
+        if not _SLUG.match(did):
+            raise WatchlistError(f"{where}: id '{did}' must be lowercase-kebab-case")
+        if did in seen:
+            raise WatchlistError(f"{where}: id '{did}' is used more than once")
+        seen.add(did)
+        terms = _str_list(rd, "terms", where)
+        if not terms:
+            raise WatchlistError(f"{where}: 'terms' must list at least the drug's name")
+        drugs.append(
+            Drug(id=did, name=_require_str(rd, "name", where), drug_class=_require_str(rd, "class", where), terms=terms)
+        )
+    return tuple(drugs)
 
 
 def load_watchlist(path: Path = WATCHLIST_PATH) -> Watchlist:
