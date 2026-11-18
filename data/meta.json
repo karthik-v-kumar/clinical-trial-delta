@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "app": "Clinical Trial Delta",
-  "snapshot_date": "2026-11-16",
+  "snapshot_date": "2026-11-17",
   "tracking_since": "2026-11-09",
-  "generated_at": "2026-11-16T17:04:36-08:00",
+  "generated_at": "2026-11-17T15:58:03-08:00",
   "run": {
     "mode": "daily",
-    "started_at": "2026-11-16T17:04:13-08:00",
-    "finished_at": "2026-11-16T17:04:36-08:00",
-    "compared_against": "2026-11-15",
+    "started_at": "2026-11-17T15:57:32-08:00",
+    "finished_at": "2026-11-17T15:58:03-08:00",
+    "compared_against": "2026-11-16",
     "baseline": false,
     "partial": false,
     "failed_queries": {},
     "records_kept_from_previous": [],
     "records_skipped": [],
-    "events_detected": 14,
-    "records_changed": 11,
+    "events_detected": 31,
+    "records_changed": 77,
     "rebaselined_collections": [],
     "left_watchlist": {},
     "api_requests": 13,
@@ -25,12 +25,12 @@
     "name": "ClinicalTrials.gov API v2",
     "url": "https://clinicaltrials.gov/api/v2",
     "api_version": "2.0.5",
-    "data_timestamp": "2026-11-16T10:00:05"
+    "data_timestamp": "2026-11-17T10:00:05"
   },
   "totals": {
-    "trials": 6205,
-    "events_all_time": 113,
-    "changes_all_time": 105
+    "trials": 6209,
+    "events_all_time": 144,
+    "changes_all_time": 130
   },
   "recent_window_days": 7,
   "collections": [
@@ -40,9 +40,9 @@
       "why_it_matters": "GLP-1 medicines such as semaglutide and tirzepatide changed how obesity is treated, and the next wave of these drugs is in trials now.",
       "accent": "#0B8FA8",
       "partial": false,
-      "trial_count": 1097,
-      "recruiting_count": 243,
-      "changes_recent": 38
+      "trial_count": 1100,
+      "recruiting_count": 244,
+      "changes_recent": 36
     },
     {
       "id": "type-2-diabetes",
@@ -50,9 +50,9 @@
       "why_it_matters": "South Asians develop type 2 diabetes earlier and at lower body weights than other groups — this collection exists for the family as much as the portfolio.",
       "accent": "#D65F21",
       "partial": false,
-      "trial_count": 4191,
+      "trial_count": 4193,
       "recruiting_count": 193,
-      "changes_recent": 58
+      "changes_recent": 41
     },
     {
       "id": "cholesterol-lipids",
@@ -62,7 +62,7 @@
       "partial": false,
       "trial_count": 1082,
       "recruiting_count": 55,
-      "changes_recent": 17
+      "changes_recent": 19
     }
   ],
   "queries": [
@@ -70,8 +70,8 @@
       "id": "glp1-obesity-drugs",
       "collection": "glp1-obesity",
       "label": "Obesity or overweight, testing a GLP-1 medicine",
-      "matched": 896,
-      "registry_count": 896,
+      "matched": 898,
+      "registry_count": 898,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=Obesity%20OR%20Overweight&intr=semaglutide%20OR%20tirzepatide%20OR%20retatrutide%20OR%20orforglipron%20OR%20%22GLP-1%22%20OR%20%22glucagon-like%20peptide-1%22%20OR%20%22GLP-1%20receptor%20agonist%22%20OR%20liraglutide%20OR%20dulaglutide%20OR%20exenatide%20OR%20lixisenatide%20OR%20albiglutide&aggFilters=studyType%3Aint"
     },
@@ -79,8 +79,8 @@
       "id": "glp1-obesity-sponsors",
       "collection": "glp1-obesity",
       "label": "Obesity or overweight, run by a sponsor of note",
-      "matched": 442,
-      "registry_count": 442,
+      "matched": 444,
+      "registry_count": 444,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=Obesity%20OR%20Overweight&spons=%22Novo%20Nordisk%22%20OR%20%22Eli%20Lilly%22%20OR%20Amgen%20OR%20Viking%20OR%20Roche&aggFilters=studyType%3Aint"
     },
@@ -88,8 +88,8 @@
       "id": "t2d-drugs",
       "collection": "type-2-diabetes",
       "label": "Type 2 diabetes, testing metformin, insulin, an SGLT2 or a DPP-4 medicine",
-      "matched": 3738,
-      "registry_count": 3738,
+      "matched": 3739,
+      "registry_count": 3739,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=%22Diabetes%20Mellitus%2C%20Type%202%22&intr=metformin%20OR%20insulin%20OR%20empagliflozin%20OR%20dapagliflozin%20OR%20canagliflozin%20OR%20ertugliflozin%20OR%20SGLT2%20OR%20%22SGLT-2%22%20OR%20%22SGLT2%20inhibitor%22%20OR%20%22sodium-glucose%20cotransporter%202%22%20OR%20sitagliptin%20OR%20saxagliptin%20OR%20linagliptin%20OR%20alogliptin%20OR%20vildagliptin%20OR%20%22DPP-4%22%20OR%20DPP4%20OR%20%22DPP-4%20inhibitor%22%20OR%20%22dipeptidyl%20peptidase-4%22&aggFilters=studyType%3Aint"
     },
@@ -97,8 +97,8 @@
       "id": "t2d-sponsors",
       "collection": "type-2-diabetes",
       "label": "Type 2 diabetes, run by a sponsor of note",
-      "matched": 1246,
-      "registry_count": 1246,
+      "matched": 1247,
+      "registry_count": 1247,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=%22Diabetes%20Mellitus%2C%20Type%202%22&spons=%22Novo%20Nordisk%22%20OR%20%22Eli%20Lilly%22%20OR%20%22Boehringer%20Ingelheim%22%20OR%20AstraZeneca&aggFilters=studyType%3Aint"
     },
