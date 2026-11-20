@@ -40,7 +40,7 @@
   "type": "ACTUAL"
  },
  "first_posted": "2023-10-04",
- "last_update_posted": "2026-07-08",
+ "last_update_posted": "2026-11-19",
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
@@ -292,7 +292,7 @@
    "lon": -46.63611
   },
   {
-   "facility": "CPQuali Pesquisa Clínica Ltda",
+   "facility": "CPHosp Medicina, Ensino e Pesquisa Ltda",
    "city": "São Paulo",
    "state": "São Paulo",
    "country": "Brazil",
@@ -472,7 +472,7 @@
    "lon": -122.82509
   },
   {
-   "facility": "TLC Diabetes and Endocrinology",
+   "facility": "Unity Healthcare Clinic",
    "city": "Surrey",
    "state": "British Columbia",
    "country": "Canada",
@@ -1615,15 +1615,6 @@
    "lon": 11.10642
   },
   {
-   "facility": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS - Dipartimento di scienze Mediche e Chirurgiche",
-   "city": "Rome",
-   "state": null,
-   "country": "Italy",
-   "status": null,
-   "lat": 41.89193,
-   "lon": 12.51133
-  },
-  {
    "facility": "Azienda Ospedaliera Universitaria Integrata Verona - Ospedale Civile Maggiore Borgo Trento",
    "city": "Verona",
    "state": null,
@@ -1640,6 +1631,15 @@
    "status": null,
    "lat": 43.77925,
    "lon": 11.24626
+  },
+  {
+   "facility": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS - Dipartimento di scienze Mediche e Chirurgiche",
+   "city": "Rome",
+   "state": "Lazio",
+   "country": "Italy",
+   "status": null,
+   "lat": 41.89193,
+   "lon": 12.51133
   },
   {
    "facility": "Istituto Scientifico San Raffaele",
@@ -2506,7 +2506,7 @@
    "lon": -5.97317
   },
   {
-   "facility": "Hospital La Fe - Endocrinología y Nutrición",
+   "facility": "Hospital La Fe_Endocrinología y Nutrición",
    "city": "Valencia",
    "state": null,
    "country": "Spain",
@@ -3794,7 +3794,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06065540",
- "content_hash": "199b1d25f1444c16",
+ "content_hash": "aba02b5e0e415bf9",
  "collections": [
   "type-2-diabetes"
  ],
@@ -3841,5 +3841,86 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "b9be25a4006b18c6",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "CPHosp Medicina, Ensino e Pesquisa Ltda",
+     "city": "São Paulo",
+     "state": "São Paulo",
+     "country": "Brazil"
+    },
+    {
+     "facility": "Unity Healthcare Clinic",
+     "city": "Surrey",
+     "state": "British Columbia",
+     "country": "Canada"
+    },
+    {
+     "facility": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS - Dipartimento di scienze Mediche e Chirurgiche",
+     "city": "Rome",
+     "state": "Lazio",
+     "country": "Italy"
+    },
+    {
+     "facility": "Hospital La Fe_Endocrinología y Nutrición",
+     "city": "Valencia",
+     "state": null,
+     "country": "Spain"
+    }
+   ],
+   "detected_date": "2026-11-19",
+   "context": {
+    "site_count_before": 405,
+    "site_count_after": 405
+   },
+   "collections": [
+    "type-2-diabetes"
+   ]
+  },
+  {
+   "change_id": "87ae5a46d02fb43a",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "CPQuali Pesquisa Clínica Ltda",
+     "city": "São Paulo",
+     "state": "São Paulo",
+     "country": "Brazil"
+    },
+    {
+     "facility": "TLC Diabetes and Endocrinology",
+     "city": "Surrey",
+     "state": "British Columbia",
+     "country": "Canada"
+    },
+    {
+     "facility": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS - Dipartimento di scienze Mediche e Chirurgiche",
+     "city": "Rome",
+     "state": null,
+     "country": "Italy"
+    },
+    {
+     "facility": "Hospital La Fe - Endocrinología y Nutrición",
+     "city": "Valencia",
+     "state": null,
+     "country": "Spain"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-19",
+   "context": {
+    "site_count_before": 405,
+    "site_count_after": 405
+   },
+   "collections": [
+    "type-2-diabetes"
+   ]
+  }
+ ]
 }
