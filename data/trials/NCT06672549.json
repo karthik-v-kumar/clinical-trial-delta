@@ -35,7 +35,7 @@
   "type": "ESTIMATED"
  },
  "first_posted": "2024-11-04",
- "last_update_posted": "2026-11-04",
+ "last_update_posted": "2026-11-23",
  "results_first_posted": null,
  "has_results": false,
  "lead_sponsor": {
@@ -954,15 +954,6 @@
    "lon": -78.87837
   },
   {
-   "facility": "UNC Children's Hospital",
-   "city": "Chapel Hill",
-   "state": "North Carolina",
-   "country": "United States",
-   "status": "NOT_YET_RECRUITING",
-   "lat": 35.9132,
-   "lon": -79.05584
-  },
-  {
    "facility": "Duke Children's Primary Care",
    "city": "Durham",
    "state": "North Carolina",
@@ -979,6 +970,15 @@
    "status": "RECRUITING",
    "lat": 34.72294,
    "lon": -76.72604
+  },
+  {
+   "facility": "UNC Children's Hospital",
+   "city": "Morrisville",
+   "state": "North Carolina",
+   "country": "United States",
+   "status": "NOT_YET_RECRUITING",
+   "lat": 35.82348,
+   "lon": -78.82556
   },
   {
    "facility": "Cleveland Clinic",
@@ -1144,7 +1144,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT06672549",
- "content_hash": "07633d6f24b8c923",
+ "content_hash": "1ebcd0d1d39179a9",
  "collections": [
   "glp1-obesity"
  ],
@@ -1205,5 +1205,50 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "29cce6d6efd8bcc4",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "UNC Children's Hospital",
+     "city": "Morrisville",
+     "state": "North Carolina",
+     "country": "United States"
+    }
+   ],
+   "detected_date": "2026-11-23",
+   "context": {
+    "site_count_before": 117,
+    "site_count_after": 117
+   },
+   "collections": [
+    "glp1-obesity"
+   ]
+  },
+  {
+   "change_id": "d5f9ad2ffa4b32eb",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "UNC Children's Hospital",
+     "city": "Chapel Hill",
+     "state": "North Carolina",
+     "country": "United States"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-23",
+   "context": {
+    "site_count_before": 117,
+    "site_count_after": 117
+   },
+   "collections": [
+    "glp1-obesity"
+   ]
+  }
+ ]
 }

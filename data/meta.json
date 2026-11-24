@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "app": "Clinical Trial Delta",
-  "snapshot_date": "2026-11-22",
+  "snapshot_date": "2026-11-23",
   "tracking_since": "2026-11-09",
-  "generated_at": "2026-11-22T14:48:09-08:00",
+  "generated_at": "2026-11-23T19:28:52-08:00",
   "run": {
     "mode": "daily",
-    "started_at": "2026-11-22T14:47:42-08:00",
-    "finished_at": "2026-11-22T14:48:09-08:00",
-    "compared_against": "2026-11-21",
+    "started_at": "2026-11-23T19:28:28-08:00",
+    "finished_at": "2026-11-23T19:28:52-08:00",
+    "compared_against": "2026-11-22",
     "baseline": false,
     "partial": false,
     "failed_queries": {},
     "records_kept_from_previous": [],
     "records_skipped": [],
-    "events_detected": 0,
-    "records_changed": 0,
+    "events_detected": 38,
+    "records_changed": 17,
     "rebaselined_collections": [],
     "left_watchlist": {},
     "api_requests": 13,
@@ -25,12 +25,12 @@
     "name": "ClinicalTrials.gov API v2",
     "url": "https://clinicaltrials.gov/api/v2",
     "api_version": "2.0.5",
-    "data_timestamp": "2026-11-20T10:00:05"
+    "data_timestamp": "2026-11-23T10:00:05"
   },
   "totals": {
-    "trials": 6220,
-    "events_all_time": 190,
-    "changes_all_time": 166
+    "trials": 6222,
+    "events_all_time": 228,
+    "changes_all_time": 198
   },
   "recent_window_days": 7,
   "collections": [
@@ -40,9 +40,9 @@
       "why_it_matters": "GLP-1 medicines such as semaglutide and tirzepatide changed how obesity is treated, and the next wave of these drugs is in trials now.",
       "accent": "#0B8FA8",
       "partial": false,
-      "trial_count": 1108,
+      "trial_count": 1110,
       "recruiting_count": 248,
-      "changes_recent": 50
+      "changes_recent": 56
     },
     {
       "id": "type-2-diabetes",
@@ -51,8 +51,8 @@
       "accent": "#D65F21",
       "partial": false,
       "trial_count": 4196,
-      "recruiting_count": 193,
-      "changes_recent": 27
+      "recruiting_count": 192,
+      "changes_recent": 48
     },
     {
       "id": "cholesterol-lipids",
@@ -62,7 +62,7 @@
       "partial": false,
       "trial_count": 1083,
       "recruiting_count": 55,
-      "changes_recent": 14
+      "changes_recent": 11
     }
   ],
   "queries": [
@@ -79,8 +79,8 @@
       "id": "glp1-obesity-sponsors",
       "collection": "glp1-obesity",
       "label": "Obesity or overweight, run by a sponsor of note",
-      "matched": 445,
-      "registry_count": 445,
+      "matched": 447,
+      "registry_count": 447,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=Obesity%20OR%20Overweight&spons=%22Novo%20Nordisk%22%20OR%20%22Eli%20Lilly%22%20OR%20Amgen%20OR%20Viking%20OR%20Roche&aggFilters=studyType%3Aint"
     },
