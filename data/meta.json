@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "app": "Clinical Trial Delta",
-  "snapshot_date": "2026-11-23",
+  "snapshot_date": "2026-11-24",
   "tracking_since": "2026-11-09",
-  "generated_at": "2026-11-23T19:28:52-08:00",
+  "generated_at": "2026-11-24T17:36:39-08:00",
   "run": {
     "mode": "daily",
-    "started_at": "2026-11-23T19:28:28-08:00",
-    "finished_at": "2026-11-23T19:28:52-08:00",
-    "compared_against": "2026-11-22",
+    "started_at": "2026-11-24T17:36:11-08:00",
+    "finished_at": "2026-11-24T17:36:39-08:00",
+    "compared_against": "2026-11-23",
     "baseline": false,
     "partial": false,
     "failed_queries": {},
     "records_kept_from_previous": [],
     "records_skipped": [],
-    "events_detected": 38,
-    "records_changed": 17,
+    "events_detected": 114,
+    "records_changed": 79,
     "rebaselined_collections": [],
     "left_watchlist": {},
     "api_requests": 13,
@@ -25,12 +25,12 @@
     "name": "ClinicalTrials.gov API v2",
     "url": "https://clinicaltrials.gov/api/v2",
     "api_version": "2.0.5",
-    "data_timestamp": "2026-11-23T10:00:05"
+    "data_timestamp": "2026-11-24T10:00:04"
   },
   "totals": {
-    "trials": 6222,
-    "events_all_time": 228,
-    "changes_all_time": 198
+    "trials": 6224,
+    "events_all_time": 342,
+    "changes_all_time": 306
   },
   "recent_window_days": 7,
   "collections": [
@@ -40,9 +40,9 @@
       "why_it_matters": "GLP-1 medicines such as semaglutide and tirzepatide changed how obesity is treated, and the next wave of these drugs is in trials now.",
       "accent": "#0B8FA8",
       "partial": false,
-      "trial_count": 1110,
-      "recruiting_count": 248,
-      "changes_recent": 56
+      "trial_count": 1111,
+      "recruiting_count": 249,
+      "changes_recent": 76
     },
     {
       "id": "type-2-diabetes",
@@ -51,8 +51,8 @@
       "accent": "#D65F21",
       "partial": false,
       "trial_count": 4196,
-      "recruiting_count": 192,
-      "changes_recent": 48
+      "recruiting_count": 191,
+      "changes_recent": 96
     },
     {
       "id": "cholesterol-lipids",
@@ -60,9 +60,9 @@
       "why_it_matters": "High LDL (\"bad\") cholesterol is a major driver of heart attacks and strokes, and newer drug classes beyond statins are being tested to lower it.",
       "accent": "#7A5AE0",
       "partial": false,
-      "trial_count": 1083,
+      "trial_count": 1084,
       "recruiting_count": 55,
-      "changes_recent": 11
+      "changes_recent": 26
     }
   ],
   "queries": [
@@ -70,8 +70,8 @@
       "id": "glp1-obesity-drugs",
       "collection": "glp1-obesity",
       "label": "Obesity or overweight, testing a GLP-1 medicine",
-      "matched": 905,
-      "registry_count": 905,
+      "matched": 906,
+      "registry_count": 906,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=Obesity%20OR%20Overweight&intr=semaglutide%20OR%20tirzepatide%20OR%20retatrutide%20OR%20orforglipron%20OR%20%22GLP-1%22%20OR%20%22glucagon-like%20peptide-1%22%20OR%20%22GLP-1%20receptor%20agonist%22%20OR%20liraglutide%20OR%20dulaglutide%20OR%20exenatide%20OR%20lixisenatide%20OR%20albiglutide&aggFilters=studyType%3Aint"
     },
@@ -106,8 +106,8 @@
       "id": "lipids-drugs",
       "collection": "cholesterol-lipids",
       "label": "High cholesterol, dyslipidemia or high triglycerides, testing a statin, PCSK9 or other lipid medicine",
-      "matched": 1055,
-      "registry_count": 1055,
+      "matched": 1056,
+      "registry_count": 1056,
       "failed": false,
       "web_url": "https://clinicaltrials.gov/search?cond=Hypercholesterolemia%20OR%20Dyslipidemias%20OR%20Hypertriglyceridemia&intr=statin%20OR%20%22HMG-CoA%20reductase%20inhibitor%22%20OR%20atorvastatin%20OR%20rosuvastatin%20OR%20simvastatin%20OR%20pravastatin%20OR%20lovastatin%20OR%20fluvastatin%20OR%20pitavastatin%20OR%20evolocumab%20OR%20alirocumab%20OR%20PCSK9%20OR%20%22PCSK9%20inhibitor%22%20OR%20inclisiran%20OR%20%22bempedoic%20acid%22%20OR%20evinacumab&aggFilters=studyType%3Aint"
     },

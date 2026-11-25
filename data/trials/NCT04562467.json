@@ -107,12 +107,12 @@
   },
   {
    "facility": "Diagnostic Assessment Centre",
-   "city": "Scarborough Village",
+   "city": "Scarborough",
    "state": "Ontario",
    "country": "Canada",
    "status": null,
-   "lat": 43.73899,
-   "lon": -79.22124
+   "lat": 43.77211,
+   "lon": -79.25655
   },
   {
    "facility": "Langstaff Medical Clinic",
@@ -125,7 +125,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT04562467",
- "content_hash": "8102478c800b1fd8",
+ "content_hash": "c3ac3002a9353951",
  "collections": [
   "cholesterol-lipids"
  ],
@@ -257,5 +257,50 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "d3d766ea453e605c",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "Diagnostic Assessment Centre",
+     "city": "Scarborough",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 3,
+    "site_count_after": 3
+   },
+   "collections": [
+    "cholesterol-lipids"
+   ]
+  },
+  {
+   "change_id": "affaed17fee657f3",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "Diagnostic Assessment Centre",
+     "city": "Scarborough Village",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 3,
+    "site_count_after": 3
+   },
+   "collections": [
+    "cholesterol-lipids"
+   ]
+  }
+ ]
 }

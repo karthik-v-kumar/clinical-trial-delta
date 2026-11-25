@@ -500,17 +500,17 @@
    "state": "Ontario",
    "country": "Canada",
    "status": "RECRUITING",
-   "lat": null,
-   "lon": null
+   "lat": 43.76156,
+   "lon": -79.41092
   },
   {
    "facility": "Research Site",
-   "city": "Scarborough Village",
+   "city": "Scarborough",
    "state": "Ontario",
    "country": "Canada",
    "status": "RECRUITING",
-   "lat": 43.73899,
-   "lon": -79.22124
+   "lat": 43.77211,
+   "lon": -79.25655
   },
   {
    "facility": "Research Site",
@@ -2089,7 +2089,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07784725",
- "content_hash": "210f9af91fa228f9",
+ "content_hash": "35e536b176625117",
  "collections": [
   "type-2-diabetes"
  ],
@@ -2137,5 +2137,50 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "5872de88fb778e14",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "Research Site",
+     "city": "Scarborough",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 220,
+    "site_count_after": 220
+   },
+   "collections": [
+    "type-2-diabetes"
+   ]
+  },
+  {
+   "change_id": "810228f25cb26f5c",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "Research Site",
+     "city": "Scarborough Village",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 220,
+    "site_count_after": 220
+   },
+   "collections": [
+    "type-2-diabetes"
+   ]
+  }
+ ]
 }

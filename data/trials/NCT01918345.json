@@ -122,12 +122,12 @@
  "sites": [
   {
    "facility": "Scarborough Health Network",
-   "city": "Scarborough Village",
+   "city": "Scarborough",
    "state": "Ontario",
    "country": "Canada",
    "status": null,
-   "lat": 43.73899,
-   "lon": -79.22124
+   "lat": 43.77211,
+   "lon": -79.25655
   },
   {
    "facility": "Michael Garron Hospital",
@@ -167,7 +167,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT01918345",
- "content_hash": "4c94ff40db0afad3",
+ "content_hash": "e9888372099ce50b",
  "collections": [
   "type-2-diabetes"
  ],
@@ -226,5 +226,50 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "d65b7ff4df256fc5",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "Scarborough Health Network",
+     "city": "Scarborough",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 5,
+    "site_count_after": 5
+   },
+   "collections": [
+    "type-2-diabetes"
+   ]
+  },
+  {
+   "change_id": "cc2f76e08319ade5",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "Scarborough Health Network",
+     "city": "Scarborough Village",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 5,
+    "site_count_after": 5
+   },
+   "collections": [
+    "type-2-diabetes"
+   ]
+  }
+ ]
 }

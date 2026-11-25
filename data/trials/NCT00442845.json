@@ -313,12 +313,12 @@
   },
   {
    "facility": "Pfizer Investigational Site",
-   "city": "North YORK",
+   "city": "North York",
    "state": "Ontario",
    "country": "Canada",
    "status": null,
-   "lat": null,
-   "lon": null
+   "lat": 43.76156,
+   "lon": -79.41092
   },
   {
    "facility": "Pfizer Investigational Site",
@@ -358,12 +358,12 @@
   },
   {
    "facility": "Pfizer Investigational Site",
-   "city": "Scarborough Village",
+   "city": "Scarborough",
    "state": "Ontario",
    "country": "Canada",
    "status": null,
-   "lat": 43.73899,
-   "lon": -79.22124
+   "lat": 43.77211,
+   "lon": -79.25655
   },
   {
    "facility": "Pfizer Investigational Site",
@@ -1168,7 +1168,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00442845",
- "content_hash": "0b6568851b2d358e",
+ "content_hash": "725a820a719d69db",
  "collections": [
   "cholesterol-lipids"
  ],
@@ -1197,5 +1197,50 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "7958c80c415894b7",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "Pfizer Investigational Site",
+     "city": "Scarborough",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 121,
+    "site_count_after": 121
+   },
+   "collections": [
+    "cholesterol-lipids"
+   ]
+  },
+  {
+   "change_id": "6e185f47725e6230",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "Pfizer Investigational Site",
+     "city": "Scarborough Village",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 121,
+    "site_count_after": 121
+   },
+   "collections": [
+    "cholesterol-lipids"
+   ]
+  }
+ ]
 }

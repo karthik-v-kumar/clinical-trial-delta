@@ -284,8 +284,8 @@
    "state": "Ontario",
    "country": "Canada",
    "status": null,
-   "lat": null,
-   "lon": null
+   "lat": 43.76156,
+   "lon": -79.41092
   },
   {
    "facility": "Research Site",
@@ -316,12 +316,12 @@
   },
   {
    "facility": "Research Site",
-   "city": "Scarborough Village",
+   "city": "Scarborough",
    "state": "Ontario",
    "country": "Canada",
    "status": null,
-   "lat": 43.73899,
-   "lon": -79.22124
+   "lat": 43.77211,
+   "lon": -79.25655
   },
   {
    "facility": "Research Site",
@@ -1162,7 +1162,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT00296374",
- "content_hash": "5ee650a9c8cecc3d",
+ "content_hash": "593b36c9606d663a",
  "collections": [
   "cholesterol-lipids"
  ],
@@ -1199,5 +1199,50 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "44c2cb1430e586b6",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "Research Site",
+     "city": "Scarborough",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 116,
+    "site_count_after": 116
+   },
+   "collections": [
+    "cholesterol-lipids"
+   ]
+  },
+  {
+   "change_id": "85ff756476bbd8ad",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "Research Site",
+     "city": "Scarborough Village",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 116,
+    "site_count_after": 116
+   },
+   "collections": [
+    "cholesterol-lipids"
+   ]
+  }
+ ]
 }

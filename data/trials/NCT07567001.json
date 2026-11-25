@@ -1144,8 +1144,8 @@
    "state": "Ontario",
    "country": "Canada",
    "status": "RECRUITING",
-   "lat": null,
-   "lon": null
+   "lat": 43.76156,
+   "lon": -79.41092
   },
   {
    "facility": "Halton Healthcare",
@@ -1167,12 +1167,12 @@
   },
   {
    "facility": "Corcare Cardiovascular Research",
-   "city": "Scarborough Village",
+   "city": "Scarborough",
    "state": "Ontario",
    "country": "Canada",
    "status": "NOT_YET_RECRUITING",
-   "lat": 43.73899,
-   "lon": -79.22124
+   "lat": 43.77211,
+   "lon": -79.25655
   },
   {
    "facility": "Diabetes Heart Research Centre",
@@ -7647,7 +7647,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT07567001",
- "content_hash": "7f81a23349dccaaa",
+ "content_hash": "fe7299ad8ee9600b",
  "collections": [
   "glp1-obesity"
  ],
@@ -7703,5 +7703,50 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "38db489c5a72cf60",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "Corcare Cardiovascular Research",
+     "city": "Scarborough",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 838,
+    "site_count_after": 838
+   },
+   "collections": [
+    "glp1-obesity"
+   ]
+  },
+  {
+   "change_id": "e5b9ecaf63f7f875",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "Corcare Cardiovascular Research",
+     "city": "Scarborough Village",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 838,
+    "site_count_after": 838
+   },
+   "collections": [
+    "glp1-obesity"
+   ]
+  }
+ ]
 }

@@ -843,8 +843,8 @@
    "state": "Ontario",
    "country": "Canada",
    "status": null,
-   "lat": null,
-   "lon": null
+   "lat": 43.76156,
+   "lon": -79.41092
   },
   {
    "facility": "Dr. James Cha",
@@ -875,12 +875,12 @@
   },
   {
    "facility": "HHI Research Inc.",
-   "city": "Scarborough Village",
+   "city": "Scarborough",
    "state": "Ontario",
    "country": "Canada",
    "status": null,
-   "lat": 43.73899,
-   "lon": -79.22124
+   "lat": 43.77211,
+   "lon": -79.25655
   },
   {
    "facility": "Manna Research Stoney Creek",
@@ -7598,7 +7598,7 @@
   }
  ],
  "registry_url": "https://clinicaltrials.gov/study/NCT03574597",
- "content_hash": "55a056b2153e5d93",
+ "content_hash": "cb54fea3cd6b11d8",
  "collections": [
   "glp1-obesity"
  ],
@@ -7702,5 +7702,50 @@
   "notes": []
  },
  "in_watchlist": true,
- "history": []
+ "history": [
+  {
+   "change_id": "4c7455e1b202c878",
+   "type": "site_added",
+   "field": "sites",
+   "old_value": null,
+   "new_value": [
+    {
+     "facility": "HHI Research Inc.",
+     "city": "Scarborough",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 833,
+    "site_count_after": 833
+   },
+   "collections": [
+    "glp1-obesity"
+   ]
+  },
+  {
+   "change_id": "1cbe214d8bf5de3f",
+   "type": "site_removed",
+   "field": "sites",
+   "old_value": [
+    {
+     "facility": "HHI Research Inc.",
+     "city": "Scarborough Village",
+     "state": "Ontario",
+     "country": "Canada"
+    }
+   ],
+   "new_value": null,
+   "detected_date": "2026-11-24",
+   "context": {
+    "site_count_before": 833,
+    "site_count_after": 833
+   },
+   "collections": [
+    "glp1-obesity"
+   ]
+  }
+ ]
 }
